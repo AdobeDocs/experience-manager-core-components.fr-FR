@@ -10,7 +10,7 @@ topic-tags: introduction
 products: SG_ EXPERIENCEMANAGER/CORECOMPONENTS-NEW
 discoiquuid: c 44 bb 0 d 7-5 d 91-4659-878 e-a 0658 fe 29 aa 2
 translation-type: tm+mt
-source-git-commit: 1bbec9b1f109df88964dce051a58d111bf6cafaa
+source-git-commit: 51842e5b6a9d4491bd4088d30c0d8c3a502e9644
 
 ---
 
@@ -116,11 +116,3 @@ Pour plus d&#39;informations sur la prise en charge des personnalisations des co
 Dans la mesure où les composants Foundation ont servi de base à une multitude de développement de projets sur de nombreuses versions, ils seront toujours pris en charge dans un futur prévisible.
 
 Toutefois, l&#39;accent mis sur le développement d&#39;Adobe a été déplacé vers les composants principaux et de nouvelles fonctionnalités lui seront ajoutées alors que seuls les correctifs seront corrigés aux composants Foundation.
-
-<!-- 
-Comment Type: annotation
-Last Modified By: pid90611
-Last Modified Date: 2018-03-27T09:06:05.428-0400
-
-Same comment as above, need to check with Gabriel if this needs some note about what will happen with the deprecated components after the next cycle.
--->
