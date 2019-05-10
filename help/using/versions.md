@@ -10,7 +10,7 @@ topic-tags: introduction
 products: SG_ EXPERIENCEMANAGER/CORECOMPONENTS-NEW
 discoiquuid: a 3 a 98 b 2 f -65 bf -4493-82 ad -01717938 fdbc
 translation-type: tm+mt
-source-git-commit: 1bbec9b1f109df88964dce051a58d111bf6cafaa
+source-git-commit: 51842e5b6a9d4491bd4088d30c0d8c3a502e9644
 
 ---
 
@@ -65,21 +65,21 @@ Le tableau suivant, dont le contenu est [disponible sur github avec les détails
 
 | Mise à jour | Description | AEM 6.3 | AEM 6.4 | AEM 6.5 | Java |
 |---|---|---|---|---|---|
-| [2.4.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.4.0) | Cette version a introduit le composant Liste de fragments de contenu | 6.3.3.0 | 6.4.2.0 | 6.5.0.0 | 1.8 |
-| [2.3.2](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.3.2) | Cette version concernait les améliorations apportées à la bibliothèque des composants, mais contient également quelques améliorations des fonctionnalités du composant Separator. | 6.3.3.0 | 6.4.2.0 | 6.5.0.0 | 1.8 |
-| [2.3.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.3.0) | Cette version se concentre sur la bibliothèque de composants et présente le nouveau composant Separator, mais contient également quelques améliorations des fonctionnalités du composant Image. | 6.3.3.0 | 6.4.2.0 | - | 1.8 |
-| [2.2.2](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.2.2) | Cette version concernait principalement les correctifs, mais contient également quelques améliorations des fonctionnalités du composant Carrousel. | 6.3.3.0 | 6.4.2.0 | - | 1.8 |
-| [2.2.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.2.0) | Composants Onglets et Carrousel introduits, améliorations apportées aux composants Image, Page et Titre et suivi amélioré | 6.3.3.0 | 6.4.2.0 | - | 1.8 |
-| [2.1.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.1.0) | Composant Teaser introduit, améliorations des composants d&#39;image et nombreux correctifs | 6.3.3.0 | 6.4.2.0 | 1.8 |
-| [2.0.8](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.0.8) | Version du correctif | 6.3.2.0 | 6.4.0.0 | - | 1.8 |
-| [2.0.6](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.0.6) | Améliorations supplémentaires, corrections de bogues et petites améliorations, notamment la prise en charge de la symétrie de l&#39;image. | 6.3.2.0 | 6.4.0.0 | - | 1.8 |
-| [2.0.4](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.0.4) | Améliorations principalement apportées à la persistance, à la résolution des bogues et à quelques améliorations mineures apportées aux composants Image, Page et Fragment de contenu | 6.3.2.0 | 6.4.0.0 | - | 1.8 |
-| [2.0.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.0.0) | Les composants Navigation, Navigation dans la langue et Recherche rapide ont été introduits. Système de style implémenté pour tous les composants. | 6.3.2.0 | 6.4.0.0 | - | 1.8 |
-| [1.1.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-1.1.0) | Mise en œuvre de l&#39;exportation JSON sur tous les composants, introduction au composant Fragment de contenu | 6.3.1.0 | 6.4.0.0 | 1.8 |
-| [1.0.6](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-1.0.6) | Plusieurs correctifs pour le composant Image | 6.3.0.0 | 6.4.0.0 | - | 1.8 |
-| [1.0.4](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-1.0.4) | Correctifs du composant de page, composant d&#39;image, divers correctifs globaux et améliorations | 6.3.0.0 | 6.4.0.0 | - | 1.8 |
-| [1.0.2](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.all-1.0.2) | Correctifs des images GIF animées dans le composant Image | 6.3.0.0 | 6.4.0.0 | - | 1.7 |
-| [1.0.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-1.0.0) | Version initiale des composants principaux | 6.3.0.0 | 6.4.0.0 | - | 1.7 |
+| [2.4.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.4.0) | Cette version a introduit le composant Liste de fragments de contenu | 6.3.3.0+ | 6.4.2.0+ | 6.5.0.0+ | 8, 11 |
+| [2.3.2](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.3.2) | Cette version concernait les améliorations apportées à la bibliothèque des composants, mais contient également quelques améliorations des fonctionnalités du composant Separator. | 6.3.3.0+ | 6.4.2.0+ | 6.5.0.0+ | 8 |
+| [2.3.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.3.0) | Cette version se concentre sur la bibliothèque de composants et présente le nouveau composant Separator, mais contient également quelques améliorations des fonctionnalités du composant Image. | 6.3.3.0+ | 6.4.2.0+ | - | 8 |
+| [2.2.2](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.2.2) | Cette version concernait principalement les correctifs, mais contient également quelques améliorations des fonctionnalités du composant Carrousel. | 6.3.3.0+ | 6.4.2.0+ | - | 8 |
+| [2.2.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.2.0) | Composants Onglets et Carrousel introduits, améliorations apportées aux composants Image, Page et Titre et suivi amélioré | 6.3.3.0+ | 6.4.2.0+ | - | 8 |
+| [2.1.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.1.0) | Composant Teaser introduit, améliorations des composants d&#39;image et nombreux correctifs | 6.3.3.0+ | 6.4.2.0+ | - | 8 |
+| [2.0.8](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.0.8) | Version du correctif | 6.3.2.0+ | 6.4.0.0+ | - | 8 |
+| [2.0.6](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.0.6) | Améliorations supplémentaires, corrections de bogues et petites améliorations, notamment la prise en charge de la symétrie de l&#39;image. | 6.3.2.0+ | 6.4.0.0+ | - | 8 |
+| [2.0.4](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.0.4) | Améliorations principalement apportées à la persistance, à la résolution des bogues et à quelques améliorations mineures apportées aux composants Image, Page et Fragment de contenu | 6.3.2.0+ | 6.4.0.0+ | - | 8 |
+| [2.0.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.0.0) | Les composants Navigation, Navigation dans la langue et Recherche rapide ont été introduits. Système de style implémenté pour tous les composants. | 6.3.2.0+ | 6.4.0.0+ | - | 8 |
+| [1.1.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-1.1.0) | Mise en œuvre de l&#39;exportation JSON sur tous les composants, introduction au composant Fragment de contenu | 6.3.1.0 | 6.4.0.0+ | - | 8 |
+| [1.0.6](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-1.0.6) | Plusieurs correctifs pour le composant Image | 6.3.0.0+ | 6.4.0.0+ | - | 8 |
+| [1.0.4](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-1.0.4) | Correctifs du composant de page, composant d&#39;image, divers correctifs globaux et améliorations | 6.3.0.0+ | 6.4.0.0+ | - | 8 |
+| [1.0.2](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.all-1.0.2) | Correctifs des images GIF animées dans le composant Image | 6.3.0.0+ | 6.4.0.0+ | - | 7 |
+| [1.0.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-1.0.0) | Version initiale des composants principaux | 6.3.0.0+ | 6.4.0.0+ | - | 7 |
 
 >[!NOTE]
 >
