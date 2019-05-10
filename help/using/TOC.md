@@ -4,7 +4,7 @@ product: composants principaux d'adobe Experience Manager
 archtype: Administrateur
 user-guide-title: Composants principaux AEM
 translation-type: tm+mt
-source-git-commit: 1bbec9b1f109df88964dce051a58d111bf6cafaa
+source-git-commit: 51842e5b6a9d4491bd4088d30c0d8c3a502e9644
 
 ---
 
@@ -55,6 +55,6 @@ source-git-commit: 1bbec9b1f109df88964dce051a58d111bf6cafaa
          + [Options de formulaire (v1)](form-options-v1.md)
 + Développement {#developing}
    + [Développement des composants principaux](developing.md)
-   + [WEEKEND Developer Tutorial](https://helpx.adobe.com/experience-manager/6-4/sites/developing/using/getting-started.html)
+   + [WEEKEND Developer Tutorial](https://helpx.adobe.com/experience-manager/6-5/sites/developing/using/getting-started.html)
    + [Personnalisation des composants principaux](customizing.md)
    + [Instructions relatives aux composants](guidelines.md)
