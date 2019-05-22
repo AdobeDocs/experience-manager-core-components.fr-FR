@@ -15,7 +15,7 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 1243d6cc1b0b015ee2f37ae89d0e2e42d366cc02
+source-git-commit: 632d6abb1f13667cc0457152268d50af3bfabfc4
 
 ---
 
@@ -135,13 +135,13 @@ Assurez-vous que vos composants proxy et bibliothèques client ont été déploy
 
 ## Autoriser les composants {#allow-the-components}
 
-Les étapes suivantes sont généralement effectuées dans l&#39;éditeur [](https://helpx.adobe.com/experience-manager/6-5/sites/authoring/using/templates.html)de modèles, pour les configurations existantes toutefois, en mode Conception :
+Les étapes suivantes sont effectuées dans l&#39;éditeur [de modèles](https://helpx.adobe.com/experience-manager/6-5/sites/authoring/using/templates.html).
 
-1. Dans l&#39;éditeur de modèles (ou le mode Création), sélectionnez le conteneur de dispositions (ou parsys), puis ouvrez sa stratégie (ou config de conception).
+1. Dans l&#39;éditeur de modèles, sélectionnez le conteneur de dispositions et ouvrez sa stratégie.
 1. Dans la liste des composants autorisés, sélectionnez les composants proxy créés précédemment, qui doivent s&#39;afficher sous le groupe de composants qui leur est affecté. Ensuite, appliquez les modifications.
 1. (Facultatif) Pour les composants qui ont une boîte de dialogue de conception, ils peuvent être préconfigurés.
 
-Ainsi, dans les pages créées à partir du modèle modifié, vous devez maintenant pouvoir utiliser les composants nouvellement créés.
+Voilà ! Dans les pages créées à partir du modèle modifié, vous devez maintenant pouvoir utiliser les composants nouvellement créés.
 
 **À lire aussi :**
 
