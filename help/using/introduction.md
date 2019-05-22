@@ -10,7 +10,7 @@ topic-tags: introduction
 products: SG_ EXPERIENCEMANAGER/CORECOMPONENTS-NEW
 discoiquuid: c 44 bb 0 d 7-5 d 91-4659-878 e-a 0658 fe 29 aa 2
 translation-type: tm+mt
-source-git-commit: dde716ccb64c4c444ec0f6ad432fd1ea8d5fd9f2
+source-git-commit: 632d6abb1f13667cc0457152268d50af3bfabfc4
 
 ---
 
@@ -94,7 +94,7 @@ Pour une présentation des composants principaux, des fonctionnalités qu&#39;il
 
 ## WEEKEND Developer Tutorial {#wknd-developer-tutorial}
 
-[Commencez à développer des sites AEM avec des composants principaux en suivant cette étape : Didacticiel d&#39;étape - Par étape.](https://helpx.adobe.com/experience-manager/6-5/sites/developing/using/getting-started.html)
+Commencez à développer des sites AEM avec des composants principaux en suivant [cette étape : Didacticiel d&#39;étape - Par étape.](https://helpx.adobe.com/experience-manager/6-5/sites/developing/using/getting-started.html)
 
 ## Prise en charge des composants principaux {#core-components-support}
 
@@ -115,4 +115,4 @@ Pour plus d&#39;informations sur la prise en charge des personnalisations des co
 
 Dans la mesure où les composants Foundation ont servi de base à une multitude de développement de projets sur de nombreuses versions, ils seront toujours pris en charge dans un futur prévisible.
 
-Toutefois, l&#39;accent mis sur le développement d&#39;Adobe a été déplacé vers les composants principaux et de nouvelles fonctionnalités lui seront ajoutées alors que seuls les correctifs seront corrigés aux composants Foundation.
+Toutefois, l&#39;accent mis sur le développement d&#39;Adobe a été déplacé vers les composants principaux et les nouvelles fonctionnalités lui seront ajoutées, alors que [la plupart des composants Foundation ont été abandonnés avec AEM 6.5](https://helpx.adobe.com/experience-manager/6-5/sites/authoring/using/default-components-foundation.html) et seuls les correctifs sont apportés aux composants Foundation.
