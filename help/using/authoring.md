@@ -8,7 +8,7 @@ content-type: référence
 topic-tags: création
 discoiquuid: 8751 e 490-d 427-44 f 2-b 767-51935 afda 988
 translation-type: tm+mt
-source-git-commit: 600aefa49d6247c290b8fb9f6acf5548126b3f61
+source-git-commit: 632d6abb1f13667cc0457152268d50af3bfabfc4
 
 ---
 
@@ -19,25 +19,25 @@ Dans Adobe Experience Manager, les composants sont des éléments structurels 
 
 Les composants principaux offrent une fonctionnalité de création flexible et riche en fonctionnalités. Le [site de référence We. Retail](https://helpx.adobe.com/experience-manager/6-5/sites/developing/using/we-retail.html) illustre comment les composants principaux peuvent être utilisés.
 
+Pour tester les composants principaux et consulter des exemples d&#39;options de configuration, ainsi que des sorties HTML et JSON, consultez la [bibliothèque de composants](http://opensource.adobe.com/aem-core-wcm-components/library/content-fragment.html).
+
 >[!NOTE]
 >
->Les composants principaux ne sont pas immédiatement disponibles pour les auteurs, l&#39;équipe [de développement doit d&#39;abord les intégrer à votre environnement](using.md). Une fois intégré, elles peuvent être rendues disponibles et préconfigurées via l&#39;éditeur [de modèles](https://helpx.adobe.com/experience-manager/6-5/sites/authoring/using/templates.html) ou en mode [de conception](https://helpx.adobe.com/experience-manager/6-5/sites/authoring/using/default-components-designmode.html).
+>Les composants principaux ne sont pas immédiatement disponibles pour les auteurs, l&#39;équipe [de développement doit d&#39;abord les intégrer à votre environnement](using.md). Une fois intégré, ils peuvent être rendus disponibles et préconfigurés via l&#39;éditeur [de modèles](https://helpx.adobe.com/experience-manager/6-5/sites/authoring/using/templates.html).
 
 >[!CAUTION]
 >
->Les composants principaux [requièrent AEM 6.3 ou une version ultérieure](versions.md) et ne fonctionnent pas avec l&#39;interface utilisateur classique.
+>Les composants principaux [requièrent AEM 6.3 ou une version ultérieure](versions.md) et requièrent l&#39;utilisation de modèles [modifiables](https://helpx.adobe.com/experience-manager/6-5/sites/authoring/using/templates.html). Elles ne fonctionnent pas avec l&#39;interface utilisateur classique ni avec les modèles statiques.
 
 ## Création à l’aide des composants principaux {#authoring-with-core-components}
-
-Pour comprendre les composants principaux, consultez la [bibliothèque de composants](http://opensource.adobe.com/aem-core-wcm-components/library.html)qui présente les composants principaux et fournit des exemples d&#39;utilisation.
 
 En tant qu&#39;auteur, vous remarquerez plusieurs avantages des composants principaux, notamment :
 
 * Simple d&#39;utilisation et bien intégré à l&#39;éditeur [de page](https://helpx.adobe.com/experience-manager/6-5/sites/authoring/using/editing-content.html)
-* Fonctionnalités riches en fonctionnalités pour répondre à de nombreux cas d&#39;utilisation comme [illustré dans We. Retail](https://helpx.adobe.com/experience-manager/6-5/sites/developing/using/we-retail.html)
-* [Préconfigurable](#pre-configuring-core-components) pour définir les fonctions disponibles pour les auteurs de pages
-   * Via l&#39;éditeur [de modèles](https://helpx.adobe.com/experience-manager/6-5/sites/authoring/using/templates.html) pour [les modèles modifiables](https://helpx.adobe.com/experience-manager/6-5/sites/developing/using/page-templates-editable.html)
-   * Via [le mode de création](https://helpx.adobe.com/experience-manager/6-5/sites/authoring/using/default-components-designmode.html) pour [les modèles statiques](https://helpx.adobe.com/experience-manager/6-5/sites/developing/using/page-templates-static.html)
+
+* Fonctionnalités riches en fonctionnalités pour répondre à de nombreux cas d&#39;utilisation [comme illustré dans We. Retail](https://helpx.adobe.com/experience-manager/6-5/sites/developing/using/we-retail.html) ainsi que dans la bibliothèque [de composants](http://opensource.adobe.com/aem-core-wcm-components/library/content-fragment.html)
+
+* [Préconfigurable](#pre-configuring-core-components) pour définir les fonctions disponibles pour les auteurs de pages via l&#39;éditeur [de modèles](https://helpx.adobe.com/experience-manager/6-5/sites/authoring/using/templates.html)
 
 * Création autour [des directives d&#39;accessibilité](https://helpx.adobe.com/experience-manager/6-5/managing/using/web-accessibility.html)
 
@@ -55,7 +55,7 @@ Les composants sont regroupés selon des catégories appelées groupes de compos
 
 ## Préconfiguration des composants principaux {#pre-configuring-core-components}
 
-La configuration des composants Foundation a été la tâche d&#39;un développeur. Toutefois, avec les composants principaux, un auteur de modèles peut maintenant configurer plusieurs fonctionnalités via l&#39;éditeur de modèles ou en mode de conception.
+La configuration des composants Foundation a été la tâche d&#39;un développeur. Toutefois, avec les composants principaux, un auteur de modèles peut maintenant configurer plusieurs fonctionnalités via l&#39;éditeur de modèles.
 
 Par exemple, si un composant d&#39;image ne doit pas autoriser le chargement d&#39;images à partir du système de fichiers ou si un composant de texte doit autoriser uniquement la mise en forme des paragraphes, ces fonctions peuvent être activées ou désactivées en un simple clic.
 
