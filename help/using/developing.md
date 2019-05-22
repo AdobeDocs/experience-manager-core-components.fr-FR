@@ -10,7 +10,7 @@ topic-tags: développement
 products: SG_ EXPERIENCEMANAGER/CORECOMPONENTS-NEW
 discoiquuid: 157 a 2 ec 3-9 fca -4 fad -977 a-d 93013 eeb 218
 translation-type: tm+mt
-source-git-commit: 600aefa49d6247c290b8fb9f6acf5548126b3f61
+source-git-commit: 632d6abb1f13667cc0457152268d50af3bfabfc4
 
 ---
 
@@ -45,9 +45,9 @@ Les composants principaux fournissent des composants de base robustes et extensi
 
 >[!CAUTION]
 >
->Les composants principaux requièrent AEM 6.3 ou une version ultérieure et Java 8.
+>Les composants principaux requièrent AEM 6.3 ou une version ultérieure et Java 8 et requièrent l&#39;utilisation de modèles [modifiables.](https://helpx.adobe.com/experience-manager/6-5/sites/authoring/using/templates.html)
 >
->Les principaux composants ne fonctionnent pas dans l’IU classique.
+>Les composants principaux ne fonctionnent pas avec l&#39;interface utilisateur classique ni avec les modèles statiques.
 
 ## Présentation de la session Gems {#gems-session-overview}
 
@@ -57,7 +57,7 @@ Pour une présentation des composants principaux, des fonctionnalités qu&#39;il
 
 ## WEEKEND Developer Tutorial {#wknd-developer-tutorial}
 
-[Commencez à développer des sites AEM avec des composants principaux en suivant cette étape : Didacticiel d&#39;étape - Par étape.](https://helpx.adobe.com/experience-manager/6-5/sites/developing/using/getting-started.html)
+Commencez à développer des sites AEM avec des composants principaux en suivant [ce didacticiel détaillé.](https://helpx.adobe.com/experience-manager/6-5/sites/developing/using/getting-started.html)
 
 ## Diffusé sur github {#delivered-over-github}
 
@@ -172,7 +172,22 @@ personnalisés** Vous pouvez évaluer si un composant [principal existant peut �
 personnalisés existants** Si vos composants fonctionnent comme prévu, conservez-les comme ils le sont.\
    Dans le cas contraire, reportez-vous à la section « Nouveaux composants personnalisés » ci-dessus.
 
-### Prise en charge des composants principaux {#core-component-support}
+## Migration vers les composants principaux
+
+Tout nouveau projet doit être implémenté avec les composants principaux. Toutefois, les projets existants disposent généralement de mises en œuvre étendues des composants Foundation.
+
+Un effort plus important d&#39;un projet existant (par exemple une recomposition ou une restructuration globale) offre souvent une chance de migrer vers les composants principaux. Pour faciliter cette migration, Adobe fournit un certain nombre d&#39;outils de migration pour encourager l&#39;adoption des composants principaux et la dernière technologie AEM.
+
+[La suite](https://github.com/adobe/aem-modernize-tools) d&#39;outils modernisée d&#39;AEM permet de convertir facilement les éléments suivants :
+
+* Modèles statiques à des modèles modifiables
+* Configuration des configurations dans les stratégies
+* Composants Foundation aux composants principaux
+* Interface utilisateur classique vers l&#39;interface utilisateur tactile
+
+Pour plus d&#39;informations sur l&#39;utilisation de ces outils, [consultez leur documentation](https://www.adobe.com/go/aem_modernize_tools_en).
+
+## Prise en charge des composants principaux {#core-component-support}
 
 Les composants principaux font partie intégrante d&#39;AEM et pris en charge en l&#39;état, selon les mêmes conditions et conditions que si elles étaient fournies dans le cadre de Quickstart.
 
@@ -182,11 +197,11 @@ La version de chaque composant indique clairement les versions AEM prises en cha
 
 Pour plus d&#39;informations sur la prise en charge des personnalisations des composants, voir la page [Personnalisation des composants](customizing.md) principaux.
 
-### Prise en charge des composants Foundation {#foundation-component-support}
+## Prise en charge des composants Foundation {#foundation-component-support}
 
-Dans la mesure où les composants fondateurs ont servi de base à une multitude de développement de projets sur de nombreuses versions, ils seront toujours pris en charge dans un futur prévisible.
+Dans la mesure où les composants fondateurs ont servi de base à une multitude de développement de projets sur de nombreuses versions d&#39;AEM, ils seront toujours pris en charge dans un futur prévisible.
 
-Toutefois, l&#39;accent mis sur le développement d&#39;Adobe a été déplacé vers les composants principaux et les nouvelles fonctionnalités lui seront ajoutées alors que seuls les correctifs seront corrigés aux composants fondateurs.
+Toutefois, l&#39;accent mis sur le développement d&#39;Adobe a été déplacé vers les composants principaux et les nouvelles fonctionnalités lui seront ajoutées, alors que [la plupart des composants Foundation ont été abandonnés avec AEM 6.5](https://helpx.adobe.com/experience-manager/6-5/sites/authoring/using/default-components-foundation.html) et seuls les correctifs sont apportés aux composants Foundation.
 
 **À lire aussi :**
 
