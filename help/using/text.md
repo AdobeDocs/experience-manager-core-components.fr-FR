@@ -1,73 +1,65 @@
 ---
 title: Composant textuel
 seo-title: Composant textuel
-description: Le composant Text Component est un composant de modification et de composition de texte enrichi qui permet d'effectuer des modifications en place.
-seo-description: Le composant Text Component est un composant de modification et de composition de texte enrichi qui permet d'effectuer des modifications en place.
-uuid: 5 f 8 eee 8 f -7317-4712-a 77 f-e 34 e 8 a 024187
+description: Le composant Texte est un composant d’édition et de composition de texte enrichi qui propose une édition statique.
+seo-description: Le composant Texte est un composant d’édition et de composition de texte enrichi qui propose une édition statique.
+uuid: 5f8eee8f-7317-4712-a77f-e34e8a024187
 contentOwner: Utilisateur
 content-type: référence
 topic-tags: core-components
-discoiquuid: 9 a 290584-565 e -4392-999 c -999 ee 4 a 93 da 1
+discoiquuid: 9a290584-565e-4392-999c-999ee4a93da1
 translation-type: tm+mt
-source-git-commit: 1243d6cc1b0b015ee2f37ae89d0e2e42d366cc02
+source-git-commit: eef608fb06001485aa2c2c0b574af412ed7f15a4
 
 ---
 
 
 # Composant textuel{#text-component}
 
-Component Component Text Component est un composant de modification et de composition de texte enrichi qui permet d&#39;effectuer des modifications en place.
+Le composant Texte des composants principaux est un composant d’édition et de composition de texte enrichi qui propose une édition statique.
 
 ## Utilisation {#usage}
 
-Le composant Texte propose un puissant éditeur de texte enrichi qui permet d&#39;apporter facilement des modifications de texte dans un éditeur en ligne simplifié, ainsi qu&#39;un format plein écran.
+Le composant Texte propose un puissant éditeur de texte enrichi qui permet d’apporter facilement des modifications de texte dans un éditeur en ligne simplifié, ainsi qu’un format plein écran.
 
-La boîte de dialogue [Modifier la boîte de dialogue](#edit-dialog) permet de modifier en ligne les options limitées avec des fonctionnalités complètes disponibles dans la boîte de dialogue de modification en plein écran. A l&#39;aide de [la boîte de dialogue de conception](#design-dialog), les options de formatage de texte telles que les en-têtes, les caractères spéciaux et les styles de paragraphe peuvent être configurées pour le modèle de l&#39;auteur du contenu.
+La [boîte de dialogue Modifier](#edit-dialog) permet de modifier en ligne les options limitées avec des fonctionnalités complètes disponibles dans la boîte de dialogue Modifier en plein écran. A l’aide de la [boîte de dialogue Conception](#design-dialog), les options de formatage de texte telles que les en-têtes, les caractères spéciaux et les styles de paragraphe peuvent être configurées pour le modèle de l’auteur du contenu.
 
 ## Version et compatibilité {#version-and-compatibility}
 
-La version actuelle du composant de texte est v 2, qui a été introduite avec la version 2.0.0 des composants principaux en janvier 2018 et est décrite dans ce document.
+La version actuelle du composant de texte est v2, qui a été introduite avec la version 2.0.0 des composants principaux en janvier 2018 et est décrite dans ce document.
 
 Le tableau suivant détaille toutes les versions prises en charge du composant, les versions AEM avec lesquelles les versions du composant sont compatibles et les liens vers la documentation pour les versions précédentes.
 
-| Version du composant | AEM 6.3 | AEM 6.4 | AEM 6.5 |
+| Composant Version | AEM 6.3 | AEM 6.4 | AEM 6.5 |
 |---|---|---|---|
 | v2 | Compatible | Compatible | Compatible |
 | [v1](text-v1.md) | Compatible | Compatible | Compatible |
 
-Pour plus d&#39;informations sur les versions et les versions des composants principaux, consultez les versions des composants de Document [principaux](versions.md).
+Pour plus d’informations sur les versions et les mises à jour des composants principaux, consultez le document sur les [versions des composants principaux](versions.md).
 
 ## Exemple de sortie de composant {#sample-component-output}
 
-Voici un exemple tiré de [We. Retail](https://helpx.adobe.com/experience-manager/6-5/sites/developing/using/we-retail.html).
-
-### Capture d’écran {#screenshot}
-
-![](assets/chlimage_1-27.png)
-
-### Bibliothèque de composants
-
-Pour tester le composant de texte ainsi que les exemples d&#39;options de configuration, ainsi que la sortie HTML et JSON, consultez la [bibliothèque Composant](http://opensource.adobe.com/aem-core-wcm-components/library/text.html).
+Pour tester le composant de texte, des exemples d’options de configuration, ainsi que des sorties HTML et JSON, consultez la [Bibliothèque de  composants](http://opensource.adobe.com/aem-core-wcm-components/library/text.html).
 
 ### Détails techniques {#technical-details}
 
-Vous trouverez la documentation technique la plus récente sur le composant [de texte sur github](https://github.com/adobe/aem-core-wcm-components/blob/master/content/src/content/jcr_root/apps/core/wcm/components/text/v2/text).
+The latest technical documentation about the Text Component [can be found on GitHub](https://github.com/adobe/aem-core-wcm-components/blob/master/content/src/content/jcr_root/apps/core/wcm/components/text/v2/text).
 
-Vous trouverez plus d&#39;informations sur le développement des composants principaux dans la documentation destinée aux développeurs de composants [principaux](developing.md).
+Vous trouverez plus d’informations sur le développement des composants principaux dans la [documentation destinée aux développeurs de composants principaux](developing.md).
 
-## Composant de texte et Éditeur de texte enrichi {#the-text-component-and-the-rich-text-editor}
+## Composant Texte et Éditeur de texte enrichi {#the-text-component-and-the-rich-text-editor}
 
-Le composant de texte des composants principaux tire parti de l&#39;éditeur de texte enrichi AEM (AEM). RTE fournit aux auteurs de contenu une grande variété de fonctionnalités pour modifier leur contenu texte. RTE est très flexible dans sa configuration et offre plusieurs options. Pour plus d&#39;informations sur la configuration de RTE, reportez-vous aux articles [Configuration de l&#39;éditeur de texte enrichi](https://helpx.adobe.com/experience-manager/6-5/sites/administering/using/rich-text-editor.html) et [Configuration des modules externes Éditeur de texte enrichi](https://helpx.adobe.com/experience-manager/6-5/sites/administering/using/configure-rich-text-editor-plug-ins.html).
+Le composant principal Texte tire parti de l’éditeur de texte enrichi AEM (RTE). L’éditeur de texte enrichi met à la disposition des auteurs de nombreuses fonctionnalités pour modifier leur contenu textuel. L’éditeur de texte enrichi est très flexible dans sa configuration et offre plusieurs options. Further details about how the RTE can be configured can be found in the articles [Configure the Rich Text Editor](https://helpx.adobe.com/experience-manager/6-5/sites/administering/using/rich-text-editor.html) and [Configure the Rich Text Editor plug-ins](https://helpx.adobe.com/experience-manager/6-5/sites/administering/using/configure-rich-text-editor-plug-ins.html).
 
-Le reste de cet article illustre la configuration standard du composant de texte des composants principaux avec la configuration RTE prête à l&#39;emploi.
+Le reste de cet article illustre la configuration standard du composant principal Texte avec la configuration prête à l’emploi de l’éditeur de texte enrichi.
 
 >[!NOTE]
 >
->Seules les options activées par [les configurations de l&#39;interface utilisateur de RTE](https://chl-author-preview.corp.adobe.com/content/help/en/experience-manager/6-5/sites/administering/using/rich-text-editor.html) sont disponibles dans le composant de texte.
+>Only options enabled by [UI configurations of the RTE](https://chl-author-preview.corp.adobe.com/content/help/en/experience-manager/6-5/sites/administering/using/rich-text-editor.html) are available by in the Text Component.
 
-## Modifier le dialogue {#edit-dialog}
+## Boîte de dialogue Modifier {#edit-dialog}
 
-La boîte de dialogue Modifier propose les outils standard de formatage de texte enrichi qu&#39;un utilisateur devrait utiliser pour composer du texte.
+La boîte de dialogue Modifier propose les outils standard de formatage de texte enrichi qu’un utilisateur devrait utiliser pour composer du texte.
 
 ![](assets/screen_shot_2018-01-11at143025.png)
 
@@ -85,7 +77,7 @@ Utilisé pour appliquer une mise en forme gras au texte sélectionné ou au text
 
 Utilisé pour appliquer une mise en forme en italique au texte sélectionné ou mettre en italique le texte saisi après le curseur.
 
-**Ctrl + Je** peut être utilisé comme raccourci clavier.
+**Ctrl + I** peut être utilisé comme raccourci clavier.
 
 ### Souligné
 
@@ -113,7 +105,7 @@ Utilisé pour mettre en forme le texte ou le texte sélectionné après le curse
 
 Colle le texte copié en tant que texte brut sans mise en forme.
 
-Lorsque vous sélectionnez cette option, une fenêtre s&#39;ouvre lorsque le texte peut être collé en texte brut sans mise en forme pour être inséré dans le texte. Acceptez en appuyant ou en cliquant sur la coche, annulez en appuyant ou en cliquant sur le x.
+Lorsque vous sélectionnez cette option, une fenêtre s’ouvre où le texte peut être collé en tant que texte brut sans formatage en tant qu’aperçu avant d’être inséré dans le texte. Acceptez en appuyant ou en cliquant sur la coche, annulez en appuyant ou en cliquant sur le x.
 
 ![](assets/screen_shot_2018-01-11at143234.png)
 
@@ -121,7 +113,7 @@ Lorsque vous sélectionnez cette option, une fenêtre s&#39;ouvre lorsque le tex
 
 ![](assets/screen_shot_2018-01-11at125717.png)
 
-Lorsque vous sélectionnez cette option, une fenêtre s&#39;ouvre lorsque vous pouvez coller le texte en conservant sa mise en forme comme prévisualisation avant sa insertion dans le texte. Acceptez en appuyant ou en cliquant sur la coche, annulez en appuyant ou en cliquant sur le x.
+Lorsque vous sélectionnez cette option, une fenêtre s’ouvre où le texte peut être collé, en conservant sa mise en forme en tant qu’aperçu avant de l’insérer dans le texte. Acceptez en appuyant ou en cliquant sur la coche, annulez en appuyant ou en cliquant sur le x.
 
 ![](assets/screen_shot_2018-01-11at143250.png)
 
@@ -133,9 +125,9 @@ Utilisez cette option pour convertir le texte sélectionné en hyperlien ou modi
 
 ![](assets/screen_shot_2018-01-11at130003.png)
 
-* Saisissez l&#39;emplacement
+* Saisissez l’emplacement.
    * Utilisation de la boîte de dialogue Ouvrir la sélection pour choisir un chemin dans AEM
-   * Si le lien ne figure pas dans AEM, saisissez l&#39;URL absolue (les chemins non absolus sont interprétés comme relatifs par rapport à AEM)
+   * Si le lien ne figure pas dans AEM, saisissez l’URL absolue (les chemins non absolus sont interprétés comme relatifs par rapport à AEM).
 * Saisissez un autre texte descriptif pour le lien.
 * Sélectionner le comportement des liens
    * Cible
@@ -143,29 +135,29 @@ Utilisez cette option pour convertir le texte sélectionné en hyperlien ou modi
    * Nouvel onglet
    * Cadre parent
    * Cadre supérieur
-   Appuyez ou cliquez sur la coche pour appliquer le lien ou le x à annuler.
+   Appuyez ou cliquez sur la coche pour appliquer le lien ou sur le x pour annuler.
 
 ### Dissocier
 
 ![](assets/screen_shot_2018-01-11at125901.png)
 
-Utilisez cette option pour supprimer un lien déjà appliqué au texte sélectionné. Cette option est uniquement active lorsqu&#39;un lien est déjà sélectionné.
+Utilisez cette option pour supprimer un lien déjà appliqué au texte sélectionné. Cette option est uniquement active lorsqu’un lien est déjà sélectionné.
 
-### Recherche
+### Rechercher
 
 ![](assets/screen_shot_2018-01-11at125906.png)
 
-Utilisez cette option pour rechercher le texte d&#39;occurrence d&#39;une chaîne de texte spécifiée. Cette option permet d&#39;ouvrir une fenêtre pour définir les options de recherche.
+Utilisez cette option pour rechercher le texte d’occurrence d’une chaîne de texte spécifiée. Cette option permet d’ouvrir une fenêtre pour définir les options de recherche.
 
 ![](assets/screen_shot_2018-01-11at130107.png)
 
 Entrez le texte pour lequel vous souhaitez effectuer des recherches et appuyez ou cliquez sur **Rechercher** pour lancer la recherche. Appuyez ou cliquez sur le x pour annuler.
-Si vous souhaitez effectuer une correspondance exacte, sélectionnez l&#39;option **Correspondance avec la casse** avant de lancer la recherche.
-Si une correspondance est trouvée, elle est mise en surbrillance et le dialogue de recherche est grisé. Appuyez ou cliquez à nouveau sur le **bouton Rechercher** dans le dialogue grisé pour rechercher l&#39;occurrence suivante.
+Si vous souhaitez effectuer une correspondance exacte, sélectionnez l’option **Correspondance avec la casse** avant de lancer la recherche.
+Si une correspondance est trouvée, elle est mise en surbrillance et le dialogue de recherche est grisé. Appuyez ou cliquez à nouveau sur le bouton **Rechercher** dans la boîte de dialogue grisée pour rechercher l’occurrence suivante.
 
 ![](assets/screen_shot_2018-01-11at130145.png)
 
-Si aucune occurrence supplémentaire n&#39;est trouvée, un message s&#39;affiche et la recherche redémarre à partir du début du texte.
+Si aucune occurrence supplémentaire n’est trouvée, un message s’affiche et la recherche redémarre à partir du début du texte.
 
 ![](assets/screen_shot_2018-01-11at130241.png)
 
@@ -173,17 +165,17 @@ Si aucune occurrence supplémentaire n&#39;est trouvée, un message s&#39;affich
 
 ![](assets/screen_shot_2018-01-11at125910.png)
 
-Utilisez cette option pour rechercher dans le texte des occurrences d&#39;une chaîne de texte spécifiée et remplacer les correspondances par une autre chaîne. Cette option ouvre une fenêtre permettant de spécifier les options de recherche et de remplacement.
+Utilisez cette option pour rechercher dans le texte des occurrences d’une chaîne de texte spécifiée et remplacer les correspondances par une autre chaîne. Cette option ouvre une fenêtre permettant de spécifier les options de recherche et de remplacement.
 
 ![](assets/screen_shot_2018-01-11at130441.png)
 
-Entrez le texte à rechercher ainsi que le texte à remplacer.
+Entrez le texte à rechercher ainsi que le texte avec lequel le remplacer.
 
-Appuyez ou cliquez **sur Rechercher** pour lancer la recherche. Cliquez ou appuyez sur le x pour annuler.
+Appuyez ou cliquez sur **Rechercher** pour lancer la recherche. Cliquez ou appuyez sur le x pour annuler.
 
-Si vous souhaitez effectuer une correspondance exacte, sélectionnez l&#39;option **Correspondance avec la casse** avant de lancer la recherche.
+Si vous souhaitez effectuer une correspondance exacte, sélectionnez l’option **Correspondance avec la casse** avant de lancer la recherche.
 
-Si une correspondance est trouvée, elle est mise en surbrillance et le dialogue de recherche est grisé. Cliquez à nouveau sur le **bouton Rechercher** dans le dialogue grisé pour rechercher l&#39;occurrence suivante ou sélectionner le bouton **Remplacer** pour remplacer le texte mis en surbrillance. Notez que le bouton **Remplacer** n&#39;est actif qu&#39;une fois qu&#39;une correspondance est trouvée.
+Si une correspondance est trouvée, elle est mise en surbrillance et le dialogue de recherche est grisé. Cliquez à nouveau sur le bouton **Rechercher** dans la boîte de dialogue grisée pour rechercher l’occurrence suivante ou sélectionnez le bouton **Remplacer** pour remplacer le texte mis en surbrillance. Notez que le bouton **Remplacer** n’est actif qu’une fois qu’une correspondance est trouvée.
 
 Sélectionnez **Remplacer tout** pour remplacer toutes les occurrences du texte à la fois.
 
@@ -209,23 +201,23 @@ Utilisé pour aligner le texte sur la marge droite.
 
 ![](assets/screen_shot_2018-01-11at142025.png)
 
-Utilisé pour formater le texte sélectionné sous forme d&#39;une liste à puces ou commencer l&#39;insertion d&#39;une liste à puces après le curseur.
+Utilisé pour formater le texte sélectionné sous forme d’une liste à puces ou commencer l’insertion d’une liste à puces après le curseur.
 
-Pour mettre fin à une liste à puces, appuyez ou cliquez de nouveau sur le **bouton Puces** ou saisissez deux retours chariot.
+Pour mettre fin à une liste à puces, appuyez ou cliquez de nouveau sur le bouton **Puces** ou saisissez deux retours chariot.
 
 ### Numérotée
 
 ![](assets/screen_shot_2018-01-11at142030.png)
 
-Utilisé pour mettre en forme le texte sélectionné sous forme de liste numérotée ou commencer l&#39;insertion d&#39;une liste numérotée après le curseur.
+Utilisé pour mettre en forme le texte sélectionné sous forme de liste numérotée ou commencer l’insertion d&#39;une liste numérotée après le curseur.
 
-Pour mettre fin à une liste numérotée, appuyez ou cliquez de nouveau sur le **bouton Numéroté** ou saisissez deux retours chariot.
+Pour mettre fin à une liste numérotée, appuyez ou cliquez de nouveau sur le bouton **Numérotée** ou saisissez deux retours chariot.
 
 ### Retrait négatif
 
 ![](assets/screen_shot_2018-01-11at141917.png)
 
-Utilisé pour diminuer le niveau de retrait du texte ou du texte sélectionné après le curseur.
+Utilisé pour diminuer le niveau de retrait du texte sélectionné ou du texte entré après le curseur.
 
 Uniquement actif si le texte ou la position sélectionné du curseur est déjà mis en retrait.
 
@@ -239,39 +231,39 @@ Utilisé pour augmenter le niveau de retrait du texte ou du texte sélectionné 
 
 ![](assets/screen_shot_2018-01-11at141928.png)
 
-Utilisé pour insérer un tableau dans le texte. Cette option permet d&#39;ouvrir une fenêtre pour indiquer les détails du tableau.
+Utilisé pour insérer un tableau dans le texte. Cette option permet d’ouvrir une fenêtre pour indiquer les détails du tableau.
 
 ![](assets/screen_shot_2018-01-11at142405.png)
 
 * **Colonnes**
-Le nombre de colonnes du tableau (obligatoire)
+Le nombre de colonnes du tableau (obligatoire).
 * **Lignes**
-Le nombre de rangées du tableau (obligatoire)
-* **Largeur Largeur**
-du tableau
-* **Hauteur Hauteur**
-du tableau
-* **Marge intérieure**
-de la cellule Espace autour du contenu de la cellule
-* **Espacement**
-des cellules Espacement entre les cellules
+Le nombre de lignes du tableau (obligatoire).
+* **Largeur**
+Largeur totale du tableau.
+* **Hauteur**
+Hauteur totale du tableau.
+* **Marge intérieure de la cellule**
+Espace autour du contenu de la cellule.
+* **Espacement des cellules**
+Espacement entre les cellules.
 * **Bordure**
-L&#39;épaisseur des lignes de bordure du tableau
-* If for the header of the table :
+L’épaisseur des lignes de bordure du tableau.
+* Si pour l’en-tête du tableau :
    * La première ligne doit être utilisée
    * La première colonne doit être utilisée
    * La première ligne et la première colonne doivent être utilisées
    * Ou aucun en-tête ne doit être utilisé.
 * **Légende**
-La légende du tableau
+La légende du tableau.
 
 ### Vérifier l’orthographe
 
 ![](assets/screen_shot_2018-01-11at141935.png)
 
-permet de vérifier l&#39;orthographe du contenu du texte. Les fautes de frappe possibles sont soulignées avec des lignes rouges rompues.
+Permet de vérifier l’orthographe du contenu du texte. Les fautes de frappe possibles sont soulignées avec des lignes rouges rompues.
 
-Vous trouverez plus d&#39;informations sur la vérification orthographique et la personnalisation des dictionnaires orthographiques dans le document [Configuration des modules](https://helpx.adobe.com/experience-manager/6-5/sites/administering/using/configure-rich-text-editor-plug-ins.html)enrichis de l&#39;éditeur de texte enrichi.
+Further details about spell checking and customizing spell check dictionaries can be found in the document [Configure the Rich Text Editor Plug-Ins](https://helpx.adobe.com/experience-manager/6-5/sites/administering/using/configure-rich-text-editor-plug-ins.html).
 
 ### Caractères spéciaux {#special-characters}
 
@@ -281,7 +273,7 @@ Utilisé pour insérer des caractères spéciaux dans le texte. Cette option ouv
 
 ![](assets/screen_shot_2018-01-11at142635.png)
 
-Appuyez ou cliquez sur le caractère souhaité pour l&#39;insérer dans le texte après le curseur. Plusieurs caractères peuvent être insérés. Appuyez ou cliquez sur le x pour fermer la fenêtre de sélection.
+Appuyez ou cliquez sur le caractère souhaité pour l’insérer dans le texte après le curseur. Plusieurs caractères peuvent être insérés. Appuyez ou cliquez sur le x pour fermer la fenêtre de sélection.
 
 ### Modification de la source
 
@@ -289,17 +281,17 @@ Appuyez ou cliquez sur le caractère souhaité pour l&#39;insérer dans le texte
 
 Utilisé pour afficher et modifier la source HTML du texte.
 
-Appuyez ou cliquez sur l&#39;icône **Modifier la** source pour modifier le contenu du texte à partir de la vue formatée pour afficher le code HTML brut. Dans ce mode, toutes les autres options de formatage sont désactivées. Appuyez ou cliquez de nouveau sur l&#39; **icône Modifier** la source pour revenir à la vue formatée.
+Appuyez ou cliquez sur l’icône **Modifier la source** pour modifier le contenu du texte à partir de la vue formatée pour afficher le code HTML brut. Dans ce mode, toutes les autres options de formatage sont désactivées. Appuyez ou cliquez de nouveau sur l’icône **Modifier la source** pour revenir à la vue formatée.
 
 >[!CAUTION]
 >
->Comme toujours le cas avec l&#39;accès au code HTML brut, vous devez veiller à utiliser l&#39;option **Source Edit** !
+>Comme toujours avec l’accès au HTML brut, il faut être prudent lorsqu’on utilise l’option **Modifier la source** !
 >
->Le code HTML saisi via **la fonctionnalité Source Edit** est analysé pour les risques XSS et tous les scripts insérés sont supprimés et ne s&#39;affichent pas sur la page produite. Cependant, le code HTML mal formé saisi dans **la modification** source peut rompre le modèle de la page, ce qui entraîne une mise en forme inattendue ou un rendu inattendu de la page résultante.
+>Le code HTML saisi via l’option **Modifier la source** est analysé pour les risques XSS et tous les scripts insérés sont supprimés et ne s’affichent pas sur la page produite. Cependant, le code HTML mal formé saisi dans **Modifier la source** peut rompre le modèle de la page, ce qui entraîne une mise en forme inattendue ou un rendu inattendu de la page résultante.
 
 >[!NOTE]
 >
->Etant donné que le code HTML saisi via **la fonctionnalité Source de modification** est analysé pour les risques XSS et les scripts et les supprime automatiquement, le contenu persistant persistant peut différer de celui saisi dans **Source Edition**. Pour cette raison, pour enregistrer les modifications effectuées à l&#39;aide **de Source Edit**, vous devez d&#39;abord quitter **Source Edit** pour afficher le texte dans l&#39;éditeur normal avant l&#39;enregistrement.
+>Étant donné que le code HTML saisi via l’option **Modifier la source** est analysé pour les risques XSS et les scripts et les supprime automatiquement, le contenu persistant persistant peut différer de celui saisi dans **Modifier la source**. Pour cette raison, pour enregistrer les modifications effectuées à l’aide de l’option **Modifier la source**, vous devez d’abord quitter **Modifier la source** pour afficher le texte dans l’éditeur normal avant l’enregistrement.
 
 ### Format de paragraphe
 
@@ -309,17 +301,17 @@ Utilisé pour appliquer le formatage des paragraphes au texte sélectionné ou a
 
 ![](assets/screen_shot_2018-01-11at142828.png)
 
-Le composant de texte peut également être modifié en ligne mais en raison des contraintes d&#39;espace, toutes les options de formatage ne sont pas disponibles en ligne. Pour afficher toutes les options, passez en mode plein écran.
+Le composant de texte peut également être modifié en ligne mais en raison des contraintes d’espace, toutes les options de formatage ne sont pas disponibles en ligne. Pour afficher toutes les options, passez en mode plein écran.
 
 ![](assets/screen_shot_2018-01-11at142921.png)
 
-## Créer un dialogue {#design-dialog}
+## Boîte de dialogue Conception {#design-dialog}
 
-Le dialogue de conception permet à l&#39;auteur du modèle de définir quelles options de formatage de texte sont disponibles pour les auteurs de contenu.
+La boîte de dialogue Conception permet à l’auteur du modèle de définir quelles options de formatage de texte sont disponibles pour les auteurs de contenu.
 
 ### Onglet Plugins {#plugins-tab}
 
-L&#39;onglet Plugins permet d&#39;activer et de désactiver diverses options de formatage de texte disponibles pour les auteurs de contenu.
+L’onglet Plugins permet d’activer et de désactiver diverses options de formatage de texte disponibles pour les auteurs de contenu.
 
 ### Fonctionnalités {#features}
 
@@ -328,10 +320,10 @@ L&#39;onglet Plugins permet d&#39;activer et de désactiver diverses options de 
 Les fonctionnalités suivantes peuvent être activées ou désactivées pour le composant.
 
 * Coller du texte brut
-* Passé du mot
+* Coller à partir de Word
 * Rechercher et remplacer
 * Vérificateur orthographique
-* Modification source
+* Modification de la source
 
 ### Formatage {#formatting}
 
@@ -342,9 +334,9 @@ Les options de formatage suivantes peuvent être activées ou désactivées pour
 * Tableau
 * Listes
 * Alignement
-* Gras, italique, soulignement
+* Gras, italique, souligné
 * Liens
-* Sous/exposant
+* Indice/exposant
 
 ### Styles de paragraphe {#paragraph-styles}
 
@@ -352,22 +344,22 @@ Les options de formatage suivantes peuvent être activées ou désactivées pour
 
 Les styles de paragraphe peuvent être activés ou désactivés pour le composant. Lorsque cette option est activée, les formats autorisés peuvent être définis.
 
-* Appuyez sur le bouton **Ajouter** ou cliquez dessus pour insérer un nouveau style.
-* Entrez le code du style et une description qui s&#39;affichera dans la boîte de dialogue Modifier.
-* Pour supprimer un style de style ou cliquez sur le **bouton Supprimer** .
-* Pour réorganiser l&#39;ordre des formats, appuyez ou cliquez et faites glisser les poignées.
+* Appuyez ou cliquez sur le bouton **Ajouter** pour insérer un nouveau style.
+* Entrez le code du style et une description qui s’affichera dans la boîte de dialogue Modifier.
+* Pour supprimer un style, appuyez ou cliquez sur le bouton **Supprimer**.
+* Pour réorganiser l’ordre des formats, appuyez ou cliquez et faites glisser les poignées.
 
 ### Configuration des caractères spéciaux {#configuring-special-characters}
 
 ![](assets/chlimage_1-31.png)
 
-L&#39;option permettant d&#39;insérer des caractères spéciaux peut être activée ou désactivée pour le composant. Lorsque cette option est activée, les caractères autorisés peuvent être définis.
+L’option permettant d’insérer des caractères spéciaux peut être activée ou désactivée pour le composant. Lorsque cette option est activée, les caractères autorisés peuvent être définis.
 
-* Appuyez sur le bouton **Ajouter** ou cliquez dessus pour insérer un nouveau caractère.
-* Entrez le code HTML du caractère et une description qui s&#39;afficheront dans la boîte de dialogue Modifier.
-* Pour supprimer un taquet de caractères ou cliquez sur le **bouton Supprimer** .
-* Pour réorganiser l&#39;ordre des caractères, appuyez ou cliquez et faites glisser les poignées.
+* Appuyez ou cliquez sur le bouton **Ajouter** pour insérer un nouveau caractère.
+* Entrez le code HTML du caractère et une description qui s’afficheront dans la boîte de dialogue Modifier.
+* Pour supprimer un caractère, appuyez ou cliquez sur le bouton **Supprimer**.
+* Pour réorganiser l’ordre des caractères, appuyez ou cliquez et faites glisser les poignées.
 
 ## Onglet Styles {#styles-tab}
 
-Le composant de texte prend en charge le système [de style AEM](authoring.md#component-styling).
+Le composant Texte prend en charge le [système de style](authoring.md#component-styling) AEM.
