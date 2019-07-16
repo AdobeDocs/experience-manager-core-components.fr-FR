@@ -1,14 +1,14 @@
 ---
-title: Composant Bouton de formulaire
-seo-title: Composant Bouton de formulaire
+title: Composant de bouton de formulaire
+seo-title: Composant de bouton de formulaire
 description: 'null'
-seo-description: Le composant Formulaire de composant principal permet l'inclusion d'un champ masqué dans un formulaire.
-uuid: 22 c 53 cd 0-d 0 bc -4 e 5 d -89 f 3-5 ac 4 f 61 a 9100
+seo-description: Le composant Masqué du formulaire des composants principaux permet l’inclusion d’un champ masqué dans un formulaire.
+uuid: 22c53cd0-d0bc-4e5d-89f3-5ac4f61a9100
 contentOwner: Utilisateur
 content-type: référence
 topic-tags: création
-products: SG_ EXPERIENCEMANAGER/CORECOMPONENTS-NEW
-discoiquuid: a 6 e 2974 a -243 f -40 ab -903 c-c 7 d 3 e 8615 bcc
+products: SG_EXPERIENCEMANAGER/CORECOMPONENTS-new
+discoiquuid: a6e2974a-243f-40ab-903c-c7d3e8615bcc
 disttype: dist5
 gnavtheme: light
 groupsectionnavitems: non
@@ -18,38 +18,38 @@ modalsize: 426x240
 index: y
 internal: n
 snippet: y
-translation-type: tm+mt
-source-git-commit: 1243d6cc1b0b015ee2f37ae89d0e2e42d366cc02
+translation-type: ht
+source-git-commit: 632d6abb1f13667cc0457152268d50af3bfabfc4
 
 ---
 
 
-# Composant Bouton de formulaire{#form-button-component}
+# Composant de bouton de formulaire{#form-button-component}
 
-Le composant Bouton de formulaire principal permet l&#39;inclusion d&#39;un bouton pour déclencher une action sur une page.
+Le composant de bouton de formulaire des composants principaux permet l’inclusion d’un bouton pour déclencher une action sur une page.
 
 ## Utilisation {#usage}
 
-Le composant Bouton de formulaire principal permet la création de champs de bouton, souvent pour déclencher l&#39;envoi du formulaire et est destiné à être utilisé avec le composant Conteneur [de formulaires](form-container.md).
+Le composant de bouton de formulaire des composants principaux permet la création de champs de bouton, souvent pour déclencher l’envoi du formulaire et est destiné à être utilisé avec le [composant de conteneur de formulaires](form-container.md).
 
-Les propriétés de bouton peuvent être définies par l&#39;éditeur de contenu dans [la boîte de dialogue Configurer](form-button.md).
+Les propriétés de bouton peuvent être définies par l’éditeur de contenu dans la [boîte de dialogue de configuration](form-button.md).
 
 ## Version et compatibilité {#version-and-compatibility}
 
-La version actuelle du composant Bouton de formulaire est v 2, qui a été introduite avec la version 2.0.0 des composants principaux en janvier 2018 et est décrite dans ce document.
+La version actuelle du composant de bouton de formulaire est v2, qui a été introduite avec la version 2.0.0 des composants principaux en janvier 2018. Elle est décrite dans ce document.
 
-Le tableau suivant détaille toutes les versions prises en charge du composant, les versions AEM avec lesquelles les versions du composant sont compatibles et les liens vers la documentation pour les versions précédentes.
+Le tableau ci-après présente en détail toutes les versions prises en charge du composant, les versions AEM avec lesquelles les versions du composant sont compatibles et les liens vers la documentation pour les versions précédentes.
 
 | Version du composant | AEM 6.3 | AEM 6.4 | AEM 6.5 |
 |--- |--- |--- |--- |
 | v2 | Compatible | Compatible | Compatible |
 | [v1](form-button-v1.md) | Compatible | Compatible | Compatible |
 
-Pour plus d&#39;informations sur les versions et les versions des composants principaux, consultez les versions des composants de Document [principaux](versions.md).
+Pour plus d’informations sur les versions et les publications des composants principaux, voir le document sur les [versions des composants principaux](versions.md).
 
 ## Exemple de sortie de composant {#sample-component-output}
 
-Voici un exemple tiré de [We. Retail](https://helpx.adobe.com/experience-manager/6-5/sites/developing/using/we-retail.html).
+Voici un exemple tiré de [We.Retail](https://helpx.adobe.com/experience-manager/6-5/sites/developing/using/we-retail.html).
 
 ### Capture d’écran {#screenshot}
 
@@ -85,13 +85,13 @@ Voici un exemple tiré de [We. Retail](https://helpx.adobe.com/experience-manage
 
 ### Détails techniques {#technical-details}
 
-Vous trouverez la documentation technique la plus récente sur le composant [Form Button sur github](https://github.com/adobe/aem-core-wcm-components/blob/master/content/src/content/jcr_root/apps/core/wcm/components/form/button/v2/button).
+Vous trouverez la documentation technique la plus récente sur le composant de bouton de formulaire [sur GitHub](https://github.com/adobe/aem-core-wcm-components/blob/master/content/src/content/jcr_root/apps/core/wcm/components/form/button/v2/button).
 
-Vous trouverez plus d&#39;informations sur le développement des composants principaux dans la documentation destinée aux développeurs de composants [principaux](developing.md).
+Vous trouverez plus d’informations sur le développement des composants principaux dans la [documentation destinée aux développeurs de composants principaux](developing.md).
 
-## Configurer le dialogue {#configure-dialog}
+## Boîte de dialogue de configuration {#configure-dialog}
 
-La boîte de dialogue Configurer permet à l&#39;auteur de contenu de définir les paramètres du bouton.
+La boîte de dialogue de configuration permet à l’auteur de contenu de définir les paramètres du bouton.
 
 ### Onglet Propriétés {#properties-tab}
 
@@ -102,15 +102,15 @@ La boîte de dialogue Configurer permet à l&#39;auteur de contenu de définir l
    * **Bouton**
    * **Envoyer**
 
-* **Titre** - Texte affiché sur le bouton
+* **Titre** : texte affiché sur le bouton.
 
-   * Si aucune valeur n&#39;est définie par défaut sur le type de bouton
+   * Si aucun titre n’est défini, le type de bouton est utilisé par défaut.
 
-* **Nom** : nom du bouton qui est envoyé avec les données du formulaire.
-* **Valeur** - Valeur du bouton qui est envoyée avec les données du formulaire.
+* **Nom** : nom du bouton qui est envoyé avec les données de formulaire.
+* **Valeur** : valeur du bouton qui est envoyée avec les données de formulaire.
 
-## Créer un dialogue {#design-dialog}
+## Boîte de dialogue de conception {#design-dialog}
 
 ### Onglet Styles {#styles-tab}
 
-Le composant Bouton de formulaire prend en charge le système [de style AEM](authoring.md#component-styling).
+Le composant de bouton de formulaire prend en charge le [système de style](authoring.md#component-styling) AEM.
