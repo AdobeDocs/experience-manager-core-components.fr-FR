@@ -2,40 +2,40 @@
 title: Composant de fragment de contenu
 seo-title: Composant de fragment de contenu
 description: 'null'
-seo-description: Le composant Fragment de contenu de composant principal permet l'affichage d'un fragment de contenu.
-uuid: ec 807 de 9-f 76 c -4850-9 ece-c 3 e 439 a 1 d 626
+seo-description: Le composant de fragment de contenu des composants principaux permet l’affichage d’un fragment de contenu.
+uuid: ec807de9-f76c-4850-9ece-c3e439a1d626
 contentOwner: Utilisateur
 content-type: référence
 topic-tags: création
-products: SG_ EXPERIENCEMANAGER/CORECOMPONENTS-NEW
-discoiquuid: f 093 f 58 e -9755-4 a 4 f -803 a-ab 93 a 50 e 6870
-translation-type: tm+mt
-source-git-commit: b464b49bc22573c24363da5a1d41baebd112368c
+products: SG_EXPERIENCEMANAGER/CORECOMPONENTS-new
+discoiquuid: f093f58e-9755-4a4f-803a-ab93a50e6870
+translation-type: ht
+source-git-commit: 632d6abb1f13667cc0457152268d50af3bfabfc4
 
 ---
 
 
 # Composant de fragment de contenu{#content-fragment-component}
 
-Le composant Fragment de contenu de composant principal permet l&#39;affichage d&#39;un fragment [de contenu](https://helpx.adobe.com/experience-manager/6-5/assets/using/content-fragments.html).
+Le composant de fragment de contenu des composants principaux permet l’affichage d’un [fragment de contenu](https://helpx.adobe.com/experience-manager/6-5/assets/using/content-fragments.html).
 
 >[!NOTE]
 >
->Avant la version 2.4.0 des composants principaux, le composant Fragment de contenu était disponible en tant qu&#39;extension aux composants principaux et doit être téléchargé séparément et explicitement activé.
+>Avant la version 2.4.0 des composants principaux, le composant de fragment de contenu était disponible en tant qu’extension aux composants principaux et devait être téléchargé séparément et explicitement activé.
 
 ## Utilisation {#usage}
 
-Le composant Fragment de contenu de composant principal permet l&#39;inclusion d&#39;un fragment [de contenu](https://helpx.adobe.com/experience-manager/6-5/assets/using/content-fragments.html) sur une page.
+Le composant de fragment de contenu des composants principaux permet d’inclure un [fragment de contenu](https://helpx.adobe.com/experience-manager/6-5/assets/using/content-fragments.html) sur une page.
 
-* Le fragment et ses propriétés peuvent être sélectionnés dans la [boîte de dialogue Configurer](#configure-dialog).
-* Les types de ressource qui permettent de gérer certaines images et grilles peuvent être définis dans la boîte de dialogue [de conception](#design-dialog).
-* L&#39;option de modification ouvre le fragment sélectionné dans l&#39;éditeur de fragments [de contenu](https://helpx.adobe.com/content/help/en/experience-manager/6-5/assets/using/content-fragments.html).
+* Le fragment et ses propriétés peuvent être sélectionnés dans la [boîte de dialogue de configuration](#configure-dialog).
+* Les types de ressources qui permettent de gérer certaines images et grilles peuvent être définis dans la [boîte de dialogue de conception](#design-dialog).
+* L’option d’édition ouvre le fragment sélectionné dans l’[éditeur de fragments de contenu](https://helpx.adobe.com/content/help/en/experience-manager/6-5/assets/using/content-fragments.html).
 
 ## Version et compatibilité {#version-and-compatibility}
 
-La version actuelle du composant Fragment de contenu est v 1, qui a été introduite avec la version 1.1.0 des composants principaux d&#39;octobre 2017 et est décrite dans ce document.
+La version actuelle du composant de fragment de contenu est v1, qui a été introduite avec la version 1.1.0 des composants principaux d’octobre 2017. Elle est décrite dans ce document.
 
-Le tableau suivant détaille toutes les versions prises en charge du composant, les versions AEM avec lesquelles les versions du composant sont compatibles et les liens vers la documentation pour les versions précédentes.
+Le tableau ci-après présente en détail toutes les versions prises en charge du composant, les versions AEM avec lesquelles les versions du composant sont compatibles et les liens vers la documentation pour les versions précédentes.
 
 | Version du composant | AEM 6.3 | AEM 6.4 | AEM 6.5 |
 |--- |--- |--- |---|
@@ -43,55 +43,55 @@ Le tableau suivant détaille toutes les versions prises en charge du composant, 
 
 >[!NOTE]
 >
->Avant la version 2.4.0, le composant Fragment de contenu se trouvait dans le dossier des extensions.
+>Avant la version 2.4.0, le composant de fragment de contenu se trouvait dans le dossier des extensions.
 >
 > `apps/core/wcm/extension/components/contentfragment/v1/contentfragment`
 > 
->A partir de la version 2.4.0, il a été déplacé à l&#39;emplacement suivant.
+>À partir de la version 2.4.0, il a été déplacé à l’emplacement ci-après.
 >
 >`apps/core/wcm/components/contentfragment/v1/contentfragment`
 >
->Bien que tous les deux soient v 1, tout composant Fragment de contenu qui a été utilisé à partir du dossier des extensions nécessite la migration de ses composants proxy associés pour utiliser le nouveau type de ressource lors de la mise à niveau vers la version 2.4.0 ou ultérieure des composants principaux.
+>Bien que la version de tous les deux soit v1, tout composant de fragment de contenu ayant été utilisé à partir du dossier des extensions nécessite la migration de ses composants proxy associés pour utiliser le nouveau type de ressource lors de la mise à niveau vers la version 2.4.0 ou ultérieure des composants principaux.
 
-Pour plus d&#39;informations sur les versions et les versions des composants principaux, consultez les versions des composants de Document [principaux](versions.md).
+Pour plus d’informations sur les versions et les publications des composants principaux, voir le document sur les [versions des composants principaux](versions.md).
 
 ## Exemple de sortie de composant {#sample-component-output}
 
-Pour tester le composant Fragment de contenu ainsi que des exemples d&#39;options de configuration, ainsi que des sorties HTML et JSON, consultez la bibliothèque [de composants](http://opensource.adobe.com/aem-core-wcm-components/library/content-fragment.html).
+Pour tester le composant de fragment de contenu, des exemples d’options de configuration, ainsi que des sorties HTML et JSON, consultez la [bibliothèque de composants](http://opensource.adobe.com/aem-core-wcm-components/library/content-fragment.html).
 
 ## Détails techniques {#technical-details}
 
-Vous trouverez la documentation technique la plus récente sur le composant [de fragment de contenu sur github](https://github.com/adobe/aem-core-wcm-components/tree/master/content/src/content/jcr_root/apps/core/wcm/components/contentfragment/v1/contentfragment).
+Vous trouverez la documentation technique la plus récente sur le composant de fragment de contenu [sur GitHub](https://github.com/adobe/aem-core-wcm-components/tree/master/content/src/content/jcr_root/apps/core/wcm/components/contentfragment/v1/contentfragment).
 
-Vous trouverez plus d&#39;informations sur le développement des composants principaux dans la documentation destinée aux développeurs de composants [principaux](developing.md).
+Vous trouverez plus d’informations sur le développement des composants principaux dans la [documentation destinée aux développeurs de composants principaux](developing.md).
 
-## Configurer le dialogue {#configure-dialog}
+## Boîte de dialogue de configuration {#configure-dialog}
 
-La boîte de dialogue Configurer permet à l&#39;auteur de contenu de définir le fragment de contenu et les éléments de ce fragment à inclure.
+La boîte de dialogue de configuration permet à l’auteur de contenu de définir le fragment de contenu et les éléments de ce fragment à inclure.
 
 ![](assets/chlimage_1-87.png)
 
 * **Fragment de contenu**
 
-   * Chemin d&#39;accès au fragment de contenu souhaité
-   * Vous **pouvez utiliser le dialogue** de sélection pour localiser le fragment
+   * Chemin d’accès au fragment de contenu souhaité
+   * Vous pouvez utiliser la **boîte de dialogue de sélection** pour localiser le fragment.
 
-* **Elément** : élément du fragment de contenu à inclure
-* **Variation** - Which variation of the content fragment to use (defaults to **Master**)
+* **Élément** : élément du fragment de contenu à inclure.
+* **Variation** : variante du fragment de contenu à utiliser (par défaut, **Gabarit**).
 
 * **Paragraphes**
 
-   * **Tous** - Afficher tous les paragraphes
+   * **Tous** : permet d’afficher tous les paragraphes.
    * **Étendue**
 
-      * Spécifiez les plages de paragraphes qui doivent être affichées, séparées par un point-virgule.
-      * Pour inclure `1;3-5;7;9-*` les 1 st, les 3 ème, les 7 et les 9 pour les paragraphes finaux
+      * Spécifiez les plages de paragraphes à afficher, séparées par un point-virgule.
+      * Par exemple, `1;3-5;7;9-*` pour inclure les paragraphes 1, 3 à 5, 7 et 9 aux paragraphes finaux.
 
-* **Gérer le titre comme ses propres paragraphes**
+* **Gérer les en-têtes comme leurs propres paragraphes**
 
-## Créer un dialogue {#design-dialog}
+## Boîte de dialogue de conception {#design-dialog}
 
-Le dialogue de conception permet à l&#39;auteur du modèle de définir les types de ressource utilisés pour traiter les images de supports mixtes et les grilles adaptées.
+La boîte de dialogue de conception permet à l’auteur du modèle de définir les types de ressources utilisés pour traiter les images de supports variés et les grilles adaptées.
 
 ![](assets/chlimage_1-88.png)
 
