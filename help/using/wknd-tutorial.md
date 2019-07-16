@@ -1,21 +1,21 @@
 ---
-title: WEEKEND Developer Tutorial
-seo-title: WEEKEND Developer Tutorial for AEM
-description: Commencer le développement de sites AEM avec des composants principaux
-seo-description: Commencer le développement de sites AEM avec des composants principaux
-uuid: 7 c 3 e 852 c-b 738-45 b 4-b 589-d 342 d 129 ab 17
+title: Tutoriel du développeur WKND
+seo-title: Tutoriel du développeur WKND pour AEM
+description: Commencez le développement d’AEM Sites avec les composants principaux
+seo-description: Commencez le développement d’AEM Sites avec les composants principaux
+uuid: 7c3e852c-b738-45b4-b589-d342d129ab17
 contentOwner: bohnert
 content-type: référence
-products: SG_ EXPERIENCEMANAGER/CORECOMPONENTS-NEW
+products: SG_EXPERIENCEMANAGER/CORECOMPONENTS-new
 topic-tags: introduction
-discoiquuid: b 4 a 78 adb -5 e 84-4941-8 e 55-deb 8 f 377 d 211
+discoiquuid: b4a78adb-5e84-4941-8e55-deb8f377d211
 redirecttarget: https://helpx.adobe.com/experience-manager/6-4/sites/developing/using/getting-started.html
-translation-type: tm+mt
-source-git-commit: 667ddc4183921dd30790210a348bdc400055109c
+translation-type: ht
+source-git-commit: 632d6abb1f13667cc0457152268d50af3bfabfc4
 
 ---
 
 
-# WEEKEND Developer Tutorial{#wknd-developer-tutorial}
+# Tutoriel du développeur WKND{#wknd-developer-tutorial}
 
-Pour un grand exemple d&#39;exploitation des composants principaux d&#39;un projet, y compris des instructions plus larges sur la manière de commencer à partir de zéro avec la configuration du projet, les composants principaux, les modèles modifiables, les bibliothèques client et le développement des composants en fonction des dernières pratiques recommandées, consultez le [document Prise en main de développement d&#39;AEM Sites](https://docs.adobe.com/content/help/en/experience-manager-learn/getting-started-wknd-tutorial-develop/overview.html) et le didacticiel WEEK-END.
+Pour obtenir un bon exemple d’utilisation des composants principaux dans un projet, notamment des instructions plus larges pour commencer avec la configuration du projet, les composants principaux, les modèles modifiables, les bibliothèques clientes et le développement des composants en fonction des dernières pratiques recommandées, consultez le document [Prise en main d’AEM Sites](https://docs.adobe.com/content/help/en/experience-manager-learn/getting-started-wknd-tutorial-develop/overview.html) et le tutoriel WKND.
