@@ -1,49 +1,49 @@
 ---
-title: Composant masqué de formulaire (v 1)
-seo-title: Composant masqué de formulaire (v 1)
-description: Le composant Formulaire de composant principal masque l'affichage d'un champ masqué.
-seo-description: Le composant Formulaire de composant principal masque l'affichage d'un champ masqué.
-uuid: f 5005346-def 5-4 e 1 f -8 f 93-e 4 cfc 67 a 9329
+title: Composant Masqué du formulaire (v1)
+seo-title: Composant Masqué du formulaire (v1)
+description: Le composant Masqué du formulaire des composants principaux permet l’affichage d’un champ masqué.
+seo-description: Le composant Masqué du formulaire des composants principaux permet l’affichage d’un champ masqué.
+uuid: f5005346-def5-4e1f-8f93-e4cfc67a9329
 content-type: référence
-products: SG_ EXPERIENCEMANAGER/CORECOMPONENTS-NEW
-discoiquuid: d 35 f 4 e 71-ec 7 f -4128-9123-b 997 dbb 5 f 0 cf
+products: SG_EXPERIENCEMANAGER/CORECOMPONENTS-new
+discoiquuid: d35f4e71-ec7f-4128-9123-b997dbb5f0cf
 index: n
-translation-type: tm+mt
-source-git-commit: 4e74f10e2a4119484a597178dc4577b399833dbf
+translation-type: ht
+source-git-commit: 632d6abb1f13667cc0457152268d50af3bfabfc4
 
 ---
 
 
-# Composant masqué de formulaire (v 1){#form-hidden-component-v}
+# Composant Masqué du formulaire (v1){#form-hidden-component-v}
 
-Le composant Formulaire de composant principal masque l&#39;affichage d&#39;un champ masqué.
+Le composant Masqué du formulaire des composants principaux permet l’affichage d’un champ masqué.
 
 ## Utilisation {#usage}
 
-Le composant masqué Form Component Form (Composant masqué du formulaire) permet la création de champs masqués pour transmettre des informations sur la page actuelle à AEM et est destiné à être utilisé avec le composant de conteneur [de formulaires](form-container.md).
+Le composant Masqué du formulaire des composants principaux permet la création de champs masqués pour transmettre des informations sur la page actuelle à AEM. Il est destiné à être utilisé avec le [composant de conteneur de formulaires](form-container.md).
 
-Les propriétés de champ peuvent être définies par l&#39;éditeur de contenu dans [la boîte de dialogue Configurer](#configure-dialog).
+Les propriétés de champ peuvent être définies par l’éditeur de contenu dans la [boîte de dialogue de configuration](#configure-dialog).
 
 ## Version et compatibilité {#version-and-compatibility}
 
-Ce document décrit la version v 1 du composant Masqué de formulaire, introduite à l&#39;origine avec la version 1.0.0 des composants principaux avec AEM 6.3.
+Ce document décrit la version v1 du composant Masqué du formulaire, introduite à l’origine avec la version 1.0.0 des composants principaux avec AEM 6.3.
 
-Le tableau suivant répertorie la compatibilité de la version v 1 du composant masqué de formulaire.
+Le tableau ci-après répertorie la compatibilité de la version v1 du composant Masqué du formulaire.
 
-| Version d’AEM | Composant masqué de formulaire v 1 |
+| Version d’AEM | Composant Masqué du formulaire v1 |
 |--- |--- |
 | 6.3 | Compatible |
 | 6.4 | Compatible |
 
 >[!CAUTION]
 >
->Ce document décrit la version v 1 du composant Masqué de formulaire.
+>Ce document décrit la version v1 du composant Masqué du formulaire.
 >
->Pour plus d&#39;informations sur la version actuelle du composant Masqué de formulaire, voir le document [du composant](form-hidden.md) masqué de formulaire.
+>Pour plus d’informations sur la version actuelle du composant Masqué du formulaire, voir le document [Composant Masqué du formulaire](form-hidden.md).
 
 ## Exemple de sortie de composant {#sample-component-output}
 
-Voici un exemple tiré de [We. Retail](https://helpx.adobe.com/experience-manager/6-4/sites/developing/using/we-retail.html).
+Voici un exemple tiré de [We.Retail](https://helpx.adobe.com/experience-manager/6-4/sites/developing/using/we-retail.html).
 
 ### HTML {#html}
 
@@ -83,26 +83,26 @@ Voici un exemple tiré de [We. Retail](https://helpx.adobe.com/experience-manage
 
 >[!NOTE]
 >
->L&#39;exportation JSON à partir des composants principaux nécessite la version 1.1.0 des composants principaux. Pour plus d&#39;informations, consultez les [informations de compatibilité des composants principaux v 1](versions.md#release-history-and-compatibility) .
+>L’exportation JSON à partir des composants principaux nécessite la version 1.1.0 des composants principaux. Pour plus d’informations, voir les [informations de compatibilité des composants principaux v1](versions.md#release-history-and-compatibility).
 
-## Configurer le dialogue {#configure-dialog}
+## Boîte de dialogue de configuration {#configure-dialog}
 
-La boîte de dialogue Configurer permet à l&#39;auteur de contenu de définir les paramètres du champ masqué.
+La boîte de dialogue de configuration permet à l’auteur de contenu de définir les paramètres du champ masqué.
 
 ![](assets/chlimage_1-26.png)
 
-* **Nom** : nom du champ qui est envoyé avec les données du formulaire.
-* **Valeur** - Valeur du champ, qui est envoyée avec les données du formulaire
-* **Identifiant** : l&#39;identifiant doit être unique sur la page et peut être utilisé pour lier des scripts à ce champ de formulaire.
+* **Nom** : nom du champ qui est envoyé avec les données de formulaire.
+* **Valeur** : valeur du champ qui est envoyée avec les données de formulaire.
+* **Identifiant** : l’identifiant doit être unique sur la page et peut être utilisé pour lier les scripts à ce champ de formulaire.
 
-## Créer un dialogue {#design-dialog}
+## Boîte de dialogue de conception {#design-dialog}
 
-Il n&#39;existe pas de dialogue de conception pour le composant Formulaire masqué.
+Il n’existe pas de boîte de dialogue de conception pour le composant Masqué du formulaire.
 
 ## Détails techniques {#technical-details}
 
-Vous trouverez la documentation technique la plus récente sur le composant [Masqué de formulaire sur github](https://github.com/adobe/aem-core-wcm-components/tree/master/content/src/content/jcr_root/apps/core/wcm/components/form/hidden/v1/hidden).
+Vous trouverez la documentation technique la plus récente sur le composant Masqué du formulaire [sur GitHub](https://github.com/adobe/aem-core-wcm-components/tree/master/content/src/content/jcr_root/apps/core/wcm/components/form/hidden/v1/hidden).
 
-Le projet de composants principaux peut être téléchargé depuis github.
+Le projet sur les composants principaux peut être téléchargé depuis GitHub.
 
-Vous trouverez plus d&#39;informations sur le développement des composants principaux dans la documentation destinée aux développeurs de composants [principaux](developing.md).
+Vous trouverez plus d’informations sur le développement des composants principaux dans la [documentation destinée aux développeurs de composants principaux](developing.md).
