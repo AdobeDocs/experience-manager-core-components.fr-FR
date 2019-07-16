@@ -1,13 +1,13 @@
 ---
-title: Composant de recherche rapide
-seo-title: Composant de recherche rapide
+title: Composant Recherche rapide
+seo-title: Composant Recherche rapide
 description: 'null'
-seo-description: Le composant Recherche rapide fournit des fonctionnalités de recherche à un site Web et présente les résultats de recherche afin que les visiteurs puissent effectuer des recherches sur le site et filtrer les résultats.
-uuid: 1 ba 69 be 3-537 e -4 f 20-9 f 17-b 4 b 7174 a 8 e 88
+seo-description: Le composant Recherche rapide fournit des fonctionnalités de recherche à un site web et présente les résultats de recherche afin que les visiteurs puissent effectuer des recherches sur le site et filtrer les résultats.
+uuid: 1ba69be3-537e-4f20-9f17-b4b7174a8e88
 content-type: référence
 topic-tags: création
-products: SG_ EXPERIENCEMANAGER/CORECOMPONENTS-NEW
-discoiquuid: 906 a 684 d -5663-4497-bef 3-37 f 13 d 5 b 46 c 7
+products: SG_EXPERIENCEMANAGER/CORECOMPONENTS-new
+discoiquuid: 906a684d-5663-4497-bef3-37f13d5b46c7
 disttype: dist5
 gnavtheme: light
 groupsectionnavitems: non
@@ -17,37 +17,37 @@ modalsize: 426x240
 index: y
 internal: n
 snippet: y
-translation-type: tm+mt
-source-git-commit: 1243d6cc1b0b015ee2f37ae89d0e2e42d366cc02
+translation-type: ht
+source-git-commit: 632d6abb1f13667cc0457152268d50af3bfabfc4
 
 ---
 
 
-# Composant de recherche rapide{#quick-search-component}
+# Composant Recherche rapide{#quick-search-component}
 
 Le composant Recherche rapide fournit des fonctionnalités de recherche à un site Web et présente les résultats de recherche afin que les visiteurs puissent facilement trouver le contenu correspondant et afficher les résultats.
 
 ## Utilisation {#usage}
 
-Le composant Recherche rapide permet aux visiteurs du site de rechercher du contenu, d&#39;afficher les résultats en place et de naviguer facilement vers les pages correspondantes. De nouveaux résultats sont extraits dynamiquement lorsque l&#39;utilisateur fait défiler les résultats de la recherche.
+Le composant Recherche rapide permet aux visiteurs du site de rechercher du contenu, d’afficher les résultats en place et de naviguer facilement vers les pages correspondantes. De nouveaux résultats sont extraits dynamiquement lorsque l’utilisateur fait défiler les résultats de la recherche.
 
-La boîte de dialogue [Modifier](#edit-dialog) permet à l&#39;auteur de contenu de définir l&#39;emplacement où doit commencer la recherche dans l&#39;arborescence de contenu. A l&#39;aide de [la boîte de dialogue de conception](#design-dialog), l&#39;auteur du modèle peut définir la valeur par défaut pour laquelle la recherche doit commencer dans l&#39;arborescence de contenu, ainsi qu&#39;une taille de jeu de résultats maximale et une durée minimale de recherche.
+La [boîte de dialogue de modification](#edit-dialog) permet à l’auteur de contenu de définir l’emplacement où doit commencer la recherche dans l’arborescence de contenu. À l’aide de la [boîte de dialogue de conception](#design-dialog), l’auteur du modèle peut définir la valeur par défaut pour laquelle la recherche doit commencer dans l’arborescence de contenu, ainsi qu’une taille de jeu de résultats maximale et une durée minimale de recherche.
 
 ## Version et compatibilité {#version-and-compatibility}
 
-La version actuelle du composant de recherche rapide est v 1, qui a été introduite avec la version 2.0.0 des composants principaux en janvier 2018 et est décrite dans ce document.
+La version actuelle du composant Recherche rapide est v1, qui a été introduite avec la version 2.0.0 des composants principaux en janvier 2018 et est décrite dans ce document.
 
-Le tableau suivant détaille toutes les versions prises en charge du composant, les versions AEM avec lesquelles les versions du composant sont compatibles et les liens vers la documentation pour les versions précédentes.
+Le tableau ci-après présente en détail toutes les versions prises en charge du composant, les versions AEM avec lesquelles les versions du composant sont compatibles et les liens vers la documentation pour les versions précédentes.
 
 | Version du composant | AEM 6.3 | AEM 6.4 | AEM 6.5 |
 |--- |--- |--- |--- |
 | v1 | Compatible | Compatible | Compatible |
 
-Pour plus d&#39;informations sur les versions et les versions des composants principaux, consultez les versions des composants de Document [principaux](versions.md).
+Pour plus d’informations sur les versions et les publications des composants principaux, voir le document sur les [versions des composants principaux](versions.md).
 
 ## Exemple de sortie de composant {#sample-component-output}
 
-Voici un exemple tiré de [We. Retail](https://helpx.adobe.com/experience-manager/6-5/sites/developing/using/we-retail.html).
+Voici un exemple tiré de [We.Retail](https://helpx.adobe.com/experience-manager/6-5/sites/developing/using/we-retail.html).
 
 ### Capture d’écran {#screenshot}
 
@@ -93,42 +93,43 @@ Voici un exemple tiré de [We. Retail](https://helpx.adobe.com/experience-manage
 
 >[!NOTE]
 >
->La protection du composant de recherche ou de toute application basée sur AEM par rapport aux attaques DOS doit être implémentée à un niveau supérieur, par exemple à l&#39;aide `mod_security` du répartiteur.
+>La protection du composant Recherche ou de toute application basée sur AEM par rapport aux attaques DOS doit être implémentée à un niveau supérieur, par exemple à l’aide `mod_security` du dispatcher.
 
-Vous trouverez la documentation technique la plus récente sur le composant [de recherche rapide sur github](https://github.com/adobe/aem-core-wcm-components/blob/master/content/src/content/jcr_root/apps/core/wcm/components/search/v1/search).
+Vous trouverez la documentation technique la plus récente sur le composant Recherche rapide [sur GitHub](https://github.com/adobe/aem-core-wcm-components/blob/master/content/src/content/jcr_root/apps/core/wcm/components/search/v1/search).
 
-Vous trouverez plus d&#39;informations sur le développement des composants principaux dans la documentation destinée aux développeurs de composants [principaux](developing.md).
+Vous trouverez plus d’informations sur le développement des composants principaux dans la [documentation destinée aux développeurs de composants principaux](developing.md).
 
-## Modifier le dialogue {#edit-dialog}
+## Boîte de dialogue de modification {#edit-dialog}
 
-La boîte de dialogue Modifier permet à l&#39;auteur de contenu de définir l&#39;emplacement où doit commencer la recherche dans l&#39;arborescence de contenu.
+La boîte de dialogue de modification permet à l’auteur de contenu de définir l’emplacement où doit commencer la recherche dans l’arborescence de contenu.
 
 ![](assets/screen_shot_2018-04-03at120132.png)
 
-**Racine** de recherche : page racine d&#39;où lancer la recherche. La racine de recherche peut être un gabarit principal, une page principale ou une page normale.
+**Racine de recherche** - Page racine d’où lancer la recherche. La racine de recherche peut être un gabarit principal, une page principale ou une page normale.
 
-## Créer un dialogue {#design-dialog}
+## Boîte de dialogue de conception {#design-dialog}
 
-A l&#39;aide de la boîte de dialogue de conception, l&#39;auteur du modèle peut définir la valeur par défaut pour laquelle, dans l&#39;arborescence de contenu, la recherche doit commencer, ainsi qu&#39;une taille de jeu de résultats maximale et la longueur minimale du terme. Le dialogue de conception permet à l&#39;auteur du modèle de définir quelles options de formatage de texte sont disponibles pour les auteurs de contenu.
+À l’aide de la boîte de dialogue de conception, l’auteur du modèle peut définir la valeur par défaut pour laquelle, dans l’arborescence de contenu, la recherche doit commencer, ainsi qu’une taille de jeu de résultats maximale et la longueur minimale du terme. La boîte de dialogue de conception permet à l’auteur du modèle de définir quelles options de mise en forme de texte sont disponibles pour les auteurs de contenu.
 
 ### Onglet Propriétés {#properties-tab}
 
 ![](assets/screen_shot_2018-04-03at120028.png)
 
-* **Racine**
-de recherche La valeur par défaut de la racine de recherche lorsqu&#39;un auteur de contenu place le composant Recherche rapide sur une page de contenu
-* **Taille**
-des résultats Le nombre maximal de résultats extraits par une requête de recherche
-* **Longueur minimale du terme de recherche Longueur** minimale du terme de recherche pour lancer la recherche
+* **Racine de recherche**
+La valeur par défaut de la racine de recherche lorsqu’un auteur de contenu place le composant Recherche rapide sur une page de contenu.
+* **Taille des résultats**
+Le nombre maximal de résultats extraits par une requête de recherche.
+* **Longueur minimale du terme de recherche**
+Longueur minimale du terme de recherche pour lancer la recherche.
 
 >[!NOTE]
 >
->**La taille des résultats** et la **longueur minimum du terme de recherche** ne peuvent être définies qu&#39;en mode de conception et, par conséquent, au niveau du modèle, ce qui signifie que les auteurs de contenu ne peuvent pas modifier ces valeurs.
+>La **Taille des résultats** et la **Longueur minimum du terme de recherche** ne peuvent être définies qu’en mode conception et, par conséquent, au niveau du modèle, ce qui signifie que les auteurs de contenu ne peuvent pas modifier ces valeurs.
 
 >[!CAUTION]
 >
->**La taille des résultats** et la **longueur minimale du terme de recherche** peuvent avoir un impact sur les performances si elles sont trop élevées ou trop faibles, respectivement.
+>La **Taille des résultats** et la **Longueur minimale du terme de recherche** peuvent avoir un impact sur les performances si elles sont trop élevées ou trop faibles, respectivement.
 
 ### Onglet Styles {#styles-tab}
 
-Le composant de recherche rapide prend en charge le système [de style AEM](authoring.md#component-styling).
+Le composant Recherche rapide prend en charge le [système de style](authoring.md#component-styling) AEM.
