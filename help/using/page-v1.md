@@ -1,53 +1,53 @@
 ---
-title: Composant de page (v 1)
-seo-title: Composant de page (v 1)
-description: Il est un composant de page extensible conçu pour fonctionner avec l'éditeur de modèles et autoriser l'assemblage de composants d'en-tête/de pied de page et de structure de page avec l'éditeur de modèles.
-seo-description: Le composant Page est un composant de page extensible conçu pour fonctionner avec l'éditeur de modèles et permet l'assemblage de composants d'en-tête/de pied de page et de structure à l'aide de l'éditeur de modèles.
-uuid: dd 1 b 1 e 58-ae 14-4818-afbe -8 bcff 0 de 2 c 32
+title: Composant Page (v1)
+seo-title: Composant Page (v1)
+description: Le composant Page est un composant de page extensible, conçu pour fonctionner avec l’éditeur de modèles et autoriser l’assemblage de composants d’en-tête/de pied de page et de structure de page avec l’éditeur de modèles.
+seo-description: Le composant Page est un composant de page extensible, conçu pour fonctionner avec l’éditeur de modèles et autoriser l’assemblage de composants d’en-tête/de pied de page et de structure à l’aide de l’éditeur de modèles.
+uuid: dd1b1e58-ae14-4818-afbe-8bcff0de2c32
 content-type: référence
 topic-tags: core-components
-discoiquuid: b 3 f 1775 d -743 d -4 f 72-a 1 e 5-198303007 a 8 e
+discoiquuid: b3f1775d-743d-4f72-a1e5-198303007a8e
 index: n
-translation-type: tm+mt
-source-git-commit: 4e74f10e2a4119484a597178dc4577b399833dbf
+translation-type: ht
+source-git-commit: 632d6abb1f13667cc0457152268d50af3bfabfc4
 
 ---
 
 
-# Composant de page (v 1){#page-component-v}
+# Composant Page (v1){#page-component-v}
 
-Le composant Page est un composant de page extensible conçu pour fonctionner avec l&#39;éditeur [de modèles](https://helpx.adobe.com/experience-manager/6-4/sites/authoring/using/templates.html) et permet l&#39;assemblage de composants d&#39;en-tête/de pied de page et de structure à l&#39;aide de l&#39;éditeur de modèles.
+Le composant Page est un composant de page extensible, conçu pour fonctionner avec l’[éditeur de modèles](https://helpx.adobe.com/experience-manager/6-4/sites/authoring/using/templates.html) et autoriser l’assemblage de composants d’en-tête/de pied de page et de structure de page avec l’éditeur de modèles.
 
 ## Utilisation {#usage}
 
-Le composant Page sert de base à toutes les pages conçues avec les composants principaux ainsi que les modèles modifiables. En utilisant le composant de page, les en-têtes, les pieds de page et la structure de la page peuvent être définis comme un modèle à l&#39;aide des autres composants principaux.
+Le composant Page sert de base à toutes les pages conçues avec les composants principaux ainsi que les modèles modifiables. En utilisant le composant Page, les en-têtes, les pieds de page et la structure de la page peuvent être définis dans un modèle à l&#39;aide des autres composants principaux.
 
-Grâce au dialogue [de conception](page-v1.md#main-pars_title_1995166862), les bibliothèques côté client personnalisées peuvent être définies pour la page. Contrairement aux autres composants dont le dialogue de modification est accessible directement à partir du composant, puisque le composant est la page elle-même, la [boîte de dialogue Modifier](page-v1.md#main-pars_title) du composant de page est la fenêtre des propriétés de la page.
+Grâce à la [boîte de dialogue de conception](page-v1.md#main-pars_title_1995166862), les bibliothèques côté client personnalisées peuvent être définies pour la page. Contrairement aux autres composants dont la boîte de dialogue de modification est accessible directement à partir de ceux-ci, puisque le composant est la page elle-même, la [boîte de dialogue de modification](page-v1.md#main-pars_title) du composant Page est la fenêtre des propriétés de la page.
 
 ## Version et compatibilité {#version-and-compatibility}
 
-Ce document décrit la version v 1 du composant Page, introduite à l&#39;origine avec la version 1.0.0 des composants principaux avec AEM 6.3.
+Ce document décrit la version v1 du composant Page, introduite à l&#39;origine avec la version 1.0.0 des composants principaux avec AEM 6.3.
 
-Le tableau suivant répertorie la compatibilité de la version v 1 du composant Page.
+Le tableau suivant répertorie la compatibilité de la version v1 du composant Page.
 
-| Version d’AEM | Composant Page v 1 |
+| Version d’AEM | Composant Page v1 |
 |--- |--- |
 | 6.3 | Compatible |
 | 6.4 | Compatible |
 
 >[!CAUTION]
 >
->Ce document décrit la version v 1 du composant Page.
+>Ce document décrit la version v1 du composant Page.
 >
->Pour plus d&#39;informations sur la version actuelle du composant de page, consultez [le document Composant](page.md) Page.
+>Pour plus d’informations sur la version actuelle du composant Page, voir le document [Composant Page](page.md).
 
 >[!NOTE]
 >
->La version v 1 du composant de page ne prend pas en charge la redirection de la page. Utilisez la version [actuelle du composant de page](page.md) pour la prise en charge de la redirection de la page.
+>La version v1 du composant Page ne prend pas en charge la redirection de la page. Utilisez la [version actuelle du composant Page](page.md) pour la prise en charge de la redirection de la page.
 
 ## Exemple de sortie de composant {#sample-component-output}
 
-Voici un exemple tiré de [We. Retail](https://helpx.adobe.com/experience-manager/6-4/sites/developing/using/we-retail.html).
+Voici un exemple tiré de [We.Retail](https://helpx.adobe.com/experience-manager/6-4/sites/developing/using/we-retail.html).
 
 ### Capture d’écran {#screenshot}
 
@@ -681,32 +681,32 @@ Voici un exemple tiré de [We. Retail](https://helpx.adobe.com/experience-manage
 
 >[!NOTE]
 >
->L&#39;exportation JSON à partir des composants principaux nécessite la version 1.1.0 des composants principaux. Pour plus d&#39;informations, consultez les [informations de compatibilité des composants principaux v 1](versions.md#main-pars_title_236368006) .
+>L’exportation JSON à partir des composants principaux nécessite la version 1.1.0 des composants principaux. Pour plus d’informations, voir les [informations de compatibilité des composants principaux v1](versions.md#main-pars_title_236368006).
 
-## Modifier le dialogue {#edit-dialog}
+## Boîte de dialogue de modification {#edit-dialog}
 
-Etant donné que le composant représente la page entière, les paramètres qui seraient normalement dans un dialogue de modification se trouvent dans [la fenêtre Propriétés](https://helpx.adobe.com/experience-manager/6-4/sites/authoring/using/editing-page-properties.html) de la page.
+Étant donné que le composant représente la page entière, les paramètres qui seraient normalement dans une boîte de dialogue de modification se trouvent dans la fenêtre [Propriétés de la page](https://helpx.adobe.com/experience-manager/6-4/sites/authoring/using/editing-page-properties.html) window.
 
-## Créer un dialogue {#design-dialog}
+## Boîte de dialogue de conception {#design-dialog}
 
-Puisque le composant représente la page entière, le dialogue de conception est accessible via **les informations de page -&gt; Conception de page**.
+Puisque le composant représente la page entière, la boîte de dialogue de conception est accessible via **les informations de page -&gt; Conception de page**.
 
 ![](assets/chlimage_1-94.png)
 
-A l&#39;aide de la fenêtre Conception de page, vous pouvez définir des bibliothèques côté client qui doivent être chargées avec la page.
+À l’aide de la fenêtre Conception de page, vous pouvez définir des bibliothèques côté client qui doivent être chargées avec la page.
 
-* Pour ajouter un nouveau champ, cliquez sur **le** bouton Ajouter ou appuyez dessus sous les champs.
-* Pour supprimer un champ ou appuyer sur l&#39;icône de corbeille en regard du champ à supprimer.
-* Pour réorganiser l&#39;ordre de chargement, cliquez ou appuyez et faites glisser la poignée en regard du champ à déplacer.
+* Pour ajouter un nouveau champ, appuyez ou cliquez sur le bouton **Ajouter** sous les champs.
+* Pour supprimer un champ ou appuyer sur l’icône de corbeille à côté du champ à supprimer.
+* Pour réorganiser l’ordre de chargement, cliquez ou appuyez et faites glisser la poignée à côté du champ à déplacer.
 
-Pour plus d&#39;informations sur l&#39;utilisation des bibliothèques côté client, voir [Utilisation des bibliothèques côté client](https://helpx.adobe.com/experience-manager/6-3/sites/developing/using/clientlibs.html).
+Pour plus d’informations sur l’utilisation des bibliothèques côté client, voir [Utilisation des bibliothèques côté client](https://helpx.adobe.com/experience-manager/6-3/sites/developing/using/clientlibs.html).
 
 ![](assets/chlimage_1-95.png)
 
 ## Détails techniques {#technical-details}
 
-Vous trouverez la documentation technique la plus récente sur le composant [de page sur github](https://github.com/adobe/aem-core-wcm-components/tree/master/content/src/content/jcr_root/apps/core/wcm/components/page/v1/page).
+Vous trouverez la documentation technique la plus récente sur le composant Page [sur GitHub](https://github.com/adobe/aem-core-wcm-components/tree/master/content/src/content/jcr_root/apps/core/wcm/components/page/v1/page).
 
-Le projet de composants principaux peut être téléchargé depuis github.
+Le projet sur les composants principaux peut être téléchargé depuis GitHub.
 
-Vous trouverez plus d&#39;informations sur le développement des composants principaux dans la documentation destinée aux développeurs de composants [principaux](developing.md).
+Vous trouverez plus d’informations sur le développement des composants principaux dans la [documentation destinée aux développeurs de composants principaux](developing.md).
