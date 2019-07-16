@@ -1,85 +1,85 @@
 ---
-title: Composant Conteneur de formulaires (v 1)
-seo-title: Composant Conteneur de formulaires (v 1)
-description: Le composant Conteneur de formulaires de composants principaux permet la création de formulaires d'envoi simples.
-seo-description: Le composant Conteneur de formulaires de composants principaux permet la création de formulaires d'envoi simples.
-uuid: 075 d 83 ed-de 40-414 e-a 18 f -46 b 3 a 857 acba
+title: Composant de conteneur de formulaires (v1)
+seo-title: Composant de conteneur de formulaires (v1)
+description: Le composant de conteneur de formulaires des composants principaux permet la création de formulaires d’envoi simples.
+seo-description: Le composant de conteneur de formulaires des composants principaux permet la création de formulaires d’envoi simples.
+uuid: 075d83ed-de40-414e-a18f-46b3a857acba
 content-type: référence
-products: SG_ EXPERIENCEMANAGER/CORECOMPONENTS-NEW
-discoiquuid: Ad 800 c 064 e -2 ad 5-41 f 3-9 cef-b 025 a 555 efd 9
+products: SG_EXPERIENCEMANAGER/CORECOMPONENTS-new
+discoiquuid: 800c064e-2ad5-41f3-9cef-b025a555efd9
 index: n
-translation-type: tm+mt
-source-git-commit: 4e74f10e2a4119484a597178dc4577b399833dbf
+translation-type: ht
+source-git-commit: 632d6abb1f13667cc0457152268d50af3bfabfc4
 
 ---
 
 
-# Composant Conteneur de formulaires (v 1){#form-container-component-v}
+# Composant de conteneur de formulaires (v1){#form-container-component-v}
 
-Le composant Conteneur de formulaires de composants principaux permet la création de formulaires d&#39;envoi simples.
+Le composant de conteneur de formulaires des composants principaux permet la création de formulaires d’envoi simples.
 
 ## Utilisation {#usage}
 
-Le composant Conteneur de formulaires a permis la création de formulaires et de fonctionnalités d&#39;envoi d&#39;informations simples en prenant en charge les formulaires WCM simples et en utilisant une structure imbriquée pour permettre des composants de formulaire supplémentaires.
+Le composant de conteneur de formulaires a permis la création de formulaires et de fonctionnalités d’envoi d’informations simples en prenant en charge les formulaires WCM simples et en utilisant une structure imbriquée pour autoriser des composants de formulaire supplémentaires.
 
-En utilisant le [paramètre](form-container-v1.md#main-pars_title) de dialogue défini, l&#39;éditeur de contenu peut définir le type d&#39;envoi d&#39;envoi de formulaire d&#39;action, l&#39;emplacement du contenu envoyé et le déclenchement d&#39;un flux de travail. L&#39;auteur du modèle peut utiliser le dialogue [de conception](form-container-v1.md#main-pars_title_1995166862) pour définir les composants et leurs mappages similaires à la boîte de dialogue de conception du conteneur de dispositions [standard dans l&#39;éditeur de modèles](https://helpx.adobe.com/experience-manager/6-4/sites/authoring/using/templates.html#main-pars_title_1754153843).
+En utilisant la [boîte de dialogue de paramètres](form-container-v1.md#main-pars_title), l’éditeur de contenu peut définir le type d’action déclenché par l’envoi du formulaire, l’emplacement de stockage du contenu envoyé et si un workflow doit être déclenché. L’auteur du modèle peut utiliser la [boîte de dialogue de conception](form-container-v1.md#main-pars_title_1995166862) pour définir les composants autorisés et leurs mappages similaires à la boîte de dialogue de conception du [conteneur de mises en page standard dans l’éditeur de modèles](https://helpx.adobe.com/experience-manager/6-4/sites/authoring/using/templates.html#main-pars_title_1754153843).
 
 ## Version et compatibilité {#version-and-compatibility}
 
-Ce document décrit la version v 1 du composant Conteneur de formulaires, introduite à l&#39;origine avec la version 1.0.0 des composants principaux avec AEM 6.3.
+Ce document décrit la version v1 du composant de conteneur de formulaires, introduite à l’origine avec la version 1.0.0 des composants principaux avec AEM 6.3.
 
-Le tableau suivant répertorie la compatibilité de la version v 1 du composant Conteneur de formulaires.
+Le tableau ci-après répertorie la compatibilité de la version v1 du composant de conteneur de formulaires.
 
-| Version d’AEM | Composant de conteneur de formulaires v 1 |
+| Version d’AEM | Composant de conteneur de formulaires v1 |
 |--- |--- |
 | 6.3 | Compatible |
 | 6.4 | Compatible |
 
 >[!CAUTION]
 >
->Ce document décrit la version v 1 du composant Conteneur de formulaires.
+>Ce document décrit la version v1 du composant de conteneur de formulaires.
 >
->Pour plus d&#39;informations sur la version actuelle du composant Conteneur de formulaires, voir [le document Composant](form-container.md) du conteneur de formulaires.
+>Pour plus d’informations sur la version actuelle du composant de conteneur de formulaires, voir le document [Composant de conteneur de formulaires](form-container.md).
 
-## Dialogue Paramètres {#settings-dialog}
+## Boîte de dialogue de paramètres {#settings-dialog}
 
-Le dialogue des paramètres permet à l&#39;auteur de contenu de définir les actions effectuées lors de l&#39;envoi du composant.
+La boîte de dialogue de paramètres permet à l’auteur de contenu de définir les actions entreprises lors de l’envoi du composant.
 
 ![](assets/chlimage_1.png)
 
-Selon le type **d&#39;action sélectionné**, les options disponibles dans le conteneur changent. Les types d&#39;action disponibles sont les suivants :
+Selon le **type d’action** sélectionné, les options disponibles dans le conteneur changent. Les types d’actions disponibles sont les suivants :
 
 * [Courrier](form-container-v1.md#main-pars_title_966511656)
 * [Stocker le contenu](form-container-v1.md#main-pars_title_2065985840)
 * [Envoyer la commande](form-container-v1.md#main-pars_title_686874527)
 * [Mettre à jour la commande](form-container-v1.md#main-pars_title_410109286)
 
-Quel que soit le type, il existe des paramètres [généraux](form-container-v1.md#main-pars_title_375403046) qui s&#39;appliquent à chaque action.
+Quel que soit le type, il existe des [paramètres généraux](form-container-v1.md#main-pars_title_375403046) qui s’appliquent à chaque action.
 
 ### Courrier {#mail}
 
-Lorsque le formulaire est envoyé, le type d&#39;action Courrier électronique envoie un courrier électronique aux destinataires désignés.
+Lorsque le formulaire est envoyé, le type d’action courrier envoie un e-mail aux destinataires désignés.
 
 ![](assets/chlimage_1-1.png)
 
-* **Objet** - Objet du courrier électronique qui sera envoyé lors de l&#39;envoi du formulaire
-* **From** - The from email address of the email that will be send on form envoi
-* **To** - Adresse des destinataires qui recevront un courrier électronique lors de l&#39;envoi du formulaire
-   * Appuyez sur le bouton **Ajouter** ou cliquez dessus pour ajouter d&#39;autres adresses.
-   * Appuyez sur le bouton **Supprimer** ou cliquez dessus pour supprimer une adresse électronique.
-* **CC** - Les adresses des destinataires qui recevront une copie carbone du courrier électronique envoyé lors de l&#39;envoi du formulaire
-   * Appuyez sur le bouton **Ajouter** ou cliquez dessus pour ajouter d&#39;autres adresses.
-   * Appuyez sur le bouton **Supprimer** ou cliquez dessus pour supprimer une adresse électronique.
+* **Objet** : objet de l’e-mail qui sera envoyé lors de l’envoi du formulaire.
+* **De** : adresse e-mail de l’expéditeur de l’e-mail qui sera envoyé lors de l’envoi du formulaire.
+* **À** : adresse des destinataires qui recevront un e-mail lors de l’envoi du formulaire.
+   * Appuyez ou cliquez sur le bouton **Ajouter** pour ajouter d’autres adresses.
+   * Appuyez ou cliquez sur le bouton **Supprimer** pour supprimer une adresse e-mail.
+* **Cc** : adresses des destinataires qui recevront une copie carbone de l’e-mail envoyé lors de l’envoi du formulaire.
+   * Appuyez ou cliquez sur le bouton **Ajouter** pour ajouter d’autres adresses.
+   * Appuyez ou cliquez sur le bouton **Supprimer** pour supprimer une adresse e-mail.
 
 ### Stocker le contenu {#store-content}
 
-Lorsque le formulaire est envoyé, le contenu du formulaire est stocké dans un emplacement référentiel désigné.
+Lorsque le formulaire est envoyé, le contenu du formulaire est stocké dans un emplacement de référentiel désigné.
 
 ![](assets/chlimage_1-2.png)
 
-* **Chemin de contenu** - Chemin du référentiel de contenu où le contenu envoyé est stocké
-* **Afficher les données** - Appuyez ou cliquez pour afficher les données envoyées stockées sous la forme JSON
-* **Démarrer le processus** : configurer pour démarrer un flux de travail avec le contenu stocké comme charge utile lors de l&#39;envoi du formulaire
+* **Chemin d’accès au contenu** : chemin d’accès au référentiel de contenu où le contenu envoyé est stocké.
+* **Afficher les données** : appuyez ou cliquez sur cette option pour afficher les données envoyées stockées sous la forme JSON.
+* **Démarrer le processus** : configurez cette option pour démarrer un workflow avec le contenu stocké comme charge utile lors de l’envoi du formulaire.
 
 ### Envoyer la commande {#submit-order}
 
@@ -95,24 +95,24 @@ Lorsque le formulaire est envoyé, la commande est mise à jour.
 
 ### Paramètres généraux {#general-settings}
 
-Quelle que soit le type d&#39;action sélectionné, une page de remerciement peut toujours être définie.
+Quelle que soit le type d’action sélectionné, une page de remerciement peut toujours être définie.
 
 ![](assets/chlimage_1-5.png)
 
-L&#39;utilisateur est redirigé vers la page spécifiée une fois l&#39;envoi du formulaire terminé.
+L’utilisateur est redirigé vers la page spécifiée une fois l’envoi du formulaire terminé.
 
-* Utilisez le dialogue de sélection pour sélectionner une ressource dans AEM.
-* Si la page de remerciement ne figure pas dans AEM, indiquez l&#39;URL absolue. Les URL non absolues seront interprétées par rapport à AEM.
+* Utilisez la boîte de dialogue de sélection pour sélectionner une ressource dans AEM.
+* Si la page de remerciement ne figure pas dans AEM, indiquez l’URL absolue. Les URL non absolues seront interprétées par rapport à AEM.
 * Laissez vide pour réafficher le formulaire après envoi.
 
-## Créer un dialogue {#design-dialog}
+## Boîte de dialogue de conception {#design-dialog}
 
-Le dialogue de conception permet à l&#39;auteur du modèle de définir les composants autorisés et leurs correspondances pour le conteneur du même type que la boîte de dialogue de conception du conteneur de dispositions [standard dans l&#39;éditeur de modèles](https://helpx.adobe.com/experience-manager/6-4/sites/authoring/using/templates.html#main-pars_title_1754153843).
+La boîte de dialogue de conception permet à l’auteur du modèle de définir les composants autorisés et leurs mappages pour le conteneur similaires à la boîte de dialogue de conception du [conteneur de mises en page standard dans l’éditeur de modèles](https://helpx.adobe.com/experience-manager/6-4/sites/authoring/using/templates.html#main-pars_title_1754153843).
 
 ## Détails techniques {#technical-details}
 
-Vous trouverez la documentation technique la plus récente sur le composant [de conteneur de formulaires sur github](https://github.com/adobe/aem-core-wcm-components/tree/master/content/src/content/jcr_root/apps/core/wcm/components/form/container/v1/container).
+Vous trouverez la documentation technique la plus récente sur le composant de conteneur de formulaires [sur GitHub](https://github.com/adobe/aem-core-wcm-components/tree/master/content/src/content/jcr_root/apps/core/wcm/components/form/container/v1/container).
 
-Le projet de composants principaux peut être téléchargé depuis github.
+Le projet sur les composants principaux peut être téléchargé depuis GitHub.
 
-Vous trouverez plus d&#39;informations sur le développement des composants principaux dans la documentation destinée aux développeurs de composants [principaux](developing.md).
+Vous trouverez plus d’informations sur le développement des composants principaux dans la [documentation destinée aux développeurs de composants principaux](developing.md).
