@@ -1,12 +1,12 @@
 ---
-title: Composant Options de formulaire (v 1)
-seo-title: Composant Options de formulaire (v 1)
+title: Composant des options de formulaire (v1)
+seo-title: Composant des options de formulaire (v1)
 description: 'null'
-seo-description: Le composant des options Formulaire de base permet la sélection d'options prédéfinies dans divers formats.
-uuid: a 22 ed 77 c-c 9 f 3-46 f 4-8 afe-e 478383 c 1251
+seo-description: Le composant des options de formulaire des composants principaux permet la sélection d’options prédéfinies dans divers formats.
+uuid: a22ed77c-c9f3-46f4-8afe-e478383c1251
 content-type: référence
-products: SG_ EXPERIENCEMANAGER/CORECOMPONENTS-NEW
-discoiquuid: e 1975 bfe -2 bda -409 a -998 e -1 ff 4 f 9 f 23 b 94
+products: SG_EXPERIENCEMANAGER/CORECOMPONENTS-new
+discoiquuid: e1975bfe-2bda-409a-998e-1ff4f9f23b94
 disttype: dist5
 gnavtheme: light
 groupsectionnavitems: non
@@ -17,27 +17,27 @@ noindex: 'true'
 index: n
 internal: n
 snippet: y
-translation-type: tm+mt
-source-git-commit: 4e74f10e2a4119484a597178dc4577b399833dbf
+translation-type: ht
+source-git-commit: 632d6abb1f13667cc0457152268d50af3bfabfc4
 
 ---
 
 
-# Composant Options de formulaire (v 1){#form-options-component-v}
+# Composant des options de formulaire (v1){#form-options-component-v}
 
-Le composant des options Formulaire de base permet la sélection d&#39;options prédéfinies dans divers formats.
+Le composant des options de formulaire des composants principaux permet la sélection d’options prédéfinies dans divers formats.
 
 ## Utilisation {#usage}
 
-Le composant Options de formulaire de composant principal permet l&#39;envoi de différents types d&#39;options présentés de différentes manières et destinées à être utilisés avec le composant de conteneur [de formulaires](form-container.md).
+Le composant des options de formulaire des composants principaux permet l’envoi de différents types d’options présentés de différentes manières. Il est destiné à être utilisé avec le [composant de conteneur de formulaires](form-container.md).
 
-La présentation des options, des étiquettes et des options individuelles peut être définie par l&#39;éditeur de contenu dans [la boîte de dialogue Configurer](form-options-v1.md#main-pars_title).
+La présentation des options, des étiquettes et des options individuelles peut être définie par l’éditeur de contenu dans la [boîte de dialogue de configuration](form-options-v1.md#main-pars_title).
 
 ## Version et compatibilité {#version-and-compatibility}
 
-Ce document décrit la version v 1 du composant Options de formulaire, introduite à l&#39;origine avec la version 1.0.0 des composants principaux avec AEM 6.3.
+Ce document décrit la version v1 du composant des options de formulaire, introduite à l’origine avec la version 1.0.0 des composants principaux avec AEM 6.3.
 
-Le tableau suivant répertorie la compatibilité de la version v 1 du composant Options de formulaire.
+Le tableau ci-après répertorie la compatibilité de la version v1 du composant des options de formulaire.
 
 | Version du composant | AEM 6.3 | AEM 6.4 |
 |--- |--- |--- |
@@ -46,13 +46,13 @@ Le tableau suivant répertorie la compatibilité de la version v 1 du composant 
 
 >[!CAUTION]
 >
->Ce document décrit la version v 1 du composant Options de formulaire.
+>Ce document décrit la version v1 du composant des options de formulaire.
 >
->Pour plus d&#39;informations sur la version actuelle du composant Options de formulaire, voir [le document Composant](form-options.md) Options de formulaire.
+>Pour plus d’informations sur la version actuelle du composant des options de formulaire, voir le document [Composant des options de formulaire](form-options.md).
 
 ## Exemple de sortie de composant {#sample-component-output}
 
-Voici un exemple tiré de [We. Retail](https://helpx.adobe.com/experience-manager/6-4/sites/developing/using/we-retail.html).
+Voici un exemple tiré de [We.Retail](https://helpx.adobe.com/experience-manager/6-4/sites/developing/using/we-retail.html).
 
 ### Capture d’écran {#screenshot}
 
@@ -122,47 +122,47 @@ Voici un exemple tiré de [We. Retail](https://helpx.adobe.com/experience-manage
 
 >[!NOTE]
 >
->L&#39;exportation JSON à partir des composants principaux nécessite la version 1.1.0 des composants principaux. Pour plus d&#39;informations, consultez les [informations de compatibilité des composants principaux v 1](versions.md#main-pars_title_236368006) .
+>L’exportation JSON à partir des composants principaux nécessite la version 1.1.0 des composants principaux. Pour plus d’informations, voir les [informations de compatibilité des composants principaux v1](versions.md#main-pars_title_236368006).
 
-## Configurer le dialogue {#configure-dialog}
+## Boîte de dialogue de configuration {#configure-dialog}
 
-La boîte de dialogue Configurer permet à l&#39;auteur de contenu de définir le type d&#39;options qui doivent être présentées, les étiquettes et les options disponibles.
+La boîte de dialogue de configuration permet à l’auteur de contenu de définir le type d’options qui doit être présenté, les étiquettes et les options disponibles.
 
 ![](assets/chlimage_1-90.png)
 
 * **Types**
-de présentation des options
+Présentation des options.
 
    * **Cases à cocher**
    * **Boutons radio**
    * **Liste déroulante**
    * **Liste déroulante à sélection multiple**
 
-* **Titre** - Titre qui s&#39;affiche comme libellé pour les options
-* **Nom** : nom du champ envoyé avec les données du formulaire.
-* **Source** - Définition des options
+* **Titre** : titre qui s’affiche comme libellé pour les options.
+* **Nom** : nom du champ qui est envoyé avec les données de formulaire.
+* **Source** : emplacement de définition des options.
 
-   * **Local** - Défini dans le composant
-      * Appuyez ou cliquez sur le bouton **Ajouter** pour ajouter une valeur, **Supprimer** pour supprimer une valeur.
-      * **Valeur** - valeur enregistrée lorsque cette option est sélectionnée lors de l&#39;envoi du formulaire
-      * **Texte** - Libellé de l&#39;option affichée sur le formulaire
-      * **Actif** : l&#39;option est marquée comme étant sélectionnée lors du chargement du formulaire
-      * **Désactivé** - L&#39;option n&#39;est pas sélectionnable mais toujours affichée
-      * **Liste** - Une liste statique définie ailleurs dans AEM est utilisée pour l&#39;option
-         * **Liste** - Chemin d&#39;accès de la liste statique dans AEM
-            * Utilisez le bouton Parcourir pour localiser la ressource de liste
-      * **Source de données** : une source de données est utilisée pour les options
-         * **Source de données** - type de ressource de la source de données
-* **Message d&#39;aide** - Conseil de l&#39;utilisateur pour ce qui peut être saisi dans le champ
+   * **Local** : défini dans le composant.
+      * Appuyez ou cliquez sur le bouton **Ajouter** pour ajouter une valeur. Sinon, appuyez ou cliquez sur **Supprimer** pour supprimer une valeur.
+      * **Valeur** : valeur enregistrée lorsque cette option est sélectionnée lors de l’envoi du formulaire.
+      * **Texte** : libellé de l’option affichée sur le formulaire.
+      * **Active** : l’option est marquée comme étant sélectionnée lors du chargement du formulaire.
+      * **Désactivé** : l’option n’est pas sélectionnable mais toujours affichée.
+      * **Liste** : liste statique définie ailleurs dans AEM est utilisée pour l’option.
+         * **Liste** : chemin d’accès à la liste statique dans AEM.
+            * Utilisez le bouton Parcourir pour localiser la ressource de liste.
+      * **Source de données** : une source de données est utilisée pour les options.
+         * **Source de données** : type de ressource de la source de données.
+* **Message d’aide** : conseil à l’intention de l’utilisateur sur ce qui peut être entré dans le champ.
 
-## Créer un dialogue {#design-dialog}
+## Boîte de dialogue de conception {#design-dialog}
 
-Il n&#39;existe pas de dialogue de conception pour le composant Options de formulaire.
+Il n’existe pas de boîte de dialogue de conception pour le composant des options de formulaire.
 
 ## Détails techniques {#technical-details}
 
-Vous trouverez la documentation technique la plus récente sur le composant [Options de formulaire sur github](https://github.com/adobe/aem-core-wcm-components/tree/master/content/src/content/jcr_root/apps/core/wcm/components/form/options/v1/options).
+Vous trouverez la documentation technique la plus récente sur le composant des options de formulaire [sur GitHub](https://github.com/adobe/aem-core-wcm-components/tree/master/content/src/content/jcr_root/apps/core/wcm/components/form/options/v1/options).
 
-Le projet de composants principaux peut être téléchargé depuis github.
+Le projet sur les composants principaux peut être téléchargé depuis GitHub.
 
-Vous trouverez plus d&#39;informations sur le développement des composants principaux dans la documentation destinée aux développeurs de composants [principaux](developing.md).
+Vous trouverez plus d’informations sur le développement des composants principaux dans la [documentation destinée aux développeurs de composants principaux](developing.md).
