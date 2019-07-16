@@ -1,49 +1,49 @@
 ---
-title: Composant Title (v 1)
-seo-title: Composant Title (v 1)
-description: Le composant de titre de composant principal est un composant d'en-tête de section qui comporte des fonctions d'édition statique.
-seo-description: Le composant de titre de composant principal est un composant d'en-tête de section qui comporte des fonctions d'édition statique.
-uuid: 5 c 4 d 276 c-f 0 be -4122-a 15 e -3 f 7443 d 8 b 209
+title: Composant du titre (v1)
+seo-title: Composant du titre (v1)
+description: Le composant du titre des composants principaux est un composant d’en-tête de section qui comporte des fonctions d’édition statique.
+seo-description: Le composant du titre des composants principaux est un composant d’en-tête de section qui comporte des fonctions d’édition statique.
+uuid: 5c4d276c-f0be-4122-a15e-3f7443d8b209
 content-type: référence
-products: SG_ EXPERIENCEMANAGER/CORECOMPONENTS-NEW
-discoiquuid: a 028 ebef -2957-410 c -9 bab-a 7040 c 350 f 2 f
+products: SG_EXPERIENCEMANAGER/CORECOMPONENTS-new
+discoiquuid: a028ebef-2957-410c-9bab-a7040c350f2f
 index: n
-translation-type: tm+mt
-source-git-commit: 4e74f10e2a4119484a597178dc4577b399833dbf
+translation-type: ht
+source-git-commit: 632d6abb1f13667cc0457152268d50af3bfabfc4
 
 ---
 
 
-# Composant Title (v 1){#title-component-v}
+# Composant du titre (v1){#title-component-v}
 
-Le composant de titre de composant principal est un composant d&#39;en-tête de section qui comporte des fonctions d&#39;édition statique.
+Le composant du titre des composants principaux est un composant d’en-tête de section qui comporte des fonctions d’édition statique.
 
 ## Utilisation {#usage}
 
-Le composant Titre est conçu pour être utilisé comme titre ou en-tête d&#39;une section de contenu.
+Le composant du titre est conçu pour être utilisé comme titre ou en-tête d’une section de contenu.
 
-Les niveaux d&#39;en-tête disponibles peuvent être définis par l&#39;auteur du modèle dans la boîte de dialogue [de conception](title-v1.md#main-pars_title_1995166862). L&#39;éditeur de contenu peut sélectionner les niveaux d&#39;en-têtes disponibles dans la boîte de dialogue [Modifier](title-v1.md#main-pars_title). Pour plus de commodité, une simple modification en place du texte d&#39;en-tête est également disponible.
+Les niveaux d’en-tête disponibles peuvent être définis par l’auteur du modèle dans la [boîte de dialogue de conception](title-v1.md#main-pars_title_1995166862). L’éditeur de contenu peut sélectionner les niveaux d’en-têtes disponibles dans la [boîte de dialogue de modification](title-v1.md#main-pars_title). Pour plus de commodité, une simple modification statique du texte d’en-tête est également disponible.
 
 ## Version et compatibilité {#version-and-compatibility}
 
-Ce document décrit la version v 1 du composant Titre, introduite à l&#39;origine avec la version 1.0.0 des composants principaux avec AEM 6.3.
+Ce document décrit la version v1 du composant du titre, introduite à l’origine avec la version 1.0.0 des composants principaux avec AEM 6.3.
 
-Le tableau suivant répertorie la compatibilité de la version v 1 du composant Titre.
+Le tableau suivant répertorie la compatibilité de la version v1 du composant Titre.
 
-| Version d’AEM | Composant de titre v 1 |
+| Version d’AEM | Composant Titre v1 |
 |--- |--- |
 | 6.3 | Compatible |
 | 6.4 | Compatible |
 
 >[!CAUTION]
 >
->Ce document décrit la version 1 du composant Titre.
+>Ce document décrit la version 1 du composant Titre.
 >
->Pour plus d&#39;informations sur la version actuelle du composant Titre, voir [le document Composant](title.md) Titre.
+>Pour plus d’informations sur la version actuelle du composant Titre, voir le document [Composant Titre](title.md).
 
 ## Exemple de sortie de composant {#sample-component-output}
 
-Voici un exemple tiré de [We. Retail](https://helpx.adobe.com/experience-manager/6-4/sites/developing/using/we-retail.html).
+Voici un exemple tiré de [We.Retail](https://helpx.adobe.com/experience-manager/6-4/sites/developing/using/we-retail.html).
 
 ### Capture d’écran {#screenshot}
 
@@ -70,32 +70,32 @@ Voici un exemple tiré de [We. Retail](https://helpx.adobe.com/experience-manage
 
 >[!NOTE]
 >
->L&#39;exportation JSON à partir des composants principaux nécessite la version 1.1.0 des composants principaux. Pour plus d&#39;informations, consultez les [informations de compatibilité des composants principaux v 1](versions.md#main-pars_title_236368006) .
+>L’exportation JSON à partir des composants principaux nécessite la version 1.1.0 des composants principaux. Pour plus d’informations, voir les [informations de compatibilité des composants principaux v1](versions.md#main-pars_title_236368006).
 
-## Modifier le dialogue {#edit-dialog}
+## Boîte de dialogue de modification {#edit-dialog}
 
-Le dialogue Modifier permet à l&#39;auteur de contenu de définir le texte du titre et de sélectionner le niveau de titre.
+La boîte de dialogue de modification permet à l’auteur de contenu de définir le texte du titre et de sélectionner le niveau de titre.
 
 >[!NOTE]
 >
->Une valeur vide pour le titre provoque l&#39;affichage du titre de la page.
+>Une valeur vide pour le titre provoque l’affichage du titre de la page.
 
 ![](assets/chlimage_1-91.png)
 
-L&#39;éditeur statique peut également être utilisé pour modifier le texte du composant de titre.
+L’éditeur statique peut également être utilisé pour modifier le texte du composant du titre.
 
 ![](assets/chlimage_1-37.png)
 
-## Créer un dialogue {#design-dialog}
+## Boîte de dialogue de conception {#design-dialog}
 
-Le dialogue de conception permet à l&#39;auteur du modèle de définir le niveau d&#39;en-tête par défaut que les composants de titre auront lorsqu&#39;ils sont créés par les auteurs de contenu.
+La boîte de dialogue de conception permet à l’auteur du modèle de définir le niveau d’en-tête par défaut que les composants de titre auront lorsqu’ils sont créés par les auteurs de contenu.
 
 ![](assets/chlimage_1-92.png)
 
 ## Détails techniques {#technical-details}
 
-Vous trouverez la documentation technique la plus récente sur le composant [de titre sur github](https://github.com/adobe/aem-core-wcm-components/tree/master/content/src/content/jcr_root/apps/core/wcm/components/title/v1/title).
+Vous trouverez la documentation technique la plus récente sur le composant Titre [sur GitHub](https://github.com/adobe/aem-core-wcm-components/tree/master/content/src/content/jcr_root/apps/core/wcm/components/title/v1/title).
 
-Le projet de composants principaux peut être téléchargé depuis github.
+Le projet sur les composants principaux peut être téléchargé depuis GitHub.
 
-Vous trouverez plus d&#39;informations sur le développement des composants principaux dans la documentation destinée aux développeurs de composants [principaux](developing.md).
+Vous trouverez plus d’informations sur le développement des composants principaux dans la [documentation destinée aux développeurs de composants principaux](developing.md).
