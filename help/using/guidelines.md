@@ -96,7 +96,7 @@ Lorsqu’elle est combinée avec le [modèle de composant proxy](#proxy-componen
 
 ## Assemblage {#putting-it-all-together}
 
-Vous trouverez ci-dessous un aperçu de la structure entière de liaison de type de ressource, en prenant l’exemple du composant principal du titre. Il illustre la manière dont un composant proxy spécifique au site permet de résoudre le contrôle des composants, afin d’éviter que la ressource de contenu contienne un numéro de version. Il indique ensuite comment le fichier `title.html`HTL[https://helpx.adobe.com/experience-manager/htl/using/overview.html]() du composant utilise l’interface du modèle, tandis que l’implémentation est liée à la version spécifique du composant via les annotations du [modèle Sling modelhttps://sling.apache.org/documentation/bundles/models.html]().
+Vous trouverez ci-dessous un aperçu de la structure entière de liaison de type de ressource, en prenant l’exemple du composant principal du titre. Il illustre la manière dont un composant proxy spécifique au site permet de résoudre le contrôle des composants, afin d’éviter que la ressource de contenu contienne un numéro de version. Il indique ensuite comment le fichier `title.html` [HTL](https://helpx.adobe.com/experience-manager/htl/using/overview.html) du composant utilise l’interface du modèle, tandis que l’implémentation est liée à la version spécifique du composant via les annotations du [modèle Sling model](https://sling.apache.org/documentation/bundles/models.html).
 
 ![Présentation de la liaison des ressources](assets/chlimage_1-32.png)
 
