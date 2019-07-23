@@ -43,7 +43,7 @@ Les employés d’Adobe ayant un autre profil doivent utiliser le référentiel 
 
 Les contributeurs de la communauté peuvent utiliser l’interface utilisateur de GitHub pour les modifications de base ou dupliquer (fork) le référentiel pour apporter des contributions majeures.
 
-Pour obtenir une présentation sur l’utilisation de la plate-forme de création GitHub, consultez le [Guide du contributeur Adobe Docs]().
+Pour obtenir une présentation sur l’utilisation de la plate-forme de création GitHub, consultez le [Guide du contributeur Adobe Docs](https://docs.adobe.com/help/en/contributor/contributor-guide/introduction.html).
 
 ## Utilisation du langage Markdown pour mettre en forme votre sujet
 
