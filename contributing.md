@@ -1,5 +1,5 @@
 ---
-source-git-commit: 632d6abb1f13667cc0457152268d50af3bfabfc4
+source-git-commit: 69124c62893f1e74714d04a5edaaa9fe80033c8d
 translation-type: ht
 
 ---
@@ -23,7 +23,7 @@ Votre contribution dépend de votre rôle et du type de modification que vous so
 
 ### Modifications mineures
 
-Pour soumettre des mises à jour mineures, cliquez sur le lien **Edit** (Modifier) dans un article afin d’ouvrir l’article source dans GitHub. Utilisez l’interface utilisateur de GitHub pour effectuer vos mises à jour. Voir le [Guide du contributeur de la documentation Adobe](https://docs.adobe.com/help/fr/contributor/contributor-guide/introduction.html) pour plus d’informations.
+Pour soumettre des mises à jour mineures, cliquez sur le lien **Edit** (Modifier) dans un article afin d’ouvrir l’article source dans GitHub. Utilisez l’interface utilisateur de GitHub pour effectuer vos mises à jour. Voir le [Guide du contributeur de la documentation Adobe](https://docs.adobe.com/help/en/contributor/contributor-guide/introduction.html) pour plus d’informations.
 
 Les corrections mineures ou les clarifications que vous soumettez pour la documentation et les exemples de code dans ce référentiel sont couverts par les conditions d’utilisation d’Adobe.
 
