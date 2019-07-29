@@ -9,7 +9,7 @@ content-type: référence
 topic-tags: introduction
 products: SG_EXPERIENCEMANAGER/CORECOMPONENTS-new
 discoiquuid: a3a98b2f-65bf-4493-82ad-01717938fdbc
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 144494c03ffed068b403d80f62fdfddc73a53748
 
 ---
@@ -31,7 +31,7 @@ Les composants principaux sont disponibles avec les versions AEM définies avec 
 
 ### Versions {#versions}
 
-Les **versions principales constituent l&#39;itération majeure des composants principaux**. Chaque composant possède une version. Les versions sont signalées avec **la valeur v** inscrite avec un entier positif non nul, comme v1 et v2. Les versions ne sont incrémentées que pour les modifications qui ne sont pas rétrocompatibles, ce qui est normalement le cas pour l’introduction de nouvelles fonctionnalités et fonctions.
+Les **versions principales constituent l’itération majeure des composants principaux**. Chaque composant possède une version. Les versions sont signalées avec la valeur **v** inscrite avec un entier positif non nul, comme v1 et v2. Les versions ne sont incrémentées que pour les modifications qui ne sont pas rétrocompatibles, ce qui est normalement le cas pour l’introduction de nouvelles fonctionnalités et fonctions.
 
 Les développeurs et les administrateurs peuvent reconnaître les versions des composants principaux par un numéro figurant dans leurs chemins d’accès aux types de ressources et dans les noms de classe Java pleinement qualifiés de leurs implémentations. Ce numéro de version représente une version majeure définie par [les directives de contrôle de version sémantique](https://semver.org/).
 
@@ -39,13 +39,13 @@ Pour plus d’informations sur les versions des composants principaux, voir la [
 
 ### Mises à jour {#releases}
 
-The core components are made available through **releases** and [represent the actual published artifacts available on GitHub](https://github.com/adobe/aem-core-wcm-components/releases). Les versions sont signalées par un nombre décimal du format X.Y.Z et rassemblent tous les composants principaux en tant que package livrable.
+Les composants principaux sont disponibles via **les mises à jour** et [représentent les artefacts publiés réels disponibles sur GitHub](https://github.com/adobe/aem-core-wcm-components/releases). Les versions sont signalées par un nombre décimal du format X.Y.Z et rassemblent tous les composants principaux en tant que package livrable.
 
-* **Les mises à jour majeures** peuvent introduire de nouvelles versions des composants existants avec des composants entièrement nouveaux ainsi que des correctifs standards. Elles sont représentées par un incrément dans le composant X du nombre de version.
+* **Les mises à jour majeures** peuvent introduire de nouvelles versions des composants existants avec des composants entièrement nouveaux ainsi que des correctifs standards. Elles sont représentées par un incrément dans le composant X du numéro de version.
 
-* **Les mises à jour importantes** peuvent introduire de nouvelles fonctionnalités aux versions existantes des composants, ainsi que des correctifs. Elles sont représentées par un incrément dans le composant Y du nombre de version.
+* **Les mises à jour importantes** peuvent introduire de nouvelles fonctionnalités aux versions existantes des composants, ainsi que des correctifs. Elles sont représentées par un incrément dans le composant Y du numéro de version.
 
-* **Les mises à jour mineures** contiennent uniquement des correctifs. Elles sont représentées par un incrément dans le composant Z du nombre de version.
+* **Les mises à jour mineures** contiennent uniquement des correctifs. Elles sont représentées par un incrément dans le composant Z du numéro de version.
 
 >[!NOTE]
 >
@@ -85,7 +85,7 @@ Le tableau suivant, dont le contenu est [disponible sur GitHub avec les détails
 >
 >Comme avec AEM, Adobe conseille aux développeurs d’utiliser la [mise à jour et les versions les plus récentes disponibles des composants principaux](https://github.com/adobe/aem-core-wcm-components/releases/latest), compatibles avec la version d’AEM qu’ils exécutent pour bénéficier des correctifs et fonctionnalités les plus récents.
 
-### Component Versions &amp; Releases {#component-versions-and-releases}
+### Versions et versions des composants {#component-versions-and-releases}
 
 Le tableau suivant répertorie les versions des composants contenus dans les versions des composants principaux.
 
@@ -97,7 +97,7 @@ Le tableau suivant répertorie les versions des composants contenus dans les ver
 | **[Liste](list.md)** | v1 | v1 | v1, v2 | v1, v2 | v1, v2 | v1, v2 |
 | **[Chemin de navigation](breadcrumb.md)** | v1 | v1 | v1, v2 | v1, v2 | v1, v2 | v1, v2 |
 | **[Partage sur les réseaux sociaux](sharing.md)** | v1 | v1 | v1 | v1 | v1 | v1 |
-| **[Formular-Container](form-container.md)** | v1 | v1 | v1, v2 | v1, v2 | v1, v2 | v1, v2 |
+| **[Conteneur de formulaires](form-container.md)** | v1 | v1 | v1, v2 | v1, v2 | v1, v2 | v1, v2 |
 | **[Texte du formulaire](form-text.md)** | v1 | v1 | v1, v2 | v1, v2 | v1, v2 | v1, v2 |
 | **[Options du formulaire](form-options.md)** | v1 | v1 | v1, v2 | v1, v2 | v1, v2 | v1, v2 |
 | **[Formulaire masqué](form-hidden.md)** | v1 | v1 | v1, v2 | v1, v2 | v1, v2 | v1, v2 |
