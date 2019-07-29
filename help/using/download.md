@@ -1,100 +1,100 @@
 ---
-title: Télécharger le composant
-seo-title: Télécharger le composant
+title: Composant de téléchargement
+seo-title: Composant de téléchargement
 description: 'null'
-seo-description: Le composant Téléchargement de composant principal permet la création d'une option de téléchargement sur une page.
+seo-description: Le composant de téléchargement des composants principaux permet la création d’une option de téléchargement sur une page.
 uuid: ec807de9-f76c-4850-9ece-c3e439a1d626
 contentOwner: Utilisateur
 content-type: référence
 topic-tags: création
 products: SG_EXPERIENCEMANAGER/CORECOMPONENTS-new
 discoiquuid: f093f58e-9755-4a4f-803a-ab93a50e6870
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 88bc68b60e5de247fe800ac041ffefdf9238cce1
 
 ---
 
 
-# Download Component{#download-component}
+# Composant de téléchargement{#download-component}
 
-Le composant Téléchargement de composant principal permet la création d&#39;une option de téléchargement sur une page.
+Le composant de téléchargement des composants principaux permet la création d’une option de téléchargement sur une page.
 
 ## Utilisation {#usage}
 
-Le composant Téléchargement de composant principal permet l&#39;inclusion d&#39;une option de téléchargement et de son fichier associé sur une page.
+Le composant de téléchargement des composants principaux permet d’inclure une option de téléchargement et sa ressource associée dans une page.
 
-* The download option&#39;s properties can be selected in the [configure dialog](#configure-dialog).
-* Defaults for the download component can be defined in the [design dialog](#design-dialog).
+* Les propriétés de l’option de téléchargement peuvent être sélectionnées dans la [boîte de dialogue de configuration](#configure-dialog).
+* Les valeurs par défaut du composant de téléchargement peuvent être définies dans la [boîte de dialogue de conception](#design-dialog).
 
 ## Version et compatibilité {#version-and-compatibility}
 
-La version actuelle du composant Télécharger est v 1, qui a été introduite avec la version 2.5.0 des composants principaux en juin 2019 et est décrite dans ce document.
+La version actuelle du composant de téléchargement est v1, qui a été introduite avec la version 2.5.0 des composants principaux en février 2019. Elle est décrite dans ce document.
 
-Le tableau suivant détaille toutes les versions prises en charge du composant, les versions AEM avec lesquelles les versions du composant sont compatibles et les liens vers la documentation pour les versions précédentes.
+Le tableau ci-après présente en détail toutes les versions prises en charge du composant, les versions AEM avec lesquelles les versions du composant sont compatibles et les liens vers la documentation pour les versions précédentes.
 
-| Composant Version | AEM 6.3 | AEM 6.4 | AEM 6.5 |
+| Version du composant | AEM 6.3 | AEM 6.4 | AEM 6.5 |
 |--- |--- |--- |---|
 | v1 | Compatible | Compatible | Compatible |
 
-Pour plus d’informations sur les versions et les mises à jour des composants principaux, consultez le document sur les [versions des composants principaux](versions.md).
+Pour plus d’informations sur les versions et les publications des composants principaux, voir le document sur les [versions des composants principaux](versions.md).
 
 ## Exemple de sortie de composant {#sample-component-output}
 
-To experience the Download Component as well as see examples of its configuration options as well as HTML and JSON output, visit the [Component Library](http://opensource.adobe.com/aem-core-wcm-components/library/download.html).
+Pour tester le composant de téléchargement et obtenir des exemples d’options de configuration, ainsi que des sorties HTML et JSON, consultez la [Bibliothèque de composants](http://opensource.adobe.com/aem-core-wcm-components/library/separator.html).
 
 ## Détails techniques {#technical-details}
 
-The latest technical documentation about the Download Component [can be found on GitHub](https://github.com/adobe/aem-core-wcm-components/tree/master/content/src/content/jcr_root/apps/core/wcm/components/download/v1/download).
+Vous trouverez la documentation technique la plus récente sur le composant de téléchargement [sur GitHub](https://github.com/adobe/aem-core-wcm-components/blob/master/content/src/content/jcr_root/apps/core/wcm/components/separator/v1/separator).
 
 Vous trouverez plus d’informations sur le développement des composants principaux dans la [documentation destinée aux développeurs de composants principaux](developing.md).
 
-## Boîte de dialogue Configurer {#configure-dialog}
+## Boîte de dialogue de configuration {#configure-dialog}
 
-La configuration de la boîte de dialogue permet à l&#39;auteur du contenu de définir l&#39;élément de téléchargement et son comportement et d&#39;apparaître pour un visiteur sur la page.
+La boîte de dialogue de configuration permet à l’auteur du contenu de définir l’élément de téléchargement et la façon dont il se comporte et apparaît pour un visiteur sur la page.
 
 ![](assets/screen-shot-2019-06-17-09.49.14.png)
 
 ### Onglet Ressources {#asset-tab}
 
-The selection of a download asset is very similar to the functionality of the [Image Component](image.md) and likewise leverages AEM&#39;s DAM.
+La sélection d’une ressource de téléchargement est très similaire à la fonctionnalité du [composant d’image](image.md) et utilise également la fonctionnalité DAM d’AEM.
 
 * **Télécharger la ressource**
-   * Drop an asset from the [asset browser](https://helpx.adobe.com/experience-manager/6-5/sites/authoring/using/author-environment-tools.html) or tap the **browse** option to upload from a local file system.
+   * Déposez un fichier depuis l’[explorateur de ressources](https://helpx.adobe.com/fr/experience-manager/6-5/sites/authoring/using/author-environment-tools.html) ou appuyez sur l’option **parcourir** pour effectuer un téléchargement à partir d’un système de fichiers local.
    * Appuyez ou cliquez sur **Effacer** pour désélectionner l’image actuellement sélectionnée.
-   * Tap or click **Edit** to [mange the renditions of the asset](https://helpx.adobe.com/experience-manager/6-5/assets/using/managing-assets-touch-ui.html) in the asset editor.
+   * Appuyez ou cliquez sur **Modifier** pour [gérer les rendus de la ressource](https://helpx.adobe.com/fr/experience-manager/6-5/assets/using/managing-assets-touch-ui.html) dans l’éditeur de ressources.
 
 ### Onglet Propriétés {#properties-tab}
 
 ![](assets/screen-shot-2019-06-17-09.49.51.png)
 
-* **Titre** - S&#39;affiche comme titre de l&#39;article de téléchargement
-   * **Obtenir le titre de la ressource** DAM : lorsqu&#39;il est sélectionné, le titre est automatiquement renseigné avec le titre du fichier DAM.
-* **Description** - S&#39;affiche sous forme de sous-titre descriptif de l&#39;élément de téléchargement
-   * **Obtenir la description de la ressource** DAM : lorsqu&#39;elle est sélectionnée, la description est automatiquement renseignée avec la description du fichier DAM.
-* **Texte de l&#39;action** : affiche le texte d&#39;action pour l&#39;élément de téléchargement
-   * Ce champ est requis lors du transfert d&#39;un fichier à partir du système de fichiers.
-   * **Afficher en ligne** : lorsque le texte d&#39;action fourni **est sélectionné, le texte** d&#39;action fourni s&#39;affiche en ligne.
+* **Titre**  : s’affiche sous forme de titre pour l’élément de téléchargement.
+   * **Obtenir le titre de la ressource DAM** : lorsqu’il est sélectionné, le titre est automatiquement renseigné avec celui de la ressource DAM.
+* **Description** : s’affiche sous forme de sous-titre descriptif de l’élément de téléchargement.
+   * **Obtenir la description de la ressource DAM** : lorsqu’elle est sélectionnée, la description est automatiquement renseignée avec la description de la ressource DAM.
+* **Texte d’action** : s’affiche sous forme de texte d’action pour l’élément de téléchargement.
+   * Ce champ est obligatoire lors du téléchargement d’une ressource depuis le système de fichiers.
+   * **Afficher en ligne** : lorsque cette option est sélectionnée, le **texte d’action** fourni s’affiche en ligne.
 
-## Boîte de dialogue Conception {#design-dialog}
+## Boîte de dialogue de conception {#design-dialog}
 
-Le dialogue de conception permet à l&#39;auteur du modèle de définir les options disponibles pour l&#39;auteur du contenu qui utilise le composant Télécharger.
+La boîte de dialogue de conception permet à l’auteur du modèle de définir les options disponibles pour l’auteur du contenu qui utilise le composant de téléchargement.
 
 ### Onglet Propriétés {#properties-tab-design}
 
 ![](assets/screen-shot-2019-06-17-10.04.31.png)
 
-* **Texte d&#39;action par défaut** : définit le texte **d&#39;action par défaut** fourni lorsqu&#39;un auteur ajoute le composant Télécharger à une page.
-* **Autoriser le téléchargement à partir du système** de fichiers : permet à l&#39;auteur du contenu de télécharger un fichier depuis son système de fichiers local comme actif de téléchargement.
-   * La valeur par défaut est désélectionnée.
-* **Type de titre** : élément HTML utilisé pour le titre du composant Télécharger.
-   * Si aucune valeur n&#39;est sélectionnée, la valeur par défaut est H 3.
-* **Taille du fichier d&#39;affichage** : lorsque la taille du fichier est sélectionnée, la taille du fichier est affichée dans le composant de téléchargement.
+* **Texte d’action par défaut** : définit le **texte d’action**  par défaut fourni lorsqu’un auteur ajoute le composant de téléchargement à une page.
+* **Autoriser le téléchargement à partir du système de fichiers** : permet à l’auteur du contenu de télécharger une ressource depuis son système de fichiers local comme ressource de téléchargement.
+   * La valeur par défaut n’est pas sélectionnée.
+* **Type de titre** : élément HTML utilisé pour le titre du composant de téléchargement.
+   * Si aucune valeur n’est sélectionnée, la valeur par défaut est H3.
+* **Afficher la taille du fichier** : lorsque cette option est sélectionnée, la taille de fichier de la ressource est affichée dans le composant de téléchargement.
    * La valeur par défaut est sélectionnée.
-* **Format du fichier d&#39;affichage** : lorsqu&#39;il est sélectionné, le format de fichier du fichier s&#39;affiche dans le composant de téléchargement.
+* **Afficher le format du fichier** : lorsque cette option est sélectionnée, le format de fichier de la ressource est affiché dans le composant de téléchargement.
    * La valeur par défaut est sélectionnée.
-* **Afficher le nom de fichier** : lorsqu&#39;il est sélectionné, le nom de fichier du fichier s&#39;affiche dans le composant de téléchargement.
+* **Afficher le nom de fichier** : lorsque cette option est sélectionnée, le nom de fichier de la ressource est affiché dans le composant de téléchargement.
    * La valeur par défaut est sélectionnée.
 
 ### Onglet Styles {#styles-tab}
 
-Le composant Image prend en charge le [système de style](authoring.md#component-styling) AEM.
+Le composant d’image prend en charge le [système de style](authoring.md#component-styling) AEM.
