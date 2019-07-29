@@ -3,7 +3,7 @@ cloud: experience-cloud
 product: composants principaux d’adobe experience manager
 archtype: Administrateur
 user-guide-title: Composants principaux AEM
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 330c0984d851ae4eac86e3423bb35edd8cfa644c
 
 ---
@@ -17,14 +17,14 @@ source-git-commit: 330c0984d851ae4eac86e3423bb35edd8cfa644c
 + Prise en main {#get-started}
    + [Création à l’aide des composants principaux](authoring.md)
    + [Utilisation des composants principaux](using.md)
-+ Les composants {#components}
++ Composants {#components}
    + [Accordéon](accordion.md)
    + [Chemin de navigation](breadcrumb.md)
    + [Bouton](button.md)
    + [Carrousel](carousel.md)
    + [Conteneur](container.md)
    + [Fragment de contenu](content-fragment-component.md)
-   + [Liste des fragments de contenu](content-fragment-list.md)
+   + [Liste de fragments de contenu](content-fragment-list.md)
    + [Télécharger](download.md)
    + [Image](image.md)
    + [Navigation par langue](language-navigation.md)
@@ -40,7 +40,7 @@ source-git-commit: 330c0984d851ae4eac86e3423bb35edd8cfa644c
    + [Titre](title.md)
    + Composants de formulaire {#forms}
       + [Bouton de formulaire](form-button.md)
-      + [Formular-Container](form-container.md)
+      + [Conteneur de formulaires](form-container.md)
       + [Formulaire masqué](form-hidden.md)
       + [Options du formulaire](form-options.md)
       + [Texte du formulaire](form-text.md)
@@ -59,6 +59,6 @@ source-git-commit: 330c0984d851ae4eac86e3423bb35edd8cfa644c
          + [Texte de formulaire (v1)](form-text-v1.md)
 + Développement {#developing}
    + [Développement des composants principaux](developing.md)
-   + [Didacticiel du développeur WKND](https://helpx.adobe.com/experience-manager/6-5/sites/developing/using/getting-started.html)
+   + [Tutoriel du développeur WKND](https://helpx.adobe.com/experience-manager/6-5/sites/developing/using/getting-started.html)
    + [Personnalisation des composants principaux](customizing.md)
    + [Instructions relatives aux composants](guidelines.md)
