@@ -1,110 +1,110 @@
 ---
-title: Composant accordéon
-seo-title: Composant accordéon
+title: Composant d’accordéon
+seo-title: Composant d’accordéon
 description: 'null'
-seo-description: Le composant Accordion Composant principal permet la création d'une collection de panneaux organisés dans un accordéon sur une page.
+seo-description: Le composant d’accordéon des composants principaux permet la création d’un ensemble de panneaux organisés dans un accordéon sur une page.
 uuid: ec807de9-f76c-4850-9ece-c3e439a1d626
 contentOwner: Utilisateur
 content-type: référence
 topic-tags: création
 products: SG_EXPERIENCEMANAGER/CORECOMPONENTS-new
 discoiquuid: f093f58e-9755-4a4f-803a-ab93a50e6870
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: bbd54d433cbeee5395dc8b90bc47f9b44747e25b
 
 ---
 
 
-# Accordion Component{#accordion-component}
+# Composant d’accordéon{#accordion-component}
 
-Le composant Accordion Composant principal permet la création d&#39;une collection de panneaux organisés dans un accordéon sur une page.
+Le composant d’accordéon des composants principaux permet la création d’un ensemble de panneaux organisés dans un accordéon sur une page.
 
 ## Utilisation {#usage}
 
-The Core Component Accordion component allows for the creation of a collection of components, composed as panels, and arranged in an accordion on a page, similar to the [Tabs Component](tabs.md), but allows for expanding and collapsing of the panels.
+Le composant d’accordéon des composants principaux permet la création d’un ensemble de composants, présentés sous forme de panneaux, et organisés dans un accordéon sur une page. Semblable au [composant Onglets](tabs.md), il autorise toutefois le développement et la réduction des panneaux.
 
-* The accordion&#39;s properties can be defined in the [configure dialog](#configure-dialog).
-* The order of the panels of the accordion can be defined in the configure dialog as well as the [select panel popover](#select-planel.md).
-* Defaults for the Accordion Component when adding it to a page can be defined in the [design dialog](#design-dialog).
+* Les propriétés de l’accordéon peuvent être définies dans la [boîte de dialogue de configuration](#configure-dialog).
+* L’ordre des panneaux de l’accordéon peut être défini dans la boîte de dialogue de configuration, ainsi que dans la [fenêtre contextuelle de sélection d’un panneau](#select-planel.md).
+* Les valeurs par défaut du composant d’accordéon lors de son ajout à une page peuvent être définies dans la [boîte de dialogue de conception](#design-dialog).
 
 ## Version et compatibilité {#version-and-compatibility}
 
-La version actuelle du composant Accordéon est v 1, qui a été introduite avec la version 2.5.0 des composants principaux en juin 2019 et est décrite dans ce document.
+La version actuelle du composant d’accordéon est v1, qui a été introduite avec la version 2.5.0 des composants principaux en février 2019. Elle est décrite dans ce document.
 
-Le tableau suivant détaille toutes les versions prises en charge du composant, les versions AEM avec lesquelles les versions du composant sont compatibles et les liens vers la documentation pour les versions précédentes.
+Le tableau ci-après présente en détail toutes les versions prises en charge du composant, les versions AEM avec lesquelles les versions du composant sont compatibles et les liens vers la documentation pour les versions précédentes.
 
-| Composant Version | AEM 6.3 | AEM 6.4 | AEM 6.5 |
+| Version du composant | AEM 6.3 | AEM 6.4 | AEM 6.5 |
 |--- |--- |--- |---|
 | v1 | Compatible | Compatible | Compatible |
 
-Pour plus d’informations sur les versions et les mises à jour des composants principaux, consultez le document sur les [versions des composants principaux](versions.md).
+Pour plus d’informations sur les versions et les publications des composants principaux, voir le document sur les [versions des composants principaux](versions.md).
 
 ## Exemple de sortie de composant {#sample-component-output}
 
-To experience the Accordion Component as well as see examples of its configuration options as well as HTML and JSON output, visit the [Component Library](http://opensource.adobe.com/aem-core-wcm-components/library/accordion.html).
+Pour tester le composant d’accordéon et obtenir des exemples d’options de configuration, ainsi que des sorties HTML et JSON, consultez la [Bibliothèque de composants](http://opensource.adobe.com/aem-core-wcm-components/library/separator.html).
 
 ## Détails techniques {#technical-details}
 
-The latest technical documentation about the Accordion Component [can be found on GitHub](https://github.com/adobe/aem-core-wcm-components/tree/master/content/src/content/jcr_root/apps/core/wcm/components/accordion/v1/accordion).
+Vous trouverez la documentation technique la plus récente sur le composant d’accordéon [sur GitHub](https://github.com/adobe/aem-core-wcm-components/blob/master/content/src/content/jcr_root/apps/core/wcm/components/separator/v1/separator).
 
 Vous trouverez plus d’informations sur le développement des composants principaux dans la [documentation destinée aux développeurs de composants principaux](developing.md).
 
-## Boîte de dialogue Configurer {#configure-dialog}
+## Boîte de dialogue de configuration {#configure-dialog}
 
-La boîte de dialogue Configurer permet à l&#39;auteur de contenu de définir l&#39;élément d&#39;accordéon, ses panneaux et son comportement et s&#39;affichant pour un visiteur sur la page.
+La boîte de dialogue de configuration permet à l’auteur de contenu de définir l’élément d’accordéon, ses panneaux et la façon dont il se comporte et s’affiche pour un visiteur sur la page.
 
 ### Onglet Éléments {#items-tab}
 
 ![](assets/screen-shot-2019-06-21-08.26.38.png)
 
-Use the **Add** button to open the component selector to choose which component to add as a panel. Une fois ajouté, une entrée est ajoutée à la liste qui contient les colonnes suivantes :
+Utilisez le bouton **Ajouter** pour ouvrir le sélecteur de composants afin de choisir le composant à ajouter sous forme de panneau. Une fois le composant ajouté, une entrée est ajoutée à la liste qui contient les colonnes suivantes :
 
-* **Icône** - Icône du type de composant du panneau pour une identification facile dans la liste. Placez le pointeur de la souris sur pour afficher le nom complet du composant sous forme d’info-bulle.
-* **Description** : description utilisée comme texte du panneau, par défaut au nom du composant sélectionné pour le panneau.
-* **Supprimer** : appuyez ou cliquez sur pour supprimer le panneau du composant accordéon.
-* **Réorganiser** : appuyez sur ou cliquez et faites glisser pour réorganiser l&#39;ordre des panneaux.
+* **Icône** : icône du type de composant du panneau pour une identification facile dans la liste. Pointez dessus pour afficher le nom complet du composant sous forme d’info-bulle.
+* **Description** : description utilisée comme texte du panneau. Par défaut, il s’agit du nom du composant sélectionné pour le panneau.
+* **Supprimer** : appuyez ou cliquez sur cette option pour supprimer le panneau du composant d’accordéon.
+* **Réorganiser** : appuyez ou cliquez dessus et faites glisser pour réorganiser l’ordre des panneaux.
 
 ### Onglet Propriétés {#properties-tab}
 
 ![](assets/screen-shot-2019-06-21-08.26.53.png)
 
-* **Extension d&#39;élément unique** : lorsqu&#39;elle est sélectionnée, cette option force le développement d&#39;un seul élément d&#39;accordéon à la fois. La développement d&#39;un élément réduit alors tous les autres.
-* **Éléments développés** : cette option définit les éléments qui sont développés par défaut lorsque la page est chargée.
-   * When **Single item expansion** is selected, one panel must be selected. Par défaut, le premier panneau est sélectionné.
-   * When **Single item expansion** is not selected, this option is a multi-select and is optional.
+* **Développement d’un élément unique** : lorsqu’elle est sélectionnée, cette option force le développement d’un seul élément d’accordéon à la fois. La développement d’un élément réduit alors tous les autres.
+* **Éléments développés** : cette option définit les éléments qui sont développés par défaut lorsque la page est chargée.
+   * Lorsque l’option **Développement d’un élément unique** est sélectionnée, un panneau doit être sélectionné. Par défaut, il s’agit du premier panneau.
+   * Lorsque l’option **Développement d’un élément unique** n’est pas sélectionnée, cette option propose une sélection multiple et est facultative.
 
-## Select Panel Popover {#seelct-panel-popover}
+## Fenêtre contextuelle Sélectionner un panneau {#seelct-panel-popover}
 
-The content author can use the **Select Panel** option on the component toolbar to change to a different panel for editing as well as to easily rearrange the order of the panels within the accordion.
+L’auteur du contenu peut utiliser l’option **Sélectionner un panneau** de la barre d’outils du composant pour choisir un panneau différent pour l’édition, ainsi que pour réorganiser l’ordre des panneaux au sein de l’accordéon.
 
 ![](assets/screen-shot-2019-06-21-08.49.36.png)
 
-Once selecting the **Select Panel** option in the component toolbar, the configured accordion panels are displayed as a drop-down.
+Lorsque vous sélectionnez l’option **Sélectionner un panneau** dans la barre d’outils des composants, les panneaux d’accordéon configurés s’affichent sous forme de liste déroulante.
 
 ![](assets/screen-shot-2019-06-21-08.52.14.png)
 
-* La liste est triée selon la disposition des panneaux assignée et se reflète dans la numérotation.
-* Le type de composant du panneau s&#39;affiche en premier, suivi de la description du panneau dans la police plus claire.
-* Lorsque vous appuyez ou cliquez sur une entrée dans la liste déroulante, la vue de l&#39;éditeur est commutée dans ce panneau.
-* Les panneaux peuvent être réorganisés en place à l&#39;aide des poignées de glissement.
+* La liste est triée selon la disposition assignée des panneaux et est répercutée dans la numérotation.
+* Le type de composant du panneau est affiché en premier, suivi de la description du panneau en police plus claire.
+* Lorsque vous appuyez ou cliquez sur une entrée dans la liste déroulante, la vue est basculée dans l’éditeur vers ce panneau.
+* Vous pouvez réorganiser les panneaux statiques à l’aide des poignées de glissement.
 
-## Boîte de dialogue Conception {#design-dialog}
+## Boîte de dialogue de conception {#design-dialog}
 
-Le dialogue de conception permet à l&#39;auteur du modèle de définir les options disponibles pour l&#39;auteur du contenu qui utilise le composant Accordéon et les valeurs par défaut définies lors de l&#39;importation du composant Accordéon.
+La boîte de dialogue de conception permet à l’auteur du modèle de définir les options disponibles pour l’auteur du contenu qui utilise le composant d’accordéon et les valeurs par défaut définies lors du placement de celui-ci.
 
 ### Onglet Propriétés {#properties-tab-design}
 
 ![](assets/screen-shot-2019-06-21-08.58.11.png)
 
-* **Eléments d&#39;en-tête autorisés** : cette liste déroulante à sélection multiple définit les éléments d&#39;en-tête de l&#39;élément d&#39;accordéon qui sont autorisés à être sélectionnés par un auteur.
-* **Elément d&#39;en-tête par défaut** : cette liste déroulante définit l&#39;en-tête d&#39;en-tête de l&#39;élément d&#39;accordéon par défaut HTML.
+* **Éléments d’en-tête autorisés** : cette liste déroulante à sélection multiple définit les éléments HTML d’en-tête de l’élément d’accordéon qui sont autorisés à être sélectionnés par un auteur.
+* **Élément d’en-tête par défaut** : cette liste déroulante définit l’élément HTML d’en-tête de l’élément d’accordéon par défaut.
 
 ### Onglet Composants autorisés {#allowed-components-tab}
 
-The **Allowed Components** tab is used to define which components can be added as items to panels in the Accordion Component by the content author.
+L’onglet **Composants autorisés** permet de définir quels composants peuvent être ajoutés en tant qu’éléments aux panneaux dans le composant d’accordéon par l’auteur du contenu.
 
-L’onglet Composants autorisés fonctionne de la même manière que l’onglet du même nom lors [de la définition de la stratégie et des propriétés d’un conteneur de dispositions dans l’éditeur de modèles.](https://helpx.adobe.com/experience-manager/6-5/sites/authoring/using/templates.html)
+L’onglet Composants autorisés fonctionne de la même manière que l’onglet du même nom lors de la [définition de la stratégie et des propriétés d’un conteneur de mises en page dans l’éditeur de modèles.](https://helpx.adobe.com/experience-manager/6-5/sites/authoring/using/content-targeting-touch.html)
 
 ### Onglet Styles {#styles-tab}
 
-The Accordion Component supports the AEM [Style System](authoring.md#component-styling).
+Le composant d’accordéon prend en charge le [système de style](authoring.md#component-styling) AEM.
