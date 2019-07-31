@@ -1,6 +1,6 @@
 ---
-source-git-commit: 632d6abb1f13667cc0457152268d50af3bfabfc4
-translation-type: ht
+source-git-commit: 1273505a2b00913a89606b856d2e7c3811a3bd72
+translation-type: tm+mt
 
 ---
 # Instructions pour contribuer à la documentation AEM
@@ -31,11 +31,11 @@ La documentation AEM couvrant les cas d’utilisation standard, les bogues, les 
 
 ### Les contributions à la documentation ne sont pas destinées à répondre aux questions techniques.
 
-Toute opinion susceptible d’améliorer la documentation AEM est la bienvenue sous forme de contributions. Toutefois, il est possible que les contributions ne soient pas utilisées pour répondre à vos questions sur l’utilisation d’AEM ou la résolution des problèmes techniques.
+Toute opinion susceptible d’améliorer la documentation AEM est la bienvenue sous forme de contributions. However comments, issues, and pull requests are intended for *contributions* only. Elles ne sont pas destinées à répondre à vos questions sur l'utilisation d'AEM ou la résolution des problèmes techniques.
 
-Toute question sur l’utilisation d’AEM ou d’erreurs techniques doit être consignée dans le processus de prise en charge classique ou dans les forums d’utilisateurs d’AEM.
+Any questions about the usage of AEM or technical errors you may have should be reported through the normal support process via the [Experience Manager Support Portal](https://daycare.day.com/home.html) or discussed in the [Experience Manager community](http://help-forums.adobe.com/content/adobeforums/en/experience-manager-forum/adobe-experience-manager.html).
 
-***Les contributions à la documentation AEM ne remplacent pas l’assistance Adobe*** et toute contribution de ce type est refusée.
+***Les contributions de la documentation AEM ne remplacent pas la prise en charge*** d'Adobe et les contributions de ce type recherchées sont rejetées.
 
 ### Les contributions doivent clairement référencer les pages de documentation concernées.
 
@@ -61,7 +61,7 @@ Souvenez-vous que les lecteurs de la documentation AEM sont internationaux et pe
 
 #### Suivi du guide de style Microsoft
 
-[Le guide de style Microsoft ](https://docs.microsoft.com/fr-fr/style-guide/welcome/) est un guide de style de documentation gratuit qui porte sur la documentation logicielle et la documentation AEM suit ce guide lorsque cela s’avère possible.
+[Le Guide de style de documentation de Microsoft](https://docs.microsoft.com/en-us/style-guide/welcome/) est un guide de style de documentation gratuit qui porte sur la documentation logicielle et la documentation AEM suit ce guide lorsque cela s'avère possible.
 
 ### Mise en forme
 
