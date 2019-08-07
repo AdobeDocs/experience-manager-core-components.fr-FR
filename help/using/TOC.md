@@ -1,10 +1,11 @@
 ---
 cloud: experience-cloud
-product: composants principaux d’adobe experience manager
-archtype: Administrateur
+product: adobe experience manager
+sub-product: composants principaux d’adobe experience manager
+archetype: Administrateur
 user-guide-title: Composants principaux AEM
-translation-type: ht
-source-git-commit: 330c0984d851ae4eac86e3423bb35edd8cfa644c
+translation-type: tm+mt
+source-git-commit: 427046cbfa4fed3735a7baf2aa7600f5a11851cd
 
 ---
 
