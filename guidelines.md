@@ -1,6 +1,6 @@
 ---
 source-git-commit: 1273505a2b00913a89606b856d2e7c3811a3bd72
-translation-type: tm+mt
+translation-type: ht
 
 ---
 # Instructions pour contribuer à la documentation AEM
@@ -31,11 +31,11 @@ La documentation AEM couvrant les cas d’utilisation standard, les bogues, les 
 
 ### Les contributions à la documentation ne sont pas destinées à répondre aux questions techniques.
 
-Toute opinion susceptible d’améliorer la documentation AEM est la bienvenue sous forme de contributions. However comments, issues, and pull requests are intended for *contributions* only. Elles ne sont pas destinées à répondre à vos questions sur l'utilisation d'AEM ou la résolution des problèmes techniques.
+Toute opinion susceptible d’améliorer la documentation AEM est la bienvenue sous forme de contributions. Toutefois, les commentaires, les problèmes et les requêtes d’extraction sont destinés uniquement aux *contributions*. Ils ne sont pas censés être utilisés pour répondre à vos questions sur l’utilisation d’AEM ou pour résoudre des problèmes techniques.
 
-Any questions about the usage of AEM or technical errors you may have should be reported through the normal support process via the [Experience Manager Support Portal](https://daycare.day.com/home.html) or discussed in the [Experience Manager community](http://help-forums.adobe.com/content/adobeforums/en/experience-manager-forum/adobe-experience-manager.html).
+Toute question relative à l’utilisation d’AEM ou à la résolution d’erreurs techniques doit être soumise au moyen du processus d’assistance classique via le [Portail d’assistance d’Experience Manager](https://daycare.day.com/home.html) ou posée dans la [communauté Experience Manager](http://help-forums.adobe.com/content/adobeforums/en/experience-manager-forum/adobe-experience-manager.html).
 
-***Les contributions de la documentation AEM ne remplacent pas la prise en charge*** d'Adobe et les contributions de ce type recherchées sont rejetées.
+***Les contributions à la documentation AEM ne remplacent pas l’assistance Adobe*** et toute contribution de ce type visant à obtenir des réponses à des questions d’assistance sera refusée.
 
 ### Les contributions doivent clairement référencer les pages de documentation concernées.
 
@@ -61,7 +61,7 @@ Souvenez-vous que les lecteurs de la documentation AEM sont internationaux et pe
 
 #### Suivi du guide de style Microsoft
 
-[Le Guide de style de documentation de Microsoft](https://docs.microsoft.com/en-us/style-guide/welcome/) est un guide de style de documentation gratuit qui porte sur la documentation logicielle et la documentation AEM suit ce guide lorsque cela s'avère possible.
+[Le guide de style Microsoft ](https://docs.microsoft.com/fr-fr/style-guide/welcome/) est un guide de style de documentation gratuit qui porte sur la documentation logicielle et la documentation AEM suit ce guide lorsque cela s’avère possible.
 
 ### Mise en forme
 
