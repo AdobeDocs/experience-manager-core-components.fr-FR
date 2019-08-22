@@ -9,7 +9,7 @@ content-type: référence
 topic-tags: création
 products: SG_EXPERIENCEMANAGER/CORECOMPONENTS-new
 discoiquuid: d4684f33-2fb5-4f32-866f-7136cf1800d7
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 34ae30ca8be3ad290924b986acfac11d960f2ee0
 
 ---
@@ -21,15 +21,15 @@ Le composant d’image des composants principaux est un composant d’image adap
 
 ## Utilisation {#usage}
 
-Le composant Image permet de sélectionner et de réactiver l'image adaptative avec le chargement différé du visiteur de la page, ainsi qu'un positionnement d'image et un recadrage faciles pour l'auteur du contenu.
+Le composant d’image comprend une sélection des images adaptatives et un comportement réactif avec chargement différé pour le visiteur de la page, ainsi qu’un positionnement et un recadrage des images faciles pour l’auteur du contenu.
 
 Les largeurs d’image ainsi que le recadrage et les paramètres supplémentaires peuvent être définis par l’auteur du modèle dans la [boîte de dialogue de conception](#design-dialog). L’éditeur de contenu peut télécharger ou sélectionner des ressources dans la [boîte de dialogue de configuration](#configure-dialog) et recadrer l’image dans la [boîte de dialogue de modification](#edit-dialog). Pour plus de commodité, une simple modification statique de l’image est également disponible.
 
 ## Fonctions réactives {#responsive-features}
 
-Le composant Image est fourni avec des fonctions adaptées prêtes à l'emploi prêtes à l'emploi. Au niveau du modèle de page, la boîte de dialogue [de conception](#design-dialog) permet de définir les largeurs par défaut du fichier d'image. Le composant Image charge alors automatiquement la largeur correcte à afficher en fonction de la taille de la fenêtre du navigateur. Lorsque la fenêtre est redimensionnée, le composant Imaage charge dynamiquement la taille de l'image correcte sur - la volée. Il n'est pas nécessaire que les développeurs de composants se soucient de la définition de requêtes multimédias personnalisées, puisque le composant Image est déjà optimisé pour charger votre contenu.
+Le composant d’image s’accompagne de fonctions réactives efficaces prêtes à l’emploi. Au niveau du modèle de page, la [boîte de dialogue de conception](#design-dialog) permet de définir les largeurs par défaut du fichier image. Le composant d’image charge alors automatiquement la largeur correcte à afficher en fonction de la taille de la fenêtre du navigateur. Lorsque la fenêtre est redimensionnée, le composant d’image charge dynamiquement la taille d’image correcte, instantanément. Les développeurs de composants n’ont pas à définir des requêtes multimédias personnalisées, puisque le composant d’image est déjà optimisé pour charger le contenu.
 
-En outre, le composant Image prend en charge le chargement différé pour différer le chargement du fichier d'image réel jusqu'à ce qu'il soit visible dans le navigateur, ce qui augmente la réactivité de vos pages.
+En outre, le composant d’image prend en charge le chargement différé afin de différer le chargement du fichier image réel jusqu’à ce qu’il soit visible dans le navigateur, ce qui augmente la réactivité des pages.
 
 ## Version et compatibilité {#version-and-compatibility}
 
@@ -54,11 +54,11 @@ Les composants SVG (Scalable Vector Graphics) sont pris en charge par le composa
 
 ### Sécurité {#security}
 
-Pour des raisons de sécurité, l’éditeur d’image ne fait jamais appel au fichier SVG d’origine. Il est appelé par `<img src=“path-to-component”>` Cela empêche le navigateur d'exécuter les scripts incorporés dans le fichier SVG.
+Pour des raisons de sécurité, l’éditeur d’image ne fait jamais appel au fichier SVG d’origine. Il est appelé par `<img src=“path-to-component”>` Cela empêche le navigateur d’exécuter les scripts incorporés dans le fichier SVG.
 
 >[!CAUTION]
 >
->SVG support requires release 2.1.0 of the Core Components or higher along with [service pack 2](https://helpx.adobe.com/experience-manager/6-4/release-notes/sp-release-notes.html) for AEM 6.4 or [service pack 3](https://helpx.adobe.com/experience-manager/6-3/release-notes/sp3-release-notes.html) for AEM 6.3 or higher to support [new image editor features](https://helpx.adobe.com/experience-manager/6-4/sites/developing/using/image-editor.html) within AEM.
+>La prise en charge de SVG requiert la version 2.1.0 ou ultérieure des composants principaux et le [Service Pack 2](https://helpx.adobe.com/experience-manager/6-4/release-notes/sp-release-notes.html) pour AEM 6.4 ou le [Service Pack 3](https://helpx.adobe.com/experience-manager/6-3/release-notes/sp3-release-notes.html) pour AEM 6.3 ou les versions ultérieures pour être compatible avec les [nouvelles fonctionnalités de l’éditeur d’image](https://helpx.adobe.com/experience-manager/6-4/sites/developing/using/image-editor.html) dans AEM.
 
 ## Exemple de sortie de composant {#sample-component-output}
 
@@ -66,7 +66,7 @@ Pour tester le composant d’image et voir des exemples de ses options de config
 
 ### Détails techniques {#technical-details}
 
-Vous trouverez la documentation technique la plus récente sur le composant [Image sur github](https://github.com/adobe/aem-core-wcm-components/blob/master/content/src/content/jcr_root/apps/core/wcm/components/image/v2/image).
+Vous trouverez la documentation technique la plus récente sur le composant d’image [sur GitHub](https://github.com/adobe/aem-core-wcm-components/blob/master/content/src/content/jcr_root/apps/core/wcm/components/image/v2/image).
 
 Vous trouverez plus d’informations sur le développement des composants principaux dans la [documentation destinée aux développeurs de composants principaux](developing.md).
 
@@ -83,9 +83,9 @@ Outre la [boîte de dialogue de modification](#edit-dialog) et la [boîte de dia
 ![](assets/screen_shot_2018-01-08at114245.png)
 
 * **Ressource image**
-   * Drop an asset from the [asset browser](https://helpx.adobe.com/experience-manager/6-5/sites/authoring/using/author-environment-tools.html) or tap the **browse** option to upload from a local file system.
+   * Déposez un fichier depuis l’[explorateur de ressources](https://helpx.adobe.com/fr/experience-manager/6-5/sites/authoring/using/author-environment-tools.html) ou appuyez sur l’option **parcourir** pour effectuer un téléchargement à partir d’un système de fichiers local.
    * Appuyez ou cliquez sur **Effacer** pour désélectionner l’image actuellement sélectionnée.
-   * Tap or click **Edit** to [mange the renditions of the asset](https://helpx.adobe.com/experience-manager/6-5/assets/using/managing-assets-touch-ui.html) in the asset editor.
+   * Appuyez ou cliquez sur **Modifier** pour [gérer les rendus de la ressource](https://helpx.adobe.com/fr/experience-manager/6-5/assets/using/managing-assets-touch-ui.html) dans l’éditeur de ressources.
 
 ### Onglet Métadonnées {#metadata-tab}
 
@@ -149,7 +149,7 @@ La boîte de dialogue de modification permet à l’auteur du contenu de recadre
 
    >[!CAUTION]
    >
-   >The Launch Map feature requires release 2.1.0 of the Core Components or higher along with [service pack 2](https://helpx.adobe.com/experience-manager/6-4/release-notes/sp-release-notes.html) for AEM 6.4 or [service pack 3](https://helpx.adobe.com/experience-manager/6-3/release-notes/sp3-release-notes.html) for AEM 6.3 or higher to support [new image editor features](https://helpx.adobe.com/experience-manager/6-4/sites/developing/using/image-editor.html) within AEM.
+   >La fonctionnalité Carte de lancement requiert la version 2.1.0 des composants principaux ou une version ultérieure avec le [Service Pack 2](https://helpx.adobe.com/experience-manager/6-4/release-notes/sp-release-notes.html) pour AEM 6.4 ou le [Service Pack 3](https://helpx.adobe.com/experience-manager/6-3/release-notes/sp3-release-notes.html) pour AEM 6.3 ou une version ultérieure pour la prise en charge des [nouvelles fonctionnalités de l’éditeur d’images](https://helpx.adobe.com/experience-manager/6-4/sites/developing/using/image-editor.html) dans AEM.
 
    ![](assets/chlimage_1-12.png)
 
@@ -207,7 +207,7 @@ La boîte de dialogue de conception permet à l’auteur du modèle de définir 
 
 ### Onglet principal {#main-tab}
 
-Sur l'onglet **Principal** , vous pouvez définir une liste de largeurs en pixels pour l'image et le composant charge automatiquement la largeur la plus appropriée en fonction de la taille du navigateur. Il s'agit d'une partie importante des fonctions [réactives](#responsive-features) du composant Image.
+Dans l’onglet **Principal**, vous pouvez définir une liste de largeurs en pixels pour l’image ; le composant chargera automatiquement la largeur la plus appropriée en fonction de la taille du navigateur. Il s’agit d’une partie importante des [fonctions réactives](#responsive-features) du composant d’image.
 
 En outre, vous pouvez définir quelles options de composant générales sont automatiquement activées ou désactivées lorsque l’auteur ajoute le composant à une page.
 
@@ -227,7 +227,7 @@ Définissez si l’option permettant d’afficher la légende d’image est auto
 Cochez cette option pour désactiver le suivi de l’UUID de la ressource d’image.
 
 * **Largeurs**
-Définit une liste de largeurs en pixels pour l'image et le composant charge automatiquement la largeur la plus appropriée en fonction de la taille du navigateur.
+Définit une liste de largeurs en pixels pour l’image ; le composant charge automatiquement la largeur la plus appropriée en fonction de la taille du navigateur.
    * Appuyez ou cliquez sur le bouton **Ajouter** pour ajouter une autre taille.
       * Utilisez les poignées de capture pour réorganiser l’ordre des tailles.
       * Utilisez l’icône **Supprimer** pour supprimer une largeur.
