@@ -9,7 +9,7 @@ content-type: référence
 topic-tags: introduction
 products: SG_EXPERIENCEMANAGER/CORECOMPONENTS-new
 discoiquuid: a3a98b2f-65bf-4493-82ad-01717938fdbc
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: d1708bef323e2cdb071ebea5b15a1ebc6f683e9d
 
 ---
@@ -31,7 +31,7 @@ Les composants principaux sont disponibles avec les versions AEM définies avec 
 
 ### Versions {#versions}
 
-Les **versions principales constituent l’itération majeure des composants principaux**. Chaque composant possède une version. Les versions sont signalées avec la valeur **v** inscrite avec un entier positif non nul, comme v1 et v2. Les versions ne sont incrémentées que pour les modifications qui ne sont pas rétrocompatibles, ce qui est normalement le cas pour l’introduction de nouvelles fonctionnalités et fonctions.
+Les **versions** principales constituent l’itération majeure des composants principaux. Chaque composant possède une version. Les versions sont signalées avec la valeur **v** inscrite avec un entier positif non nul, comme v1 et v2. Les versions ne sont incrémentées que pour les modifications qui ne sont pas rétrocompatibles, ce qui est normalement le cas pour l’introduction de nouvelles fonctionnalités et fonctions.
 
 Les développeurs et les administrateurs peuvent reconnaître les versions des composants principaux par un numéro figurant dans leurs chemins d’accès aux types de ressources et dans les noms de classe Java pleinement qualifiés de leurs implémentations. Ce numéro de version représente une version majeure définie par [les directives de contrôle de version sémantique](https://semver.org/).
 
@@ -39,7 +39,7 @@ Pour plus d’informations sur les versions des composants principaux, voir la [
 
 ### Mises à jour {#releases}
 
-The core components are made available through **releases** and [represent the actual published artifacts available on GitHub](https://github.com/adobe/aem-core-wcm-components/releases). Les versions sont signalées par un nombre décimal du format X.Y.Z et rassemblent tous les composants principaux en tant que package livrable.
+Les composants principaux sont disponibles via **les mises à jour** et [représentent les artefacts publiés réels disponibles sur GitHub](https://github.com/adobe/aem-core-wcm-components/releases). Les versions sont signalées par un nombre décimal du format X.Y.Z et rassemblent tous les composants principaux en tant que package livrable.
 
 * **Les mises à jour majeures** peuvent introduire de nouvelles versions des composants existants avec des composants entièrement nouveaux ainsi que des correctifs standards. Elles sont représentées par un incrément dans le composant X du numéro de version.
 
@@ -65,7 +65,7 @@ Le tableau suivant, dont le contenu est [disponible sur GitHub avec les détails
 
 | Mise à jour | Description | AEM 6.3 | AEM 6.4 | AEM 6.5 | Java |
 |---|---|---|---|---|---|
-| [2.5.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.5.0) | Cette version a introduit les nouveaux composants Accordéon, Bouton, Conteneur et Télécharger. | 6.3.3.0+ | 6.4.2.0+ | 6.5.0.0+ | 8, 11 |
+| [2.5.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.5.0) | Les nouveaux composants Accordéon, Bouton, Conteneur et Téléchargement ont été présentés dans cette version. | 6.3.3.0+ | 6.4.2.0+ | 6.5.0.0+ | 8, 11 |
 | [2.4.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.4.0) | Cette version a introduit le composant Liste de fragments de contenu. | 6.3.3.0+ | 6.4.2.0+ | 6.5.0.0+ | 8, 11 |
 | [2.3.2](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.3.2) | Cette version concernait les améliorations apportées à la bibliothèque de composants, mais contient également quelques améliorations des fonctionnalités du composant Séparateur. | 6.3.3.0+ | 6.4.2.0+ | 6.5.0.0+ | 8 |
 | [2.3.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.3.0) | Cette version se concentre sur la bibliothèque de composants et présente le nouveau composant Séparateur, mais contient également quelques améliorations des fonctionnalités du composant Image. | 6.3.3.0+ | 6.4.2.0+ | - | 8 |
