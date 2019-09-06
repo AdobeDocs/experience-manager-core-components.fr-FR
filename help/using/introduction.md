@@ -9,8 +9,8 @@ content-type: référence
 topic-tags: introduction
 products: SG_EXPERIENCEMANAGER/CORECOMPONENTS-new
 discoiquuid: c44bb0d7-5d91-4659-878e-a0658fe29aa2
-translation-type: ht
-source-git-commit: 7130f4ae8add8c8dc3cdfcc4addd0621722b89f7
+translation-type: tm+mt
+source-git-commit: 63e75079e41d3091ca57bfc3129e700675bf4939
 
 ---
 
@@ -25,7 +25,7 @@ Les composants principaux ont été conçus pour offrir des composants de base s
 
 Si vous souhaitez commencer immédiatement à essayer les composants principaux, passez en revue la [bibliothèque de composants](http://opensource.adobe.com/aem-core-wcm-components/library.html). La bibliothèque de composants est une présentation en ligne de la version actuelle de la plupart des composants principaux, ce qui vous permet d’interagir avec des variantes des composants ainsi que des exemples de sortie HTML et JSON.
 
-Le [site de référence We.Retail](https://helpx.adobe.com/experience-manager/6-4/sites/developing/using/we-retail.html) illustre également l’utilisation des composants principaux.
+The [We.Retail reference site](https://helpx.adobe.com/experience-manager/6-4/sites/developing/using/we-retail.html) also illustrates how the core components can be used.
 
 ## Composants principaux - Principales fonctionnalités {#core-components-core-features}
 
@@ -36,7 +36,7 @@ Les composants principaux sont :
 | Préconfigurables | Les modèles peuvent définir comment les auteurs de pages peuvent les utiliser. |
 | Polyvalents | Les auteurs peuvent créer la plupart du contenu avec eux. |
 | Faciles à utiliser | Les auteurs peuvent créer et gérer du contenu avec efficacité. |
-| Prêts pour la production | Utilisables prêts à l&#39;emploi Ils sont robustes, bien testés et performants. |
+| Prêts pour la production | Utilisables prêts à l'emploi Ils sont robustes, bien testés et performants. |
 | Accessibles | Ils sont conformes à la norme WCAG 2.0, fournissent des libellés ARIA et prennent en charge la navigation au clavier. |
 | Faciles à styliser | Les composants implémentent le système de style et les annotations suivent l’attribution de noms BEM CSS. |
 | Optimisation pour SEO | La sortie HTML est sémantique et fournit des annotations de microdonnées schema.org. |
@@ -57,6 +57,7 @@ La version actuelle des composants principaux comporte les composants ci-après.
 * [Fragment de contenu](content-fragment-component.md)
 * [Liste de fragments de contenu](content-fragment-list.md)
 * [Téléchargement](download.md)
+* [Fragment d’expérience](experience-fragment.md)
 * [Bouton de formulaire](form-button.md)
 * [Conteneur de formulaires](form-container.md)
 * [Formulaire masqué](form-hidden.md)
@@ -76,7 +77,7 @@ La version actuelle des composants principaux comporte les composants ci-après.
 
 >[!NOTE]
 >
->Les auteurs ne peuvent pas disposer immédiatement de ces composants principaux. En effet, l’[équipe de développement doit d’abord les intégrer dans leur environnement](using.md). Une fois intégrés, ils peuvent être disponibles et préconfigurés via l’[éditeur de modèles](https://helpx.adobe.com/experience-manager/6-5/sites/authoring/using/templates.html) ou dans le [mode de conception](https://helpx.adobe.com/experience-manager/6-5/sites/authoring/using/default-components-designmode.html).
+>Les auteurs ne peuvent pas disposer immédiatement de ces composants principaux. En effet, l’[équipe de développement doit d’abord les intégrer dans leur environnement](using.md). Once integrated, they may be made available and pre-configured via the [template editor](https://helpx.adobe.com/experience-manager/6-5/sites/authoring/using/templates.html) or in [design mode](https://helpx.adobe.com/experience-manager/6-5/sites/authoring/using/default-components-designmode.html).
 
 >[!CAUTION]
 >
@@ -94,7 +95,7 @@ Pour des recommandations spécifiques, voir [Quand utiliser les composants princ
 
 Pour une présentation des composants principaux, des fonctionnalités qu’ils proposent et de leur utilisation dans AEM, consultez la session AEM Gems sur les [composants principaux AEM.](https://helpx.adobe.com/experience-manager/kt/eseminars/gems/AEM-Core-Components.html)
 
-[Gems sur Adobe Experience Manager](https://helpx.adobe.com/experience-manager/kt/eseminars/gems/aem-index.html) est une série de séances approfondies sur des aspects techniques réalisées par des experts Adobe. Cette série complète la documentation du produit et de tous les autres canaux techniques, ce qui permet aux développeurs d’entrer en contact et d’approfondir un sujet spécifique.
+[Astuces pour Adobe Experience Manager](https://helpx.adobe.com/experience-manager/kt/eseminars/gems/aem-index.html) est une série d'épisodes d'épisodes techniques profonds fournis par des experts Adobe. Cette série complète la documentation du produit et de tous les autres canaux techniques, ce qui permet aux développeurs d’entrer en contact et d’approfondir un sujet spécifique.
 
 ## Tutoriel du développeur WKND {#wknd-developer-tutorial}
 
