@@ -9,8 +9,8 @@ content-type: référence
 topic-tags: création
 products: SG_EXPERIENCEMANAGER/CORECOMPONENTS-new
 discoiquuid: f093f58e-9755-4a4f-803a-ab93a50e6870
-translation-type: ht
-source-git-commit: 7d17d1ba5fcabac4361e24f60c91cd242367bba6
+translation-type: tm+mt
+source-git-commit: d37cde072dea612ccb55ad31b4aaf42f17839cb4
 
 ---
 
@@ -40,11 +40,11 @@ Pour plus d’informations sur les versions et les publications des composants p
 
 ## Exemple de sortie de composant {#sample-component-output}
 
-Pour tester le composant de bouton et obtenir des exemples d’options de configuration, ainsi que des sorties HTML et JSON, consultez la [Bibliothèque de composants](http://opensource.adobe.com/aem-core-wcm-components/library/separator.html).
+To experience the Button Component as well as see examples of its configuration options as well as HTML and JSON output, visit the [Component Library](http://opensource.adobe.com/aem-core-wcm-components/library/button.html).
 
 ## Détails techniques {#technical-details}
 
-Vous trouverez la documentation technique la plus récente sur le composant de bouton [sur GitHub](https://github.com/adobe/aem-core-wcm-components/tree/master/content/src/content/jcr_root/apps/core/wcm/components/button/v1/button).
+Vous trouverez la documentation technique la plus récente sur le composant [Button sur github](https://github.com/adobe/aem-core-wcm-components/tree/master/content/src/content/jcr_root/apps/core/wcm/components/button/v1/button).
 
 Vous trouverez plus d’informations sur le développement des composants principaux dans la [documentation destinée aux développeurs de composants principaux](developing.md).
 
@@ -52,12 +52,22 @@ Vous trouverez plus d’informations sur le développement des composants princi
 
 La boîte de dialogue de configuration permet à l’auteur du contenu de définir le bouton et la façon dont il se comporte et apparaît pour un visiteur sur la page.
 
-![](assets/screen-shot-2019-06-17-11.26.13.png)
+### Onglet Propriétés {#properties-tab}
+
+![](assets/screen-shot-2019-08-29-12.19.32.png)
 
 * **Texte** : texte à afficher sur le bouton.
 * **Lien** : lien vers une page de contenu dans AEM, une ressource externe ou une ancre.
    * Utilisez la **boîte de dialogue de sélection** pour choisir un chemin dans AEM.
 * **Icône** : identificateur pour l’affichage d’une icône dans le bouton.
+
+### Onglet Accessibilité {#accessibility-tab}
+
+![](assets/screen-shot-2019-08-29-12.19.43.png)
+
+Dans l'onglet **Accessibilité** , les valeurs peuvent être définies pour [les libellés d'accessibilité](https://www.w3.org/WAI/standards-guidelines/aria/) ARIA pour le composant.
+
+* **Libellé** - Valeur d'un attribut d'étiquette ARIA pour le composant
 
 ## Boîte de dialogue de conception {#design-dialog}
 
