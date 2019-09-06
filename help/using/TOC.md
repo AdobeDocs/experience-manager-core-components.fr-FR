@@ -4,8 +4,8 @@ product: adobe experience manager
 sub-product: composants principaux d’adobe experience manager
 archetype: Administrateur
 user-guide-title: Composants principaux AEM
-translation-type: ht
-source-git-commit: 427046cbfa4fed3735a7baf2aa7600f5a11851cd
+translation-type: tm+mt
+source-git-commit: 63e75079e41d3091ca57bfc3129e700675bf4939
 
 ---
 
@@ -26,7 +26,8 @@ source-git-commit: 427046cbfa4fed3735a7baf2aa7600f5a11851cd
    + [Conteneur](container.md)
    + [Fragment de contenu](content-fragment-component.md)
    + [Liste de fragments de contenu](content-fragment-list.md)
-   + [Télécharger](download.md)
+   + [Téléchargement](download.md)
+   + [Fragment d’expérience](experience-fragment.md)
    + [Image](image.md)
    + [Navigation par langue](language-navigation.md)
    + [Liste](list.md)
