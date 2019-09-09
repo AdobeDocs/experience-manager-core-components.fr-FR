@@ -10,7 +10,7 @@ topic-tags: introduction
 products: SG_EXPERIENCEMANAGER/CORECOMPONENTS-new
 discoiquuid: c44bb0d7-5d91-4659-878e-a0658fe29aa2
 translation-type: tm+mt
-source-git-commit: 63e75079e41d3091ca57bfc3129e700675bf4939
+source-git-commit: b6fbef1cff2908533df6573cd3a92266857ba93f
 
 ---
 
@@ -44,6 +44,7 @@ Les composants principaux sont :
 | Extensibles | Pour couvrir les besoins personnalisés mais sans partir de zéro, tout peut être étendu. |
 | Open Source | Si quelque chose n’est pas comme il le devrait, apportez des améliorations sur GitHub (licence Apache). |
 | Versionnés | Les composants principaux n’endommageront pas votre site lorsque vous apportez des améliorations susceptibles d’avoir un impact sur vous. |
+| [Localisé](localization.md) | La résolution de référence intelligente permet à certains composants de rechercher et de rendre automatiquement le contenu localisé correspondant |
 
 ## Composants disponibles {#available-components}
 
