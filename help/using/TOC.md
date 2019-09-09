@@ -5,7 +5,7 @@ sub-product: composants principaux d’adobe experience manager
 archetype: Administrateur
 user-guide-title: Composants principaux AEM
 translation-type: tm+mt
-source-git-commit: 63e75079e41d3091ca57bfc3129e700675bf4939
+source-git-commit: fb56cf9323ab0872c59563728f5947ced33c0658
 
 ---
 
@@ -18,6 +18,7 @@ source-git-commit: 63e75079e41d3091ca57bfc3129e700675bf4939
 + Prise en main {#get-started}
    + [Création à l’aide des composants principaux](authoring.md)
    + [Utilisation des composants principaux](using.md)
+   + [Fonctionnalités de localisation](localization.md)
 + Composants {#components}
    + [Accordéon](accordion.md)
    + [Chemin de navigation](breadcrumb.md)
