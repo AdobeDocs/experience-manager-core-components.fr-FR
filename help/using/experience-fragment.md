@@ -6,7 +6,7 @@ seo-description: Le composant Fragment d'expérience permet à l'auteur de conte
 content-type: référence
 topic-tags: core-components
 translation-type: tm+mt
-source-git-commit: 12d18a31c5507f5bbc713383f4d194d8ab8c4d58
+source-git-commit: 9f4f97713d20b6343b78f8046d96752fa0b0a07d
 
 ---
 
@@ -90,7 +90,7 @@ Le composant Fragment d'expérience tentera de trouver un composant localisé co
 
 ## Version et compatibilité {#version-and-compatibility}
 
-La version actuelle du composant de fragment d'expérience est v 1, qui a été introduite avec la version 2.6.0 des composants principaux d'août 2019 et est décrite dans ce document.
+La version actuelle du composant de fragment d'expérience est v 1, qui a été introduite avec la version 2.6.0 des composants principaux de septembre 2019 et est décrite dans ce document.
 
 Le tableau ci-après présente en détail toutes les versions prises en charge du composant, les versions AEM avec lesquelles les versions du composant sont compatibles et les liens vers la documentation pour les versions précédentes.
 
