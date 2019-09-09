@@ -5,8 +5,10 @@ description: Fonctionnalités de localisation des composants principaux
 seo-description: Fonctionnalités de localisation des composants principaux
 content-type: référence
 topic-tags: core-components
+index: y
+internal: n
 translation-type: tm+mt
-source-git-commit: b9009b758392d8e3d2e62eee920fbe5ee7c659f0
+source-git-commit: 4af4873edf290f93733b0997b0e7a19c6c9e26f2
 
 ---
 
