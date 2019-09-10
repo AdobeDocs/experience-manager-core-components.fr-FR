@@ -6,7 +6,7 @@ seo-description: Le composant Fragment d'expérience permet à l'auteur de conte
 content-type: référence
 topic-tags: core-components
 translation-type: tm+mt
-source-git-commit: 9f4f97713d20b6343b78f8046d96752fa0b0a07d
+source-git-commit: c4e86960ec271464661193f6409cd93d1b9ec51b
 
 ---
 
@@ -33,6 +33,9 @@ Le composant Fragment d'expérience est adapté aux structures localisées du si
 Dans ce cas, le fragment avec la même localisation (langue, plan directeur ou live copy) que la page active est rendu dans le modèle.
 
 Ce comportement est limité aux composants de fragments d'expérience ajoutés aux modèles. Les composants de fragments d'expérience ajoutés aux pages de contenu individuelles affichent les rendus de fragments d'expérience exacts configurés dans le composant.
+
+* Pour un exemple de fonctionnement des fonctions de localisation du composant Fragment d'expérience, reportez-vous [à la section ci-dessous](#example).
+* Pour consulter un exemple de fonctionnement des fonctionnalités de localisation des composants principaux, voir les fonctionnalités [de localisation de la page Composants principaux](localization.md).
 
 ### Exemple {#example}
 
