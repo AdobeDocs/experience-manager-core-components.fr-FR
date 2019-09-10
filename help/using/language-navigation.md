@@ -18,7 +18,7 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: ee6976f39894b4e67b42503503a51589224583f5
+source-git-commit: c4e86960ec271464661193f6409cd93d1b9ec51b
 
 ---
 
@@ -30,6 +30,9 @@ Le composant de navigation par langue fournit une navigation par langue/pays pou
 ## Utilisation {#usage}
 
 Souvent, les sites web sont proposés en plusieurs langues pour différentes zones géographiques. Le composant de navigation par langue permet à un visiteur d’afficher la même page dans différentes langues/différents paramètres régionaux. Ainsi, si vous consultez la version suisse allemande du site web, vous pouvez facilement passer à la version en anglais (États-Unis) de la même page. Le composant Navigation par langue gère la compréhension de la structure linguistique du site et recherche automatiquement la page correspondante.
+
+* Pour un exemple de fonctionnement de la fonctionnalité de localisation du composant de navigation dans la langue, reportez-vous [à la section ci-dessous](#example).
+* Pour consulter un exemple de fonctionnement des fonctionnalités de localisation des autres composants principaux, voir les fonctionnalités [de localisation de la page Composants principaux](localization.md).
 
 La [boîte de dialogue de modification](#edit-dialog) permet la définition de la racine de navigation globale d’un site ainsi que la profondeur de la structure de navigation. À l’aide de [la boîte de dialogue de conception](#design-dialog), l’auteur du modèle peut définir les valeurs par défaut des mêmes options.
 
