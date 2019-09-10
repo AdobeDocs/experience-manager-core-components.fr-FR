@@ -8,7 +8,7 @@ topic-tags: core-components
 index: y
 internal: n
 translation-type: tm+mt
-source-git-commit: c4e86960ec271464661193f6409cd93d1b9ec51b
+source-git-commit: c8041e855386b7195fe32dd5dc53458f1d8270b8
 
 ---
 
@@ -23,7 +23,7 @@ La plupart des sites nécessitent un pied de page pour être présents sur toute
 
 De même, un composant de navigation doit généralement s'afficher sur toutes les pages. Toutefois, il doit également refléter le contenu des pages localisées.
 
-En utilisant les fonctionnalités de localisation du composant principal [de navigation](navigation.md) et [du composant](experience-fragment.md) principal Fragment d'expérience, ainsi que les [modèles modifiables d'AEM](https://docs.adobe.com/content/help/en/experience-manager-64/authoring/siteandpage/templates.html), cette tâche devient une tâche fastidieuse.
+En utilisant les fonctionnalités de localisation du composant principal [de navigation](navigation.md) et [du composant](experience-fragment.md) principal Fragment d'expérience, ainsi que les [modèles modifiables d'AEM](https://docs.adobe.com/content/help/en/experience-manager-64/authoring/siteandpage/templates.html), cette tâche devient une tâche fastidieuse. L'exemple peut également être étendu pour utiliser [également le composant](language-navigation.md) de navigation de langue.
 
 ## Structure de contenu {#content-structure}
 
