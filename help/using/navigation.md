@@ -18,7 +18,7 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 48d23edbcdf4c4ed70d590cf6c6e4ac1db14f852
+source-git-commit: c4e86960ec271464661193f6409cd93d1b9ec51b
 
 ---
 
@@ -38,6 +38,9 @@ La boîte de dialogue de [modification](#edit-dialog) permet à l’auteur de co
 ## Prise en charge de la structure localisée du site {#localized-site-structure}
 
 Souvent, les sites web sont proposés en plusieurs langues pour différentes zones géographiques. En règle générale, chaque page localisée contiendra un élément de redirection qui est inclus dans le modèle de page. Le composant de navigation vous permet de le placer une fois sur un modèle pour toutes les pages de votre site. Il s'adapte ensuite automatiquement aux pages localisées individuelles en fonction de la structure de votre site globalisé.
+
+* Pour un exemple de fonctionnement de la fonctionnalité de localisation du composant de navigation, reportez-vous [à la section ci-dessous](#example-localiatzion).
+* Pour consulter un exemple de fonctionnement des fonctionnalités de localisation des composants principaux, voir les fonctionnalités [de localisation de la page Composants principaux](localization.md).
 
 ### Exemple {#example-localization}
 
