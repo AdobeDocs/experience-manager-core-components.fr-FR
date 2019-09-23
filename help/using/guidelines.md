@@ -9,7 +9,7 @@ content-type: référence
 topic-tags: développement
 products: SG_EXPERIENCEMANAGER/CORECOMPONENTS-new
 discoiquuid: 170dba8f-a2ed-442e-a56e-1126b338c36e
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 62643e5bd49ab006230f65004bb9374822dcc017
 
 ---
@@ -35,7 +35,7 @@ Pour aller plus loin, si les composants sont réutilisés sur plusieurs sites ou
 
 ### Séparation des préoccupations {#separation-of-concerns}
 
-Le maintien de la logique (ou du modèle) d’un composant distinct du modèle de balisage (ou affichage) est généralement une bonne pratique. Il existe plusieurs méthodes pour obtenir ce résultat. Toutefois, il est recommandé d’utiliser des [modèles Sling](https://sling.apache.org/documentation/bundles/models.html) pour la logique et le [modèle de langage HTML](https://helpx.adobe.com/experience-manager/htl/using/overview.html) (HTL) pour le balisage, comme le font aussi les composants principaux.
+Le maintien de la logique (ou du modèle) d’un composant distinct du modèle de balisage (ou affichage) est généralement une bonne pratique. There are several ways to achieve that, however the recommended one is to use [Sling Models](https://sling.apache.org/documentation/bundles/models.html) for the logic and the [HTML Template Language](https://helpx.adobe.com/experience-manager/htl/using/overview.html) (HTL) for the markup, like the Core Components also do.
 
 Les modèles Sling sont un ensemble d’annotations Java permettant d’accéder facilement aux variables nécessaires à partir des POJO. Ils offrent par conséquent une méthode simple, puissante et performante pour implémenter la logique Java pour les composants.
 
@@ -47,7 +47,7 @@ Les instructions de cette section peuvent également être utilisées pour tout 
 
 ### Fonctionnalités préconfigurables {#pre-configurable-capabilities}
 
-Outre la boîte de dialogue de modification utilisée par les auteurs de pages, les composants peuvent également avoir une boîte de dialogue de conception pour les auteurs de modèles afin de les préconfigurer. L’[éditeur de modèles](https://helpx.adobe.com/experience-manager/6-5/sites/authoring/using/templates.html) permet de configurer toutes ces préconfigurations, appelées « Stratégies ».
+Outre la boîte de dialogue de modification utilisée par les auteurs de pages, les composants peuvent également avoir une boîte de dialogue de conception pour les auteurs de modèles afin de les préconfigurer. The [Template Editor](https://helpx.adobe.com/experience-manager/6-5/sites/authoring/using/templates.html) allows to setup all these pre-configurations, which are called "Policies".
 
 Pour rendre les composants aussi réutilisables que possible, ils doivent être fournis avec des options significatives pour la préconfiguration. Cela permet d’activer ou de désactiver les fonctionnalités des composants pour répondre aux besoins spécifiques des différents sites.
 
@@ -69,7 +69,7 @@ Toutefois, pour que les composants spécifiques au projet ne dupliquent aucun co
 
 ### Contrôle de version des composants {#component-versioning}
 
-Les composants doivent être maintenus entièrement compatibles. Toutefois, des modifications qui ne peuvent pas être toujours compatibles sont parfois nécessaires. Une solution à ces besoins contradictoires consiste à introduire le contrôle de version des composants en ajoutant un numéro dans leur chemin d’accès au type de ressource et dans les noms complets de classe Java de leurs implémentations. Ce numéro de version représente une version majeure définie par les [directives de contrôle de version sémantique](https://semver.org/), qui n’est incrémentée que pour les modifications qui ne sont pas rétrocompatibles.
+Les composants doivent être maintenus entièrement compatibles. Toutefois, des modifications qui ne peuvent pas être toujours compatibles sont parfois nécessaires. Une solution à ces besoins contradictoires consiste à introduire le contrôle de version des composants en ajoutant un numéro dans leur chemin d’accès au type de ressource et dans les noms complets de classe Java de leurs implémentations. This version number represents a major version as defined by [semantic versioning guidelines](https://semver.org/), which is incremented only for changes that are not backward-compatible.
 
 Les modifications incompatibles aux aspects suivants des composants entraîneront une nouvelle version :
 
@@ -79,7 +79,7 @@ Les modifications incompatibles aux aspects suivants des composants entraîneron
 * Représentation JSON
 * Boîtes de dialogue
 
-Pour plus d’informations, reportez-vous au document [Stratégies de contrôle de version](https://github.com/adobe/aem-core-wcm-components/wiki/Versioning-Policies) dans GitHub.
+For further details, see the [Versioning Policies](https://github.com/adobe/aem-core-wcm-components/wiki/Versioning-Policies) document in GitHub.
 
 Le contrôle de version des composants crée une forme de contrat qui est importante pour les mises à niveau car elle clarifie le moment où il est nécessaire de restructurer un élément. Consultez aussi la section [Compatibilité des mises à niveau des personnalisations](customizing.md#upgrade-compatibility-of-customizations), qui explique quels sont les différents types de personnalisations requis pour une mise à niveau.
 
@@ -96,11 +96,11 @@ Lorsqu’elle est combinée avec le [modèle de composant proxy](#proxy-componen
 
 ## Assemblage {#putting-it-all-together}
 
-Vous trouverez ci-dessous un aperçu de la structure entière de liaison de type de ressource, en prenant l’exemple du composant principal du titre. Il illustre la manière dont un composant proxy spécifique au site permet de résoudre le contrôle des composants, afin d’éviter que la ressource de contenu contienne un numéro de version. Il indique ensuite comment le fichier `title.html` [HTL](https://helpx.adobe.com/experience-manager/htl/using/overview.html) du composant utilise l’interface du modèle, tandis que l’implémentation est liée à la version spécifique du composant via les annotations du [modèle Sling model](https://sling.apache.org/documentation/bundles/models.html).
+Vous trouverez ci-dessous un aperçu de la structure entière de liaison de type de ressource, en prenant l’exemple du composant principal du titre. Il illustre la manière dont un composant proxy spécifique au site permet de résoudre le contrôle des composants, afin d’éviter que la ressource de contenu contienne un numéro de version. It then shows how the component's `title.html` [HTL](https://helpx.adobe.com/experience-manager/htl/using/overview.html) file uses to the model interface, while the implementation binds to the specific version of the component through [Sling Model](https://sling.apache.org/documentation/bundles/models.html) annotations.
 
 ![Présentation de la liaison des ressources](assets/chlimage_1-32.png)
 
-Vous trouverez ci-dessous un autre aperçu qui n’affiche pas les détails du POJO d’implémentation, mais révèle la manière dont les [modèles et stratégies associés](https://helpx.adobe.com/experience-manager/6-5/sites/developing/using/page-templates-editable.html) sont référencés.
+Below is another overview, which doesn't show the details of the implementation POJO, but reveals how the associated [templates and policies](https://helpx.adobe.com/experience-manager/6-5/sites/developing/using/page-templates-editable.html) are referenced.
 
 La propriété `cq:allowedTemplates` indique les modèles qui peuvent être utilisés pour un site et la propriété `cq:template` indique pour chaque page quel est le modèle associé. Chaque modèle est composé de trois parties :
 
