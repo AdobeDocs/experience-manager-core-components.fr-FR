@@ -17,8 +17,8 @@ noindex: 'true'
 index: n
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: 632d6abb1f13667cc0457152268d50af3bfabfc4
+translation-type: tm+mt
+source-git-commit: 4e74f10e2a4119484a597178dc4577b399833dbf
 
 ---
 
@@ -52,7 +52,7 @@ Le tableau suivant répertorie la compatibilité de la version v1 du composant T
 
 ## Exemple de sortie de composant {#sample-component-output}
 
-Voici un exemple tiré de [We.Retail](https://helpx.adobe.com/experience-manager/6-4/sites/developing/using/we-retail.html).
+The following is sample taken from We.Retail.[](https://helpx.adobe.com/experience-manager/6-4/sites/developing/using/we-retail.html)
 
 ### Capture d’écran {#screenshot}
 
@@ -204,7 +204,7 @@ La boîte de dialogue de modification propose les outils standard de mise en for
 
    Si vous souhaitez effectuer une correspondance exacte, sélectionnez l’option **Correspondance avec la casse** avant de lancer la recherche.
 
-   Si une correspondance est trouvée, elle est mise en surbrillance et le dialogue de recherche est grisé. Cliquez à nouveau sur le bouton **Rechercher** dans la boîte de dialogue grisée pour rechercher l’occurrence suivante ou sélectionnez le bouton **Remplacer** pour remplacer le texte mis en surbrillance. Notez que le bouton **Remplacer** n’est actif qu’une fois qu’une correspondance est trouvée.
+   Si une correspondance est trouvée, elle est mise en surbrillance et le dialogue de recherche est grisé. Cliquez à nouveau sur le bouton **Rechercher** dans la boîte de dialogue grisée pour rechercher l’occurrence suivante ou sélectionner le bouton **Remplacer** pour remplacer le texte mis en surbrillance. Notez que le bouton **Remplacer** n’est actif qu’une fois qu’une correspondance est trouvée.
 
    Sélectionnez **Remplacer tout** pour remplacer toutes les occurrences du texte à la fois.
 
@@ -238,7 +238,7 @@ La boîte de dialogue de modification propose les outils standard de mise en for
 
    ![](assets/chlimage_1-75.png)
 
-   Utilisé pour mettre en forme le texte sélectionné sous forme de liste numérotée ou commencer l’insertion d&#39;une liste numérotée après le curseur.
+   Utilisé pour mettre en forme le texte sélectionné sous forme de liste numérotée ou commencer l’insertion d'une liste numérotée après le curseur.
 
    Pour mettre fin à une liste numérotée, appuyez ou cliquez de nouveau sur le bouton **Numérotée** ou saisissez deux retours chariot.
 
@@ -323,7 +323,7 @@ Le composant de texte peut également être modifié en ligne mais en raison des
 
 ![](assets/chlimage_1-86.png)
 
-## Boîte de dialogue Conception {#design-dialog}
+## Boîte de dialogue de conception {#design-dialog}
 
 La boîte de dialogue Conception permet à l’auteur du modèle de définir quelles options de formatage de texte sont disponibles pour les auteurs de contenu.
 
@@ -376,7 +376,7 @@ L’option permettant d’insérer des caractères spéciaux peut être activée
 
 ## Détails techniques {#technical-details}
 
-Vous trouverez la documentation technique la plus récente sur le composant Texte [sur GitHub](https://github.com/adobe/aem-core-wcm-components/tree/master/content/src/content/jcr_root/apps/core/wcm/components/text/v1/text).
+The latest technical documentation about the Text Component can be found on GitHub.[](https://github.com/adobe/aem-core-wcm-components/tree/master/content/src/content/jcr_root/apps/core/wcm/components/text/v1/text)
 
 Le projet sur les composants principaux peut être téléchargé depuis GitHub.
 
