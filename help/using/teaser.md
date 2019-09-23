@@ -8,7 +8,7 @@ contentOwner: bohnert
 content-type: référence
 topic-tags: core-components
 discoiquuid: e597c18e-3643-41be-9878-4a7872f1ab90
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: eef608fb06001485aa2c2c0b574af412ed7f15a4
 
 ---
@@ -40,7 +40,7 @@ Pour tester le composant Teaser, des exemples de ses options de configuration, a
 
 ### Détails techniques {#technical-details}
 
-Vous trouverez la documentation technique la plus récente sur le composant Teaser [sur GitHub](https://github.com/adobe/aem-core-wcm-components/blob/master/content/src/content/jcr_root/apps/core/wcm/components/teaser/v1/teaser).
+La documentation technique la plus récente sur le composant Teaser [est disponible sur GitHub](https://github.com/adobe/aem-core-wcm-components/blob/master/content/src/content/jcr_root/apps/core/wcm/components/teaser/v1/teaser).
 
 Vous trouverez plus d’informations sur le développement des composants principaux dans la [documentation destinée aux développeurs de composants principaux](developing.md).
 
@@ -53,9 +53,9 @@ L’auteur du contenu peut utiliser la boîte de dialogue de configuration pour 
 ![](assets/screen_shot_2018-07-03at104125.png)
 
 * **Ressource image**
-   * Déposez un fichier depuis l’[explorateur de ressources](https://helpx.adobe.com/fr/experience-manager/6-5/sites/authoring/using/author-environment-tools.html) ou appuyez sur l’option **parcourir** pour effectuer un téléchargement à partir d’un système de fichiers local.
+   * Drop an asset from the [asset browser](https://helpx.adobe.com/experience-manager/6-5/sites/authoring/using/author-environment-tools.html) or tap the **browse** option to upload from a local file system.
    * Appuyez ou cliquez sur **Effacer** pour désélectionner l’image actuellement sélectionnée.
-   * Appuyez ou cliquez sur **Modifier** pour [gérer les rendus de la ressource](https://helpx.adobe.com/fr/experience-manager/6-5/assets/using/managing-assets-touch-ui.html) dans l’éditeur de ressources.
+   * Tap or click **Edit** to [mange the renditions of the asset](https://helpx.adobe.com/experience-manager/6-5/assets/using/managing-assets-touch-ui.html) in the asset editor.
 
 ### Texte {#text}
 
