@@ -8,8 +8,8 @@ content-type: référence
 products: SG_EXPERIENCEMANAGER/CORECOMPONENTS-new
 discoiquuid: d35f4e71-ec7f-4128-9123-b997dbb5f0cf
 index: n
-translation-type: ht
-source-git-commit: 632d6abb1f13667cc0457152268d50af3bfabfc4
+translation-type: tm+mt
+source-git-commit: 4e74f10e2a4119484a597178dc4577b399833dbf
 
 ---
 
@@ -43,7 +43,7 @@ Le tableau ci-après répertorie la compatibilité de la version v1 du composant
 
 ## Exemple de sortie de composant {#sample-component-output}
 
-Voici un exemple tiré de [We.Retail](https://helpx.adobe.com/experience-manager/6-4/sites/developing/using/we-retail.html).
+The following is sample taken from We.Retail.[](https://helpx.adobe.com/experience-manager/6-4/sites/developing/using/we-retail.html)
 
 ### HTML {#html}
 
@@ -101,7 +101,7 @@ Il n’existe pas de boîte de dialogue de conception pour le composant Masqué 
 
 ## Détails techniques {#technical-details}
 
-Vous trouverez la documentation technique la plus récente sur le composant Masqué du formulaire [sur GitHub](https://github.com/adobe/aem-core-wcm-components/tree/master/content/src/content/jcr_root/apps/core/wcm/components/form/hidden/v1/hidden).
+La documentation technique la plus récente sur le composant masqué de formulaire [se trouve sur GitHub](https://github.com/adobe/aem-core-wcm-components/tree/master/content/src/content/jcr_root/apps/core/wcm/components/form/hidden/v1/hidden).
 
 Le projet sur les composants principaux peut être téléchargé depuis GitHub.
 
