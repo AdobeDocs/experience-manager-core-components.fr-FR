@@ -18,7 +18,7 @@ source-git-commit: fb56cf9323ab0872c59563728f5947ced33c0658
 + Prise en main {#get-started}
    + [Création à l’aide des composants principaux](authoring.md)
    + [Utilisation des composants principaux](using.md)
-   + [Fonctionnalités de localisation](localization.md)
+   + [Localization Features](localization.md)
 + Composants {#components}
    + [Accordéon](accordion.md)
    + [Chemin de navigation](breadcrumb.md)
