@@ -7,19 +7,19 @@ contentOwner: bohnert
 content-type: référence
 topic-tags: création
 products: SG_EXPERIENCEMANAGER/CORECOMPONENTS-new
-translation-type: ht
-source-git-commit: 632d6abb1f13667cc0457152268d50af3bfabfc4
+translation-type: tm+mt
+source-git-commit: d683f8110b514860bba11e08e6923be49e92652f
 
 ---
 
 
 # Composant de liste de fragments de contenu{#content-fragment-list-component}
 
-Le composant de liste de fragments de contenu des composants principaux permet d’afficher une liste de [fragments de contenu](https://helpx.adobe.com/experience-manager/6-5/assets/using/content-fragments.html).
+The Core Component Content Fragment List component allows for the display of a list of [content fragments](https://helpx.adobe.com/experience-manager/6-5/assets/using/content-fragments.html).
 
 ## Utilisation {#usage}
 
-Le composant de liste de fragments de contenu des composants principaux permet d’inclure une liste de [fragments de contenu](https://helpx.adobe.com/experience-manager/6-5/assets/using/content-fragments.html) sur une page basée sur un modèle de fragment de contenu. Cette opération peut s’avérer particulièrement utile pour créer un [contenu sans en-tête ](https://helpx.adobe.com/experience-manager/6-5/sites/developing/user-guide.html?topic=/experience-manager/6-5/sites/developing/morehelp/headless.ug.js) qui peut être facilement utilisé par d’autres applications.
+The Core Component Content Fragment List Component allows for the inclusion of a list of [content fragments](https://helpx.adobe.com/experience-manager/6-5/assets/using/content-fragments.html) on a page based on a Content Fragment model. This can be especially useful for creating [headless content](https://helpx.adobe.com/experience-manager/6-5/sites/developing/user-guide.html?topic=/experience-manager/6-5/sites/developing/morehelp/headless.ug.js) that can be easily consumed by other applications.
 
 * La liste et ses propriétés peuvent être sélectionnées dans la [boîte de dialogue de configuration](#configure-dialog).
 * Des styles peuvent être appliqués au composant dans la [boîte de dialogue de conception](#design-dialog).
@@ -42,7 +42,7 @@ Pour tester le composant de liste de fragments de contenu et voir des exemples d
 
 ## Détails techniques {#technical-details}
 
-Vous trouverez la documentation technique la plus récente sur le composant de liste de fragments de contenu [sur GitHub ](https://github.com/adobe/aem-core-wcm-components/blob/master/content/src/content/jcr_root/apps/core/wcm/components/contentfragmentlist/v1/contentfragmentlist).
+The latest technical documentation about the Content Fragment List Component can be found on GitHub.[](https://github.com/adobe/aem-core-wcm-components/blob/master/content/src/content/jcr_root/apps/core/wcm/components/contentfragmentlist/v1/contentfragmentlist)
 
 Vous trouverez plus d’informations sur le développement des composants principaux dans la [documentation destinée aux développeurs de composants principaux](developing.md).
 
