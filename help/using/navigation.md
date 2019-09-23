@@ -29,18 +29,18 @@ Le composant Navigation permet aux utilisateurs de parcourir facilement une stru
 
 ## Utilisation {#usage}
 
-Les listes de composants de navigation répertorient une arborescence de pages afin que les utilisateurs d'un site puissent facilement naviguer dans la structure du site.
+Les listes de composants de navigation répertorient une arborescence de pages afin que les utilisateurs d’un site puissent facilement naviguer dans la structure du site.
 
-Le composant de navigation peut détecter automatiquement la structure de site globalisée de votre site et [s'adapter automatiquement à une page localisée.](#localized-site-strucutre) En outre, elle peut prendre en charge toute structure arbitraire de site en utilisant [des pages de redirection d'ombre](#shadow-structure) pour représenter une autre structure autre que la structure de contenu principale.
+Le composant de navigation peut détecter automatiquement la structure de site globalisée de votre site et [s’adapter automatiquement à une page localisée.](#localized-site-strucutre) En outre, elle peut prendre en charge toute structure arbitraire de site en utilisant [des pages de redirection fantômes](#shadow-structure) pour représenter une structure autre que la structure de contenu principale.
 
 La boîte de dialogue de [modification](#edit-dialog) permet à l’auteur de contenu de définir la page racine de navigation ainsi que la profondeur de navigation. La boîte de dialogue de [conception](#design-dialog) permet à l’auteur du modèle de définir les valeurs par défaut de la racine de navigation et de la profondeur.
 
-## Prise en charge de la structure localisée du site {#localized-site-structure}
+## Prise en charge de la structure de site localisée {#localized-site-structure}
 
-Souvent, les sites web sont proposés en plusieurs langues pour différentes zones géographiques. En règle générale, chaque page localisée contiendra un élément de redirection qui est inclus dans le modèle de page. Le composant de navigation vous permet de le placer une fois sur un modèle pour toutes les pages de votre site. Il s'adapte ensuite automatiquement aux pages localisées individuelles en fonction de la structure de votre site globalisé.
+Souvent, les sites web sont proposés en plusieurs langues pour différentes zones géographiques. En règle générale, chaque page localisée contient un élément de navigation qui est inclus dans le modèle de page. Le composant de navigation permet de le placer une fois sur un modèle pour toutes les pages du site. Il s’adapte ensuite automatiquement aux pages localisées individuelles en fonction de la structure de site globalisée.
 
-* Pour un exemple de fonctionnement de la fonctionnalité de localisation du composant de navigation, reportez-vous [à la section ci-dessous](#example-localiatzion).
-* Pour consulter un exemple de fonctionnement des fonctionnalités de localisation des composants principaux, voir les fonctionnalités [de localisation de la page Composants principaux](localization.md).
+* For an example of how the localization feature of the Navigation Component works, see the section below.[](#example-localiatzion)
+* For an example of how the localization features of the Core Components work together, see the Localization Features of the Core Components page.[](localization.md)
 
 ### Exemple {#example-localization}
 
@@ -74,32 +74,32 @@ Imaginons que votre contenu ressemble à ceci :
 \-- wknd-shop
 ```
 
-Pour le site We. Retail, il est probable que vous souhaitiez placer le composant Navigation sur un modèle de page dans le cadre de l'en-tête. Once part of the template, you can set the **Navigation Root** of the component to `/content/we-retail/language-masters/en` since that is where your master content for that site begins. Vous souhaitez peut-être également définir **la Profondeur** de la structure de navigation `2` puisque vous ne souhaitez probablement pas que l'intégralité de l'arborescence de contenu soit affichée par le composant, mais plutôt les deux premiers niveaux afin qu'elle serve d'aperçu.
+Pour le site We.Retail, il est probable que vous souhaitiez placer le composant de navigation sur un modèle de page dans le cadre de l’en-tête. Une fois qu’il fait partie du modèle, vous pouvez définir la **racine de navigation** du composant sur `/content/we-retail/language-masters/en` puisque c’est là où commence le contenu principal de ce site. Il peut également être judicieux de définir **la profondeur de la structure de navigation** sur `2` puisque vous ne souhaitez probablement pas que l’intégralité de l’arborescence de contenu soit affichée par le composant, mais plutôt les deux premiers niveaux afin de servir d’aperçu.
 
-Avec **la valeur Racine** de navigation, le composant Navigation sait que la `/content/we-retail/language-masters/en` navigation démarre et qu'elle peut générer des options de navigation en répétant deux niveaux vers le bas (comme défini par la **valeur Profondeur** de la structure de navigation).
+Avec **la valeur racine de navigation**, le composant de navigation sait que la `/content/we-retail/language-masters/en`navigation démarre et qu’elle peut générer des options de navigation en effectuant une récurrence de la structure du site deux niveaux vers le bas (comme défini par la valeur de **profondeur de la structure de navigation**).
 
-Quelle que soit la page localisée consultée par un utilisateur, le composant Navigation peut trouver la page localisée correspondante en connaissant l'emplacement de la page actuelle, en travaillant à l'arrière jusqu'à la racine, puis en transmettant la page correspondante.
+Quelle que soit la page localisée consultée par un utilisateur, le composant de navigation par langue est capable de trouver la page localisée correspondante en connaissant l’emplacement de la page actuelle et en remontant à la racine, puis en revenant à la page correspondante.
 
-Ainsi, si un visiteur consulte `/content/ch/de/experience/arctic-surfing-in-lofoten`, le composant sait comment générer la structure de navigation sur la base `/content/we-retail/language-masters/de`de. De même, si le visiteur consulte `/content/us/en/experience/arctic-surfing-in-lofoten`, le composant sait comment générer la structure de navigation en fonction `/content/we-retail/language-masters/en`de.
+Ainsi, si un visiteur consulte `/content/ch/de/experience/arctic-surfing-in-lofoten`, le composant sait comment générer la structure de navigation sur la base de `/content/we-retail/language-masters/de`. De même, si le visiteur consulte `/content/us/en/experience/arctic-surfing-in-lofoten`, le composant sait comment générer la structure de navigation en fonction de `/content/we-retail/language-masters/en`.
 
-## Prise en charge de la structure du site ombre {#shadow-structure}
+## Prise en charge de la structure de site fantôme {#shadow-structure}
 
-Parfois, il est nécessaire de créer un menu de navigation pour le visiteur différent de la structure réelle du site. Une promotion doit peut-être mettre en surbrillance certains contenus du menu en réorganisant la liste du contenu. En utilisant des pages ombrées qui redirigent simplement vers d'autres pages de contenu, le composant de navigation peut générer n'importe quelle structure de navigation arbitraire nécessaire.
+Parfois, il est nécessaire de créer un menu de navigation pour le visiteur différent de la structure réelle du site. Par exemple, une promotion peut mettre en surbrillance certains contenus du menu en réorganisant la liste du contenu. En utilisant des pages fantômes qui redirigent simplement vers d’autres pages de contenu, le composant de navigation peut générer n’importe quelle structure de navigation arbitraire nécessaire.
 
-Pour ce faire, vous devez :
+Pour ce faire, vous devez :
 
-1. Créez des pages ombrées comme des pages vides représentant la structure de votre site. On parle généralement de structure de site d'ombre.
-1. Définissez les **valeurs de redirection** dans le calcul des liens des pages sur ces pages pour qu'elles pointent vers les pages de contenu réelles.
-1. Définissez l'option **Masquer dans la navigation** dans les propriétés de la page des pages ombrées.
-1. Définissez **la valeur Racine** de navigation du composant de navigation pour qu'elle pointe vers la racine de la nouvelle structure du site d'ombre.
+1. Créer des pages fantômes en tant que pages vides représentant la structure désirée du site. On parle généralement de structure de site fantôme.
+1. Définir les valeurs de **redirection** dans les propriétés de page sur ces pages pour qu’elles pointent vers les pages de contenu réelles.
+1. Définir l’option **Masquer dans la navigation** dans les propriétés de page des pages fantômes.
+1. Définir la valeur de **racine de navigation** du composant de navigation pour qu’elle pointe vers la racine de la nouvelle structure du site fantôme.
 
-Le composant de navigation affichera ensuite le menu en fonction de la structure du site d'ombre. Les liens rendus par le composant correspondent aux pages de contenu réelles que les pages d'ombre redirigent vers les pages ombrées et non vers celles-ci. En outre, le composant affiche les noms des pages réelles et met correctement en surbrillance la page active, même lorsque la navigation est basée sur des pages ombrées. Le composant de navigation rend les pages ombrées complètement transparentes pour le visiteur.
-
->[!NOTE]
->Les pages d'ombre rendent vos options de navigation beaucoup plus flexibles, mais gardez à l'esprit que la maintence de cette structure est ensuite totalement manuelle. Si vous réorganisez le contenu réel du site ou ajoutez/supprimez le contenu, vous devrez mettre à jour manuellement la structure d'ombre si nécessaire.
+Le composant de navigation affichera alors le menu en fonction de la structure du site fantôme. Les liens rendus par le composant correspondent aux pages de contenu réelles vers lesquelles les pages fantômes redirigent et non les pages fantômes elles-mêmes. En outre, le composant affiche les noms des pages réelles et met correctement en surbrillance la page active, même lorsque la navigation est basée sur des pages fantômes. Le composant de navigation rend les pages fantômes complètement transparentes pour le visiteur.
 
 >[!NOTE]
->Lors du rendu d'une structure de site d'ombre, seules les pages ombrées sont réaffirmées par la logique de navigation. La logique ne récurrent pas la structure des destinations de redirection.
+>Les pages fantômes rendent vos options de navigation beaucoup plus flexibles, mais gardez à l’esprit que la maintenance de cette structure est ensuite totalement manuelle. Si vous réorganisez le contenu réel du site ou ajoutez/supprimez du contenu, vous devrez mettre à jour manuellement la structure fantôme si nécessaire.
+
+>[!NOTE]
+>Lors du rendu d’une structure de site fantôme, seules les pages fantômes sont répétées par la logique de navigation. La logique ne répète pas la structure des destinations de redirection.
 
 ## Version et compatibilité {#version-and-compatibility}
 
@@ -115,11 +115,11 @@ Pour plus d’informations sur les versions et les publications des composants p
 
 ## Exemple de sortie de composant {#sample-component-output}
 
-To experience the Navigation Component as well as see examples of its configuration options as well as HTML and JSON output, visit the [Component Library](http://opensource.adobe.com/aem-core-wcm-components/library/navigation.html).
+Pour tester le composant Navigation et obtenir des exemples d’options de configuration, ainsi que des sorties HTML et JSON, consultez la [Bibliothèque de composants](http://opensource.adobe.com/aem-core-wcm-components/library/navigation.html).
 
 ## Détails techniques {#technical-details}
 
-Vous trouverez la documentation technique la plus récente sur le composant [de navigation sur github](https://github.com/adobe/aem-core-wcm-components/blob/master/content/src/content/jcr_root/apps/core/wcm/components/navigation/v1/navigation).
+La documentation technique la plus récente sur le composant de navigation [se trouve sur GitHub](https://github.com/adobe/aem-core-wcm-components/blob/master/content/src/content/jcr_root/apps/core/wcm/components/navigation/v1/navigation).
 
 Vous trouverez plus d’informations sur le développement des composants principaux dans la [documentation destinée aux développeurs de composants principaux](developing.md).
 
@@ -148,9 +148,9 @@ Définit le nombre de niveaux vers le bas de l’arborescence de navigation que 
 
 ![](assets/screen-shot-2019-08-29-12.23.53.png)
 
-Dans l'onglet **Accessibilité** , les valeurs peuvent être définies pour [les libellés d'accessibilité](https://www.w3.org/WAI/standards-guidelines/aria/) ARIA pour le composant.
+On the **Accessibility** tab, values can be set for [ARIA accessibility](https://www.w3.org/WAI/standards-guidelines/aria/) labels for the component.
 
-* **Libellé** - Valeur d'un attribut d'étiquette ARIA pour le composant
+* **Libellé** - Valeur d’un attribut de libellé ARIA pour le composant
 
 ## Boîte de dialogue de conception {#design-dialog}
 
