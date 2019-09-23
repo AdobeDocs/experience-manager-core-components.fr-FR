@@ -14,8 +14,8 @@ hidemerchandisingbar: inherit
 hidepromocomponent: inherit
 modalsize: 426x240
 index: n
-translation-type: ht
-source-git-commit: 632d6abb1f13667cc0457152268d50af3bfabfc4
+translation-type: tm+mt
+source-git-commit: 4e74f10e2a4119484a597178dc4577b399833dbf
 
 ---
 
@@ -49,7 +49,7 @@ Le tableau ci-après répertorie la compatibilité de la version v1 du composant
 
 ## Exemple de sortie de composant {#sample-component-output}
 
-Voici un exemple tiré de [We.Retail](https://helpx.adobe.com/experience-manager/6-4/sites/developing/using/we-retail.html).
+The following is sample taken from We.Retail.[](https://helpx.adobe.com/experience-manager/6-4/sites/developing/using/we-retail.html)
 
 ### Capture d’écran {#screenshot}
 
@@ -117,7 +117,7 @@ Il n’existe pas de boîte de dialogue de conception pour le composant de bouto
 
 ## Détails techniques {#technical-details}
 
-Vous trouverez la documentation technique la plus récente sur le composant de bouton de formulaire [sur GitHub](https://github.com/adobe/aem-core-wcm-components/tree/master/content/src/content/jcr_root/apps/core/wcm/components/form/button/v1/button).
+The latest technical documentation about the Form Button Component can be found on GitHub.[](https://github.com/adobe/aem-core-wcm-components/tree/master/content/src/content/jcr_root/apps/core/wcm/components/form/button/v1/button)
 
 Le projet sur les composants principaux peut être téléchargé depuis GitHub.
 
