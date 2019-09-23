@@ -7,7 +7,7 @@ uuid: 46f71233-8b12-4887-a0c6-ad24dc469cb1
 content-type: référence
 topic-tags: core-components
 discoiquuid: 966d47fb-d35d-4103-b29d-4ef0aa739f24
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 48d23edbcdf4c4ed70d590cf6c6e4ac1db14f852
 
 ---
@@ -27,7 +27,7 @@ La [boîte de dialogue de modification](#edit-dialog) permet à l’auteur de co
 >
 >Les composants d’onglets imbriqués (onglets dans les onglets) sont pris en charge.
 >
->Les composants des onglets simples (non imbriqués) peuvent être localisés/sélectionnés à l’aide de l’[arborescence de contenu](https://helpx.adobe.com/experience-manager/6-5/sites/authoring/using/author-environment-tools.html), mais les onglets imbriqués ne peuvent pas l’être.
+>Simple (non-nested) tab components can be located/selected using the [content tree](https://helpx.adobe.com/experience-manager/6-5/sites/authoring/using/author-environment-tools.html), however nested tabs can not be.
 
 ## Version et compatibilité {#version-and-compatibility}
 
@@ -47,7 +47,7 @@ Pour tester le composant Onglets, des exemples d’options de configuration, ain
 
 ### Détails techniques {#technical-details}
 
-Vous trouverez la documentation technique la plus récente sur le composant Onglets [sur GitHub](https://github.com/adobe/aem-core-wcm-components/blob/master/content/src/content/jcr_root/apps/core/wcm/components/tabs/v1/tabs).
+La documentation technique la plus récente sur le composant Onglets [est disponible sur GitHub](https://github.com/adobe/aem-core-wcm-components/blob/master/content/src/content/jcr_root/apps/core/wcm/components/tabs/v1/tabs).
 
 Vous trouverez plus d’informations sur le développement des composants principaux dans la [documentation destinée aux développeurs de composants principaux](developing.md).
 
@@ -76,7 +76,7 @@ Dans l’onglet **Propriétés**, l’auteur du contenu peut définir quel ongle
 
 ![](assets/screen-shot-2019-08-29-12.28.40.png)
 
-Dans l’onglet **Accessibilité**, les valeurs peuvent être définies pour les libellés d’[accessibilité ARIA]( https://www.w3.org/WAI/standards-guidelines/aria/) du composant.
+On the **Accessibility** tab, values can be set for [ARIA accessibility](https://www.w3.org/WAI/standards-guidelines/aria/) labels for the component.
 
 * **Libellé** - Valeur d’un attribut de libellé ARIA pour le composant
 
@@ -98,7 +98,7 @@ Lorsque vous sélectionnez l’option **Sélectionner un panneau** dans la barre
 
 >[!NOTE]
 >
->Les onglets ne sont pas sélectionnables par l’auteur en mode **Édition**. Utilisez le mode [**Aperçu**](https://helpx.adobe.com/experience-manager/6-5/sites/authoring/using/editing-content.html) ou l’option **[Afficher comme publié](https://helpx.adobe.com/experience-manager/6-5/sites/authoring/using/editing-content.html)** pour interagir avec les onglets comme un lecteur du contenu publié.
+>Les onglets ne sont pas sélectionnables par l’auteur en mode **Édition**. Use [**Preview** mode](https://helpx.adobe.com/experience-manager/6-5/sites/authoring/using/editing-content.html) or the **[View as Published](https://helpx.adobe.com/experience-manager/6-5/sites/authoring/using/editing-content.html)** option to interact with the tabs as a reader of the published content would.
 
 ## Boîte de dialogue de conception {#design-dialog}
 
@@ -108,7 +108,7 @@ La boîte de dialogue de conception permet à l’auteur du modèle de définir 
 
 L’onglet **Composants autorisés** permet de définir quels composants peuvent être ajoutés en tant qu’éléments au composant Onglets par l’auteur du contenu.
 
-L’onglet Composants autorisés fonctionne de la même manière que l’onglet du même nom lors de la [définition de la stratégie et des propriétés d’un conteneur de mises en page dans l’éditeur de modèles.](https://helpx.adobe.com/fr/experience-manager/6-5/sites/authoring/using/templates.html)
+L’onglet Composants autorisés fonctionne de la même manière que l’onglet du même nom lors de la [définition de la stratégie et des propriétés d’un conteneur de mises en page dans l’éditeur de modèles.](https://helpx.adobe.com/experience-manager/6-5/sites/authoring/using/templates.html)
 
 ### Onglet Styles {#styles-tab}
 
