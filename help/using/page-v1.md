@@ -8,25 +8,25 @@ content-type: référence
 topic-tags: core-components
 discoiquuid: b3f1775d-743d-4f72-a1e5-198303007a8e
 index: n
-translation-type: ht
-source-git-commit: 632d6abb1f13667cc0457152268d50af3bfabfc4
+translation-type: tm+mt
+source-git-commit: 4e74f10e2a4119484a597178dc4577b399833dbf
 
 ---
 
 
 # Composant Page (v1){#page-component-v}
 
-Le composant Page est un composant de page extensible, conçu pour fonctionner avec l’[éditeur de modèles](https://helpx.adobe.com/experience-manager/6-4/sites/authoring/using/templates.html) et autoriser l’assemblage de composants d’en-tête/de pied de page et de structure de page avec l’éditeur de modèles.
+The Page Component is an extensible page component designed to work with the [template editor](https://helpx.adobe.com/experience-manager/6-4/sites/authoring/using/templates.html) and allow page header/footer and structure components to be assembled with the template editor.
 
 ## Utilisation {#usage}
 
-Le composant Page sert de base à toutes les pages conçues avec les composants principaux ainsi que les modèles modifiables. En utilisant le composant Page, les en-têtes, les pieds de page et la structure de la page peuvent être définis dans un modèle à l&#39;aide des autres composants principaux.
+Le composant Page sert de base à toutes les pages conçues avec les composants principaux ainsi que les modèles modifiables. En utilisant le composant Page, les en-têtes, les pieds de page et la structure de la page peuvent être définis dans un modèle à l'aide des autres composants principaux.
 
-Grâce à la [boîte de dialogue de conception](page-v1.md#main-pars_title_1995166862), les bibliothèques côté client personnalisées peuvent être définies pour la page. Contrairement aux autres composants dont la boîte de dialogue de modification est accessible directement à partir de ceux-ci, puisque le composant est la page elle-même, la [boîte de dialogue de modification](page-v1.md#main-pars_title) du composant Page est la fenêtre des propriétés de la page.
+Grâce à la [boîte de dialogue de conception](page-v1.md#main-pars_title_1995166862), les bibliothèques côté client personnalisées peuvent être définies pour la page. Contrairement aux autres composants dont la boîte de dialogue de modification est accessible directement à partir de ceux-ci, puisque le composant est la page elle-même, la [boîte de dialogue de modification](page-v1.md#main-pars_title) du composant de page est la fenêtre des propriétés de la page.
 
 ## Version et compatibilité {#version-and-compatibility}
 
-Ce document décrit la version v1 du composant Page, introduite à l&#39;origine avec la version 1.0.0 des composants principaux avec AEM 6.3.
+Ce document décrit la version v1 du composant Page, introduite à l'origine avec la version 1.0.0 des composants principaux avec AEM 6.3.
 
 Le tableau suivant répertorie la compatibilité de la version v1 du composant Page.
 
@@ -47,7 +47,7 @@ Le tableau suivant répertorie la compatibilité de la version v1 du composant P
 
 ## Exemple de sortie de composant {#sample-component-output}
 
-Voici un exemple tiré de [We.Retail](https://helpx.adobe.com/experience-manager/6-4/sites/developing/using/we-retail.html).
+The following is sample taken from We.Retail.[](https://helpx.adobe.com/experience-manager/6-4/sites/developing/using/we-retail.html)
 
 ### Capture d’écran {#screenshot}
 
@@ -685,7 +685,7 @@ Voici un exemple tiré de [We.Retail](https://helpx.adobe.com/experience-manager
 
 ## Boîte de dialogue de modification {#edit-dialog}
 
-Étant donné que le composant représente la page entière, les paramètres qui seraient normalement dans une boîte de dialogue de modification se trouvent dans la fenêtre [Propriétés de la page](https://helpx.adobe.com/experience-manager/6-4/sites/authoring/using/editing-page-properties.html) window.
+Because the component represents the entire page, settings that would normally be in an edit dialog are found in the [Page Properties](https://helpx.adobe.com/experience-manager/6-4/sites/authoring/using/editing-page-properties.html) window.
 
 ## Boîte de dialogue de conception {#design-dialog}
 
@@ -696,16 +696,16 @@ Puisque le composant représente la page entière, la boîte de dialogue de conc
 À l’aide de la fenêtre Conception de page, vous pouvez définir des bibliothèques côté client qui doivent être chargées avec la page.
 
 * Pour ajouter un nouveau champ, appuyez ou cliquez sur le bouton **Ajouter** sous les champs.
-* Pour supprimer un champ ou appuyer sur l’icône de corbeille à côté du champ à supprimer.
+* Pour supprimer un champ, cliquez ou appuyez sur l’icône de corbeille à côté du champ à supprimer.
 * Pour réorganiser l’ordre de chargement, cliquez ou appuyez et faites glisser la poignée à côté du champ à déplacer.
 
-Pour plus d’informations sur l’utilisation des bibliothèques côté client, voir [Utilisation des bibliothèques côté client](https://helpx.adobe.com/experience-manager/6-3/sites/developing/using/clientlibs.html).
+For more information about using client-side libraries see [Using Client Side Libraries](https://helpx.adobe.com/experience-manager/6-3/sites/developing/using/clientlibs.html).
 
 ![](assets/chlimage_1-95.png)
 
 ## Détails techniques {#technical-details}
 
-Vous trouverez la documentation technique la plus récente sur le composant Page [sur GitHub](https://github.com/adobe/aem-core-wcm-components/tree/master/content/src/content/jcr_root/apps/core/wcm/components/page/v1/page).
+The latest technical documentation about the Page Component can be found on GitHub.[](https://github.com/adobe/aem-core-wcm-components/tree/master/content/src/content/jcr_root/apps/core/wcm/components/page/v1/page)
 
 Le projet sur les composants principaux peut être téléchargé depuis GitHub.
 
