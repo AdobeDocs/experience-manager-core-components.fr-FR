@@ -18,8 +18,8 @@ modalsize: 426x240
 index: y
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: 632d6abb1f13667cc0457152268d50af3bfabfc4
+translation-type: tm+mt
+source-git-commit: 62643e5bd49ab006230f65004bb9374822dcc017
 
 ---
 
@@ -36,7 +36,7 @@ En utilisant la [boîte de dialogue de configuration](#configure-dialog), l’é
 
 >[!NOTE]
 >
->Le composant de conteneur de formulaires des composants principaux ne prend en charge que l’utilisation d’autres composants de formulaire (bouton, texte, masqué, etc.). L’utilisation des composants de formulaire des [composants de base](https://helpx.adobe.com/experience-manager/6-5/sites/authoring/using/default-components-foundation.html) dans le conteneur de formulaires (et vice versa) n’est pas prise en charge.
+>Le composant de conteneur de formulaires des composants principaux ne prend en charge que l’utilisation d’autres composants de formulaire (bouton, texte, masqué, etc.). Using [foundation components](https://helpx.adobe.com/experience-manager/6-5/sites/authoring/using/default-components-foundation.html) form components within the core components form container (and vice versa) is not supported.
 
 ## Version et compatibilité {#version-and-compatibility}
 
@@ -53,7 +53,7 @@ Pour plus d’informations sur les versions et les publications des composants p
 
 ## Détails techniques {#technical-details}
 
-Vous trouverez la documentation technique la plus récente sur le composant de conteneur de formulaires [sur GitHub](https://github.com/adobe/aem-core-wcm-components/blob/master/content/src/content/jcr_root/apps/core/wcm/components/form/container/v2/container).
+La documentation technique la plus récente sur le composant de conteneur de formulaires [se trouve sur GitHub](https://github.com/adobe/aem-core-wcm-components/blob/master/content/src/content/jcr_root/apps/core/wcm/components/form/container/v2/container).
 
 Vous trouverez plus d’informations sur le développement des composants principaux dans la [documentation destinée aux développeurs de composants principaux](developing.md).
 
