@@ -9,7 +9,7 @@ content-type: référence
 topic-tags: création
 products: SG_EXPERIENCEMANAGER/CORECOMPONENTS-new
 discoiquuid: d4684f33-2fb5-4f32-866f-7136cf1800d7
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 34ae30ca8be3ad290924b986acfac11d960f2ee0
 
 ---
@@ -58,7 +58,7 @@ Pour des raisons de sécurité, l’éditeur d’image ne fait jamais appel au f
 
 >[!CAUTION]
 >
->La prise en charge de SVG requiert la version 2.1.0 ou ultérieure des composants principaux et le [Service Pack 2](https://helpx.adobe.com/experience-manager/6-4/release-notes/sp-release-notes.html) pour AEM 6.4 ou le [Service Pack 3](https://helpx.adobe.com/experience-manager/6-3/release-notes/sp3-release-notes.html) pour AEM 6.3 ou les versions ultérieures pour être compatible avec les [nouvelles fonctionnalités de l’éditeur d’image](https://helpx.adobe.com/experience-manager/6-4/sites/developing/using/image-editor.html) dans AEM.
+>SVG support requires release 2.1.0 of the Core Components or higher along with [service pack 2](https://helpx.adobe.com/experience-manager/6-4/release-notes/sp-release-notes.html) for AEM 6.4 or [service pack 3](https://helpx.adobe.com/experience-manager/6-3/release-notes/sp3-release-notes.html) for AEM 6.3 or higher to support [new image editor features](https://helpx.adobe.com/experience-manager/6-4/sites/developing/using/image-editor.html) within AEM.
 
 ## Exemple de sortie de composant {#sample-component-output}
 
@@ -66,7 +66,7 @@ Pour tester le composant d’image et voir des exemples de ses options de config
 
 ### Détails techniques {#technical-details}
 
-Vous trouverez la documentation technique la plus récente sur le composant d’image [sur GitHub](https://github.com/adobe/aem-core-wcm-components/blob/master/content/src/content/jcr_root/apps/core/wcm/components/image/v2/image).
+The latest technical documentation about the Image Component can be found on GitHub.[](https://github.com/adobe/aem-core-wcm-components/blob/master/content/src/content/jcr_root/apps/core/wcm/components/image/v2/image)
 
 Vous trouverez plus d’informations sur le développement des composants principaux dans la [documentation destinée aux développeurs de composants principaux](developing.md).
 
@@ -83,9 +83,9 @@ Outre la [boîte de dialogue de modification](#edit-dialog) et la [boîte de dia
 ![](assets/screen_shot_2018-01-08at114245.png)
 
 * **Ressource image**
-   * Déposez un fichier depuis l’[explorateur de ressources](https://helpx.adobe.com/fr/experience-manager/6-5/sites/authoring/using/author-environment-tools.html) ou appuyez sur l’option **parcourir** pour effectuer un téléchargement à partir d’un système de fichiers local.
+   * Drop an asset from the [asset browser](https://helpx.adobe.com/experience-manager/6-5/sites/authoring/using/author-environment-tools.html) or tap the **browse** option to upload from a local file system.
    * Appuyez ou cliquez sur **Effacer** pour désélectionner l’image actuellement sélectionnée.
-   * Appuyez ou cliquez sur **Modifier** pour [gérer les rendus de la ressource](https://helpx.adobe.com/fr/experience-manager/6-5/assets/using/managing-assets-touch-ui.html) dans l’éditeur de ressources.
+   * Tap or click **Edit** to [mange the renditions of the asset](https://helpx.adobe.com/experience-manager/6-5/assets/using/managing-assets-touch-ui.html) in the asset editor.
 
 ### Onglet Métadonnées {#metadata-tab}
 
@@ -149,7 +149,7 @@ La boîte de dialogue de modification permet à l’auteur du contenu de recadre
 
    >[!CAUTION]
    >
-   >La fonctionnalité Carte de lancement requiert la version 2.1.0 des composants principaux ou une version ultérieure avec le [Service Pack 2](https://helpx.adobe.com/experience-manager/6-4/release-notes/sp-release-notes.html) pour AEM 6.4 ou le [Service Pack 3](https://helpx.adobe.com/experience-manager/6-3/release-notes/sp3-release-notes.html) pour AEM 6.3 ou une version ultérieure pour la prise en charge des [nouvelles fonctionnalités de l’éditeur d’images](https://helpx.adobe.com/experience-manager/6-4/sites/developing/using/image-editor.html) dans AEM.
+   >The Launch Map feature requires release 2.1.0 of the Core Components or higher along with [service pack 2](https://helpx.adobe.com/experience-manager/6-4/release-notes/sp-release-notes.html) for AEM 6.4 or [service pack 3](https://helpx.adobe.com/experience-manager/6-3/release-notes/sp3-release-notes.html) for AEM 6.3 or higher to support [new image editor features](https://helpx.adobe.com/experience-manager/6-4/sites/developing/using/image-editor.html) within AEM.
 
    ![](assets/chlimage_1-12.png)
 
