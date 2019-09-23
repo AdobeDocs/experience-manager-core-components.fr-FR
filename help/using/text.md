@@ -8,7 +8,7 @@ contentOwner: Utilisateur
 content-type: référence
 topic-tags: core-components
 discoiquuid: 9a290584-565e-4392-999c-999ee4a93da1
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: eef608fb06001485aa2c2c0b574af412ed7f15a4
 
 ---
@@ -43,19 +43,19 @@ Pour tester le composant de texte, des exemples d’options de configuration, ai
 
 ### Détails techniques {#technical-details}
 
-Vous trouverez la documentation technique la plus récente sur le composant Texte [sur GitHub](https://github.com/adobe/aem-core-wcm-components/blob/master/content/src/content/jcr_root/apps/core/wcm/components/text/v2/text).
+La documentation technique la plus récente sur le composant de texte [se trouve sur GitHub](https://github.com/adobe/aem-core-wcm-components/blob/master/content/src/content/jcr_root/apps/core/wcm/components/text/v2/text).
 
 Vous trouverez plus d’informations sur le développement des composants principaux dans la [documentation destinée aux développeurs de composants principaux](developing.md).
 
 ## Composant Texte et Éditeur de texte enrichi {#the-text-component-and-the-rich-text-editor}
 
-Le composant principal Texte tire parti de l’éditeur de texte enrichi AEM (RTE). L’éditeur de texte enrichi met à la disposition des auteurs de nombreuses fonctionnalités pour modifier leur contenu textuel. L’éditeur de texte enrichi est très flexible dans sa configuration et offre plusieurs options. Vous pouvez trouver plus d’informations sur la configuration de l’éditeur de texte enrichi dans les articles [Configuration de l’éditeur de texte enrichi](https://helpx.adobe.com/experience-manager/6-5/sites/administering/using/rich-text-editor.html) et [Configuration du module externe de l’éditeur de texte enrichi](https://helpx.adobe.com/experience-manager/6-5/sites/administering/using/configure-rich-text-editor-plug-ins.html).
+Le composant principal Texte tire parti de l’éditeur de texte enrichi AEM (RTE). L’éditeur de texte enrichi met à la disposition des auteurs de nombreuses fonctionnalités pour modifier leur contenu textuel. L’éditeur de texte enrichi est très flexible dans sa configuration et offre plusieurs options. Further details about how the RTE can be configured can be found in the articles [Configure the Rich Text Editor](https://helpx.adobe.com/experience-manager/6-5/sites/administering/using/rich-text-editor.html) and [Configure the Rich Text Editor plug-ins](https://helpx.adobe.com/experience-manager/6-5/sites/administering/using/configure-rich-text-editor-plug-ins.html).
 
 Le reste de cet article illustre la configuration standard du composant principal Texte avec la configuration prête à l’emploi de l’éditeur de texte enrichi.
 
 >[!NOTE]
 >
->Seules les options activées par [les configurations de l’interface utilisateur de l’éditeur de texte enrichi](https://chl-author-preview.corp.adobe.com/content/help/en/experience-manager/6-5/sites/administering/using/rich-text-editor.html) sont disponibles dans le composant Texte.
+>Only options enabled by [UI configurations of the RTE](https://chl-author-preview.corp.adobe.com/content/help/en/experience-manager/6-5/sites/administering/using/rich-text-editor.html) are available by in the Text Component.
 
 ## Boîte de dialogue de modification {#edit-dialog}
 
@@ -209,7 +209,7 @@ Pour mettre fin à une liste à puces, appuyez ou cliquez de nouveau sur le bout
 
 ![](assets/screen_shot_2018-01-11at142030.png)
 
-Utilisé pour mettre en forme le texte sélectionné sous forme de liste numérotée ou commencer l’insertion d&#39;une liste numérotée après le curseur.
+Utilisé pour mettre en forme le texte sélectionné sous forme de liste numérotée ou commencer l’insertion d'une liste numérotée après le curseur.
 
 Pour mettre fin à une liste numérotée, appuyez ou cliquez de nouveau sur le bouton **Numérotée** ou saisissez deux retours chariot.
 
@@ -263,7 +263,7 @@ La légende du tableau.
 
 Permet de vérifier l’orthographe du contenu du texte. Les fautes de frappe possibles sont soulignées avec des lignes rouges rompues.
 
-Vous trouverez plus d’informations sur la vérification orthographique et la personnalisation des dictionnaires orthographiques dans le document [Configuration du module de l’éditeur de texte enrichi](https://helpx.adobe.com/experience-manager/6-5/sites/administering/using/configure-rich-text-editor-plug-ins.html).
+Further details about spell checking and customizing spell check dictionaries can be found in the document [Configure the Rich Text Editor Plug-Ins](https://helpx.adobe.com/experience-manager/6-5/sites/administering/using/configure-rich-text-editor-plug-ins.html).
 
 ### Caractères spéciaux {#special-characters}
 
