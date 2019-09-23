@@ -5,7 +5,7 @@ description: 'Les composants principaux ont été conçus pour offrir des compos
 seo-description: 'Les composants principaux ont été conçus pour offrir des composants de base solides et extensibles, reposant sur les dernières technologies et les bonnes pratiques. '
 uuid: b815c7d1-fbb0-4480-bd23-42606ff8b1eb
 contentOwner: Utilisateur
-content-type: référence
+content-type: référencereference
 topic-tags: introduction
 products: SG_EXPERIENCEMANAGER/CORECOMPONENTS-new
 discoiquuid: c44bb0d7-5d91-4659-878e-a0658fe29aa2
@@ -36,7 +36,7 @@ Les composants principaux sont :
 | Préconfigurables | Les modèles peuvent définir comment les auteurs de pages peuvent les utiliser. |
 | Polyvalents | Les auteurs peuvent créer la plupart du contenu avec eux. |
 | Faciles à utiliser | Les auteurs peuvent créer et gérer du contenu avec efficacité. |
-| Prêts pour la production | Utilisables prêts à l'emploi Ils sont robustes, bien testés et performants. |
+| Prêts pour la production | Utilisables prêts à l’emploi Ils sont robustes, bien testés et performants. |
 | Accessibles | Ils sont conformes à la norme WCAG 2.0, fournissent des libellés ARIA et prennent en charge la navigation au clavier. |
 | Faciles à styliser | Les composants implémentent le système de style et les annotations suivent l’attribution de noms BEM CSS. |
 | Optimisation pour SEO | La sortie HTML est sémantique et fournit des annotations de microdonnées schema.org. |
@@ -44,7 +44,7 @@ Les composants principaux sont :
 | Extensibles | Pour couvrir les besoins personnalisés mais sans partir de zéro, tout peut être étendu. |
 | Open Source | Si quelque chose n’est pas comme il le devrait, apportez des améliorations sur GitHub (licence Apache). |
 | Versionnés | Les composants principaux n’endommageront pas votre site lorsque vous apportez des améliorations susceptibles d’avoir un impact sur vous. |
-| [Localisé](localization.md) | La résolution de référence intelligente permet à certains composants de rechercher et de rendre automatiquement le contenu localisé correspondant |
+| [Localisé](localization.md) | La résolution intelligente des références permet à certains composants de rechercher et de rendre automatiquement le contenu localisé correspondant |
 
 ## Composants disponibles {#available-components}
 
@@ -96,7 +96,7 @@ Pour des recommandations spécifiques, voir [Quand utiliser les composants princ
 
 Pour une présentation des composants principaux, des fonctionnalités qu’ils proposent et de leur utilisation dans AEM, consultez la session AEM Gems sur les [composants principaux AEM.](https://helpx.adobe.com/experience-manager/kt/eseminars/gems/AEM-Core-Components.html)
 
-[Astuces pour Adobe Experience Manager](https://helpx.adobe.com/experience-manager/kt/eseminars/gems/aem-index.html) est une série d'épisodes d'épisodes techniques profonds fournis par des experts Adobe. Cette série complète la documentation du produit et de tous les autres canaux techniques, ce qui permet aux développeurs d’entrer en contact et d’approfondir un sujet spécifique.
+[Gems on Adobe Experience Manager](https://helpx.adobe.com/experience-manager/kt/eseminars/gems/aem-index.html) est une série de plongées techniques approfondies proposées par des experts Adobe. Cette série complète la documentation du produit et de tous les autres canaux techniques, ce qui permet aux développeurs d’entrer en contact et d’approfondir un sujet spécifique.
 
 ## Tutoriel du développeur WKND {#wknd-developer-tutorial}
 
