@@ -8,8 +8,8 @@ content-type: référence
 products: SG_EXPERIENCEMANAGER/CORECOMPONENTS-new
 discoiquuid: 800c064e-2ad5-41f3-9cef-b025a555efd9
 index: n
-translation-type: ht
-source-git-commit: 632d6abb1f13667cc0457152268d50af3bfabfc4
+translation-type: tm+mt
+source-git-commit: 4e74f10e2a4119484a597178dc4577b399833dbf
 
 ---
 
@@ -22,7 +22,7 @@ Le composant de conteneur de formulaires des composants principaux permet la cr�
 
 Le composant de conteneur de formulaires a permis la création de formulaires et de fonctionnalités d’envoi d’informations simples en prenant en charge les formulaires WCM simples et en utilisant une structure imbriquée pour autoriser des composants de formulaire supplémentaires.
 
-En utilisant la [boîte de dialogue de paramètres](form-container-v1.md#main-pars_title), l’éditeur de contenu peut définir le type d’action déclenché par l’envoi du formulaire, l’emplacement de stockage du contenu envoyé et si un workflow doit être déclenché. L’auteur du modèle peut utiliser la [boîte de dialogue de conception](form-container-v1.md#main-pars_title_1995166862) pour définir les composants autorisés et leurs mappages similaires à la boîte de dialogue de conception du [conteneur de mises en page standard dans l’éditeur de modèles](https://helpx.adobe.com/experience-manager/6-4/sites/authoring/using/templates.html#main-pars_title_1754153843).
+En utilisant la [boîte de dialogue de paramètres](form-container-v1.md#main-pars_title), l’éditeur de contenu peut définir le type d’action déclenché par l’envoi du formulaire, l’emplacement de stockage du contenu envoyé et si un workflow doit être déclenché. The template author can use the [design dialog](form-container-v1.md#main-pars_title_1995166862) to define the allow components and their mappings similar to the design dialog for the [standard layout container in the template editor](https://helpx.adobe.com/experience-manager/6-4/sites/authoring/using/templates.html#main-pars_title_1754153843).
 
 ## Version et compatibilité {#version-and-compatibility}
 
@@ -111,7 +111,7 @@ La boîte de dialogue de conception permet à l’auteur du modèle de définir 
 
 ## Détails techniques {#technical-details}
 
-Vous trouverez la documentation technique la plus récente sur le composant de conteneur de formulaires [sur GitHub](https://github.com/adobe/aem-core-wcm-components/tree/master/content/src/content/jcr_root/apps/core/wcm/components/form/container/v1/container).
+La documentation technique la plus récente sur le composant de conteneur de formulaires [se trouve sur GitHub](https://github.com/adobe/aem-core-wcm-components/tree/master/content/src/content/jcr_root/apps/core/wcm/components/form/container/v1/container).
 
 Le projet sur les composants principaux peut être téléchargé depuis GitHub.
 
