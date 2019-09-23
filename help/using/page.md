@@ -9,15 +9,15 @@ content-type: référence
 topic-tags: création
 products: SG_EXPERIENCEMANAGER/CORECOMPONENTS-new
 discoiquuid: cb1a745a-30c4-4ad6-a04f-fefb3666cd95
-translation-type: ht
-source-git-commit: 632d6abb1f13667cc0457152268d50af3bfabfc4
+translation-type: tm+mt
+source-git-commit: 1243d6cc1b0b015ee2f37ae89d0e2e42d366cc02
 
 ---
 
 
 # Composant de page{#page-component}
 
-Le composant de page est un composant de page extensible conçu pour fonctionner avec l’[éditeur de modèles](https://helpx.adobe.com/experience-manager/6-5/sites/authoring/using/templates.html) et permet l’assemblage de composants d’en-tête/de pied de page et de structure à l’aide de l’éditeur de modèles.
+The Page Component is an extensible page component designed to work with the [template editor](https://helpx.adobe.com/experience-manager/6-5/sites/authoring/using/templates.html) and allows page header/footer and structure components to be assembled with the template editor.
 
 ## Utilisation {#usage}
 
@@ -40,11 +40,11 @@ Pour plus d’informations sur les versions et les publications des composants p
 
 >[!NOTE]
 >
->Pour activer la redirection au `cq:Page` niveau de la version 2 du composant Page et AEM 6.3, [le service pack 2](https://helpx.adobe.com/experience-manager/6-3/release-notes/sp2-release-notes.html) ou une version ultérieure est requis. Cette redirection n’était pas disponible dans les versions précédentes.
+>To enable redirect at `cq:Page` level for verison 2 of the page component and AEM 6.3, [service pack 2](https://helpx.adobe.com/experience-manager/6-3/release-notes/sp2-release-notes.html) or later is required. Cette redirection n’était pas disponible dans les versions précédentes.
 
 ## Exemple de sortie de composant {#sample-component-output}
 
-Voici un exemple tiré de [We.Retail](https://helpx.adobe.com/experience-manager/6-5/sites/developing/using/we-retail.html).
+Voici un exemple extrait de [We.Retail](https://helpx.adobe.com/experience-manager/6-5/sites/developing/using/we-retail.html).
 
 ### Capture d’écran {#screenshot}
 
@@ -52,13 +52,13 @@ Voici un exemple tiré de [We.Retail](https://helpx.adobe.com/experience-manager
 
 ### Détails techniques {#technical-details}
 
-Vous trouverez la documentation technique la plus récente sur le composant Page [sur GitHub](https://github.com/adobe/aem-core-wcm-components/blob/master/content/src/content/jcr_root/apps/core/wcm/components/page/v2/page).
+La documentation technique la plus récente sur le composant de page [se trouve sur GitHub](https://github.com/adobe/aem-core-wcm-components/blob/master/content/src/content/jcr_root/apps/core/wcm/components/page/v2/page).
 
 Vous trouverez plus d’informations sur le développement des composants principaux dans la [documentation destinée aux développeurs de composants principaux](developing.md).
 
-## Boîte de dialogue de modification {#edit-dialog}
+## Boîte de dialogue de modification{#edit-dialog}
 
-Étant donné que le composant représente la page entière, les paramètres qui seraient normalement dans une boîte de dialogue de modification se trouvent dans la fenêtre [Propriétés de la page](https://helpx.adobe.com/experience-manager/6-5/sites/authoring/using/editing-page-properties.html).
+Because the component represents the entire page, settings that would normally be in an edit dialog are found in the [Page Properties](https://helpx.adobe.com/experience-manager/6-5/sites/authoring/using/editing-page-properties.html) window.
 
 ## Boîte de dialogue de conception {#design-dialog}
 
@@ -92,7 +92,7 @@ Les bibliothèques peuvent être configurées pour les champs **Bibliothèques c
 * Pour supprimer un champ, cliquez ou appuyez sur l’icône de corbeille à côté du champ à supprimer.
 * Pour réorganiser l’ordre de chargement, cliquez ou appuyez et faites glisser la poignée à côté du champ à déplacer.
 
-Pour plus d’informations sur l’utilisation des bibliothèques côté client, voir [Utilisation des bibliothèques côté client](https://helpx.adobe.com/experience-manager/6-5/sites/developing/using/clientlibs.html).
+For more information about using client-side libraries see [Using Client Side Libraries](https://helpx.adobe.com/experience-manager/6-5/sites/developing/using/clientlibs.html).
 
 >[!CAUTION]
 >
