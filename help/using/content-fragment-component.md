@@ -9,15 +9,15 @@ content-type: référence
 topic-tags: création
 products: SG_EXPERIENCEMANAGER/CORECOMPONENTS-new
 discoiquuid: f093f58e-9755-4a4f-803a-ab93a50e6870
-translation-type: ht
-source-git-commit: 632d6abb1f13667cc0457152268d50af3bfabfc4
+translation-type: tm+mt
+source-git-commit: 548972c65751b594cd62234d4681634a60fa41e2
 
 ---
 
 
 # Composant de fragment de contenu{#content-fragment-component}
 
-Le composant de fragment de contenu des composants principaux permet l’affichage d’un [fragment de contenu](https://helpx.adobe.com/experience-manager/6-5/assets/using/content-fragments.html).
+The Core Component Content Fragment component allows for the display of a [content fragment](https://helpx.adobe.com/experience-manager/6-5/assets/using/content-fragments.html).
 
 >[!NOTE]
 >
@@ -25,11 +25,11 @@ Le composant de fragment de contenu des composants principaux permet l’afficha
 
 ## Utilisation {#usage}
 
-Le composant de fragment de contenu des composants principaux permet d’inclure un [fragment de contenu](https://helpx.adobe.com/experience-manager/6-5/assets/using/content-fragments.html) sur une page.
+The Core Component Content Fragment Component allows for the inclusion of a [content fragment](https://helpx.adobe.com/experience-manager/6-5/assets/using/content-fragments.html) on a page.
 
 * Le fragment et ses propriétés peuvent être sélectionnés dans la [boîte de dialogue de configuration](#configure-dialog).
 * Les types de ressources qui permettent de gérer certaines images et grilles peuvent être définis dans la [boîte de dialogue de conception](#design-dialog).
-* L’option d’édition ouvre le fragment sélectionné dans l’[éditeur de fragments de contenu](https://helpx.adobe.com/content/help/en/experience-manager/6-5/assets/using/content-fragments.html).
+* The edit option will open the selected fragment within the [content fragment editor](https://helpx.adobe.com/content/help/en/experience-manager/6-5/assets/using/content-fragments.html).
 
 ## Version et compatibilité {#version-and-compatibility}
 
@@ -61,7 +61,7 @@ Pour tester le composant de fragment de contenu, des exemples d’options de con
 
 ## Détails techniques {#technical-details}
 
-Vous trouverez la documentation technique la plus récente sur le composant de fragment de contenu [sur GitHub](https://github.com/adobe/aem-core-wcm-components/tree/master/content/src/content/jcr_root/apps/core/wcm/components/contentfragment/v1/contentfragment).
+La documentation technique la plus récente sur le composant de fragment de contenu [est disponible sur GitHub](https://github.com/adobe/aem-core-wcm-components/tree/master/content/src/content/jcr_root/apps/core/wcm/components/contentfragment/v1/contentfragment).
 
 Vous trouverez plus d’informations sur le développement des composants principaux dans la [documentation destinée aux développeurs de composants principaux](developing.md).
 
