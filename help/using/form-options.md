@@ -9,8 +9,8 @@ content-type: référence
 topic-tags: création
 products: SG_EXPERIENCEMANAGER/CORECOMPONENTS-new
 discoiquuid: 42289c2b-1671-463a-ac1d-457aa9aefa2a
-translation-type: ht
-source-git-commit: 632d6abb1f13667cc0457152268d50af3bfabfc4
+translation-type: tm+mt
+source-git-commit: 1243d6cc1b0b015ee2f37ae89d0e2e42d366cc02
 
 ---
 
@@ -40,7 +40,7 @@ Pour plus d’informations sur les versions et les publications des composants p
 
 ## Exemple de sortie de composant {#sample-component-output}
 
-Voici un exemple tiré de [We.Retail](https://helpx.adobe.com/experience-manager/6-5/sites/developing/using/we-retail.html).
+Voici un exemple extrait de [We.Retail](https://helpx.adobe.com/experience-manager/6-5/sites/developing/using/we-retail.html).
 
 ### Capture d’écran {#screenshot}
 
@@ -139,7 +139,7 @@ Voici un exemple tiré de [We.Retail](https://helpx.adobe.com/experience-manager
 
 ### Détails techniques {#technical-details}
 
-Vous trouverez la documentation technique la plus récente sur le composant des options de formulaire [sur GitHub](https://github.com/adobe/aem-core-wcm-components/blob/master/content/src/content/jcr_root/apps/core/wcm/components/form/options/v2/options).
+La documentation technique la plus récente sur le composant Options de formulaire [se trouve sur GitHub](https://github.com/adobe/aem-core-wcm-components/blob/master/content/src/content/jcr_root/apps/core/wcm/components/form/options/v2/options).
 
 Vous trouverez plus d’informations sur le développement des composants principaux dans la [documentation destinée aux développeurs de composants principaux](developing.md).
 
