@@ -14,8 +14,8 @@ gnavtheme: light
 index: y
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: 632d6abb1f13667cc0457152268d50af3bfabfc4
+translation-type: tm+mt
+source-git-commit: a1d725b6fc32112323e9939e8870922410a6c4f3
 
 ---
 
@@ -36,11 +36,11 @@ Pour que les [ composants principaux](developing.md) soient opérationnels dans 
 
 ## Téléchargement et installation {#download-and-install}
 
-Les composants principaux ont avant tout été conçus pour être flexibles. La publication plus régulière de nouvelles versions des composants principaux permet à Adobe d&#39;être plus flexible lors de la diffusion de nouvelles fonctionnalités. Les développeurs peuvent ensuite être flexibles dans les composants qu&#39;ils choisissent d&#39;intégrer dans leurs projets et dans la fréquence à laquelle ils souhaitent les mettre à jour.
+Les composants principaux ont avant tout été conçus pour être flexibles. La publication plus régulière de nouvelles versions des composants principaux permet à Adobe d'être plus flexible lors de la diffusion de nouvelles fonctionnalités. Les développeurs peuvent ensuite être flexibles dans les composants qu'ils choisissent d'intégrer dans leurs projets et dans la fréquence à laquelle ils souhaitent les mettre à jour.
 
-C&#39;est pourquoi les composants principaux ne font pas partie du démarrage rapide lors du démarrage en mode de production (sans exemple de contenu). C&#39;est pourquoi la première étape consiste [à télécharger le dernier module de contenu publié à partir de GitHub](https://github.com/adobe/aem-core-wcm-components/releases/latest) et à l’installer dans vos environnements AEM.
+C'est pourquoi les composants principaux ne font pas partie du démarrage rapide lors du démarrage en mode de production (sans exemple de contenu). Therefore, your first step is to [download the latest released content package from GitHub](https://github.com/adobe/aem-core-wcm-components/releases/latest) and to install it on your AEM environments.
 
-Il existe plusieurs manières d’automatiser cette opération, mais la méthode la plus simple pour installer rapidement un module de contenu sur une instance consiste à utiliser le gestionnaire de modules. Consultez la section [Installation des modules](https://helpx.adobe.com/fr/experience-manager/6-5/sites/administering/using/package-manager.html). En outre, une fois qu’une instance de publication s’exécute, vous devrez dupliquer ce module dans l’éditeur. Consultez la section [Duplication des modules](https://helpx.adobe.com/experience-manager/6-5/sites/administering/using/package-manager.html).
+There are several ways to automate this, but the simplest way to quickly install a content package on an instance is by using the Package Manager; see [Install Packages](https://helpx.adobe.com/experience-manager/6-5/sites/administering/using/package-manager.html). Also, once you'll have a publish instance running as well, you'll need to replicate that package to the publisher; see [Replicating Packages](https://helpx.adobe.com/experience-manager/6-5/sites/administering/using/package-manager.html).
 
 <!-- 
 
@@ -54,9 +54,9 @@ Should we be promoting embedding the core-component package as an artifact in a 
 
 ## Création des composants proxy {#create-proxy-components}
 
-Pour des raisons expliquées dans la section[Modèle de composant proxy](guidelines.md#proxy-component-pattern), les composants principaux ne doivent pas être directement référencés à partir du contenu. Pour éviter cela, ils appartiennent tous à un groupe de composants masqué ( `.core-wcm` ou `.core-wcm-form`), ce qui les empêchera de s&#39;afficher directement dans l&#39;éditeur.
+Pour des raisons expliquées dans la section[Modèle de composant proxy](guidelines.md#proxy-component-pattern), les composants principaux ne doivent pas être directement référencés à partir du contenu. Pour éviter cela, ils appartiennent tous à un groupe de composants masqué ( `.core-wcm` ou `.core-wcm-form`), ce qui les empêchera de s'afficher directement dans l'éditeur.
 
-Au lieu de cela, des composants spécifiques au site doivent être créés, pour définir le nom et le groupe du composant que vous souhaitez afficher aux auteurs de page, puis ils doivent être référencés à un composant principal comme super-type. Ces composants spécifiques au site sont parfois nommés « composants proxy », car ils ne doivent rien contenir et servent principalement à définir la version d&#39;un composant à utiliser pour le site. Toutefois, lors de la personnalisation des [composants principaux](customizing.md), ces composants proxy jouent un rôle essentiel pour la personnalisation des balises et des logiques.
+Au lieu de cela, des composants spécifiques au site doivent être créés, pour définir le nom et le groupe du composant que vous souhaitez afficher aux auteurs de page, puis ils doivent être référencés à un composant principal comme super-type. Ces composants spécifiques au site sont parfois nommés « composants proxy », car ils ne doivent rien contenir et servent principalement à définir la version d'un composant à utiliser pour le site. Toutefois, lors de la personnalisation des [composants principaux](customizing.md), ces composants proxy jouent un rôle essentiel pour la personnalisation des balises et des logiques.
 
 Ainsi, pour chaque composant principal à utiliser pour un site, vous devez :
 
@@ -82,7 +82,7 @@ Ajoutez les propriétés suivantes :
    jcr:description="Section Heading"
    ```
 
-Par exemple, consultez le composant [Titre du site de référence We.Retail ](https://github.com/Adobe-Marketing-Cloud/aem-sample-we-retail/blob/master/ui.apps/src/main/content/jcr_root/apps/weretail/components/content/title/.content.xml), qui constitue un bon exemple de composant proxy créé de cette manière.
+For instance, look at the [title component of the We.Retail reference site](https://github.com/Adobe-Marketing-Cloud/aem-sample-we-retail/blob/master/ui.apps/src/main/content/jcr_root/apps/weretail/components/content/title/.content.xml), which is a good example of a proxy component that is built that way.
 
 ## Chargement des styles principaux {#load-the-core-styles}
 
@@ -116,7 +116,7 @@ Load the Core Client Libraries sounds way better
 
  -->
 
-1. Si ce n’est pas encore fait, créez une [bibliothèque cliente](https://helpx.adobe.com/experience-manager/6-5/sites/developing/using/clientlibs.html) qui contient tous les fichiers CSS et JS nécessaires à votre site.
+1. If not done yet, create a [Client Library](https://helpx.adobe.com/experience-manager/6-5/sites/developing/using/clientlibs.html) that contains all of the CSS and JS files that are needed for your site.
 1. Dans la bibliothèque cliente de votre site, ajoutez les dépendances aux composants principaux qui peuvent être nécessaires. Pour ce faire, ajoutez une propriété `embed`.
 
    Par exemple, pour inclure les bibliothèques clientes de tous les composants principaux v1, la propriété à ajouter serait :
@@ -135,10 +135,10 @@ Assurez-vous que vos composants proxy et vos bibliothèques client ont été dé
 
 ## Autorisation des composants {#allow-the-components}
 
-Les étapes suivantes sont effectuées dans l’[éditeur de modèles](https://helpx.adobe.com/experience-manager/6-5/sites/authoring/using/templates.html).
+The following steps are performed in the [Template Editor](https://helpx.adobe.com/experience-manager/6-5/sites/authoring/using/templates.html).
 
-1. Dans l&#39;éditeur de modèles, sélectionnez le conteneur de mises en page et ouvrez sa stratégie.
-1. Dans la liste des composants autorisés, sélectionnez les composants proxy créés précédemment, qui doivent s&#39;afficher sous le groupe de composants qui leur est affecté. Ensuite, appliquez les modifications.
+1. Dans l'éditeur de modèles, sélectionnez le conteneur de mises en page et ouvrez sa stratégie.
+1. Dans la liste des composants autorisés, sélectionnez les composants proxy créés précédemment, qui doivent s'afficher sous le groupe de composants qui leur est affecté. Ensuite, appliquez les modifications.
 1. (Facultatif) Les composants qui ont une boîte de dialogue de conception peuvent être préconfigurés.
 
 C’est terminé ! Dans les pages créées à partir du modèle modifié, vous devez maintenant pouvoir utiliser les composants nouvellement créés.
