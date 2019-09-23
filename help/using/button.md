@@ -9,7 +9,7 @@ content-type: référence
 topic-tags: création
 products: SG_EXPERIENCEMANAGER/CORECOMPONENTS-new
 discoiquuid: f093f58e-9755-4a4f-803a-ab93a50e6870
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: d37cde072dea612ccb55ad31b4aaf42f17839cb4
 
 ---
@@ -44,7 +44,7 @@ Pour tester le composant de bouton et obtenir des exemples d’options de config
 
 ## Détails techniques {#technical-details}
 
-Vous trouverez la documentation technique la plus récente sur le composant de bouton [sur GitHub](https://github.com/adobe/aem-core-wcm-components/tree/master/content/src/content/jcr_root/apps/core/wcm/components/button/v1/button).
+La documentation technique la plus récente sur le composant Button [se trouve sur GitHub](https://github.com/adobe/aem-core-wcm-components/tree/master/content/src/content/jcr_root/apps/core/wcm/components/button/v1/button).
 
 Vous trouverez plus d’informations sur le développement des composants principaux dans la [documentation destinée aux développeurs de composants principaux](developing.md).
 
@@ -65,7 +65,7 @@ La boîte de dialogue de configuration permet à l’auteur du contenu de défin
 
 ![](assets/screen-shot-2019-08-29-12.19.43.png)
 
-Dans l’onglet **Accessibilité**, les valeurs peuvent être définies pour les libellés d’[accessibilité ARIA]( https://www.w3.org/WAI/standards-guidelines/aria/) du composant.
+On the **Accessibility** tab, values can be set for [ARIA accessibility](https://www.w3.org/WAI/standards-guidelines/aria/) labels for the component.
 
 * **Libellé** - Valeur d’un attribut de libellé ARIA pour le composant
 
