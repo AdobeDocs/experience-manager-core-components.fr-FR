@@ -18,7 +18,7 @@ modalsize: 426x240
 index: y
 internal: n
 snippet: y
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: eef608fb06001485aa2c2c0b574af412ed7f15a4
 
 ---
@@ -51,7 +51,7 @@ Pour tester le composant de liste, des exemples d’options de configuration, ai
 
 ### Détails techniques {#technical-details}
 
-Vous trouverez la documentation technique la plus récente sur le composant Liste [sur GitHub](https://github.com/adobe/aem-core-wcm-components/blob/master/content/src/content/jcr_root/apps/core/wcm/components/list/v2/list).
+La documentation technique la plus récente sur le composant de liste [se trouve sur GitHub](https://github.com/adobe/aem-core-wcm-components/blob/master/content/src/content/jcr_root/apps/core/wcm/components/list/v2/list).
 
 Vous trouverez plus d’informations sur le développement des composants principaux dans la [documentation destinée aux développeurs de composants principaux](developing.md).
 
@@ -148,7 +148,7 @@ Ordre dans lequel les éléments doivent être triés.
 Nombre maximal d’éléments affichés dans la liste.
    * Laissez vide pour renvoyer tous les éléments.
 
-### Onglet Paramètres d&#39;élément {#item-settings-tab}
+### Onglet Paramètres d'élément {#item-settings-tab}
 
 À l’aide de l’onglet Paramètres d’élément, la mise en forme des éléments de liste peut être configurée.
 
