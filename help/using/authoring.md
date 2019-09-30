@@ -8,7 +8,7 @@ content-type: référence
 topic-tags: création
 discoiquuid: 8751e490-d427-44f2-b767-51935afda988
 translation-type: tm+mt
-source-git-commit: b6fbef1cff2908533df6573cd3a92266857ba93f
+source-git-commit: bf1993085c4cd95121cb6d78be8c52934802b645
 
 ---
 
@@ -21,7 +21,7 @@ Les composants principaux offrent une fonctionnalité de création flexible et r
 
 Pour tester les composants principaux et consulter des exemples d’options de configuration, ainsi que des sorties HTML et JSON, consultez la [bibliothèque de composants](http://opensource.adobe.com/aem-core-wcm-components/library/content-fragment.html).
 
-For a more in-depth, developer-oriented introduction to implementing the Core Components on an AEM project check out [the WKND tutorial.](https://helpx.adobe.com/experience-manager/6-5/sites/developing/using/getting-started.html)
+Pour une présentation plus détaillée et plus orientée vers les développeurs de l’implémentation des composants principaux sur un projet AEM, consultez [le didacticiel WKND.](https://helpx.adobe.com/experience-manager/6-5/sites/developing/using/getting-started.html)
 
 >[!NOTE]
 >
@@ -39,13 +39,13 @@ En tant qu’auteur, vous remarquerez que les composants principaux présentent 
 
 * Feature-rich capabilities to accommodate many use cases as [illustrated in We.Retail](https://helpx.adobe.com/experience-manager/6-5/sites/developing/using/we-retail.html) as well as in the [Component Library](http://opensource.adobe.com/aem-core-wcm-components/library/content-fragment.html)
 
-* [Préconfigurable](#pre-configuring-core-components) pour définir les fonctionnalités accessibles aux auteurs de pages via l’éditeur de [modèles](https://helpx.adobe.com/experience-manager/6-5/sites/authoring/using/templates.html)
+* [Pre-configurable](#pre-configuring-core-components) to define which features are available to page authors via the [template editor](https://helpx.adobe.com/experience-manager/6-5/sites/authoring/using/templates.html)
 
 * Built around [accessibility guidelines](https://helpx.adobe.com/experience-manager/6-5/managing/using/web-accessibility.html)
 
 * Built to support [responsive layout](https://helpx.adobe.com/experience-manager/6-5/sites/authoring/using/responsive-layout.html)
 
-* Built to support [easy localization](localization.md)
+* Conçue pour prendre en charge la [localisation facile](localization.md)
 
 Components are available on the **Components** tab of the side panel of the page editor when [editing a page](https://helpx.adobe.com/experience-manager/6-5/sites/authoring/using/editing-content.html).
 
@@ -81,7 +81,7 @@ Les styles de la plupart des composants principaux peuvent être définis à l�
 * Un auteur de modèles peut définir les styles disponibles pour un composant particulier dans la boîte de dialogue de conception de ce composant.
 * L’auteur du contenu peut ensuite choisir les styles à appliquer lors de l’ajout du composant et la création de contenu.
 
-For further details see the Style System documentation.[](https://helpx.adobe.com/experience-manager/6-5/sites/authoring/using/style-system.html)
+Pour plus de détails, consultez la documentation [Style System](https://helpx.adobe.com/experience-manager/6-5/sites/authoring/using/style-system.html) .
 
 >[!NOTE]
 >
@@ -101,6 +101,7 @@ La version actuelle des composants principaux comporte les composants ci-après.
 * [Fragment de contenu](content-fragment-component.md)
 * [Liste de fragments de contenu](content-fragment-list.md)
 * [Téléchargement](download.md)
+* [Incorporer](embed.md)
 * [Fragment d’expérience](experience-fragment.md)
 * [Bouton de formulaire](form-button.md)
 * [Conteneur de formulaires](form-container.md)
