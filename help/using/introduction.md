@@ -10,7 +10,7 @@ topic-tags: introduction
 products: SG_EXPERIENCEMANAGER/CORECOMPONENTS-new
 discoiquuid: c44bb0d7-5d91-4659-878e-a0658fe29aa2
 translation-type: tm+mt
-source-git-commit: b6fbef1cff2908533df6573cd3a92266857ba93f
+source-git-commit: bf1993085c4cd95121cb6d78be8c52934802b645
 
 ---
 
@@ -58,6 +58,7 @@ La version actuelle des composants principaux comporte les composants ci-après.
 * [Fragment de contenu](content-fragment-component.md)
 * [Liste de fragments de contenu](content-fragment-list.md)
 * [Téléchargement](download.md)
+* [Incorporer](embed.md)
 * [Fragment d’expérience](experience-fragment.md)
 * [Bouton de formulaire](form-button.md)
 * [Conteneur de formulaires](form-container.md)
@@ -96,7 +97,7 @@ Pour des recommandations spécifiques, voir [Quand utiliser les composants princ
 
 Pour une présentation des composants principaux, des fonctionnalités qu’ils proposent et de leur utilisation dans AEM, consultez la session AEM Gems sur les [composants principaux AEM.](https://helpx.adobe.com/experience-manager/kt/eseminars/gems/AEM-Core-Components.html)
 
-[Gems on Adobe Experience Manager](https://helpx.adobe.com/experience-manager/kt/eseminars/gems/aem-index.html) est une série de plongées techniques approfondies proposées par des experts Adobe. Cette série complète la documentation du produit et de tous les autres canaux techniques, ce qui permet aux développeurs d’entrer en contact et d’approfondir un sujet spécifique.
+[Gems on Adobe Experience Manager](https://helpx.adobe.com/experience-manager/kt/eseminars/gems/aem-index.html) is a series of technical deep dives delivered by Adobe experts. Cette série complète la documentation du produit et de tous les autres canaux techniques, ce qui permet aux développeurs d’entrer en contact et d’approfondir un sujet spécifique.
 
 ## Tutoriel du développeur WKND {#wknd-developer-tutorial}
 
