@@ -10,7 +10,7 @@ topic-tags: développement
 products: SG_EXPERIENCEMANAGER/CORECOMPONENTS-new
 discoiquuid: 157a2ec3-9fca-4fad-977a-d93013eeb218
 translation-type: tm+mt
-source-git-commit: 63e75079e41d3091ca57bfc3129e700675bf4939
+source-git-commit: bf1993085c4cd95121cb6d78be8c52934802b645
 
 ---
 
@@ -67,7 +67,7 @@ CODE SUR GITHUB
 
 Vous pouvez trouver le code de cette page sur GitHub.
 
-* [Open aem-core-wcm-components project on GitHub](https://github.com/adobe/aem-core-wcm-components)
+* [Ouvrez le projet aem-core-wcm-components sur GitHub](https://github.com/adobe/aem-core-wcm-components)
 * Download the project as [a ZIP file](https://github.com/adobe/aem-core-wcm-components/archive/master.zip)
 
 Reportez-vous à la documentation sur l’[utilisation des composants principaux](using.md) pour savoir comment commencer à les utiliser dans votre projet.
@@ -102,12 +102,12 @@ Pour plus d’informations sur leurs capacités de création et les options pour
 | Définition de balisage | [Syntaxe HTML Template Language](https://helpx.adobe.com/experience-manager/htl/user-guide.html) (HTL) | Code JSP |
 | Assainissement XSS | Automatisée par HTL | Essentiellement manuelle |
 | Nommage des classes CSS | Standardized naming convention based on [Block Element Modifier](https://getbem.com/) (BEM) notation (as of release 2.0.0) | Modèles personnalisés |
-| Définition de boîte de dialogue | [Corail 3](https://helpx.adobe.com/experience-manager/6-5/sites/developing/using/reference-materials/coral-ui/coralui3/index.html) | Interface utilisateur Coral 2 + Classique |
-| Sortie JSON | [Exportateur de modèles Sling avec sérialisation Jackson](https://sling.apache.org/documentation/bundles/models.html#exporter-framework-since-130) | Servlet Sling par défaut |
+| Définition de boîte de dialogue | [Coral 3](https://helpx.adobe.com/experience-manager/6-5/sites/developing/using/reference-materials/coral-ui/coralui3/index.html) | Interface utilisateur Coral 2 + Classique |
+| Sortie JSON | [Sling Models Exporter with Jackson serialization](https://sling.apache.org/documentation/bundles/models.html#exporter-framework-since-130) | Servlet Sling par défaut |
 | Création de versions | [Pour le modèle et le HTL](guidelines.md) | Aucun |
 | Tests | Tests unitaires + tests d’intégration | Tests d’intégration |
 | Diffusion | [Via public GitHub](https://github.com/adobe/aem-core-wcm-components) | Via Quickstart |
-| Licence | [Licence Apache](https://www.apache.org/licenses/LICENSE-2.0) | Adobe propriétaire |
+| Licence | [Apache License](https://www.apache.org/licenses/LICENSE-2.0) | Adobe propriétaire |
 | Contribution | Via une demande d’extraction | Impossible |
 | Accessibilité | Fully compliant with the [WCAG 2.0 AA standard](https://helpx.adobe.com/experience-manager/6-5/managing/using/web-accessibility.html) | Only partially compliant with the [WCAG 2.0 AA standard](https://helpx.adobe.com/experience-manager/6-5/managing/using/web-accessibility.html) |
 
@@ -135,14 +135,15 @@ Le tableau ci-après répertorie les composants principaux disponibles, les lien
 | [Teaser](https://github.com/adobe/aem-core-wcm-components/tree/master/content/src/content/jcr_root/apps/core/wcm/components/teaser/v1/teaser) | Permet à l’auteur de contenu de créer facilement un teaser vers un contenu supplémentaire à l’aide d’une image, d’un titre ou d’un texte enrichi et de lier un contenu supplémentaire ou d’effectuer d’autres actions | `-` |
 | [Onglets](https://github.com/adobe/aem-core-wcm-components/tree/master/content/src/content/jcr_root/apps/core/wcm/components/tabs/v1/tabs) | Permet à l’auteur de contenu d’organiser le contenu de la page dans plusieurs onglets | `-` |
 | [Carrousel](https://github.com/adobe/aem-core-wcm-components/tree/master/content/src/content/jcr_root/apps/core/wcm/components/carousel/v1/carousel) | Permet à l’auteur de contenu d’organiser le contenu dans un carrousel de diapositives | `/libs/foundation/components/carousel` |
-| [Fragment de contenu](https://github.com/adobe/aem-core-wcm-components/tree/master/extension/contentfragment/content/src/content/jcr_root/apps/core/wcm/extension/components/contentfragment/v1/contentfragment) | Permet l’affichage d’un fragment de contenu | `-` |
-| [Liste de fragments de contenu](https://github.com/adobe/aem-core-wcm-components/tree/master/extension/contentfragment/content/src/content/jcr_root/apps/core/wcm/extension/components/contentfragmentlist/v1/contentfragmentlist) | Permet l’affichage d’une liste de fragments de contenu | `-` |
+| [Content Fragement](https://github.com/adobe/aem-core-wcm-components/tree/master/extension/contentfragment/content/src/content/jcr_root/apps/core/wcm/extension/components/contentfragment/v1/contentfragment) | Permet l’affichage d’un fragment de contenu | `-` |
+| [Content Fragement List](https://github.com/adobe/aem-core-wcm-components/tree/master/extension/contentfragment/content/src/content/jcr_root/apps/core/wcm/extension/components/contentfragmentlist/v1/contentfragmentlist) | Permet l’affichage d’une liste de fragments de contenu | `-` |
 | [Séparateur](https://github.com/adobe/aem-core-wcm-components/tree/master/content/src/content/jcr_root/apps/core/wcm/components/separator/v1/separator) | Sépare le contenu d’une page | `-` |
 | [Accordéon](https://github.com/adobe/aem-core-wcm-components/tree/master/content/src/content/jcr_root/apps/core/wcm/components/accordion/v1/accordion) | Organise les panneaux de contenu dans un accordéon réductible | `-` |
 | [Conteneur](https://github.com/adobe/aem-core-wcm-components/tree/master/content/src/content/jcr_root/apps/core/wcm/components/container/v1/container) | Organise les composants dans un conteneur | `-` |
 | [Bouton](https://github.com/adobe/aem-core-wcm-components/tree/master/content/src/content/jcr_root/apps/core/wcm/components/button/v1/button) | Crée un bouton sur une page | `-` |
 | [Télécharger](https://github.com/adobe/aem-core-wcm-components/tree/master/content/src/content/jcr_root/apps/core/wcm/components/download/v1/download) | Ajoute une ressource téléchargeable à une page | `-` |
 | [Fragment d’expérience](https://github.com/adobe/aem-core-wcm-components/tree/master/content/src/content/jcr_root/apps/core/wcm/components/experience-fragment/v1/experience-fragment) | Ajout d’un fragment d’expérience à une page | `/libs/cq/experience-fragments/editor/components/experiencefragment` |
+| [Incorporer](https://github.com/adobe/aem-core-wcm-components/tree/master/content/src/content/jcr_root/apps/core/wcm/components/embed/v1/embed) | Embed an external resource within a page | - |
 
 ### Composants à venir {#upcoming-components}
 
