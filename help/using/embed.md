@@ -2,22 +2,22 @@
 title: Embed Component
 seo-title: Embed Component
 description: The Embed Component enables embedding external content in an AEM content page.
-seo-description: he Embed Component enables embedding external content in an AEM content page.
+seo-description: The Embed Component enables embedding external content in an AEM content page.
 content-type: référence
 topic-tags: core-components
 translation-type: tm+mt
-source-git-commit: 97f1461b57079806f9f96d325d9b763538e32127
+source-git-commit: d748bf211ec36d12cac016ca9bf707f24db1ce48
 
 ---
 
 
-# Embed Component{#embed-component}
+# Incorporer le composant{#embed-component}
 
 The Core Components Embed Component allows embedding external content in an AEM content page.
 
 ## Utilisation {#usage}
 
-The Core Component Embed Component allows the content author to define selected external content to be embedded within an AEM content page. In addition, there is an option to define free-form HTML to be embedded as well.
+Le composant Incorporer du composant principal permet à l’auteur du contenu de définir le contenu externe sélectionné à incorporer dans une page de contenu AEM. En outre, il existe une option permettant de définir du code HTML de forme libre à incorporer.
 
 * The component's properties can be defined in the [configure dialog](#configure-dialog).
 * Les valeurs par défaut du composant lors de son ajout à une page peuvent être définies dans la [boîte de dialogue de conception](#design-dialog).
@@ -40,19 +40,19 @@ To experience the Embed Component as well as see examples of its configuration o
 
 ## Détails techniques {#technical-details}
 
-The latest technical documentation about the Embed Component can be found on GitHub.[](https://github.com/adobe/aem-core-wcm-components/tree/master/content/src/content/jcr_root/apps/core/wcm/components/embed/v1/embed)
+La documentation technique la plus récente sur le composant Incorporer [se trouve sur GitHub](https://github.com/adobe/aem-core-wcm-components/tree/master/content/src/content/jcr_root/apps/core/wcm/components/embed/v1/embed).
 
 Vous trouverez plus d’informations sur le développement des composants principaux dans la [documentation destinée aux développeurs de composants principaux](developing.md).
 
 ## Boîte de dialogue de configuration {#configure-dialog}
 
-The configure dialog allows the content author to define the external resource to be embedded on the page. First choose which type of resource should be embedded: URL, Embeddable, or HTML.************
+The configure dialog allows the content author to define the external resource to be embedded on the page. Choisissez d’abord le type de ressource à incorporer : **URL**, **Intégrable** ou **HTML**.
 
 ### URL {#url}
 
-The simplest embed is the URL. Il vous suffit de coller l’URL de la ressource à incorporer dans le champ **URL** . Le composant tente d’accéder à la ressource et, s’il peut être rendu par l’un des processeurs, affiche un message de confirmation sous le champ **URL** . If not, the field will be marked in error.
+L’intégration la plus simple est l’URL. Il vous suffit de coller l’URL de la ressource à incorporer dans le champ **URL** . Le composant tente d’accéder à la ressource et, s’il peut être rendu par l’un des processeurs, affiche un message de confirmation sous le champ **URL** . If not, the field will be marked in error.
 
-The Embed Component ships with processors for the following types of resources:
+Le composant Incorporer est livré avec des processeurs pour les types de ressources suivants :
 
 * Ressources conformes à la norme [oEmbed](https://oembed.com/) , notamment Facebook Post, Instagram, SoundCloud, Twitter et YouTube
 * Pinterest
@@ -63,20 +63,20 @@ Les développeurs peuvent ajouter d’autres processeurs d’URL en [suivant la 
 
 ### Élément intégrable {#embeddable}
 
-Les intégrables permettent une personnalisation plus poussée de la ressource incorporée, qui peut être paramétrée et inclure des informations supplémentaires. Un auteur peut sélectionner des éléments incorporables approuvés préconfigurés et le composant est livré avec un composant YouTube intégré prêt à l'emploi.
+Les intégrables permettent une personnalisation plus poussée de la ressource incorporée, qui peut être paramétrée et inclure des informations supplémentaires. An author is able to select from pre-configured trusted embeddables and the component ships with a Youtube embeddable out-of-the-box.
 
-Le champ **Embeddable** définit le type de processeur à utiliser. Dans le cas de l’intégrable YouTube, vous pouvez ensuite définir :
+The Embeddable field defines the type of processor you want to use. **** Dans le cas de l’intégrable YouTube, vous pouvez ensuite définir :
 
 * **ID** vidéo : identifiant vidéo unique de YouTube de la ressource à incorporer.
-* **Largeur** - Largeur de la vidéo incorporée
+* **Width - The width of the embedded video**
 * **Hauteur** - Hauteur de la vidéo intégrée
 
-D’autres intégrables proposent des champs similaires et peuvent être définis par un développeur en [suivant la documentation du développeur du composant intégré.](https://github.com/adobe/aem-core-wcm-components/tree/master/content/src/content/jcr_root/apps/core/wcm/components/embed/v1/embed#extending-the-embed-component)
+Other embeddables would offer similar fields and can be defined by a developer by following the developer documentation of the Embed Component.[](https://github.com/adobe/aem-core-wcm-components/tree/master/content/src/content/jcr_root/apps/core/wcm/components/embed/v1/embed#extending-the-embed-component)
 
 ![](assets/screen-shot-2019-09-25-10.15.00.png)
 
 >[!NOTE]
->Les éléments incorporables doivent être activés au niveau du modèle via la boîte de dialogue [de](#design-dialog) conception pour être accessibles à l’auteur de la page.
+>Embeddables must be enabled at the template level via the Design Dialog to be available to the page author.[](#design-dialog)
 
 ### HTML {#html}
 
@@ -85,15 +85,15 @@ Vous pouvez ajouter du code HTML de forme libre à votre page à l’aide du com
 ![](assets/screen-shot-2019-09-25-10.20.00.png)
 
 >[!NOTE]
->Les balises dangereuses, telles que les scripts, sont filtrées à partir du code HTML entré et ne sont pas rendues sur la page résultante.
+>Any unsafe tags such as scripts will be filtered from the entered HTML and will not be rendered on the resulting page.
 
 ## Boîte de dialogue de conception {#design-dialog}
 
-La boîte de dialogue de conception permet à l’auteur du modèle de définir les options disponibles pour l’auteur du contenu qui utilise le composant incorporé et les valeurs par défaut définies lors du placement du composant incorporé.
+The design dialog allows the template author to define the options available to the content author who uses the Embed Component and the defaults set when placing the Embed Component.
 
 ![](assets/screen-shot-2019-09-25-10.25.28.png)
 
-* **Désactiver l’URL** : désactive l’option **URL** de l’auteur du contenu lorsqu’elle est sélectionnée.
+* **Disable URL - Disables the URL option for the content author when selected******
 * **Désactiver les intégrables** - Désactive l'option **Intégrable** pour l'auteur du contenu lorsqu'elle est sélectionnée, quels que soient les processeurs intégrables autorisés.
 * **Désactiver HTML** : désactive l’option **HTML** pour l’auteur du contenu lorsqu’elle est sélectionnée.
 * **Embeddables** autorisés - Multislect qui définit les processeurs incorporables accessibles à l’auteur du contenu, à condition que l’option **Embeddable** soit active.
