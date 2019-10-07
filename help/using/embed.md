@@ -1,19 +1,19 @@
 ---
-title: Embed Component
-seo-title: Embed Component
-description: The Embed Component enables embedding external content in an AEM content page.
-seo-description: The Embed Component enables embedding external content in an AEM content page.
+title: Incorporer le composant
+seo-title: Incorporer le composant
+description: Le composant Incorporer permet d’incorporer du contenu externe dans une page de contenu AEM.
+seo-description: Le composant Incorporer permet d’incorporer du contenu externe dans une page de contenu AEM.
 content-type: référence
 topic-tags: core-components
 translation-type: tm+mt
-source-git-commit: d748bf211ec36d12cac016ca9bf707f24db1ce48
+source-git-commit: e4fdefd392281f4f9101b28a15846c922e3a52c1
 
 ---
 
 
 # Incorporer le composant{#embed-component}
 
-The Core Components Embed Component allows embedding external content in an AEM content page.
+Le composant Incorporer les composants principaux permet d’incorporer du contenu externe dans une page de contenu AEM.
 
 ## Utilisation {#usage}
 
@@ -46,11 +46,15 @@ Vous trouverez plus d’informations sur le développement des composants princi
 
 ## Boîte de dialogue de configuration {#configure-dialog}
 
-The configure dialog allows the content author to define the external resource to be embedded on the page. Choisissez d’abord le type de ressource à incorporer : **URL**, **Intégrable** ou **HTML**.
+La boîte de dialogue de configuration permet à l’auteur du contenu de définir la ressource externe à incorporer dans la page. Choisissez d’abord le type de ressource à incorporer :
+
+* [URL](#url)
+* [Élément intégrable](#embeddable)
+* [HTML](#html)
 
 ### URL {#url}
 
-L’intégration la plus simple est l’URL. Il vous suffit de coller l’URL de la ressource à incorporer dans le champ **URL** . Le composant tente d’accéder à la ressource et, s’il peut être rendu par l’un des processeurs, affiche un message de confirmation sous le champ **URL** . If not, the field will be marked in error.
+L’intégration la plus simple est l’URL. Il vous suffit de coller l’URL de la ressource à incorporer dans le champ **URL** . Le composant tente d’accéder à la ressource et, s’il peut être rendu par l’un des processeurs, affiche un message de confirmation sous le champ **URL** . Si ce n’est pas le cas, le champ est marqué par erreur.
 
 Le composant Incorporer est livré avec des processeurs pour les types de ressources suivants :
 
@@ -63,20 +67,20 @@ Les développeurs peuvent ajouter d’autres processeurs d’URL en [suivant la 
 
 ### Élément intégrable {#embeddable}
 
-Les intégrables permettent une personnalisation plus poussée de la ressource incorporée, qui peut être paramétrée et inclure des informations supplémentaires. An author is able to select from pre-configured trusted embeddables and the component ships with a Youtube embeddable out-of-the-box.
+Les intégrables permettent une personnalisation plus poussée de la ressource incorporée, qui peut être paramétrée et inclure des informations supplémentaires. Un auteur peut sélectionner des éléments incorporables approuvés préconfigurés et le composant est livré avec un composant YouTube intégré prêt à l'emploi.
 
-The Embeddable field defines the type of processor you want to use. **** Dans le cas de l’intégrable YouTube, vous pouvez ensuite définir :
+Le champ **Embeddable** définit le type de processeur à utiliser. Dans le cas de l’intégrable YouTube, vous pouvez ensuite définir :
 
 * **ID** vidéo : identifiant vidéo unique de YouTube de la ressource à incorporer.
-* **Width - The width of the embedded video**
+* **Largeur** - Largeur de la vidéo incorporée
 * **Hauteur** - Hauteur de la vidéo intégrée
 
-Other embeddables would offer similar fields and can be defined by a developer by following the developer documentation of the Embed Component.[](https://github.com/adobe/aem-core-wcm-components/tree/master/content/src/content/jcr_root/apps/core/wcm/components/embed/v1/embed#extending-the-embed-component)
+D’autres intégrables proposent des champs similaires et peuvent être définis par un développeur en [suivant la documentation du développeur du composant intégré.](https://github.com/adobe/aem-core-wcm-components/tree/master/content/src/content/jcr_root/apps/core/wcm/components/embed/v1/embed#extending-the-embed-component)
 
 ![](assets/screen-shot-2019-09-25-10.15.00.png)
 
 >[!NOTE]
->Embeddables must be enabled at the template level via the Design Dialog to be available to the page author.[](#design-dialog)
+>Les éléments incorporables doivent être activés au niveau du modèle via la boîte de dialogue [de](#design-dialog) conception pour être accessibles à l’auteur de la page.
 
 ### HTML {#html}
 
@@ -85,15 +89,26 @@ Vous pouvez ajouter du code HTML de forme libre à votre page à l’aide du com
 ![](assets/screen-shot-2019-09-25-10.20.00.png)
 
 >[!NOTE]
->Any unsafe tags such as scripts will be filtered from the entered HTML and will not be rendered on the resulting page.
+>Les balises dangereuses, telles que les scripts, sont filtrées à partir du code HTML entré et ne sont pas rendues sur la page résultante.
+
+#### Sécurité {#security}
+
+L’annotation HTML que l’auteur peut entrer est filtrée à des fins de sécurité afin d’éviter les attaques de script intersite qui pourraient par exemple permettre aux auteurs d’obtenir des droits d’administration.
+
+En général, tous les scripts et `style` éléments, ainsi que tous les `on*` et attributs `style` et sont supprimés de la sortie.
+
+Toutefois, les règles sont plus complexes que cela car le composant Incorporer suit le jeu de règles de filtrage HTML AntiSami global d’AEM, qui se trouve à l’adresse `/libs/cq/xssprotection/config.xml`. Cela peut être superposé pour une configuration spécifique au projet par un développeur, si nécessaire.
+
+>[!NOTE]
+>Bien que les règles AntiSamy puissent être configurées par superposition `/libs/cq/xssprotection/config.xml`, ces modifications affectent tous les comportements HTL et JSP et pas seulement le composant principal incorporé.
 
 ## Boîte de dialogue de conception {#design-dialog}
 
-The design dialog allows the template author to define the options available to the content author who uses the Embed Component and the defaults set when placing the Embed Component.
+La boîte de dialogue de conception permet à l’auteur du modèle de définir les options disponibles pour l’auteur du contenu qui utilise le composant incorporé et les valeurs par défaut définies lors du placement du composant incorporé.
 
 ![](assets/screen-shot-2019-09-25-10.25.28.png)
 
-* **Disable URL - Disables the URL option for the content author when selected******
+* **Désactiver l’URL** : désactive l’option **URL** de l’auteur du contenu lorsqu’elle est sélectionnée.
 * **Désactiver les intégrables** - Désactive l'option **Intégrable** pour l'auteur du contenu lorsqu'elle est sélectionnée, quels que soient les processeurs intégrables autorisés.
 * **Désactiver HTML** : désactive l’option **HTML** pour l’auteur du contenu lorsqu’elle est sélectionnée.
 * **Embeddables** autorisés - Multislect qui définit les processeurs incorporables accessibles à l’auteur du contenu, à condition que l’option **Embeddable** soit active.
