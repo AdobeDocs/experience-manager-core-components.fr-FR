@@ -6,7 +6,7 @@ seo-description: Le composant Incorporer permet d’incorporer du contenu extern
 content-type: référence
 topic-tags: core-components
 translation-type: tm+mt
-source-git-commit: e4fdefd392281f4f9101b28a15846c922e3a52c1
+source-git-commit: 648a54d3ab76ec9a9dee10dc97a3f91e6b7509df
 
 ---
 
@@ -95,12 +95,14 @@ Vous pouvez ajouter du code HTML de forme libre à votre page à l’aide du com
 
 L’annotation HTML que l’auteur peut entrer est filtrée à des fins de sécurité afin d’éviter les attaques de script intersite qui pourraient par exemple permettre aux auteurs d’obtenir des droits d’administration.
 
-En général, tous les scripts et `style` éléments, ainsi que tous les `on*` et attributs `style` et sont supprimés de la sortie.
+*En général,* tous les scripts et `style` éléments ainsi que tous les `on*` `style` et attributs sont supprimés de la sortie.
 
-Toutefois, les règles sont plus complexes que cela car le composant Incorporer suit le jeu de règles de filtrage HTML AntiSami global d’AEM, qui se trouve à l’adresse `/libs/cq/xssprotection/config.xml`. Cela peut être superposé pour une configuration spécifique au projet par un développeur, si nécessaire.
+Toutefois, les règles sont plus complexes car le composant Incorporer suit le jeu de règles de filtrage de la structure de filtrage HTML AntiSamy d’AEM, qui se trouve à l’adresse `/libs/cq/xssprotection/config.xml`. Cela peut être superposé pour une configuration spécifique au projet par un développeur, si nécessaire.
+
+Des informations de sécurité supplémentaires sont disponibles dans la documentation du développeur [AEM.](https://helpx.adobe.com/experience-manager/6-5/sites/developing/using/security.html)
 
 >[!NOTE]
->Bien que les règles AntiSamy puissent être configurées par superposition `/libs/cq/xssprotection/config.xml`, ces modifications affectent tous les comportements HTL et JSP et pas seulement le composant principal incorporé.
+>Bien que les règles de structure d'assainissement AntiSamy puissent être configurées par superposition `/libs/cq/xssprotection/config.xml`, ces modifications affectent tous les comportements HTL et JSP et pas seulement le composant principal Incorporer.
 
 ## Boîte de dialogue de conception {#design-dialog}
 
