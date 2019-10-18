@@ -4,13 +4,13 @@ seo-title: Présentation des composants principaux
 description: 'Les composants principaux ont été conçus pour offrir des composants de base solides et extensibles, reposant sur les dernières technologies et les bonnes pratiques. '
 seo-description: 'Les composants principaux ont été conçus pour offrir des composants de base solides et extensibles, reposant sur les dernières technologies et les bonnes pratiques. '
 uuid: b815c7d1-fbb0-4480-bd23-42606ff8b1eb
-contentOwner: Utilisateur
-content-type: référencereference
+contentOwner: User
+content-type: reference
 topic-tags: introduction
 products: SG_EXPERIENCEMANAGER/CORECOMPONENTS-new
 discoiquuid: c44bb0d7-5d91-4659-878e-a0658fe29aa2
 translation-type: tm+mt
-source-git-commit: bf1993085c4cd95121cb6d78be8c52934802b645
+source-git-commit: cbfc96bd215260e902f96c035a7889c968814e39
 
 ---
 
@@ -23,9 +23,9 @@ Les composants principaux ont été conçus pour offrir des composants de base s
 
 ## Essai des composants principaux
 
-Si vous souhaitez commencer immédiatement à essayer les composants principaux, passez en revue la [bibliothèque de composants](http://opensource.adobe.com/aem-core-wcm-components/library.html). La bibliothèque de composants est une présentation en ligne de la version actuelle de la plupart des composants principaux, ce qui vous permet d’interagir avec des variantes des composants ainsi que des exemples de sortie HTML et JSON.
+Si vous souhaitez commencer immédiatement à essayer les composants principaux, passez en revue la [bibliothèque de composants](http://opensource.adobe.com/aem-core-wcm-components/library.html). La bibliothèque de composants est une présentation en ligne de la version actuelle de la plupart des composants principaux, ce qui permet d’interagir avec des variantes des composants, ainsi que des exemples de sortie HTML et JSON.
 
-The [We.Retail reference site](https://helpx.adobe.com/experience-manager/6-4/sites/developing/using/we-retail.html) also illustrates how the core components can be used.
+Le [site de référence We.Retail](https://helpx.adobe.com/experience-manager/6-4/sites/developing/using/we-retail.html) illustre également l’utilisation des composants principaux.
 
 ## Composants principaux - Principales fonctionnalités {#core-components-core-features}
 
@@ -79,7 +79,7 @@ La version actuelle des composants principaux comporte les composants ci-après.
 
 >[!NOTE]
 >
->Les auteurs ne peuvent pas disposer immédiatement de ces composants principaux. En effet, l’[équipe de développement doit d’abord les intégrer dans leur environnement](using.md). Once integrated, they may be made available and pre-configured via the [template editor](https://helpx.adobe.com/experience-manager/6-5/sites/authoring/using/templates.html) or in [design mode](https://helpx.adobe.com/experience-manager/6-5/sites/authoring/using/default-components-designmode.html).
+>Les auteurs ne peuvent pas disposer immédiatement de ces composants principaux. En effet, l’[équipe de développement doit d’abord les intégrer dans leur environnement](using.md). Une fois intégrés, ils peuvent être disponibles et préconfigurés dans l’[éditeur de modèles](https://helpx.adobe.com/experience-manager/6-5/sites/authoring/using/templates.html) ou dans le [mode de conception](https://helpx.adobe.com/experience-manager/6-5/sites/authoring/using/default-components-designmode.html).
 
 >[!CAUTION]
 >
@@ -97,11 +97,15 @@ Pour des recommandations spécifiques, voir [Quand utiliser les composants princ
 
 Pour une présentation des composants principaux, des fonctionnalités qu’ils proposent et de leur utilisation dans AEM, consultez la session AEM Gems sur les [composants principaux AEM.](https://helpx.adobe.com/experience-manager/kt/eseminars/gems/AEM-Core-Components.html)
 
-[Gems on Adobe Experience Manager](https://helpx.adobe.com/experience-manager/kt/eseminars/gems/aem-index.html) is a series of technical deep dives delivered by Adobe experts. Cette série complète la documentation du produit et de tous les autres canaux techniques, ce qui permet aux développeurs d’entrer en contact et d’approfondir un sujet spécifique.
+[Gems sur Adobe Experience Manager](https://helpx.adobe.com/experience-manager/kt/eseminars/gems/aem-index.html) est une série de séances approfondies sur des aspects techniques réalisées par des experts Adobe. Cette série complète la documentation du produit et de tous les autres canaux techniques, ce qui permet aux développeurs d’entrer en contact et d’approfondir un sujet spécifique.
 
-## Tutoriel du développeur WKND {#wknd-developer-tutorial}
+## Développement avec les composants principaux {#developing-core-components}
+
+Les composants principaux fournissent des composants de base robustes et extensibles qui implémentent plusieurs modèles permettant une personnalisation facile, de la mise en forme simple à la réutilisation des fonctionnalités avancées. See the [Core Components developing documentation](developing.md) for more information.
 
 Commencez à développer AEM Sites avec des composants principaux en suivant [ce tutoriel détaillé.](https://helpx.adobe.com/experience-manager/6-5/sites/developing/using/getting-started.html)
+
+N’oubliez pas de démarrer votre propre projet AEM en exploitant l’archétype [du projet](archetype.md) AEM avec les derniers composants principaux intégrés !
 
 ## Prise en charge des composants principaux {#core-components-support}
 
