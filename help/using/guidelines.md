@@ -10,7 +10,7 @@ topic-tags: développement
 products: SG_EXPERIENCEMANAGER/CORECOMPONENTS-new
 discoiquuid: 170dba8f-a2ed-442e-a56e-1126b338c36e
 translation-type: tm+mt
-source-git-commit: 62643e5bd49ab006230f65004bb9374822dcc017
+source-git-commit: e3b5eb14a8172c2172b936dd8713befd17f17524
 
 ---
 
@@ -112,6 +112,10 @@ Contient le contenu initial qui sera dupliqué dans la page lors de sa création
 Contient pour chaque composant le mappage à une stratégie, qui est la préconfiguration du composant. Ce mappage permet de réutiliser les stratégies dans les modèles et donc de les gérer de manière centralisée.
 
 ![Présentation des modèles et de la stratégie](assets/screen_shot_2018-12-07at093102.png)
+
+## Archétype de projet AEM {#aem-project-archetype}
+
+[L’archétype](archetype.md) de projet AEM crée un projet Adobe Experience Manager minimal comme point de départ pour vos propres projets, y compris un exemple de composant HTML personnalisé avec SlingModels pour la logique et l’implémentation appropriée des composants principaux avec le modèle de proxy recommandé.
 
 **À lire aussi :**
 
