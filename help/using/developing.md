@@ -10,7 +10,7 @@ topic-tags: développement
 products: SG_EXPERIENCEMANAGER/CORECOMPONENTS-new
 discoiquuid: 157a2ec3-9fca-4fad-977a-d93013eeb218
 translation-type: tm+mt
-source-git-commit: bf1993085c4cd95121cb6d78be8c52934802b645
+source-git-commit: cbfc96bd215260e902f96c035a7889c968814e39
 
 ---
 
@@ -27,25 +27,25 @@ Les composants principaux fournissent des composants de base robustes et extensi
 * Disponibilité continue
    * Améliorations fréquentes des fonctionnalités incrémentielles
    * Disponibilité du [code source sur GitHub](https://github.com/adobe/aem-core-wcm-components) pour permettre à la communauté des développeurs de faire part de leurs commentaires et d’apporter leur contribution
-   * Installation through a [separately released content package](https://github.com/adobe/aem-core-wcm-components/releases) for component upgrades to be done independently from AEM upgrades
+   * Installation via un [module de contenu publié séparément](https://github.com/adobe/aem-core-wcm-components/releases) pour que les mises à niveau des composants soient effectuées indépendamment des mises à niveau d’AEM
 * [Contrôle de version des composants](guidelines.md#component-versioning)
    * [Assure la compatibilité dans une version](#upgrade-of-core-components), tout en permettant aux composants d’évoluer
    * Permet à plusieurs versions d’un composant de coexister sur un même environnement
 * Implémentation moderne
-   * Markup defined in [HTML Template Language](https://helpx.adobe.com/experience-manager/htl/using/overview.html) (HTL)
-   * Content model logic implemented with [Sling Models](https://sling.apache.org/documentation/bundles/models.html)
+   * Balisage défini dans le [langage HTL](https://helpx.adobe.com/experience-manager/htl/using/overview.html)
+   * Logique du modèle de contenu implémentée avec les [modèles Sling](https://sling.apache.org/documentation/bundles/models.html)
 * Balisage Lean
-   * Following [Block Element Modifier](https://getbem.com/) (BEM) notation as of Release 2.0.0
-      * Prior release follow [Bootstrap](https://getbootstrap.com/css/) naming conventions
-   * Built around [accessibility guidelines](https://helpx.adobe.com/experience-manager/6-5/managing/using/web-accessibility.html)
+   * D’après la notation du [Block Element Modifier](https://getbem.com/) (BEM) depuis la version 2.0.0
+      * La version précédente suit les conventions [Bootstrap](https://getbootstrap.com/css/) / d’affectation de noms
+   * Conçus selon les [consignes d’accessibilité](https://helpx.adobe.com/experience-manager/6-5/managing/using/web-accessibility.html)
    * Capacité à être utilisé pour les sites réactifs et mobiles
 * Possibilité de sérialiser en JSON le modèle de contenu pour les cas d’utilisation d’un CMS headless
 * Accessibles
-   * Compliant with the [WCAG 2.0 AA standard](https://helpx.adobe.com/experience-manager/6-5/managing/using/web-accessibility.html)
+   * Conformes à la [norme WCAG 2.0 AA](https://helpx.adobe.com/experience-manager/6-5/managing/using/web-accessibility.html)
 
 >[!CAUTION]
 >
->Core Components require AEM 6.3 or later and Java 8 and and require the use of [editable templates](https://helpx.adobe.com/experience-manager/6-5/sites/authoring/using/templates.html)
+>Les composants principaux requièrent AEM 6.3 ou une version ultérieure ainsi que Java 8. Ils requièrent aussi l’utilisation de [modèles modifiables](https://helpx.adobe.com/experience-manager/6-5/sites/authoring/using/templates.html).
 >
 >Les composants principaux ne fonctionnent pas avec l’interface utilisateur classique ni avec les modèles statiques.
 
@@ -53,11 +53,15 @@ Les composants principaux fournissent des composants de base robustes et extensi
 
 Pour une présentation des composants principaux, des fonctionnalités qu’ils proposent et de leur utilisation dans AEM, consultez la session AEM Gems sur les [composants principaux AEM.](https://helpx.adobe.com/experience-manager/kt/eseminars/gems/AEM-Core-Components.html)
 
-[Gems on Adobe Experience Manager](https://helpx.adobe.com/experience-manager/kt/eseminars/gems/aem-index.html) est une série de plongées techniques approfondies proposées par des experts Adobe. Cette série complète la documentation du produit et de tous les autres canaux techniques, ce qui permet aux développeurs d’entrer en contact et d’approfondir un sujet spécifique.
+[Gems sur Adobe Experience Manager](https://helpx.adobe.com/experience-manager/kt/eseminars/gems/aem-index.html) est une série de séances approfondies sur des aspects techniques réalisées par des experts Adobe. Cette série complète la documentation du produit et de tous les autres canaux techniques, ce qui permet aux développeurs d’entrer en contact et d’approfondir un sujet spécifique.
 
 ## Tutoriel du développeur WKND {#wknd-developer-tutorial}
 
 Commencez à développer AEM Sites avec des composants principaux en suivant ce [tutoriel détaillé.](https://helpx.adobe.com/experience-manager/6-5/sites/developing/using/getting-started.html)
+
+## Archétype de projet AEM {#aem-project-archetype}
+
+[L’archétype](archetype.md) de projet AEM crée un projet Adobe Experience Manager minimal comme point de départ pour vos propres projets, y compris un exemple de composant HTML personnalisé avec SlingModels pour la logique et l’implémentation appropriée des composants principaux avec le modèle de proxy recommandé.
 
 ## Distribués sur github {#delivered-over-github}
 
@@ -67,8 +71,8 @@ CODE SUR GITHUB
 
 Vous pouvez trouver le code de cette page sur GitHub.
 
-* [Ouvrez le projet aem-core-wcm-components sur GitHub](https://github.com/adobe/aem-core-wcm-components)
-* Download the project as [a ZIP file](https://github.com/adobe/aem-core-wcm-components/archive/master.zip)
+* [Ouvrez le projet aem-core-wcm-components sur GitHub](https://github.com/adobe/aem-core-wcm-components).
+* Téléchargez le projet sous la forme d’[un fichier ZIP](https://github.com/adobe/aem-core-wcm-components/archive/master.zip).
 
 Reportez-vous à la documentation sur l’[utilisation des composants principaux](using.md) pour savoir comment commencer à les utiliser dans votre projet.
 
@@ -84,7 +88,7 @@ Consultez la [bibliothèque des composants](http://opensource.adobe.com/aem-core
 
 ### Exemple de contenu en mode d’exécution {#sample-content-run-mode}
 
-The Core Components are visible in the Quickstart when the sample content is present, because the [We.Retail reference site](https://helpx.adobe.com/experience-manager/6-5/sites/developing/using/we-retail.html) uses them. Toutefois, lors de l’exécution en production (en mode d’exécution `nosamplecontent`, sans exemple de contenu activé), les composants principaux ne sont plus présents et doivent être installés sur les instances AEM par l’équipe de développement et/ou d’exploitation.
+Les composants principaux sont visibles dans le Quickstart lorsque l’exemple de contenu est présent, car le [site de référence We.Retail](https://helpx.adobe.com/experience-manager/6-5/sites/developing/using/we-retail.html) les utilise. Toutefois, lors de l’exécution en production (en mode d’exécution `nosamplecontent`, sans exemple de contenu activé), les composants principaux ne sont plus présents et doivent être installés sur les instances AEM par l’équipe de développement et/ou d’exploitation.
 
 >[!NOTE]
 >
@@ -98,18 +102,18 @@ Pour plus d’informations sur leurs capacités de création et les options pour
 
 | **Fonction** | **Composant principal** | **Composant de base** |
 |-----|---|---|
-| Logique d’implémentation | Java POJOs with [Sling Models](https://sling.apache.org/documentation/bundles/models.html) annotations | Code JSP |
-| Définition de balisage | [Syntaxe HTML Template Language](https://helpx.adobe.com/experience-manager/htl/user-guide.html) (HTL) | Code JSP |
+| Logique d’implémentation | POJO Java avec les annotations de [modèles Sling](https://sling.apache.org/documentation/bundles/models.html). | Code JSP |
+| Définition de balisage | [Syntaxe du modèle de langage HTML](https://helpx.adobe.com/experience-manager/htl/user-guide.html) (HTL) | Code JSP |
 | Assainissement XSS | Automatisée par HTL | Essentiellement manuelle |
-| Nommage des classes CSS | Standardized naming convention based on [Block Element Modifier](https://getbem.com/) (BEM) notation (as of release 2.0.0) | Modèles personnalisés |
-| Définition de boîte de dialogue | [Coral 3](https://helpx.adobe.com/experience-manager/6-5/sites/developing/using/reference-materials/coral-ui/coralui3/index.html) | Interface utilisateur Coral 2 + Classique |
-| Sortie JSON | [Sling Models Exporter with Jackson serialization](https://sling.apache.org/documentation/bundles/models.html#exporter-framework-since-130) | Servlet Sling par défaut |
+| Nommage des classes CSS | Convention d’affectation de noms normalisée basée sur la notification [Block Element Modifier](https://getbem.com/) (BEM) (à partir de la version 2.0.0) | Modèles personnalisés |
+| Définition de boîte de dialogue | [Coral 3](https://helpx.adobe.com/experience-manager/6-5/sites/developing/using/reference-materials/coral-ui/coralui3/index.html) | Interface utilisateur Coral 2 + Classique |
+| Sortie JSON | [Exportateur de modèles Sling avec sérialisation Jackson](https://sling.apache.org/documentation/bundles/models.html#exporter-framework-since-130) | Servlet Sling par défaut |
 | Création de versions | [Pour le modèle et le HTL](guidelines.md) | Aucun |
 | Tests | Tests unitaires + tests d’intégration | Tests d’intégration |
-| Diffusion | [Via public GitHub](https://github.com/adobe/aem-core-wcm-components) | Via Quickstart |
-| Licence | [Apache License](https://www.apache.org/licenses/LICENSE-2.0) | Adobe propriétaire |
+| Diffusion | [Via le site GitHub public](https://github.com/adobe/aem-core-wcm-components) | Via Quickstart |
+| Licence | [Licence Apache](https://www.apache.org/licenses/LICENSE-2.0) | Adobe propriétaire |
 | Contribution | Via une demande d’extraction | Impossible |
-| Accessibilité | Fully compliant with the [WCAG 2.0 AA standard](https://helpx.adobe.com/experience-manager/6-5/managing/using/web-accessibility.html) | Only partially compliant with the [WCAG 2.0 AA standard](https://helpx.adobe.com/experience-manager/6-5/managing/using/web-accessibility.html) |
+| Accessibilité | Totalement conforme à la [norme WCAG 2.0 AA](https://helpx.adobe.com/experience-manager/6-5/managing/using/web-accessibility.html) | Partiellement conforme à la [norme WCAG 2.0 AA](https://helpx.adobe.com/experience-manager/6-5/managing/using/web-accessibility.html) |
 
 ## Liste des composants {#component-list}
 
@@ -135,25 +139,25 @@ Le tableau ci-après répertorie les composants principaux disponibles, les lien
 | [Teaser](https://github.com/adobe/aem-core-wcm-components/tree/master/content/src/content/jcr_root/apps/core/wcm/components/teaser/v1/teaser) | Permet à l’auteur de contenu de créer facilement un teaser vers un contenu supplémentaire à l’aide d’une image, d’un titre ou d’un texte enrichi et de lier un contenu supplémentaire ou d’effectuer d’autres actions | `-` |
 | [Onglets](https://github.com/adobe/aem-core-wcm-components/tree/master/content/src/content/jcr_root/apps/core/wcm/components/tabs/v1/tabs) | Permet à l’auteur de contenu d’organiser le contenu de la page dans plusieurs onglets | `-` |
 | [Carrousel](https://github.com/adobe/aem-core-wcm-components/tree/master/content/src/content/jcr_root/apps/core/wcm/components/carousel/v1/carousel) | Permet à l’auteur de contenu d’organiser le contenu dans un carrousel de diapositives | `/libs/foundation/components/carousel` |
-| [Content Fragement](https://github.com/adobe/aem-core-wcm-components/tree/master/extension/contentfragment/content/src/content/jcr_root/apps/core/wcm/extension/components/contentfragment/v1/contentfragment) | Permet l’affichage d’un fragment de contenu | `-` |
-| [Content Fragement List](https://github.com/adobe/aem-core-wcm-components/tree/master/extension/contentfragment/content/src/content/jcr_root/apps/core/wcm/extension/components/contentfragmentlist/v1/contentfragmentlist) | Permet l’affichage d’une liste de fragments de contenu | `-` |
+| [Fragment de contenu](https://github.com/adobe/aem-core-wcm-components/tree/master/extension/contentfragment/content/src/content/jcr_root/apps/core/wcm/extension/components/contentfragment/v1/contentfragment) | Permet l’affichage d’un fragment de contenu | `-` |
+| [Liste des fragments de contenu](https://github.com/adobe/aem-core-wcm-components/tree/master/extension/contentfragment/content/src/content/jcr_root/apps/core/wcm/extension/components/contentfragmentlist/v1/contentfragmentlist) | Permet l’affichage d’une liste de fragments de contenu | `-` |
 | [Séparateur](https://github.com/adobe/aem-core-wcm-components/tree/master/content/src/content/jcr_root/apps/core/wcm/components/separator/v1/separator) | Sépare le contenu d’une page | `-` |
 | [Accordéon](https://github.com/adobe/aem-core-wcm-components/tree/master/content/src/content/jcr_root/apps/core/wcm/components/accordion/v1/accordion) | Organise les panneaux de contenu dans un accordéon réductible | `-` |
 | [Conteneur](https://github.com/adobe/aem-core-wcm-components/tree/master/content/src/content/jcr_root/apps/core/wcm/components/container/v1/container) | Organise les composants dans un conteneur | `-` |
 | [Bouton](https://github.com/adobe/aem-core-wcm-components/tree/master/content/src/content/jcr_root/apps/core/wcm/components/button/v1/button) | Crée un bouton sur une page | `-` |
-| [Télécharger](https://github.com/adobe/aem-core-wcm-components/tree/master/content/src/content/jcr_root/apps/core/wcm/components/download/v1/download) | Ajoute une ressource téléchargeable à une page | `-` |
+| [Téléchargement](https://github.com/adobe/aem-core-wcm-components/tree/master/content/src/content/jcr_root/apps/core/wcm/components/download/v1/download) | Ajoute une ressource téléchargeable à une page | `-` |
 | [Fragment d’expérience](https://github.com/adobe/aem-core-wcm-components/tree/master/content/src/content/jcr_root/apps/core/wcm/components/experience-fragment/v1/experience-fragment) | Ajout d’un fragment d’expérience à une page | `/libs/cq/experience-fragments/editor/components/experiencefragment` |
-| [Incorporer](https://github.com/adobe/aem-core-wcm-components/tree/master/content/src/content/jcr_root/apps/core/wcm/components/embed/v1/embed) | Embed an external resource within a page | - |
+| [Incorporer](https://github.com/adobe/aem-core-wcm-components/tree/master/content/src/content/jcr_root/apps/core/wcm/components/embed/v1/embed) | Incorporation d’une ressource externe dans une page | - |
 
 ### Composants à venir {#upcoming-components}
 
-For an overview of the upcoming Core Componente roadmap see the [project wiki on GitHub](https://github.com/adobe/aem-core-wcm-components/wiki/home).
+Pour obtenir un aperçu de la feuille de route des composants principaux à venir, voir le [wiki du projet sur GitHub](https://github.com/adobe/aem-core-wcm-components/wiki/home).
 
 ## Mise à niveau des composants principaux {#upgrade-of-core-components}
 
 L’un des avantages des composants versionnés est qu’ils permettent de séparer la migration vers une nouvelle version d’AEM de la migration vers les nouvelles versions des composants. En outre, si de nouvelles versions de composants sont disponibles, ils permettent la migration individuelle de chaque composant vers la nouvelle version.
 
-Les migrations vers une nouvelle version d’AEM n’auront aucune incidence sur le fonctionnement des composants principaux, à condition que leurs versions prennent également en charge la nouvelle version d’AEM vers laquelle est effectuée la migration. Les personnalisations effectuées aux composants principaux ne doivent pas être affectées tant qu’elles n’utilisent pas d’API [obsolètes ou supprimées](https://helpx.adobe.com/experience-manager/6-5/release-notes/deprecated-removed-features.html).
+Les migrations vers une nouvelle version d’AEM n’auront aucune incidence sur le fonctionnement des composants principaux, à condition que leurs versions prennent également en charge la nouvelle version d’AEM vers laquelle est effectuée la migration. Les personnalisations apportées aux composants principaux ne doivent pas être affectées tant qu’elles n’utilisent pas d’API [obsolètes ou supprimées](https://helpx.adobe.com/experience-manager/6-5/release-notes/deprecated-removed-features.html).
 
 Les migrations vers de nouvelles versions des composants principaux n’auront aucune incidence sur le fonctionnement du composant. De plus, de nouvelles fonctionnalités peuvent être ajoutées pour les auteurs de pages, ce qui peut nécessiter une configuration par un éditeur de modèles, au cas où le comportement par défaut ne serait pas souhaité. Il est toutefois possible que des personnalisations doivent être adaptées. Pour plus d’informations, voir la page [Personnalisation des composants principaux](customizing.md#upgrade-compatibility-of-customizations).
 
@@ -181,7 +185,7 @@ Tout nouveau projet doit être implémenté avec les composants principaux. Tout
 
 Un travail plus important sur un projet existant (par exemple une création de nouvelle image ou une restructuration globale) offre souvent une chance d’effectuer une migration vers les composants principaux. Pour faciliter cette migration, Adobe fournit un certain nombre d’outils de migration pour inciter l’adoption des composants principaux et de la dernière technologie AEM.
 
-[Les outils](http://opensource.adobe.com/aem-modernize-tools/) de modernisation d’AEM permettent de convertir facilement les éléments suivants :
+[Les outils de modernisation AEM](http://opensource.adobe.com/aem-modernize-tools/) permettent de convertir facilement :
 
 * Les modèles statiques en modèles modifiables
 * Les configurations de la conception en stratégies
