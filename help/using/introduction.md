@@ -10,7 +10,7 @@ topic-tags: introduction
 products: SG_EXPERIENCEMANAGER/CORECOMPONENTS-new
 discoiquuid: c44bb0d7-5d91-4659-878e-a0658fe29aa2
 translation-type: tm+mt
-source-git-commit: cbfc96bd215260e902f96c035a7889c968814e39
+source-git-commit: 683b4f4705c226275439a408423cbf1b23bea66f
 
 ---
 
@@ -105,7 +105,7 @@ Les composants principaux fournissent des composants de base robustes et extensi
 
 Commencez à développer AEM Sites avec des composants principaux en suivant [ce tutoriel détaillé.](https://helpx.adobe.com/experience-manager/6-5/sites/developing/using/getting-started.html)
 
-N’oubliez pas de démarrer votre propre projet AEM en exploitant l’archétype [du projet](archetype.md) AEM avec les derniers composants principaux intégrés !
+N’oubliez pas de démarrer votre propre projet AEM en exploitant l’archétype [du projet](overview.md) AEM avec les derniers composants principaux intégrés !
 
 ## Prise en charge des composants principaux {#core-components-support}
 
