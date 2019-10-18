@@ -10,7 +10,7 @@ topic-tags: développement
 products: SG_EXPERIENCEMANAGER/CORECOMPONENTS-new
 discoiquuid: 3c9e0ade-1ce0-4e34-ae04-8da63f9b6c4f
 translation-type: tm+mt
-source-git-commit: 62643e5bd49ab006230f65004bb9374822dcc017
+source-git-commit: e3b5eb14a8172c2172b936dd8713befd17f17524
 
 ---
 
@@ -34,6 +34,10 @@ Les composants principaux ont été conçus pour être des outils flexibles et c
 
 De plus, tous les composants principaux implémentent le [système de style](customizing.md).
 
+## Archétype de projet AEM {#aem-project-archetype}
+
+[L’archétype](archetype.md) de projet AEM crée un projet Adobe Experience Manager minimal comme point de départ pour vos propres projets, y compris un exemple de composant HTML personnalisé avec SlingModels pour la logique et l’implémentation appropriée des composants principaux avec le modèle de proxy recommandé.
+
 ## Modèles de personnalisation {#customization-patterns}
 
 ### Personnalisation des boîtes de dialogue {#customizing-dialogs}
@@ -45,25 +49,6 @@ Chaque boîte de dialogue possède une structure de nœud cohérente. It is reco
 Pour être entièrement compatibles avec toutes les modifications apportées à une boîte de dialogue sur sa version actuelle, il est important que les structures sous le niveau de l’élément d’onglet ne soient pas touchées (masquées, ajoutées, remplacées, réorganisées, etc.). Instead, a tab item from the parent should be hidden via the `sling:hideResource` property (see [Sling Resource Merger Properties](https://helpx.adobe.com/experience-manager/6-5/sites/developing/using/sling-resource-merger.html)), and new tab items added that contain the bespoke configuration fields. `sling:orderBefore` peut être utilisé pour réorganiser les éléments d’onglet si nécessaire.
 
 La boîte de dialogue ci-dessous illustre la structure de la boîte de dialogue recommandée et montre comment masquer et remplacer un onglet hérité comme décrit ci-dessus :
-
-<!-- 
-
-Comment Type: annotation
-Last Modified By: ims-author-CE1E2CE451D1F0680A490D45@AdobeID
-Last Modified Date: 2017-04-17T17:43:20.265-0400
-
-Should we provide guidance on how to name their CSS classes, etc. to align to component re-usability best-practices? We tout that we follow bootstrap css naming, should we be counseling customers to align similarly? .cmp- 
-<component name="">
-  -- 
- <element>
-   - 
-  <element descriptor="">
-    ? 
-  </element> 
- </element> 
-</component>
-
- -->
 
 ```xml
 <?xml version="1.0" encoding="UTF-8"?>
@@ -127,25 +112,6 @@ L’application d’un style avancé requiert parfois une structure de balisage 
 Cela peut facilement être réalisé en copiant les fichiers HTL qui doivent être modifiés du composant principal vers le composant proxy.
 
 En reprenant l’exemple du composant principal de chemin de navigation, pour personnaliser sa sortie de balisage, le fichier `breadcrumb.html` doit être copié dans le composant spécifique au site qui possède un `sling:resourceSuperTypes` pointant vers le composant principal de chemin de navigation.
-
-<!-- 
-
-Comment Type: annotation
-Last Modified By: ims-author-CE1E2CE451D1F0680A490D45@AdobeID
-Last Modified Date: 2017-04-17T17:43:20.265-0400
-
-Should we provide guidance on how to name their CSS classes, etc. to align to component re-usability best-practices? We tout that we follow bootstrap css naming, should we be counseling customers to align similarly? .cmp- 
-<component name="">
-  -- 
- <element>
-   - 
-  <element descriptor="">
-    ? 
-  </element> 
- </element> 
-</component>
-
- -->
 
 ### Style des composants {#styling-the-components}
 
