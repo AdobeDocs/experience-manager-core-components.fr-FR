@@ -7,7 +7,7 @@ contentOwner: bohnert
 content-type: référence
 topic-tags: création
 products: SG_EXPERIENCEMANAGER/CORECOMPONENTS-new
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 6882a0d8247328c403dc11a25ed9d079aefede69
 
 ---
@@ -15,11 +15,11 @@ source-git-commit: 6882a0d8247328c403dc11a25ed9d079aefede69
 
 # Composant de liste de fragments de contenu{#content-fragment-list-component}
 
-The Core Component Content Fragment List component allows for the display of a list of [content fragments](https://helpx.adobe.com/experience-manager/6-5/assets/using/content-fragments.html).
+Le composant de liste de fragments de contenu des composants principaux permet d’afficher une liste de [fragments de contenu](https://helpx.adobe.com/fr/experience-manager/6-5/assets/using/content-fragments.html).
 
 ## Utilisation {#usage}
 
-The Core Component Content Fragment List Component allows for the inclusion of a list of [content fragments](https://helpx.adobe.com/experience-manager/6-5/assets/using/content-fragments.html) on a page based on a Content Fragment model. This can be especially useful for creating [headless content](https://helpx.adobe.com/experience-manager/6-5/sites/developing/user-guide.html?topic=/experience-manager/6-5/sites/developing/morehelp/headless.ug.js) that can be easily consumed by other applications.
+Le composant de liste de fragments de contenu des composants principaux permet d’inclure une liste de [fragments de contenu](https://helpx.adobe.com/fr/experience-manager/6-5/assets/using/content-fragments.html) sur une page basée sur un modèle de fragment de contenu. Cette opération peut s’avérer particulièrement utile pour créer un [contenu headless](https://helpx.adobe.com/fr/experience-manager/6-5/sites/developing/user-guide.html?topic=/experience-manager/6-5/sites/developing/morehelp/headless.ug.js) qui peut être facilement utilisé par d’autres applications.
 
 * La liste et ses propriétés peuvent être sélectionnées dans la [boîte de dialogue de configuration](#configure-dialog).
 * Des styles peuvent être appliqués au composant dans la [boîte de dialogue de conception](#design-dialog).
@@ -42,7 +42,7 @@ Pour tester le composant de liste de fragments de contenu et voir des exemples d
 
 ## Détails techniques {#technical-details}
 
-The latest technical documentation about the Content Fragment List Component can be found on GitHub.[](https://github.com/adobe/aem-core-wcm-components/blob/master/content/src/content/jcr_root/apps/core/wcm/components/contentfragmentlist/v1/contentfragmentlist)
+La documentation technique la plus récente sur le composant Liste des fragments de contenu [se trouve sur GitHub](https://github.com/adobe/aem-core-wcm-components/blob/master/content/src/content/jcr_root/apps/core/wcm/components/contentfragmentlist/v1/contentfragmentlist).
 
 Vous trouverez plus d’informations sur le développement des composants principaux dans la [documentation destinée aux développeurs de composants principaux](developing.md).
 
@@ -64,25 +64,25 @@ L’onglet **Propriétés** définit les fragments de contenu inclus dans la lis
 * **Balises** : seuls les fragments de contenu avec les balises spécifiées seront inclus dans la liste.
    * Cliquez ou appuyez sur le bouton **Boîte de dialogue Ouvrir la sélection** à droite du champ pour spécifier les balises.
    * Cliquez ou appuyez sur le X à côté des balises sélectionnées pour les supprimer.
-* **Order By - Field of the content fragment model by which the list will be ordered**
-   * Seuls les champs de texte (y compris les champs numériques, de date et d’heure) peuvent être sélectionnés.
-* **Ordre** de tri - Mode de tri de la liste par le champ **Ordre par**
-   * Ascending or descending
-* **Nombre maximum d’éléments** - Nombre maximal d’éléments à afficher dans la liste
+* **Classer par** : champ du modèle de fragment de contenu selon lequel la liste sera triée
+   * Seuls les champs de texte (notamment les champs numériques, de date et d’heure) peuvent être sélectionnés.
+* **Ordre de tri** : mode de tri de la liste par le champ **Classer par**
+   * Croissant ou décroissant
+* **Nombre max. d’éléments** : nombre maximal d’éléments à afficher dans la liste
    * Aucune valeur ne renverra tous les éléments.
 
 >[!NOTE]
->Les options **Ordre par**, Ordre de **tri** et Éléments **** max. ont été introduites avec la version 2.7.0 des composants principaux.
+>Les options **Classer par**, **Ordre de tri** et **Nombre max. d’éléments** ont été ajoutées dans la version 2.7.0 des composants principaux.
 
 ### Onglet Éléments
 
-Par défaut, tous les éléments du modèle de fragment de contenu seront inclus dans la liste (sauf si le champ Éléments **** max. est limité). The **Elements** tab allows you to specify only specific elements to include.
+Par défaut, tous les éléments du modèle de fragment de contenu seront inclus dans la liste (sauf si le champ **Nombre max. d’éléments** applique une limite). L’onglet **Éléments** permet de spécifier quelques éléments spécifiques à inclure.
 
 ![](assets/screen-shot-2019-05-08-10.47.34.png)
 
 * **Éléments** : seuls les éléments des fragments de contenu figurant dans la liste spécifiée apparaissent.
-   * Cliquez ou appuyez sur le bouton **Ajouter** pour ajouter un nouvel élément..
-   * Click or tap the **Delete** button to remove a selected element.
+   * Cliquez ou appuyez sur le bouton **Ajouter** pour ajouter un nouvel élément.
+   * Cliquez ou appuyez sur le bouton **Supprimer** pour supprimer un élément sélectionné.
    * Faites glisser la poignée **Ordre** pour réorganiser l’ordre des éléments.
 
 ## Boîte de dialogue de conception {#design-dialog}
