@@ -7,7 +7,7 @@ uuid: 4a54cd4c-3d89-4683-8301-bf1e634736e3
 content-type: référence
 topic-tags: création
 discoiquuid: 8751e490-d427-44f2-b767-51935afda988
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: bf1993085c4cd95121cb6d78be8c52934802b645
 
 ---
@@ -17,39 +17,39 @@ source-git-commit: bf1993085c4cd95121cb6d78be8c52934802b645
 
 Dans Adobe Experience Manager, les composants sont des éléments structurels qui constituent le contenu des pages en cours de création.
 
-Les composants principaux offrent une fonctionnalité de création flexible et riche en fonctionnalités. The [We.Retail reference site](https://helpx.adobe.com/experience-manager/6-5/sites/developing/using/we-retail.html) illustrates how the core components can be used.
+Les composants principaux offrent une fonctionnalité de création flexible et riche en fonctionnalités. Le [site de référence We.Retail](https://helpx.adobe.com/fr/experience-manager/6-5/sites/developing/using/we-retail.html) illustre comment les composants principaux peuvent être utilisés.
 
 Pour tester les composants principaux et consulter des exemples d’options de configuration, ainsi que des sorties HTML et JSON, consultez la [bibliothèque de composants](http://opensource.adobe.com/aem-core-wcm-components/library/content-fragment.html).
 
-Pour une présentation plus détaillée et plus orientée vers les développeurs de l’implémentation des composants principaux sur un projet AEM, consultez [le didacticiel WKND.](https://helpx.adobe.com/experience-manager/6-5/sites/developing/using/getting-started.html)
+Pour une présentation plus détaillée et plus orientée vers les développeurs de l’implémentation des composants principaux sur un projet AEM, consultez [le tutoriel WKND.](https://helpx.adobe.com/experience-manager/6-5/sites/developing/using/getting-started.html)
 
 >[!NOTE]
 >
->Les auteurs ne peuvent pas disposer immédiatement de ces composants principaux. En effet, l’[équipe de développement doit d’abord les intégrer dans leur environnement](using.md). Once integrated, they may be made available and pre-configured via the [template editor](https://helpx.adobe.com/experience-manager/6-5/sites/authoring/using/templates.html).
+>Les auteurs ne peuvent pas disposer immédiatement de ces composants principaux. En effet, l’[équipe de développement doit d’abord les intégrer dans leur environnement](using.md). Une fois intégrés, ils peuvent être rendus disponibles et préconfigurés dans l’[éditeur de modèles](https://helpx.adobe.com/fr/experience-manager/6-5/sites/authoring/using/templates.html).
 
 >[!CAUTION]
 >
->Core Components [require AEM 6.3 or higher](versions.md) and require the use of [editable templates](https://helpx.adobe.com/experience-manager/6-5/sites/authoring/using/templates.html). Ils ne fonctionnent pas avec l’interface utilisateur classique ni avec les modèles statiques.
+>Les composants principaux [requièrent AEM 6.3 ou version ultérieure](versions.md), ainsi que l’utilisation de [modèles modifiables](https://helpx.adobe.com/fr/experience-manager/6-5/sites/authoring/using/templates.html). Ils ne fonctionnent pas avec l’interface utilisateur classique ni avec les modèles statiques.
 
 ## Création à l’aide des composants principaux {#authoring-with-core-components}
 
 En tant qu’auteur, vous remarquerez que les composants principaux présentent quelques avantages. En voici un aperçu :
 
-* Simple to use and well-integrated with the [page editor](https://helpx.adobe.com/experience-manager/6-5/sites/authoring/using/editing-content.html)
+* Simples d’utilisation et bien intégrés à l’[éditeur de page](https://helpx.adobe.com/experience-manager/6-5/sites/authoring/using/editing-content.html)
 
-* Feature-rich capabilities to accommodate many use cases as [illustrated in We.Retail](https://helpx.adobe.com/experience-manager/6-5/sites/developing/using/we-retail.html) as well as in the [Component Library](http://opensource.adobe.com/aem-core-wcm-components/library/content-fragment.html)
+* Riches en fonctionnalités pour répondre à de nombreux cas d’utilisation comme [illustré dans We.Retail](https://helpx.adobe.com/fr/experience-manager/6-5/sites/developing/using/we-retail.html), ainsi que dans la [bibliothèque de composants](http://opensource.adobe.com/aem-core-wcm-components/library/content-fragment.html)
 
-* [Pre-configurable](#pre-configuring-core-components) to define which features are available to page authors via the [template editor](https://helpx.adobe.com/experience-manager/6-5/sites/authoring/using/templates.html)
+* [Préconfigurables](#pre-configuring-core-components) afin de définir les fonctionnalités disponibles pour les auteurs de pages au moyen de l’[éditeur de modèles](https://helpx.adobe.com/fr/experience-manager/6-5/sites/authoring/using/templates.html)
 
-* Built around [accessibility guidelines](https://helpx.adobe.com/experience-manager/6-5/managing/using/web-accessibility.html)
+* Conçus selon les [consignes d’accessibilité](https://helpx.adobe.com/fr/experience-manager/6-5/managing/using/web-accessibility.html)
 
-* Built to support [responsive layout](https://helpx.adobe.com/experience-manager/6-5/sites/authoring/using/responsive-layout.html)
+* Conçus pour prendre en charge la [mise en page réactive](https://helpx.adobe.com/fr/experience-manager/6-5/sites/authoring/using/responsive-layout.html)
 
-* Conçue pour prendre en charge la [localisation facile](localization.md)
+* Conçus pour prendre en charge la [localisation facile](localization.md)
 
-Components are available on the **Components** tab of the side panel of the page editor when [editing a page](https://helpx.adobe.com/experience-manager/6-5/sites/authoring/using/editing-content.html).
+Les composants sont disponibles dans l’onglet **Composants** du panneau latéral de l’éditeur de page lors de la [modification d’une page](https://helpx.adobe.com/experience-manager/6-5/sites/authoring/using/editing-content.html).
 
-Les composants sont regroupés selon des catégories appelées groupes de composants afin de les organiser et de les filtrer facilement. The component group name is displayed with the component in the [component browser](https://helpx.adobe.com/experience-manager/6-5/sites/authoring/using/editing-content.html) and it is also possible to filter by group to easily find the right component.
+Les composants sont regroupés selon des catégories appelées groupes de composants afin de les organiser et de les filtrer facilement. Le nom du groupe de composants s’affiche avec le composant dans l’[explorateur de composants](https://helpx.adobe.com/experience-manager/6-5/sites/authoring/using/editing-content.html) et il est également possible de filtrer par groupe pour trouver facilement le composant approprié.
 
 >[!NOTE]
 >
@@ -63,7 +63,7 @@ La configuration des composants de base a été la tâche d’un développeur. T
 
 Par exemple, si un composant d’image n’autorise pas le chargement d’images à partir du système de fichiers ou si un composant textuel autorise uniquement la mise en forme des paragraphes, ces fonctions peuvent être activées ou désactivées en un seul clic.
 
-See [Creating Page Templates](https://helpx.adobe.com/experience-manager/6-5/sites/authoring/using/templates.html) for more information.
+Pour plus d’informations, voir [Création de modèles de page](https://helpx.adobe.com/fr/experience-manager/6-5/sites/authoring/using/templates.html).
 
 ### Boîtes de dialogue de modification et de conception {#edit-and-design-dialogs}
 
@@ -81,7 +81,7 @@ Les styles de la plupart des composants principaux peuvent être définis à l�
 * Un auteur de modèles peut définir les styles disponibles pour un composant particulier dans la boîte de dialogue de conception de ce composant.
 * L’auteur du contenu peut ensuite choisir les styles à appliquer lors de l’ajout du composant et la création de contenu.
 
-Pour plus de détails, consultez la documentation [Style System](https://helpx.adobe.com/experience-manager/6-5/sites/authoring/using/style-system.html) .
+Pour plus d’informations, consultez la documentation [Système de style](https://helpx.adobe.com/fr/experience-manager/6-5/sites/authoring/using/style-system.html).
 
 >[!NOTE]
 >
