@@ -6,7 +6,7 @@ seo-description: Module ui.apps de l’archétype de projet AEM
 contentOwner: bohnert
 content-type: référence
 topic-tags: core-components
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 683b4f4705c226275439a408423cbf1b23bea66f
 
 ---
@@ -14,24 +14,24 @@ source-git-commit: 683b4f4705c226275439a408423cbf1b23bea66f
 
 # Module ui.apps de l’archétype de projet AEM {#uiapps-module}
 
-Le module expert ui.apps (`<src-directory>/<project>/ui.apps`) comprend tout le code de rendu nécessaire pour le site situé sous `/apps`. Cela inclut CSS/JS qui sera stocké dans un format AEM appelé clientlibs. Cela inclut également les scripts HTML pour le rendu du code HTML dynamique. Vous pouvez considérer le module ui.apps comme une carte de la structure dans le JCR, mais dans un format qui peut être stocké sur un système de fichiers et engagé dans le contrôle de code source.
+Le module Maven ui.apps (`<src-directory>/<project>/ui.apps`) comprend tout le code de rendu nécessaire pour le site situé sous `/apps`. Ce module comprend les CSS/JS qui seront stockés dans un format AEM appelé clientlibs. Cela inclut également les scripts HTML pour le rendu du code HTML dynamique. Vous pouvez vous représenter le module ui.apps sous la forme d'une carte de la structure dans le JCR, mais dans un format pouvant être stocké sur un système de fichiers et validé dans le contrôle source.
 
-Le module Apache Jackrabbit FileVault Package est utilisé pour compiler le contenu du module ui.apps dans un package AEM qui peut être déployé dans AEM. Les configurations globales du module externe sont définies dans le fichier pom.xml parent.
+Le plug-in Apache Jackrabbit FileVault Package est utilisé pour compiler le contenu du module ui.apps dans un package AEM pouvant être déployé vers AEM. Les configurations globales du plug-in sont définies dans le fichier pom.xml parent.
 
-## POM parent {#parent-pom}
+## Fichier POM parent {#parent-pom}
 
-[Le POM](overview.md#parent-pom) parent (`<src>/<project>/pom.xml`) comprend `<plugin>` des sections qui définissent différentes configurations pour les modules externes utilisés dans le projet. Ceci inclut une configuration pour le `filterSource` module externe Jackrabbit FileVault Package. Il `filterSource` pointe vers l’emplacement du `filter.xml` fichier utilisé pour définir les chemins d’accès jcr inclus dans le package.
+[Le fichier POM parent](overview.md#parent-pom) (`<src>/<project>/pom.xml`) comprend des sections `<plugin>` qui définissent différentes configurations pour les plug-ins utilisés dans le projet. Il comprend la configuration pour le `filterSource` du plug-in Jackrabbit FileVault Package. Le `filterSource` pointe vers l’emplacement du fichier `filter.xml` utilisé pour définir les chemins d’accès jcr inclus dans le package.
 
-Outre le module Jackrabbit FileVault Package Plugin est une définition du module Content Package Plugin qui est utilisé pour envoyer le module dans AEM. Notez que les variables pour `aem.host`, `aem.port`, `vault.user`et `vault.password` sont utilisées qui correspondent aux propriétés globales définies dans le même POM parent.
+Outre le plug-in Jackrabbit FileVault Package, il existe une définition du plug-in Content Package utilisée pour envoyer le package dans AEM. Notez que les variables de `aem.host`, `aem.port`, `vault.user` et `vault.password` qui sont utilisées correspondent aux propriétés globales définies dans le même fichier POM parent.
 
 ## ui.apps/pom.xml {#uiapps-pom}
 
-Le pom ui.apps (`<src>/<project>/ui.apps/pom.xml`) fournit les `embedded` balises pour le `filevault-package-maven-plugin`. Les `embedded` balises incluent le lot de base compilé dans le package ui.apps et son emplacement d’installation.
+Le fichier POM ui.apps (`<src>/<project>/ui.apps/pom.xml`) fournit les balises `embedded` pour le `filevault-package-maven-plugin`. Les balises `embedded` incluent le lot principal compilé comme partie intégrante du package ui.apps et son emplacement d’installation.
 
-Notez que les packages core.wcm.components.all et core.wcm.components.example sont inclus en tant que sous-package. Le pack des composants principaux est ainsi déployé chaque fois avec le code WKND.
+Notez que les packages core.wcm.components.all et core.wcm.components.examples sont inclus en tant que sous-package. Celui-ci déploie à chaque fois le package de composants principaux avec le code WKND.
 
-Les exemples core.wcm.components.all et core.wcm.components.example sont inclus en tant que dépendances dans la liste des dépendances. Toutefois, il est recommandé d’omettre les versions des dépendances ici et de les gérer dans le fichier [pom](overview.md#core-components)parent.
+Les packages core.wcm.components.all et core.wcm.components.examples sont inclus en tant que dépendances dans la liste des dépendances. Toutefois, les bonnes pratiques demandent que les versions des dépendances soient ici ignorées et gérées dans le [fichier POM parent](overview.md#core-components).
 
 ## filter.xml {#filter}
 
-Le `filter.xml` fichier du module ui.apps se trouve à l’adresse `<src>/<project>/ui.apps/src/main/content/META-INF/vault/filter.xml` et contient les chemins d’accès qui seront inclus et installés avec le package ui.apps.
+Le fichier `filter.xml` du module ui.apps se trouve à l’adresse `<src>/<project>/ui.apps/src/main/content/META-INF/vault/filter.xml` et contient les chemins d’accès qui sont inclus et installés avec le package ui.apps.
