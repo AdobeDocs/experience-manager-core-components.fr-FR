@@ -9,7 +9,7 @@ content-type: référence
 topic-tags: développement
 products: SG_EXPERIENCEMANAGER/CORECOMPONENTS-new
 discoiquuid: 3c9e0ade-1ce0-4e34-ae04-8da63f9b6c4f
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 683b4f4705c226275439a408423cbf1b23bea66f
 
 ---
@@ -36,7 +36,7 @@ De plus, tous les composants principaux implémentent le [système de style](cus
 
 ## Archétype de projet AEM {#aem-project-archetype}
 
-[L’archétype](overview.md) de projet AEM crée un projet Adobe Experience Manager minimal comme point de départ pour vos propres projets, y compris un exemple de composant HTML personnalisé avec SlingModels pour la logique et l’implémentation appropriée des composants principaux avec le modèle de proxy recommandé.
+[L’archétype de projet AEM](overview.md) crée un projet Adobe Experience Manager minimal comme point de départ pour vos propres projets, y compris un exemple helloworld de composant HTML personnalisé avec SlingModels pour la logique et l’implémentation appropriée des composants principaux avec le modèle de proxy recommandé.
 
 ## Modèles de personnalisation {#customization-patterns}
 
@@ -44,9 +44,9 @@ De plus, tous les composants principaux implémentent le [système de style](cus
 
 Il peut être souhaitable de personnaliser les options de configuration disponibles dans la boîte de dialogue d’un composant principal, qu’il s'agisse de [la boîte de dialogue de conception ou de modification](authoring.md).
 
-Chaque boîte de dialogue possède une structure de nœud cohérente. It is recommended that this structure is replicated in an inheriting component so that [Sling Resource Merger](https://helpx.adobe.com/experience-manager/6-4/sites/developing/using/sling-resource-merger.html) and [Hide Conditions](https://helpx.adobe.com/experience-manager/6-5/sites/developing/using/hide-conditions.html) can be used to hide, replace, or reorder sections of the original dialog. La structure à répliquer est définie comme tous les éléments jusqu’au niveau de nœud de l’élément d’onglet.
+Chaque boîte de dialogue possède une structure de nœud cohérente. Il est recommandé de répliquer cette structure dans un composant héritant de sorte que [Sling Resource Merger](https://helpx.adobe.com/fr/experience-manager/6-4/sites/developing/using/sling-resource-merger.html) et l’option [Masquer les conditions](https://helpx.adobe.com/fr/experience-manager/6-5/sites/developing/using/hide-conditions.html) puissent être utilisés pour masquer, remplacer ou réorganiser les sections de la boîte de dialogue d’origine. La structure à répliquer est définie comme tous les éléments jusqu’au niveau de nœud de l’élément d’onglet.
 
-Pour être entièrement compatibles avec toutes les modifications apportées à une boîte de dialogue sur sa version actuelle, il est important que les structures sous le niveau de l’élément d’onglet ne soient pas touchées (masquées, ajoutées, remplacées, réorganisées, etc.). Instead, a tab item from the parent should be hidden via the `sling:hideResource` property (see [Sling Resource Merger Properties](https://helpx.adobe.com/experience-manager/6-5/sites/developing/using/sling-resource-merger.html)), and new tab items added that contain the bespoke configuration fields. `sling:orderBefore` peut être utilisé pour réorganiser les éléments d’onglet si nécessaire.
+Pour être entièrement compatibles avec toutes les modifications apportées à une boîte de dialogue sur sa version actuelle, il est important que les structures sous le niveau de l’élément d’onglet ne soient pas touchées (masquées, ajoutées, remplacées, réorganisées, etc.). À la place, un élément d’onglet du parent doit être masqué via la propriété `sling:hideResource` (voir [Propriétés de Sling Resource Merger](https://helpx.adobe.com/fr/experience-manager/6-5/sites/developing/using/sling-resource-merger.html)), et les nouveaux éléments d’onglet ajoutés qui contiennent les champs de configuration personnalisés. `sling:orderBefore` peut être utilisé pour réorganiser les éléments d’onglet si nécessaire.
 
 La boîte de dialogue ci-dessous illustre la structure de la boîte de dialogue recommandée et montre comment masquer et remplacer un onglet hérité comme décrit ci-dessus :
 
@@ -103,7 +103,7 @@ public class PageHeadline implements Title {
 }
 ```
 
-For further details about the delegation pattern see the Core Components GitHub Wiki article [Delegation Pattern for Sling Models](https://github.com/adobe/aem-core-wcm-components/wiki/Delegation-Pattern-for-Sling-Models).
+Pour plus d’informations sur le modèle de délégation, reportez-vous à l’article concernant les composants principaux sur le wiki GitHub intitulé [Modèle de délégation pour les modèles Sling ](https://github.com/adobe/aem-core-wcm-components/wiki/Delegation-Pattern-for-Sling-Models).
 
 ### Personnalisation du balisage {#customizing-the-markup}
 
@@ -119,7 +119,7 @@ Le premier type de personnalisation consiste à appliquer des styles CSS.
 
 Pour faciliter cette opération, les composants principaux affichent un balisage sémantique et suivent une convention d’affectation de nom normalisée inspirée par [Bootstrap](https://getbootstrap.com/). De plus, pour cibler et placer facilement dans l’espace de noms les styles pour les composants, chaque composant principal est encapsulé dans un élément DIV avec les classes « `cmp` » et « `cmp-<name>` ».
 
-For instance, looking at the HTL file of the v1 Core Breadcrumb Component: [breadcrumb.html](https://github.com/adobe/aem-core-wcm-components/blob/master/content/src/content/jcr_root/apps/core/wcm/components/breadcrumb/v2/breadcrumb/breadcrumb.html), we see that the hierarchy of elements output are `ol.breadcrumb > li.breadcrumb-item > a`. Pour vous assurer qu’une règle CSS a uniquement un impact sur la classe de chemin de navigation de ce composant, toutes les règles doivent être placées dans l’espace de noms comme illustré ci-dessous :
+Par exemple, en examinant le fichier HTL du composant principal de chemin de navigation v1 : [breadcrumb.html](https://github.com/adobe/aem-core-wcm-components/blob/master/content/src/content/jcr_root/apps/core/wcm/components/breadcrumb/v2/breadcrumb/breadcrumb.html), nous voyons que la hiérarchie des éléments est la suivante : `ol.breadcrumb > li.breadcrumb-item > a`. Pour vous assurer qu’une règle CSS a uniquement un impact sur la classe de chemin de navigation de ce composant, toutes les règles doivent être placées dans l’espace de noms comme illustré ci-dessous :
 
 ```shell
 .cmp-breadcrumb .breadcrumb {}  
@@ -127,7 +127,7 @@ For instance, looking at the HTL file of the v1 Core Breadcrumb Component: [brea
 .cmp-breadcrumb a {}
 ```
 
-Additionally, each of the Core Components leverage the AEM [Style System feature](https://helpx.adobe.com/experience-manager/6-5/sites/authoring/using/style-system.html) that allows template authors to define additional CSS class names that can be applied to the component by the page authors. Cela permet de définir pour chaque modèle une liste de styles de composants autorisés et de déterminer si l’un d'entre eux doit s’appliquer par défaut à tous les composants de ce type.
+De plus, chacun des composants principaux utilise le [système de style AEM](https://helpx.adobe.com/fr/experience-manager/6-5/sites/authoring/using/style-system.html) qui permet aux auteurs de modèles de définir des noms de classe CSS supplémentaires qui peuvent être appliqués au composant par les auteurs de pages. Cela permet de définir pour chaque modèle une liste de styles de composants autorisés et de déterminer si l’un d'entre eux doit s’appliquer par défaut à tous les composants de ce type.
 
 ## Compatibilité de la mise à niveau des personnalisations {#upgrade-compatibility-of-customizations}
 
@@ -137,7 +137,7 @@ Trois types de mises à niveau sont possibles :
 * mise à niveau des composants principaux vers une nouvelle version mineure
 * mise à niveau des composants principaux vers une version majeure
 
-En règle générale, la mise à niveau d’AEM vers une nouvelle version n’affecte pas les composants principaux ou les personnalisations, à condition que les versions des composants prennent également en charge la nouvelle version d’AEM vers laquelle est effectuée la migration et que les personnalisations n’utilisent pas d’API [obsolètes ou supprimées](https://helpx.adobe.com/experience-manager/6-5/release-notes/deprecated-removed-features.html).
+En règle générale, la mise à niveau d’AEM vers une nouvelle version n’affecte pas les composants principaux ou les personnalisations, à condition que les versions des composants prennent également en charge la nouvelle version d’AEM vers laquelle est effectuée la migration et que les personnalisations n’utilisent pas d’API [obsolètes ou supprimées](https://helpx.adobe.com/fr/experience-manager/6-5/release-notes/deprecated-removed-features.html).
 
 La mise à niveau des composants principaux sans passer à une version majeure plus récente ne devrait pas affecter les personnalisations tant que les modèles de personnalisation décrits dans cette page sont utilisés.
 
@@ -157,7 +157,7 @@ Comme pour tout composant AEM, il existe un certain nombre d’éléments à pre
 
 1. **Consultez régulièrement les fonctionnalités obsolètes et supprimées.**
 
-   Avec chaque nouvelle version d’AEM vers laquelle est effectuée une mise à niveau, vérifiez que toutes les API utilisées sont toujours d’actualité en gardant un œil sur la page [Fonctionnalités obsolètes et supprimées](https://helpx.adobe.com/experience-manager/6-5/release-notes/deprecated-removed-features.html).
+   Avec chaque nouvelle version d’AEM vers laquelle est effectuée une mise à niveau, vérifiez que toutes les API utilisées sont toujours d’actualité en gardant un œil sur la page [Fonctionnalités obsolètes et supprimées](https://helpx.adobe.com/fr/experience-manager/6-5/release-notes/deprecated-removed-features.html).
 
 Consultez aussi la section [Prise en charge des composants principaux](developing.md#core-component-support).
 
