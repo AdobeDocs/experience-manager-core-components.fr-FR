@@ -1,15 +1,15 @@
 ---
 title: Développement des composants principaux
 seo-title: Développement des composants principaux
-description: Les composants principaux fournissent des composants de base robustes et extensibles qui offrent des fonctionnalités riches, une disponibilité continue, un contrôle de version des composants, une mise en œuvre moderne, des balises Lean et une exportation JSON de contenu.
-seo-description: Les composants principaux fournissent des composants de base robustes et extensibles qui offrent des fonctionnalités riches, une disponibilité continue, un contrôle de version des composants, une mise en œuvre moderne, des balises Lean et une exportation JSON de contenu.
+description: Les composants principaux fournissent des composants de base robustes et extensibles qui offrent de riches fonctionnalités, une diffusion en continu, un contrôle de version des composants, une mise en œuvre moderne, un balisage Lean et une exportation JSON de contenu.
+seo-description: Les composants principaux fournissent des composants de base robustes et extensibles qui offrent de riches fonctionnalités, une diffusion en continu, un contrôle de version des composants, une mise en œuvre moderne, un balisage Lean et une exportation JSON de contenu.
 uuid: 68569da2-9bc8-4e20-9a71-e5816ace51ce
 contentOwner: Utilisateur
 content-type: référence
 topic-tags: développement
 products: SG_EXPERIENCEMANAGER/CORECOMPONENTS-new
 discoiquuid: 157a2ec3-9fca-4fad-977a-d93013eeb218
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 683b4f4705c226275439a408423cbf1b23bea66f
 
 ---
@@ -23,8 +23,8 @@ Les composants principaux fournissent des composants de base robustes et extensi
 
 * Riches fonctionnalités
    * [Options de configuration souples](authoring.md) pour répondre à de nombreux cas d’utilisation
-   * [Pré-configurables](authoring.md#pre-configuring-core-components) afin de définir les fonctionnalités accessibles aux auteurs de pages
-* Disponibilité continue
+   * [Fonctionnalités préconfigurables](authoring.md#pre-configuring-core-components) afin de définir les fonctionnalités accessibles aux auteurs de pages
+* Diffusion en continu
    * Améliorations fréquentes des fonctionnalités incrémentielles
    * Disponibilité du [code source sur GitHub](https://github.com/adobe/aem-core-wcm-components) pour permettre à la communauté des développeurs de faire part de leurs commentaires et d’apporter leur contribution
    * Installation via un [module de contenu publié séparément](https://github.com/adobe/aem-core-wcm-components/releases) pour que les mises à niveau des composants soient effectuées indépendamment des mises à niveau d’AEM
@@ -32,20 +32,20 @@ Les composants principaux fournissent des composants de base robustes et extensi
    * [Assure la compatibilité dans une version](#upgrade-of-core-components), tout en permettant aux composants d’évoluer
    * Permet à plusieurs versions d’un composant de coexister sur un même environnement
 * Implémentation moderne
-   * Balisage défini dans le [langage HTL](https://helpx.adobe.com/experience-manager/htl/using/overview.html)
+   * Balisage défini dans le [langage HTL](https://helpx.adobe.com/fr/experience-manager/htl/using/overview.html)
    * Logique du modèle de contenu implémentée avec les [modèles Sling](https://sling.apache.org/documentation/bundles/models.html)
 * Balisage Lean
    * D’après la notation du [Block Element Modifier](https://getbem.com/) (BEM) depuis la version 2.0.0
       * La version précédente suit les conventions [Bootstrap](https://getbootstrap.com/css/) / d’affectation de noms
-   * Conçus selon les [consignes d’accessibilité](https://helpx.adobe.com/experience-manager/6-5/managing/using/web-accessibility.html)
+   * Conçus selon les [consignes d’accessibilité](https://helpx.adobe.com/fr/experience-manager/6-5/managing/using/web-accessibility.html)
    * Capacité à être utilisé pour les sites réactifs et mobiles
 * Possibilité de sérialiser en JSON le modèle de contenu pour les cas d’utilisation d’un CMS headless
 * Accessibles
-   * Conformes à la [norme WCAG 2.0 AA](https://helpx.adobe.com/experience-manager/6-5/managing/using/web-accessibility.html)
+   * Conformes à la [norme WCAG 2.0 AA](https://helpx.adobe.com/fr/experience-manager/6-5/managing/using/web-accessibility.html)
 
 >[!CAUTION]
 >
->Les composants principaux requièrent AEM 6.3 ou une version ultérieure ainsi que Java 8. Ils requièrent aussi l’utilisation de [modèles modifiables](https://helpx.adobe.com/experience-manager/6-5/sites/authoring/using/templates.html).
+>Les composants principaux requièrent AEM 6.3 ou une version ultérieure ainsi que Java 8. Ils requièrent aussi l’utilisation de [modèles modifiables](https://helpx.adobe.com/fr/experience-manager/6-5/sites/authoring/using/templates.html).
 >
 >Les composants principaux ne fonctionnent pas avec l’interface utilisateur classique ni avec les modèles statiques.
 
@@ -53,7 +53,7 @@ Les composants principaux fournissent des composants de base robustes et extensi
 
 Pour une présentation des composants principaux, des fonctionnalités qu’ils proposent et de leur utilisation dans AEM, consultez la session AEM Gems sur les [composants principaux AEM.](https://helpx.adobe.com/experience-manager/kt/eseminars/gems/AEM-Core-Components.html)
 
-[Gems sur Adobe Experience Manager](https://helpx.adobe.com/experience-manager/kt/eseminars/gems/aem-index.html) est une série de séances approfondies sur des aspects techniques réalisées par des experts Adobe. Cette série complète la documentation du produit et de tous les autres canaux techniques, ce qui permet aux développeurs d’entrer en contact et d’approfondir un sujet spécifique.
+[Gems sur Adobe Experience Manager](https://helpx.adobe.com/fr/experience-manager/kt/eseminars/gems/aem-index.html) est une série de séances approfondies sur des aspects techniques réalisées par des experts Adobe. Cette série complète la documentation du produit et de tous les autres canaux techniques, ce qui permet aux développeurs de communiquer entre eux et d’approfondir un sujet spécifique.
 
 ## Tutoriel du développeur WKND {#wknd-developer-tutorial}
 
@@ -61,7 +61,7 @@ Commencez à développer AEM Sites avec des composants principaux en suivant ce 
 
 ## Archétype de projet AEM {#aem-project-archetype}
 
-[L’archétype](overview.md) de projet AEM crée un projet Adobe Experience Manager minimal comme point de départ pour vos propres projets, y compris un exemple de composant HTML personnalisé avec SlingModels pour la logique et l’implémentation appropriée des composants principaux avec le modèle de proxy recommandé.
+[L’archétype de projet AEM](overview.md) crée un projet Adobe Experience Manager minimal comme point de départ pour vos propres projets, y compris un exemple helloworld de composant HTML personnalisé avec SlingModels pour la logique et l’implémentation appropriée des composants principaux avec le modèle de proxy recommandé.
 
 ## Distribués sur github {#delivered-over-github}
 
@@ -88,7 +88,7 @@ Consultez la [bibliothèque des composants](http://opensource.adobe.com/aem-core
 
 ### Exemple de contenu en mode d’exécution {#sample-content-run-mode}
 
-Les composants principaux sont visibles dans le Quickstart lorsque l’exemple de contenu est présent, car le [site de référence We.Retail](https://helpx.adobe.com/experience-manager/6-5/sites/developing/using/we-retail.html) les utilise. Toutefois, lors de l’exécution en production (en mode d’exécution `nosamplecontent`, sans exemple de contenu activé), les composants principaux ne sont plus présents et doivent être installés sur les instances AEM par l’équipe de développement et/ou d’exploitation.
+Les composants principaux sont visibles dans le Quickstart lorsque l’exemple de contenu est présent, car le [site de référence We.Retail](https://helpx.adobe.com/fr/experience-manager/6-5/sites/developing/using/we-retail.html) les utilise. Toutefois, lors de l’exécution en production (en mode d’exécution `nosamplecontent`, sans exemple de contenu activé), les composants principaux ne sont plus présents et doivent être installés sur les instances AEM par l’équipe de développement et/ou d’exploitation.
 
 >[!NOTE]
 >
@@ -103,17 +103,17 @@ Pour plus d’informations sur leurs capacités de création et les options pour
 | **Fonction** | **Composant principal** | **Composant de base** |
 |-----|---|---|
 | Logique d’implémentation | POJO Java avec les annotations de [modèles Sling](https://sling.apache.org/documentation/bundles/models.html). | Code JSP |
-| Définition de balisage | [Syntaxe du modèle de langage HTML](https://helpx.adobe.com/experience-manager/htl/user-guide.html) (HTL) | Code JSP |
+| Définition de balisage | [Syntaxe du modèle de langage HTML](https://helpx.adobe.com/fr/experience-manager/htl/user-guide.html) (HTL) | Code JSP |
 | Assainissement XSS | Automatisée par HTL | Essentiellement manuelle |
 | Nommage des classes CSS | Convention d’affectation de noms normalisée basée sur la notification [Block Element Modifier](https://getbem.com/) (BEM) (à partir de la version 2.0.0) | Modèles personnalisés |
-| Définition de boîte de dialogue | [Coral 3](https://helpx.adobe.com/experience-manager/6-5/sites/developing/using/reference-materials/coral-ui/coralui3/index.html) | Interface utilisateur Coral 2 + Classique |
-| Sortie JSON | [Exportateur de modèles Sling avec sérialisation Jackson](https://sling.apache.org/documentation/bundles/models.html#exporter-framework-since-130) | Servlet Sling par défaut |
+| Définition de boîte de dialogue | [Coral 3](https://helpx.adobe.com/fr/experience-manager/6-5/sites/developing/using/reference-materials/coral-ui/coralui3/index.html) | Interface utilisateur Coral 2 + Classique |
+| Sortie JSON | [Exportateur de modèles Sling avec sérialisation Jackson](https://sling.apache.org/documentation/bundles/application d’une seule pages.html#exporter-framework-since-130) | Servlet Sling par défaut |
 | Création de versions | [Pour le modèle et le HTL](guidelines.md) | Aucun |
 | Tests | Tests unitaires + tests d’intégration | Tests d’intégration |
 | Diffusion | [Via le site GitHub public](https://github.com/adobe/aem-core-wcm-components) | Via Quickstart |
 | Licence | [Licence Apache](https://www.apache.org/licenses/LICENSE-2.0) | Adobe propriétaire |
 | Contribution | Via une demande d’extraction | Impossible |
-| Accessibilité | Totalement conforme à la [norme WCAG 2.0 AA](https://helpx.adobe.com/experience-manager/6-5/managing/using/web-accessibility.html) | Partiellement conforme à la [norme WCAG 2.0 AA](https://helpx.adobe.com/experience-manager/6-5/managing/using/web-accessibility.html) |
+| Accessibilité | Totalement conforme à la [norme WCAG 2.0 AA](https://helpx.adobe.com/fr/experience-manager/6-5/managing/using/web-accessibility.html) | Partiellement conforme à la [norme WCAG 2.0 AA](https://helpx.adobe.com/fr/experience-manager/6-5/managing/using/web-accessibility.html) |
 
 ## Liste des composants {#component-list}
 
@@ -212,7 +212,7 @@ Pour plus d’informations sur la prise en charge des personnalisations des comp
 
 Dans la mesure où les composants de base ont servi de fondation à une multitude de développement de projets sur de nombreuses versions d’AEM, ils seront toujours pris en charge dans un futur prévisible.
 
-Toutefois, Adobe met désormais l’accent sur les composants principaux et de nouvelles fonctionnalités leur seront ajoutées, alors que la [plupart des composants de base ont été abandonnés avec AEM 6.5](https://helpx.adobe.com/experience-manager/6-5/sites/authoring/using/default-components-foundation.html) et seuls les correctifs leur seront dorénavant appliqués.
+Toutefois, Adobe met désormais l’accent sur les composants principaux et de nouvelles fonctionnalités leur seront ajoutées, alors que la [plupart des composants de base ont été abandonnés avec AEM 6.5](https://helpx.adobe.com/fr/experience-manager/6-5/sites/authoring/using/default-components-foundation.html) et seuls les correctifs leur seront dorénavant appliqués.
 
 **À lire aussi :**
 
