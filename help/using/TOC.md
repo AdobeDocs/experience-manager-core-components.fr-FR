@@ -1,10 +1,10 @@
 ---
 cloud: experience-cloud
-product: adobe experience manager
+product: adobe experience manager
 sub-product: adobe experience manager core components
 archetype: Administrator
 user-guide-title: AEM Core Components
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: b9bbfcf34737b7a8794e611d102a45f26e9e6fae
 
 ---
@@ -63,12 +63,12 @@ source-git-commit: b9bbfcf34737b7a8794e611d102a45f26e9e6fae
          + [Texte de formulaire (v1)](form-text-v1.md)
 + Développement {#developing}
    + [Développement des composants principaux](developing.md)
-   + [Tutoriel du développeur WKND](https://helpx.adobe.com/experience-manager/6-5/sites/developing/using/getting-started.html)
+   + [Tutoriel du développeur WKND](https://helpx.adobe.com/fr/experience-manager/6-5/sites/developing/using/getting-started.html)
    + [Personnalisation des composants principaux](customizing.md)
    + [Instructions relatives aux composants](guidelines.md)
    + Archétype de projet AEM {#archetype}
       + [Présentation de l'archétype](overview.md)
       + [Module principal](core.md)
-      + [module ui.apps](uiapps.md)
-      + [module ui.content](uicontent.md)
-      + [Processus de création frontale](front-end-build.md)
+      + [Module ui.apps](uiapps.md)
+      + [Module ui.content](uicontent.md)
+      + [Processus de création front-end](front-end-build.md)
