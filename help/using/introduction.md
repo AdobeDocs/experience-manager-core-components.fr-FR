@@ -4,12 +4,12 @@ seo-title: Présentation des composants principaux
 description: 'Les composants principaux ont été conçus pour offrir des composants de base solides et extensibles, reposant sur les dernières technologies et les bonnes pratiques. '
 seo-description: 'Les composants principaux ont été conçus pour offrir des composants de base solides et extensibles, reposant sur les dernières technologies et les bonnes pratiques. '
 uuid: b815c7d1-fbb0-4480-bd23-42606ff8b1eb
-contentOwner: User
-content-type: reference
+contentOwner: Utilisateur
+content-type: référence
 topic-tags: introduction
 products: SG_EXPERIENCEMANAGER/CORECOMPONENTS-new
 discoiquuid: c44bb0d7-5d91-4659-878e-a0658fe29aa2
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 683b4f4705c226275439a408423cbf1b23bea66f
 
 ---
@@ -25,7 +25,7 @@ Les composants principaux ont été conçus pour offrir des composants de base s
 
 Si vous souhaitez commencer immédiatement à essayer les composants principaux, passez en revue la [bibliothèque de composants](http://opensource.adobe.com/aem-core-wcm-components/library.html). La bibliothèque de composants est une présentation en ligne de la version actuelle de la plupart des composants principaux, ce qui permet d’interagir avec des variantes des composants, ainsi que des exemples de sortie HTML et JSON.
 
-Le [site de référence We.Retail](https://helpx.adobe.com/experience-manager/6-4/sites/developing/using/we-retail.html) illustre également l’utilisation des composants principaux.
+Le [site de référence We.Retail](https://helpx.adobe.com/fr/experience-manager/6-4/sites/developing/using/we-retail.html) illustre également l’utilisation des composants principaux.
 
 ## Composants principaux - Principales fonctionnalités {#core-components-core-features}
 
@@ -79,7 +79,7 @@ La version actuelle des composants principaux comporte les composants ci-après.
 
 >[!NOTE]
 >
->Les auteurs ne peuvent pas disposer immédiatement de ces composants principaux. En effet, l’[équipe de développement doit d’abord les intégrer dans leur environnement](using.md). Une fois intégrés, ils peuvent être disponibles et préconfigurés dans l’[éditeur de modèles](https://helpx.adobe.com/experience-manager/6-5/sites/authoring/using/templates.html) ou dans le [mode de conception](https://helpx.adobe.com/experience-manager/6-5/sites/authoring/using/default-components-designmode.html).
+>Les auteurs ne peuvent pas disposer immédiatement de ces composants principaux. En effet, l’[équipe de développement doit d’abord les intégrer dans leur environnement](using.md). Une fois intégrés, ils peuvent être disponibles et préconfigurés dans l’[éditeur de modèles](https://helpx.adobe.com/fr/experience-manager/6-5/sites/authoring/using/templates.html) ou dans le [mode de conception](https://helpx.adobe.com/experience-manager/6-5/sites/authoring/using/default-components-designmode.html).
 
 >[!CAUTION]
 >
@@ -97,15 +97,15 @@ Pour des recommandations spécifiques, voir [Quand utiliser les composants princ
 
 Pour une présentation des composants principaux, des fonctionnalités qu’ils proposent et de leur utilisation dans AEM, consultez la session AEM Gems sur les [composants principaux AEM.](https://helpx.adobe.com/experience-manager/kt/eseminars/gems/AEM-Core-Components.html)
 
-[Gems sur Adobe Experience Manager](https://helpx.adobe.com/experience-manager/kt/eseminars/gems/aem-index.html) est une série de séances approfondies sur des aspects techniques réalisées par des experts Adobe. Cette série complète la documentation du produit et de tous les autres canaux techniques, ce qui permet aux développeurs d’entrer en contact et d’approfondir un sujet spécifique.
+[Gems sur Adobe Experience Manager](https://helpx.adobe.com/fr/experience-manager/kt/eseminars/gems/aem-index.html) est une série de séances approfondies sur des aspects techniques réalisées par des experts Adobe. Cette série complète la documentation du produit et de tous les autres canaux techniques, ce qui permet aux développeurs de communiquer entre eux et d’approfondir un sujet spécifique.
 
 ## Développement avec les composants principaux {#developing-core-components}
 
-Les composants principaux fournissent des composants de base robustes et extensibles qui implémentent plusieurs modèles permettant une personnalisation facile, de la mise en forme simple à la réutilisation des fonctionnalités avancées. See the [Core Components developing documentation](developing.md) for more information.
+Les composants principaux fournissent des composants de base robustes et extensibles qui implémentent plusieurs modèles permettant une personnalisation facile, de la mise en forme simple à la réutilisation des fonctionnalités avancées. Pour en savoir plus, consultez la [documentation relative au développement des composants principaux](developing.md).
 
 Commencez à développer AEM Sites avec des composants principaux en suivant [ce tutoriel détaillé.](https://helpx.adobe.com/experience-manager/6-5/sites/developing/using/getting-started.html)
 
-N’oubliez pas de démarrer votre propre projet AEM en exploitant l’archétype [du projet](overview.md) AEM avec les derniers composants principaux intégrés !
+N’oubliez pas de démarrer votre propre projet AEM en exploitant l’[archétype de projet AEM](overview.md) dotés des tout derniers composants principaux intégrés.
 
 ## Prise en charge des composants principaux {#core-components-support}
 
@@ -126,4 +126,4 @@ Pour plus d’informations sur la prise en charge des personnalisations des comp
 
 Dans la mesure où les composants de base ont servi de fondation à une multitude de développement de projets sur de nombreuses versions, ils seront toujours pris en charge dans un futur prévisible.
 
-Toutefois, Adobe met désormais l’accent sur les composants principaux et de nouvelles fonctionnalités leur seront ajoutées, alors que la [plupart des composants de base ont été abandonnés avec AEM 6.5](https://helpx.adobe.com/experience-manager/6-5/sites/authoring/using/default-components-foundation.html) et seuls les correctifs leur seront dorénavant appliqués.
+Toutefois, Adobe met désormais l’accent sur les composants principaux et de nouvelles fonctionnalités leur seront ajoutées, alors que la [plupart des composants de base ont été abandonnés avec AEM 6.5](https://helpx.adobe.com/fr/experience-manager/6-5/sites/authoring/using/default-components-foundation.html) et seuls les correctifs leur seront dorénavant appliqués.
