@@ -10,7 +10,7 @@ topic-tags: création
 products: SG_EXPERIENCEMANAGER/CORECOMPONENTS-new
 discoiquuid: d4684f33-2fb5-4f32-866f-7136cf1800d7
 translation-type: tm+mt
-source-git-commit: 34ae30ca8be3ad290924b986acfac11d960f2ee0
+source-git-commit: ddc970cc3ca21fac5d1f0078837cfd091ec0dccb
 
 ---
 
@@ -66,7 +66,7 @@ Pour tester le composant d’image et voir des exemples de ses options de config
 
 ### Détails techniques {#technical-details}
 
-The latest technical documentation about the Image Component can be found on GitHub.[](https://github.com/adobe/aem-core-wcm-components/blob/master/content/src/content/jcr_root/apps/core/wcm/components/image/v2/image)
+The latest technical documentation about the Image Component [can be found on GitHub](https://github.com/adobe/aem-core-wcm-components/blob/master/content/src/content/jcr_root/apps/core/wcm/components/image/v2/image).
 
 Vous trouverez plus d’informations sur le développement des composants principaux dans la [documentation destinée aux développeurs de composants principaux](developing.md).
 
@@ -292,3 +292,13 @@ Last Modified Date: 2017-11-20T05:51:34.378-0500
 ### Onglet Styles {#styles-tab-1}
 
 Le composant d’image prend en charge le [système de style](authoring.md#component-styling) AEM.
+
+## Servlet d’image adaptative {#adaptive-image-servlet}
+
+Le composant Image utilise la servlet d’image adaptative du composant principal. [La servlet](https://github.com/adobe/aem-core-wcm-components/wiki/The-Adaptive-Image-Servlet) d’image adaptative est responsable du traitement d’image et de la diffusion en flux continu. Elle peut être exploitée par les développeurs dans leurs [personnalisations des composants](customizing.md)principaux.
+
+>[!NOTE]
+>
+>Les requêtes conditionnelles via l’ `Last-Modified` en-tête sont prises en charge par la servlet d’image adaptative, mais la mise en cache de l’ `Last-Modified` en-tête [doit être activée dans le répartiteur](https://docs.adobe.com/content/help/en/experience-manager-dispatcher/using/configuring/dispatcher-configuration.html#caching-http-response-headers).
+>
+>[L’exemple de configuration du répartiteur de l’archétype](overview.md)de projet AEM contient déjà cette configuration.
