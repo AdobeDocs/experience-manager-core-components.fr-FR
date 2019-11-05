@@ -17,7 +17,7 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: d37cde072dea612ccb55ad31b4aaf42f17839cb4
+source-git-commit: da404fff6c6e934bbe06a5c4d441d89281ed0c54
 
 ---
 
@@ -50,7 +50,7 @@ Pour tester le composant du carrousel, des exemples d’options de configuration
 
 ### Détails techniques {#technical-details}
 
-La documentation technique la plus récente sur le composant Carousel [se trouve sur GitHub](https://github.com/adobe/aem-core-wcm-components/blob/master/content/src/content/jcr_root/apps/core/wcm/components/carousel/v1/carousel).
+The latest technical documentation about the Carousel Component [can be found on GitHub](https://github.com/adobe/aem-core-wcm-components/blob/master/content/src/content/jcr_root/apps/core/wcm/components/carousel/v1/carousel).
 
 Vous trouverez plus d’informations sur le développement des composants principaux dans la [documentation destinée aux développeurs de composants principaux](developing.md).
 
@@ -68,6 +68,10 @@ Utilisez le bouton **Ajouter** pour ouvrir le sélecteur de composants afin de c
 * **Description** : description utilisée comme texte de l’onglet. Par défaut, il s’agit du nom du composant sélectionné pour l’onglet.
 * **Supprimer** : appuyez ou cliquez sur cette option pour supprimer l’onglet du composant Onglets.
 * **Réorganiser** : appuyez ou cliquez sur cette option et faites glisser pour classer les onglets.
+
+>[!TIP]
+>
+>Si la fenêtre d’affichage de la page est réduite de sorte que la boîte de dialogue de modification s’affiche en plein écran, le bouton **Ajouter** est masqué. Vous pouvez toujours ajouter des composants au composant de carrousel en [faisant glisser le curseur depuis l’explorateur de composants et en le déposant sur le composant de carrousel dans l’éditeur](https://helpx.adobe.com/experience-manager/6-5/sites/authoring/using/editing-content.html#InsertingaComponent)de page.
 
 ### Onglet Propriétés {#properties-tab}
 
