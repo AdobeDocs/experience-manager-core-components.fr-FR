@@ -10,7 +10,7 @@ topic-tags: création
 products: SG_EXPERIENCEMANAGER/CORECOMPONENTS-new
 discoiquuid: f093f58e-9755-4a4f-803a-ab93a50e6870
 translation-type: tm+mt
-source-git-commit: da404fff6c6e934bbe06a5c4d441d89281ed0c54
+source-git-commit: ac88c3bb608be4fff70ad23d48ad0852347eff4a
 
 ---
 
@@ -64,6 +64,10 @@ Utilisez le bouton **Ajouter** pour ouvrir le sélecteur de composants afin de c
 * **Supprimer** : appuyez ou cliquez sur cette option pour supprimer le panneau du composant d’accordéon.
 * **Réorganiser** : appuyez ou cliquez dessus et faites glisser pour réorganiser l’ordre des panneaux.
 
+>[!TIP]
+>
+>Si la fenêtre d’affichage de la page est réduite de sorte que la boîte de dialogue de modification s’affiche en plein écran, le bouton **Ajouter** est masqué. Vous pouvez toujours ajouter des composants au composant Accordéon en [faisant glisser le curseur depuis l’explorateur de composants et en le déposant sur le composant Accordéon dans l’éditeur](https://helpx.adobe.com/experience-manager/6-5/sites/authoring/using/editing-content.html#InsertingaComponent)de page.
+
 ### Onglet Propriétés {#properties-tab}
 
 ![](assets/screen-shot-2019-06-21-08.26.53.png)
@@ -72,10 +76,6 @@ Utilisez le bouton **Ajouter** pour ouvrir le sélecteur de composants afin de c
 * **Éléments développés** : cette option définit les éléments qui sont développés par défaut lorsque la page est chargée.
    * Lorsque l’option **Développement d’un élément unique** est sélectionnée, un panneau doit être sélectionné. Par défaut, il s’agit du premier panneau.
    * Lorsque l’option **Développement d’un élément unique** n’est pas sélectionnée, cette option propose une sélection multiple et est facultative.
-
->[!TIP]
->
->Si la fenêtre d’affichage de la page est réduite de sorte que la boîte de dialogue de modification s’affiche en plein écran, le bouton **Ajouter** est masqué. Vous pouvez toujours ajouter des composants au composant Accordéon en [faisant glisser le curseur depuis l’explorateur de composants et en le déposant sur le composant Accordéon dans l’éditeur](https://helpx.adobe.com/experience-manager/6-5/sites/authoring/using/editing-content.html#InsertingaComponent)de page.
 
 ## Fenêtre contextuelle Sélectionner un panneau {#seelct-panel-popover}
 
