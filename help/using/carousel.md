@@ -16,7 +16,7 @@ modalsize: 426x240
 index: y
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: da404fff6c6e934bbe06a5c4d441d89281ed0c54
 
 ---
@@ -50,7 +50,7 @@ Pour tester le composant du carrousel, des exemples d’options de configuration
 
 ### Détails techniques {#technical-details}
 
-The latest technical documentation about the Carousel Component [can be found on GitHub](https://github.com/adobe/aem-core-wcm-components/blob/master/content/src/content/jcr_root/apps/core/wcm/components/carousel/v1/carousel).
+La documentation technique la plus récente sur le composant du carrousel [se trouve sur GitHub](https://github.com/adobe/aem-core-wcm-components/blob/master/content/src/content/jcr_root/apps/core/wcm/components/carousel/v1/carousel).
 
 Vous trouverez plus d’informations sur le développement des composants principaux dans la [documentation destinée aux développeurs de composants principaux](developing.md).
 
@@ -71,7 +71,7 @@ Utilisez le bouton **Ajouter** pour ouvrir le sélecteur de composants afin de c
 
 >[!TIP]
 >
->Si la fenêtre d’affichage de la page est réduite de sorte que la boîte de dialogue de modification s’affiche en plein écran, le bouton **Ajouter** est masqué. Vous pouvez toujours ajouter des composants au composant de carrousel en [faisant glisser le curseur depuis l’explorateur de composants et en le déposant sur le composant de carrousel dans l’éditeur](https://helpx.adobe.com/experience-manager/6-5/sites/authoring/using/editing-content.html#InsertingaComponent)de page.
+>Si la fenêtre d’affichage de la page est réduite, de sorte que la boîte de dialogue de modification s’affiche en plein écran, le bouton **Ajouter** est masqué. Vous pouvez toujours ajouter des composants au composant du carrousel en [les faisant glisser depuis l’explorateur de composants et en les déposant ensuite sur le composant du carrousel dans l’éditeur de page](https://helpx.adobe.com/experience-manager/6-5/sites/authoring/using/editing-content.html#InsertingaComponent).
 
 ### Onglet Propriétés {#properties-tab}
 
@@ -85,15 +85,15 @@ Dans l’onglet **Propriétés**, l’auteur du contenu peut définir les diapos
 
 >[!NOTE]
 >
->Les commandes d’avance de diapositives ne sont pas activées en mode **Édition**. Use [**Preview** mode](https://helpx.adobe.com/experience-manager/6-5/sites/authoring/using/editing-content.html) or the **[View as Published](https://helpx.adobe.com/experience-manager/6-5/sites/authoring/using/editing-content.html)** option to interact with the carousel as a reader of the published content would.
+>Les commandes d’avance de diapositives ne sont pas activées en mode **Édition**. Utilisez le mode [**Aperçu**](https://helpx.adobe.com/experience-manager/6-5/sites/authoring/using/editing-content.html) ou l’option **[Afficher comme publié(e)](https://helpx.adobe.com/experience-manager/6-5/sites/authoring/using/editing-content.html)** pour interagir avec le carrousel en tant que lecteur du contenu publié.
 >
->La fonction d’avance automatique n’est pas activée en mode **Édition**. Use **[View as Published](https://helpx.adobe.com/experience-manager/6-5/sites/authoring/using/editing-content.html)** option to see the auto-advance feature as a reader of the published content would.
+>La fonction d’avance automatique n’est pas activée en mode **Édition**. Utilisez l’option **[Afficher comme publié(e)](https://helpx.adobe.com/experience-manager/6-5/sites/authoring/using/editing-content.html)** pour afficher la fonctionnalité d’avance automatique en tant que lecteur du contenu publié.
 
 ### Onglet Accessibilité {#accessibility-tab}
 
 ![](assets/screen-shot-2019-08-29-12.02.22.png)
 
-On the **Accessibility** tab, values can be set for [ARIA accessibility](https://www.w3.org/WAI/standards-guidelines/aria/) labels for the component.
+Dans l’onglet **Accessibilité**, les valeurs peuvent être définies pour les libellés d’[accessibilité ARIA](https://www.w3.org/WAI/standards-guidelines/aria/) du composant.
 
 * **Libellé** - Valeur d’un attribut de libellé ARIA pour le composant
 
@@ -131,7 +131,7 @@ L’onglet **Propriétés** permet de définir les paramètres par défaut des t
 
 L’onglet **Composants autorisés** permet de définir les composants pouvant être ajoutés en tant que diapositives au composant du carrousel par l’auteur du contenu.
 
-L’onglet Composants autorisés fonctionne de la même manière que l’onglet du même nom lors de la [définition de la stratégie et des propriétés d’un conteneur de mises en page dans l’éditeur de modèles.](https://helpx.adobe.com/experience-manager/6-5/sites/authoring/using/templates.html)
+L’onglet Composants autorisés fonctionne de la même manière que l’onglet du même nom lors de la [définition de la stratégie et des propriétés d’un conteneur de mises en page dans l’éditeur de modèles.](https://helpx.adobe.com/fr/experience-manager/6-5/sites/authoring/using/templates.html)
 
 ### Onglet Styles {#styles-tab}
 
