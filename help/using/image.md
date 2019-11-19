@@ -9,7 +9,7 @@ content-type: référence
 topic-tags: création
 products: SG_EXPERIENCEMANAGER/CORECOMPONENTS-new
 discoiquuid: d4684f33-2fb5-4f32-866f-7136cf1800d7
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: ddc970cc3ca21fac5d1f0078837cfd091ec0dccb
 
 ---
@@ -58,7 +58,7 @@ Pour des raisons de sécurité, l’éditeur d’image ne fait jamais appel au f
 
 >[!CAUTION]
 >
->SVG support requires release 2.1.0 of the Core Components or higher along with [service pack 2](https://helpx.adobe.com/experience-manager/6-4/release-notes/sp-release-notes.html) for AEM 6.4 or [service pack 3](https://helpx.adobe.com/experience-manager/6-3/release-notes/sp3-release-notes.html) for AEM 6.3 or higher to support [new image editor features](https://helpx.adobe.com/experience-manager/6-4/sites/developing/using/image-editor.html) within AEM.
+>La prise en charge de SVG requiert la version 2.1.0 ou ultérieure des composants principaux et le [Service Pack 2](https://helpx.adobe.com/fr/experience-manager/6-4/release-notes/sp-release-notes.html) pour AEM 6.4 ou le [Service Pack 3](https://helpx.adobe.com/fr/experience-manager/6-3/release-notes/sp3-release-notes.html) pour AEM 6.3 ou version ultérieure pour être compatible avec les [nouvelles fonctionnalités de l’éditeur d’image](https://helpx.adobe.com/fr/experience-manager/6-4/sites/developing/using/image-editor.html) dans AEM.
 
 ## Exemple de sortie de composant {#sample-component-output}
 
@@ -66,7 +66,7 @@ Pour tester le composant d’image et voir des exemples de ses options de config
 
 ### Détails techniques {#technical-details}
 
-The latest technical documentation about the Image Component [can be found on GitHub](https://github.com/adobe/aem-core-wcm-components/blob/master/content/src/content/jcr_root/apps/core/wcm/components/image/v2/image).
+La documentation technique la plus récente sur le composant d’image [se trouve sur GitHub](https://github.com/adobe/aem-core-wcm-components/blob/master/content/src/content/jcr_root/apps/core/wcm/components/image/v2/image).
 
 Vous trouverez plus d’informations sur le développement des composants principaux dans la [documentation destinée aux développeurs de composants principaux](developing.md).
 
@@ -83,9 +83,9 @@ Outre la [boîte de dialogue de modification](#edit-dialog) et la [boîte de dia
 ![](assets/screen_shot_2018-01-08at114245.png)
 
 * **Ressource image**
-   * Drop an asset from the [asset browser](https://helpx.adobe.com/experience-manager/6-5/sites/authoring/using/author-environment-tools.html) or tap the **browse** option to upload from a local file system.
+   * Déposez un fichier depuis l’[explorateur de ressources](https://helpx.adobe.com/fr/experience-manager/6-5/sites/authoring/using/author-environment-tools.html) ou appuyez sur l’option **parcourir** pour effectuer un téléchargement à partir d’un système de fichiers local.
    * Appuyez ou cliquez sur **Effacer** pour désélectionner l’image actuellement sélectionnée.
-   * Tap or click **Edit** to [mange the renditions of the asset](https://helpx.adobe.com/experience-manager/6-5/assets/using/managing-assets-touch-ui.html) in the asset editor.
+   * Appuyez ou cliquez sur **Modifier** pour [gérer les rendus de la ressource](https://helpx.adobe.com/fr/experience-manager/6-5/assets/using/managing-assets-touch-ui.html) dans l’éditeur de ressources.
 
 ### Onglet Métadonnées {#metadata-tab}
 
@@ -149,7 +149,7 @@ La boîte de dialogue de modification permet à l’auteur du contenu de recadre
 
    >[!CAUTION]
    >
-   >The Launch Map feature requires release 2.1.0 of the Core Components or higher along with [service pack 2](https://helpx.adobe.com/experience-manager/6-4/release-notes/sp-release-notes.html) for AEM 6.4 or [service pack 3](https://helpx.adobe.com/experience-manager/6-3/release-notes/sp3-release-notes.html) for AEM 6.3 or higher to support [new image editor features](https://helpx.adobe.com/experience-manager/6-4/sites/developing/using/image-editor.html) within AEM.
+   >La fonctionnalité Carte de lancement requiert la version 2.1.0 ou ultérieure des composants principaux et le [Service Pack 2](https://helpx.adobe.com/fr/experience-manager/6-4/release-notes/sp-release-notes.html) pour AEM 6.4 ou le [Service Pack 3](https://helpx.adobe.com/fr/experience-manager/6-3/release-notes/sp3-release-notes.html) pour AEM 6.3 ou version ultérieure pour être compatible avec les [nouvelles fonctionnalités de l’éditeur d’images](https://helpx.adobe.com/fr/experience-manager/6-4/sites/developing/using/image-editor.html) dans AEM.
 
    ![](assets/chlimage_1-12.png)
 
@@ -295,10 +295,10 @@ Le composant d’image prend en charge le [système de style](authoring.md#compo
 
 ## Servlet d’image adaptative {#adaptive-image-servlet}
 
-Le composant Image utilise la servlet d’image adaptative du composant principal. [La servlet](https://github.com/adobe/aem-core-wcm-components/wiki/The-Adaptive-Image-Servlet) d’image adaptative est responsable du traitement d’image et de la diffusion en flux continu. Elle peut être exploitée par les développeurs dans leurs [personnalisations des composants](customizing.md)principaux.
+Le composant d’image utilise la servlet d’image adaptative des composants principaux. [La servlet d’image adaptative](https://github.com/adobe/aem-core-wcm-components/wiki/The-Adaptive-Image-Servlet) est en charge du traitement des images et de leur diffusion en flux continu. Les développeurs peuvent l’utiliser dans le cadre de leur [personnalisation des composants principaux](customizing.md).
 
 >[!NOTE]
 >
->Les requêtes conditionnelles via l’ `Last-Modified` en-tête sont prises en charge par la servlet d’image adaptative, mais la mise en cache de l’ `Last-Modified` en-tête [doit être activée dans le répartiteur](https://docs.adobe.com/content/help/en/experience-manager-dispatcher/using/configuring/dispatcher-configuration.html#caching-http-response-headers).
+>Les requêtes conditionnelles effectuées par le biais de l’`Last-Modified`en-tête sont prises en charge par la servlet d’image adaptative, mais la mise en cache de l’en-tête `Last-Modified` [doit être activée dans le répartiteur](https://docs.adobe.com/content/help/en/experience-manager-dispatcher/using/configuring/dispatcher-configuration.html#caching-http-response-headers).
 >
->[L’exemple de configuration du répartiteur de l’archétype](overview.md)de projet AEM contient déjà cette configuration.
+>L’exemple de configuration du répartiteur d’[AEM Project Archetype](overview.md) contient déjà cette configuration.
