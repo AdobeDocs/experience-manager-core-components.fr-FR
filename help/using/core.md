@@ -4,10 +4,10 @@ seo-title: Module principal de l’archétype de projet AEM
 description: Module principal de l’archétype de projet AEM
 seo-description: Module principal de l’archétype de projet AEM
 contentOwner: bohnert
-content-type: référence
+content-type: reference
 topic-tags: core-components
-translation-type: ht
-source-git-commit: 683b4f4705c226275439a408423cbf1b23bea66f
+translation-type: tm+mt
+source-git-commit: ca7a47d8ac91516659c115a3f27c09f0ee4b8b33
 
 ---
 
@@ -24,4 +24,4 @@ Bien qu’il soit rare que le lot principal doive être déployé indépendammen
 mvn -PautoInstallBundle clean install
 ```
 
-Une fois l’exécution terminée, vous devriez pouvoir voir la console des lots à l’adresse `http://<host>:<port>/system/console/bundles`.
+Once successfully executed, you should be able to see the Bundles Console at `http://<host>:<port>/system/console/bundles`.
