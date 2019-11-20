@@ -4,10 +4,10 @@ seo-title: Archétype de projet AEM
 description: Modèle de projet pour les applications basées sur AEM
 seo-description: Modèle de projet pour les applications basées sur AEM
 contentOwner: bohnert
-content-type: référence
+content-type: reference
 topic-tags: core-components
-translation-type: ht
-source-git-commit: 488132fdc077985cdc3f369e1e127e8bff8e80c7
+translation-type: tm+mt
+source-git-commit: 69e9b6c9c1154f4af8ab98e86ed6aba13164a1de
 
 ---
 
@@ -22,7 +22,7 @@ L’archétype de projet AEM crée un projet Adobe Experience Manager minimal 
 
 >[!NOTE]
 >
->Consultez le [didacticiel Prise en main d'AEM Sites - WKND](https://docs.adobe.com/fr/content/help/en/experience-manager-learn/getting-started-wknd-tutorial-develop/overview.html) de la documentation d'AEM pour obtenir un exemple pratique qui vous guidera tout au long de l’utilisation de l’archétype pour mettre en œuvre un projet simple.
+>See the [Getting Started with AEM Sites - WKND Tutorial](https://docs.adobe.com/content/help/en/experience-manager-learn/getting-started-wknd-tutorial-develop/overview.html) in the AEM documentation for a practical example that walks you through using the archetype to implement a simple project.
 
 ## Fonctionnalités {#features}
 
@@ -53,11 +53,11 @@ L’archétype AEM est constitué de modules :
 * **[ui.content](uicontent.md)** : avec un exemple de contenu utilisant des composants du module ui.apps.
 * **ui.tests** : lot Java contenant des tests JUnit exécutés côté serveur. Ce lot ne doit pas être déployé en production.
 * **ui.launcher** : avec le code-glue qui déploie le lot ui.tests (et les lots dépendants) vers le serveur et déclenche l’exécution de JUnit distante.
-* **[ui.frontend](front-end-build.md)** : **(facultatif)** contient les artefacts requis pour utiliser le module de génération front-end basé sur Webpack.
+* **[ui.frontend](uifrontend.md)** : **(facultatif)** contient les artefacts requis pour utiliser le module de génération front-end basé sur Webpack.
 
 ![](assets/project-pom.png)
 
-Les modules de l’archétype AEM représentés dans Maven sont déployés vers AEM en tant que packages de contenu représentant l’application, le contenu et les lots OSGi nécessaires.
+Les modules de l’archétype AEM représentés dans Maven sont déployés dans AEM en tant que packages de contenu représentant l’application, le contenu et les lots OSGi nécessaires.
 
 ## Conditions {#requirements}
 
@@ -117,7 +117,7 @@ Les propriétés suivantes sont disponibles lors de la création d’un projet �
 | `optionAemVersion` | 6.5.0 | Version cible d’AEM |
 | `optionIncludeExamples` | y | Inclure un exemple de site de [bibliothèque de composants](http://opensource.adobe.com/aem-core-wcm-components/library.html) |
 | `optionIncludeErrorHandler` | n | Inclure une page de réponse 404 personnalisée |
-| `optionIncludeFrontendModule` | n | [Inclure un module front-end dédié](front-end-build.md) |
+| `optionIncludeFrontendModule` | n | [Inclure un module front-end dédié](uifrontend.md) |
 
 >[!NOTE]
 > Si l’archétype est exécuté en mode interactif la première fois, les propriétés ayant des valeurs par défaut ne peuvent pas être modifiées (voir [ARCHETYPE-308](https://issues.apache.org/jira/browse/ARCHETYPE-308) pour plus de détails). La valeur peut être modifiée lorsque la confirmation de propriété finale est refusée et que le questionnaire est répété, ou en transmettant le paramètre dans la ligne de commande (par ex., `-DoptionIncludeExamples=n`).
@@ -207,7 +207,7 @@ Par conséquent, pour tirer parti des composants principaux dans tous les déplo
 
 >[!NOTE]
 >
->Chaque version des composants principaux est généralement suivie d’une version de l’archétype de projet AEM, de sorte que l’archétype le plus récent utilise la dernière version des composants principaux.
+>Chaque version des composants principaux est généralement suivie d’une version de l’archétype de projet AEM, de sorte que le dernier archétype utilise la dernière version des composants principaux.
 >
 >Cependant, une nouvelle version de l'archétype peut ne pas suivre directement une nouvelle version des composants principaux. Vous pouvez donc mettre à jour la dépendance envers les composants principaux vers la dernière version.
 
@@ -231,9 +231,9 @@ Il existe trois niveaux de tests contenus dans le projet et, parce qu'il s'agit 
 
 ## Étapes suivantes {#next-steps}
 
-Vous avez donc créé et installé l’archétype de projet AEM. Et maintenant ? L’archétype est petit mais comprend de nombreux exemples de puissantes fonctionnalités AEM configurées selon les recommandations des bonnes pratiques. Utilisez ces exemples pour vous guider sur la meilleure manière de tirer parti de ces fonctionnalités dans votre projet. Pour tout projet, il vous faudra probablement :
+Vous avez donc créé et installé l’archétype du projet AEM. Et maintenant ? L’archétype est petit mais comprend de nombreux exemples de puissantes fonctionnalités AEM configurées selon les recommandations des bonnes pratiques. Utilisez ces exemples pour vous guider sur la meilleure manière de tirer parti de ces fonctionnalités dans votre projet. Pour tout projet, il vous faudra probablement :
 
 * [Personnaliser les composants en étendant les composants principaux existants](customizing.md)
 * [Ajouter des modèles supplémentaires](https://helpx.adobe.com/content/help/en/experience-manager/6-5/sites/authoring/using/templates.html)
 * [Adapter la structure de localisation](https://helpx.adobe.com/experience-manager/6-5/sites/administering/using/tc-prep.html)
-* [En savoir plus sur le module de génération front-end](front-end-build.md)
+* [En savoir plus sur le module de génération front-end](uifrontend.md)
