@@ -4,9 +4,9 @@ seo-title: Composant de téléchargement
 description: 'null'
 seo-description: Le composant de téléchargement des composants principaux permet la création d’une option de téléchargement sur une page.
 uuid: ec807de9-f76c-4850-9ece-c3e439a1d626
-contentOwner: Utilisateur
-content-type: référence
-topic-tags: création
+contentOwner: User
+content-type: reference
+topic-tags: authoring
 products: SG_EXPERIENCEMANAGER/CORECOMPONENTS-new
 discoiquuid: f093f58e-9755-4a4f-803a-ab93a50e6870
 translation-type: tm+mt
@@ -44,7 +44,7 @@ To experience the Download Component as well as see examples of its configuratio
 
 ## Détails techniques {#technical-details}
 
-La documentation technique la plus récente sur le composant de téléchargement [se trouve sur GitHub](https://github.com/adobe/aem-core-wcm-components/tree/master/content/src/content/jcr_root/apps/core/wcm/components/download/v1/download).
+The latest technical documentation about the Download Component [can be found on GitHub](https://github.com/adobe/aem-core-wcm-components/tree/master/content/src/content/jcr_root/apps/core/wcm/components/download/v1/download).
 
 Vous trouverez plus d’informations sur le développement des composants principaux dans la [documentation destinée aux développeurs de composants principaux](developing.md).
 
@@ -59,9 +59,9 @@ La boîte de dialogue de configuration permet à l’auteur du contenu de défin
 La sélection d’une ressource de téléchargement est très similaire à la fonctionnalité du [composant d’image](image.md) et utilise également la fonctionnalité DAM d’AEM.
 
 * **Télécharger la ressource**
-   * Drop an asset from the [asset browser](https://helpx.adobe.com/experience-manager/6-5/sites/authoring/using/author-environment-tools.html) or tap the **browse** option to upload from a local file system.
+   * Déposez un fichier depuis l’[explorateur de ressources](https://helpx.adobe.com/experience-manager/6-5/sites/authoring/using/author-environment-tools.html) ou appuyez sur l’option **parcourir** pour effectuer un téléchargement à partir d’un système de fichiers local.
    * Appuyez ou cliquez sur **Effacer** pour désélectionner l’image actuellement sélectionnée.
-   * Tap or click **Edit** to [mange the renditions of the asset](https://helpx.adobe.com/experience-manager/6-5/assets/using/managing-assets-touch-ui.html) in the asset editor.
+   * Appuyez ou cliquez sur **Modifier** pour [gérer les rendus de la ressource](https://helpx.adobe.com/experience-manager/6-5/assets/using/managing-assets-touch-ui.html) dans l’éditeur de ressources.
 
 ### Onglet Propriétés {#properties-tab}
 
