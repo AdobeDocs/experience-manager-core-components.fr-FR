@@ -4,12 +4,12 @@ seo-title: Composant d’accordéon
 description: 'null'
 seo-description: Le composant d’accordéon des composants principaux permet la création d’un ensemble de panneaux organisés dans un accordéon sur une page.
 uuid: ec807de9-f76c-4850-9ece-c3e439a1d626
-contentOwner: Utilisateur
-content-type: référence
-topic-tags: création
+contentOwner: User
+content-type: reference
+topic-tags: authoring
 products: SG_EXPERIENCEMANAGER/CORECOMPONENTS-new
 discoiquuid: f093f58e-9755-4a4f-803a-ab93a50e6870
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: ac88c3bb608be4fff70ad23d48ad0852347eff4a
 
 ---
@@ -107,7 +107,7 @@ La boîte de dialogue de conception permet à l’auteur du modèle de définir 
 
 L’onglet **Composants autorisés** permet de définir quels composants peuvent être ajoutés en tant qu’éléments aux panneaux dans le composant d’accordéon par l’auteur du contenu.
 
-L’onglet Composants autorisés fonctionne de la même manière que l’onglet du même nom lors de la [définition de la stratégie et des propriétés d’un conteneur de mises en page dans l’éditeur de modèles](https://helpx.adobe.com/fr/experience-manager/6-5/sites/authoring/using/templates.html).
+L’onglet Composants autorisés fonctionne de la même manière que l’onglet du même nom lors de la [définition de la stratégie et des propriétés d’un conteneur de mises en page dans l’éditeur de modèles](https://helpx.adobe.com/experience-manager/6-5/sites/authoring/using/templates.html).
 
 ### Onglet Styles {#styles-tab}
 
