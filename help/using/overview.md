@@ -7,7 +7,7 @@ contentOwner: bohnert
 content-type: reference
 topic-tags: core-components
 translation-type: tm+mt
-source-git-commit: 69e9b6c9c1154f4af8ab98e86ed6aba13164a1de
+source-git-commit: 6616db2e76d35716cb37052afca8ca2cc2379548
 
 ---
 
@@ -22,7 +22,7 @@ L’archétype de projet AEM crée un projet Adobe Experience Manager minimal 
 
 >[!NOTE]
 >
->See the [Getting Started with AEM Sites - WKND Tutorial](https://docs.adobe.com/content/help/en/experience-manager-learn/getting-started-wknd-tutorial-develop/overview.html) in the AEM documentation for a practical example that walks you through using the archetype to implement a simple project.
+>Consultez le [didacticiel Prise en main d'AEM Sites - WKND](https://docs.adobe.com/content/help/en/experience-manager-learn/getting-started-wknd-tutorial-develop/overview.html) de la documentation d'AEM pour obtenir un exemple pratique qui vous guidera tout au long de l’utilisation de l’archétype pour mettre en œuvre un projet simple.
 
 ## Fonctionnalités {#features}
 
@@ -40,7 +40,7 @@ L’archétype comporte plusieurs fonctionnalités destinées à offrir un point
 
 ## Pourquoi utiliser l'archétype {#why-use-the-archetype}
 
-L’utilisation de l’archétype de projet AEM vous permet de vous orienter vers la création d’un projet AEM basé sur des bonnes pratiques, et ce, en un tour de main. Avec l’archétype, toutes les pièces sont déjà en place afin que, même avec un résultat de projet très simple, celui-ci implémente déjà toutes les [fonctionnalités clés](#features) d’AEM. Tout ce qaue vous aurez alors à faire est de vous appuyer sur ce projet de base et de le développer.
+L’utilisation de l’archétype de projet AEM vous permet de vous orienter vers la création d’un projet AEM basé sur des bonnes pratiques, et ce, en un tour de main. Avec l’archétype, toutes les pièces sont déjà en place afin que, même avec un résultat de projet très simple, celui-ci implémente déjà toutes les [fonctionnalités clés](#features) d’AEM. Tout ce que vous aurez alors à faire est de vous appuyer sur ce projet de base et de le développer.
 
 De nombreux éléments entrent bien sûr en compte dans la réussite d'un projet AEM, mais l’utilisation de l’archétype de projet AEM constitue une base solide et est vivement recommandée pour la création de tout projet AEM.
 
@@ -55,9 +55,9 @@ L’archétype AEM est constitué de modules :
 * **ui.launcher** : avec le code-glue qui déploie le lot ui.tests (et les lots dépendants) vers le serveur et déclenche l’exécution de JUnit distante.
 * **[ui.frontend](uifrontend.md)** : **(facultatif)** contient les artefacts requis pour utiliser le module de génération front-end basé sur Webpack.
 
-![](assets/project-pom.png)
+![](assets/archetype-structure.png)
 
-Les modules de l’archétype AEM représentés dans Maven sont déployés dans AEM en tant que packages de contenu représentant l’application, le contenu et les lots OSGi nécessaires.
+Les modules de l’archétype AEM représentés dans Maven sont déployés vers AEM en tant que packages de contenu représentant l’application, le contenu et les lots OSGi nécessaires.
 
 ## Conditions {#requirements}
 
@@ -207,7 +207,7 @@ Par conséquent, pour tirer parti des composants principaux dans tous les déplo
 
 >[!NOTE]
 >
->Chaque version des composants principaux est généralement suivie d’une version de l’archétype de projet AEM, de sorte que le dernier archétype utilise la dernière version des composants principaux.
+>Chaque version des composants principaux est généralement suivie d’une version de l’archétype de projet AEM, de sorte que l’archétype le plus récent utilise la dernière version des composants principaux.
 >
 >Cependant, une nouvelle version de l'archétype peut ne pas suivre directement une nouvelle version des composants principaux. Vous pouvez donc mettre à jour la dépendance envers les composants principaux vers la dernière version.
 
@@ -231,7 +231,7 @@ Il existe trois niveaux de tests contenus dans le projet et, parce qu'il s'agit 
 
 ## Étapes suivantes {#next-steps}
 
-Vous avez donc créé et installé l’archétype du projet AEM. Et maintenant ? L’archétype est petit mais comprend de nombreux exemples de puissantes fonctionnalités AEM configurées selon les recommandations des bonnes pratiques. Utilisez ces exemples pour vous guider sur la meilleure manière de tirer parti de ces fonctionnalités dans votre projet. Pour tout projet, il vous faudra probablement :
+Vous avez ainsi créé et installé l’archétype de projet AEM. Et maintenant ? L’archétype est petit mais comprend de nombreux exemples de puissantes fonctionnalités AEM configurées selon les recommandations des bonnes pratiques. Utilisez ces exemples pour vous guider sur la meilleure manière de tirer parti de ces fonctionnalités dans votre projet. Pour tout projet, il vous faudra probablement :
 
 * [Personnaliser les composants en étendant les composants principaux existants](customizing.md)
 * [Ajouter des modèles supplémentaires](https://helpx.adobe.com/content/help/en/experience-manager/6-5/sites/authoring/using/templates.html)
