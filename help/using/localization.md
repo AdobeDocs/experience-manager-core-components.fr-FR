@@ -1,14 +1,14 @@
 ---
-title: Localization Features of the Core Components
+title: Fonctions de localisation des composants principaux
 seo-title: Fonctions de localisation des composants principaux
 description: Fonctions de localisation des composants principaux
 seo-description: Fonctions de localisation des composants principaux
-content-type: référence
+content-type: reference
 topic-tags: core-components
 index: y
 internal: n
 translation-type: tm+mt
-source-git-commit: c8041e855386b7195fe32dd5dc53458f1d8270b8
+source-git-commit: 0f84eb6d52b9d6d76a4347d371367acf3d34e58e
 
 ---
 
@@ -23,19 +23,19 @@ La plupart des sites nécessitent qu’un pied de page soit présent sur toutes 
 
 De même, un composant de navigation doit généralement être affiché sur toutes les pages. Toutefois, il devra également refléter le contenu des pages localisées.
 
-A l’aide des fonctionnalités de localisation du composant [principal de](navigation.md) navigation et du composant [principal de fragment d’](experience-fragment.md) expérience, ainsi que des modèles [modifiables d’AEM](https://docs.adobe.com/content/help/en/experience-manager-64/authoring/siteandpage/templates.html), cela devient une tâche simple. L'exemple pourrait être étendu à l'utilisation du composant [Navigation](language-navigation.md) linguistique.
+Using the localization features of the [Navigation Core Component](navigation.md) and [Experience Fragment Core Component](experience-fragment.md) along with the [editable templates of AEM](https://docs.adobe.com/content/help/en/experience-manager-64/authoring/siteandpage/templates.html), this becomes a simple task. L'exemple pourrait être étendu à l'utilisation du [composant Navigation linguistique](language-navigation.md).
 
 ## La structure du contenu {#content-structure}
 
 Toutes les fonctionnalités de localisation d’AEM et de ses composants principaux reposent sur une structure de contenu claire et logique pour votre contenu localisé.
 
-Supposons que votre site soit simplement appelé `my-site` et se trouve ici :
+Supposons que votre site soit simplement appelé `my-site` et se trouve ici :
 
 ```
 /content/my-site
 ```
 
-Disons aussi que vous créez votre site en anglais et que vous le proposez aussi en français. Ainsi, si vous avez une page simple appelée `my-page` elle se trouve dans deux branches de localisation dans l'arborescence de contenu de votre site :
+Disons aussi que vous créez votre site en anglais et que vous le proposez aussi en français. Ainsi, si vous avez une page simple appelée `my-page`, elle se trouve dans deux branches de localisation dans l'arborescence de contenu de votre site :
 
 ```
 /content
@@ -48,7 +48,7 @@ Disons aussi que vous créez votre site en anglais et que vous le proposez aussi
 
 C'est sous ces branches de localisation que vous allez créer des pages de sites supplémentaires.
 
-Les pieds de page sont généralement créés à l’aide de fragments d’expérience. Vous aurez donc besoin d’une version en anglais et en français, tout comme vos pages. Toutefois, les fragments d’expérience ne sont pas des pages, mais des parties de pages qui peuvent être réutilisées sur plusieurs pages. Ils ne vivent donc pas directement sous `/content` le reste de vos pages. Au lieu de cela, ils vivent sous leur propre dossier, mais comme ils doivent également être localisés, leur structure doit refléter la structure de localisation de votre site.
+Les pieds de page sont généralement créés à l’aide de fragments d’expérience. Vous aurez donc besoin d’une version en anglais et en français, tout comme vos pages. Toutefois, les fragments d’expérience ne sont pas des pages, mais des parties de pages qui peuvent être réutilisées sur plusieurs pages. Ils ne résident donc pas directement sous `/content` le reste de vos pages. Au lieu de cela, ils résident sous leur propre dossier, mais comme ils doivent également être localisés, leur structure doit refléter la structure de localisation de votre site.
 
 ```
 /content
@@ -84,31 +84,31 @@ Notre modèle est simplement appelé `my-template` et se trouve avec nos autres 
 /conf/my-site/settings/wcm/templates/my-template
 ```
 
-To this template we will add the basic components that we want our pages to be based on.
+Nous ajouterons à ce modèle les composants de base sur lesquels nous voulons que nos pages soient basées.
 
 * [Composant Navigation](navigation.md)
-   * The Navigation Component will appear at the top of every page.
+   * Le composant de navigation apparaît en haut de chaque page.
    * Dans le composant de navigation, nous définissons la racine de navigation, indiquant au composant où commence la structure de navigation du site.
-   * Based on the navigation root, the component can find the corresponding localized content automatically.
+   * En fonction de la racine de navigation, le composant peut rechercher automatiquement le contenu localisé correspondant.
 * [Composant de conteneur](container.md)
-   * Every page will contain an editable Container Component so that authors can place additional content on the page.
+   * Chaque page contient un composant de conteneur modifiable afin que les auteurs puissent placer du contenu supplémentaire sur la page.
 * [Fragment d’expérience](experience-fragment.md)
-   * We point the Experinece Fragment Component to the fragment path in our authoring language of the fragment that represents the footer.
-   * Based on that fragment's path and the structure of the experience fragments that mirrors the localized page structure, the component can find the corresponding localized content automatically.
+   * Nous dirigeons le composant Fragment d’expérience vers le chemin d’accès au fragment dans la langue de création du fragment qui représente le pied de page.
+   * En fonction du chemin d’accès de ce fragment et de la structure des fragments d’expérience qui reflètent la structure de page localisée, le composant peut rechercher automatiquement le contenu localisé correspondant.
    ![](assets/screen-shot-2019-09-09-11.20.10.png)
 
 ## Pages {#pages}
 
-By doing the hard work in setting up the site structure and template, the content author simply needs to add the necessary content to the pages. Thanks to the templates and the localization logic of the components, the navigation and footers will be automatically added to the page and localized.
+En effectuant le travail acharné de configuration de la structure et du modèle du site, l’auteur du contenu doit simplement ajouter le contenu nécessaire aux pages. Grâce aux modèles et à la logique de localisation des composants, la navigation et les pieds de page seront automatiquement ajoutés à la page et localisés.
 
-For example, the author would only need to add content such as a text component to the English and French pages (represented in blue below).
+Par exemple, l’auteur n’aurait besoin que d’ajouter du contenu tel qu’un composant de texte aux pages en anglais et en français (représenté en bleu ci-dessous).
 
-The Navigation Component and Experience Fragment Component come from the page template and know to automatically display the correct content based on the localization structure and the location of the page itself (represented in white below).
+Le composant de navigation et le composant de fragment d’expérience proviennent du modèle de page et savent afficher automatiquement le contenu correct en fonction de la structure de localisation et de l’emplacement de la page elle-même (représenté en blanc ci-dessous).
 
 ![](assets/screen-shot-2019-09-09-11.22.14.png)
 
-## Fitting It All Together {#fitting-it-all-together}
+## Ajuster tout ensemble {#fitting-it-all-together}
 
-Here is the complete picture of how these simple, but powerful elements work together to deliver localized pages for the content authors.
+Voici une image complète de la manière dont ces éléments simples mais puissants opèrent ensemble pour fournir des pages localisées aux auteurs de contenu.
 
 ![](assets/screen-shot-2019-09-09-11.27.58.png)
