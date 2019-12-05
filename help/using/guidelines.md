@@ -4,13 +4,13 @@ seo-title: Instructions relatives aux composants
 description: Les composants principaux suivent des modèles d'implémentations modernes qui sont très différents des composants de base.
 seo-description: Les composants principaux suivent des modèles d'implémentations modernes qui sont très différents des composants de base.
 uuid: b1daea89-da3c-454f-8ab5-d75a19412954
-contentOwner: Utilisateur
-content-type: référence
-topic-tags: développement
+contentOwner: User
+content-type: reference
+topic-tags: developing
 products: SG_EXPERIENCEMANAGER/CORECOMPONENTS-new
 discoiquuid: 170dba8f-a2ed-442e-a56e-1126b338c36e
-translation-type: ht
-source-git-commit: 683b4f4705c226275439a408423cbf1b23bea66f
+translation-type: tm+mt
+source-git-commit: 0f84eb6d52b9d6d76a4347d371367acf3d34e58e
 
 ---
 
@@ -35,9 +35,9 @@ Pour aller plus loin, si les composants sont réutilisés sur plusieurs sites ou
 
 ### Séparation des préoccupations {#separation-of-concerns}
 
-Le maintien de la logique (ou du modèle) d’un composant distinct du modèle de balisage (ou affichage) est généralement une bonne pratique. Il existe plusieurs méthodes pour obtenir ce résultat. Toutefois, il est recommandé d’utiliser des [modèles Sling](https://sling.apache.org/documentation/bundles/models.html) pour la logique et le [modèle de langage HTML](https://helpx.adobe.com/fr/experience-manager/htl/using/overview.html) (HTL) pour le balisage, comme le font aussi les composants principaux.
+Le maintien de la logique (ou du modèle) d’un composant distinct du modèle de balisage (ou affichage) est généralement une bonne pratique. Il existe plusieurs méthodes pour obtenir ce résultat. Toutefois, il est recommandé d’utiliser des [modèles Sling](https://sling.apache.org/documentation/bundles/models.html) pour la logique et le [modèle de langage HTML](https://helpx.adobe.com/experience-manager/htl/using/overview.html) (HTL) pour le balisage, comme le font aussi les composants principaux.
 
-Les modèles Sling sont un ensemble d’annotations Java permettant d’accéder facilement aux variables nécessaires à partir des POJO. Ils offrent par conséquent une méthode simple, puissante et performante pour implémenter la logique Java pour les composants.
+Les modèles Sling sont un ensemble d’annotations Java permettant d’accéder facilement aux variables nécessaires à partir des POJO. Ils offrent donc une méthode simple, puissante et efficace pour implémenter la logique Java pour les composants.
 
 HTL a été conçu pour être un langage de modèle sécurisé et simple adapté à AEM. Il peut appeler de nombreuses formes de logique, ce qui le rend très souple.
 
@@ -47,19 +47,9 @@ Les instructions de cette section peuvent également être utilisées pour tout 
 
 ### Fonctionnalités préconfigurables {#pre-configurable-capabilities}
 
-Outre la boîte de dialogue de modification utilisée par les auteurs de pages, les composants peuvent également avoir une boîte de dialogue de conception pour les auteurs de modèles afin de les préconfigurer. L’[éditeur de modèles](https://helpx.adobe.com/fr/experience-manager/6-5/sites/authoring/using/templates.html) permet de configurer toutes ces préconfigurations, appelées « Stratégies ».
+Outre la boîte de dialogue de modification utilisée par les auteurs de pages, les composants peuvent également avoir une boîte de dialogue de conception pour les auteurs de modèles afin de les préconfigurer. L’[éditeur de modèles](https://helpx.adobe.com/experience-manager/6-5/sites/authoring/using/templates.html) permet de configurer toutes ces préconfigurations, appelées « Stratégies ».
 
 Pour rendre les composants aussi réutilisables que possible, ils doivent être fournis avec des options significatives pour la préconfiguration. Cela permet d’activer ou de désactiver les fonctionnalités des composants pour répondre aux besoins spécifiques des différents sites.
-
-<!-- 
-
-Comment Type: annotation
-Last Modified By: ims-author-CE1E2CE451D1F0680A490D45@AdobeID
-Last Modified Date: 2017-04-17T17:49:04.584-0400
-
-Unclear how I can add my own capability toggle (for example, if i extend a component and want to toggle that extended functionality ... )
-
- -->
 
 ### Modèle de composant proxy {#proxy-component-pattern}
 
@@ -96,7 +86,7 @@ Lorsqu’elle est combinée avec le [modèle de composant proxy](#proxy-componen
 
 ## Assemblage {#putting-it-all-together}
 
-Vous trouverez ci-dessous un aperçu de la structure entière de liaison de type de ressource, en prenant l’exemple du composant principal du titre. Il illustre la manière dont un composant proxy spécifique au site permet de résoudre le contrôle des composants, afin d’éviter que la ressource de contenu contienne un numéro de version. Il indique ensuite comment le fichier `title.html` [HTL](https://helpx.adobe.com/fr/experience-manager/htl/using/overview.html) du composant utilise l’interface du modèle, tandis que l’implémentation est liée à la version spécifique du composant via les annotations du [modèle Sling](https://sling.apache.org/documentation/bundles/models.html).
+Vous trouverez ci-dessous un aperçu de la structure entière de liaison de type de ressource, en prenant l’exemple du composant principal du titre. Il illustre la manière dont un composant proxy spécifique au site permet de résoudre le contrôle des composants, afin d’éviter que la ressource de contenu contienne un numéro de version. Il indique ensuite comment le fichier `title.html` [HTL](https://helpx.adobe.com/experience-manager/htl/using/overview.html) du composant utilise l’interface du modèle, tandis que l’implémentation est liée à la version spécifique du composant via les annotations du [modèle Sling](https://sling.apache.org/documentation/bundles/models.html).
 
 ![Présentation de la liaison des ressources](assets/chlimage_1-32.png)
 
@@ -104,18 +94,15 @@ Vous trouverez ci-dessous un autre aperçu qui n’affiche pas les détails du P
 
 La propriété `cq:allowedTemplates` indique les modèles qui peuvent être utilisés pour un site et la propriété `cq:template` indique pour chaque page quel est le modèle associé. Chaque modèle est composé de trois parties :
 
-* **structure**
-Contient les ressources qui seront forcées à être présentes sur chaque page et que l’auteur de la page ne pourra pas supprimer, comme par exemple les composants d’en-tête de page et de pied de page.
-* **initial**
-Contient le contenu initial qui sera dupliqué dans la page lors de sa création.
-* **policies**
-Contient pour chaque composant le mappage à une stratégie, qui est la préconfiguration du composant. Ce mappage permet de réutiliser les stratégies dans les modèles et donc de les gérer de manière centralisée.
+* **structure** : contient les ressources qui seront forcées sur chaque page d'être présente et que l'auteur de la page ne pourra pas supprimer, comme par exemple les composants d'en-tête et de pied de page.
+* **initial** : contient le contenu initial qui sera dupliqué sur la page lors de sa création.
+* **stratégies** : contient pour chaque composant le mappage à une stratégie, qui est la préconfiguration du composant. Ce mappage permet de réutiliser les stratégies dans les modèles et donc de les gérer de manière centralisée.
 
 ![Présentation des modèles et de la stratégie](assets/screen_shot_2018-12-07at093102.png)
 
 ## Archétype de projet AEM {#aem-project-archetype}
 
-[L’archétype de projet AEM](overview.md) crée un projet Adobe Experience Manager minimal comme point de départ pour vos propres projets, y compris un exemple helloworld de composant HTML personnalisé avec SlingModels pour la logique et l’implémentation appropriée des composants principaux avec le modèle de proxy recommandé.
+[L’archétype](overview.md) de projet AEM crée un projet Adobe Experience Manager minimal comme point de départ pour vos propres projets, y compris un exemple de composant HTML personnalisé avec SlingModels pour la logique et l’implémentation correcte des composants principaux avec le modèle de proxy recommandé.
 
 **À lire aussi :**
 
