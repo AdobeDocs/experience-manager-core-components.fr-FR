@@ -9,15 +9,15 @@ content-type: reference
 topic-tags: introduction
 products: SG_EXPERIENCEMANAGER/CORECOMPONENTS
 discoiquuid: a3a98b2f-65bf-4493-82ad-01717938fdbc
-translation-type: ht
-source-git-commit: 03fc420e9576302e92504f41998b323f9bfc36e9
+translation-type: tm+mt
+source-git-commit: b1b69e9e1ba18dd0f9d8059a79537ad2bf7db066
 
 ---
 
 
-# Versions des composants principaux{#core-components-versions}
+# Versions des composants principaux {#core-components-versions}
 
-La version actuelle des composants principaux est 2.7.0 et est compatible avec AEM 6.5. Elle a été publiée en septembre 2019 comme une mise à jour importante de la version 2.0.0. La version 2.0.0 introduit de nouveaux composants avec les mises à jour v2 des composants existants.
+La version actuelle des composants principaux est 2.8.0 et est compatible avec AEM 6.5. Il a été publié en décembre 2019 comme une mise à jour importante de la version 2.0.0. La version 2.0.0 introduit de nouveaux composants ainsi que des mises à jour v2 des composants existants.
 
 Pour plus d’informations, voir la section [Historique des versions et compatibilité](#versions-and-releases) de ce document.
 
@@ -63,8 +63,9 @@ Le tableau suivant, dont le contenu est [disponible sur GitHub avec les détails
 
 | Mise à jour | Description | AEM 6.3 | AEM 6.4 | AEM 6.5 | Java | Date de publication |
 |---|---|---|---|---|---|---|
+| [2.8.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.8.0) | Cette version s'est concentrée sur les correctifs apportés au composant de navigation. | 6.3.3.4+ | 6.4.4.0+ | 6.5.0.0+ | 8, 11 | 5 décembre 2019 |
 | [2.7.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.7.0) | Cette version a introduit le nouveau composant Incorporer. | 6.3.3.4+ | 6.4.4.0+ | 6.5.0.0+ | 8, 11 | 25 septembre 2019 |
-| [2.6.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.6.0) | Cette version a introduit le nouveau composant de fragment d’expérience. | 6.3.3.4+ | 6.4.4.0+ | 6.5.0.0+ | 8, 11 | 6 September 2019 |
+| [2.6.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.6.0) | Cette version a introduit le nouveau composant de fragment d’expérience. | 6.3.3.4+ | 6.4.4.0+ | 6.5.0.0+ | 8, 11 | 6 septembre 2019 |
 | [2.5.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.5.0) | Les nouveaux composants Accordéon, Bouton, Conteneur et Téléchargement ont été ajoutés dans cette version. | 6.3.3.0+ | 6.4.2.0+ | 6.5.0.0+ | 8, 11 | 25 juin 2019 |
 | [2.4.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.4.0) | Cette version a introduit le composant Liste de fragments de contenu. | 6.3.3.0+ | 6.4.2.0+ | 6.5.0.0+ | 8, 11 | 7 mai 2019 |
 | [2.3.2](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.3.2) | Cette version concernait les améliorations apportées à la bibliothèque de composants, mais contient également quelques améliorations des fonctionnalités du composant Séparateur. | 6.3.3.0+ | 6.4.2.0+ | 6.5.0.0+ | 8 | 14 mars 2019 |
@@ -129,4 +130,4 @@ La [bibliothèque de composants](http://opensource.adobe.com/aem-core-wcm-compon
 
 [Présentation des composants principaux](introduction.md) donne un aperçu de la compatibilité des composants principaux dans les versions, les cas d’utilisation et la prise en charge.
 
-Le [tutoriel WKND](https://docs.adobe.com/fr/content/help/en/experience-manager-learn/getting-started-wknd-tutorial-develop/overview.html) est une excellente introduction au développement pour AEM, notamment à l’utilisation des composants principaux.
+Le [tutoriel WKND](https://docs.adobe.com/content/help/en/experience-manager-learn/getting-started-wknd-tutorial-develop/overview.html) est une excellente introduction au développement pour AEM, notamment à l’utilisation des composants principaux.
