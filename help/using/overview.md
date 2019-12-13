@@ -6,7 +6,7 @@ seo-description: Modèle de projet pour les applications basées sur AEM
 contentOwner: bohnert
 content-type: reference
 topic-tags: core-components
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 0f84eb6d52b9d6d76a4347d371367acf3d34e58e
 
 ---
@@ -77,7 +77,7 @@ La création du projet avec Maven crée les artefacts (packages et lots OSGi) qu
 
 ### Création d’un projet {#create-project}
 
-Pour commencer, il vous suffit d’utiliser l'[extension Eclipse AEM](https://helpx.adobe.com/experience-manager/6-5/sites/developing/using/aem-eclipse.html), de suivre l’assistant Nouveau projet et de choisir **Exemple de projet multimodule AEM** pour utiliser une version publiée de l’archétype.
+Pour commencer, il vous suffit d’utiliser l'[extension Eclipse AEM](https://helpx.adobe.com/experience-manager/6-5/sites/developing/using/aem-eclipse.html), de suivre l’assistant Nouveau projet et de choisir **AEM Sample Multi-Module Project** pour utiliser une version publiée de l’archétype.
 
 Bien sûr, vous pouvez également appeler Maven directement.
 
