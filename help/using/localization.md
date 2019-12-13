@@ -7,7 +7,7 @@ content-type: reference
 topic-tags: core-components
 index: y
 internal: n
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 0f84eb6d52b9d6d76a4347d371367acf3d34e58e
 
 ---
@@ -15,7 +15,7 @@ source-git-commit: 0f84eb6d52b9d6d76a4347d371367acf3d34e58e
 
 # Fonctions de localisation des composants principaux {#localization-features-of-the-core-components}
 
-De nombreux sites Web exigent que le contenu soit diffusé dans un format localisé dans plusieurs langues et géographies. Les composants principaux sélectionnés disposent d’une résolution de référence intelligente afin de faciliter la création d’un modèle unifié pour l’ensemble du contenu localisé qui s’adapte automatiquement en fonction de la structure de votre site localisé.
+De nombreux sites Web exigent que le contenu soit diffusé dans un format localisé dans plusieurs langues et géographies. Les composants principaux sélectionnés disposent d’une résolution intelligente des références afin de faciliter la création d’un modèle unifié pour l’ensemble du contenu localisé qui s’adapte automatiquement en fonction de la structure de votre site localisé.
 
 ## Exemple - Page localisée avec navigation et pieds de page {#example}
 
@@ -23,7 +23,7 @@ La plupart des sites nécessitent qu’un pied de page soit présent sur toutes 
 
 De même, un composant de navigation doit généralement être affiché sur toutes les pages. Toutefois, il devra également refléter le contenu des pages localisées.
 
-Using the localization features of the [Navigation Core Component](navigation.md) and [Experience Fragment Core Component](experience-fragment.md) along with the [editable templates of AEM](https://docs.adobe.com/content/help/en/experience-manager-64/authoring/siteandpage/templates.html), this becomes a simple task. L'exemple pourrait être étendu à l'utilisation du [composant Navigation linguistique](language-navigation.md).
+En utilisant les fonctionnalités de localisation du [composant principal de navigation](navigation.md) et du [composant principal de fragment d’expérience](experience-fragment.md), ainsi que les [modèles modifiables d’AEM](https://docs.adobe.com/content/help/en/experience-manager-64/authoring/siteandpage/templates.html), cela devient facile à réaliser. L'exemple pourrait être étendu à l'utilisation du [composant Navigation linguistique](language-navigation.md).
 
 ## La structure du contenu {#content-structure}
 
@@ -93,7 +93,7 @@ Nous ajouterons à ce modèle les composants de base sur lesquels nous voulons q
 * [Composant de conteneur](container.md)
    * Chaque page contient un composant de conteneur modifiable afin que les auteurs puissent placer du contenu supplémentaire sur la page.
 * [Fragment d’expérience](experience-fragment.md)
-   * Nous dirigeons le composant Fragment d’expérience vers le chemin d’accès au fragment dans la langue de création du fragment qui représente le pied de page.
+   * Nous pointons le composant de fragment d’expérience vers le chemin du fragment dans notre langage de création du fragment qui représente le pied de page.
    * En fonction du chemin d’accès de ce fragment et de la structure des fragments d’expérience qui reflètent la structure de page localisée, le composant peut rechercher automatiquement le contenu localisé correspondant.
    ![](assets/screen-shot-2019-09-09-11.20.10.png)
 
