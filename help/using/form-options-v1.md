@@ -1,24 +1,9 @@
 ---
 title: Composant des options de formulaire (v1)
-seo-title: Composant des options de formulaire (v1)
-description: 'null'
-seo-description: Le composant des options de formulaire des composants principaux permet la sélection d’options prédéfinies dans divers formats.
-uuid: a22ed77c-c9f3-46f4-8afe-e478383c1251
-content-type: référence
-products: SG_EXPERIENCEMANAGER/CORECOMPONENTS-new
-discoiquuid: e1975bfe-2bda-409a-998e-1ff4f9f23b94
-disttype: dist5
-gnavtheme: light
-groupsectionnavitems: non
-hidemerchandisingbar: inherit
-hidepromocomponent: inherit
-modalsize: 426x240
-noindex: 'true'
+description: Le composant des options de formulaire des composants principaux permet la sélection d’options prédéfinies dans divers formats.
 index: n
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: 4e74f10e2a4119484a597178dc4577b399833dbf
+source-git-commit: 5439f90faef28c72367419bb7429a3a880b65229
 
 ---
 
@@ -161,7 +146,7 @@ Il n’existe pas de boîte de dialogue de conception pour le composant des opti
 
 ## Détails techniques {#technical-details}
 
-La documentation technique la plus récente sur le composant Options de formulaire [se trouve sur GitHub](https://github.com/adobe/aem-core-wcm-components/tree/master/content/src/content/jcr_root/apps/core/wcm/components/form/options/v1/options).
+The latest technical documentation about the Form Options Component [can be found on GitHub](https://github.com/adobe/aem-core-wcm-components/tree/master/content/src/content/jcr_root/apps/core/wcm/components/form/options/v1/options).
 
 Le projet sur les composants principaux peut être téléchargé depuis GitHub.
 
