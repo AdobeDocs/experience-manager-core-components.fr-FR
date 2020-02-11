@@ -1,21 +1,9 @@
 ---
 title: Composant de bouton de formulaire (v1)
-seo-title: Composant de bouton de formulaire (v1)
-description: 'null'
-seo-description: Le composant Masqué du formulaire des composants principaux permet l’inclusion d’un champ masqué dans un formulaire.
-uuid: 0525e70f-294f-4d35-bf96-fc0e4ec225e9
-content-type: référence
-products: SG_EXPERIENCEMANAGER/CORECOMPONENTS-new
-discoiquuid: ea06acc0-38e2-4252-ac29-07332835b7c4
-disttype: dist5
-gnavtheme: light
-groupsectionnavitems: non
-hidemerchandisingbar: inherit
-hidepromocomponent: inherit
-modalsize: 426x240
+description: Le composant Masqué du formulaire des composants principaux permet l’inclusion d’un champ masqué dans un formulaire.
 index: n
 translation-type: tm+mt
-source-git-commit: 4e74f10e2a4119484a597178dc4577b399833dbf
+source-git-commit: 5439f90faef28c72367419bb7429a3a880b65229
 
 ---
 
@@ -49,7 +37,7 @@ Le tableau ci-après répertorie la compatibilité de la version v1 du composant
 
 ## Exemple de sortie de composant {#sample-component-output}
 
-The following is sample taken from We.Retail.[](https://helpx.adobe.com/experience-manager/6-4/sites/developing/using/we-retail.html)
+Voici un exemple extrait de [We.Retail](https://helpx.adobe.com/experience-manager/6-4/sites/developing/using/we-retail.html).
 
 ### Capture d’écran {#screenshot}
 
@@ -117,7 +105,7 @@ Il n’existe pas de boîte de dialogue de conception pour le composant de bouto
 
 ## Détails techniques {#technical-details}
 
-The latest technical documentation about the Form Button Component can be found on GitHub.[](https://github.com/adobe/aem-core-wcm-components/tree/master/content/src/content/jcr_root/apps/core/wcm/components/form/button/v1/button)
+The latest technical documentation about the Form Button Component [can be found on GitHub](https://github.com/adobe/aem-core-wcm-components/tree/master/content/src/content/jcr_root/apps/core/wcm/components/form/button/v1/button).
 
 Le projet sur les composants principaux peut être téléchargé depuis GitHub.
 
