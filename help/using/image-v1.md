@@ -1,15 +1,9 @@
 ---
 title: Composant d’image (v1)
-seo-title: Composant d’image (v1)
 description: Le composant d’image des composants principaux est un composant d’image adaptatif qui permet d’effectuer des modifications statiques.
-seo-description: Le composant d’image des composants principaux est un composant d’image adaptatif qui permet d’effectuer des modifications statiques.
-uuid: 20ea7921-511d-4d3a-b3df-c2f2c1d8455d
-content-type: référence
-products: SG_EXPERIENCEMANAGER/CORECOMPONENTS-new
-discoiquuid: ab9041ab-e29e-4277-b326-85ab37df8413
 index: n
 translation-type: tm+mt
-source-git-commit: 4e74f10e2a4119484a597178dc4577b399833dbf
+source-git-commit: 5439f90faef28c72367419bb7429a3a880b65229
 
 ---
 
@@ -43,7 +37,7 @@ Le tableau ci-après répertorie la compatibilité de la version v1 du composant
 
 ## Exemple de sortie de composant {#sample-component-output}
 
-The following is sample taken from We.Retail.[](https://helpx.adobe.com/experience-manager/6-4/sites/developing/using/we-retail.html)
+Voici un exemple extrait de [We.Retail](https://helpx.adobe.com/experience-manager/6-4/sites/developing/using/we-retail.html).
 
 ### Capture d’écran {#screenshot}
 
@@ -85,9 +79,9 @@ Outre la [boîte de dialogue de modification](image-v1.md#main-pars_title) et la
 ![](assets/chlimage_1-50.png)
 
 * **Ressource image**
-   * Drop an asset from the [asset browser](https://helpx.adobe.com/experience-manager/6-3/sites/authoring/using/author-environment-tools.html#main-pars_title) or tap the **browse** option to upload from a local file system.
+   * Déposez un fichier depuis l’[explorateur de ressources](https://helpx.adobe.com/experience-manager/6-3/sites/authoring/using/author-environment-tools.html#main-pars_title) ou appuyez sur l’option **parcourir** pour effectuer un téléchargement à partir d’un système de fichiers local.
    * Appuyez ou cliquez sur **Effacer** pour désélectionner l’image actuellement sélectionnée.
-   * Tap or click **Edit** to [mange the renditions of the asset](https://helpx.adobe.com/experience-manager/6-3/assets/using/managing-assets-touch-ui.html#main-pars_title_19) in the asset editor.
+   * Appuyez ou cliquez sur **Modifier** pour [gérer les rendus de la ressource](https://helpx.adobe.com/experience-manager/6-3/assets/using/managing-assets-touch-ui.html#main-pars_title_19) dans l’éditeur de ressources.
 
 * **L’image est décorative** : vérifiez si l’image doit être ignorée par les dispositifs d’assistance et ne requiert donc pas de texte de remplacement. Cela s’applique uniquement aux images décoratives.
 * **Texte alternatif** : alternative textuelle de la signification ou de la fonction de l’image, pour les malvoyants.
@@ -192,7 +186,7 @@ Appuyez ou cliquez sur le bouton Ajouter pour ajouter une autre taille.
 * Utilisez les poignées de capture pour réorganiser l’ordre des tailles.
 * Utilisez l’icône Supprimer pour supprimer une largeur.
 
-Par défaut, le chargement des images est différé jusqu’à ce qu'elles deviennent visibles. Sélectionnez l’option **Désactiver le chargement différé** pour charger les images au chargement de la page.
+Par défaut, le chargement des images est différé jusqu’à ce qu&#39;elles deviennent visibles. Sélectionnez l’option **Désactiver le chargement différé** pour charger les images au chargement de la page.
 
 ### Fonctionnalités {#features}
 
@@ -208,7 +202,7 @@ Sur l’onglet **Fonctionnalités**, vous pouvez définir les options disponible
 
    ![](assets/chlimage_1-20.png)
 
-   * **Rotation** : utilisez cette option pour permettre à l’auteur de contenu d’utiliser l'option **Rotation à droite**.
+   * **Rotation** : utilisez cette option pour permettre à l’auteur de contenu d’utiliser l&#39;option **Rotation à droite**.
    * **Retourner**
 Utilisez cette option pour permettre à l’auteur de contenu d’utiliser les options **Rotation horizontale** et **Rotation verticale**.
    >[!CAUTION]
@@ -239,7 +233,7 @@ Last Modified Date: 2017-11-20T05:51:34.378-0500
 
 ## Détails techniques {#technical-details}
 
-The latest technical documentation about the Image Component can be found on GitHub.[](https://github.com/adobe/aem-core-wcm-components/tree/master/content/src/content/jcr_root/apps/core/wcm/components/image/v1/image)
+La documentation technique la plus récente sur le composant d’image [se trouve sur GitHub](https://github.com/adobe/aem-core-wcm-components/tree/master/content/src/content/jcr_root/apps/core/wcm/components/image/v1/image).
 
 Le projet sur les composants principaux peut être téléchargé depuis GitHub.
 
