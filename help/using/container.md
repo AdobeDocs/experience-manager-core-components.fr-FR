@@ -1,16 +1,8 @@
 ---
 title: Composant de conteneur
-seo-title: Composant de conteneur
-description: 'null'
-seo-description: Le composant de conteneur des composants principaux permet la création d’un conteneur pour plusieurs autres composants sur une page.
-uuid: ec807de9-f76c-4850-9ece-c3e439a1d626
-contentOwner: User
-content-type: reference
-topic-tags: authoring
-products: SG_EXPERIENCEMANAGER/CORECOMPONENTS-new
-discoiquuid: f093f58e-9755-4a4f-803a-ab93a50e6870
-translation-type: ht
-source-git-commit: 3e2e7a297c6ee1d6c8d092c619df8febdc900e25
+description: Le composant de conteneur des composants principaux permet la création d’un conteneur pour plusieurs autres composants sur une page.
+translation-type: tm+mt
+source-git-commit: 65f900ad6759206a13f2bda6169900f62d968d8d
 
 ---
 
@@ -32,19 +24,19 @@ La version actuelle du composant de conteneur est v1, qui a été introduite av
 
 Le tableau ci-après présente en détail toutes les versions prises en charge du composant, les versions AEM avec lesquelles les versions du composant sont compatibles et les liens vers la documentation pour les versions précédentes.
 
-| Version du composant | AEM 6.3 | AEM 6.4 | AEM 6.5 |
-|--- |--- |--- |---|
-| v1 | Compatible | Compatible | Compatible |
+| Version du composant | AEM 6.3 | AEM 6.4 | AEM 6.5 | AEM en tant que service cloud |
+|--- |--- |--- |---|---|
+| v1 | Compatible | Compatible | Compatible | Compatible |
 
 Pour plus d’informations sur les versions et les publications des composants principaux, voir le document sur les [versions des composants principaux](versions.md).
 
 ## Exemple de sortie de composant {#sample-component-output}
 
-Pour tester le composant de conteneur et voir des exemples de ses options de configuration, ainsi que la sortie HTML et JSON, consultez la [bibliothèque de composants](http://opensource.adobe.com/aem-core-wcm-components/library/container.html).
+Pour tester le composant de conteneur et voir des exemples de ses options de configuration, ainsi que la sortie HTML et JSON, consultez la [bibliothèque de composants](https://adobe.com/go/aem_cmp_library_container).
 
 ## Détails techniques {#technical-details}
 
-La documentation technique la plus récente sur le composant de conteneur [se trouve sur GitHub](https://github.com/adobe/aem-core-wcm-components/tree/master/content/src/content/jcr_root/apps/core/wcm/components/container/v1/container).
+La documentation technique la plus récente sur le composant de conteneur [se trouve sur GitHub](https://adobe.com/go/aem_cmp_tech_container_v1).
 
 Vous trouverez plus d’informations sur le développement des composants principaux dans la [documentation destinée aux développeurs de composants principaux](developing.md).
 
@@ -56,9 +48,9 @@ La boîte de dialogue de configuration permet à l’auteur du contenu de défin
 
 * **Mise en page** : cette option définit le comportement ou le comportement de mise en page du composant de conteneur.
    * **Simple** : définit un conteneur en tant qu’ensemble simple de composants.
-   * **Grille réactive** : définit un conteneur en tant que [grille réactive AEM](https://helpx.adobe.com/fr/experience-manager/6-5/sites/authoring/using/responsive-layout.html)
+   * **Grille** réactive : définit un conteneur comme une mise en page réactive [AEM](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/sites/authoring/features/responsive-layout.html)
 * **ID** : utilisez cette option pour définir l’attribut d’ID HTML à appliquer au composant.
-* **Couleur d'arrière-plan** : définissable en tant que valeurs RVB de forme libre ou en utilisant le sélecteur de couleurs, [selon la configuration](#background-tab)
+* **Couleur d&#39;arrière-plan** : définissable en tant que valeurs RVB de forme libre ou en utilisant le sélecteur de couleurs, [selon la configuration](#background-tab)
 * **Image d’arrière-plan** : définit une couleur d’arrière-plan pour le conteneur, [selon la configuration](#background-tab)
 
 ## Boîte de dialogue de conception {#design-dialog}
@@ -69,11 +61,11 @@ La boîte de dialogue de conception permet à l’auteur du modèle de définir 
 
 L’onglet **Composants autorisés** permet de définir quels composants peuvent être ajoutés en tant qu’éléments au composant de conteneur par l’auteur du contenu.
 
-L’onglet Composants autorisés fonctionne de la même manière que l’onglet du même nom lors de la [définition de la stratégie et des propriétés d’un conteneur de mises en page dans l’éditeur de modèles](https://helpx.adobe.com/fr/experience-manager/6-5/sites/authoring/using/templates.html).
+L’onglet Composants autorisés fonctionne de la même manière que l’onglet du même nom lors de la [définition de la stratégie et des propriétés d’un conteneur de mises en page dans l’éditeur de modèles](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/sites/authoring/features/templates.html).
 
 ### Onglet Composants par défaut {#default-components-tab}
 
-L’onglet Composants par défaut permet de définir quel composant est ajouté au composant lorsqu’un type de ressource particulier est déposé sur le conteneur, comme [la définition des composants par défaut sur le modèle de page](https://helpx.adobe.com/fr/experience-manager/6-5/sites/authoring/using/templates.html#EditingTemplatesTemplateAuthors).
+L’onglet Composants par défaut permet de définir quel composant est ajouté au composant lorsqu’un type de ressource particulier est déposé sur le conteneur, comme [la définition des composants par défaut sur le modèle de page](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/sites/authoring/features/templates.html).
 
 ### Onglet Paramètres réactifs {#responsive-settings-tab}
 
