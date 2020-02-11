@@ -1,12 +1,8 @@
 ---
 title: Composant de fragment d’expérience
-seo-title: Composant de fragment d’expérience
 description: Le composant de fragment d’expérience permet à l’auteur de contenu d’ajouter une variation de fragment d’expérience à une page.
-seo-description: Le composant de fragment d’expérience permet à l’auteur de contenu d’ajouter une variation de fragment d’expérience à une page.
-content-type: référence
-topic-tags: core-components
 translation-type: tm+mt
-source-git-commit: c4e86960ec271464661193f6409cd93d1b9ec51b
+source-git-commit: 65f900ad6759206a13f2bda6169900f62d968d8d
 
 ---
 
@@ -17,7 +13,7 @@ Le composant de fragment d’expérience de composant principal permet à l’au
 
 ## Utilisation {#usage}
 
-Le composant de fragment d’expérience de composant principal permet à l’auteur du contenu d’effectuer une sélection à partir des variations de fragments d’expérience existantes et d’en placer une dans la page de contenu. Le composant de fragment d’expérience prend également en charge une structure de site localisée.
+Le composant de fragment d’expérience de composant principal permet à l’auteur du contenu de sélectionner des variantes de fragment d’expérience existantes et d’en placer une sur la page de contenu. Le composant de fragment d’expérience prend également en charge une structure de site localisée.
 
 * Les propriétés du composant peuvent être définies dans la [boîte de dialogue de configuration](#configure-dialog).
 * Les valeurs par défaut du composant lors de son ajout à une page peuvent être définies dans la [boîte de dialogue de conception](#design-dialog).
@@ -34,8 +30,8 @@ Dans ce cas, le fragment avec la même localisation (langue, plan directeur ou l
 
 Ce comportement est limité aux composants de fragments d’expérience ajoutés aux modèles. Les composants de fragments d’expérience ajoutés aux pages de contenu individuelles affichent les rendus de fragments d’expérience exacts configurés dans le composant.
 
-* For an example of how the localization features of the Experience Fragment Component works, see the section below.[](#example)
-* For an example of how the localization features of the Core Components work together, see the Localization Features of the Core Components page.[](localization.md)
+* Pour un exemple du fonctionnement des fonctions de localisation du composant de fragment d’expérience, reportez-vous à [la section ci-dessous](#example).
+* Pour un exemple de la façon dont les fonctions de localisation des composants principaux fonctionnent ensemble, reportez-vous à la page [Fonctions de localisation de la page Composants principaux](localization.md).
 
 ### Exemple {#example}
 
@@ -86,30 +82,30 @@ Ainsi, si vous accédez à une page de contenu sous `/content/we-retail/ch/de` q
 
 Le composant de fragment d’expérience tentera de trouver un composant localisé correspondant dans l’ordre suivant.
 
-1. Il tente d’abord de trouver une racine de langue.
+1. Il essaie d&#39;abord de trouver une racine de langue.
 1. Si elle est introuvable, il tente de trouver un plan directeur.
 1. S’il est introuvable, il tente de trouver une live copy.
 1. Si elle est introuvable, il correspond par défaut au fragment d’expérience configuré dans le composant.
 
 ## Version et compatibilité {#version-and-compatibility}
 
-La version actuelle du composant Fragment d’expérience est la version 1, qui a été introduite avec la version 2.6.0 des composants principaux en septembre 2019. Elle est décrite dans ce document.
+La version actuelle du composant de fragment d’expérience est v1, qui a été introduite avec la version 2.6.0 des composants principaux en septembre 2019. Elle est décrite dans ce document.
 
 Le tableau ci-après présente en détail toutes les versions prises en charge du composant, les versions AEM avec lesquelles les versions du composant sont compatibles et les liens vers la documentation pour les versions précédentes.
 
-| Version du composant | AEM 6.3 | AEM 6.4 | AEM 6.5 |
-|--- |--- |--- |---|
-| v1 | Compatible | Compatible | Compatible |
+| Version du composant | AEM 6.3 | AEM 6.4 | AEM 6.5 | AEM en tant que service cloud |
+|--- |--- |--- |---|---|
+| v1 | Compatible | Compatible | Compatible | Compatible |
 
 Pour plus d’informations sur les versions et les publications des composants principaux, voir le document sur les [versions des composants principaux](versions.md).
 
 ## Exemple de sortie de composant {#sample-component-output}
 
-Pour tester le composant de fragment d’expérience, des exemples d’options de configuration, ainsi que des sorties HTML et JSON, consultez la [bibliothèque de composants](http://opensource.adobe.com/aem-core-wcm-components/library/experience-fragment.html).
+Pour tester le composant de fragment d’expérience, des exemples d’options de configuration, ainsi que des sorties HTML et JSON, consultez la [bibliothèque de composants](https://adobe.com/go/aem_cmp_library_xf).
 
 ## Détails techniques {#technical-details}
 
-La documentation technique la plus récente sur le composant de fragment d’expérience [est disponible sur GitHub](https://github.com/adobe/aem-core-wcm-components/tree/master/content/src/content/jcr_root/apps/core/wcm/components/experience-fragment/v1/experience-fragment).
+The latest technical documentation about the Experience Fragment Component [can be found on GitHub](https://adobe.com/go/aem_cmp_tech_xf_v1).
 
 Vous trouverez plus d’informations sur le développement des composants principaux dans la [documentation destinée aux développeurs de composants principaux](developing.md).
 
