@@ -1,30 +1,52 @@
 ---
-cloud: experience-cloud
-solution-title: Formation et assistance
-solution-hub-url: https://helpx.adobe.com/fr/support/experience-manager/6-4.html
-solution-image: null
-getting-started-title: Prise en main
-getting-started-url: https://helpx.adobe.com/fr/experience-manager/get-started.html
-tutorials-title: Tutoriels
-tutorials-url: https://helpx.adobe.com/fr/experience-manager/kt/index/aem-6-4-videos.html
+product: Adobe Experience Manager
 git-repo: https://github.com/AdobeDocs/experience-manager-core-components.fr
 index: y
-translation-type: ht
-source-git-commit: e5f7fa578f19ed2eb1207c200556d9ac955162d0
+solution-title: Formation et support pour AEM
+solution-hub-url: https://docs.adobe.com/content/help/en/experience-manager-cloud-service/sites/home.html
+getting-started-title: Prise en main du développement pour AEM
+getting-started-url: https://docs.adobe.com/content/help/en/experience-manager-cloud-service/core-concepts/home.html
+tutorials-title: Tutoriels AEM
+tutorials-url: https://docs.adobe.com/content/help/en/experience-manager-learn/cloud-service/overview.html
+translation-type: tm+mt
+source-git-commit: a3085d266baf32649fda528a7f4703e133d03ab7
 
 ---
 
 
 # Métadonnées pour utilisation interne
 
-Le fichier metadata.md comprend des métadonnées de niveau référentiel qui transitent par les fichiers TOC.md du guide de l’utilisateur dans le référentiel. Si vous souhaitez modifier le contenu metadata.md pour n’importe quel guide de l’utilisateur, faites-le dans n’importe quel fichier TOC.md.
+Les métadonnées dans le système de création GitHub sont hiérarchisées et sont définies comme les niveaux de précédents croissants suivants.
 
-| metadata | effets |
-|--- |--- |
-| solution-title | Utilisé dans l’en-tête de l’article en tant que lien. |
-| solution-hub-url | Ouvre la page hub helpx. |
-| solution-icon | Affiche l’icône de solution en regard du titre de la solution. Pas encore implémenté |
-| getting-started-url | Lien vers la page de démarrage helpx. |
-| tutorials-url | Lien vers les tutoriels vidéo : tutoriels helpx ou KT. |
-| mini-toc-levels | Détermine le nombre de niveaux d’en-tête qui apparaissent dans le rail droit. La valeur par défaut est 2. |
-| git-repo | Spécifie l’emplacement du référentiel principal pour une utilisation interne. |
+1. metadata.md
+1. ToC
+1. Article
+
+Les métadonnées définies dans le fichier metadata.md s’appliquent à l’intégralité du référentiel, mais peuvent être remplacées aux niveaux de la table des matières et de l’article. Tout remplacement des métadonnées doit être effectué au niveau le plus bas possible.
+
+Les métadonnées dans le référentiel experience-manager-core-components.en sont le minimum requis.
+
+metadata.md
+
+* `product`
+* `git-repo`
+* `index: y`
+* `solution-title`
+* `solution-hub-url`
+* `getting-started-title`
+* `getting-started-url`
+* `tutorials-title`
+* `tutorials-url`
+
+ToCs
+
+* `sub-product`
+* `user-guide-title`
+
+Article
+
+* `title`
+* `description`
+* `index: n` (uniquement pour les versions précédentes des composants)
+
+Vous trouverez des informations supplémentaires sur les métadonnées dans le guide de création [interne.](https://docs.adobe.com/help/en/collaborative-doc-instructions/collaboration-guide/markdown/metadata.html#solution-metadata)
