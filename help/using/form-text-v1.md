@@ -1,15 +1,9 @@
 ---
 title: Composant de texte de formulaire (v1)
-seo-title: Composant de texte de formulaire (v1)
-description: 'null'
-seo-description: Le composant de texte de formulaire des composants principaux permet l’entrée de texte de formulaire pour envoi.
-uuid: 30123aba-57a8-4ed4-93cb-6a3d2edff9a7
-content-type: référence
-products: SG_EXPERIENCEMANAGER/CORECOMPONENTS-new
-discoiquuid: bd4e9930-4d81-49ae-a3d1-9a8740418dae
+description: Le composant de texte de formulaire des composants principaux permet l’entrée de texte de formulaire pour envoi.
 index: n
 translation-type: tm+mt
-source-git-commit: 4e74f10e2a4119484a597178dc4577b399833dbf
+source-git-commit: 5439f90faef28c72367419bb7429a3a880b65229
 
 ---
 
@@ -43,7 +37,7 @@ Le tableau ci-après répertorie la compatibilité de la version v1 du composant
 
 ## Exemple de sortie de composant {#sample-component-output}
 
-The following is sample taken from We.Retail.[](https://helpx.adobe.com/experience-manager/6-4/sites/developing/using/we-retail.html)
+Voici un exemple extrait de [We.Retail](https://helpx.adobe.com/experience-manager/6-4/sites/developing/using/we-retail.html).
 
 ### Capture d’écran {#screenshot}
 
@@ -143,7 +137,7 @@ Il n’existe pas de boîte de dialogue de conception pour le composant de texte
 
 ## Détails techniques {#technical-details}
 
-The latest technical documentation about the Form Text Component can be found on GitHub.[](https://github.com/adobe/aem-core-wcm-components/tree/master/content/src/content/jcr_root/apps/core/wcm/components/form/text/v1/text)
+The latest technical documentation about the Form Text Component [can be found on GitHub](https://github.com/adobe/aem-core-wcm-components/tree/master/content/src/content/jcr_root/apps/core/wcm/components/form/text/v1/text).
 
 Le projet sur les composants principaux peut être téléchargé depuis GitHub.
 
