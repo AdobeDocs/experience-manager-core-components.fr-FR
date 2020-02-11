@@ -1,15 +1,9 @@
 ---
 title: Composant Masqué du formulaire (v1)
-seo-title: Composant Masqué du formulaire (v1)
 description: Le composant Masqué du formulaire des composants principaux permet l’affichage d’un champ masqué.
-seo-description: Le composant Masqué du formulaire des composants principaux permet l’affichage d’un champ masqué.
-uuid: f5005346-def5-4e1f-8f93-e4cfc67a9329
-content-type: référence
-products: SG_EXPERIENCEMANAGER/CORECOMPONENTS-new
-discoiquuid: d35f4e71-ec7f-4128-9123-b997dbb5f0cf
 index: n
 translation-type: tm+mt
-source-git-commit: 4e74f10e2a4119484a597178dc4577b399833dbf
+source-git-commit: 5439f90faef28c72367419bb7429a3a880b65229
 
 ---
 
@@ -43,7 +37,7 @@ Le tableau ci-après répertorie la compatibilité de la version v1 du composant
 
 ## Exemple de sortie de composant {#sample-component-output}
 
-The following is sample taken from We.Retail.[](https://helpx.adobe.com/experience-manager/6-4/sites/developing/using/we-retail.html)
+Voici un exemple extrait de [We.Retail](https://helpx.adobe.com/experience-manager/6-4/sites/developing/using/we-retail.html).
 
 ### HTML {#html}
 
@@ -101,7 +95,7 @@ Il n’existe pas de boîte de dialogue de conception pour le composant Masqué 
 
 ## Détails techniques {#technical-details}
 
-La documentation technique la plus récente sur le composant masqué de formulaire [se trouve sur GitHub](https://github.com/adobe/aem-core-wcm-components/tree/master/content/src/content/jcr_root/apps/core/wcm/components/form/hidden/v1/hidden).
+The latest technical documentation about the Form Hidden Component [can be found on GitHub](https://github.com/adobe/aem-core-wcm-components/tree/master/content/src/content/jcr_root/apps/core/wcm/components/form/hidden/v1/hidden).
 
 Le projet sur les composants principaux peut être téléchargé depuis GitHub.
 
