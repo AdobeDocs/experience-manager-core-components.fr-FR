@@ -1,23 +1,15 @@
 ---
 title: Composant de fragment de contenu
-seo-title: Composant de fragment de contenu
-description: 'null'
-seo-description: Le composant de fragment de contenu des composants principaux permet l’affichage d’un fragment de contenu.
-uuid: ec807de9-f76c-4850-9ece-c3e439a1d626
-contentOwner: Utilisateur
-content-type: référence
-topic-tags: création
-products: SG_EXPERIENCEMANAGER/CORECOMPONENTS-new
-discoiquuid: f093f58e-9755-4a4f-803a-ab93a50e6870
+description: Le composant de fragment de contenu des composants principaux permet l’affichage d’un fragment de contenu.
 translation-type: tm+mt
-source-git-commit: 548972c65751b594cd62234d4681634a60fa41e2
+source-git-commit: 65f900ad6759206a13f2bda6169900f62d968d8d
 
 ---
 
 
 # Composant de fragment de contenu{#content-fragment-component}
 
-The Core Component Content Fragment component allows for the display of a [content fragment](https://helpx.adobe.com/experience-manager/6-5/assets/using/content-fragments.html).
+The Core Component Content Fragment component allows for the display of a [content fragment](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/assets/content-fragments/content-fragments.html).
 
 >[!NOTE]
 >
@@ -25,11 +17,11 @@ The Core Component Content Fragment component allows for the display of a [conte
 
 ## Utilisation {#usage}
 
-The Core Component Content Fragment Component allows for the inclusion of a [content fragment](https://helpx.adobe.com/experience-manager/6-5/assets/using/content-fragments.html) on a page.
+The Core Component Content Fragment Component allows for the inclusion of a [content fragment](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/assets/content-fragments/content-fragments.html) on a page.
 
 * Le fragment et ses propriétés peuvent être sélectionnés dans la [boîte de dialogue de configuration](#configure-dialog).
 * Les types de ressources qui permettent de gérer certaines images et grilles peuvent être définis dans la [boîte de dialogue de conception](#design-dialog).
-* The edit option will open the selected fragment within the [content fragment editor](https://helpx.adobe.com/content/help/en/experience-manager/6-5/assets/using/content-fragments.html).
+* The edit option will open the selected fragment within the [content fragment editor](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/assets/content-fragments/content-fragments-variations.html).
 
 ## Version et compatibilité {#version-and-compatibility}
 
@@ -37,9 +29,9 @@ La version actuelle du composant de fragment de contenu est v1, qui a été intr
 
 Le tableau ci-après présente en détail toutes les versions prises en charge du composant, les versions AEM avec lesquelles les versions du composant sont compatibles et les liens vers la documentation pour les versions précédentes.
 
-| Version du composant | AEM 6.3 | AEM 6.4 | AEM 6.5 |
-|--- |--- |--- |---|
-| v1 | Compatible | Compatible | Compatible |
+| Version du composant | AEM 6.3 | AEM 6.4 | AEM 6.5 | AEM en tant que service cloud |
+|--- |--- |--- |---|---|
+| v1 | Compatible | Compatible | Compatible | Compatible |
 
 >[!NOTE]
 >
@@ -57,11 +49,11 @@ Pour plus d’informations sur les versions et les publications des composants p
 
 ## Exemple de sortie de composant {#sample-component-output}
 
-Pour tester le composant de fragment de contenu, des exemples d’options de configuration, ainsi que des sorties HTML et JSON, consultez la [bibliothèque de composants](http://opensource.adobe.com/aem-core-wcm-components/library/content-fragment.html).
+Pour tester le composant de fragment de contenu, des exemples d’options de configuration, ainsi que des sorties HTML et JSON, consultez la [bibliothèque de composants](https://adobe.com/go/aem_cmp_library_cf).
 
 ## Détails techniques {#technical-details}
 
-La documentation technique la plus récente sur le composant de fragment de contenu [est disponible sur GitHub](https://github.com/adobe/aem-core-wcm-components/tree/master/content/src/content/jcr_root/apps/core/wcm/components/contentfragment/v1/contentfragment).
+The latest technical documentation about the Content Fragment Component [can be found on GitHub](https://adobe.com/go/aem_cmp_tech_cf_v1).
 
 Vous trouverez plus d’informations sur le développement des composants principaux dans la [documentation destinée aux développeurs de composants principaux](developing.md).
 
@@ -102,3 +94,4 @@ La boîte de dialogue de conception permet à l’auteur du modèle de définir 
 * **Grille réactive interne**
 
    * Type de ressource Sling utilisé pour la grille réactive interne
+
