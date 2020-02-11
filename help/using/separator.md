@@ -1,13 +1,8 @@
 ---
 title: Composant du séparateur
-seo-title: Composant du séparateur
 description: Le composant du séparateur crée un saut entre les composants d’une page.
-seo-description: Le composant du séparateur crée un saut entre les composants d’une page.
-contentOwner: bohnert
-content-type: référence
-topic-tags: core-components
 translation-type: tm+mt
-source-git-commit: eef608fb06001485aa2c2c0b574af412ed7f15a4
+source-git-commit: 65f900ad6759206a13f2bda6169900f62d968d8d
 
 ---
 
@@ -26,17 +21,17 @@ La version actuelle du composant du séparateur est v1, qui a été introduite 
 
 Le tableau ci-après présente en détail toutes les versions prises en charge du composant, les versions AEM avec lesquelles les versions du composant sont compatibles et les liens vers la documentation pour les versions précédentes.
 
-| Version du composant | AEM 6.3 | AEM 6.4 | AEM 6.5 |
-|---|---|---|---|
-| v1 | Compatible | Compatible | Compatible |
+| Version du composant | AEM 6.3 | AEM 6.4 | AEM 6.5 | AEM en tant que service cloud |
+|---|---|---|---|---|
+| v1 | Compatible | Compatible | Compatible | Compatible |
 
 ## Exemple de sortie de composant {#sample-component-output}
 
-Pour tester le composant du séparateur, des exemples d’options de configuration, ainsi que des sorties HTML et JSON, consultez la [Bibliothèque de composants](http://opensource.adobe.com/aem-core-wcm-components/library/separator.html).
+Pour tester le composant du séparateur, des exemples d’options de configuration, ainsi que des sorties HTML et JSON, consultez la [Bibliothèque de composants](https://adobe.com/go/aem_cmp_library_separator).
 
 ### Détails techniques {#technical-details}
 
-The latest technical documentation about the Separator Component [can be found on GitHub](https://github.com/adobe/aem-core-wcm-components/blob/master/content/src/content/jcr_root/apps/core/wcm/components/separator/v1/separator).
+The latest technical documentation about the Separator Component [can be found on GitHub](https://adobe.com/go/aem_cmp_tech_separator_v1).
 
 Vous trouverez plus d’informations sur le développement des composants principaux dans la [documentation destinée aux développeurs de composants principaux](developing.md).
 
