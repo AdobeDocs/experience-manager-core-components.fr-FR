@@ -1,25 +1,8 @@
 ---
 title: Composant de bouton de formulaire
-seo-title: Composant de bouton de formulaire
-description: 'null'
-seo-description: Le composant Masqué du formulaire des composants principaux permet l’inclusion d’un champ masqué dans un formulaire.
-uuid: 22c53cd0-d0bc-4e5d-89f3-5ac4f61a9100
-contentOwner: Utilisateur
-content-type: référence
-topic-tags: création
-products: SG_EXPERIENCEMANAGER/CORECOMPONENTS-new
-discoiquuid: a6e2974a-243f-40ab-903c-c7d3e8615bcc
-disttype: dist5
-gnavtheme: light
-groupsectionnavitems: non
-hidemerchandisingbar: inherit
-hidepromocomponent: inherit
-modalsize: 426x240
-index: y
-internal: n
-snippet: y
+description: Le composant Masqué du formulaire des composants principaux permet l’inclusion d’un champ masqué dans un formulaire.
 translation-type: tm+mt
-source-git-commit: 1243d6cc1b0b015ee2f37ae89d0e2e42d366cc02
+source-git-commit: 60df01ca9efe59b67bad57610d04496a2cdded9e
 
 ---
 
@@ -40,16 +23,16 @@ La version actuelle du composant de bouton de formulaire est v2, qui a été int
 
 Le tableau ci-après présente en détail toutes les versions prises en charge du composant, les versions AEM avec lesquelles les versions du composant sont compatibles et les liens vers la documentation pour les versions précédentes.
 
-| Version du composant | AEM 6.3 | AEM 6.4 | AEM 6.5 |
-|--- |--- |--- |--- |
-| v2 | Compatible | Compatible | Compatible |
-| [v1](form-button-v1.md) | Compatible | Compatible | Compatible |
+| Version du composant | AEM 6.3 | AEM 6.4 | AEM 6.5 | AEM en tant que service cloud |
+|--- |--- |--- |--- |---|
+| v2 | Compatible | Compatible | Compatible | Compatible |
+| [v1](form-button-v1.md) | Compatible | Compatible | Compatible | - |
 
 Pour plus d’informations sur les versions et les publications des composants principaux, voir le document sur les [versions des composants principaux](versions.md).
 
 ## Exemple de sortie de composant {#sample-component-output}
 
-The following is sample taken from We.Retail.[](https://helpx.adobe.com/experience-manager/6-5/sites/developing/using/we-retail.html)
+Voici un exemple extrait de [We.Retail](https://helpx.adobe.com/experience-manager/6-5/sites/developing/using/we-retail.html).
 
 ### Capture d’écran {#screenshot}
 
@@ -85,7 +68,7 @@ The following is sample taken from We.Retail.[](https://helpx.adobe.com/experien
 
 ### Détails techniques {#technical-details}
 
-The latest technical documentation about the Form Button Component [can be found on GitHub](https://github.com/adobe/aem-core-wcm-components/blob/master/content/src/content/jcr_root/apps/core/wcm/components/form/button/v2/button).
+The latest technical documentation about the Form Button Component [can be found on GitHub](https://adobe.com/go/aem_cmp_tech_form_button_v2).
 
 Vous trouverez plus d’informations sur le développement des composants principaux dans la [documentation destinée aux développeurs de composants principaux](developing.md).
 
