@@ -1,23 +1,8 @@
 ---
 title: Composant du carrousel
-seo-title: Composant du carrousel
-description: 'null'
-seo-description: Le composant du carrousel permet à l’auteur de contenu de présenter le contenu dans un carrousel rotatif.
-uuid: 34934491-bd85-4f1e-ae22-bb48ed4dbd5c
-content-type: référence
-topic-tags: core-components
-discoiquuid: 3510812b-9d3e-40fe-b986-0f15d40b42ad
-disttype: dist5
-gnavtheme: light
-groupsectionnavitems: non
-hidemerchandisingbar: inherit
-hidepromocomponent: inherit
-modalsize: 426x240
-index: y
-internal: n
-snippet: y
-translation-type: ht
-source-git-commit: da404fff6c6e934bbe06a5c4d441d89281ed0c54
+description: Le composant du carrousel permet à l’auteur de contenu de présenter le contenu dans un carrousel rotatif.
+translation-type: tm+mt
+source-git-commit: 65f900ad6759206a13f2bda6169900f62d968d8d
 
 ---
 
@@ -38,19 +23,19 @@ La version actuelle du composant du carrousel est v1, qui a été introduite ave
 
 Le tableau ci-après présente en détail toutes les versions prises en charge du composant, les versions AEM avec lesquelles les versions du composant sont compatibles et les liens vers la documentation pour les versions précédentes.
 
-| Version du composant | AEM 6.3 | AEM 6.4 | AEM 6.5 |
-|--- |--- |--- |--- |
-| v1 | Compatible | Compatible | Compatible |
+| Version du composant | AEM 6.3 | AEM 6.4 | AEM 6.5 | AEM en tant que service cloud |
+|--- |--- |--- |--- |---|
+| v1 | Compatible | Compatible | Compatible | Compatible |
 
 Pour plus d’informations sur les versions et les publications des composants principaux, voir le document sur les [versions des composants principaux](versions.md).
 
 ## Exemple de sortie de composant {#sample-component-output}
 
-Pour tester le composant du carrousel, des exemples d’options de configuration, ainsi que des sorties HTML et JSON, consultez la [bibliothèque de composants](http://opensource.adobe.com/aem-core-wcm-components/library/carousel.html).
+Pour tester le composant du carrousel, des exemples d’options de configuration, ainsi que des sorties HTML et JSON, consultez la [bibliothèque de composants](https://adobe.com/go/aem_cmp_library_carousel).
 
 ### Détails techniques {#technical-details}
 
-La documentation technique la plus récente sur le composant du carrousel [se trouve sur GitHub](https://github.com/adobe/aem-core-wcm-components/blob/master/content/src/content/jcr_root/apps/core/wcm/components/carousel/v1/carousel).
+La documentation technique la plus récente sur le composant du carrousel [se trouve sur GitHub](https://adobe.com/go/aem_cmp_tech_carousel_v1).
 
 Vous trouverez plus d’informations sur le développement des composants principaux dans la [documentation destinée aux développeurs de composants principaux](developing.md).
 
@@ -71,7 +56,7 @@ Utilisez le bouton **Ajouter** pour ouvrir le sélecteur de composants afin de c
 
 >[!TIP]
 >
->Si la fenêtre d’affichage de la page est réduite, de sorte que la boîte de dialogue de modification s’affiche en plein écran, le bouton **Ajouter** est masqué. Vous pouvez toujours ajouter des composants au composant du carrousel en [les faisant glisser depuis l’explorateur de composants et en les déposant ensuite sur le composant du carrousel dans l’éditeur de page](https://helpx.adobe.com/experience-manager/6-5/sites/authoring/using/editing-content.html#InsertingaComponent).
+>Si la fenêtre d’affichage de la page est réduite, de sorte que la boîte de dialogue de modification s’affiche en plein écran, le bouton **Ajouter** est masqué. Vous pouvez toujours ajouter des composants au composant du carrousel en [les faisant glisser depuis l’explorateur de composants et en les déposant ensuite sur le composant du carrousel dans l’éditeur de page](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/sites/authoring/fundamentals/editing-content.html#inserting-a-component-from-the-components-browser).
 
 ### Onglet Propriétés {#properties-tab}
 
@@ -85,9 +70,9 @@ Dans l’onglet **Propriétés**, l’auteur du contenu peut définir les diapos
 
 >[!NOTE]
 >
->Les commandes d’avance de diapositives ne sont pas activées en mode **Édition**. Utilisez le mode [**Aperçu**](https://helpx.adobe.com/experience-manager/6-5/sites/authoring/using/editing-content.html) ou l’option **[Afficher comme publié(e)](https://helpx.adobe.com/experience-manager/6-5/sites/authoring/using/editing-content.html)** pour interagir avec le carrousel en tant que lecteur du contenu publié.
+>Les commandes d’avance de diapositives ne sont pas activées en mode **Édition**. Utilisez le mode [**Aperçu **](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/sites/authoring/fundamentals/editing-content.html#preview-mode)ou l’option **[Afficher comme publié(e)](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/sites/authoring/fundamentals/editing-content.html#view-as-published)**pour interagir avec le carrousel en tant que lecteur du contenu publié.
 >
->La fonction d’avance automatique n’est pas activée en mode **Édition**. Utilisez l’option **[Afficher comme publié(e)](https://helpx.adobe.com/experience-manager/6-5/sites/authoring/using/editing-content.html)** pour afficher la fonctionnalité d’avance automatique en tant que lecteur du contenu publié.
+>La fonction d’avance automatique n’est pas activée en mode **Édition**. Utilisez l’option **[Afficher comme publié(e)](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/sites/authoring/fundamentals/editing-content.html#view-as-published)**pour afficher la fonctionnalité d’avance automatique en tant que lecteur du contenu publié.
 
 ### Onglet Accessibilité {#accessibility-tab}
 
@@ -131,7 +116,7 @@ L’onglet **Propriétés** permet de définir les paramètres par défaut des t
 
 L’onglet **Composants autorisés** permet de définir les composants pouvant être ajoutés en tant que diapositives au composant du carrousel par l’auteur du contenu.
 
-L’onglet Composants autorisés fonctionne de la même manière que l’onglet du même nom lors de la [définition de la stratégie et des propriétés d’un conteneur de mises en page dans l’éditeur de modèles.](https://helpx.adobe.com/fr/experience-manager/6-5/sites/authoring/using/templates.html)
+L’onglet Composants autorisés fonctionne de la même manière que l’onglet du même nom lors de la [définition de la stratégie et des propriétés d’un conteneur de mises en page dans l’éditeur de modèles](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/sites/authoring/features/templates.html).
 
 ### Onglet Styles {#styles-tab}
 
