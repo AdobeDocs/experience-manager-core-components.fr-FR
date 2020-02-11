@@ -1,25 +1,8 @@
 ---
 title: Liste des composants
-seo-title: Liste des composants
-description: 'null'
-seo-description: Le composant principal Liste permet de créer facilement des listes dynamiques et statiques.
-uuid: 50a572e8-b444-4f7d-82bc-5a93ebb4be95
-contentOwner: Utilisateur
-content-type: référence
-topic-tags: création
-products: SG_EXPERIENCEMANAGER/CORECOMPONENTS-new
-discoiquuid: 89053323-6221-46ed-896a-31a42c55282e
-disttype: dist5
-gnavtheme: light
-groupsectionnavitems: non
-hidemerchandisingbar: inherit
-hidepromocomponent: inherit
-modalsize: 426x240
-index: y
-internal: n
-snippet: y
+description: Le composant principal Liste permet de créer facilement des listes dynamiques et statiques.
 translation-type: tm+mt
-source-git-commit: eef608fb06001485aa2c2c0b574af412ed7f15a4
+source-git-commit: 60df01ca9efe59b67bad57610d04496a2cdded9e
 
 ---
 
@@ -38,20 +21,20 @@ La version actuelle du composant Liste est v2, qui a été introduite avec la ve
 
 Le tableau ci-après présente en détail toutes les versions prises en charge du composant, les versions AEM avec lesquelles les versions du composant sont compatibles et les liens vers la documentation pour les versions précédentes.
 
-| Version du composant | AEM 6.3 | AEM 6.4 | AEM 6.5 |
-|--- |--- |--- |--- |
-| v2 | Compatible | Compatible | Compatible |
-| [v1](list-v1.md) | Compatible | Compatible | Compatible |
+| Version du composant | AEM 6.3 | AEM 6.4 | AEM 6.5 | AEM en tant que service cloud |
+|--- |--- |--- |--- |---|
+| v2 | Compatible | Compatible | Compatible | Compatible |
+| [v1](list-v1.md) | Compatible | Compatible | Compatible | - |
 
 Pour plus d’informations sur les versions et les publications des composants principaux, voir le document sur les [versions des composants principaux](versions.md).
 
 ## Exemple de sortie de composant {#sample-component-output}
 
-Pour tester le composant de liste, des exemples d’options de configuration, ainsi que des sorties HTML et JSON, consultez la [Bibliothèque de composants](http://opensource.adobe.com/aem-core-wcm-components/library/list.html).
+Pour tester le composant de liste, des exemples d’options de configuration, ainsi que des sorties HTML et JSON, consultez la [Bibliothèque de composants](https://adobe.com/go/aem_cmp_library_list).
 
 ### Détails techniques {#technical-details}
 
-La documentation technique la plus récente sur le composant de liste [se trouve sur GitHub](https://github.com/adobe/aem-core-wcm-components/blob/master/content/src/content/jcr_root/apps/core/wcm/components/list/v2/list).
+The latest technical documentation about the List Component [can be found on GitHub](https://adobe.com/go/aem_cmp_tech_list_v2).
 
 Vous trouverez plus d’informations sur le développement des composants principaux dans la [documentation destinée aux développeurs de composants principaux](developing.md).
 
@@ -148,7 +131,7 @@ Ordre dans lequel les éléments doivent être triés.
 Nombre maximal d’éléments affichés dans la liste.
    * Laissez vide pour renvoyer tous les éléments.
 
-### Onglet Paramètres d'élément {#item-settings-tab}
+### Onglet Paramètres d&#39;élément {#item-settings-tab}
 
 À l’aide de l’onglet Paramètres d’élément, la mise en forme des éléments de liste peut être configurée.
 
