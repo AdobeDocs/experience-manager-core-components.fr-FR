@@ -1,15 +1,9 @@
 ---
 title: Composant Page (v1)
-seo-title: Composant Page (v1)
 description: Le composant Page est un composant de page extensible, conçu pour fonctionner avec l’éditeur de modèles et autoriser l’assemblage de composants d’en-tête/de pied de page et de structure de page avec l’éditeur de modèles.
-seo-description: Le composant Page est un composant de page extensible, conçu pour fonctionner avec l’éditeur de modèles et autoriser l’assemblage de composants d’en-tête/de pied de page et de structure à l’aide de l’éditeur de modèles.
-uuid: dd1b1e58-ae14-4818-afbe-8bcff0de2c32
-content-type: référence
-topic-tags: core-components
-discoiquuid: b3f1775d-743d-4f72-a1e5-198303007a8e
 index: n
 translation-type: tm+mt
-source-git-commit: 4e74f10e2a4119484a597178dc4577b399833dbf
+source-git-commit: 5439f90faef28c72367419bb7429a3a880b65229
 
 ---
 
@@ -20,13 +14,13 @@ The Page Component is an extensible page component designed to work with the [te
 
 ## Utilisation {#usage}
 
-Le composant Page sert de base à toutes les pages conçues avec les composants principaux ainsi que les modèles modifiables. En utilisant le composant Page, les en-têtes, les pieds de page et la structure de la page peuvent être définis dans un modèle à l'aide des autres composants principaux.
+Le composant Page sert de base à toutes les pages conçues avec les composants principaux ainsi que les modèles modifiables. En utilisant le composant Page, les en-têtes, les pieds de page et la structure de la page peuvent être définis dans un modèle à l&#39;aide des autres composants principaux.
 
 Grâce à la [boîte de dialogue de conception](page-v1.md#main-pars_title_1995166862), les bibliothèques côté client personnalisées peuvent être définies pour la page. Contrairement aux autres composants dont la boîte de dialogue de modification est accessible directement à partir de ceux-ci, puisque le composant est la page elle-même, la [boîte de dialogue de modification](page-v1.md#main-pars_title) du composant de page est la fenêtre des propriétés de la page.
 
 ## Version et compatibilité {#version-and-compatibility}
 
-Ce document décrit la version v1 du composant Page, introduite à l'origine avec la version 1.0.0 des composants principaux avec AEM 6.3.
+Ce document décrit la version v1 du composant Page, introduite à l&#39;origine avec la version 1.0.0 des composants principaux avec AEM 6.3.
 
 Le tableau suivant répertorie la compatibilité de la version v1 du composant Page.
 
@@ -47,7 +41,7 @@ Le tableau suivant répertorie la compatibilité de la version v1 du composant P
 
 ## Exemple de sortie de composant {#sample-component-output}
 
-The following is sample taken from We.Retail.[](https://helpx.adobe.com/experience-manager/6-4/sites/developing/using/we-retail.html)
+Voici un exemple extrait de [We.Retail](https://helpx.adobe.com/experience-manager/6-4/sites/developing/using/we-retail.html).
 
 ### Capture d’écran {#screenshot}
 
@@ -689,7 +683,7 @@ Because the component represents the entire page, settings that would normally b
 
 ## Boîte de dialogue de conception {#design-dialog}
 
-Puisque le composant représente la page entière, la boîte de dialogue de conception est accessible via **les informations de page -&gt; Conception de page**.
+Puisque le composant représente la page entière, la boîte de dialogue de conception est accessible via **les informations de page -> Conception de page**.
 
 ![](assets/chlimage_1-94.png)
 
@@ -705,7 +699,7 @@ For more information about using client-side libraries see [Using Client Side Li
 
 ## Détails techniques {#technical-details}
 
-The latest technical documentation about the Page Component can be found on GitHub.[](https://github.com/adobe/aem-core-wcm-components/tree/master/content/src/content/jcr_root/apps/core/wcm/components/page/v1/page)
+The latest technical documentation about the Page Component [can be found on GitHub](https://github.com/adobe/aem-core-wcm-components/tree/master/content/src/content/jcr_root/apps/core/wcm/components/page/v1/page).
 
 Le projet sur les composants principaux peut être téléchargé depuis GitHub.
 
