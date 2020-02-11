@@ -1,13 +1,8 @@
 ---
 title: Module ui.content de l’archétype de projet AEM
-seo-title: Module ui.content de l’archétype de projet AEM
 description: Module ui.content de l’archétype de projet AEM
-seo-description: Module ui.content de l’archétype de projet AEM
-contentOwner: bohnert
-content-type: référence
-topic-tags: core-components
-translation-type: ht
-source-git-commit: 3c37b57eb72d1d662cdbd41ca54cdc592919203c
+translation-type: tm+mt
+source-git-commit: 945381996db443c227aa31f0aacb963071165681
 
 ---
 
