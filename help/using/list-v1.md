@@ -1,24 +1,9 @@
 ---
 title: Composant Liste (v1)
-seo-title: Composant Liste (v1)
-description: 'null'
-seo-description: Le composant principal Liste permet de créer facilement des listes dynamiques et statiques.
-uuid: 06658c9d-cbf2-4bfe-b425-d980d1181908
-content-type: référence
-products: SG_EXPERIENCEMANAGER/CORECOMPONENTS-new
-discoiquuid: 7c130ccc-83ff-464d-b58f-d581f4365dbd
-disttype: dist5
-gnavtheme: light
-groupsectionnavitems: non
-hidemerchandisingbar: inherit
-hidepromocomponent: inherit
-modalsize: 426x240
-noindex: 'true'
+description: Le composant principal Liste permet de créer facilement des listes dynamiques et statiques.
 index: n
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: 4e74f10e2a4119484a597178dc4577b399833dbf
+source-git-commit: 5439f90faef28c72367419bb7429a3a880b65229
 
 ---
 
@@ -272,7 +257,7 @@ Dans l’onglet **Paramètres d’élément**, les options de formatage des él�
 
 ## Détails techniques {#technical-details}
 
-La documentation technique la plus récente sur le composant de liste [se trouve sur GitHub](https://github.com/adobe/aem-core-wcm-components/tree/master/content/src/content/jcr_root/apps/core/wcm/components/list/v1/list).
+The latest technical documentation about the List Component [can be found on GitHub](https://github.com/adobe/aem-core-wcm-components/tree/master/content/src/content/jcr_root/apps/core/wcm/components/list/v1/list).
 
 Le projet sur les composants principaux peut être téléchargé depuis GitHub.
 
