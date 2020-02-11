@@ -1,12 +1,8 @@
 ---
 title: Composant Incorporer
-seo-title: Composant Incorporer
 description: Le composant Incorporer permet d’incorporer du contenu externe dans une page de contenu AEM.
-seo-description: Le composant Incorporer permet d’incorporer du contenu externe dans une page de contenu AEM.
-content-type: référence
-topic-tags: core-components
-translation-type: ht
-source-git-commit: 648a54d3ab76ec9a9dee10dc97a3f91e6b7509df
+translation-type: tm+mt
+source-git-commit: 65f900ad6759206a13f2bda6169900f62d968d8d
 
 ---
 
@@ -28,19 +24,19 @@ La version actuelle du composant Incorporer est v1, qui a été introduite avec 
 
 Le tableau ci-après présente en détail toutes les versions prises en charge du composant, les versions AEM avec lesquelles les versions du composant sont compatibles et les liens vers la documentation pour les versions précédentes.
 
-| Version du composant | AEM 6.3 | AEM 6.4 | AEM 6.5 |
-|--- |--- |--- |---|
-| v1 | Compatible | Compatible | Compatible |
+| Version du composant | AEM 6.3 | AEM 6.4 | AEM 6.5 | AEM en tant que service cloud |
+|--- |--- |--- |---|---|
+| v1 | Compatible | Compatible | Compatible | Compatible |
 
 Pour plus d’informations sur les versions et les publications des composants principaux, voir le document sur les [versions des composants principaux](versions.md).
 
 ## Exemple de sortie de composant {#sample-component-output}
 
-Pour tester le composant Incorporer et obtenir des exemples d’options de configuration, ainsi que des sorties HTML et JSON, consultez la [Bibliothèque de composants](http://opensource.adobe.com/aem-core-wcm-components/library/embed.html).
+Pour tester le composant Incorporer et obtenir des exemples d’options de configuration, ainsi que des sorties HTML et JSON, consultez la [Bibliothèque de composants](https://adobe.com/go/aem_cmp_library_embed).
 
 ## Détails techniques {#technical-details}
 
-La documentation technique la plus récente sur le composant Incorporer [se trouve sur GitHub](https://github.com/adobe/aem-core-wcm-components/tree/master/content/src/content/jcr_root/apps/core/wcm/components/embed/v1/embed).
+La documentation technique la plus récente sur le composant Incorporer [se trouve sur GitHub](https://adobe.com/go/aem_cmp_tech_embed_v1).
 
 Vous trouverez plus d’informations sur le développement des composants principaux dans la [documentation destinée aux développeurs de composants principaux](developing.md).
 
@@ -99,7 +95,7 @@ Les balises HTML que l’auteur peut entrer sont filtrées à des fins de sécur
 
 Toutefois, les règles sont plus complexes, car le composant Incorporer suit l’ensemble de règles de filtrage de la structure d’assainissement HTML AntiSamy d’AEM, qui se trouve à l’adresse `/libs/cq/xssprotection/config.xml`. Cela peut être superposé pour une configuration spécifique au projet par un développeur, si nécessaire.
 
-Des informations de sécurité supplémentaires sont disponibles dans la [documentation AEM destinée aux développeurs](https://helpx.adobe.com/fr/experience-manager/6-5/sites/developing/using/security.html).
+Vous trouverez des informations de sécurité supplémentaires dans la documentation du développeur [AEM pour les installations](https://docs.adobe.com/content/help/en/experience-manager-65/developing/introduction/security.html) sur site ainsi que dans [AEM en tant qu’installations de service Cloud.](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/security/home.html)
 
 >[!NOTE]
 >Bien que les règles de structure d’assainissement AntiSamy puissent être configurées en superposant `/libs/cq/xssprotection/config.xml`, ces modifications ont un impact sur l’ensemble du comportement HTL et JSP et pas seulement sur le composant principal Incorporer.
