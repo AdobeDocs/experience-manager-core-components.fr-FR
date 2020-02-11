@@ -1,24 +1,8 @@
 ---
 title: Composant Navigation
-seo-title: Composant Navigation
-description: 'null'
-seo-description: Le composant Navigation permet aux utilisateurs de parcourir facilement une structure de site globalisée.
-uuid: 616c03fb-39b3-402a-b990-f56c87bc6df4
-content-type: reference
-topic-tags: authoring
-products: SG_EXPERIENCEMANAGER/CORECOMPONENTS-new
-discoiquuid: da8d67d7-b65e-4041-bc0e-e998f24a68f9
-disttype: dist5
-gnavtheme: light
-groupsectionnavitems: false
-hidemerchandisingbar: inherit
-hidepromocomponent: inherit
-modalsize: 426x240
-index: y
-internal: n
-snippet: y
-translation-type: ht
-source-git-commit: 9718a1075b5789db9b71d25b3146f9643bb69ad0
+description: Le composant Navigation permet aux utilisateurs de parcourir facilement une structure de site globalisée.
+translation-type: tm+mt
+source-git-commit: 65f900ad6759206a13f2bda6169900f62d968d8d
 
 ---
 
@@ -107,19 +91,19 @@ La version actuelle du composant de navigation est v1, qui a été introduite av
 
 Le tableau ci-après présente en détail toutes les versions prises en charge du composant, les versions AEM avec lesquelles les versions du composant sont compatibles et les liens vers la documentation pour les versions précédentes.
 
-| Version du composant | AEM 6.3 | AEM 6.4 | AEM 6.5 |
-|--- |--- |--- |--- |
-| v1 | Compatible | Compatible | Compatible |
+| Version du composant | AEM 6.3 | AEM 6.4 | AEM 6.5 | AEM en tant que service cloud |
+|--- |--- |--- |--- |---|
+| v1 | Compatible | Compatible | Compatible | Compatible |
 
 Pour plus d’informations sur les versions et les publications des composants principaux, voir le document sur les [versions des composants principaux](versions.md).
 
 ## Exemple de sortie de composant {#sample-component-output}
 
-Pour tester le composant de navigation et obtenir des exemples d’options de configuration, ainsi que des sorties HTML et JSON, consultez la [Bibliothèque de composants](http://opensource.adobe.com/aem-core-wcm-components/library/navigation.html).
+Pour tester le composant de navigation et obtenir des exemples d’options de configuration, ainsi que des sorties HTML et JSON, consultez la [Bibliothèque de composants](https://adobe.com/go/aem_cmp_library_navigation).
 
 ## Détails techniques {#technical-details}
 
-La documentation technique la plus récente sur le composant de navigation [se trouve sur GitHub](https://github.com/adobe/aem-core-wcm-components/blob/master/content/src/content/jcr_root/apps/core/wcm/components/navigation/v1/navigation).
+La documentation technique la plus récente sur le composant de navigation [se trouve sur GitHub](https://adobe.com/go/aem_cmp_tech_navigation_v1).
 
 Vous trouverez plus d’informations sur le développement des composants principaux dans la [documentation destinée aux développeurs de composants principaux](developing.md).
 
