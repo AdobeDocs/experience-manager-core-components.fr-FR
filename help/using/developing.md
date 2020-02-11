@@ -1,16 +1,8 @@
 ---
 title: Développement des composants principaux
-seo-title: Développement des composants principaux
 description: Les composants principaux fournissent des composants de base robustes et extensibles qui offrent de riches fonctionnalités, une diffusion en continu, un contrôle de version des composants, une mise en œuvre moderne, un balisage Lean et une exportation JSON de contenu.
-seo-description: Les composants principaux fournissent des composants de base robustes et extensibles qui offrent de riches fonctionnalités, une diffusion en continu, un contrôle de version des composants, une mise en œuvre moderne, un balisage Lean et une exportation JSON de contenu.
-uuid: 68569da2-9bc8-4e20-9a71-e5816ace51ce
-contentOwner: User
-content-type: reference
-topic-tags: developing
-products: SG_EXPERIENCEMANAGER/CORECOMPONENTS-new
-discoiquuid: 157a2ec3-9fca-4fad-977a-d93013eeb218
-translation-type: ht
-source-git-commit: 0f84eb6d52b9d6d76a4347d371367acf3d34e58e
+translation-type: tm+mt
+source-git-commit: 5439f90faef28c72367419bb7429a3a880b65229
 
 ---
 
@@ -32,20 +24,20 @@ Les composants principaux fournissent des composants de base robustes et extensi
    * [Assure la compatibilité dans une version](#upgrade-of-core-components), tout en permettant aux composants d’évoluer
    * Permet à plusieurs versions d’un composant de coexister sur un même environnement
 * Implémentation moderne
-   * Balisage défini dans le [langage HTL](https://helpx.adobe.com/fr/experience-manager/htl/using/overview.html)
+   * Balisage défini dans le [langage HTL](https://docs.adobe.com/content/help/en/experience-manager-htl/using/overview.html)
    * Logique du modèle de contenu implémentée avec les [modèles Sling](https://sling.apache.org/documentation/bundles/models.html)
 * Balisage Lean
    * D’après la notation du [Block Element Modifier](https://getbem.com/) (BEM) depuis la version 2.0.0
       * La version précédente suit les conventions [Bootstrap](https://getbootstrap.com/css/) / d’affectation de noms
-   * Conçus selon les [consignes d’accessibilité](https://helpx.adobe.com/fr/experience-manager/6-5/managing/using/web-accessibility.html)
+   * Conçus selon les [consignes d’accessibilité](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/sites/authoring/fundamentals/accessible-content.html)
    * Capacité à être utilisé pour les sites réactifs et mobiles
 * Possibilité de sérialiser en JSON le modèle de contenu pour les cas d’utilisation d’un CMS headless
 * Accessibles
-   * Conformes à la [norme WCAG 2.0 AA](https://helpx.adobe.com/fr/experience-manager/6-5/managing/using/web-accessibility.html)
+   * Conformes à la [norme WCAG 2.0 AA](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/sites/authoring/fundamentals/accessible-content.html)
 
 >[!CAUTION]
 >
->Les composants principaux requièrent AEM 6.3 ou une version ultérieure ainsi que Java 8. Ils requièrent aussi l’utilisation de [modèles modifiables](https://helpx.adobe.com/fr/experience-manager/6-5/sites/authoring/using/templates.html).
+>Les composants principaux requièrent AEM 6.3 ou une version ultérieure ainsi que Java 8. Ils requièrent aussi l’utilisation de [modèles modifiables](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/sites/authoring/features/templates.html).
 >
 >Les composants principaux ne fonctionnent pas avec l’interface utilisateur classique ni avec les modèles statiques.
 
@@ -53,15 +45,15 @@ Les composants principaux fournissent des composants de base robustes et extensi
 
 Pour une présentation des composants principaux, des fonctionnalités qu’ils proposent et de leur utilisation dans AEM, consultez la session AEM Gems sur les [composants principaux AEM.](https://helpx.adobe.com/experience-manager/kt/eseminars/gems/AEM-Core-Components.html)
 
-[Gems sur Adobe Experience Manager](https://helpx.adobe.com/fr/experience-manager/kt/eseminars/gems/aem-index.html) est une série de séances approfondies sur des aspects techniques réalisées par des experts Adobe. Cette série complète la documentation du produit et de tous les autres canaux techniques, ce qui permet aux développeurs de communiquer entre eux et d’approfondir un sujet spécifique.
+[Gems sur Adobe Experience Manager](https://helpx.adobe.com/experience-manager/kt/eseminars/gems/aem-index.html) est une série de séances approfondies sur des aspects techniques réalisées par des experts Adobe. Cette série complète la documentation du produit et de tous les autres canaux techniques, ce qui permet aux développeurs de communiquer entre eux et d’approfondir un sujet spécifique.
 
 ## Tutoriel du développeur WKND {#wknd-developer-tutorial}
 
-Commencez à développer AEM Sites avec des composants principaux en suivant ce [tutoriel détaillé.](https://helpx.adobe.com/experience-manager/6-5/sites/developing/using/getting-started.html)
+Commencez à développer AEM Sites avec des composants principaux en suivant ce [tutoriel détaillé.](https://docs.adobe.com/content/help/en/experience-manager-learn/getting-started-wknd-tutorial-develop/overview.html)
 
 ## Archétype de projet AEM {#aem-project-archetype}
 
-[L’archétype de projet AEM](overview.md) crée un projet Adobe Experience Manager minimal comme point de départ pour vos projets, y compris un exemple helloworld de composant HTL personnalisé avec SlingModels pour la logique et l’implémentation appropriée des composants principaux avec le modèle de proxy recommandé.
+[L’archétype](overview.md) de projet AEM crée un projet Adobe Experience Manager minimal comme point de départ pour vos propres projets, y compris un exemple de composants HTL personnalisés avec SlingModels pour la logique et l’implémentation correcte des composants principaux avec le modèle de proxy recommandé.
 
 ## Distribués sur github {#delivered-over-github}
 
@@ -84,15 +76,23 @@ Le fait que les composants principaux se trouvent sur GitHub permet d’effectue
 
 ## Bibliothèque de composants
 
-Consultez la [bibliothèque des composants](http://opensource.adobe.com/aem-core-wcm-components/library.html), qui présente la version actuelle des composants principaux et fournit des exemples d’utilisation.
+Consultez la [bibliothèque des composants](https://adobe.com/go/aem_cmp_library), qui présente la version actuelle des composants principaux et fournit des exemples d’utilisation.
 
-### Exemple de contenu en mode d’exécution {#sample-content-run-mode}
+### Composants principaux prêts à l&#39;emploi {#out-of-the-box}
 
-Les composants principaux sont visibles dans le Quickstart lorsque l’exemple de contenu est présent, car le [site de référence We.Retail](https://helpx.adobe.com/fr/experience-manager/6-5/sites/developing/using/we-retail.html) les utilise. Toutefois, lors de l’exécution en production (en mode d’exécution `nosamplecontent`, sans exemple de contenu activé), les composants principaux ne sont plus présents et doivent être installés sur les instances AEM par l’équipe de développement et/ou d’exploitation.
+Les composants principaux peuvent être installés ou non automatiquement selon la manière dont vous exécutez AEM.
+
+#### AEM en tant que service cloud {#aem-cloud-service}
+
+Bien que les composants principaux soient entièrement compatibles avec [AEM en tant que service](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/landing/home.html)Cloud, les composants principaux doivent être installés manuellement et ne sont pas disponibles en standard.
+
+#### AEM On-Premise {#on-premise}
+
+In on-premise installations, the Core Components are visible in the Quickstart when the sample content is present, because the [We.Retail reference site](https://helpx.adobe.com/experience-manager/6-5/sites/developing/using/we-retail.html) uses them. However, when running in production (in `nosamplecontent` runmode, without sample content enabled), the core components won&#39;t be present anymore and must be installed on the AEM instance.
 
 >[!NOTE]
 >
->Dans les environnements de production, exécutez toujours le Quickstart en mode d’exécution `nosamplecontent`. Pour utiliser les composants principaux en mode d’exécution `nosamplecontent`, suivez les instructions de la page de documentation sur l’[utilisation des composants principaux](using.md).
+>In on-premise production environments, always run the Quickstart in `nosamplecontent` runmode. Pour utiliser les composants principaux en mode d’exécution `nosamplecontent`, suivez les instructions de la page de documentation sur l’[utilisation des composants principaux](using.md).
 
 ## Fonctionnalités techniques {#technical-capabilities}
 
@@ -103,17 +103,17 @@ Pour plus d’informations sur leurs capacités de création et les options pour
 | **Fonction** | **Composant principal** | **Composant de base** |
 |-----|---|---|
 | Logique d’implémentation | POJO Java avec les annotations de [modèles Sling](https://sling.apache.org/documentation/bundles/models.html). | Code JSP |
-| Définition de balisage | [Syntaxe du modèle de langage HTML](https://helpx.adobe.com/fr/experience-manager/htl/user-guide.html) (HTL) | Code JSP |
+| Définition de balisage | [Syntaxe du modèle de langage HTML](https://docs.adobe.com/content/help/en/experience-manager-htl/using/overview.html) (HTL) | Code JSP |
 | Assainissement XSS | Automatisée par HTL | Essentiellement manuelle |
 | Nommage des classes CSS | Convention d’affectation de noms normalisée basée sur la notification [Block Element Modifier](https://getbem.com/) (BEM) (à partir de la version 2.0.0) | Modèles personnalisés |
-| Définition de boîte de dialogue | [Coral 3](https://helpx.adobe.com/fr/experience-manager/6-5/sites/developing/using/reference-materials/coral-ui/coralui3/index.html) | Interface utilisateur Coral 2 + Classique |
-| Sortie JSON | [Exportateur de modèles Sling avec sérialisation Jackson](https://sling.apache.org/documentation/bundles/application d’une seule pages.html#exporter-framework-since-130) | Servlet Sling par défaut |
+| Définition de boîte de dialogue | [Coral 3](https://helpx.adobe.com/experience-manager/6-5/sites/developing/using/reference-materials/coral-ui/coralui3/index.html) | Interface utilisateur Coral 2 + Classique |
+| Sortie JSON | [Exportateur de modèles Sling avec sérialisation Jackson](https://sling.apache.org/documentation/bundles/models.html#exporter-framework-since-130) | Servlet Sling par défaut |
 | Création de versions | [Pour le modèle et le HTL](guidelines.md) | Aucun |
 | Tests | Tests unitaires + tests d’intégration | Tests d’intégration |
 | Diffusion | [Via le site GitHub public](https://github.com/adobe/aem-core-wcm-components) | Via Quickstart |
 | Licence | [Licence Apache](https://www.apache.org/licenses/LICENSE-2.0) | Adobe propriétaire |
 | Contribution | Via une demande d’extraction | Impossible |
-| Accessibilité | Totalement conforme à la [norme WCAG 2.0 AA](https://helpx.adobe.com/fr/experience-manager/6-5/managing/using/web-accessibility.html) | Partiellement conforme à la [norme WCAG 2.0 AA](https://helpx.adobe.com/fr/experience-manager/6-5/managing/using/web-accessibility.html) |
+| Accessibilité | Totalement conforme à la [norme WCAG 2.0 AA](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/sites/authoring/fundamentals/accessible-content.html) | Partiellement conforme à la [norme WCAG 2.0 AA](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/sites/authoring/fundamentals/accessible-content.html) |
 
 ## Liste des composants {#component-list}
 
@@ -121,33 +121,33 @@ Le tableau ci-après répertorie les composants principaux disponibles, les lien
 
 | Composant principal | Description | Composants de base remplacés |
 |---|---|---|
-| [Page](https://github.com/adobe/aem-core-wcm-components/tree/master/content/src/content/jcr_root/apps/core/wcm/components/page/v2/page) | Page réactive fonctionnant avec l’éditeur de modèles | `/libs/foundation/components/page /libs/wcm/foundation/components/page` |
-| [Chemin de navigation](https://github.com/adobe/aem-core-wcm-components/tree/master/content/src/content/jcr_root/apps/core/wcm/components/breadcrumb/v2/breadcrumb) | Navigation dans la hiérarchie des pages | `/libs/foundation/components/breadcrumb` |
-| [Titre](https://github.com/adobe/aem-core-wcm-components/tree/master/content/src/content/jcr_root/apps/core/wcm/components/title/v2/title) | Titre H1-H6 | `/libs/foundation/components/title /libs/wcm/foundation/components/title` |
+| [Page](https://adobe.com/go/aem_cmp_tech_page_v2) | Page réactive fonctionnant avec l’éditeur de modèles | `/libs/foundation/components/page /libs/wcm/foundation/components/page` |
+| [Chemin de navigation](https://adobe.com/go/aem_cmp_tech_breadcrumb_v2) | Navigation dans la hiérarchie des pages | `/libs/foundation/components/breadcrumb` |
+| [Titre](https://adobe.com/go/aem_cmp_tech_title_v2) | Titre H1-H6 | `/libs/foundation/components/title /libs/wcm/foundation/components/title` |
 | [Texte](https://github.com/adobe/aem-core-wcm-components/tree/master/content/src/content/jcr_root/apps/core/wcm/components/text/v2/text) | Texte enrichi | `/libs/foundation/components/text /libs/foundation/components/table /libs/wcm/foundation/components/text` |
-| [Image](https://github.com/adobe/aem-core-wcm-components/tree/master/content/src/content/jcr_root/apps/core/wcm/components/image/v2/image) | Chargement intelligent et différé de la taille optimale du rendu | `/libs/foundation/components/image /libs/foundation/components/adaptiveimage /libs/foundation/components/logo /libs/foundation/components/mobileimage  /libs/foundation/components/mobilelogo /libs/wcm/foundation/components/image` |
-| [Liste](https://github.com/adobe/aem-core-wcm-components/tree/master/content/src/content/jcr_root/apps/core/wcm/components/list/v2/list) | Liste des pages | `/libs/foundation/components/list /libs/foundation/components/mobilelist /libs/wcm/foundation/components/list` |
-| [Partage sur les réseaux sociaux](https://github.com/adobe/aem-core-wcm-components/tree/master/content/src/content/jcr_root/apps/core/wcm/components/sharing/v1/sharing) | Widget de partage Facebook et Pinterest | `-` |
-| [Conteneur de formulaires](https://github.com/adobe/aem-core-wcm-components/tree/master/content/src/content/jcr_root/apps/core/wcm/components/form/container/v2/container) | Système de paragraphe de formulaire réactif | `/libs/foundation/components/form/start /libs/foundation/components/form/end` |
-| [Texte du formulaire](https://github.com/adobe/aem-core-wcm-components/tree/master/content/src/content/jcr_root/apps/core/wcm/components/form/text/v2/text) | Champ de saisie de texte | `/libs/foundation/components/form/text /libs/foundation/components/form/password` |
-| [Options du formulaire](https://github.com/adobe/aem-core-wcm-components/tree/master/content/src/content/jcr_root/apps/core/wcm/components/form/options/v2/options) | Champ de saisie d’options multiples | `/libs/foundation/components/form/checkbox /libs/foundation/components/form/radio /libs/foundation/components/form/dropdown` |
-| [Formulaire masqué](https://github.com/adobe/aem-core-wcm-components/tree/master/content/src/content/jcr_root/apps/core/wcm/components/form/hidden/v2/hidden) | Champ de saisie masqué | `/libs/foundation/components/form/hidden` |
-| [Bouton de formulaire](https://github.com/adobe/aem-core-wcm-components/tree/master/content/src/content/jcr_root/apps/core/wcm/components/form/button/v2/button) | Bouton Envoyer ou personnalisé | `/libs/foundation/components/form/submit` |
-| [Navigation](https://github.com/adobe/aem-core-wcm-components/tree/master/content/src/content/jcr_root/apps/core/wcm/components/navigation/v1/navigation) | Composant de navigation sur le site qui répertorie la hiérarchie de la page imbriquée | `/libs/foundation/components/topnav /libs/foundation/components/mobiletopnav` |
-| [Navigation par langue](https://github.com/adobe/aem-core-wcm-components/tree/master/content/src/content/jcr_root/apps/core/wcm/components/languagenavigation/v1/languagenavigation) | Sélecteur de langue et de pays qui répertorie la structure de langue globale | `-` |
-| [Recherche rapide](https://github.com/adobe/aem-core-wcm-components/tree/master/content/src/content/jcr_root/apps/core/wcm/components/search/v1/search) | Composant de recherche qui affiche les résultats sous forme de suggestions sur place dans un menu déroulant | `/libs/foundation/components/search` |
-| [Teaser](https://github.com/adobe/aem-core-wcm-components/tree/master/content/src/content/jcr_root/apps/core/wcm/components/teaser/v1/teaser) | Permet à l’auteur de contenu de créer facilement un teaser vers un contenu supplémentaire à l’aide d’une image, d’un titre ou d’un texte enrichi et de lier un contenu supplémentaire ou d’effectuer d’autres actions | `-` |
-| [Onglets](https://github.com/adobe/aem-core-wcm-components/tree/master/content/src/content/jcr_root/apps/core/wcm/components/tabs/v1/tabs) | Permet à l’auteur de contenu d’organiser le contenu de la page dans plusieurs onglets | `-` |
-| [Carrousel](https://github.com/adobe/aem-core-wcm-components/tree/master/content/src/content/jcr_root/apps/core/wcm/components/carousel/v1/carousel) | Permet à l’auteur de contenu d’organiser le contenu dans un carrousel de diapositives | `/libs/foundation/components/carousel` |
-| [Fragment de contenu](https://github.com/adobe/aem-core-wcm-components/tree/master/extension/contentfragment/content/src/content/jcr_root/apps/core/wcm/extension/components/contentfragment/v1/contentfragment) | Permet l’affichage d’un fragment de contenu | `-` |
-| [Liste de fragments de contenu](https://github.com/adobe/aem-core-wcm-components/tree/master/extension/contentfragment/content/src/content/jcr_root/apps/core/wcm/extension/components/contentfragmentlist/v1/contentfragmentlist) | Permet l’affichage d’une liste de fragments de contenu | `-` |
-| [Séparateur](https://github.com/adobe/aem-core-wcm-components/tree/master/content/src/content/jcr_root/apps/core/wcm/components/separator/v1/separator) | Sépare le contenu d’une page | `-` |
-| [Accordéon](https://github.com/adobe/aem-core-wcm-components/tree/master/content/src/content/jcr_root/apps/core/wcm/components/accordion/v1/accordion) | Organise les panneaux de contenu dans un accordéon réductible | `-` |
-| [Conteneur](https://github.com/adobe/aem-core-wcm-components/tree/master/content/src/content/jcr_root/apps/core/wcm/components/container/v1/container) | Organise les composants dans un conteneur | `-` |
-| [Bouton](https://github.com/adobe/aem-core-wcm-components/tree/master/content/src/content/jcr_root/apps/core/wcm/components/button/v1/button) | Crée un bouton sur une page | `-` |
-| [Téléchargement](https://github.com/adobe/aem-core-wcm-components/tree/master/content/src/content/jcr_root/apps/core/wcm/components/download/v1/download) | Ajoute une ressource téléchargeable à une page | `-` |
-| [Fragment d’expérience](https://github.com/adobe/aem-core-wcm-components/tree/master/content/src/content/jcr_root/apps/core/wcm/components/experience-fragment/v1/experience-fragment) | Ajout d’un fragment d’expérience à une page | `/libs/cq/experience-fragments/editor/components/experiencefragment` |
-| [Incorporer](https://github.com/adobe/aem-core-wcm-components/tree/master/content/src/content/jcr_root/apps/core/wcm/components/embed/v1/embed) | Incorporation d’une ressource externe dans une page | - |
+| [Image](https://adobe.com/go/aem_cmp_tech_image_v2) | Chargement intelligent et différé de la taille optimale du rendu | `/libs/foundation/components/image /libs/foundation/components/adaptiveimage /libs/foundation/components/logo /libs/foundation/components/mobileimage  /libs/foundation/components/mobilelogo /libs/wcm/foundation/components/image` |
+| [Liste](https://adobe.com/go/aem_cmp_tech_list_v2) | Liste des pages | `/libs/foundation/components/list /libs/foundation/components/mobilelist /libs/wcm/foundation/components/list` |
+| [Partage sur les réseaux sociaux](https://adobe.com/go/aem_cmp_tech_sharing_v1) | Widget de partage Facebook et Pinterest | `-` |
+| [Conteneur de formulaires](https://adobe.com/go/aem_cmp_tech_form_container_v2) | Système de paragraphe de formulaire réactif | `/libs/foundation/components/form/start /libs/foundation/components/form/end` |
+| [Texte du formulaire](https://adobe.com/go/aem_cmp_tech_form_text_v2) | Champ de saisie de texte | `/libs/foundation/components/form/text /libs/foundation/components/form/password` |
+| [Options du formulaire](https://adobe.com/go/aem_cmp_tech_form_options_v2) | Champ de saisie d’options multiples | `/libs/foundation/components/form/checkbox /libs/foundation/components/form/radio /libs/foundation/components/form/dropdown` |
+| [Formulaire masqué](https://adobe.com/go/aem_cmp_tech_form_hidden_v2) | Champ de saisie masqué | `/libs/foundation/components/form/hidden` |
+| [Bouton de formulaire](https://adobe.com/go/aem_cmp_tech_form_button_v2) | Bouton Envoyer ou personnalisé | `/libs/foundation/components/form/submit` |
+| [Navigation](https://adobe.com/go/aem_cmp_tech_navigation_v1) | Composant de navigation sur le site qui répertorie la hiérarchie de la page imbriquée | `/libs/foundation/components/topnav /libs/foundation/components/mobiletopnav` |
+| [Navigation par langue](https://adobe.com/go/aem_cmp_tech_langnav_v1) | Sélecteur de langue et de pays qui répertorie la structure de langue globale | `-` |
+| [Recherche rapide](https://adobe.com/go/aem_cmp_tech_search_v1) | Composant de recherche qui affiche les résultats sous forme de suggestions sur place dans un menu déroulant | `/libs/foundation/components/search` |
+| [Teaser](https://adobe.com/go/aem_cmp_tech_teaser_v1) | Permet à l’auteur de contenu de créer facilement un teaser vers un contenu supplémentaire à l’aide d’une image, d’un titre ou d’un texte enrichi et de lier un contenu supplémentaire ou d’effectuer d’autres actions | `-` |
+| [Onglets](https://adobe.com/go/aem_cmp_tech_tabs_v1) | Permet à l’auteur de contenu d’organiser le contenu de la page dans plusieurs onglets | `-` |
+| [Carrousel](https://adobe.com/go/aem_cmp_tech_carousel_v1) | Permet à l’auteur de contenu d’organiser le contenu dans un carrousel de diapositives | `/libs/foundation/components/carousel` |
+| [Fragment de contenu](https://adobe.com/go/aem_cmp_tech_cf_v1) | Permet l’affichage d’un fragment de contenu | `-` |
+| [Liste de fragments de contenu](https://adobe.com/go/aem_cmp_tech_cflist_v1) | Permet l’affichage d’une liste de fragments de contenu | `-` |
+| [Séparateur](https://adobe.com/go/aem_cmp_tech_separator_v1) | Sépare le contenu d’une page | `-` |
+| [Accordéon](https://adobe.com/go/aem_cmp_tech_accordion_v1) | Organise les panneaux de contenu dans un accordéon réductible | `-` |
+| [Conteneur](https://adobe.com/go/aem_cmp_tech_container_v1) | Organise les composants dans un conteneur | `-` |
+| [Bouton](https://adobe.com/go/aem_cmp_tech_button_v1) | Crée un bouton sur une page | `-` |
+| [Téléchargement](https://adobe.com/go/aem_cmp_tech_download_v1) | Ajoute une ressource téléchargeable à une page | `-` |
+| [Fragment d’expérience](https://adobe.com/go/aem_cmp_tech_xf_v1) | Ajout d’un fragment d’expérience à une page | `/libs/cq/experience-fragments/editor/components/experiencefragment` |
+| [Incorporer](https://adobe.com/go/aem_cmp_tech_embed_v1) | Incorporation d’une ressource externe dans une page | - |
 
 ### Composants à venir {#upcoming-components}
 
@@ -157,7 +157,7 @@ Pour obtenir un aperçu de la feuille de route des composants principaux à veni
 
 L’un des avantages des composants versionnés est qu’ils permettent de séparer la migration vers une nouvelle version d’AEM de la migration vers les nouvelles versions des composants. En outre, si de nouvelles versions de composants sont disponibles, ils permettent la migration individuelle de chaque composant vers la nouvelle version.
 
-Les migrations vers une nouvelle version d’AEM n’auront aucune incidence sur le fonctionnement des composants principaux, à condition que leurs versions prennent également en charge la nouvelle version d’AEM vers laquelle est effectuée la migration. Les personnalisations apportées aux composants principaux ne doivent pas être affectées tant qu’elles n’utilisent pas d’API [obsolètes ou supprimées](https://helpx.adobe.com/experience-manager/6-5/release-notes/deprecated-removed-features.html).
+Les migrations vers une nouvelle version d’AEM n’auront aucune incidence sur le fonctionnement des composants principaux, à condition que leurs versions prennent également en charge la nouvelle version d’AEM vers laquelle est effectuée la migration. Les personnalisations apportées aux composants principaux ne doivent pas être affectées tant qu’elles n’utilisent pas d’API [obsolètes ou supprimées](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/release-notes/deprecated-removed-features.html).
 
 Les migrations vers de nouvelles versions des composants principaux n’auront aucune incidence sur le fonctionnement du composant. De plus, de nouvelles fonctionnalités peuvent être ajoutées pour les auteurs de pages, ce qui peut nécessiter une configuration par un éditeur de modèles, au cas où le comportement par défaut ne serait pas souhaité. Il est toutefois possible que des personnalisations doivent être adaptées. Pour plus d’informations, voir la page [Personnalisation des composants principaux](customizing.md#upgrade-compatibility-of-customizations).
 
@@ -212,7 +212,7 @@ Pour plus d’informations sur la prise en charge des personnalisations des comp
 
 Dans la mesure où les composants de base ont servi de fondation à une multitude de développement de projets sur de nombreuses versions d’AEM, ils seront toujours pris en charge dans un futur prévisible.
 
-Toutefois, Adobe met désormais l’accent sur les composants principaux et de nouvelles fonctionnalités leur seront ajoutées, alors que la [plupart des composants de base ont été abandonnés avec AEM 6.5](https://helpx.adobe.com/fr/experience-manager/6-5/sites/authoring/using/default-components-foundation.html) et seuls les correctifs leur seront dorénavant appliqués.
+Toutefois, Adobe met désormais l’accent sur les composants principaux et de nouvelles fonctionnalités leur seront ajoutées, alors que la [plupart des composants de base ont été abandonnés avec AEM 6.5](https://docs.adobe.com/content/help/en/experience-manager-65/authoring/siteandpage/default-components-foundation.html) et seuls les correctifs leur seront dorénavant appliqués.
 
 **À lire aussi :**
 
