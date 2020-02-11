@@ -1,24 +1,9 @@
 ---
 title: Composant Texte (v1)
-seo-title: Composant Texte (v1)
-description: 'null'
-seo-description: Le composant Texte est un composant d’édition et de composition de texte enrichi qui propose une édition statique.
-uuid: b787ebac-fa85-416a-b96b-9d2ee85428ec
-content-type: référence
-products: SG_EXPERIENCEMANAGER/CORECOMPONENTS-new
-discoiquuid: d5e37dc7-dfd4-4a44-89b6-c15651472c43
-disttype: dist5
-gnavtheme: light
-groupsectionnavitems: non
-hidemerchandisingbar: inherit
-hidepromocomponent: inherit
-modalsize: 426x240
-noindex: 'true'
+description: Le composant Texte est un composant d’édition et de composition de texte enrichi qui propose une édition statique.
 index: n
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: 4e74f10e2a4119484a597178dc4577b399833dbf
+source-git-commit: 945381996db443c227aa31f0aacb963071165681
 
 ---
 
@@ -52,7 +37,7 @@ Le tableau suivant répertorie la compatibilité de la version v1 du composant T
 
 ## Exemple de sortie de composant {#sample-component-output}
 
-The following is sample taken from We.Retail.[](https://helpx.adobe.com/experience-manager/6-4/sites/developing/using/we-retail.html)
+Voici un exemple extrait de [We.Retail](https://helpx.adobe.com/experience-manager/6-4/sites/developing/using/we-retail.html).
 
 ### Capture d’écran {#screenshot}
 
@@ -238,7 +223,7 @@ La boîte de dialogue de modification propose les outils standard de mise en for
 
    ![](assets/chlimage_1-75.png)
 
-   Utilisé pour mettre en forme le texte sélectionné sous forme de liste numérotée ou commencer l’insertion d'une liste numérotée après le curseur.
+   Utilisé pour mettre en forme le texte sélectionné sous forme de liste numérotée ou commencer l’insertion d&#39;une liste numérotée après le curseur.
 
    Pour mettre fin à une liste numérotée, appuyez ou cliquez de nouveau sur le bouton **Numérotée** ou saisissez deux retours chariot.
 
@@ -376,7 +361,7 @@ L’option permettant d’insérer des caractères spéciaux peut être activée
 
 ## Détails techniques {#technical-details}
 
-The latest technical documentation about the Text Component can be found on GitHub.[](https://github.com/adobe/aem-core-wcm-components/tree/master/content/src/content/jcr_root/apps/core/wcm/components/text/v1/text)
+The latest technical documentation about the Text Component [can be found on GitHub](https://github.com/adobe/aem-core-wcm-components/tree/master/content/src/content/jcr_root/apps/core/wcm/components/text/v1/text).
 
 Le projet sur les composants principaux peut être téléchargé depuis GitHub.
 
