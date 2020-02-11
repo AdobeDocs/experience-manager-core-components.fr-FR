@@ -1,24 +1,8 @@
 ---
 title: Composant Masqué du formulaire
-seo-title: Composant Masqué du formulaire
-description: 'null'
-seo-description: Le composant Masqué du formulaire des composants principaux permet l’affichage d’un champ masqué.
-uuid: 63a1b381-f45c-4241-b743-dea8abd45e11
-contentOwner: Utilisateur
-content-type: référence
-topic-tags: core-components
-discoiquuid: 36e49035-7641-4bad-8a61-723060032903
-disttype: dist5
-gnavtheme: light
-groupsectionnavitems: non
-hidemerchandisingbar: inherit
-hidepromocomponent: inherit
-modalsize: 426x240
-index: y
-internal: n
-snippet: y
+description: Le composant Masqué du formulaire des composants principaux permet l’affichage d’un champ masqué.
 translation-type: tm+mt
-source-git-commit: 1243d6cc1b0b015ee2f37ae89d0e2e42d366cc02
+source-git-commit: 60df01ca9efe59b67bad57610d04496a2cdded9e
 
 ---
 
@@ -39,16 +23,16 @@ La version actuelle du composant Masqué du formulaire est v2, qui a été intro
 
 Le tableau ci-après présente en détail toutes les versions prises en charge du composant, les versions AEM avec lesquelles les versions du composant sont compatibles et les liens vers la documentation pour les versions précédentes.
 
-| Version du composant | AEM 6.3 | AEM 6.4 | AEM 6.5 |
-|--- |--- |--- |--- |
-| v2 | Compatible | Compatible | Compatible |
-| [v1](form-hidden-v1.md) | Compatible | Compatible | Compatible |
+| Version du composant | AEM 6.3 | AEM 6.4 | AEM 6.5 | AEM en tant que service cloud |
+|--- |--- |--- |--- |---|
+| v2 | Compatible | Compatible | Compatible | Compatible |
+| [v1](form-hidden-v1.md) | Compatible | Compatible | Compatible | - |
 
 Pour plus d’informations sur les versions et les publications des composants principaux, voir le document sur les [versions des composants principaux](versions.md).
 
 ## Exemple de sortie de composant {#sample-component-output}
 
-Voici un exemple extrait de [We.Retail](https://helpx.adobe.com/experience-manager/6-5/sites/developing/using/we-retail.html).
+Voici un exemple extrait de [We.Retail](https://docs.adobe.com/content/help/en/experience-manager-65/developing/bestpractices/we-retail/we-retail.html).
 
 ### HTML {#html}
 
@@ -88,7 +72,7 @@ Voici un exemple extrait de [We.Retail](https://helpx.adobe.com/experience-manag
 
 ### Détails techniques {#technical-details}
 
-La documentation technique la plus récente sur le composant masqué de formulaire [se trouve sur GitHub](https://github.com/adobe/aem-core-wcm-components/blob/master/content/src/content/jcr_root/apps/core/wcm/components/form/hidden/v2/hidden).
+The latest technical documentation about the Form Hidden Component [can be found on GitHub](https://adobe.com/go/aem_cmp_tech_form_hidden_v2).
 
 Vous trouverez plus d’informations sur le développement des composants principaux dans la [documentation destinée aux développeurs de composants principaux](developing.md).
 
