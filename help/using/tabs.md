@@ -1,14 +1,8 @@
 ---
 title: Composant Onglets
-seo-title: Composant Onglets
 description: Le composant Onglets permet la création de plusieurs onglets pour disposer le contenu sur une page.
-seo-description: Le composant Onglets permet la création de plusieurs onglets pour disposer le contenu sur une page.
-uuid: 46f71233-8b12-4887-a0c6-ad24dc469cb1
-content-type: référence
-topic-tags: core-components
-discoiquuid: 966d47fb-d35d-4103-b29d-4ef0aa739f24
-translation-type: ht
-source-git-commit: da404fff6c6e934bbe06a5c4d441d89281ed0c54
+translation-type: tm+mt
+source-git-commit: 65f900ad6759206a13f2bda6169900f62d968d8d
 
 ---
 
@@ -27,7 +21,7 @@ La [boîte de dialogue de modification](#edit-dialog) permet à l’auteur de co
 >
 >Les composants d’onglets imbriqués (onglets dans les onglets) sont pris en charge.
 >
->Les composants des onglets simples (non imbriqués) peuvent être localisés/sélectionnés à l’aide de l’[arborescence de contenu](https://helpx.adobe.com/fr/experience-manager/6-5/sites/authoring/using/author-environment-tools.html), mais les onglets imbriqués ne peuvent pas l’être.
+>Les composants des onglets simples (non imbriqués) peuvent être localisés/sélectionnés à l’aide de l’[arborescence de contenu](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/sites/authoring/fundamentals/environment-tools.html#content-tree), mais les onglets imbriqués ne peuvent pas l’être.
 
 ## Version et compatibilité {#version-and-compatibility}
 
@@ -35,19 +29,19 @@ La version actuelle du composant Onglets est v1, qui a été introduite avec la 
 
 Le tableau ci-après présente en détail toutes les versions prises en charge du composant, les versions AEM avec lesquelles les versions du composant sont compatibles et les liens vers la documentation pour les versions précédentes.
 
-| Version du composant | AEM 6.3 | AEM 6.4 | AEM 6.5 |
-|--- |--- |--- |--- |
-| v1 | Compatible | Compatible | Compatible |
+| Version du composant | AEM 6.3 | AEM 6.4 | AEM 6.5 | AEM en tant que service cloud |
+|--- |--- |--- |--- |---|
+| v1 | Compatible | Compatible | Compatible | Compatible |
 
 Pour plus d’informations sur les versions et les publications des composants principaux, voir le document sur les [versions des composants principaux](versions.md).
 
 ## Exemple de sortie de composant {#sample-component-output}
 
-Pour tester le composant Onglets, des exemples d’options de configuration, ainsi que des sorties HTML et JSON, consultez la [Bibliothèque de composants](http://opensource.adobe.com/aem-core-wcm-components/library/tabs.html).
+Pour tester le composant Onglets, des exemples d’options de configuration, ainsi que des sorties HTML et JSON, consultez la [Bibliothèque de composants](https://adobe.com/go/aem_cmp_library_tabs).
 
 ### Détails techniques {#technical-details}
 
-La documentation technique la plus récente sur le composant Onglets [se trouve sur GitHub](https://github.com/adobe/aem-core-wcm-components/blob/master/content/src/content/jcr_root/apps/core/wcm/components/tabs/v1/tabs).
+La documentation technique la plus récente sur le composant Onglets [se trouve sur GitHub](https://adobe.com/go/aem_cmp_tech_tabs_v1).
 
 Vous trouverez plus d’informations sur le développement des composants principaux dans la [documentation destinée aux développeurs de composants principaux](developing.md).
 
@@ -68,7 +62,7 @@ Utilisez le bouton **Ajouter** pour ouvrir le sélecteur de composants afin de c
 
 >[!TIP]
 >
->Si la fenêtre d’affichage de la page est réduite, de sorte que la boîte de dialogue de modification s’affiche en plein écran, le bouton **Ajouter** est masqué. Vous pouvez toujours ajouter des composants au composant Onglets en [les faisant glisser depuis l’explorateur de composants et en les déposant ensuite sur le composant Onglets dans l’éditeur de page](https://helpx.adobe.com/experience-manager/6-5/sites/authoring/using/editing-content.html#InsertingaComponent).
+>Si la fenêtre d’affichage de la page est réduite, de sorte que la boîte de dialogue de modification s’affiche en plein écran, le bouton **Ajouter** est masqué. Vous pouvez toujours ajouter des composants au composant Onglets en [les faisant glisser depuis l’explorateur de composants et en les déposant ensuite sur le composant Onglets dans l’éditeur de page](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/sites/authoring/fundamentals/editing-content.html#inserting-a-component).
 
 ### Onglet Propriétés {#properties-tab}
 
@@ -102,7 +96,7 @@ Lorsque vous sélectionnez l’option **Sélectionner un panneau** dans la barre
 
 >[!NOTE]
 >
->Les onglets ne sont pas sélectionnables par l’auteur en mode **Édition**. Utilisez le mode [**Aperçu**](https://helpx.adobe.com/experience-manager/6-5/sites/authoring/using/editing-content.html) ou l’option **[Afficher comme publié(e)](https://helpx.adobe.com/experience-manager/6-5/sites/authoring/using/editing-content.html)** pour interagir avec les onglets comme un lecteur du contenu publié.
+>Les onglets ne sont pas sélectionnables par l’auteur en mode **Édition**. Utilisez le mode **[Aperçu](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/sites/authoring/fundamentals/editing-content.html#preview-mode)**ou l’option**[ Afficher comme publié(e)](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/sites/authoring/fundamentals/editing-content.html#view-as-published)** pour interagir avec les onglets comme un lecteur du contenu publié.
 
 ## Boîte de dialogue de conception {#design-dialog}
 
@@ -112,7 +106,7 @@ La boîte de dialogue de conception permet à l’auteur du modèle de définir 
 
 L’onglet **Composants autorisés** permet de définir quels composants peuvent être ajoutés en tant qu’éléments au composant Onglets par l’auteur du contenu.
 
-L’onglet Composants autorisés fonctionne de la même manière que l’onglet du même nom lors de la [définition de la stratégie et des propriétés d’un conteneur de mises en page dans l’éditeur de modèles.](https://helpx.adobe.com/fr/experience-manager/6-5/sites/authoring/using/templates.html)
+L’onglet Composants autorisés fonctionne de la même manière que l’onglet du même nom lors de la [définition de la stratégie et des propriétés d’un conteneur de mises en page dans l’éditeur de modèles](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/sites/authoring/features/templates.html).
 
 ### Onglet Styles {#styles-tab}
 
