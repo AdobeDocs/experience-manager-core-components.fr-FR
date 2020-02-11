@@ -1,15 +1,9 @@
 ---
 title: Composant du titre (v1)
-seo-title: Composant du titre (v1)
 description: Le composant du titre des composants principaux est un composant d’en-tête de section qui comporte des fonctions d’édition statique.
-seo-description: Le composant du titre des composants principaux est un composant d’en-tête de section qui comporte des fonctions d’édition statique.
-uuid: 5c4d276c-f0be-4122-a15e-3f7443d8b209
-content-type: référence
-products: SG_EXPERIENCEMANAGER/CORECOMPONENTS-new
-discoiquuid: a028ebef-2957-410c-9bab-a7040c350f2f
 index: n
 translation-type: tm+mt
-source-git-commit: 4e74f10e2a4119484a597178dc4577b399833dbf
+source-git-commit: 945381996db443c227aa31f0aacb963071165681
 
 ---
 
@@ -43,7 +37,7 @@ Le tableau suivant répertorie la compatibilité de la version v1 du composant T
 
 ## Exemple de sortie de composant {#sample-component-output}
 
-The following is sample taken from We.Retail.[](https://helpx.adobe.com/experience-manager/6-4/sites/developing/using/we-retail.html)
+Voici un exemple extrait de [We.Retail](https://helpx.adobe.com/experience-manager/6-4/sites/developing/using/we-retail.html).
 
 ### Capture d’écran {#screenshot}
 
@@ -94,7 +88,7 @@ La boîte de dialogue de conception permet à l’auteur du modèle de définir 
 
 ## Détails techniques {#technical-details}
 
-The latest technical documentation about the Title Component can be found on GitHub.[](https://github.com/adobe/aem-core-wcm-components/tree/master/content/src/content/jcr_root/apps/core/wcm/components/title/v1/title)
+The latest technical documentation about the Title Component [can be found on GitHub](https://github.com/adobe/aem-core-wcm-components/tree/master/content/src/content/jcr_root/apps/core/wcm/components/title/v1/title).
 
 Le projet sur les composants principaux peut être téléchargé depuis GitHub.
 
