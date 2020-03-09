@@ -2,7 +2,7 @@
 title: Composant d’image
 description: Le composant d’image des composants principaux est un composant d’image adaptatif qui permet d’effectuer des modifications statiques.
 translation-type: tm+mt
-source-git-commit: 93a7ba6b8a972d111fb723cb40b0380cea9b5a9a
+source-git-commit: 6be0028c45ce9f8b36ea278f8e569f3d6a626ae2
 
 ---
 
@@ -19,7 +19,7 @@ Les largeurs d’image ainsi que le recadrage et les paramètres supplémentaire
 
 ## Fonctions réactives {#responsive-features}
 
-Le composant d’image s’accompagne de fonctions réactives efficaces prêtes à l’emploi. Au niveau du modèle de page, la [boîte de dialogue de conception](#design-dialog) permet de définir les largeurs par défaut du fichier image. Le composant d’image charge alors automatiquement la largeur correcte à afficher en fonction de la taille de la fenêtre du navigateur. Lorsque la fenêtre est redimensionnée, le composant Image charge dynamiquement la taille d’image correcte à la volée. Les développeurs de composants n’ont pas à définir des requêtes multimédias personnalisées, puisque le composant d’image est déjà optimisé pour charger le contenu.
+Le composant d’image s’accompagne de fonctions réactives efficaces prêtes à l’emploi. Au niveau du modèle de page, la [boîte de dialogue de conception](#design-dialog) permet de définir les largeurs par défaut du fichier image. Le composant d’image charge alors automatiquement la largeur correcte à afficher en fonction de la taille de la fenêtre du navigateur. Lorsque la fenêtre est redimensionnée, le composant d’image charge dynamiquement la taille d’image correcte, instantanément. Les développeurs de composants n’ont pas à définir des requêtes multimédias personnalisées, puisque le composant d’image est déjà optimisé pour charger le contenu.
 
 En outre, le composant d’image prend en charge le chargement différé afin de différer le chargement du fichier image réel jusqu’à ce qu’il soit visible dans le navigateur, ce qui augmente la réactivité des pages.
 
@@ -29,7 +29,7 @@ La version actuelle du composant d’image est v2, qui a été introduite avec l
 
 Le tableau ci-après présente en détail toutes les versions prises en charge du composant, les versions AEM avec lesquelles les versions du composant sont compatibles et les liens vers la documentation pour les versions précédentes.
 
-| Version du composant | AEM 6.3 | AEM 6.4 | AEM 6.5 |  d’AEM en tant que Cloud Service |
+| Version du composant | AEM 6.3 | AEM 6.4 | AEM 6.5 | AEM en tant que service cloud |
 |--- |--- |--- |--- |---|
 | v2 | Compatible | Compatible | Compatible | Compatible |
 | [v1](v1/image-v1.md) | Compatible | Compatible | Compatible | - |
@@ -41,7 +41,7 @@ Pour plus d’informations sur les versions et les publications des composants p
 Les composants SVG (Scalable Vector Graphics) sont pris en charge par le composant d’image.
 
 * Les opérations de glisser-déplacer d’une ressource SVG à partir de DAM et le téléchargement d’un fichier SVG depuis un système de fichiers local sont pris en charge.
-* Le serveur d’images adaptatives diffuse en continu le fichier SVG d’origine (les transformations sont ignorées).
+* La servlet d’image adaptative diffuse le fichier SVG d’origine en flux continu (les transformations sont ignorées).
 * Pour une image SVG, les « images intelligentes » et les « tailles intelligentes » sont définies sur un tableau vide dans le modèle d’image.
 
 ### Sécurité {#security}
@@ -85,9 +85,9 @@ Outre la [boîte de dialogue de modification](#edit-dialog) et la [boîte de dia
 
 * **L’image est décorative**
 Vérifiez si l’image doit être ignorée par les dispositifs d’assistance et ne requiert donc pas de texte de remplacement. Cela s’applique uniquement aux images décoratives.
-* **Texte alternatif**
+* **Texte de remplacement**
 Alternative textuelle de la signification ou de la fonction de l’image, pour les malvoyants.
-   * Obtenir un texte alternatif à partir de DAM : lorsque cette option est cochée, le texte alternatif de l’image est renseigné avec la valeur des métadonnées `dc:description` dans DAM.
+   * Obtenir un texte de remplacement à partir de DAM : lorsque cette option est cochée, le texte de remplacement de l’image est renseigné avec la valeur des métadonnées `dc:description` dans DAM.
 
 * **Légende**
 Des informations supplémentaires sur l’image sont affichées par défaut sous l’image.
@@ -160,7 +160,7 @@ La boîte de dialogue de modification permet à l’auteur du contenu de recadre
    * **Chemin**
       * Utilisez l’option Sélecteur de chemin pour sélectionner un chemin dans AEM.
       * Si le chemin d’accès ne figure pas dans AEM, utilisez l’URL absolue. Les chemins non absolus seront interprétés par rapport à AEM.
-   * **Texte alternatif**
+   * **Texte de remplacement**
 Autre description de la destination du chemin.
    * **Cible**
       * **Même onglet**
@@ -209,7 +209,7 @@ En outre, vous pouvez définir quelles options de composant générales sont aut
 Définissez si l’option de chargement différé est activée automatiquement lors de l’ajout du composant d’image à une page.
 * **L’image est décorative**
 Définissez si l’option d’image décorative est activée automatiquement lors de l’ajout du composant d’image à une page.
-* **Obtenir un texte alternatif de DAM**
+* **Obtenir un texte de remplacement de DAM**
 Définissez si l’option permettant de récupérer le texte de remplacement de DAM est automatiquement activée lors de l’ajout du composant d’image à une page.
 * **Obtenir une légende à partir de DAM**
 Définissez si l’option permettant de récupérer la légende à partir de DAM est automatiquement activée lors de l’ajout du composant d’image à une page.
@@ -277,12 +277,12 @@ Utilisez cette option pour permettre à l’auteur de contenu d’utiliser les o
 
 Le composant d’image prend en charge le [système de style](/help/get-started/authoring.md#component-styling) AEM.
 
-## Adaptive Image Server {#adaptive-image-servelet}
+## Servlet d’image adaptative {#adaptive-image-servlet}
 
-Le composant Image utilise le serveur d’images adaptatives du composant principal. [La servlet d’image adaptative](https://github.com/adobe/aem-core-wcm-components/wiki/The-Adaptive-Image-Servlet) est en charge du traitement des images et de leur diffusion en flux continu. Les développeurs peuvent l’utiliser dans le cadre de leur [personnalisation des composants principaux](/help/developing/customizing.md).
+Le composant d’image utilise la servlet d’image adaptative des composants principaux. [La servlet d’image adaptative](https://github.com/adobe/aem-core-wcm-components/wiki/The-Adaptive-Image-Servlet) est en charge du traitement des images et de leur diffusion en flux continu. Les développeurs peuvent l’utiliser dans le cadre de leur [personnalisation des composants principaux](/help/developing/customizing.md).
 
 >[!NOTE]
 >
->Conditional requests via the `Last-Modified` header are supported by the Adaptive Image Servelet, but the caching of the `Last-Modified` header [needs to be enabled in the Dispatcher](https://docs.adobe.com/content/help/en/experience-manager-dispatcher/using/configuring/dispatcher-configuration.html#caching-http-response-headers).
+>Les requêtes conditionnelles effectuées par le biais de l’`Last-Modified`en-tête sont prises en charge par la servlet d’image adaptative, mais la mise en cache de l’en-tête `Last-Modified` [doit être activée dans Dispatcher](https://docs.adobe.com/content/help/en/experience-manager-dispatcher/using/configuring/dispatcher-configuration.html#caching-http-response-headers).
 >
->L’exemple de configuration du répartiteur d’[AEM Project Archetype](/help/developing/archetype/overview.md) contient déjà cette configuration.
+>L’exemple de configuration de Dispatcher d’[AEM Project Archetype](/help/developing/archetype/overview.md) contient déjà cette configuration.
