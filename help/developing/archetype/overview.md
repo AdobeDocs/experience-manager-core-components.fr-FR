@@ -2,7 +2,7 @@
 title: Archétype de projet AEM
 description: Modèle de projet pour les applications basées sur AEM
 translation-type: tm+mt
-source-git-commit: 93a7ba6b8a972d111fb723cb40b0380cea9b5a9a
+source-git-commit: 6be0028c45ce9f8b36ea278f8e569f3d6a626ae2
 
 ---
 
@@ -25,8 +25,8 @@ L’archétype comporte plusieurs fonctionnalités destinées à offrir un point
 * Exemples de composants de contenu implémentés avec le modèle de proxy recommandé et un exemple de composant personnalisé helloworld tous basés sur les [composants principaux AEM](/help/introduction.md).
 * Exemples de [composants de formulaire](/help/components/forms/form-container.md)
 * Configurations des émulateurs de terminal, configuration par glisser-déposer et internationalisation
-* Bibliothèques clients observant les conventions de dénomination BEM et styles spécifiques aux composants
-* Exemples de lots comprenant des modèles, servlets, filtres et planificateurs
+* Bibliothèques clientes observant les conventions de dénomination BEM et styles spécifiques aux composants
+* Exemples de lots incluant des exemples de modèles, des serveurs, des  et des
 * Tests d’unité, d’intégration et côté client
 * Exemples d’implémentations SPA dans Réaction ou Angulaire (facultatif)
 
@@ -41,15 +41,15 @@ De nombreux éléments entrent bien sûr en compte dans la réussite d&#39;un pr
 L’archétype du projet facilite la prise en main du développement sur AEM. Vous pouvez faire vos premiers pas de plusieurs manières.
 
 * Didacticiel WKND - Pour une excellente introduction au développement sur AEM, y compris sur la manière de tirer parti de l’archétype, reportez-vous au didacticiel [Prise en main des sites AEM - WKND](https://docs.adobe.com/content/help/en/experience-manager-learn/getting-started-wknd-tutorial-develop/overview.html) pour obtenir un exemple pratique qui vous guide tout au long de l’utilisation de l’archétype pour mettre en oeuvre un projet simple.
-* Didacticiel sur les événements WKND - Si vous êtes particulièrement intéressé par le développement d’applications d’une seule page (SPA) sur AEM, consultez le didacticiel [consacré aux événements](https://helpx.adobe.com/experience-manager/kt/sites/using/getting-started-spa-wknd-tutorial-develop.html)WKND.
-* Téléchargez et démarrez vous-même ! - Vous pouvez facilement télécharger l&#39;archétype de projet actuel disponible sur GitHub et créer votre premier projet en [suivant les étapes simples ci-dessous](#how-to-use-the-archetype).
+* Didacticiel sur les  WKND - Si vous êtes particulièrement intéressé par le développement d’applications d’une seule page (SPA) sur AEM, n’oubliez pas de consulter le didacticiel [sur les](https://helpx.adobe.com/experience-manager/kt/sites/using/getting-started-spa-wknd-tutorial-develop.html)WKND dédiés.
+* Téléchargez et vous-même ! - Vous pouvez facilement télécharger l&#39;archétype de projet actuel disponible sur GitHub et créer votre premier projet en [suivant les étapes simples ci-dessous](#how-to-use-the-archetype).
 
 ## Avantages de l&#39;utilisation de l&#39;archétype {#what-you-get}
 
 L’archétype AEM est constitué de modules :
 
 * **[principaux](core.md)** : un lot Java contenant toutes les fonctionnalités de base, telles que les services OSGi, les écouteurs et les planificateurs, ainsi que le code Java associé aux composants, tel que les servlets et les filtres de requête.
-* **[ui.apps](uiapps.md)** : avec les éléments`/apps`et`/etc`du projet, c’est-à-dire les bibliothèques clients JS et CSS, les composants, les modèles, les configurations spécifiques au mode d’exécution, ainsi que les tests Hobbes.
+* **[ui.apps](uiapps.md)** : avec les éléments`/apps`et`/etc`du projet, c’est-à-dire les bibliothèques clients JS et CSS, les composants, les modèles, les configurations spécifiques au mode d’exécution, ainsi que les tests Hobbes.
 * **[ui.content](uicontent.md)** : avec un exemple de contenu utilisant des composants du module ui.apps.
 * **[ui.tests](uitests.md)** : lot Java contenant des tests JUnit exécutés côté serveur. Ce lot ne doit pas être déployé en production.
 * **ui.launcher** : avec le code-glue qui déploie le lot ui.tests (et les lots dépendants) vers le serveur et déclenche l’exécution de JUnit distante.
@@ -108,7 +108,7 @@ Les propriétés suivantes sont disponibles lors de la création d’un projet �
 | `artifactId` |  | ID d’artefact Maven de base |
 | `version` |  | Version |
 | `package` |  | Package source Java |
-| `appID` |  | ID d’application utilisé pour les dossiers de composants, de configuration et de contenu et les ID CSS |
+| `appID` |  |  utilisé pour les dossiers de composants, de configuration et de contenu et les ID CSS |
 | `appTitle` |  | Titre de l’application utilisé pour le titre du site Web et les groupes de composants |
 | `aemVersion` | 6.5.0 | Version cible d’AEM |
 | `sdkVersion` |  |
@@ -117,7 +117,7 @@ Les propriétés suivantes sont disponibles lors de la création d’un projet �
 | `includeErrorHandler` | n | Inclure une page de réponse 404 personnalisée |
 | `frontendModule` | none | Inclure un module frontal dédié (l&#39;un des `none`, [`general`](uifrontend.md), [`angular`](uifrontend-angular.md), [`react`](uifrontend-react.md)) |
 | `singleCountry` | y | Création d’une structure de langue principale dans un exemple de contenu |
-| `includeDispatcherConfig` | n | Définit si une configuration de répartiteur est générée pour le projet <br> défini sur [`cloud`](https://github.com/adobe/aem-project-archetype/tree/master/src/main/archetype/dispatcher.cloud) lors de la création d’un projet pour [AEM en tant que service](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/landing/home.html) cloud défini sur <br> [`ams`](https://github.com/adobe/aem-project-archetype/tree/master/src/main/archetype/dispatcher.ams) lors de la création d’un projet pour Adobe Managed Services |
+| `includeDispatcherConfig` | n | Définit si une configuration de répartiteur est générée pour le projet <br> défini sur [`cloud`](https://github.com/adobe/aem-project-archetype/tree/master/src/main/archetype/dispatcher.cloud) lors de la création d’un projet pour [AEM en tant que service](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/landing/home.html) Cloud défini sur <br> [`ams`](https://github.com/adobe/aem-project-archetype/tree/master/src/main/archetype/dispatcher.ams) lors de la création d’un projet pour Adobe Managed Services |
 
 >[!NOTE]
 > Si l’archétype est exécuté en mode interactif la première fois, les propriétés ayant des valeurs par défaut ne peuvent pas être modifiées (voir [ARCHETYPE-308](https://issues.apache.org/jira/browse/ARCHETYPE-308) pour plus de détails). La valeur peut être modifiée lorsque la confirmation de propriété finale est refusée et que le questionnaire est répété, ou en transmettant le paramètre dans la ligne de commande (par ex., `-DoptionIncludeExamples=n`).
