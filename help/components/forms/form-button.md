@@ -2,7 +2,7 @@
 title: Composant de bouton de formulaire
 description: Le composant Masqué du formulaire des composants principaux permet l’inclusion d’un champ masqué dans un formulaire.
 translation-type: tm+mt
-source-git-commit: 93a7ba6b8a972d111fb723cb40b0380cea9b5a9a
+source-git-commit: 95c0621f5423bfa515fe5e8b693e127ea56b4ae0
 
 ---
 
@@ -23,7 +23,7 @@ La version actuelle du composant de bouton de formulaire est v2, qui a été int
 
 Le tableau ci-après présente en détail toutes les versions prises en charge du composant, les versions AEM avec lesquelles les versions du composant sont compatibles et les liens vers la documentation pour les versions précédentes.
 
-| Version du composant | AEM 6.3 | AEM 6.4 | AEM 6.5 |  d’AEM en tant que Cloud Service |
+| Version du composant | AEM 6.3 | AEM 6.4 | AEM 6.5 | AEM as a Cloud Service |
 |--- |--- |--- |--- |---|
 | v2 | Compatible | Compatible | Compatible | Compatible |
 | [v1](/help/components/v1/form-button-v1.md) | Compatible | Compatible | Compatible | - |
@@ -32,43 +32,11 @@ Pour plus d’informations sur les versions et les publications des composants p
 
 ## Exemple de sortie de composant {#sample-component-output}
 
-Voici un exemple extrait de [We.Retail](https://helpx.adobe.com/experience-manager/6-5/sites/developing/using/we-retail.html).
-
-### Capture d’écran {#screenshot}
-
-![](/help/assets/screen_shot_2018-01-12at120021.png)
-
-### HTML {#html}
-
-```
-<div class="container responsivegrid aem-GridColumn aem-GridColumn--default--12">
-<form method="POST" action="/content/we-retail/us/en/experience.html" id="new_form" name="new_form" enctype="multipart/form-data" class="cmp-form aem-Grid aem-Grid--12 aem-Grid--default--12">
-    <input type="hidden" name=":formstart" value="/content/we-retail/us/en/experience/jcr:content/root/responsivegrid/container">
-    
-    <div class="button aem-GridColumn aem-GridColumn--default--12">
-<button type="BUTTON" class="cmp-form-button" name="loveToast" value="ILoveToast">Click here if you love toast!</button>
-</div>
-
-</form>
-</div>
-```
-
-### JSON {#json}
-
-```
-"button":{  
-                           "columnClassNames":"aem-GridColumn aem-GridColumn--default--12",
-                           ":type":"core/wcm/sandbox/components/form/button/v2/button",
-                           "name":"loveToast",
-                           "jcr:title":"Click here if you love toast!",
-                           "type":"button",
-                           "value":"ILoveToast"
-                        }
-```
+To experience the Form Button Component as well as see examples of its configuration options as well as HTML and JSON output, visit the [Component Library](https://adobe.com/go/aem_cmp_library_form_button).
 
 ### Détails techniques {#technical-details}
 
-The latest technical documentation about the Form Button Component [can be found on GitHub](https://adobe.com/go/aem_cmp_tech_form_button_v2).
+La documentation technique la plus récente sur le composant de bouton de formulaire [se trouve sur GitHub](https://adobe.com/go/aem_cmp_tech_form_button_v2).
 
 Vous trouverez plus d’informations sur le développement des composants principaux dans la [documentation destinée aux développeurs de composants principaux](/help/developing/overview.md).
 
