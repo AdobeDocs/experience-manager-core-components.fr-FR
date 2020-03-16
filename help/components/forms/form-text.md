@@ -2,7 +2,7 @@
 title: Composant de texte de formulaire
 description: Le composant de texte de formulaire des composants principaux permet l’entrée de texte de formulaire pour envoi.
 translation-type: tm+mt
-source-git-commit: 93a7ba6b8a972d111fb723cb40b0380cea9b5a9a
+source-git-commit: 95c0621f5423bfa515fe5e8b693e127ea56b4ae0
 
 ---
 
@@ -21,7 +21,7 @@ La version actuelle du composant de texte de formulaire est v2, qui a été intr
 
 Le tableau ci-après présente en détail toutes les versions prises en charge du composant, les versions AEM avec lesquelles les versions du composant sont compatibles et les liens vers la documentation pour les versions précédentes.
 
-| Version du composant | AEM 6.3 | AEM 6.4 | AEM 6.5 |  d’AEM en tant que Cloud Service |
+| Version du composant | AEM 6.3 | AEM 6.4 | AEM 6.5 | AEM as a Cloud Service |
 |--- |--- |--- |--- |---|
 | v2 | Compatible | Compatible | Compatible | Compatible |
 | [v1](/help/components/v1/form-text-v1.md) | Compatible | Compatible | Compatible | - |
@@ -30,48 +30,11 @@ Pour plus d’informations sur les versions et les publications des composants p
 
 ## Exemple de sortie de composant {#sample-component-output}
 
-Voici un exemple extrait de [We.Retail](https://docs.adobe.com/content/help/en/experience-manager-65/developing/bestpractices/we-retail/we-retail.html).
-
-### Capture d’écran {#screenshot}
-
-![](/help/assets/chlimage_1-22.png)
-
-### HTML {#html}
-
-```
-<div class="text aem-GridColumn aem-GridColumn--default--12">
-   <div class="cmp-form-text">
-      <label for="form-text-2146967">How many pieces of toast would you like?
-      </label>
-   <input class="cmp-form-text__text" type="number" id="form-text-2146967" name="pieces">
-   </div>
-</div>
-```
-
-### JSON {#json}
-
-```
-"text":{  
-                     "columnClassNames":"aem-GridColumn aem-GridColumn--default--12",
-                     "id":"form-text-2146967",
-                     "title":"How many pieces of toast would you like?",
-                     "name":"pieces",
-                     "value":"",
-                     "helpMessage":"",
-                     "type":"number",
-                     "readOnly":false,
-                     "required":false,
-                     "requiredMessage":"",
-                     "constraintMessage":"",
-                     "rows":2,
-                     "defaultValue":"",
-                     ":type":"core/wcm/components/form/text/v2/text"
-                  }
-```
+To experience the Form Text Component as well as see examples of its configuration options as well as HTML and JSON output, visit the [Component Library](https://adobe.com/go/aem_cmp_library_form_text).
 
 ### Détails techniques {#technical-details}
 
-The latest technical documentation about the Form Text Component [can be found on GitHub](https://adobe.com/go/aem_cmp_tech_form_text_v2).
+La documentation technique la plus récente sur le composant de texte de formulaire [se trouve sur GitHub](https://adobe.com/go/aem_cmp_tech_form_text_v2).
 
 Vous trouverez plus d’informations sur le développement des composants principaux dans la [documentation destinée aux développeurs de composants principaux](/help/developing/overview.md).
 
