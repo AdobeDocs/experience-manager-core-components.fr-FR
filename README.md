@@ -1,9 +1,9 @@
 ---
-source-git-commit: 632d6abb1f13667cc0457152268d50af3bfabfc4
-translation-type: ht
+source-git-commit: aa978d6ddf04912e3fc108f86450fac6a90d2caf
+translation-type: tm+mt
 
 ---
-# Documentation sur les composants principaux AEM
+# Documentation des composants principaux d’Adobe Experience Manager
 
 ## Documentation sur les composants principaux
 
@@ -15,6 +15,6 @@ Vos contributions à la documentation sont les bienvenues. Veuillez consulter le
 * [guidelines.md](guidelines.md) Pour obtenir une vue d’ensemble de ce qui est attendu dans les contributions et comment composer vos contributions à la documentation.
 * [code-of-conduct.md](code-of-conduct.md) Pour une présentation des normes de comportement attendues à mesure que vous participez à ce projet de documentation.
 
-## Composants principaux AEM
+## Référentiel des composants principaux
 
-Les [composants principaux d’Adobe Experience Manager](https://github.com/adobe/aem-core-wcm-components) eux-mêmes sont conservés en tant que référentiel distinct. Consultez ce projet si vous avez besoin d’une documentation technique/de développement sur les composants, si vous souhaitez contribuer aux composants eux-mêmes ou si vous voulez signaler un problème concernant les fonctionnalités des composants principaux.
+Les composants [principaux d’](https://github.com/adobe/aem-core-wcm-components) Adobe Experience Manager sont eux-mêmes maintenus en tant que projet dans un référentiel distinct. Consultez ce projet si vous avez besoin d’une documentation technique/de développement sur les composants, si vous souhaitez contribuer aux composants eux-mêmes ou si vous voulez signaler un problème concernant les fonctionnalités des composants principaux.
