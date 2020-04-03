@@ -2,7 +2,7 @@
 title: Composant textuel
 description: Le composant Texte est un composant d’édition et de composition de texte enrichi qui propose une édition statique.
 translation-type: tm+mt
-source-git-commit: fe8a121520000ffd56ae3347469590e89121eaf0
+source-git-commit: 4df8e147fc9d0151c3a211473b067c78b807e52e
 
 ---
 
@@ -23,7 +23,7 @@ La version actuelle du composant de texte est v2, qui a été introduite avec la
 
 Le tableau ci-après présente en détail toutes les versions prises en charge du composant, les versions AEM avec lesquelles les versions du composant sont compatibles et les liens vers la documentation pour les versions précédentes.
 
-| Version du composant | AEM 6.3 | AEM 6.4 | AEM 6.5 |  d’AEM en tant que Cloud Service |
+| Version du composant | AEM 6.3 | AEM 6.4 | AEM 6.5 | AEM as a Cloud Service |
 |---|---|---|---|---|
 | v2 | Compatible | Compatible | Compatible | Compatible |
 | [v1](v1/text-v1.md) | Compatible | Compatible | Compatible | - |
@@ -32,23 +32,23 @@ Pour plus d’informations sur les versions et les publications des composants p
 
 ## Exemple de sortie de composant {#sample-component-output}
 
-Pour tester le composant de texte, des exemples d’options de configuration, ainsi que des sorties HTML et JSON, consultez la [Bibliothèque de  composants](https://adobe.com/go/aem_cmp_library_text).
+Pour tester le composant de texte et obtenir des exemples d’options de configuration, ainsi que des sorties HTML et JSON, consultez la [bibliothèque de composants](https://adobe.com/go/aem_cmp_library_text).
 
 ### Détails techniques {#technical-details}
 
-The latest technical documentation about the Text Component [can be found on GitHub](https://adobe.com/go/aem_cmp_tech_text_v2).
+La documentation technique la plus récente sur le composant Texte [se trouve sur GitHub](https://adobe.com/go/aem_cmp_tech_text_v2).
 
 Vous trouverez plus d’informations sur le développement des composants principaux dans la [documentation destinée aux développeurs de composants principaux](/help/developing/overview.md).
 
 ## Composant Texte et Éditeur de texte enrichi {#the-text-component-and-the-rich-text-editor}
 
-Le composant principal Texte tire parti de l’éditeur de texte enrichi AEM (RTE). L’éditeur de texte enrichi met à la disposition des auteurs de nombreuses fonctionnalités pour modifier leur contenu textuel. L’éditeur de texte enrichi est très flexible dans sa configuration et offre plusieurs options. Further details about how the RTE can be configured can be found in the articles [Configure the Rich Text Editor](https://docs.adobe.com/content/help/en/experience-manager-65/administering/operations/rich-text-editor.html) and [Configure the Rich Text Editor plug-ins](https://docs.adobe.com/content/help/en/experience-manager-65/administering/operations/configure-rich-text-editor-plug-ins.html).
+Le composant principal Texte tire parti de l’éditeur de texte enrichi AEM (RTE). L’éditeur de texte enrichi met à la disposition des auteurs de nombreuses fonctionnalités pour modifier leur contenu textuel. L’éditeur de texte enrichi est très flexible dans sa configuration et offre plusieurs options. Vous trouverez plus d’informations sur la configuration de l’éditeur de texte enrichi dans les articles [Configuration de l’éditeur de texte enrichi](https://docs.adobe.com/content/help/en/experience-manager-65/administering/operations/rich-text-editor.html) et [Configuration des modules externes de l’éditeur de texte enrichi](https://docs.adobe.com/content/help/en/experience-manager-65/administering/operations/configure-rich-text-editor-plug-ins.html).
 
 Le reste de cet article illustre la configuration standard du composant principal Texte avec la configuration prête à l’emploi de l’éditeur de texte enrichi.
 
 >[!NOTE]
 >
->Only options enabled by [UI configurations of the RTE](https://docs.adobe.com/content/help/en/experience-manager-65/administering/operations/configure-rich-text-editor-plug-ins.html) are available by in the Text Component.
+>Seules les options activées par [les configurations de l’interface utilisateur de l’éditeur de texte enrichi](https://docs.adobe.com/content/help/en/experience-manager-65/administering/operations/configure-rich-text-editor-plug-ins.html) sont disponibles dans le composant Texte.
 
 ## Boîte de dialogue de modification {#edit-dialog}
 
@@ -172,6 +172,10 @@ Si une correspondance est trouvée, elle est mise en surbrillance et le dialogue
 
 Sélectionnez **Remplacer tout** pour remplacer toutes les occurrences du texte à la fois.
 
+Lors de l’utilisation de la fonctionnalité de remplacement, la chaîne de remplacement à remplacer doit être saisie en même temps que la chaîne de recherche. Cependant, vous pouvez toujours cliquer sur Rechercher pour rechercher la chaîne avant de la remplacer. Si la chaîne de remplacement est saisie après avoir cliqué sur Rechercher, la recherche est réinitialisée au début du texte.
+
+La boîte de dialogue de recherche et de remplacement devient transparente lorsque l’utilisateur clique sur Rechercher et devient opaque lorsque l’utilisateur clique sur Remplacer. Cela permet à l’auteur de vérifier le texte qui sera remplacé.
+
 ### Aligner le texte à gauche
 
 ![](/help/assets/screen_shot_2018-01-11at142012.png)
@@ -256,7 +260,7 @@ La légende du tableau.
 
 Permet de vérifier l’orthographe du contenu du texte. Les fautes de frappe possibles sont soulignées avec des lignes rouges rompues.
 
-Further details about spell checking and customizing spell check dictionaries can be found in the document [Configure the Rich Text Editor Plug-Ins](https://docs.adobe.com/content/help/en/experience-manager-65/administering/operations/configure-rich-text-editor-plug-ins.html).
+Vous trouverez plus d’informations sur la vérification orthographique et la personnalisation des dictionnaires orthographiques dans le document [Configuration des modules de l’éditeur de texte enrichi](https://docs.adobe.com/content/help/en/experience-manager-65/administering/operations/configure-rich-text-editor-plug-ins.html).
 
 ### Caractères spéciaux {#special-characters}
 
@@ -280,7 +284,7 @@ Appuyez ou cliquez sur l’icône **Modifier la source** pour modifier le conten
 >
 >Comme c’est toujours le cas avec l’accès au code HTML brut, vous devez faire preuve de prudence lors de l’utilisation de l’option **Modifier la source**.
 >
->Le code HTML saisi via l’option **Modifier la source** est analysé pour les risques XSS et tous les scripts insérés sont supprimés et ne s’affichent pas sur la page produite. Cependant, le code HTML mal formé saisi dans **Modifier la source** peut casser le modèle de la page, ce qui entraîne une mise en forme inattendue ou un rendu inutilisable de la page obtenue.
+>Le code HTML saisi via l’option **Modifier la source** est analysé pour les risques XSS et tous les scripts insérés sont supprimés et ne s’affichent pas sur la page produite. Cependant, le code HTML mal formé saisi dans l’option **Modifier la source** peut casser le modèle de la page, ce qui entraîne une mise en forme inattendue ou un rendu inutilisable de la page obtenue.
 
 >[!NOTE]
 >
