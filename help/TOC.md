@@ -2,7 +2,7 @@
 sub-product: AEM Core Components
 user-guide-title: AEM Core Components
 translation-type: tm+mt
-source-git-commit: 93a7ba6b8a972d111fb723cb40b0380cea9b5a9a
+source-git-commit: 2faa092a075ab0512e9bd5654884534936c0ad53
 
 ---
 
@@ -10,6 +10,7 @@ source-git-commit: 93a7ba6b8a972d111fb723cb40b0380cea9b5a9a
 # Aide sur les composants principaux d’AEM {#using}
 
 + [Présentation des composants principaux](introduction.md)
++ [Chemins vers la réussite](developing/success.md)
 + [Bibliothèque de composants](https://adobe.com/go/aem_cmp_library)
 + [Versions des composants principaux](versions.md)
 + Prise en main {#get-started}
@@ -60,15 +61,17 @@ source-git-commit: 93a7ba6b8a972d111fb723cb40b0380cea9b5a9a
          + [Texte de formulaire (v1)](components/v1/form-text-v1.md)
 + Développement {#developing}
    + [Développement des composants principaux](developing/overview.md)
-   + [Tutoriel du développeur WKND](https://docs.adobe.com/content/help/en/experience-manager-learn/getting-started-wknd-tutorial-develop/overview.html)
+   + [Chemins vers la réussite](developing/success.md)
+   + [Tutoriel du développeur WKND](https://docs.adobe.com/content/help/fr/experience-manager-learn/getting-started-wknd-tutorial-develop/overview.html)
    + [Personnalisation des composants principaux](developing/customizing.md)
    + [Instructions relatives aux composants](developing/guidelines.md)
    + Archétype de projet AEM {#archetype}
       + [Présentation de l&#39;archétype](developing/archetype/overview.md)
+      + [Utilisation de l&#39;archétype](developing/archetype/using.md)
       + [Module principal](developing/archetype/core.md)
       + [Module ui.apps](developing/archetype/uiapps.md)
       + [Module ui.content](developing/archetype/uicontent.md)
-      + [ui.frontend.general Module](developing/archetype/uifrontend.md)
-      + [ui.frontend.response Module](developing/archetype/uifrontend-react.md)
-      + [ui.frontend.angular Module](developing/archetype/uifrontend-angular.md)
-      + [module ui.tests](developing/archetype/uitests.md)
+      + [Module ui.frontend.general](developing/archetype/uifrontend.md)
+      + [Module ui.frontend.react](developing/archetype/uifrontend-react.md)
+      + [Module ui.frontend.angular](developing/archetype/uifrontend-angular.md)
+      + [Module ui.tests](developing/archetype/uitests.md)
