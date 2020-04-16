@@ -1,7 +1,7 @@
 ---
 title: Composant d’accordéon
 description: Le composant d’accordéon des composants principaux permet la création d’un ensemble de panneaux organisés dans un accordéon sur une page.
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: fe8a121520000ffd56ae3347469590e89121eaf0
 
 ---
@@ -25,7 +25,7 @@ La version actuelle du composant d’accordéon est v1, qui a été introduite 
 
 Le tableau ci-après présente en détail toutes les versions prises en charge du composant, les versions AEM avec lesquelles les versions du composant sont compatibles et les liens vers la documentation pour les versions précédentes.
 
-| Version du composant | AEM 6.3 | AEM 6.4 | AEM 6.5 |  d’AEM en tant que Cloud Service |
+| Version du composant | AEM 6.3 | AEM 6.4 | AEM 6.5 | AEM as a Cloud Service |
 |--- |--- |--- |---|---|
 | v1 | Compatible | Compatible | Compatible | Compatible |
 
