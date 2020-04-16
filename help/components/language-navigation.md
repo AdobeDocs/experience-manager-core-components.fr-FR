@@ -1,7 +1,7 @@
 ---
 title: Composant de navigation par langue
 description: Le composant de navigation par langue fournit une navigation par langue/pays pour un site, de sorte que les visiteurs puissent accéder à la même page dans un autre paramètre régional.
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 93a7ba6b8a972d111fb723cb40b0380cea9b5a9a
 
 ---
@@ -13,12 +13,12 @@ Le composant de navigation par langue fournit une navigation par langue/pays pou
 
 ## Utilisation {#usage}
 
-Souvent, les sites web sont proposés en plusieurs langues pour différentes zones géographiques. Le composant de navigation par langue permet à un visiteur d’afficher la même page dans différentes langues/différents paramètres régionaux. Ainsi, si vous consultez la version suisse allemande du site web, vous pouvez facilement passer à la version en anglais (États-Unis) de la même page. Le composant Navigation dans les langues gère la compréhension de la structure linguistique du site et trouve automatiquement la page correspondante.
+Souvent, les sites web sont proposés en plusieurs langues pour différentes zones géographiques. Le composant de navigation par langue permet à un visiteur d’afficher la même page dans différentes langues/différents paramètres régionaux. Ainsi, si vous consultez la version suisse allemande du site web, vous pouvez facilement passer à la version en anglais (États-Unis) de la même page. Le composant Navigation par langue gère la compréhension de la structure linguistique du site et recherche automatiquement la page correspondante.
 
 * Pour un exemple du fonctionnement de la fonction de localisation du composant de navigation linguistique, reportez-vous à [la section ci-dessous](#example).
 * Pour un exemple de la façon dont les fonctions de localisation des autres composants principaux fonctionnent ensemble, reportez-vous à la page [Fonctions de localisation de la page Composants principaux](/help/get-started/localization.md).
 
-La [boîte de dialogue de modification](#edit-dialog) permet la définition de la racine de navigation globale d’un site ainsi que la profondeur de la structure de navigation. À l’aide de [la boîte de dialogue de conception](#design-dialog), l’auteur du modèle peut définir les valeurs par défaut des mêmes options.
+La [boîte de dialogue de modification](#edit-dialog) permet de définir la racine de navigation globale d’un site ainsi que la profondeur de la structure de navigation. À l’aide de [la boîte de dialogue de conception](#design-dialog), l’auteur du modèle peut définir les valeurs par défaut des mêmes options.
 
 ## Version et compatibilité {#version-and-compatibility}
 
@@ -26,7 +26,7 @@ La version actuelle du composant de navigation par langue est v1, qui a été in
 
 Le tableau ci-après présente en détail toutes les versions prises en charge du composant, les versions AEM avec lesquelles les versions du composant sont compatibles et les liens vers la documentation pour les versions précédentes.
 
-| Version du composant | AEM 6.3 | AEM 6.4 | AEM 6.5 |  d’AEM en tant que Cloud Service |
+| Version du composant | AEM 6.3 | AEM 6.4 | AEM 6.5 | AEM as a Cloud Service |
 |--- |--- |--- |--- |---|
 | v1 | Compatible | Compatible | Compatible | Compatible |
 
@@ -34,11 +34,11 @@ Pour plus d’informations sur les versions et les publications des composants p
 
 ## Exemple de sortie de composant {#sample-component-output}
 
-To experience the Language Navigation Component as well as see examples of its configuration options as well as HTML and JSON output, visit the [Component Library](https://adobe.com/go/aem_cmp_library_langnav).
+Pour tester le composant Navigation par langue et obtenir des exemples d’options de configuration, ainsi que des sorties HTML et JSON, consultez la [bibliothèque de composants](https://adobe.com/go/aem_cmp_library_langnav).
 
 ## Détails techniques {#technical-details}
 
-The latest technical documentation about the Language Navigation Component [can be found on GitHub](https://adobe.com/go/aem_cmp_tech_langnav_v1).
+La documentation technique la plus récente sur le composant Navigation par langue [se trouve sur GitHub](https://adobe.com/go/aem_cmp_tech_langnav_v1).
 
 Vous trouverez plus d’informations sur le développement des composants principaux dans la [documentation destinée aux développeurs de composants principaux](/help/developing/overview.md).
 
@@ -46,20 +46,20 @@ Vous trouverez plus d’informations sur le développement des composants princi
 
 La boîte de dialogue de modification permet de définir la racine de navigation globale d’un site ainsi que la profondeur de la structure de navigation.
 
-En règle générale, ces configurations ne doivent être effectuées qu’au niveau du modèle de page. Toutefois, elles peuvent être modifiées au niveau de la page dans la [boîte de dialogue de modification](#edit-dialog).
+En règle générale, ces configurations doivent être effectuées uniquement au niveau du modèle de page. Toutefois, elles peuvent être modifiées au niveau de la page dans la [boîte de dialogue de modification](#edit-dialog).
 
 ### Onglet Propriétés {#properties-tab}
 
 ![](/help/assets/screen_shot_2018-01-12at133642.png)
 
 * **Racine de navigation**
-   * C&#39;est là que la navigation linguistique du site doit commencer.
+   * C’est là que doit commencer la navigation par langue du site.
    * La structure linguistique du site commence au niveau suivant sous cette racine.
 * **Profondeur de la structure de langue**
    * Il s’agit du nombre de niveaux de l’arborescence de contenu sous la **racine de navigation** qui représentent la structure linguistique du site. Exemples :
       * `1` signifie généralement que vous avez le choix de la langue.
-      * `2` signifie généralement que vous avez le choix entre la langue et le pays.
-      * `3` signifie généralement que vous avez le choix entre la langue, le pays et la région.
+      * `2` signifie généralement que vous avez le choix de la langue et du pays.
+      * `3` signifie généralement que vous avez le choix de la langue, du pays et de la région.
 
 #### Exemple {#example}
 
@@ -80,7 +80,7 @@ Imaginons que votre contenu ressemble à ceci :
 \-- wknd-shop
 ```
 
-Pour le site We.Retail, il est probable que vous souhaitiez placer le composant Navigation par langue sur un modèle de page dans le cadre de l’en-tête. Une fois qu’il fait partie du modèle, vous pouvez définir la **racine de navigation** du composant sur `/content/we-retail` puisque c’est là où commence le contenu localisé de ce site. You would also want to set the **Language Structure Depth** to be `2` since your structure is of two levels (country then language).
+Pour le site We.Retail, il est probable que vous souhaitiez placer le composant Navigation par langue sur un modèle de page dans le cadre de l’en-tête. Une fois qu’il fait partie du modèle, vous pouvez définir la **racine de navigation** du composant sur `/content/we-retail` puisque c’est là où commence le contenu localisé de ce site. Vous souhaiteriez également définir la **Profondeur de la structure de langue** sur `2` puisqu’il s’agit d’une structure à deux niveaux (pays puis langue).
 
 Avec la valeur **Racine de navigation**, le composant Langue sait que la navigation commence après `/content/we-retail` et il peut générer des options de navigation par langue en reconnaissant les deux niveaux suivants dans l’arborescence de contenu en tant que structure de navigation de langue du site (comme défini par la valeur **Profondeur de la structure de langue**).
 
@@ -92,6 +92,6 @@ Le composant Navigation par langue prend en charge le [système de style](/help/
 
 ## Boîte de dialogue de modification {#edit-dialog}
 
-En règle générale, le composant Navigation linguistique ne doit être ajouté et configuré que sur les modèles de page d’un site. Cependant, si le composant Navigation par langue doit être ajouté à une page de contenu individuelle, la boîte de dialogue de modification permet à un auteur de contenu de configurer les mêmes valeurs, comme décrit dans la [boîte de dialogue de conception](#design-dialog).
+En règle générale, le composant Navigation par langue doit uniquement être ajouté et configuré sur les modèles de page d’un site. Cependant, si le composant Navigation par langue doit être ajouté à une page de contenu, la boîte de dialogue de modification permet à un auteur de contenu de configurer les mêmes valeurs, comme décrit dans la [boîte de dialogue de conception](#design-dialog).
 
 ![](/help/assets/screen_shot_2018-01-12at133353.png)
