@@ -1,7 +1,7 @@
 ---
 title: Création à l’aide des composants principaux
 description: 'Dans AEM, les composants sont les éléments structurels qui constituent le contenu des pages créées : les composants principaux offrent une fonctionnalité de création flexible et riche en fonctionnalités.'
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 93a7ba6b8a972d111fb723cb40b0380cea9b5a9a
 
 ---
@@ -11,11 +11,11 @@ source-git-commit: 93a7ba6b8a972d111fb723cb40b0380cea9b5a9a
 
 Dans Adobe Experience Manager, les composants sont des éléments structurels qui constituent le contenu des pages en cours de création.
 
-Les composants principaux offrent une fonctionnalité de création flexible et riche en fonctionnalités. Le site [de référence](https://wknd.site) WKND et son illustre comment les composants principaux peuvent être utilisés pour implémenter une expérience Web riche.
+Les composants principaux offrent une fonctionnalité de création flexible et riche en fonctionnalités. Le [site de référence WKND](https://wknd.site) illustre comment les composants principaux peuvent être utilisés pour mettre en œuvre une expérience web riche.
 
-Pour tester les composants principaux et consulter des exemples d’options de configuration, ainsi que des sorties HTML et JSON, consultez la [bibliothèque de composants](https://adobe.com/go/aem_cmp_library).
+Pour tester les composants principaux et consulter des exemples d’options de configuration, ainsi que des sorties HTML et JSON, consultez la [bibliothèque de composants](https://adobe.com/go/aem_cmp_library).
 
-For a more in-depth, developer-oriented introduction to implementing the Core Components on an AEM project by using the [AEM Project Archetype](/help/developing/archetype/overview.md) check out [the WKND tutorial.](https://docs.adobe.com/content/help/en/experience-manager-learn/getting-started-wknd-tutorial-develop/overview.html)
+Pour une présentation plus détaillée et plus orientée vers les développeurs de l’implémentation des composants principaux dans un projet AEM utilisant l’[archétype de projet AEM](/help/developing/archetype/overview.md), consultez [le tutoriel WKND.](https://docs.adobe.com/content/help/fr/experience-manager-learn/getting-started-wknd-tutorial-develop/overview.html)
 
 >[!NOTE]
 >
@@ -31,7 +31,7 @@ En tant qu’auteur, vous remarquerez que les composants principaux présentent 
 
 * Simples d’utilisation et bien intégrés à l’[éditeur de page](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/sites/authoring/fundamentals/editing-content.html)
 
-* Feature-rich capabilities to accommodate many use cases as illustrated by the [WKND reference site](https://wknd.site) as well as in the [Component Library](https://adobe.com/go/aem_cmp_library)
+* Riches en fonctionnalités pour répondre à de nombreux cas d’utilisation, comme illustré sur le [site de référence WKND](https://wknd.site), ainsi que dans la [bibliothèque de composants](https://adobe.com/go/aem_cmp_library)
 
 * [Préconfigurables](#pre-configuring-core-components) afin de définir les fonctionnalités disponibles pour les auteurs de pages au moyen de l’[éditeur de modèles](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/sites/authoring/features/templates.html)
 
