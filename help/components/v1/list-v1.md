@@ -2,7 +2,7 @@
 title: Composant Liste (v1)
 description: Le composant principal Liste permet de créer facilement des listes dynamiques et statiques.
 index: n
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 93a7ba6b8a972d111fb723cb40b0380cea9b5a9a
 
 ---
@@ -37,7 +37,7 @@ Le tableau suivant répertorie la compatibilité de la version v1 du composant L
 
 ## Exemple de sortie de composant {#sample-component-output}
 
-Voici un exemple extrait de [We.Retail](https://helpx.adobe.com/experience-manager/6-4/sites/developing/using/we-retail.html).
+Voici un exemple extrait de [We.Retail](https://helpx.adobe.com/fr/experience-manager/6-4/sites/developing/using/we-retail.html).
 
 ### Capture d’écran {#screenshot}
 
@@ -193,7 +193,7 @@ La liste peut être créée à l’aide de pages qui correspondent à certaines 
 ![](/help/assets/chlimage_1-42.png)
 
 * **Page parente** - Emplacement où la correspondance des balises doit commencer.
-   * Utilisez la **la boîte de dialogue Sélection** pour choisir l’emplacement dans AEM.
+   * Utilisez la **boîte de dialogue Sélection** pour choisir l’emplacement dans AEM.
    * Utilisez la page active si laissée vide.
 * **Balises** - Quelles balises doivent correspondre.
    * Utilisez la boîte de dialogue **Parcourir** pour sélectionner les balises.
@@ -257,7 +257,7 @@ Dans l’onglet **Paramètres d’élément**, les options de formatage des él�
 
 ## Détails techniques {#technical-details}
 
-The latest technical documentation about the List Component [can be found on GitHub](https://github.com/adobe/aem-core-wcm-components/tree/master/content/src/content/jcr_root/apps/core/wcm/components/list/v1/list).
+La documentation technique la plus récente sur le composant de liste [se trouve sur GitHub](https://github.com/adobe/aem-core-wcm-components/tree/master/content/src/content/jcr_root/apps/core/wcm/components/list/v1/list).
 
 Le projet sur les composants principaux peut être téléchargé depuis GitHub.
 
