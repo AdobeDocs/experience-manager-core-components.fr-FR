@@ -2,7 +2,7 @@
 title: Composant de chemin de navigation (v1)
 description: Le composant de chemin de navigation des composants principaux est un composant de navigation qui crée un chemin de navigation des liens en fonction de l’emplacement de la page dans la hiérarchie du contenu.
 index: n
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 93a7ba6b8a972d111fb723cb40b0380cea9b5a9a
 
 ---
@@ -36,7 +36,7 @@ Le tableau ci-après répertorie la compatibilité de la version v1 du composant
 
 ## Exemple de sortie de composant {#sample-component-output}
 
-Voici un exemple extrait de [We.Retail](https://helpx.adobe.com/experience-manager/6-4/sites/developing/using/we-retail.html).
+Voici un exemple extrait de [We.Retail](https://helpx.adobe.com/fr/experience-manager/6-4/sites/developing/using/we-retail.html).
 
 ### Capture d’écran {#screenshot}
 
@@ -114,7 +114,7 @@ La boîte de dialogue de conception permet à l’auteur du modèle de définir 
 
 ## Détails techniques {#technical-details}
 
-The latest technical documentation about the Breadcrumb Component [can be found on GitHub](https://github.com/adobe/aem-core-wcm-components/tree/master/content/src/content/jcr_root/apps/core/wcm/components/breadcrumb/v1/breadcrumb).
+La documentation technique la plus récente sur le composant de chemin de navigation [se trouve sur GitHub](https://github.com/adobe/aem-core-wcm-components/tree/master/content/src/content/jcr_root/apps/core/wcm/components/breadcrumb/v1/breadcrumb).
 
 Le projet sur les composants principaux peut être téléchargé depuis GitHub.
 
