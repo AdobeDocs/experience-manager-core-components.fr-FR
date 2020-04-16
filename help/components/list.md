@@ -1,13 +1,13 @@
 ---
-title: Liste des composants
+title: Composant Liste
 description: Le composant principal Liste permet de créer facilement des listes dynamiques et statiques.
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 93a7ba6b8a972d111fb723cb40b0380cea9b5a9a
 
 ---
 
 
-# Liste des composants{#list-component}
+# Composant Liste{#list-component}
 
 Le composant principal Liste permet de créer facilement des listes dynamiques et statiques.
 
@@ -21,7 +21,7 @@ La version actuelle du composant Liste est v2, qui a été introduite avec la ve
 
 Le tableau ci-après présente en détail toutes les versions prises en charge du composant, les versions AEM avec lesquelles les versions du composant sont compatibles et les liens vers la documentation pour les versions précédentes.
 
-| Version du composant | AEM 6.3 | AEM 6.4 | AEM 6.5 |  d’AEM en tant que Cloud Service |
+| Version du composant | AEM 6.3 | AEM 6.4 | AEM 6.5 | AEM as a Cloud Service |
 |--- |--- |--- |--- |---|
 | v2 | Compatible | Compatible | Compatible | Compatible |
 | [v1](v1/list-v1.md) | Compatible | Compatible | Compatible | - |
@@ -30,11 +30,11 @@ Pour plus d’informations sur les versions et les publications des composants p
 
 ## Exemple de sortie de composant {#sample-component-output}
 
-Pour tester le composant de liste, des exemples d’options de configuration, ainsi que des sorties HTML et JSON, consultez la [Bibliothèque de composants](https://adobe.com/go/aem_cmp_library_list).
+Pour tester le composant de liste et obtenir des exemples d’options de configuration, ainsi que des sorties HTML et JSON, consultez la [bibliothèque de composants](https://adobe.com/go/aem_cmp_library_list).
 
 ### Détails techniques {#technical-details}
 
-The latest technical documentation about the List Component [can be found on GitHub](https://adobe.com/go/aem_cmp_tech_list_v2).
+La documentation technique la plus récente sur le composant de liste [se trouve sur GitHub](https://adobe.com/go/aem_cmp_tech_list_v2).
 
 Vous trouverez plus d’informations sur le développement des composants principaux dans la [documentation destinée aux développeurs de composants principaux](/help/developing/overview.md).
 
