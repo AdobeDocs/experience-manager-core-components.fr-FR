@@ -2,7 +2,7 @@
 title: Composant des options de formulaire (v1)
 description: Le composant des options de formulaire des composants principaux permet la sélection d’options prédéfinies dans divers formats.
 index: n
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 93a7ba6b8a972d111fb723cb40b0380cea9b5a9a
 
 ---
@@ -37,7 +37,7 @@ Le tableau ci-après répertorie la compatibilité de la version v1 du composant
 
 ## Exemple de sortie de composant {#sample-component-output}
 
-Voici un exemple extrait de [We.Retail](https://helpx.adobe.com/experience-manager/6-4/sites/developing/using/we-retail.html).
+Voici un exemple extrait de [We.Retail](https://helpx.adobe.com/fr/experience-manager/6-4/sites/developing/using/we-retail.html).
 
 ### Capture d’écran {#screenshot}
 
@@ -146,7 +146,7 @@ Il n’existe pas de boîte de dialogue de conception pour le composant des opti
 
 ## Détails techniques {#technical-details}
 
-The latest technical documentation about the Form Options Component [can be found on GitHub](https://github.com/adobe/aem-core-wcm-components/tree/master/content/src/content/jcr_root/apps/core/wcm/components/form/options/v1/options).
+La documentation technique la plus récente sur le composant Options du formulaire [se trouve sur GitHub](https://github.com/adobe/aem-core-wcm-components/tree/master/content/src/content/jcr_root/apps/core/wcm/components/form/options/v1/options).
 
 Le projet sur les composants principaux peut être téléchargé depuis GitHub.
 
