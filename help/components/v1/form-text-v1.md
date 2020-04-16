@@ -2,7 +2,7 @@
 title: Composant de texte de formulaire (v1)
 description: Le composant de texte de formulaire des composants principaux permet l’entrée de texte de formulaire pour envoi.
 index: n
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 93a7ba6b8a972d111fb723cb40b0380cea9b5a9a
 
 ---
@@ -16,7 +16,7 @@ Le composant de texte de formulaire des composants principaux permet l’entrée
 
 Le composant de texte de formulaire permet l’envoi de différents types de texte et est conçu pour être utilisé avec le [composant de conteneur de formulaires](form-container-v1.md).
 
-Le type de validation de texte, d’étiquettes et de messages d’aide peut être défini par l’éditeur de contenu dans la [boîte de dialogue de configuration ](#configure-dialog).
+Le type de validation de texte, d’étiquettes et de messages d’aide peut être défini par l’éditeur de contenu dans la [boîte de dialogue de configuration](#configure-dialog).
 
 ## Version et compatibilité {#version-and-compatibility}
 
@@ -37,7 +37,7 @@ Le tableau ci-après répertorie la compatibilité de la version v1 du composant
 
 ## Exemple de sortie de composant {#sample-component-output}
 
-Voici un exemple extrait de [We.Retail](https://helpx.adobe.com/experience-manager/6-4/sites/developing/using/we-retail.html).
+Voici un exemple extrait de [We.Retail](https://helpx.adobe.com/fr/experience-manager/6-4/sites/developing/using/we-retail.html).
 
 ### Capture d’écran {#screenshot}
 
@@ -137,7 +137,7 @@ Il n’existe pas de boîte de dialogue de conception pour le composant de texte
 
 ## Détails techniques {#technical-details}
 
-The latest technical documentation about the Form Text Component [can be found on GitHub](https://github.com/adobe/aem-core-wcm-components/tree/master/content/src/content/jcr_root/apps/core/wcm/components/form/text/v1/text).
+La documentation technique la plus récente sur le composant de texte de formulaire [se trouve sur GitHub](https://github.com/adobe/aem-core-wcm-components/tree/master/content/src/content/jcr_root/apps/core/wcm/components/form/text/v1/text).
 
 Le projet sur les composants principaux peut être téléchargé depuis GitHub.
 
