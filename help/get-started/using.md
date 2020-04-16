@@ -1,7 +1,7 @@
 ---
 title: Utilisation des composants principaux
-description: '« Pour que les composants principaux soient opérationnels dans votre propre projet, suivez les quatre étapes suivantes : téléchargement et installation, création de composants proxy, chargement des styles principaux et autorisation des composants de vos modèles. »'
-translation-type: tm+mt
+description: '« Pour que les composants principaux soient opérationnels dans votre propre projet, suivez les quatre étapes ci-après : téléchargement et installation, création de composants proxy, chargement des styles principaux et autorisation des composants de vos modèles. »'
+translation-type: ht
 source-git-commit: 93a7ba6b8a972d111fb723cb40b0380cea9b5a9a
 
 ---
@@ -9,7 +9,7 @@ source-git-commit: 93a7ba6b8a972d111fb723cb40b0380cea9b5a9a
 
 # Utilisation des composants principaux{#using-core-components}
 
-Pour que les  composants principaux soient opérationnels dans votre propre projet, vous devez suivre quatre étapes qui sont détaillées dans les sections ci-dessous :
+Pour que les composants principaux soient opérationnels dans votre propre projet, vous devez suivre quatre étapes qui sont détaillées dans les sections ci-dessous :
 
 1. [Téléchargement et installation](#download-and-install)
 1. [Création des composants proxy](#create-proxy-components)
@@ -19,15 +19,15 @@ Pour que les  composants principaux soient opérationnels dans votre propre proj
 >[!NOTE]
 >
 >Pour obtenir des instructions plus générales pour commencer avec la configuration du projet, les composants principaux, les modèles modifiables, les bibliothèques clientes et le développement des composants, le tutoriel en plusieurs parties suivant peut vous intéresser :\
->[Prise en main du développement AEM Sites – Tutoriel WKND](https://docs.adobe.com/content/help/en/experience-manager-learn/getting-started-wknd-tutorial-develop/overview.html)
+>[Prise en main du développement AEM Sites – Tutoriel WKND](https://docs.adobe.com/content/help/fr/experience-manager-learn/getting-started-wknd-tutorial-develop/overview.html)
 
 ## Téléchargement et installation {#download-and-install}
 
 Les composants principaux ont avant tout été conçus pour être flexibles. La publication plus régulière de nouvelles versions des composants principaux permet à Adobe d&#39;être plus flexible lors de la diffusion de nouvelles fonctionnalités. Les développeurs peuvent ensuite être flexibles dans les composants qu&#39;ils choisissent d&#39;intégrer dans leurs projets et dans la fréquence à laquelle ils souhaitent les mettre à jour.
 
-C&#39;est pourquoi les composants principaux ne font pas partie du démarrage rapide lors du démarrage en mode de production (sans exemple de contenu). Therefore, your first step is to [download the latest released content package from GitHub](https://github.com/adobe/aem-core-wcm-components/releases/latest) and to install it on your AEM environments.
+C&#39;est pourquoi les composants principaux ne font pas partie du démarrage rapide lors du démarrage en mode de production (sans exemple de contenu). C’est pourquoi la première étape consiste [à télécharger le dernier module de contenu publié à partir de GitHub](https://github.com/adobe/aem-core-wcm-components/releases/latest) et à l’installer dans vos environnements AEM.
 
-There are several ways to automate this, but the simplest way to quickly install a content package on an instance is by using the Package Manager; see [Install Packages](https://docs.adobe.com/content/help/en/experience-manager-65/administering/contentmanagement/package-manager.html#installing-packages). Also, once you&#39;ll have a publish instance running as well, you&#39;ll need to replicate that package to the publisher; see [Replicating Packages](https://docs.adobe.com/content/help/en/experience-manager-65/administering/contentmanagement/package-manager.html#replicating-packages).
+Il existe plusieurs manières d’automatiser cette opération, mais la méthode la plus simple pour installer rapidement un module de contenu sur une instance consiste à utiliser le gestionnaire de modules. Consultez la section [Installation des modules](https://docs.adobe.com/content/help/en/experience-manager-65/administering/contentmanagement/package-manager.html#installing-packages). En outre, une fois qu’une instance de publication s’exécute, vous devrez répliquer ce module dans l’éditeur. Consultez la section [Réplication des modules](https://docs.adobe.com/content/help/en/experience-manager-65/administering/contentmanagement/package-manager.html#replicating-packages).
 
 <!-- 
 
@@ -52,7 +52,7 @@ Ainsi, pour chaque composant principal à utiliser pour un site, vous devez :
    **Exemple**
 sous `/apps/my-site/components` Créer un nœud de titre de type `cq:Component`
 
-1. indiquer la version de composant principal correspondante avec le super-type,
+1. pointer vers la version de composant principal correspondante avec le super-type,
 
    **Exemple**
 Ajouter la propriété suivante :\
@@ -69,7 +69,7 @@ Ajoutez les propriétés suivantes :
    jcr:description="Section Heading"
    ```
 
-For instance, look at the [title component of the We.Retail reference site](https://github.com/Adobe-Marketing-Cloud/aem-sample-we-retail/blob/master/ui.apps/src/main/content/jcr_root/apps/weretail/components/content/title/.content.xml), which is a good example of a proxy component that is built that way.
+Par exemple, consultez le composant [Titre du site de référence We.Retail ](https://github.com/Adobe-Marketing-Cloud/aem-sample-we-retail/blob/master/ui.apps/src/main/content/jcr_root/apps/weretail/components/content/title/.content.xml), qui constitue un bon exemple de composant proxy créé de cette manière.
 
 ## Chargement des styles principaux {#load-the-core-styles}
 
@@ -103,7 +103,7 @@ Load the Core Client Libraries sounds way better
 
  -->
 
-1. If not done yet, create a [Client Library](https://docs.adobe.com/content/help/en/experience-manager-65/developing/introduction/clientlibs.html) that contains all of the CSS and JS files that are needed for your site.
+1. Si ce n’est pas encore fait, créez une [bibliothèque cliente](https://docs.adobe.com/content/help/en/experience-manager-65/developing/introduction/clientlibs.html) qui contient tous les fichiers CSS et JS nécessaires à votre site.
 1. Dans la bibliothèque cliente de votre site, ajoutez les dépendances aux composants principaux qui peuvent être nécessaires. Pour ce faire, ajoutez une propriété `embed`.
 
    Par exemple, pour inclure les bibliothèques clientes de tous les composants principaux v1, la propriété à ajouter serait :
@@ -118,11 +118,11 @@ Load the Core Client Libraries sounds way better
    ]"
    ```
 
-Assurez-vous que vos composants proxy et vos bibliothèques client ont été déployés dans votre environnement AEM avant de passer à la section suivante.
+Assurez-vous que vos composants proxy et vos bibliothèques clientes ont été déployés dans votre environnement AEM avant de passer à la section suivante.
 
 ## Autorisation des composants {#allow-the-components}
 
-The following steps are performed in the [Template Editor](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/sites/authoring/features/templates.html).
+Les étapes suivantes sont effectuées dans l’[éditeur de modèles](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/sites/authoring/features/templates.html).
 
 1. Dans l&#39;éditeur de modèles, sélectionnez le conteneur de mises en page et ouvrez sa stratégie.
 1. Dans la liste des composants autorisés, sélectionnez les composants proxy créés précédemment, qui doivent s&#39;afficher sous le groupe de composants qui leur est affecté. Ensuite, appliquez les modifications.
