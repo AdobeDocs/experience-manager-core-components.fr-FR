@@ -1,7 +1,7 @@
 ---
 title: Instructions relatives aux composants
 description: Les composants principaux suivent des modèles d'implémentations modernes qui sont très différents des composants de base.
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 93a7ba6b8a972d111fb723cb40b0380cea9b5a9a
 
 ---
@@ -94,9 +94,9 @@ La propriété `cq:allowedTemplates` indique les modèles qui peuvent être util
 
 ## Archétype de projet AEM {#aem-project-archetype}
 
-[L’archétype](/help/developing/archetype/overview.md) de projet AEM crée un projet Adobe Experience Manager minimal comme point de départ pour vos propres projets, y compris un exemple de composants HTL personnalisés avec SlingModels pour la logique et l’implémentation correcte des composants principaux avec le modèle de proxy recommandé.
+[L’archétype de projet AEM](/help/developing/archetype/overview.md) crée un projet Adobe Experience Manager minimal comme point de départ pour vos projets, y compris un exemple de composants HTL personnalisés avec SlingModels pour la logique et l’implémentation appropriée des composants principaux avec le modèle de proxy recommandé.
 
 **À lire aussi :**
 
 * [Utilisation des composants principaux](/help/get-started/using.md) : rendez opérationnels les composants principaux de votre propre projet.
-* [Personnalisation des composants principaux](customizing.md) : pour savoir comment appliquer un style aux composants principaux et les personnaliser.
+* [Personnalisation des composants principaux](customizing.md) : pour savoir comment mettre en forme et personnaliser les composants principaux.
