@@ -1,7 +1,7 @@
 ---
 title: Composant Onglets
 description: Le composant Onglets permet la création de plusieurs onglets pour disposer le contenu sur une page.
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 93a7ba6b8a972d111fb723cb40b0380cea9b5a9a
 
 ---
@@ -29,7 +29,7 @@ La version actuelle du composant Onglets est v1, qui a été introduite avec la 
 
 Le tableau ci-après présente en détail toutes les versions prises en charge du composant, les versions AEM avec lesquelles les versions du composant sont compatibles et les liens vers la documentation pour les versions précédentes.
 
-| Version du composant | AEM 6.3 | AEM 6.4 | AEM 6.5 |  d’AEM en tant que Cloud Service |
+| Version du composant | AEM 6.3 | AEM 6.4 | AEM 6.5 | AEM as a Cloud Service |
 |--- |--- |--- |--- |---|
 | v1 | Compatible | Compatible | Compatible | Compatible |
 
@@ -96,7 +96,7 @@ Lorsque vous sélectionnez l’option **Sélectionner un panneau** dans la barre
 
 >[!NOTE]
 >
->Les onglets ne sont pas sélectionnables par l’auteur en mode **Édition**. Utilisez le mode **[Aperçu](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/sites/authoring/fundamentals/editing-content.html#preview-mode)**ou l’option**[ Afficher comme publié(e)](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/sites/authoring/fundamentals/editing-content.html#view-as-published)** pour interagir avec les onglets comme un lecteur du contenu publié.
+>Les onglets ne sont pas sélectionnables par l’auteur en mode **Édition**. Utilisez le mode **[](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/sites/authoring/fundamentals/editing-content.html#preview-mode)Aperçu **ou l’option**[Afficher comme publié(e)](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/sites/authoring/fundamentals/editing-content.html#view-as-published)** pour interagir avec les onglets comme un lecteur du contenu publié.
 
 ## Boîte de dialogue de conception {#design-dialog}
 
