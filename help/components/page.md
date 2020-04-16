@@ -1,7 +1,7 @@
 ---
 title: Composant de page
 description: Le composant de page est un composant de page extensible, conçu pour fonctionner avec l’éditeur de modèles et autoriser l’assemblage de composants d’en-tête/de pied de page et de structure à l’aide de l’éditeur de modèles.
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 93a7ba6b8a972d111fb723cb40b0380cea9b5a9a
 
 ---
@@ -9,7 +9,7 @@ source-git-commit: 93a7ba6b8a972d111fb723cb40b0380cea9b5a9a
 
 # Composant de page{#page-component}
 
-The Page Component is an extensible page component designed to work with the [template editor](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/sites/authoring/features/templates.html) and allows page header/footer and structure components to be assembled with the template editor.
+Le composant de page est un composant de page extensible conçu pour fonctionner avec l’[éditeur de modèles](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/sites/authoring/features/templates.html) et permet l’assemblage de composants d’en-tête/de pied de page et de structure à l’aide de l’éditeur de modèles.
 
 ## Utilisation {#usage}
 
@@ -23,7 +23,7 @@ La version actuelle du composant de page est v2, qui a été introduite avec la 
 
 Le tableau ci-après présente en détail toutes les versions prises en charge du composant, les versions AEM avec lesquelles les versions du composant sont compatibles et les liens vers la documentation pour les versions précédentes.
 
-| Version du composant | AEM 6.3 | AEM 6.4 | AEM 6.5 |  d’AEM en tant que Cloud Service |
+| Version du composant | AEM 6.3 | AEM 6.4 | AEM 6.5 | AEM as a Cloud Service |
 |---|---|---|---|---|
 | v2 | Compatible | Compatible | Compatible | Compatible |
 | [v1](v1/page-v1.md) | Compatible | Compatible | Compatible | - |
@@ -32,7 +32,7 @@ Pour plus d’informations sur les versions et les publications des composants p
 
 >[!NOTE]
 >
->To enable redirect at `cq:Page` level for version 2 of the page component and AEM 6.3, [service pack 2](https://helpx.adobe.com/experience-manager/6-3/release-notes/sp2-release-notes.html) or later is required. Cette redirection n’était pas disponible dans les versions précédentes.
+>Pour activer la redirection au niveau `cq:Page` de la version 2 du composant Page et AEM 6.3, [le service pack 2](https://helpx.adobe.com/fr/experience-manager/6-2/release-notes/sp3-release-notes.html) ou une version ultérieure est requis. Cette redirection n’était pas disponible dans les versions précédentes.
 
 ## Exemple de sortie de composant {#sample-component-output}
 
@@ -44,13 +44,13 @@ Voici un exemple extrait de [We.Retail](https://docs.adobe.com/content/help/en/e
 
 ### Détails techniques {#technical-details}
 
-The latest technical documentation about the Page Component [can be found on GitHub](https://adobe.com/go/aem_cmp_tech_page_v2).
+La documentation technique la plus récente sur le composant Page [se trouve sur GitHub](https://adobe.com/go/aem_cmp_tech_page_v2).
 
 Vous trouverez plus d’informations sur le développement des composants principaux dans la [documentation destinée aux développeurs de composants principaux](/help/developing/overview.md).
 
 ## Boîte de dialogue de modification{#edit-dialog}
 
-Because the component represents the entire page, settings that would normally be in an edit dialog are found in the [Page Properties](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/sites/authoring/fundamentals/page-properties.html) window.
+Étant donné que le composant représente la page entière, les paramètres qui seraient normalement dans une boîte de dialogue de modification se trouvent dans la fenêtre [Propriétés de la page](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/sites/authoring/fundamentals/page-properties.html).
 
 ## Boîte de dialogue de conception {#design-dialog}
 
@@ -67,9 +67,9 @@ Because the component represents the entire page, settings that would normally b
 À l’aide de la fenêtre Conception de page, vous pouvez définir les bibliothèques clientes à charger ainsi que la bibliothèque de ressources Web pour la page.
 
 * **Bibliothèques clientes**
-Cette option définit les catégories de bibliothèque clientes à charger. JavaScript est ajouté à la fin du corps et le CSS est ajouté à l’en-tête de la page.
+Cette option définit les catégories de bibliothèques clientes à charger. JavaScript est ajouté à la fin du corps et le CSS est ajouté à l’en-tête de la page.
 * **En-tête de page JavaScript des bibliothèques clientes**
-Ceci définit les catégories de bibliothèque clientes JavaScript à charger dans l’en-tête de la page.
+Ceci définit les catégories de bibliothèques clientes JavaScript à charger dans l’en-tête de la page.
    * Les catégories définies ici et qui sont aussi présentes dans le champ **Bibliothèques clientes** ont le code JavaScript chargé dans l’en-tête de la page et non dans la fin du corps.
    * Aucun CSS ne sera chargé, sauf si la catégorie est également présente dans le champ **Bibliothèques clientes**.
 
@@ -84,7 +84,7 @@ Les bibliothèques peuvent être configurées pour les champs **Bibliothèques c
 * Pour supprimer un champ, cliquez ou appuyez sur l’icône de corbeille à côté du champ à supprimer.
 * Pour réorganiser l’ordre de chargement, cliquez ou appuyez et faites glisser la poignée à côté du champ à déplacer.
 
-For more information about using client-side libraries see [Using Client Side Libraries](https://helpx.adobe.com/experience-manager/6-5/sites/developing/using/clientlibs.html).
+Pour plus d’informations sur l’utilisation des bibliothèques côté client, voir [Utilisation des bibliothèques côté client](https://helpx.adobe.com/fr/experience-manager/6-5/sites/developing/using/clientlibs.html).
 
 >[!CAUTION]
 >
