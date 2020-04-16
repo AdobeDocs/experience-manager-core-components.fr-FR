@@ -2,7 +2,7 @@
 title: Composant d’image (v1)
 description: Le composant d’image des composants principaux est un composant d’image adaptatif qui permet d’effectuer des modifications statiques.
 index: n
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: fe8a121520000ffd56ae3347469590e89121eaf0
 
 ---
@@ -37,7 +37,7 @@ Le tableau ci-après répertorie la compatibilité de la version v1 du composant
 
 ## Exemple de sortie de composant {#sample-component-output}
 
-Voici un exemple extrait de [We.Retail](https://helpx.adobe.com/experience-manager/6-4/sites/developing/using/we-retail.html).
+Voici un exemple extrait de [We.Retail](https://helpx.adobe.com/fr/experience-manager/6-4/sites/developing/using/we-retail.html).
 
 ### Capture d’écran {#screenshot}
 
@@ -84,7 +84,7 @@ Outre la [boîte de dialogue de modification](#edit-dialog) et la [boîte de dia
    * Appuyez ou cliquez sur **Modifier** pour [gérer les rendus de la ressource](https://helpx.adobe.com/experience-manager/6-3/assets/using/managing-assets-touch-ui.html#main-pars_title_19) dans l’éditeur de ressources.
 
 * **L’image est décorative** : vérifiez si l’image doit être ignorée par les dispositifs d’assistance et ne requiert donc pas de texte de remplacement. Cela s’applique uniquement aux images décoratives.
-* **Texte alternatif** : alternative textuelle de la signification ou de la fonction de l’image, pour les malvoyants.
+* **Texte de remplacement** : alternative textuelle de la signification ou de la fonction de l’image, pour les malvoyants.
 * **Lien**
    * Liez l’image à une autre ressource.
    * Utilisez la boîte de dialogue de sélection pour créer un lien vers une autre ressource AEM.
@@ -138,7 +138,7 @@ La boîte de dialogue de modification permet à l’auteur du contenu de recadre
       * Utilisez l’option Sélecteur de chemin pour sélectionner un chemin dans AEM.
       * Si le chemin d’accès ne figure pas dans AEM, utilisez l’URL absolue. Les chemins non absolus seront interprétés par rapport à AEM.
 
-      * **Texte alternatif**
+      * **Texte de remplacement**
 Autre description de la destination du chemin.
       * **Cible**
          * **Même onglet**
