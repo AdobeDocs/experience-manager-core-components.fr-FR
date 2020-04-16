@@ -2,7 +2,7 @@
 title: Composant Texte (v1)
 description: Le composant Texte est un composant d’édition et de composition de texte enrichi qui propose une édition statique.
 index: n
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 93a7ba6b8a972d111fb723cb40b0380cea9b5a9a
 
 ---
@@ -37,7 +37,7 @@ Le tableau suivant répertorie la compatibilité de la version v1 du composant T
 
 ## Exemple de sortie de composant {#sample-component-output}
 
-Voici un exemple extrait de [We.Retail](https://helpx.adobe.com/experience-manager/6-4/sites/developing/using/we-retail.html).
+Voici un exemple extrait de [We.Retail](https://helpx.adobe.com/fr/experience-manager/6-4/sites/developing/using/we-retail.html).
 
 ### Capture d’écran {#screenshot}
 
@@ -310,7 +310,7 @@ Le composant de texte peut également être modifié en ligne mais en raison des
 
 ## Boîte de dialogue de conception {#design-dialog}
 
-La boîte de dialogue Conception permet à l’auteur du modèle de définir quelles options de formatage de texte sont disponibles pour les auteurs de contenu.
+La boîte de dialogue de conception permet à l’auteur du modèle de définir quelles options de formatage de texte sont disponibles pour les auteurs de contenu.
 
 ### Fonctionnalités {#features}
 
@@ -361,7 +361,7 @@ L’option permettant d’insérer des caractères spéciaux peut être activée
 
 ## Détails techniques {#technical-details}
 
-The latest technical documentation about the Text Component [can be found on GitHub](https://github.com/adobe/aem-core-wcm-components/tree/master/content/src/content/jcr_root/apps/core/wcm/components/text/v1/text).
+La documentation technique la plus récente sur le composant Texte [se trouve sur GitHub](https://github.com/adobe/aem-core-wcm-components/tree/master/content/src/content/jcr_root/apps/core/wcm/components/text/v1/text).
 
 Le projet sur les composants principaux peut être téléchargé depuis GitHub.
 
