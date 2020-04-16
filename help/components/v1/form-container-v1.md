@@ -2,7 +2,7 @@
 title: Composant de conteneur de formulaires (v1)
 description: Le composant de conteneur de formulaires des composants principaux permet la création de formulaires d’envoi simples.
 index: n
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 68472ab548fb6ebb443a06c12e7b37797a0c1302
 
 ---
@@ -16,7 +16,7 @@ Le composant de conteneur de formulaires des composants principaux permet la cr�
 
 Le composant de conteneur de formulaires a permis la création de formulaires et de fonctionnalités d’envoi d’informations simples en prenant en charge les formulaires WCM simples et en utilisant une structure imbriquée pour autoriser des composants de formulaire supplémentaires.
 
-En utilisant la [boîte de dialogue de paramètres](#settings-dialog), l’éditeur de contenu peut définir le type d’action déclenché par l’envoi du formulaire, l’emplacement de stockage du contenu envoyé et si un workflow doit être déclenché. The template author can use the [design dialog](#design-dialog) to define the allow components and their mappings similar to the design dialog for the [standard layout container in the template editor](https://helpx.adobe.com/experience-manager/6-4/sites/authoring/using/templates.html).
+En utilisant la [boîte de dialogue de paramètres](#settings-dialog), l’éditeur de contenu peut définir le type d’action déclenché par l’envoi du formulaire, l’emplacement de stockage du contenu envoyé et si un workflow doit être déclenché. L’auteur du modèle peut utiliser la [boîte de dialogue de conception](#design-dialog) pour définir les composants autorisés et leurs mappages similaires à la boîte de dialogue de conception du [conteneur de mises en page standard dans l’éditeur de modèles](https://helpx.adobe.com/fr/experience-manager/6-4/sites/authoring/using/templates.html).
 
 ## Version et compatibilité {#version-and-compatibility}
 
@@ -105,7 +105,7 @@ La boîte de dialogue de conception permet à l’auteur du modèle de définir 
 
 ## Détails techniques {#technical-details}
 
-The latest technical documentation about the Form Container Component [can be found on GitHub](https://github.com/adobe/aem-core-wcm-components/tree/master/content/src/content/jcr_root/apps/core/wcm/components/form/container/v1/container).
+La documentation technique la plus récente sur le composant de conteneur de formulaires [se trouve sur GitHub](https://github.com/adobe/aem-core-wcm-components/tree/master/content/src/content/jcr_root/apps/core/wcm/components/form/container/v1/container).
 
 Le projet sur les composants principaux peut être téléchargé depuis GitHub.
 
