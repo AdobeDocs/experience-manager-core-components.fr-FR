@@ -1,7 +1,7 @@
 ---
 title: Composant de téléchargement
 description: Le composant de téléchargement des composants principaux permet la création d’une option de téléchargement sur une page.
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 93a7ba6b8a972d111fb723cb40b0380cea9b5a9a
 
 ---
@@ -24,7 +24,7 @@ La version actuelle du composant de téléchargement est v1, qui a été introd
 
 Le tableau ci-après présente en détail toutes les versions prises en charge du composant, les versions AEM avec lesquelles les versions du composant sont compatibles et les liens vers la documentation pour les versions précédentes.
 
-| Version du composant | AEM 6.3 | AEM 6.4 | AEM 6.5 |  d’AEM en tant que Cloud Service |
+| Version du composant | AEM 6.3 | AEM 6.4 | AEM 6.5 | AEM as a Cloud Service |
 |--- |--- |--- |---|---|
 | v1 | Compatible | Compatible | Compatible | Compatible |
 
@@ -59,7 +59,7 @@ La sélection d’une ressource de téléchargement est très similaire à la fo
 
 ![](/help/assets/screen-shot-2019-06-17-09.49.51.png)
 
-* **Titre**  : s’affiche sous forme de titre pour l’élément de téléchargement.
+* **Titre** : s’affiche sous forme de titre pour l’élément de téléchargement.
    * **Obtenir le titre de la ressource DAM** : lorsqu’il est sélectionné, le titre est automatiquement renseigné avec celui de la ressource DAM.
 * **Description** : s’affiche sous forme de sous-titre descriptif de l’élément de téléchargement.
    * **Obtenir la description de la ressource DAM** : lorsqu’elle est sélectionnée, la description est automatiquement renseignée avec la description de la ressource DAM.
@@ -75,7 +75,7 @@ La boîte de dialogue de conception permet à l’auteur du modèle de définir 
 
 ![](/help/assets/screen-shot-2019-06-17-10.04.31.png)
 
-* **Texte d’action par défaut** : définit le **texte d’action**  par défaut fourni lorsqu’un auteur ajoute le composant de téléchargement à une page.
+* **Texte d’action par défaut** : définit le **texte d’action** par défaut fourni lorsqu’un auteur ajoute le composant de téléchargement à une page.
 * **Autoriser le téléchargement à partir du système de fichiers** : permet à l’auteur du contenu de télécharger une ressource depuis son système de fichiers local comme ressource de téléchargement.
    * La valeur par défaut n’est pas sélectionnée.
 * **Type de titre** : élément HTML utilisé pour le titre du composant de téléchargement.
