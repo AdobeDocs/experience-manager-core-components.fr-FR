@@ -1,7 +1,7 @@
 ---
 title: Composant de conteneur
 description: Le composant de conteneur des composants principaux permet la création d’un conteneur pour plusieurs autres composants sur une page.
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 93a7ba6b8a972d111fb723cb40b0380cea9b5a9a
 
 ---
@@ -24,7 +24,7 @@ La version actuelle du composant de conteneur est v1, qui a été introduite av
 
 Le tableau ci-après présente en détail toutes les versions prises en charge du composant, les versions AEM avec lesquelles les versions du composant sont compatibles et les liens vers la documentation pour les versions précédentes.
 
-| Version du composant | AEM 6.3 | AEM 6.4 | AEM 6.5 |  d’AEM en tant que Cloud Service |
+| Version du composant | AEM 6.3 | AEM 6.4 | AEM 6.5 | AEM as a Cloud Service |
 |--- |--- |--- |---|---|
 | v1 | Compatible | Compatible | Compatible | Compatible |
 
@@ -48,7 +48,7 @@ La boîte de dialogue de configuration permet à l’auteur du contenu de défin
 
 * **Mise en page** : cette option définit le comportement ou le comportement de mise en page du composant de conteneur.
    * **Simple** : définit un conteneur en tant qu’ensemble simple de composants.
-   * **Grille** réactive : définit un conteneur comme une mise en page réactive [AEM](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/sites/authoring/features/responsive-layout.html)
+   * **Grille réactive** : définit un conteneur en tant que [mise en page réactive AEM.](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/sites/authoring/features/responsive-layout.html)
 * **ID** : utilisez cette option pour définir l’attribut d’ID HTML à appliquer au composant.
 * **Couleur d&#39;arrière-plan** : définissable en tant que valeurs RVB de forme libre ou en utilisant le sélecteur de couleurs, [selon la configuration](#background-tab)
 * **Image d’arrière-plan** : définit une couleur d’arrière-plan pour le conteneur, [selon la configuration](#background-tab)
