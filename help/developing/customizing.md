@@ -1,7 +1,7 @@
 ---
 title: Personnalisation des composants principaux
 description: Les composants principaux implémentent plusieurs modèles permettant une personnalisation facile, depuis l’application d’un style simple jusqu’à la réutilisation de fonctionnalités avancées.
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: fe8a121520000ffd56ae3347469590e89121eaf0
 
 ---
@@ -28,7 +28,7 @@ De plus, tous les composants principaux implémentent le [système de style](#st
 
 ## Archétype de projet AEM {#aem-project-archetype}
 
-[L’archétype](/help/developing/archetype/overview.md) de projet AEM crée un projet Adobe Experience Manager minimal comme point de départ pour vos propres projets, y compris un exemple de composant HTL personnalisé avec SlingModels pour la logique et l’implémentation correcte des composants principaux avec le modèle de proxy recommandé.
+[L’archétype de projet AEM](/help/developing/archetype/overview.md) crée un projet Adobe Experience Manager minimal comme point de départ pour vos projets, y compris un exemple de composant HTL personnalisé avec SlingModels pour la logique et l’implémentation appropriée des composants principaux avec le modèle de proxy recommandé.
 
 ## Modèles de personnalisation {#customization-patterns}
 
@@ -36,9 +36,9 @@ De plus, tous les composants principaux implémentent le [système de style](#st
 
 Il peut être souhaitable de personnaliser les options de configuration disponibles dans la boîte de dialogue d’un composant principal, qu’il s&#39;agisse de [la boîte de dialogue de conception ou de modification](/help/get-started/authoring.md).
 
-Chaque boîte de dialogue possède une structure de nœud cohérente. Il est recommandé de répliquer cette structure dans un composant héritant de sorte que [Sling Resource Merger](https://helpx.adobe.com/experience-manager/6-4/sites/developing/using/sling-resource-merger.html) et l’option [Masquer les conditions](https://helpx.adobe.com/experience-manager/6-5/sites/developing/using/hide-conditions.html) puissent être utilisés pour masquer, remplacer ou réorganiser les sections de la boîte de dialogue d’origine. La structure à répliquer est définie comme tous les éléments jusqu’au niveau de nœud de l’élément d’onglet.
+Chaque boîte de dialogue possède une structure de nœud cohérente. Il est recommandé de répliquer cette structure dans un composant héritant de sorte que [Sling Resource Merger](https://helpx.adobe.com/fr/experience-manager/6-4/sites/developing/using/sling-resource-merger.html) et l’option [Masquer les conditions](https://helpx.adobe.com/fr/experience-manager/6-5/sites/developing/using/hide-conditions.html) puissent être utilisés pour masquer, remplacer ou réorganiser les sections de la boîte de dialogue d’origine. La structure à répliquer est définie comme tous les éléments jusqu’au niveau de nœud de l’élément d’onglet.
 
-Pour être entièrement compatibles avec toutes les modifications apportées à une boîte de dialogue sur sa version actuelle, il est important que les structures sous le niveau de l’élément d’onglet ne soient pas touchées (masquées, ajoutées, remplacées, réorganisées, etc.). À la place, un élément d’onglet du parent doit être masqué via la propriété `sling:hideResource` (voir [Propriétés de Sling Resource Merger](https://helpx.adobe.com/experience-manager/6-5/sites/developing/using/sling-resource-merger.html)), et les nouveaux éléments d’onglet ajoutés qui contiennent les champs de configuration personnalisés. `sling:orderBefore` peut être utilisé pour réorganiser les éléments d’onglet si nécessaire.
+Pour être entièrement compatibles avec toutes les modifications apportées à une boîte de dialogue sur sa version actuelle, il est important que les structures sous le niveau de l’élément d’onglet ne soient pas touchées (masquées, ajoutées, remplacées, réorganisées, etc.). À la place, un élément d’onglet du parent doit être masqué via la propriété `sling:hideResource` (voir [Propriétés de Sling Resource Merger](https://helpx.adobe.com/fr/experience-manager/6-5/sites/developing/using/sling-resource-merger.html)), et les nouveaux éléments d’onglet ajoutés qui contiennent les champs de configuration personnalisés. `sling:orderBefore` peut être utilisé pour réorganiser les éléments d’onglet si nécessaire.
 
 La boîte de dialogue ci-dessous illustre la structure de la boîte de dialogue recommandée et montre comment masquer et remplacer un onglet hérité comme décrit ci-dessus :
 
