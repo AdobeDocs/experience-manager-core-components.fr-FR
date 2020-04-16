@@ -1,7 +1,7 @@
 ---
 title: Composant de liste de fragments de contenu
 description: Le composant de liste de fragments de contenu des composants principaux permet d’afficher une liste de fragments de contenu.
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 93a7ba6b8a972d111fb723cb40b0380cea9b5a9a
 
 ---
@@ -13,7 +13,7 @@ Le composant de liste de fragments de contenu des composants principaux permet d
 
 ## Utilisation {#usage}
 
-Le composant de liste de fragments de contenu des composants principaux permet d’inclure une liste de [fragments de contenu](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/assets/content-fragments/content-fragments.html) sur une page basée sur un modèle de fragment de contenu. Cette opération peut s’avérer particulièrement utile pour créer un [contenu headless](https://helpx.adobe.com/experience-manager/6-5/sites/developing/user-guide.html?topic=/experience-manager/6-5/sites/developing/morehelp/headless.ug.js) qui peut être facilement utilisé par d’autres applications.
+Le composant de liste de fragments de contenu des composants principaux permet d’inclure une liste de [fragments de contenu](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/assets/content-fragments/content-fragments.html) sur une page basée sur un modèle de fragment de contenu. Cette opération peut s’avérer particulièrement utile pour créer un [contenu headless](https://helpx.adobe.com/fr/experience-manager/6-5/sites/developing/user-guide.html?topic=/experience-manager/6-5/sites/developing/morehelp/headless.ug.js) qui peut être facilement utilisé par d’autres applications.
 
 * La liste et ses propriétés peuvent être sélectionnées dans la [boîte de dialogue de configuration](#configure-dialog).
 * Des styles peuvent être appliqués au composant dans la [boîte de dialogue de conception](#design-dialog).
@@ -24,7 +24,7 @@ La version actuelle du composant de fragment de contenu est v1, qui a été intr
 
 Le tableau ci-après présente en détail toutes les versions prises en charge du composant, les versions AEM avec lesquelles les versions du composant sont compatibles et les liens vers la documentation pour les versions précédentes.
 
-| Version du composant | AEM 6.3 | AEM 6.4 | AEM 6.5 |  d’AEM en tant que Cloud Service |
+| Version du composant | AEM 6.3 | AEM 6.4 | AEM 6.5 | AEM as a Cloud Service |
 |--- |--- |--- |---|---|
 | v1 | Compatible | Compatible | Compatible | Compatible |
 
@@ -70,12 +70,12 @@ L’onglet **Propriétés** définit les fragments de contenu inclus dans la lis
 
 ### Onglet Éléments
 
-By default, all elements of the Content Fragment Model will be included in the list (unless limited by the **Max Items** field). L’onglet **Éléments** permet de spécifier quelques éléments spécifiques à inclure.
+Par défaut, tous les éléments du modèle de fragment de contenu seront inclus dans la liste (sauf si le champ **Nombre max. d’éléments** applique une limite). L’onglet **Éléments** permet de spécifier quelques éléments spécifiques à inclure.
 
 ![](/help/assets/screen-shot-2019-05-08-10.47.34.png)
 
 * **Éléments** : seuls les éléments des fragments de contenu figurant dans la liste spécifiée apparaissent.
-   * Cliquez ou appuyez sur le bouton **Ajouter** pour ajouter un nouvel élément..
+   * Cliquez ou appuyez sur le bouton **Ajouter** pour ajouter un nouvel élément.
    * Cliquez ou appuyez sur le bouton **Supprimer** pour supprimer un élément sélectionné.
    * Faites glisser la poignée **Ordre** pour réorganiser l’ordre des éléments.
 
