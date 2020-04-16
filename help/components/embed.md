@@ -1,7 +1,7 @@
 ---
 title: Composant Incorporer
 description: Le composant Incorporer permet d’incorporer du contenu externe dans une page de contenu AEM.
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 93a7ba6b8a972d111fb723cb40b0380cea9b5a9a
 
 ---
@@ -24,7 +24,7 @@ La version actuelle du composant Incorporer est v1, qui a été introduite avec 
 
 Le tableau ci-après présente en détail toutes les versions prises en charge du composant, les versions AEM avec lesquelles les versions du composant sont compatibles et les liens vers la documentation pour les versions précédentes.
 
-| Version du composant | AEM 6.3 | AEM 6.4 | AEM 6.5 |  d’AEM en tant que Cloud Service |
+| Version du composant | AEM 6.3 | AEM 6.4 | AEM 6.5 | AEM as a Cloud Service |
 |--- |--- |--- |---|---|
 | v1 | Compatible | Compatible | Compatible | Compatible |
 
@@ -93,9 +93,9 @@ Les balises HTML que l’auteur peut entrer sont filtrées à des fins de sécur
 
 *En règle générale,* tous les scripts et les éléments`style`, ainsi que tous les attributs `on*` et `style` sont supprimés de la sortie.
 
-Toutefois, les règles sont plus complexes, car le composant Incorporer suit l’ensemble de règles de filtrage de la structure d’assainissement HTML AntiSamy d’AEM, qui se trouve à l’adresse `/libs/cq/xssprotection/config.xml`. Cela peut être superposé par un développeur pour une configuration spécifique au projet, si nécessaire.
+Toutefois, les règles sont plus complexes, car le composant Incorporer suit l’ensemble de règles de filtrage de la structure d’assainissement HTML AntiSamy d’AEM, qui se trouve à l’adresse `/libs/cq/xssprotection/config.xml`. Cela peut être superposé pour une configuration spécifique au projet par un développeur, si nécessaire.
 
-Vous trouverez des informations de sécurité supplémentaires dans la documentation du développeur [AEM pour les installations](https://docs.adobe.com/content/help/en/experience-manager-65/developing/introduction/security.html) sur site ainsi que dans [AEM en tant qu’installations de service Cloud.](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/security/home.html)
+Vous trouverez des informations de sécurité supplémentaires dans la [documentation du développeur AEM pour les installations On-premise](https://docs.adobe.com/content/help/en/experience-manager-65/developing/introduction/security.html), ainsi que pour les [installations AEM as a Cloud Service.](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/security/home.html)
 
 >[!NOTE]
 >Bien que les règles de structure d’assainissement AntiSamy puissent être configurées en superposant `/libs/cq/xssprotection/config.xml`, ces modifications ont un impact sur l’ensemble du comportement HTL et JSP et pas seulement sur le composant principal Incorporer.
