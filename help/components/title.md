@@ -1,7 +1,7 @@
 ---
 title: Composant du titre
 description: Le composant du titre des composants principaux est un composant d’en-tête de section qui comporte des fonctions d’édition statique.
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: fe8a121520000ffd56ae3347469590e89121eaf0
 
 ---
@@ -21,7 +21,7 @@ La version actuelle du composant Titre est v2, qui a été introduite avec la ve
 
 Le tableau ci-après présente en détail toutes les versions prises en charge du composant, les versions AEM avec lesquelles les versions du composant sont compatibles et les liens vers la documentation pour les versions précédentes.
 
-| Version du composant | AEM 6.3 | AEM 6.4 | AEM 6.5 |  d’AEM en tant que Cloud Service |
+| Version du composant | AEM 6.3 | AEM 6.4 | AEM 6.5 | AEM as a Cloud Service |
 |---|---|---|---|---|
 | v2 | Compatible | Compatible | Compatible | Compatible |
 | [v1](v1/title-v1.md) | Compatible | Compatible | Compatible | - |
@@ -30,11 +30,11 @@ Pour plus d’informations sur les versions et les publications des composants p
 
 ## Exemple de sortie de composant {#sample-component-output}
 
-Pour tester le composant du titre, des exemples d’options de configuration, ainsi que des sorties HTML et JSON, consultez la  [bibliothèque de composants](https://adobe.com/go/aem_cmp_library_title).
+Pour tester le composant du titre et obtenir des exemples d’options de configuration, ainsi que des sorties HTML et JSON, consultez la [bibliothèque de composants](https://adobe.com/go/aem_cmp_library_title).
 
 ### Détails techniques {#technical-details}
 
-The latest technical documentation about the Title Component [can be found on GitHub](https://adobe.com/go/aem_cmp_tech_title_v2).
+La documentation technique la plus récente sur le composant Titre [se trouve sur GitHub](https://adobe.com/go/aem_cmp_tech_title_v2).
 
 Vous trouverez plus d’informations sur le développement des composants principaux dans la [documentation destinée aux développeurs de composants principaux](/help/developing/overview.md).
 
