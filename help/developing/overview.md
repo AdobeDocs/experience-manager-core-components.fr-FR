@@ -1,7 +1,7 @@
 ---
 title: Développement des composants principaux
 description: Les composants principaux fournissent des composants de base robustes et extensibles qui offrent de riches fonctionnalités, une diffusion en continu, un contrôle de version des composants, une mise en œuvre moderne, un balisage Lean et une exportation JSON de contenu.
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: c338428a681f652d17bb972fb6a2abf216a338c3
 
 ---
@@ -27,9 +27,9 @@ Vous pouvez évaluer si un [composant principal existant peut être personnalis�
 Si vos composants fonctionnent comme prévu, conservez-les tels quels.\
    Dans le cas contraire, reportez-vous à la section « Nouveaux composants personnalisés » ci-dessus.
 
-## Comment réussir avec les composants principaux {#how-to-succeed}
+## Réussir avec les composants principaux {#how-to-succeed}
 
-Les composants principaux sont puissants, flexibles et faciles à utiliser et à personnaliser. [Suivez quelques consignes](success.md) clés pour vous assurer que votre projet avec les composants principaux est un succès.
+Les composants principaux sont puissants, flexibles et faciles à utiliser et personnaliser. [Suivez quelques instructions](success.md) pour vous assurer que votre projet utilisant les composants principaux soit une réussite.
 
 ## Migration vers les composants principaux
 
@@ -74,7 +74,7 @@ Pour plus d’informations sur leurs capacités de création et les options pour
 | Assainissement XSS | Automatisée par HTL | Essentiellement manuelle |
 | Nommage des classes CSS | Convention d’affectation de noms normalisée basée sur la notification [Block Element Modifier](https://getbem.com/) (BEM) (à partir de la version 2.0.0) | Modèles personnalisés |
 | Définition de boîte de dialogue | [Coral 3](https://helpx.adobe.com/fr/experience-manager/6-5/sites/developing/using/reference-materials/coral-ui/coralui3/index.html) | Interface utilisateur Coral 2 + Classique |
-| Sortie JSON | [Exportateur de modèles Sling avec sérialisation Jackson](https://sling.apache.org/documentation/bundles/application d’une seule pages.html#exporter-framework-since-130) | Servlet Sling par défaut |
+| Sortie JSON | [Exportateur de modèles Sling avec sérialisation Jackson](https://sling.apache.org/documentation/bundles/models.html#exporter-framework-since-130) | Servlet Sling par défaut |
 | Création de versions | [Pour le modèle et le HTL](guidelines.md) | Aucun |
 | Tests | Tests unitaires + tests d’intégration | Tests d’intégration |
 | Diffusion | [Via le site GitHub public](https://github.com/adobe/aem-core-wcm-components) | Via Quickstart |
