@@ -1,7 +1,7 @@
 ---
 title: Composant d’image
 description: Le composant d’image des composants principaux est un composant d’image adaptatif qui permet d’effectuer des modifications statiques.
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 6be0028c45ce9f8b36ea278f8e569f3d6a626ae2
 
 ---
@@ -29,7 +29,7 @@ La version actuelle du composant d’image est v2, qui a été introduite avec l
 
 Le tableau ci-après présente en détail toutes les versions prises en charge du composant, les versions AEM avec lesquelles les versions du composant sont compatibles et les liens vers la documentation pour les versions précédentes.
 
-| Version du composant | AEM 6.3 | AEM 6.4 | AEM 6.5 | AEM en tant que service cloud |
+| Version du composant | AEM 6.3 | AEM 6.4 | AEM 6.5 | AEM as a Cloud Service |
 |--- |--- |--- |--- |---|
 | v2 | Compatible | Compatible | Compatible | Compatible |
 | [v1](v1/image-v1.md) | Compatible | Compatible | Compatible | - |
@@ -50,7 +50,7 @@ Pour des raisons de sécurité, l’éditeur d’image ne fait jamais appel au f
 
 >[!CAUTION]
 >
->La prise en charge de SVG requiert la version 2.1.0 ou ultérieure des composants principaux et le [Service Pack 2](https://docs.adobe.com/content/help/en/experience-manager-64/release-notes/sp-release-notes.html) pour AEM 6.4 ou le [Service Pack 3](https://helpx.adobe.com/experience-manager/6-3/release-notes/sp3-release-notes.html) pour AEM 6.3 ou version ultérieure pour être compatible avec les [nouvelles fonctionnalités de l’éditeur d’image](https://docs.adobe.com/content/help/en/experience-manager-64/developing/components/image-editor.html) dans AEM.
+>La prise en charge de SVG requiert la version 2.1.0 ou ultérieure des composants principaux et le [Service Pack 2](https://docs.adobe.com/content/help/en/experience-manager-64/release-notes/sp-release-notes.html) pour AEM 6.4 ou le [Service Pack 3](https://helpx.adobe.com/fr/experience-manager/6-3/release-notes/sp3-release-notes.html) pour AEM 6.3 ou version ultérieure pour être compatible avec les [nouvelles fonctionnalités de l’éditeur d’image](https://docs.adobe.com/content/help/en/experience-manager-64/developing/components/image-editor.html) dans AEM.
 
 ## Exemple de sortie de composant {#sample-component-output}
 
@@ -141,7 +141,7 @@ La boîte de dialogue de modification permet à l’auteur du contenu de recadre
 
    >[!CAUTION]
    >
-   >La fonctionnalité Carte de lancement requiert la version 2.1.0 ou ultérieure des composants principaux et le [Service Pack 2](https://docs.adobe.com/content/help/en/experience-manager-64/release-notes/sp-release-notes.html) pour AEM 6.4 ou le [Service Pack 3](https://helpx.adobe.com/experience-manager/6-3/release-notes/sp3-release-notes.html) pour AEM 6.3 ou version ultérieure pour être compatible avec les [nouvelles fonctionnalités de l’éditeur d’images](https://docs.adobe.com/content/help/en/experience-manager-64/developing/components/image-editor.html) dans AEM.
+   >La fonctionnalité Carte de lancement requiert la version 2.1.0 ou ultérieure des composants principaux et le [Service Pack 2](https://docs.adobe.com/content/help/en/experience-manager-64/release-notes/sp-release-notes.html) pour AEM 6.4 ou le [Service Pack 3](https://helpx.adobe.com/fr/experience-manager/6-3/release-notes/sp3-release-notes.html) pour AEM 6.3 ou version ultérieure pour être compatible avec les [nouvelles fonctionnalités de l’éditeur d’images](https://docs.adobe.com/content/help/en/experience-manager-64/developing/components/image-editor.html) dans AEM.
 
    ![](/help/assets/chlimage_1-12.png)
 
