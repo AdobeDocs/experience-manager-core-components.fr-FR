@@ -1,11 +1,11 @@
 ---
 source-git-commit: aa978d6ddf04912e3fc108f86450fac6a90d2caf
-translation-type: tm+mt
+translation-type: ht
 
 ---
-# Documentation des composants principaux d’Adobe Experience Manager
+# Documentation des composants principaux Adobe Experience Manager
 
-## Documentation sur les composants principaux
+## Documentation des composants principaux
 
 Il s’agit du référentiel pour la ***documentation*** des composants principaux d’Adobe Experience Manager. Cette documentation couvre l’installation, la création et la personnalisation des composants principaux.
 
@@ -17,4 +17,4 @@ Vos contributions à la documentation sont les bienvenues. Veuillez consulter le
 
 ## Référentiel des composants principaux
 
-Les composants [principaux d’](https://github.com/adobe/aem-core-wcm-components) Adobe Experience Manager sont eux-mêmes maintenus en tant que projet dans un référentiel distinct. Consultez ce projet si vous avez besoin d’une documentation technique/de développement sur les composants, si vous souhaitez contribuer aux composants eux-mêmes ou si vous voulez signaler un problème concernant les fonctionnalités des composants principaux.
+Les [composants principaux Adobe Experience Manager](https://github.com/adobe/aem-core-wcm-components) sont conservés sous la forme d’un projet dans un référentiel distinct. Consultez ce projet si vous avez besoin d’une documentation technique/de développement sur les composants, si vous souhaitez contribuer aux composants eux-mêmes ou si vous voulez signaler un problème concernant les fonctionnalités des composants principaux.
