@@ -1,7 +1,7 @@
 ---
-title: Utilisation de l’archétype du projet AEM
+title: Utilisation de l’archétype de projet AEM
 description: Instructions d’utilisation détaillées pour l’archétype de projet AEM
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 477a1774a856725f52b9db7a978c534de4700661
 
 ---
@@ -21,7 +21,7 @@ De nombreux éléments entrent bien sûr en compte dans la réussite d&#39;un pr
 
 L’archétype de projet permet de commencer facilement à développer dans AEM. Vous pouvez débuter de plusieurs manières.
 
-* Tutoriel WKND - Pour une excellente introduction au développement dans AEM, notamment des informations sur l’utilisation de l’archétype, reportez-vous à [Prise en main d’AEM Sites - tutoriel WKND](https://docs.adobe.com/content/help/fr/experience-manager-learn/getting-started-wknd-tutorial-develop/overview.html) afin d’obtenir un exemple pratique vous guidant tout au long de l’utilisation de l’archétype pour mettre en œuvre un projet simple.
+* Tutoriel WKND - Pour une excellente introduction au développement dans AEM, notamment des informations sur l’utilisation de l’archétype, reportez-vous à [Prise en main d’AEM Sites - tutoriel WKND](https://docs.adobe.com/content/help/en/experience-manager-learn/getting-started-wknd-tutorial-develop/overview.html) afin d’obtenir un exemple pratique vous guidant tout au long de l’utilisation de l’archétype pour mettre en œuvre un projet simple.
 * Tutoriel sur WKND Events - Si vous êtes particulièrement intéressé par le développement d’applications monopage (SPA) dans AEM, consultez notre [tutoriel WKND Events](https://helpx.adobe.com/experience-manager/kt/sites/using/getting-started-spa-wknd-tutorial-develop.html) dédié.
 * Téléchargez et commencez votre premier projet. - Vous pouvez facilement télécharger l’archétype de projet actuel disponible sur GitHub et créer votre premier projet en [suivant les étapes simples ci-dessous](#how-to-use-the-archetype).
 
@@ -67,14 +67,14 @@ mvn -B archetype:generate \
  -D includeExamples=n
 ```
 
-* Set `XX` to the [version number](https://github.com/adobe/aem-project-archetype/blob/master/VERSIONS.md) of the latest AEM Project Archetype.
-* Défini `aemVersion=cloud` pour [AEM en tant que service](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/landing/home.html)Cloud ;\
-   Défini `aemVersion=6.5.0` pour [Adobe Managed Services](https://github.com/adobe/aem-project-archetype/tree/master/src/main/archetype/dispatcher.ams)ou sur site.
-La dépendance des composants principaux n’est ajoutée que pour les versions d’Aem non cloud, car les composants principaux sont fournis avec une optimisation d’AEM en tant que CloudService.
-* Ajustez `appTitle="My Site"` pour définir le titre du site Web et les groupes de composants.
-* Ajustez `appId="mysite"` la variable pour définir le paramètre Maven artifactId, le composant, les noms de dossier de configuration et de contenu, ainsi que les noms de bibliothèque cliente.
-* Définissez `groupId="com.mysite"` le groupId Maven et le package source Java.
-* Recherchez le  des propriétés disponibles pour savoir s’il y a plus à ajuster.
+* Définissez `XX` sur le [numéro de la dernière version](https://github.com/adobe/aem-project-archetype/blob/master/VERSIONS.md) de l’archétype de projet AEM.
+* Définissez `aemVersion=cloud` pour [AEM as a Cloud Service](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/landing/home.html).\
+   Définissez `aemVersion=6.5.0` pour [Adobe Managed Services](https://github.com/adobe/aem-project-archetype/tree/master/src/main/archetype/dispatcher.ams) ou On-Premise.
+La dépendance des composants principaux n’est ajoutée que pour les versions d’AEM hors du cloud, car ils sont fournis prêts à l’emploi pour AEM as a Cloud Service.
+* Ajustez `appTitle="My Site"` de façon à définir le titre du site web et les groupes de composants.
+* Ajustez `appId="mysite"` afin de définir l’artifactId Maven, les noms des dossiers de composants, de configurations et de contenu, ainsi que les noms des bibliothèques clientes.
+* Ajustez `groupId="com.mysite"` pour définir le groupId Maven et le package source Java.
+* Parcourez la liste des propriétés disponibles pour déterminer si d’autres doivent être modifiées.
 
 >[!NOTE]
 >
@@ -86,22 +86,22 @@ La dépendance des composants principaux n’est ajoutée que pour les versions 
 
 Les propriétés suivantes sont disponibles lors de la création d’un projet à l’aide de l’archétype.
 
-| Nom | Default | Description |
+| Nom | Valeur par défaut | Description |
 --------------------------|----------------|--------------------
-| `appTitle` |  | Le titre de la demande sera utilisé pour le titre du site Web et les groupes de composants (p. ex. `"My Site"`). |
-| `appId` |  | Le nom technique sera utilisé pour les noms de composants, de configurations et de dossiers de contenu, ainsi que pour les noms de bibliothèques client (ex. `"mysite"`). |
-| `artifactId` | *`${appId}`* | Base Maven artifact ID (e.g. `"mysite"`). |
-| `groupId` |  | Base Maven group ID (e.g. `"com.mysite"`). |
-| `package` | *`${groupId}`* | Package source Java (ex. `"com.mysite"`). |
-| `version` | `1.0-SNAPSHOT` | Version du projet (ex. `1.0-SNAPSHOT`). |
-| `aemVersion` | `6.5.0` |  version d’AEM (peut être `cloud` pour [AEM en tant que service](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/landing/home.html)Cloud ; ou `6.5.0`, `6.4.4`ou `6.3.3` Adobe Managed Services [](https://github.com/adobe/aem-project-archetype/tree/master/src/main/archetype/dispatcher.ams) ou on-premise). |
-| `sdkVersion` | `latest` | Lorsqu’ `aemVersion=cloud` une version du [SDK](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/implementing/developing/aem-as-a-cloud-service-sdk.html) peut être spécifiée (p. ex. `2020.02.2265.20200217T222518Z-200130`). |
-| `includeDispatcherConfig` | `y` | Inclut une configuration de répartiteur pour le cloud ou pour AMS/sur site, selon la valeur de `aemVersion` (peut être `y` ou `n`). |
-| `frontendModule` | `none` | Comprend un module de génération frontale Webpack qui génère les bibliothèques client (peut être `general` ou `none` pour les sites standard ; peut être `angular` ou `react` pour une application d’une seule page qui implémente l’éditeur [d’](https://docs.adobe.com/content/help/en/experience-manager-65/developing/headless/spas/spa-overview.html)application d’une seule page). |
-| `languageCountry` | `en_us` | Language and country code to create the content structure from (e.g. `en_us`). |
-| `singleCountry` | `y` | Inclut une structure de contenu maître de langue (peut être `y`ou `n`). |
-| `includeExamples` | `y` | Inclut un exemple de site de bibliothèque [de](https://www.aemcomponents.dev/) composants (peut être `y`ou `n`). |
-| `includeErrorHandler` | `n` | Inclut une page de réponse personnalisée 404 qui sera globale pour l’instance entière (peut être `y` ou `n`). |
+| `appTitle` |  | Titre de l’application qui sera utilisé comme titre du site web et des groupes de composants (par exemple, `"My Site"`). |
+| `appId` |  | Nom technique qui sera utilisé pour les noms des dossiers de composants, de configurations et de contenu, ainsi que pour les noms des bibliothèques clientes (par exemple, `"mysite"`). |
+| `artifactId` | *`${appId}`* | ID d’artefact Maven de base (par exemple, `"mysite"`). |
+| `groupId` |  | ID de groupe Maven de base (par exemple, `"com.mysite"`). |
+| `package` | *`${groupId}`* | Package source Java (par exemple, `"com.mysite"`). |
+| `version` | `1.0-SNAPSHOT` | Version du projet (par exemple, `1.0-SNAPSHOT`). |
+| `aemVersion` | `6.5.0` |  Version d’AEM cible (par exemple, `cloud` pour [AEM as a Cloud Service](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/landing/home.html) ; ou `6.5.0`, `6.4.4` ou `6.3.3` pour [Adobe Managed Services](https://github.com/adobe/aem-project-archetype/tree/master/src/main/archetype/dispatcher.ams) ou On-Premise). |
+| `sdkVersion` | `latest` | Lorsque `aemVersion=cloud`, une version de [SDK](https://docs.adobe.com/content/help/fr-FR/experience-manager-cloud-service/implementing/developing/aem-as-a-cloud-service-sdk.html) peut être spécifiée (par exemple, `2020.02.2265.20200217T222518Z-200130`). |
+| `includeDispatcherConfig` | `y` | Inclut une configuration du Dispatcher pour le cloud ou pour AMS/On-Premise, selon la valeur de `aemVersion` (par exemple, `y` ou `n`). |
+| `frontendModule` | `none` | Comprend un module de création front-end Webpack qui génère les bibliothèques clientes (par exemple, `general` ou `none` pour les sites standard ; ou `angular` ou `react` pour une application monopage qui implémente l’[éditeur d’application monopage](https://docs.adobe.com/content/help/fr-FR/experience-manager-65/developing/headless/spas/spa-overview.html)). |
+| `languageCountry` | `en_us` | Code de langue et de pays utilisé pour créer la structure de contenu (par exemple, `en_us`). |
+| `singleCountry` | `y` | Inclut une structure de contenu servant de gabarit de langue (par exemple, `y` ou `n`). |
+| `includeExamples` | `y` | Inclut un exemple de site de [bibliothèque de composants](https://www.aemcomponents.dev/) (par exemple, `y` ou `n`). |
+| `includeErrorHandler` | `n` | Inclut une page de réponse personnalisée 404 qui sera globale pour l’ensemble de l’instance (par exemple, `y` ou `n`). |
 
 >[!NOTE]
 > Si l’archétype est exécuté en mode interactif la première fois, les propriétés ayant des valeurs par défaut ne peuvent pas être modifiées (voir [ARCHETYPE-308](https://issues.apache.org/jira/browse/ARCHETYPE-308) pour plus de détails). La valeur peut être modifiée lorsque la confirmation de propriété finale est refusée et que le questionnaire est répété, ou en transmettant le paramètre dans la ligne de commande (par ex., `-DoptionIncludeExamples=n`).
@@ -223,6 +223,6 @@ Il existe trois niveaux de tests contenus dans le projet et, parce qu&#39;il s&#
 Vous avez ainsi créé et installé l’archétype de projet AEM. Et maintenant ? L’archétype est petit mais comprend de nombreux exemples de puissantes fonctionnalités AEM configurées selon les recommandations des bonnes pratiques. Utilisez ces exemples pour vous guider sur la meilleure manière de tirer parti de ces fonctionnalités dans votre projet. Pour tout projet, il vous faudra probablement :
 
 * [Personnaliser les composants en étendant les composants principaux existants](/help/developing/customizing.md)
-* [Ajouter des modèles supplémentaires](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/sites/authoring/features/templates.html)
+* [Ajouter des modèles supplémentaires](https://docs.adobe.com/content/help/fr-FR/experience-manager-cloud-service/sites/authoring/features/templates.html)
 * [Adapter la structure de localisation](https://docs.adobe.com/content/help/en/experience-manager-65/administering/introduction/tc-prep.html)
 * [En savoir plus sur le module de génération front-end](uifrontend.md)
