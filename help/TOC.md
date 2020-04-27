@@ -1,7 +1,7 @@
 ---
 sub-product: AEM Core Components
 user-guide-title: AEM Core Components
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 2faa092a075ab0512e9bd5654884534936c0ad53
 
 ---
@@ -62,12 +62,12 @@ source-git-commit: 2faa092a075ab0512e9bd5654884534936c0ad53
 + Développement {#developing}
    + [Développement des composants principaux](developing/overview.md)
    + [Chemins vers la réussite](developing/success.md)
-   + [Tutoriel du développeur WKND](https://docs.adobe.com/content/help/fr/experience-manager-learn/getting-started-wknd-tutorial-develop/overview.html)
+   + [Tutoriel du développeur WKND](https://docs.adobe.com/content/help/en/experience-manager-learn/getting-started-wknd-tutorial-develop/overview.html)
    + [Personnalisation des composants principaux](developing/customizing.md)
    + [Instructions relatives aux composants](developing/guidelines.md)
    + Archétype de projet AEM {#archetype}
       + [Présentation de l&#39;archétype](developing/archetype/overview.md)
-      + [Utilisation de l&#39;archétype](developing/archetype/using.md)
+      + [Utilisation de l’archétype](developing/archetype/using.md)
       + [Module principal](developing/archetype/core.md)
       + [Module ui.apps](developing/archetype/uiapps.md)
       + [Module ui.content](developing/archetype/uicontent.md)
