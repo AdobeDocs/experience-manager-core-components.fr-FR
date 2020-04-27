@@ -1,7 +1,7 @@
 ---
 title: Composant textuel
 description: Le composant Texte est un composant d’édition et de composition de texte enrichi qui propose une édition statique.
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 4df8e147fc9d0151c3a211473b067c78b807e52e
 
 ---
@@ -172,7 +172,7 @@ Si une correspondance est trouvée, elle est mise en surbrillance et le dialogue
 
 Sélectionnez **Remplacer tout** pour remplacer toutes les occurrences du texte à la fois.
 
-Lors de l’utilisation de la fonctionnalité de remplacement, la chaîne de remplacement à remplacer doit être saisie en même temps que la chaîne de recherche. Cependant, vous pouvez toujours cliquer sur Rechercher pour rechercher la chaîne avant de la remplacer. Si la chaîne de remplacement est saisie après avoir cliqué sur Rechercher, la recherche est réinitialisée au début du texte.
+Lors de l’utilisation de la fonctionnalité de remplacement, la chaîne à remplacer doit être saisie en même temps que la chaîne de recherche. Cependant, vous pouvez toujours cliquer sur Rechercher pour rechercher la chaîne avant de la remplacer. Si la chaîne de remplacement est saisie après avoir cliqué sur Rechercher, la recherche est réinitialisée au début du texte.
 
 La boîte de dialogue de recherche et de remplacement devient transparente lorsque l’utilisateur clique sur Rechercher et devient opaque lorsque l’utilisateur clique sur Remplacer. Cela permet à l’auteur de vérifier le texte qui sera remplacé.
 
@@ -288,7 +288,7 @@ Appuyez ou cliquez sur l’icône **Modifier la source** pour modifier le conten
 
 >[!NOTE]
 >
->Étant donné que le code HTML saisi via l’option **Modifier la source** est analysé pour les risques XSS et les scripts et les supprime automatiquement, le contenu persistant persistant peut différer de celui saisi dans **Modifier la source**. Pour cette raison, pour enregistrer les modifications effectuées à l’aide de l’option **Modifier la source**, vous devez d’abord quitter **Modifier la source** pour afficher le texte dans l’éditeur normal avant l’enregistrement.
+>Étant donné que le code HTML saisi via l’option **Modifier la source** est analysé pour les risques XSS et les scripts, et les supprime automatiquement, le contenu persistant peut différer de celui saisi dans **Modifier la source**. Pour cette raison, pour enregistrer les modifications effectuées à l’aide de l’option **Modifier la source**, vous devez d’abord quitter **Modifier la source** pour afficher le texte dans l’éditeur normal avant l’enregistrement.
 
 ### Format de paragraphe
 
