@@ -1,7 +1,7 @@
 ---
 title: Composant de texte de formulaire
 description: Le composant de texte de formulaire des composants principaux permet l’entrée de texte de formulaire pour envoi.
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 95c0621f5423bfa515fe5e8b693e127ea56b4ae0
 
 ---
@@ -30,7 +30,7 @@ Pour plus d’informations sur les versions et les publications des composants p
 
 ## Exemple de sortie de composant {#sample-component-output}
 
-To experience the Form Text Component as well as see examples of its configuration options as well as HTML and JSON output, visit the [Component Library](https://adobe.com/go/aem_cmp_library_form_text).
+Pour tester le composant de texte de formulaire et obtenir des exemples d’options de configuration, ainsi que des sorties HTML et JSON, consultez la [bibliothèque de composants](https://adobe.com/go/aem_cmp_library_form_text).
 
 ### Détails techniques {#technical-details}
 
