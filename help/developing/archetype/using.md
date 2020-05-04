@@ -1,8 +1,8 @@
 ---
 title: Utilisation de l’archétype de projet AEM
 description: Instructions d’utilisation détaillées pour l’archétype de projet AEM
-translation-type: ht
-source-git-commit: 477a1774a856725f52b9db7a978c534de4700661
+translation-type: tm+mt
+source-git-commit: 0d8089c53d2ef95e88379e6f381738cd137e6b33
 
 ---
 
@@ -166,9 +166,9 @@ Ces propriétés sont configurées pour être déployées vers une instance AEM 
 
 Ces propriétés sont configurées de manière à pouvoir être remplacées lors d&#39;un déploiement vers des environnements de niveau supérieur. De cette manière, les fichiers POM n’ont pas à changer, mais des variables comme `aem.host` et `sling.password` peuvent être remplacées via des arguments de ligne de commande :
 
-````
+```
 mvn -PautoInstallPackage clean install -Daem.host=production.hostname -Dsling.password=productionpasswd
-````
+```
 
 ### Structure du module {#module-structure}
 
