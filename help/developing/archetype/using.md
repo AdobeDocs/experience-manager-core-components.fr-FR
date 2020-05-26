@@ -1,8 +1,11 @@
 ---
 title: Utilisation de l’archétype de projet AEM
 description: Instructions d’utilisation détaillées pour l’archétype de projet AEM
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 0d8089c53d2ef95e88379e6f381738cd137e6b33
+workflow-type: ht
+source-wordcount: '2057'
+ht-degree: 100%
 
 ---
 
