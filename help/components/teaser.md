@@ -1,8 +1,11 @@
 ---
 title: Composant Teaser
 description: Le composant Teaser peut afficher une image, un titre, un texte enrichi et éventuellement un lien vers un contenu supplémentaire.
-translation-type: ht
-source-git-commit: 93a7ba6b8a972d111fb723cb40b0380cea9b5a9a
+translation-type: tm+mt
+source-git-commit: c186e9ec3944d785ab0376769cf7f2307049a809
+workflow-type: tm+mt
+source-wordcount: '751'
+ht-degree: 64%
 
 ---
 
@@ -23,9 +26,9 @@ La version actuelle du composant Teaser est v1, qui a été introduite avec la v
 
 Le tableau ci-après présente en détail toutes les versions prises en charge du composant, les versions AEM avec lesquelles les versions du composant sont compatibles et les liens vers la documentation pour les versions précédentes.
 
-| Version du composant | AEM 6.3 | AEM 6.4 | AEM 6.5 | AEM as a Cloud Service |
-|---|---|---|---|---|
-| v1 | Compatible | Compatible | Compatible | Compatible |
+| Version du composant | AEM 6.4 | AEM 6.5 | AEM as a Cloud Service |
+|---|---|---|---|
+| v1 | Compatible | Compatible | Compatible |
 
 ## Exemple de sortie de composant {#sample-component-output}
 
@@ -43,7 +46,7 @@ L’auteur du contenu peut utiliser la boîte de dialogue de configuration pour 
 
 ### Image {#image}
 
-![](/help/assets/screen_shot_2018-07-03at104125.png)
+![Onglet d’image de la boîte de dialogue de modification du composant Teaser](/help/assets/teaser-edit-image.png)
 
 * **Ressource image**
    * Déposez un fichier depuis l’[explorateur de ressources](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/sites/authoring/fundamentals/environment-tools.html) ou appuyez sur l’option **parcourir** pour effectuer un téléchargement à partir d’un système de fichiers local.
@@ -52,25 +55,24 @@ L’auteur du contenu peut utiliser la boîte de dialogue de configuration pour 
 
 ### Texte {#text}
 
-![](/help/assets/screen_shot_2018-07-03at104138.png)
+![Onglet Modifier la boîte de dialogue du composant Teaser](/help/assets/teaser-edit-text.png)
 
-* **Titre**
-Titre à afficher comme titre du teaser.
-* **Obtenir le titre de la page liée**
-Lorsque cette option est cochée, le titre est renseigné avec le titre de la page liée.
-* **Description**
-Définit une description à afficher sous forme de sous-titre du teaser.
-* **Obtenir la description de la page liée**
-Lorsque cette option est cochée, la description est renseignée avec la description de la page liée.
+* **Prétitre** - Le prétitre s&#39;affiche avant le titre du teaser.
+* **Titre** - Définit un titre à afficher en tant que titre pour le teaser.
+   * **Obtenir le titre de la page** liée : lorsque cette option est sélectionnée, le titre est renseigné avec le titre de la page liée.
+* **Description** - Définit une description à afficher en tant que sous-titre du teaser.
+   * **Obtenir la description à partir de la page** liée : si cette option est cochée, la description sera renseignée avec la description de la page liée.
+* **ID** : cette option permet de contrôler l&#39;identifiant unique du composant dans le code HTML et dans la couche [de](/help/developing/data-layer/overview.md)données.
+   * Si rien n’est indiqué, un identifiant unique est automatiquement généré et peut être trouvé en examinant la page qui en résulte.
+   * Si un ID est spécifié, il incombe à l’auteur de s’assurer qu’il est unique.
+   * La modification de l’ID peut avoir un impact sur le suivi CSS, JS et de couche de données.
 
 ### Liens et actions {#links-actions}
 
-![](/help/assets/screen_shot_2018-07-03at104146.png)
+![Onglet de lien de la boîte de dialogue Modifier du composant Teaser](/help/assets/teaser-edit-link.png)
 
-* **Lien**
-Lien appliqué au teaser. Utilisez le navigateur de chemins pour sélectionner la cible du lien.
-* **Activation de l’option Appel à des actions**
-Lorsqu’elle est cochée, elle active la définition d’appel à actions. Le premier lien Appel à action de la liste est utilisé comme lien pour d’autres éléments de teaser.
+* **Lien** - Lien appliqué au teaser. Utilisez le navigateur de chemins pour sélectionner la cible du lien.
+* **Activer les appels à l&#39;action** : lorsque cette option est cochée, elle active la définition des appels à l&#39;action. Le premier lien Appel à action de la liste est utilisé comme lien pour d’autres éléments de teaser.
 
 ## Boîte de dialogue de modification {#edit-dialog}
 
@@ -82,24 +84,20 @@ La boîte de dialogue de conception permet à l’auteur du modèle de définir 
 
 ### Onglet Teaser {#teaser-tab}
 
-![](/help/assets/screen_shot_2018-07-03at105958.png)
+![Boîte de dialogue de conception du composant Teaser](/help/assets/teaser-design.png)
 
 * **Appels à l’action**
-   * **Désactivation des appels à actions**
-Masquez l’option **Appel à actions** pour les auteurs de contenu.
+   * **Désactiver les appels à l&#39;action** - Masquer l&#39;option **Appel à l&#39;action** pour les auteurs de contenu
 * **Eléments**
-   * **Masquer le titre**
-      * Masque l’option **Titre** pour les auteurs de contenu.
+   * **Masquer le prétitre** - Masque l’option de **prétitre** pour les auteurs de contenu
+   * **Masquer le titre** - Masque l&#39;option **Titre** pour les auteurs de contenu
       * Lorsqu’il est sélectionné, **le type de titre** est masqué.
-   * **Masquer la description**
-Masquez l’option **Description** pour les auteurs de contenu.
-* **Type de titre**
-Définit la balise H à utiliser par le titre du teaser.
+   * **Masquer la description** - Masquer l&#39;option **Description** pour les auteurs de contenu
+* **Type** de titre : définit la balise H à utiliser par le titre du teaser.
 * **Liens**
-   * **Ne pas lier l’image**
-Lorsque cette option est sélectionnée, l’image de teaser n’est pas liée.
-   * **Ne pas lier le titre**
-Lorsque sélectionné, le titre du teaser n’est pas lié.
+   * **Ne pas lier l&#39;image** : lorsque cette option est sélectionnée, l&#39;image de teaser n&#39;est pas liée.
+   * **Ne pas lier le titre** - Lorsqu&#39;il est sélectionné, le titre du teaser n&#39;est pas lié
+* **Image Delegate** - Affichage d’informations indiquant à quel composant le Teaser délègue la gestion des images.
 
 ### Onglet Styles {#styles-tab}
 
