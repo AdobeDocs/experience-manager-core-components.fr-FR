@@ -1,8 +1,11 @@
 ---
 title: Composant de bouton de formulaire
 description: Le composant Masqué du formulaire des composants principaux permet l’inclusion d’un champ masqué dans un formulaire.
-translation-type: ht
-source-git-commit: 95c0621f5423bfa515fe5e8b693e127ea56b4ae0
+translation-type: tm+mt
+source-git-commit: c186e9ec3944d785ab0376769cf7f2307049a809
+workflow-type: tm+mt
+source-wordcount: '414'
+ht-degree: 81%
 
 ---
 
@@ -25,7 +28,7 @@ Le tableau ci-après présente en détail toutes les versions prises en charge d
 
 | Version du composant | AEM 6.3 | AEM 6.4 | AEM 6.5 | AEM as a Cloud Service |
 |--- |--- |--- |--- |---|
-| v2 | Compatible | Compatible | Compatible | Compatible |
+| v2 | - | Compatible | Compatible | Compatible |
 | [v1](/help/components/v1/form-button-v1.md) | Compatible | Compatible | Compatible | - |
 
 Pour plus d’informations sur les versions et les publications des composants principaux, voir le document sur les [versions des composants principaux](/help/versions.md).
@@ -46,7 +49,7 @@ La boîte de dialogue de configuration permet à l’auteur de contenu de défin
 
 ### Onglet Propriétés {#properties-tab}
 
-![](/help/assets/screen_shot_2018-01-12at120433.png)
+![Boîte de dialogue de modification du composant de bouton de formulaire](/help/assets/form-button-edit.png)
 
 * **Type**
 
@@ -59,6 +62,11 @@ La boîte de dialogue de configuration permet à l’auteur de contenu de défin
 
 * **Nom** : nom du bouton qui est envoyé avec les données de formulaire.
 * **Valeur** : valeur du bouton qui est envoyée avec les données de formulaire.
+
+* **ID** : cette option permet de contrôler l&#39;identifiant unique du composant dans le code HTML et dans la couche [de](/help/developing/data-layer/overview.md)données.
+   * Si rien n’est indiqué, un identifiant unique est automatiquement généré et peut être trouvé en examinant la page qui en résulte.
+   * Si un ID est spécifié, il incombe à l’auteur de s’assurer qu’il est unique.
+   * La modification de l’ID peut avoir un impact sur le suivi CSS, JS et de couche de données.
 
 ## Boîte de dialogue de conception {#design-dialog}
 
