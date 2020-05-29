@@ -2,10 +2,10 @@
 title: Présentation des composants principaux
 description: 'Les composants principaux ont été conçus pour offrir des composants de base solides et extensibles, reposant sur les dernières technologies et les bonnes pratiques. '
 translation-type: tm+mt
-source-git-commit: c186e9ec3944d785ab0376769cf7f2307049a809
+source-git-commit: c07dc21b1973ec541a1d96047f8a30aca8cfb886
 workflow-type: tm+mt
-source-wordcount: '813'
-ht-degree: 100%
+source-wordcount: '841'
+ht-degree: 97%
 
 ---
 
@@ -20,6 +20,7 @@ Les composants principaux sont un ensemble de composants WCM (Web Content Manage
 
 * **[Bibliothèque de composants :](https://www.adobe.com/go/aem_cmp_library)**ensemble d’exemples permettant d’afficher les composants dans leurs différentes configurations.
 * **Documentation des composants (le présent document) :** pour les développeurs et les auteurs, avec des détails sur chaque composant.
+* **[Référentiel GitHub des composants principaux :](https://github.com/adobe/aem-core-wcm-components)**Pour obtenir des informations détaillées sur les développeurs de chaque téléchargement de composant et de projet.
 * Prise en main :
    * **[Réussir avec les composants principaux :](/help/developing/success.md)**lignes directrices à prendre en compte avant de débuter tout projet qui fera appel aux composants principaux.
    * **[Tutoriel WKND :](https://docs.adobe.com/content/help/en/experience-manager-learn/getting-started-wknd-tutorial-develop/overview.html)**tutoriel de deux jours pour créer un site.
@@ -43,6 +44,7 @@ Les composants principaux sont un ensemble de composants WCM (Web Content Manage
 | Contrôle de version | La [politique de contrôle de version](https://github.com/adobe/aem-core-wcm-components/wiki/Versioning-policies) garantit que les composants principaux ne rendent pas votre site inopérable lorsqu’ils améliorent des éléments susceptibles de vous affecter. |
 | Localisables | La résolution intelligente des références permet à certains composants de rechercher le contenu localisé correspondant et d’en [effectuer automatiquement le rendu](get-started/localization.md). |
 | Open source | Si quelque chose ne va pas, [contribuez en apportant vos améliorations.](https://github.com/adobe/aem-core-wcm-components/blob/master/CONTRIBUTING.md) |
+| Trackable | Les composants principaux sont [intégrés à la couche de données du client Adobe.](/help/developing/data-layer/overview.md) |
 
 ## Composants {#the-components}
 
