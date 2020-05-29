@@ -1,8 +1,11 @@
 ---
 title: Composant de liste de fragments de contenu
 description: Le composant de liste de fragments de contenu des composants principaux permet d’afficher une liste de fragments de contenu.
-translation-type: ht
-source-git-commit: 93a7ba6b8a972d111fb723cb40b0380cea9b5a9a
+translation-type: tm+mt
+source-git-commit: c186e9ec3944d785ab0376769cf7f2307049a809
+workflow-type: tm+mt
+source-wordcount: '762'
+ht-degree: 87%
 
 ---
 
@@ -24,9 +27,9 @@ La version actuelle du composant de fragment de contenu est v1, qui a été intr
 
 Le tableau ci-après présente en détail toutes les versions prises en charge du composant, les versions AEM avec lesquelles les versions du composant sont compatibles et les liens vers la documentation pour les versions précédentes.
 
-| Version du composant | AEM 6.3 | AEM 6.4 | AEM 6.5 | AEM as a Cloud Service |
-|--- |--- |--- |---|---|
-| v1 | Compatible | Compatible | Compatible | Compatible |
+| Version du composant | AEM 6.4 | AEM 6.5 | AEM as a Cloud Service |
+|--- |--- |---|---|
+| v1 | Compatible | Compatible | Compatible |
 
 Pour plus d’informations sur les versions et les publications des composants principaux, voir le document sur les [versions des composants principaux](/help/versions.md).
 
@@ -48,7 +51,7 @@ La boîte de dialogue de configuration permet à l’auteur du contenu de défin
 
 L’onglet **Propriétés** définit les fragments de contenu inclus dans la liste. Cela repose principalement sur un modèle de fragment de contenu sélectionné, mais il existe d’autres options de filtrage disponibles.
 
-![](/help/assets/screen-shot-2019-09-25-10.32.10.png)
+![Onglet Propriétés de la boîte de dialogue Modifier du composant de Liste de fragments de contenu](/help/assets/content-fragment-list-properties.png)
 
 * **Modèle** : chemin d’accès au modèle de fragment de contenu sur lequel repose la liste.
    * Par défaut, tous les fragments de contenu du modèle définis comme **chemin d’accès au modèle** sont inclus dans la liste.
@@ -64,6 +67,10 @@ L’onglet **Propriétés** définit les fragments de contenu inclus dans la lis
    * Croissant ou décroissant
 * **Nombre max. d’éléments** : nombre maximal d’éléments à afficher dans la liste
    * Aucune valeur ne renverra tous les éléments.
+* **ID** : cette option permet de contrôler l&#39;identifiant unique du composant dans le code HTML et dans la couche [de](/help/developing/data-layer/overview.md)données.
+   * Si rien n’est indiqué, un identifiant unique est automatiquement généré et peut être trouvé en examinant la page qui en résulte.
+   * Si un ID est spécifié, il incombe à l’auteur de s’assurer qu’il est unique.
+   * La modification de l’ID peut avoir un impact sur le suivi CSS, JS et de couche de données.
 
 >[!NOTE]
 >Les options **Classer par**, **Ordre de tri** et **Nombre max. d’éléments** ont été ajoutées dans la version 2.7.0 des composants principaux.
@@ -72,7 +79,7 @@ L’onglet **Propriétés** définit les fragments de contenu inclus dans la lis
 
 Par défaut, tous les éléments du modèle de fragment de contenu seront inclus dans la liste (sauf si le champ **Nombre max. d’éléments** applique une limite). L’onglet **Éléments** permet de spécifier quelques éléments spécifiques à inclure.
 
-![](/help/assets/screen-shot-2019-05-08-10.47.34.png)
+![Onglet Eléments de la boîte de dialogue Modifier du composant de Liste de fragments de contenu](/help/assets/content-fragment-list-elements.png)
 
 * **Éléments** : seuls les éléments des fragments de contenu figurant dans la liste spécifiée apparaissent.
    * Cliquez ou appuyez sur le bouton **Ajouter** pour ajouter un nouvel élément.
