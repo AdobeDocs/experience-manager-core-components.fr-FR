@@ -1,8 +1,11 @@
 ---
 title: Composant de conteneur de formulaires
 description: Le composant de conteneur de formulaires des composants principaux permet la création de formulaires d’envoi simples.
-translation-type: ht
-source-git-commit: 95c0621f5423bfa515fe5e8b693e127ea56b4ae0
+translation-type: tm+mt
+source-git-commit: c186e9ec3944d785ab0376769cf7f2307049a809
+workflow-type: tm+mt
+source-wordcount: '805'
+ht-degree: 84%
 
 ---
 
@@ -29,7 +32,7 @@ Le tableau ci-après présente en détail toutes les versions prises en charge d
 
 | Version du composant | AEM 6.3 | AEM 6.4 | AEM 6.5 | AEM as a Cloud Service |
 |--- |--- |--- |--- |---|
-| v2 | Compatible | Compatible | Compatible | Compatible |
+| v2 | - | Compatible | Compatible | Compatible |
 | [v1](/help/components/v1/form-container-v1.md) | Compatible | Compatible | Compatible | - |
 
 Pour plus d’informations sur les versions et les publications des composants principaux, voir le document sur les [versions des composants principaux](/help/versions.md).
@@ -48,14 +51,10 @@ Vous trouverez plus d’informations sur le développement des composants princi
 
 La boîte de dialogue de configuration permet à l’auteur de contenu de définir les actions effectuées lors de l’envoi du composant.
 
-![](/help/assets/screen_shot_2018-01-12at122046.png)
-
 Selon le **type d’action** sélectionné, les options disponibles dans le conteneur changent. Les types d’actions disponibles sont les suivants :
 
 * [Courrier](#mail)
 * [Stocker le contenu](#store-content)
-* [Envoyer la commande](#submit-order)
-* [Mettre à jour la commande](#update-order)
 
 Quel que soit le type, il existe des [paramètres généraux](#general-settings) qui s’appliquent à chaque action.
 
@@ -63,19 +62,14 @@ Quel que soit le type, il existe des [paramètres généraux](#general-settings)
 
 Lorsque le formulaire est envoyé, le type d’action courrier envoie un e-mail aux destinataires désignés.
 
-![](/help/assets/screen_shot_2018-01-12at122554.png)
+![Options de messagerie dans la boîte de dialogue de modification du composant de Conteneur de formulaire](/help/assets/form-container-edit-mail.png)
 
-* **Objet**
-Objet de l’e-mail qui sera envoyé lors de l’envoi du formulaire.
-* **De**
-Adresse e-mail de l’expéditeur de l’e-mail qui sera envoyé lors de l’envoi du formulaire.
-* **À**
-Adresses des destinataires qui recevront un e-mail lors de l’envoi du formulaire.
-
+* **Objet** : objet de l’e-mail qui sera envoyé lors de l’envoi du formulaire.
+* **De** : adresse e-mail de l’expéditeur de l’e-mail qui sera envoyé lors de l’envoi du formulaire.
+* **À** : adresse des destinataires qui recevront un e-mail lors de l’envoi du formulaire.
    * Appuyez ou cliquez sur le bouton **Ajouter** pour ajouter d’autres adresses.
    * Appuyez ou cliquez sur le bouton **Supprimer** pour supprimer une adresse e-mail.
-* **Cc**
-Les adresses des destinataires qui recevront une copie carbone de l’e-mail envoyé lors de l’envoi du formulaire.
+* **Cc** : adresses des destinataires qui recevront une copie carbone de l’e-mail envoyé lors de l’envoi du formulaire.
    * Appuyez ou cliquez sur le bouton **Ajouter** pour ajouter d’autres adresses.
    * Appuyez ou cliquez sur le bouton **Supprimer** pour supprimer une adresse e-mail.
 
@@ -83,39 +77,31 @@ Les adresses des destinataires qui recevront une copie carbone de l’e-mail env
 
 Lorsque le formulaire est envoyé, le contenu du formulaire est stocké dans un emplacement de référentiel désigné.
 
-![](/help/assets/screen_shot_2018-01-12at122538.png)
+![Options de stockage du contenu dans la boîte de dialogue de modification du Conteneur de formulaire](/help/assets/form-container-edit-store.png)
 
-* **Chemin d’accès au contenu**
-Chemin d’accès au référentiel de contenu où le contenu envoyé est stocké.
-* **Afficher les données**
-Appuyez ou cliquez sur cette option pour afficher les données envoyées stockées sous la forme JSON.
-* **Démarrer le processus**
-Configurez cette option pour démarrer un workflow avec le contenu stocké comme charge utile lors de l’envoi du formulaire.
-
-### Envoyer la commande {#submit-order}
-
-Lorsque le formulaire est envoyé, la commande est envoyée.
-
-![](/help/assets/chlimage_1-3.png)
-
-### Mettre à jour la commande {#update-order}
-
-Lorsque le formulaire est envoyé, la commande est mise à jour.
-
-![](/help/assets/chlimage_1-4.png)
+* **Chemin d’accès au contenu** : chemin d’accès au référentiel de contenu où le contenu envoyé est stocké.
+* **Afficher les données** : appuyez ou cliquez sur cette option pour afficher les données envoyées stockées sous la forme JSON.
+* **Démarrer le processus** : configurez cette option pour démarrer un workflow avec le contenu stocké comme charge utile lors de l’envoi du formulaire.
 
 ### Paramètres généraux {#general-settings}
 
 Quelle que soit le type d’action sélectionné, une page de remerciement peut toujours être définie.
 
-![](/help/assets/chlimage_1-5.png)
+![Options générales dans la boîte de dialogue de modification du composant de Conteneur de formulaire](/help/assets/form-container-edit-general.png)
 
-L’utilisateur est redirigé vers la page spécifiée une fois l’envoi du formulaire terminé.
-
-* Utilisez la boîte de dialogue de sélection pour sélectionner une ressource dans AEM.
-* Si la page de remerciement ne figure pas dans AEM, indiquez l’URL absolue. Les URL non absolues seront interprétées par rapport à AEM.
-* Laissez vide pour réafficher le formulaire après envoi.
+* **Page** de remerciement : l’utilisateur sera redirigé vers la page spécifiée une fois l’envoi du formulaire terminé.
+   * Utilisez la boîte de dialogue de sélection pour sélectionner une ressource dans AEM.
+   * Si la page de remerciement ne figure pas dans AEM, indiquez l’URL absolue. Les URL non absolues seront interprétées par rapport à AEM.
+   * Laissez vide pour réafficher le formulaire après envoi.
+* **ID** : cette option permet de contrôler l&#39;identifiant unique du composant dans le code HTML et dans la couche [de](/help/developing/data-layer/overview.md)données.
+   * Si rien n’est indiqué, un identifiant unique est automatiquement généré et peut être trouvé en examinant la page qui en résulte.
+   * Si un ID est spécifié, il incombe à l’auteur de s’assurer qu’il est unique.
+   * La modification de l’ID peut avoir un impact sur le suivi CSS, JS et de couche de données.
 
 ## Boîte de dialogue de conception {#design-dialog}
 
 La boîte de dialogue de conception permet à l’auteur du modèle de définir les composants autorisés et leurs mappages pour le conteneur similaires à la boîte de dialogue de conception du [conteneur de mises en page standard dans l’éditeur de modèles](https://docs.adobe.com/content/help/fr-FR/experience-manager-cloud-service/sites/authoring/features/templates.html).
+
+### Onglet Styles {#styles-tab}
+
+The Form Container Component supports the AEM [Style System](/help/get-started/authoring.md#component-styling).
