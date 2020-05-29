@@ -1,8 +1,11 @@
 ---
 title: Présentation des composants principaux
 description: 'Les composants principaux ont été conçus pour offrir des composants de base solides et extensibles, reposant sur les dernières technologies et les bonnes pratiques. '
-translation-type: ht
-source-git-commit: 1c6e27c163f72fd66336e8db883144dc4dd60510
+translation-type: tm+mt
+source-git-commit: c186e9ec3944d785ab0376769cf7f2307049a809
+workflow-type: tm+mt
+source-wordcount: '813'
+ht-degree: 100%
 
 ---
 
@@ -27,7 +30,7 @@ Les composants principaux sont un ensemble de composants WCM (Web Content Manage
 
 |  |  |
 |---|---|
-| Prêts pour la production | Les composants principaux sont 27 composants robustes, bien testés, largement utilisés et performants. |
+| Prêts pour la production | Les composants principaux sont 28 composants robustes, bien testés, largement utilisés et performants. |
 | Prêts pour le cloud | Ils fonctionnent aussi bien sur [AEM as a Cloud Service](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/landing/home.html) que sur [Adobe Managed Services](https://github.com/adobe/aem-project-archetype/tree/master/src/main/archetype/dispatcher.ams) ou On-Premise. |
 | Polyvalents | Les composants représentent des concepts génériques avec lesquels les auteurs peuvent assembler pratiquement n’importe quelle disposition. |
 | Configurables | Des [stratégies de contenu](https://docs.adobe.com/content/help/fr-FR/experience-manager-65/developing/platform/templates/page-templates-editable.html#content-policies) au niveau du modèle définissent les fonctionnalités que les auteurs de pages peuvent ou non utiliser. |
@@ -68,6 +71,7 @@ La version actuelle des composants principaux comporte les composants ci-après.
 * [Incorporer](components/embed.md)
 * [Partage sur les réseaux sociaux](components/sharing.md)
 * [Séparateur](components/separator.md)
+* [Barre de progression](components/progress-bar.md)
 
 ### Composants de conteneur {#container-components}
 
@@ -96,9 +100,9 @@ La version actuelle des composants principaux comporte les composants ci-après.
 
 ## Configuration requise {#system-requirements}
 
-| Composants principaux | AEM as a Cloud Service | AEM 6.5 | AEM 6.4 | AEM 6.3 | Java SE | Maven |
----------|---------|---------|---------|---------|---------|---------
-| [2.8.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.8.0) | Suite | 6.5.0.0+ | 6.4.4.0+ | 6.3.3.4+ | 8, 11 | 3.3.9+ |
+| Composants principaux | AEM as a Cloud Service | AEM 6.5 | AEM 6.4 | Java SE | Maven |
+---------|---------|---------|---------|---------|---------
+| [2.9.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.9.0) | Suite | 6.5.0.0+ | 6.4.4.0+ | 8, 11 | 3.3.9+ |
 
 Pour connaître les exigences des versions précédentes des composants principaux, voir [Versions des composants principaux](versions.md).
 
