@@ -1,8 +1,11 @@
 ---
 title: Composant du séparateur
 description: Le composant du séparateur crée un saut entre les composants d’une page.
-translation-type: ht
-source-git-commit: 93a7ba6b8a972d111fb723cb40b0380cea9b5a9a
+translation-type: tm+mt
+source-git-commit: c186e9ec3944d785ab0376769cf7f2307049a809
+workflow-type: tm+mt
+source-wordcount: '304'
+ht-degree: 74%
 
 ---
 
@@ -21,9 +24,9 @@ La version actuelle du composant du séparateur est v1, qui a été introduite 
 
 Le tableau ci-après présente en détail toutes les versions prises en charge du composant, les versions AEM avec lesquelles les versions du composant sont compatibles et les liens vers la documentation pour les versions précédentes.
 
-| Version du composant | AEM 6.3 | AEM 6.4 | AEM 6.5 | AEM as a Cloud Service |
-|---|---|---|---|---|
-| v1 | Compatible | Compatible | Compatible | Compatible |
+| Version du composant | AEM 6.4 | AEM 6.5 | AEM as a Cloud Service |
+|---|---|---|---|
+| v1 | Compatible | Compatible | Compatible |
 
 ## Exemple de sortie de composant {#sample-component-output}
 
@@ -37,7 +40,12 @@ Vous trouverez plus d’informations sur le développement des composants princi
 
 ## Boîte de dialogue de configuration {#configure-dialog}
 
-Le composant du séparateur n’a pas de boîte de dialogue de configuration.
+![Boîte de dialogue de modification du composant séparateur](/help/assets/separator-edit.png)
+
+* **ID** : cette option permet de contrôler l&#39;identifiant unique du composant dans le code HTML et dans la couche [de](/help/developing/data-layer/overview.md)données.
+   * Si rien n’est indiqué, un identifiant unique est automatiquement généré et peut être trouvé en examinant la page qui en résulte.
+   * Si un ID est spécifié, il incombe à l’auteur de s’assurer qu’il est unique.
+   * La modification de l’ID peut avoir un impact sur le suivi CSS, JS et de couche de données.
 
 ## Boîte de dialogue de conception {#design-dialog}
 
