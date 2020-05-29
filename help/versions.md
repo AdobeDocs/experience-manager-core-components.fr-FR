@@ -1,8 +1,11 @@
 ---
 title: Versions des composants principaux
 description: Les composants principaux sont publiés sous forme de versions qui peuvent contenir plusieurs versions des mêmes composants principaux. Ce document explique les versions et les mises à jour ainsi que comment comprendre la compatibilité avec les composants principaux et AEM.
-translation-type: ht
-source-git-commit: 6c0dcfbe4af6aeb3bfa69bdbb43edaab273207be
+translation-type: tm+mt
+source-git-commit: c186e9ec3944d785ab0376769cf7f2307049a809
+workflow-type: tm+mt
+source-wordcount: '1694'
+ht-degree: 98%
 
 ---
 
@@ -23,6 +26,7 @@ Le tableau suivant, dont le contenu est [disponible sur GitHub avec les détails
 
 | Mise à jour | Description | AEM 6.3 | AEM 6.4 | AEM 6.5 | AEM as a Cloud Service | Java | Date de publication |
 |---|---|---|---|---|---|---|---|
+| [2.9.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.9.0) | Cette version a permis l’intégration à la couche de données du client Adobe et introduit le composant de barre de progression. | - | 6.4.4.0+ | 6.5.0.0+ | Suite | 8, 11 | 29 mai 2020 |
 | [2.8.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.8.0) | Cette version comprend principalement des correctifs ainsi que de petites améliorations. | 6.3.3.4+ | 6.4.4.0+ | 6.5.0.0+ | Suite | 8, 11 | 5 décembre 2019 |
 | [2.7.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.7.0) | Cette version a introduit le nouveau composant Incorporer. | 6.3.3.4+ | 6.4.4.0+ | 6.5.0.0+ | Suite | 8, 11 | 25 septembre 2019 |
 | [2.6.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.6.0) | Cette version a introduit le nouveau composant de fragment d’expérience. | 6.3.3.4+ | 6.4.4.0+ | 6.5.0.0+ | Suite | 8, 11 | 6 septembre 2019 |
@@ -51,34 +55,35 @@ Le tableau suivant, dont le contenu est [disponible sur GitHub avec les détails
 
 Le tableau suivant répertorie les versions des composants contenus dans les versions des composants principaux.
 
-|  | Version 1.0.0 - 1.0.6 | Version 1.1.0 | Version 2.0.0 - 2.0.8 | Version 2.1.0 | Version 2.2.0 - 2.2.0 | Version 2.3.0 - 2.3.2 | Version 2.4.0 | Version 2.5.0 | Version 2.6.0 | Version 2.7.0+ |
-|---|---|---|---|---|---|---|---|---|---|---|
-| **[Page](components/page.md)** | v1 | v1 | v1, v2 | v1, v2 | v1, v2 | v1, v2 | v1, v2 | v1, v2 | v1, v2 | v1, v2 |
-| **[Titre](components/title.md)** | v1 | v1 | v1, v2 | v1, v2 | v1, v2 | v1, v2 | v1, v2 | v1, v2 | v1, v2 | v1, v2 |
-| **[Image](components/image.md)** | v1 | v1 | v1, v2 | v1, v2 | v1, v2 | v1, v2 | v1, v2 | v1, v2 | v1, v2 | v1, v2 |
-| **[Liste](components/list.md)** | v1 | v1 | v1, v2 | v1, v2 | v1, v2 | v1, v2 | v1, v2 | v1, v2 | v1, v2 | v1, v2 |
-| **[Chemin de navigation](components/breadcrumb.md)** | v1 | v1 | v1, v2 | v1, v2 | v1, v2 | v1, v2 | v1, v2 | v1, v2 | v1, v2 | v1, v2 |
-| **[Partage sur les réseaux sociaux](components/sharing.md)** | v1 | v1 | v1 | v1 | v1 | v1 | v1 | v1 | v1 | v1 |
-| **[Conteneur de formulaires](components/forms/form-container.md)** | v1 | v1 | v1, v2 | v1, v2 | v1, v2 | v1, v2 | v1, v2 | v1, v2 | v1, v2 | v1, v2 |
-| **[Texte du formulaire](components/forms/form-text.md)** | v1 | v1 | v1, v2 | v1, v2 | v1, v2 | v1, v2 | v1, v2 | v1, v2 | v1, v2 | v1, v2 |
-| **[Options du formulaire](components/forms/form-options.md)** | v1 | v1 | v1, v2 | v1, v2 | v1, v2 | v1, v2 | v1, v2 | v1, v2 | v1, v2 | v1, v2 |
-| **[Formulaire masqué](components/forms/form-hidden.md)** | v1 | v1 | v1, v2 | v1, v2 | v1, v2 | v1, v2 | v1, v2 | v1, v2 | v1, v2 | v1, v2 |
-| **[Bouton de formulaire](components/forms/form-button.md)** | v1 | v1 | v1, v2 | v1, v2 | v1, v2 | v1, v2 | v1, v2 | v1, v2 | v1, v2 | v1, v2 |
-| **[Fragment de contenu](components/content-fragment-component.md)** |  | Environnement de test | v1 | v1 | v1 | v1 | v1 | v1 | v1 | v1 |
-| **[Navigation](components/navigation.md)** |  |  | v1 | v1 | v1 | v1 | v1 | v1 | v1 | v1 |
-| **[Navigation par langue](components/language-navigation.md)** |  |  | v1 | v1 | v1 | v1 | v1 | v1 | v1 | v1 |
-| **[Recherche rapide](components/quick-search.md)** |  |  | v1 | v1 | v1 | v1 | v1 | v1 | v1 | v1 |
-| **[Teaser](components/teaser.md)** |  |  |  | v1 | v1 | v1 | v1 | v1 | v1 | v1 |
-| **[Onglets](components/tabs.md)** |  |  |  |  | v1 | v1 | v1 | v1 | v1 | v1 |
-| **[Carrousel](components/carousel.md)** |  |  |  |  | v1 | v1 | v1 | v1 | v1 | v1 |
-| **[Séparateur](components/separator.md)** |  |  |  |  |  | v1 | v1 | v1 | v1 | v1 |
-| **[Liste de fragments de contenu](components/content-fragment-list.md)** |  |  |  |  |  |  | v1 | v1 | v1 | v1 |
-| **[Accordéon](components/accordion.md)** |  |  |  |  |  |  |  | v1 | v1 | v1 |
-| **[Bouton](components/button.md)** |  |  |  |  |  |  |  | v1 | v1 | v1 |
-| **[Conteneur](components/container.md)** |  |  |  |  |  |  |  | v1 | v1 | v1 |
-| **[Téléchargement](components/download.md)** |  |  |  |  |  |  |  | v1 | v1 | v1 |
-| **[Fragment d’expérience](components/experience-fragment.md)** |  |  |  |  |  |  |  |  | v1 | v1 |
-| **[Incorporer](components/embed.md)** |  |  |  |  |  |  |  |  |  | v1 |
+|  | Version 1.0.0 - 1.0.6 | Version 1.1.0 | Version 2.0.0 - 2.0.8 | Version 2.1.0 | Version 2.2.0 - 2.2.0 | Version 2.3.0 - 2.3.2 | Version 2.4.0 | Version 2.5.0 | Version 2.6.0 | Version 2.7.0-2.8.0 | Version 2.9.0+ |
+|---|---|---|---|---|---|---|---|---|---|---|---|
+| **[Page](components/page.md)** | v1 | v1 | v1, v2 | v1, v2 | v1, v2 | v1, v2 | v1, v2 | v1, v2 | v1, v2 | v1, v2 | v1, v2 |
+| **[Titre](components/title.md)** | v1 | v1 | v1, v2 | v1, v2 | v1, v2 | v1, v2 | v1, v2 | v1, v2 | v1, v2 | v1, v2 | v1, v2 |
+| **[Image](components/image.md)** | v1 | v1 | v1, v2 | v1, v2 | v1, v2 | v1, v2 | v1, v2 | v1, v2 | v1, v2 | v1, v2 | v1, v2 |
+| **[Liste](components/list.md)** | v1 | v1 | v1, v2 | v1, v2 | v1, v2 | v1, v2 | v1, v2 | v1, v2 | v1, v2 | v1, v2 | v1, v2 |
+| **[Chemin de navigation](components/breadcrumb.md)** | v1 | v1 | v1, v2 | v1, v2 | v1, v2 | v1, v2 | v1, v2 | v1, v2 | v1, v2 | v1, v2 | v1, v2 |
+| **[Partage sur les réseaux sociaux](components/sharing.md)** | v1 | v1 | v1 | v1 | v1 | v1 | v1 | v1 | v1 | v1 | v1 |
+| **[Conteneur de formulaires](components/forms/form-container.md)** | v1 | v1 | v1, v2 | v1, v2 | v1, v2 | v1, v2 | v1, v2 | v1, v2 | v1, v2 | v1, v2 | v1, v2 |
+| **[Texte du formulaire](components/forms/form-text.md)** | v1 | v1 | v1, v2 | v1, v2 | v1, v2 | v1, v2 | v1, v2 | v1, v2 | v1, v2 | v1, v2 | v1, v2 |
+| **[Options du formulaire](components/forms/form-options.md)** | v1 | v1 | v1, v2 | v1, v2 | v1, v2 | v1, v2 | v1, v2 | v1, v2 | v1, v2 | v1, v2 | v1, v2 |
+| **[Formulaire masqué](components/forms/form-hidden.md)** | v1 | v1 | v1, v2 | v1, v2 | v1, v2 | v1, v2 | v1, v2 | v1, v2 | v1, v2 | v1, v2 | v1, v2 |
+| **[Bouton de formulaire](components/forms/form-button.md)** | v1 | v1 | v1, v2 | v1, v2 | v1, v2 | v1, v2 | v1, v2 | v1, v2 | v1, v2 | v1, v2 | v1, v2 |
+| **[Fragment de contenu](components/content-fragment-component.md)** |  | Environnement de test | v1 | v1 | v1 | v1 | v1 | v1 | v1 | v1, v2 | v1, v2 |
+| **[Navigation](components/navigation.md)** |  |  | v1 | v1 | v1 | v1 | v1 | v1 | v1 | v1 | v1 |
+| **[Navigation par langue](components/language-navigation.md)** |  |  | v1 | v1 | v1 | v1 | v1 | v1 | v1 | v1 | v1 |
+| **[Recherche rapide](components/quick-search.md)** |  |  | v1 | v1 | v1 | v1 | v1 | v1 | v1 | v1 | v1 |
+| **[Teaser](components/teaser.md)** |  |  |  | v1 | v1 | v1 | v1 | v1 | v1 | v1 | v1 |
+| **[Onglets](components/tabs.md)** |  |  |  |  | v1 | v1 | v1 | v1 | v1 | v1 | v1 |
+| **[Carrousel](components/carousel.md)** |  |  |  |  | v1 | v1 | v1 | v1 | v1 | v1 | v1 |
+| **[Séparateur](components/separator.md)** |  |  |  |  |  | v1 | v1 | v1 | v1 | v1 | v1 |
+| **[Liste de fragments de contenu](components/content-fragment-list.md)** |  |  |  |  |  |  | v1 | v1 | v1 | v1 | v1 |
+| **[Accordéon](components/accordion.md)** |  |  |  |  |  |  |  | v1 | v1 | v1 | v1 |
+| **[Bouton](components/button.md)** |  |  |  |  |  |  |  | v1 | v1 | v1 | v1 |
+| **[Conteneur](components/container.md)** |  |  |  |  |  |  |  | v1 | v1 | v1 | v1 |
+| **[Téléchargement](components/download.md)** |  |  |  |  |  |  |  | v1 | v1 | v1 | v1 |
+| **[Fragment d’expérience](components/experience-fragment.md)** |  |  |  |  |  |  |  |  | v1 | v1 | v1 |
+| **[Incorporer](components/embed.md)** |  |  |  |  |  |  |  |  |  | v1 | v1 |
+| **[Barre de progression](components/progress-bar.md)** |  |  |  |  |  |  |  |  |  |  | v1 |
 
 ## Versions et mises à jour {#versions-and-releases}
 
