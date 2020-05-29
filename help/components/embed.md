@@ -1,8 +1,11 @@
 ---
 title: Composant Incorporer
 description: Le composant Incorporer permet d’incorporer du contenu externe dans une page de contenu AEM.
-translation-type: ht
-source-git-commit: 93a7ba6b8a972d111fb723cb40b0380cea9b5a9a
+translation-type: tm+mt
+source-git-commit: c186e9ec3944d785ab0376769cf7f2307049a809
+workflow-type: tm+mt
+source-wordcount: '944'
+ht-degree: 88%
 
 ---
 
@@ -24,9 +27,9 @@ La version actuelle du composant Incorporer est v1, qui a été introduite avec 
 
 Le tableau ci-après présente en détail toutes les versions prises en charge du composant, les versions AEM avec lesquelles les versions du composant sont compatibles et les liens vers la documentation pour les versions précédentes.
 
-| Version du composant | AEM 6.3 | AEM 6.4 | AEM 6.5 | AEM as a Cloud Service |
-|--- |--- |--- |---|---|
-| v1 | Compatible | Compatible | Compatible | Compatible |
+| Version du composant | AEM 6.4 | AEM 6.5 | AEM as a Cloud Service |
+|--- |--- |---|---|
+| v1 | Compatible | Compatible | Compatible |
 
 Pour plus d’informations sur les versions et les publications des composants principaux, voir le document sur les [versions des composants principaux](/help/versions.md).
 
@@ -48,6 +51,12 @@ La boîte de dialogue de configuration permet à l’auteur de contenu de défin
 * [Élément intégrable](#embeddable)
 * [HTML](#html)
 
+Pour chaque type d’intégration, vous pouvez définir un **identifiant** publicitaire. Cette option permet de contrôler l&#39;identifiant unique du composant dans le code HTML et dans la couche [de](/help/developing/data-layer/overview.md)données.
+
+* Si rien n’est indiqué, un identifiant unique est automatiquement généré et peut être trouvé en examinant la page qui en résulte.
+* Si un ID est spécifié, il incombe à l’auteur de s’assurer qu’il est unique.
+* La modification de l’ID peut avoir un impact sur le suivi CSS, JS et de couche de données.
+
 ### URL {#url}
 
 L’incorporation la plus simple se fait par le biais d’une URL. Il vous suffit de coller l’URL de la ressource à incorporer dans le champ **URL**. Le composant tente d’accéder à la ressource. Si le rendu peut être effectué par l’un des processeurs, il affiche un message de confirmation sous le champ **URL**. Si ce n’est pas le cas, le champ sera indiqué comme étant dans un état d’erreur.
@@ -59,7 +68,7 @@ Le composant Incorporer est fourni avec des processeurs pour les types de ressou
 
 Les développeurs peuvent ajouter d’autres processeurs d’URL en [consultant la documentation sur le composant Incorporer destinée aux développeurs.](https://github.com/adobe/aem-core-wcm-components/tree/master/content/src/content/jcr_root/apps/core/wcm/components/embed/v1/embed#extending-the-embed-component)
 
-![](/help/assets/screen-shot-2019-09-25-10.08.29.png)
+![Boîte de dialogue de modification du composant incorporé pour l’URL](/help/assets/embed-url.png)
 
 ### Élément intégrable {#embeddable}
 
@@ -73,7 +82,7 @@ Le champ **Élément intégrable** définit le type de processeur que vous souha
 
 D’autres éléments intégrables proposent des champs similaires et peuvent être définis par un développeur en [consultant la documentation sur le composant Incorporer destinée aux développeurs.](https://github.com/adobe/aem-core-wcm-components/tree/master/content/src/content/jcr_root/apps/core/wcm/components/embed/v1/embed#extending-the-embed-component)
 
-![](/help/assets/screen-shot-2019-09-25-10.15.00.png)
+![Boîte de dialogue de modification du composant incorporé pour les éléments incorporés](/help/assets/embed-embeddable.png)
 
 >[!NOTE]
 >Pour être accessibles à l’auteur de la page, les éléments intégrables doivent être activés au niveau du modèle au moyen de la [boîte de dialogue de conception](#design-dialog).
@@ -82,7 +91,7 @@ D’autres éléments intégrables proposent des champs similaires et peuvent ê
 
 Vous pouvez ajouter du code HTML de forme libre à votre page à l’aide du composant Incorporer.
 
-![](/help/assets/screen-shot-2019-09-25-10.20.00.png)
+![Boîte de dialogue de modification du composant incorporé pour HTML](/help/assets/embed-html.png)
 
 >[!NOTE]
 >Les balises non sécurisées, telles que les scripts, sont filtrées à partir du code HTML entré et ne sont pas affichées sur la page obtenue.
@@ -104,7 +113,7 @@ Vous trouverez des informations de sécurité supplémentaires dans la [document
 
 La boîte de dialogue de conception permet à l’auteur du modèle de définir les options disponibles pour l’auteur du contenu qui utilise le composant Incorporer et les valeurs par défaut définies lors du placement de celui-ci.
 
-![](/help/assets/screen-shot-2019-09-25-10.25.28.png)
+![Boîte de dialogue de conception du composant incorporé](/help/assets/embed-design.png)
 
 * **URL de désactivation** : lorsque cette option est sélectionnée, elle désactive l’option **URL** pour l’auteur de contenu.
 * **Désactiver les éléments intégrables** : lorsque cette option est sélectionnée, elle désactive l’option **Élément intégrable** pour l’auteur de contenu, quels que soient les processeurs intégrables autorisés.
