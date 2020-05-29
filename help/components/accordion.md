@@ -1,8 +1,11 @@
 ---
 title: Composant d’accordéon
 description: Le composant d’accordéon des composants principaux permet la création d’un ensemble de panneaux organisés dans un accordéon sur une page.
-translation-type: ht
-source-git-commit: fe8a121520000ffd56ae3347469590e89121eaf0
+translation-type: tm+mt
+source-git-commit: c186e9ec3944d785ab0376769cf7f2307049a809
+workflow-type: tm+mt
+source-wordcount: '1051'
+ht-degree: 79%
 
 ---
 
@@ -19,15 +22,29 @@ Le composant d’accordéon des composants principaux permet la création d’un
 * L’ordre des panneaux de l’accordéon peut être défini dans la boîte de dialogue de configuration, ainsi que dans la [fenêtre contextuelle de sélection d’un panneau](#select-panel-popover).
 * Les valeurs par défaut du composant d’accordéon lors de son ajout à une page peuvent être définies dans la [boîte de dialogue de conception](#design-dialog).
 
+## Liaison en profondeur à un panneau {#deep-linking}
+
+Les composants [Accordéon et](tabs.md) Onglets prennent en charge la liaison directe à un panneau dans le composant.
+
+Pour ce faire :
+
+1. Vue de la page avec le composant à l’aide de l’option **[Vue en tant que publication](https://docs.adobe.com/content/help/en/experience-manager-65/authoring/authoring/editing-content.html#view-as-published)**dans l’éditeur de page.
+1. Examinez le contenu de la page et identifiez l’identifiant du panneau.
+   * Par exemple `id="accordion-86196c94d3-item-ca319dbb0b"`
+1. L’identifiant devient l’ancre que vous pouvez ajouter à l’URL à l’aide d’un hachage (`#`).
+   * Par exemple `https://wknd.site/content/wknd/language-masters/en/magazine/western-australia.html#accordion-86196c94d3-item-ca319dbb0b`
+
+En accédant à l’URL avec l’identifiant de panneau comme ancre, le navigateur fait défiler directement le composant et affiche le panneau spécifié. Si le panneau est configuré pour ne pas être développé par défaut, il sera développé automatiquement.
+
 ## Version et compatibilité {#version-and-compatibility}
 
 La version actuelle du composant d’accordéon est v1, qui a été introduite avec la version 2.5.0 des composants principaux en février 2019. Elle est décrite dans ce document.
 
 Le tableau ci-après présente en détail toutes les versions prises en charge du composant, les versions AEM avec lesquelles les versions du composant sont compatibles et les liens vers la documentation pour les versions précédentes.
 
-| Version du composant | AEM 6.3 | AEM 6.4 | AEM 6.5 | AEM as a Cloud Service |
-|--- |--- |--- |---|---|
-| v1 | Compatible | Compatible | Compatible | Compatible |
+| Version du composant | AEM 6.4 | AEM 6.5 | AEM as a Cloud Service |
+|--- |--- |---|---|
+| v1 | Compatible | Compatible | Compatible |
 
 Pour plus d’informations sur les versions et les publications des composants principaux, voir le document sur les [versions des composants principaux](/help/versions.md).
 
@@ -47,7 +64,7 @@ La boîte de dialogue de configuration permet à l’auteur de contenu de défin
 
 ### Onglet Éléments {#items-tab}
 
-![](/help/assets/screen-shot-2019-06-21-08.26.38.png)
+![Onglet Éléments de la boîte de dialogue de modification du composant d&#39;accordéon](/help/assets/accordion-edit-items.png)
 
 Utilisez le bouton **Ajouter** pour ouvrir le sélecteur de composants afin de choisir le composant à ajouter sous forme de panneau. Une fois le composant ajouté, une entrée est ajoutée à la liste qui contient les colonnes suivantes :
 
@@ -62,22 +79,26 @@ Utilisez le bouton **Ajouter** pour ouvrir le sélecteur de composants afin de c
 
 ### Onglet Propriétés {#properties-tab}
 
-![](/help/assets/screen-shot-2019-06-21-08.26.53.png)
+![Onglet Propriétés de la boîte de dialogue Modifier du composant Accordéon](/help/assets/accordion-edit-properties.png)
 
 * **Développement d’un élément unique** : lorsqu’elle est sélectionnée, cette option force le développement d’un seul élément d’accordéon à la fois. Le développement d’un élément réduit alors tous les autres.
 * **Éléments développés** : cette option définit les éléments qui sont développés par défaut lorsque la page est chargée.
    * Lorsque l’option **Développement d’un élément unique** est sélectionnée, un panneau doit être sélectionné. Par défaut, il s’agit du premier panneau.
    * Lorsque l’option **Développement d’un élément unique** n’est pas sélectionnée, cette option propose une sélection multiple et est facultative.
+* **ID** : cette option permet de contrôler l&#39;identifiant unique du composant dans le code HTML et dans la couche [de](/help/developing/data-layer/overview.md)données.
+   * Si rien n’est indiqué, un identifiant unique est automatiquement généré et peut être trouvé en examinant la page qui en résulte.
+   * Si un ID est spécifié, il incombe à l’auteur de s’assurer qu’il est unique.
+   * La modification de l’ID peut avoir un impact sur le suivi CSS, JS et de couche de données.
 
 ## Fenêtre contextuelle Sélectionner un panneau {#select-panel-popover}
 
 L’auteur du contenu peut utiliser l’option **Sélectionner un panneau** de la barre d’outils du composant pour choisir un panneau différent pour l’édition, ainsi que pour réorganiser l’ordre des panneaux au sein de l’accordéon.
 
-![](/help/assets/screen-shot-2019-06-21-08.49.36.png)
+![Icône Sélectionner le panneau](/help/assets/select-panel-icon.png)
 
 Lorsque vous sélectionnez l’option **Sélectionner un panneau** dans la barre d’outils des composants, les panneaux d’accordéon configurés s’affichent sous forme de liste déroulante.
 
-![](/help/assets/screen-shot-2019-06-21-08.52.14.png)
+![Sélection du panneau contextuel](/help/assets/select-panel-popover.png)
 
 * La liste est triée selon la disposition assignée des panneaux et est répercutée dans la numérotation.
 * Le type de composant du panneau est affiché en premier, suivi de la description du panneau en police plus claire.
@@ -90,7 +111,7 @@ La boîte de dialogue de conception permet à l’auteur du modèle de définir 
 
 ### Onglet Propriétés {#properties-tab-design}
 
-![](/help/assets/screen-shot-2019-06-21-08.58.11.png)
+![Onglet Propriétés de la boîte de dialogue de conception](/help/assets/accordion-design-properties.png)
 
 * **Éléments d’en-tête autorisés** : cette liste déroulante à sélection multiple définit les éléments HTML d’en-tête de l’élément d’accordéon qui sont autorisés à être sélectionnés par un auteur.
 * **Élément d’en-tête par défaut** : cette liste déroulante définit l’élément HTML d’en-tête de l’élément d’accordéon par défaut.
