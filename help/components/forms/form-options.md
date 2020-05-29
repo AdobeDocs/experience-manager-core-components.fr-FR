@@ -1,8 +1,11 @@
 ---
 title: Composant des options de formulaire
 description: Le composant des options de formulaire des composants principaux permet la sélection d’options prédéfinies dans divers formats.
-translation-type: ht
-source-git-commit: 95c0621f5423bfa515fe5e8b693e127ea56b4ae0
+translation-type: tm+mt
+source-git-commit: c186e9ec3944d785ab0376769cf7f2307049a809
+workflow-type: tm+mt
+source-wordcount: '547'
+ht-degree: 81%
 
 ---
 
@@ -25,7 +28,7 @@ Le tableau ci-après présente en détail toutes les versions prises en charge d
 
 | Version du composant | AEM 6.3 | AEM 6.4 | AEM 6.5 | AEM as a Cloud Service |
 |--- |--- |--- |--- |---|
-| v2 | Compatible | Compatible | Compatible | Compatible |
+| v2 | - | Compatible | Compatible | Compatible |
 | [v1](/help/components/v1/form-options-v1.md) | Compatible | Compatible | Compatible | - |
 
 Pour plus d’informations sur les versions et les publications des composants principaux, voir le document sur les [versions des composants principaux](/help/versions.md).
@@ -44,41 +47,32 @@ Vous trouverez plus d’informations sur le développement des composants princi
 
 La boîte de dialogue de configuration permet à l’auteur de contenu de définir le type d’options qui doit être présenté, les étiquettes et les options disponibles.
 
-![](/help/assets/screen_shot_2018-01-12at113153.png)
+![Boîte de dialogue de modification du composant Options de formulaire](/help/assets/form-options-edit.png)
 
 * **Types** : présentation des options.
    * **Cases à cocher**
    * **Boutons radio**
    * **Liste déroulante**
    * **Liste déroulante à sélection multiple**
-* **Titre**
-Titre affiché comme libellé pour les options.
-* **Nom**
-Nom du champ qui est envoyé avec les données de formulaire.
-* **Source**
-Emplacement de définition des options.
-   * **Local**
-Défini dans le composant.
+* **Titre** : titre qui s’affiche comme libellé pour les options.
+* **Nom** : nom du champ qui est envoyé avec les données de formulaire.
+* **Source** : emplacement de définition des options.
+   * **Local** : défini dans le composant.
       * Appuyez ou cliquez sur le bouton **Ajouter** pour ajouter une valeur. Sinon, appuyez ou cliquez sur **Supprimer** pour supprimer une valeur.
-      * **Valeur**
-Valeur enregistrée lorsque cette option est sélectionnée lors de l’envoi du formulaire.
-      * **Texte**
-Libellé de l’option affichée sur le formulaire.
-      * **Active**
-L’option est marquée comme étant sélectionnée lors du chargement du formulaire.
-      * **Désactivé**
-L’option n’est pas sélectionnable mais elle est toujours affichée.
-      * **Liste**
-Liste statique définie ailleurs dans AEM est utilisée pour les options.
-         * **Liste**
-Chemin d’accès à la liste statique dans AEM.
-            * Utilisez le bouton Parcourir pour localiser la ressource de liste.
-      * **Source des données**
-Une source de données est utilisée pour les options.
-         * **Source des données**
-Type de ressource de la source de données.
-* **Message d’aide**
-Conseil à l’intention de l’utilisateur sur ce qui peut être entré dans le champ.
+         * **Valeur** : valeur enregistrée lorsque cette option est sélectionnée lors de l’envoi du formulaire.
+         * **Texte** : libellé de l’option affichée sur le formulaire.
+         * **Active** : l’option est marquée comme étant sélectionnée lors du chargement du formulaire.
+         * **Désactivé** : l’option n’est pas sélectionnable mais toujours affichée.
+   * **Liste** : une liste statique définie ailleurs dans AEM est utilisée pour les options.
+      * **Liste** : chemin d’accès à la liste statique dans AEM.
+         * Utilisez le bouton Parcourir pour localiser la ressource de liste.
+   * **Source de données** : une source de données est utilisée pour les options.
+      * **Source** de données - Type de ressource de la source de données
+* **Message d’aide** : conseil à l’intention de l’utilisateur sur ce qui peut être entré dans le champ.
+* **ID** : cette option permet de contrôler l&#39;identifiant unique du composant dans le code HTML et dans la couche [de](/help/developing/data-layer/overview.md)données.
+   * Si rien n’est indiqué, un identifiant unique est automatiquement généré et peut être trouvé en examinant la page qui en résulte.
+   * Si un ID est spécifié, il incombe à l’auteur de s’assurer qu’il est unique.
+   * La modification de l’ID peut avoir un impact sur le suivi CSS, JS et de couche de données.
 
 ## Boîte de dialogue de conception {#design-dialog}
 
