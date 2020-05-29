@@ -1,8 +1,11 @@
 ---
 title: Composant Navigation
 description: Le composant Navigation permet aux utilisateurs de parcourir facilement une structure de site globalisée.
-translation-type: ht
-source-git-commit: 93a7ba6b8a972d111fb723cb40b0380cea9b5a9a
+translation-type: tm+mt
+source-git-commit: c186e9ec3944d785ab0376769cf7f2307049a809
+workflow-type: tm+mt
+source-wordcount: '1369'
+ht-degree: 89%
 
 ---
 
@@ -32,7 +35,7 @@ Imaginons que votre contenu ressemble à ceci :
 
 ```
 /content
-+-- we-retail
++-- wknd
    +-- language-masters
       +-- de
          \-- experience
@@ -58,13 +61,13 @@ Imaginons que votre contenu ressemble à ceci :
 \-- wknd-shop
 ```
 
-Pour le site We.Retail, il est probable que vous souhaitiez placer le composant de navigation sur un modèle de page dans le cadre de l’en-tête. Une fois qu’il fait partie du modèle, vous pouvez définir la **racine de navigation** du composant sur `/content/we-retail/language-masters/en` puisque c’est là où commence le contenu principal de ce site. Il peut également être judicieux de définir **la profondeur de la structure de navigation** sur `2` puisque vous ne souhaitez probablement pas que l’intégralité de l’arborescence de contenu soit affichée par le composant, mais plutôt les deux premiers niveaux afin de servir d’aperçu.
+Pour le site We.Retail, il est probable que vous souhaitiez placer le composant de navigation sur un modèle de page dans le cadre de l’en-tête. Une fois qu’il fait partie du modèle, vous pouvez définir la **racine de navigation** du composant sur `/content/wknd/language-masters/en` puisque c’est là où commence le contenu principal de ce site. Il peut également être judicieux de définir **la profondeur de la structure de navigation** sur `2` puisque vous ne souhaitez probablement pas que l’intégralité de l’arborescence de contenu soit affichée par le composant, mais plutôt les deux premiers niveaux afin de servir d’aperçu.
 
-Avec **la valeur racine de navigation**, le composant de navigation sait que la `/content/we-retail/language-masters/en`navigation démarre et qu’elle peut générer des options de navigation en effectuant une récurrence de la structure du site deux niveaux vers le bas (comme défini par la valeur de **profondeur de la structure de navigation**).
+Avec **la valeur racine de navigation**, le composant de navigation sait que la `/content/wknd/language-masters/en`navigation démarre et qu’elle peut générer des options de navigation en effectuant une récurrence de la structure du site deux niveaux vers le bas (comme défini par la valeur de **profondeur de la structure de navigation**).
 
 Quelle que soit la page localisée consultée par un utilisateur, le composant de navigation par langue est capable de trouver la page localisée correspondante en connaissant l’emplacement de la page actuelle et en remontant à la racine, puis en revenant à la page correspondante.
 
-Ainsi, si un visiteur consulte `/content/ch/de/experience/arctic-surfing-in-lofoten`, le composant sait comment générer la structure de navigation sur la base de `/content/we-retail/language-masters/de`. De même, si le visiteur consulte `/content/us/en/experience/arctic-surfing-in-lofoten`, le composant sait comment générer la structure de navigation en fonction de `/content/we-retail/language-masters/en`.
+Ainsi, si un visiteur consulte `/content/ch/de/experience/arctic-surfing-in-lofoten`, le composant sait comment générer la structure de navigation sur la base de `/content/wknd/language-masters/de`. De même, si le visiteur consulte `/content/us/en/experience/arctic-surfing-in-lofoten`, le composant sait comment générer la structure de navigation en fonction de `/content/wknd/language-masters/en`.
 
 ## Prise en charge de la structure de site fantôme {#shadow-structure}
 
@@ -91,9 +94,9 @@ La version actuelle du composant de navigation est v1, qui a été introduite av
 
 Le tableau ci-après présente en détail toutes les versions prises en charge du composant, les versions AEM avec lesquelles les versions du composant sont compatibles et les liens vers la documentation pour les versions précédentes.
 
-| Version du composant | AEM 6.3 | AEM 6.4 | AEM 6.5 | AEM as a Cloud Service |
-|--- |--- |--- |--- |---|
-| v1 | Compatible | Compatible | Compatible | Compatible |
+| Version du composant | AEM 6.4 | AEM 6.5 | AEM as a Cloud Service |
+|--- |--- |--- |---|
+| v1 | Compatible | Compatible | Compatible |
 
 Pour plus d’informations sur les versions et les publications des composants principaux, voir le document sur les [versions des composants principaux](/help/versions.md).
 
@@ -117,7 +120,7 @@ Dans la boîte de dialogue de modification, l’auteur du contenu peut définir 
 
 ### Onglet Propriétés {#properties-tab}
 
-![](/help/assets/screen-shot-2019-12-04at12.50.51.png)
+![Onglet Modifier les propriétés de la boîte de dialogue du composant de navigation](/help/assets/navigation-edit-properties.png)
 
 * **Racine de navigation** : page racine qui sera utilisée pour générer l’arborescence de navigation.
 * **Exclure les niveaux racine** : il arrive souvent que la racine ne doive pas être incluse dans la navigation. Cette option vous permet de spécifier le nombre de niveaux que vous souhaitez exclure à partir de la racine. Par exemple :
@@ -127,10 +130,15 @@ Dans la boîte de dialogue de modification, l’auteur du contenu peut définir 
    * etc.
 * **Collecter toutes les pages enfants** : collecte toutes les pages qui sont des descendants de la racine de navigation.
 * **Profondeur de la structure de navigation** : définit le nombre de niveaux vers le bas de l’arborescence de navigation que le composant doit afficher par rapport à la racine de navigation (disponible uniquement si **Collecter toutes les pages enfants** n’est pas sélectionné).
+* **Désactiver l&#39;ombrage** : si la page de la hiérarchie est une redirection, le nom de la page de redirection s&#39;affiche à la place de la cible. Pour plus d&#39;informations, consultez la Prise en charge [de la structure du site](#shadow-structure) fantôme.
+* **ID** : cette option permet de contrôler l&#39;identifiant unique du composant dans le code HTML et dans la couche [de](/help/developing/data-layer/overview.md)données.
+   * Si rien n’est indiqué, un identifiant unique est automatiquement généré et peut être trouvé en examinant la page qui en résulte.
+   * Si un ID est spécifié, il incombe à l’auteur de s’assurer qu’il est unique.
+   * La modification de l’ID peut avoir un impact sur le suivi CSS, JS et de couche de données.
 
 ### Onglet Accessibilité {#accessibility-tab}
 
-![](/help/assets/screen-shot-2019-08-29-12.23.53.png)
+![Onglet d’accessibilité de la boîte de dialogue de modification du composant de navigation](/help/assets/navigation-edit-accessibility.png)
 
 Dans l’onglet **Accessibilité**, les valeurs peuvent être définies pour les libellés d’[accessibilité ARIA](https://www.w3.org/WAI/standards-guidelines/aria/) du composant.
 
@@ -142,7 +150,7 @@ La boîte de dialogue de conception permet à l’auteur du modèle de définir 
 
 ### Onglet Propriétés {#properties-tab-design}
 
-![](/help/assets/screen-shot-2019-12-04at12.53.32.png)
+![Boîte de dialogue de conception du composant de navigation](/help/assets/navigation-design.png)
 
 * **Racine de navigation** : valeur par défaut de la page racine de la structure de navigation, qui sera utilisée pour générer l’arborescence de navigation. La valeur par défaut est définie lorsque l’auteur du contenu ajoute le composant à la page.
 * **Exclure les niveaux racine** : il arrive souvent que la racine ne doive pas être incluse dans la navigation. Cette option vous permet de spécifier la valeur par défaut du nombre de niveaux que vous souhaitez exclure à partir de la racine. Par exemple :
@@ -152,6 +160,7 @@ La boîte de dialogue de conception permet à l’auteur du modèle de définir 
    * etc.
 * **Collecter toutes les pages enfants** : valeur par défaut de la collecte de toutes les pages qui sont des descendants de la racine de navigation.
 * **Profondeur de la structure de navigation** : valeur par défaut de la profondeur de la structure de navigation.
+* **Désactiver l&#39;ombrage** : valeur par défaut de si l&#39;ombrage doit être désactivé lors de l&#39;ajout d&#39;un composant de navigation
 
 ### Onglet Styles {#styles-tab}
 
