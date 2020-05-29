@@ -1,8 +1,11 @@
 ---
 title: Module ui.apps de l’archétype de projet AEM
 description: Module ui.apps de l’archétype de projet AEM
-translation-type: ht
-source-git-commit: 93a7ba6b8a972d111fb723cb40b0380cea9b5a9a
+translation-type: tm+mt
+source-git-commit: 6f7166c46940ed451721e0760d565d58efe412ab
+workflow-type: tm+mt
+source-wordcount: '335'
+ht-degree: 100%
 
 ---
 
@@ -15,7 +18,7 @@ Le plug-in Apache Jackrabbit FileVault Package est utilisé pour compiler le con
 
 ## Fichier POM parent {#parent-pom}
 
-[Le fichier POM parent](overview.md#parent-pom) (`<src>/<project>/pom.xml`) comprend des sections `<plugin>` qui définissent différentes configurations pour les plug-ins utilisés dans le projet. Il comprend la configuration pour le `filterSource` du plug-in Jackrabbit FileVault Package. Le `filterSource` pointe vers l’emplacement du fichier `filter.xml` utilisé pour définir les chemins d’accès jcr inclus dans le package.
+[Le fichier POM parent](/help/developing/archetype/using.md#parent-pom) (`<src>/<project>/pom.xml`) comprend des sections `<plugin>` qui définissent différentes configurations pour les plug-ins utilisés dans le projet. Il comprend la configuration pour le `filterSource` du plug-in Jackrabbit FileVault Package. Le `filterSource` pointe vers l’emplacement du fichier `filter.xml` utilisé pour définir les chemins d’accès jcr inclus dans le package.
 
 Outre le plug-in Jackrabbit FileVault Package, il existe une définition du plug-in Content Package utilisée pour envoyer le package dans AEM. Notez que les variables de `aem.host`, `aem.port`, `vault.user` et `vault.password` qui sont utilisées correspondent aux propriétés globales définies dans le même fichier POM parent.
 
@@ -25,7 +28,7 @@ Le fichier POM ui.apps (`<src>/<project>/ui.apps/pom.xml`) fournit les balises `
 
 Notez que les packages core.wcm.components.all et core.wcm.components.examples sont inclus en tant que sous-package. Celui-ci déploie à chaque fois le package de composants principaux avec le code WKND.
 
-Les packages core.wcm.components.all et core.wcm.components.examples sont inclus en tant que dépendances dans la liste des dépendances. Toutefois, les bonnes pratiques demandent que les versions des dépendances soient ici ignorées et gérées dans le [fichier POM parent](overview.md#core-components).
+Les packages core.wcm.components.all et core.wcm.components.examples sont inclus en tant que dépendances dans la liste des dépendances. Toutefois, les bonnes pratiques demandent que les versions des dépendances soient ici ignorées et gérées dans le [fichier POM parent](/help/developing/archetype/using.md#core-components).
 
 ## filter.xml {#filter}
 
