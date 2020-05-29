@@ -1,8 +1,11 @@
 ---
 title: Composant de fragment de contenu
 description: Le composant de fragment de contenu des composants principaux permet l’affichage d’un fragment de contenu.
-translation-type: ht
-source-git-commit: 93a7ba6b8a972d111fb723cb40b0380cea9b5a9a
+translation-type: tm+mt
+source-git-commit: c186e9ec3944d785ab0376769cf7f2307049a809
+workflow-type: tm+mt
+source-wordcount: '659'
+ht-degree: 78%
 
 ---
 
@@ -29,9 +32,9 @@ La version actuelle du composant de fragment de contenu est v1, qui a été intr
 
 Le tableau ci-après présente en détail toutes les versions prises en charge du composant, les versions AEM avec lesquelles les versions du composant sont compatibles et les liens vers la documentation pour les versions précédentes.
 
-| Version du composant | AEM 6.3 | AEM 6.4 | AEM 6.5 | AEM as a Cloud Service |
-|--- |--- |--- |---|---|
-| v1 | Compatible | Compatible | Compatible | Compatible |
+| Version du composant | AEM 6.4 | AEM 6.5 | AEM as a Cloud Service |
+|--- |--- |---|---|
+| v1 | Compatible | Compatible | Compatible |
 
 >[!NOTE]
 >
@@ -61,14 +64,19 @@ Vous trouverez plus d’informations sur le développement des composants princi
 
 La boîte de dialogue de configuration permet à l’auteur de contenu de définir le fragment de contenu et les éléments de ce fragment à inclure.
 
-![](/help/assets/chlimage_1-87.png)
+### Onglet Propriétés {#properties-tab}
+
+![Composant de fragment de contenu](/help/assets/content-fragment-edit-properties.png)
 
 * **Fragment de contenu**
 
    * Chemin d’accès au fragment de contenu souhaité
    * Vous pouvez utiliser la **boîte de dialogue de sélection** pour localiser le fragment.
 
-* **Élément** : élément du fragment de contenu à inclure.
+* **Mode d’affichage**
+   * **Elément** de texte unique : active la sélection d&#39;un élément de texte multiligne et active les options de contrôle des paragraphes.
+   * **Éléments** multiples : permet la sélection d’un ou de plusieurs éléments du fragment de contenu sélectionné.
+* **Elément** - Elément ou éléments du fragment de contenu à inclure
 * **Variation** : variante du fragment de contenu à utiliser (par défaut, **Gabarit**).
 
 * **Paragraphes**
@@ -78,18 +86,25 @@ La boîte de dialogue de configuration permet à l’auteur de contenu de défin
 
       * Spécifiez les plages de paragraphes à afficher, séparées par un point-virgule.
       * Par exemple, `1;3-5;7;9-*` pour inclure les paragraphes 1, 3 à 5, 7 et 9 aux paragraphes finaux.
+* **ID** : cette option permet de contrôler l&#39;identifiant unique du composant dans le code HTML et dans la couche [de](/help/developing/data-layer/overview.md)données.
+   * Si rien n’est indiqué, un identifiant unique est automatiquement généré et peut être trouvé en examinant la page qui en résulte.
+   * Si un ID est spécifié, il incombe à l’auteur de s’assurer qu’il est unique.
+   * La modification de l’ID peut avoir un impact sur le suivi CSS, JS et de couche de données.
 
+### Onglet de contrôle de paragraphe {#paragraph-control-tab}
+
+Cet onglet n’est pas disponible lorsque le mode **Plusieurs éléments** est sélectionné.
+
+![Composant de fragment de contenu](/help/assets/content-fragment-edit-paragraph.png)
+
+* **Paragraphes** - Autoriser la sélection de tous les paragraphes ou d&#39;une plage
 * **Gérer les en-têtes comme leurs propres paragraphes**
 
 ## Boîte de dialogue de conception {#design-dialog}
 
 La boîte de dialogue de conception permet à l’auteur du modèle de définir les types de ressources utilisés pour traiter les images de supports variés et les grilles adaptées.
 
-![](/help/assets/chlimage_1-88.png)
-
-* **Type d’image de supports variés**
-
-   * Type de ressource Sling utilisé pour le rendu des images de supports variés
+![Boîte de dialogue de conception du composant de fragment de contenu](/help/assets/content-fragment-design.png)
 
 * **Grille réactive interne**
 
