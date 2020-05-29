@@ -1,8 +1,11 @@
 ---
 title: Composant de chemin de navigation
 description: Le composant de chemin de navigation des composants principaux est un composant de navigation qui crée un chemin de navigation des liens en fonction de l’emplacement de la page dans la hiérarchie du contenu.
-translation-type: ht
-source-git-commit: 93a7ba6b8a972d111fb723cb40b0380cea9b5a9a
+translation-type: tm+mt
+source-git-commit: c186e9ec3944d785ab0376769cf7f2307049a809
+workflow-type: tm+mt
+source-wordcount: '713'
+ht-degree: 81%
 
 ---
 
@@ -25,7 +28,7 @@ Le tableau ci-après présente en détail toutes les versions prises en charge d
 
 | Version du composant | AEM 6.3 | AEM 6.4 | AEM 6.5 | AEM as a Cloud Service |
 |--- |--- |--- |--- |---|
-| v2 | Compatible | Compatible | Compatible | Compatible |
+| v2 | - | Compatible | Compatible | Compatible |
 | [v1](v1/breadcrumb-v1.md) | Compatible | Compatible | Compatible | - |
 
 Pour plus d’informations sur les versions et les publications des composants principaux, voir le document sur les [versions des composants principaux](/help/versions.md).
@@ -48,16 +51,21 @@ Vous trouverez plus d’informations sur le développement des composants princi
 
 La boîte de dialogue de modification permet à l’auteur de contenu de supprimer les pages masquées et actives dans les chemins de navigation ainsi que la profondeur de la hiérarchie qu’elle doit afficher.
 
-![](/help/assets/screen_shot_2018-01-12at124250.png)
+![Boîte de dialogue de modification du composant de chemin de navigation](/help/assets/breadcrumb-edit.png)
 
 * **Niveau de départ de la navigation** : à quel niveau dans la hiérarchie le composant de chemin de navigation doit commencer à descendre jusqu’à la page actuelle. Par exemple, dans We.Retail :
 
    * 0 commence à `/content`
-   * 1 commence à `/content/we-retail`
-   * 2 commence à `/content/we-retail/<country>`
+   * 1 commence à `/content/<yourSite>`
+   * 2 commence à `/content/<yourSite>/<country>`
 
 * **Afficher les éléments de navigation masqués** : affichez les pages marquées comme étant masquées dans le chemin de navigation (elles ne sont pas affichées par défaut).
 * **Masquer la page active** : supprimez la page actuelle dans le chemin de navigation (par défaut, elle s’affiche).
+* **Désactiver l&#39;ombrage** : si la page de la hiérarchie est une redirection, le nom de la page de redirection s&#39;affiche à la place de la cible. Pour plus d&#39;informations, consultez la Prise en charge [de la structure du site](navigation.md#shadow-structure) fantôme du composant Navigation.
+* **ID** : cette option permet de contrôler l&#39;identifiant unique du composant dans le code HTML et dans la couche [de](/help/developing/data-layer/overview.md)données.
+   * Si rien n’est indiqué, un identifiant unique est automatiquement généré et peut être trouvé en examinant la page qui en résulte.
+   * Si un ID est spécifié, il incombe à l’auteur de s’assurer qu’il est unique.
+   * La modification de l’ID peut avoir un impact sur le suivi CSS, JS et de couche de données.
 
 ## Boîte de dialogue de conception {#design-dialog}
 
@@ -65,7 +73,7 @@ La boîte de dialogue de conception permet à l’auteur du modèle de définir 
 
 ### Onglet principal {#main-tab}
 
-![](/help/assets/screen_shot_2018-01-12at124437.png)
+![](/help/assets/breadcrumb-design.png)
 
 * **Niveau de départ de la navigation** définit la valeur par défaut à partir de laquelle le composant de chemin de navigation doit commencer à se déplacer jusqu’à la page actuelle lorsqu’il est ajouté à une page.
 * **Afficher les éléments de navigation masqués** : définit la valeur par défaut de l’option **Afficher les éléments de navigation masqués** lorsque le composant de chemin de navigation est ajouté à une page.
@@ -75,6 +83,8 @@ La boîte de dialogue de conception permet à l’auteur du modèle de définir 
 * **Masquer la page active** : définit la valeur par défaut de l’option **Masquer la page active** lorsque le composant de chemin de navigation est ajouté à une page.
 
    * Cela n’active ou ne désactive pas l’option de l’auteur. Cela définit uniquement la valeur par défaut.
+
+* **Désactiver l&#39;ombrage** : définit la valeur par défaut de l&#39;option **Désactiver l&#39;ombrage** lorsque le composant de chemin de navigation est ajouté à une page.
 
 ### Onglet Styles {#styles-tab}
 
