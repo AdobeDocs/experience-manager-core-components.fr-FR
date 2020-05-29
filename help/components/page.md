@@ -1,8 +1,11 @@
 ---
 title: Composant de page
 description: Le composant de page est un composant de page extensible, conçu pour fonctionner avec l’éditeur de modèles et autoriser l’assemblage de composants d’en-tête/de pied de page et de structure à l’aide de l’éditeur de modèles.
-translation-type: ht
-source-git-commit: 93a7ba6b8a972d111fb723cb40b0380cea9b5a9a
+translation-type: tm+mt
+source-git-commit: c186e9ec3944d785ab0376769cf7f2307049a809
+workflow-type: tm+mt
+source-wordcount: '666'
+ht-degree: 89%
 
 ---
 
@@ -25,7 +28,7 @@ Le tableau ci-après présente en détail toutes les versions prises en charge d
 
 | Version du composant | AEM 6.3 | AEM 6.4 | AEM 6.5 | AEM as a Cloud Service |
 |---|---|---|---|---|
-| v2 | Compatible | Compatible | Compatible | Compatible |
+| v2 | - | Compatible | Compatible | Compatible |
 | [v1](v1/page-v1.md) | Compatible | Compatible | Compatible | - |
 
 Pour plus d’informations sur les versions et les publications des composants principaux, voir le document sur les [versions des composants principaux](/help/versions.md).
@@ -33,14 +36,6 @@ Pour plus d’informations sur les versions et les publications des composants p
 >[!NOTE]
 >
 >Pour activer la redirection au niveau `cq:Page` de la version 2 du composant Page et AEM 6.3, [le service pack 2](https://helpx.adobe.com/fr/experience-manager/6-2/release-notes/sp3-release-notes.html) ou une version ultérieure est requis. Cette redirection n’était pas disponible dans les versions précédentes.
-
-## Exemple de sortie de composant {#sample-component-output}
-
-Voici un exemple extrait de [We.Retail](https://docs.adobe.com/content/help/en/experience-manager-65/developing/bestpractices/we-retail/we-retail.html).
-
-### Capture d’écran {#screenshot}
-
-![](/help/assets/chlimage_1.png)
 
 ### Détails techniques {#technical-details}
 
@@ -56,7 +51,7 @@ Vous trouverez plus d’informations sur le développement des composants princi
 
 Étant donné que le composant représente la page entière, la boîte de dialogue de conception est accessible via **les informations de page -> Stratégie de page** lors de la modification du modèle de page.
 
-![](/help/assets/screen_shot_2018-04-03at113410.png)
+![Stratégie de page](/help/assets/page-policy.png)
 
 >[!NOTE]
 >
@@ -66,17 +61,16 @@ Vous trouverez plus d’informations sur le développement des composants princi
 
 À l’aide de la fenêtre Conception de page, vous pouvez définir les bibliothèques clientes à charger ainsi que la bibliothèque de ressources Web pour la page.
 
-* **Bibliothèques clientes**
-Cette option définit les catégories de bibliothèques clientes à charger. JavaScript est ajouté à la fin du corps et le CSS est ajouté à l’en-tête de la page.
-* **En-tête de page JavaScript des bibliothèques clientes**
-Ceci définit les catégories de bibliothèques clientes JavaScript à charger dans l’en-tête de la page.
+* **Bibliothèques** clientes : définit les catégories de bibliothèque cliente à charger. JavaScript est ajouté à la fin du corps et le CSS est ajouté à l’en-tête de la page.
+* **Bibliothèques clientes en-tête** de page JavaScript : définit les catégories de bibliothèque cliente JavaScript à charger dans l&#39;en-tête de page.
    * Les catégories définies ici et qui sont aussi présentes dans le champ **Bibliothèques clientes** ont le code JavaScript chargé dans l’en-tête de la page et non dans la fin du corps.
    * Aucun CSS ne sera chargé, sauf si la catégorie est également présente dans le champ **Bibliothèques clientes**.
 
-* **Bibliothèque de ressources web**
-Catégorie de bibliothèque cliente utilisée pour distribuer des ressources Web telles que des favicons.
+* **Bibliothèque** cliente des ressources Web - catégorie de bibliothèque cliente utilisée pour fournir des ressources Web telles que des faveurs.
 
-![](/help/assets/screenshot_2018-10-19at104949.png)
+* **Passer au sélecteur** d’éléments de contenu principal - Utilisé comme fonction d’accessibilité pour passer directement au contenu principal de la page.
+
+![Boîte de dialogue de conception de composant de page](/help/assets/page-design.png)
 
 Les bibliothèques peuvent être configurées pour les champs **Bibliothèques clientes** et **En-tête de page JavaScript des bibliothèques clientes** de la manière suivante :
 
