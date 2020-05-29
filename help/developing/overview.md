@@ -1,8 +1,11 @@
 ---
 title: Développement des composants principaux
 description: Les composants principaux fournissent des composants de base robustes et extensibles qui offrent de riches fonctionnalités, une diffusion en continu, un contrôle de version des composants, une mise en œuvre moderne, un balisage Lean et une exportation JSON de contenu.
-translation-type: ht
-source-git-commit: c338428a681f652d17bb972fb6a2abf216a338c3
+translation-type: tm+mt
+source-git-commit: 6f7166c46940ed451721e0760d565d58efe412ab
+workflow-type: tm+mt
+source-wordcount: '1425'
+ht-degree: 98%
 
 ---
 
@@ -16,10 +19,10 @@ Les composants principaux étant nouveaux et offrant plusieurs avantages, il est
 Par conséquent, Adobe donne les recommandations suivantes :
 
 * **Nouveaux projets**
-Les nouveaux projets doivent toujours tenter d’utiliser les composants principaux. Si les composants principaux ne peuvent pas être utilisés directement ou [étendus](customizing.md) pour répondre aux exigences du projet, créez un composant personnalisé d’après l’architecture du composant définie dans les composants principaux. Sauf si cela est impossible, évitez d’utiliser les [composants de base](#foundation-component-support).
+Les nouveaux projets doivent toujours tenter d’utiliser les composants principaux. Si les composants principaux ne peuvent pas être utilisés directement ou [étendus](customizing.md) pour répondre aux exigences du projet, créez un composant personnalisé d’après l’architecture du composant définie dans les composants principaux. Sauf si cela est impossible, évitez d’utiliser les [composants de base](/help/versions.md#foundation-component-support).
 * **Projets existants**
-Il est recommandé de continuer à utiliser les [composants de base](#foundation-component-support), à moins qu’une restructuration de sites ou de composants ne soit planifiée.\
-   Comme la plupart des projets existants les utilisent largement, les composants de base [continueront à être pris en charge](#foundation-component-support).
+Il est recommandé de continuer à utiliser les [composants de base](/help/versions.md#foundation-component-support), à moins qu’une restructuration de sites ou de composants ne soit planifiée.\
+   Comme la plupart des projets existants les utilisent largement, les composants de base [continueront à être pris en charge](/help/versions.md#foundation-component-support).
 * **Nouveaux composants personnalisés**
 Vous pouvez évaluer si un [composant principal existant peut être personnalisé](customizing.md).\
    Dans le cas contraire, vous devez créer un nouveau composant personnalisé suivant les [instructions des composants](guidelines.md).
@@ -115,6 +118,7 @@ Le tableau ci-après répertorie les composants principaux disponibles, les lien
 | [Téléchargement](https://adobe.com/go/aem_cmp_tech_download_v1) | Ajoute une ressource téléchargeable à une page | `-` |
 | [Fragment d’expérience](https://adobe.com/go/aem_cmp_tech_xf_v1) | Ajout d’un fragment d’expérience à une page | `/libs/cq/experience-fragments/editor/components/experiencefragment` |
 | [Incorporer](https://adobe.com/go/aem_cmp_tech_embed_v1) | Incorporation d’une ressource externe dans une page | - |
+| [Barre de progression](https://adobe.com/go/aem_cmp_tech_progress_v1) | Fournir une représentation visuelle des progrès accomplis vers un objectif | - |
 
 ### Composants à venir {#upcoming-components}
 
