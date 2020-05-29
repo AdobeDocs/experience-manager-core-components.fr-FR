@@ -1,8 +1,11 @@
 ---
 title: Composant Partage sur les réseaux sociaux
 description: Le composant Partage sur les réseaux sociaux des composants principaux est un widget permettant de partager des contenus sur Facebook et Pinterest.
-translation-type: ht
-source-git-commit: 93a7ba6b8a972d111fb723cb40b0380cea9b5a9a
+translation-type: tm+mt
+source-git-commit: c186e9ec3944d785ab0376769cf7f2307049a809
+workflow-type: tm+mt
+source-wordcount: '429'
+ht-degree: 77%
 
 ---
 
@@ -23,9 +26,9 @@ La version actuelle du composant Partage sur les réseaux sociaux est v1, qui a 
 
 Le tableau ci-après présente en détail toutes les versions prises en charge du composant et les versions AEM avec lesquelles les versions du composant sont compatibles.
 
-| Version du composant | AEM 6.3 | AEM 6.4 | AEM 6.5 | AEM as a Cloud Service |
-|--- |--- |--- |--- |---|
-| v1 | Compatible | Compatible | Compatible | Compatible |
+| Version du composant | AEM 6.4 | AEM 6.5 | AEM as a Cloud Service |
+|--- |--- |--- |---|
+| v1 | Compatible | Compatible | Compatible |
 
 Pour plus d’informations sur les versions et les publications des composants principaux, voir le document sur les [versions des composants principaux](/help/versions.md).
 
@@ -41,7 +44,14 @@ Vous trouverez plus d’informations sur le développement des composants princi
 
 ## Boîte de dialogue de modification{#edit-dialog}
 
-Étant donné que le partage nécessite des en-têtes de page spéciaux, tout partage doit être activé au niveau de la page. Par conséquent, pour l’auteur du contenu, les options de modification du composant Partage sont disponibles via l’onglet de partage dans les [propriétés de la page](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/sites/authoring/fundamentals/page-properties.html).
+![Boîte de dialogue de modification du composant Partage](/help/assets/sharing-edit.png)
+
+* **ID** : cette option permet de contrôler l&#39;identifiant unique du composant dans le code HTML et dans la couche [de](/help/developing/data-layer/overview.md)données.
+   * Si rien n’est indiqué, un identifiant unique est automatiquement généré et peut être trouvé en examinant la page qui en résulte.
+   * Si un ID est spécifié, il incombe à l’auteur de s’assurer qu’il est unique.
+   * La modification de l’ID peut avoir un impact sur le suivi CSS, JS et de couche de données.
+
+Étant donné que le partage nécessite des en-têtes de page spéciaux, tout partage doit être activé au niveau de la page. Therefore, for the content author additional edit options for the sharing component are available through the sharing tab the [page properties](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/sites/authoring/fundamentals/page-properties.html).
 
 ## Boîte de dialogue de conception {#design-dialog}
 
