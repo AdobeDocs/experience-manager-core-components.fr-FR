@@ -1,8 +1,11 @@
 ---
 title: Création à l’aide des composants principaux
 description: 'Dans AEM, les composants sont les éléments structurels qui constituent le contenu des pages créées : les composants principaux offrent une fonctionnalité de création flexible et riche en fonctionnalités.'
-translation-type: ht
-source-git-commit: 93a7ba6b8a972d111fb723cb40b0380cea9b5a9a
+translation-type: tm+mt
+source-git-commit: 4281f6421482682f603f6a7f5e18df61f9a6d98c
+workflow-type: tm+mt
+source-wordcount: '778'
+ht-degree: 100%
 
 ---
 
@@ -80,50 +83,6 @@ Pour plus d’informations, consultez la documentation [Système de style](https
 >[!NOTE]
 >
 >Dans AEM 6.3, le Service Pack 2 (6.3.2.0) ou plus récent est requis pour activer la fonctionnalité du système de style.
-
-## Liste des composants principaux disponibles {#list-of-core-components-available}
-
-Vous trouverez ci-dessous la liste des composants principaux disponibles liés aux pages décrivant en détails les fonctionnalités de leurs boîtes de dialogue de modification et de conception.
-
-La version actuelle des composants principaux comporte les composants ci-après.
-
-* [Accordéon](/help/components/accordion.md)
-* [Chemin de navigation](/help/components/breadcrumb.md)
-* [Bouton](/help/components/button.md)
-* [Conteneur](/help/components/container.md)
-* [Carrousel](/help/components/carousel.md)
-* [Fragment de contenu](/help/components/content-fragment-component.md)
-* [Liste de fragments de contenu](/help/components/content-fragment-list.md)
-* [Téléchargement](/help/components/download.md)
-* [Incorporer](/help/components/embed.md)
-* [Fragment d’expérience](/help/components/experience-fragment.md)
-* [Bouton de formulaire](/help/components/forms/form-button.md)
-* [Conteneur de formulaires](/help/components/forms/form-container.md)
-* [Formulaire masqué](/help/components/forms/form-hidden.md)
-* [Options du formulaire](/help/components/forms/form-options.md)
-* [Texte du formulaire](/help/components/forms/form-text.md)
-* [Image](/help/components/image.md)
-* [Navigation par langue](/help/components/language-navigation.md)
-* [Liste](/help/components/list.md)
-* [Navigation](/help/components/navigation.md)
-* [Page](/help/components/page.md)
-* [Recherche rapide](/help/components/quick-search.md)
-* [Séparateur](/help/components/separator.md)
-* [Partage sur les réseaux sociaux](/help/components/sharing.md)
-* [Onglets](/help/components/tabs.md)
-* [Texte](/help/components/text.md)
-* [Titre](/help/components/title.md)
-
->[!CAUTION]
->
->Certaines versions de composants principaux peuvent uniquement être compatibles avec certaines versions d’AEM.
->
->Pour plus d’informations, reportez-vous à la page d’aide (liée dans la liste précédente) pour le composant spécifique ou consultez le document [Versions des composants principaux](/help/versions.md).
-
->[!NOTE]
->
->En fonction de votre instance, vous disposez peut-être de composants personnalisés développés explicitement pour vos besoins. Ces composants peuvent même avoir le même nom que certains composants traités ici.
->Les composants principaux du formulaire ne sont pas liés à AEM Forms.
 
 ## Références pour les développeurs {#developer-resources}
 
