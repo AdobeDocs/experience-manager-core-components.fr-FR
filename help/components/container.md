@@ -1,8 +1,11 @@
 ---
 title: Composant de conteneur
 description: Le composant de conteneur des composants principaux permet la création d’un conteneur pour plusieurs autres composants sur une page.
-translation-type: ht
-source-git-commit: 93a7ba6b8a972d111fb723cb40b0380cea9b5a9a
+translation-type: tm+mt
+source-git-commit: c186e9ec3944d785ab0376769cf7f2307049a809
+workflow-type: tm+mt
+source-wordcount: '792'
+ht-degree: 87%
 
 ---
 
@@ -24,9 +27,9 @@ La version actuelle du composant de conteneur est v1, qui a été introduite av
 
 Le tableau ci-après présente en détail toutes les versions prises en charge du composant, les versions AEM avec lesquelles les versions du composant sont compatibles et les liens vers la documentation pour les versions précédentes.
 
-| Version du composant | AEM 6.3 | AEM 6.4 | AEM 6.5 | AEM as a Cloud Service |
-|--- |--- |--- |---|---|
-| v1 | Compatible | Compatible | Compatible | Compatible |
+| Version du composant | AEM 6.4 | AEM 6.5 | AEM as a Cloud Service |
+|--- |--- |---|---|
+| v1 | Compatible | Compatible | Compatible |
 
 Pour plus d’informations sur les versions et les publications des composants principaux, voir le document sur les [versions des composants principaux](/help/versions.md).
 
@@ -44,14 +47,17 @@ Vous trouverez plus d’informations sur le développement des composants princi
 
 La boîte de dialogue de configuration permet à l’auteur du contenu de définir l’élément de conteneur et la façon dont il se comporte et apparaît pour un visiteur sur la page.
 
-![](/help/assets/screen-shot-2019-06-21-13.59.26.png)
+![Boîte de dialogue Modifier du composant de Conteneur](/help/assets/container-edit.png)
 
 * **Mise en page** : cette option définit le comportement ou le comportement de mise en page du composant de conteneur.
    * **Simple** : définit un conteneur en tant qu’ensemble simple de composants.
    * **Grille réactive** : définit un conteneur en tant que [mise en page réactive AEM.](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/sites/authoring/features/responsive-layout.html)
-* **ID** : utilisez cette option pour définir l’attribut d’ID HTML à appliquer au composant.
 * **Couleur d&#39;arrière-plan** : définissable en tant que valeurs RVB de forme libre ou en utilisant le sélecteur de couleurs, [selon la configuration](#background-tab)
 * **Image d’arrière-plan** : définit une couleur d’arrière-plan pour le conteneur, [selon la configuration](#background-tab)
+* **ID** : cette option permet de contrôler l&#39;identifiant unique du composant dans le code HTML et dans la couche [de](/help/developing/data-layer/overview.md)données.
+   * Si rien n’est indiqué, un identifiant unique est automatiquement généré et peut être trouvé en examinant la page qui en résulte.
+   * Si un ID est spécifié, il incombe à l’auteur de s’assurer qu’il est unique.
+   * La modification de l’ID peut avoir un impact sur le suivi CSS, JS et de couche de données.
 
 ## Boîte de dialogue de conception {#design-dialog}
 
@@ -69,13 +75,13 @@ L’onglet Composants par défaut permet de définir quel composant est ajouté 
 
 ### Onglet Paramètres réactifs {#responsive-settings-tab}
 
-![](/help/assets/screen-shot-2019-06-21-09.33.03.png)
+![Onglet Paramètres réactifs de la boîte de dialogue de conception du composant de Conteneur](/help/assets/container-design-responsive.png)
 
 * **Colonnes** : définit le nombre de colonnes dans la grille du conteneur obtenu.
 
 ### Onglet Arrière-plan {#background-tab}
 
-![](/help/assets/screen-shot-2019-06-21-09.42.42.png)
+![Onglet Arrière-plan de la boîte de dialogue de conception du composant de Conteneur](/help/assets/container-design-background.png)
 
 * **Image d’arrière-plan**
    * **Activer l’image d’arrière-plan** : sélectionnez cette option pour permettre à l’auteur de contenu de définir une image d’arrière-plan pour le conteneur.
