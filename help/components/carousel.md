@@ -1,8 +1,11 @@
 ---
 title: Composant du carrousel
 description: Le composant du carrousel permet à l’auteur de contenu de présenter le contenu dans un carrousel rotatif.
-translation-type: ht
-source-git-commit: 93a7ba6b8a972d111fb723cb40b0380cea9b5a9a
+translation-type: tm+mt
+source-git-commit: c186e9ec3944d785ab0376769cf7f2307049a809
+workflow-type: tm+mt
+source-wordcount: '1112'
+ht-degree: 89%
 
 ---
 
@@ -23,9 +26,9 @@ La version actuelle du composant du carrousel est v1, qui a été introduite ave
 
 Le tableau ci-après présente en détail toutes les versions prises en charge du composant, les versions AEM avec lesquelles les versions du composant sont compatibles et les liens vers la documentation pour les versions précédentes.
 
-| Version du composant | AEM 6.3 | AEM 6.4 | AEM 6.5 | AEM as a Cloud Service |
-|--- |--- |--- |--- |---|
-| v1 | Compatible | Compatible | Compatible | Compatible |
+| Version du composant | AEM 6.4 | AEM 6.5 | AEM as a Cloud Service |
+|--- |--- |--- |---|
+| v1 | Compatible | Compatible | Compatible |
 
 Pour plus d’informations sur les versions et les publications des composants principaux, voir le document sur les [versions des composants principaux](/help/versions.md).
 
@@ -45,7 +48,7 @@ La boîte de dialogue de modification permet à l’auteur de contenu d’ajoute
 
 ### Onglet Éléments {#items-tab}
 
-![](/help/assets/screen-shot-2019-08-29-12.01.39.png)
+![Onglet Éléments de la boîte de dialogue Modifier du composant de carrousel](/help/assets/carousel-edit-items.png)
 
 Utilisez le bouton **Ajouter** pour ouvrir le sélecteur de composants afin de choisir le composant à ajouter sous forme d’onglet. Une fois le composant ajouté, une entrée est ajoutée à la liste qui contient les colonnes suivantes :
 
@@ -60,13 +63,17 @@ Utilisez le bouton **Ajouter** pour ouvrir le sélecteur de composants afin de c
 
 ### Onglet Propriétés {#properties-tab}
 
-![](/help/assets/screen-shot-2019-08-29-12.01.57.png)
+![Onglet Propriétés de la boîte de dialogue Modifier du composant de carrousel](/help/assets/carousel-edit-properties.png)
 
 Dans l’onglet **Propriétés**, l’auteur du contenu peut définir les diapositives pour la transition automatique.
 
 * **Transition automatique des diapositives** : lorsque cette option est activée, le composant passe automatiquement à la diapositive suivante après un délai spécifié.
 * **Délai de transition** : lorsque la transition automatique des diapositives est sélectionnée, cette valeur est utilisée pour définir le délai entre les transitions (en millisecondes).
 * **Désactiver la pause automatique lors du survol** : lorsque l’option **Transition automatique des diapositives** est sélectionnée, la transition du carrousel se met automatiquement en pause chaque fois que l’utilisateur survole le carrousel. Sélectionnez cette option pour que la transition ne soit pas interrompue.
+* **ID** : cette option permet de contrôler l&#39;identifiant unique du composant dans le code HTML et dans la couche [de](/help/developing/data-layer/overview.md)données.
+   * Si rien n’est indiqué, un identifiant unique est automatiquement généré et peut être trouvé en examinant la page qui en résulte.
+   * Si un ID est spécifié, il incombe à l’auteur de s’assurer qu’il est unique.
+   * La modification de l’ID peut avoir un impact sur le suivi CSS, JS et de couche de données.
 
 >[!NOTE]
 >
@@ -76,7 +83,7 @@ Dans l’onglet **Propriétés**, l’auteur du contenu peut définir les diapos
 
 ### Onglet Accessibilité {#accessibility-tab}
 
-![](/help/assets/screen-shot-2019-08-29-12.02.22.png)
+![Onglet Accessibilité de la boîte de dialogue Modifier du composant de carrousel](/help/assets/carousel-edit-accessibility.png)
 
 Dans l’onglet **Accessibilité**, les valeurs peuvent être définies pour les libellés d’[accessibilité ARIA](https://www.w3.org/WAI/standards-guidelines/aria/) du composant.
 
@@ -86,14 +93,14 @@ Dans l’onglet **Accessibilité**, les valeurs peuvent être définies pour les
 
 L’auteur du contenu peut utiliser l’option **Sélectionner un panneau** de la barre d’outils des composants pour passer à une autre diapositive afin de modifier et de réorganiser facilement l’ordre des diapositives.
 
-![](/help/assets/screenshot_2018-10-11at165417.png)
+![Icône Sélectionner le panneau](/help/assets/select-panel-icon.png)
 
 Lorsque vous sélectionnez l’option **Sélectionner un panneau** dans la barre d’outils des composants, les diapositives configurées s’affichent sous forme de liste déroulante.
 
 * La liste est triée selon la disposition assignée des diapositives et est répercutée dans la numérotation.
 * Le type de composant de la diapositive est affiché en premier, suivi de la description de la diapositive en police plus claire.
 
-![](/help/assets/opera_snapshot_2018-11-28141537localhost.png)
+![Sélectionner un panneau](/help/assets/select-panel-popover.png)
 
 * Lorsque vous appuyez ou cliquez sur une entrée dans la liste déroulante, la vue est commutée dans l’éditeur.
 * Vous pouvez réorganiser la diapositive en place à l’aide des poignées de glissement.
@@ -106,7 +113,7 @@ La boîte de dialogue de conception permet à l’auteur du modèle de définir 
 
 L’onglet **Propriétés** permet de définir les paramètres par défaut des transitions de diapositives lorsqu’un auteur de contenu ajoute le composant du carrousel à une page.
 
-![](/help/assets/screenshot_2018-11-28at141824.png)
+![Boîte de dialogue de conception du composant de carrousel](/help/assets/carousel-design.png)
 
 * **Transition automatique des diapositives** : définit si par défaut l’option permettant d’avancer automatiquement le carrousel à la diapositive suivante est activée lorsque l’auteur du contenu ajoute le composant du carrousel à une page.
 * **Délai de transition** : définit la valeur par défaut du délai de transition entre les diapositives (en millisecondes) lorsqu’un auteur de contenu ajoute le composant du carrousel à une page.
