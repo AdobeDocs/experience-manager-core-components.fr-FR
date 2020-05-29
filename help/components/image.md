@@ -1,8 +1,11 @@
 ---
 title: Composant d’image
 description: Le composant d’image des composants principaux est un composant d’image adaptatif qui permet d’effectuer des modifications statiques.
-translation-type: ht
-source-git-commit: 6be0028c45ce9f8b36ea278f8e569f3d6a626ae2
+translation-type: tm+mt
+source-git-commit: c186e9ec3944d785ab0376769cf7f2307049a809
+workflow-type: tm+mt
+source-wordcount: '1934'
+ht-degree: 92%
 
 ---
 
@@ -31,7 +34,7 @@ Le tableau ci-après présente en détail toutes les versions prises en charge d
 
 | Version du composant | AEM 6.3 | AEM 6.4 | AEM 6.5 | AEM as a Cloud Service |
 |--- |--- |--- |--- |---|
-| v2 | Compatible | Compatible | Compatible | Compatible |
+| v2 | - | Compatible | Compatible | Compatible |
 | [v1](v1/image-v1.md) | Compatible | Compatible | Compatible | - |
 
 Pour plus d’informations sur les versions et les publications des composants principaux, voir le document sur les [versions des composants principaux](/help/versions.md).
@@ -72,7 +75,7 @@ Outre la [boîte de dialogue de modification](#edit-dialog) et la [boîte de dia
 
 ### Onglet Ressources {#asset-tab}
 
-![](/help/assets/screen_shot_2018-01-08at114245.png)
+![Onglet Ressource de la boîte de dialogue de configuration du composant d’image](/help/assets/image-configure-asset.png)
 
 * **Ressource image**
    * Déposez un fichier depuis l’[explorateur de ressources](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/sites/authoring/fundamentals/environment-tools.html) ou appuyez sur l’option **parcourir** pour effectuer un téléchargement à partir d’un système de fichiers local.
@@ -81,7 +84,7 @@ Outre la [boîte de dialogue de modification](#edit-dialog) et la [boîte de dia
 
 ### Onglet Métadonnées {#metadata-tab}
 
-![](/help/assets/screen_shot_2018-01-08at114527.png)
+![Onglet Métadonnées de la boîte de dialogue de configuration du composant d’image](/help/assets/image-configure-metadata.png)
 
 * **L’image est décorative**
 Vérifiez si l’image doit être ignorée par les dispositifs d’assistance et ne requiert donc pas de texte de remplacement. Cela s’applique uniquement aux images décoratives.
@@ -101,15 +104,20 @@ Si cette option est activée, la légende ne s’affiche pas sous l’image, mai
    * Utilisez la boîte de dialogue de sélection pour créer un lien vers une autre ressource AEM.
    * Si vous ne créez pas de lien vers une ressource AEM, saisissez l’URL absolue. Les URL non absolues seront interprétées comme relatives à AEM.
 
+* **ID** : cette option permet de contrôler l&#39;identifiant unique du composant dans le code HTML et dans la couche [de](/help/developing/data-layer/overview.md)données.
+   * Si rien n’est indiqué, un identifiant unique est automatiquement généré et peut être trouvé en examinant la page qui en résulte.
+   * Si un ID est spécifié, il incombe à l’auteur de s’assurer qu’il est unique.
+   * La modification de l’ID peut avoir un impact sur le suivi CSS, JS et de couche de données.
+
 ## Boîte de dialogue de modification {#edit-dialog}
 
 La boîte de dialogue de modification permet à l’auteur du contenu de recadrer, de modifier la carte de lancement et de zoomer sur l’image.
 
-![](/help/assets/chlimage_1-8.png)
+![Boîte de dialogue de modification du composant d’image](/help/assets/image-edit.png)
 
 * Commencer recadrage
 
-   ![](/help/assets/chlimage_1-9.png)
+   ![Icône de recadrage du Début](/help/assets/image-start-crop.png)
 
    Cette option ouvre une liste déroulante pour les proportions de recadrage prédéfinies.
 
@@ -117,77 +125,43 @@ La boîte de dialogue de modification permet à l’auteur du contenu de recadre
    * Choisissez l’option **Supprimer le recadrage** pour afficher la ressource d’origine.
    Une fois qu’une option de recadrage est sélectionnée, utilisez les poignées bleues pour dimensionner le recadrage sur l’image.
 
-   ![](/help/assets/chlimage_1-10.png)
+   ![Options de recadrage](/help/assets/image-crop-options.png)
 
 * Rotation à droite
 
-   ![](/help/assets/chlimage_1-11.png)
+   ![Icône de rotation à droite](/help/assets/image-rotate-right.png)
 
    Utilisez cette option pour faire pivoter l’image de 90° vers la droite (dans le sens horaire).
 
 * Rotation horizontale
 
-   ![](/help/assets/screen_shot_2018-04-16at091404.png)
+   ![Icône Retourner horizontalement](/help/assets/image-flip-horizontal.png)
 
    Utilisez cette option pour retourner l’image horizontalement ou faire pivoter l’image de 180° sur l’axe Y.
 
 * Rotation verticale
 
-   ![](/help/assets/screen_shot_2018-04-16at091410.png)
+   ![Icône Retourner verticalement](/help/assets/image-flip-vertical.png)
 
    Utilisez cette option pour retourner l’image verticalement ou faire pivoter l’image de 180° sur l’axe X.
 
-* Lancer une Map
-
-   >[!CAUTION]
-   >
-   >La fonctionnalité Carte de lancement requiert la version 2.1.0 ou ultérieure des composants principaux et le [Service Pack 2](https://docs.adobe.com/content/help/en/experience-manager-64/release-notes/sp-release-notes.html) pour AEM 6.4 ou le [Service Pack 3](https://helpx.adobe.com/fr/experience-manager/6-3/release-notes/sp3-release-notes.html) pour AEM 6.3 ou version ultérieure pour être compatible avec les [nouvelles fonctionnalités de l’éditeur d’images](https://docs.adobe.com/content/help/en/experience-manager-64/developing/components/image-editor.html) dans AEM.
-
-   ![](/help/assets/chlimage_1-12.png)
-
-   Utilisez cette option pour appliquer une carte de lancement à l’image. Cette option ouvre une nouvelle fenêtre permettant à l’utilisateur de sélectionner la forme de la carte :
-
-   * **Ajouter une map rectangulaire**
-   * **Ajouter une map circulaire**
-   * **Ajouter une map polygonal**
-      * Par défaut, une carte en triangle est ajoutée. Cliquez deux fois sur une ligne de la forme pour ajouter une nouvelle poignée de redimensionnement bleue d’un nouveau côté.
-   Lorsqu’une forme de carte est sélectionnée, elle est superposée sur l’image pour le redimensionnement. Faites glisser les poignées de redimensionnement bleues pour ajuster la forme.
-
-   ![](/help/assets/chlimage_1-13.png)
-
-   Après avoir dimensionné la carte de lancement, cliquez dessus pour ouvrir une barre d’outils flottante afin de définir le chemin du lien.
-
-   * **Chemin**
-      * Utilisez l’option Sélecteur de chemin pour sélectionner un chemin dans AEM.
-      * Si le chemin d’accès ne figure pas dans AEM, utilisez l’URL absolue. Les chemins non absolus seront interprétés par rapport à AEM.
-   * **Texte de remplacement**
-Autre description de la destination du chemin.
-   * **Cible**
-      * **Même onglet**
-      * **Nouvel onglet**
-      * **Cadre parent**
-      * **Cadre supérieur**
-   Appuyez ou cliquez sur la coche bleue pour enregistrer, le x noir pour annuler et la corbeille rouge pour supprimer la carte.
-
-   ![](/help/assets/chlimage_1-14.png)
-
 * Réinitialiser le zoom
 
-   ![](/help/assets/chlimage_1-15.png)
+   ![Icône Réinitialiser le zoom](/help/assets/image-reset-zoom.png)
 
    Si l’image a déjà été agrandie, utilisez cette option pour réinitialiser le niveau de zoom.
 
 * Ouvrir le curseur de zoom
 
-   ![](/help/assets/chlimage_1-16.png)
+   ![Icône du curseur de zoom ouvert](/help/assets/image-zoom.png)
 
    Utilisez cette option pour afficher un curseur permettant de contrôler le niveau de zoom de l’image.
 
-   ![](/help/assets/chlimage_1-17.png)
+   ![Commande du curseur de zoom](/help/assets/image-zoom-slider.png)
 
 L’éditeur statique peut également être utilisé pour modifier l’image. En raison d’un espace limité, seules les options de base sont disponibles en ligne. Pour des options de modification complètes, utilisez le mode Plein écran.
 
-![](/help/assets/chlimage_1-18.png)
+![Options de modification statique des images](/help/assets/image-in-place-edit.png)
 
 >[!NOTE]
 >
@@ -203,7 +177,7 @@ Dans l’onglet **Principal**, vous pouvez définir une liste de largeurs en pix
 
 En outre, vous pouvez définir quelles options de composant générales sont automatiquement activées ou désactivées lorsque l’auteur ajoute le composant à une page.
 
-![](/help/assets/screenshot_2018-10-19at102756.png)
+![Onglet principal de la boîte de dialogue de conception du composant d’image](/help/assets/image-design-main.png)
 
 * **Activer le chargement différé**
 Définissez si l’option de chargement différé est activée automatiquement lors de l’ajout du composant d’image à une page.
@@ -228,7 +202,7 @@ Définit une liste de largeurs en pixels pour l’image ; le composant charge a
 * **Qualité JPEG**
 Facteur de qualité (exprimé par un pourcentage compris entre 0 et 100) pour les images JPEG transformées (mises à l’échelle ou recadrées, par exemple).
 
->[!CAUTION]
+>[!NOTE]
 >
 >L’option Qualité JPEG est disponible depuis la version 2.2.0 des composants principaux.
 
@@ -242,13 +216,13 @@ Sur l’onglet **Fonctionnalités**, vous pouvez définir les options disponible
 
 * Source
 
-   ![](/help/assets/chlimage_1-19.png)
+   ![Boîte de dialogue de conception du composant d’image, onglet Fonctionnalités](/help/assets/image-design-features-source.png)
 
    Sélectionnez l’option **Autoriser le transfert des ressources depuis le système de fichiers** pour permettre aux auteurs de contenu de télécharger des images à partir de leur ordinateur local. Pour forcer les auteurs de contenu à sélectionner uniquement des ressources à partir d’AEM, désactivez cette option.
 
 * Orientation
 
-   ![](/help/assets/chlimage_1-20.png)
+   ![Boîte de dialogue de conception du composant d’image, onglet Fonctionnalités](/help/assets/image-design-features-orientation.png)
 
 * **Rotation**
 Utilisez cette option pour permettre à l’auteur de contenu d’utiliser l’option **Rotation à droite**.
@@ -261,7 +235,7 @@ Utilisez cette option pour permettre à l’auteur de contenu d’utiliser les o
 
 * Recadrage
 
-   ![](/help/assets/chlimage_1-21.png)
+   ![Boîte de dialogue de conception du composant d’image, onglet Fonctionnalités](/help/assets/image-design-features-cropping.png)
 
    Sélectionnez l’option **Autoriser le recadrage** pour permettre à l’auteur du contenu de recadrer l’image dans le composant au sein de la boîte de dialogue de modification.
    * Cliquez sur **Ajouter** pour ajouter des proportions de recadrage prédéfinies.
