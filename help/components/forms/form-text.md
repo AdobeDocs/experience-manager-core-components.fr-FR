@@ -1,8 +1,11 @@
 ---
 title: Composant de texte de formulaire
 description: Le composant de texte de formulaire des composants principaux permet l’entrée de texte de formulaire pour envoi.
-translation-type: ht
-source-git-commit: 95c0621f5423bfa515fe5e8b693e127ea56b4ae0
+translation-type: tm+mt
+source-git-commit: c186e9ec3944d785ab0376769cf7f2307049a809
+workflow-type: tm+mt
+source-wordcount: '579'
+ht-degree: 81%
 
 ---
 
@@ -23,7 +26,7 @@ Le tableau ci-après présente en détail toutes les versions prises en charge d
 
 | Version du composant | AEM 6.3 | AEM 6.4 | AEM 6.5 | AEM as a Cloud Service |
 |--- |--- |--- |--- |---|
-| v2 | Compatible | Compatible | Compatible | Compatible |
+| v2 | - | Compatible | Compatible | Compatible |
 | [v1](/help/components/v1/form-text-v1.md) | Compatible | Compatible | Compatible | - |
 
 Pour plus d’informations sur les versions et les publications des composants principaux, voir le document sur les [versions des composants principaux](/help/versions.md).
@@ -42,12 +45,11 @@ Vous trouverez plus d’informations sur le développement des composants princi
 
 La boîte de dialogue de configuration permet à l’auteur de contenu de définir le type de texte à saisir, ainsi que les valeurs et étiquettes par défaut.
 
-### Onglet Principal {#main-tab}
+### Onglet Propriétés {#properties-tab}
 
-![](/help/assets/chlimage_1-23.png)
+![Onglet Propriétés](/help/assets/form-text-edit-properties.png)
 
-* **Contrainte**
-Type de texte à saisir et par rapport auquel il sera validé.
+* **Contrainte** : type de texte à saisir et par rapport auquel il sera validé.
    * **Texte**
    * **Zone de texte**
    * **Courriel**
@@ -55,38 +57,36 @@ Type de texte à saisir et par rapport auquel il sera validé.
    * **Date**
    * **Nombre**
    * **Mot de passe**
-* **Lignes de texte**
-Nombre de lignes à afficher dans la zone de texte (affiché uniquement lorsque la **contrainte** est définie sur **Zone de texte**).
-* **Étiquette**
-Libellé qui s’affiche pour le champ.
-* **Masquer l’étiquette**
-Nécessaire si l’étiquette est requise uniquement à des fins d’accessibilité et ne transmet aucune information visuelle supplémentaire sur le champ.
-* **Nom de l’élément**
-Nom du champ qui est envoyé avec les données de formulaire.
-* **Valeur**
-Valeur par défaut prérenseignée dans le champ.
+* **Lignes de texte** : nombre de lignes à afficher dans la zone de texte (affiché uniquement lorsque la **contrainte** est définie sur **Zone de texte**).
+* **Étiquette** : libellé qui s’affiche pour le champ.
+* **Masquer l’étiquette** : nécessaire si l’étiquette est requise uniquement à des fins d’accessibilité et ne transmet aucune information visuelle supplémentaire sur le champ.
+* **Nom de l’élément** : nom du champ qui est envoyé avec les données de formulaire.
+* **Valeur** - Valeur par défaut préremplie dans le champ
+* **ID** : cette option permet de contrôler l&#39;identifiant unique du composant dans le code HTML et dans la couche [de](/help/developing/data-layer/overview.md)données.
+   * Si rien n’est indiqué, un identifiant unique est automatiquement généré et peut être trouvé en examinant la page qui en résulte.
+   * Si un ID est spécifié, il incombe à l’auteur de s’assurer qu’il est unique.
+   * La modification de l’ID peut avoir un impact sur le suivi CSS, JS et de couche de données.
 
 ### Onglet À propos {#about-tab}
 
-![](/help/assets/chlimage_1-24.png)
+![Onglet A propos](/help/assets/form-text-edit-about.png)
 
-* **Message d’aide**
-Conseil à l’intention de l’utilisateur sur ce qui peut être entré dans le champ.
-* **Afficher le message d’aide comme espace réservé**
-Indique s’il convient d’afficher le message d’aide dans l’entrée de formulaire lorsqu’elle est vide et désactivée.
+* **Message d’aide** : conseil à l’intention de l’utilisateur sur ce qui peut être entré dans le champ.
+* **Afficher le message d’aide comme espace réservé** : indique s’il convient d’afficher le message d’aide dans l’entrée de formulaire lorsqu’elle est vide et désactivée.
 
 ### Onglet Contraintes {#constraints-tab}
 
-![](/help/assets/chlimage_1-25.png)
+![Onglet Contraintes](/help/assets/form-text-edit-constraints.png)
 
 * **Message de contrainte**
    * Message affiché sous forme d’info-bulle lors de l’envoi du formulaire si la valeur ne valide pas le type sélectionné
    * Non affiché pour les types de contraintes **Texte** et **Zone de texte**.
-* **Requis**
-Indique si l’utilisateur doit renseigner une valeur avant d’envoyer le formulaire.
-* **Rendre en lecture seule**
-Si cette option est sélectionnée, l’utilisateur ne peut pas modifier la valeur du champ.
+* **Requis** : indique si l’utilisateur doit renseigner une valeur avant d’envoyer le formulaire.
+   * **Message** requis - Message affiché sous forme d&#39;info-bulle si le champ est vide
+* **Rendre en lecture seule** : si cette option est sélectionnée, l’utilisateur ne peut pas modifier la valeur du champ.
 
 ## Boîte de dialogue de conception {#design-dialog}
 
-Il n’existe pas de boîte de dialogue de conception pour le composant de texte de formulaire.
+### Onglet Styles {#styles-tab}
+
+The Form Text Component supports the AEM [Style System](/help/get-started/authoring.md#component-styling).
