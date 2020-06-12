@@ -2,7 +2,7 @@
 title: Versions des composants principaux
 description: Les composants principaux sont publiés sous forme de versions qui peuvent contenir plusieurs versions des mêmes composants principaux. Ce document explique les versions et les mises à jour ainsi que comment comprendre la compatibilité avec les composants principaux et AEM.
 translation-type: tm+mt
-source-git-commit: c186e9ec3944d785ab0376769cf7f2307049a809
+source-git-commit: 448a2d31c27869b257ea694dc06fabca903c30b1
 workflow-type: tm+mt
 source-wordcount: '1694'
 ht-degree: 98%
@@ -12,7 +12,7 @@ ht-degree: 98%
 
 # Versions des composants principaux {#core-components-versions}
 
-La version actuelle des composants principaux est la version 2.8.0 et est compatible avec les installations [AEM as a Cloud Service](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/landing/home.html) et les installations [AEM On-premise](https://docs.adobe.com/content/help/en/experience-manager-65/user-guide/home.html). Elle a été diffusée en décembre 2019 comme une mise à jour importante de la version 2.0.0. La version 2.0.0 introduisait de nouveaux composants ainsi que des mises à jour v2 des composants existants.
+La version actuelle des composants principaux est la version 2.9.0 et est compatible avec les installations [AEM as a Cloud Service](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/landing/home.html) et les installations [AEM On-premise](https://docs.adobe.com/content/help/en/experience-manager-65/user-guide/home.html). Il a été publié en mai 2020 en tant que mise à jour importante de la version 2.0.0. La version 2.0.0 a introduit de nouveaux composants ainsi que des mises à jour v2 des composants existants.
 
 ## Historique des versions et compatibilité {#release-history-and-compatibility}
 
@@ -26,7 +26,7 @@ Le tableau suivant, dont le contenu est [disponible sur GitHub avec les détails
 
 | Mise à jour | Description | AEM 6.3 | AEM 6.4 | AEM 6.5 | AEM as a Cloud Service | Java | Date de publication |
 |---|---|---|---|---|---|---|---|
-| [2.9.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.9.0) | Cette version a permis l’intégration à la couche de données du client Adobe et introduit le composant de barre de progression. | - | 6.4.4.0+ | 6.5.0.0+ | Suite | 8, 11 | 29 mai 2020 |
+| [2.9.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.9.0) | Cette version a permis l’intégration à la couche de données client Adobe et introduit le composant Barre de progression. | - | 6.4.4.0+ | 6.5.0.0+ | Suite | 8, 11 | 29 mai 2020 |
 | [2.8.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.8.0) | Cette version comprend principalement des correctifs ainsi que de petites améliorations. | 6.3.3.4+ | 6.4.4.0+ | 6.5.0.0+ | Suite | 8, 11 | 5 décembre 2019 |
 | [2.7.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.7.0) | Cette version a introduit le nouveau composant Incorporer. | 6.3.3.4+ | 6.4.4.0+ | 6.5.0.0+ | Suite | 8, 11 | 25 septembre 2019 |
 | [2.6.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.6.0) | Cette version a introduit le nouveau composant de fragment d’expérience. | 6.3.3.4+ | 6.4.4.0+ | 6.5.0.0+ | Suite | 8, 11 | 6 septembre 2019 |
@@ -55,7 +55,7 @@ Le tableau suivant, dont le contenu est [disponible sur GitHub avec les détails
 
 Le tableau suivant répertorie les versions des composants contenus dans les versions des composants principaux.
 
-|  | Version 1.0.0 - 1.0.6 | Version 1.1.0 | Version 2.0.0 - 2.0.8 | Version 2.1.0 | Version 2.2.0 - 2.2.0 | Version 2.3.0 - 2.3.2 | Version 2.4.0 | Version 2.5.0 | Version 2.6.0 | Version 2.7.0-2.8.0 | Version 2.9.0+ |
+|  | Version 1.0.0 - 1.0.6 | Version 1.1.0 | Version 2.0.0 - 2.0.8 | Version 2.1.0 | Version 2.2.0 - 2.2.0 | Version 2.3.0 - 2.3.2 | Version 2.4.0 | Version 2.5.0 | Version 2.6.0 | Version 2.7.0 - 2.8.0 | Version 2.9.0+ |
 |---|---|---|---|---|---|---|---|---|---|---|---|
 | **[Page](components/page.md)** | v1 | v1 | v1, v2 | v1, v2 | v1, v2 | v1, v2 | v1, v2 | v1, v2 | v1, v2 | v1, v2 | v1, v2 |
 | **[Titre](components/title.md)** | v1 | v1 | v1, v2 | v1, v2 | v1, v2 | v1, v2 | v1, v2 | v1, v2 | v1, v2 | v1, v2 | v1, v2 |
