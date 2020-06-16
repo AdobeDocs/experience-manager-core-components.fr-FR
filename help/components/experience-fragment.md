@@ -1,11 +1,11 @@
 ---
 title: Composant de fragment d’expérience
 description: Le composant de fragment d’expérience permet à l’auteur de contenu d’ajouter une variation de fragment d’expérience à une page.
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: c186e9ec3944d785ab0376769cf7f2307049a809
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '816'
-ht-degree: 89%
+ht-degree: 100%
 
 ---
 
@@ -116,15 +116,15 @@ Vous trouverez plus d’informations sur le développement des composants princi
 
 La boîte de dialogue de configuration permet à l’auteur de contenu de sélectionner la variation de fragment d’expérience qui doit être rendue sur la page.
 
-![Boîte de dialogue de modification du composant de fragment d’expérience](/help/assets/experience-fragment-edit.png)
+![Boîte de dialogue de modification du composant Fragment d’expérience](/help/assets/experience-fragment-edit.png)
 
 Utilisez le bouton **Ouvrir la boîte de dialogue de sélection** pour ouvrir le sélecteur de composants afin de choisir la variation de composant de fragment d’expérience à ajouter à la page de contenu.
 
-Si vous ajoutez le composant de fragment d’expérience à un modèle, notez qu’il sera automatiquement localisé à condition que les fragments d’expérience soient localisés. Ainsi, ce qui est généré sur la page peut différer du composant que vous sélectionnez explicitement. Pour plus d’informations,[reportez-vous à l’exemple ci-dessus](#example).
+Si vous ajoutez le composant de fragment d’expérience à un modèle, notez qu’il sera automatiquement localisé à condition que les fragments d’expérience soient localisés. Ainsi, ce qui est généré sur la page peut différer du composant que vous sélectionnez explicitement. Pour plus d’informations, [reportez-vous à l’exemple ci-dessus](#example).
 
-Vous pouvez également définir un **identifiant**. Cette option permet de contrôler l&#39;identifiant unique du composant dans le code HTML et dans la couche [de](/help/developing/data-layer/overview.md)données.
+Vous pouvez également définir un **ID**. Cette option permet de contrôler l’identifiant unique du composant dans le code HTML et dans la [couche de données](/help/developing/data-layer/overview.md).
 
-* Si rien n’est indiqué, un identifiant unique est automatiquement généré et peut être trouvé en examinant la page qui en résulte.
+* Si rien n’est indiqué, un ID unique est généré automatiquement et peut être trouvé en examinant la page obtenue.
 * Si un ID est spécifié, il incombe à l’auteur de s’assurer qu’il est unique.
 * La modification de l’ID peut avoir un impact sur le suivi CSS, JS et de couche de données.
 
