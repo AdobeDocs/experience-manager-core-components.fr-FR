@@ -1,11 +1,11 @@
 ---
 title: Composant de fragment de contenu
 description: Le composant de fragment de contenu des composants principaux permet l’affichage d’un fragment de contenu.
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: c186e9ec3944d785ab0376769cf7f2307049a809
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '659'
-ht-degree: 78%
+ht-degree: 100%
 
 ---
 
@@ -66,7 +66,7 @@ La boîte de dialogue de configuration permet à l’auteur de contenu de défin
 
 ### Onglet Propriétés {#properties-tab}
 
-![Composant de fragment de contenu](/help/assets/content-fragment-edit-properties.png)
+![Composant Fragment de contenu](/help/assets/content-fragment-edit-properties.png)
 
 * **Fragment de contenu**
 
@@ -74,9 +74,9 @@ La boîte de dialogue de configuration permet à l’auteur de contenu de défin
    * Vous pouvez utiliser la **boîte de dialogue de sélection** pour localiser le fragment.
 
 * **Mode d’affichage**
-   * **Elément** de texte unique : active la sélection d&#39;un élément de texte multiligne et active les options de contrôle des paragraphes.
-   * **Éléments** multiples : permet la sélection d’un ou de plusieurs éléments du fragment de contenu sélectionné.
-* **Elément** - Elément ou éléments du fragment de contenu à inclure
+   * **Un seul élément de texte** : permet la sélection d’un élément de texte multiligne et active les options de contrôle des paragraphes.
+   * **Plusieurs éléments** : permet la sélection d’un ou de plusieurs éléments du fragment de contenu sélectionné.
+* **Élément** : élément ou éléments du fragment de contenu à inclure.
 * **Variation** : variante du fragment de contenu à utiliser (par défaut, **Gabarit**).
 
 * **Paragraphes**
@@ -86,25 +86,25 @@ La boîte de dialogue de configuration permet à l’auteur de contenu de défin
 
       * Spécifiez les plages de paragraphes à afficher, séparées par un point-virgule.
       * Par exemple, `1;3-5;7;9-*` pour inclure les paragraphes 1, 3 à 5, 7 et 9 aux paragraphes finaux.
-* **ID** : cette option permet de contrôler l&#39;identifiant unique du composant dans le code HTML et dans la couche [de](/help/developing/data-layer/overview.md)données.
-   * Si rien n’est indiqué, un identifiant unique est automatiquement généré et peut être trouvé en examinant la page qui en résulte.
+* **ID** : cette option permet de contrôler l’identifiant unique du composant dans le code HTML ainsi que dans la [couche de données](/help/developing/data-layer/overview.md).
+   * Si rien n’est indiqué, un ID unique est généré automatiquement et peut être trouvé en examinant la page obtenue.
    * Si un ID est spécifié, il incombe à l’auteur de s’assurer qu’il est unique.
    * La modification de l’ID peut avoir un impact sur le suivi CSS, JS et de couche de données.
 
-### Onglet de contrôle de paragraphe {#paragraph-control-tab}
+### Onglet Contrôle de paragraphe {#paragraph-control-tab}
 
 Cet onglet n’est pas disponible lorsque le mode **Plusieurs éléments** est sélectionné.
 
-![Composant de fragment de contenu](/help/assets/content-fragment-edit-paragraph.png)
+![Composant Fragment de contenu](/help/assets/content-fragment-edit-paragraph.png)
 
-* **Paragraphes** - Autoriser la sélection de tous les paragraphes ou d&#39;une plage
+* **Paragraphes** : permet la sélection de tous les paragraphes ou d’une plage.
 * **Gérer les en-têtes comme leurs propres paragraphes**
 
 ## Boîte de dialogue de conception {#design-dialog}
 
 La boîte de dialogue de conception permet à l’auteur du modèle de définir les types de ressources utilisés pour traiter les images de supports variés et les grilles adaptées.
 
-![Boîte de dialogue de conception du composant de fragment de contenu](/help/assets/content-fragment-design.png)
+![Boîte de dialogue de conception du composant Fragment de contenu](/help/assets/content-fragment-design.png)
 
 * **Grille réactive interne**
 
