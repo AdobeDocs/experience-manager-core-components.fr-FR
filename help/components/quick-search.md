@@ -1,11 +1,11 @@
 ---
 title: Composant Recherche rapide
 description: Le composant Recherche rapide fournit des fonctionnalités de recherche à un site web et présente les résultats de recherche afin que les visiteurs puissent effectuer des recherches sur le site et filtrer les résultats.
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: c186e9ec3944d785ab0376769cf7f2307049a809
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '592'
-ht-degree: 85%
+ht-degree: 100%
 
 ---
 
@@ -46,11 +46,11 @@ Vous trouverez plus d’informations sur le développement des composants princi
 
 La boîte de dialogue de modification permet à l’auteur de contenu de définir l’emplacement où doit commencer la recherche dans l’arborescence de contenu.
 
-![Boîte de dialogue de modification du composant de recherche rapide](/help/assets/quick-search-edit.png)
+![Boîte de dialogue de modification du composant Recherche rapide](/help/assets/quick-search-edit.png)
 
 **Racine de recherche** - Page racine d’où lancer la recherche. La racine de recherche peut être un gabarit principal, une page principale ou une page normale.
-* **ID** : cette option permet de contrôler l&#39;identifiant unique du composant dans le code HTML et dans la couche [de](/help/developing/data-layer/overview.md)données.
-   * Si rien n’est indiqué, un identifiant unique est automatiquement généré et peut être trouvé en examinant la page qui en résulte.
+* **ID** : cette option permet de contrôler l’identifiant unique du composant dans le code HTML ainsi que dans la [couche de données](/help/developing/data-layer/overview.md).
+   * Si rien n’est indiqué, un ID unique est généré automatiquement et peut être trouvé en examinant la page obtenue.
    * Si un ID est spécifié, il incombe à l’auteur de s’assurer qu’il est unique.
    * La modification de l’ID peut avoir un impact sur le suivi CSS, JS et de couche de données.
 
@@ -60,7 +60,7 @@ La boîte de dialogue de modification permet à l’auteur de contenu de défini
 
 ### Onglet Propriétés {#properties-tab}
 
-![Boîte de dialogue de conception du composant de recherche rapide](/help/assets/quick-search-design.png)
+![Boîte de dialogue de conception du composant Recherche rapide](/help/assets/quick-search-design.png)
 
 * **Racine de recherche**
 La valeur par défaut de la racine de recherche lorsqu’un auteur de contenu place le composant Recherche rapide sur une page de contenu.
