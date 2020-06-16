@@ -1,11 +1,11 @@
 ---
 title: Développement des composants principaux
 description: Les composants principaux fournissent des composants de base robustes et extensibles qui offrent de riches fonctionnalités, une diffusion en continu, un contrôle de version des composants, une mise en œuvre moderne, un balisage Lean et une exportation JSON de contenu.
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 6f7166c46940ed451721e0760d565d58efe412ab
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1425'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -78,7 +78,7 @@ Pour plus d’informations sur leurs capacités de création et les options pour
 | Nommage des classes CSS | Convention d’affectation de noms normalisée basée sur la notification [Block Element Modifier](https://getbem.com/) (BEM) (à partir de la version 2.0.0) | Modèles personnalisés |
 | Définition de boîte de dialogue | [Coral 3](https://helpx.adobe.com/fr/experience-manager/6-5/sites/developing/using/reference-materials/coral-ui/coralui3/index.html) | Interface utilisateur Coral 2 + Classique |
 | Sortie JSON | [Exportateur de modèles Sling avec sérialisation Jackson](https://sling.apache.org/documentation/bundles/models.html#exporter-framework-since-130) | Servlet Sling par défaut |
-| Création de versions | [Pour le modèle et le HTL](guidelines.md) | Aucun |
+| Contrôle de version | [Pour le modèle et le HTL](guidelines.md) | Aucun |
 | Tests | Tests unitaires + tests d’intégration | Tests d’intégration |
 | Diffusion | [Via le site GitHub public](https://github.com/adobe/aem-core-wcm-components) | Via Quickstart |
 | Licence | [Licence Apache](https://www.apache.org/licenses/LICENSE-2.0) | Adobe propriétaire |
@@ -118,7 +118,7 @@ Le tableau ci-après répertorie les composants principaux disponibles, les lien
 | [Téléchargement](https://adobe.com/go/aem_cmp_tech_download_v1) | Ajoute une ressource téléchargeable à une page | `-` |
 | [Fragment d’expérience](https://adobe.com/go/aem_cmp_tech_xf_v1) | Ajout d’un fragment d’expérience à une page | `/libs/cq/experience-fragments/editor/components/experiencefragment` |
 | [Incorporer](https://adobe.com/go/aem_cmp_tech_embed_v1) | Incorporation d’une ressource externe dans une page | - |
-| [Barre de progression](https://adobe.com/go/aem_cmp_tech_progress_v1) | Fournir une représentation visuelle des progrès accomplis vers un objectif | - |
+| [Barre de progression](https://adobe.com/go/aem_cmp_tech_progress_v1_fr) | Fournit une représentation visuelle de la progression par rapport à un objectif | - |
 
 ### Composants à venir {#upcoming-components}
 
