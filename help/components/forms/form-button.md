@@ -1,11 +1,11 @@
 ---
 title: Composant de bouton de formulaire
 description: Le composant Masqué du formulaire des composants principaux permet l’inclusion d’un champ masqué dans un formulaire.
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: c186e9ec3944d785ab0376769cf7f2307049a809
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '414'
-ht-degree: 81%
+ht-degree: 100%
 
 ---
 
@@ -49,7 +49,7 @@ La boîte de dialogue de configuration permet à l’auteur de contenu de défin
 
 ### Onglet Propriétés {#properties-tab}
 
-![Boîte de dialogue de modification du composant de bouton de formulaire](/help/assets/form-button-edit.png)
+![Boîte de dialogue de modification du composant Bouton de formulaire](/help/assets/form-button-edit.png)
 
 * **Type**
 
@@ -63,8 +63,8 @@ La boîte de dialogue de configuration permet à l’auteur de contenu de défin
 * **Nom** : nom du bouton qui est envoyé avec les données de formulaire.
 * **Valeur** : valeur du bouton qui est envoyée avec les données de formulaire.
 
-* **ID** : cette option permet de contrôler l&#39;identifiant unique du composant dans le code HTML et dans la couche [de](/help/developing/data-layer/overview.md)données.
-   * Si rien n’est indiqué, un identifiant unique est automatiquement généré et peut être trouvé en examinant la page qui en résulte.
+* **ID** : cette option permet de contrôler l’identifiant unique du composant dans le code HTML ainsi que dans la [couche de données](/help/developing/data-layer/overview.md).
+   * Si rien n’est indiqué, un ID unique est généré automatiquement et peut être trouvé en examinant la page obtenue.
    * Si un ID est spécifié, il incombe à l’auteur de s’assurer qu’il est unique.
    * La modification de l’ID peut avoir un impact sur le suivi CSS, JS et de couche de données.
 
