@@ -1,11 +1,11 @@
 ---
 title: Composant de téléchargement
 description: Le composant de téléchargement des composants principaux permet la création d’une option de téléchargement sur une page.
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: c186e9ec3944d785ab0376769cf7f2307049a809
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '687'
-ht-degree: 86%
+ht-degree: 100%
 
 ---
 
@@ -47,7 +47,7 @@ Vous trouverez plus d’informations sur le développement des composants princi
 
 La boîte de dialogue de configuration permet à l’auteur du contenu de définir l’élément de téléchargement et la façon dont il se comporte et apparaît pour un visiteur sur la page.
 
-![Onglet Ressource de la boîte de dialogue de modification du composant de téléchargement](/help/assets/download-edit-asset.png)
+![Onglet Ressource de la boîte de dialogue de modification du composant Téléchargement](/help/assets/download-edit-asset.png)
 
 ### Onglet Ressources {#asset-tab}
 
@@ -60,7 +60,7 @@ La sélection d’une ressource de téléchargement est très similaire à la fo
 
 ### Onglet Propriétés {#properties-tab}
 
-![Onglet Propriétés de la boîte de dialogue Modifier du composant téléchargé](/help/assets/download-edit-properties.png)
+![Onglet Propriétés de la boîte de dialogue de modification du composant Téléchargement](/help/assets/download-edit-properties.png)
 
 * **Titre** : s’affiche sous forme de titre pour l’élément de téléchargement.
    * **Obtenir le titre de la ressource DAM** : lorsqu’il est sélectionné, le titre est automatiquement renseigné avec celui de la ressource DAM.
@@ -69,8 +69,8 @@ La sélection d’une ressource de téléchargement est très similaire à la fo
 * **Texte d’action** : s’affiche sous forme de texte d’action pour l’élément de téléchargement.
    * Ce champ est obligatoire lors du téléchargement d’une ressource depuis le système de fichiers.
    * **Afficher en ligne** : lorsque cette option est sélectionnée, le **texte d’action** fourni s’affiche en ligne.
-* **ID** : cette option permet de contrôler l&#39;identifiant unique du composant dans le code HTML et dans la couche [de](/help/developing/data-layer/overview.md)données.
-   * Si rien n’est indiqué, un identifiant unique est automatiquement généré et peut être trouvé en examinant la page qui en résulte.
+* **ID** : cette option permet de contrôler l’identifiant unique du composant dans le code HTML ainsi que dans la [couche de données](/help/developing/data-layer/overview.md).
+   * Si rien n’est indiqué, un ID unique est généré automatiquement et peut être trouvé en examinant la page obtenue.
    * Si un ID est spécifié, il incombe à l’auteur de s’assurer qu’il est unique.
    * La modification de l’ID peut avoir un impact sur le suivi CSS, JS et de couche de données.
 
@@ -80,7 +80,7 @@ La boîte de dialogue de conception permet à l’auteur du modèle de définir 
 
 ### Onglet Propriétés {#properties-tab-design}
 
-![Boîte de dialogue de conception du composant de téléchargement](/help/assets/download-design.png)
+![Boîte de dialogue de conception du composant Téléchargement](/help/assets/download-design.png)
 
 * **Autoriser le téléchargement à partir du système de fichiers** : permet à l’auteur du contenu de télécharger une ressource depuis son système de fichiers local comme ressource de téléchargement.
    * La valeur par défaut n’est pas sélectionnée.
