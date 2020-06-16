@@ -1,11 +1,11 @@
 ---
 title: Composant d’accordéon
 description: Le composant d’accordéon des composants principaux permet la création d’un ensemble de panneaux organisés dans un accordéon sur une page.
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: c186e9ec3944d785ab0376769cf7f2307049a809
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1051'
-ht-degree: 79%
+ht-degree: 100%
 
 ---
 
@@ -22,19 +22,19 @@ Le composant d’accordéon des composants principaux permet la création d’un
 * L’ordre des panneaux de l’accordéon peut être défini dans la boîte de dialogue de configuration, ainsi que dans la [fenêtre contextuelle de sélection d’un panneau](#select-panel-popover).
 * Les valeurs par défaut du composant d’accordéon lors de son ajout à une page peuvent être définies dans la [boîte de dialogue de conception](#design-dialog).
 
-## Liaison en profondeur à un panneau {#deep-linking}
+## Liaison profonde vers un panneau {#deep-linking}
 
-Les composants [Accordéon et](tabs.md) Onglets prennent en charge la liaison directe à un panneau dans le composant.
+Les composants Accordéon et [Onglets](tabs.md) prennent en charge la liaison directe à un panneau au sein du composant.
 
 Pour ce faire :
 
-1. Vue de la page avec le composant à l’aide de l’option **[Vue en tant que publication](https://docs.adobe.com/content/help/en/experience-manager-65/authoring/authoring/editing-content.html#view-as-published)**dans l’éditeur de page.
-1. Examinez le contenu de la page et identifiez l’identifiant du panneau.
-   * Par exemple `id="accordion-86196c94d3-item-ca319dbb0b"`
-1. L’identifiant devient l’ancre que vous pouvez ajouter à l’URL à l’aide d’un hachage (`#`).
-   * Par exemple `https://wknd.site/content/wknd/language-masters/en/magazine/western-australia.html#accordion-86196c94d3-item-ca319dbb0b`
+1. Affichez la page avec le composant à l’aide de l’option **[Afficher comme publié(e)](https://docs.adobe.com/content/help/fr-FR/experience-manager-65/authoring/authoring/editing-content.html#view-as-published)**dans l’éditeur de page.
+1. Examinez le contenu de la page et identifiez l’ID du panneau.
+   * Par exemple, `id="accordion-86196c94d3-item-ca319dbb0b"`
+1. L’ID devient l’ancre que vous pouvez ajouter à l’URL à l’aide d’un hachage (`#`).
+   * Par exemple, `https://wknd.site/content/wknd/language-masters/en/magazine/western-australia.html#accordion-86196c94d3-item-ca319dbb0b`
 
-En accédant à l’URL avec l’identifiant de panneau comme ancre, le navigateur fait défiler directement le composant et affiche le panneau spécifié. Si le panneau est configuré pour ne pas être développé par défaut, il sera développé automatiquement.
+En accédant à l’URL avec l’ID de panneau comme ancre, le navigateur fait défiler directement le composant et affiche le panneau spécifié. Si le panneau est configuré pour ne pas être développé par défaut, il sera développé automatiquement.
 
 ## Version et compatibilité {#version-and-compatibility}
 
@@ -64,7 +64,7 @@ La boîte de dialogue de configuration permet à l’auteur de contenu de défin
 
 ### Onglet Éléments {#items-tab}
 
-![Onglet Éléments de la boîte de dialogue de modification du composant d&#39;accordéon](/help/assets/accordion-edit-items.png)
+![Onglet Éléments de la boîte de dialogue de modification du composant Accordéon](/help/assets/accordion-edit-items.png)
 
 Utilisez le bouton **Ajouter** pour ouvrir le sélecteur de composants afin de choisir le composant à ajouter sous forme de panneau. Une fois le composant ajouté, une entrée est ajoutée à la liste qui contient les colonnes suivantes :
 
@@ -79,14 +79,14 @@ Utilisez le bouton **Ajouter** pour ouvrir le sélecteur de composants afin de c
 
 ### Onglet Propriétés {#properties-tab}
 
-![Onglet Propriétés de la boîte de dialogue Modifier du composant Accordéon](/help/assets/accordion-edit-properties.png)
+![Onglet Propriétés de la boîte de dialogue de modification du composant Accordéon](/help/assets/accordion-edit-properties.png)
 
 * **Développement d’un élément unique** : lorsqu’elle est sélectionnée, cette option force le développement d’un seul élément d’accordéon à la fois. Le développement d’un élément réduit alors tous les autres.
 * **Éléments développés** : cette option définit les éléments qui sont développés par défaut lorsque la page est chargée.
    * Lorsque l’option **Développement d’un élément unique** est sélectionnée, un panneau doit être sélectionné. Par défaut, il s’agit du premier panneau.
    * Lorsque l’option **Développement d’un élément unique** n’est pas sélectionnée, cette option propose une sélection multiple et est facultative.
-* **ID** : cette option permet de contrôler l&#39;identifiant unique du composant dans le code HTML et dans la couche [de](/help/developing/data-layer/overview.md)données.
-   * Si rien n’est indiqué, un identifiant unique est automatiquement généré et peut être trouvé en examinant la page qui en résulte.
+* **ID** : cette option permet de contrôler l’identifiant unique du composant dans le code HTML ainsi que dans la [couche de données](/help/developing/data-layer/overview.md).
+   * Si rien n’est indiqué, un ID unique est généré automatiquement et peut être trouvé en examinant la page obtenue.
    * Si un ID est spécifié, il incombe à l’auteur de s’assurer qu’il est unique.
    * La modification de l’ID peut avoir un impact sur le suivi CSS, JS et de couche de données.
 
@@ -94,11 +94,11 @@ Utilisez le bouton **Ajouter** pour ouvrir le sélecteur de composants afin de c
 
 L’auteur du contenu peut utiliser l’option **Sélectionner un panneau** de la barre d’outils du composant pour choisir un panneau différent pour l’édition, ainsi que pour réorganiser l’ordre des panneaux au sein de l’accordéon.
 
-![Icône Sélectionner le panneau](/help/assets/select-panel-icon.png)
+![Icône Sélectionner un panneau](/help/assets/select-panel-icon.png)
 
 Lorsque vous sélectionnez l’option **Sélectionner un panneau** dans la barre d’outils des composants, les panneaux d’accordéon configurés s’affichent sous forme de liste déroulante.
 
-![Sélection du panneau contextuel](/help/assets/select-panel-popover.png)
+![Fenêtre contextuelle Sélectionner un panneau](/help/assets/select-panel-popover.png)
 
 * La liste est triée selon la disposition assignée des panneaux et est répercutée dans la numérotation.
 * Le type de composant du panneau est affiché en premier, suivi de la description du panneau en police plus claire.
