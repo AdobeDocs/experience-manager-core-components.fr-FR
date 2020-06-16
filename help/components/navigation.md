@@ -1,11 +1,11 @@
 ---
 title: Composant Navigation
 description: Le composant Navigation permet aux utilisateurs de parcourir facilement une structure de site globalisée.
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: c186e9ec3944d785ab0376769cf7f2307049a809
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1369'
-ht-degree: 89%
+ht-degree: 100%
 
 ---
 
@@ -120,7 +120,7 @@ Dans la boîte de dialogue de modification, l’auteur du contenu peut définir 
 
 ### Onglet Propriétés {#properties-tab}
 
-![Onglet Modifier les propriétés de la boîte de dialogue du composant de navigation](/help/assets/navigation-edit-properties.png)
+![Onglet Propriétés de la boîte de dialogue de modification du composant Navigation](/help/assets/navigation-edit-properties.png)
 
 * **Racine de navigation** : page racine qui sera utilisée pour générer l’arborescence de navigation.
 * **Exclure les niveaux racine** : il arrive souvent que la racine ne doive pas être incluse dans la navigation. Cette option vous permet de spécifier le nombre de niveaux que vous souhaitez exclure à partir de la racine. Par exemple :
@@ -130,15 +130,15 @@ Dans la boîte de dialogue de modification, l’auteur du contenu peut définir 
    * etc.
 * **Collecter toutes les pages enfants** : collecte toutes les pages qui sont des descendants de la racine de navigation.
 * **Profondeur de la structure de navigation** : définit le nombre de niveaux vers le bas de l’arborescence de navigation que le composant doit afficher par rapport à la racine de navigation (disponible uniquement si **Collecter toutes les pages enfants** n’est pas sélectionné).
-* **Désactiver l&#39;ombrage** : si la page de la hiérarchie est une redirection, le nom de la page de redirection s&#39;affiche à la place de la cible. Pour plus d&#39;informations, consultez la Prise en charge [de la structure du site](#shadow-structure) fantôme.
-* **ID** : cette option permet de contrôler l&#39;identifiant unique du composant dans le code HTML et dans la couche [de](/help/developing/data-layer/overview.md)données.
-   * Si rien n’est indiqué, un identifiant unique est automatiquement généré et peut être trouvé en examinant la page qui en résulte.
+* **Désactiver l’effet d’ombre portée** : si la page de la hiérarchie est une redirection, le nom de la page de redirection s’affiche à la place de la cible. Pour plus d’informations, consultez [Prise en charge de la structure de site fantôme](#shadow-structure).
+* **ID** : cette option permet de contrôler l’identifiant unique du composant dans le code HTML ainsi que dans la [couche de données](/help/developing/data-layer/overview.md).
+   * Si rien n’est indiqué, un ID unique est généré automatiquement et peut être trouvé en examinant la page obtenue.
    * Si un ID est spécifié, il incombe à l’auteur de s’assurer qu’il est unique.
    * La modification de l’ID peut avoir un impact sur le suivi CSS, JS et de couche de données.
 
 ### Onglet Accessibilité {#accessibility-tab}
 
-![Onglet d’accessibilité de la boîte de dialogue de modification du composant de navigation](/help/assets/navigation-edit-accessibility.png)
+![Onglet Accessibilité de la boîte de dialogue de modification du composant Navigation](/help/assets/navigation-edit-accessibility.png)
 
 Dans l’onglet **Accessibilité**, les valeurs peuvent être définies pour les libellés d’[accessibilité ARIA](https://www.w3.org/WAI/standards-guidelines/aria/) du composant.
 
@@ -150,7 +150,7 @@ La boîte de dialogue de conception permet à l’auteur du modèle de définir 
 
 ### Onglet Propriétés {#properties-tab-design}
 
-![Boîte de dialogue de conception du composant de navigation](/help/assets/navigation-design.png)
+![Boîte de dialogue de conception du composant Navigation](/help/assets/navigation-design.png)
 
 * **Racine de navigation** : valeur par défaut de la page racine de la structure de navigation, qui sera utilisée pour générer l’arborescence de navigation. La valeur par défaut est définie lorsque l’auteur du contenu ajoute le composant à la page.
 * **Exclure les niveaux racine** : il arrive souvent que la racine ne doive pas être incluse dans la navigation. Cette option vous permet de spécifier la valeur par défaut du nombre de niveaux que vous souhaitez exclure à partir de la racine. Par exemple :
@@ -160,7 +160,7 @@ La boîte de dialogue de conception permet à l’auteur du modèle de définir 
    * etc.
 * **Collecter toutes les pages enfants** : valeur par défaut de la collecte de toutes les pages qui sont des descendants de la racine de navigation.
 * **Profondeur de la structure de navigation** : valeur par défaut de la profondeur de la structure de navigation.
-* **Désactiver l&#39;ombrage** : valeur par défaut de si l&#39;ombrage doit être désactivé lors de l&#39;ajout d&#39;un composant de navigation
+* **Désactiver l’effet d’ombre portée** : valeur par défaut de l’option indiquant si la fonction fantôme doit être désactivée lors de l’ajout d’un composant Navigation
 
 ### Onglet Styles {#styles-tab}
 
