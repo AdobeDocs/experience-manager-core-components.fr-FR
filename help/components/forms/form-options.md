@@ -1,11 +1,11 @@
 ---
 title: Composant des options de formulaire
 description: Le composant des options de formulaire des composants principaux permet la sélection d’options prédéfinies dans divers formats.
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: c186e9ec3944d785ab0376769cf7f2307049a809
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '547'
-ht-degree: 81%
+ht-degree: 100%
 
 ---
 
@@ -47,7 +47,7 @@ Vous trouverez plus d’informations sur le développement des composants princi
 
 La boîte de dialogue de configuration permet à l’auteur de contenu de définir le type d’options qui doit être présenté, les étiquettes et les options disponibles.
 
-![Boîte de dialogue de modification du composant Options de formulaire](/help/assets/form-options-edit.png)
+![Boîte de dialogue de modification du composant Options du formulaire](/help/assets/form-options-edit.png)
 
 * **Types** : présentation des options.
    * **Cases à cocher**
@@ -63,14 +63,14 @@ La boîte de dialogue de configuration permet à l’auteur de contenu de défin
          * **Texte** : libellé de l’option affichée sur le formulaire.
          * **Active** : l’option est marquée comme étant sélectionnée lors du chargement du formulaire.
          * **Désactivé** : l’option n’est pas sélectionnable mais toujours affichée.
-   * **Liste** : une liste statique définie ailleurs dans AEM est utilisée pour les options.
+   * **Liste** : liste statique définie ailleurs dans AEM et utilisée pour les options.
       * **Liste** : chemin d’accès à la liste statique dans AEM.
          * Utilisez le bouton Parcourir pour localiser la ressource de liste.
    * **Source de données** : une source de données est utilisée pour les options.
-      * **Source** de données - Type de ressource de la source de données
+      * **Source de données** : type de ressource de la source de données.
 * **Message d’aide** : conseil à l’intention de l’utilisateur sur ce qui peut être entré dans le champ.
-* **ID** : cette option permet de contrôler l&#39;identifiant unique du composant dans le code HTML et dans la couche [de](/help/developing/data-layer/overview.md)données.
-   * Si rien n’est indiqué, un identifiant unique est automatiquement généré et peut être trouvé en examinant la page qui en résulte.
+* **ID** : cette option permet de contrôler l’identifiant unique du composant dans le code HTML ainsi que dans la [couche de données](/help/developing/data-layer/overview.md).
+   * Si rien n’est indiqué, un ID unique est généré automatiquement et peut être trouvé en examinant la page obtenue.
    * Si un ID est spécifié, il incombe à l’auteur de s’assurer qu’il est unique.
    * La modification de l’ID peut avoir un impact sur le suivi CSS, JS et de couche de données.
 
