@@ -1,11 +1,11 @@
 ---
 title: Composant de chemin de navigation
 description: Le composant de chemin de navigation des composants principaux est un composant de navigation qui crée un chemin de navigation des liens en fonction de l’emplacement de la page dans la hiérarchie du contenu.
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: c186e9ec3944d785ab0376769cf7f2307049a809
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '713'
-ht-degree: 81%
+ht-degree: 100%
 
 ---
 
@@ -51,7 +51,7 @@ Vous trouverez plus d’informations sur le développement des composants princi
 
 La boîte de dialogue de modification permet à l’auteur de contenu de supprimer les pages masquées et actives dans les chemins de navigation ainsi que la profondeur de la hiérarchie qu’elle doit afficher.
 
-![Boîte de dialogue de modification du composant de chemin de navigation](/help/assets/breadcrumb-edit.png)
+![Boîte de dialogue de modification du composant Chemin de navigation](/help/assets/breadcrumb-edit.png)
 
 * **Niveau de départ de la navigation** : à quel niveau dans la hiérarchie le composant de chemin de navigation doit commencer à descendre jusqu’à la page actuelle. Par exemple, dans We.Retail :
 
@@ -60,10 +60,10 @@ La boîte de dialogue de modification permet à l’auteur de contenu de supprim
    * 2 commence à `/content/<yourSite>/<country>`
 
 * **Afficher les éléments de navigation masqués** : affichez les pages marquées comme étant masquées dans le chemin de navigation (elles ne sont pas affichées par défaut).
-* **Masquer la page active** : supprimez la page actuelle dans le chemin de navigation (par défaut, elle s’affiche).
-* **Désactiver l&#39;ombrage** : si la page de la hiérarchie est une redirection, le nom de la page de redirection s&#39;affiche à la place de la cible. Pour plus d&#39;informations, consultez la Prise en charge [de la structure du site](navigation.md#shadow-structure) fantôme du composant Navigation.
-* **ID** : cette option permet de contrôler l&#39;identifiant unique du composant dans le code HTML et dans la couche [de](/help/developing/data-layer/overview.md)données.
-   * Si rien n’est indiqué, un identifiant unique est automatiquement généré et peut être trouvé en examinant la page qui en résulte.
+* **Masquer la page active** : supprime la page actuelle dans le chemin de navigation (par défaut, elle s’affiche).
+* **Désactiver l’effet d’ombre portée** : si la page de la hiérarchie est une redirection, le nom de la page de redirection s’affiche à la place de la cible. Pour plus d’informations, consultez [Prise en charge de la structure de site fantôme](navigation.md#shadow-structure) du composant Navigation.
+* **ID** : cette option permet de contrôler l’identifiant unique du composant dans le code HTML ainsi que dans la [couche de données](/help/developing/data-layer/overview.md).
+   * Si rien n’est indiqué, un ID unique est généré automatiquement et peut être trouvé en examinant la page obtenue.
    * Si un ID est spécifié, il incombe à l’auteur de s’assurer qu’il est unique.
    * La modification de l’ID peut avoir un impact sur le suivi CSS, JS et de couche de données.
 
@@ -84,7 +84,7 @@ La boîte de dialogue de conception permet à l’auteur du modèle de définir 
 
    * Cela n’active ou ne désactive pas l’option de l’auteur. Cela définit uniquement la valeur par défaut.
 
-* **Désactiver l&#39;ombrage** : définit la valeur par défaut de l&#39;option **Désactiver l&#39;ombrage** lorsque le composant de chemin de navigation est ajouté à une page.
+* **Désactiver l’effet d’ombre portée** : définit la valeur par défaut de l’option **Désactiver l’effet d’ombre portée** lorsque le composant Chemin de navigation est ajouté à une page.
 
 ### Onglet Styles {#styles-tab}
 
