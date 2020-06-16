@@ -1,11 +1,11 @@
 ---
 title: Composant du séparateur
 description: Le composant du séparateur crée un saut entre les composants d’une page.
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: c186e9ec3944d785ab0376769cf7f2307049a809
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '304'
-ht-degree: 74%
+ht-degree: 100%
 
 ---
 
@@ -40,10 +40,10 @@ Vous trouverez plus d’informations sur le développement des composants princi
 
 ## Boîte de dialogue de configuration {#configure-dialog}
 
-![Boîte de dialogue de modification du composant séparateur](/help/assets/separator-edit.png)
+![Boîte de dialogue de modification du composant Séparateur](/help/assets/separator-edit.png)
 
-* **ID** : cette option permet de contrôler l&#39;identifiant unique du composant dans le code HTML et dans la couche [de](/help/developing/data-layer/overview.md)données.
-   * Si rien n’est indiqué, un identifiant unique est automatiquement généré et peut être trouvé en examinant la page qui en résulte.
+* **ID** : cette option permet de contrôler l’identifiant unique du composant dans le code HTML ainsi que dans la [couche de données](/help/developing/data-layer/overview.md).
+   * Si rien n’est indiqué, un ID unique est généré automatiquement et peut être trouvé en examinant la page obtenue.
    * Si un ID est spécifié, il incombe à l’auteur de s’assurer qu’il est unique.
    * La modification de l’ID peut avoir un impact sur le suivi CSS, JS et de couche de données.
 
