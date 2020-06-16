@@ -1,11 +1,11 @@
 ---
 title: Composant de bouton
 description: Le composant de bouton des composants principaux permet de créer et d’afficher un bouton.
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: c186e9ec3944d785ab0376769cf7f2307049a809
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '438'
-ht-degree: 79%
+ht-degree: 100%
 
 ---
 
@@ -49,20 +49,20 @@ La boîte de dialogue de configuration permet à l’auteur du contenu de défin
 
 ### Onglet Propriétés {#properties-tab}
 
-![Onglet Propriétés de la boîte de dialogue Modifier du composant de bouton](/help/assets/button-edit-properties.png)
+![Onglet Propriétés de la boîte de dialogue de modification du composant Bouton](/help/assets/button-edit-properties.png)
 
 * **Texte** : texte à afficher sur le bouton.
 * **Lien** : lien vers une page de contenu dans AEM, une ressource externe ou une ancre.
    * Utilisez la **boîte de dialogue de sélection** pour choisir un chemin dans AEM.
 * **Icône** : identificateur pour l’affichage d’une icône dans le bouton.
-* **ID** : cette option permet de contrôler l&#39;identifiant unique du composant dans le code HTML et dans la couche [de](/help/developing/data-layer/overview.md)données.
-   * Si rien n’est indiqué, un identifiant unique est automatiquement généré et peut être trouvé en examinant la page qui en résulte.
+* **ID** : cette option permet de contrôler l’identifiant unique du composant dans le code HTML ainsi que dans la [couche de données](/help/developing/data-layer/overview.md).
+   * Si rien n’est indiqué, un ID unique est généré automatiquement et peut être trouvé en examinant la page obtenue.
    * Si un ID est spécifié, il incombe à l’auteur de s’assurer qu’il est unique.
    * La modification de l’ID peut avoir un impact sur le suivi CSS, JS et de couche de données.
 
 ### Onglet Accessibilité {#accessibility-tab}
 
-![Onglet Accessibilité de la boîte de dialogue Modifier du composant Bouton](/help/assets/button-edit-accessibility.png)
+![Onglet Accessibilité de la boîte de dialogue de modification du composant Bouton](/help/assets/button-edit-accessibility.png)
 
 Dans l’onglet **Accessibilité**, les valeurs peuvent être définies pour les libellés d’[accessibilité ARIA](https://www.w3.org/WAI/standards-guidelines/aria/) du composant.
 
