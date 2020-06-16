@@ -1,11 +1,11 @@
 ---
 title: Composant de texte de formulaire
 description: Le composant de texte de formulaire des composants principaux permet l’entrée de texte de formulaire pour envoi.
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: c186e9ec3944d785ab0376769cf7f2307049a809
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '579'
-ht-degree: 81%
+ht-degree: 100%
 
 ---
 
@@ -61,15 +61,15 @@ La boîte de dialogue de configuration permet à l’auteur de contenu de défin
 * **Étiquette** : libellé qui s’affiche pour le champ.
 * **Masquer l’étiquette** : nécessaire si l’étiquette est requise uniquement à des fins d’accessibilité et ne transmet aucune information visuelle supplémentaire sur le champ.
 * **Nom de l’élément** : nom du champ qui est envoyé avec les données de formulaire.
-* **Valeur** - Valeur par défaut préremplie dans le champ
-* **ID** : cette option permet de contrôler l&#39;identifiant unique du composant dans le code HTML et dans la couche [de](/help/developing/data-layer/overview.md)données.
-   * Si rien n’est indiqué, un identifiant unique est automatiquement généré et peut être trouvé en examinant la page qui en résulte.
+* **Valeur** : valeur par défaut prérenseignée dans le champ.
+* **ID** : cette option permet de contrôler l’identifiant unique du composant dans le code HTML ainsi que dans la [couche de données](/help/developing/data-layer/overview.md).
+   * Si rien n’est indiqué, un ID unique est généré automatiquement et peut être trouvé en examinant la page obtenue.
    * Si un ID est spécifié, il incombe à l’auteur de s’assurer qu’il est unique.
    * La modification de l’ID peut avoir un impact sur le suivi CSS, JS et de couche de données.
 
 ### Onglet À propos {#about-tab}
 
-![Onglet A propos](/help/assets/form-text-edit-about.png)
+![Onglet À propos](/help/assets/form-text-edit-about.png)
 
 * **Message d’aide** : conseil à l’intention de l’utilisateur sur ce qui peut être entré dans le champ.
 * **Afficher le message d’aide comme espace réservé** : indique s’il convient d’afficher le message d’aide dans l’entrée de formulaire lorsqu’elle est vide et désactivée.
@@ -82,11 +82,11 @@ La boîte de dialogue de configuration permet à l’auteur de contenu de défin
    * Message affiché sous forme d’info-bulle lors de l’envoi du formulaire si la valeur ne valide pas le type sélectionné
    * Non affiché pour les types de contraintes **Texte** et **Zone de texte**.
 * **Requis** : indique si l’utilisateur doit renseigner une valeur avant d’envoyer le formulaire.
-   * **Message** requis - Message affiché sous forme d&#39;info-bulle si le champ est vide
+   * **Message obligatoire** : message affiché sous forme d’info-bulle si le champ est vide.
 * **Rendre en lecture seule** : si cette option est sélectionnée, l’utilisateur ne peut pas modifier la valeur du champ.
 
 ## Boîte de dialogue de conception {#design-dialog}
 
 ### Onglet Styles {#styles-tab}
 
-The Form Text Component supports the AEM [Style System](/help/get-started/authoring.md#component-styling).
+Le composant Texte de formulaire prend en charge le [système de style](/help/get-started/authoring.md#component-styling) AEM.
