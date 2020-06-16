@@ -1,11 +1,11 @@
 ---
 title: Composant Liste
 description: Le composant principal Liste permet de créer facilement des listes dynamiques et statiques.
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: c186e9ec3944d785ab0376769cf7f2307049a809
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '968'
-ht-degree: 80%
+ht-degree: 100%
 
 ---
 
@@ -41,7 +41,7 @@ La documentation technique la plus récente sur le composant de liste [se trouve
 
 Vous trouverez plus d’informations sur le développement des composants principaux dans la [documentation destinée aux développeurs de composants principaux](/help/developing/overview.md).
 
-## Boîte de dialogue de modification{#edit-dialog}
+## Boîte de dialogue de modification {#edit-dialog}
 
 La boîte de dialogue de modification permet à l’auteur du contenu de configurer la liste et les éléments de la liste.
 
@@ -54,7 +54,7 @@ La liste peut être générée de différentes manières.
 * [Recherche](#search-options)
 * [Balises](#tags)
 
-Regardless of how the list is built, there are [Sort and ID Options](#sort-options) that can always be configured.
+Quelle que soit la façon dont la liste est créée, il existe des [options de tri et d’ID](#sort-options) qui peuvent toujours être configurées.
 
 ![Boîte de dialogue de modification du composant Liste](/help/assets/list-edit.png)
 
@@ -89,7 +89,7 @@ Appuyez ou cliquez sur le bouton **Ajouter** pour insérer un nouvel élément d
 
 La liste peut être créée à l’aide des résultats d’une recherche de contenu AEM.
 
-![Options de la liste de recherche](/help/assets/list-edit-search.png)
+![Options de liste de recherche](/help/assets/list-edit-search.png)
 
 * **Requête de recherche**
 Chaîne pour laquelle une recherche de texte intégral est exécutée afin de générer les éléments de la liste.
@@ -102,7 +102,7 @@ L’emplacement où la recherche doit être exécutée.
 
 La liste peut être créée à l’aide de pages qui correspondent à certaines balises sous un emplacement particulier.
 
-![Options de la liste Balises](/help/assets/list-edit-tags.png)
+![Options de liste de balises](/help/assets/list-edit-tags.png)
 
 * **Page parente**
 Où la correspondance des balises doit commencer.
@@ -133,8 +133,8 @@ Ordre dans lequel les éléments doivent être triés.
 * **Nombre maximal d’éléments**
 Nombre maximal d’éléments affichés dans la liste.
    * Laissez vide pour renvoyer tous les éléments.
-* **ID** : cette option permet de contrôler l&#39;identifiant unique du composant dans le code HTML et dans la couche [de](/help/developing/data-layer/overview.md)données.
-   * Si rien n’est indiqué, un identifiant unique est automatiquement généré et peut être trouvé en examinant la page qui en résulte.
+* **ID** : cette option permet de contrôler l’identifiant unique du composant dans le code HTML ainsi que dans la [couche de données](/help/developing/data-layer/overview.md).
+   * Si rien n’est indiqué, un ID unique est généré automatiquement et peut être trouvé en examinant la page obtenue.
    * Si un ID est spécifié, il incombe à l’auteur de s’assurer qu’il est unique.
    * La modification de l’ID peut avoir un impact sur le suivi CSS, JS et de couche de données.
 
@@ -161,22 +161,29 @@ Dans l’onglet **Paramètres de liste**, le format de date peut être défini e
 
 ![Paramètre de liste de la boîte de dialogue de conception du composant Liste](/help/assets/list-design-list-settings.png)
 
-* **Format de la date**
+* **Format de date**
 Format à utiliser pour l’affichage de la date de la dernière modification.
-* **Désactiver les enfants** Désactiver le type de liste enfant dans le composant
-* **Désactiver le type de liste statique** Désactiver le type de  statique dans le composant
-* **Désactiver la recherche** Désactiver le type de liste de recherche dans le composant
-* **Désactivation des balises** Désactivation du type de liste de balises dans le composant
+* **Désactiver les enfants**
+Désactive le type de liste enfant dans le composant.
+* **Désactiver statique**
+Désactive le type de liste statique dans le composant.
+* **Désactiver la recherche**
+Désactive le type de liste de recherche dans le composant.
+* **Désactiver les balises**
+Désactive le type de liste de balises dans le composant.
 
 ### Paramètres d’élément {#item-settings}
 
 Dans l’onglet **Paramètres d’élément**, les options de formatage des éléments de liste individuels qui doivent être disponibles dans le composant pour les auteurs de contenu peuvent être définies.
 
-![Paramètres des éléments de la boîte de dialogue de conception du composant Liste](/help/assets/list-design-item-settings.png)
+![Paramètre d’élément de la boîte de dialogue de conception du composant Liste](/help/assets/list-design-item-settings.png)
 
-* **Lier les éléments** Activer l’option Lier les éléments dans la boîte de dialogue [Modifier](#edit-dialog)
-* **Afficher les descriptions** Activer l’option Afficher les descriptions dans la boîte de dialogue [Modifier](#edit-dialog)
-* **Afficher la date** Activer l’option Afficher la date dans la boîte de dialogue [modifier](#edit-dialog)
+* **Lier des éléments**
+Activez l’option Lier des éléments dans la [boîte de dialogue de modification](#edit-dialog).
+* **Afficher les descriptions**
+Activez l’option Afficher les descriptions dans la [boîte de dialogue de modification](#edit-dialog).
+* **Afficher la date**
+Activez l’option Afficher la date dans la [boîte de dialogue de modification](#edit-dialog).
 
 ### Onglet Styles {#styles-tab}
 
