@@ -1,11 +1,11 @@
 ---
 title: Composant de conteneur de formulaires
 description: Le composant de conteneur de formulaires des composants principaux permet la création de formulaires d’envoi simples.
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: c186e9ec3944d785ab0376769cf7f2307049a809
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '805'
-ht-degree: 84%
+ht-degree: 100%
 
 ---
 
@@ -62,7 +62,7 @@ Quel que soit le type, il existe des [paramètres généraux](#general-settings)
 
 Lorsque le formulaire est envoyé, le type d’action courrier envoie un e-mail aux destinataires désignés.
 
-![Options de messagerie dans la boîte de dialogue de modification du composant de Conteneur de formulaire](/help/assets/form-container-edit-mail.png)
+![Options de courrier dans la boîte de dialogue de modification du composant Conteneur de formulaire](/help/assets/form-container-edit-mail.png)
 
 * **Objet** : objet de l’e-mail qui sera envoyé lors de l’envoi du formulaire.
 * **De** : adresse e-mail de l’expéditeur de l’e-mail qui sera envoyé lors de l’envoi du formulaire.
@@ -77,7 +77,7 @@ Lorsque le formulaire est envoyé, le type d’action courrier envoie un e-mail 
 
 Lorsque le formulaire est envoyé, le contenu du formulaire est stocké dans un emplacement de référentiel désigné.
 
-![Options de stockage du contenu dans la boîte de dialogue de modification du Conteneur de formulaire](/help/assets/form-container-edit-store.png)
+![Options de stockage du contenu dans la boîte de dialogue de modification du conteneur de formulaire](/help/assets/form-container-edit-store.png)
 
 * **Chemin d’accès au contenu** : chemin d’accès au référentiel de contenu où le contenu envoyé est stocké.
 * **Afficher les données** : appuyez ou cliquez sur cette option pour afficher les données envoyées stockées sous la forme JSON.
@@ -87,14 +87,14 @@ Lorsque le formulaire est envoyé, le contenu du formulaire est stocké dans un 
 
 Quelle que soit le type d’action sélectionné, une page de remerciement peut toujours être définie.
 
-![Options générales dans la boîte de dialogue de modification du composant de Conteneur de formulaire](/help/assets/form-container-edit-general.png)
+![Options générales dans la boîte de dialogue de modification du composant Conteneur de formulaire](/help/assets/form-container-edit-general.png)
 
-* **Page** de remerciement : l’utilisateur sera redirigé vers la page spécifiée une fois l’envoi du formulaire terminé.
+* **Page de remerciement** : l’utilisateur est redirigé vers la page spécifiée une fois l’envoi du formulaire terminé.
    * Utilisez la boîte de dialogue de sélection pour sélectionner une ressource dans AEM.
    * Si la page de remerciement ne figure pas dans AEM, indiquez l’URL absolue. Les URL non absolues seront interprétées par rapport à AEM.
    * Laissez vide pour réafficher le formulaire après envoi.
-* **ID** : cette option permet de contrôler l&#39;identifiant unique du composant dans le code HTML et dans la couche [de](/help/developing/data-layer/overview.md)données.
-   * Si rien n’est indiqué, un identifiant unique est automatiquement généré et peut être trouvé en examinant la page qui en résulte.
+* **ID** : cette option permet de contrôler l’identifiant unique du composant dans le code HTML ainsi que dans la [couche de données](/help/developing/data-layer/overview.md).
+   * Si rien n’est indiqué, un ID unique est généré automatiquement et peut être trouvé en examinant la page obtenue.
    * Si un ID est spécifié, il incombe à l’auteur de s’assurer qu’il est unique.
    * La modification de l’ID peut avoir un impact sur le suivi CSS, JS et de couche de données.
 
@@ -104,4 +104,4 @@ La boîte de dialogue de conception permet à l’auteur du modèle de définir 
 
 ### Onglet Styles {#styles-tab}
 
-The Form Container Component supports the AEM [Style System](/help/get-started/authoring.md#component-styling).
+Le composant Conteneur de formulaire prend en charge le [système de style](/help/get-started/authoring.md#component-styling) AEM.
