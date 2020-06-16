@@ -1,11 +1,11 @@
 ---
 title: Composant Masqué du formulaire
 description: Le composant Masqué du formulaire des composants principaux permet l’affichage d’un champ masqué.
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: c186e9ec3944d785ab0376769cf7f2307049a809
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '430'
-ht-degree: 78%
+ht-degree: 100%
 
 ---
 
@@ -47,21 +47,21 @@ Vous trouverez plus d’informations sur le développement des composants princi
 
 La boîte de dialogue de configuration permet à l’auteur de contenu de définir les paramètres du champ masqué.
 
-![Boîte de dialogue de modification masquée du formulaire](/help/assets/form-hidden-edit.png)
+![Boîte de dialogue de modification de formulaire maqué](/help/assets/form-hidden-edit.png)
 
 * **Nom** : nom du champ qui est envoyé avec les données de formulaire.
 * **Valeur** : valeur du champ qui est envoyée avec les données de formulaire.
-* **ID** : cette option permet de contrôler l&#39;identifiant unique du composant dans le code HTML et dans la couche [de](/help/developing/data-layer/overview.md)données.
-   * Si rien n’est indiqué, un identifiant unique est automatiquement généré et peut être trouvé en examinant la page qui en résulte.
+* **ID** : cette option permet de contrôler l’identifiant unique du composant dans le code HTML ainsi que dans la [couche de données](/help/developing/data-layer/overview.md).
+   * Si rien n’est indiqué, un ID unique est généré automatiquement et peut être trouvé en examinant la page obtenue.
    * Si un ID est spécifié, il incombe à l’auteur de s’assurer qu’il est unique.
    * La modification de l’ID peut avoir un impact sur le suivi CSS, JS et de couche de données.
 
-Étant donné que le composant Masqué du formulaire ne comporte normalement aucun attribut visible, l’espace réservé du composant dans l’éditeur affiche les valeurs des champs **Nom** et **Valeur** si elles sont affectées pour aider l’auteur à identifier le composant Masqué du formulaire approprié.
+Étant donné que le composant Formulaire masqué ne comporte normalement aucun attribut visible, l’espace réservé du composant dans l’éditeur affiche les valeurs des champs **Nom** et **Valeur** si elles sont affectées pour aider l’auteur à identifier le composant Formulaire masqué approprié.
 
-![Exemple de composant masqué de formulaire](/help/assets/form-hidden-example.png)
+![Exemple de composant Formulaire masqué](/help/assets/form-hidden-example.png)
 
 ## Boîte de dialogue de conception {#design-dialog}
 
 ### Onglet Styles {#styles-tab}
 
-The Form Hidden Component supports the AEM [Style System](/help/get-started/authoring.md#component-styling).
+Le composant Formulaire masqué prend en charge le [système de style](/help/get-started/authoring.md#component-styling) AEM.
