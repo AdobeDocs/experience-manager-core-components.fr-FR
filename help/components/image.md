@@ -1,11 +1,11 @@
 ---
 title: Composant d’image
 description: Le composant d’image des composants principaux est un composant d’image adaptatif qui permet d’effectuer des modifications statiques.
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: c186e9ec3944d785ab0376769cf7f2307049a809
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1934'
-ht-degree: 92%
+ht-degree: 100%
 
 ---
 
@@ -49,7 +49,7 @@ Les composants SVG (Scalable Vector Graphics) sont pris en charge par le composa
 
 ### Sécurité {#security}
 
-Pour des raisons de sécurité, l’éditeur d’image ne fait jamais appel au fichier SVG d’origine. Il est appelé par `<img src=“path-to-component”>` Cela empêche le navigateur d’exécuter les scripts incorporés dans le fichier SVG.
+Pour des raisons de sécurité, l’éditeur d’image ne fait jamais appel au fichier SVG d’origine. Il est appelé par `<img src=“path-to-component”>`. Cela empêche le navigateur d’exécuter les scripts incorporés dans le fichier SVG.
 
 >[!CAUTION]
 >
@@ -75,7 +75,7 @@ Outre la [boîte de dialogue de modification](#edit-dialog) et la [boîte de dia
 
 ### Onglet Ressources {#asset-tab}
 
-![Onglet Ressource de la boîte de dialogue de configuration du composant d’image](/help/assets/image-configure-asset.png)
+![Onglet Ressource de la boîte de dialogue de configuration du composant Image](/help/assets/image-configure-asset.png)
 
 * **Ressource image**
    * Déposez un fichier depuis l’[explorateur de ressources](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/sites/authoring/fundamentals/environment-tools.html) ou appuyez sur l’option **parcourir** pour effectuer un téléchargement à partir d’un système de fichiers local.
@@ -84,7 +84,7 @@ Outre la [boîte de dialogue de modification](#edit-dialog) et la [boîte de dia
 
 ### Onglet Métadonnées {#metadata-tab}
 
-![Onglet Métadonnées de la boîte de dialogue de configuration du composant d’image](/help/assets/image-configure-metadata.png)
+![Onglet Métadonnées de la boîte de dialogue de configuration du composant Image](/help/assets/image-configure-metadata.png)
 
 * **L’image est décorative**
 Vérifiez si l’image doit être ignorée par les dispositifs d’assistance et ne requiert donc pas de texte de remplacement. Cela s’applique uniquement aux images décoratives.
@@ -104,8 +104,8 @@ Si cette option est activée, la légende ne s’affiche pas sous l’image, mai
    * Utilisez la boîte de dialogue de sélection pour créer un lien vers une autre ressource AEM.
    * Si vous ne créez pas de lien vers une ressource AEM, saisissez l’URL absolue. Les URL non absolues seront interprétées comme relatives à AEM.
 
-* **ID** : cette option permet de contrôler l&#39;identifiant unique du composant dans le code HTML et dans la couche [de](/help/developing/data-layer/overview.md)données.
-   * Si rien n’est indiqué, un identifiant unique est automatiquement généré et peut être trouvé en examinant la page qui en résulte.
+* **ID** : cette option permet de contrôler l’identifiant unique du composant dans le code HTML ainsi que dans la [couche de données](/help/developing/data-layer/overview.md).
+   * Si rien n’est indiqué, un ID unique est généré automatiquement et peut être trouvé en examinant la page obtenue.
    * Si un ID est spécifié, il incombe à l’auteur de s’assurer qu’il est unique.
    * La modification de l’ID peut avoir un impact sur le suivi CSS, JS et de couche de données.
 
@@ -113,11 +113,11 @@ Si cette option est activée, la légende ne s’affiche pas sous l’image, mai
 
 La boîte de dialogue de modification permet à l’auteur du contenu de recadrer, de modifier la carte de lancement et de zoomer sur l’image.
 
-![Boîte de dialogue de modification du composant d’image](/help/assets/image-edit.png)
+![Boîte de dialogue de modification du composant Image](/help/assets/image-edit.png)
 
 * Commencer recadrage
 
-   ![Icône de recadrage du Début](/help/assets/image-start-crop.png)
+   ![Icône Commencer recadrage](/help/assets/image-start-crop.png)
 
    Cette option ouvre une liste déroulante pour les proportions de recadrage prédéfinies.
 
@@ -129,21 +129,21 @@ La boîte de dialogue de modification permet à l’auteur du contenu de recadre
 
 * Rotation à droite
 
-   ![Icône de rotation à droite](/help/assets/image-rotate-right.png)
+   ![Icône Rotation à droite](/help/assets/image-rotate-right.png)
 
    Utilisez cette option pour faire pivoter l’image de 90° vers la droite (dans le sens horaire).
 
 * Rotation horizontale
 
-   ![Icône Retourner horizontalement](/help/assets/image-flip-horizontal.png)
+   ![Icône Rotation horizontale](/help/assets/image-flip-horizontal.png)
 
    Utilisez cette option pour retourner l’image horizontalement ou faire pivoter l’image de 180° sur l’axe Y.
 
 * Rotation verticale
 
-   ![Icône Retourner verticalement](/help/assets/image-flip-vertical.png)
+   ![Icône Rotation verticale](/help/assets/image-flip-vertical.png)
 
-   Utilisez cette option pour retourner l’image verticalement ou faire pivoter l’image de 180° sur l’axe X.
+   Utilisez cette option pour retourner l’image verticalement ou faire pivoter l’image de 180° sur l’axe X.
 
 * Réinitialiser le zoom
 
@@ -153,7 +153,7 @@ La boîte de dialogue de modification permet à l’auteur du contenu de recadre
 
 * Ouvrir le curseur de zoom
 
-   ![Icône du curseur de zoom ouvert](/help/assets/image-zoom.png)
+   ![Icône Ouvrir le curseur de zoom](/help/assets/image-zoom.png)
 
    Utilisez cette option pour afficher un curseur permettant de contrôler le niveau de zoom de l’image.
 
@@ -177,7 +177,7 @@ Dans l’onglet **Principal**, vous pouvez définir une liste de largeurs en pix
 
 En outre, vous pouvez définir quelles options de composant générales sont automatiquement activées ou désactivées lorsque l’auteur ajoute le composant à une page.
 
-![Onglet principal de la boîte de dialogue de conception du composant d’image](/help/assets/image-design-main.png)
+![Onglet principal de la boîte de dialogue de conception du composant Image](/help/assets/image-design-main.png)
 
 * **Activer le chargement différé**
 Définissez si l’option de chargement différé est activée automatiquement lors de l’ajout du composant d’image à une page.
@@ -216,13 +216,13 @@ Sur l’onglet **Fonctionnalités**, vous pouvez définir les options disponible
 
 * Source
 
-   ![Boîte de dialogue de conception du composant d’image, onglet Fonctionnalités](/help/assets/image-design-features-source.png)
+   ![Onglet Fonctionnalités de la boîte de dialogue de conception du composant Image](/help/assets/image-design-features-source.png)
 
    Sélectionnez l’option **Autoriser le transfert des ressources depuis le système de fichiers** pour permettre aux auteurs de contenu de télécharger des images à partir de leur ordinateur local. Pour forcer les auteurs de contenu à sélectionner uniquement des ressources à partir d’AEM, désactivez cette option.
 
 * Orientation
 
-   ![Boîte de dialogue de conception du composant d’image, onglet Fonctionnalités](/help/assets/image-design-features-orientation.png)
+   ![Onglet Fonctionnalités de la boîte de dialogue de conception du composant Image](/help/assets/image-design-features-orientation.png)
 
 * **Rotation**
 Utilisez cette option pour permettre à l’auteur de contenu d’utiliser l’option **Rotation à droite**.
@@ -235,7 +235,7 @@ Utilisez cette option pour permettre à l’auteur de contenu d’utiliser les o
 
 * Recadrage
 
-   ![Boîte de dialogue de conception du composant d’image, onglet Fonctionnalités](/help/assets/image-design-features-cropping.png)
+   ![Onglet Fonctionnalités de la boîte de dialogue de conception du composant Image](/help/assets/image-design-features-cropping.png)
 
    Sélectionnez l’option **Autoriser le recadrage** pour permettre à l’auteur du contenu de recadrer l’image dans le composant au sein de la boîte de dialogue de modification.
    * Cliquez sur **Ajouter** pour ajouter des proportions de recadrage prédéfinies.
