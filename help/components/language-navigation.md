@@ -1,11 +1,11 @@
 ---
 title: Composant de navigation par langue
 description: Le composant de navigation par langue fournit une navigation par langue/pays pour un site, de sorte que les visiteurs puissent accéder à la même page dans un autre paramètre régional.
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: c186e9ec3944d785ab0376769cf7f2307049a809
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '832'
-ht-degree: 86%
+ht-degree: 100%
 
 ---
 
@@ -53,7 +53,7 @@ En règle générale, ces configurations doivent être effectuées uniquement au
 
 ### Onglet Propriétés {#properties-tab}
 
-![Boîte de dialogue de conception du composant de navigation linguistique](/help/assets/language-navigation-design.png)
+![Boîte de dialogue de conception du composant Navigation par langue](/help/assets/language-navigation-design.png)
 
 * **Racine de navigation**
    * C’est là que doit commencer la navigation par langue du site.
@@ -83,7 +83,7 @@ Imaginons que votre contenu ressemble à ceci :
 \-- wknd-shop
 ```
 
-Pour le WKND du site, vous souhaiterez probablement placer le composant Navigation linguistique sur un modèle de page dans l’en-tête. Une fois qu’il fait partie du modèle, vous pouvez définir la **racine de navigation** du composant sur `/content/wknd` puisque c’est là où commence le contenu localisé de ce site. Vous souhaiteriez également définir la **Profondeur de la structure de langue** sur `2` puisqu’il s’agit d’une structure à deux niveaux (pays puis langue).
+Pour le site WKND, il est probable que vous souhaitiez placer le composant Navigation par langue sur un modèle de page dans le cadre de l’en-tête. Une fois qu’il fait partie du modèle, vous pouvez définir la **racine de navigation** du composant sur `/content/wknd` puisque c’est là où commence le contenu localisé de ce site. Vous souhaiteriez également définir la **Profondeur de la structure de langue** sur `2` puisqu’il s’agit d’une structure à deux niveaux (pays puis langue).
 
 Avec la valeur **Racine de navigation**, le composant Langue sait que la navigation commence après `/content/wknd` et il peut générer des options de navigation par langue en reconnaissant les deux niveaux suivants dans l’arborescence de contenu en tant que structure de navigation de langue du site (comme défini par la valeur **Profondeur de la structure de langue**).
 
@@ -97,10 +97,10 @@ Le composant Navigation par langue prend en charge le [système de style](/help/
 
 En règle générale, le composant Navigation par langue doit uniquement être ajouté et configuré sur les modèles de page d’un site. Cependant, si le composant Navigation par langue doit être ajouté à une page de contenu, la boîte de dialogue de modification permet à un auteur de contenu de configurer les mêmes valeurs, comme décrit dans la [boîte de dialogue de conception](#design-dialog).
 
-De plus, vous pouvez définir un **ID**. Cette option permet de contrôler l&#39;identifiant unique du composant dans le code HTML et dans la couche [de](/help/developing/data-layer/overview.md)données.
+De plus, vous pouvez définir un **ID**. Cette option permet de contrôler l’identifiant unique du composant dans le code HTML et dans la [couche de données](/help/developing/data-layer/overview.md).
 
-* Si rien n’est indiqué, un identifiant unique est automatiquement généré et peut être trouvé en examinant la page qui en résulte.
+* Si rien n’est indiqué, un ID unique est généré automatiquement et peut être trouvé en examinant la page obtenue.
 * Si un ID est spécifié, il incombe à l’auteur de s’assurer qu’il est unique.
 * La modification de l’ID peut avoir un impact sur le suivi CSS, JS et de couche de données.
 
-![Boîte de dialogue de modification du composant de navigation linguistique](/help/assets/language-navigation-edit.png)
+![Boîte de dialogue de modification du composant Navigation par langue](/help/assets/language-navigation-edit.png)
