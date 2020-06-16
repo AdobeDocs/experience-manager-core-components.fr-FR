@@ -5,7 +5,7 @@ translation-type: tm+mt
 source-git-commit: c07dc21b1973ec541a1d96047f8a30aca8cfb886
 workflow-type: tm+mt
 source-wordcount: '181'
-ht-degree: 91%
+ht-degree: 97%
 
 ---
 
@@ -69,10 +69,10 @@ ht-degree: 91%
    + [Tutoriel du développeur WKND](https://docs.adobe.com/content/help/en/experience-manager-learn/getting-started-wknd-tutorial-develop/overview.html)
    + [Personnalisation des composants principaux](developing/customizing.md)
    + [Instructions relatives aux composants](developing/guidelines.md)
-   + Couche de données client Adobe {#data-layer}
+   + Adobe Client Data Layer {#data-layer}
       + [Composants principaux et couche de données client Adobe](developing/data-layer/overview.md)
-      + [Intégration au lancement Adobe](developing/data-layer/launch-integration.md)
-      + [Intégration avec Adobe Analytics](developing/data-layer/analytics-integration.md)
+      + [Intégration à Adobe Launch](developing/data-layer/launch-integration.md)
+      + [Intégration à Adobe Analytics](developing/data-layer/analytics-integration.md)
    + Archétype de projet AEM {#archetype}
       + [Présentation de l&#39;archétype](developing/archetype/overview.md)
       + [Utilisation de l’archétype](developing/archetype/using.md)
