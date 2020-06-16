@@ -1,11 +1,11 @@
 ---
 title: Composant de liste de fragments de contenu
 description: Le composant de liste de fragments de contenu des composants principaux permet d’afficher une liste de fragments de contenu.
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: c186e9ec3944d785ab0376769cf7f2307049a809
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '762'
-ht-degree: 87%
+ht-degree: 100%
 
 ---
 
@@ -51,7 +51,7 @@ La boîte de dialogue de configuration permet à l’auteur du contenu de défin
 
 L’onglet **Propriétés** définit les fragments de contenu inclus dans la liste. Cela repose principalement sur un modèle de fragment de contenu sélectionné, mais il existe d’autres options de filtrage disponibles.
 
-![Onglet Propriétés de la boîte de dialogue Modifier du composant de Liste de fragments de contenu](/help/assets/content-fragment-list-properties.png)
+![Onglet Propriétés de la boîte de dialogue de modification du composant Liste de fragments de contenu](/help/assets/content-fragment-list-properties.png)
 
 * **Modèle** : chemin d’accès au modèle de fragment de contenu sur lequel repose la liste.
    * Par défaut, tous les fragments de contenu du modèle définis comme **chemin d’accès au modèle** sont inclus dans la liste.
@@ -67,8 +67,8 @@ L’onglet **Propriétés** définit les fragments de contenu inclus dans la lis
    * Croissant ou décroissant
 * **Nombre max. d’éléments** : nombre maximal d’éléments à afficher dans la liste
    * Aucune valeur ne renverra tous les éléments.
-* **ID** : cette option permet de contrôler l&#39;identifiant unique du composant dans le code HTML et dans la couche [de](/help/developing/data-layer/overview.md)données.
-   * Si rien n’est indiqué, un identifiant unique est automatiquement généré et peut être trouvé en examinant la page qui en résulte.
+* **ID** : cette option permet de contrôler l’identifiant unique du composant dans le code HTML ainsi que dans la [couche de données](/help/developing/data-layer/overview.md).
+   * Si rien n’est indiqué, un ID unique est généré automatiquement et peut être trouvé en examinant la page obtenue.
    * Si un ID est spécifié, il incombe à l’auteur de s’assurer qu’il est unique.
    * La modification de l’ID peut avoir un impact sur le suivi CSS, JS et de couche de données.
 
@@ -77,9 +77,9 @@ L’onglet **Propriétés** définit les fragments de contenu inclus dans la lis
 
 ### Onglet Éléments
 
-Par défaut, tous les éléments du modèle de fragment de contenu seront inclus dans la liste (sauf si le champ **Nombre max. d’éléments** applique une limite). L’onglet **Éléments** permet de spécifier quelques éléments spécifiques à inclure.
+Par défaut, tous les éléments du modèle de fragment de contenu seront inclus dans la liste (sauf si le champ **Nombre max. d’éléments** applique une limite). L’onglet **Éléments** permet de spécifier des éléments spécifiques à inclure.
 
-![Onglet Eléments de la boîte de dialogue Modifier du composant de Liste de fragments de contenu](/help/assets/content-fragment-list-elements.png)
+![Onglet Éléments de la boîte de dialogue de modification du composant Liste de fragments de contenu](/help/assets/content-fragment-list-elements.png)
 
 * **Éléments** : seuls les éléments des fragments de contenu figurant dans la liste spécifiée apparaissent.
    * Cliquez ou appuyez sur le bouton **Ajouter** pour ajouter un nouvel élément.
