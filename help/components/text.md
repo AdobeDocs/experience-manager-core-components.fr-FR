@@ -1,11 +1,11 @@
 ---
 title: Composant textuel
 description: Le composant Texte est un composant d’édition et de composition de texte enrichi qui propose une édition statique.
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: c186e9ec3944d785ab0376769cf7f2307049a809
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2202'
-ht-degree: 89%
+ht-degree: 100%
 
 ---
 
@@ -57,7 +57,7 @@ Le reste de cet article illustre la configuration standard du composant principa
 
 La boîte de dialogue de modification propose les outils standard de mise en forme de texte enrichi qu’un utilisateur devrait utiliser pour composer du texte.
 
-![Boîte de dialogue de modification du composant de texte](/help/assets/text-edit.png)
+![Boîte de dialogue de modification du composant Texte](/help/assets/text-edit.png)
 
 ### Gras
 
@@ -97,13 +97,13 @@ Utilisé pour mettre en forme le texte ou le texte sélectionné après le curse
 
 ### Coller en tant que texte
 
-![Coller comme icône de texte](/help/assets/text-paste-text.png)
+![Icône Coller en tant que texte](/help/assets/text-paste-text.png)
 
 Colle le texte copié en tant que texte brut sans mise en forme.
 
 Lorsque vous sélectionnez cette option, une fenêtre s’ouvre où le texte peut être collé en tant que texte brut sans formatage en tant qu’aperçu avant d’être inséré dans le texte. Acceptez en appuyant ou en cliquant sur la coche, annulez en appuyant ou en cliquant sur le x.
 
-![Coller comme exemple de texte](/help/assets/text-paste-text-example.png)
+![Exemple de collage en tant que texte](/help/assets/text-paste-text-example.png)
 
 ### Coller à partir de Word
 
@@ -111,7 +111,7 @@ Lorsque vous sélectionnez cette option, une fenêtre s’ouvre où le texte peu
 
 Lorsque vous sélectionnez cette option, une fenêtre s’ouvre où le texte peut être collé, en conservant sa mise en forme en tant qu’aperçu avant de l’insérer dans le texte. Acceptez en appuyant ou en cliquant sur la coche, annulez en appuyant ou en cliquant sur le x.
 
-![Coller à partir de l&#39;exemple Word](/help/assets/text-paste-word-example.png)
+![Exemple de collage à partir de Word](/help/assets/text-paste-word-example.png)
 
 ### Lien hypertexte
 
@@ -121,10 +121,10 @@ Utilisez cette option pour convertir le texte sélectionné en hyperlien ou modi
 
 ![Exemple d’hyperlien](/help/assets/text-hyperlink-example.png)
 
-* Entrer le chemin
-   * Utilisation de la boîte de dialogue Ouvrir la sélection pour choisir un chemin dans AEM
+* Entrez le chemin.
+   * Utilisez la boîte de dialogue Ouvrir la sélection pour choisir un chemin dans AEM.
    * Si le lien ne se trouve pas dans AEM, saisissez l’URL absolue.
-      * Les chemins non absolus sont interprétés comme relatifs à AEM
+      * Les chemins non absolus sont interprétés comme relatifs à AEM.
 * Saisissez un autre texte descriptif pour le lien.
 * Sélectionner le comportement des liens
    * Cible
@@ -136,7 +136,7 @@ Utilisez cette option pour convertir le texte sélectionné en hyperlien ou modi
 
 ### Dissocier
 
-![Icône Annuler le lien](/help/assets/text-unlink.png)
+![Icône Dissocier](/help/assets/text-unlink.png)
 
 Utilisez cette option pour supprimer un lien déjà appliqué au texte sélectionné. Cette option est uniquement active lorsqu’un lien est déjà sélectionné.
 
@@ -152,11 +152,11 @@ Entrez le texte pour lequel vous souhaitez effectuer des recherches et appuyez o
 Si vous souhaitez effectuer une correspondance exacte, sélectionnez l’option **Correspondance avec la casse** avant de lancer la recherche.
 Si une correspondance est trouvée, elle est mise en surbrillance et le dialogue de recherche est grisé. Appuyez ou cliquez à nouveau sur le bouton **Rechercher** dans la boîte de dialogue grisée pour rechercher l’occurrence suivante.
 
-![Exemple de recherche trouvé](/help/assets/text-find-example-found.png)
+![Exemple de recherche fructueuse](/help/assets/text-find-example-found.png)
 
 Si aucune occurrence supplémentaire n’est trouvée, un message s’affiche et la recherche redémarre à partir du début du texte.
 
-![Rechercher un exemple plus d&#39;occurrences](/help/assets/text-find-example-found-end.png)
+![Exemple de recherche sans occurrence restante](/help/assets/text-find-example-found-end.png)
 
 ### Remplacer
 
@@ -170,7 +170,7 @@ Entrez le texte à rechercher ainsi que le texte avec lequel le remplacer.
 
 * Appuyez ou cliquez sur **Rechercher** pour lancer la recherche. Cliquez ou appuyez sur le x pour annuler.
 * Si vous souhaitez effectuer une correspondance exacte, sélectionnez l’option **Correspondance avec la casse** avant de lancer la recherche.
-* Sélectionnez **Remplacer tout** pour remplacer toutes les occurrences du texte à la fois.
+* Sélectionnez **Tout remplacer** pour remplacer toutes les occurrences du texte à la fois.
 
 Si une correspondance est trouvée, elle est mise en surbrillance et le dialogue de recherche est grisé. Cliquez à nouveau sur le bouton **Rechercher** dans la boîte de dialogue grisée pour rechercher l’occurrence suivante ou sélectionner le bouton **Remplacer** pour remplacer le texte mis en surbrillance. Notez que le bouton **Remplacer** n’est actif qu’une fois qu’une correspondance est trouvée.
 
@@ -189,7 +189,7 @@ Utilisé pour aligner le texte sur la marge gauche.
 
 ### Texte centré
 
-![Icône Centrer le texte](/help/assets/text-center.png)
+![Icône Texte centré](/help/assets/text-center.png)
 
 Utilisé pour centrer le texte.
 
@@ -209,7 +209,7 @@ Pour mettre fin à une liste à puces, appuyez ou cliquez de nouveau sur le bout
 
 ### Numérotée
 
-![Icône liste numérotée](/help/assets/text-numbered.png)
+![Icône Liste numérotée](/help/assets/text-numbered.png)
 
 Utilisé pour mettre en forme le texte sélectionné sous forme de liste numérotée ou commencer l’insertion d&#39;une liste numérotée après le curseur.
 
@@ -217,7 +217,7 @@ Pour mettre fin à une liste numérotée, appuyez ou cliquez de nouveau sur le b
 
 ### Retrait négatif
 
-![Icône Retrait](/help/assets/text-outdent.png)
+![Icône Retrait négatif](/help/assets/text-outdent.png)
 
 Utilisé pour diminuer le niveau de mise en retrait du texte sélectionné ou du texte entré après le curseur.
 
@@ -241,9 +241,9 @@ Utilisé pour insérer un tableau dans le texte. Cette option permet d’ouvrir 
 * **Lignes** - Nombre de lignes du tableau (obligatoire).
 * **Largeur** - Largeur totale du tableau.
 * **Hauteur** - Hauteur totale du tableau.
-* **Marge intérieure** des cellules - Espace autour du contenu des cellules
+* **Marge intérieure des cellules** - espace autour du contenu de la cellule.
 * **Espacement des cellules** - Espacement entre les cellules.
-* **Bordure** - Poids des lignes de bordure du tableau.
+* **Bordure** - Épaisseur des lignes de bordure du tableau.
    * Si pour l’en-tête du tableau :
       * La première ligne doit être utilisée
       * La première colonne doit être utilisée
@@ -253,7 +253,7 @@ Utilisé pour insérer un tableau dans le texte. Cette option permet d’ouvrir 
 
 ### Vérifier l’orthographe
 
-![Vérifier l’orthographe](/help/assets/text-spellcheck.png)
+![Icône Vérifier l’orthographe](/help/assets/text-spellcheck.png)
 
 Permet de vérifier l’orthographe du contenu du texte. Les fautes de frappe possibles sont soulignées avec des lignes rouges rompues.
 
@@ -271,7 +271,7 @@ Appuyez ou cliquez sur le caractère souhaité pour l’insérer dans le texte a
 
 ### Modification de la source
 
-![Icône de modification de la source](/help/assets/text-source.png)
+![Icône Modification de la source](/help/assets/text-source.png)
 
 Utilisé pour afficher et modifier la source HTML du texte.
 
@@ -303,9 +303,9 @@ Le composant de texte peut également être modifié en ligne mais en raison des
 
 ### Définition et ID {#setting-id}
 
-Cette option permet de contrôler l&#39;identifiant unique du composant dans le code HTML et dans la couche [de](/help/developing/data-layer/overview.md)données.
+Cette option permet de contrôler l’identifiant unique du composant dans le code HTML et dans la [couche de données](/help/developing/data-layer/overview.md).
 
-* Si rien n’est indiqué, un identifiant unique est automatiquement généré et peut être trouvé en examinant la page qui en résulte.
+* Si rien n’est indiqué, un ID unique est généré automatiquement et peut être trouvé en examinant la page obtenue.
 * Si un ID est spécifié, il incombe à l’auteur de s’assurer qu’il est unique.
 * La modification de l’ID peut avoir un impact sur le suivi CSS, JS et de couche de données.
 
@@ -319,7 +319,7 @@ L’onglet Plugins permet d’activer et de désactiver diverses options de form
 
 ### Fonctionnalités {#features}
 
-![Fonctionnalités de la boîte de dialogue de création](/help/assets/text-design-features.png)
+![Fonctionnalités de la boîte de dialogue de conception](/help/assets/text-design-features.png)
 
 Les fonctionnalités suivantes peuvent être activées ou désactivées pour le composant.
 
@@ -327,25 +327,25 @@ Les fonctionnalités suivantes peuvent être activées ou désactivées pour le 
 * Coller à partir de Word
 * Rechercher et remplacer
 * Vérificateur orthographique
-* Options de modification d’image insérées
+* Options de modification des images insérées
 * Modification de la source HTML
 
-### Formatage {#formatting}
+### Mise en forme {#formatting}
 
-![Mise en forme des boîtes de dialogue de conception](/help/assets/text-design-formatting.png)
+![Mise en forme de la boîte de dialogue de conception](/help/assets/text-design-formatting.png)
 
 Les options de formatage suivantes peuvent être activées ou désactivées pour le composant.
 
 * Tableau
-* Listes (puce, nombre, retrait, retrait)
+* Listes  (puce, numéro, retrait, retrait négatif)
 * Alignement (gauche, droite, centré)
 * Gras, italique, souligné
-* Liaison (et dissociation)
+* Lien (et dissociation)
 * Indice/exposant
 
 ### Styles de paragraphe {#paragraph-styles}
 
-![Conception des styles de paragraphe de la boîte de dialogue](/help/assets/text-design-paragraph.png)
+![Styles de paragraphe de la boîte de dialogue de conception](/help/assets/text-design-paragraph.png)
 
 Les styles de paragraphe peuvent être activés ou désactivés pour le composant. Lorsque cette option est activée, les formats autorisés peuvent être définis.
 
@@ -356,7 +356,7 @@ Les styles de paragraphe peuvent être activés ou désactivés pour le composan
 
 ### Caractères spéciaux {#configuring-special-characters}
 
-![Caractères spéciaux de la boîte de dialogue de création](/help/assets/text-design-special-characters.png)
+![Caractères spéciaux de la boîte de dialogue de conception](/help/assets/text-design-special-characters.png)
 
 L’option permettant d’insérer des caractères spéciaux peut être activée ou désactivée pour le composant. Lorsque cette option est activée, les caractères autorisés peuvent être définis.
 
