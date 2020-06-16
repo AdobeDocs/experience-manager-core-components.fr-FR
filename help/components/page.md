@@ -1,18 +1,18 @@
 ---
 title: Composant de page
 description: Le composant de page est un composant de page extensible, conçu pour fonctionner avec l’éditeur de modèles et autoriser l’assemblage de composants d’en-tête/de pied de page et de structure à l’aide de l’éditeur de modèles.
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: c186e9ec3944d785ab0376769cf7f2307049a809
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '666'
-ht-degree: 89%
+ht-degree: 100%
 
 ---
 
 
 # Composant de page{#page-component}
 
-Le composant de page est un composant de page extensible conçu pour fonctionner avec l’[éditeur de modèles](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/sites/authoring/features/templates.html) et permet l’assemblage de composants d’en-tête/de pied de page et de structure à l’aide de l’éditeur de modèles.
+Le composant de page est un composant de page extensible conçu pour fonctionner avec l’[éditeur de modèles](https://docs.adobe.com/content/help/fr-FR/experience-manager-cloud-service/sites/authoring/features/templates.html) et permet l’assemblage de composants d’en-tête/de pied de page et de structure à l’aide de l’éditeur de modèles.
 
 ## Utilisation {#usage}
 
@@ -43,7 +43,7 @@ La documentation technique la plus récente sur le composant Page [se trouve sur
 
 Vous trouverez plus d’informations sur le développement des composants principaux dans la [documentation destinée aux développeurs de composants principaux](/help/developing/overview.md).
 
-## Boîte de dialogue de modification{#edit-dialog}
+## Boîte de dialogue de modification {#edit-dialog}
 
 Étant donné que le composant représente la page entière, les paramètres qui seraient normalement dans une boîte de dialogue de modification se trouvent dans la fenêtre [Propriétés de la page](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/sites/authoring/fundamentals/page-properties.html).
 
@@ -61,16 +61,16 @@ Vous trouverez plus d’informations sur le développement des composants princi
 
 À l’aide de la fenêtre Conception de page, vous pouvez définir les bibliothèques clientes à charger ainsi que la bibliothèque de ressources Web pour la page.
 
-* **Bibliothèques** clientes : définit les catégories de bibliothèque cliente à charger. JavaScript est ajouté à la fin du corps et le CSS est ajouté à l’en-tête de la page.
-* **Bibliothèques clientes en-tête** de page JavaScript : définit les catégories de bibliothèque cliente JavaScript à charger dans l&#39;en-tête de page.
+* **Bibliothèques clientes** : cette option définit les catégories de bibliothèques clientes à charger. JavaScript est ajouté à la fin du corps et le CSS est ajouté à l’en-tête de la page.
+* **En-tête de page JavaScript des bibliothèques clientes** : cette option définit les catégories de bibliothèques clientes JavaScript à charger dans l’en-tête de la page.
    * Les catégories définies ici et qui sont aussi présentes dans le champ **Bibliothèques clientes** ont le code JavaScript chargé dans l’en-tête de la page et non dans la fin du corps.
    * Aucun CSS ne sera chargé, sauf si la catégorie est également présente dans le champ **Bibliothèques clientes**.
 
-* **Bibliothèque** cliente des ressources Web - catégorie de bibliothèque cliente utilisée pour fournir des ressources Web telles que des faveurs.
+* **Bibliothèque cliente des ressources web** : catégorie de bibliothèque cliente utilisée pour distribuer des ressources web telles que des favicons.
 
-* **Passer au sélecteur** d’éléments de contenu principal - Utilisé comme fonction d’accessibilité pour passer directement au contenu principal de la page.
+* **Passer au sélecteur d’élément de contenu principal** : utilisé comme fonction d’accessibilité pour passer directement au contenu principal de la page.
 
-![Boîte de dialogue de conception de composant de page](/help/assets/page-design.png)
+![Boîte de dialogue de conception du composant Page](/help/assets/page-design.png)
 
 Les bibliothèques peuvent être configurées pour les champs **Bibliothèques clientes** et **En-tête de page JavaScript des bibliothèques clientes** de la manière suivante :
 
