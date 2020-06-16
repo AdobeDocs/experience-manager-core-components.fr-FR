@@ -1,11 +1,11 @@
 ---
 title: Composant Teaser
 description: Le composant Teaser peut afficher une image, un titre, un texte enrichi et éventuellement un lien vers un contenu supplémentaire.
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: c186e9ec3944d785ab0376769cf7f2307049a809
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '751'
-ht-degree: 64%
+ht-degree: 100%
 
 ---
 
@@ -36,7 +36,7 @@ Pour tester le composant Teaser et obtenir des exemples de ses options de config
 
 ### Détails techniques {#technical-details}
 
-La documentation technique la plus récente sur le composant du teaser [se trouve sur GitHub](https://adobe.com/go/aem_cmp_tech_teaser_v1).
+La documentation technique la plus récente sur le composant Teaser [se trouve sur GitHub](https://adobe.com/go/aem_cmp_tech_teaser_v1).
 
 Vous trouverez plus d’informations sur le développement des composants principaux dans la [documentation destinée aux développeurs de composants principaux](/help/developing/overview.md).
 
@@ -46,7 +46,7 @@ L’auteur du contenu peut utiliser la boîte de dialogue de configuration pour 
 
 ### Image {#image}
 
-![Onglet d’image de la boîte de dialogue de modification du composant Teaser](/help/assets/teaser-edit-image.png)
+![Onglet Image de la boîte de dialogue de modification du composant Teaser](/help/assets/teaser-edit-image.png)
 
 * **Ressource image**
    * Déposez un fichier depuis l’[explorateur de ressources](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/sites/authoring/fundamentals/environment-tools.html) ou appuyez sur l’option **parcourir** pour effectuer un téléchargement à partir d’un système de fichiers local.
@@ -55,24 +55,24 @@ L’auteur du contenu peut utiliser la boîte de dialogue de configuration pour 
 
 ### Texte {#text}
 
-![Onglet Modifier la boîte de dialogue du composant Teaser](/help/assets/teaser-edit-text.png)
+![Onglet Texte de la boîte de dialogue de modification du composant Teaser](/help/assets/teaser-edit-text.png)
 
-* **Prétitre** - Le prétitre s&#39;affiche avant le titre du teaser.
-* **Titre** - Définit un titre à afficher en tant que titre pour le teaser.
-   * **Obtenir le titre de la page** liée : lorsque cette option est sélectionnée, le titre est renseigné avec le titre de la page liée.
-* **Description** - Définit une description à afficher en tant que sous-titre du teaser.
-   * **Obtenir la description à partir de la page** liée : si cette option est cochée, la description sera renseignée avec la description de la page liée.
-* **ID** : cette option permet de contrôler l&#39;identifiant unique du composant dans le code HTML et dans la couche [de](/help/developing/data-layer/overview.md)données.
-   * Si rien n’est indiqué, un identifiant unique est automatiquement généré et peut être trouvé en examinant la page qui en résulte.
+* **Prétitre** : s’affiche avant le titre du teaser.
+* **Titre** : titre à afficher comme titre du teaser.
+   * **Obtenir le titre de la page liée** : lorsque cette option est cochée, le titre de la page liée est utilisé comme titre.
+* **Description** : définit une description à afficher sous forme de sous-titre du teaser.
+   * **Obtenir la description de la page liée** : lorsque cette option est cochée, la description de la page liée est utilisée comme description.
+* **ID** : cette option permet de contrôler l’identifiant unique du composant dans le code HTML ainsi que dans la [couche de données](/help/developing/data-layer/overview.md).
+   * Si rien n’est indiqué, un ID unique est généré automatiquement et peut être trouvé en examinant la page obtenue.
    * Si un ID est spécifié, il incombe à l’auteur de s’assurer qu’il est unique.
    * La modification de l’ID peut avoir un impact sur le suivi CSS, JS et de couche de données.
 
 ### Liens et actions {#links-actions}
 
-![Onglet de lien de la boîte de dialogue Modifier du composant Teaser](/help/assets/teaser-edit-link.png)
+![Onglet Lien de la boîte de dialogue de modification du composant Teaser](/help/assets/teaser-edit-link.png)
 
-* **Lien** - Lien appliqué au teaser. Utilisez le navigateur de chemins pour sélectionner la cible du lien.
-* **Activer les appels à l&#39;action** : lorsque cette option est cochée, elle active la définition des appels à l&#39;action. Le premier lien Appel à action de la liste est utilisé comme lien pour d’autres éléments de teaser.
+* **Lien** : lien appliqué au teaser. Utilisez le navigateur de chemins pour sélectionner la cible du lien.
+* **Activer les appels à l’action** : lorsque cette option est cochée, elle permet la définition d’appels à l’action. Le premier lien Appel à action de la liste est utilisé comme lien pour d’autres éléments de teaser.
 
 ## Boîte de dialogue de modification {#edit-dialog}
 
@@ -87,17 +87,17 @@ La boîte de dialogue de conception permet à l’auteur du modèle de définir 
 ![Boîte de dialogue de conception du composant Teaser](/help/assets/teaser-design.png)
 
 * **Appels à l’action**
-   * **Désactiver les appels à l&#39;action** - Masquer l&#39;option **Appel à l&#39;action** pour les auteurs de contenu
-* **Eléments**
-   * **Masquer le prétitre** - Masque l’option de **prétitre** pour les auteurs de contenu
-   * **Masquer le titre** - Masque l&#39;option **Titre** pour les auteurs de contenu
-      * Lorsqu’il est sélectionné, **le type de titre** est masqué.
-   * **Masquer la description** - Masquer l&#39;option **Description** pour les auteurs de contenu
-* **Type** de titre : définit la balise H à utiliser par le titre du teaser.
+   * **Désactiver les appels à l’action** : masque l’option **Appels à l’action** pour les auteurs de contenu.
+* **Éléments**
+   * **Masquer le prétitre** : masque l’option **Prétitre** pour les auteurs de contenu.
+   * **Masquer le titre** : masque l’option **Titre** pour les auteurs de contenu.
+      * Lorsque cette option est sélectionnée, le **Type de titre** est masqué.
+   * **Masquer la description** : masque l’option **Description** pour les auteurs de contenu.
+* **Type de titre** : définit la balise H que le titre du teaser doit utiliser.
 * **Liens**
-   * **Ne pas lier l&#39;image** : lorsque cette option est sélectionnée, l&#39;image de teaser n&#39;est pas liée.
-   * **Ne pas lier le titre** - Lorsqu&#39;il est sélectionné, le titre du teaser n&#39;est pas lié
-* **Image Delegate** - Affichage d’informations indiquant à quel composant le Teaser délègue la gestion des images.
+   * **Ne pas lier l’image** : lorsque cette option est sélectionnée, l’image de teaser n’est pas liée.
+   * **Ne pas lier le titre** : lorsque cette option est sélectionnée, le titre du teaser n’est pas lié.
+* **Délégué d’image** : affichage d’informations indiquant à quel composant le teaser délègue la gestion des images.
 
 ### Onglet Styles {#styles-tab}
 
