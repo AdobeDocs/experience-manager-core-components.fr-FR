@@ -1,11 +1,11 @@
 ---
 title: Composant Onglets
 description: Le composant Onglets permet la création de plusieurs onglets pour disposer le contenu sur une page.
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: c186e9ec3944d785ab0376769cf7f2307049a809
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1026'
-ht-degree: 78%
+ht-degree: 100%
 
 ---
 
@@ -24,21 +24,21 @@ La [boîte de dialogue de modification](#edit-dialog) permet à l’auteur de co
 >
 >Les composants d’onglets imbriqués (onglets dans les onglets) sont pris en charge.
 >
->Les composants des onglets simples (non imbriqués) peuvent être localisés/sélectionnés à l’aide de l’[arborescence de contenu](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/sites/authoring/fundamentals/environment-tools.html#content-tree), mais les onglets imbriqués ne peuvent pas l’être.
+>Les composants des onglets simples (non imbriqués) peuvent être localisés/sélectionnés à l’aide de l’[arborescence de contenu](https://docs.adobe.com/content/help/fr-FR/experience-manager-cloud-service/sites/authoring/fundamentals/environment-tools.html#content-tree), mais les onglets imbriqués ne peuvent pas l’être.
 
-## Liaison en profondeur à un panneau {#deep-linking}
+## Liaison profonde vers un panneau {#deep-linking}
 
-Les composants [Tabs et](accordion.md) Accordéon prennent en charge la liaison directe à un panneau dans le composant.
+Les composants Onglets et [Accordéon](accordion.md) prennent en charge la liaison directe à un panneau au sein du composant.
 
 Pour ce faire :
 
-1. Vue de la page avec le composant à l’aide de l’option **[Vue en tant que publication](https://docs.adobe.com/content/help/en/experience-manager-65/authoring/authoring/editing-content.html#view-as-published)**dans l’éditeur de page.
-1. Examinez le contenu de la page et identifiez l’identifiant du panneau.
-   * Par exemple `id="accordion-86196c94d3-item-ca319dbb0b"`
-1. L’identifiant devient l’ancre que vous pouvez ajouter à l’URL à l’aide d’un hachage (`#`).
-   * Par exemple `https://wknd.site/content/wknd/language-masters/en/magazine/western-australia.html#accordion-86196c94d3-item-ca319dbb0b`
+1. Affichez la page avec le composant à l’aide de l’option **[Afficher comme publié(e)](https://docs.adobe.com/content/help/fr-FR/experience-manager-65/authoring/authoring/editing-content.html#view-as-published)**dans l’éditeur de page.
+1. Examinez le contenu de la page et identifiez l’ID du panneau.
+   * Par exemple, `id="accordion-86196c94d3-item-ca319dbb0b"`
+1. L’ID devient l’ancre que vous pouvez ajouter à l’URL à l’aide d’un hachage (`#`).
+   * Par exemple, `https://wknd.site/content/wknd/language-masters/en/magazine/western-australia.html#accordion-86196c94d3-item-ca319dbb0b`
 
-En accédant à l’URL avec l’identifiant de panneau comme ancre, le navigateur fait défiler directement le composant et affiche le panneau spécifié. Si le panneau est configuré pour ne pas être développé par défaut, il sera développé automatiquement.
+En accédant à l’URL avec l’ID de panneau comme ancre, le navigateur fait défiler directement le composant et affiche le panneau spécifié. Si le panneau est configuré pour ne pas être développé par défaut, il sera développé automatiquement.
 
 ## Version et compatibilité {#version-and-compatibility}
 
@@ -62,13 +62,13 @@ La documentation technique la plus récente sur le composant Onglets [se trouve 
 
 Vous trouverez plus d’informations sur le développement des composants principaux dans la [documentation destinée aux développeurs de composants principaux](/help/developing/overview.md).
 
-## Boîte de dialogue de modification{#edit-dialog}
+## Boîte de dialogue de modification {#edit-dialog}
 
 La boîte de dialogue de modification permet à l’auteur de contenu de créer, renommer et réorganiser les onglets et de définir l’onglet actif.
 
 ### Onglet Éléments {#items-tab}
 
-![Onglet Modifier les éléments de boîte de dialogue du composant Onglets](/help/assets/tabs-edit-items.png)
+![Onglet Éléments de la boîte de dialogue de modification du composant Onglets](/help/assets/tabs-edit-items.png)
 
 Utilisez le bouton **Ajouter** pour ouvrir le sélecteur de composants afin de choisir le composant à ajouter sous forme d’onglet. Une fois le composant ajouté, une entrée est ajoutée à la liste qui contient les colonnes suivantes :
 
@@ -83,18 +83,18 @@ Utilisez le bouton **Ajouter** pour ouvrir le sélecteur de composants afin de c
 
 ### Onglet Propriétés {#properties-tab}
 
-![Onglet Modifier les propriétés de la boîte de dialogue de modification du composant Onglet](/help/assets/tabs-edit-properties.png)
+![Onglet Propriétés de la boîte de dialogue de modification du composant Onglets](/help/assets/tabs-edit-properties.png)
 
-* **Élément** actif : l&#39;auteur du contenu peut définir l&#39;onglet actif lors du chargement de la page.
+* **Élément actif** : l’auteur du contenu peut définir quel onglet est actif lorsque la page est chargée.
    * Avec l’option **Par défaut**, le premier onglet est sélectionné.
-* **ID** : cette option permet de contrôler l&#39;identifiant unique du composant dans le code HTML et dans la couche [de](/help/developing/data-layer/overview.md)données.
-   * Si rien n’est indiqué, un identifiant unique est automatiquement généré et peut être trouvé en examinant la page qui en résulte.
+* **ID** : cette option permet de contrôler l’identifiant unique du composant dans le code HTML ainsi que dans la [couche de données](/help/developing/data-layer/overview.md).
+   * Si rien n’est indiqué, un ID unique est généré automatiquement et peut être trouvé en examinant la page obtenue.
    * Si un ID est spécifié, il incombe à l’auteur de s’assurer qu’il est unique.
    * La modification de l’ID peut avoir un impact sur le suivi CSS, JS et de couche de données.
 
 ### Onglet Accessibilité {#accessibility-tab}
 
-![Onglet Modifier la boîte de dialogue d&#39;accessibilité du composant Onglet Modifier](/help/assets/tabs-edit-accessibility.png)
+![Onglet Accessibilité de la boîte de dialogue de modification du composant Onglets](/help/assets/tabs-edit-accessibility.png)
 
 Dans l’onglet **Accessibilité**, les valeurs peuvent être définies pour les libellés d’[accessibilité ARIA](https://www.w3.org/WAI/standards-guidelines/aria/) du composant.
 
@@ -104,14 +104,14 @@ Dans l’onglet **Accessibilité**, les valeurs peuvent être définies pour les
 
 L’auteur du contenu peut utiliser l’option **Sélectionner un panneau** la barre d’outils du composant pour choisir un panneau différent, ainsi que pour réorganiser l’ordre des onglets.
 
-![Icône Sélectionner le panneau](/help/assets/select-panel-icon.png)
+![Icône Sélectionner un panneau](/help/assets/select-panel-icon.png)
 
 Lorsque vous sélectionnez l’option **Sélectionner un panneau** dans la barre d’outils du composant, les onglets configurés s’affichent sous forme de liste déroulante.
 
 * La liste est classée en fonction de la disposition des onglets et est reflétée dans la numérotation.
 * Le type de composant de l’onglet est affiché en premier, suivi de la description de l’onglet une police plus claire.
 
-![Sélection du panneau contextuel](/help/assets/select-panel-popover.png)
+![Fenêtre contextuelle Sélectionner un panneau](/help/assets/select-panel-popover.png)
 
 * Vous pouvez commuter la vue de l’éditeur dans cet onglet en appuyant ou en cliquant sur une entrée dans la liste déroulante.
 * Vous pouvez réorganiser les onglets statiques à l’aide des poignées de glissement.
@@ -128,7 +128,7 @@ La boîte de dialogue de conception permet à l’auteur du modèle de définir 
 
 L’onglet **Composants autorisés** permet de définir quels composants peuvent être ajoutés en tant qu’éléments au composant Onglets par l’auteur du contenu.
 
-L’onglet Composants autorisés fonctionne de la même manière que l’onglet du même nom lors de la [définition de la stratégie et des propriétés d’un conteneur de mises en page dans l’éditeur de modèles](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/sites/authoring/features/templates.html).
+L’onglet Composants autorisés fonctionne de la même manière que l’onglet du même nom lors de la [définition de la stratégie et des propriétés d’un conteneur de mises en page dans l’éditeur de modèles](https://docs.adobe.com/content/help/fr-FR/experience-manager-cloud-service/sites/authoring/features/templates.html).
 
 ### Onglet Styles {#styles-tab}
 
