@@ -1,11 +1,11 @@
 ---
 title: Composant du titre
 description: Le composant du titre des composants principaux est un composant d’en-tête de section qui comporte des fonctions d’édition statique.
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: c186e9ec3944d785ab0376769cf7f2307049a809
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '558'
-ht-degree: 84%
+ht-degree: 100%
 
 ---
 
@@ -41,19 +41,19 @@ La documentation technique la plus récente sur le composant Titre [se trouve su
 
 Vous trouverez plus d’informations sur le développement des composants principaux dans la [documentation destinée aux développeurs de composants principaux](/help/developing/overview.md).
 
-## Boîte de dialogue de modification{#edit-dialog}
+## Boîte de dialogue de modification {#edit-dialog}
 
 La boîte de dialogue de modification permet à l’auteur de contenu de définir le texte du titre et de sélectionner le niveau de titre.
 
 * **Titre** - Si ce cham est vide, le titre de la page est utilisé.
 * **Type/Taille** - Définit le niveau d’en-tête du titre.
 * **Lien** - Définit le contenu auquel le titre sera associé. Il peut s’agir d’un chemin d’accès à une page de contenu, d’une URL externe ou d’une ancre de page.
-* **ID** : cette option permet de contrôler l&#39;identifiant unique du composant dans le code HTML et dans la couche [de](/help/developing/data-layer/overview.md)données.
-   * Si rien n’est indiqué, un identifiant unique est automatiquement généré et peut être trouvé en examinant la page qui en résulte.
+* **ID** : cette option permet de contrôler l’identifiant unique du composant dans le code HTML ainsi que dans la [couche de données](/help/developing/data-layer/overview.md).
+   * Si rien n’est indiqué, un ID unique est généré automatiquement et peut être trouvé en examinant la page obtenue.
    * Si un ID est spécifié, il incombe à l’auteur de s’assurer qu’il est unique.
    * La modification de l’ID peut avoir un impact sur le suivi CSS, JS et de couche de données.
 
-![Boîte de dialogue de modification du composant de titre](/help/assets/title-edit.png)
+![Boîte de dialogue de modification du composant Titre](/help/assets/title-edit.png)
 
 >[!NOTE]
 >
@@ -61,7 +61,7 @@ La boîte de dialogue de modification permet à l’auteur de contenu de défini
 
 L’éditeur statique peut également être utilisé pour modifier le texte du composant du titre.
 
-![Modification statique du composant de titre](/help/assets/title-edit-inline.png)
+![Modification statique du composant Titre](/help/assets/title-edit-inline.png)
 
 ## Boîte de dialogue de conception {#design-dialog}
 
