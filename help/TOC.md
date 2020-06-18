@@ -2,10 +2,10 @@
 sub-product: AEM Core Components
 user-guide-title: AEM Core Components
 translation-type: tm+mt
-source-git-commit: c07dc21b1973ec541a1d96047f8a30aca8cfb886
+source-git-commit: d344b5bf90099f9df6284cb097e006feac4973a3
 workflow-type: tm+mt
-source-wordcount: '181'
-ht-degree: 97%
+source-wordcount: '183'
+ht-degree: 98%
 
 ---
 
@@ -36,6 +36,7 @@ ht-degree: 97%
    + [Liste](components/list.md)
    + [Navigation](components/navigation.md)
    + [Page](components/page.md)
+   + [PDF Viewer](components/pdf-viewer.md)
    + [Barre de progression](components/progress-bar.md)
    + [Recherche rapide](components/quick-search.md)
    + [Séparateur](components/separator.md)
@@ -69,12 +70,12 @@ ht-degree: 97%
    + [Tutoriel du développeur WKND](https://docs.adobe.com/content/help/en/experience-manager-learn/getting-started-wknd-tutorial-develop/overview.html)
    + [Personnalisation des composants principaux](developing/customizing.md)
    + [Instructions relatives aux composants](developing/guidelines.md)
-   + Adobe Client Data Layer {#data-layer}
+   + Couche de données client Adobe {#data-layer}
       + [Composants principaux et couche de données client Adobe](developing/data-layer/overview.md)
       + [Intégration à Adobe Launch](developing/data-layer/launch-integration.md)
       + [Intégration à Adobe Analytics](developing/data-layer/analytics-integration.md)
    + Archétype de projet AEM {#archetype}
-      + [Présentation de l&#39;archétype](developing/archetype/overview.md)
+      + [Présentation de l’archétype](developing/archetype/overview.md)
       + [Utilisation de l’archétype](developing/archetype/using.md)
       + [Module principal](developing/archetype/core.md)
       + [Module ui.apps](developing/archetype/uiapps.md)
