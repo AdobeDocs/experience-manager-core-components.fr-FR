@@ -2,10 +2,10 @@
 title: Présentation des composants principaux
 description: 'Les composants principaux ont été conçus pour offrir des composants de base solides et extensibles, reposant sur les dernières technologies et les bonnes pratiques. '
 translation-type: tm+mt
-source-git-commit: b7e864686f31be8c0342b3f16750d276f554d219
+source-git-commit: bbbd918c7caf508866ae6dadbb8c815dca4e900b
 workflow-type: tm+mt
-source-wordcount: '846'
-ht-degree: 96%
+source-wordcount: '848'
+ht-degree: 99%
 
 ---
 
@@ -18,9 +18,9 @@ Les composants principaux sont un ensemble de composants WCM (Web Content Manage
 
 ## Ressources {#resources}
 
-* **[Bibliothèque de composants :](https://www.adobe.com/go/aem_cmp_library)**ensemble d’exemples permettant d’afficher les composants dans leurs différentes configurations.
+* **[Bibliothèque de composants :](https://www.adobe.com/go/aem_cmp_library_fr)**ensemble d’exemples permettant d’afficher les composants dans leurs différentes configurations.
 * **Documentation des composants (le présent document) :** pour les développeurs et les auteurs, avec des détails sur chaque composant.
-* **[Référentiel GitHub des composants principaux :](https://github.com/adobe/aem-core-wcm-components)**Pour obtenir des informations détaillées sur les développeurs de chaque téléchargement de composant et de projet.
+* **[Référentiel GitHub des composants principaux :](https://github.com/adobe/aem-core-wcm-components)**pour les développeurs, avec des informations détaillées sur chaque téléchargement de composant et de projet.
 * Prise en main :
    * **[Réussir avec les composants principaux :](/help/developing/success.md)**lignes directrices à prendre en compte avant de débuter tout projet qui fera appel aux composants principaux.
    * **[Tutoriel WKND :](https://docs.adobe.com/content/help/en/experience-manager-learn/getting-started-wknd-tutorial-develop/overview.html)**tutoriel de deux jours pour créer un site.
@@ -35,7 +35,7 @@ Les composants principaux sont un ensemble de composants WCM (Web Content Manage
 | Prêts pour le cloud | Ils fonctionnent aussi bien sur [AEM as a Cloud Service](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/landing/home.html) que sur [Adobe Managed Services](https://github.com/adobe/aem-project-archetype/tree/master/src/main/archetype/dispatcher.ams) ou On-Premise. |
 | Polyvalents | Les composants représentent des concepts génériques avec lesquels les auteurs peuvent assembler pratiquement n’importe quelle disposition. |
 | Configurables | Des [stratégies de contenu](https://docs.adobe.com/content/help/fr-FR/experience-manager-65/developing/platform/templates/page-templates-editable.html#content-policies) au niveau du modèle définissent les fonctionnalités que les auteurs de pages peuvent ou non utiliser. |
-| Trackable | L’intégration [de la couche de données du client](/help/developing/data-layer/overview.md) Adobe permet le suivi de tous les aspects de l’expérience du visiteur. |
+| Permettent un suivi | L’[intégration de la couche de données client Adobe](/help/developing/data-layer/overview.md) permet le suivi de tous les aspects de l’expérience du visiteur. |
 | Accessibles | Ils sont conformes à la [norme WCAG 2.1](https://www.w3.org/TR/WCAG21/), fournissent des libellés ARIA et prennent en charge la navigation au clavier ([problèmes connus](https://github.com/adobe/aem-core-wcm-components/issues?utf8=✓&amp;q=is%3Aissue+is%3Aopen+accessibility+in%3Atitle)). |
 | Optimisation du référencement | La sortie HTML est sémantique et fournit des annotations de microdonnées [schema.org](https://schema.org). |
 | Prêts pour WebApp | La [sortie JSON rationalisée](https://docs.adobe.com/content/help/en/experience-manager-learn/foundation/development/develop-sling-model-exporter.html) permet le rendu côté client, avec la possibilité d’une [modification contextuelle](https://docs.adobe.com/content/help/en/experience-manager-learn/sites/spa-editor/spa-editor-framework-feature-video-use.html). |
@@ -74,6 +74,7 @@ La version actuelle des composants principaux comporte les composants ci-après.
 * [Partage sur les réseaux sociaux](components/sharing.md)
 * [Séparateur](components/separator.md)
 * [Barre de progression](components/progress-bar.md)
+* [PDF Viewer](components/pdf-viewer.md)
 
 ### Composants de conteneur {#container-components}
 
@@ -104,7 +105,7 @@ La version actuelle des composants principaux comporte les composants ci-après.
 
 | Composants principaux | AEM as a Cloud Service | AEM 6.5 | AEM 6.4 | Java SE | Maven |
 ---------|---------|---------|---------|---------|---------
-| [2.9.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.9.0) | Suite | 6.5.0.0+ | 6.4.4.0+ | 8, 11 | 3.3.9+ |
+| [2.10.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.10.0) | Suite | 6.5.0.0+ | 6.4.4.0+ | 8, 11 | 3.3.9+ |
 
 Pour connaître les exigences des versions précédentes des composants principaux, voir [Versions des composants principaux](versions.md).
 
