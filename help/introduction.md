@@ -2,10 +2,10 @@
 title: Présentation des composants principaux
 description: 'Les composants principaux ont été conçus pour offrir des composants de base solides et extensibles, reposant sur les dernières technologies et les bonnes pratiques. '
 translation-type: tm+mt
-source-git-commit: bbbd918c7caf508866ae6dadbb8c815dca4e900b
+source-git-commit: 5a953588f83e13e50924a2bd9afa2466e3ef6f4d
 workflow-type: tm+mt
 source-wordcount: '848'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -74,7 +74,7 @@ La version actuelle des composants principaux comporte les composants ci-après.
 * [Partage sur les réseaux sociaux](components/sharing.md)
 * [Séparateur](components/separator.md)
 * [Barre de progression](components/progress-bar.md)
-* [PDF Viewer](components/pdf-viewer.md)
+* [Visionneuse PDF](components/pdf-viewer.md)
 
 ### Composants de conteneur {#container-components}
 
@@ -105,7 +105,7 @@ La version actuelle des composants principaux comporte les composants ci-après.
 
 | Composants principaux | AEM as a Cloud Service | AEM 6.5 | AEM 6.4 | Java SE | Maven |
 ---------|---------|---------|---------|---------|---------
-| [2.10.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.10.0) | Suite | 6.5.0.0+ | 6.4.4.0+ | 8, 11 | 3.3.9+ |
+| [2.10.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.10.0) | Suite | 6.5.5.0+ | 6.4.8.1+ | 8, 11 | 3.3.9+ |
 
 Pour connaître les exigences des versions précédentes des composants principaux, voir [Versions des composants principaux](versions.md).
 
