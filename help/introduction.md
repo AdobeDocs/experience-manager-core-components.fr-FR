@@ -32,7 +32,7 @@ Les composants principaux sont un ensemble de composants WCM (Web Content Manage
 |  |  |
 |---|---|
 | Prêts pour la production | Les composants principaux sont 28 composants robustes, bien testés, largement utilisés et performants. |
-| Prêts pour le cloud | Ils fonctionnent aussi bien sur [AEM as a Cloud Service](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/landing/home.html) que sur [Adobe Managed Services](https://github.com/adobe/aem-project-archetype/tree/master/src/main/archetype/dispatcher.ams) ou On-Premise. |
+| Prêts pour le cloud | Ils fonctionnent aussi bien sur [AEM as a Cloud Service](https://docs.adobe.com/content/help/fr-FR/experience-manager-cloud-service/landing/home.html) que sur [Adobe Managed Services](https://github.com/adobe/aem-project-archetype/tree/master/src/main/archetype/dispatcher.ams) ou On-Premise. |
 | Polyvalents | Les composants représentent des concepts génériques avec lesquels les auteurs peuvent assembler pratiquement n’importe quelle disposition. |
 | Configurables | Des [stratégies de contenu](https://docs.adobe.com/content/help/fr-FR/experience-manager-65/developing/platform/templates/page-templates-editable.html#content-policies) au niveau du modèle définissent les fonctionnalités que les auteurs de pages peuvent ou non utiliser. |
 | Permettent un suivi | L’[intégration de la couche de données client Adobe](/help/developing/data-layer/overview.md) permet le suivi de tous les aspects de l’expérience du visiteur. |
