@@ -5,14 +5,14 @@ translation-type: tm+mt
 source-git-commit: 5a953588f83e13e50924a2bd9afa2466e3ef6f4d
 workflow-type: tm+mt
 source-wordcount: '1717'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
 
 # Versions des composants principaux {#core-components-versions}
 
-La version actuelle des composants principaux est la version 2.10.0. Elle est compatible avec les installations [AEM as a Cloud Service](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/landing/home.html) et [AEM On-Premise](https://docs.adobe.com/content/help/en/experience-manager-65/user-guide/home.html). Il a été publié en juin 2020 en tant que mise à jour importante de la version 2.0.0. La version 2.0.0 présente de nouveaux composants ainsi que des mises à jour de la version v2 des composants existants.
+La version actuelle des composants principaux est la version 2.10.0. Elle est compatible avec les installations [AEM as a Cloud Service](https://docs.adobe.com/content/help/fr-FR/experience-manager-cloud-service/landing/home.html) et [AEM On-Premise](https://docs.adobe.com/content/help/en/experience-manager-65/user-guide/home.html). Elle a été diffusée en juin 2020 comme une mise à jour importante de la version 2.0.0. La version 2.0.0 introduisait de nouveaux composants ainsi que des mises à jour v2 des composants existants.
 
 ## Historique des versions et compatibilité {#release-history-and-compatibility}
 
@@ -26,7 +26,7 @@ Le tableau suivant, dont le contenu est [disponible sur GitHub avec les détails
 
 | Mise à jour | Description | AEM 6.3 | AEM 6.4 | AEM 6.5 | AEM as a Cloud Service | Java | Date de publication |
 |---|---|---|---|---|---|---|---|
-| [2.10.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.10.0) | Cette version a introduit le composant PDF Viewer. | - | 6.4.8.1+ | 6.5.5.0+ | Suite | 8, 11 | 17 juin 2020 |
+| [2.10.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.10.0) | Cette version a introduit le composant Visionneuse PDF. | - | 6.4.8.1+ | 6.5.5.0+ | Suite | 8, 11 | 17 juin 2020 |
 | [2.9.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.9.0) | Cette version a permis l’intégration à la couche de données client Adobe et introduit le composant Barre de progression. | - | 6.4.8.0+ | 6.5.4.0+ | Suite | 8, 11 | 29 mai 2020 |
 | [2.8.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.8.0) | Cette version comprend principalement des correctifs ainsi que de petites améliorations. | 6.3.3.4+ | 6.4.4.0+ | 6.5.0.0+ | Suite | 8, 11 | 5 décembre 2019 |
 | [2.7.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.7.0) | Cette version a introduit le nouveau composant Incorporer. | 6.3.3.4+ | 6.4.4.0+ | 6.5.0.0+ | Suite | 8, 11 | 25 septembre 2019 |
