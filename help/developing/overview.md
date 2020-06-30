@@ -1,11 +1,11 @@
 ---
 title: Développement des composants principaux
 description: Les composants principaux fournissent des composants de base robustes et extensibles qui offrent de riches fonctionnalités, une diffusion en continu, un contrôle de version des composants, une mise en œuvre moderne, un balisage Lean et une exportation JSON de contenu.
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: b08fc5ec49126f7be19b7433a3d71de877d9e442
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1442'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -27,7 +27,8 @@ Il est recommandé de continuer à utiliser les [composants de base](/help/versi
 Vous pouvez évaluer si un [composant principal existant peut être personnalisé](customizing.md).\
    Dans le cas contraire, vous devez créer un nouveau composant personnalisé suivant les [instructions des composants](guidelines.md).
 * **Composants personnalisés existants**
-Si vos composants fonctionnent comme prévu, conservez-les tels quels.\
+Si vos composants fonctionnent comme prévu, conservez-les tels quels.
+\
    Dans le cas contraire, reportez-vous à la section « Nouveaux composants personnalisés » ci-dessus.
 
 ## Réussir avec les composants principaux {#how-to-succeed}
@@ -119,7 +120,7 @@ Le tableau ci-après répertorie les composants principaux disponibles, les lien
 | [Fragment d’expérience](https://adobe.com/go/aem_cmp_tech_xf_v1) | Ajout d’un fragment d’expérience à une page | `/libs/cq/experience-fragments/editor/components/experiencefragment` |
 | [Incorporer](https://adobe.com/go/aem_cmp_tech_embed_v1) | Incorporation d’une ressource externe dans une page | - |
 | [Barre de progression](https://adobe.com/go/aem_cmp_tech_progress_v1_fr) | Fournit une représentation visuelle de la progression par rapport à un objectif | - |
-| [PDF Viewer](https://adobe.com/go/aem_cmp_tech_pdfviewer_v1) | Présente un document PDF sur une page | - |
+| [Visionneuse PDF](https://adobe.com/go/aem_cmp_tech_pdfviewer_v1_fr) | Présente un document PDF sur une page | - |
 
 ### Composants à venir {#upcoming-components}
 
