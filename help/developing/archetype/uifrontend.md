@@ -1,8 +1,11 @@
 ---
 title: Version front-end de l’archétype de projet AEM
 description: Modèle de projet pour les applications basées sur AEM
-translation-type: ht
-source-git-commit: 93a7ba6b8a972d111fb723cb40b0380cea9b5a9a
+translation-type: tm+mt
+source-git-commit: 55b4dde320dcb38935b55b273d4df8d0cc2f16e6
+workflow-type: tm+mt
+source-wordcount: '1613'
+ht-degree: 100%
 
 ---
 
@@ -29,6 +32,7 @@ L’exécution de `npm run dev` permet de lancer le processus de génération fr
 Si l’archétype complet de projet AEM est exécuté avec `mvn clean install -PautoInstallPackage` tous les artefacts de projet, y compris les bibliothèques clientes, sont ensuite transmis à l’instance AEM.
 
 >[!TIP]
+>
 >Découvrez les bibliothèques clientes dans la [documentation de développement AEM](https://docs.adobe.com/content/help/en/experience-manager-65/developing/introduction/clientlibs.html) et [comment le module ui.frontend les utilise ci-dessous](#clientlib-generation).
 
 ## Présentation des bibliothèques clientes {#clientlibs}
@@ -146,6 +150,7 @@ Convertit entre des valeurs équivalentes de longueur, de temps et d’angle. No
 * Mappage de source : version de développement uniquement
 
 >[!NOTE]
+>
 >L’option de version front-end utilise des fichiers de configuration Webpack uniquement destinés au développement et à la production qui partagent un fichier de configuration commun. Les paramètres de développement et de production peuvent ainsi être modifiés indépendamment.
 
 ### Génération de bibliothèques clientes {#clientlib-generation}
