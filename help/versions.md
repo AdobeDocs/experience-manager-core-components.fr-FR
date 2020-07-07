@@ -1,9 +1,9 @@
 ---
 title: Versions des composants principaux
 description: Les composants principaux sont publiés sous forme de versions qui peuvent contenir plusieurs versions des mêmes composants principaux. Ce document explique les versions et les mises à jour ainsi que comment comprendre la compatibilité avec les composants principaux et AEM.
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 5a953588f83e13e50924a2bd9afa2466e3ef6f4d
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1717'
 ht-degree: 100%
 
