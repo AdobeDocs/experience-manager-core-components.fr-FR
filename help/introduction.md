@@ -1,9 +1,9 @@
 ---
 title: Présentation des composants principaux
 description: 'Les composants principaux ont été conçus pour offrir des composants de base solides et extensibles, reposant sur les dernières technologies et les bonnes pratiques. '
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 5a953588f83e13e50924a2bd9afa2466e3ef6f4d
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '848'
 ht-degree: 100%
 
