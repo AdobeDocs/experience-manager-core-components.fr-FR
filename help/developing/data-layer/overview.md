@@ -1,11 +1,11 @@
 ---
 title: Utilisation de la couche de données client Adobe avec les composants principaux
 description: Utilisation de la couche de données client Adobe avec les composants principaux
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 57116fa8f8a71259400881609775af4047cd2225
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '418'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -33,7 +33,7 @@ Cependant, la couche de données n’est pas activée par défaut. Pour activer 
 
 1. Créez la structure suivante sous le nœud `/conf` :
    * `/conf/<mySite>/sling:configs/com.adobe.cq.wcm.core.components.internal.DataLayerConfig`
-   * Type de noeud : `nt:unstructured`
+   * Type de nœud : `nt:unstructured`
 1. Ajoutez une propriété booléenne appelée `enabled` et définissez-la sur `true`.
 1. Ajoutez une propriété `sling:configRef` sur le nœud `jcr:content` de votre site ci-dessous `/content` (par exemple, `/content/<mySite>/jcr:content`) et définissez-la sur `/conf/<mySite>`.
 
