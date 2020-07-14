@@ -1,9 +1,9 @@
 ---
 title: Version front-end de l’archétype de projet AEM
 description: Modèle de projet pour les applications basées sur AEM
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 55b4dde320dcb38935b55b273d4df8d0cc2f16e6
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1613'
 ht-degree: 100%
 
