@@ -1,11 +1,11 @@
 ---
 title: Présentation des composants principaux
 description: 'Les composants principaux ont été conçus pour offrir des composants de base solides et extensibles, reposant sur les dernières technologies et les bonnes pratiques. '
-translation-type: ht
-source-git-commit: 5a953588f83e13e50924a2bd9afa2466e3ef6f4d
-workflow-type: ht
-source-wordcount: '848'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: 6d21773dbf09b5e6622c51c662c4070e0242b7d6
+workflow-type: tm+mt
+source-wordcount: '863'
+ht-degree: 98%
 
 ---
 
@@ -39,6 +39,7 @@ Les composants principaux sont un ensemble de composants WCM (Web Content Manage
 | Accessibles | Ils sont conformes à la [norme WCAG 2.1](https://www.w3.org/TR/WCAG21/), fournissent des libellés ARIA et prennent en charge la navigation au clavier ([problèmes connus](https://github.com/adobe/aem-core-wcm-components/issues?utf8=✓&amp;q=is%3Aissue+is%3Aopen+accessibility+in%3Atitle)). |
 | Optimisation du référencement | La sortie HTML est sémantique et fournit des annotations de microdonnées [schema.org](https://schema.org). |
 | Prêts pour WebApp | La [sortie JSON rationalisée](https://docs.adobe.com/content/help/en/experience-manager-learn/foundation/development/develop-sling-model-exporter.html) permet le rendu côté client, avec la possibilité d’une [modification contextuelle](https://docs.adobe.com/content/help/en/experience-manager-learn/sites/spa-editor/spa-editor-framework-feature-video-use.html). |
+| Prise en charge AMP | Les composants prennent en [charge la norme AMP de manière intégrée,](/help/developing/amp.md) ce qui accélère vos expériences mobiles. |
 | Kit de conception | Un [kit d’interface utilisateur pour Adobe XD](https://docs.adobe.com/content/help/en/experience-manager-learn/getting-started-wknd-tutorial-develop/assets/overview/AEM_UI-kit_Wireframe.xd) permet aux concepteurs de créer des maquettes qu’ils peuvent ensuite [mettre en forme selon leurs besoins](https://docs.adobe.com/content/help/en/experience-manager-learn/getting-started-wknd-tutorial-develop/assets/overview/AEM_UI-kit_WKND.xd). |
 | Possibilité d’appliquer des thèmes | Les composants implémentent le [système de style](https://docs.adobe.com/content/help/fr-FR/experience-manager-65/developing/components/style-system.html) et le balisage suit les [conventions CSS BEM](http://getbem.com/). |
 | Personnalisables | Plusieurs modèles permettent une [personnalisation facile](developing/customizing.md), depuis l’ajustement du code HTML jusqu’à la réutilisation des fonctionnalités avancées. |
@@ -105,7 +106,7 @@ La version actuelle des composants principaux comporte les composants ci-après.
 
 | Composants principaux | AEM as a Cloud Service | AEM 6.5 | AEM 6.4 | Java SE | Maven |
 ---------|---------|---------|---------|---------|---------
-| [2.10.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.10.0) | Suite | 6.5.5.0+ | 6.4.8.1+ | 8, 11 | 3.3.9+ |
+| [2.11.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.11.0) | Suite | 6.5.5.0+ | 6.4.8.1+ | 8, 11 | 3.3.9+ |
 
 Pour connaître les exigences des versions précédentes des composants principaux, voir [Versions des composants principaux](versions.md).
 
