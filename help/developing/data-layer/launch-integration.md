@@ -1,9 +1,9 @@
 ---
 title: Utilisation de la couche de données client Adobe pour intégrer les composants principaux et Adobe Launch
 description: Configuration d’Adobe Launch pour l’enregistrement des événements des composants principaux
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 85fb3612aed12b7bfdc05f0a569ae7c7364e6121
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1160'
 ht-degree: 100%
 
