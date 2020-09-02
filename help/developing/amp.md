@@ -1,11 +1,11 @@
 ---
 title: Prise en charge d’AMP par les composants principaux
 description: Les composants principaux prennent en charge les pages mobiles accélérées (AMP).
-translation-type: ht
-source-git-commit: 905096d909d4fbf624152ba3b5cbc1d80637245f
-workflow-type: ht
-source-wordcount: '493'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: 24a810ff634f8846881dfa0095e879476d0f16f0
+workflow-type: tm+mt
+source-wordcount: '534'
+ht-degree: 82%
 
 ---
 
@@ -26,26 +26,18 @@ La prise en charge d’AMP dans les composants principaux est [entièrement conf
 
 Les composants principaux utilisent `amp` comme sélecteur Sling pour le rendu d’une page AMP. Par exemple, `example.html` affiche la page normale et `example.amp.html` la version AMP.
 
-### Conditions requises {#requirements}
-
-Lors de l’utilisation d’AMP avec les composants principaux, la principale différence réside dans le fait qu’AMP exige que toutes les feuilles de style CSS soient insérées dans l’élément `<head>` et optimisées.
-
-Pour ce faire, un composant de page personnalisé est utilisé. Celui-ci charge uniquement la page CSS spécifique à AMP pour les composants présents sur la page.
-
-Pour plus d’informations sur les exigences et les détails techniques, consultez la [documentation destinée aux développeurs sur GitHub.](https://github.com/adobe/aem-core-wcm-components/tree/master/extensions/amp)
-
-### Utilisation d’AMP dans les composants principaux {#using-amp}
-
 Les projets individuels peuvent décider de tirer ou non parti d’AMP. En fait, étant donné que les pages AMP et HTML standard peuvent être diffusées en parallèle, un projet peut choisir d’utiliser AMP uniquement sur certaines pages.
 
-### Installation de la prise en charge d’AMP {#installing-amp}
+## Prise en main de l’assistance AMP dans votre projet {#getting-started}
 
-Comme AMP est facultatif, il est fourni en tant qu’extension des composants principaux.
+Bien que AMP prenne en charge les offres avec une grande flexibilité, la prise en main rapide de cette solution ne nécessite que quelques étapes simples :
 
-* Pour les projets AEM as a Cloud Service, l’extension est disponible automatiquement.
-* Pour les projets On-Premise et AMS, l’extension doit être installée explicitement lors de l’installation des composants principaux.
-
-Une fois l’extension installée, l’auteur du composant doit simplement pointer les supertypes de composant vers ceux de l’extension.
+1. Installez l’extension de prise en charge AMP si nécessaire.
+   * Pour AEM en tant que projet Cloud Service, l&#39;extension est automatiquement disponible avec les composants principaux et aucune installation n&#39;est nécessaire.
+   * Pour les projets On-Premise et AMS, l’extension doit être installée explicitement lors de l’installation des composants principaux.
+1. Une fois l&#39;extension AMP installée, l&#39;auteur du composant doit simplement pointer les supertypes de composant vers ceux de l&#39;extension.
+1. [Activez la prise en charge](#enabling-amp) AMP au niveau du modèle ou sur vos pages individuelles.
+1. [Déployez une page CSS](#css-requirements) intégrée selon les besoins.
 
 ### Activation d’AMP pour les pages {#enabling-amp}
 
@@ -65,3 +57,11 @@ Les paramètres AMP d’une page peuvent également être remplacés dans les [P
 * **Aucun AMP** : la page est diffusée en HTML standard uniquement.
 * **AMP couplé** : la page est diffusée au format AMP ainsi qu’au format HTML.
 * **AMP uniquement** : la page est diffusée uniquement au format AMP.
+
+### Exigences CSS {#css-requirements}
+
+Lors de l’utilisation d’AMP avec les composants principaux, la principale différence réside dans le fait qu’AMP exige que toutes les feuilles de style CSS soient insérées dans l’élément `<head>` et optimisées.
+
+Pour ce faire, un composant de page personnalisé est utilisé. Celui-ci charge uniquement la page CSS spécifique à AMP pour les composants présents sur la page.
+
+Pour plus d’informations sur les exigences et les détails techniques, consultez la [documentation destinée aux développeurs sur GitHub.](https://github.com/adobe/aem-core-wcm-components/tree/master/extensions/amp)
