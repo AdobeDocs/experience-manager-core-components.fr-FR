@@ -1,11 +1,11 @@
 ---
 title: Utilisation de la couche de données client Adobe avec les composants principaux
 description: Utilisation de la couche de données client Adobe avec les composants principaux
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 24a810ff634f8846881dfa0095e879476d0f16f0
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '426'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -28,7 +28,7 @@ Tout comme les composants principaux, le code de la couche de données client Ad
 
 Depuis la version 2.9.0 des composants principaux, la couche de données est distribuée avec ceux-ci en tant que bibliothèque cliente. Aucune installation n’est nécessaire.
 
-Cependant, la couche de données n’est pas activée par défaut. Pour activer la couche de données vous devez créer une configuration [](/help/developing/context-aware-configs.md) contextuelle :
+Cependant, la couche de données n’est pas activée par défaut. Pour activer la couche de données  vous devez créer une [configuration basée sur le contexte](/help/developing/context-aware-configs.md) :
 
 1. Créez la structure suivante sous le nœud `/conf` :
    * `/conf/<mySite>/sling:configs/com.adobe.cq.wcm.core.components.internal.DataLayerConfig`
