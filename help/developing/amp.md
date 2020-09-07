@@ -1,11 +1,11 @@
 ---
 title: Prise en charge d’AMP par les composants principaux
 description: Les composants principaux prennent en charge les pages mobiles accélérées (AMP).
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 24a810ff634f8846881dfa0095e879476d0f16f0
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '534'
-ht-degree: 82%
+ht-degree: 100%
 
 ---
 
@@ -28,16 +28,16 @@ Les composants principaux utilisent `amp` comme sélecteur Sling pour le rendu d
 
 Les projets individuels peuvent décider de tirer ou non parti d’AMP. En fait, étant donné que les pages AMP et HTML standard peuvent être diffusées en parallèle, un projet peut choisir d’utiliser AMP uniquement sur certaines pages.
 
-## Prise en main de l’assistance AMP dans votre projet {#getting-started}
+## Prise en main de la prise en charge AMP dans votre projet {#getting-started}
 
-Bien que AMP prenne en charge les offres avec une grande flexibilité, la prise en main rapide de cette solution ne nécessite que quelques étapes simples :
+La prise en charge AMP offre avec une grande flexibilité et quelques étapes simples suffisent pour une prise en main rapide :
 
 1. Installez l’extension de prise en charge AMP si nécessaire.
-   * Pour AEM en tant que projet Cloud Service, l&#39;extension est automatiquement disponible avec les composants principaux et aucune installation n&#39;est nécessaire.
+   * Pour les projets AEM as a Cloud Service, l’extension est disponible automatiquement avec les composants principaux et aucune installation n’est nécessaire.
    * Pour les projets On-Premise et AMS, l’extension doit être installée explicitement lors de l’installation des composants principaux.
-1. Une fois l&#39;extension AMP installée, l&#39;auteur du composant doit simplement pointer les supertypes de composant vers ceux de l&#39;extension.
-1. [Activez la prise en charge](#enabling-amp) AMP au niveau du modèle ou sur vos pages individuelles.
-1. [Déployez une page CSS](#css-requirements) intégrée selon les besoins.
+1. Une fois l’extension AMP installée, l’auteur du composant doit simplement pointer les supertypes de composant vers ceux de l’extension.
+1. [Activez la prise en charge AMP](#enabling-amp) au niveau du modèle ou sur vos pages individuelles.
+1. [Déployez une page CSS intégrée](#css-requirements) selon les besoins.
 
 ### Activation d’AMP pour les pages {#enabling-amp}
 
