@@ -1,11 +1,11 @@
 ---
 title: Composant Visionneuse PDF
 description: Le composant Visionneuse PDF permet l’affichage d’un document PDF.
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 24a810ff634f8846881dfa0095e879476d0f16f0
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '705'
-ht-degree: 91%
+ht-degree: 100%
 
 ---
 
@@ -42,7 +42,7 @@ Vous trouverez plus d’informations sur le développement des composants princi
 
 >[!NOTE]
 >
->Le composant PDF Viewer utilise les API [de Document](https://www.adobe.io/apis/documentcloud/dcsdk.html) d’ [Adobe et requiert votre administrateur de configurer une configuration](/help/developing/context-aware-configs.md) adaptée au contexte pour utiliser ces services. Consultez la documentation technique du composant pour [plus de détails sur cette configuration.](https://github.com/adobe/aem-core-wcm-components/tree/master/content/src/content/jcr_root/apps/core/wcm/components/pdfviewer/v1/pdfviewer#context-aware-config)
+>Le composant Visionneuse PDF utilise les [API Document Services d’Adobe](https://www.adobe.io/apis/documentcloud/dcsdk.html) et nécessite que votre administrateur configure une [configuration basée sur le contexte](/help/developing/context-aware-configs.md) pour utiliser ces services. Consultez la documentation technique du composant pour [plus de détails sur cette configuration.](https://github.com/adobe/aem-core-wcm-components/tree/master/content/src/content/jcr_root/apps/core/wcm/components/pdfviewer/v1/pdfviewer#context-aware-config)
 
 ## Boîte de dialogue de configuration {#configure-dialog}
 
