@@ -1,8 +1,11 @@
 ---
 title: Archétype de projet AEM
 description: Modèle de projet pour les applications basées sur AEM
-translation-type: ht
-source-git-commit: 2faa092a075ab0512e9bd5654884534936c0ad53
+translation-type: tm+mt
+source-git-commit: ed8c4609683d8e43ebc6859694ff7b9578fb07ff
+workflow-type: tm+mt
+source-wordcount: '989'
+ht-degree: 95%
 
 ---
 
@@ -18,11 +21,11 @@ L’archétype de projet AEM est un modèle Maven qui crée un projet Adobe Exp
 ## Ressources {#resources}
 
 * **Documentation de l’archétype (ce document) :** présentation de l’architecture de l’archétype et de ses différents modules.
-   * **[Utilisation de l’archétype :](using.md)**détails supplémentaires sur l’utilisation de l’archétype et des modules disponibles.
-   * **[ui.frontend :](uifrontend.md)**utilisation du module de création front-end.
+   * **[Utilisation de l’archétype :](using.md)** détails supplémentaires sur l’utilisation de l’archétype et des modules disponibles.
+   * **[ui.frontend :](uifrontend.md)** utilisation du module de création front-end.
 * Les tutoriels suivants reposent sur cet archétype :
-   * **[Site WKND :](https://docs.adobe.com/content/help/en/experience-manager-learn/getting-started-wknd-tutorial-develop/overview.html)**apprenez à créer un site web attrayant.
-   * **[Application monopage WKND :](https://helpx.adobe.com/experience-manager/kt/sites/using/getting-started-spa-wknd-tutorial-develop.html)**découvrez comment concevoir une application web React ou Angular offrant des fonctions de création complètes dans AEM.
+   * **[Site WKND :](https://docs.adobe.com/content/help/en/experience-manager-learn/getting-started-wknd-tutorial-develop/overview.html)** apprenez à créer un site web attrayant.
+   * **[Application monopage WKND :](https://helpx.adobe.com/experience-manager/kt/sites/using/getting-started-spa-wknd-tutorial-develop.html)** découvrez comment concevoir une application web React ou Angular offrant des fonctions de création complètes dans AEM.
 
 ## Fonctionnalités {#features}
 
@@ -58,7 +61,7 @@ mvn -B archetype:generate \
  -D includeExamples=n
 ```
 
-* Définissez `aemVersion=cloud` pour [AEM as a Cloud Service](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/landing/home.html).\
+* Définissez `aemVersion=cloud` pour [AEM as a Cloud Service](https://docs.adobe.com/content/help/fr-FR/experience-manager-cloud-service/landing/home.html).\
    Définissez `aemVersion=6.5.0` pour [Adobe Managed Services](https://github.com/adobe/aem-project-archetype/tree/master/src/main/archetype/dispatcher.ams) ou On-Premise.
 La dépendance des composants principaux n’est ajoutée que pour les versions d’AEM hors du cloud, car ils sont fournis prêts à l’emploi pour AEM as a Cloud Service.
 * Ajustez `appTitle="My Site"` de façon à définir le titre du site web et les groupes de composants.
@@ -76,7 +79,7 @@ La dépendance des composants principaux n’est ajoutée que pour les versions 
 | `groupId` |  | ID de groupe Maven de base (par exemple, `"com.mysite"`). |
 | `package` | *`${groupId}`* | Package source Java (par exemple, `"com.mysite"`). |
 | `version` | `1.0-SNAPSHOT` | Version du projet (par exemple, `1.0-SNAPSHOT`). |
-| `aemVersion` | `6.5.0` |  Version d’AEM cible (par exemple, `cloud` pour [AEM as a Cloud Service](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/landing/home.html) ; ou `6.5.0`, `6.4.4` ou `6.3.3` pour [Adobe Managed Services](https://github.com/adobe/aem-project-archetype/tree/master/src/main/archetype/dispatcher.ams) ou On-Premise). |
+| `aemVersion` | `6.5.0` |  Version d’AEM cible (par exemple, `cloud` pour [AEM as a Cloud Service](https://docs.adobe.com/content/help/fr-FR/experience-manager-cloud-service/landing/home.html) ; ou `6.5.0`, `6.4.4` ou `6.3.3` pour [Adobe Managed Services](https://github.com/adobe/aem-project-archetype/tree/master/src/main/archetype/dispatcher.ams) ou On-Premise). |
 | `sdkVersion` | `latest` | Lorsque `aemVersion=cloud`, une version de [SDK](https://docs.adobe.com/content/help/fr-FR/experience-manager-cloud-service/implementing/developing/aem-as-a-cloud-service-sdk.html) peut être spécifiée (par exemple, `2020.02.2265.20200217T222518Z-200130`). |
 | `includeDispatcherConfig` | `y` | Inclut une configuration du Dispatcher pour le cloud ou pour AMS/On-Premise, selon la valeur de `aemVersion` (par exemple, `y` ou `n`). |
 | `frontendModule` | `none` | Comprend un module de création front-end Webpack qui génère les bibliothèques clientes (par exemple, `general` ou `none` pour les sites standard ; ou `angular` ou `react` pour une application monopage qui implémente l’[éditeur d’application monopage](https://docs.adobe.com/content/help/fr-FR/experience-manager-65/developing/headless/spas/spa-overview.html)). |
@@ -84,12 +87,16 @@ La dépendance des composants principaux n’est ajoutée que pour les versions 
 | `singleCountry` | `y` | Inclut une structure de contenu servant de gabarit de langue (par exemple, `y` ou `n`). |
 | `includeExamples` | `y` | Inclut un exemple de site de [bibliothèque de composants](https://www.aemcomponents.dev/) (par exemple, `y` ou `n`). |
 | `includeErrorHandler` | `n` | Inclut une page de réponse personnalisée 404 qui sera globale pour l’ensemble de l’instance (par exemple, `y` ou `n`). |
+| `includeCommerce` | `n` | Inclut des dépendances [CIF Core Components](https://github.com/adobe/aem-core-cif-components) et génère des artefacts correspondants. |
+| `commerceEndpoint` |  | Requis pour CIF uniquement. Point de terminaison facultatif du service GraphQL du système de commerce à utiliser (ex. `https://hostname.com/grapql`). |
+| `datalayer` | `y` | Activez l’intégration avec la couche [de données du client](/help/developing/data-layer/overview.md)d’Adobe. |
+| `amp` | `n` | Activez la prise en charge [AMP](/help/developing/amp.md) pour les modèles de projet générés. |
 
 ## Configuration requise
 
-| Archétype | AEM as a Cloud Service | AEM 6.5 | AEM 6.4 | AEM 6.3 | Java SE | Maven |
+| Archétype | AEM as a Cloud Service | AEM 6.5 | AEM 6.4 | Java SE | Maven |
 ---------|---------|---------|---------|---------|---------|---------
-| [23](https://github.com/adobe/aem-project-archetype/releases/tag/aem-project-archetype-23) | Suite | 6.5.0.0+ | 6.4.4.0+ | 6.3.3.4+ | 8, 11 | 3.3.9+ |
+| [24](https://github.com/adobe/aem-project-archetype/releases/tag/aem-project-archetype-24) | Suite | 6.5.5.0+ | 6.4.8.1+ | 8, 11 | 3.3.9+ |
 
 Configurez votre environnement de développement local pour le [SDK AEM as a Cloud Service](https://docs.adobe.com/content/help/en/experience-manager-learn/cloud-service/local-development-environment-set-up/overview.html) ou pour les [versions antérieures d’AEM](https://docs.adobe.com/content/help/en/experience-manager-learn/foundation/development/set-up-a-local-aem-development-environment.html).
 
