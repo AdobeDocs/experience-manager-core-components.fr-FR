@@ -1,9 +1,9 @@
 ---
 title: Présentation des composants principaux
 description: 'Les composants principaux ont été conçus pour offrir des composants de base solides et extensibles, reposant sur les dernières technologies et les bonnes pratiques. '
-translation-type: ht
-source-git-commit: 6d21773dbf09b5e6622c51c662c4070e0242b7d6
-workflow-type: ht
+translation-type: tm+mt
+source-git-commit: 4e68b1c293f4e6553aa5888ac26ee76c1a569ff3
+workflow-type: tm+mt
 source-wordcount: '863'
 ht-degree: 100%
 
@@ -18,14 +18,14 @@ Les composants principaux sont un ensemble de composants WCM (Web Content Manage
 
 ## Ressources {#resources}
 
-* **[Bibliothèque de composants :](https://www.adobe.com/go/aem_cmp_library_fr)**ensemble d’exemples permettant d’afficher les composants dans leurs différentes configurations.
+* **[Bibliothèque de composants :](https://www.adobe.com/go/aem_cmp_library_fr)** ensemble d’exemples permettant d’afficher les composants dans leurs différentes configurations.
 * **Documentation des composants (le présent document) :** pour les développeurs et les auteurs, avec des détails sur chaque composant.
-* **[Référentiel GitHub des composants principaux :](https://github.com/adobe/aem-core-wcm-components)**pour les développeurs, avec des informations détaillées sur chaque téléchargement de composant et de projet.
+* **[Référentiel GitHub des composants principaux :](https://github.com/adobe/aem-core-wcm-components)** pour les développeurs, avec des informations détaillées sur chaque téléchargement de composant et de projet.
 * Prise en main :
-   * **[Réussir avec les composants principaux :](/help/developing/success.md)**lignes directrices à prendre en compte avant de débuter tout projet qui fera appel aux composants principaux.
-   * **[Tutoriel WKND :](https://docs.adobe.com/content/help/en/experience-manager-learn/getting-started-wknd-tutorial-develop/overview.html)**tutoriel de deux jours pour créer un site.
-   * **[Tutoriel Summit :](https://expleague.azureedge.net/labs/L767/index.html)**tutoriel de deux heures pour créer un site (issu d’un atelier de l’Adobe US Summit 2019).
-   * **[Webinaire Gems :](https://helpx.adobe.com/fr/experience-manager/kt/eseminars/gems/AEM-Core-Components.html)**visite guidée des composants principaux (enregistrée en décembre 2018).
+   * **[Réussir avec les composants principaux :](/help/developing/success.md)** lignes directrices à prendre en compte avant de débuter tout projet qui fera appel aux composants principaux.
+   * **[Tutoriel WKND :](https://docs.adobe.com/content/help/en/experience-manager-learn/getting-started-wknd-tutorial-develop/overview.html)** tutoriel de deux jours pour créer un site.
+   * **[Tutoriel Summit :](https://expleague.azureedge.net/labs/L767/index.html)** tutoriel de deux heures pour créer un site (issu d’un atelier de l’Adobe US Summit 2019).
+   * **[Webinaire Gems :](https://helpx.adobe.com/fr/experience-manager/kt/eseminars/gems/AEM-Core-Components.html)** visite guidée des composants principaux (enregistrée en décembre 2018).
 
 ## Fonctionnalités {#features}
 
@@ -105,7 +105,7 @@ La version actuelle des composants principaux comporte les composants ci-après.
 ## Configuration requise {#system-requirements}
 
 | Composants principaux | AEM as a Cloud Service | AEM 6.5 | AEM 6.4 | Java SE | Maven |
----------|---------|---------|---------|---------|---------
+|---------|---------|---------|---------|---------|---------|
 | [2.11.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.11.0) | Suite | 6.5.5.0+ | 6.4.8.1+ | 8, 11 | 3.3.9+ |
 
 Pour connaître les exigences des versions précédentes des composants principaux, voir [Versions des composants principaux](versions.md).
