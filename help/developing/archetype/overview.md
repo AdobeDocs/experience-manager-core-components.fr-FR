@@ -1,11 +1,11 @@
 ---
 title: Archétype de projet AEM
 description: Modèle de projet pour les applications basées sur AEM
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 1e95666ee58c63fc5dc98821e6424be6acfe4e04
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '989'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -31,7 +31,7 @@ L’archétype de projet AEM est un modèle Maven qui crée un projet Adobe Exp
 
 * **Bonne pratique :** démarrez votre site en suivant toutes les dernières pratiques recommandées par Adobe.
 * **Peu de code requis :** modifiez vos modèles, créez du contenu, déployez votre feuille de style CSS et votre site est prêt à être publié.
-* **Prêt pour le cloud :** si vous le souhaitez, utilisez [AEM as a Cloud Service](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/landing/home.html) pour publier votre site en quelques jours seulement, ainsi que pour faciliter l’évolutivité et la maintenance.
+* **Prêt pour le cloud :** si vous le souhaitez, utilisez [AEM as a Cloud Service](https://docs.adobe.com/content/help/fr-FR/experience-manager-cloud-service/landing/home.html) pour publier votre site en quelques jours seulement, ainsi que pour faciliter l’évolutivité et la maintenance.
 * **Dispatcher :** un projet ne sera complet qu’avec une [configuration du Dispatcher](https://docs.adobe.com/content/help/fr-FR/experience-manager-dispatcher/using/dispatcher.html) qui assure vitesse et sécurité.
 * **Multi-site :** si nécessaire, l’archétype génère la structure de contenu pour une [configuration multilingue et multi-région](https://docs.adobe.com/content/help/fr-FR/experience-manager-65/administering/introduction/msm.html).
 * **Composants principaux :** les auteurs peuvent créer pratiquement n’importe quelle disposition grâce à notre [ensemble polyvalent de composants standardisés](/help/introduction.md).
@@ -87,10 +87,10 @@ La dépendance des composants principaux n’est ajoutée que pour les versions 
 | `singleCountry` | `y` | Inclut une structure de contenu servant de gabarit de langue (par exemple, `y` ou `n`). |
 | `includeExamples` | `y` | Inclut un exemple de site de [bibliothèque de composants](https://www.aemcomponents.dev/) (par exemple, `y` ou `n`). |
 | `includeErrorHandler` | `n` | Inclut une page de réponse personnalisée 404 qui sera globale pour l’ensemble de l’instance (par exemple, `y` ou `n`). |
-| `includeCommerce` | `n` | Inclut des dépendances [CIF Core Components](https://github.com/adobe/aem-core-cif-components) et génère des artefacts correspondants. |
-| `commerceEndpoint` |  | Requis pour CIF uniquement. Point de terminaison facultatif du service GraphQL du système de commerce à utiliser (ex. `https://hostname.com/grapql`). |
-| `datalayer` | `y` | Activez l’intégration avec la couche [de données du client](/help/developing/data-layer/overview.md)d’Adobe. |
-| `amp` | `n` | Activez la prise en charge [AMP](/help/developing/amp.md) pour les modèles de projet générés. |
+| `includeCommerce` | `n` | Inclut des dépendances [Composants principaux CIF](https://github.com/adobe/aem-core-cif-components) et génère les artefacts correspondants. |
+| `commerceEndpoint` |  | Requis pour CIF uniquement. Point d’entrée facultatif du service GraphQL du système commercial à utiliser (par ex. `https://hostname.com/grapql`). |
+| `datalayer` | `y` | Activez l’intégration avec la [couche de données client Adobe](/help/developing/data-layer/overview.md). |
+| `amp` | `n` | Activez la prise en charge [AMP](/help/developing/amp.md) pour les modèles de projets générés. |
 
 ## Configuration requise
 
