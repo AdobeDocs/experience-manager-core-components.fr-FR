@@ -1,11 +1,11 @@
 ---
 title: Présentation des composants principaux
-description: 'Les composants principaux fournissent des composants de base robustes et extensibles, reposant sur les technologies les plus récentes et les meilleures pratiques. '
-translation-type: tm+mt
+description: 'Les composants principaux fournissent des composants de base solides et extensibles, reposant sur les dernières technologies et les bonnes pratiques. '
+translation-type: ht
 source-git-commit: f94b9e8757295ba25f11a0e60fc864a85db5c765
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '861'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
