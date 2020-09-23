@@ -1,11 +1,11 @@
 ---
 title: Utilisation de la couche de données client Adobe avec les composants principaux
 description: Utilisation de la couche de données client Adobe avec les composants principaux
-translation-type: ht
-source-git-commit: 24a810ff634f8846881dfa0095e879476d0f16f0
-workflow-type: ht
-source-wordcount: '426'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: 4a44a5f584efa736320556f6b4e2f4126d058a48
+workflow-type: tm+mt
+source-wordcount: '575'
+ht-degree: 76%
 
 ---
 
@@ -57,7 +57,7 @@ Le schéma d’élément de composant/conteneur est utilisé dans les composants
 
 Le schéma d’élément de composant/conteneur est défini comme suit.
 
-```
+```javascript
 id: {                   // component ID
     @type               // resource type
     repo:modifyDate     // last modified date
@@ -69,6 +69,9 @@ id: {                   // component ID
 }
 ```
 
+Le [événement](#events) suivant est pertinent pour le schéma Composant/Conteneur Article :
+
+* `cmp:click`
 
 ### Schéma de page {#page}
 
@@ -78,7 +81,7 @@ Le schéma de page est utilisé par le composant suivant :
 
 Le schéma de page est défini comme suit.
 
-```
+```javascript
 id: {
     @type
     repo:modifyDate
@@ -104,7 +107,7 @@ Le schéma de conteneur est utilisé par les composants suivants :
 
 Le schéma de conteneur est défini comme suit.
 
-```
+```javascript
 id: {
     @type
     repo:modifyDate
@@ -117,6 +120,12 @@ id: {
 }
 ```
 
+Les [événements](#events) suivants sont pertinents pour le schéma de Conteneur :
+
+* `cmp:click`
+* `cmp:show`
+* `cmp:hide`
+
 ### Schéma d’image {#image}
 
 Le schéma d’image est utilisé par le composant suivant :
@@ -125,7 +134,7 @@ Le schéma d’image est utilisé par le composant suivant :
 
 Le schéma d’image est défini comme suit.
 
-```
+```javascript
 id: {
     @type
     repo:modifyDate
@@ -138,13 +147,17 @@ id: {
 }
 ```
 
+Le [événement](#events) suivant est pertinent pour le schéma d’images :
+
+* `cmp:click`
+
 ### Schéma de ressource {#asset}
 
 Le schéma de ressource est utilisé dans le [composant Image.](/help/components/image.md)
 
 Le schéma de ressource est défini comme suit.
 
-```
+```javascript
 id: {
     repo:id             // asset UUID
     repo:path           // asset path
@@ -154,3 +167,28 @@ id: {
 }
 ```
 
+Le [événement](#events) suivant est pertinent pour le schéma des actifs :
+
+* `cmp:click`
+
+## Événements {#events}
+
+La couche de données déclenche plusieurs événements.
+
+* **`cmp:click`** - Lorsque vous cliquez sur un élément cliquable (élément doté d’un `data-cmp-clickable` attribut), la couche de données déclenche un `cmp:click` événement.
+* **`cmp:show`** et **`cmp:hide`** - Manipuler l&#39;accordéon (développer/réduire), le carrousel (boutons Suivant/Précédent) et les composants des onglets (sélection par onglets) provoque respectivement le déclenchement de la couche de données `cmp:show` et un `cmp:hide` événement.
+* **`cmp:loaded`** - Dès que la couche de données est remplie avec les composants de base sur la page, la couche de données déclenche un `cmp:loaded` événement.
+
+### Événements déclenchés par composant {#events-components}
+
+Les tableaux suivants liste les composants principaux standard qui déclenchent des événements avec ces événements.
+
+| Composant | Événement(s) |
+|---|---|
+| [Navigation](/help/components/navigation.md) | `cmp:click` |
+| [Navigation par langue](/help/components/language-navigation.md) | `cmp:click` |
+| [Chemin de navigation](/help/components/breadcrumb.md) | `cmp:click` |
+| [Bouton](/help/components/button.md) | `cmp:click` |
+| [Carrousel](/help/components/carousel.md) | `cmp:show` et `cmp:hide` |
+| [Onglets](/help/components/tabs.md) | `cmp:show` et `cmp:hide` |
+| [Accordéon](/help/components/accordion.md) | `cmp:show` et `cmp:hide` |
