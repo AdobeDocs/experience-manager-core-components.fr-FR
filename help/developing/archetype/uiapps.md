@@ -1,18 +1,18 @@
 ---
 title: Module ui.apps de l’archétype de projet AEM
 description: Module ui.apps de l’archétype de projet AEM
-translation-type: ht
-source-git-commit: 6f7166c46940ed451721e0760d565d58efe412ab
-workflow-type: ht
+translation-type: tm+mt
+source-git-commit: a427c2ade8cca69de8e2b59fc3afb4405342909c
+workflow-type: tm+mt
 source-wordcount: '335'
-ht-degree: 100%
+ht-degree: 95%
 
 ---
 
 
 # Module ui.apps de l’archétype de projet AEM {#uiapps-module}
 
-Le module Maven ui.apps (`<src-directory>/<project>/ui.apps`) comprend tout le code de rendu nécessaire pour le site situé sous `/apps`. Ce module comprend les CSS/JS qui seront stockés dans un format AEM appelé clientlibs. Cela inclut également les scripts HTML pour le rendu du code HTML dynamique. Vous pouvez vous représenter le module ui.apps sous la forme d&#39;une carte de la structure dans le JCR, mais dans un format pouvant être stocké sur un système de fichiers et validé dans le contrôle source.
+Le module Maven ui.apps (`<src-directory>/<project>/ui.apps`) comprend tout le code de rendu nécessaire pour le site situé sous `/apps`. This includes CSS/JS that will be stored in an AEM format called [clientlibs.](uifrontend.md#clientlibs) Cela inclut également les scripts HTML pour le rendu du code HTML dynamique. Vous pouvez vous représenter le module ui.apps sous la forme d&#39;une carte de la structure dans le JCR, mais dans un format pouvant être stocké sur un système de fichiers et validé dans le contrôle source.
 
 Le plug-in Apache Jackrabbit FileVault Package est utilisé pour compiler le contenu du module ui.apps dans un package AEM pouvant être déployé vers AEM. Les configurations globales du plug-in sont définies dans le fichier pom.xml parent.
 
