@@ -1,11 +1,11 @@
 ---
 title: Prise en charge d’AMP par les composants principaux
 description: Les composants principaux prennent en charge les pages mobiles accélérées (AMP).
-translation-type: ht
-source-git-commit: 24a810ff634f8846881dfa0095e879476d0f16f0
-workflow-type: ht
+translation-type: tm+mt
+source-git-commit: d8503d92c2d4948e54b2ad7d5407e4c7c98ebf83
+workflow-type: tm+mt
 source-wordcount: '534'
-ht-degree: 100%
+ht-degree: 95%
 
 ---
 
@@ -60,7 +60,7 @@ Les paramètres AMP d’une page peuvent également être remplacés dans les [P
 
 ### Exigences CSS {#css-requirements}
 
-Lors de l’utilisation d’AMP avec les composants principaux, la principale différence réside dans le fait qu’AMP exige que toutes les feuilles de style CSS soient insérées dans l’élément `<head>` et optimisées.
+When using AMP with the Core Components, the main difference is that AMP requires all [CSS to be inlined](including-clientlibs.md#inlining) in the `<head>` element as well as optimized.
 
 Pour ce faire, un composant de page personnalisé est utilisé. Celui-ci charge uniquement la page CSS spécifique à AMP pour les composants présents sur la page.
 
