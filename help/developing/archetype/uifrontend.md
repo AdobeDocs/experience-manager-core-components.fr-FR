@@ -1,11 +1,11 @@
 ---
 title: Version front-end de l’archétype de projet AEM
 description: Modèle de projet pour les applications basées sur AEM
-translation-type: ht
-source-git-commit: 55b4dde320dcb38935b55b273d4df8d0cc2f16e6
-workflow-type: ht
-source-wordcount: '1613'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: d8503d92c2d4948e54b2ad7d5407e4c7c98ebf83
+workflow-type: tm+mt
+source-wordcount: '1621'
+ht-degree: 98%
 
 ---
 
@@ -33,7 +33,7 @@ Si l’archétype complet de projet AEM est exécuté avec `mvn clean install -P
 
 >[!TIP]
 >
->Découvrez les bibliothèques clientes dans la [documentation de développement AEM](https://docs.adobe.com/content/help/en/experience-manager-65/developing/introduction/clientlibs.html) et [comment le module ui.frontend les utilise ci-dessous](#clientlib-generation).
+>Découvrez comment AEM gère les bibliothèques client dans la documentation [de développement](https://docs.adobe.com/content/help/en/experience-manager-65/developing/introduction/clientlibs.html)AEM, comment les [inclure](/help/developing/including-clientlibs.md)[ou comment le module ui.frontend les utilise.](#clientlib-generation)
 
 ## Présentation des bibliothèques clientes {#clientlibs}
 
