@@ -1,11 +1,11 @@
 ---
 title: Utilisation de la couche de données client Adobe avec les composants principaux
 description: Utilisation de la couche de données client Adobe avec les composants principaux
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 4a44a5f584efa736320556f6b4e2f4126d058a48
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '575'
-ht-degree: 76%
+ht-degree: 100%
 
 ---
 
@@ -28,7 +28,7 @@ Tout comme les composants principaux, le code de la couche de données client Ad
 
 Depuis la version 2.9.0 des composants principaux, la couche de données est distribuée avec ceux-ci en tant que bibliothèque cliente. Aucune installation n’est nécessaire.
 
-Cependant, la couche de données n’est pas activée par défaut. Pour activer la couche de données  vous devez créer une [configuration basée sur le contexte](/help/developing/context-aware-configs.md) :
+Cependant, la couche de données n’est pas activée par défaut. Pour activer la couche de données   vous devez créer une [configuration basée sur le contexte](/help/developing/context-aware-configs.md) :
 
 1. Créez la structure suivante sous le nœud `/conf` :
    * `/conf/<mySite>/sling:configs/com.adobe.cq.wcm.core.components.internal.DataLayerConfig`
@@ -69,7 +69,7 @@ id: {                   // component ID
 }
 ```
 
-Le [événement](#events) suivant est pertinent pour le schéma Composant/Conteneur Article :
+L’[événement](#events) suivant correspond au schéma d’élément de composant/conteneur :
 
 * `cmp:click`
 
@@ -120,7 +120,7 @@ id: {
 }
 ```
 
-Les [événements](#events) suivants sont pertinents pour le schéma de Conteneur :
+Les [événements](#events) suivants correspondent au schéma de conteneur :
 
 * `cmp:click`
 * `cmp:show`
@@ -147,7 +147,7 @@ id: {
 }
 ```
 
-Le [événement](#events) suivant est pertinent pour le schéma d’images :
+L’[événement](#events) suivant correspond au schéma d’image :
 
 * `cmp:click`
 
@@ -167,7 +167,7 @@ id: {
 }
 ```
 
-Le [événement](#events) suivant est pertinent pour le schéma des actifs :
+L’[événement](#events) suivant correspond au schéma de ressource :
 
 * `cmp:click`
 
@@ -175,13 +175,13 @@ Le [événement](#events) suivant est pertinent pour le schéma des actifs :
 
 La couche de données déclenche plusieurs événements.
 
-* **`cmp:click`** - Lorsque vous cliquez sur un élément cliquable (élément doté d’un `data-cmp-clickable` attribut), la couche de données déclenche un `cmp:click` événement.
-* **`cmp:show`** et **`cmp:hide`** - Manipuler l&#39;accordéon (développer/réduire), le carrousel (boutons Suivant/Précédent) et les composants des onglets (sélection par onglets) provoque respectivement le déclenchement de la couche de données `cmp:show` et un `cmp:hide` événement.
-* **`cmp:loaded`** - Dès que la couche de données est remplie avec les composants de base sur la page, la couche de données déclenche un `cmp:loaded` événement.
+* **`cmp:click`** - Lorsque vous cliquez sur un élément cliquable (élément doté d’un attribut `data-cmp-clickable`), la couche de données déclenche un événement `cmp:click`.
+* **`cmp:show`** et **`cmp:hide`** - Manipuler l&#39;accordéon (développer/réduire), le carrousel (boutons Suivant/Précédent) et les composants des onglets (sélection par onglets) provoque le déclenchement des événements `cmp:show` et `cmp:hide`, respectivement, par la couche de données.
+* **`cmp:loaded`** - Dès que la couche de données est remplie avec les composants de base sur la page, elle déclenche un événement `cmp:loaded`.
 
-### Événements déclenchés par composant {#events-components}
+### Événements déclenchés par le composant {#events-components}
 
-Les tableaux suivants liste les composants principaux standard qui déclenchent des événements avec ces événements.
+Les tableaux suivants répertorient les composants principaux standard qui déclenchent des événements avec ces événements.
 
 | Composant | Événement(s) |
 |---|---|
