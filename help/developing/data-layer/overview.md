@@ -2,7 +2,7 @@
 title: Utilisation de la couche de données client Adobe avec les composants principaux
 description: Utilisation de la couche de données client Adobe avec les composants principaux
 translation-type: tm+mt
-source-git-commit: 7b0edac1b5ffd068443cc4805a0fa97d243b6e9e
+source-git-commit: 79a063951a790261e2f00c33d8a76f31f781da0c
 workflow-type: tm+mt
 source-wordcount: '868'
 ht-degree: 53%
@@ -35,7 +35,7 @@ Pour activer manuellement la couche de données, vous devez créer une configura
    * Où chaque noeud a une `jcr:primaryType` valeur `nt:unstructured`définie.
 1. Ajoutez une propriété booléenne appelée `enabled` et définissez-la sur `true`.
 
-   ![Emplacement de DataLayerConfig dans le site de référence WKND](../../assets/datalayer-contextaware-sling-config.png)
+   ![Emplacement de DataLayerConfig dans le site de référence WKND](/help/assets/datalayer-contextaware-sling-config.png)
 
    *Emplacement de DataLayerConfig dans le site de référence WKND*
 
@@ -59,7 +59,7 @@ Pour activer manuellement la couche de données, vous devez créer une configura
 
 1. Vous pouvez également ouvrir les outils de développement de votre navigateur et dans la console, l’objet `adobeDataLayer` JavaScript doit être disponible. Saisissez la commande suivante pour obtenir l’état de couche de données de votre page actuelle :
 
-   ```js
+   ```javascript
    window.adobeDataLayer.getState();
    ```
 
@@ -238,7 +238,7 @@ Où `<component-path>` est le chemin JSON vers le composant de la couche de donn
 
 Par exemple :
 
-```js
+```javascript
 function logEventObject(event) {
     if(event.hasOwnProperty("eventInfo") && event.eventInfo.hasOwnProperty("path")) {
         var dataObject = window.adobeDataLayer.getState(event.eventInfo.path);
