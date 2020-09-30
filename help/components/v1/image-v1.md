@@ -2,8 +2,11 @@
 title: Composant d’image (v1)
 description: Le composant d’image des composants principaux est un composant d’image adaptatif qui permet d’effectuer des modifications statiques.
 index: n
-translation-type: ht
-source-git-commit: fe8a121520000ffd56ae3347469590e89121eaf0
+translation-type: tm+mt
+source-git-commit: 78202dc777b90f795f66873921c55e21ef8a239c
+workflow-type: tm+mt
+source-wordcount: '1229'
+ht-degree: 98%
 
 ---
 
@@ -107,6 +110,7 @@ La boîte de dialogue de modification permet à l’auteur du contenu de recadre
 
    * Choisissez l’option **Main libre** pour définir votre propre recadrage.
    * Choisissez l’option **Supprimer le recadrage** pour afficher la ressource d’origine.
+
    Une fois qu’une option de recadrage est sélectionnée, utilisez les poignées bleues pour dimensionner le recadrage sur l’image.
 
    ![](/help/assets/chlimage_1-10.png)
@@ -128,6 +132,7 @@ La boîte de dialogue de modification permet à l’auteur du contenu de recadre
    * **Ajouter une map polygonal**
 
       * Par défaut, une carte en triangle est ajoutée. Cliquez deux fois sur une ligne de la forme pour ajouter une nouvelle poignée de redimensionnement bleue d’un nouveau côté.
+
    Lorsqu’une forme de carte est sélectionnée, elle est superposée sur l’image pour le redimensionnement. Faites glisser les poignées de redimensionnement bleues pour ajuster la forme.
 
    ![](/help/assets/chlimage_1-13.png)
@@ -145,6 +150,7 @@ Autre description de la destination du chemin.
          * **Nouvel onglet**
          * **Cadre parent**
          * **Cadre supérieur**
+
    Appuyez ou cliquez sur la coche bleue pour enregistrer, le x noir pour annuler et la corbeille rouge pour supprimer la carte.
 
    ![](/help/assets/chlimage_1-14.png)
@@ -203,19 +209,11 @@ Sur l’onglet **Fonctionnalités**, vous pouvez définir les options disponible
    ![](/help/assets/chlimage_1-20.png)
 
    * **Rotation** : utilisez cette option pour permettre à l’auteur de contenu d’utiliser l&#39;option **Rotation à droite**.
-   * **Retourner**
-Utilisez cette option pour permettre à l’auteur de contenu d’utiliser les options **Rotation horizontale** et **Rotation verticale**.
+   * **Retourner** Utilisez cette option pour permettre à l’auteur du contenu d’utiliser la variable 
+**Options Inverser horizontalement** et **Inverser verticalement** .
    >[!CAUTION]
    >
    >L’option **Retourner** est désactivée par défaut. L’activation de cette option affichera les boutons **Rotation verticale** et **Rotation horizontale** dans la boîte de dialogue de modification du composant d’image. Toutefois, cette fonction n’est actuellement pas prise en charge par AEM et les modifications effectuées à l’aide de ces options ne seront pas conservées.
-
-<!-- 
-Comment Type: remark
-Last Modified By: Chris Bohnert (bohnert)
-Last Modified Date: 2017-11-20T05:51:34.378-0500
-
-<p>Added caution based on CQDOC-11457. Hid the flip options in the procedure using the <strong>Draft</strong> option so that when this feature is implemented in CQ-4221539, the <strong>Draft</strong> property can simply be removed along with the caution.</p>
--->
 
 * Recadrage
 
@@ -227,6 +225,7 @@ Last Modified Date: 2017-11-20T05:51:34.378-0500
    * Entrez les proportions.
    * Utilisez les poignées de glissement pour réorganiser l’ordre des proportions.
    * Utilisez l’icône de corbeille pour supprimer des proportions.
+
    >[!CAUTION]
    >
    >Remarque : Dans AEM, les proportions de recadrage sont définies en tant que **hauteur/largeur**. Cela diffère de la définition conventionnelle de la largeur/hauteur. Cela a été créée pour des raisons de compatibilité héritée. Les auteurs de contenu ne verront aucune différence tant que vous indiquez le nom clair des proportions, car le nom s’affiche dans l’interface utilisateur et non les proportions.
