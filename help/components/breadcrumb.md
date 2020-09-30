@@ -1,10 +1,10 @@
 ---
 title: Composant de chemin de navigation
 description: Le composant de chemin de navigation des composants principaux est un composant de navigation qui crée un chemin de navigation des liens en fonction de l’emplacement de la page dans la hiérarchie du contenu.
-translation-type: ht
-source-git-commit: c186e9ec3944d785ab0376769cf7f2307049a809
-workflow-type: ht
-source-wordcount: '713'
+translation-type: tm+mt
+source-git-commit: ff943aeca0333b13e2b9aaf11f316457f001d507
+workflow-type: tm+mt
+source-wordcount: '709'
 ht-degree: 100%
 
 ---
@@ -26,10 +26,10 @@ La version actuelle du composant de chemin de navigation est v2, qui a été int
 
 Le tableau ci-après présente en détail toutes les versions prises en charge du composant, les versions AEM avec lesquelles les versions du composant sont compatibles et les liens vers la documentation pour les versions précédentes.
 
-| Version du composant | AEM 6.3 | AEM 6.4 | AEM 6.5 | AEM as a Cloud Service |
-|--- |--- |--- |--- |---|
-| v2 | - | Compatible | Compatible | Compatible |
-| [v1](v1/breadcrumb-v1.md) | Compatible | Compatible | Compatible | - |
+| Version du composant | AEM 6.4 | AEM 6.5 | AEM as a Cloud Service |
+|--- | --- |--- |---|
+| v2 | Compatible | Compatible | Compatible |
+| [v1](v1/breadcrumb-v1.md) | Compatible | Compatible | - |
 
 Pour plus d’informations sur les versions et les publications des composants principaux, voir le document sur les [versions des composants principaux](/help/versions.md).
 
@@ -53,7 +53,7 @@ La boîte de dialogue de modification permet à l’auteur de contenu de supprim
 
 ![Boîte de dialogue de modification du composant Chemin de navigation](/help/assets/breadcrumb-edit.png)
 
-* **Niveau de départ de la navigation** : à quel niveau dans la hiérarchie le composant de chemin de navigation doit commencer à descendre jusqu’à la page actuelle. Par exemple, dans We.Retail :
+* **Niveau de départ de la navigation** : à quel niveau dans la hiérarchie le composant de chemin de navigation doit commencer à descendre jusqu’à la page actuelle. Par exemple :
 
    * 0 commence à `/content`
    * 1 commence à `/content/<yourSite>`
