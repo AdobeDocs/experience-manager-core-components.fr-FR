@@ -1,10 +1,10 @@
 ---
 title: Composant Onglets
 description: Le composant Onglets permet la création de plusieurs onglets pour disposer le contenu sur une page.
-translation-type: ht
-source-git-commit: c186e9ec3944d785ab0376769cf7f2307049a809
-workflow-type: ht
-source-wordcount: '1026'
+translation-type: tm+mt
+source-git-commit: 2926c51c2ab97b50b9ec4942cd5415c15a1411b6
+workflow-type: tm+mt
+source-wordcount: '1027'
 ht-degree: 100%
 
 ---
@@ -32,7 +32,7 @@ Les composants Onglets et [Accordéon](accordion.md) prennent en charge la liais
 
 Pour ce faire :
 
-1. Affichez la page avec le composant à l’aide de l’option **[Afficher comme publié(e)](https://docs.adobe.com/content/help/fr-FR/experience-manager-65/authoring/authoring/editing-content.html#view-as-published)**dans l’éditeur de page.
+1. Affichez la page avec le composant à l’aide de l’option **[Afficher comme publié(e)](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/sites/authoring/fundamentals/editing-content.html#view-as-published)** dans l’éditeur de page.
 1. Examinez le contenu de la page et identifiez l’ID du panneau.
    * Par exemple, `id="accordion-86196c94d3-item-ca319dbb0b"`
 1. L’ID devient l’ancre que vous pouvez ajouter à l’URL à l’aide d’un hachage (`#`).
@@ -118,7 +118,7 @@ Lorsque vous sélectionnez l’option **Sélectionner un panneau** dans la barre
 
 >[!NOTE]
 >
->Les onglets ne sont pas sélectionnables par l’auteur en mode **Édition**. Utilisez le mode **[](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/sites/authoring/fundamentals/editing-content.html#preview-mode)Aperçu **ou l’option**[Afficher comme publié(e)](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/sites/authoring/fundamentals/editing-content.html#view-as-published)** pour interagir avec les onglets comme un lecteur du contenu publié.
+>Les onglets ne sont pas sélectionnables par l’auteur en mode **Édition**. Utilisez le mode **[](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/sites/authoring/fundamentals/editing-content.html#preview-mode)Aperçu** ou l’option **[Afficher comme publié(e)](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/sites/authoring/fundamentals/editing-content.html#view-as-published)** pour interagir avec les onglets comme un lecteur du contenu publié.
 
 ## Boîte de dialogue de conception {#design-dialog}
 
