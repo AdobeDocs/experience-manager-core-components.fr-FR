@@ -1,10 +1,10 @@
 ---
 title: Création à l’aide des composants principaux
 description: 'Dans AEM, les composants sont les éléments structurels qui constituent le contenu des pages créées : les composants principaux offrent une fonctionnalité de création flexible et riche en fonctionnalités.'
-translation-type: ht
-source-git-commit: 4281f6421482682f603f6a7f5e18df61f9a6d98c
-workflow-type: ht
-source-wordcount: '778'
+translation-type: tm+mt
+source-git-commit: 4813748bcfa83ce7c73e81d4e4d445ecc8215d26
+workflow-type: tm+mt
+source-wordcount: '764'
 ht-degree: 100%
 
 ---
@@ -26,7 +26,7 @@ Pour une présentation plus détaillée et plus orientée vers les développeurs
 
 >[!CAUTION]
 >
->Les composants principaux [requièrent AEM 6.3 ou version ultérieure](/help/versions.md), ainsi que l’utilisation de [modèles modifiables](https://docs.adobe.com/content/help/fr-FR/experience-manager-cloud-service/sites/authoring/features/templates.html). Ils ne fonctionnent pas avec l’interface utilisateur classique ni avec les modèles statiques.
+>Les composants principaux [requièrent AEM 6.4 ou version ultérieure](/help/versions.md), ainsi que l’utilisation de [modèles modifiables](https://docs.adobe.com/content/help/fr-FR/experience-manager-cloud-service/sites/authoring/features/templates.html). Ils ne fonctionnent pas avec l’interface utilisateur classique ni avec les modèles statiques.
 
 ## Création à l’aide des composants principaux {#authoring-with-core-components}
 
@@ -79,10 +79,6 @@ Les styles de la plupart des composants principaux peuvent être définis à l�
 * L’auteur du contenu peut ensuite choisir les styles à appliquer lors de l’ajout du composant et la création de contenu.
 
 Pour plus d’informations, consultez la documentation [Système de style](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/sites/authoring/features/style-system.html).
-
->[!NOTE]
->
->Dans AEM 6.3, le Service Pack 2 (6.3.2.0) ou plus récent est requis pour activer la fonctionnalité du système de style.
 
 ## Références pour les développeurs {#developer-resources}
 
