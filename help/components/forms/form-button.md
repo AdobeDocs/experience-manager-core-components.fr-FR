@@ -1,10 +1,10 @@
 ---
 title: Composant de bouton de formulaire
 description: Le composant Masqué du formulaire des composants principaux permet l’inclusion d’un champ masqué dans un formulaire.
-translation-type: ht
-source-git-commit: c186e9ec3944d785ab0376769cf7f2307049a809
-workflow-type: ht
-source-wordcount: '414'
+translation-type: tm+mt
+source-git-commit: 4813748bcfa83ce7c73e81d4e4d445ecc8215d26
+workflow-type: tm+mt
+source-wordcount: '412'
 ht-degree: 100%
 
 ---
@@ -26,10 +26,10 @@ La version actuelle du composant de bouton de formulaire est v2, qui a été int
 
 Le tableau ci-après présente en détail toutes les versions prises en charge du composant, les versions AEM avec lesquelles les versions du composant sont compatibles et les liens vers la documentation pour les versions précédentes.
 
-| Version du composant | AEM 6.3 | AEM 6.4 | AEM 6.5 | AEM as a Cloud Service |
-|--- |--- |--- |--- |---|
-| v2 | - | Compatible | Compatible | Compatible |
-| [v1](/help/components/v1/form-button-v1.md) | Compatible | Compatible | Compatible | - |
+| Version du composant | AEM 6.4 | AEM 6.5 | AEM as a Cloud Service |
+|--- |--- |--- |---|
+| v2 | Compatible | Compatible | Compatible |
+| [v1](/help/components/v1/form-button-v1.md) | Compatible | Compatible | - |
 
 Pour plus d’informations sur les versions et les publications des composants principaux, voir le document sur les [versions des composants principaux](/help/versions.md).
 
