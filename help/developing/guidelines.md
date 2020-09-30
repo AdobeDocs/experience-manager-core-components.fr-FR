@@ -1,8 +1,11 @@
 ---
 title: Instructions relatives aux composants
 description: Les composants principaux suivent des modèles d'implémentations modernes qui sont très différents des composants de base.
-translation-type: ht
-source-git-commit: 93a7ba6b8a972d111fb723cb40b0380cea9b5a9a
+translation-type: tm+mt
+source-git-commit: 2926c51c2ab97b50b9ec4942cd5415c15a1411b6
+workflow-type: tm+mt
+source-wordcount: '1259'
+ht-degree: 99%
 
 ---
 
@@ -82,7 +85,7 @@ Vous trouverez ci-dessous un aperçu de la structure entière de liaison de type
 
 ![Présentation de la liaison des ressources](/help/assets/chlimage_1-32.png)
 
-Vous trouverez ci-dessous un autre aperçu qui n’affiche pas les détails du POJO d’implémentation, mais révèle la manière dont les [modèles et stratégies associés](https://docs.adobe.com/content/help/en/experience-manager-65/developing/platform/templates/page-templates-editable.html) sont référencés.
+Vous trouverez ci-dessous un autre aperçu qui n’affiche pas les détails du POJO d’implémentation, mais révèle la manière dont les [modèles et stratégies associés](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/implementing/components-templates/templates.html) sont référencés.
 
 La propriété `cq:allowedTemplates` indique les modèles qui peuvent être utilisés pour un site et la propriété `cq:template` indique pour chaque page quel est le modèle associé. Chaque modèle est composé de trois parties :
 
