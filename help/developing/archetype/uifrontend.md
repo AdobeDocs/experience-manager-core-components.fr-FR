@@ -2,10 +2,10 @@
 title: Version front-end de l’archétype de projet AEM
 description: Modèle de projet pour les applications basées sur AEM
 translation-type: tm+mt
-source-git-commit: d8503d92c2d4948e54b2ad7d5407e4c7c98ebf83
+source-git-commit: 2926c51c2ab97b50b9ec4942cd5415c15a1411b6
 workflow-type: tm+mt
-source-wordcount: '1621'
-ht-degree: 98%
+source-wordcount: '1622'
+ht-degree: 97%
 
 ---
 
@@ -37,7 +37,7 @@ Si l’archétype complet de projet AEM est exécuté avec `mvn clean install -P
 
 ## Présentation des bibliothèques clientes {#clientlibs}
 
-Le module front-end est rendu disponible à l’aide d’une [bibliothèque cliente AEM](https://helpx.adobe.com/fr/experience-manager/6-5/sites/developing/using/clientlibs.html). Lors de l’exécution du script de génération NPM, l’application est créée et le package aem-clientlib-generator récupère le résultat de la génération et le transforme en une bibliothèque cliente de ce type.
+Le module front-end est rendu disponible à l’aide d’une [bibliothèque cliente AEM](https://docs.adobe.com/content/help/en/experience-manager-65/developing/introduction/clientlibs.html). Lors de l’exécution du script de génération NPM, l’application est créée et le package aem-clientlib-generator récupère le résultat de la génération et le transforme en une bibliothèque cliente de ce type.
 
 Une bibliothèque cliente se compose des fichiers et répertoires suivants :
 
@@ -162,7 +162,7 @@ Le processus de génération du module ui.frontend tire parti du plug-in [aem-cl
 
 ### Ajout de bibliothèques clientes aux pages {#clientlib-inclusion}
 
-Les catégories `clientlib-site` et `clientlib-dependencies` sont ajoutées aux pages via la [configuration Règles de page](https://docs.adobe.com/content/help/en/experience-manager-65/developing/platform/templates/page-templates-editable.html#template-definitions) dans le modèle par défaut. Pour afficher les règles, modifiez la ligne de commande **Modèle de page de contenu > Informations de page > Règles de page**.
+Les catégories `clientlib-site` et `clientlib-dependencies` sont ajoutées aux pages via la [configuration Règles de page](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/implementing/components-templates/templates.html#template-definitions) dans le modèle par défaut. Pour afficher les règles, modifiez la ligne de commande **Modèle de page de contenu > Informations de page > Règles de page**.
 
 L’ajout final de bibliothèques clientes à la page des sites se présente comme suit :
 
