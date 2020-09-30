@@ -1,11 +1,11 @@
 ---
 title: Utilisation de la couche de données client Adobe avec les composants principaux
 description: Utilisation de la couche de données client Adobe avec les composants principaux
-translation-type: ht
-source-git-commit: 4a44a5f584efa736320556f6b4e2f4126d058a48
-workflow-type: ht
-source-wordcount: '575'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: 7b0edac1b5ffd068443cc4805a0fa97d243b6e9e
+workflow-type: tm+mt
+source-wordcount: '868'
+ht-degree: 53%
 
 ---
 
@@ -26,17 +26,42 @@ Tout comme les composants principaux, le code de la couche de données client Ad
 
 ## Installation et activation {#installation-activation}
 
-Depuis la version 2.9.0 des composants principaux, la couche de données est distribuée avec ceux-ci en tant que bibliothèque cliente. Aucune installation n’est nécessaire.
+Depuis la version 2.9.0 des composants principaux, la couche de données est distribuée avec les composants principaux en tant que bibliothèque cliente AEM et aucune installation n’est nécessaire. Tous les projets générés par l&#39;archétype de projets [AEM v. 24+](/help/developing/archetype/overview.md) incluent par défaut une couche de données activée.
 
-Cependant, la couche de données n’est pas activée par défaut. Pour activer la couche de données   vous devez créer une [configuration basée sur le contexte](/help/developing/context-aware-configs.md) :
+Pour activer manuellement la couche de données, vous devez créer une configuration [adaptée au](/help/developing/context-aware-configs.md) contexte :
 
-1. Créez la structure suivante sous le nœud `/conf` :
+1. Créez la structure suivante sous le `/conf/<mySite>` dossier, où `<mySite>` correspond au nom du projet de votre site :
    * `/conf/<mySite>/sling:configs/com.adobe.cq.wcm.core.components.internal.DataLayerConfig`
-   * Type de nœud : `nt:unstructured`
+   * Où chaque noeud a une `jcr:primaryType` valeur `nt:unstructured`définie.
 1. Ajoutez une propriété booléenne appelée `enabled` et définissez-la sur `true`.
-1. Ajoutez une propriété `sling:configRef` sur le nœud `jcr:content` de votre site ci-dessous `/content` (par exemple, `/content/<mySite>/jcr:content`) et définissez-la sur `/conf/<mySite>`.
 
-Une fois activée, vous pouvez vérifier l’activation en chargeant une page du site en dehors de l’éditeur. Lorsque vous examinez la page, vous constatez que la couche de données client Adobe est chargée.
+   ![Emplacement de DataLayerConfig dans le site de référence WKND](../../assets/datalayer-contextaware-sling-config.png)
+
+   *Emplacement de DataLayerConfig dans le site de référence WKND*
+
+1. Add a `sling:configRef` property to the `jcr:content` node of your site below `/content` (e.g. `/content/<mySite>/jcr:content`) and set it to `/conf/<mySite>` from the previous step.
+
+1. Une fois activée, vous pouvez vérifier l’activation en chargeant une page du site en dehors de l’éditeur. inspect la source de la page et la `<body>` balise doivent inclure un attribut `data-cmp-data-layer-enabled`
+
+   ```html
+   <body class="page basicpage" id="page-id" data-cmp-data-layer-enabled>
+       <script>
+         window.adobeDataLayer = window.adobeDataLayer || [];
+         adobeDataLayer.push({
+             page: JSON.parse("{\x22page\u002D6c5d4b9fdd\x22:{\x22xdm:language\x22:\x22en\x22,\x22repo:path\x22:\x22\/content\/wknd\/language\u002Dmasters\/en.html\x22,\x22xdm:tags\x22:[],\x22xdm:template\x22:\x22\/conf\/wknd\/settings\/wcm\/templates\/landing\u002Dpage\u002Dtemplate\x22,\x22@type\x22:\x22wknd\/components\/page\x22,\x22dc:description\x22:\x22WKND is a collective of outdoors, music, crafts, adventure sports, and travel enthusiasts that want to share our experiences, connections, and expertise with the world.\x22,\x22dc:title\x22:\x22WKND Adventures and Travel\x22,\x22repo:modifyDate\x22:\x222020\u002D09\u002D29T07:50:13Z\x22}}"),
+             event:'cmp:show',
+             eventInfo: {
+                 path: 'page.page\u002D6c5d4b9fdd'
+             }
+         });
+       </script>
+   ```
+
+1. Vous pouvez également ouvrir les outils de développement de votre navigateur et dans la console, l’objet `adobeDataLayer` JavaScript doit être disponible. Saisissez la commande suivante pour obtenir l’état de couche de données de votre page actuelle :
+
+   ```js
+   window.adobeDataLayer.getState();
+   ```
 
 ## Schémas de données des composants principaux {#data-schemas}
 
@@ -96,6 +121,8 @@ id: {
     xdm:language        // page language
 }
 ```
+
+Un `cmp:show` événement est déclenché au chargement de la page. Ce événement est distribué à partir de code JavaScript intégré immédiatement sous la balise `<body>` d’ouverture, ce qui en fait le premier événement de la file d&#39;événements de couche de données.
 
 ### Schéma de conteneur {#container}
 
@@ -171,13 +198,15 @@ L’[événement](#events) suivant correspond au schéma de ressource :
 
 * `cmp:click`
 
-## Événements {#events}
+## Événements de composants principaux {#events}
 
-La couche de données déclenche plusieurs événements.
+Un certain nombre de événements que les composants principaux déclenchent par le biais de la couche de données. La meilleure pratique pour interagir avec la couche de données consiste à [enregistrer un écouteur](https://github.com/adobe/adobe-client-data-layer/wiki#addeventlistener) de événement, puis ** à effectuer une action en fonction du type d&#39;événement et/ou du composant qui a déclenché le événement. Cela évite les conditions de concurrence potentielles avec des scripts asynchrones.
+
+Vous trouverez ci-dessous les événements prêts à l&#39;emploi fournis par AEM Core Components :
 
 * **`cmp:click`** - Lorsque vous cliquez sur un élément cliquable (élément doté d’un attribut `data-cmp-clickable`), la couche de données déclenche un événement `cmp:click`.
-* **`cmp:show`** et **`cmp:hide`** - Manipuler l&#39;accordéon (développer/réduire), le carrousel (boutons Suivant/Précédent) et les composants des onglets (sélection par onglets) provoque le déclenchement des événements `cmp:show` et `cmp:hide`, respectivement, par la couche de données.
-* **`cmp:loaded`** - Dès que la couche de données est remplie avec les composants de base sur la page, elle déclenche un événement `cmp:loaded`.
+* **`cmp:show`** et **`cmp:hide`** - Manipuler l&#39;accordéon (développer/réduire), le carrousel (boutons Suivant/Précédent) et les composants des onglets (sélection par onglets) provoque le déclenchement des événements `cmp:show` et `cmp:hide`, respectivement, par la couche de données. Un `cmp:show` événement est également distribué au chargement de la page et devrait être le premier événement.
+* **`cmp:loaded`** - Dès que la couche de données est renseignée avec les composants principaux sur la page, la couche de données déclenche un `cmp:loaded` événement.
 
 ### Événements déclenchés par le composant {#events-components}
 
@@ -185,10 +214,45 @@ Les tableaux suivants répertorient les composants principaux standard qui décl
 
 | Composant | Événement(s) |
 |---|---|
-| [Navigation](/help/components/navigation.md) | `cmp:click` |
-| [Navigation par langue](/help/components/language-navigation.md) | `cmp:click` |
-| [Chemin de navigation](/help/components/breadcrumb.md) | `cmp:click` |
-| [Bouton](/help/components/button.md) | `cmp:click` |
-| [Carrousel](/help/components/carousel.md) | `cmp:show` et `cmp:hide` |
-| [Onglets](/help/components/tabs.md) | `cmp:show` et `cmp:hide` |
 | [Accordéon](/help/components/accordion.md) | `cmp:show` et `cmp:hide` |
+| [Bouton](/help/components/button.md) | `cmp:click` |
+| [Chemin de navigation](/help/components/breadcrumb.md) | `cmp:click` |
+| [Carrousel](/help/components/carousel.md) | `cmp:show` et `cmp:hide` |
+| [Navigation par langue](/help/components/language-navigation.md) | `cmp:click` |
+| [Navigation](/help/components/navigation.md) | `cmp:click` |
+| [Page](/help/components/page.md) | `cmp:show` |
+| [Onglets](/help/components/tabs.md) | `cmp:show` et `cmp:hide` |
+| [Teaser](/help/components/teaser.md) | `cmp:click` |
+
+### Infos événement Path {#event-path-info}
+
+Chaque événement de couche de données déclenché par un composant AEM Core inclut une charge utile avec l’objet JSON suivant :
+
+```json
+eventInfo: {
+    path: '<component-path>'
+}
+```
+
+Où `<component-path>` est le chemin JSON vers le composant de la couche de données qui a déclenché le événement.  La valeur, disponible via `event.eventInfo.path`, est importante car elle peut être utilisée comme paramètre pour `adobeDataLayer.getState(<component-path>)` récupérer l&#39;état actuel du composant qui a déclenché le événement, ce qui permet au code personnalisé d&#39;accéder à des données supplémentaires et de les ajouter à la couche de données.
+
+Par exemple :
+
+```js
+function logEventObject(event) {
+    if(event.hasOwnProperty("eventInfo") && event.eventInfo.hasOwnProperty("path")) {
+        var dataObject = window.adobeDataLayer.getState(event.eventInfo.path);
+        console.debug("The component that triggered this event: ");
+        console.log(dataObject);
+    }
+}
+
+window.adobeDataLayer = window.adobeDataLayer || [];
+window.adobeDataLayer.push(function (dl) {
+     dl.addEventListener("cmp:show", logEventObject);
+});
+```
+
+## Tutoriel
+
+Souhaitez-vous explorer plus en détail la couche de données et les composants principaux ? [Consultez ce tutoriel](https://docs.adobe.com/content/help/en/experience-manager-learn/sites/integrations/adobe-client-data-layer/data-layer-overview.html)pratique.
