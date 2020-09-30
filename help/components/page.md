@@ -1,10 +1,10 @@
 ---
 title: Composant de page
 description: Le composant de page est un composant de page extensible, conçu pour fonctionner avec l’éditeur de modèles et autoriser l’assemblage de composants d’en-tête/de pied de page et de structure à l’aide de l’éditeur de modèles.
-translation-type: ht
-source-git-commit: c186e9ec3944d785ab0376769cf7f2307049a809
-workflow-type: ht
-source-wordcount: '666'
+translation-type: tm+mt
+source-git-commit: 4813748bcfa83ce7c73e81d4e4d445ecc8215d26
+workflow-type: tm+mt
+source-wordcount: '631'
 ht-degree: 100%
 
 ---
@@ -26,16 +26,12 @@ La version actuelle du composant de page est v2, qui a été introduite avec la 
 
 Le tableau ci-après présente en détail toutes les versions prises en charge du composant, les versions AEM avec lesquelles les versions du composant sont compatibles et les liens vers la documentation pour les versions précédentes.
 
-| Version du composant | AEM 6.3 | AEM 6.4 | AEM 6.5 | AEM as a Cloud Service |
-|---|---|---|---|---|
-| v2 | - | Compatible | Compatible | Compatible |
-| [v1](v1/page-v1.md) | Compatible | Compatible | Compatible | - |
+| Version du composant | AEM 6.4 | AEM 6.5 | AEM as a Cloud Service |
+|---|---|---|---|
+| v2 | Compatible | Compatible | Compatible |
+| [v1](v1/page-v1.md) | Compatible | Compatible | - |
 
 Pour plus d’informations sur les versions et les publications des composants principaux, voir le document sur les [versions des composants principaux](/help/versions.md).
-
->[!NOTE]
->
->Pour activer la redirection au niveau `cq:Page` de la version 2 du composant Page et AEM 6.3, [le service pack 2](https://helpx.adobe.com/fr/experience-manager/6-2/release-notes/sp3-release-notes.html) ou une version ultérieure est requis. Cette redirection n’était pas disponible dans les versions précédentes.
 
 ### Détails techniques {#technical-details}
 
