@@ -1,11 +1,11 @@
 ---
 title: Utilisation de l’archétype de projet AEM
 description: Instructions d’utilisation détaillées pour l’archétype de projet AEM
-translation-type: ht
-source-git-commit: 55b4dde320dcb38935b55b273d4df8d0cc2f16e6
-workflow-type: ht
+translation-type: tm+mt
+source-git-commit: 4813748bcfa83ce7c73e81d4e4d445ecc8215d26
+workflow-type: tm+mt
 source-wordcount: '2057'
-ht-degree: 100%
+ht-degree: 97%
 
 ---
 
@@ -33,13 +33,13 @@ L’archétype de projet permet de commencer facilement à développer dans AEM.
 L’archétype AEM est constitué de modules :
 
 * **[principaux](core.md)** : un lot Java contenant toutes les fonctionnalités de base, telles que les services OSGi, les écouteurs et les planificateurs, ainsi que le code Java associé aux composants, tel que les servlets et les filtres de requête.
-* **[ui.apps](uiapps.md)** : contient les éléments`/apps`et`/etc`du projet, c’est-à-dire les bibliothèques clientes JS et CSS, les composants, les modèles, les configurations spécifiques au mode d’exécution, ainsi que les tests Hobbes.
+* **[ui.apps](uiapps.md)** : contient les éléments `/apps` et `/etc` du projet, c’est-à-dire les bibliothèques clientes JS et CSS, les composants, les modèles, les configurations spécifiques au mode d’exécution, ainsi que les tests Hobbes.
 * **[ui.content](uicontent.md)** : avec un exemple de contenu utilisant des composants du module ui.apps.
 * **[ui.tests](uitests.md)** : lot Java contenant des tests JUnit exécutés côté serveur. Ce lot ne doit pas être déployé en production.
 * **ui.launcher** : avec le code-glue qui déploie le lot ui.tests (et les lots dépendants) vers le serveur et déclenche l’exécution de JUnit distante.
-* **[ui.frontend.general](uifrontend.md)** :**(facultatif)**contient les artefacts requis pour utiliser le module de génération front-end basé sur Webpack général.
-* **[ui.frontend.react](uifrontend-react.md)** :**(facultatif)**contient les artefacts requis lors de l’utilisation de l’archétype pour créer des projets SPA basés sur React.
-* **[ui.frontend.angular](uifrontend-angular.md)** :**(facultatif)**contient les artefacts requis lors de l’utilisation de l’archétype pour créer des projets SPA basés sur Angular.
+* **[ui.frontend.general](uifrontend.md)** : **(facultatif)** contient les artefacts requis pour utiliser le module de génération front-end basé sur Webpack général.
+* **[ui.frontend.react](uifrontend-react.md)** : **(facultatif)** contient les artefacts requis lors de l’utilisation de l’archétype pour créer des projets SPA basés sur React.
+* **[ui.frontend.angular](uifrontend-angular.md)** : **(facultatif)** contient les artefacts requis lors de l’utilisation de l’archétype pour créer des projets SPA basés sur Angular.
 
 ![](/help/assets/archetype-structure.png)
 
@@ -97,10 +97,10 @@ Les propriétés suivantes sont disponibles lors de la création d’un projet �
 | `groupId` |  | ID de groupe Maven de base (par exemple, `"com.mysite"`). |
 | `package` | *`${groupId}`* | Package source Java (par exemple, `"com.mysite"`). |
 | `version` | `1.0-SNAPSHOT` | Version du projet (par exemple, `1.0-SNAPSHOT`). |
-| `aemVersion` | `6.5.0` |  Version d’AEM cible (par exemple, `cloud` pour [AEM as a Cloud Service](https://docs.adobe.com/content/help/fr-FR/experience-manager-cloud-service/landing/home.html) ; ou `6.5.0`, `6.4.4` ou `6.3.3` pour [Adobe Managed Services](https://github.com/adobe/aem-project-archetype/tree/master/src/main/archetype/dispatcher.ams) ou On-Premise). |
+| `aemVersion` | `6.5.0` | Target AEM version (can be `cloud` for [AEM as a Cloud Service](https://docs.adobe.com/content/help/fr-FR/experience-manager-cloud-service/landing/home.html); or `6.5.0`, or `6.4.4` for [Adobe Managed Services](https://github.com/adobe/aem-project-archetype/tree/master/src/main/archetype/dispatcher.ams) or on-premise). |
 | `sdkVersion` | `latest` | Lorsque `aemVersion=cloud`, une version de [SDK](https://docs.adobe.com/content/help/fr-FR/experience-manager-cloud-service/implementing/developing/aem-as-a-cloud-service-sdk.html) peut être spécifiée (par exemple, `2020.02.2265.20200217T222518Z-200130`). |
 | `includeDispatcherConfig` | `y` | Inclut une configuration du Dispatcher pour le cloud ou pour AMS/On-Premise, selon la valeur de `aemVersion` (par exemple, `y` ou `n`). |
-| `frontendModule` | `none` | Comprend un module de création front-end Webpack qui génère les bibliothèques clientes (par exemple, `general` ou `none` pour les sites standard ; ou `angular` ou `react` pour une application monopage qui implémente l’[éditeur d’application monopage](https://docs.adobe.com/content/help/fr-FR/experience-manager-65/developing/headless/spas/spa-overview.html)). |
+| `frontendModule` | `none` | Comprend un module de création front-end Webpack qui génère les bibliothèques clientes (par exemple, `general` ou `none` pour les sites standard ; ou `angular` ou `react` pour une application monopage qui implémente l’[éditeur d’application monopage](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/implementing/headless/spa/introduction.html)). |
 | `languageCountry` | `en_us` | Code de langue et de pays utilisé pour créer la structure de contenu (par exemple, `en_us`). |
 | `singleCountry` | `y` | Inclut une structure de contenu servant de gabarit de langue (par exemple, `y` ou `n`). |
 | `includeExamples` | `y` | Inclut un exemple de site de [bibliothèque de composants](https://www.aemcomponents.dev/) (par exemple, `y` ou `n`). |
@@ -195,7 +195,7 @@ L’une des dépendances clés est [AEM Uber Jar](https://docs.adobe.com/conten
 
 L’archétype de projet AEM tire bien sûr parti des composants principaux.
 
-Les composants principaux sont installés automatiquement dans AEM dans le mode d’exécution par défaut et utilisés par l’exemple de site Web.Retail. Dans un [mode d’exécution de production](https://docs.adobe.com/content/help/en/experience-manager-65/administering/security/production-ready.html) (`nosamplecontent`), les composants principaux ne sont pas disponibles.
+Les composants principaux sont installés automatiquement en AEM mode d’exécution par défaut et utilisés par l’exemple de site WKND. Dans un [mode d’exécution de production](https://docs.adobe.com/content/help/en/experience-manager-65/administering/security/production-ready.html) (`nosamplecontent`), les composants principaux ne sont pas disponibles.
 
 Par conséquent, pour tirer parti des composants principaux dans tous les déploiements, il est recommandé de les inclure dans le projet Maven.
 
