@@ -1,11 +1,11 @@
 ---
 title: Composant d’image
 description: Le composant d’image des composants principaux est un composant d’image adaptatif qui permet d’effectuer des modifications statiques.
-translation-type: ht
-source-git-commit: c186e9ec3944d785ab0376769cf7f2307049a809
-workflow-type: ht
-source-wordcount: '1934'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: 4813748bcfa83ce7c73e81d4e4d445ecc8215d26
+workflow-type: tm+mt
+source-wordcount: '1921'
+ht-degree: 95%
 
 ---
 
@@ -32,10 +32,10 @@ La version actuelle du composant d’image est v2, qui a été introduite avec l
 
 Le tableau ci-après présente en détail toutes les versions prises en charge du composant, les versions AEM avec lesquelles les versions du composant sont compatibles et les liens vers la documentation pour les versions précédentes.
 
-| Version du composant | AEM 6.3 | AEM 6.4 | AEM 6.5 | AEM as a Cloud Service |
-|--- |--- |--- |--- |---|
-| v2 | - | Compatible | Compatible | Compatible |
-| [v1](v1/image-v1.md) | Compatible | Compatible | Compatible | - |
+| Version du composant | AEM 6.4 | AEM 6.5 | AEM as a Cloud Service |
+|--- |--- |--- |---|
+| v2 | Compatible | Compatible | Compatible |
+| [v1](v1/image-v1.md) | Compatible | Compatible | - |
 
 Pour plus d’informations sur les versions et les publications des composants principaux, voir le document sur les [versions des composants principaux](/help/versions.md).
 
@@ -53,7 +53,7 @@ Pour des raisons de sécurité, l’éditeur d’image ne fait jamais appel au f
 
 >[!CAUTION]
 >
->La prise en charge de SVG requiert la version 2.1.0 ou ultérieure des composants principaux et le [Service Pack 2](https://docs.adobe.com/content/help/en/experience-manager-64/release-notes/sp-release-notes.html) pour AEM 6.4 ou le [Service Pack 3](https://helpx.adobe.com/fr/experience-manager/6-3/release-notes/sp3-release-notes.html) pour AEM 6.3 ou version ultérieure pour être compatible avec les [nouvelles fonctionnalités de l’éditeur d’image](https://docs.adobe.com/content/help/en/experience-manager-64/developing/components/image-editor.html) dans AEM.
+>SVG support requires release 2.1.0 of the Core Components or higher along with [service pack 2](https://docs.adobe.com/content/help/en/experience-manager-64/release-notes/sp-release-notes.html) for AEM 6.4 or higher to support the [image editor features](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/implementing/components-templates/image-editor.html) within AEM.
 
 ## Exemple de sortie de composant {#sample-component-output}
 
@@ -94,8 +94,8 @@ Alternative textuelle de la signification ou de la fonction de l’image, pour l
 
 * **Légende**
 Des informations supplémentaires sur l’image sont affichées par défaut sous l’image.
-   * **Obtenir une légende à partir de DAM**
-Lorsque cette option est cochée, le texte de légende de l’image est renseigné avec la valeur des métadonnées `dc:title` dans DAM.
+   * **Obtenir la légende à partir de DAM** Lorsqu’elle est cochée, le texte de la légende de l’image sera renseigné avec la valeur de la variable 
+`dc:title` métadonnées dans DAM.
    * **Afficher la légende dans une fenêtre contextuelle**
 Si cette option est activée, la légende ne s’affiche pas sous l’image, mais dans une fenêtre contextuelle dans certains navigateurs lorsque vous pointez sur l’image.
 
@@ -123,6 +123,7 @@ La boîte de dialogue de modification permet à l’auteur du contenu de recadre
 
    * Choisissez l’option **Main libre** pour définir votre propre recadrage.
    * Choisissez l’option **Supprimer le recadrage** pour afficher la ressource d’origine.
+
    Une fois qu’une option de recadrage est sélectionnée, utilisez les poignées bleues pour dimensionner le recadrage sur l’image.
 
    ![Options de recadrage](/help/assets/image-crop-options.png)
@@ -224,10 +225,10 @@ Sur l’onglet **Fonctionnalités**, vous pouvez définir les options disponible
 
    ![Onglet Fonctionnalités de la boîte de dialogue de conception du composant Image](/help/assets/image-design-features-orientation.png)
 
-* **Rotation**
-Utilisez cette option pour permettre à l’auteur de contenu d’utiliser l’option **Rotation à droite**.
-* **Retourner**
-Utilisez cette option pour permettre à l’auteur de contenu d’utiliser les options **Rotation horizontale** et **Rotation verticale**.
+* **Faire pivoter** Utilisez cette option pour permettre à l’auteur du contenu d’utiliser la variable 
+**Rotation à droite** .
+* **Retourner** Utilisez cette option pour permettre à l’auteur du contenu d’utiliser la variable 
+**Options Inverser horizontalement** et **Inverser verticalement** .
 
    >[!CAUTION]
    >
@@ -243,6 +244,7 @@ Utilisez cette option pour permettre à l’auteur de contenu d’utiliser les o
    * Entrez les proportions.
    * Utilisez les poignées de glissement pour réorganiser l’ordre des proportions.
    * Utilisez l’icône de corbeille pour supprimer des proportions.
+
    >[!CAUTION]
    >
    >Remarque : Dans AEM, les proportions de recadrage sont définies en tant que **hauteur/largeur**. Cela diffère de la définition conventionnelle de la largeur/hauteur. Cela a été créée pour des raisons de compatibilité héritée. Les auteurs de contenu ne verront aucune différence tant que vous indiquez le nom clair des proportions, car le nom s’affiche dans l’interface utilisateur et non les proportions.
