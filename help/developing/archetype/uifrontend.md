@@ -5,7 +5,7 @@ translation-type: tm+mt
 source-git-commit: 2926c51c2ab97b50b9ec4942cd5415c15a1411b6
 workflow-type: tm+mt
 source-wordcount: '1622'
-ht-degree: 97%
+ht-degree: 99%
 
 ---
 
@@ -33,7 +33,7 @@ Si l’archétype complet de projet AEM est exécuté avec `mvn clean install -P
 
 >[!TIP]
 >
->Découvrez comment AEM gère les bibliothèques client dans la documentation [de développement](https://docs.adobe.com/content/help/en/experience-manager-65/developing/introduction/clientlibs.html)AEM, comment les [inclure](/help/developing/including-clientlibs.md)[ou comment le module ui.frontend les utilise.](#clientlib-generation)
+>Découvrez comment AEM gère les bibliothèques clientes (ClientLibs) dans la [documentation de développement AEM](https://docs.adobe.com/content/help/en/experience-manager-65/developing/introduction/clientlibs.html) et comment [les inclure](/help/developing/including-clientlibs.md), ou voyez ci-dessous [comment le module ui.frontend les utilise.](#clientlib-generation)
 
 ## Présentation des bibliothèques clientes {#clientlibs}
 
