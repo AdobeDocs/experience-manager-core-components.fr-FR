@@ -5,7 +5,7 @@ translation-type: tm+mt
 source-git-commit: 2926c51c2ab97b50b9ec4942cd5415c15a1411b6
 workflow-type: tm+mt
 source-wordcount: '536'
-ht-degree: 93%
+ht-degree: 97%
 
 ---
 
@@ -60,7 +60,7 @@ Les paramètres AMP d’une page peuvent également être remplacés dans les [P
 
 ### Exigences CSS {#css-requirements}
 
-When using AMP with the Core Components, the main difference is that AMP requires all [CSS to be inlined](including-clientlibs.md#inlining) in the `<head>` element as well as optimized.
+Lors de l’utilisation d’AMP avec les composants principaux, la principale différence réside dans le fait qu’AMP exige que tous les [éléments CSS soient insérés](including-clientlibs.md#inlining) dans l’élément `<head>` et optimisés.
 
 Pour ce faire, un composant de page personnalisé est utilisé. Celui-ci charge uniquement la page CSS spécifique à AMP pour les composants présents sur la page.
 
