@@ -1,11 +1,11 @@
 ---
 title: Archétype de projet AEM
 description: Modèle de projet pour les applications basées sur AEM
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 8b8f0ad528c77cfb6080981438786275bd9fbef1
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1001'
-ht-degree: 91%
+ht-degree: 100%
 
 ---
 
@@ -36,12 +36,12 @@ L’archétype de projet AEM est un modèle Maven qui crée un projet Adobe Exp
 * **Multi-site :** si nécessaire, l’archétype génère la structure de contenu pour une [configuration multilingue et multi-région](https://docs.adobe.com/content/help/fr-FR/experience-manager-65/administering/introduction/msm.html).
 * **Composants principaux :** les auteurs peuvent créer pratiquement n’importe quelle disposition grâce à notre [ensemble polyvalent de composants standardisés](/help/introduction.md).
 * **Modèles modifiables :** assemblez pratiquement n’importe quel [modèle sans code](https://docs.adobe.com/content/help/en/experience-manager-learn/sites/page-authoring/template-editor-feature-video-use.html) et définissez ce que les auteurs sont autorisés à modifier.
-* **Disposition en responsive design :** sur les modèles ou les pages individuelles, [définissez la manière dont les éléments se redistribuent](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/sites/authoring/features/responsive-layout.html) pour les points d’arrêt définis.
+* **Disposition en responsive design :** sur les modèles ou les pages individuelles, [définissez la manière dont les éléments se redistribuent](https://docs.adobe.com/content/help/fr-FR/experience-manager-cloud-service/sites/authoring/features/responsive-layout.html) pour les points d’arrêt définis.
 * **En-tête et pied de page :** assemblez-les et localisez-les sans code, à l’aide des [fonctionnalités de localisation des composants](https://docs.adobe.com/content/help/fr-FR/experience-manager-core-components/using/get-started/localization.html).
 * **Système de style :** évitez de devoir créer des composants personnalisés en permettant aux auteurs de leur [appliquer différents styles](https://docs.adobe.com/content/help/en/experience-manager-learn/getting-started-wknd-tutorial-develop/style-system.html).
-* **Version frontale :** Les développeurs frontaux peuvent [simuler AEM pages](uifrontend.md#webpack-dev-server) et [créer des bibliothèques](uifrontend.md) clientes avec Webpack, TypeScript et SASS.
-* **Prêt pour WebApp :** pour les sites qui utilisent [React](uifrontend-react.md) ou [Angular](uifrontend-angular.md), utilisez le [SDK SPA](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/implementing/headless/spa/developing.html) afin de conserver la [création en contexte au sein de l’application](https://docs.adobe.com/content/help/en/experience-manager-learn/sites/spa-editor/spa-editor-framework-feature-video-use.html).
-* **Exemple de code :** Extrayez le composant HelloWorld et les exemples de modèles, servlets, filtres et Planificateurs.
+* **Création front-end :** les développeurs front-end peuvent [concevoir des maquettes de pages AEM](uifrontend.md#webpack-dev-server) et [créer des bibliothèques clientes](uifrontend.md) avec Webpack, TypeScript et SASS.
+* **Prêt pour WebApp :** pour les sites qui utilisent [React](uifrontend-react.md) ou [Angular](uifrontend-angular.md), utilisez le [SDK SPA](https://docs.adobe.com/content/help/fr-FR/experience-manager-cloud-service/implementing/headless/spa/developing.html) afin de conserver la [création en contexte au sein de l’application](https://docs.adobe.com/content/help/en/experience-manager-learn/sites/spa-editor/spa-editor-framework-feature-video-use.html).
+* **Exemple de code :** vous pouvez extraire le composant HelloWorld, ainsi que les exemples de modèles, servlets, filtres et planificateurs.
 * **Open source :** si quelque chose ne va pas, [contribuez](https://github.com/adobe/aem-core-wcm-components/blob/master/CONTRIBUTING.md) en apportant vos améliorations.
 
 ## Utilisation
@@ -76,12 +76,12 @@ La dépendance des composants principaux n’est ajoutée que pour les versions 
 | `groupId` |  | ID de groupe Maven de base (par exemple, `"com.mysite"`). |
 | `package` | *`${groupId}`* | Package source Java (par exemple, `"com.mysite"`). |
 | `version` | `1.0-SNAPSHOT` | Version du projet (par exemple, `1.0-SNAPSHOT`). |
-| `aemVersion` | `cloud` | Target AEM version (can be `cloud` for [AEM as a Cloud Service](https://docs.adobe.com/content/help/fr-FR/experience-manager-cloud-service/landing/home.html); or `6.5.0`, or `6.4.4` for [Adobe Managed Services](https://github.com/adobe/aem-project-archetype/tree/master/src/main/archetype/dispatcher.ams) or on-premise). |
+| `aemVersion` | `cloud` | Version d’AEM cible (par exemple, `cloud` pour [AEM as a Cloud Service](https://docs.adobe.com/content/help/fr-FR/experience-manager-cloud-service/landing/home.html) ; ou `6.5.0` ou `6.4.4` pour [Adobe Managed Services](https://github.com/adobe/aem-project-archetype/tree/master/src/main/archetype/dispatcher.ams) ou On-Premise). |
 | `sdkVersion` | `latest` | Lorsque `aemVersion=cloud`, une version de [SDK](https://docs.adobe.com/content/help/fr-FR/experience-manager-cloud-service/implementing/developing/aem-as-a-cloud-service-sdk.html) peut être spécifiée (par exemple, `2020.02.2265.20200217T222518Z-200130`). |
 | `includeDispatcherConfig` | `y` | Inclut une configuration du Dispatcher pour le cloud ou pour AMS/On-Premise, selon la valeur de `aemVersion` (par exemple, `y` ou `n`). |
-| `frontendModule` | `general` | Comprend un module de création front-end Webpack qui génère les bibliothèques clientes (par exemple, `general` ou `none` pour les sites standard ; ou `angular` ou `react` pour une application monopage qui implémente l’[éditeur d’application monopage](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/implementing/headless/spa/editor-overview.html)). |
-| `language` | `en` | Code de langue (ISO 639-1) pour créer la structure de contenu à partir de (ex. `en`, `deu`). |
-| `country` | `us` | Code de pays (ISO 3166-1) permettant de créer la structure de contenu à partir de (ex. `US`). |
+| `frontendModule` | `general` | Comprend un module de création front-end Webpack qui génère les bibliothèques clientes (par exemple, `general` ou `none` pour les sites standard ; ou `angular` ou `react` pour une application monopage qui implémente l’[éditeur d’application monopage](https://docs.adobe.com/content/help/fr-FR/experience-manager-cloud-service/implementing/headless/spa/editor-overview.html)). |
+| `language` | `en` | Code de langue (ISO 639-1) pour créer la structure de contenu (ex. `en`, `deu`). |
+| `country` | `us` | Code de pays (ISO 3166-1) pour créer la structure de contenu (ex. `US`). |
 | `singleCountry` | `y` | Inclut une structure de contenu servant de gabarit de langue (par exemple, `y` ou `n`). |
 | `includeExamples` | `n` | Inclut un exemple de site de [bibliothèque de composants](https://www.aemcomponents.dev/) (par exemple, `y` ou `n`). |
 | `includeErrorHandler` | `n` | Inclut une page de réponse personnalisée 404 qui sera globale pour l’ensemble de l’instance (par exemple, `y` ou `n`). |
