@@ -1,11 +1,11 @@
 ---
 title: Inclusion de bibliothèques clientes
 description: Il existe plusieurs façons d’inclure des bibliothèques clientes en fonction de votre cas d’utilisation.
-translation-type: ht
-source-git-commit: 24f718be2ba66113eda970c213c6ce4baec51752
-workflow-type: ht
+translation-type: tm+mt
+source-git-commit: 87e39566617f64b91bd8e98b3779b9b5c426c31c
+workflow-type: tm+mt
 source-wordcount: '333'
-ht-degree: 100%
+ht-degree: 82%
 
 ---
 
@@ -48,8 +48,8 @@ Pour faire de même pour plusieurs catégories de bibliothèques clientes à la 
 
 ## CSS ou JS uniquement {#css-js-only}
 
-Il est fréquent que l’on souhaite placer les inclusions CSS dans l’élément `head` HTML et les inclusions JS juste avant de fermer l’élément `body`.
-&#x200B;
+Frequently, one wants to place the CSS includes in the HTML `head` element, and the JS includes just before the closing of the `body` element.
+
 Dans `head`, pour inclure uniquement les éléments CSS, et non les éléments JS, utilisez `cssIncludes` :
 
 ```html
@@ -85,8 +85,8 @@ Pour appliquer des attributs aux éléments `link` CSS et/ou aux éléments `scr
 Attributs `link` CSS qui peuvent être transmis à `jsAndCssIncludes` et `cssIncludes` :
 
 * `media` : chaîne
-&#x200B;
-Attribut `script` JS qui peuvent être transmis à `jsAndCssIncludes` et `jsIncludes` :
+
+JS `script` attributes that can be passed to `jsAndCssIncludes` and `jsIncludes`:
 
 * `async` : booléen
 * `defer` : booléen
@@ -95,7 +95,8 @@ Attribut `script` JS qui peuvent être transmis à `jsAndCssIncludes` et `jsIncl
 
 ## Insertion {#inlining}
 
-Dans certains cas, que ce soit pour l’optimisation ou pour les emails ou [AMP](amp.md), il peut être nécessaire d’insérer les éléments CSS ou JS dans la sortie du code HTML. &#x200B;
+In some cases, either for optimization, or for email or [AMP,](amp.md) it might be required to inline the CSS or JS into the output of the HTML.
+
 Pour insérer les éléments CSS, vous pouvez utiliser `cssInline`, auquel cas vous devez écrire l’élément `style` environnant :
 
 ```html
