@@ -1,11 +1,11 @@
 ---
 title: Prise en charge d’AMP par les composants principaux
 description: Les composants principaux prennent en charge les pages mobiles accélérées (AMP).
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 2926c51c2ab97b50b9ec4942cd5415c15a1411b6
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '536'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -41,7 +41,7 @@ La prise en charge AMP offre avec une grande flexibilité et quelques étapes si
 
 ### Activation d’AMP pour les pages {#enabling-amp}
 
-Pour activer AMP pour une page, le **Mode AMP** doit être sélectionné dans la [Stratégie de page.](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/sites/authoring/features/templates.html#editing-a-template-page-policy-template-author-developer)
+Pour activer AMP pour une page, le **Mode AMP** doit être sélectionné dans la [Stratégie de page.](https://docs.adobe.com/content/help/fr-FR/experience-manager-cloud-service/sites/authoring/features/templates.html#editing-a-template-page-policy-template-author-developer)
 
 ![Options de stratégie de page AMP](/help/assets/amp-policy.png)
 
