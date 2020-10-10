@@ -1,11 +1,11 @@
 ---
 title: Utilisation des composants principaux
 description: '« Pour que les composants principaux soient opérationnels dans votre propre projet, suivez les quatre étapes ci-après : téléchargement et installation, création de composants proxy, chargement des styles principaux et autorisation des composants de vos modèles. »'
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 78202dc777b90f795f66873921c55e21ef8a239c
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '758'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
@@ -22,7 +22,7 @@ Pour que les composants principaux soient opérationnels dans votre propre proje
 >[!NOTE]
 >
 >Pour obtenir des instructions plus générales pour commencer avec la configuration du projet, les composants principaux, les modèles modifiables, les bibliothèques clientes et le développement des composants, le tutoriel en plusieurs parties suivant peut vous intéresser :\
->[Prise en main du développement AEM Sites – Tutoriel WKND](https://docs.adobe.com/content/help/fr/experience-manager-learn/getting-started-wknd-tutorial-develop/overview.html)
+>[Prise en main du développement AEM Sites – Tutoriel WKND](https://docs.adobe.com/content/help/en/experience-manager-learn/getting-started-wknd-tutorial-develop/overview.html)
 
 ## Téléchargement et installation {#download-and-install}
 
@@ -62,11 +62,11 @@ Ajoutez les propriétés suivantes :
    jcr:description="Section Heading"
    ```
 
-For instance, look at the [title component of the WKND site](https://github.com/adobe/aem-guides-wknd/blob/master/ui.apps/src/main/content/jcr_root/apps/wknd/components/title/.content.xml), which is a good example of a proxy component that is built that way.
+Par exemple, consultez le [composant Titre du site WKND](https://github.com/adobe/aem-guides-wknd/blob/master/ui.apps/src/main/content/jcr_root/apps/wknd/components/title/.content.xml), qui constitue un bon exemple de composant proxy créé de cette manière.
 
 ## Chargement des styles principaux {#load-the-core-styles}
 
-1. Si ce n’est pas encore fait, créez une [bibliothèque cliente](https://docs.adobe.com/content/help/en/experience-manager-65/developing/introduction/clientlibs.html) qui contient tous les fichiers CSS et JS nécessaires à votre site.
+1. Si ce n’est pas encore fait, créez une [bibliothèque cliente](https://docs.adobe.com/content/help/fr-FR/experience-manager-65/developing/introduction/clientlibs.html) qui contient tous les fichiers CSS et JS nécessaires à votre site.
 1. Dans la bibliothèque cliente de votre site, ajoutez les dépendances aux composants principaux qui peuvent être nécessaires. Pour ce faire, ajoutez une propriété `embed`.
 
    Par exemple, pour inclure les bibliothèques clientes de tous les composants principaux v1, la propriété à ajouter serait :
@@ -85,7 +85,7 @@ Assurez-vous que vos composants proxy et vos bibliothèques clientes ont été d
 
 ## Autorisation des composants {#allow-the-components}
 
-Les étapes suivantes sont effectuées dans l’[éditeur de modèles](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/sites/authoring/features/templates.html).
+Les étapes suivantes sont effectuées dans l’[éditeur de modèles](https://docs.adobe.com/content/help/fr-FR/experience-manager-cloud-service/sites/authoring/features/templates.html).
 
 1. Dans l&#39;éditeur de modèles, sélectionnez le conteneur de mises en page et ouvrez sa stratégie.
 1. Dans la liste des composants autorisés, sélectionnez les composants proxy créés précédemment, qui doivent s&#39;afficher sous le groupe de composants qui leur est affecté. Ensuite, appliquez les modifications.
