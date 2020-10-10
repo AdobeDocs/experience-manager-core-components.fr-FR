@@ -1,11 +1,11 @@
 ---
 title: Composant Navigation
 description: Le composant Navigation permet aux utilisateurs de parcourir facilement une structure de site globalisée.
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: ff943aeca0333b13e2b9aaf11f316457f001d507
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1369'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -61,7 +61,7 @@ Imaginons que votre contenu ressemble à ceci :
 \-- wknd-shop
 ```
 
-Pour le WKND du site, vous souhaiterez probablement placer le composant de navigation sur un modèle de page dans l’en-tête. Une fois qu’il fait partie du modèle, vous pouvez définir la **racine de navigation** du composant sur `/content/wknd/language-masters/en` puisque c’est là où commence le contenu principal de ce site. Il peut également être judicieux de définir **la profondeur de la structure de navigation** sur `2` puisque vous ne souhaitez probablement pas que l’intégralité de l’arborescence de contenu soit affichée par le composant, mais plutôt les deux premiers niveaux afin de servir d’aperçu.
+Pour le site WKND, il est probable que vous souhaitiez placer le composant Navigation dans un modèle de page incorporé à l’en-tête. Une fois qu’il fait partie du modèle, vous pouvez définir la **racine de navigation** du composant sur `/content/wknd/language-masters/en` puisque c’est là où commence le contenu principal de ce site. Il peut également être judicieux de définir **la profondeur de la structure de navigation** sur `2` puisque vous ne souhaitez probablement pas que l’intégralité de l’arborescence de contenu soit affichée par le composant, mais plutôt les deux premiers niveaux afin de servir d’aperçu.
 
 Avec **la valeur racine de navigation**, le composant de navigation sait que la `/content/wknd/language-masters/en`navigation démarre et qu’elle peut générer des options de navigation en effectuant une récurrence de la structure du site deux niveaux vers le bas (comme défini par la valeur de **profondeur de la structure de navigation**).
 
