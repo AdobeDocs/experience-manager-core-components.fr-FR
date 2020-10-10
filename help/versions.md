@@ -1,11 +1,11 @@
 ---
 title: Versions des composants principaux
 description: Les composants principaux sont publiés sous forme de versions qui peuvent contenir plusieurs versions des mêmes composants principaux. Ce document explique les versions et les mises à jour ainsi que comment comprendre la compatibilité avec les composants principaux et AEM.
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 4813748bcfa83ce7c73e81d4e4d445ecc8215d26
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1681'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -16,7 +16,7 @@ La version actuelle des composants principaux est la version 2.11.0. Elle est c
 
 ## Historique des versions et compatibilité {#release-history-and-compatibility}
 
-Les composants principaux sont conçus pour être flexibles et compatibles avec toutes les versions AEM prises en charge. C’est pourquoi une mise à jour des composants peut contenir plusieurs versions du même composant.
+Les composants principaux sont conçus pour être flexibles et compatibles avec toutes les versions d’AEM prises en charge. C’est pourquoi une mise à jour des composants peut contenir plusieurs versions du même composant.
 
 Les tableaux ci-dessous illustrent la compatibilité des mises à jour des composants principaux avec les versions des composants contenues dans les mises à jour.
 
@@ -133,6 +133,6 @@ Pour plus d’informations sur la prise en charge des personnalisations des comp
 
 ## Prise en charge des composants de base {#foundation-component-support}
 
-L&#39;accent mis sur le développement de l&#39;Adobe a été déplacé vers les éléments de base et de nouvelles fonctionnalités continueront d&#39;être ajoutées.
+Concernant le développement, Adobe met l’accent sur les composants principaux et de nouvelles fonctionnalités continueront d’être ajoutées.
 
-[Presque tous les composants Foundation ont été abandonnés avec AEM 6.5](https://docs.adobe.com/content/help/en/experience-manager-65/authoring/siteandpage/default-components-foundation.html) et seuls les correctifs majeurs seront pris en compte pour les composants Foundation.
+[Presque tous les composants de base ont été abandonnés avec AEM 6.5](https://docs.adobe.com/content/help/en/experience-manager-65/authoring/siteandpage/default-components-foundation.html) et seuls les correctifs majeurs seront pris en compte à l’avenir pour ces composants.
