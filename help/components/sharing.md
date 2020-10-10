@@ -1,11 +1,11 @@
 ---
 title: Composant Partage sur les réseaux sociaux
 description: Le composant Partage sur les réseaux sociaux des composants principaux est un widget permettant de partager des contenus sur Facebook et Pinterest.
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 4813748bcfa83ce7c73e81d4e4d445ecc8215d26
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '427'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
@@ -22,7 +22,7 @@ Contrairement à d’autres composants, les paramètres du composant Partage sur
 
 ## Version et compatibilité {#version-and-compatibility}
 
-La version actuelle du composant de partage sur les réseaux sociaux est la version 1, qui a été introduite avec la version 1.0.0 des composants principaux, et est décrite dans ce document.
+La version actuelle du composant Partage sur les réseaux sociaux est v1, qui a été introduite avec la version 1.0.0 des composants principaux. Elle est décrite dans ce document.
 
 Le tableau ci-après présente en détail toutes les versions prises en charge du composant et les versions AEM avec lesquelles les versions du composant sont compatibles.
 
