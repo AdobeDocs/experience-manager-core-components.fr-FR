@@ -1,11 +1,11 @@
 ---
 title: Utilisation de l’archétype de projet AEM
 description: Instructions d’utilisation détaillées pour l’archétype de projet AEM
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 4813748bcfa83ce7c73e81d4e4d445ecc8215d26
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2057'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -97,10 +97,10 @@ Les propriétés suivantes sont disponibles lors de la création d’un projet �
 | `groupId` |  | ID de groupe Maven de base (par exemple, `"com.mysite"`). |
 | `package` | *`${groupId}`* | Package source Java (par exemple, `"com.mysite"`). |
 | `version` | `1.0-SNAPSHOT` | Version du projet (par exemple, `1.0-SNAPSHOT`). |
-| `aemVersion` | `6.5.0` | Target AEM version (can be `cloud` for [AEM as a Cloud Service](https://docs.adobe.com/content/help/fr-FR/experience-manager-cloud-service/landing/home.html); or `6.5.0`, or `6.4.4` for [Adobe Managed Services](https://github.com/adobe/aem-project-archetype/tree/master/src/main/archetype/dispatcher.ams) or on-premise). |
+| `aemVersion` | `6.5.0` | Version d’AEM cible (par exemple, `cloud` pour [AEM as a Cloud Service](https://docs.adobe.com/content/help/fr-FR/experience-manager-cloud-service/landing/home.html) ; ou `6.5.0` ou `6.4.4` pour [Adobe Managed Services](https://github.com/adobe/aem-project-archetype/tree/master/src/main/archetype/dispatcher.ams) ou On-Premise). |
 | `sdkVersion` | `latest` | Lorsque `aemVersion=cloud`, une version de [SDK](https://docs.adobe.com/content/help/fr-FR/experience-manager-cloud-service/implementing/developing/aem-as-a-cloud-service-sdk.html) peut être spécifiée (par exemple, `2020.02.2265.20200217T222518Z-200130`). |
 | `includeDispatcherConfig` | `y` | Inclut une configuration du Dispatcher pour le cloud ou pour AMS/On-Premise, selon la valeur de `aemVersion` (par exemple, `y` ou `n`). |
-| `frontendModule` | `none` | Comprend un module de création front-end Webpack qui génère les bibliothèques clientes (par exemple, `general` ou `none` pour les sites standard ; ou `angular` ou `react` pour une application monopage qui implémente l’[éditeur d’application monopage](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/implementing/headless/spa/introduction.html)). |
+| `frontendModule` | `none` | Comprend un module de création front-end Webpack qui génère les bibliothèques clientes (par exemple, `general` ou `none` pour les sites standard ; ou `angular` ou `react` pour une application monopage qui implémente l’[éditeur d’application monopage](https://docs.adobe.com/content/help/fr-FR/experience-manager-cloud-service/implementing/headless/spa/introduction.html)). |
 | `languageCountry` | `en_us` | Code de langue et de pays utilisé pour créer la structure de contenu (par exemple, `en_us`). |
 | `singleCountry` | `y` | Inclut une structure de contenu servant de gabarit de langue (par exemple, `y` ou `n`). |
 | `includeExamples` | `y` | Inclut un exemple de site de [bibliothèque de composants](https://www.aemcomponents.dev/) (par exemple, `y` ou `n`). |
@@ -195,7 +195,7 @@ L’une des dépendances clés est [AEM Uber Jar](https://docs.adobe.com/conten
 
 L’archétype de projet AEM tire bien sûr parti des composants principaux.
 
-Les composants principaux sont installés automatiquement en AEM mode d’exécution par défaut et utilisés par l’exemple de site WKND. Dans un [mode d’exécution de production](https://docs.adobe.com/content/help/en/experience-manager-65/administering/security/production-ready.html) (`nosamplecontent`), les composants principaux ne sont pas disponibles.
+Les composants principaux sont installés automatiquement dans AEM dans le mode d’exécution par défaut et utilisés par l’exemple de site WKND. Dans un [mode d’exécution de production](https://docs.adobe.com/content/help/en/experience-manager-65/administering/security/production-ready.html) (`nosamplecontent`), les composants principaux ne sont pas disponibles.
 
 Par conséquent, pour tirer parti des composants principaux dans tous les déploiements, il est recommandé de les inclure dans le projet Maven.
 
