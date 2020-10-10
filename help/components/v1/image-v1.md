@@ -2,11 +2,11 @@
 title: Composant d’image (v1)
 description: Le composant d’image des composants principaux est un composant d’image adaptatif qui permet d’effectuer des modifications statiques.
 index: n
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 78202dc777b90f795f66873921c55e21ef8a239c
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1229'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -209,8 +209,9 @@ Sur l’onglet **Fonctionnalités**, vous pouvez définir les options disponible
    ![](/help/assets/chlimage_1-20.png)
 
    * **Rotation** : utilisez cette option pour permettre à l’auteur de contenu d’utiliser l&#39;option **Rotation à droite**.
-   * **Retourner** Utilisez cette option pour permettre à l’auteur du contenu d’utiliser la variable 
-**Options Inverser horizontalement** et **Inverser verticalement** .
+   * **Retourner**
+Utilisez cette option pour permettre à l’auteur de contenu d’appliquer 
+les options **Rotation horizontale** et **Rotation verticale**.
    >[!CAUTION]
    >
    >L’option **Retourner** est désactivée par défaut. L’activation de cette option affichera les boutons **Rotation verticale** et **Rotation horizontale** dans la boîte de dialogue de modification du composant d’image. Toutefois, cette fonction n’est actuellement pas prise en charge par AEM et les modifications effectuées à l’aide de ces options ne seront pas conservées.
