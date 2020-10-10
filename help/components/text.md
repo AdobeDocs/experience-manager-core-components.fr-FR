@@ -1,11 +1,11 @@
 ---
 title: Composant textuel
 description: Le composant Texte est un composant d’édition et de composition de texte enrichi qui propose une édition statique.
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 4813748bcfa83ce7c73e81d4e4d445ecc8215d26
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2200'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -45,13 +45,13 @@ Vous trouverez plus d’informations sur le développement des composants princi
 
 ## Composant Texte et Éditeur de texte enrichi {#the-text-component-and-the-rich-text-editor}
 
-Le composant principal Texte tire parti de l’éditeur de texte enrichi AEM (RTE). L’éditeur de texte enrichi met à la disposition des auteurs de nombreuses fonctionnalités pour modifier leur contenu textuel. L’éditeur de texte enrichi est très flexible dans sa configuration et offre plusieurs options. Vous trouverez plus d’informations sur la configuration de l’éditeur de texte enrichi dans les articles [Configuration de l’éditeur de texte enrichi](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/implementing/configuring-and-extending/rich-text-editor.html) et [Configuration des modules externes de l’éditeur de texte enrichi](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/implementing/configuring-and-extending/configure-rich-text-editor-plug-ins.html).
+Le composant principal Texte tire parti de l’éditeur de texte enrichi AEM (RTE). L’éditeur de texte enrichi met à la disposition des auteurs de nombreuses fonctionnalités pour modifier leur contenu textuel. L’éditeur de texte enrichi est très flexible dans sa configuration et offre plusieurs options. Vous trouverez plus d’informations sur la configuration de l’éditeur de texte enrichi dans les articles [Configuration de l’éditeur de texte enrichi](https://docs.adobe.com/content/help/fr-FR/experience-manager-cloud-service/implementing/configuring-and-extending/rich-text-editor.html) et [Configuration des modules externes de l’éditeur de texte enrichi](https://docs.adobe.com/content/help/fr-FR/experience-manager-cloud-service/implementing/configuring-and-extending/configure-rich-text-editor-plug-ins.html).
 
 Le reste de cet article illustre la configuration standard du composant principal Texte avec la configuration prête à l’emploi de l’éditeur de texte enrichi.
 
 >[!NOTE]
 >
->Seules les options activées par [les configurations de l’interface utilisateur de l’éditeur de texte enrichi](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/implementing/configuring-and-extending/configure-rich-text-editor-plug-ins.html) sont disponibles dans le composant Texte.
+>Seules les options activées par [les configurations de l’interface utilisateur de l’éditeur de texte enrichi](https://docs.adobe.com/content/help/fr-FR/experience-manager-cloud-service/implementing/configuring-and-extending/configure-rich-text-editor-plug-ins.html) sont disponibles dans le composant Texte.
 
 ## Boîte de dialogue de modification {#edit-dialog}
 
@@ -258,7 +258,7 @@ Utilisé pour insérer un tableau dans le texte. Cette option permet d’ouvrir 
 
 Permet de vérifier l’orthographe du contenu du texte. Les fautes de frappe possibles sont soulignées avec des lignes rouges rompues.
 
-Vous trouverez plus d’informations sur la vérification orthographique et la personnalisation des dictionnaires orthographiques dans le document [Configuration des modules de l’éditeur de texte enrichi](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/implementing/configuring-and-extending/configure-rich-text-editor-plug-ins.html).
+Vous trouverez plus d’informations sur la vérification orthographique et la personnalisation des dictionnaires orthographiques dans le document [Configuration des modules de l’éditeur de texte enrichi](https://docs.adobe.com/content/help/fr-FR/experience-manager-cloud-service/implementing/configuring-and-extending/configure-rich-text-editor-plug-ins.html).
 
 ### Caractères spéciaux {#special-characters}
 
@@ -338,7 +338,7 @@ Les fonctionnalités suivantes peuvent être activées ou désactivées pour le 
 Les options de formatage suivantes peuvent être activées ou désactivées pour le composant.
 
 * Tableau
-* Listes  (puce, numéro, retrait, retrait négatif)
+* Listes    (puce, numéro, retrait, retrait négatif)
 * Alignement (gauche, droite, centré)
 * Gras, italique, souligné
 * Lien (et dissociation)
