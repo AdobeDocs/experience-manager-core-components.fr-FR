@@ -1,11 +1,11 @@
 ---
 title: Inclusion de bibliothèques clientes
 description: Il existe plusieurs façons d’inclure des bibliothèques clientes en fonction de votre cas d’utilisation.
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: f74883359561e5ff6ca679d58bedbdeb100f7b0b
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '333'
-ht-degree: 82%
+ht-degree: 100%
 
 ---
 
@@ -48,7 +48,7 @@ Pour faire de même pour plusieurs catégories de bibliothèques clientes à la 
 
 ## CSS ou JS uniquement {#css-js-only}
 
-Frequently, one wants to place the CSS includes in the HTML `head` element, and the JS includes just before the closing of the `body` element.
+Il est fréquent que l’on souhaite placer les inclusions CSS dans l’élément `head` HTML et les inclusions JS juste avant de fermer l’élément `body`.&#x200B;
 
 Dans `head`, pour inclure uniquement les éléments CSS, et non les éléments JS, utilisez `cssIncludes` :
 
@@ -84,7 +84,7 @@ Pour appliquer des attributs aux éléments `link` CSS et/ou aux éléments `scr
 
 Attributs `link` CSS qui peuvent être transmis à `jsAndCssIncludes` et `cssIncludes` :
 
-* `media`: des attributs JS `script` de chaîne qui peuvent être transmis à `jsAndCssIncludes` et `jsIncludes`:
+* `media` : attributs de chaîne JS `script` qui peuvent être transmis à `jsAndCssIncludes` et `jsIncludes` :
 * `async` : booléen
 * `defer` : booléen
 * `onload` : chaîne
@@ -92,7 +92,7 @@ Attributs `link` CSS qui peuvent être transmis à `jsAndCssIncludes` et `cssInc
 
 ## Insertion {#inlining}
 
-In some cases, either for optimization, or for email or [AMP,](amp.md) it might be required to inline the CSS or JS into the output of the HTML.
+Dans certains cas, que ce soit pour l’optimisation ou pour les emails ou [AMP](amp.md), il peut être nécessaire d’insérer les éléments CSS ou JS dans la sortie du code HTML.
 
 Pour insérer les éléments CSS, vous pouvez utiliser `cssInline`, auquel cas vous devez écrire l’élément `style` environnant :
 
