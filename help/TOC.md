@@ -6,8 +6,8 @@ user-guide-description: Utilisez les composants principaux extensibles pour perm
 translation-type: tm+mt
 source-git-commit: 81d2282d33ef3f20e4115e38abbd0c801e03c974
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '202'
+ht-degree: 100%
 
 ---
 
