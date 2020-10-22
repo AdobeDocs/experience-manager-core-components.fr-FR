@@ -1,9 +1,9 @@
 ---
 title: Développement des composants principaux
 description: Les composants principaux fournissent des composants de base robustes et extensibles qui offrent de riches fonctionnalités, une diffusion en continu, un contrôle de version des composants, une mise en œuvre moderne, un balisage Lean et une exportation JSON de contenu.
-translation-type: ht
-source-git-commit: b08fc5ec49126f7be19b7433a3d71de877d9e442
-workflow-type: ht
+translation-type: tm+mt
+source-git-commit: d2e69e5657ed32cc0579579df49ee083212b9333
+workflow-type: tm+mt
 source-wordcount: '1442'
 ht-degree: 100%
 
@@ -84,7 +84,7 @@ Pour plus d’informations sur leurs capacités de création et les options pour
 | Diffusion | [Via le site GitHub public](https://github.com/adobe/aem-core-wcm-components) | Via Quickstart |
 | Licence | [Licence Apache](https://www.apache.org/licenses/LICENSE-2.0) | Adobe propriétaire |
 | Contribution | Via une demande d’extraction | Impossible |
-| Accessibilité | Entièrement conforme à la norme [WCAG 2.0 AA] (https://docs.adobe.com/content/help/en/experience-manager-cloud-service/sites/authoring/fundamentals/accessible-content.html) | Partiellement conforme à la [norme WCAG 2.0 AA](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/sites/authoring/fundamentals/accessible-content.html) |
+| Accessibilité | Totalement conforme à la [norme WCAG 2.0 AA](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/sites/authoring/fundamentals/accessible-content.html) | Partiellement conforme à la [norme WCAG 2.0 AA](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/sites/authoring/fundamentals/accessible-content.html) |
 
 ## Liste des composants {#component-list}
 
