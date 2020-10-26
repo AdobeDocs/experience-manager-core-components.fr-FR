@@ -1,11 +1,11 @@
 ---
 title: Archétype de projet AEM
 description: Modèle de projet pour les applications basées sur AEM
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 52f2c4dbba54261863a98fa2b992fe4690da3511
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1035'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -41,7 +41,7 @@ L’archétype de projet AEM est un modèle Maven qui crée un projet Adobe Exp
 * **Système de style :** évitez de devoir créer des composants personnalisés en permettant aux auteurs de leur [appliquer différents styles](https://docs.adobe.com/content/help/en/experience-manager-learn/getting-started-wknd-tutorial-develop/style-system.html).
 * **Création front-end :** les développeurs front-end peuvent [concevoir des maquettes de pages AEM](uifrontend.md#webpack-dev-server) et [créer des bibliothèques clientes](uifrontend.md) avec Webpack, TypeScript et SASS.
 * **Prêt pour WebApp :** pour les sites qui utilisent [React](uifrontend-react.md) ou [Angular](uifrontend-angular.md), utilisez le [SDK SPA](https://docs.adobe.com/content/help/fr-FR/experience-manager-cloud-service/implementing/headless/spa/developing.html) afin de conserver la [création en contexte au sein de l’application](https://docs.adobe.com/content/help/en/experience-manager-learn/sites/spa-editor/spa-editor-framework-feature-video-use.html).
-* **Commerce activé :** Pour les projets qui souhaitent intégrer [AEM Commerce](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/commerce/home.html) à des solutions commerciales comme [Magento](https://magento.com/) à l’aide des composants [principaux](https://github.com/adobe/aem-core-cif-components)Commerce.
+* **Compatible Commerce :** pour les projets qui souhaitent intégrer [AEM Commerce](https://docs.adobe.com/content/help/fr-FR/experience-manager-cloud-service/commerce/home.translate.html) à des solutions commerciales comme [Magento](https://magento.com/fr) à l’aide des composants [principaux](https://github.com/adobe/aem-core-cif-components) Commerce.
 * **Exemple de code :** vous pouvez extraire le composant HelloWorld, ainsi que les exemples de modèles, servlets, filtres et planificateurs.
 * **Open source :** si quelque chose ne va pas, [contribuez](https://github.com/adobe/aem-core-wcm-components/blob/master/CONTRIBUTING.md) en apportant vos améliorations.
 
