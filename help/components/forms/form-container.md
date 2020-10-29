@@ -1,11 +1,11 @@
 ---
 title: Composant de conteneur de formulaires
 description: Le composant de conteneur de formulaires des composants principaux permet la création de formulaires d’envoi simples.
-translation-type: ht
-source-git-commit: 4813748bcfa83ce7c73e81d4e4d445ecc8215d26
-workflow-type: ht
-source-wordcount: '803'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: 499047a8c15a6423a56b370f41fd020740481f80
+workflow-type: tm+mt
+source-wordcount: '956'
+ht-degree: 80%
 
 ---
 
@@ -18,7 +18,7 @@ Le composant de conteneur de formulaires des composants principaux permet la cr�
 
 Le composant de conteneur de formulaires a permis la création de formulaires et de fonctionnalités d’envoi d’informations simples en prenant en charge les formulaires WCM simples et en utilisant une structure imbriquée pour autoriser des composants de formulaire supplémentaires.
 
-En utilisant la [boîte de dialogue de configuration](#configure-dialog), l’éditeur de contenu peut définir l’action déclenchée par l’envoi du formulaire, l’emplacement de stockage du contenu envoyé et si un workflow doit être déclenché. L’auteur du modèle peut utiliser la [boîte de dialogue de conception](#design-dialog) pour définir les composants autorisés et leurs mappages similaires à la boîte de dialogue de conception du [conteneur de mises en page standard dans l’éditeur de modèles](https://docs.adobe.com/content/help/fr-FR/experience-manager-cloud-service/sites/authoring/features/templates.html).
+By using the [configure dialog](#configure-dialog) the content editor can define the action triggered by form submission, the URl that should handle the submission, and whether a workflow should be triggered. L’auteur du modèle peut utiliser la [boîte de dialogue de conception](#design-dialog) pour définir les composants autorisés et leurs mappages similaires à la boîte de dialogue de conception du [conteneur de mises en page standard dans l’éditeur de modèles](https://docs.adobe.com/content/help/fr-FR/experience-manager-cloud-service/sites/authoring/features/templates.html).
 
 >[!NOTE]
 >
@@ -53,10 +53,23 @@ La boîte de dialogue de configuration permet à l’auteur de contenu de défin
 
 Selon le **type d’action** sélectionné, les options disponibles dans le conteneur changent. Les types d’actions disponibles sont les suivants :
 
+* [Données du formulaire de publication](#post-data)
 * [Courrier](#mail)
 * [Stocker le contenu](#store-content)
 
 Quel que soit le type, il existe des [paramètres généraux](#general-settings) qui s’appliquent à chaque action.
+
+### Données du formulaire de publication {#post-data}
+
+Lorsque le formulaire est envoyé, le type d’action de données de post-formulaire transmet les données envoyées à un tiers en tant que JSON pour traitement.
+
+![Options Publier les données de formulaire dans la boîte de dialogue de modification du composant de Conteneur de formulaire](/help/assets/form-container-edit-post.png)
+
+* **Point de terminaison** : service HTTPS complet qui traitera les données
+* **Message** d&#39;erreur : message à afficher si l&#39;envoi échoue
+
+>[!TIP]
+>Un administrateur système peut ajuster d’autres options de délai d’expiration pour gérer le traitement des données de formulaire transférées. [Consultez la documentation technique sur GitHub pour en savoir plus.](https://github.com/adobe/aem-core-wcm-components/tree/master/content/src/content/jcr_root/apps/core/wcm/components/form/actions/rpc)
 
 ### Courrier {#mail}
 
@@ -82,6 +95,12 @@ Lorsque le formulaire est envoyé, le contenu du formulaire est stocké dans un 
 * **Chemin d’accès au contenu** : chemin d’accès au référentiel de contenu où le contenu envoyé est stocké.
 * **Afficher les données** : appuyez ou cliquez sur cette option pour afficher les données envoyées stockées sous la forme JSON.
 * **Démarrer le processus** : configurez cette option pour démarrer un workflow avec le contenu stocké comme charge utile lors de l’envoi du formulaire.
+
+>[!NOTE]
+>
+>Afin de simplifier la gestion des données utilisateur et d’imposer la séparation des préoccupations, il est généralement déconseillé de stocker le contenu généré par l’utilisateur dans le référentiel.
+>
+>Utilisez plutôt le type d’action Données [du formulaire de](#post-data) publication pour transmettre le contenu de l’utilisateur à un prestataire dédié.
 
 ### Paramètres généraux {#general-settings}
 
