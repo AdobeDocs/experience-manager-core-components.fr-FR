@@ -2,10 +2,10 @@
 title: Présentation des composants principaux
 description: 'Les composants principaux fournissent des composants de base solides et extensibles, reposant sur les dernières technologies et les bonnes pratiques. '
 translation-type: tm+mt
-source-git-commit: 8f57b555b06cbb193e0b94021c81193f016390b8
+source-git-commit: 836fc4a8544e4d5bdf352074385ee4aed9303b1d
 workflow-type: tm+mt
-source-wordcount: '860'
-ht-degree: 100%
+source-wordcount: '898'
+ht-degree: 96%
 
 ---
 
@@ -106,7 +106,11 @@ La version actuelle des composants principaux comporte les composants ci-après.
 
 | Composants principaux | AEM as a Cloud Service | AEM 6.5 | AEM 6.4 | Java SE | Maven |
 |---------|---------|---------|---------|---------|---------|
-| [2.12.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.12.0) | Suite | 6.5.5.0+ | 6.4.8.1+ | 8, 11 | 3.3.9+ |
+| [2.12.1](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.12.1) | Suite | 6.5.5.0+ * | 6.4.8.1+ * | 8, 11 | 3.3.9+ |
+
+>[!NOTE]
+>
+>(*) Depuis la version 2.11.0, `org.apache.sling.models.impl` la version 1.4.12 ou ultérieure est requise (en raison de [SLING-8781](https://issues.apache.org/jira/browse/SLING-8781)). Ce service sera fourni pour AEM 6.4 et 6.5 dans un futur Service Pack. En attendant, le lot Sling Models est inclus dans le `core.wcm.components.all` paquet.
 
 Pour connaître les exigences des versions précédentes des composants principaux, voir [Versions des composants principaux](versions.md).
 
