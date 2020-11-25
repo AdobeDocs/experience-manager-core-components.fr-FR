@@ -2,9 +2,9 @@
 title: aem en tant que module externe expert du kit SDK Cloud Service
 description: Documentation du module externe Maven build analyzer local
 translation-type: tm+mt
-source-git-commit: a58434ebf7ae72472989f2e55d40bfa22fd99208
+source-git-commit: abb43865278f884555d1bb963686ccc561f319b5
 workflow-type: tm+mt
-source-wordcount: '450'
+source-wordcount: '436'
 ht-degree: 3%
 
 ---
@@ -12,11 +12,11 @@ ht-degree: 3%
 
 # aem en tant que module externe expert du kit SDK Cloud Service {#maven-analyzer-plugin}
 
-Le module externe Maven de l’analyseur AEM analyse la structure des différents projets de packages de contenu.
+L’AEM en tant que module externe expert de création de SDK Cloud Service analyse la structure des différents projets de packages de contenu.
 
 Pour plus d’informations sur la façon de l’inclure dans un projet d’expert AEM, consultez la documentation [du module externe](https://github.com/adobe/aemanalyser-maven-plugin/blob/main/aemanalyser-maven-plugin/README.md) Analyzer Maven.
 
-Vous trouverez ci-dessous un tableau décrivant les analyseurs exécutés dans le cadre de cette étape. Notez que certains sont exécutés dans le SDK local, tandis que d’autres ne le sont que pendant le déploiement du pipeline de Cloud Manager.
+Vous trouverez ci-dessous un tableau décrivant les analyseurs exécutés dans le cadre de cette étape. <!-- Note that some are executed in the local SDK, while others are only executed during the Cloud Manager pipeline deployment. -->
 
 | Module | Fonction, exemple et dépannage | SDK local | Cloud Manager |
 |---|---|---|---|
