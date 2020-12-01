@@ -1,9 +1,9 @@
 ---
 title: Composant du séparateur
 description: Le composant du séparateur crée un saut entre les composants d’une page.
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: c186e9ec3944d785ab0376769cf7f2307049a809
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '304'
 ht-degree: 100%
 
