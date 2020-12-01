@@ -2,8 +2,11 @@
 title: Composant des options de formulaire (v1)
 description: Le composant des options de formulaire des composants principaux permet la sélection d’options prédéfinies dans divers formats.
 index: n
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 93a7ba6b8a972d111fb723cb40b0380cea9b5a9a
+workflow-type: tm+mt
+source-wordcount: '476'
+ht-degree: 100%
 
 ---
 
