@@ -2,8 +2,11 @@
 title: Composant Liste (v1)
 description: Le composant principal Liste permet de créer facilement des listes dynamiques et statiques.
 index: n
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 93a7ba6b8a972d111fb723cb40b0380cea9b5a9a
+workflow-type: tm+mt
+source-wordcount: '854'
+ht-degree: 100%
 
 ---
 
