@@ -1,8 +1,11 @@
 ---
 title: Fonctions de localisation des composants principaux
 description: Fonctions de localisation des composants principaux
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 93a7ba6b8a972d111fb723cb40b0380cea9b5a9a
+workflow-type: tm+mt
+source-wordcount: '725'
+ht-degree: 100%
 
 ---
 
@@ -89,6 +92,7 @@ Nous ajouterons à ce modèle les composants de base sur lesquels nous voulons q
 * [Fragment d’expérience](/help/components/experience-fragment.md)
    * Nous pointons le composant de fragment d’expérience vers le chemin du fragment dans notre langage de création du fragment qui représente le pied de page.
    * En fonction du chemin d’accès de ce fragment et de la structure des fragments d’expérience qui reflètent la structure de page localisée, le composant peut rechercher automatiquement le contenu localisé correspondant.
+
    ![](/help/assets/screen-shot-2019-09-09-11.20.10.png)
 
 ## Pages {#pages}
