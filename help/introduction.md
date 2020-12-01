@@ -110,7 +110,7 @@ La version actuelle des composants principaux comporte les composants ci-après.
 
 >[!NOTE]
 >
->(*) Depuis la version 2.11.0, `org.apache.sling.models.impl` la version 1.4.12 ou ultérieure est requise (en raison de [SLING-8781](https://issues.apache.org/jira/browse/SLING-8781)). Ce service sera fourni pour AEM 6.4 et 6.5 dans un futur Service Pack. En attendant, le lot Sling Models est inclus dans le `core.wcm.components.all` paquet.
+>(*) Depuis la version 2.11.0, `org.apache.sling.models.impl` version 1.4.12 ou ultérieure est nécessaire (en raison de [SLING-8781](https://issues.apache.org/jira/browse/SLING-8781)). Ce service sera fourni pour AEM 6.4 et 6.5 dans un futur Service Pack. En attendant, le lot Sling Models est inclus dans le package `core.wcm.components.all`.
 
 Pour connaître les exigences des versions précédentes des composants principaux, voir [Versions des composants principaux](versions.md).
 
