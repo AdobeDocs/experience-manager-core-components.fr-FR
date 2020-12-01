@@ -112,11 +112,11 @@ De même, pour insérer les éléments JS, vous pouvez utiliser `jsInline`, auqu
 </script>
 ```
 
-## Chargement de fichiers CSS et JavaScript prenant en compte le contexte {#context-aware-loading}
+## Chargement de CSS et de JavaScript prenant en compte le contexte {#context-aware-loading}
 
-Le composant [](/help/components/page.md) de page prend également en charge le chargement de balises CSS, JavaScript ou meta contextuelles définies par les développeurs.
+Le [Composant de page](/help/components/page.md) prend également en charge le chargement de balises CSS, JavaScript ou meta définies par le développeur en fonction du contexte.
 
-Pour ce faire, vous créez une ressource [](context-aware-configs.md) contextuelle pour `com.adobe.cq.wcm.core.components.config.HtmlPageItemsConfig` utiliser la structure suivante :
+Pour ce faire, vous créez une ressource [contextuelle](context-aware-configs.md) pour `com.adobe.cq.wcm.core.components.config.HtmlPageItemsConfig` à l&#39;aide de la structure suivante :
 
 ```text
 com.adobe.cq.wcm.core.components.config.HtmlPageItemsConfig
