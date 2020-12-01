@@ -1,9 +1,9 @@
 ---
 title: Composant du carrousel
 description: Le composant du carrousel permet à l’auteur de contenu de présenter le contenu dans un carrousel rotatif.
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: c186e9ec3944d785ab0376769cf7f2307049a809
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '1112'
 ht-degree: 100%
 
@@ -77,9 +77,9 @@ Dans l’onglet **Propriétés**, l’auteur du contenu peut définir les diapos
 
 >[!NOTE]
 >
->Les commandes d’avance de diapositives ne sont pas activées en mode **Édition**. Utilisez le mode [**Aperçu **](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/sites/authoring/fundamentals/editing-content.html#preview-mode)ou l’option **[Afficher comme publié(e)](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/sites/authoring/fundamentals/editing-content.html#view-as-published)**pour interagir avec le carrousel en tant que lecteur du contenu publié.
+>Les commandes d’avance de diapositives ne sont pas activées en mode **Édition**. Utilisez le mode [**Aperçu**](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/sites/authoring/fundamentals/editing-content.html#preview-mode) ou l’option **[Afficher comme publié(e)](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/sites/authoring/fundamentals/editing-content.html#view-as-published)** pour interagir avec le carrousel en tant que lecteur du contenu publié.
 >
->La fonction d’avance automatique n’est pas activée en mode **Édition**. Utilisez l’option **[Afficher comme publié(e)](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/sites/authoring/fundamentals/editing-content.html#view-as-published)**pour afficher la fonctionnalité d’avance automatique en tant que lecteur du contenu publié.
+>La fonction d’avance automatique n’est pas activée en mode **Édition**. Utilisez l’option **[Afficher comme publié(e)](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/sites/authoring/fundamentals/editing-content.html#view-as-published)** pour afficher la fonctionnalité d’avance automatique en tant que lecteur du contenu publié.
 
 ### Onglet Accessibilité {#accessibility-tab}
 
