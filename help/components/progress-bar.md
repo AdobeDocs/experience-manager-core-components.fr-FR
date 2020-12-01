@@ -5,7 +5,7 @@ translation-type: tm+mt
 source-git-commit: cba1d898d7789af7f4045ef9aa052b4da6a6b33a
 workflow-type: tm+mt
 source-wordcount: '324'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -30,7 +30,7 @@ Le tableau ci-après présente en détail toutes les versions prises en charge d
 
 ## Exemple de sortie de composant {#sample-component-output}
 
-Pour tester le composant Barre de progression et obtenir des exemples d’options de configuration, ainsi que des sorties HTML et JSON, consultez la [bibliothèque de composants](https://adobe.com/go/aem_cmp_library_progressbar).
+Pour tester le composant Barre de progression et obtenir des exemples d’options de configuration, ainsi que des sorties HTML et JSON, consultez la [bibliothèque de composants](https://adobe.com/go/aem_cmp_library_progressbar_fr).
 
 ### Détails techniques {#technical-details}
 
