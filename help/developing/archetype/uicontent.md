@@ -1,8 +1,11 @@
 ---
 title: Module ui.content de l’archétype de projet AEM
 description: Module ui.content de l’archétype de projet AEM
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 93a7ba6b8a972d111fb723cb40b0380cea9b5a9a
+workflow-type: tm+mt
+source-wordcount: '218'
+ht-degree: 100%
 
 ---
 
