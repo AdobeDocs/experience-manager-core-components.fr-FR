@@ -1,9 +1,9 @@
 ---
 title: Composant de fragment de contenu
 description: Le composant de fragment de contenu des composants principaux permet l’affichage d’un fragment de contenu.
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: c186e9ec3944d785ab0376769cf7f2307049a809
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '659'
 ht-degree: 100%
 
