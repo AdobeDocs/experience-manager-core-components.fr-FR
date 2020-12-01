@@ -1,9 +1,9 @@
 ---
 title: Composant Navigation
 description: Le composant Navigation permet aux utilisateurs de parcourir facilement une structure de site globalisée.
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: ff943aeca0333b13e2b9aaf11f316457f001d507
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '1369'
 ht-degree: 100%
 
