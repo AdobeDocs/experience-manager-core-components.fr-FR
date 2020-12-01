@@ -2,8 +2,11 @@
 title: Composant de conteneur de formulaires (v1)
 description: Le composant de conteneur de formulaires des composants principaux permet la création de formulaires d’envoi simples.
 index: n
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 68472ab548fb6ebb443a06c12e7b37797a0c1302
+workflow-type: tm+mt
+source-wordcount: '638'
+ht-degree: 100%
 
 ---
 
