@@ -1,9 +1,9 @@
 ---
 title: Composant du titre
 description: Le composant du titre des composants principaux est un composant d’en-tête de section qui comporte des fonctions d’édition statique.
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 4813748bcfa83ce7c73e81d4e4d445ecc8215d26
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '556'
 ht-degree: 100%
 
