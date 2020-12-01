@@ -1,9 +1,9 @@
 ---
 title: Module ui.apps de l’archétype de projet AEM
 description: Module ui.apps de l’archétype de projet AEM
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: a427c2ade8cca69de8e2b59fc3afb4405342909c
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '335'
 ht-degree: 100%
 
