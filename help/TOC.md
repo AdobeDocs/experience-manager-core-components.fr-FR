@@ -1,6 +1,6 @@
 ---
 sub-product: AEM Core Components
-user-guide-title: AEM Core Components
+user-guide-title: Composants principaux AEM
 breadcrumb-title: Guide des composants principaux
 user-guide-description: Utilisez les composants principaux extensibles pour permettre aux auteurs de créer facilement du contenu.
 translation-type: tm+mt
