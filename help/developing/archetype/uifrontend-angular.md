@@ -1,8 +1,11 @@
 ---
 title: Génération front-end pour les applications monopage Angular
 description: Description du processus de génération front-end pour les projets d’application monopage Angular
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 93a7ba6b8a972d111fb723cb40b0380cea9b5a9a
+workflow-type: tm+mt
+source-wordcount: '404'
+ht-degree: 100%
 
 ---
 
