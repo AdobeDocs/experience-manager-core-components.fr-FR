@@ -1,8 +1,11 @@
 ---
 title: Chemins vers la réussite avec les composants principaux
 description: Réussir la mise en œuvre de votre projet avec les composants principaux
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: c338428a681f652d17bb972fb6a2abf216a338c3
+workflow-type: tm+mt
+source-wordcount: '570'
+ht-degree: 100%
 
 ---
 
