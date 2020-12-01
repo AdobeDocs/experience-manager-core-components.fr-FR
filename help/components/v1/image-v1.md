@@ -2,9 +2,9 @@
 title: Composant d’image (v1)
 description: Le composant d’image des composants principaux est un composant d’image adaptatif qui permet d’effectuer des modifications statiques.
 index: n
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 78202dc777b90f795f66873921c55e21ef8a239c
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '1229'
 ht-degree: 100%
 
