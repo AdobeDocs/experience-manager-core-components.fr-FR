@@ -1,9 +1,9 @@
 ---
 title: Composant d’accordéon
 description: Le composant d’accordéon des composants principaux permet la création d’un ensemble de panneaux organisés dans un accordéon sur une page.
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 2926c51c2ab97b50b9ec4942cd5415c15a1411b6
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '1054'
 ht-degree: 100%
 
