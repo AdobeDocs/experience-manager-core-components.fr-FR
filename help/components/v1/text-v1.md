@@ -2,8 +2,11 @@
 title: Composant Texte (v1)
 description: Le composant Texte est un composant d’édition et de composition de texte enrichi qui propose une édition statique.
 index: n
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 93a7ba6b8a972d111fb723cb40b0380cea9b5a9a
+workflow-type: tm+mt
+source-wordcount: '1657'
+ht-degree: 100%
 
 ---
 
@@ -147,6 +150,7 @@ La boîte de dialogue de modification propose les outils standard de mise en for
       * Nouvel onglet
       * Cadre parent
       * Cadre supérieur
+
    Appuyez ou cliquez sur la coche pour appliquer le lien ou sur le x pour annuler.
 
 * Dissocier
@@ -255,7 +259,7 @@ La boîte de dialogue de modification propose les outils standard de mise en for
    * **Hauteur** - Hauteur totale du tableau.
    * **Marge intérieure des cellules** - Espace autour du contenu de la cellule.
    * **Espacement des cellules** - Espacement entre les cellules.
-   * **Bordure** - Poids des lignes de bordure du tableau.
+   * **Bordure** - Épaisseur des lignes de bordure du tableau.
    * Si pour l’en-tête du tableau :
 
       * La première ligne doit être utilisée
