@@ -1,18 +1,18 @@
 ---
 title: Configurations basées sur le contexte Sling et composants principaux
 description: Les composants principaux tirent parti des configurations basées sur le contexte Sling pour certaines fonctionnalités
-translation-type: ht
-source-git-commit: 11e2c6da0fa93084b601437fd45fd65dd8d73231
-workflow-type: ht
-source-wordcount: '194'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: aff9046008dcea6c0cbda4b3de400df77a507097
+workflow-type: tm+mt
+source-wordcount: '200'
+ht-degree: 84%
 
 ---
 
 
 # Configurations basées sur le contexte Sling et composants principaux {#sling-context-aware-configurations}
 
-Les configurations basées sur le contexte sont une fonctionnalité de Sling. Il s’agit de configurations liées à une ressource de contenu, ou à une arborescence de ressources, qui sont exploitées par les composants principaux pour permettre les configurations à l’échelle du site.
+Les configurations sensibles au contexte sont une fonction [de Sling](https://sling.apache.org/documentation/bundles/context-aware-configuration/context-aware-configuration.html). Il s’agit de configurations liées à une ressource de contenu ou à une arborescence de ressources et exploitées par les composants principaux pour permettre des configurations à l’échelle du site.
 
 ## Configurations basées sur le contexte Sling {#context-aware-configurations}
 
