@@ -18,7 +18,7 @@ Le composant de conteneur de formulaires des composants principaux permet la cr�
 
 Le composant de conteneur de formulaires a permis la création de formulaires et de fonctionnalités d’envoi d’informations simples en prenant en charge les formulaires WCM simples et en utilisant une structure imbriquée pour autoriser des composants de formulaire supplémentaires.
 
-By using the [configure dialog](#configure-dialog) the content editor can define the action triggered by form submission, the URl that should handle the submission, and whether a workflow should be triggered. L’auteur du modèle peut utiliser la [boîte de dialogue de conception](#design-dialog) pour définir les composants autorisés et leurs mappages similaires à la boîte de dialogue de conception du [conteneur de mises en page standard dans l’éditeur de modèles](https://docs.adobe.com/content/help/fr-FR/experience-manager-cloud-service/sites/authoring/features/templates.html).
+En utilisant la [boîte de dialogue de configuration](#configure-dialog), l&#39;éditeur de contenu peut définir l&#39;action déclenchée par l&#39;envoi du formulaire, l&#39;URL qui doit gérer l&#39;envoi et si un flux de travail doit être déclenché. L’auteur du modèle peut utiliser la [boîte de dialogue de conception](#design-dialog) pour définir les composants autorisés et leurs mappages similaires à la boîte de dialogue de conception du [conteneur de mises en page standard dans l’éditeur de modèles](https://docs.adobe.com/content/help/fr-FR/experience-manager-cloud-service/sites/authoring/features/templates.html).
 
 >[!NOTE]
 >
@@ -65,8 +65,8 @@ Lorsque le formulaire est envoyé, le type d’action de données de post-formul
 
 ![Options Publier les données de formulaire dans la boîte de dialogue de modification du composant de Conteneur de formulaire](/help/assets/form-container-edit-post.png)
 
-* **Point de terminaison** : service HTTPS complet qui traitera les données
-* **Message** d&#39;erreur : message à afficher si l&#39;envoi échoue
+* **Point de terminaison**  : service HTTPS complet qui traitera les données
+* **Message**  d&#39;erreur : message à afficher si l&#39;envoi échoue
 
 >[!TIP]
 >Un administrateur système peut ajuster d’autres options de délai d’expiration pour gérer le traitement des données de formulaire transférées. [Consultez la documentation technique sur GitHub pour en savoir plus.](https://github.com/adobe/aem-core-wcm-components/tree/master/content/src/content/jcr_root/apps/core/wcm/components/form/actions/rpc)
@@ -100,7 +100,7 @@ Lorsque le formulaire est envoyé, le contenu du formulaire est stocké dans un 
 >
 >Afin de simplifier la gestion des données utilisateur et d’imposer la séparation des préoccupations, il est généralement déconseillé de stocker le contenu généré par l’utilisateur dans le référentiel.
 >
->Utilisez plutôt le type d’action Données [du formulaire de](#post-data) publication pour transmettre le contenu de l’utilisateur à un prestataire dédié.
+>Utilisez plutôt le type d’action [Publier les données du formulaire](#post-data) pour transmettre le contenu de l’utilisateur à un prestataire dédié.
 
 ### Paramètres généraux {#general-settings}
 
@@ -119,7 +119,7 @@ Quelle que soit le type d’action sélectionné, une page de remerciement peut 
 
 ## Boîte de dialogue de conception {#design-dialog}
 
-La boîte de dialogue de conception permet à l’auteur du modèle de définir les composants autorisés et leurs mappages pour le conteneur similaires à la boîte de dialogue de conception du [conteneur de mises en page standard dans l’éditeur de modèles](https://docs.adobe.com/content/help/fr-FR/experience-manager-cloud-service/sites/authoring/features/templates.html).
+La boîte de dialogue de conception permet à l’auteur du modèle de définir les composants autorisés et leurs mappages pour le conteneur similaires à la boîte de dialogue de conception du [conteneur de mises en page standard dans l’éditeur de modèles](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/sites/authoring/features/templates.html).
 
 ### Onglet Styles {#styles-tab}
 
