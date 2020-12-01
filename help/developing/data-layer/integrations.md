@@ -21,15 +21,15 @@ La couche de données du client d’Adobe peut s’intégrer à vos composants p
 Pour ajouter automatiquement un composant personnalisé à la couche de données :
 
 1. Définissez les propriétés du modèle de composant personnalisé qui doit être suivi.
-1. Ajoutez l’ `data-cmp-data-layer` attribut au composant personnalisé HTL. E.g. `data-cmp-data-layer="${mycomponent.data.json}"`.
+1. Ajoutez l&#39;attribut `data-cmp-data-layer` au composant personnalisé HTL. Par ex. `data-cmp-data-layer="${mycomponent.data.json}"`.
 
-Pour que la couche de données déclenche automatiquement un `cmp:click` événement chaque fois qu’un élément spécifique du composant personnalisé est cliqué, ajoutez l’ `data-cmp-clickable` attribut à l’élément à suivre dans le composant personnalisé HTL.
+Pour que la couche de données déclenche automatiquement un événement `cmp:click` chaque fois qu&#39;un utilisateur clique sur un élément spécifique du composant personnalisé, ajoutez l&#39;attribut `data-cmp-clickable` à l&#39;élément à suivre dans le composant personnalisé HTL.
 
-L’ `data-cmp-data-layer-enabled` attribut peut être interrogé côté client pour vérifier si la couche de données est activée.
+L&#39;attribut `data-cmp-data-layer-enabled` peut être interrogé côté client pour vérifier si la couche de données est activée.
 
 >[!TIP]
 >
->Pour plus d&#39;informations techniques sur l&#39;intégration de la couche de données du client Adobe avec les composants principaux et sur la façon d&#39;activer la couche de données sur vos composants personnalisés, consultez le [`DATA_LAYER_INTEGRATION.md`](https://github.com/adobe/aem-core-wcm-components/blob/master/DATA_LAYER_INTEGRATION.md) fichier dans le référentiel des composants principaux.
+>Pour plus d&#39;informations techniques sur l&#39;intégration de la couche de données du client Adobe avec les composants principaux et sur la façon d&#39;activer la couche de données sur vos composants personnalisés, consultez le fichier [`DATA_LAYER_INTEGRATION.md`](https://github.com/adobe/aem-core-wcm-components/blob/master/DATA_LAYER_INTEGRATION.md) dans le référentiel des composants principaux.
 
 ## Intégration avec Adobe Analytics et Adobe Target {#analytics-target}
 
