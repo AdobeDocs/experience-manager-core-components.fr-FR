@@ -1,9 +1,9 @@
 ---
 title: Composant Incorporer
 description: Le composant Incorporer permet d’incorporer du contenu externe dans une page de contenu AEM.
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: c186e9ec3944d785ab0376769cf7f2307049a809
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '944'
 ht-degree: 100%
 
@@ -104,7 +104,7 @@ Les balises HTML que l’auteur peut entrer sont filtrées à des fins de sécur
 
 Toutefois, les règles sont plus complexes, car le composant Incorporer suit l’ensemble de règles de filtrage de la structure d’assainissement HTML AntiSamy d’AEM, qui se trouve à l’adresse `/libs/cq/xssprotection/config.xml`. Cela peut être superposé pour une configuration spécifique au projet par un développeur, si nécessaire.
 
-Vous trouverez des informations de sécurité supplémentaires dans la [documentation du développeur AEM pour les installations On-premise](https://docs.adobe.com/content/help/en/experience-manager-65/developing/introduction/security.html), ainsi que pour les [installations AEM as a Cloud Service.](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/security/home.html)
+Vous trouverez des informations de sécurité supplémentaires dans la [documentation du développeur AEM pour les installations On-Premise](https://docs.adobe.com/content/help/en/experience-manager-65/developing/introduction/security.html), ainsi que les [installations AEM as a Cloud Service.](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/security/home.html)
 
 >[!NOTE]
 >Bien que les règles de structure d’assainissement AntiSamy puissent être configurées en superposant `/libs/cq/xssprotection/config.xml`, ces modifications ont un impact sur l’ensemble du comportement HTL et JSP et pas seulement sur le composant principal Incorporer.
