@@ -1,9 +1,9 @@
 ---
 title: Version front-end de l’archétype de projet AEM
 description: Modèle de projet pour les applications basées sur AEM
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 2926c51c2ab97b50b9ec4942cd5415c15a1411b6
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '1622'
 ht-degree: 100%
 
@@ -37,7 +37,7 @@ Si l’archétype complet de projet AEM est exécuté avec `mvn clean install -P
 
 ## Présentation des bibliothèques clientes {#clientlibs}
 
-Le module front-end est rendu disponible à l’aide d’une [bibliothèque cliente AEM](https://docs.adobe.com/content/help/fr-FR/experience-manager-65/developing/introduction/clientlibs.html). Lors de l’exécution du script de génération NPM, l’application est créée et le package aem-clientlib-generator récupère le résultat de la génération et le transforme en une bibliothèque cliente de ce type.
+Le module front-end est rendu disponible à l’aide d’une [bibliothèque cliente AEM](https://docs.adobe.com/content/help/en/experience-manager-65/developing/introduction/clientlibs.html). Lors de l’exécution du script de génération NPM, l’application est créée et le package aem-clientlib-generator récupère le résultat de la génération et le transforme en une bibliothèque cliente de ce type.
 
 Une bibliothèque cliente se compose des fichiers et répertoires suivants :
 
