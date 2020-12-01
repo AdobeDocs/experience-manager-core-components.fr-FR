@@ -1,9 +1,9 @@
 ---
 title: Création à l’aide des composants principaux
 description: 'Dans AEM, les composants sont les éléments structurels qui constituent le contenu des pages créées : les composants principaux offrent une fonctionnalité de création flexible et riche en fonctionnalités.'
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 4813748bcfa83ce7c73e81d4e4d445ecc8215d26
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '764'
 ht-degree: 100%
 
@@ -26,7 +26,7 @@ Pour une présentation plus détaillée et plus orientée vers les développeurs
 
 >[!CAUTION]
 >
->Les composants principaux [requièrent AEM 6.4 ou version ultérieure](/help/versions.md), ainsi que l’utilisation de [modèles modifiables](https://docs.adobe.com/content/help/fr-FR/experience-manager-cloud-service/sites/authoring/features/templates.html). Ils ne fonctionnent pas avec l’interface utilisateur classique ni avec les modèles statiques.
+>Les composants principaux [requièrent AEM 6.4 ou version ultérieure](/help/versions.md), ainsi que l’utilisation de [modèles modifiables](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/sites/authoring/features/templates.html). Ils ne fonctionnent pas avec l’interface utilisateur classique ni avec les modèles statiques.
 
 ## Création à l’aide des composants principaux {#authoring-with-core-components}
 
@@ -36,7 +36,7 @@ En tant qu’auteur, vous remarquerez que les composants principaux présentent 
 
 * Riches en fonctionnalités pour répondre à de nombreux cas d’utilisation, comme illustré sur le [site de référence WKND](https://wknd.site), ainsi que dans la [bibliothèque de composants](https://adobe.com/go/aem_cmp_library)
 
-* [Préconfigurables](#pre-configuring-core-components) afin de définir les fonctionnalités disponibles pour les auteurs de pages au moyen de l’[éditeur de modèles](https://docs.adobe.com/content/help/fr-FR/experience-manager-cloud-service/sites/authoring/features/templates.html)
+* [Préconfigurables](#pre-configuring-core-components) afin de définir les fonctionnalités disponibles pour les auteurs de pages au moyen de l’[éditeur de modèles](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/sites/authoring/features/templates.html)
 
 * Conçus selon les [consignes d’accessibilité](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/sites/authoring/fundamentals/accessible-content.html)
 
@@ -60,7 +60,7 @@ La configuration des composants de base a été la tâche d’un développeur. T
 
 Par exemple, si un composant d’image n’autorise pas le chargement d’images à partir du système de fichiers ou si un composant textuel autorise uniquement la mise en forme des paragraphes, ces fonctions peuvent être activées ou désactivées en un seul clic.
 
-Pour plus d’informations, voir [Création de modèles de page](https://docs.adobe.com/content/help/fr-FR/experience-manager-cloud-service/sites/authoring/features/templates.html).
+Pour plus d’informations, voir [Création de modèles de page](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/sites/authoring/features/templates.html).
 
 ### Boîtes de dialogue de modification et de conception {#edit-and-design-dialogs}
 
