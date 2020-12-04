@@ -2,9 +2,9 @@
 title: Versions des composants principaux
 description: Les composants principaux sont publiés sous forme de versions qui peuvent contenir plusieurs versions des mêmes composants principaux. Ce document explique les versions et les mises à jour ainsi que comment comprendre la compatibilité avec les composants principaux et AEM.
 translation-type: tm+mt
-source-git-commit: 2f3d2499e9f6c88453b633c20e49703eac25eff4
+source-git-commit: 0f2994657ac42d4110e3b802753968a2bfdf0e5a
 workflow-type: tm+mt
-source-wordcount: '1870'
+source-wordcount: '1873'
 ht-degree: 78%
 
 ---
@@ -12,7 +12,7 @@ ht-degree: 78%
 
 # Versions des composants principaux {#core-components-versions}
 
-La version actuelle des composants principaux est la version 2.12.1. Elle est compatible avec les installations [AEM as a Cloud Service](https://docs.adobe.com/content/help/fr-FR/experience-manager-cloud-service/landing/home.html) et [AEM On-Premise](https://docs.adobe.com/content/help/en/experience-manager-65/user-guide/home.html). Il a été publié en novembre 2020 en tant que correctif pour la version 2.12.0. La version 2.12.0 a introduit plusieurs nouvelles fonctionnalités pour les formulaires, les métadonnées et la couche de données.
+La version actuelle des composants principaux est la version 2.13.0. Elle est compatible avec les installations [AEM as a Cloud Service](https://docs.adobe.com/content/help/fr-FR/experience-manager-cloud-service/landing/home.html) et [AEM On-Premise](https://docs.adobe.com/content/help/en/experience-manager-65/user-guide/home.html).
 
 ## Historique des versions et compatibilité {#release-history-and-compatibility}
 
@@ -26,6 +26,7 @@ Le tableau suivant, dont le contenu est [disponible sur GitHub avec les détails
 
 | Mise à jour | Description | AEM 6.4 | AEM 6.5 | AEM as a Cloud Service | Java | Date de publication |
 |---|---|---|---|---|---|---|
+| [2.13.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.13.0) | Cette version comprend de nouvelles fonctionnalités Contenu multimédia dynamique pour le [composant Image.](/help/components/image.md) | 6.4.8.1+ * | 6.5.5.0+ * | Suite | 8, 11 | 4 décembre 2020 |
 | [2.12.2](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.12.2) | Il s’agissait d’une version de correctif pour la version 2.12.0 comprenant des correctifs mineurs. | 6.4.8.1+ * | 6.5.5.0+ * | Suite | 8, 11 | 11 novembre 2020 |
 | [2.12.1](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.12.1) | Il s&#39;agit d&#39;une version de correctif pour la version 2.12.0 qui corrige un bogue majeur dans le [composant d&#39;image.](/help/components/image.md) | 6.4.8.1+ * | 6.5.5.0+ * | Suite | 8, 11 | 5 novembre 2020 |
 | [2.12.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.12.0) | Cette version a introduit [un nouveau gestionnaire de formulaires POST ;](/help/components/forms/form-container.md#post-data) la possibilité d’inclure des balises CSS, JavaScript et [de métadonnées personnalisées par le biais d’une configuration contextuelle ;](/help/developing/including-clientlibs.md#context-aware-loading) et un utilitaire `DataLayerBuilder` pour [simplifier l’intégration de la couche de données dans les composants personnalisés.](/help/developing/data-layer/integrations.md#enabling-custom-components) | 6.4.8.1+ * | 6.5.5.0+ * | Suite | 8, 11 | 29 octobre 2020 |
