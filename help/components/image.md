@@ -2,10 +2,10 @@
 title: Composant d’image
 description: Le composant d’image des composants principaux est un composant d’image adaptatif qui permet d’effectuer des modifications statiques.
 translation-type: tm+mt
-source-git-commit: 4813748bcfa83ce7c73e81d4e4d445ecc8215d26
+source-git-commit: c20d02aa93cce60b583a2d22c77b08ca7eb9b765
 workflow-type: tm+mt
-source-wordcount: '1921'
-ht-degree: 100%
+source-wordcount: '2157'
+ht-degree: 75%
 
 ---
 
@@ -25,6 +25,12 @@ Les largeurs d’image ainsi que le recadrage et les paramètres supplémentaire
 Le composant d’image s’accompagne de fonctions réactives efficaces prêtes à l’emploi. Au niveau du modèle de page, la [boîte de dialogue de conception](#design-dialog) permet de définir les largeurs par défaut du fichier image. Le composant d’image charge alors automatiquement la largeur correcte à afficher en fonction de la taille de la fenêtre du navigateur. Lorsque la fenêtre est redimensionnée, le composant d’image charge dynamiquement la taille d’image correcte, instantanément. Les développeurs de composants n’ont pas à définir des requêtes multimédias personnalisées, puisque le composant d’image est déjà optimisé pour charger le contenu.
 
 En outre, le composant d’image prend en charge le chargement différé afin de différer le chargement du fichier image réel jusqu’à ce qu’il soit visible dans le navigateur, ce qui augmente la réactivité des pages.
+
+## Prise en charge des médias dynamiques {#dynamic-media}
+
+Le composant Image (à partir de la version [2.13.0](/help/versions.md)) prend en charge les ressources [Contenu multimédia dynamique](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/dynamicmedia/dynamic-media.html?lang=en#dynamicmedia). [Lorsqu’elles sont activées, ](#design-dialog) ces fonctionnalités offre la possibilité d’ajouter des fichiers d’image Contenu multimédia dynamique par simple glisser-déposer ou via l’explorateur de ressources, comme vous le feriez pour toute autre image. En outre, les modificateurs d’image, les paramètres d’image prédéfinis et les cultures intelligentes sont également pris en charge.
+
+Vos contenus Web créés avec les composants principaux ne peuvent pas être dotés de fonctionnalités d’image multimédia dynamique multiplate-forme puissantes, puissantes, optimisées pour les applications Sensei, hautes performances et hautes performances.
 
 ## Version et compatibilité {#version-and-compatibility}
 
@@ -65,9 +71,7 @@ La documentation technique la plus récente sur le composant d’image [se trouv
 
 Vous trouverez plus d’informations sur le développement des composants principaux dans la [documentation destinée aux développeurs de composants principaux](/help/developing/overview.md).
 
->[!NOTE]
->
->Depuis la version 2.1.0 des composants principaux, le composant d’image prend en charge les [microdonnées schema.org](https://schema.org).
+Le composant Image prend en charge les microdonnées [schéma.org](https://schema.org).
 
 ## Boîte de dialogue de configuration {#configure-dialog}
 
@@ -86,33 +90,35 @@ Outre la [boîte de dialogue de modification](#edit-dialog) et la [boîte de dia
 
 ![Onglet Métadonnées de la boîte de dialogue de configuration du composant Image](/help/assets/image-configure-metadata.png)
 
-* **L’image est décorative**
-Vérifiez si l’image doit être ignorée par les dispositifs d’assistance et ne requiert donc pas de texte de remplacement. Cela s’applique uniquement aux images décoratives.
-* **Texte de remplacement**
-Alternative textuelle de la signification ou de la fonction de l’image, pour les malvoyants.
-   * Obtenir un texte de remplacement à partir de DAM : lorsque cette option est cochée, le texte de remplacement de l’image est renseigné avec la valeur des métadonnées `dc:description` dans DAM.
-
-* **Légende**
-Des informations supplémentaires sur l’image sont affichées par défaut sous l’image.
-   * **Obtenir la légende à partir de DAM**
-Lorsque cette option est cochée, le texte de légende de l’image est renseigné avec la valeur des  
-métadonnées `dc:title` dans DAM.
-   * **Afficher la légende dans une fenêtre contextuelle**
-Si cette option est activée, la légende ne s’affiche pas sous l’image, mais dans une fenêtre contextuelle dans certains navigateurs lorsque vous pointez sur l’image.
-
-* **Lien**
-   * Liez l’image à une autre ressource.
+* **Type**  de paramètre prédéfini : définit les types de paramètres d’image prédéfinis disponibles, soit  **Image** Presetor  **Smart Crop**, et n’est disponible que lorsque les  [fonctionnalités ](#dynamic-meida) Contenu multimédia dynamique sont activées.
+   * **Paramètre**  d’image prédéfini : lorsque  **Type de** paramètre prédéfini d’ **image** prédéfini est sélectionné, la liste déroulante  **** Paramètres d’image prédéfinis est disponible, ce qui permet de sélectionner les paramètres prédéfinis de média dynamique disponibles. Cette option n’est disponible que si des paramètres prédéfinis sont définis pour la ressource sélectionnée.
+   * **Recadrage**  dynamique : lorsque le  **type de** paramètre prédéfini de  **recadrage** dynamique est sélectionné, le  **** rendu déroulant est disponible, ce qui permet de sélectionner les rendus disponibles de la ressource sélectionnée. Cette option n’est disponible que si des rendus sont définis pour la ressource sélectionnée.
+   * **Modificateurs**  d’images - D’autres commandes de traitement d’images de Contenu multimédia dynamique peuvent être définies ici, séparées par  `&`, quel que soit le  **paramètre prédéfini** Type sélectionné.
+* **L’image est décorative** : vérifiez si l’image doit être ignorée par les dispositifs d’assistance et ne requiert donc pas de texte de remplacement. Cela s’applique uniquement aux images décoratives.
+* **Texte de remplacement** : alternative textuelle de la signification ou de la fonction de l’image, pour les malvoyants.
+   * **** Obtenir un texte de remplacement à partir de DAM : lorsque cette option est cochée, le texte de remplacement de l’image est renseigné avec la valeur des métadonnées `dc:description` dans DAM.
+* **Légende**  - Informations supplémentaires sur l’image, affichées par défaut sous l’image.
+   * **Obtenir la légende à partir de DAM**  : lorsque cette option est sélectionnée, le texte de la légende de l’image est renseigné avec la valeur des  `dc:title` métadonnées dans DAM.
+   * **Afficher la légende dans une fenêtre contextuelle** : si cette option est activée, la légende ne s’affiche pas sous l’image, mais dans une fenêtre contextuelle dans certains navigateurs lorsque vous pointez sur l’image.
+* **Lien**  - Lier l&#39;image à une autre ressource.
    * Utilisez la boîte de dialogue de sélection pour créer un lien vers une autre ressource AEM.
    * Si vous ne créez pas de lien vers une ressource AEM, saisissez l’URL absolue. Les URL non absolues seront interprétées comme relatives à AEM.
-
 * **ID** : cette option permet de contrôler l’identifiant unique du composant dans le code HTML ainsi que dans la [couche de données](/help/developing/data-layer/overview.md).
    * Si rien n’est indiqué, un ID unique est généré automatiquement et peut être trouvé en examinant la page obtenue.
    * Si un ID est spécifié, il incombe à l’auteur de s’assurer qu’il est unique.
    * La modification de l’ID peut avoir un impact sur le suivi CSS, JS et de couche de données.
 
+>[!TIP]
+>
+>**Les options** de recadrage intelligent  **et les paramètres** d’image prédéfinis s’excluent mutuellement. Si un auteur doit utiliser un paramètre d’image prédéfini avec un rendu de recadrage dynamique, il devra utiliser les **modificateurs d’image** pour ajouter manuellement des paramètres prédéfinis.
+
 ## Boîte de dialogue de modification {#edit-dialog}
 
 La boîte de dialogue de modification permet à l’auteur du contenu de recadrer, de modifier la carte de lancement et de zoomer sur l’image.
+
+>[!NOTE]
+>
+>Les fonctions de recadrage, de rotation et de zoom ne s’appliquent pas aux fichiers Contenu multimédia dynamique. Si les fonctions [Contenu multimédia dynamique](#dynamic-media) sont activées, toute modification apportée aux fichiers Contenu multimédia dynamique doit être effectuée par l&#39;intermédiaire de la [boîte de dialogue Configurer.](#configure-dialog)
 
 ![Boîte de dialogue de modification du composant Image](/help/assets/image-edit.png)
 
@@ -181,36 +187,20 @@ En outre, vous pouvez définir quelles options de composant générales sont aut
 
 ![Onglet principal de la boîte de dialogue de conception du composant Image](/help/assets/image-design-main.png)
 
-* **Activer le chargement différé**
-Définissez si l’option de chargement différé est activée automatiquement lors de l’ajout du composant d’image à une page.
-* **L’image est décorative**
-Définissez si l’option d’image décorative est activée automatiquement lors de l’ajout du composant d’image à une page.
-* **Obtenir un texte de remplacement de DAM**
-Définissez si l’option permettant de récupérer le texte de remplacement de DAM est automatiquement activée lors de l’ajout du composant d’image à une page.
-* **Obtenir une légende à partir de DAM**
-Définissez si l’option permettant de récupérer la légende à partir de DAM est automatiquement activée lors de l’ajout du composant d’image à une page.
-* **Afficher la légende dans une fenêtre contextuelle**
-Définissez si l’option permettant d’afficher la légende d’image est automatiquement activée lors de l’ajout du composant d’image à une page.
-* **Désactiver le suivi d’UUID**
-Cochez cette option pour désactiver le suivi de l’UUID de la ressource d’image.
-
-* **Largeurs**
-Définit une liste de largeurs en pixels pour l’image ; le composant charge automatiquement la largeur la plus appropriée en fonction de la taille du navigateur.
+* **Activer les fonctionnalités**  DM : lorsque cette option est cochée, les  [fonctionnalités d&#39;activation de médias ](#dynamic-media) dynamiques sont disponibles.
+* **Activer le chargement**  différé - Définissez si l&#39;option de chargement différé est automatiquement activée lors de l&#39;ajout du composant d&#39;image à une page.
+* **L&#39;image est décorative**  - Définissez si l&#39;option d&#39;image décorative est activée automatiquement lors de l&#39;ajout du composant d&#39;image à une page.
+* **Obtenir un autre texte du DAM** - Définissez si l&#39;option de récupération du texte de remplacement du DAM est automatiquement activée lors de l&#39;ajout du composant d&#39;image à une page.
+* **Obtenir la légende à partir de DAM**  - Définissez si l’option de récupération de la légende à partir de DAM est automatiquement activée lors de l’ajout du composant d’image à une page.
+* **Affichage de la légende sous forme de fenêtre contextuelle**  - Définissez si l’option d’affichage de la légende d’image sous forme de fenêtre contextuelle est automatiquement activée lors de l’ajout du composant d’image à une page.
+* **Désactiver le suivi**  UUID : cochez cette case pour désactiver le suivi de l’UUID de la ressource d’image.
+* **Largeurs**  : définit une liste de largeurs en pixels pour l&#39;image et le composant charge automatiquement la largeur la plus appropriée en fonction de la taille du navigateur.
    * Appuyez ou cliquez sur le bouton **Ajouter** pour ajouter une autre taille.
       * Utilisez les poignées de capture pour réorganiser l’ordre des tailles.
       * Utilisez l’icône **Supprimer** pour supprimer une largeur.
    * Par défaut, le chargement des images est différé jusqu’à ce qu&#39;elles deviennent visibles.
       * Sélectionnez l’option **Désactiver le chargement différé** pour charger les images au chargement de la page.
-* **Qualité JPEG**
-Facteur de qualité (exprimé par un pourcentage compris entre 0 et 100) pour les images JPEG transformées (mises à l’échelle ou recadrées, par exemple).
-
->[!NOTE]
->
->L’option Qualité JPEG est disponible depuis la version 2.2.0 des composants principaux.
-
->[!NOTE]
->
->Depuis la version 2.2.0 des composants principaux, le composant d’image ajoute l’attribut UUID unique `data-asset-id` à la ressource d’image afin de permettre le suivi et l’analyse du nombre de vues reçues par les ressources individuelles.
+* **Qualité**  JPEG - Facteur de qualité (en pourcentage de 0 à 100) pour les images JPEG transformées (par exemple, redimensionnées ou recadrées).
 
 ### Onglet Fonctionnalités {#features-tab}
 
@@ -262,6 +252,6 @@ Le composant d’image utilise la servlet d’image adaptative des composants pr
 
 >[!NOTE]
 >
->Les requêtes conditionnelles effectuées par le biais de l’`Last-Modified`en-tête sont prises en charge par la servlet d’image adaptative, mais la mise en cache de l’en-tête `Last-Modified` [doit être activée dans Dispatcher](https://docs.adobe.com/content/help/en/experience-manager-dispatcher/using/configuring/dispatcher-configuration.html#caching-http-response-headers).
+>Les requêtes conditionnelles effectuées par le biais de l’`Last-Modified`en-tête sont prises en charge par la servlet d’image adaptative, mais la mise en cache de l’en-tête `Last-Modified` [doit être activée dans Dispatcher](https://experienceleague.adobe.com/docs/experience-manager-dispatcher/using/configuring/dispatcher-configuration.html?lang=en#caching-http-response-headers).
 >
 >L’exemple de configuration de Dispatcher d’[AEM Project Archetype](/help/developing/archetype/overview.md) contient déjà cette configuration.
