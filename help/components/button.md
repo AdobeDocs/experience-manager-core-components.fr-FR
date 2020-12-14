@@ -2,10 +2,10 @@
 title: Composant de bouton
 description: Le composant de bouton des composants principaux permet de créer et d’afficher un bouton.
 translation-type: tm+mt
-source-git-commit: c186e9ec3944d785ab0376769cf7f2307049a809
+source-git-commit: df42f9e3fa26cbb26aa44688e26e5c9a7de4752e
 workflow-type: tm+mt
 source-wordcount: '438'
-ht-degree: 100%
+ht-degree: 98%
 
 ---
 
@@ -72,4 +72,4 @@ Dans l’onglet **Accessibilité**, les valeurs peuvent être définies pour les
 
 ### Onglet Styles {#styles-tab}
 
-Le composant d’image prend en charge le [système de style](/help/get-started/authoring.md#component-styling) AEM.
+Le composant Button prend en charge l&#39;AEM [Style System](/help/get-started/authoring.md#component-styling).
