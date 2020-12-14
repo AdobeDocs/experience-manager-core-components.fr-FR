@@ -2,7 +2,7 @@
 title: Utilisation de l’archétype de projet AEM
 description: Instructions d’utilisation détaillées pour l’archétype de projet AEM
 translation-type: tm+mt
-source-git-commit: 4813748bcfa83ce7c73e81d4e4d445ecc8215d26
+source-git-commit: 794408e8b643de2234664e69e59e1108cf286cd7
 workflow-type: tm+mt
 source-wordcount: '2057'
 ht-degree: 100%
@@ -57,9 +57,9 @@ Pour commencer, il vous suffit d’utiliser l&#39;[extension Eclipse AEM](https:
 
 Bien sûr, vous pouvez également appeler Maven directement.
 
-```
+```shell
 mvn -B archetype:generate \
- -D archetypeGroupId=com.adobe.granite.archetypes \
+ -D archetypeGroupId=com.adobe.aem \
  -D archetypeArtifactId=aem-project-archetype \
  -D archetypeVersion=XX \
  -D aemVersion=cloud \
@@ -131,31 +131,31 @@ Le projet Maven généré prend en charge différents profils de déploiement lo
 
 Pour créer tous les modules exécutés dans le répertoire racine du projet, utilisez la commande Maven suivante.
 
-```
+```shell
 mvn clean install
 ```
 
 Si vous disposez d’une instance AEM en cours d’exécution, vous pouvez créer et assembler l’ensemble du projet et le déployer vers AEM avec la commande Maven suivante.
 
-```
+```shell
 mvn clean install -PautoInstallPackage
 ```
 
 Pour déployer le projet vers une instance de publication, exécutez cette commande.
 
-```
+```shell
 mvn clean install -PautoInstallPackagePublish
 ```
 
 Vous pouvez également exécuter cette commande pour effectuer un déploiement vers une instance de publication.
 
-```
+```shell
 mvn clean install -PautoInstallPackage -Daem.port=4503
 ```
 
 Ou pour déployer uniquement le lot vers l’auteur, exécutez cette commande.
 
-```
+```shell
 mvn clean install -PautoInstallBundle
 ```
 
@@ -171,7 +171,7 @@ Ces propriétés sont configurées pour être déployées vers une instance AEM 
 
 Ces propriétés sont configurées de manière à pouvoir être remplacées lors d&#39;un déploiement vers des environnements de niveau supérieur. De cette manière, les fichiers POM n’ont pas à changer, mais des variables comme `aem.host` et `sling.password` peuvent être remplacées via des arguments de ligne de commande :
 
-```
+```shell
 mvn -PautoInstallPackage clean install -Daem.host=production.hostname -Dsling.password=productionpasswd
 ```
 
