@@ -2,10 +2,10 @@
 title: Utilisation des composants principaux
 description: '« Pour que les composants principaux soient opérationnels dans votre propre projet, suivez les quatre étapes ci-après : téléchargement et installation, création de composants proxy, chargement des styles principaux et autorisation des composants de vos modèles. »'
 translation-type: tm+mt
-source-git-commit: 78202dc777b90f795f66873921c55e21ef8a239c
+source-git-commit: 10090b836397af3c9428f99bba72313263f34596
 workflow-type: tm+mt
-source-wordcount: '758'
-ht-degree: 100%
+source-wordcount: '757'
+ht-degree: 98%
 
 ---
 
@@ -66,7 +66,7 @@ Par exemple, consultez le [composant Titre du site WKND](https://github.com/adob
 
 ## Chargement des styles principaux {#load-the-core-styles}
 
-1. Si ce n’est pas encore fait, créez une [bibliothèque cliente](https://docs.adobe.com/content/help/fr-FR/experience-manager-65/developing/introduction/clientlibs.html) qui contient tous les fichiers CSS et JS nécessaires à votre site.
+1. Si ce n’est pas encore fait, créez une [bibliothèque cliente](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/developing/full-stack/clientlibs.html) qui contient tous les fichiers CSS et JS nécessaires à votre site.
 1. Dans la bibliothèque cliente de votre site, ajoutez les dépendances aux composants principaux qui peuvent être nécessaires. Pour ce faire, ajoutez une propriété `embed`.
 
    Par exemple, pour inclure les bibliothèques clientes de tous les composants principaux v1, la propriété à ajouter serait :
