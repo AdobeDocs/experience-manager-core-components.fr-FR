@@ -5,7 +5,7 @@ translation-type: tm+mt
 source-git-commit: 1ada05d5089ccef95d41d47468776654e397f31d
 workflow-type: tm+mt
 source-wordcount: '276'
-ht-degree: 90%
+ht-degree: 100%
 
 ---
 
@@ -28,4 +28,4 @@ Cela permet d’ajouter un attribut `data-cmp-data-layer` à l’élément HTML 
 
 >[!TIP]
 >
->Pour explorer plus avant la flexibilité de la couche de données, passez en revue les options d’intégration, y compris la façon d’activer la couche de données pour vos composants personnalisés.
+>Pour continuer à découvrir toute la flexibilité de la couche de données, passez en revue les options d’intégration, y compris celles concernant la façon d’activer la couche de données pour vos composants personnalisés.
