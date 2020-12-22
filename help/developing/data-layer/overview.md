@@ -5,7 +5,7 @@ translation-type: tm+mt
 source-git-commit: 1ada05d5089ccef95d41d47468776654e397f31d
 workflow-type: tm+mt
 source-wordcount: '893'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -41,7 +41,7 @@ Pour activer manuellement la couche de données, vous devez créer une [configur
 
 1. Ajoutez une propriété `sling:configRef` sur le nœud `jcr:content` de votre site ci-dessous `/content` (par exemple, `/content/<mySite>/jcr:content`) et définissez-la sur `/conf/<mySite>` par rapport à l’étape précédente.
 
-1. Une fois activée, vous pouvez vérifier l’activation en chargeant une page du site en dehors de l’éditeur. Inspectez la source de la page. La balise `<body>` doit contenir un attribut `data-cmp-data-layer-enabled`.
+1. Une fois activée, vous pouvez vérifier l’activation en chargeant une page du site en dehors de l’éditeur. Inspectez la source de la page. La balise `<body>` doit contenir un attribut `data-cmp-data-layer-enabled`. 
 
    ```html
    <body class="page basicpage" id="page-id" data-cmp-data-layer-enabled>
@@ -122,7 +122,7 @@ id: {
 }
 ```
 
-Un événement `cmp:show` est déclenché au chargement de la page. Cet événement est distribué à partir du code JavaScript intégré immédiatement au-dessous de la balise d’ouverture `<body>`, ce qui en fait le premier événement de la file d’attente des événements de la couche de données. 
+Un événement `cmp:show` est déclenché au chargement de la page. Cet événement est distribué à partir du code JavaScript intégré immédiatement au-dessous de la balise d’ouverture `<body>`, ce qui en fait le premier événement de la file d’attente des événements de la couche de données.
 
 ### Schéma de conteneur {#container}
 
@@ -205,7 +205,7 @@ Un certain nombre d’événements sont déclenchés par les composants principa
 Vous trouverez ci-dessous les événements prêts à l’emploi fournis par les composants principaux d’AEM :
 
 * **`cmp:click`** - Lorsque vous cliquez sur un élément cliquable (élément doté d’un attribut `data-cmp-clickable`), la couche de données déclenche un événement `cmp:click`.
-* **`cmp:show`** et **`cmp:hide`** - Manipuler l&#39;accordéon (développer/réduire), le carrousel (boutons Suivant/Précédent) et les composants des onglets (sélection par onglets) provoque le déclenchement des événements `cmp:show` et `cmp:hide`, respectivement, par la couche de données. Un événement `cmp:show` est également distribué au chargement de la page et devrait être le premier.
+* **`cmp:show`** et **`cmp:hide`** - Manipuler les composants d’accordéon (développer/réduire), de carrousel (boutons Suivant/Précédent) et d’onglets (sélection par onglets) provoque le déclenchement des événements `cmp:show` et `cmp:hide`, respectivement, par la couche de données. Un événement `cmp:show` est également distribué au chargement de la page et devrait être le premier.
 * **`cmp:loaded`** - Dès que la couche de données est remplie avec les composants principaux sur la page, elle déclenche un événement `cmp:loaded`.
 
 ### Événements déclenchés par le composant {#events-components}
@@ -234,7 +234,7 @@ eventInfo: {
 }
 ```
 
-Où `<component-path>` est le chemin JSON vers le composant de la couche de données qui a déclenché l’événement. La valeur, disponible dans `event.eventInfo.path`, est importante, car il est possible de l’utiliser comme paramètre pour `adobeDataLayer.getState(<component-path>)`. Elle sert à récupérer l’état actuel du composant qui a déclenché l’événement, ce qui permet au code personnalisé d’accéder à des données supplémentaires et de les ajouter à la couche de données.
+Où `<component-path>` est le chemin JSON vers le composant de la couche de données qui a déclenché l’événement.  La valeur, disponible dans `event.eventInfo.path`, est importante, car il est possible de l’utiliser comme paramètre pour `adobeDataLayer.getState(<component-path>)`. Elle sert à récupérer l’état actuel du composant qui a déclenché l’événement, ce qui permet au code personnalisé d’accéder à des données supplémentaires et de les ajouter à la couche de données.
 
 Par exemple :
 
@@ -255,8 +255,8 @@ window.adobeDataLayer.push(function (dl) {
 
 ## Tutoriel
 
-Souhaitez-vous explorer plus en détail la couche de données et les composants principaux ? [Consultez ce tutoriel pratique](https://docs.adobe.com/content/help/en/experience-manager-learn/sites/integrations/adobe-client-data-layer/data-layer-overview.html).
+Souhaitez-vous explorer plus en détail la couche de données et les composants principaux ? [Consultez ce tutoriel pratique](https://docs.adobe.com/content/help/fr-FR/experience-manager-learn/sites/integrations/adobe-client-data-layer/data-layer-overview.html).
 
 >[!TIP]
 >
->Pour explorer plus avant la flexibilité de la couche de données, passez en revue les options d’intégration, y compris la façon d’activer la couche de données pour vos composants personnalisés.
+>Pour continuer à découvrir toute la flexibilité de la couche de données, passez en revue les options d’intégration, y compris celles concernant la façon d’activer la couche de données pour vos composants personnalisés.
