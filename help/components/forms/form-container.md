@@ -5,7 +5,7 @@ translation-type: tm+mt
 source-git-commit: 499047a8c15a6423a56b370f41fd020740481f80
 workflow-type: tm+mt
 source-wordcount: '956'
-ht-degree: 80%
+ht-degree: 100%
 
 ---
 
@@ -18,11 +18,11 @@ Le composant de conteneur de formulaires des composants principaux permet la cr�
 
 Le composant de conteneur de formulaires a permis la création de formulaires et de fonctionnalités d’envoi d’informations simples en prenant en charge les formulaires WCM simples et en utilisant une structure imbriquée pour autoriser des composants de formulaire supplémentaires.
 
-En utilisant la [boîte de dialogue de configuration](#configure-dialog), l&#39;éditeur de contenu peut définir l&#39;action déclenchée par l&#39;envoi du formulaire, l&#39;URL qui doit gérer l&#39;envoi et si un flux de travail doit être déclenché. L’auteur du modèle peut utiliser la [boîte de dialogue de conception](#design-dialog) pour définir les composants autorisés et leurs mappages similaires à la boîte de dialogue de conception du [conteneur de mises en page standard dans l’éditeur de modèles](https://docs.adobe.com/content/help/fr-FR/experience-manager-cloud-service/sites/authoring/features/templates.html).
+En utilisant la [boîte de dialogue de configuration](#configure-dialog), l’éditeur de contenu peut définir l’action déclenchée par l’envoi du formulaire, l’URL chargé de cet envoi, et si un workflow doit être déclenché. L’auteur du modèle peut utiliser la [boîte de dialogue de conception](#design-dialog) pour définir les composants autorisés et leurs mappages similaires à la boîte de dialogue de conception du [conteneur de mises en page standard dans l’éditeur de modèles](https://docs.adobe.com/content/help/fr-FR/experience-manager-cloud-service/sites/authoring/features/templates.html).
 
 >[!NOTE]
 >
->Le composant de conteneur de formulaires des composants principaux prend uniquement en charge l’utilisation d’autres composants de formulaire (bouton, texte, masqué, etc.). L’utilisation des composants de formulaire des [composants de base](https://docs.adobe.com/content/help/en/experience-manager-65/authoring/siteandpage/default-components-foundation.html) dans le conteneur de formulaires (et vice versa) n’est pas prise en charge.
+>Le composant de conteneur de formulaires des composants principaux prend uniquement en charge l’utilisation d’autres composants de formulaire (bouton, texte, masqué, etc.). L’utilisation des composants de formulaire des [composants de base](https://docs.adobe.com/content/help/fr-FR/experience-manager-65/authoring/siteandpage/default-components-foundation.html) dans le conteneur de formulaires (et vice versa) n’est pas prise en charge.
 
 ## Version et compatibilité {#version-and-compatibility}
 
@@ -53,23 +53,23 @@ La boîte de dialogue de configuration permet à l’auteur de contenu de défin
 
 Selon le **type d’action** sélectionné, les options disponibles dans le conteneur changent. Les types d’actions disponibles sont les suivants :
 
-* [Données du formulaire de publication](#post-data)
+* [Publier les données de formulaire (Post Form Data)](#post-data)
 * [Courrier](#mail)
 * [Stocker le contenu](#store-content)
 
 Quel que soit le type, il existe des [paramètres généraux](#general-settings) qui s’appliquent à chaque action.
 
-### Données du formulaire de publication {#post-data}
+### Publier les données de formulaire (Post Form Data) {#post-data}
 
-Lorsque le formulaire est envoyé, le type d’action de données de post-formulaire transmet les données envoyées à un tiers en tant que JSON pour traitement.
+Lorsque le formulaire est envoyé, le type d’action Publier les données de formulaire transmet les données envoyées à un tiers au format JSON pour qu’elles soient traitées.
 
-![Options Publier les données de formulaire dans la boîte de dialogue de modification du composant de Conteneur de formulaire](/help/assets/form-container-edit-post.png)
+![Options Publier les données de formulaire dans la boîte de dialogue de modification du composant Conteneur de formulaire](/help/assets/form-container-edit-post.png)
 
-* **Point de terminaison**  : service HTTPS complet qui traitera les données
-* **Message**  d&#39;erreur : message à afficher si l&#39;envoi échoue
+* **Point d’entrée** : service HTTPS complet qui traitera les données
+* **Message d’erreur** : message qui s’affiche si l’envoi échoue
 
 >[!TIP]
->Un administrateur système peut ajuster d’autres options de délai d’expiration pour gérer le traitement des données de formulaire transférées. [Consultez la documentation technique sur GitHub pour en savoir plus.](https://github.com/adobe/aem-core-wcm-components/tree/master/content/src/content/jcr_root/apps/core/wcm/components/form/actions/rpc)
+>Un administrateur système peut paramétrer d’autres options de délai d’expiration pour gérer le traitement des données de formulaire transférées. [Consultez la documentation technique sur GitHub pour plus d’informations.](https://github.com/adobe/aem-core-wcm-components/tree/master/content/src/content/jcr_root/apps/core/wcm/components/form/actions/rpc)
 
 ### Courrier {#mail}
 
@@ -98,9 +98,9 @@ Lorsque le formulaire est envoyé, le contenu du formulaire est stocké dans un 
 
 >[!NOTE]
 >
->Afin de simplifier la gestion des données utilisateur et d’imposer la séparation des préoccupations, il est généralement déconseillé de stocker le contenu généré par l’utilisateur dans le référentiel.
+>Afin de simplifier la gestion des données utilisateur et d’imposer la séparation des préoccupations, il est généralement déconseillé de stocker le contenu créé par l’utilisateur dans le référentiel.
 >
->Utilisez plutôt le type d’action [Publier les données du formulaire](#post-data) pour transmettre le contenu de l’utilisateur à un prestataire dédié.
+>Utilisez plutôt le type d’action [Publier les données de formulaire](#post-data) pour transmettre le contenu utilisateur à un prestataire dédié.
 
 ### Paramètres généraux {#general-settings}
 
