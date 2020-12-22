@@ -12,7 +12,7 @@ ht-degree: 95%
 
 # Versions des composants principaux {#core-components-versions}
 
-La version actuelle des composants principaux est la version 2.13.2. Elle est compatible avec les installations [AEM as a Cloud Service](https://docs.adobe.com/content/help/fr-FR/experience-manager-cloud-service/landing/home.html) et [AEM On-Premise](https://docs.adobe.com/content/help/en/experience-manager-65/user-guide/home.html).
+La version actuelle des composants principaux est la version 2.13.2. Elle est compatible avec les installations [AEM as a Cloud Service](https://docs.adobe.com/content/help/fr-FR/experience-manager-cloud-service/landing/home.html) et [AEM On-Premise.](https://docs.adobe.com/content/help/fr-FR/experience-manager-65/user-guide/home.html)
 
 ## Historique des versions et compatibilité {#release-history-and-compatibility}
 
@@ -144,4 +144,4 @@ Pour plus d’informations sur la prise en charge des personnalisations des comp
 
 Concernant le développement, Adobe met l’accent sur les composants principaux et de nouvelles fonctionnalités continueront d’être ajoutées.
 
-[Presque tous les composants de base ont été abandonnés avec AEM 6.5](https://docs.adobe.com/content/help/en/experience-manager-65/authoring/siteandpage/default-components-foundation.html) et seuls les correctifs majeurs seront pris en compte à l’avenir pour ces composants.
+[Presque tous les composants de base ont été abandonnés avec AEM 6.5](https://docs.adobe.com/content/help/fr-FR/experience-manager-65/authoring/siteandpage/default-components-foundation.html) et seuls les correctifs majeurs seront pris en compte à l’avenir pour ces composants.
