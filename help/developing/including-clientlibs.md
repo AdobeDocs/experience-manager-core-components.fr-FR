@@ -5,7 +5,7 @@ translation-type: tm+mt
 source-git-commit: afce571ada011c38c83830628f09a9e268658965
 workflow-type: tm+mt
 source-wordcount: '394'
-ht-degree: 84%
+ht-degree: 100%
 
 ---
 
@@ -58,7 +58,7 @@ Dans `head`, pour inclure uniquement les éléments CSS, et non les éléments J
 </sly>
 ```
 
-Avant de fermer `body`, pour inclure uniquement les·éléments JS, et non les éléments CSS, utilisez `jsIncludes` :
+Avant de fermer `body`, pour inclure uniquement les éléments JS, et non les éléments CSS, utilisez `jsIncludes` :
 
 ```html
 <sly data-sly-use.clientlibs="${'com.adobe.cq.wcm.core.components.models.ClientLibraries' @ categories='wknd.base'}">
@@ -112,11 +112,11 @@ De même, pour insérer les éléments JS, vous pouvez utiliser `jsInline`, auqu
 </script>
 ```
 
-## Chargement de CSS et de JavaScript prenant en compte le contexte {#context-aware-loading}
+## Chargement d’éléments CSS et JavaScript basés sur le contexte {#context-aware-loading}
 
-Le [Composant de page](/help/components/page.md) prend également en charge le chargement de balises CSS, JavaScript ou meta définies par le développeur en fonction du contexte.
+Le [composant de page](/help/components/page.md) prend également en charge le chargement de balises CSS, JavaScript ou de métadonnées définies par les développeurs.
 
-Pour ce faire, vous créez une ressource [contextuelle](context-aware-configs.md) pour `com.adobe.cq.wcm.core.components.config.HtmlPageItemsConfig` à l&#39;aide de la structure suivante :
+Pour ce faire, créez une [ressource contextuelle](context-aware-configs.md) pour `com.adobe.cq.wcm.core.components.config.HtmlPageItemsConfig` en utilisant la structure suivante :
 
 ```text
 com.adobe.cq.wcm.core.components.config.HtmlPageItemsConfig
@@ -133,4 +133,4 @@ com.adobe.cq.wcm.core.components.config.HtmlPageItemsConfig
     ...
 ```
 
-[Pour plus d’informations, voir la documentation technique du composant de page.](https://github.com/adobe/aem-core-wcm-components/tree/master/content/src/content/jcr_root/apps/core/wcm/components/page/v2/page#loading-of-context-aware-cssjs)
+[Pour plus d’informations, consultez la documentation technique du composant de page.](https://github.com/adobe/aem-core-wcm-components/tree/master/content/src/content/jcr_root/apps/core/wcm/components/page/v2/page#loading-of-context-aware-cssjs)
