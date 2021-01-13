@@ -1,16 +1,16 @@
 ---
 title: Composant de bouton
 description: Le composant de bouton des composants principaux permet de créer et d’afficher un bouton.
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: df42f9e3fa26cbb26aa44688e26e5c9a7de4752e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '438'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
 
-# Composant de bouton{#button-component}
+# Composant de bouton {#button-component}
 
 Le composant de bouton des composants principaux permet de configurer et d’afficher un élément de bouton sur une page.
 
@@ -64,12 +64,12 @@ La boîte de dialogue de configuration permet à l’auteur du contenu de défin
 
 ![Onglet Accessibilité de la boîte de dialogue de modification du composant Bouton](/help/assets/button-edit-accessibility.png)
 
-Dans l’onglet **Accessibilité**, les valeurs peuvent être définies pour les libellés d’[accessibilité ARIA](https://www.w3.org/WAI/standards-guidelines/aria/) du composant.
+Dans l’onglet **Accessibilité**, les valeurs peuvent être définies pour les étiquettes d’[accessibilité ARIA](https://www.w3.org/WAI/standards-guidelines/aria/) du composant.
 
-* **Libellé** - Valeur d’un attribut de libellé ARIA pour le composant
+* **Étiquette** - Valeur d’un attribut de étiquette ARIA pour le composant
 
 ## Boîte de dialogue de conception {#design-dialog}
 
 ### Onglet Styles {#styles-tab}
 
-Le composant Button prend en charge l&#39;AEM [Style System](/help/get-started/authoring.md#component-styling).
+Le composant Bouton prend en charge le [système de style](/help/get-started/authoring.md#component-styling) AEM.
