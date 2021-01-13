@@ -1,11 +1,11 @@
 ---
 title: Composant Teaser
 description: Le composant Teaser peut afficher une image, un titre, un texte enrichi et éventuellement un lien vers un contenu supplémentaire.
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: e7aeff3a24cff14fbcd468561632ee1927c07b4e
-workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+workflow-type: ht
+source-wordcount: '762'
+ht-degree: 100%
 
 ---
 
@@ -49,13 +49,13 @@ L’auteur du contenu peut utiliser la boîte de dialogue de configuration pour 
 ![Onglet Image de la boîte de dialogue de modification du composant Teaser](/help/assets/teaser-edit-image.png)
 
 * **Ressource image**
-   * Déposez un fichier depuis l’[explorateur de ressources](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/sites/authoring/fundamentals/environment-tools.html) ou appuyez sur l’option **parcourir** pour effectuer un téléchargement à partir d’un système de fichiers local.
+   * Déposez un fichier depuis l’[explorateur de ressources](https://docs.adobe.com/content/help/fr-FR/experience-manager-cloud-service/sites/authoring/fundamentals/environment-tools.html) ou appuyez sur l’option **parcourir** pour effectuer un téléchargement à partir d’un système de fichiers local.
    * Appuyez ou cliquez sur **Effacer** pour désélectionner l’image actuellement sélectionnée.
-   * Appuyez ou cliquez sur **Modifier** pour [gérer les rendus de la ressource](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/assets/manage/manage-digital-assets.html) dans l’éditeur de ressources.
+   * Appuyez ou cliquez sur **Modifier** pour [gérer les rendus de la ressource](https://docs.adobe.com/content/help/fr-FR/experience-manager-cloud-service/assets/manage/manage-digital-assets.html) dans l’éditeur de ressources.
 
 >[!NOTE]
 >
->[Actuellement, les ](image.md#dynamic-media) fonctionnalités Dynamic Media ne sont pas disponibles dans le composant Teaser.
+>Actuellement, les [fonctionnalités Dynamic Media](image.md#dynamic-media) ne sont pas disponibles dans le composant Teaser.
 
 ### Texte {#text}
 
@@ -63,9 +63,9 @@ L’auteur du contenu peut utiliser la boîte de dialogue de configuration pour 
 
 * **Prétitre** : s’affiche avant le titre du teaser.
 * **Titre** : titre à afficher comme titre du teaser.
-   * **Obtenir le titre de la page liée** : lorsque cette option est cochée, le titre de la page liée est utilisé comme titre.
+   * **Obtenir le titre depuis la page liée** : lorsque cette option est cochée, le titre de la page liée est utilisé comme titre.
 * **Description** : définit une description à afficher sous forme de sous-titre du teaser.
-   * **Obtenir la description de la page liée** : lorsque cette option est cochée, la description de la page liée est utilisée comme description.
+   * **Obtenir la description depuis la page liée** : lorsque cette option est cochée, la description de la page liée est utilisée comme description.
 * **ID** : cette option permet de contrôler l’identifiant unique du composant dans le code HTML ainsi que dans la [couche de données](/help/developing/data-layer/overview.md).
    * Si rien n’est indiqué, un ID unique est généré automatiquement et peut être trouvé en examinant la page obtenue.
    * Si un ID est spécifié, il incombe à l’auteur de s’assurer qu’il est unique.
