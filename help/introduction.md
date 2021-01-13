@@ -1,11 +1,11 @@
 ---
 title: Présentation des composants principaux
 description: 'Les composants principaux fournissent des composants de base solides et extensibles, reposant sur les dernières technologies et les bonnes pratiques. '
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 857c0c5f7c48c69b50df55c478511619ca8c491f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '889'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
@@ -27,7 +27,7 @@ Les composants principaux sont un ensemble de composants WCM (Web Content Manage
    * **[Tutoriel Summit :](https://expleague.azureedge.net/labs/L767/index.html)** tutoriel de deux heures pour créer un site (issu d’un atelier de l’Adobe US Summit 2019).
    * **[Webinaire Gems :](https://helpx.adobe.com/fr/experience-manager/kt/eseminars/gems/AEM-Core-Components.html)** visite guidée des composants principaux (enregistrée en décembre 2018).
 
-## Fonctionnalités {#features}
+## Fonctions {#features}
 
 |  |  |
 |---|---|
@@ -36,7 +36,7 @@ Les composants principaux sont un ensemble de composants WCM (Web Content Manage
 | Polyvalents | Les composants représentent des concepts génériques avec lesquels les auteurs peuvent assembler pratiquement n’importe quelle disposition. |
 | Configurables | Des [stratégies de contenu](https://docs.adobe.com/content/help/fr-FR/experience-manager-cloud-service/implementing/components-templates/templates.html#content-policies) au niveau du modèle définissent les fonctionnalités que les auteurs de pages peuvent ou non utiliser. |
 | Permettent un suivi | L’[intégration de la couche de données client Adobe](/help/developing/data-layer/overview.md) permet le suivi de tous les aspects de l’expérience du visiteur. |
-| Accessibles | Ils sont conformes à la [norme WCAG 2.1](https://www.w3.org/TR/WCAG21/), fournissent des libellés ARIA et prennent en charge la navigation au clavier ([problèmes connus](https://github.com/adobe/aem-core-wcm-components/issues?utf8=✓&amp;q=is%3Aissue+is%3Aopen+accessibility+in%3Atitle)). |
+| Accessibles | Ils sont conformes à la [norme WCAG 2.1](https://www.w3.org/TR/WCAG21/), fournissent des étiquettes ARIA et prennent en charge la navigation au clavier ([problèmes connus](https://github.com/adobe/aem-core-wcm-components/issues?utf8=✓&amp;q=is%3Aissue+is%3Aopen+accessibility+in%3Atitle)). |
 | Optimisation du référencement | La sortie HTML est sémantique et fournit des annotations de microdonnées [schema.org](https://schema.org). |
 | Prêts pour WebApp | La [sortie JSON rationalisée](https://docs.adobe.com/content/help/fr-FR/experience-manager-learn/foundation/development/develop-sling-model-exporter.html) permet le rendu côté client, avec la possibilité d’une [modification contextuelle](https://docs.adobe.com/content/help/fr-FR/experience-manager-learn/sites/spa-editor/spa-editor-framework-feature-video-use.html). |
 | Prise en charge d’AMP | Les composants intègrent la [prise en charge de la norme AMP](/help/developing/amp.md), ce qui accélère vos expériences mobiles. |
@@ -110,7 +110,7 @@ La version actuelle des composants principaux comporte les composants ci-après.
 
 >[!NOTE]
 >
->(*) Depuis la version 2.11.0, `org.apache.sling.models.impl` version 1.4.12 ou ultérieure est nécessaire (en raison de [SLING-8781](https://issues.apache.org/jira/browse/SLING-8781)). Ce service sera fourni pour AEM 6.4 et 6.5 dans un futur Service Pack. En attendant, le lot Sling Models est inclus dans le package `core.wcm.components.all`.
+>(*) Depuis la version 2.11.0, `org.apache.sling.models.impl` version 1.4.12 ou ultérieure est nécessaire (en raison de [SLING-8781](https://issues.apache.org/jira/browse/SLING-8781)). Elle sera fournie pour AEM 6.4 et 6.5 dans un futur Service Pack. Dans l’intervalle, le lot Sling Models est inclus dans le package `core.wcm.components.all`.
 
 Pour connaître les exigences des versions précédentes des composants principaux, voir [Versions des composants principaux](versions.md).
 
