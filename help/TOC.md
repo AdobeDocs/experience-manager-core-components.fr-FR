@@ -1,13 +1,13 @@
 ---
 sub-product: AEM Core Components
-user-guide-title: Composants principaux AEM
+user-guide-title: AEM Core Components
 breadcrumb-title: Guide des composants principaux
 user-guide-description: Utilisez les composants principaux extensibles pour permettre aux auteurs de créer facilement du contenu.
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: e32521f35f33897cd72892de393073b01ad963f1
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '206'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -69,7 +69,7 @@ ht-degree: 98%
 + Développement {#developing}
    + [Développement des composants principaux](developing/overview.md)
    + [Chemins vers la réussite](developing/success.md)
-   + [Tutoriel du développeur WKND](https://docs.adobe.com/content/help/en/experience-manager-learn/getting-started-wknd-tutorial-develop/overview.html)
+   + [Tutoriel du développeur WKND](https://docs.adobe.com/content/help/fr-FR/experience-manager-learn/getting-started-wknd-tutorial-develop/overview.html)
    + [Personnalisation des composants principaux](developing/customizing.md)
    + [Instructions relatives aux composants](developing/guidelines.md)
    + [Prise en charge d’AMP](developing/amp.md)
@@ -89,4 +89,4 @@ ht-degree: 98%
       + [Module ui.frontend.react](developing/archetype/uifrontend-react.md)
       + [Module ui.frontend.angular](developing/archetype/uifrontend-angular.md)
       + [Module ui.tests](developing/archetype/uitests.md)
-      + [Module externe Build Analyzer Maven](developing/archetype/build-analyzer-maven-plugin.md)
+      + [Plug-in Maven Build Analyzer](developing/archetype/build-analyzer-maven-plugin.md)
