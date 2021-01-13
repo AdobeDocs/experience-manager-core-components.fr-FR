@@ -1,18 +1,18 @@
 ---
 title: Versions des composants principaux
 description: Les composants principaux sont publiés sous forme de versions qui peuvent contenir plusieurs versions des mêmes composants principaux. Ce document explique les versions et les mises à jour ainsi que comment comprendre la compatibilité avec les composants principaux et AEM.
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 857c0c5f7c48c69b50df55c478511619ca8c491f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1901'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
 
 # Versions des composants principaux {#core-components-versions}
 
-La version actuelle des composants principaux est la version 2.13.2. Elle est compatible avec les installations [AEM as a Cloud Service](https://docs.adobe.com/content/help/fr-FR/experience-manager-cloud-service/landing/home.html) et [AEM On-Premise.](https://docs.adobe.com/content/help/fr-FR/experience-manager-65/user-guide/home.html)
+La version actuelle des composants principaux est la version 2.13.2. Elle est compatible avec les installations [AEM as a Cloud Service](https://docs.adobe.com/content/help/fr-FR/experience-manager-cloud-service/landing/home.html) et [AEM On-Premise](https://docs.adobe.com/content/help/fr-FR/experience-manager-65/user-guide/home.html).
 
 ## Historique des versions et compatibilité {#release-history-and-compatibility}
 
@@ -26,10 +26,10 @@ Le tableau suivant, dont le contenu est [disponible sur GitHub avec les détails
 
 | Mise à jour | Description | AEM 6.4 | AEM 6.5 | AEM as a Cloud Service | Java | Date de publication |
 |---|---|---|---|---|---|---|
-| [2.13.2](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.13.2) | Il s’agissait d’une version de correctif qui corrige un problème lié au RTE lorsqu’elle est utilisée sur AEMaaCS. | 6.4.8.1+ * | 6.5.5.0+ * | Suite | 8, 11 | 16 décembre 2020 |
-| [2.13.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.13.0) | Cette version comprend de nouvelles fonctionnalités Dynamic Media pour le [composant Image.](/help/components/image.md) | 6.4.8.1+ * | 6.5.5.0+ * | Suite | 8, 11 | 4 décembre 2020 |
-| [2.12.2](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.12.2) | Il s’agissait d’une version de correctif pour la version 2.12.0 comprenant des correctifs mineurs. | 6.4.8.1+ * | 6.5.5.0+ * | Suite | 8, 11 | 11 novembre 2020 |
-| [2.12.1](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.12.1) | Il s&#39;agit d&#39;une version de correctif pour la version 2.12.0 qui corrige un bogue majeur dans le [composant d&#39;image.](/help/components/image.md) | 6.4.8.1+ * | 6.5.5.0+ * | Suite | 8, 11 | 5 novembre 2020 |
+| [2.13.2](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.13.2) | Il s’agissait d’une version de correctif destinée à corriger un problème lié au RTE, utilisé sur AEMaaCS. | 6.4.8.1+ * | 6.5.5.0+ * | Suite | 8, 11 | 16 décembre 2020 |
+| [2.13.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.13.0) | Cette version contient de nouvelles fonctionnalités Dynamic Media pour le [composant d’image](/help/components/image.md). | 6.4.8.1+ * | 6.5.5.0+ * | Suite | 8, 11 | 4 décembre 2020 |
+| [2.12.2](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.12.2) | Il s’agissait d’une version de correctif pour la version 2.12.0 contenant des corrections mineures. | 6.4.8.1+ * | 6.5.5.0+ * | Suite | 8, 11 | 11 novembre 2020 |
+| [2.12.1](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.12.1) | Il s’agissait d’une version de correctif pour la version 2.12.0 servant à corriger un bogue majeur dans le [composant d’image](/help/components/image.md). | 6.4.8.1+ * | 6.5.5.0+ * | Suite | 8, 11 | 5 novembre 2020 |
 | [2.12.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.12.0) | Cette version a introduit [un nouveau gestionnaire de formulaires POST ;](/help/components/forms/form-container.md#post-data) la possibilité d’inclure des [balises CSS, JavaScript et de métadonnées personnalisées via une configuration contextuelle ;](/help/developing/including-clientlibs.md#context-aware-loading) et un utilitaire `DataLayerBuilder` destiné à [simplifier l’intégration de la couche de données aux composants personnalisés.](/help/developing/data-layer/integrations.md#enabling-custom-components) | 6.4.8.1+ * | 6.5.5.0+ * | Suite | 8, 11 | 29 octobre 2020 |
 | [2.11.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.11.0) | Cette version a introduit la [prise en charge d’AMP.](/help/developing/amp.md) | 6.4.8.1+ * | 6.5.5.0+ * | Suite | 8, 11 | 20 juillet 2020 |
 | [2.10.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.10.0) | Cette version a introduit le [composant Visionneuse PDF.](/help/components/pdf-viewer.md) | 6.4.8.1+ | 6.5.5.0+ | Suite | 8, 11 | 17 juin 2020 |
@@ -56,7 +56,7 @@ Le tableau suivant, dont le contenu est [disponible sur GitHub avec les détails
 
 >[!NOTE]
 >
->(*) Depuis la version 2.11.0, `org.apache.sling.models.impl` version 1.4.12 ou ultérieure est nécessaire (en raison de [SLING-8781](https://issues.apache.org/jira/browse/SLING-8781)). Ce service sera fourni pour AEM 6.4 et 6.5 dans un futur Service Pack. En attendant, le lot Sling Models est inclus dans le package `core.wcm.components.all`.
+>(*) Depuis la version 2.11.0, `org.apache.sling.models.impl` version 1.4.12 ou ultérieure est nécessaire (en raison de [SLING-8781](https://issues.apache.org/jira/browse/SLING-8781)). Elle sera fournie pour AEM 6.4 et 6.5 dans un futur Service Pack. Dans l’intervalle, le lot Sling Models est inclus dans le package `core.wcm.components.all`.
 
 >[!TIP]
 >
