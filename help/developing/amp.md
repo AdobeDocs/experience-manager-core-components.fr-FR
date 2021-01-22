@@ -2,10 +2,10 @@
 title: Prise en charge d’AMP par les composants principaux
 description: Les composants principaux prennent en charge les pages mobiles accélérées (AMP).
 translation-type: tm+mt
-source-git-commit: 2926c51c2ab97b50b9ec4942cd5415c15a1411b6
+source-git-commit: a4df0c8603614cf831ffd66cbcfc1f7ef964c25b
 workflow-type: tm+mt
-source-wordcount: '536'
-ht-degree: 100%
+source-wordcount: '558'
+ht-degree: 96%
 
 ---
 
@@ -63,5 +63,9 @@ Les paramètres AMP d’une page peuvent également être remplacés dans les [P
 Lors de l’utilisation d’AMP avec les composants principaux, la principale différence réside dans le fait qu’AMP exige que tous les [éléments CSS soient insérés](including-clientlibs.md#inlining) dans l’élément `<head>` et optimisés.
 
 Pour ce faire, un composant de page personnalisé est utilisé. Celui-ci charge uniquement la page CSS spécifique à AMP pour les composants présents sur la page.
+
+>[!NOTE]
+>
+>En raison des limitations de la conception AMP, l’Adobe ne prend pas en charge l’utilisation de la grille réactive avec la version AMP de votre page.
 
 Pour plus d’informations sur les exigences et les détails techniques, consultez la [documentation destinée aux développeurs sur GitHub.](https://github.com/adobe/aem-core-wcm-components/tree/master/extensions/amp)
