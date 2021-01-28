@@ -5,7 +5,7 @@ translation-type: tm+mt
 source-git-commit: 42a9dcd64ed8a9c70ec0f72dac50bf88111b703b
 workflow-type: tm+mt
 source-wordcount: '470'
-ht-degree: 89%
+ht-degree: 90%
 
 ---
 
@@ -30,5 +30,5 @@ Vous trouverez ci-dessous un tableau décrivant les analyseurs exécutés au cou
 | `bundle-resources` | Émet un avertissement si un lot contient des ressources spécifiées avec l’en-tête Sling-Bundle-Resources, ce qui pose problème dans l’environnement organisé en grappes d’AEM as a Cloud Service. L’avertissement ressemble à ceci :<p> </p> `[WARNING] org.acme:mybundle:0.0.1-SNAPSHOT: Found bundle resources : [/libs/sling/explorer!/resources/explorer]`<p> </p> Pour résoudre les problèmes de conversion des ressources en instructions repoinit, voir la [Documentation RepoInit](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/developing/aem-project-content-package-structure.html?lang=fr#repo-init). | Oui | Oui |
 | `api-regions`<p> </p>`api-regions-check-order`<p> </p>`api-regions-dependencies`<p> </p>`api-regions-duplicates` | Ces analyseurs vérifient certains détails relatifs au [processus de conversion de package de contenu en modèle de fonctionnalité](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/deploying/overview.html?lang=fr#deploying) qui crée des artefacts conformes au modèle de fonctionnalité Sling. Toute erreur doit être signalée au service clientèle d’Adobe. | Oui | Oui |
 | `api-regions-crossfeature-dups` | Vérifie que les lots OSGI des clients ne comportent pas de déclarations Export-package qui remplacent l’API publique d’AEM as a Cloud Service<p> </p>`[WARNING] org.acme:mybundle:0.0.1-SNAPSHOT: Package overlap found between region global and bundle org.acme:mybundle:0.0.1.SNAPSHOT which comes from feature: [org.acme:myproject.analyse:slingosgifeature:0.0.1-SNAPSHOT]. Both export package: com.day.util`<p> </p>Pour résoudre ce problème, arrêtez l’exportation d’un package faisant partie de l’API publique d’AEM. | Oui | Oui |
-| `repoinit` | Vérifie la syntaxe de toutes les sections de redirection. | Oui | Oui |
+| `repoinit` | Vérifiez la syntaxe de toutes les sections de redirection. | Oui | Oui |
 | `bundle-nativecode` | Vérifie que les lots OSGI n’installent pas de code natif. | Oui | Oui |
