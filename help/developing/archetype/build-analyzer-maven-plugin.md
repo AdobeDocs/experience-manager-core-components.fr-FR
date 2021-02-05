@@ -1,11 +1,11 @@
 ---
 title: Plug-in Maven Build Analyzer du SDK AEM as a Cloud Service
 description: Documentation du plug-in local Maven Build Analyzer
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 42a9dcd64ed8a9c70ec0f72dac50bf88111b703b
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '470'
-ht-degree: 90%
+ht-degree: 100%
 
 ---
 
@@ -18,7 +18,7 @@ Consultez la [documentation du plug-in Maven](https://github.com/adobe/aemanalys
 
 >[!NOTE]
 >
->Il est recommandé de mettre à jour votre projet Maven pour référencer la dernière version du module externe du référentiel central Maven, à cet emplacement : https://repo1.maven.org/maven2/com/adobe/aem/aemanalyser-maven-plugin/
+>Il est recommandé de mettre à jour votre projet Maven pour référencer la dernière version du plug-in du référentiel central Maven, à cet emplacement : https://repo1.maven.org/maven2/com/adobe/aem/aemanalyser-maven-plugin/
 
 Vous trouverez ci-dessous un tableau décrivant les analyseurs exécutés au cours de cette étape. <!-- Note that some are executed in the local SDK, while others are only executed during the Cloud Manager pipeline deployment. -->
 
