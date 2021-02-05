@@ -1,11 +1,11 @@
 ---
 title: Prise en charge d’AMP par les composants principaux
 description: Les composants principaux prennent en charge les pages mobiles accélérées (AMP).
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: a4df0c8603614cf831ffd66cbcfc1f7ef964c25b
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '558'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -49,7 +49,7 @@ Pour activer AMP pour une page, le **Mode AMP** doit être sélectionné dans la
 * **AMP couplé** : la page est diffusée au format AMP ainsi qu’au format HTML.
 * **AMP uniquement** : la page est diffusée uniquement au format AMP.
 
-Les paramètres AMP d’une page peuvent également être remplacés dans les [Propriétés de page](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/sites/authoring/fundamentals/page-properties.html) d’une page donnée.
+Les paramètres AMP d’une page peuvent également être remplacés dans les [Propriétés de page](https://docs.adobe.com/content/help/fr-FR/experience-manager-cloud-service/sites/authoring/fundamentals/page-properties.html) d’une page donnée.
 
 ![Propriétés de page AMP](/help/assets/amp-page-properties.png)
 
@@ -66,6 +66,6 @@ Pour ce faire, un composant de page personnalisé est utilisé. Celui-ci charge 
 
 >[!NOTE]
 >
->En raison des limitations de la conception AMP, l’Adobe ne prend pas en charge l’utilisation de la grille réactive avec la version AMP de votre page.
+>En raison des limitations de conception d’AMP, Adobe ne prend pas en charge l’utilisation de la grille réactive avec la version AMP de votre page.
 
-Pour plus d’informations sur les exigences et les détails techniques, consultez la [documentation destinée aux développeurs sur GitHub.](https://github.com/adobe/aem-core-wcm-components/tree/master/extensions/amp)
+Pour plus d’informations sur les exigences et les détails techniques, consultez la [documentation destinée aux développeurs sur GitHub](https://github.com/adobe/aem-core-wcm-components/tree/master/extensions/amp).
