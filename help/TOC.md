@@ -1,13 +1,13 @@
 ---
 sub-product: AEM Core Components
-user-guide-title: AEM Core Components
+user-guide-title: Composants principaux AEM
 breadcrumb-title: Guide des composants principaux
 user-guide-description: Utilisez les composants principaux extensibles pour permettre aux auteurs de créer facilement du contenu.
-translation-type: ht
-source-git-commit: e32521f35f33897cd72892de393073b01ad963f1
-workflow-type: ht
-source-wordcount: '206'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: f4bed5d9d0f5387259d083fe46220208347052b3
+workflow-type: tm+mt
+source-wordcount: '214'
+ht-degree: 96%
 
 ---
 
@@ -68,7 +68,7 @@ ht-degree: 100%
          + [Texte de formulaire (v1)](components/v1/form-text-v1.md)
 + Développement {#developing}
    + [Développement des composants principaux](developing/overview.md)
-   + [Chemins vers la réussite](developing/success.md)
+   + [Chemins vers la réussite](https://experienceleague.adobe.com/docs/experience-manager-core-components/using/success.html)
    + [Tutoriel du développeur WKND](https://docs.adobe.com/content/help/fr-FR/experience-manager-learn/getting-started-wknd-tutorial-develop/overview.html)
    + [Personnalisation des composants principaux](developing/customizing.md)
    + [Instructions relatives aux composants](developing/guidelines.md)
@@ -89,4 +89,5 @@ ht-degree: 100%
       + [Module ui.frontend.react](developing/archetype/uifrontend-react.md)
       + [Module ui.frontend.angular](developing/archetype/uifrontend-angular.md)
       + [Module ui.tests](developing/archetype/uitests.md)
+      + [Module it.tests](developing/archetype/ittests.md)
       + [Plug-in Maven Build Analyzer](developing/archetype/build-analyzer-maven-plugin.md)
