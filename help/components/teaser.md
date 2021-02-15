@@ -1,11 +1,11 @@
 ---
 title: Composant Teaser
 description: Le composant Teaser peut afficher une image, un titre, un texte enrichi et éventuellement un lien vers un contenu supplémentaire.
-translation-type: ht
-source-git-commit: e7aeff3a24cff14fbcd468561632ee1927c07b4e
-workflow-type: ht
-source-wordcount: '762'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: d3ebcea5fa1523c1a986841cd3d1a64e16e85f6d
+workflow-type: tm+mt
+source-wordcount: '775'
+ht-degree: 98%
 
 ---
 
@@ -106,3 +106,7 @@ La boîte de dialogue de conception permet à l’auteur du modèle de définir 
 ### Onglet Styles {#styles-tab}
 
 Le composant Teaser prend en charge le [système de style](/help/get-started/authoring.md#component-styling) AEM.
+
+## Couche de données client Adobe {#data-layer}
+
+Le composant Teaser prend en charge la couche de données client [Adobe.](/help/developing/data-layer/overview.md)
