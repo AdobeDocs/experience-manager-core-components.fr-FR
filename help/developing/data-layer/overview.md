@@ -2,10 +2,10 @@
 title: Utilisation de la couche de données client Adobe avec les composants principaux
 description: Utilisation de la couche de données client Adobe avec les composants principaux
 translation-type: tm+mt
-source-git-commit: 1ada05d5089ccef95d41d47468776654e397f31d
+source-git-commit: 57582c5c938e0f345b27785bd6fd6d5ed5454bd0
 workflow-type: tm+mt
-source-wordcount: '893'
-ht-degree: 100%
+source-wordcount: '974'
+ht-degree: 91%
 
 ---
 
@@ -41,7 +41,7 @@ Pour activer manuellement la couche de données, vous devez créer une [configur
 
 1. Ajoutez une propriété `sling:configRef` sur le nœud `jcr:content` de votre site ci-dessous `/content` (par exemple, `/content/<mySite>/jcr:content`) et définissez-la sur `/conf/<mySite>` par rapport à l’étape précédente.
 
-1. Une fois activée, vous pouvez vérifier l’activation en chargeant une page du site en dehors de l’éditeur. Inspectez la source de la page. La balise `<body>` doit contenir un attribut `data-cmp-data-layer-enabled`. 
+1. Une fois l’activation activée, vous pouvez la vérifier en chargeant une page du site en dehors de l’éditeur, par exemple en utilisant l’option **Vue en tant que Publiée** dans l’éditeur. Inspectez la source de la page. La balise `<body>` doit contenir un attribut `data-cmp-data-layer-enabled`. 
 
    ```html
    <body class="page basicpage" id="page-id" data-cmp-data-layer-enabled>
@@ -62,6 +62,28 @@ Pour activer manuellement la couche de données, vous devez créer une [configur
    ```javascript
    window.adobeDataLayer.getState();
    ```
+
+## Composants pris en charge {#supported-components}
+
+Les composants suivants prennent en charge la couche de données.
+
+* [Accordéon](/help/components/accordion.md)
+* [Chemin de navigation](/help/components/breadcrumb.md)
+* [Bouton](/help/components/button.md)
+* [Carrousel](/help/components/carousel.md)
+* [Fragment de contenu](/help/components/content-fragment-component.md)
+* [Image](/help/components/image.md)
+* [Navigation par langue](/help/components/language-navigation.md)
+* [Liste](/help/components/list.md)
+* [Navigation](/help/components/navigation.md)
+* [Page](/help/components/page.md)
+* [Barre de progression](/help/components/progress-bar.md)
+* [Onglets](/help/components/tabs.md)
+* [Teaser](/help/components/teaser.md)
+* [Texte](/help/components/text.md)
+* [Titre](/help/components/title.md)
+
+Reportez-vous également aux [événements déclenchés par les composants.](#events-components)
 
 ## Schémas de données des composants principaux {#data-schemas}
 
@@ -197,6 +219,34 @@ id: {
 L’[événement](#events) suivant correspond au schéma de ressource :
 
 * `cmp:click`
+
+### Schéma de fragment de contenu {#content-fragment}
+
+Le schéma Fragment de contenu est utilisé par le composant [Fragment de contenu.](/help/components/content-fragment-component.md)
+
+Le schéma Fragment de contenu est défini comme suit.
+
+```javascript
+id: {
+    @type
+    repo:modifyDate
+    dc:title
+    dc:description
+    xdm:text
+    xdm:linkURL
+    parentId
+    elements            // array of the Content Fragment elements
+}
+```
+
+Le schéma utilisé pour l’élément Fragment de contenu est le suivant.
+
+```javascript
+{
+    xdm:title           // title
+    xdm:text            // text
+}
+```
 
 ## Événements des composants principaux {#events}
 
