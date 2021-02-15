@@ -2,7 +2,7 @@
 title: Génération front-end pour les applications monopage Angular
 description: Description du processus de génération front-end pour les projets d’application monopage Angular
 translation-type: tm+mt
-source-git-commit: 93a7ba6b8a972d111fb723cb40b0380cea9b5a9a
+source-git-commit: 9d737b31efc8c346775ea5296f7599295af07cf1
 workflow-type: tm+mt
 source-wordcount: '404'
 ht-degree: 100%
@@ -45,7 +45,7 @@ Si des erreurs liées à CORS s’affiche, vous souhaiterez peut-être configure
 
 ### test npm {#npm-test}
 
-```
+```shell
 npm test
 ```
 
@@ -53,7 +53,7 @@ Cette commande lance l’exécuteur de test Karma. Pour plus d’informations, c
 
 ### npm run test:debug {#npm-run-test-debug}
 
-```
+```shell
 npm run test:debug
 ```
 
@@ -61,7 +61,7 @@ Cette commande lance l’exécuteur de test Karma en mode espion interactif.
 
 ### npm run build {#npm-run-build}
 
-```
+```shell
 npm run build
 ```
 
