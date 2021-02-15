@@ -1,6 +1,7 @@
 ---
 product: Adobe Experience Manager
-git-repo: https://github.com/AdobeDocs/experience-manager-core-components.fr
+description: Documentation des composants principaux de Adobe Experience Manager
+git-repo: https://git.corp.adobe.com/AdobeDocs/experience-manager-core-components.fr-FR
 index: y
 solution-title: Formation et assistance pour AEM
 solution-hub-url: https://docs.adobe.com/content/help/en/experience-manager-cloud-service/sites/home.html
@@ -8,8 +9,11 @@ getting-started-title: Prise en main du développement pour AEM
 getting-started-url: https://docs.adobe.com/content/help/en/experience-manager-cloud-service/core-concepts/home.html
 tutorials-title: Tutoriels AEM
 tutorials-url: https://docs.adobe.com/content/help/en/experience-manager-learn/cloud-service/overview.html
-translation-type: ht
-source-git-commit: a3085d266baf32649fda528a7f4703e133d03ab7
+translation-type: tm+mt
+source-git-commit: f109463f1942349c300600acf6b94f268e8aa60e
+workflow-type: tm+mt
+source-wordcount: '147'
+ht-degree: 94%
 
 ---
 
