@@ -2,10 +2,10 @@
 title: Composant Navigation
 description: Le composant Navigation permet aux utilisateurs de parcourir facilement une structure de site globalisée.
 translation-type: tm+mt
-source-git-commit: ff943aeca0333b13e2b9aaf11f316457f001d507
+source-git-commit: d3ebcea5fa1523c1a986841cd3d1a64e16e85f6d
 workflow-type: tm+mt
-source-wordcount: '1369'
-ht-degree: 100%
+source-wordcount: '1382'
+ht-degree: 99%
 
 ---
 
@@ -140,9 +140,9 @@ Dans la boîte de dialogue de modification, l’auteur du contenu peut définir 
 
 ![Onglet Accessibilité de la boîte de dialogue de modification du composant Navigation](/help/assets/navigation-edit-accessibility.png)
 
-Dans l’onglet **Accessibilité**, les valeurs peuvent être définies pour les libellés d’[accessibilité ARIA](https://www.w3.org/WAI/standards-guidelines/aria/) du composant.
+Dans l’onglet **Accessibilité**, les valeurs peuvent être définies pour les étiquettes d’[accessibilité ARIA](https://www.w3.org/WAI/standards-guidelines/aria/) du composant.
 
-* **Libellé** - Valeur d’un attribut de libellé ARIA pour le composant
+* **Étiquette** - Valeur d’un attribut de étiquette ARIA pour le composant
 
 ## Boîte de dialogue de conception {#design-dialog}
 
@@ -165,3 +165,7 @@ La boîte de dialogue de conception permet à l’auteur du modèle de définir 
 ### Onglet Styles {#styles-tab}
 
 Le composant de navigation prend en charge le [système de style](/help/get-started/authoring.md#component-styling) AEM.
+
+## Couche de données client Adobe {#data-layer}
+
+Le composant de navigation prend en charge la couche de données client [Adobe.](/help/developing/data-layer/overview.md)
