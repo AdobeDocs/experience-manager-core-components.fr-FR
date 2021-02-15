@@ -2,7 +2,7 @@
 title: Génération front-end pour les applications monopage React
 description: Description du processus de génération front-end pour les projets d’application monopage React
 translation-type: tm+mt
-source-git-commit: 93a7ba6b8a972d111fb723cb40b0380cea9b5a9a
+source-git-commit: 9d737b31efc8c346775ea5296f7599295af07cf1
 workflow-type: tm+mt
 source-wordcount: '512'
 ht-degree: 100%
@@ -26,7 +26,7 @@ Dans le répertoire du projet, vous pouvez exécuter les commandes suivantes :
 
 ### npm start {#npm-start}
 
-```
+```shell
 npm start
 ```
 
@@ -45,7 +45,7 @@ Si des erreurs liées à CORS s’affiche, vous souhaiterez peut-être configure
 
 ### test npm {#npm-test}
 
-```
+```shell
 npm test
 ```
 
@@ -53,7 +53,7 @@ Cette commande lance le programme d’exécution du test en mode de espion inter
 
 ### npm run build {#npm-run-build}
 
-```
+```shell
 npm run build
 ```
 
@@ -69,7 +69,7 @@ Par défaut, ce projet utilise l’option par défaut [Browserslist](https://git
 
 L’application React est configurée pour utiliser le [fractionnement de code](https://webpack.js.org/guides/code-splitting) par défaut. Lors de la création de l’application pour production, le code est généré en plusieurs blocs :
 
-```
+```shell
 $ ls build/static/js
 2.5b77f553.chunk.js
 2.5b77f553.chunk.js.map
