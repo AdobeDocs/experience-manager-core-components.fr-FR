@@ -1,9 +1,9 @@
 ---
 title: Version front-end de l’archétype de projet AEM
 description: Modèle de projet pour les applications basées sur AEM
-translation-type: ht
-source-git-commit: 10090b836397af3c9428f99bba72313263f34596
-workflow-type: ht
+translation-type: tm+mt
+source-git-commit: 9d737b31efc8c346775ea5296f7599295af07cf1
+workflow-type: tm+mt
 source-wordcount: '1620'
 ht-degree: 100%
 
@@ -37,7 +37,7 @@ Si l’archétype complet de projet AEM est exécuté avec `mvn clean install -P
 
 ## Présentation des bibliothèques clientes (ClientLibs) {#clientlibs}
 
-Le module front-end est rendu disponible à l’aide d’une [bibliothèque cliente AEM](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/developing/full-stack/clientlibs.html?lang=fr-FR). Lors de l’exécution du script de génération NPM, l’application est créée et le package aem-clientlib-generator récupère le résultat de la génération et le transforme en une bibliothèque cliente de ce type.
+Le module front-end est rendu disponible à l’aide d’une [bibliothèque cliente AEM](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/developing/full-stack/clientlibs.html). Lors de l’exécution du script de génération NPM, l’application est créée et le package aem-clientlib-generator récupère le résultat de la génération et le transforme en une bibliothèque cliente de ce type.
 
 Une bibliothèque cliente se compose des fichiers et répertoires suivants :
 
@@ -166,7 +166,7 @@ Les catégories `clientlib-site` et `clientlib-dependencies` sont ajoutées aux 
 
 L’ajout final de bibliothèques clientes à la page des sites se présente comme suit :
 
-```
+```html
 <HTML>
     <head>
         <link rel="stylesheet" href="clientlib-base.css" type="text/css">
