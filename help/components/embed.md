@@ -2,10 +2,10 @@
 title: Composant Incorporer
 description: Le composant Incorporer permet d’incorporer du contenu externe dans une page de contenu AEM.
 translation-type: tm+mt
-source-git-commit: c186e9ec3944d785ab0376769cf7f2307049a809
+source-git-commit: 601bee9df2a82255c92fcf30b8dacde70b0583dc
 workflow-type: tm+mt
-source-wordcount: '944'
-ht-degree: 100%
+source-wordcount: '1341'
+ht-degree: 65%
 
 ---
 
@@ -72,13 +72,20 @@ Les développeurs peuvent ajouter d’autres processeurs d’URL en [consultant 
 
 ### Élément intégrable {#embeddable}
 
-Les éléments intégrables permettent une plus grande personnalisation de la ressource incorporée, qui peut être paramétrée et inclure des informations supplémentaires. Un auteur peut effectuer un choix parmi des éléments intégrables approuvés préconfigurés. De plus, le composant est fourni avec un élément intégrable YouTube prêt à l’emploi.
+Les éléments intégrables permettent une plus grande personnalisation de la ressource incorporée, qui peut être paramétrée et inclure des informations supplémentaires. Un auteur peut choisir parmi des éléments incorporables de confiance préconfigurés et le composant est livré avec un élément YouTube intégré prêt à l&#39;emploi.
 
 Le champ **Élément intégrable** définit le type de processeur que vous souhaitez utiliser. Dans le cas de l’élément intégrable YouTube, vous pouvez ensuite définir les éléments suivants :
 
 * **ID de la vidéo** : identifiant vidéo unique de YouTube de la ressource que vous souhaitez incorporer.
 * **Largeur** : largeur de la vidéo incorporée.
 * **Hauteur** : hauteur de la vidéo incorporée.
+* **Activer le muet**  : ce paramètre indique si la lecture de la vidéo est muée par défaut. L’activation de cette option augmente le risque de fonctionnement de la lecture automatique dans les navigateurs modernes.
+* **Activer la lecture**  automatique : ce paramètre indique si la lecture de la vidéo initiale se début automatiquement au chargement du lecteur. Cela ne s’applique qu’à l’instance de publication ou lors de l’utilisation de l’option **Vue as Published** sur l’instance de création.
+* **Activer la boucle**  : dans le cas d’une vidéo unique, ce paramètre indique si le lecteur doit lire la vidéo initiale à plusieurs reprises. Dans le cas d’une liste de lecture, le lecteur lit l’intégralité de la liste de lecture, puis début de nouveau à la première vidéo.
+* **Activer la lecture en ligne (iOS)**  : ce paramètre contrôle si les vidéos sont lues en ligne (on) ou en plein écran (off) dans un lecteur HTML5 sous iOS.
+* **Vidéos**  connexes sans restriction - Si cette option est désactivée, les vidéos associées proviennent du même canal que la vidéo qui vient d&#39;être lue, sinon elles proviennent de n&#39;importe quel canal.
+
+Notez que les options &quot;activer&quot; doivent être activées dans la boîte de dialogue de conception [Conception](#design-dialog) et peuvent être définies comme valeurs par défaut.
 
 D’autres éléments intégrables proposent des champs similaires et peuvent être définis par un développeur en [consultant la documentation sur le composant Incorporer destinée aux développeurs.](https://github.com/adobe/aem-core-wcm-components/tree/master/content/src/content/jcr_root/apps/core/wcm/components/embed/v1/embed#extending-the-embed-component)
 
@@ -102,7 +109,7 @@ Les balises HTML que l’auteur peut entrer sont filtrées à des fins de sécur
 
 *En règle générale,* tous les scripts et les éléments`style`, ainsi que tous les attributs `on*` et `style` sont supprimés de la sortie.
 
-Toutefois, les règles sont plus complexes, car le composant Incorporer suit l’ensemble de règles de filtrage de la structure d’assainissement HTML AntiSamy d’AEM, qui se trouve à l’adresse `/libs/cq/xssprotection/config.xml`. Cela peut être superposé pour une configuration spécifique au projet par un développeur, si nécessaire.
+Cependant, les règles sont plus complexes parce que le composant incorporé suit AEM ensemble de règles de filtrage de structure d&#39;assainissement HTML AntiSamy global, qui se trouve à `/libs/cq/xssprotection/config.xml`. Cela peut être superposé pour une configuration spécifique au projet par un développeur, si nécessaire.
 
 Vous trouverez des informations de sécurité supplémentaires dans la [documentation du développeur AEM pour les installations On-Premise](https://docs.adobe.com/content/help/en/experience-manager-65/developing/introduction/security.html), ainsi que les [installations AEM as a Cloud Service.](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/security/home.html)
 
@@ -113,9 +120,26 @@ Vous trouverez des informations de sécurité supplémentaires dans la [document
 
 La boîte de dialogue de conception permet à l’auteur du modèle de définir les options disponibles pour l’auteur du contenu qui utilise le composant Incorporer et les valeurs par défaut définies lors du placement de celui-ci.
 
+### Onglet Types incorporables {#embeddable-types-tab}
+
 ![Boîte de dialogue de conception du composant Incorporer](/help/assets/embed-design.png)
 
 * **URL de désactivation** : lorsque cette option est sélectionnée, elle désactive l’option **URL** pour l’auteur de contenu.
 * **Désactiver les éléments intégrables** : lorsque cette option est sélectionnée, elle désactive l’option **Élément intégrable** pour l’auteur de contenu, quels que soient les processeurs intégrables autorisés.
 * **Désactiver HTML** : lorsque cette option est sélectionnée, elle désactive l’option **HTML** pour l’auteur de contenu.
-* **Éléments intégrables autorisés** : sélection multiple qui définit les processeurs intégrables accessibles à l’auteur de contenu, à condition que l’option **Élément intégrable** soit active.
+* **Embeddables**  autorisés - Multisélection qui définit les processeurs incorporables disponibles pour l&#39;auteur du contenu, à condition que l&#39;option  **** Embeddableoption soit principale.
+
+### Onglet YouTube {#youtube-tab}
+
+![Onglet YouTube de la boîte de dialogue de conception du composant incorporé](/help/assets/embed-design-youtube.png)
+
+* **Autoriser la configuration du comportement**  silencieux : permet à l&#39;auteur du contenu de configurer l&#39; **option Activer la** sélection dans le composant lorsque le type d&#39;intégration YouTube est sélectionné.
+   * **Valeur par défaut du paramètre mute**  : définit automatiquement l’ **option Activer la** sélection lorsque le type d’intégration YouTube est sélectionné.
+* **Autoriser la configuration du comportement**  de lecture automatique : permet à l’auteur du contenu de configurer l’option  **Activer la lecture** automatique dans le composant lorsque le type d’intégration YouTube est sélectionné.
+   * **Valeur par défaut de la lecture**  automatique : définit automatiquement l’option  **Activer la lecture** automatique lorsque le type d’intégration YouTube est sélectionné.
+* **Autoriser la configuration du comportement**  de boucle : permet à l&#39;auteur du contenu de configurer l&#39; **option Activer la** boucle dans le composant lorsque le type d&#39;intégration YouTube est sélectionné.
+   * **Valeur par défaut de la boucle**  : définit automatiquement l’ **option Activer la** boucle lorsque le type d’intégration YouTube est sélectionné.
+* **Autoriser la configuration de la lecture en ligne (iOS)**  : permet à l’auteur du contenu de configurer l’ **option** Activer la lecture en ligne (iOS)dans le composant lorsque le type d’intégration YouTube est sélectionné.
+   * **Valeur par défaut de la lecture en ligne (iOS)**  : définit automatiquement l’ **option** Activer la lecture en ligne (iOS)lorsque le type d’intégration YouTube est sélectionné.
+* **Autoriser la configuration des vidéos**  intégrées : permet à l&#39;auteur du contenu de configurer l&#39;option  **Vidéos liées** sans restriction dans le composant lorsque le type d&#39;intégration YouTube est sélectionné.
+   * **Valeur par défaut des vidéos**  liées sans restriction - Définit automatiquement l’option  **Vidéos liées** sans restriction lorsque le type d’intégration YouTube est sélectionné.
