@@ -2,10 +2,10 @@
 title: Composant de chemin de navigation
 description: Le composant de chemin de navigation des composants principaux est un composant de navigation qui crée un chemin de navigation des liens en fonction de l’emplacement de la page dans la hiérarchie du contenu.
 translation-type: tm+mt
-source-git-commit: ff943aeca0333b13e2b9aaf11f316457f001d507
+source-git-commit: d3ebcea5fa1523c1a986841cd3d1a64e16e85f6d
 workflow-type: tm+mt
-source-wordcount: '709'
-ht-degree: 100%
+source-wordcount: '722'
+ht-degree: 98%
 
 ---
 
@@ -89,3 +89,7 @@ La boîte de dialogue de conception permet à l’auteur du modèle de définir 
 ### Onglet Styles {#styles-tab}
 
 Le composant de chemin de navigation prend en charge le [système de style AEM](/help/get-started/authoring.md#component-styling).
+
+## Couche de données client Adobe {#data-layer}
+
+Le composant de chemin de navigation prend en charge la couche de données du client d&#39;Adobe [.](/help/developing/data-layer/overview.md)
