@@ -24,7 +24,7 @@ mvn -PautoInstallBundle clean install
 
 Une fois l’exécution terminée, vous devriez pouvoir visualiser la console des lots à l’adresse `http://<host>:<port>/system/console/bundles`.
 
-##  Tests unitaires {#unit-tests}
+## Tests unitaires {#unit-tests}
 
 Le test unitaire dans le module principal comprend les tests unitaires classiques du code contenu dans le lot. Pour lancer ce test, exécutez :
 
