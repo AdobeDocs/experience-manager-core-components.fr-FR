@@ -2,10 +2,10 @@
 title: Composant textuel
 description: Le composant Texte est un composant d’édition et de composition de texte enrichi qui propose une édition statique.
 translation-type: tm+mt
-source-git-commit: 4813748bcfa83ce7c73e81d4e4d445ecc8215d26
+source-git-commit: d3ebcea5fa1523c1a986841cd3d1a64e16e85f6d
 workflow-type: tm+mt
-source-wordcount: '2200'
-ht-degree: 100%
+source-wordcount: '2213'
+ht-degree: 99%
 
 ---
 
@@ -369,3 +369,7 @@ L’option permettant d’insérer des caractères spéciaux peut être activée
 ## Onglet Styles {#styles-tab}
 
 Le composant Texte prend en charge le [système de style](/help/get-started/authoring.md#component-styling) AEM.
+
+## Couche de données client Adobe {#data-layer}
+
+Le composant de texte prend en charge la couche de données du client d&#39;Adobe [](/help/developing/data-layer/overview.md).
