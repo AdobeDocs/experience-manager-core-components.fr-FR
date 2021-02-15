@@ -2,9 +2,9 @@
 title: Module principal de l’archétype de projet AEM
 description: Module principal de l’archétype de projet AEM
 translation-type: tm+mt
-source-git-commit: 6f7166c46940ed451721e0760d565d58efe412ab
+source-git-commit: 9d737b31efc8c346775ea5296f7599295af07cf1
 workflow-type: tm+mt
-source-wordcount: '159'
+source-wordcount: '182'
 ht-degree: 100%
 
 ---
@@ -18,8 +18,16 @@ Le plug-in Maven Bundle défini dans le fichier `<src-directory>/<project>/core/
 
 Bien qu’il soit rare que le lot principal doive être déployé indépendamment du module ui.apps dans les environnements de niveau supérieur, le déploiement direct du lot principal est utile lors du développement/test local. Le plug-in Maven Sling permet au lot principal d’être déployé vers AEM en exploitant directement le profil `autoInstallBundle` tel que défini dans le [fichier POM parent](/help/developing/archetype/using.md#parent-pom).
 
-```
+```shell
 mvn -PautoInstallBundle clean install
 ```
 
 Une fois l’exécution terminée, vous devriez pouvoir visualiser la console des lots à l’adresse `http://<host>:<port>/system/console/bundles`.
+
+##  Tests unitaires {#unit-tests}
+
+Le test unitaire dans le module principal comprend les tests unitaires classiques du code contenu dans le lot. Pour lancer ce test, exécutez :
+
+```shell
+mvn clean test
+```
