@@ -2,10 +2,10 @@
 title: Composant de fragment de contenu
 description: Le composant de fragment de contenu des composants principaux permet l’affichage d’un fragment de contenu.
 translation-type: tm+mt
-source-git-commit: c186e9ec3944d785ab0376769cf7f2307049a809
+source-git-commit: d3ebcea5fa1523c1a986841cd3d1a64e16e85f6d
 workflow-type: tm+mt
-source-wordcount: '659'
-ht-degree: 100%
+source-wordcount: '673'
+ht-degree: 98%
 
 ---
 
@@ -110,3 +110,6 @@ La boîte de dialogue de conception permet à l’auteur du modèle de définir 
 
    * Type de ressource Sling utilisé pour la grille réactive interne
 
+## Couche de données client Adobe {#data-layer}
+
+Le composant Fragment de contenu prend en charge la couche de données client [Adobe.](/help/developing/data-layer/overview.md)
