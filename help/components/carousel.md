@@ -2,10 +2,10 @@
 title: Composant du carrousel
 description: Le composant du carrousel permet à l’auteur de contenu de présenter le contenu dans un carrousel rotatif.
 translation-type: tm+mt
-source-git-commit: c186e9ec3944d785ab0376769cf7f2307049a809
+source-git-commit: d3ebcea5fa1523c1a986841cd3d1a64e16e85f6d
 workflow-type: tm+mt
-source-wordcount: '1112'
-ht-degree: 100%
+source-wordcount: '1125'
+ht-degree: 99%
 
 ---
 
@@ -85,9 +85,9 @@ Dans l’onglet **Propriétés**, l’auteur du contenu peut définir les diapos
 
 ![Onglet Accessibilité de la boîte de dialogue de modification du composant Carrousel](/help/assets/carousel-edit-accessibility.png)
 
-Dans l’onglet **Accessibilité**, les valeurs peuvent être définies pour les libellés d’[accessibilité ARIA](https://www.w3.org/WAI/standards-guidelines/aria/) du composant.
+Dans l’onglet **Accessibilité**, les valeurs peuvent être définies pour les étiquettes d’[accessibilité ARIA](https://www.w3.org/WAI/standards-guidelines/aria/) du composant.
 
-* **Libellé** - Valeur d’un attribut de libellé ARIA pour le composant
+* **Étiquette** - Valeur d’un attribut de étiquette ARIA pour le composant
 
 ## Sélectionner un panneau {#select-panel}
 
@@ -128,3 +128,7 @@ L’onglet Composants autorisés fonctionne de la même manière que l’onglet 
 ### Onglet Styles {#styles-tab}
 
 Le composant du carrousel prend en charge le [système de style](/help/get-started/authoring.md#component-styling) AEM.
+
+## Couche de données client Adobe {#data-layer}
+
+Le composant Carousel prend en charge la couche de données client [Adobe.](/help/developing/data-layer/overview.md)
