@@ -1,11 +1,11 @@
 ---
 title: Composant de bouton
 description: Le composant de bouton des composants principaux permet de créer et d’afficher un bouton.
-translation-type: ht
-source-git-commit: df42f9e3fa26cbb26aa44688e26e5c9a7de4752e
-workflow-type: ht
-source-wordcount: '438'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: d3ebcea5fa1523c1a986841cd3d1a64e16e85f6d
+workflow-type: tm+mt
+source-wordcount: '451'
+ht-degree: 98%
 
 ---
 
@@ -73,3 +73,7 @@ Dans l’onglet **Accessibilité**, les valeurs peuvent être définies pour les
 ### Onglet Styles {#styles-tab}
 
 Le composant Bouton prend en charge le [système de style](/help/get-started/authoring.md#component-styling) AEM.
+
+## Couche de données client Adobe {#data-layer}
+
+Le composant Bouton prend en charge la couche de données client [Adobe.](/help/developing/data-layer/overview.md)
