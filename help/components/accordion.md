@@ -2,10 +2,10 @@
 title: Composant d’accordéon
 description: Le composant d’accordéon des composants principaux permet la création d’un ensemble de panneaux organisés dans un accordéon sur une page.
 translation-type: tm+mt
-source-git-commit: 2926c51c2ab97b50b9ec4942cd5415c15a1411b6
+source-git-commit: d3ebcea5fa1523c1a986841cd3d1a64e16e85f6d
 workflow-type: tm+mt
-source-wordcount: '1054'
-ht-degree: 100%
+source-wordcount: '1067'
+ht-degree: 99%
 
 ---
 
@@ -125,3 +125,7 @@ L’onglet Composants autorisés fonctionne de la même manière que l’onglet 
 ### Onglet Styles {#styles-tab}
 
 Le composant d’accordéon prend en charge le [système de style](/help/get-started/authoring.md#component-styling) AEM.
+
+## Couche de données client Adobe {#data-layer}
+
+Le composant Accordéon prend en charge la couche de données du client [Adobe.](/help/developing/data-layer/overview.md)
