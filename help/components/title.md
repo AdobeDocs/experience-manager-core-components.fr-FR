@@ -2,10 +2,10 @@
 title: Composant du titre
 description: Le composant du titre des composants principaux est un composant d’en-tête de section qui comporte des fonctions d’édition statique.
 translation-type: tm+mt
-source-git-commit: 4813748bcfa83ce7c73e81d4e4d445ecc8215d26
+source-git-commit: d3ebcea5fa1523c1a986841cd3d1a64e16e85f6d
 workflow-type: tm+mt
-source-wordcount: '556'
-ht-degree: 100%
+source-wordcount: '569'
+ht-degree: 98%
 
 ---
 
@@ -82,3 +82,7 @@ La boîte de dialogue de conception permet à l’auteur du modèle de définir 
 ### Onglet Styles {#styles-tab}
 
 Le composant Titre prend en charge le [système de style](/help/get-started/authoring.md#component-styling) AEM.
+
+## Couche de données client Adobe {#data-layer}
+
+Le composant Titre prend en charge la couche de données client [Adobe.](/help/developing/data-layer/overview.md)
