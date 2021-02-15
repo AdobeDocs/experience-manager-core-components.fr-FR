@@ -1,11 +1,11 @@
 ---
 title: Module ui.tests de l’archétype de projet AEM
-description: Utilisation des tests JUnit de l’archétype de projet AEM
+description: Utilisation des tests d'interface utilisateur de l'archétype de projet AEM
 translation-type: tm+mt
-source-git-commit: 93a7ba6b8a972d111fb723cb40b0380cea9b5a9a
+source-git-commit: 9d737b31efc8c346775ea5296f7599295af07cf1
 workflow-type: tm+mt
-source-wordcount: '130'
-ht-degree: 100%
+source-wordcount: '112'
+ht-degree: 26%
 
 ---
 
@@ -14,24 +14,22 @@ ht-degree: 100%
 
 Le projet comporte trois niveaux de tests :
 
-## Tests unitaires {#unit-tests}
+* [Tests unitaires](core.md#unit-tests)
+* [Tests d’intégration](ittests.md)
+* Tests de l’interface utilisateur
 
-Le test unitaire dans le [module principal](core.md) comprend les tests unitaires classiques du code contenu dans le lot. Pour lancer ce test, exécutez :
+Cet article décrit les tests de l’interface utilisateur disponibles dans le module ui.tests.
 
-```
-mvn clean test
-```
+## Exécution de tests d&#39;interface utilisateur {#running-tests}
 
-## Tests d’intégration {#integration-tests}
+Pour lancer ce test, exécutez :
 
-Les tests d’intégration côté serveur permettent d&#39;exécuter des tests de type unitaire dans l’environnement AEM, c’est-à-dire sur le serveur AEM. Pour lancer ce test, exécutez :
-
-```
-mvn clean verify -PintegrationTests
+```shell
+mvn verify -Pui-tests-local-execution
 ```
 
-## Tests côté client {#client-side-tests}
+Après l’exécution, les rapports et les journaux sont disponibles dans le dossier `target/reports`.
 
-Les tests `client-side Hobbes.js` sont des tests JavaScript côté navigateur qui vérifient le comportement côté navigateur.
+## Options supplémentaires {#additional-options}
 
-Pour effectuer les tests, lorsque vous affichez une page AEM que vous souhaitez tester dans le navigateur, ouvrez la page en **mode développeur** en ouvrant le panneau de gauche, passez à l’onglet **Tests**, recherchez les **tests MonNom** générés et exécutez-les.
+Les tests de l&#39;interface utilisateur peuvent être exécutés avec de nombreuses options différentes, notamment pour les tests sans en-tête sur un navigateur local et en tant qu&#39;image Docker. Voir le fichier [README.md du module ui.tests](https://github.com/adobe/aem-project-archetype/tree/master/src/main/archetype/ui.tests) pour plus d’informations.
