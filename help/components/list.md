@@ -2,10 +2,10 @@
 title: Composant Liste
 description: Le composant principal Liste permet de créer facilement des listes dynamiques et statiques.
 translation-type: tm+mt
-source-git-commit: 4813748bcfa83ce7c73e81d4e4d445ecc8215d26
+source-git-commit: d3ebcea5fa1523c1a986841cd3d1a64e16e85f6d
 workflow-type: tm+mt
-source-wordcount: '966'
-ht-degree: 100%
+source-wordcount: '979'
+ht-degree: 99%
 
 ---
 
@@ -188,3 +188,7 @@ Activez l’option Afficher la date dans la [boîte de dialogue de modification]
 ### Onglet Styles {#styles-tab}
 
 Le composant d’image prend en charge le [système de style](/help/get-started/authoring.md#component-styling) AEM.
+
+## Couche de données client Adobe {#data-layer}
+
+Le composant de Liste prend en charge la couche de données du client d&#39;Adobe [.](/help/developing/data-layer/overview.md)
