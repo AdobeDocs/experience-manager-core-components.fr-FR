@@ -2,10 +2,10 @@
 title: Composant de page
 description: Le composant de page est un composant de page extensible, conçu pour fonctionner avec l’éditeur de modèles et autoriser l’assemblage de composants d’en-tête/de pied de page et de structure à l’aide de l’éditeur de modèles.
 translation-type: tm+mt
-source-git-commit: 4813748bcfa83ce7c73e81d4e4d445ecc8215d26
+source-git-commit: d3ebcea5fa1523c1a986841cd3d1a64e16e85f6d
 workflow-type: tm+mt
-source-wordcount: '631'
-ht-degree: 100%
+source-wordcount: '644'
+ht-degree: 98%
 
 ---
 
@@ -83,3 +83,7 @@ Pour plus d’informations sur l’utilisation des bibliothèques côté client,
 ### Onglet Styles {#styles-tab}
 
 Le composant Page prend en charge le [système de style](/help/get-started/authoring.md#component-styling) AEM.
+
+## Couche de données client Adobe {#data-layer}
+
+Le composant de page prend en charge la couche de données du client d&#39;Adobe [](/help/developing/data-layer/overview.md).
