@@ -2,10 +2,10 @@
 title: Composant Onglets
 description: Le composant Onglets permet la création de plusieurs onglets pour disposer le contenu sur une page.
 translation-type: tm+mt
-source-git-commit: 2926c51c2ab97b50b9ec4942cd5415c15a1411b6
+source-git-commit: d3ebcea5fa1523c1a986841cd3d1a64e16e85f6d
 workflow-type: tm+mt
-source-wordcount: '1027'
-ht-degree: 100%
+source-wordcount: '1040'
+ht-degree: 99%
 
 ---
 
@@ -96,9 +96,9 @@ Utilisez le bouton **Ajouter** pour ouvrir le sélecteur de composants afin de c
 
 ![Onglet Accessibilité de la boîte de dialogue de modification du composant Onglets](/help/assets/tabs-edit-accessibility.png)
 
-Dans l’onglet **Accessibilité**, les valeurs peuvent être définies pour les libellés d’[accessibilité ARIA](https://www.w3.org/WAI/standards-guidelines/aria/) du composant.
+Dans l’onglet **Accessibilité**, les valeurs peuvent être définies pour les étiquettes d’[accessibilité ARIA](https://www.w3.org/WAI/standards-guidelines/aria/) du composant.
 
-* **Libellé** - Valeur d’un attribut de libellé ARIA pour le composant
+* **Étiquette** - Valeur d’un attribut de étiquette ARIA pour le composant
 
 ## Sélectionner un panneau {#select-panel}
 
@@ -133,3 +133,7 @@ L’onglet Composants autorisés fonctionne de la même manière que l’onglet 
 ### Onglet Styles {#styles-tab}
 
 Le composant Onglets prend en charge le [système de style](/help/get-started/authoring.md#component-styling) AEM.
+
+## Couche de données client Adobe {#data-layer}
+
+Le composant Onglets prend en charge la couche de données client [Adobe.](/help/developing/data-layer/overview.md)
