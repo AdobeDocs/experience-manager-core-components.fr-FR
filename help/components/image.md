@@ -1,11 +1,11 @@
 ---
 title: Composant d’image
 description: Le composant d’image des composants principaux est un composant d’image adaptatif qui permet d’effectuer des modifications statiques.
-translation-type: ht
-source-git-commit: c20d02aa93cce60b583a2d22c77b08ca7eb9b765
-workflow-type: ht
-source-wordcount: '2157'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: d3ebcea5fa1523c1a986841cd3d1a64e16e85f6d
+workflow-type: tm+mt
+source-wordcount: '2170'
+ht-degree: 99%
 
 ---
 
@@ -255,3 +255,7 @@ Le composant d’image utilise la servlet d’image adaptative des composants pr
 >Les requêtes conditionnelles effectuées par le biais de `Last-Modified` en-tête sont prises en charge par la servlet d’image adaptative, mais la mise en cache de l’en-tête `Last-Modified` [doit être activée dans Dispatcher](https://experienceleague.adobe.com/docs/experience-manager-dispatcher/using/configuring/dispatcher-configuration.html?lang=fr#caching-http-response-headers).
 >
 >L’exemple de configuration de Dispatcher d’[AEM Project Archetype](/help/developing/archetype/overview.md) contient déjà cette configuration.
+
+## Couche de données client Adobe {#data-layer}
+
+Le composant Image prend en charge la couche de données client [Adobe.](/help/developing/data-layer/overview.md)
