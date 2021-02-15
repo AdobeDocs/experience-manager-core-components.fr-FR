@@ -2,10 +2,10 @@
 title: Composant Barre de progression
 description: Le composant Barre de progression représente visuellement la progression par rapport à un objectif
 translation-type: tm+mt
-source-git-commit: cba1d898d7789af7f4045ef9aa052b4da6a6b33a
+source-git-commit: d3ebcea5fa1523c1a986841cd3d1a64e16e85f6d
 workflow-type: tm+mt
-source-wordcount: '324'
-ht-degree: 100%
+source-wordcount: '338'
+ht-degree: 97%
 
 ---
 
@@ -55,3 +55,7 @@ La boîte de dialogue de conception permet à l’auteur du modèle de définir 
 ### Onglet Styles {#styles-tab}
 
 Le composant Barre de progression prend en charge le [système de style](/help/get-started/authoring.md#component-styling) AEM.
+
+## Couche de données client Adobe {#data-layer}
+
+Le composant de la barre de progression prend en charge la couche de données client [Adobe.](/help/developing/data-layer/overview.md)
