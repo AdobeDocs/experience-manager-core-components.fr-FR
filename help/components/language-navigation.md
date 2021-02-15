@@ -2,10 +2,10 @@
 title: Composant de navigation par langue
 description: Le composant de navigation par langue fournit une navigation par langue/pays pour un site, de sorte que les visiteurs puissent accéder à la même page dans un autre paramètre régional.
 translation-type: tm+mt
-source-git-commit: c186e9ec3944d785ab0376769cf7f2307049a809
+source-git-commit: d3ebcea5fa1523c1a986841cd3d1a64e16e85f6d
 workflow-type: tm+mt
-source-wordcount: '832'
-ht-degree: 100%
+source-wordcount: '846'
+ht-degree: 98%
 
 ---
 
@@ -104,3 +104,7 @@ De plus, vous pouvez définir un **ID**. Cette option permet de contrôler l’i
 * La modification de l’ID peut avoir un impact sur le suivi CSS, JS et de couche de données.
 
 ![Boîte de dialogue de modification du composant Navigation par langue](/help/assets/language-navigation-edit.png)
+
+## Couche de données client Adobe {#data-layer}
+
+Le composant de navigation linguistique prend en charge la couche de données client [Adobe.](/help/developing/data-layer/overview.md)
