@@ -2,10 +2,10 @@
 title: Composant de page
 description: Le composant de page est un composant de page extensible, conçu pour fonctionner avec l’éditeur de modèles et autoriser l’assemblage de composants d’en-tête/de pied de page et de structure à l’aide de l’éditeur de modèles.
 translation-type: tm+mt
-source-git-commit: d3ebcea5fa1523c1a986841cd3d1a64e16e85f6d
+source-git-commit: 2748fea0aca82b1262585b3f8c191f61607f7735
 workflow-type: tm+mt
-source-wordcount: '644'
-ht-degree: 98%
+source-wordcount: '691'
+ht-degree: 81%
 
 ---
 
@@ -16,9 +16,13 @@ Le composant de page est un composant de page extensible conçu pour fonctionner
 
 ## Utilisation {#usage}
 
-Le composant de page sert de base à toutes les pages conçues avec les composants principaux ainsi que les modèles modifiables. En utilisant le composant de page, les en-têtes, les pieds de page et la structure de la page peuvent être définis dans un modèle à l’aide des autres composants principaux.
+Le composant de page constitue la base de toutes les pages conçues avec les composants principaux ainsi que les modèles modifiables. En utilisant le composant de page, les en-têtes, les pieds de page et la structure de la page peuvent être définis comme un modèle à l’aide des autres composants principaux.
 
-Grâce à la [boîte de dialogue de conception](#design-dialog), les bibliothèques côté client personnalisées peuvent être définies pour la page. Contrairement aux autres composants dont la boîte de dialogue de modification est accessible directement à partir de ceux-ci, puisque le composant est la page elle-même, la [boîte de dialogue de modification](#edit-dialog) du composant de page est la fenêtre des propriétés de la page.
+Grâce à la [boîte de dialogue de conception](#design-dialog), les bibliothèques côté client personnalisées peuvent être définies pour la page. Contrairement aux autres composants qui disposent d&#39;une boîte de dialogue de modification accessible directement à partir du composant, puisque le composant de page est la page elle-même, la [boîte de dialogue de modification](#edit-dialog) du composant de page est la fenêtre des propriétés de page.
+
+## Prise en charge progressive des applications Web {#pwa-support}
+
+La version 2.15.0 des composants principaux a introduit la prise en charge des fonctionnalités [Applications Web progressives (PWA) intégrées ](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/features/enable-pwa.html) dans le composant de page. Avec une configuration simple au niveau du site, transformez votre expérience AEM en PWA !
 
 ## Version et compatibilité {#version-and-compatibility}
 
