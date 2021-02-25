@@ -2,9 +2,9 @@
 title: Composant de page
 description: Le composant de page est un composant de page extensible, conçu pour fonctionner avec l’éditeur de modèles et autoriser l’assemblage de composants d’en-tête/de pied de page et de structure à l’aide de l’éditeur de modèles.
 translation-type: tm+mt
-source-git-commit: 2748fea0aca82b1262585b3f8c191f61607f7735
+source-git-commit: f4a45b2af87e5a5f0396b335c65856ce821455c9
 workflow-type: tm+mt
-source-wordcount: '691'
+source-wordcount: '683'
 ht-degree: 81%
 
 ---
@@ -22,7 +22,7 @@ Grâce à la [boîte de dialogue de conception](#design-dialog), les bibliothèq
 
 ## Prise en charge progressive des applications Web {#pwa-support}
 
-La version 2.15.0 des composants principaux a introduit la prise en charge des fonctionnalités [Applications Web progressives (PWA) intégrées ](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/features/enable-pwa.html) dans le composant de page. Avec une configuration simple au niveau du site, transformez votre expérience AEM en PWA !
+La version 2.15.0 des composants principaux a introduit la prise en charge de l&#39;AEM en tant que Cloud Service intégré aux fonctionnalités des applications Web progressives (PWA). Avec une configuration simple au niveau du site, transformez votre expérience AEM en PWA !
 
 ## Version et compatibilité {#version-and-compatibility}
 
