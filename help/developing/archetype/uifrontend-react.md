@@ -1,9 +1,9 @@
 ---
 title: Génération front-end pour les applications monopage React
 description: Description du processus de génération front-end pour les projets d’application monopage React
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 9d737b31efc8c346775ea5296f7599295af07cf1
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '512'
 ht-degree: 100%
 
@@ -49,7 +49,7 @@ Si des erreurs liées à CORS s’affiche, vous souhaiterez peut-être configure
 npm test
 ```
 
-Cette commande lance le programme d’exécution du test en mode de espion interactif. Pour plus d’informations, consultez la [documentation React sur l’exécution des tests](https://facebook.github.io/create-react-app/docs/running-tests).
+Cette commande lance le programme d’exécution du test en mode d’espion interactif. Pour plus d’informations, consultez la [documentation React sur l’exécution des tests](https://facebook.github.io/create-react-app/docs/running-tests).
 
 ### npm run build {#npm-run-build}
 
