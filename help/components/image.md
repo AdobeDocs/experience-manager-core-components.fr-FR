@@ -1,11 +1,11 @@
 ---
 title: Composant d’image
 description: Le composant d’image des composants principaux est un composant d’image adaptatif qui permet d’effectuer des modifications statiques.
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: d3ebcea5fa1523c1a986841cd3d1a64e16e85f6d
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2170'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -63,7 +63,7 @@ Pour des raisons de sécurité, l’éditeur d’image ne fait jamais appel au f
 
 ## Exemple de sortie de composant {#sample-component-output}
 
-Pour tester le composant d’image et voir des exemples de ses options de configuration, ainsi que la sortie HTML et JSON, consultez la [bibliothèque de composants](https://adobe.com/go/aem_cmp_library_image).
+Pour tester le composant d’image et voir des exemples de ses options de configuration, ainsi que la sortie HTML et JSON, consultez la [bibliothèque de composants](https://adobe.com/go/aem_cmp_library_image_fr).
 
 ### Détails techniques {#technical-details}
 
@@ -258,4 +258,4 @@ Le composant d’image utilise la servlet d’image adaptative des composants pr
 
 ## Couche de données client Adobe {#data-layer}
 
-Le composant Image prend en charge la couche de données client [Adobe.](/help/developing/data-layer/overview.md)
+Le composant Image prend en charge la [couche de données client Adobe](/help/developing/data-layer/overview.md).
