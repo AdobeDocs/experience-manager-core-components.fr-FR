@@ -7,7 +7,7 @@ translation-type: tm+mt
 source-git-commit: f4bed5d9d0f5387259d083fe46220208347052b3
 workflow-type: tm+mt
 source-wordcount: '214'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -16,7 +16,7 @@ ht-degree: 96%
 
 + [Présentation des composants principaux](introduction.md)
 + [Chemins vers la réussite](developing/success.md)
-+ [Bibliothèque de composants](https://adobe.com/go/aem_cmp_library)
++ [Bibliothèque de composants](https://adobe.com/go/aem_cmp_library_fr)
 + [Versions des composants principaux](versions.md)
 + Prise en main {#get-started}
    + [Création à l’aide des composants principaux](get-started/authoring.md)
@@ -68,7 +68,7 @@ ht-degree: 96%
          + [Texte de formulaire (v1)](components/v1/form-text-v1.md)
 + Développement {#developing}
    + [Développement des composants principaux](developing/overview.md)
-   + [Chemins vers la réussite](https://experienceleague.adobe.com/docs/experience-manager-core-components/using/success.html)
+   + [Chemins vers la réussite](https://experienceleague.adobe.com/docs/experience-manager-core-components/using/success.html?lang=fr)
    + [Tutoriel du développeur WKND](https://docs.adobe.com/content/help/fr-FR/experience-manager-learn/getting-started-wknd-tutorial-develop/overview.html)
    + [Personnalisation des composants principaux](developing/customizing.md)
    + [Instructions relatives aux composants](developing/guidelines.md)
