@@ -1,11 +1,11 @@
 ---
 title: Utilisation de la couche de données client Adobe avec les composants principaux
 description: Utilisation de la couche de données client Adobe avec les composants principaux
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 57582c5c938e0f345b27785bd6fd6d5ed5454bd0
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '974'
-ht-degree: 91%
+ht-degree: 100%
 
 ---
 
@@ -41,7 +41,7 @@ Pour activer manuellement la couche de données, vous devez créer une [configur
 
 1. Ajoutez une propriété `sling:configRef` sur le nœud `jcr:content` de votre site ci-dessous `/content` (par exemple, `/content/<mySite>/jcr:content`) et définissez-la sur `/conf/<mySite>` par rapport à l’étape précédente.
 
-1. Une fois l’activation activée, vous pouvez la vérifier en chargeant une page du site en dehors de l’éditeur, par exemple en utilisant l’option **Vue en tant que Publiée** dans l’éditeur. Inspectez la source de la page. La balise `<body>` doit contenir un attribut `data-cmp-data-layer-enabled`. 
+1. Une fois une fonctionnalité activée, vous pouvez vérifier son activation en chargeant une page du site en dehors de l’éditeur, par exemple en utilisant l’option **Afficher comme publié(e)** dans l’éditeur. Inspectez la source de la page. La balise `<body>` doit contenir un attribut `data-cmp-data-layer-enabled`. 
 
    ```html
    <body class="page basicpage" id="page-id" data-cmp-data-layer-enabled>
@@ -83,7 +83,7 @@ Les composants suivants prennent en charge la couche de données.
 * [Texte](/help/components/text.md)
 * [Titre](/help/components/title.md)
 
-Reportez-vous également aux [événements déclenchés par les composants.](#events-components)
+Reportez-vous également aux [événements déclenchés par les composants](#events-components).
 
 ## Schémas de données des composants principaux {#data-schemas}
 
@@ -222,7 +222,7 @@ L’[événement](#events) suivant correspond au schéma de ressource :
 
 ### Schéma de fragment de contenu {#content-fragment}
 
-Le schéma Fragment de contenu est utilisé par le composant [Fragment de contenu.](/help/components/content-fragment-component.md)
+Le schéma Fragment de contenu est utilisé par le [composant Fragment de contenu](/help/components/content-fragment-component.md).
 
 Le schéma Fragment de contenu est défini comme suit.
 
@@ -254,9 +254,9 @@ Un certain nombre d’événements sont déclenchés par les composants principa
 
 Vous trouverez ci-dessous les événements prêts à l’emploi fournis par les composants principaux d’AEM :
 
-* **`cmp:click`** - Lorsque vous cliquez sur un élément cliquable (élément doté d’un attribut `data-cmp-clickable`), la couche de données déclenche un événement `cmp:click`.
-* **`cmp:show`** et **`cmp:hide`** - Manipuler les composants d’accordéon (développer/réduire), de carrousel (boutons Suivant/Précédent) et d’onglets (sélection par onglets) provoque le déclenchement des événements `cmp:show` et `cmp:hide`, respectivement, par la couche de données. Un événement `cmp:show` est également distribué au chargement de la page et devrait être le premier.
-* **`cmp:loaded`** - Dès que la couche de données est remplie avec les composants principaux sur la page, elle déclenche un événement `cmp:loaded`.
+* **`cmp:click`** : Lorsque vous cliquez sur un élément cliquable (élément doté d’un attribut `data-cmp-clickable`), la couche de données déclenche un événement `cmp:click`.
+* **`cmp:show`** et **`cmp:hide`** : Manipuler les composants d’accordéon (développer/réduire), de carrousel (boutons Suivant/Précédent) et d’onglets (sélection par onglets) provoque le déclenchement des événements `cmp:show` et `cmp:hide`, respectivement, par la couche de données. Un événement `cmp:show` est également distribué au chargement de la page et devrait être le premier.
+* **`cmp:loaded`** : Dès que la couche de données est remplie avec les composants principaux sur la page, elle déclenche un événement `cmp:loaded`.
 
 ### Événements déclenchés par le composant {#events-components}
 
