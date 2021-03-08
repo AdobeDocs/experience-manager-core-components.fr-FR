@@ -1,28 +1,28 @@
 ---
 title: Composant de page
 description: Le composant de page est un composant de page extensible, conçu pour fonctionner avec l’éditeur de modèles et autoriser l’assemblage de composants d’en-tête/de pied de page et de structure à l’aide de l’éditeur de modèles.
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: f4a45b2af87e5a5f0396b335c65856ce821455c9
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '683'
-ht-degree: 81%
+ht-degree: 100%
 
 ---
 
 
-# Composant de page{#page-component}
+# Composant de page {#page-component}
 
 Le composant de page est un composant de page extensible conçu pour fonctionner avec l’[éditeur de modèles](https://docs.adobe.com/content/help/fr-FR/experience-manager-cloud-service/sites/authoring/features/templates.html) et permet l’assemblage de composants d’en-tête/de pied de page et de structure à l’aide de l’éditeur de modèles.
 
 ## Utilisation {#usage}
 
-Le composant de page constitue la base de toutes les pages conçues avec les composants principaux ainsi que les modèles modifiables. En utilisant le composant de page, les en-têtes, les pieds de page et la structure de la page peuvent être définis comme un modèle à l’aide des autres composants principaux.
+Le composant Page sert de base à toutes les pages conçues avec les composants principaux ainsi que les modèles modifiables. En utilisant le composant Page, les en-têtes, les pieds de page et la structure de la page peuvent être définis dans un modèle à l’aide des autres composants principaux.
 
-Grâce à la [boîte de dialogue de conception](#design-dialog), les bibliothèques côté client personnalisées peuvent être définies pour la page. Contrairement aux autres composants qui disposent d&#39;une boîte de dialogue de modification accessible directement à partir du composant, puisque le composant de page est la page elle-même, la [boîte de dialogue de modification](#edit-dialog) du composant de page est la fenêtre des propriétés de page.
+Grâce à la [boîte de dialogue de conception](#design-dialog), les bibliothèques côté client personnalisées peuvent être définies pour la page. Contrairement aux autres composants dont la boîte de dialogue de modification est accessible directement à partir de ceux-ci, puisque le composant est la page elle-même, la [boîte de dialogue de modification](#edit-dialog) du composant de page est la fenêtre des propriétés de la page.
 
-## Prise en charge progressive des applications Web {#pwa-support}
+## Prise en charge des applications web progressives {#pwa-support}
 
-La version 2.15.0 des composants principaux a introduit la prise en charge de l&#39;AEM en tant que Cloud Service intégré aux fonctionnalités des applications Web progressives (PWA). Avec une configuration simple au niveau du site, transformez votre expérience AEM en PWA !
+La version 2.15.0 des composants principaux a introduit la prise en charge d’AEM as a Cloud Service de façon intégrée dans les fonctionnalités des applications web progressives (PWA). Grâce à cette simple configuration au niveau du site, transformez votre expérience AEM en PWA !
 
 ## Version et compatibilité {#version-and-compatibility}
 
@@ -45,7 +45,7 @@ Vous trouverez plus d’informations sur le développement des composants princi
 
 ## Boîte de dialogue de modification {#edit-dialog}
 
-Étant donné que le composant représente la page entière, les paramètres qui seraient normalement dans une boîte de dialogue de modification se trouvent dans la fenêtre [Propriétés de la page](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/sites/authoring/fundamentals/page-properties.html).
+Étant donné que le composant représente la page entière, les paramètres qui seraient normalement dans une boîte de dialogue de modification se trouvent dans la fenêtre [Propriétés de la page](https://docs.adobe.com/content/help/fr-FR/experience-manager-cloud-service/sites/authoring/fundamentals/page-properties.html).
 
 ## Boîte de dialogue de conception {#design-dialog}
 
@@ -90,4 +90,4 @@ Le composant Page prend en charge le [système de style](/help/get-started/autho
 
 ## Couche de données client Adobe {#data-layer}
 
-Le composant de page prend en charge la couche de données du client d&#39;Adobe [](/help/developing/data-layer/overview.md).
+Le composant Page prend en charge la [couche de données client Adobe](/help/developing/data-layer/overview.md).
