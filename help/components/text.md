@@ -1,16 +1,16 @@
 ---
 title: Composant textuel
 description: Le composant Texte est un composant d’édition et de composition de texte enrichi qui propose une édition statique.
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: d3ebcea5fa1523c1a986841cd3d1a64e16e85f6d
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2213'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
 
-# Composant textuel{#text-component}
+# Composant textuel {#text-component}
 
 Le composant Texte des composants principaux est un composant d’édition et de composition de texte enrichi qui propose une édition statique.
 
@@ -35,7 +35,7 @@ Pour plus d’informations sur les versions et les publications des composants p
 
 ## Exemple de sortie de composant {#sample-component-output}
 
-Pour tester le composant de texte et obtenir des exemples d’options de configuration, ainsi que des sorties HTML et JSON, consultez la [bibliothèque de composants](https://adobe.com/go/aem_cmp_library_text).
+Pour tester le composant de texte et obtenir des exemples d’options de configuration, ainsi que des sorties HTML et JSON, consultez la [bibliothèque de composants](https://adobe.com/go/aem_cmp_library_text_fr).
 
 ### Détails techniques {#technical-details}
 
@@ -51,7 +51,7 @@ Le reste de cet article illustre la configuration standard du composant principa
 
 >[!NOTE]
 >
->Seules les options activées par [les configurations de l’interface utilisateur de l’éditeur de texte enrichi](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/implementing/configuring-and-extending/configure-rich-text-editor-plug-ins.html) sont disponibles dans le composant Texte.
+>Seules les options activées par [les configurations de l’interface utilisateur de l’éditeur de texte enrichi](https://docs.adobe.com/content/help/fr-FR/experience-manager-cloud-service/implementing/configuring-and-extending/configure-rich-text-editor-plug-ins.html) sont disponibles dans le composant Texte.
 
 ## Boîte de dialogue de modification {#edit-dialog}
 
@@ -212,7 +212,7 @@ Pour mettre fin à une liste à puces, appuyez ou cliquez de nouveau sur le bout
 
 ![Icône Liste numérotée](/help/assets/text-numbered.png)
 
-Utilisé pour mettre en forme le texte sélectionné sous forme de liste numérotée ou commencer l’insertion d&#39;une liste numérotée après le curseur.
+Utilisé pour mettre en forme le texte sélectionné sous forme de liste numérotée ou commencer l’insertion d’une liste numérotée après le curseur.
 
 Pour mettre fin à une liste numérotée, appuyez ou cliquez de nouveau sur le bouton **Numérotée** ou saisissez deux retours chariot.
 
@@ -238,19 +238,19 @@ Utilisé pour insérer un tableau dans le texte. Cette option permet d’ouvrir 
 
 ![Exemple de tableau](/help/assets/text-table-example.png)
 
-* **Colonnes** - Nombre de colonnes du tableau (obligatoire).
-* **Lignes** - Nombre de lignes du tableau (obligatoire).
-* **Largeur** - Largeur totale du tableau.
-* **Hauteur** - Hauteur totale du tableau.
-* **Marge intérieure des cellules** - espace autour du contenu de la cellule.
-* **Espacement des cellules** - Espacement entre les cellules.
-* **Bordure** - Épaisseur des lignes de bordure du tableau.
+* **Colonnes** : Nombre de colonnes du tableau (obligatoire).
+* **Lignes** : Nombre de lignes du tableau (obligatoire).
+* **Largeur** : Largeur totale du tableau.
+* **Hauteur** : Hauteur totale du tableau.
+* **Marge intérieure des cellules** : espace autour du contenu de la cellule.
+* **Espacement des cellules** : Espacement entre les cellules.
+* **Bordure** : Épaisseur des lignes de bordure du tableau.
    * Si pour l’en-tête du tableau :
       * La première ligne doit être utilisée
       * La première colonne doit être utilisée
       * La première ligne et la première colonne doivent être utilisées
       * Ou aucun en-tête ne doit être utilisé.
-* **Légende** - Légende du tableau.
+* **Légende** : Légende du tableau.
 
 ### Vérifier l’orthographe
 
@@ -258,7 +258,7 @@ Utilisé pour insérer un tableau dans le texte. Cette option permet d’ouvrir 
 
 Permet de vérifier l’orthographe du contenu du texte. Les fautes de frappe possibles sont soulignées avec des lignes rouges rompues.
 
-Vous trouverez plus d’informations sur la vérification orthographique et la personnalisation des dictionnaires orthographiques dans le document [Configuration des modules de l’éditeur de texte enrichi](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/implementing/configuring-and-extending/configure-rich-text-editor-plug-ins.html).
+Vous trouverez plus d’informations sur la vérification orthographique et la personnalisation des dictionnaires orthographiques dans le document [Configuration des modules de l’éditeur de texte enrichi](https://docs.adobe.com/content/help/fr-FR/experience-manager-cloud-service/implementing/configuring-and-extending/configure-rich-text-editor-plug-ins.html).
 
 ### Caractères spéciaux {#special-characters}
 
@@ -338,7 +338,7 @@ Les fonctionnalités suivantes peuvent être activées ou désactivées pour le 
 Les options de formatage suivantes peuvent être activées ou désactivées pour le composant.
 
 * Tableau
-* Listes    (puce, numéro, retrait, retrait négatif)
+* Listes (puce, numéro, retrait, retrait négatif)
 * Alignement (gauche, droite, centré)
 * Gras, italique, souligné
 * Lien (et dissociation)
@@ -372,4 +372,4 @@ Le composant Texte prend en charge le [système de style](/help/get-started/auth
 
 ## Couche de données client Adobe {#data-layer}
 
-Le composant de texte prend en charge la couche de données du client d&#39;Adobe [](/help/developing/data-layer/overview.md).
+Le composant Texte prend en charge la [couche de données client Adobe](/help/developing/data-layer/overview.md).
