@@ -1,16 +1,16 @@
 ---
 title: Composant du carrousel
 description: Le composant du carrousel permet à l’auteur de contenu de présenter le contenu dans un carrousel rotatif.
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: d3ebcea5fa1523c1a986841cd3d1a64e16e85f6d
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1125'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
 
-# Composant du carrousel{#carousel-component}
+# Composant du carrousel {#carousel-component}
 
 Le composant du carrousel des composants principaux permet à l’auteur de contenu de présenter le contenu dans un carrousel navigable.
 
@@ -34,7 +34,7 @@ Pour plus d’informations sur les versions et les publications des composants p
 
 ## Exemple de sortie de composant {#sample-component-output}
 
-Pour tester le composant du carrousel, des exemples d’options de configuration, ainsi que des sorties HTML et JSON, consultez la [bibliothèque de composants](https://adobe.com/go/aem_cmp_library_carousel).
+Pour tester le composant du carrousel, des exemples d’options de configuration, ainsi que des sorties HTML et JSON, consultez la [bibliothèque de composants](https://adobe.com/go/aem_cmp_library_carousel_fr).
 
 ### Détails techniques {#technical-details}
 
@@ -59,7 +59,7 @@ Utilisez le bouton **Ajouter** pour ouvrir le sélecteur de composants afin de c
 
 >[!TIP]
 >
->Si la fenêtre d’affichage de la page est réduite, de sorte que la boîte de dialogue de modification s’affiche en plein écran, le bouton **Ajouter** est masqué. Vous pouvez toujours ajouter des composants au composant du carrousel en [les faisant glisser depuis l’explorateur de composants et en les déposant ensuite sur le composant du carrousel dans l’éditeur de page](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/sites/authoring/fundamentals/editing-content.html#inserting-a-component-from-the-components-browser).
+>Si la fenêtre d’affichage de la page est réduite, de sorte que la boîte de dialogue de modification s’affiche en plein écran, le bouton **Ajouter** est masqué. Vous pouvez toujours ajouter des composants au composant du carrousel en [les faisant glisser depuis l’explorateur de composants et en les déposant ensuite sur le composant du carrousel dans l’éditeur de page](https://docs.adobe.com/content/help/fr-FR/experience-manager-cloud-service/sites/authoring/fundamentals/editing-content.html#inserting-a-component-from-the-components-browser).
 
 ### Onglet Propriétés {#properties-tab}
 
@@ -77,9 +77,9 @@ Dans l’onglet **Propriétés**, l’auteur du contenu peut définir les diapos
 
 >[!NOTE]
 >
->Les commandes d’avance de diapositives ne sont pas activées en mode **Édition**. Utilisez le mode [**Aperçu**](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/sites/authoring/fundamentals/editing-content.html#preview-mode) ou l’option **[Afficher comme publié(e)](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/sites/authoring/fundamentals/editing-content.html#view-as-published)** pour interagir avec le carrousel en tant que lecteur du contenu publié.
+>Les commandes d’avance de diapositives ne sont pas activées en mode **Édition**. Utilisez le mode [**Aperçu**](https://docs.adobe.com/content/help/fr-FR/experience-manager-cloud-service/sites/authoring/fundamentals/editing-content.html#preview-mode) ou l’option **[Afficher comme publié(e)](https://docs.adobe.com/content/help/fr-FR/experience-manager-cloud-service/sites/authoring/fundamentals/editing-content.html#view-as-published)** pour interagir avec le carrousel en tant que lecteur du contenu publié.
 >
->La fonction d’avance automatique n’est pas activée en mode **Édition**. Utilisez l’option **[Afficher comme publié(e)](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/sites/authoring/fundamentals/editing-content.html#view-as-published)** pour afficher la fonctionnalité d’avance automatique en tant que lecteur du contenu publié.
+>La fonction d’avance automatique n’est pas activée en mode **Édition**. Utilisez l’option **[Afficher comme publié(e)](https://docs.adobe.com/content/help/fr-FR/experience-manager-cloud-service/sites/authoring/fundamentals/editing-content.html#view-as-published)** pour afficher la fonctionnalité d’avance automatique en tant que lecteur du contenu publié.
 
 ### Onglet Accessibilité {#accessibility-tab}
 
@@ -87,7 +87,7 @@ Dans l’onglet **Propriétés**, l’auteur du contenu peut définir les diapos
 
 Dans l’onglet **Accessibilité**, les valeurs peuvent être définies pour les étiquettes d’[accessibilité ARIA](https://www.w3.org/WAI/standards-guidelines/aria/) du composant.
 
-* **Étiquette** - Valeur d’un attribut de étiquette ARIA pour le composant
+* **Étiquette** : Valeur d’un attribut de étiquette ARIA pour le composant
 
 ## Sélectionner un panneau {#select-panel}
 
@@ -131,4 +131,4 @@ Le composant du carrousel prend en charge le [système de style](/help/get-start
 
 ## Couche de données client Adobe {#data-layer}
 
-Le composant Carousel prend en charge la couche de données client [Adobe.](/help/developing/data-layer/overview.md)
+Le composant Carrousel prend en charge la [couche de données client Adobe](/help/developing/data-layer/overview.md).
