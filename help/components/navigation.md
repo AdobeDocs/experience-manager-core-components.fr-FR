@@ -1,16 +1,16 @@
 ---
 title: Composant Navigation
 description: Le composant Navigation permet aux utilisateurs de parcourir facilement une structure de site globalisée.
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: d3ebcea5fa1523c1a986841cd3d1a64e16e85f6d
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1382'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
 
-# Composant Navigation{#navigation-component}
+# Composant Navigation {#navigation-component}
 
 Le composant Navigation permet aux utilisateurs de parcourir facilement une structure de site globalisée.
 
@@ -102,7 +102,7 @@ Pour plus d’informations sur les versions et les publications des composants p
 
 ## Exemple de sortie de composant {#sample-component-output}
 
-Pour tester le composant de navigation et obtenir des exemples d’options de configuration, ainsi que des sorties HTML et JSON, consultez la [Bibliothèque de composants](https://adobe.com/go/aem_cmp_library_navigation).
+Pour tester le composant de navigation et obtenir des exemples d’options de configuration, ainsi que des sorties HTML et JSON, consultez la [Bibliothèque de composants](https://adobe.com/go/aem_cmp_library_navigation_fr).
 
 ## Détails techniques {#technical-details}
 
@@ -142,7 +142,7 @@ Dans la boîte de dialogue de modification, l’auteur du contenu peut définir 
 
 Dans l’onglet **Accessibilité**, les valeurs peuvent être définies pour les étiquettes d’[accessibilité ARIA](https://www.w3.org/WAI/standards-guidelines/aria/) du composant.
 
-* **Étiquette** - Valeur d’un attribut de étiquette ARIA pour le composant
+* **Étiquette** : Valeur d’un attribut de étiquette ARIA pour le composant
 
 ## Boîte de dialogue de conception {#design-dialog}
 
@@ -168,4 +168,4 @@ Le composant de navigation prend en charge le [système de style](/help/get-star
 
 ## Couche de données client Adobe {#data-layer}
 
-Le composant de navigation prend en charge la couche de données client [Adobe.](/help/developing/data-layer/overview.md)
+Le composant Navigation prend en charge la [couche de données client Adobe](/help/developing/data-layer/overview.md).
