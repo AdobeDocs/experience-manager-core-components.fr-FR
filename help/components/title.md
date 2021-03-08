@@ -1,16 +1,16 @@
 ---
 title: Composant du titre
 description: Le composant du titre des composants principaux est un composant d’en-tête de section qui comporte des fonctions d’édition statique.
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: d3ebcea5fa1523c1a986841cd3d1a64e16e85f6d
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '569'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
 
-# Composant du titre{#title-component}
+# Composant du titre {#title-component}
 
 Le composant du titre des composants principaux est un composant d’en-tête de section qui comporte des fonctions d’édition statique.
 
@@ -33,7 +33,7 @@ Pour plus d’informations sur les versions et les publications des composants p
 
 ## Exemple de sortie de composant {#sample-component-output}
 
-Pour tester le composant du titre et obtenir des exemples d’options de configuration, ainsi que des sorties HTML et JSON, consultez la [bibliothèque de composants](https://adobe.com/go/aem_cmp_library_title).
+Pour tester le composant du titre et obtenir des exemples d’options de configuration, ainsi que des sorties HTML et JSON, consultez la [bibliothèque de composants](https://adobe.com/go/aem_cmp_library_title_fr).
 
 ### Détails techniques {#technical-details}
 
@@ -45,9 +45,9 @@ Vous trouverez plus d’informations sur le développement des composants princi
 
 La boîte de dialogue de modification permet à l’auteur de contenu de définir le texte du titre et de sélectionner le niveau de titre.
 
-* **Titre** - Si ce cham est vide, le titre de la page est utilisé.
-* **Type/Taille** - Définit le niveau d’en-tête du titre.
-* **Lien** - Définit le contenu auquel le titre sera associé. Il peut s’agir d’un chemin d’accès à une page de contenu, d’une URL externe ou d’une ancre de page.
+* **Titre** : Si ce cham est vide, le titre de la page est utilisé.
+* **Type/Taille** : Définit le niveau d’en-tête du titre.
+* **Lien** : Définit le contenu auquel le titre sera associé. Il peut s’agir d’un chemin d’accès à une page de contenu, d’une URL externe ou d’une ancre de page.
 * **ID** : cette option permet de contrôler l’identifiant unique du composant dans le code HTML ainsi que dans la [couche de données](/help/developing/data-layer/overview.md).
    * Si rien n’est indiqué, un ID unique est généré automatiquement et peut être trouvé en examinant la page obtenue.
    * Si un ID est spécifié, il incombe à l’auteur de s’assurer qu’il est unique.
@@ -71,7 +71,7 @@ La boîte de dialogue de conception permet à l’auteur du modèle de définir 
 
 ![Boîte de dialogue de conception du composant Titre](/help/assets/title-design.png)
 
-* **Types/tailles autorisés pour les auteurs** - Activez ou désactivez les types d’en-têtes qui seront disponibles pour les auteurs de contenu lorsqu’ils utilisent le composant du titre.
+* **Types/tailles autorisés pour les auteurs** : Activez ou désactivez les types d’en-têtes qui seront disponibles pour les auteurs de contenu lorsqu’ils utilisent le composant du titre.
 * **Type/Taille par défaut** - Définissez le type d’en-tête qui sera automatiquement attribué lorsqu’un auteur de contenu ajoute le composant du titre à une page.
 * **Désactiver le lien** - Désactivez la prise en charge des liens dans le composant du titre pour interdire aux auteurs de contenu de lier des titres.
 
@@ -85,4 +85,4 @@ Le composant Titre prend en charge le [système de style](/help/get-started/auth
 
 ## Couche de données client Adobe {#data-layer}
 
-Le composant Titre prend en charge la couche de données client [Adobe.](/help/developing/data-layer/overview.md)
+Le composant Titre prend en charge la [couche de données client Adobe](/help/developing/data-layer/overview.md).
