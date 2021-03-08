@@ -1,16 +1,16 @@
 ---
 title: Composant Liste
 description: Le composant principal Liste permet de créer facilement des listes dynamiques et statiques.
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: d3ebcea5fa1523c1a986841cd3d1a64e16e85f6d
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '979'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
 
-# Composant Liste{#list-component}
+# Composant Liste {#list-component}
 
 Le composant principal Liste permet de créer facilement des listes dynamiques et statiques.
 
@@ -33,7 +33,7 @@ Pour plus d’informations sur les versions et les publications des composants p
 
 ## Exemple de sortie de composant {#sample-component-output}
 
-Pour tester le composant de liste et obtenir des exemples d’options de configuration, ainsi que des sorties HTML et JSON, consultez la [bibliothèque de composants](https://adobe.com/go/aem_cmp_library_list).
+Pour tester le composant de liste et obtenir des exemples d’options de configuration, ainsi que des sorties HTML et JSON, consultez la [bibliothèque de composants](https://adobe.com/go/aem_cmp_library_list_fr).
 
 ### Détails techniques {#technical-details}
 
@@ -138,7 +138,7 @@ Nombre maximal d’éléments affichés dans la liste.
    * Si un ID est spécifié, il incombe à l’auteur de s’assurer qu’il est unique.
    * La modification de l’ID peut avoir un impact sur le suivi CSS, JS et de couche de données.
 
-### Onglet Paramètres d&#39;élément {#item-settings-tab}
+### Onglet Paramètres d’élément {#item-settings-tab}
 
 À l’aide de l’onglet Paramètres d’élément, la mise en forme des éléments de liste peut être configurée.
 
@@ -191,4 +191,4 @@ Le composant d’image prend en charge le [système de style](/help/get-started/
 
 ## Couche de données client Adobe {#data-layer}
 
-Le composant de Liste prend en charge la couche de données du client d&#39;Adobe [.](/help/developing/data-layer/overview.md)
+Le composant Liste prend en charge la [couche de données client Adobe](/help/developing/data-layer/overview.md).
