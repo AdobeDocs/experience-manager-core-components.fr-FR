@@ -1,30 +1,30 @@
 ---
-title: Composant de fragment de contenu
-description: Le composant de fragment de contenu des composants principaux permet l’affichage d’un fragment de contenu.
-translation-type: tm+mt
+title: Composant Fragment de contenu
+description: Le composant Fragment de contenu des composants principaux permet l’affichage d’un fragment de contenu.
+translation-type: ht
 source-git-commit: d3ebcea5fa1523c1a986841cd3d1a64e16e85f6d
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '673'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
 
-# Composant de fragment de contenu{#content-fragment-component}
+# Composant Fragment de contenu {#content-fragment-component}
 
-Le composant de fragment de contenu des composants principaux permet l’affichage d’un [fragment de contenu](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/assets/content-fragments/content-fragments.html).
+Le composant Fragment de contenu des composants principaux permet l’affichage d’un [fragment de contenu](https://docs.adobe.com/content/help/fr-FR/experience-manager-cloud-service/assets/content-fragments/content-fragments.html).
 
 >[!NOTE]
 >
->Avant la version 2.4.0 des composants principaux, le composant de fragment de contenu était disponible en tant qu’extension aux composants principaux et devait être téléchargé séparément et explicitement activé.
+>Avant la version 2.4.0 des composants principaux, le composant Fragment de contenu était disponible en tant qu’extension aux composants principaux et devait être téléchargé séparément et explicitement activé.
 
 ## Utilisation {#usage}
 
-Le composant de fragment de contenu des composants principaux permet d’inclure un [fragment de contenu](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/assets/content-fragments/content-fragments.html) sur une page.
+Le composant de fragment de contenu des composants principaux permet d’inclure un [fragment de contenu](https://docs.adobe.com/content/help/fr-FR/experience-manager-cloud-service/assets/content-fragments/content-fragments.html) sur une page.
 
 * Le fragment et ses propriétés peuvent être sélectionnés dans la [boîte de dialogue de configuration](#configure-dialog).
 * Les types de ressources qui permettent de gérer certaines images et grilles peuvent être définis dans la [boîte de dialogue de conception](#design-dialog).
-* L’option d’édition ouvre le fragment sélectionné dans l’[éditeur de fragments de contenu](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/assets/content-fragments/content-fragments-variations.html).
+* L’option d’édition ouvre le fragment sélectionné dans l’[éditeur de fragments de contenu](https://docs.adobe.com/content/help/fr-FR/experience-manager-cloud-service/assets/content-fragments/content-fragments-variations.html).
 
 ## Version et compatibilité {#version-and-compatibility}
 
@@ -52,7 +52,7 @@ Pour plus d’informations sur les versions et les publications des composants p
 
 ## Exemple de sortie de composant {#sample-component-output}
 
-Pour tester le composant de fragment de contenu et obtenir des exemples d’options de configuration, ainsi que des sorties HTML et JSON, consultez la [bibliothèque de composants](https://adobe.com/go/aem_cmp_library_cf).
+Pour tester le composant de fragment de contenu et obtenir des exemples d’options de configuration, ainsi que des sorties HTML et JSON, consultez la [bibliothèque de composants](https://adobe.com/go/aem_cmp_library_cf_fr).
 
 ## Détails techniques {#technical-details}
 
@@ -112,4 +112,4 @@ La boîte de dialogue de conception permet à l’auteur du modèle de définir 
 
 ## Couche de données client Adobe {#data-layer}
 
-Le composant Fragment de contenu prend en charge la couche de données client [Adobe.](/help/developing/data-layer/overview.md)
+Le composant Fragment de contenu prend en charge la [couche de données client Adobe](/help/developing/data-layer/overview.md).
