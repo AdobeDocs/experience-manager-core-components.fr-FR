@@ -1,16 +1,16 @@
 ---
 title: Composant de navigation par langue
 description: Le composant de navigation par langue fournit une navigation par langue/pays pour un site, de sorte que les visiteurs puissent accéder à la même page dans un autre paramètre régional.
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: d3ebcea5fa1523c1a986841cd3d1a64e16e85f6d
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '846'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
 
-# Composant de navigation par langue{#language-navigation-component}
+# Composant de navigation par langue {#language-navigation-component}
 
 Le composant de navigation par langue fournit une navigation par langue/pays pour un site, de sorte que les visiteurs puissent accéder à la même page dans un autre paramètre régional.
 
@@ -37,7 +37,7 @@ Pour plus d’informations sur les versions et les publications des composants p
 
 ## Exemple de sortie de composant {#sample-component-output}
 
-Pour tester le composant Navigation par langue et obtenir des exemples d’options de configuration, ainsi que des sorties HTML et JSON, consultez la [bibliothèque de composants](https://adobe.com/go/aem_cmp_library_langnav).
+Pour tester le composant Navigation par langue et obtenir des exemples d’options de configuration, ainsi que des sorties HTML et JSON, consultez la [bibliothèque de composants](https://adobe.com/go/aem_cmp_library_langnav_fr).
 
 ## Détails techniques {#technical-details}
 
@@ -107,4 +107,4 @@ De plus, vous pouvez définir un **ID**. Cette option permet de contrôler l’i
 
 ## Couche de données client Adobe {#data-layer}
 
-Le composant de navigation linguistique prend en charge la couche de données client [Adobe.](/help/developing/data-layer/overview.md)
+Le composant Navigation linguistique prend en charge la [couche de données client Adobe](/help/developing/data-layer/overview.md).
