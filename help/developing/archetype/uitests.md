@@ -1,11 +1,11 @@
 ---
 title: Module ui.tests de l’archétype de projet AEM
-description: Utilisation des tests d'interface utilisateur de l'archétype de projet AEM
-translation-type: tm+mt
+description: Utilisation des tests d’interface utilisateur de l’archétype de projet AEM
+translation-type: ht
 source-git-commit: 9d737b31efc8c346775ea5296f7599295af07cf1
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '112'
-ht-degree: 26%
+ht-degree: 100%
 
 ---
 
@@ -20,7 +20,7 @@ Le projet comporte trois niveaux de tests :
 
 Cet article décrit les tests de l’interface utilisateur disponibles dans le module ui.tests.
 
-## Exécution de tests d&#39;interface utilisateur {#running-tests}
+## Exécution des tests d’interface utilisateur {#running-tests}
 
 Pour lancer ce test, exécutez :
 
@@ -28,8 +28,8 @@ Pour lancer ce test, exécutez :
 mvn verify -Pui-tests-local-execution
 ```
 
-Après l’exécution, les rapports et les journaux sont disponibles dans le dossier `target/reports`.
+Après exécution, les rapports et les journaux sont disponibles dans le dossier `target/reports`.
 
 ## Options supplémentaires {#additional-options}
 
-Les tests de l&#39;interface utilisateur peuvent être exécutés avec de nombreuses options différentes, notamment pour les tests sans en-tête sur un navigateur local et en tant qu&#39;image Docker. Voir le fichier [README.md du module ui.tests](https://github.com/adobe/aem-project-archetype/tree/master/src/main/archetype/ui.tests) pour plus d’informations.
+Les tests de l’interface utilisateur peuvent être exécutés avec de nombreuses options différentes, notamment pour les tests découplés sur un navigateur local et en tant qu’image Docker. Consultez le [fichier README.md du module ui.tests](https://github.com/adobe/aem-project-archetype/tree/master/src/main/archetype/ui.tests) pour plus d’informations.
