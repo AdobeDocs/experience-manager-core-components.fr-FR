@@ -1,11 +1,11 @@
 ---
 title: Utilisation de l’archétype de projet AEM
 description: Instructions d’utilisation détaillées pour l’archétype de projet AEM
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 9d737b31efc8c346775ea5296f7599295af07cf1
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2064'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -24,8 +24,8 @@ De nombreux éléments entrent bien sûr en compte dans la réussite d’un proj
 
 L’archétype de projet permet de commencer facilement à développer dans AEM. Vous pouvez débuter de plusieurs manières.
 
-* Tutoriel WKND - Pour une excellente introduction au développement dans AEM, notamment des informations sur l’utilisation de l’archétype, reportez-vous à [Prise en main d’AEM Sites - tutoriel WKND](https://docs.adobe.com/content/help/fr-FR/experience-manager-learn/getting-started-wknd-tutorial-develop/overview.html) afin d’obtenir un exemple pratique vous guidant tout au long de l’utilisation de l’archétype pour mettre en œuvre un projet simple.
-* Tutoriel sur WKND Events - Si vous êtes particulièrement intéressé par le développement d’applications monopage (SPA) dans AEM, consultez notre [tutoriel WKND Events](https://helpx.adobe.com/fr/experience-manager/kt/sites/using/getting-started-spa-wknd-tutorial-develop.html) dédié.
+* Tutoriel WKND : Pour une excellente introduction au développement dans AEM, notamment des informations sur l’utilisation de l’archétype, reportez-vous à [Prise en main d’AEM Sites - tutoriel WKND](https://docs.adobe.com/content/help/fr-FR/experience-manager-learn/getting-started-wknd-tutorial-develop/overview.html) afin d’obtenir un exemple pratique vous guidant tout au long de l’utilisation de l’archétype pour mettre en œuvre un projet simple.
+* Tutoriel sur WKND Events : Si vous êtes particulièrement intéressé par le développement d’applications monopage (SPA) dans AEM, consultez notre [tutoriel WKND Events](https://helpx.adobe.com/fr/experience-manager/kt/sites/using/getting-started-spa-wknd-tutorial-develop.html) dédié.
 * Téléchargez et commencez votre premier projet. - Vous pouvez facilement télécharger l’archétype de projet actuel disponible sur GitHub et créer votre premier projet en [suivant les étapes simples ci-dessous](#how-to-use-the-archetype).
 
 ## Avantages de l’utilisation de l’archétype {#what-you-get}
@@ -33,16 +33,16 @@ L’archétype de projet permet de commencer facilement à développer dans AEM.
 L’archétype AEM est constitué de modules :
 
 * **[principaux](core.md)** : un lot Java contenant toutes les fonctionnalités de base, telles que les services OSGi, les écouteurs et les planificateurs, ainsi que le code Java associé aux composants, tel que les servlets et les filtres de requête.
-* **[it.tests](ittests.md)** : sont des tests d’intégration basés sur Java.
-* **[ui.apps](uiapps.md)** : contient les éléments  `/apps` et  `/etc` parties du projet, c’est-à-dire les clientlibs, composants et modèles JS et CSS.
+* **[it.tests](ittests.md)** : tests d’intégration basés sur Java.
+* **[ui.apps](uiapps.md)** : contient les parties du projet `/apps` et `/etc`, c’est-à-dire les bibliothèques clients, composants et modèles JS et CSS.
 * **[ui.content](uicontent.md)** : avec un exemple de contenu utilisant des composants du module ui.apps.
-* **ui.config** : contient des configurations OSGi spécifiques au mode d&#39;exécution pour le projet.
+* **ui.config** : contient des configurations OSGi spécifiques au mode d’exécution pour le projet.
 * **[ui.frontend.general](uifrontend.md)** : **(facultatif)** contient les artefacts requis pour utiliser le module de génération front-end basé sur Webpack général.
 * **[ui.frontend.react](uifrontend-react.md)** : **(facultatif)** contient les artefacts requis lors de l’utilisation de l’archétype pour créer des projets SPA basés sur React.
 * **[ui.frontend.angular](uifrontend-angular.md)** : **(facultatif)** contient les artefacts requis lors de l’utilisation de l’archétype pour créer des projets SPA basés sur Angular.
-* **[ui.tests](uitests.md)** : contient des tests d’interface utilisateur basés sur le sélénium.
-* **tous** : est un package de contenu unique qui intègre tous les modules compilés (lots et packages de contenu), y compris les dépendances des fournisseurs.
-* **analyser** : exécute l’analyse sur le projet, qui fournit une validation supplémentaire pour le déploiement en tant que Cloud Service dans AEM.
+* **[ui.tests](uitests.md)** : contient des tests d’interface utilisateur basés sur Selenium.
+* **all** : package de contenu unique qui intègre tous les modules compilés (offres groupées et packages de contenu), y compris les dépendances des fournisseurs.
+* **analyse** : exécute l’analyse du projet en vue de fournir une validation supplémentaire pour le déploiement dans AEM as a Cloud Service.
 
 ![](/help/assets/archetype-structure.png)
 
@@ -100,7 +100,7 @@ Les propriétés suivantes sont disponibles lors de la création d’un projet �
 | `groupId` |  | ID de groupe Maven de base (par exemple, `"com.mysite"`). |
 | `package` | *`${groupId}`* | Package source Java (par exemple, `"com.mysite"`). |
 | `version` | `1.0-SNAPSHOT` | Version du projet (par exemple, `1.0-SNAPSHOT`). |
-| `aemVersion` | `6.5.0` | Version d’AEM cible (par exemple, `cloud` pour [AEM as a Cloud Service](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/landing/home.html) ; ou `6.5.0` ou `6.4.4` pour [Adobe Managed Services](https://github.com/adobe/aem-project-archetype/tree/master/src/main/archetype/dispatcher.ams) ou On-Premise). |
+| `aemVersion` | `6.5.0` | Version d’AEM cible (par exemple, `cloud` pour [AEM as a Cloud Service](https://docs.adobe.com/content/help/fr-FR/experience-manager-cloud-service/landing/home.html) ; ou `6.5.0` ou `6.4.4` pour [Adobe Managed Services](https://github.com/adobe/aem-project-archetype/tree/master/src/main/archetype/dispatcher.ams) ou On-Premise). |
 | `sdkVersion` | `latest` | Lorsque `aemVersion=cloud`, une version de [SDK](https://docs.adobe.com/content/help/fr-FR/experience-manager-cloud-service/implementing/developing/aem-as-a-cloud-service-sdk.html) peut être spécifiée (par exemple, `2020.02.2265.20200217T222518Z-200130`). |
 | `includeDispatcherConfig` | `y` | Inclut une configuration du Dispatcher pour le cloud ou pour AMS/On-Premise, selon la valeur de `aemVersion` (par exemple, `y` ou `n`). |
 | `frontendModule` | `none` | Comprend un module de création front-end Webpack qui génère les bibliothèques clientes (par exemple, `general` ou `none` pour les sites standard ; ou `angular` ou `react` pour une application monopage qui implémente l’[éditeur d’application monopage](https://docs.adobe.com/content/help/fr-FR/experience-manager-cloud-service/implementing/headless/spa/introduction.html)). |
