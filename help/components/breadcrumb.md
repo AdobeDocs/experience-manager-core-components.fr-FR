@@ -1,16 +1,16 @@
 ---
 title: Composant de chemin de navigation
 description: Le composant de chemin de navigation des composants principaux est un composant de navigation qui crée un chemin de navigation des liens en fonction de l’emplacement de la page dans la hiérarchie du contenu.
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: d3ebcea5fa1523c1a986841cd3d1a64e16e85f6d
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '722'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
 
-# Composant de chemin de navigation{#breadcrumb-component}
+# Composant de chemin de navigation {#breadcrumb-component}
 
 Le composant de chemin de navigation des composants principaux est un composant de navigation qui crée un chemin de navigation des liens en fonction de l’emplacement de la page dans la hiérarchie du contenu.
 
@@ -35,7 +35,7 @@ Pour plus d’informations sur les versions et les publications des composants p
 
 ## Exemple de sortie de composant {#sample-component-output}
 
-Pour tester le composant de chemin de navigation et obtenir des exemples d’options de configuration, ainsi que des sorties HTML et JSON, consultez la [bibliothèque de composants](https://adobe.com/go/aem_cmp_library_breadcrumb).
+Pour tester le composant de chemin de navigation et obtenir des exemples d’options de configuration, ainsi que des sorties HTML et JSON, consultez la [bibliothèque de composants](https://adobe.com/go/aem_cmp_library_breadcrumb_fr).
 
 >[!NOTE]
 >
@@ -92,4 +92,4 @@ Le composant de chemin de navigation prend en charge le [système de style AEM](
 
 ## Couche de données client Adobe {#data-layer}
 
-Le composant de chemin de navigation prend en charge la couche de données du client d&#39;Adobe [.](/help/developing/data-layer/overview.md)
+Le composant Chemin de navigation prend en charge la [couche de données client Adobe](/help/developing/data-layer/overview.md).
