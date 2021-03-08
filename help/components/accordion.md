@@ -1,16 +1,16 @@
 ---
 title: Composant d’accordéon
 description: Le composant d’accordéon des composants principaux permet la création d’un ensemble de panneaux organisés dans un accordéon sur une page.
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: d3ebcea5fa1523c1a986841cd3d1a64e16e85f6d
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1067'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
 
-# Composant d’accordéon{#accordion-component}
+# Composant d’accordéon {#accordion-component}
 
 Le composant d’accordéon des composants principaux permet la création d’un ensemble de panneaux organisés dans un accordéon sur une page.
 
@@ -28,7 +28,7 @@ Les composants Accordéon et [Onglets](tabs.md) prennent en charge la liaison di
 
 Pour ce faire :
 
-1. Affichez la page avec le composant à l’aide de l’option **[Afficher comme publié(e)](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/sites/authoring/fundamentals/editing-content.html#view-as-published)** dans l’éditeur de page.
+1. Affichez la page avec le composant à l’aide de l’option **[Afficher comme publié(e)](https://docs.adobe.com/content/help/fr-FR/experience-manager-cloud-service/sites/authoring/fundamentals/editing-content.html#view-as-published)** dans l’éditeur de page.
 1. Examinez le contenu de la page et identifiez l’ID du panneau.
    * Par exemple, `id="accordion-86196c94d3-item-ca319dbb0b"`
 1. L’ID devient l’ancre que vous pouvez ajouter à l’URL à l’aide d’un hachage (`#`).
@@ -50,7 +50,7 @@ Pour plus d’informations sur les versions et les publications des composants p
 
 ## Exemple de sortie de composant {#sample-component-output}
 
-Pour tester le composant d’accordéon et obtenir des exemples d’options de configuration, ainsi que des sorties HTML et JSON, consultez la [Bibliothèque de composants](https://adobe.com/go/aem_cmp_library_accordion).
+Pour tester le composant d’accordéon et obtenir des exemples d’options de configuration, ainsi que des sorties HTML et JSON, consultez la [Bibliothèque de composants](https://adobe.com/go/aem_cmp_library_accordion_fr).
 
 ## Détails techniques {#technical-details}
 
@@ -75,7 +75,7 @@ Utilisez le bouton **Ajouter** pour ouvrir le sélecteur de composants afin de c
 
 >[!TIP]
 >
->Si la fenêtre d’affichage de la page est réduite, de sorte que la boîte de dialogue de modification s’affiche en plein écran, le bouton **Ajouter** est masqué. Vous pouvez toujours ajouter des composants au composant d’accordéon en [les faisant glisser depuis l’explorateur de composants et en les déposant ensuite sur le composant d’accordéon dans l’éditeur de page](https://helpx.adobe.com/experience-manager/6-5/sites/authoring/using/editing-content.html#InsertingaComponent).
+>Si la fenêtre d’affichage de la page est réduite, de sorte que la boîte de dialogue de modification s’affiche en plein écran, le bouton **Ajouter** est masqué. Vous pouvez toujours ajouter des composants au composant d’accordéon en [les faisant glisser depuis l’explorateur de composants et en les déposant ensuite sur le composant d’accordéon dans l’éditeur de page](https://helpx.adobe.com/fr/experience-manager/6-5/sites/authoring/using/editing-content.html#InsertingaComponent).
 
 ### Onglet Propriétés {#properties-tab}
 
@@ -128,4 +128,4 @@ Le composant d’accordéon prend en charge le [système de style](/help/get-sta
 
 ## Couche de données client Adobe {#data-layer}
 
-Le composant Accordéon prend en charge la couche de données du client [Adobe.](/help/developing/data-layer/overview.md)
+Le composant Accordéon prend en charge la [couche de données client Adobe](/help/developing/data-layer/overview.md).
