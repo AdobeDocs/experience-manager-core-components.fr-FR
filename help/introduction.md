@@ -1,9 +1,9 @@
 ---
 title: Présentation des composants principaux
 description: 'Les composants principaux fournissent des composants de base solides et extensibles, reposant sur les dernières technologies et les bonnes pratiques. '
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: a752bbe7e03b3b85950b4b6332c39960198edd1e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '889'
 ht-degree: 100%
 
@@ -27,7 +27,7 @@ Les composants principaux sont un ensemble de composants WCM (Web Content Manage
    * **[Tutoriel Summit :](https://expleague.azureedge.net/labs/L767/index.html)** tutoriel de deux heures pour créer un site (issu d’un atelier de l’Adobe US Summit 2019).
    * **[Webinaire Gems :](https://helpx.adobe.com/fr/experience-manager/kt/eseminars/gems/AEM-Core-Components.html)** visite guidée des composants principaux (enregistrée en décembre 2018).
 
-## Fonctions {#features}
+## Fonctionnalités {#features}
 
 |  |  |
 |---|---|
