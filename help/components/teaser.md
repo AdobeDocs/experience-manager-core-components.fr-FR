@@ -1,11 +1,11 @@
 ---
 title: Composant Teaser
 description: Le composant Teaser peut afficher une image, un titre, un texte enrichi et éventuellement un lien vers un contenu supplémentaire.
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: d3ebcea5fa1523c1a986841cd3d1a64e16e85f6d
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '775'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -32,7 +32,7 @@ Le tableau ci-après présente en détail toutes les versions prises en charge d
 
 ## Exemple de sortie de composant {#sample-component-output}
 
-Pour tester le composant Teaser et obtenir des exemples de ses options de configuration, ainsi que des sorties HTML et JSON, consultez la [bibliothèque de composants](https://adobe.com/go/aem_cmp_library_teaser).
+Pour tester le composant Teaser et obtenir des exemples de ses options de configuration, ainsi que des sorties HTML et JSON, consultez la [bibliothèque de composants](https://adobe.com/go/aem_cmp_library_teaser_fr).
 
 ### Détails techniques {#technical-details}
 
@@ -109,4 +109,4 @@ Le composant Teaser prend en charge le [système de style](/help/get-started/aut
 
 ## Couche de données client Adobe {#data-layer}
 
-Le composant Teaser prend en charge la couche de données client [Adobe.](/help/developing/data-layer/overview.md)
+Le composant Teaser prend en charge la [couche de données client Adobe](/help/developing/data-layer/overview.md).
