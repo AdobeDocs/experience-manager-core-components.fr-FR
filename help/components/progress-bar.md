@@ -1,11 +1,11 @@
 ---
 title: Composant Barre de progression
 description: Le composant Barre de progression représente visuellement la progression par rapport à un objectif
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: d3ebcea5fa1523c1a986841cd3d1a64e16e85f6d
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '338'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -58,4 +58,4 @@ Le composant Barre de progression prend en charge le [système de style](/help/g
 
 ## Couche de données client Adobe {#data-layer}
 
-Le composant de la barre de progression prend en charge la couche de données client [Adobe.](/help/developing/data-layer/overview.md)
+Le composant Barre de progression prend en charge la [couche de données client Adobe](/help/developing/data-layer/overview.md).
