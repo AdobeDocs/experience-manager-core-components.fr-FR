@@ -1,11 +1,11 @@
 ---
 title: Composant de bouton
 description: Le composant de bouton des composants principaux permet de créer et d’afficher un bouton.
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: d3ebcea5fa1523c1a986841cd3d1a64e16e85f6d
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '451'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -66,7 +66,7 @@ La boîte de dialogue de configuration permet à l’auteur du contenu de défin
 
 Dans l’onglet **Accessibilité**, les valeurs peuvent être définies pour les étiquettes d’[accessibilité ARIA](https://www.w3.org/WAI/standards-guidelines/aria/) du composant.
 
-* **Étiquette** - Valeur d’un attribut de étiquette ARIA pour le composant
+* **Étiquette** : Valeur d’un attribut de étiquette ARIA pour le composant
 
 ## Boîte de dialogue de conception {#design-dialog}
 
@@ -76,4 +76,4 @@ Le composant Bouton prend en charge le [système de style](/help/get-started/aut
 
 ## Couche de données client Adobe {#data-layer}
 
-Le composant Bouton prend en charge la couche de données client [Adobe.](/help/developing/data-layer/overview.md)
+Le composant Bouton prend en charge la [couche de données client Adobe](/help/developing/data-layer/overview.md).
