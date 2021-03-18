@@ -2,11 +2,12 @@
 title: Composant de bouton de formulaire (v1)
 description: Le composant Masqué du formulaire des composants principaux permet l’inclusion d’un champ masqué dans un formulaire.
 index: n
+role: Architecte, Développeur, Administrateur, Professionnel
 translation-type: tm+mt
-source-git-commit: 93a7ba6b8a972d111fb723cb40b0380cea9b5a9a
+source-git-commit: d01a7576518ccf9f0effd12dfd8198854c6cd55c
 workflow-type: tm+mt
-source-wordcount: '342'
-ht-degree: 100%
+source-wordcount: '347'
+ht-degree: 98%
 
 ---
 
