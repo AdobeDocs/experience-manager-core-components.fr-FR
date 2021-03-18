@@ -1,11 +1,12 @@
 ---
 title: Instructions relatives aux composants
 description: Les composants principaux suivent des modèles d'implémentations modernes qui sont très différents des composants de base.
+role: Architecte, développeur, administrateur
 translation-type: tm+mt
-source-git-commit: 2926c51c2ab97b50b9ec4942cd5415c15a1411b6
+source-git-commit: d01a7576518ccf9f0effd12dfd8198854c6cd55c
 workflow-type: tm+mt
-source-wordcount: '1259'
-ht-degree: 100%
+source-wordcount: '1262'
+ht-degree: 99%
 
 ---
 
