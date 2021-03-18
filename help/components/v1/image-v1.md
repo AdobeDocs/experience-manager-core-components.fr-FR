@@ -2,11 +2,12 @@
 title: Composant d’image (v1)
 description: Le composant d’image des composants principaux est un composant d’image adaptatif qui permet d’effectuer des modifications statiques.
 index: n
+role: Architecte, Développeur, Administrateur, Professionnel
 translation-type: tm+mt
-source-git-commit: 78202dc777b90f795f66873921c55e21ef8a239c
+source-git-commit: d01a7576518ccf9f0effd12dfd8198854c6cd55c
 workflow-type: tm+mt
-source-wordcount: '1229'
-ht-degree: 100%
+source-wordcount: '1234'
+ht-degree: 99%
 
 ---
 
@@ -211,10 +212,10 @@ Sur l’onglet **Fonctionnalités**, vous pouvez définir les options disponible
    * **Rotation** : utilisez cette option pour permettre à l’auteur de contenu d’utiliser l&#39;option **Rotation à droite**.
    * **Retourner**
 Utilisez cette option pour permettre à l’auteur de contenu d’appliquer 
-les options **Rotation horizontale** et **Rotation verticale**.
+les options **Symétrie horizontale** et **Rotation verticale**.
    >[!CAUTION]
    >
-   >L’option **Retourner** est désactivée par défaut. L’activation de cette option affichera les boutons **Rotation verticale** et **Rotation horizontale** dans la boîte de dialogue de modification du composant d’image. Toutefois, cette fonction n’est actuellement pas prise en charge par AEM et les modifications effectuées à l’aide de ces options ne seront pas conservées.
+   >L’option **Symétrie** est désactivée par défaut. L’activation de cette option affichera les boutons **Symétrie verticale** et **Symétrie horizontale** dans la boîte de dialogue de modification du composant d’image. Toutefois, cette fonction n’est actuellement pas prise en charge par AEM et les modifications effectuées à l’aide de ces options ne seront pas conservées.
 
 * Recadrage
 
