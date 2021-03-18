@@ -2,11 +2,12 @@
 title: Composant Page (v1)
 description: Le composant de page est un composant de page extensible, conçu pour fonctionner avec l’éditeur de modèles et autoriser l’assemblage de composants d’en-tête/de pied de page et de structure de page avec l’éditeur de modèles.
 index: n
+role: Architecte, Développeur, Administrateur, Professionnel
 translation-type: tm+mt
-source-git-commit: 93a7ba6b8a972d111fb723cb40b0380cea9b5a9a
+source-git-commit: d01a7576518ccf9f0effd12dfd8198854c6cd55c
 workflow-type: tm+mt
-source-wordcount: '490'
-ht-degree: 100%
+source-wordcount: '495'
+ht-degree: 98%
 
 ---
 
