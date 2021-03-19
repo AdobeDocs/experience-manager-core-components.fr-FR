@@ -1,11 +1,12 @@
 ---
 title: Composant de téléchargement
 description: Le composant de téléchargement des composants principaux permet la création d’une option de téléchargement sur une page.
+role: Architecte, Développeur, Administrateur, Professionnel
 translation-type: tm+mt
-source-git-commit: c186e9ec3944d785ab0376769cf7f2307049a809
+source-git-commit: d01a7576518ccf9f0effd12dfd8198854c6cd55c
 workflow-type: tm+mt
-source-wordcount: '687'
-ht-degree: 100%
+source-wordcount: '692'
+ht-degree: 99%
 
 ---
 
