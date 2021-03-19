@@ -1,11 +1,12 @@
 ---
 title: Composant du carrousel
 description: Le composant du carrousel permet à l’auteur de contenu de présenter le contenu dans un carrousel rotatif.
-translation-type: ht
-source-git-commit: d3ebcea5fa1523c1a986841cd3d1a64e16e85f6d
-workflow-type: ht
-source-wordcount: '1125'
-ht-degree: 100%
+role: Architecte, Développeur, Administrateur, Professionnel
+translation-type: tm+mt
+source-git-commit: d01a7576518ccf9f0effd12dfd8198854c6cd55c
+workflow-type: tm+mt
+source-wordcount: '1130'
+ht-degree: 99%
 
 ---
 
@@ -79,7 +80,7 @@ Dans l’onglet **Propriétés**, l’auteur du contenu peut définir les diapos
 >
 >Les commandes d’avance de diapositives ne sont pas activées en mode **Édition**. Utilisez le mode [**Aperçu**](https://docs.adobe.com/content/help/fr-FR/experience-manager-cloud-service/sites/authoring/fundamentals/editing-content.html#preview-mode) ou l’option **[Afficher comme publié(e)](https://docs.adobe.com/content/help/fr-FR/experience-manager-cloud-service/sites/authoring/fundamentals/editing-content.html#view-as-published)** pour interagir avec le carrousel en tant que lecteur du contenu publié.
 >
->La fonction d’avance automatique n’est pas activée en mode **Édition**. Utilisez l’option **[Afficher comme publié(e)](https://docs.adobe.com/content/help/fr-FR/experience-manager-cloud-service/sites/authoring/fundamentals/editing-content.html#view-as-published)** pour afficher la fonctionnalité d’avance automatique en tant que lecteur du contenu publié.
+>La fonction d’avance automatique n’est pas activée en mode **Édition**. Utilisez l’option **[Afficher comme publié(e)](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/sites/authoring/fundamentals/editing-content.html#view-as-published)** pour afficher la fonctionnalité d’avance automatique en tant que lecteur du contenu publié.
 
 ### Onglet Accessibilité {#accessibility-tab}
 
