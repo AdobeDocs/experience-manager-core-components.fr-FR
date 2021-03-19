@@ -1,11 +1,12 @@
 ---
 title: Configurations basées sur le contexte Sling et composants principaux
 description: Les composants principaux tirent parti des configurations basées sur le contexte Sling pour certaines fonctionnalités
-translation-type: ht
-source-git-commit: aff9046008dcea6c0cbda4b3de400df77a507097
-workflow-type: ht
-source-wordcount: '200'
-ht-degree: 100%
+role: Architecte, développeur, administrateur
+translation-type: tm+mt
+source-git-commit: d01a7576518ccf9f0effd12dfd8198854c6cd55c
+workflow-type: tm+mt
+source-wordcount: '203'
+ht-degree: 98%
 
 ---
 
