@@ -1,11 +1,13 @@
 ---
 title: Extension de la couche de données client Adobe
 description: La couche de données client Adobe peut être étendue selon certains modèles de base.
+feature: Composants principaux, couche de données client Adobe
+role: Architecte, développeur, administrateur
 translation-type: tm+mt
-source-git-commit: 1ada05d5089ccef95d41d47468776654e397f31d
+source-git-commit: d01a7576518ccf9f0effd12dfd8198854c6cd55c
 workflow-type: tm+mt
-source-wordcount: '276'
-ht-degree: 100%
+source-wordcount: '285'
+ht-degree: 96%
 
 ---
 
