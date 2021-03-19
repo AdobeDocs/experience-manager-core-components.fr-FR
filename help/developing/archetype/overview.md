@@ -7,7 +7,7 @@ translation-type: tm+mt
 source-git-commit: 0e737fc766225e00c6d9f5a4c2240e05b49a9a62
 workflow-type: tm+mt
 source-wordcount: '1043'
-ht-degree: 98%
+ht-degree: 99%
 
 ---
 
@@ -97,7 +97,7 @@ La dépendance des composants principaux n’est ajoutée que pour les versions 
 
 | Archétype | AEM as a Cloud Service | AEM 6.5 | AEM 6.4 | Java SE | Maven |
 |---------|---------|---------|---------|---------|---------|
-| [26](https://github.com/adobe/aem-project-archetype/release/tag/aem-project-archetype-26) | Suite | 6.5.5.0+ | 6.4.8.1+ | 8, 11 | 3.3.9+ |
+| [26](https://github.com/adobe/aem-project-archetype/releases/tag/aem-project-archetype-26) | Suite | 6.5.5.0+ | 6.4.8.1+ | 8, 11 | 3.3.9+ |
 
 Configurez votre environnement de développement local pour le [SDK AEM as a Cloud Service](https://docs.adobe.com/content/help/fr-FR/experience-manager-learn/cloud-service/local-development-environment-set-up/overview.html) ou pour les [versions antérieures d’AEM](https://docs.adobe.com/content/help/fr-FR/experience-manager-learn/foundation/development/set-up-a-local-aem-development-environment.html).
 
