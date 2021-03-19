@@ -1,11 +1,12 @@
 ---
 title: Composant Onglets
 description: Le composant Onglets permet la création de plusieurs onglets pour disposer le contenu sur une page.
-translation-type: ht
-source-git-commit: d3ebcea5fa1523c1a986841cd3d1a64e16e85f6d
-workflow-type: ht
-source-wordcount: '1040'
-ht-degree: 100%
+role: Architecte, Développeur, Administrateur, Professionnel
+translation-type: tm+mt
+source-git-commit: d01a7576518ccf9f0effd12dfd8198854c6cd55c
+workflow-type: tm+mt
+source-wordcount: '1045'
+ht-degree: 99%
 
 ---
 
@@ -118,7 +119,7 @@ Lorsque vous sélectionnez l’option **Sélectionner un panneau** dans la barre
 
 >[!NOTE]
 >
->Les onglets ne sont pas sélectionnables par l’auteur en mode **Édition**. Utilisez le mode **[](https://docs.adobe.com/content/help/fr-FR/experience-manager-cloud-service/sites/authoring/fundamentals/editing-content.html#preview-mode)Aperçu** ou l’option **[Afficher comme publié(e)](https://docs.adobe.com/content/help/fr-FR/experience-manager-cloud-service/sites/authoring/fundamentals/editing-content.html#view-as-published)** pour interagir avec les onglets comme un lecteur du contenu publié.
+>Les onglets ne sont pas sélectionnables par l’auteur en mode **Édition**. Utilisez le mode **[](https://docs.adobe.com/content/help/fr-FR/experience-manager-cloud-service/sites/authoring/fundamentals/editing-content.html#preview-mode)Aperçu** ou l’option **[Afficher comme publié(e)](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/sites/authoring/fundamentals/editing-content.html#view-as-published)** pour interagir avec les onglets comme un lecteur du contenu publié.
 
 ## Boîte de dialogue de conception {#design-dialog}
 
