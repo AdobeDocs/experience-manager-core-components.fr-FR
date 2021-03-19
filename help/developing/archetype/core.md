@@ -1,11 +1,13 @@
 ---
 title: Module principal de l’archétype de projet AEM
 description: Module principal de l’archétype de projet AEM
-translation-type: ht
-source-git-commit: 9d737b31efc8c346775ea5296f7599295af07cf1
-workflow-type: ht
-source-wordcount: '182'
-ht-degree: 100%
+feature: Composants principaux, AEM Archétype de projet
+role: Architecte, développeur, administrateur
+translation-type: tm+mt
+source-git-commit: d01a7576518ccf9f0effd12dfd8198854c6cd55c
+workflow-type: tm+mt
+source-wordcount: '190'
+ht-degree: 95%
 
 ---
 
