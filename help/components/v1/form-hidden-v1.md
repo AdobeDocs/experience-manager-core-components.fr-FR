@@ -2,11 +2,12 @@
 title: Composant Masqué du formulaire (v1)
 description: Le composant Masqué du formulaire des composants principaux permet l’affichage d’un champ masqué.
 index: n
+role: Architecte, Développeur, Administrateur, Professionnel
 translation-type: tm+mt
-source-git-commit: fe8a121520000ffd56ae3347469590e89121eaf0
+source-git-commit: d01a7576518ccf9f0effd12dfd8198854c6cd55c
 workflow-type: tm+mt
-source-wordcount: '335'
-ht-degree: 100%
+source-wordcount: '340'
+ht-degree: 98%
 
 ---
 
