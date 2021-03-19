@@ -1,11 +1,12 @@
 ---
 title: Composant Fragment de contenu
 description: Le composant Fragment de contenu des composants principaux permet l’affichage d’un fragment de contenu.
-translation-type: ht
-source-git-commit: d3ebcea5fa1523c1a986841cd3d1a64e16e85f6d
-workflow-type: ht
-source-wordcount: '673'
-ht-degree: 100%
+role: Architecte, Développeur, Administrateur, Professionnel
+translation-type: tm+mt
+source-git-commit: d01a7576518ccf9f0effd12dfd8198854c6cd55c
+workflow-type: tm+mt
+source-wordcount: '678'
+ht-degree: 99%
 
 ---
 
@@ -20,7 +21,7 @@ Le composant Fragment de contenu des composants principaux permet l’affichage 
 
 ## Utilisation {#usage}
 
-Le composant de fragment de contenu des composants principaux permet d’inclure un [fragment de contenu](https://docs.adobe.com/content/help/fr-FR/experience-manager-cloud-service/assets/content-fragments/content-fragments.html) sur une page.
+Le composant de fragment de contenu des composants principaux permet d’inclure un [fragment de contenu](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/assets/content-fragments/content-fragments.html) sur une page.
 
 * Le fragment et ses propriétés peuvent être sélectionnés dans la [boîte de dialogue de configuration](#configure-dialog).
 * Les types de ressources qui permettent de gérer certaines images et grilles peuvent être définis dans la [boîte de dialogue de conception](#design-dialog).
