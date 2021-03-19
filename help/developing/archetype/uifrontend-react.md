@@ -1,11 +1,13 @@
 ---
 title: Génération front-end pour les applications monopage React
 description: Description du processus de génération front-end pour les projets d’application monopage React
-translation-type: ht
-source-git-commit: 9d737b31efc8c346775ea5296f7599295af07cf1
-workflow-type: ht
-source-wordcount: '512'
-ht-degree: 100%
+feature: Composants principaux, AEM Archétype de projet
+role: Architecte, développeur, administrateur
+translation-type: tm+mt
+source-git-commit: d01a7576518ccf9f0effd12dfd8198854c6cd55c
+workflow-type: tm+mt
+source-wordcount: '520'
+ht-degree: 98%
 
 ---
 
