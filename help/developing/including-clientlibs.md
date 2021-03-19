@@ -1,11 +1,12 @@
 ---
 title: Inclusion de bibliothèques clientes
 description: Il existe plusieurs façons d’inclure des bibliothèques clientes en fonction de votre cas d’utilisation.
+role: Architecte, développeur, administrateur
 translation-type: tm+mt
-source-git-commit: afce571ada011c38c83830628f09a9e268658965
+source-git-commit: d01a7576518ccf9f0effd12dfd8198854c6cd55c
 workflow-type: tm+mt
-source-wordcount: '394'
-ht-degree: 100%
+source-wordcount: '397'
+ht-degree: 99%
 
 ---
 
