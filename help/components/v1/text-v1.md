@@ -2,11 +2,12 @@
 title: Composant Texte (v1)
 description: Le composant Texte est un composant d’édition et de composition de texte enrichi qui propose une édition statique.
 index: n
+role: Architecte, Développeur, Administrateur, Professionnel
 translation-type: tm+mt
-source-git-commit: 93a7ba6b8a972d111fb723cb40b0380cea9b5a9a
+source-git-commit: d01a7576518ccf9f0effd12dfd8198854c6cd55c
 workflow-type: tm+mt
-source-wordcount: '1657'
-ht-degree: 100%
+source-wordcount: '1662'
+ht-degree: 99%
 
 ---
 
@@ -254,12 +255,12 @@ La boîte de dialogue de modification propose les outils standard de mise en for
    ![](/help/assets/chlimage_1-79.png)
 
    * **Colonnes** - Nombre de colonnes du tableau (obligatoire).
-   * **Lignes** - Nombre de lignes du tableau (obligatoire).
-   * **Largeur** - Largeur totale du tableau.
+   * **Lignes** : Nombre de lignes du tableau (obligatoire).
+   * **Largeur** : Largeur totale du tableau.
    * **Hauteur** - Hauteur totale du tableau.
    * **Marge intérieure des cellules** - Espace autour du contenu de la cellule.
    * **Espacement des cellules** - Espacement entre les cellules.
-   * **Bordure** - Épaisseur des lignes de bordure du tableau.
+   * **Bordure** : Épaisseur des lignes de bordure du tableau.
    * Si pour l’en-tête du tableau :
 
       * La première ligne doit être utilisée
