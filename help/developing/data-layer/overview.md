@@ -1,11 +1,13 @@
 ---
 title: Utilisation de la couche de données client Adobe avec les composants principaux
 description: Utilisation de la couche de données client Adobe avec les composants principaux
-translation-type: ht
-source-git-commit: 57582c5c938e0f345b27785bd6fd6d5ed5454bd0
-workflow-type: ht
-source-wordcount: '974'
-ht-degree: 100%
+feature: Composants principaux, couche de données client Adobe
+role: Architecte, développeur, administrateur
+translation-type: tm+mt
+source-git-commit: d01a7576518ccf9f0effd12dfd8198854c6cd55c
+workflow-type: tm+mt
+source-wordcount: '983'
+ht-degree: 99%
 
 ---
 
