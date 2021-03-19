@@ -2,11 +2,12 @@
 title: Composant de chemin de navigation (v1)
 description: Le composant de chemin de navigation des composants principaux est un composant de navigation qui crée un chemin de navigation des liens en fonction de l’emplacement de la page dans la hiérarchie du contenu.
 index: n
+role: Architecte, Développeur, Administrateur, Professionnel
 translation-type: tm+mt
-source-git-commit: 93a7ba6b8a972d111fb723cb40b0380cea9b5a9a
+source-git-commit: d01a7576518ccf9f0effd12dfd8198854c6cd55c
 workflow-type: tm+mt
-source-wordcount: '546'
-ht-degree: 100%
+source-wordcount: '551'
+ht-degree: 99%
 
 ---
 
