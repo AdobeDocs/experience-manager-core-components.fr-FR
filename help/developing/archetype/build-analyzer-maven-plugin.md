@@ -1,11 +1,13 @@
 ---
 title: Plug-in Maven Build Analyzer du SDK AEM as a Cloud Service
 description: Documentation du plug-in local Maven Build Analyzer
-translation-type: ht
-source-git-commit: 42a9dcd64ed8a9c70ec0f72dac50bf88111b703b
-workflow-type: ht
-source-wordcount: '470'
-ht-degree: 100%
+feature: Composants principaux, AEM Archétype de projet
+role: Architecte, développeur, administrateur
+translation-type: tm+mt
+source-git-commit: d01a7576518ccf9f0effd12dfd8198854c6cd55c
+workflow-type: tm+mt
+source-wordcount: '478'
+ht-degree: 98%
 
 ---
 
