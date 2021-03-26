@@ -3,17 +3,17 @@ title: Versions des composants principaux
 description: Les composants principaux sont publiés sous forme de versions qui peuvent contenir plusieurs versions des mêmes composants principaux. Ce document explique les versions et les mises à jour ainsi que comment comprendre la compatibilité avec les composants principaux et AEM.
 role: Architecte, Développeur, Administrateur, Professionnel
 translation-type: tm+mt
-source-git-commit: d01a7576518ccf9f0effd12dfd8198854c6cd55c
+source-git-commit: fa8ead438093681071b6b6f8ccfbba523f6d3bee
 workflow-type: tm+mt
-source-wordcount: '1976'
-ht-degree: 99%
+source-wordcount: '2009'
+ht-degree: 98%
 
 ---
 
 
 # Versions des composants principaux {#core-components-versions}
 
-La version actuelle des composants principaux est la version 2.15.0. Elle est compatible avec les installations [AEM as a Cloud Service](https://docs.adobe.com/content/help/fr-FR/experience-manager-cloud-service/landing/home.html) et [AEM On-Premise](https://docs.adobe.com/content/help/fr-FR/experience-manager-65/user-guide/home.html).
+La version actuelle des composants principaux est la version 2.15.2. Elle est compatible avec les installations [AEM as a Cloud Service](https://docs.adobe.com/content/help/fr-FR/experience-manager-cloud-service/landing/home.html) et [AEM On-Premise](https://docs.adobe.com/content/help/fr-FR/experience-manager-65/user-guide/home.html).
 
 ## Historique des versions et compatibilité {#release-history-and-compatibility}
 
@@ -27,6 +27,7 @@ Le tableau suivant, dont le contenu est [disponible sur GitHub avec les détails
 
 | Mise à jour | Description | AEM 6.4 | AEM 6.5 | AEM as a Cloud Service | Java | Date de publication |
 |---|---|---|---|---|---|---|
+| [2.15.2](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.15.2) | Il s&#39;agissait d&#39;une version de correctif qui corrigeait principalement des problèmes de compatibilité ascendante [de la couche de données](/help/developing/data-layer/overview.md) et des tests informatiques échouaient dans certaines situations. | 6.4.8.1+ * | 6.5.5.0+ * | Suite | 8, 11 | 16 mars 2021 |
 | [2.15.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.15.0) | Cette version comprend la prise en charge des applications web progressives dans le [composant Page](/help/components/page.md) ainsi que la version 2.0.0 de la [couche de données Adobe](/help/developing/data-layer/overview.md). | 6.4.8.1+ * | 6.5.5.0+ * | Suite | 8, 11 | 23 février 2021 |
 | [2.14.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.14.0) | Cette version comprend de nouvelles options pour le [composant Incorporer](/help/components/embed.md), introduit le slug de marque au niveau de la [page](/help/components/page.md), et corrige de nombreux problèmes. | 6.4.8.1+ * | 6.5.5.0+ * | Suite | 8, 11 | 9 février 2021 |
 | [2.13.2](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.13.2) | Il s’agissait d’une version de correctif destinée à corriger un problème lié au RTE, utilisé sur AEMaaCS. | 6.4.8.1+ * | 6.5.5.0+ * | Suite | 8, 11 | 16 décembre 2020 |
