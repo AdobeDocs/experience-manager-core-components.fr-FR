@@ -1,12 +1,12 @@
 ---
 title: Composant de conteneur de formulaires
 description: Le composant de conteneur de formulaires des composants principaux permet la création de formulaires d’envoi simples.
-role: Architecte, Développeur, Administrateur, Professionnel
-translation-type: tm+mt
+role: Architecte, développeur, administrateur, professionnel
+translation-type: ht
 source-git-commit: d01a7576518ccf9f0effd12dfd8198854c6cd55c
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '961'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -40,11 +40,11 @@ Pour plus d’informations sur les versions et les publications des composants p
 
 ## Exemple de sortie de composant {#sample-component-output}
 
-Pour tester le composant de conteneur de formulaires et obtenir des exemples d’options de configuration, ainsi que des sorties HTML et JSON, consultez la [bibliothèque de composants](https://adobe.com/go/aem_cmp_library_form_container).
+Pour tester le composant de conteneur de formulaires et obtenir des exemples d’options de configuration, ainsi que des sorties HTML et JSON, consultez la [bibliothèque de composants](https://adobe.com/go/aem_cmp_library_form_container_fr).
 
 ## Détails techniques {#technical-details}
 
-La documentation technique la plus récente sur le composant de conteneur de formulaires [se trouve sur GitHub](https://adobe.com/go/aem_cmp_tech_form_container_v2).
+La documentation technique la plus récente sur le composant de conteneur de formulaires [se trouve sur GitHub](https://adobe.com/go/aem_cmp_tech_form_container_v2_fr).
 
 Vous trouverez plus d’informations sur le développement des composants principaux dans la [documentation destinée aux développeurs de composants principaux](/help/developing/overview.md).
 
@@ -66,7 +66,7 @@ Lorsque le formulaire est envoyé, le type d’action Publier les données de fo
 
 ![Options Publier les données de formulaire dans la boîte de dialogue de modification du composant Conteneur de formulaire](/help/assets/form-container-edit-post.png)
 
-* **Point d’entrée** : service HTTPS complet qui traitera les données
+* **Point de terminaison** : service HTTPS complet qui traitera les données
 * **Message d’erreur** : message qui s’affiche si l’envoi échoue
 
 >[!TIP]
@@ -120,7 +120,7 @@ Quelle que soit le type d’action sélectionné, une page de remerciement peut 
 
 ## Boîte de dialogue de conception {#design-dialog}
 
-La boîte de dialogue de conception permet à l’auteur du modèle de définir les composants autorisés et leurs mappages pour le conteneur similaires à la boîte de dialogue de conception du [conteneur de mises en page standard dans l’éditeur de modèles](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/sites/authoring/features/templates.html).
+La boîte de dialogue de conception permet à l’auteur du modèle de définir les composants autorisés et leurs mappages pour le conteneur similaires à la boîte de dialogue de conception du [conteneur de mises en page standard dans l’éditeur de modèles](https://docs.adobe.com/content/help/fr-FR/experience-manager-cloud-service/sites/authoring/features/templates.html).
 
 ### Onglet Styles {#styles-tab}
 
