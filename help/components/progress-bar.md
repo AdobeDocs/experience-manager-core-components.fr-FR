@@ -1,12 +1,12 @@
 ---
 title: Composant Barre de progression
 description: Le composant Barre de progression représente visuellement la progression par rapport à un objectif
-role: Architecte, Développeur, Administrateur, Professionnel
-translation-type: tm+mt
+role: Architecte, développeur, administrateur, professionnel
+translation-type: ht
 source-git-commit: d01a7576518ccf9f0effd12dfd8198854c6cd55c
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '343'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -35,7 +35,7 @@ Pour tester le composant Barre de progression et obtenir des exemples d’option
 
 ### Détails techniques {#technical-details}
 
-La documentation technique la plus récente sur le composant Barre de progression [se trouve sur GitHub](https://adobe.com/go/aem_cmp_tech_progress_v1_fr).
+La documentation technique la plus récente sur le composant Barre de progression [se trouve sur GitHub](https://adobe.com/go/aem_cmp_tech_progress_v1).
 
 Vous trouverez plus d’informations sur le développement des composants principaux dans la [documentation destinée aux développeurs de composants principaux](/help/developing/overview.md).
 
