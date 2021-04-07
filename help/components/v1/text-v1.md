@@ -2,12 +2,12 @@
 title: Composant Texte (v1)
 description: Le composant Texte est un composant d’édition et de composition de texte enrichi qui propose une édition statique.
 index: n
-role: Architecte, Développeur, Administrateur, Professionnel
-translation-type: tm+mt
+role: Architecte, développeur, administrateur, professionnel
+translation-type: ht
 source-git-commit: d01a7576518ccf9f0effd12dfd8198854c6cd55c
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1662'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -170,7 +170,7 @@ La boîte de dialogue de modification propose les outils standard de mise en for
 
    Entrez le texte pour lequel vous souhaitez effectuer des recherches et appuyez ou cliquez sur **Rechercher** pour lancer la recherche. Appuyez ou cliquez sur le x pour annuler.
 
-   Si vous souhaitez effectuer une correspondance exacte, sélectionnez l’option **Correspondance avec la casse** avant de lancer la recherche.
+   Si vous souhaitez effectuer une correspondance exacte, sélectionnez l’option **Respecter la casse** avant de lancer la recherche.
 
    Si une correspondance est trouvée, elle est mise en surbrillance et le dialogue de recherche est grisé. Appuyez ou cliquez à nouveau sur le bouton **Rechercher** dans la boîte de dialogue grisée pour rechercher l’occurrence suivante.
 
@@ -192,11 +192,11 @@ La boîte de dialogue de modification propose les outils standard de mise en for
 
    Appuyez ou cliquez sur **Rechercher** pour lancer la recherche. Cliquez ou appuyez sur le x pour annuler.
 
-   Si vous souhaitez effectuer une correspondance exacte, sélectionnez l’option **Correspondance avec la casse** avant de lancer la recherche.
+   Si vous souhaitez effectuer une correspondance exacte, sélectionnez l’option **Respecter la casse** avant de lancer la recherche.
 
    Si une correspondance est trouvée, elle est mise en surbrillance et le dialogue de recherche est grisé. Cliquez à nouveau sur le bouton **Rechercher** dans la boîte de dialogue grisée pour rechercher l’occurrence suivante ou sélectionner le bouton **Remplacer** pour remplacer le texte mis en surbrillance. Notez que le bouton **Remplacer** n’est actif qu’une fois qu’une correspondance est trouvée.
 
-   Sélectionnez **Remplacer tout** pour remplacer toutes les occurrences du texte à la fois.
+   Sélectionnez **Tout remplacer** pour remplacer toutes les occurrences du texte à la fois.
 
 * Aligner le texte à gauche
 
@@ -228,7 +228,7 @@ La boîte de dialogue de modification propose les outils standard de mise en for
 
    ![](/help/assets/chlimage_1-75.png)
 
-   Utilisé pour mettre en forme le texte sélectionné sous forme de liste numérotée ou commencer l’insertion d&#39;une liste numérotée après le curseur.
+   Utilisé pour mettre en forme le texte sélectionné sous forme de liste numérotée ou commencer l’insertion d’une liste numérotée après le curseur.
 
    Pour mettre fin à une liste numérotée, appuyez ou cliquez de nouveau sur le bouton **Numérotée** ou saisissez deux retours chariot.
 
