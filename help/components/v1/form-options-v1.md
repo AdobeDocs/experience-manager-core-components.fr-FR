@@ -2,12 +2,12 @@
 title: Composant des options de formulaire (v1)
 description: Le composant des options de formulaire des composants principaux permet la sélection d’options prédéfinies dans divers formats.
 index: n
-role: Architecte, Développeur, Administrateur, Professionnel
-translation-type: tm+mt
+role: Architecte, développeur, administrateur, professionnel
+translation-type: ht
 source-git-commit: d01a7576518ccf9f0effd12dfd8198854c6cd55c
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '481'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -135,7 +135,7 @@ Présentation des options.
       * Appuyez ou cliquez sur le bouton **Ajouter** pour ajouter une valeur. Sinon, appuyez ou cliquez sur **Supprimer** pour supprimer une valeur.
       * **Valeur** : valeur enregistrée lorsque cette option est sélectionnée lors de l’envoi du formulaire.
       * **Texte** : libellé de l’option affichée sur le formulaire.
-      * **Active** : l’option est marquée comme étant sélectionnée lors du chargement du formulaire.
+      * **En cours** : l’option est marquée comme étant sélectionnée lors du chargement du formulaire.
       * **Désactivé** : l’option n’est pas sélectionnable mais toujours affichée.
       * **Liste** : liste statique définie ailleurs dans AEM est utilisée pour l’option.
          * **Liste** : chemin d’accès à la liste statique dans AEM.
