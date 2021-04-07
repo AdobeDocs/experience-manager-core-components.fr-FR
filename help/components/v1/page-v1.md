@@ -2,29 +2,29 @@
 title: Composant Page (v1)
 description: Le composant de page est un composant de page extensible, conçu pour fonctionner avec l’éditeur de modèles et autoriser l’assemblage de composants d’en-tête/de pied de page et de structure de page avec l’éditeur de modèles.
 index: n
-role: Architecte, Développeur, Administrateur, Professionnel
-translation-type: tm+mt
+role: Architecte, développeur, administrateur, professionnel
+translation-type: ht
 source-git-commit: d01a7576518ccf9f0effd12dfd8198854c6cd55c
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '495'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
 
 # Composant Page (v1) {#page-component-v}
 
-Le composant de page est un composant de page extensible, conçu pour fonctionner avec l’[éditeur de modèles](https://helpx.adobe.com/fr/experience-manager/6-4/sites/authoring/using/templates.html) et autoriser l’assemblage de composants d’en-tête/de pied de page et de structure à l’aide de l’éditeur de modèles.
+Le composant Page est un composant de page extensible, conçu pour fonctionner avec l’[éditeur de modèles](https://helpx.adobe.com/fr/experience-manager/6-4/sites/authoring/using/templates.html) et autoriser l’assemblage de composants d’en-tête/de pied de page et de structure à l’aide de l’éditeur de modèles.
 
 ## Utilisation {#usage}
 
-Le composant de page sert de base à toutes les pages conçues avec les composants principaux ainsi que les modèles modifiables. En utilisant le composant de page, les en-têtes, les pieds de page et la structure de la page peuvent être définis dans un modèle à l’aide des autres composants principaux.
+Le composant Page sert de base à toutes les pages conçues avec les composants principaux ainsi que les modèles modifiables. En utilisant le composant Page, les en-têtes, les pieds de page et la structure de la page peuvent être définis dans un modèle à l’aide des autres composants principaux.
 
 Grâce à la [boîte de dialogue de conception](#design-dialog), les bibliothèques côté client personnalisées peuvent être définies pour la page. Contrairement aux autres composants dont la boîte de dialogue de modification est accessible directement à partir de ceux-ci, puisque le composant est la page elle-même, la [boîte de dialogue de modification](#edit-dialog) du composant de page est la fenêtre des propriétés de la page.
 
 ## Version et compatibilité {#version-and-compatibility}
 
-Ce document décrit la version v1 du composant Page, introduite à l&#39;origine avec la version 1.0.0 des composants principaux avec AEM 6.3.
+Ce document décrit la version v1 du composant Page, introduite à l’origine avec la version 1.0.0 des composants principaux avec AEM 6.3.
 
 Le tableau suivant répertorie la compatibilité de la version v1 du composant Page.
 
