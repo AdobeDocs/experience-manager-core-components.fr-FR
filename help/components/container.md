@@ -1,17 +1,17 @@
 ---
 title: Composant de conteneur
 description: Le composant de conteneur des composants principaux permet la création d’un conteneur pour plusieurs autres composants sur une page.
-role: Architecte, Développeur, Administrateur, Professionnel
-translation-type: tm+mt
+role: Architecte, développeur, administrateur, professionnel
+translation-type: ht
 source-git-commit: d01a7576518ccf9f0effd12dfd8198854c6cd55c
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '797'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
 
-# Composant de conteneur{#container-component}
+# Composant de conteneur {#container-component}
 
 Le composant de conteneur des composants principaux permet la création d’un conteneur pour plusieurs autres composants sur une page.
 
@@ -36,11 +36,11 @@ Pour plus d’informations sur les versions et les publications des composants p
 
 ## Exemple de sortie de composant {#sample-component-output}
 
-Pour tester le composant de conteneur et voir des exemples de ses options de configuration, ainsi que la sortie HTML et JSON, consultez la [bibliothèque de composants](https://adobe.com/go/aem_cmp_library_container).
+Pour tester le composant de conteneur et voir des exemples de ses options de configuration, ainsi que la sortie HTML et JSON, consultez la [bibliothèque de composants](https://adobe.com/go/aem_cmp_library_container_fr).
 
 ## Détails techniques {#technical-details}
 
-La documentation technique la plus récente sur le composant de conteneur [se trouve sur GitHub](https://adobe.com/go/aem_cmp_tech_container_v1).
+La documentation technique la plus récente sur le composant de conteneur [se trouve sur GitHub](https://adobe.com/go/aem_cmp_tech_container_v1_fr).
 
 Vous trouverez plus d’informations sur le développement des composants principaux dans la [documentation destinée aux développeurs de composants principaux](/help/developing/overview.md).
 
@@ -52,8 +52,8 @@ La boîte de dialogue de configuration permet à l’auteur du contenu de défin
 
 * **Mise en page** : cette option définit le comportement ou le comportement de mise en page du composant de conteneur.
    * **Simple** : définit un conteneur en tant qu’ensemble simple de composants.
-   * **Grille réactive** : définit un conteneur en tant que [mise en page réactive AEM.](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/sites/authoring/features/responsive-layout.html)
-* **Couleur d&#39;arrière-plan** : définissable en tant que valeurs RVB de forme libre ou en utilisant le sélecteur de couleurs, [selon la configuration](#background-tab)
+   * **Grille réactive** : définit un conteneur en tant que [mise en page réactive AEM.](https://docs.adobe.com/content/help/fr-FR/experience-manager-cloud-service/sites/authoring/features/responsive-layout.html)
+* **Couleur d’arrière-plan** : définissable en tant que valeurs RVB de forme libre ou en utilisant le sélecteur de couleurs, [selon la configuration](#background-tab)
 * **Image d’arrière-plan** : définit une couleur d’arrière-plan pour le conteneur, [selon la configuration](#background-tab)
 * **ID** : cette option permet de contrôler l’identifiant unique du composant dans le code HTML ainsi que dans la [couche de données](/help/developing/data-layer/overview.md).
    * Si rien n’est indiqué, un ID unique est généré automatiquement et peut être trouvé en examinant la page obtenue.
@@ -72,7 +72,7 @@ L’onglet Composants autorisés fonctionne de la même manière que l’onglet 
 
 ### Onglet Composants par défaut {#default-components-tab}
 
-L’onglet Composants par défaut permet de définir quel composant est ajouté au composant lorsqu’un type de ressource particulier est déposé sur le conteneur, comme [la définition des composants par défaut sur le modèle de page](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/sites/authoring/features/templates.html).
+L’onglet Composants par défaut permet de définir quel composant est ajouté au composant lorsqu’un type de ressource particulier est déposé sur le conteneur, comme [la définition des composants par défaut sur le modèle de page](https://docs.adobe.com/content/help/fr-FR/experience-manager-cloud-service/sites/authoring/features/templates.html).
 
 ### Onglet Paramètres réactifs {#responsive-settings-tab}
 
