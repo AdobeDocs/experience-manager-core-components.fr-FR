@@ -1,12 +1,12 @@
 ---
 title: Composant Onglets
 description: Le composant Onglets permet la création de plusieurs onglets pour disposer le contenu sur une page.
-role: Architecte, Développeur, Administrateur, Professionnel
-translation-type: tm+mt
+role: Architecte, développeur, administrateur, professionnel
+translation-type: ht
 source-git-commit: d01a7576518ccf9f0effd12dfd8198854c6cd55c
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1045'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -59,7 +59,7 @@ Pour tester le composant Onglets, des exemples d’options de configuration, ain
 
 ### Détails techniques {#technical-details}
 
-La documentation technique la plus récente sur le composant Onglets [se trouve sur GitHub](https://adobe.com/go/aem_cmp_tech_tabs_v1).
+La documentation technique la plus récente sur le composant Onglets [se trouve sur GitHub](https://adobe.com/go/aem_cmp_tech_tabs_v1_fr).
 
 Vous trouverez plus d’informations sur le développement des composants principaux dans la [documentation destinée aux développeurs de composants principaux](/help/developing/overview.md).
 
@@ -119,7 +119,7 @@ Lorsque vous sélectionnez l’option **Sélectionner un panneau** dans la barre
 
 >[!NOTE]
 >
->Les onglets ne sont pas sélectionnables par l’auteur en mode **Édition**. Utilisez le mode **[](https://docs.adobe.com/content/help/fr-FR/experience-manager-cloud-service/sites/authoring/fundamentals/editing-content.html#preview-mode)Aperçu** ou l’option **[Afficher comme publié(e)](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/sites/authoring/fundamentals/editing-content.html#view-as-published)** pour interagir avec les onglets comme un lecteur du contenu publié.
+>Les onglets ne sont pas sélectionnables par l’auteur en mode **Édition**. Utilisez le mode **[Aperçu](https://docs.adobe.com/content/help/fr-FR/experience-manager-cloud-service/sites/authoring/fundamentals/editing-content.html#preview-mode)** ou l’option **[Afficher comme publié(e)](https://docs.adobe.com/content/help/fr-FR/experience-manager-cloud-service/sites/authoring/fundamentals/editing-content.html#view-as-published)** pour interagir avec les onglets comme un lecteur du contenu publié.
 
 ## Boîte de dialogue de conception {#design-dialog}
 
