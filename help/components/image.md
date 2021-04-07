@@ -1,12 +1,12 @@
 ---
 title: Composant d’image
 description: Le composant d’image des composants principaux est un composant d’image adaptatif qui permet d’effectuer des modifications statiques.
-role: Architecte, Développeur, Administrateur, Professionnel
-translation-type: tm+mt
+role: Architecte, développeur, administrateur, professionnel
+translation-type: ht
 source-git-commit: d01a7576518ccf9f0effd12dfd8198854c6cd55c
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2175'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -68,7 +68,7 @@ Pour tester le composant d’image et voir des exemples de ses options de config
 
 ### Détails techniques {#technical-details}
 
-La documentation technique la plus récente sur le composant d’image [se trouve sur GitHub](https://adobe.com/go/aem_cmp_tech_image_v2).
+La documentation technique la plus récente sur le composant d’image [se trouve sur GitHub](https://adobe.com/go/aem_cmp_tech_image_v2_fr).
 
 Vous trouverez plus d’informations sur le développement des composants principaux dans la [documentation destinée aux développeurs de composants principaux](/help/developing/overview.md).
 
@@ -217,11 +217,9 @@ Sur l’onglet **Fonctions**, vous pouvez définir les options disponibles pour 
 
    ![Onglet Fonctions de la boîte de dialogue de conception du composant Image](/help/assets/image-design-features-orientation.png)
 
-* **Rotation**
-Utilisez cette option pour permettre à l’auteur de contenu d’appliquer l’option 
+* **Rotation** : Utilisez cette option pour permettre à l’auteur de contenu d’appliquer l’option 
 **Rotation à droite**.
-* **Symétrie**
-Utilisez cette option pour permettre à l’auteur de contenu d’appliquer 
+* **Symétrie** : Utilisez cette option pour permettre à l’auteur de contenu d’appliquer 
 les options **Symétrie horizontale** et **Rotation verticale**.
 
    >[!CAUTION]
