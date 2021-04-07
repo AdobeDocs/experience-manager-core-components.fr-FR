@@ -1,13 +1,13 @@
 ---
 title: Module it.tests de l’archétype de projet AEM
 description: Utilisation des tests d’intégration de l’archétype de projet AEM
-feature: Composants principaux, AEM Archétype de projet
+feature: Composants principaux, archétype de projet AEM
 role: Architecte, développeur, administrateur
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: d01a7576518ccf9f0effd12dfd8198854c6cd55c
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '83'
-ht-degree: 90%
+ht-degree: 100%
 
 ---
 
