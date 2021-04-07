@@ -1,17 +1,17 @@
 ---
 title: Composant de fragment d’expérience
 description: Le composant de fragment d’expérience permet à l’auteur de contenu d’ajouter une variation de fragment d’expérience à une page.
-role: Architecte, Développeur, Administrateur, Professionnel
-translation-type: tm+mt
+role: Architecte, développeur, administrateur, professionnel
+translation-type: ht
 source-git-commit: d01a7576518ccf9f0effd12dfd8198854c6cd55c
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '821'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
 
-# Composant de fragment d’expérience{#experience-fragment-component}
+# Composant de fragment d’expérience {#experience-fragment-component}
 
 Le composant de fragment d’expérience de composant principal permet à l’auteur du contenu de placer une variation de fragment d’expérience sur une page tout en prenant en charge une structure de site localisée.
 
@@ -109,7 +109,7 @@ Pour tester le composant de fragment d’expérience et obtenir des exemples d�
 
 ## Détails techniques {#technical-details}
 
-La documentation technique la plus récente sur le composant de fragment d’expérience [se trouve sur GitHub](https://adobe.com/go/aem_cmp_tech_xf_v1).
+La documentation technique la plus récente sur le composant de fragment d’expérience [se trouve sur GitHub](https://adobe.com/go/aem_cmp_tech_xf_v1_fr).
 
 Vous trouverez plus d’informations sur le développement des composants principaux dans la [documentation destinée aux développeurs de composants principaux](/help/developing/overview.md).
 
