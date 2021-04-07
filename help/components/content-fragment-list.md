@@ -1,23 +1,23 @@
 ---
 title: Composant de liste de fragments de contenu
 description: Le composant de liste de fragments de contenu des composants principaux permet d’afficher une liste de fragments de contenu.
-role: Architecte, Développeur, Administrateur, Professionnel
-translation-type: tm+mt
+role: Architecte, développeur, administrateur, professionnel
+translation-type: ht
 source-git-commit: d01a7576518ccf9f0effd12dfd8198854c6cd55c
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '767'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
 
-# Composant de liste de fragments de contenu{#content-fragment-list-component}
+# Composant de liste de fragments de contenu {#content-fragment-list-component}
 
 Le composant de liste de fragments de contenu des composants principaux permet d’afficher une liste de [fragments de contenu](https://docs.adobe.com/content/help/fr-FR/experience-manager-cloud-service/assets/content-fragments/content-fragments.html).
 
 ## Utilisation {#usage}
 
-Le composant de liste de fragments de contenu des composants principaux permet d’inclure une liste de [fragments de contenu](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/assets/content-fragments/content-fragments.html) sur une page basée sur un modèle de fragment de contenu. Cette opération peut s’avérer particulièrement utile pour créer un [contenu headless](https://helpx.adobe.com/fr/experience-manager/6-5/sites/developing/user-guide.html?topic=/experience-manager/6-5/sites/developing/morehelp/headless.ug.js) qui peut être facilement utilisé par d’autres applications.
+Le composant de liste de fragments de contenu des composants principaux permet d’inclure une liste de [fragments de contenu](https://docs.adobe.com/content/help/fr-FR/experience-manager-cloud-service/assets/content-fragments/content-fragments.html) sur une page basée sur un modèle de fragment de contenu. Cette opération peut s’avérer particulièrement utile pour créer un [contenu headless](https://helpx.adobe.com/fr/experience-manager/6-5/sites/developing/user-guide.html?topic=/experience-manager/6-5/sites/developing/morehelp/headless.ug.js) qui peut être facilement utilisé par d’autres applications.
 
 * La liste et ses propriétés peuvent être sélectionnées dans la [boîte de dialogue de configuration](#configure-dialog).
 * Des styles peuvent être appliqués au composant dans la [boîte de dialogue de conception](#design-dialog).
@@ -36,11 +36,11 @@ Pour plus d’informations sur les versions et les publications des composants p
 
 ## Exemple de sortie de composant {#sample-component-output}
 
-Pour tester le composant de liste de fragments de contenu et voir des exemples d’options de configuration et de sortie HTML et JSON, consultez la [bibliothèque de composants](https://adobe.com/go/aem_cmp_library_cflist).
+Pour tester le composant de liste de fragments de contenu et voir des exemples d’options de configuration et de sortie HTML et JSON, consultez la [bibliothèque de composants](https://adobe.com/go/aem_cmp_library_cflist_fr).
 
 ## Détails techniques {#technical-details}
 
-La documentation technique la plus récente sur le composant Liste des fragments de contenu [se trouve sur GitHub](https://adobe.com/go/aem_cmp_tech_cflist_v1).
+La documentation technique la plus récente sur le composant Liste des fragments de contenu [se trouve sur GitHub](https://adobe.com/go/aem_cmp_tech_cflist_v1_fr).
 
 Vous trouverez plus d’informations sur le développement des composants principaux dans la [documentation destinée aux développeurs de composants principaux](/help/developing/overview.md).
 
