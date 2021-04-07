@@ -1,12 +1,12 @@
 ---
 title: Composant de navigation par langue
 description: Le composant de navigation par langue fournit une navigation par langue/pays pour un site, de sorte que les visiteurs puissent accéder à la même page dans un autre paramètre régional.
-role: Architecte, Développeur, Administrateur, Professionnel
-translation-type: tm+mt
+role: Architecte, développeur, administrateur, professionnel
+translation-type: ht
 source-git-commit: d01a7576518ccf9f0effd12dfd8198854c6cd55c
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '851'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -42,7 +42,7 @@ Pour tester le composant Navigation par langue et obtenir des exemples d’optio
 
 ## Détails techniques {#technical-details}
 
-La documentation technique la plus récente sur le composant Navigation par langue [se trouve sur GitHub](https://adobe.com/go/aem_cmp_tech_langnav_v1).
+La documentation technique la plus récente sur le composant Navigation par langue [se trouve sur GitHub](https://adobe.com/go/aem_cmp_tech_langnav_v1_fr).
 
 Vous trouverez plus d’informations sur le développement des composants principaux dans la [documentation destinée aux développeurs de composants principaux](/help/developing/overview.md).
 
