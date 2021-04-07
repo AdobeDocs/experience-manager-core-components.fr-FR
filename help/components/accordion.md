@@ -1,12 +1,12 @@
 ---
 title: Composant d’accordéon
 description: Le composant d’accordéon des composants principaux permet la création d’un ensemble de panneaux organisés dans un accordéon sur une page.
-role: Architecte, Développeur, Administrateur, Professionnel
-translation-type: tm+mt
+role: Architecte, développeur, administrateur, professionnel
+translation-type: ht
 source-git-commit: d01a7576518ccf9f0effd12dfd8198854c6cd55c
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1072'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -114,8 +114,8 @@ La boîte de dialogue de conception permet à l’auteur du modèle de définir 
 
 ![Onglet Propriétés de la boîte de dialogue de conception](/help/assets/accordion-design-properties.png)
 
-* **Éléments d’en-tête autorisés** : cette liste déroulante à sélection multiple définit les éléments HTML d’en-tête de l’élément d’accordéon qui sont autorisés à être sélectionnés par un auteur.
-* **Élément d’en-tête par défaut** : cette liste déroulante définit l’élément HTML d’en-tête de l’élément d’accordéon par défaut.
+* **Éléments de titre autorisés** : cette liste déroulante à sélection multiple définit les éléments HTML d’en-tête de l’élément d’accordéon qui sont autorisés à être sélectionnés par un auteur.
+* **Élément de titre par défaut** : cette liste déroulante définit l’élément HTML d’en-tête de l’élément d’accordéon par défaut.
 
 ### Onglet Composants autorisés {#allowed-components-tab}
 
