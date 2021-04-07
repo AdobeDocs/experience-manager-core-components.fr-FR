@@ -1,12 +1,12 @@
 ---
 title: Composant Recherche rapide
 description: Le composant Recherche rapide fournit des fonctionnalités de recherche à un site web et présente les résultats de recherche afin que les visiteurs puissent effectuer des recherches sur le site et filtrer les résultats.
-role: Architecte, Développeur, Administrateur, Professionnel
-translation-type: tm+mt
+role: Architecte, développeur, administrateur, professionnel
+translation-type: ht
 source-git-commit: d01a7576518ccf9f0effd12dfd8198854c6cd55c
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '597'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -39,7 +39,7 @@ Pour plus d’informations sur les versions et les publications des composants p
 >
 >La protection du composant Recherche ou de toute application basée sur AEM par rapport aux attaques DOS doit être implémentée à un niveau supérieur, par exemple à l’aide `mod_security` du dispatcher.
 
-La documentation technique la plus récente sur le composant Recherche rapide [se trouve sur GitHub](https://adobe.com/go/aem_cmp_tech_search_v1).
+La documentation technique la plus récente sur le composant Recherche rapide [se trouve sur GitHub](https://adobe.com/go/aem_cmp_tech_search_v1_fr).
 
 Vous trouverez plus d’informations sur le développement des composants principaux dans la [documentation destinée aux développeurs de composants principaux](/help/developing/overview.md).
 
@@ -49,7 +49,7 @@ La boîte de dialogue de modification permet à l’auteur de contenu de défini
 
 ![Boîte de dialogue de modification du composant Recherche rapide](/help/assets/quick-search-edit.png)
 
-**Racine de recherche** - Page racine d’où lancer la recherche. La racine de recherche peut être un gabarit principal, une page principale ou une page normale.
+**Rechercher à la racine** - Page racine d’où lancer la recherche. Rechercher à la racine peut être un gabarit principal, une page principale ou une page normale.
 * **ID** : cette option permet de contrôler l’identifiant unique du composant dans le code HTML ainsi que dans la [couche de données](/help/developing/data-layer/overview.md).
    * Si rien n’est indiqué, un ID unique est généré automatiquement et peut être trouvé en examinant la page obtenue.
    * Si un ID est spécifié, il incombe à l’auteur de s’assurer qu’il est unique.
@@ -63,7 +63,7 @@ La boîte de dialogue de modification permet à l’auteur de contenu de défini
 
 ![Boîte de dialogue de conception du composant Recherche rapide](/help/assets/quick-search-design.png)
 
-* **Racine de recherche**
+* **Rechercher à la racine**
 La valeur par défaut de la racine de recherche lorsqu’un auteur de contenu place le composant Recherche rapide sur une page de contenu.
 * **Taille des résultats**
 Le nombre maximal de résultats extraits par une requête de recherche.
