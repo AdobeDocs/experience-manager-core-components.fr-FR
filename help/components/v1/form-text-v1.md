@@ -2,12 +2,12 @@
 title: Composant de texte de formulaire (v1)
 description: Le composant de texte de formulaire des composants principaux permet l’entrée de texte de formulaire pour envoi.
 index: n
-role: Architecte, Développeur, Administrateur, Professionnel
-translation-type: tm+mt
+role: Architecte, développeur, administrateur, professionnel
+translation-type: ht
 source-git-commit: d01a7576518ccf9f0effd12dfd8198854c6cd55c
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '496'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
