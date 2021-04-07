@@ -2,20 +2,20 @@
 title: Personnalisation des composants principaux
 description: Les composants principaux implémentent plusieurs modèles permettant une personnalisation facile, depuis l’application d’un style simple jusqu’à la réutilisation de fonctionnalités avancées.
 role: Architecte, développeur, administrateur
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: d01a7576518ccf9f0effd12dfd8198854c6cd55c
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1109'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
 
-# Personnalisation des composants principaux{#customizing-core-components}
+# Personnalisation des composants principaux {#customizing-core-components}
 
 Les [composants principaux](overview.md) implémentent plusieurs modèles permettant une personnalisation facile, depuis l’application d’un style simple jusqu’à la réutilisation de fonctionnalités avancées.
 
-## Flexibilité de l&#39;architecture {#flexible-architecture}
+## Flexibilité de l’architecture {#flexible-architecture}
 
 Les composants principaux ont été conçus pour être des outils flexibles et configurables. Une analyse de leur architecture permet de voir où des personnalisations peuvent être effectuées.
 
@@ -38,7 +38,7 @@ De plus, tous les composants principaux implémentent le [système de style](#st
 
 ### Personnalisation des boîtes de dialogue {#customizing-dialogs}
 
-Il peut être souhaitable de personnaliser les options de configuration disponibles dans la boîte de dialogue d’un composant principal, qu’il s&#39;agisse de [la boîte de dialogue de conception ou de modification](/help/get-started/authoring.md).
+Il peut être souhaitable de personnaliser les options de configuration disponibles dans la boîte de dialogue d’un composant principal, qu’il s’agisse de [la boîte de dialogue de conception ou de modification](/help/get-started/authoring.md).
 
 Chaque boîte de dialogue possède une structure de nœud cohérente. Il est recommandé de répliquer cette structure dans un composant héritant de sorte que [Sling Resource Merger](https://helpx.adobe.com/fr/experience-manager/6-4/sites/developing/using/sling-resource-merger.html) et l’option [Masquer les conditions](https://helpx.adobe.com/fr/experience-manager/6-5/sites/developing/using/hide-conditions.html) puissent être utilisés pour masquer, remplacer ou réorganiser les sections de la boîte de dialogue d’origine. La structure à répliquer est définie comme tous les éléments jusqu’au niveau de nœud de l’élément d’onglet.
 
@@ -99,7 +99,7 @@ public class PageHeadline implements Title {
 }
 ```
 
-Pour plus d’informations sur le modèle de délégation, reportez-vous à l’article concernant les composants principaux sur le wiki GitHub intitulé [Modèle de délégation pour les modèles Sling ](https://github.com/adobe/aem-core-wcm-components/wiki/Delegation-Pattern-for-Sling-Models).
+Pour plus d’informations sur le modèle de délégation, reportez-vous à l’article concernant les composants principaux sur le wiki GitHub intitulé [Modèle de délégation pour les modèles Sling](https://github.com/adobe/aem-core-wcm-components/wiki/Delegation-Pattern-for-Sling-Models).
 
 ### Personnalisation du balisage {#customizing-the-markup}
 
@@ -123,7 +123,7 @@ Par exemple, en examinant le fichier HTL du composant principal de chemin de nav
 .cmp-breadcrumb a {}
 ```
 
-De plus, chacun des composants principaux utilise le [système de style AEM](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/sites/authoring/features/style-system.html) qui permet aux auteurs de modèles de définir des noms de classe CSS supplémentaires qui peuvent être appliqués au composant par les auteurs de pages. Cela permet de définir pour chaque modèle une liste de styles de composants autorisés et de déterminer si l’un d&#39;entre eux doit s’appliquer par défaut à tous les composants de ce type.
+De plus, chacun des composants principaux utilise le [système de style AEM](https://docs.adobe.com/content/help/fr-FR/experience-manager-cloud-service/sites/authoring/features/style-system.html) qui permet aux auteurs de modèles de définir des noms de classe CSS supplémentaires qui peuvent être appliqués au composant par les auteurs de pages. Cela permet de définir pour chaque modèle une liste de styles de composants autorisés et de déterminer si l’un d’entre eux doit s’appliquer par défaut à tous les composants de ce type.
 
 ## Compatibilité de la mise à niveau des personnalisations {#upgrade-compatibility-of-customizations}
 
@@ -133,7 +133,7 @@ Trois types de mises à niveau sont possibles :
 * mise à niveau des composants principaux vers une nouvelle version mineure
 * mise à niveau des composants principaux vers une version majeure
 
-En règle générale, la mise à niveau d’AEM vers une nouvelle version n’affecte pas les composants principaux ou les personnalisations, à condition que les versions des composants prennent également en charge la nouvelle version d’AEM vers laquelle est effectuée la migration et que les personnalisations n’utilisent pas d’API [obsolètes ou supprimées](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/release-notes/deprecated-removed-features.html).
+En règle générale, la mise à niveau d’AEM vers une nouvelle version n’affecte pas les composants principaux ou les personnalisations, à condition que les versions des composants prennent également en charge la nouvelle version d’AEM vers laquelle est effectuée la migration et que les personnalisations n’utilisent pas d’API [obsolètes ou supprimées](https://docs.adobe.com/content/help/fr-FR/experience-manager-cloud-service/release-notes/deprecated-removed-features.html).
 
 La mise à niveau des composants principaux sans passer à une version majeure plus récente ne devrait pas affecter les personnalisations tant que les modèles de personnalisation décrits dans cette page sont utilisés.
 
@@ -153,7 +153,7 @@ Comme pour tout composant AEM, il existe un certain nombre d’éléments à pre
 
 1. **Consultez régulièrement les fonctionnalités obsolètes et supprimées.**
 
-   Avec chaque nouvelle version d’AEM vers laquelle est effectuée une mise à niveau, vérifiez que toutes les API utilisées sont toujours d’actualité en gardant un œil sur la page [Fonctionnalités obsolètes et supprimées](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/release-notes/deprecated-removed-features.html).
+   Avec chaque nouvelle version d’AEM vers laquelle est effectuée une mise à niveau, vérifiez que toutes les API utilisées sont toujours d’actualité en gardant un œil sur la page [Fonctionnalités obsolètes et supprimées](https://docs.adobe.com/content/help/fr-FR/experience-manager-cloud-service/release-notes/deprecated-removed-features.html).
 
 Consultez aussi la section [Prise en charge des composants principaux](overview.md#core-component-support).
 
