@@ -1,17 +1,17 @@
 ---
 title: Composant de téléchargement
 description: Le composant de téléchargement des composants principaux permet la création d’une option de téléchargement sur une page.
-role: Architecte, Développeur, Administrateur, Professionnel
-translation-type: tm+mt
+role: Architecte, développeur, administrateur, professionnel
+translation-type: ht
 source-git-commit: d01a7576518ccf9f0effd12dfd8198854c6cd55c
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '692'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
 
-# Composant de téléchargement{#download-component}
+# Composant de téléchargement {#download-component}
 
 Le composant de téléchargement des composants principaux permet la création d’une option de téléchargement sur une page.
 
@@ -55,9 +55,9 @@ La boîte de dialogue de configuration permet à l’auteur du contenu de défin
 La sélection d’une ressource de téléchargement est très similaire à la fonctionnalité du [composant d’image](image.md) et utilise également la fonctionnalité DAM d’AEM.
 
 * **Télécharger la ressource**
-   * Déposez un fichier depuis l’[explorateur de ressources](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/sites/authoring/fundamentals/environment-tools.html) ou appuyez sur l’option **parcourir** pour effectuer un téléchargement à partir d’un système de fichiers local.
+   * Déposez un fichier depuis l’[explorateur de ressources](https://docs.adobe.com/content/help/fr-FR/experience-manager-cloud-service/sites/authoring/fundamentals/environment-tools.html) ou appuyez sur l’option **parcourir** pour effectuer un téléchargement à partir d’un système de fichiers local.
    * Appuyez ou cliquez sur **Effacer** pour désélectionner l’image actuellement sélectionnée.
-   * Appuyez ou cliquez sur **Modifier** pour [gérer les rendus de la ressource](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/assets/manage/manage-digital-assets.html) dans l’éditeur de ressources.
+   * Appuyez ou cliquez sur **Modifier** pour [gérer les rendus de la ressource](https://docs.adobe.com/content/help/fr-FR/experience-manager-cloud-service/assets/manage/manage-digital-assets.html) dans l’éditeur de ressources.
 
 ### Onglet Propriétés {#properties-tab}
 
