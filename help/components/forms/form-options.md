@@ -1,12 +1,12 @@
 ---
 title: Composant des options de formulaire
 description: Le composant des options de formulaire des composants principaux permet la sélection d’options prédéfinies dans divers formats.
-role: Architecte, Développeur, Administrateur, Professionnel
-translation-type: tm+mt
+role: Architecte, développeur, administrateur, professionnel
+translation-type: ht
 source-git-commit: d01a7576518ccf9f0effd12dfd8198854c6cd55c
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '550'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -36,11 +36,11 @@ Pour plus d’informations sur les versions et les publications des composants p
 
 ## Exemple de sortie de composant {#sample-component-output}
 
-Pour tester le composant des options de formulaire et obtenir des exemples d’options de configuration, ainsi que des sorties HTML et JSON, consultez la [bibliothèque de composants](https://adobe.com/go/aem_cmp_library_form_options).
+Pour tester le composant des options de formulaire et obtenir des exemples d’options de configuration, ainsi que des sorties HTML et JSON, consultez la [bibliothèque de composants](https://adobe.com/go/aem_cmp_library_form_options_fr).
 
 ### Détails techniques {#technical-details}
 
-La documentation technique la plus récente sur le composant Options du formulaire [se trouve sur GitHub](https://adobe.com/go/aem_cmp_tech_form_options_v2).
+La documentation technique la plus récente sur le composant Options du formulaire [se trouve sur GitHub](https://adobe.com/go/aem_cmp_tech_form_options_v2_fr).
 
 Vous trouverez plus d’informations sur le développement des composants principaux dans la [documentation destinée aux développeurs de composants principaux](/help/developing/overview.md).
 
@@ -62,7 +62,7 @@ La boîte de dialogue de configuration permet à l’auteur de contenu de défin
       * Appuyez ou cliquez sur le bouton **Ajouter** pour ajouter une valeur. Sinon, appuyez ou cliquez sur **Supprimer** pour supprimer une valeur.
          * **Valeur** : valeur enregistrée lorsque cette option est sélectionnée lors de l’envoi du formulaire.
          * **Texte** : libellé de l’option affichée sur le formulaire.
-         * **Active** : l’option est marquée comme étant sélectionnée lors du chargement du formulaire.
+         * **En cours** : l’option est marquée comme étant sélectionnée lors du chargement du formulaire.
          * **Désactivé** : l’option n’est pas sélectionnable mais toujours affichée.
    * **Liste** : liste statique définie ailleurs dans AEM et utilisée pour les options.
       * **Liste** : chemin d’accès à la liste statique dans AEM.
