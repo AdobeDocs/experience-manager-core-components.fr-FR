@@ -1,12 +1,12 @@
 ---
 title: Fonctions de localisation des composants principaux
 description: Fonctions de localisation des composants principaux
-role: Architecte, Développeur, Administrateur, Professionnel
-translation-type: tm+mt
+role: Architecte, développeur, administrateur, professionnel
+translation-type: ht
 source-git-commit: d01a7576518ccf9f0effd12dfd8198854c6cd55c
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '730'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -21,7 +21,7 @@ La plupart des sites nécessitent qu’un pied de page soit présent sur toutes 
 
 De même, un composant de navigation doit généralement être affiché sur toutes les pages. Toutefois, il devra également refléter le contenu des pages localisées.
 
-En utilisant les fonctionnalités de localisation du [composant principal de navigation](/help/components/navigation.md) et du [composant principal de fragment d’expérience](/help/components/experience-fragment.md), ainsi que les [modèles modifiables d’AEM](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/sites/authoring/features/templates.html), cela devient facile à réaliser. L&#39;exemple pourrait être étendu à l&#39;utilisation du [composant Navigation linguistique](/help/components/language-navigation.md).
+En utilisant les fonctionnalités de localisation du [composant principal de navigation](/help/components/navigation.md) et du [composant principal de fragment d’expérience](/help/components/experience-fragment.md), ainsi que les [modèles modifiables d’AEM](https://docs.adobe.com/content/help/fr-FR/experience-manager-cloud-service/sites/authoring/features/templates.html), cela devient facile à réaliser. L’exemple pourrait être étendu à l’utilisation du [composant Navigation linguistique](/help/components/language-navigation.md).
 
 ## La structure du contenu {#content-structure}
 
@@ -33,7 +33,7 @@ Supposons que votre site soit simplement appelé `my-site` et se trouve ici :
 /content/my-site
 ```
 
-Disons aussi que vous créez votre site en anglais et que vous le proposez aussi en français. Ainsi, si vous avez une page simple appelée `my-page`, elle se trouve dans deux branches de localisation dans l&#39;arborescence de contenu de votre site :
+Disons aussi que vous créez votre site en anglais et que vous le proposez aussi en français. Ainsi, si vous avez une page simple appelée `my-page`, elle se trouve dans deux branches de localisation dans l’arborescence de contenu de votre site :
 
 ```
 /content
@@ -44,7 +44,7 @@ Disons aussi que vous créez votre site en anglais et que vous le proposez aussi
        \-- my-page
 ```
 
-C&#39;est sous ces branches de localisation que vous allez créer des pages de sites supplémentaires.
+C’est sous ces branches de localisation que vous allez créer des pages de sites supplémentaires.
 
 Les pieds de page sont généralement créés à l’aide de fragments d’expérience. Vous aurez donc besoin d’une version en anglais et en français, tout comme vos pages. Toutefois, les fragments d’expérience ne sont pas des pages, mais des parties de pages qui peuvent être réutilisées sur plusieurs pages. Ils ne résident donc pas directement sous `/content` le reste de vos pages. Au lieu de cela, ils résident sous leur propre dossier, mais comme ils doivent également être localisés, leur structure doit refléter la structure de localisation de votre site.
 
