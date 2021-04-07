@@ -1,12 +1,12 @@
 ---
 title: Chemins vers la réussite avec les composants principaux
 description: Réussir la mise en œuvre de votre projet avec les composants principaux
-role: Architecte, Développeur, Administrateur, Professionnel
-translation-type: tm+mt
+role: Architecte, développeur, administrateur, professionnel
+translation-type: ht
 source-git-commit: d01a7576518ccf9f0effd12dfd8198854c6cd55c
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '575'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -37,7 +37,7 @@ Au lieu de considérer uniquement les composants principaux lors de la phase de 
 
 ### Utilisez la bibliothèque de composants {#component-library}
 
-Consultez la [bibliothèque de composants](https://adobe.com/go/aem_cmp_library) dès la phase de conception. Les composants principaux sont puissants et flexibles et peuvent vous amener loin dès le début. Ajoutez uniquement des composants personnalisés lorsqu’il existe un réel besoin métier qui ne peut pas être réalisé de manière raisonnable avec un composant principal.
+Consultez la [bibliothèque de composants](https://adobe.com/go/aem_cmp_library_fr) dès la phase de conception. Les composants principaux sont puissants et flexibles et peuvent vous amener loin dès le début. Ajoutez uniquement des composants personnalisés lorsqu’il existe un réel besoin métier qui ne peut pas être réalisé de manière raisonnable avec un composant principal.
 
 ### Utilisez le kit d’interface utilisateur pour Adobe XD {#ui-kit}
 
@@ -49,7 +49,7 @@ Les fonctionnalités d’AEM et des composants principaux peuvent être très pu
 
 ### Fragments de contenu {#content-fragments}
 
-[Les fragments de contenu vous permettent de créer du contenu compatible avec tous les canaux, ainsi que des variantes (éventuellement spécifiques aux canaux). ](https://docs.adobe.com/content/help/fr-FR/experience-manager-cloud-service/sites/authoring/fundamentals/content-fragments.html) Vous pouvez ensuite utiliser ces fragments et leurs variantes lors de la création de vos pages de contenu.
+[Les fragments de contenu](https://docs.adobe.com/content/help/fr-FR/experience-manager-cloud-service/sites/authoring/fundamentals/content-fragments.html) vous permettent de créer du contenu compatible avec tous les canaux, ainsi que des variantes (éventuellement spécifiques aux canaux). Vous pouvez ensuite utiliser ces fragments et leurs variantes lors de la création de vos pages de contenu.
 
 En même temps que l’outil d’exportation JSON mis à jour, les fragments de contenu structuré peuvent également être utilisés pour diffuser du contenu AEM via Content Services à des canaux autres que des pages AEM.
 
