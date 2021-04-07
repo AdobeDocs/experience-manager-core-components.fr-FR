@@ -1,15 +1,15 @@
 ---
 title: Présentation des composants principaux
 description: 'Les composants principaux fournissent des composants de base solides et extensibles, reposant sur les dernières technologies et les bonnes pratiques. '
-role: Architecte, Développeur, Administrateur, Professionnel
+role: Architect, Developer, Administrator, Business Practitioner
+exl-id: d294db22-4cb0-48a4-9366-03fda5b8bb8e
 translation-type: tm+mt
-source-git-commit: fa8ead438093681071b6b6f8ccfbba523f6d3bee
+source-git-commit: 8ff36ca143af9496f988b1ca65475497181def1d
 workflow-type: tm+mt
-source-wordcount: '894'
-ht-degree: 99%
+source-wordcount: '889'
+ht-degree: 100%
 
 ---
-
 
 # Présentation des composants principaux {#core-components-introduction}
 
@@ -19,7 +19,7 @@ Les composants principaux sont un ensemble de composants WCM (Web Content Manage
 
 ## Ressources {#resources}
 
-* **[Bibliothèque de composants :](https://www.adobe.com/go/aem_cmp_library)** ensemble d’exemples permettant d’afficher les composants dans leurs différentes configurations.
+* **[Bibliothèque de composants :](https://www.adobe.com/go/aem_cmp_library_fr)** ensemble d’exemples permettant d’afficher les composants dans leurs différentes configurations.
 * **Documentation des composants (le présent document) :** pour les développeurs et les auteurs, avec des détails sur chaque composant.
 * **[Référentiel GitHub des composants principaux :](https://github.com/adobe/aem-core-wcm-components)** pour les développeurs, avec des informations détaillées sur chaque téléchargement de composant et de projet.
 * Prise en main :
