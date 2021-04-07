@@ -2,12 +2,12 @@
 title: Composant Liste (v1)
 description: Le composant principal Liste permet de créer facilement des listes dynamiques et statiques.
 index: n
-role: Architecte, Développeur, Administrateur, Professionnel
-translation-type: tm+mt
+role: Architecte, développeur, administrateur, professionnel
+translation-type: ht
 source-git-commit: d01a7576518ccf9f0effd12dfd8198854c6cd55c
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '859'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -211,7 +211,7 @@ Quelle que soit la manière dont vous choisissez de créer la liste, certaines o
 
 ![](/help/assets/chlimage_1-43.png)
 
-* **Trier par** - Comment les éléments doivent être triés.
+* **Classer par** - Comment les éléments doivent être triés.
    * **Titre**
    * **Date de dernière modification**
 * **Ordre de tri** - Ordre dans lequel les éléments doivent être triés.
@@ -255,8 +255,8 @@ Dans l’onglet **Paramètres d’élément**, les options de formatage des él�
 
 ![](/help/assets/chlimage_1-46.png)
 
-* **Éléments de lien** - Activez l’option Éléments de lien dans la [boîte de dialogue de modification](#edit-dialog).
-* **Afficher les descriptions** - Activez l’option Afficher les descriptions dans la [boîte de dialogue de modification](#edit-dialog).
+* **Lier les éléments** - Activez l’option Éléments de lien dans la [boîte de dialogue de modification](#edit-dialog).
+* **Afficher la description** - Activez l’option Afficher les descriptions dans la [boîte de dialogue de modification](#edit-dialog).
 * **Afficher la date** - Activez l’option Afficher la date dans la [boîte de dialogue de modification](#edit-dialog).
 
 ## Détails techniques {#technical-details}
