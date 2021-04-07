@@ -2,11 +2,11 @@
 title: Développement des composants principaux
 description: Les composants principaux fournissent des composants de base robustes et extensibles qui offrent de riches fonctionnalités, une diffusion en continu, un contrôle de version des composants, une mise en œuvre moderne, un balisage Lean et une exportation JSON de contenu.
 role: Architecte, développeur, administrateur
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: d01a7576518ccf9f0effd12dfd8198854c6cd55c
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1445'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -85,7 +85,7 @@ Pour plus d’informations sur leurs capacités de création et les options pour
 | Diffusion | [Via le site GitHub public](https://github.com/adobe/aem-core-wcm-components) | Via Quickstart |
 | Licence | [Licence Apache](https://www.apache.org/licenses/LICENSE-2.0) | Adobe propriétaire |
 | Contribution | Via une demande d’extraction | Impossible |
-| Accessibilité | Totalement conforme à la [norme WCAG 2.0 AA](https://docs.adobe.com/content/help/fr-FR/experience-manager-cloud-service/sites/authoring/fundamentals/accessible-content.html) | Partiellement conforme à la [norme WCAG 2.0 AA](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/sites/authoring/fundamentals/accessible-content.html) |
+| Accessibilité | Totalement conforme à la [norme WCAG 2.0 AA](https://docs.adobe.com/content/help/fr-FR/experience-manager-cloud-service/sites/authoring/fundamentals/accessible-content.html) | Partiellement conforme à la [norme WCAG 2.0 AA](https://docs.adobe.com/content/help/fr-FR/experience-manager-cloud-service/sites/authoring/fundamentals/accessible-content.html) |
 
 ## Liste des composants {#component-list}
 
@@ -93,35 +93,35 @@ Le tableau ci-après répertorie les composants principaux disponibles, les lien
 
 | Composant principal | Description | Composants de base remplacés |
 |---|---|---|
-| [Page](https://adobe.com/go/aem_cmp_tech_page_v2) | Page réactive fonctionnant avec l’éditeur de modèles | `/libs/foundation/components/page /libs/wcm/foundation/components/page` |
-| [Chemin de navigation](https://adobe.com/go/aem_cmp_tech_breadcrumb_v2) | Navigation dans la hiérarchie des pages | `/libs/foundation/components/breadcrumb` |
-| [Titre](https://adobe.com/go/aem_cmp_tech_title_v2) | Titre H1-H6 | `/libs/foundation/components/title /libs/wcm/foundation/components/title` |
+| [Page](https://adobe.com/go/aem_cmp_tech_page_v2_fr) | Page réactive fonctionnant avec l’éditeur de modèles | `/libs/foundation/components/page /libs/wcm/foundation/components/page` |
+| [Chemin de navigation](https://adobe.com/go/aem_cmp_tech_breadcrumb_v2_fr) | Navigation dans la hiérarchie des pages | `/libs/foundation/components/breadcrumb` |
+| [Titre](https://adobe.com/go/aem_cmp_tech_title_v2_fr) | Titre H1-H6 | `/libs/foundation/components/title /libs/wcm/foundation/components/title` |
 | [Texte](https://github.com/adobe/aem-core-wcm-components/tree/master/content/src/content/jcr_root/apps/core/wcm/components/text/v2/text) | Texte enrichi | `/libs/foundation/components/text /libs/foundation/components/table /libs/wcm/foundation/components/text` |
-| [Image](https://adobe.com/go/aem_cmp_tech_image_v2) | Chargement intelligent et différé de la taille optimale du rendu | `/libs/foundation/components/image /libs/foundation/components/adaptiveimage /libs/foundation/components/logo /libs/foundation/components/mobileimage  /libs/foundation/components/mobilelogo /libs/wcm/foundation/components/image` |
-| [Liste](https://adobe.com/go/aem_cmp_tech_list_v2) | Liste des pages | `/libs/foundation/components/list /libs/foundation/components/mobilelist /libs/wcm/foundation/components/list` |
-| [Partage sur les réseaux sociaux](https://adobe.com/go/aem_cmp_tech_sharing_v1) | Widget de partage Facebook et Pinterest | `-` |
-| [Conteneur de formulaires](https://adobe.com/go/aem_cmp_tech_form_container_v2) | Système de paragraphe de formulaire réactif | `/libs/foundation/components/form/start /libs/foundation/components/form/end` |
-| [Texte du formulaire](https://adobe.com/go/aem_cmp_tech_form_text_v2) | Champ de saisie de texte | `/libs/foundation/components/form/text /libs/foundation/components/form/password` |
-| [Options du formulaire](https://adobe.com/go/aem_cmp_tech_form_options_v2) | Champ de saisie d’options multiples | `/libs/foundation/components/form/checkbox /libs/foundation/components/form/radio /libs/foundation/components/form/dropdown` |
-| [Formulaire masqué](https://adobe.com/go/aem_cmp_tech_form_hidden_v2) | Champ de saisie masqué | `/libs/foundation/components/form/hidden` |
-| [Bouton de formulaire](https://adobe.com/go/aem_cmp_tech_form_button_v2) | Bouton Envoyer ou personnalisé | `/libs/foundation/components/form/submit` |
-| [Navigation](https://adobe.com/go/aem_cmp_tech_navigation_v1) | Composant de navigation sur le site qui répertorie la hiérarchie de la page imbriquée | `/libs/foundation/components/topnav /libs/foundation/components/mobiletopnav` |
-| [Navigation par langue](https://adobe.com/go/aem_cmp_tech_langnav_v1) | Sélecteur de langue et de pays qui répertorie la structure de langue globale | `-` |
-| [Recherche rapide](https://adobe.com/go/aem_cmp_tech_search_v1) | Composant de recherche qui affiche les résultats sous forme de suggestions sur place dans un menu déroulant | `/libs/foundation/components/search` |
-| [Teaser](https://adobe.com/go/aem_cmp_tech_teaser_v1) | Permet à l’auteur de contenu de créer facilement un teaser vers un contenu supplémentaire à l’aide d’une image, d’un titre ou d’un texte enrichi et de lier un contenu supplémentaire ou d’effectuer d’autres actions | `-` |
-| [Onglets](https://adobe.com/go/aem_cmp_tech_tabs_v1) | Permet à l’auteur de contenu d’organiser le contenu de la page dans plusieurs onglets | `-` |
-| [Carrousel](https://adobe.com/go/aem_cmp_tech_carousel_v1) | Permet à l’auteur de contenu d’organiser le contenu dans un carrousel de diapositives | `/libs/foundation/components/carousel` |
-| [Fragment de contenu](https://adobe.com/go/aem_cmp_tech_cf_v1) | Permet l’affichage d’un fragment de contenu | `-` |
-| [Liste de fragments de contenu](https://adobe.com/go/aem_cmp_tech_cflist_v1) | Permet l’affichage d’une liste de fragments de contenu | `-` |
-| [Séparateur](https://adobe.com/go/aem_cmp_tech_separator_v1) | Sépare le contenu d’une page | `-` |
+| [Image](https://adobe.com/go/aem_cmp_tech_image_v2_fr) | Chargement intelligent et différé de la taille optimale du rendu | `/libs/foundation/components/image /libs/foundation/components/adaptiveimage /libs/foundation/components/logo /libs/foundation/components/mobileimage  /libs/foundation/components/mobilelogo /libs/wcm/foundation/components/image` |
+| [Liste](https://adobe.com/go/aem_cmp_tech_list_v2_fr) | Liste des pages | `/libs/foundation/components/list /libs/foundation/components/mobilelist /libs/wcm/foundation/components/list` |
+| [Partage sur les réseaux sociaux](https://adobe.com/go/aem_cmp_tech_sharing_v1_fr) | Widget de partage Facebook et Pinterest | `-` |
+| [Conteneur de formulaires](https://adobe.com/go/aem_cmp_tech_form_container_v2_fr) | Système de paragraphe de formulaire réactif | `/libs/foundation/components/form/start /libs/foundation/components/form/end` |
+| [Texte du formulaire](https://adobe.com/go/aem_cmp_tech_form_text_v2_fr) | Champ de saisie de texte | `/libs/foundation/components/form/text /libs/foundation/components/form/password` |
+| [Options du formulaire](https://adobe.com/go/aem_cmp_tech_form_options_v2_fr) | Champ de saisie d’options multiples | `/libs/foundation/components/form/checkbox /libs/foundation/components/form/radio /libs/foundation/components/form/dropdown` |
+| [Formulaire masqué](https://adobe.com/go/aem_cmp_tech_form_hidden_v2_fr) | Champ de saisie masqué | `/libs/foundation/components/form/hidden` |
+| [Bouton de formulaire](https://adobe.com/go/aem_cmp_tech_form_button_v2_fr) | Bouton Envoyer ou personnalisé | `/libs/foundation/components/form/submit` |
+| [Navigation](https://adobe.com/go/aem_cmp_tech_navigation_v1_fr) | Composant de navigation sur le site qui répertorie la hiérarchie de la page imbriquée | `/libs/foundation/components/topnav /libs/foundation/components/mobiletopnav` |
+| [Navigation par langue](https://adobe.com/go/aem_cmp_tech_langnav_v1_fr) | Sélecteur de langue et de pays qui répertorie la structure de langue globale | `-` |
+| [Recherche rapide](https://adobe.com/go/aem_cmp_tech_search_v1_fr) | Composant de recherche qui affiche les résultats sous forme de suggestions sur place dans un menu déroulant | `/libs/foundation/components/search` |
+| [Teaser](https://adobe.com/go/aem_cmp_tech_teaser_v1_fr) | Permet à l’auteur de contenu de créer facilement un teaser vers un contenu supplémentaire à l’aide d’une image, d’un titre ou d’un texte enrichi et de lier un contenu supplémentaire ou d’effectuer d’autres actions | `-` |
+| [Onglets](https://adobe.com/go/aem_cmp_tech_tabs_v1_fr) | Permet à l’auteur de contenu d’organiser le contenu de la page dans plusieurs onglets | `-` |
+| [Carrousel](https://adobe.com/go/aem_cmp_tech_carousel_v1_fr) | Permet à l’auteur de contenu d’organiser le contenu dans un carrousel de diapositives | `/libs/foundation/components/carousel` |
+| [Fragment de contenu](https://adobe.com/go/aem_cmp_tech_cf_v1_fr) | Permet l’affichage d’un fragment de contenu | `-` |
+| [Liste de fragments de contenu](https://adobe.com/go/aem_cmp_tech_cflist_v1_fr) | Permet l’affichage d’une liste de fragments de contenu | `-` |
+| [Séparateur](https://adobe.com/go/aem_cmp_tech_separator_v1_fr) | Sépare le contenu d’une page | `-` |
 | [Accordéon](https://adobe.com/go/aem_cmp_tech_accordion_v1) | Organise les panneaux de contenu dans un accordéon réductible | `-` |
-| [Conteneur](https://adobe.com/go/aem_cmp_tech_container_v1) | Organise les composants dans un conteneur | `-` |
+| [Conteneur](https://adobe.com/go/aem_cmp_tech_container_v1_fr) | Organise les composants dans un conteneur | `-` |
 | [Bouton](https://adobe.com/go/aem_cmp_tech_button_v1) | Crée un bouton sur une page | `-` |
 | [Téléchargement](https://adobe.com/go/aem_cmp_tech_download_v1) | Ajoute une ressource téléchargeable à une page | `-` |
-| [Fragment d’expérience](https://adobe.com/go/aem_cmp_tech_xf_v1) | Ajout d’un fragment d’expérience à une page | `/libs/cq/experience-fragments/editor/components/experiencefragment` |
+| [Fragment d’expérience](https://adobe.com/go/aem_cmp_tech_xf_v1_fr) | Ajout d’un fragment d’expérience à une page | `/libs/cq/experience-fragments/editor/components/experiencefragment` |
 | [Incorporer](https://adobe.com/go/aem_cmp_tech_embed_v1) | Incorporation d’une ressource externe dans une page | - |
 | [Barre de progression](https://adobe.com/go/aem_cmp_tech_progress_v1) | Fournit une représentation visuelle de la progression par rapport à un objectif | - |
-| [Visionneuse PDF](https://adobe.com/go/aem_cmp_tech_pdfviewer_v1) | Présente un document PDF sur une page | - |
+| [Visionneuse PDF](https://adobe.com/go/aem_cmp_tech_pdfviewer_v1_fr) | Présente un document PDF sur une page | - |
 
 ### Composants à venir {#upcoming-components}
 
