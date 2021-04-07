@@ -2,12 +2,12 @@
 title: Composant d’image (v1)
 description: Le composant d’image des composants principaux est un composant d’image adaptatif qui permet d’effectuer des modifications statiques.
 index: n
-role: Architecte, Développeur, Administrateur, Professionnel
-translation-type: tm+mt
+role: Architecte, développeur, administrateur, professionnel
+translation-type: ht
 source-git-commit: d01a7576518ccf9f0effd12dfd8198854c6cd55c
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1234'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -193,7 +193,7 @@ Appuyez ou cliquez sur le bouton Ajouter pour ajouter une autre taille.
 * Utilisez les poignées de capture pour réorganiser l’ordre des tailles.
 * Utilisez l’icône Supprimer pour supprimer une largeur.
 
-Par défaut, le chargement des images est différé jusqu’à ce qu&#39;elles deviennent visibles. Sélectionnez l’option **Désactiver le chargement différé** pour charger les images au chargement de la page.
+Par défaut, le chargement des images est différé jusqu’à ce qu’elles deviennent visibles. Sélectionnez l’option **Désactiver le chargement différé** pour charger les images au chargement de la page.
 
 ### Fonctionnalités {#features}
 
@@ -209,9 +209,8 @@ Sur l’onglet **Fonctionnalités**, vous pouvez définir les options disponible
 
    ![](/help/assets/chlimage_1-20.png)
 
-   * **Rotation** : utilisez cette option pour permettre à l’auteur de contenu d’utiliser l&#39;option **Rotation à droite**.
-   * **Retourner**
-Utilisez cette option pour permettre à l’auteur de contenu d’appliquer 
+   * **Rotation** : utilisez cette option pour permettre à l’auteur de contenu d’utiliser l’option **Rotation à droite**.
+   * **Symétrie** : Utilisez cette option pour permettre à l’auteur de contenu d’appliquer 
 les options **Symétrie horizontale** et **Rotation verticale**.
    >[!CAUTION]
    >
