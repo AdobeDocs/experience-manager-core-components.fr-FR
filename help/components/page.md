@@ -1,15 +1,15 @@
 ---
 title: Composant de page
 description: Le composant de page est un composant de page extensible, conçu pour fonctionner avec l’éditeur de modèles et autoriser l’assemblage de composants d’en-tête/de pied de page et de structure à l’aide de l’éditeur de modèles.
-role: Architecte, Développeur, Administrateur, Professionnel
+role: Architect, Developer, Administrator, Business Practitioner
+exl-id: 2503e067-abed-427d-8a54-8b79e3451487
 translation-type: tm+mt
-source-git-commit: fa8ead438093681071b6b6f8ccfbba523f6d3bee
+source-git-commit: 8ff36ca143af9496f988b1ca65475497181def1d
 workflow-type: tm+mt
-source-wordcount: '696'
-ht-degree: 95%
+source-wordcount: '691'
+ht-degree: 96%
 
 ---
-
 
 # Composant de page {#page-component}
 
@@ -40,7 +40,7 @@ Pour plus d’informations sur les versions et les publications des composants p
 
 ### Détails techniques {#technical-details}
 
-La documentation technique la plus récente sur le composant Page [se trouve sur GitHub](https://adobe.com/go/aem_cmp_tech_page_v2).
+La documentation technique la plus récente sur le composant Page [se trouve sur GitHub](https://adobe.com/go/aem_cmp_tech_page_v2_fr).
 
 Vous trouverez plus d’informations sur le développement des composants principaux dans la [documentation destinée aux développeurs de composants principaux](/help/developing/overview.md).
 
