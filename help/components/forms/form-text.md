@@ -1,17 +1,17 @@
 ---
 title: Composant de texte de formulaire
 description: Le composant de texte de formulaire des composants principaux permet l’entrée de texte de formulaire pour envoi.
-role: Architecte, Développeur, Administrateur, Professionnel
-translation-type: tm+mt
+role: Architecte, développeur, administrateur, professionnel
+translation-type: ht
 source-git-commit: d01a7576518ccf9f0effd12dfd8198854c6cd55c
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '582'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
 
-# Composant de texte de formulaire{#form-text-component}
+# Composant de texte de formulaire {#form-text-component}
 
 Le composant de texte de formulaire des composants principaux permet l’entrée de texte de formulaire pour envoi.
 
@@ -34,11 +34,11 @@ Pour plus d’informations sur les versions et les publications des composants p
 
 ## Exemple de sortie de composant {#sample-component-output}
 
-Pour tester le composant de texte de formulaire et obtenir des exemples d’options de configuration, ainsi que des sorties HTML et JSON, consultez la [bibliothèque de composants](https://adobe.com/go/aem_cmp_library_form_text).
+Pour tester le composant de texte de formulaire et obtenir des exemples d’options de configuration, ainsi que des sorties HTML et JSON, consultez la [bibliothèque de composants](https://adobe.com/go/aem_cmp_library_form_text_fr).
 
 ### Détails techniques {#technical-details}
 
-La documentation technique la plus récente sur le composant de texte de formulaire [se trouve sur GitHub](https://adobe.com/go/aem_cmp_tech_form_text_v2).
+La documentation technique la plus récente sur le composant de texte de formulaire [se trouve sur GitHub](https://adobe.com/go/aem_cmp_tech_form_text_v2_fr).
 
 Vous trouverez plus d’informations sur le développement des composants principaux dans la [documentation destinée aux développeurs de composants principaux](/help/developing/overview.md).
 
@@ -68,7 +68,7 @@ La boîte de dialogue de configuration permet à l’auteur de contenu de défin
    * Si un ID est spécifié, il incombe à l’auteur de s’assurer qu’il est unique.
    * La modification de l’ID peut avoir un impact sur le suivi CSS, JS et de couche de données.
 
-### Onglet À propos {#about-tab}
+### Onglet À propos {#about-tab}
 
 ![Onglet À propos](/help/assets/form-text-edit-about.png)
 
@@ -82,7 +82,7 @@ La boîte de dialogue de configuration permet à l’auteur de contenu de défin
 * **Message de contrainte**
    * Message affiché sous forme d’info-bulle lors de l’envoi du formulaire si la valeur ne valide pas le type sélectionné
    * Non affiché pour les types de contraintes **Texte** et **Zone de texte**.
-* **Requis** : indique si l’utilisateur doit renseigner une valeur avant d’envoyer le formulaire.
+* **Obligatoire** : indique si l’utilisateur doit renseigner une valeur avant d’envoyer le formulaire.
    * **Message obligatoire** : message affiché sous forme d’info-bulle si le champ est vide.
 * **Rendre en lecture seule** : si cette option est sélectionnée, l’utilisateur ne peut pas modifier la valeur du champ.
 
