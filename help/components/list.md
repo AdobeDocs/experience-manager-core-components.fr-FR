@@ -1,12 +1,12 @@
 ---
 title: Composant Liste
 description: Le composant principal Liste permet de créer facilement des listes dynamiques et statiques.
-role: Architecte, Développeur, Administrateur, Professionnel
-translation-type: tm+mt
+role: Architecte, développeur, administrateur, professionnel
+translation-type: ht
 source-git-commit: d01a7576518ccf9f0effd12dfd8198854c6cd55c
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '984'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -38,7 +38,7 @@ Pour tester le composant de liste et obtenir des exemples d’options de configu
 
 ### Détails techniques {#technical-details}
 
-La documentation technique la plus récente sur le composant de liste [se trouve sur GitHub](https://adobe.com/go/aem_cmp_tech_list_v2).
+La documentation technique la plus récente sur le composant de liste [se trouve sur GitHub](https://adobe.com/go/aem_cmp_tech_list_v2_fr).
 
 Vous trouverez plus d’informations sur le développement des composants principaux dans la [documentation destinée aux développeurs de composants principaux](/help/developing/overview.md).
 
@@ -123,7 +123,7 @@ Quelle que soit la manière dont vous choisissez de créer la liste, certaines o
 
 ![Options de tri](/help/assets/list-edit-sort-options.png)
 
-* **Trier par**
+* **Classer par**
 Comment les éléments doivent être triés.
    * **Titre**
    * **Date de dernière modification**
@@ -181,7 +181,7 @@ Dans l’onglet **Paramètres d’élément**, les options de formatage des él�
 
 * **Lier des éléments**
 Activez l’option Lier des éléments dans la [boîte de dialogue de modification](#edit-dialog).
-* **Afficher les descriptions**
+* **Afficher la description**
 Activez l’option Afficher les descriptions dans la [boîte de dialogue de modification](#edit-dialog).
 * **Afficher la date**
 Activez l’option Afficher la date dans la [boîte de dialogue de modification](#edit-dialog).
