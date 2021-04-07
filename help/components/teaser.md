@@ -1,12 +1,12 @@
 ---
 title: Composant Teaser
 description: Le composant Teaser peut afficher une image, un titre, un texte enrichi et éventuellement un lien vers un contenu supplémentaire.
-role: Architecte, Développeur, Administrateur, Professionnel
-translation-type: tm+mt
+role: Architecte, développeur, administrateur, professionnel
+translation-type: ht
 source-git-commit: d01a7576518ccf9f0effd12dfd8198854c6cd55c
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '780'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -37,7 +37,7 @@ Pour tester le composant Teaser et obtenir des exemples de ses options de config
 
 ### Détails techniques {#technical-details}
 
-La documentation technique la plus récente sur le composant Teaser [se trouve sur GitHub](https://adobe.com/go/aem_cmp_tech_teaser_v1).
+La documentation technique la plus récente sur le composant Teaser [se trouve sur GitHub](https://adobe.com/go/aem_cmp_tech_teaser_v1_fr).
 
 Vous trouverez plus d’informations sur le développement des composants principaux dans la [documentation destinée aux développeurs de composants principaux](/help/developing/overview.md).
 
