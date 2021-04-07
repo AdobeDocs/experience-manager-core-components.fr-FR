@@ -5,9 +5,9 @@ type: Documentation
 description: Documentation relative aux composants principaux Adobe Experience Manager
 git-repo: https://git.corp.adobe.com/AdobeDocs/experience-manager-core-components.fr-FR
 index: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 290423c39b925ea8cf4077f31a76ecf01167f344
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '113'
 ht-degree: 100%
 
