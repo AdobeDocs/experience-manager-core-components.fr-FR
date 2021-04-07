@@ -1,19 +1,19 @@
 ---
 title: Instructions relatives aux composants
-description: Les composants principaux suivent des modèles d'implémentations modernes qui sont très différents des composants de base.
+description: Les composants principaux suivent des modèles d’implémentations modernes qui sont très différents des composants de base.
 role: Architecte, développeur, administrateur
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: d01a7576518ccf9f0effd12dfd8198854c6cd55c
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1262'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
 
 # Instructions relatives aux composants {#component-guidelines}
 
-Les [composants principaux](overview.md) suivent des modèles d&#39;implémentations modernes qui sont très différents des composants de base.
+Les [composants principaux](overview.md) suivent des modèles d’implémentations modernes qui sont très différents des composants de base.
 
 Cette page explique ces modèles et à quel moment les utiliser pour créer vos propres composants. La première section [Modèles généraux de composants](#general-component-patterns) s’applique à n’importe quel type de composant, tandis que la deuxième section [Modèles de composants réutilisables](#reusable-component-patterns) s’applique aux composants destinés à être réutilisés sur plusieurs sites ou projets, comme les composants principaux d’une instance.
 
@@ -31,7 +31,7 @@ Pour aller plus loin, si les composants sont réutilisés sur plusieurs sites ou
 
 ### Séparation des préoccupations {#separation-of-concerns}
 
-Le maintien de la logique (ou du modèle) d’un composant distinct du modèle de balisage (ou affichage) est généralement une bonne pratique. Il existe plusieurs méthodes pour obtenir ce résultat. Toutefois, il est recommandé d’utiliser des [modèles Sling](https://sling.apache.org/documentation/bundles/models.html) pour la logique et le [modèle de langage HTML](https://docs.adobe.com/content/help/en/experience-manager-htl/using/overview.html) (HTL) pour le balisage, comme le font aussi les composants principaux.
+Le maintien de la logique (ou du modèle) d’un composant distinct du modèle de balisage (ou affichage) est généralement une bonne pratique. Il existe plusieurs méthodes pour obtenir ce résultat. Toutefois, il est recommandé d’utiliser des [modèles Sling](https://sling.apache.org/documentation/bundles/models.html) pour la logique et le [modèle de langage HTML](https://docs.adobe.com/content/help/fr-FR/experience-manager-htl/using/overview.html) (HTL) pour le balisage, comme le font aussi les composants principaux.
 
 Les modèles Sling sont un ensemble d’annotations Java permettant d’accéder facilement aux variables nécessaires à partir des POJO. Ils offrent par conséquent une méthode simple, puissante et efficace pour implémenter la logique Java pour les composants.
 
@@ -82,7 +82,7 @@ Lorsqu’elle est combinée avec le [modèle de composant proxy](#proxy-componen
 
 ## Assemblage {#putting-it-all-together}
 
-Vous trouverez ci-dessous un aperçu de la structure entière de liaison de type de ressource, en prenant l’exemple du composant principal du titre. Il illustre la manière dont un composant proxy spécifique au site permet de résoudre le contrôle des composants, afin d’éviter que la ressource de contenu contienne un numéro de version. Il indique ensuite comment le fichier `title.html` [HTL](https://docs.adobe.com/content/help/en/experience-manager-htl/using/overview.html) du composant utilise l’interface du modèle, tandis que l’implémentation est liée à la version spécifique du composant via les annotations du [modèle Sling](https://sling.apache.org/documentation/bundles/models.html).
+Vous trouverez ci-dessous un aperçu de la structure entière de liaison de type de ressource, en prenant l’exemple du composant principal du titre. Il illustre la manière dont un composant proxy spécifique au site permet de résoudre le contrôle des composants, afin d’éviter que la ressource de contenu contienne un numéro de version. Il indique ensuite comment le fichier `title.html` [HTL](https://docs.adobe.com/content/help/fr-FR/experience-manager-htl/using/overview.html) du composant utilise l’interface du modèle, tandis que l’implémentation est liée à la version spécifique du composant via les annotations du [modèle Sling](https://sling.apache.org/documentation/bundles/models.html).
 
 ![Présentation de la liaison des ressources](/help/assets/chlimage_1-32.png)
 
