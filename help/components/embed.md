@@ -1,12 +1,12 @@
 ---
 title: Composant Incorporer
 description: Le composant Incorporer permet d’incorporer du contenu externe dans une page de contenu AEM.
-role: Architecte, Développeur, Administrateur, Professionnel
-translation-type: tm+mt
+role: Architecte, développeur, administrateur, professionnel
+translation-type: ht
 source-git-commit: d01a7576518ccf9f0effd12dfd8198854c6cd55c
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1346'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
