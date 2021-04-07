@@ -1,12 +1,12 @@
 ---
 title: Composant Fragment de contenu
 description: Le composant Fragment de contenu des composants principaux permet l’affichage d’un fragment de contenu.
-role: Architecte, Développeur, Administrateur, Professionnel
-translation-type: tm+mt
+role: Architecte, développeur, administrateur, professionnel
+translation-type: ht
 source-git-commit: d01a7576518ccf9f0effd12dfd8198854c6cd55c
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '678'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -21,7 +21,7 @@ Le composant Fragment de contenu des composants principaux permet l’affichage 
 
 ## Utilisation {#usage}
 
-Le composant de fragment de contenu des composants principaux permet d’inclure un [fragment de contenu](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/assets/content-fragments/content-fragments.html) sur une page.
+Le composant de fragment de contenu des composants principaux permet d’inclure un [fragment de contenu](https://docs.adobe.com/content/help/fr-FR/experience-manager-cloud-service/assets/content-fragments/content-fragments.html) sur une page.
 
 * Le fragment et ses propriétés peuvent être sélectionnés dans la [boîte de dialogue de configuration](#configure-dialog).
 * Les types de ressources qui permettent de gérer certaines images et grilles peuvent être définis dans la [boîte de dialogue de conception](#design-dialog).
@@ -57,7 +57,7 @@ Pour tester le composant de fragment de contenu et obtenir des exemples d’opti
 
 ## Détails techniques {#technical-details}
 
-La documentation technique la plus récente sur le composant Fragment de contenu [se trouve sur GitHub](https://adobe.com/go/aem_cmp_tech_cf_v1).
+La documentation technique la plus récente sur le composant Fragment de contenu [se trouve sur GitHub](https://adobe.com/go/aem_cmp_tech_cf_v1_fr).
 
 Vous trouverez plus d’informations sur le développement des composants principaux dans la [documentation destinée aux développeurs de composants principaux](/help/developing/overview.md).
 
