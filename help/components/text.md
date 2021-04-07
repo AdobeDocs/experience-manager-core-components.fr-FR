@@ -1,12 +1,12 @@
 ---
 title: Composant textuel
 description: Le composant Texte est un composant d’édition et de composition de texte enrichi qui propose une édition statique.
-role: Architecte, Développeur, Administrateur, Professionnel
-translation-type: tm+mt
+role: Architecte, développeur, administrateur, professionnel
+translation-type: ht
 source-git-commit: d01a7576518ccf9f0effd12dfd8198854c6cd55c
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2218'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -40,7 +40,7 @@ Pour tester le composant de texte et obtenir des exemples d’options de configu
 
 ### Détails techniques {#technical-details}
 
-La documentation technique la plus récente sur le composant Texte [se trouve sur GitHub](https://adobe.com/go/aem_cmp_tech_text_v2).
+La documentation technique la plus récente sur le composant Texte [se trouve sur GitHub](https://adobe.com/go/aem_cmp_tech_text_v2_fr).
 
 Vous trouverez plus d’informations sur le développement des composants principaux dans la [documentation destinée aux développeurs de composants principaux](/help/developing/overview.md).
 
@@ -52,7 +52,7 @@ Le reste de cet article illustre la configuration standard du composant principa
 
 >[!NOTE]
 >
->Seules les options activées par [les configurations de l’interface utilisateur de l’éditeur de texte enrichi](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/implementing/configuring-and-extending/configure-rich-text-editor-plug-ins.html) sont disponibles dans le composant Texte.
+>Seules les options activées par [les configurations de l’interface utilisateur de l’éditeur de texte enrichi](https://docs.adobe.com/content/help/fr-FR/experience-manager-cloud-service/implementing/configuring-and-extending/configure-rich-text-editor-plug-ins.html) sont disponibles dans le composant Texte.
 
 ## Boîte de dialogue de modification {#edit-dialog}
 
@@ -151,7 +151,7 @@ Utilisez cette option pour rechercher le texte d’occurrence d’une chaîne de
 ![Exemple de recherche](/help/assets/text-find-example.png)
 
 Entrez le texte pour lequel vous souhaitez effectuer des recherches et appuyez ou cliquez sur **Rechercher** pour lancer la recherche. Appuyez ou cliquez sur le x pour annuler.
-Si vous souhaitez effectuer une correspondance exacte, sélectionnez l’option **Correspondance avec la casse** avant de lancer la recherche.
+Si vous souhaitez effectuer une correspondance exacte, sélectionnez l’option **Respecter la casse** avant de lancer la recherche.
 Si une correspondance est trouvée, elle est mise en surbrillance et le dialogue de recherche est grisé. Appuyez ou cliquez à nouveau sur le bouton **Rechercher** dans la boîte de dialogue grisée pour rechercher l’occurrence suivante.
 
 ![Exemple de recherche fructueuse](/help/assets/text-find-example-found.png)
@@ -171,7 +171,7 @@ Utilisez cette option pour rechercher dans le texte des occurrences d’une cha�
 Entrez le texte à rechercher ainsi que le texte avec lequel le remplacer.
 
 * Appuyez ou cliquez sur **Rechercher** pour lancer la recherche. Cliquez ou appuyez sur le x pour annuler.
-* Si vous souhaitez effectuer une correspondance exacte, sélectionnez l’option **Correspondance avec la casse** avant de lancer la recherche.
+* Si vous souhaitez effectuer une correspondance exacte, sélectionnez l’option **Respecter la casse** avant de lancer la recherche.
 * Sélectionnez **Tout remplacer** pour remplacer toutes les occurrences du texte à la fois.
 
 Si une correspondance est trouvée, elle est mise en surbrillance et le dialogue de recherche est grisé. Cliquez à nouveau sur le bouton **Rechercher** dans la boîte de dialogue grisée pour rechercher l’occurrence suivante ou sélectionner le bouton **Remplacer** pour remplacer le texte mis en surbrillance. Notez que le bouton **Remplacer** n’est actif qu’une fois qu’une correspondance est trouvée.
@@ -259,7 +259,7 @@ Utilisé pour insérer un tableau dans le texte. Cette option permet d’ouvrir 
 
 Permet de vérifier l’orthographe du contenu du texte. Les fautes de frappe possibles sont soulignées avec des lignes rouges rompues.
 
-Vous trouverez plus d’informations sur la vérification orthographique et la personnalisation des dictionnaires orthographiques dans le document [Configuration des modules de l’éditeur de texte enrichi](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/implementing/configuring-and-extending/configure-rich-text-editor-plug-ins.html).
+Vous trouverez plus d’informations sur la vérification orthographique et la personnalisation des dictionnaires orthographiques dans le document [Configuration des modules de l’éditeur de texte enrichi](https://docs.adobe.com/content/help/fr-FR/experience-manager-cloud-service/implementing/configuring-and-extending/configure-rich-text-editor-plug-ins.html).
 
 ### Caractères spéciaux {#special-characters}
 
