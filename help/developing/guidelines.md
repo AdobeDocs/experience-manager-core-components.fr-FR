@@ -1,15 +1,15 @@
 ---
 title: Instructions relatives aux composants
 description: Les composants principaux suivent des modèles d’implémentations modernes qui sont très différents des composants de base.
-role: Architecte, développeur, administrateur
-translation-type: ht
-source-git-commit: d01a7576518ccf9f0effd12dfd8198854c6cd55c
-workflow-type: ht
-source-wordcount: '1262'
-ht-degree: 100%
+role: Architect, Developer, Administrator
+exl-id: e8c58fa5-c991-433c-8d38-575dacfc3433
+translation-type: tm+mt
+source-git-commit: b5b77f21cbeaa46622cef85f3bbaa549f17f1a06
+workflow-type: tm+mt
+source-wordcount: '1272'
+ht-degree: 98%
 
 ---
-
 
 # Instructions relatives aux composants {#component-guidelines}
 
@@ -53,6 +53,10 @@ Comme chaque ressource de contenu possède une propriété `sling:resourceType` 
 
 Toutefois, pour que les composants spécifiques au projet ne dupliquent aucun code, chacun d’entre eux doit faire référence au composant parent partagé avec la propriété `sling:resourceSuperType`. Ces composants spécifiques au projet qui font principalement référence aux composants parents sont appelés « composants proxy ». Les composants proxy peuvent être complètement vides s’ils héritent entièrement de la fonctionnalité ou ils peuvent redéfinir certains aspects du composant.
 
+>[!TIP]
+>
+>Voir [Utilisation des composants principaux](/help/get-started/using.md#create-proxy-components) pour en savoir plus sur la création de composants proxy.
+
 ### Contrôle de version des composants {#component-versioning}
 
 Les composants doivent être maintenus entièrement compatibles. Toutefois, des modifications qui ne peuvent pas être toujours compatibles sont parfois nécessaires. Une solution à ces besoins contradictoires consiste à introduire le contrôle de version des composants en ajoutant un numéro dans leur chemin d’accès au type de ressource et dans les noms complets de classe Java de leurs implémentations. Ce numéro de version représente une version majeure définie par les [directives de contrôle de version sémantique](https://semver.org/), qui n’est incrémentée que pour les modifications non rétrocompatibles.
@@ -82,7 +86,7 @@ Lorsqu’elle est combinée avec le [modèle de composant proxy](#proxy-componen
 
 ## Assemblage {#putting-it-all-together}
 
-Vous trouverez ci-dessous un aperçu de la structure entière de liaison de type de ressource, en prenant l’exemple du composant principal du titre. Il illustre la manière dont un composant proxy spécifique au site permet de résoudre le contrôle des composants, afin d’éviter que la ressource de contenu contienne un numéro de version. Il indique ensuite comment le fichier `title.html` [HTL](https://docs.adobe.com/content/help/fr-FR/experience-manager-htl/using/overview.html) du composant utilise l’interface du modèle, tandis que l’implémentation est liée à la version spécifique du composant via les annotations du [modèle Sling](https://sling.apache.org/documentation/bundles/models.html).
+Vous trouverez ci-dessous un aperçu de la structure entière de liaison de type de ressource, en prenant l’exemple du composant principal du titre. Il illustre la manière dont un composant proxy spécifique au site permet de résoudre le contrôle des composants, afin d’éviter que la ressource de contenu contienne un numéro de version. Il indique ensuite comment le fichier `title.html` [HTL](https://docs.adobe.com/content/help/en/experience-manager-htl/using/overview.html) du composant utilise l’interface du modèle, tandis que l’implémentation est liée à la version spécifique du composant via les annotations du [modèle Sling](https://sling.apache.org/documentation/bundles/models.html).
 
 ![Présentation de la liaison des ressources](/help/assets/chlimage_1-32.png)
 
