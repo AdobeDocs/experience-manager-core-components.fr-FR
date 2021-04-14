@@ -1,15 +1,15 @@
 ---
 title: Personnalisation des composants principaux
 description: Les composants principaux implémentent plusieurs modèles permettant une personnalisation facile, depuis l’application d’un style simple jusqu’à la réutilisation de fonctionnalités avancées.
-role: Architecte, développeur, administrateur
-translation-type: ht
-source-git-commit: d01a7576518ccf9f0effd12dfd8198854c6cd55c
-workflow-type: ht
-source-wordcount: '1109'
-ht-degree: 100%
+role: Architect, Developer, Administrator
+exl-id: ec4b918b-bc70-4d72-ba84-a24556aedb41
+translation-type: tm+mt
+source-git-commit: b5b77f21cbeaa46622cef85f3bbaa549f17f1a06
+workflow-type: tm+mt
+source-wordcount: '1106'
+ht-degree: 97%
 
 ---
-
 
 # Personnalisation des composants principaux {#customizing-core-components}
 
@@ -105,7 +105,7 @@ Pour plus d’informations sur le modèle de délégation, reportez-vous à l’
 
 L’application d’un style avancé requiert parfois une structure de balisage différente du composant.
 
-Cela peut facilement être réalisé en copiant les fichiers HTL qui doivent être modifiés du composant principal vers le composant proxy.
+Pour ce faire, il vous suffit de copier les fichiers HTL qui doivent être modifiés à partir du composant principal dans le composant proxy [.](guidelines.md#proxy-component-pattern)
 
 En reprenant l’exemple du composant principal de chemin de navigation, pour personnaliser sa sortie de balisage, le fichier `breadcrumb.html` doit être copié dans le composant spécifique au site qui possède un `sling:resourceSuperTypes` pointant vers le composant principal de chemin de navigation.
 
@@ -153,7 +153,7 @@ Comme pour tout composant AEM, il existe un certain nombre d’éléments à pre
 
 1. **Consultez régulièrement les fonctionnalités obsolètes et supprimées.**
 
-   Avec chaque nouvelle version d’AEM vers laquelle est effectuée une mise à niveau, vérifiez que toutes les API utilisées sont toujours d’actualité en gardant un œil sur la page [Fonctionnalités obsolètes et supprimées](https://docs.adobe.com/content/help/fr-FR/experience-manager-cloud-service/release-notes/deprecated-removed-features.html).
+   Avec chaque nouvelle version d’AEM vers laquelle est effectuée une mise à niveau, vérifiez que toutes les API utilisées sont toujours d’actualité en gardant un œil sur la page [Fonctionnalités obsolètes et supprimées](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/release-notes/deprecated-removed-features.html).
 
 Consultez aussi la section [Prise en charge des composants principaux](overview.md#core-component-support).
 
