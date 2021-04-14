@@ -4,10 +4,10 @@ description: 'Les composants principaux fournissent des composants de base solid
 role: Architect, Developer, Administrator, Business Practitioner
 exl-id: d294db22-4cb0-48a4-9366-03fda5b8bb8e
 translation-type: tm+mt
-source-git-commit: 8ff36ca143af9496f988b1ca65475497181def1d
+source-git-commit: b5b77f21cbeaa46622cef85f3bbaa549f17f1a06
 workflow-type: tm+mt
-source-wordcount: '889'
-ht-degree: 100%
+source-wordcount: '936'
+ht-degree: 94%
 
 ---
 
@@ -118,3 +118,9 @@ Pour connaître les exigences des versions précédentes des composants principa
 Les composants principaux nécessitent l’utilisation de [modèles modifiables](https://docs.adobe.com/content/help/fr-FR/experience-manager-learn/sites/page-authoring/template-editor-feature-video-use.html) et ne prennent pas en charge l’interface utilisateur classique ni les modèles statiques. Si nécessaire, consultez les [outils de modernisation d’AEM](https://opensource.adobe.com/aem-modernize-tools/pages/tools.html) pour mettre à jour votre projet avec ces fonctionnalités modernes d’AEM.
 
 Pour configurer votre environnement de développement local, consultez [cet aperçu du SDK AEM as a Cloud Service](https://docs.adobe.com/content/help/fr-FR/experience-manager-learn/cloud-service/local-development-environment-set-up/overview.html) ou ce document [pour les versions plus anciennes d’AEM](https://docs.adobe.com/content/help/fr-FR/experience-manager-learn/foundation/development/set-up-a-local-aem-development-environment.html).
+
+>[!TIP]
+>
+>Les composants principaux font automatiquement partie de l&#39;AEM en tant que Cloud Service et vous disposez toujours de la dernière version des composants principaux.
+>
+>Consultez le document [Utilisation des composants principaux](/help/get-started/using.md) pour plus d’informations sur la façon de commencer à utiliser les composants principaux dans AEMaaCS et sur site.
