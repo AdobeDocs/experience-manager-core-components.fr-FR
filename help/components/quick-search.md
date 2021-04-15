@@ -1,15 +1,15 @@
 ---
 title: Composant Recherche rapide
 description: Le composant Recherche rapide fournit des fonctionnalités de recherche à un site web et présente les résultats de recherche afin que les visiteurs puissent effectuer des recherches sur le site et filtrer les résultats.
-role: Architecte, développeur, administrateur, professionnel
-translation-type: ht
-source-git-commit: d01a7576518ccf9f0effd12dfd8198854c6cd55c
-workflow-type: ht
-source-wordcount: '597'
-ht-degree: 100%
+role: Architect, Developer, Administrator, Business Practitioner
+exl-id: fc40ce1d-e69a-4a40-853e-67a37228271b
+translation-type: tm+mt
+source-git-commit: 72b8864a5dca24b938cecd808ab4cdededb1abec
+workflow-type: tm+mt
+source-wordcount: '614'
+ht-degree: 96%
 
 ---
-
 
 # Composant Recherche rapide {#quick-search-component}
 
@@ -54,6 +54,10 @@ La boîte de dialogue de modification permet à l’auteur de contenu de défini
    * Si rien n’est indiqué, un ID unique est généré automatiquement et peut être trouvé en examinant la page obtenue.
    * Si un ID est spécifié, il incombe à l’auteur de s’assurer qu’il est unique.
    * La modification de l’ID peut avoir un impact sur le suivi CSS, JS et de couche de données.
+
+>[!NOTE]
+>
+>Si **Racine de la recherche** n&#39;est pas configurée ou ne peut pas être résolue, la recherche rapide effectue par défaut une recherche sous la page active.
 
 ## Boîte de dialogue de conception {#design-dialog}
 
