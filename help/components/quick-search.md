@@ -4,10 +4,10 @@ description: Le composant Recherche rapide fournit des fonctionnalités de reche
 role: Architect, Developer, Administrator, Business Practitioner
 exl-id: fc40ce1d-e69a-4a40-853e-67a37228271b
 translation-type: tm+mt
-source-git-commit: 72b8864a5dca24b938cecd808ab4cdededb1abec
+source-git-commit: 6eff0c8584605e034fc6516416783715fce10095
 workflow-type: tm+mt
 source-wordcount: '614'
-ht-degree: 96%
+ht-degree: 93%
 
 ---
 
@@ -50,7 +50,7 @@ La boîte de dialogue de modification permet à l’auteur de contenu de défini
 ![Boîte de dialogue de modification du composant Recherche rapide](/help/assets/quick-search-edit.png)
 
 **Rechercher à la racine** - Page racine d’où lancer la recherche. Rechercher à la racine peut être un gabarit principal, une page principale ou une page normale.
-* **ID** : cette option permet de contrôler l’identifiant unique du composant dans le code HTML ainsi que dans la [couche de données](/help/developing/data-layer/overview.md).
+* **ID**  : cette option permet de contrôler l&#39;identifiant unique du composant dans le code HTML et dans la couche de  [données.](/help/developing/data-layer/overview.md)
    * Si rien n’est indiqué, un ID unique est généré automatiquement et peut être trouvé en examinant la page obtenue.
    * Si un ID est spécifié, il incombe à l’auteur de s’assurer qu’il est unique.
    * La modification de l’ID peut avoir un impact sur le suivi CSS, JS et de couche de données.
