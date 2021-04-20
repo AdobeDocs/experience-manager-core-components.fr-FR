@@ -1,7 +1,7 @@
 ---
 title: Composant de bouton
 description: Le composant de bouton des composants principaux permet de créer et d’afficher un bouton.
-role: Architecte, développeur, administrateur, professionnel
+role: Architect, Developer, Administrator, Business Practitioner
 translation-type: ht
 source-git-commit: d01a7576518ccf9f0effd12dfd8198854c6cd55c
 workflow-type: ht

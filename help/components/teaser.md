@@ -1,7 +1,7 @@
 ---
 title: Composant Teaser
 description: Le composant Teaser peut afficher une image, un titre, un texte enrichi et éventuellement un lien vers un contenu supplémentaire.
-role: Architecte, développeur, administrateur, professionnel
+role: Architect, Developer, Administrator, Business Practitioner
 translation-type: ht
 source-git-commit: d01a7576518ccf9f0effd12dfd8198854c6cd55c
 workflow-type: ht

@@ -1,8 +1,8 @@
 ---
 title: Utilisation de la couche de données client Adobe avec les composants principaux
 description: Utilisation de la couche de données client Adobe avec les composants principaux
-feature: Composants principaux, couche de données client Adobe
-role: Architecte, développeur, administrateur
+feature: Core Components, Adobe Client Data Layer
+role: Architect, Developer, Administrator
 translation-type: ht
 source-git-commit: d01a7576518ccf9f0effd12dfd8198854c6cd55c
 workflow-type: ht

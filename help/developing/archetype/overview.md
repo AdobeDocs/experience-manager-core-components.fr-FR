@@ -1,8 +1,8 @@
 ---
 title: Archétype de projet AEM
 description: Modèle de projet pour les applications basées sur AEM
-feature: Composants principaux, archétype de projet AEM
-role: Architecte, développeur, administrateur
+feature: Core Components, AEM Project Archetype
+role: Architect, Developer, Administrator
 translation-type: ht
 source-git-commit: 0e737fc766225e00c6d9f5a4c2240e05b49a9a62
 workflow-type: ht

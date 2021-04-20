@@ -1,7 +1,7 @@
 ---
 title: Composant Visionneuse PDF
 description: Le composant Visionneuse PDF permet l’affichage d’un document PDF.
-role: Architecte, développeur, administrateur, professionnel
+role: Architect, Developer, Administrator, Business Practitioner
 translation-type: ht
 source-git-commit: d01a7576518ccf9f0effd12dfd8198854c6cd55c
 workflow-type: ht

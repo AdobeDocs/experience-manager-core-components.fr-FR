@@ -1,8 +1,8 @@
 ---
 title: Génération front-end pour les applications monopage React
 description: Description du processus de génération front-end pour les projets d’application monopage React
-feature: Composants principaux, archétype de projet AEM
-role: Architecte, développeur, administrateur
+feature: Core Components, AEM Project Archetype
+role: Architect, Developer, Administrator
 translation-type: ht
 source-git-commit: d01a7576518ccf9f0effd12dfd8198854c6cd55c
 workflow-type: ht

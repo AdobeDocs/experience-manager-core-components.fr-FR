@@ -1,7 +1,7 @@
 ---
 title: Composant Partage sur les réseaux sociaux
 description: Le composant Partage sur les réseaux sociaux des composants principaux est un widget permettant de partager des contenus sur Facebook et Pinterest.
-role: Architecte, développeur, administrateur, professionnel
+role: Architect, Developer, Administrator, Business Practitioner
 translation-type: ht
 source-git-commit: d01a7576518ccf9f0effd12dfd8198854c6cd55c
 workflow-type: ht

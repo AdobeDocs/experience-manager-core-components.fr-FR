@@ -1,7 +1,7 @@
 ---
 title: Composant de conteneur
 description: Le composant de conteneur des composants principaux permet la création d’un conteneur pour plusieurs autres composants sur une page.
-role: Architecte, développeur, administrateur, professionnel
+role: Architect, Developer, Administrator, Business Practitioner
 translation-type: ht
 source-git-commit: d01a7576518ccf9f0effd12dfd8198854c6cd55c
 workflow-type: ht

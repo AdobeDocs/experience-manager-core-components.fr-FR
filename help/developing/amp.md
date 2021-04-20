@@ -1,7 +1,7 @@
 ---
 title: Prise en charge d’AMP par les composants principaux
 description: Les composants principaux prennent en charge les pages mobiles accélérées (AMP).
-role: Architecte, développeur, administrateur
+role: Architect, Developer, Administrator
 translation-type: ht
 source-git-commit: d01a7576518ccf9f0effd12dfd8198854c6cd55c
 workflow-type: ht

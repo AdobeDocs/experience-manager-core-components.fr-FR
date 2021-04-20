@@ -1,7 +1,7 @@
 ---
 title: Composant du carrousel
 description: Le composant du carrousel permet à l’auteur de contenu de présenter le contenu dans un carrousel rotatif.
-role: Architecte, développeur, administrateur, professionnel
+role: Architect, Developer, Administrator, Business Practitioner
 translation-type: ht
 source-git-commit: d01a7576518ccf9f0effd12dfd8198854c6cd55c
 workflow-type: ht

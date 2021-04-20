@@ -1,8 +1,8 @@
 ---
 title: Intégrations et couche de données client Adobe
 description: Découvrez comment la couche de données client Adobe peut s’intégrer à vos composants personnalisés et comment les intégrations avec Adobe Analytics et Adobe Target peuvent vous aider à obtenir des informations sur votre site web
-feature: Composants principaux, couche de données client Adobe
-role: Architecte, développeur, administrateur
+feature: Core Components, Adobe Client Data Layer
+role: Architect, Developer, Administrator
 translation-type: ht
 source-git-commit: d01a7576518ccf9f0effd12dfd8198854c6cd55c
 workflow-type: ht
