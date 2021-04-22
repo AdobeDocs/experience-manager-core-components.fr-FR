@@ -1,16 +1,16 @@
 ---
 title: Utilisation de l’archétype de projet AEM
 description: Instructions d’utilisation détaillées pour l’archétype de projet AEM
-feature: Core Components, AEM Project Archetype
+feature: Composants principaux, archétype de projet AEM
 role: Architect, Developer, Administrator
+exl-id: a3978d8b-4904-42aa-9ee2-9c1f884327bb
 translation-type: ht
-source-git-commit: d01a7576518ccf9f0effd12dfd8198854c6cd55c
+source-git-commit: 8ff36ca143af9496f988b1ca65475497181def1d
 workflow-type: ht
-source-wordcount: '2072'
+source-wordcount: '2069'
 ht-degree: 100%
 
 ---
-
 
 # Archétype de projet AEM {#aem-project-archetype}
 
