@@ -2,14 +2,14 @@
 title: Composant Onglets
 description: Le composant Onglets permet la création de plusieurs onglets pour disposer le contenu sur une page.
 role: Architect, Developer, Administrator, Business Practitioner
+exl-id: 0031c5f3-447c-4932-898f-2f453801e492
 translation-type: ht
-source-git-commit: d01a7576518ccf9f0effd12dfd8198854c6cd55c
+source-git-commit: 8ff36ca143af9496f988b1ca65475497181def1d
 workflow-type: ht
-source-wordcount: '1045'
+source-wordcount: '1040'
 ht-degree: 100%
 
 ---
-
 
 # Composant Onglets {#tabs-component}
 
