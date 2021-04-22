@@ -2,14 +2,14 @@
 title: Fonctions de localisation des composants principaux
 description: Fonctions de localisation des composants principaux
 role: Architect, Developer, Administrator, Business Practitioner
+exl-id: 9140b65a-6dd7-4ec9-9095-6e8243ec8424
 translation-type: ht
-source-git-commit: d01a7576518ccf9f0effd12dfd8198854c6cd55c
+source-git-commit: 8ff36ca143af9496f988b1ca65475497181def1d
 workflow-type: ht
-source-wordcount: '730'
+source-wordcount: '725'
 ht-degree: 100%
 
 ---
-
 
 # Fonctions de localisation des composants principaux {#localization-features-of-the-core-components}
 
@@ -76,7 +76,7 @@ Comme notre site Web hypothétique est offert en anglais et en français, nous d
 
 Comme le pied de page s’affiche sur chaque page, nous devrons ajouter le fragment d’expérience à notre modèle de page standard.
 
-Notre modèle est simplement appelé `my-template` et se trouve avec nos autres modèles :
+Notre modèle est simplement appelé `my-template` et se trouve avec nos autres modèles :
 
 ```
 /conf/my-site/settings/wcm/templates/my-template
