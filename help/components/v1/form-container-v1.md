@@ -3,14 +3,14 @@ title: Composant de conteneur de formulaires (v1)
 description: Le composant de conteneur de formulaires des composants principaux permet la création de formulaires d’envoi simples.
 index: n
 role: Architect, Developer, Administrator, Business Practitioner
+exl-id: 1e34219f-fa82-494e-82e2-1b4d63d37fea
 translation-type: ht
-source-git-commit: d01a7576518ccf9f0effd12dfd8198854c6cd55c
+source-git-commit: 8ff36ca143af9496f988b1ca65475497181def1d
 workflow-type: ht
-source-wordcount: '643'
+source-wordcount: '638'
 ht-degree: 100%
 
 ---
-
 
 # Composant de conteneur de formulaires (v1) {#form-container-component-v1}
 
@@ -105,7 +105,7 @@ L’utilisateur est redirigé vers la page spécifiée une fois l’envoi du for
 
 ## Boîte de dialogue de conception {#design-dialog}
 
-La boîte de dialogue de conception permet à l’auteur du modèle de définir les composants autorisés et leurs mappages pour le conteneur similaires à la boîte de dialogue de conception du [conteneur de mises en page standard dans l’éditeur de modèles](https://helpx.adobe.com/experience-manager/6-4/sites/authoring/using/templates.html#main-pars_title_1754153843).
+La boîte de dialogue de conception permet à l’auteur du modèle de définir les composants autorisés et leurs mappages pour le conteneur similaires à la boîte de dialogue de conception du [conteneur de mises en page standard dans l’éditeur de modèles](https://helpx.adobe.com/fr/experience-manager/6-4/sites/authoring/using/templates.html#main-pars_title_1754153843).
 
 ## Détails techniques {#technical-details}
 
