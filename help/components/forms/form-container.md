@@ -2,14 +2,14 @@
 title: Composant de conteneur de formulaires
 description: Le composant de conteneur de formulaires des composants principaux permet la création de formulaires d’envoi simples.
 role: Architect, Developer, Administrator, Business Practitioner
+exl-id: 552f9dd5-6a3a-42d9-9969-e62a1f36e811
 translation-type: ht
-source-git-commit: d01a7576518ccf9f0effd12dfd8198854c6cd55c
+source-git-commit: 8ff36ca143af9496f988b1ca65475497181def1d
 workflow-type: ht
-source-wordcount: '961'
+source-wordcount: '956'
 ht-degree: 100%
 
 ---
-
 
 # Composant de conteneur de formulaires {#form-container-component}
 
