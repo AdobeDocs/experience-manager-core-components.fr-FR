@@ -7,7 +7,7 @@ translation-type: tm+mt
 source-git-commit: b01fdc7ab6b4d4bb4200d28aaa3706c58ccdea9f
 workflow-type: tm+mt
 source-wordcount: '1591'
-ht-degree: 90%
+ht-degree: 91%
 
 ---
 
@@ -72,7 +72,7 @@ Comme tout autre projet AEMaaCS, vous devrez également ajouter une dépendance 
 </dependency>
 ```
 
-Pour plus d’informations sur les projets AEMaaCS, voir le document [AEM Structure du projet](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/developing/aem-project-content-package-structure.html).
+Pour plus d’informations sur les projets AEMaaCS, voir le document [AEM Structure du projet](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/developing/aem-project-content-package-structure.html?lang=fr).
 
 ## Prise en charge des composants principaux {#core-component-support}
 
