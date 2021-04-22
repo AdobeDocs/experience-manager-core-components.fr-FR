@@ -3,14 +3,14 @@ title: Composant Texte (v1)
 description: Le composant Texte est un composant d’édition et de composition de texte enrichi qui propose une édition statique.
 index: n
 role: Architect, Developer, Administrator, Business Practitioner
+exl-id: c9fe3052-a33d-412e-9456-52c9a0cea292
 translation-type: ht
-source-git-commit: d01a7576518ccf9f0effd12dfd8198854c6cd55c
+source-git-commit: 8ff36ca143af9496f988b1ca65475497181def1d
 workflow-type: ht
-source-wordcount: '1662'
+source-wordcount: '1657'
 ht-degree: 100%
 
 ---
-
 
 # Composant Texte (v1) {#text-component-v}
 
