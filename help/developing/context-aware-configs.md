@@ -2,14 +2,14 @@
 title: Configurations basées sur le contexte Sling et composants principaux
 description: Les composants principaux tirent parti des configurations basées sur le contexte Sling pour certaines fonctionnalités
 role: Architect, Developer, Administrator
+exl-id: d35210f7-a65d-4768-ab9e-f12ec406da2d
 translation-type: ht
-source-git-commit: d01a7576518ccf9f0effd12dfd8198854c6cd55c
+source-git-commit: 8ff36ca143af9496f988b1ca65475497181def1d
 workflow-type: ht
-source-wordcount: '203'
+source-wordcount: '200'
 ht-degree: 100%
 
 ---
-
 
 # Configurations basées sur le contexte Sling et composants principaux {#sling-context-aware-configurations}
 
