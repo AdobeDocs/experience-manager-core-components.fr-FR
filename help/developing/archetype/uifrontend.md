@@ -1,16 +1,16 @@
 ---
 title: Version front-end de l’archétype de projet AEM
 description: Modèle de projet pour les applications basées sur AEM
-feature: Core Components, AEM Project Archetype
+feature: Composants principaux, archétype de projet AEM
 role: Architect, Developer, Administrator
+exl-id: 99132b49-bd06-4ac2-9348-12c0dfdfe8b2
 translation-type: ht
-source-git-commit: d01a7576518ccf9f0effd12dfd8198854c6cd55c
+source-git-commit: 8ff36ca143af9496f988b1ca65475497181def1d
 workflow-type: ht
-source-wordcount: '1628'
+source-wordcount: '1625'
 ht-degree: 100%
 
 ---
-
 
 # Module ui.frontend de l’archétype de projet AEM {#uifrontend-module}
 
