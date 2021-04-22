@@ -3,14 +3,14 @@ title: Composant d’image (v1)
 description: Le composant d’image des composants principaux est un composant d’image adaptatif qui permet d’effectuer des modifications statiques.
 index: n
 role: Architect, Developer, Administrator, Business Practitioner
+exl-id: 625ce8de-5c4a-476d-b749-895493d169b1
 translation-type: ht
-source-git-commit: d01a7576518ccf9f0effd12dfd8198854c6cd55c
+source-git-commit: 8ff36ca143af9496f988b1ca65475497181def1d
 workflow-type: ht
-source-wordcount: '1234'
+source-wordcount: '1229'
 ht-degree: 100%
 
 ---
-
 
 # Composant d’image (v1) {#image-component-v}
 
@@ -83,9 +83,9 @@ Outre la [boîte de dialogue de modification](#edit-dialog) et la [boîte de dia
 ![](/help/assets/chlimage_1-50.png)
 
 * **Ressource image**
-   * Déposez un fichier depuis l’[explorateur de ressources](https://helpx.adobe.com/experience-manager/6-3/sites/authoring/using/author-environment-tools.html#main-pars_title) ou appuyez sur l’option **parcourir** pour effectuer un téléchargement à partir d’un système de fichiers local.
+   * Déposez un fichier depuis l’[explorateur de ressources](https://helpx.adobe.com/fr/experience-manager/6-3/sites/authoring/using/author-environment-tools.html#main-pars_title) ou appuyez sur l’option **parcourir** pour effectuer un téléchargement à partir d’un système de fichiers local.
    * Appuyez ou cliquez sur **Effacer** pour désélectionner l’image actuellement sélectionnée.
-   * Appuyez ou cliquez sur **Modifier** pour [gérer les rendus de la ressource](https://helpx.adobe.com/experience-manager/6-3/assets/using/managing-assets-touch-ui.html#main-pars_title_19) dans l’éditeur de ressources.
+   * Appuyez ou cliquez sur **Modifier** pour [gérer les rendus de la ressource](https://helpx.adobe.com/fr/experience-manager/6-3/assets/using/managing-assets-touch-ui.html#main-pars_title_19) dans l’éditeur de ressources.
 
 * **L’image est décorative** : vérifiez si l’image doit être ignorée par les dispositifs d’assistance et ne requiert donc pas de texte de remplacement. Cela s’applique uniquement aux images décoratives.
 * **Texte de remplacement** : alternative textuelle de la signification ou de la fonction de l’image, pour les malvoyants.
