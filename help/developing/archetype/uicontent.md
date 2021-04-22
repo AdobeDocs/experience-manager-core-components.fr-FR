@@ -1,16 +1,16 @@
 ---
 title: Module ui.content de l’archétype de projet AEM
 description: Module ui.content de l’archétype de projet AEM
-feature: Core Components, AEM Project Archetype
+feature: Composants principaux, archétype de projet AEM
 role: Architect, Developer, Administrator
+exl-id: af019cd8-c733-4b53-bb57-321dd9451178
 translation-type: ht
-source-git-commit: d01a7576518ccf9f0effd12dfd8198854c6cd55c
+source-git-commit: 8ff36ca143af9496f988b1ca65475497181def1d
 workflow-type: ht
-source-wordcount: '226'
+source-wordcount: '223'
 ht-degree: 100%
 
 ---
-
 
 # Module ui.content de l’archétype de projet AEM {#uicontent-module}
 
