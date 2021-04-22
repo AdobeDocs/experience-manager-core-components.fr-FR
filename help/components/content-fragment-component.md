@@ -2,14 +2,14 @@
 title: Composant Fragment de contenu
 description: Le composant Fragment de contenu des composants principaux permet l’affichage d’un fragment de contenu.
 role: Architect, Developer, Administrator, Business Practitioner
+exl-id: 551ff2a1-f8db-490c-84a3-4255b364fc83
 translation-type: ht
-source-git-commit: d01a7576518ccf9f0effd12dfd8198854c6cd55c
+source-git-commit: 8ff36ca143af9496f988b1ca65475497181def1d
 workflow-type: ht
-source-wordcount: '678'
+source-wordcount: '673'
 ht-degree: 100%
 
 ---
-
 
 # Composant Fragment de contenu {#content-fragment-component}
 
