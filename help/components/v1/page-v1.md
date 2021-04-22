@@ -3,14 +3,14 @@ title: Composant Page (v1)
 description: Le composant de page est un composant de page extensible, conçu pour fonctionner avec l’éditeur de modèles et autoriser l’assemblage de composants d’en-tête/de pied de page et de structure de page avec l’éditeur de modèles.
 index: n
 role: Architect, Developer, Administrator, Business Practitioner
+exl-id: 522f32f0-fc06-4ca0-ada2-61bdbc8761e0
 translation-type: ht
-source-git-commit: d01a7576518ccf9f0effd12dfd8198854c6cd55c
+source-git-commit: 8ff36ca143af9496f988b1ca65475497181def1d
 workflow-type: ht
-source-wordcount: '495'
+source-wordcount: '490'
 ht-degree: 100%
 
 ---
-
 
 # Composant Page (v1) {#page-component-v}
 
@@ -683,7 +683,7 @@ Voici un exemple extrait de [We.Retail](https://helpx.adobe.com/fr/experience-ma
 
 ## Boîte de dialogue de modification {#edit-dialog}
 
-Étant donné que le composant représente la page entière, les paramètres qui seraient normalement dans une boîte de dialogue de modification se trouvent dans la fenêtre [Propriétés de la page](https://helpx.adobe.com/experience-manager/6-4/sites/authoring/using/editing-page-properties.html).
+Étant donné que le composant représente la page entière, les paramètres qui seraient normalement dans une boîte de dialogue de modification se trouvent dans la fenêtre [Propriétés de la page](https://helpx.adobe.com/fr/experience-manager/6-4/sites/authoring/using/editing-page-properties.html).
 
 ## Boîte de dialogue de conception {#design-dialog}
 
