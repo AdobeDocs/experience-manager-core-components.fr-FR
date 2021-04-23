@@ -3,17 +3,17 @@ title: Versions des composants principaux
 description: Les composants principaux sont publiés sous forme de versions qui peuvent contenir plusieurs versions des mêmes composants principaux. Ce document explique les versions et les mises à jour ainsi que comment comprendre la compatibilité avec les composants principaux et AEM.
 role: Architect, Developer, Administrator, Business Practitioner
 exl-id: 7d4dbe46-4013-4217-b815-cdb1462072c6
-translation-type: ht
-source-git-commit: 8ff36ca143af9496f988b1ca65475497181def1d
-workflow-type: ht
-source-wordcount: '2004'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: f151a70c5ff7db042d4e10adc7ed8a9752ea9c87
+workflow-type: tm+mt
+source-wordcount: '2034'
+ht-degree: 99%
 
 ---
 
 # Versions des composants principaux {#core-components-versions}
 
-La version actuelle des composants principaux est la version 2.15.2. Elle est compatible avec les installations [AEM as a Cloud Service](https://docs.adobe.com/content/help/fr-FR/experience-manager-cloud-service/landing/home.html) et [AEM On-Premise](https://docs.adobe.com/content/help/fr-FR/experience-manager-65/user-guide/home.html).
+La version actuelle des composants principaux est la version 2.16.0. Elle est compatible avec les installations [AEM as a Cloud Service](https://docs.adobe.com/content/help/fr-FR/experience-manager-cloud-service/landing/home.html) et [AEM On-Premise](https://docs.adobe.com/content/help/fr-FR/experience-manager-65/user-guide/home.html).
 
 ## Historique des versions et compatibilité {#release-history-and-compatibility}
 
@@ -27,6 +27,7 @@ Le tableau suivant, dont le contenu est [disponible sur GitHub avec les détails
 
 | Mise à jour | Description | AEM 6.4 | AEM 6.5 | AEM as a Cloud Service | Java | Date de publication |
 |---|---|---|---|---|---|---|
+| [2.16.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.16.0) | Cette version s’est concentrée sur les améliorations d’accessibilité et sur l’introduction d’un nouveau gestionnaire de liens aux composants existants. | 6.4.8.1+ * | 6.5.5.0+ * | Suite | 8, 11 | 22 avril 2021 |
 | [2.15.2](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.15.2) | Cette version de correctif corrigeait principalement des problèmes de compatibilité ascendante [de la couche de données](/help/developing/data-layer/overview.md) et de tests informatiques qui échouaient dans certaines situations. | 6.4.8.1+ * | 6.5.5.0+ * | Suite | 8, 11 | 16 mars 2021 |
 | [2.15.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.15.0) | Cette version comprend la prise en charge des applications web progressives dans le [composant Page](/help/components/page.md) ainsi que la version 2.0.0 de la [couche de données Adobe](/help/developing/data-layer/overview.md). | 6.4.8.1+ * | 6.5.5.0+ * | Suite | 8, 11 | 23 février 2021 |
 | [2.14.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.14.0) | Cette version comprend de nouvelles options pour le [composant Incorporer](/help/components/embed.md), introduit le slug de marque au niveau de la [page](/help/components/page.md), et corrige de nombreux problèmes. | 6.4.8.1+ * | 6.5.5.0+ * | Suite | 8, 11 | 9 février 2021 |
