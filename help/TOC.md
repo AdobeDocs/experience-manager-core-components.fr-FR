@@ -1,14 +1,14 @@
 ---
 sub-product: AEM Core Components
-user-guide-title: AEM Core Components
+user-guide-title: Composants principaux AEM
 breadcrumb-title: Guide des composants principaux
 user-guide-description: Utilisez les composants principaux extensibles pour permettre aux auteurs de créer facilement du contenu.
 feature-set: Experience Manager Sites
-translation-type: ht
-source-git-commit: d01a7576518ccf9f0effd12dfd8198854c6cd55c
-workflow-type: ht
-source-wordcount: '214'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: 74cbb94c35e7b62332f88245ed48c72d1ac07796
+workflow-type: tm+mt
+source-wordcount: '216'
+ht-degree: 99%
 
 ---
 
@@ -92,3 +92,4 @@ ht-degree: 100%
       + [Module ui.tests](developing/archetype/uitests.md)
       + [Module it.tests](developing/archetype/ittests.md)
       + [Plug-in Maven Build Analyzer](developing/archetype/build-analyzer-maven-plugin.md)
++ [Page masquée](hidden.md)
