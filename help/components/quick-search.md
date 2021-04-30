@@ -3,11 +3,11 @@ title: Composant Recherche rapide
 description: Le composant Recherche rapide fournit des fonctionnalités de recherche à un site web et présente les résultats de recherche afin que les visiteurs puissent effectuer des recherches sur le site et filtrer les résultats.
 role: Architect, Developer, Administrator, Business Practitioner
 exl-id: fc40ce1d-e69a-4a40-853e-67a37228271b
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 6eff0c8584605e034fc6516416783715fce10095
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '614'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
@@ -50,14 +50,14 @@ La boîte de dialogue de modification permet à l’auteur de contenu de défini
 ![Boîte de dialogue de modification du composant Recherche rapide](/help/assets/quick-search-edit.png)
 
 **Rechercher à la racine** - Page racine d’où lancer la recherche. Rechercher à la racine peut être un gabarit principal, une page principale ou une page normale.
-* **ID**  : cette option permet de contrôler l&#39;identifiant unique du composant dans le code HTML et dans la couche de  [données.](/help/developing/data-layer/overview.md)
+* **ID** : cette option permet de contrôler l’identifiant unique du composant dans le code HTML ainsi que dans la [couche de données](/help/developing/data-layer/overview.md).
    * Si rien n’est indiqué, un ID unique est généré automatiquement et peut être trouvé en examinant la page obtenue.
    * Si un ID est spécifié, il incombe à l’auteur de s’assurer qu’il est unique.
    * La modification de l’ID peut avoir un impact sur le suivi CSS, JS et de couche de données.
 
 >[!NOTE]
 >
->Si **Racine de la recherche** n&#39;est pas configurée ou ne peut pas être résolue, la recherche rapide effectue par défaut une recherche sous la page active.
+>Si la **Racine de la recherche** n’est pas configurée ou ne peut pas être résolue, la recherche rapide effectue par défaut une recherche sous la page active.
 
 ## Boîte de dialogue de conception {#design-dialog}
 
