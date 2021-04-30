@@ -3,11 +3,11 @@ title: Développement des composants principaux
 description: Les composants principaux fournissent des composants de base robustes et extensibles qui offrent de riches fonctionnalités, une diffusion en continu, un contrôle de version des composants, une mise en œuvre moderne, un balisage Lean et une exportation JSON de contenu.
 role: Architect, Developer, Administrator
 exl-id: 0f79cac1-a3b0-487e-90be-0bd8263d3912
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: b01fdc7ab6b4d4bb4200d28aaa3706c58ccdea9f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1591'
-ht-degree: 91%
+ht-degree: 100%
 
 ---
 
@@ -40,7 +40,7 @@ Les composants principaux sont puissants, flexibles et faciles à utiliser et pe
 
 Tout nouveau projet doit être implémenté avec les composants principaux. Toutefois, les projets existants disposent généralement de mises en œuvre étendues des composants de base.
 
-### Migration à partir des composants Foundation {#from-foundation}
+### Migration à partir des composants de base {#from-foundation}
 
 Un travail plus important sur un projet existant (par exemple une création de nouvelle image ou une restructuration globale) offre souvent une chance d’effectuer une migration vers les composants principaux. Pour faciliter cette migration, Adobe fournit un certain nombre d’outils de migration pour inciter l’adoption des composants principaux et de la dernière technologie AEM.
 
@@ -57,13 +57,13 @@ Pour plus d’informations sur l’utilisation de ces outils, [voir leur documen
 >
 >Les outils de modernisation AEM ont été créés par la communauté et ne sont pas pris en charge ni garantis par Adobe.
 
-## Migration par déplacement vers AEM en tant que Cloud Service {#via-aemaacs}
+## Migration par déplacement vers AEM as a Cloud Service {#via-aemaacs}
 
-Comme AEM en tant que Cloud Service est automatiquement doté de la dernière version des composants principaux, lorsque vous quittez une AEM d&#39;installation locale, vous devez supprimer toute dépendance aux composants principaux dans votre fichier de projets `pom.xml`.
+AEM as a Cloud Service incluant automatiquement la dernière version des composants principaux, lorsque vous effectuez une transition à partir d’une installation On-Premise d’AEM, vous devez supprimer toute dépendance aux composants principaux dans votre fichier de projet `pom.xml`.
 
-Les composants de proxy fonctionnent toujours comme avant, car   les proxies pointent vers le supertype nécessaire et le chemin d&#39;accès du supertype contient la version. De cette façon, la suppression simple de la dépendance permet aux composants principaux de fonctionner dans AEMaaCS comme ils le faisaient sur site.
+Les composants de proxy fonctionnent toujours comme avant, car les proxys pointent vers le supertype nécessaire et le chemin d’accès du supertype contient la version. Ainsi, la simple suppression de la dépendance permet aux composants principaux de fonctionner dans AEM as a Cloud Service comme ils le faisaient dans la version On-Premise.
 
-Comme tout autre projet AEMaaCS, vous devrez également ajouter une dépendance au fichier jar AEM SDK. Ce paramètre n’est pas spécifique aux composants principaux, mais il est nécessaire.
+Comme pour tout autre projet AEM as a Cloud Service, vous devrez ajouter une dépendance au fichier jar du SDK AEM. Cette étape est nécessaire même si elle n’est pas spécifique aux composants principaux.
 
 ```xml
 <dependency>
@@ -72,7 +72,7 @@ Comme tout autre projet AEMaaCS, vous devrez également ajouter une dépendance 
 </dependency>
 ```
 
-Pour plus d’informations sur les projets AEMaaCS, voir le document [AEM Structure du projet](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/developing/aem-project-content-package-structure.html?lang=fr).
+Pour plus d’informations sur les projets AEM as a Cloud Service, consultez le document [Structure de projet AEM](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/developing/aem-project-content-package-structure.html?lang=fr).
 
 ## Prise en charge des composants principaux {#core-component-support}
 
@@ -104,7 +104,7 @@ Pour plus d’informations sur leurs capacités de création et les options pour
 | Diffusion | [Via le site GitHub public](https://github.com/adobe/aem-core-wcm-components) | Via Quickstart |
 | Licence | [Licence Apache](https://www.apache.org/licenses/LICENSE-2.0) | Adobe propriétaire |
 | Contribution | Via une demande d’extraction | Impossible |
-| Accessibilité | Totalement conforme à la [norme WCAG 2.0 AA](https://docs.adobe.com/content/help/fr-FR/experience-manager-cloud-service/sites/authoring/fundamentals/accessible-content.html) | Partiellement conforme à la [norme WCAG 2.0 AA](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/sites/authoring/fundamentals/accessible-content.html) |
+| Accessibilité | Totalement conforme à la [norme WCAG 2.0 AA](https://docs.adobe.com/content/help/fr-FR/experience-manager-cloud-service/sites/authoring/fundamentals/accessible-content.html) | Partiellement conforme à la [norme WCAG 2.0 AA](https://docs.adobe.com/content/help/fr-FR/experience-manager-cloud-service/sites/authoring/fundamentals/accessible-content.html) |
 
 ## Liste des composants {#component-list}
 
