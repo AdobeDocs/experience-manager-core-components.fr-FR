@@ -7,7 +7,7 @@ translation-type: tm+mt
 source-git-commit: f151a70c5ff7db042d4e10adc7ed8a9752ea9c87
 workflow-type: tm+mt
 source-wordcount: '936'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
@@ -121,6 +121,6 @@ Pour configurer votre environnement de développement local, consultez [cet aper
 
 >[!TIP]
 >
->Les composants principaux font automatiquement partie de l&#39;AEM en tant que Cloud Service et vous disposez toujours de la dernière version des composants principaux.
+>Les composants principaux sont automatiquement intégrés à AEM as a Cloud Service et vous disposez toujours de la dernière version.
 >
->Consultez le document [Utilisation des composants principaux](/help/get-started/using.md) pour plus d’informations sur la façon de commencer à utiliser les composants principaux dans AEMaaCS et sur site.
+>Consultez le document [Utilisation des composants principaux](/help/get-started/using.md) pour obtenir plus d’informations sur la façon d’utiliser les composants principaux dans AEM as a Cloud Service et On-Premise.
