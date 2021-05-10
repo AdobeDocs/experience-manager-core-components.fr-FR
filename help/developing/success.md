@@ -3,11 +3,11 @@ title: Chemins vers la réussite avec les composants principaux
 description: Réussir la mise en œuvre de votre projet avec les composants principaux
 role: Architect, Developer, Administrator, Business Practitioner
 exl-id: 1ea8cd1c-8435-4ded-82dc-5a7896c53e0c
-translation-type: ht
-source-git-commit: 8ff36ca143af9496f988b1ca65475497181def1d
-workflow-type: ht
-source-wordcount: '570'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: 056c5bc15ac9e669c3bf6d5da7f060d6eef02608
+workflow-type: tm+mt
+source-wordcount: '564'
+ht-degree: 94%
 
 ---
 
@@ -41,7 +41,7 @@ Consultez la [bibliothèque de composants](https://adobe.com/go/aem_cmp_library_
 
 ### Utilisez le kit d’interface utilisateur pour Adobe XD {#ui-kit}
 
-Dès qu’un composant personnalisé s’avère nécessaire, utilisez le [kit d’interface utilisateur pour Adobe XD](https://docs.adobe.com/content/help/en/experience-manager-learn/getting-started-wknd-tutorial-develop/assets/overview/AEM_UI-kit_Wireframe.xd) afin que les concepteurs puissent commencer à créer les maquettes et les conceptions en se servant des composants principaux comme blocs de création.
+Dès qu’un composant personnalisé s’avère nécessaire, utilisez le [kit d’interface utilisateur pour Adobe XD](https://experienceleague.adobe.com/docs/experience-manager-learn/assets/AEM-CoreComponents-UI-Kit.xd) afin que les concepteurs puissent commencer à créer les maquettes et les conceptions en se servant des composants principaux comme blocs de création.
 
 ## Ne passez pas à côté de leurs puissantes fonctionnalités {#powerful-features}
 
@@ -59,4 +59,4 @@ Si l’auteur souhaite réutiliser des parties (un fragment d’une expérience)
 
 ### Le composant Incorporer {#embed-component}
 
-[Le composant Incorporer](/help/components/embed.md) permet non seulement d’inclure des ressources externes telles que le contenu vidéo YouTube, mais il est également extensible pour s’adapter selon le contenu spécifique aux besoins d’un projet.
+[Le ](/help/components/embed.md) composant Incorporer permet non seulement d&#39;inclure des ressources externes telles que le contenu vidéo YouTube, mais il est également extensible pour lui permettre de s&#39;adapter au contenu spécifique aux besoins d&#39;un projet.
