@@ -3,10 +3,10 @@ title: Versions des composants principaux
 description: Les composants principaux sont publiés sous forme de versions qui peuvent contenir plusieurs versions des mêmes composants principaux. Ce document explique les versions et les mises à jour ainsi que comment comprendre la compatibilité avec les composants principaux et AEM.
 role: Architect, Developer, Administrator, Business Practitioner
 exl-id: 7d4dbe46-4013-4217-b815-cdb1462072c6
-source-git-commit: 46d97324ed1b903c315725429fe36b11a1856aa9
+source-git-commit: 6dc5c5959410f643ff169989d4d98c6f65f98076
 workflow-type: tm+mt
-source-wordcount: '2067'
-ht-degree: 98%
+source-wordcount: '2072'
+ht-degree: 97%
 
 ---
 
@@ -26,10 +26,10 @@ Le tableau suivant, dont le contenu est [disponible sur GitHub avec les détails
 
 | Mise à jour | Description | AEM 6.4 | AEM 6.5 | AEM as a Cloud Service | Java | Date de publication |
 |---|---|---|---|---|---|---|
-| [2.16.2](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.16.2) | Il s’agissait d’une version de correctif permettant de résoudre les problèmes liés au gestionnaire de liens. De petites améliorations ont également été apportées au PWA. | 6.4.8.1+ * | 6.5.5.0+ * | Suite | 8, 11 | 15 mai 2021 |
+| [2.16.2](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.16.2) | Il s&#39;agissait d&#39;une version de correctif qui corrigeait principalement un problème avec le nouveau gestionnaire de liens et ajoutait une amélioration pour la prise en charge des applications de plusieurs pages pour [PWA.](/help/components/page.md#pwa-support) | 6.4.8.1+ * | 6.5.5.0+ * | Suite | 8, 11 | 15 mai 2021 |
 | [2.16.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.16.0) | Cette version s’est concentrée sur les améliorations de l’accessibilité et sur l’introduction d’un nouveau gestionnaire de liens dans les composants existants. | 6.4.8.1+ * | 6.5.5.0+ * | Suite | 8, 11 | 22 avril 2021 |
 | [2.15.2](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.15.2) | Cette version de correctif corrigeait principalement des problèmes de compatibilité ascendante [de la couche de données](/help/developing/data-layer/overview.md) et de tests informatiques qui échouaient dans certaines situations. | 6.4.8.1+ * | 6.5.5.0+ * | Suite | 8, 11 | 16 mars 2021 |
-| [2.15.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.15.0) | Cette version comprend la prise en charge des applications web progressives dans le [composant Page](/help/components/page.md) ainsi que la version 2.0.0 de la [couche de données Adobe](/help/developing/data-layer/overview.md). | 6.4.8.1+ * | 6.5.5.0+ * | Suite | 8, 11 | 23 février 2021 |
+| [2.15.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.15.0) | Cette version comprend la prise en charge des [applications Web progressives (PWA) dans le composant Page](/help/components/page.md#pwa-support) et prend en charge la version 2.0.0 de la couche de données d&#39;Adobe [.](/help/developing/data-layer/overview.md) | 6.4.8.1+ * | 6.5.5.0+ * | Suite | 8, 11 | 23 février 2021 |
 | [2.14.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.14.0) | Cette version comprend de nouvelles options pour le [composant Incorporer](/help/components/embed.md), introduit le slug de marque au niveau de la [page](/help/components/page.md), et corrige de nombreux problèmes. | 6.4.8.1+ * | 6.5.5.0+ * | Suite | 8, 11 | 9 février 2021 |
 | [2.13.2](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.13.2) | Il s’agissait d’une version de correctif destinée à corriger un problème lié au RTE, utilisé sur AEMaaCS. | 6.4.8.1+ * | 6.5.5.0+ * | Suite | 8, 11 | 16 décembre 2020 |
 | [2.13.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.13.0) | Cette version contient de nouvelles fonctionnalités Dynamic Media pour le [composant d’image](/help/components/image.md). | 6.4.8.1+ * | 6.5.5.0+ * | Suite | 8, 11 | 4 décembre 2020 |
