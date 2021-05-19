@@ -3,9 +3,8 @@ title: Présentation des composants principaux
 description: 'Les composants principaux fournissent des composants de base solides et extensibles, reposant sur les dernières technologies et les bonnes pratiques. '
 role: Architect, Developer, Administrator, Business Practitioner
 exl-id: d294db22-4cb0-48a4-9366-03fda5b8bb8e
-translation-type: ht
-source-git-commit: f151a70c5ff7db042d4e10adc7ed8a9752ea9c87
-workflow-type: ht
+source-git-commit: 46d97324ed1b903c315725429fe36b11a1856aa9
+workflow-type: tm+mt
 source-wordcount: '936'
 ht-degree: 100%
 
@@ -28,7 +27,7 @@ Les composants principaux sont un ensemble de composants WCM (Web Content Manage
    * **[Tutoriel Summit :](https://expleague.azureedge.net/labs/L767/index.html)** tutoriel de deux heures pour créer un site (issu d’un atelier de l’Adobe US Summit 2019).
    * **[Webinaire Gems :](https://helpx.adobe.com/fr/experience-manager/kt/eseminars/gems/AEM-Core-Components.html)** visite guidée des composants principaux (enregistrée en décembre 2018).
 
-## Fonctionnalités {#features}
+## Fonctions {#features}
 
 |  |  |
 |---|---|
@@ -67,7 +66,7 @@ La version actuelle des composants principaux comporte les composants ci-après.
 * [Image](components/image.md)
 * [Bouton](components/button.md)
 * [Teaser](components/teaser.md)
-* [Téléchargement](components/download.md)
+* [Télécharger](components/download.md)
 * [Liste](components/list.md)
 * [Fragment d’expérience](components/experience-fragment.md)
 * [Fragment de contenu](components/content-fragment-component.md)
@@ -107,7 +106,7 @@ La version actuelle des composants principaux comporte les composants ci-après.
 
 | Composants principaux | AEM as a Cloud Service | AEM 6.5 | AEM 6.4 | Java SE | Maven |
 |---------|---------|---------|---------|---------|---------|
-| [2.16.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.16.0) | Suite | 6.5.5.0+ * | 6.4.8.1+ * | 8, 11 | 3.3.9+ |
+| [2.16.2](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.16.2) | Suite | 6.5.5.0+ * | 6.4.8.1+ * | 8, 11 | 3.3.9+ |
 
 >[!NOTE]
 >
