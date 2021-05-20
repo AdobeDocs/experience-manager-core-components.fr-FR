@@ -3,9 +3,8 @@ title: Composant de navigation par langue
 description: Le composant de navigation par langue fournit une navigation par langue/pays pour un site, de sorte que les visiteurs puissent accéder à la même page dans un autre paramètre régional.
 role: Architect, Developer, Administrator, Business Practitioner
 exl-id: 10b218b4-c439-4a0f-a46f-0b15d78b0360
-translation-type: ht
 source-git-commit: 8ff36ca143af9496f988b1ca65475497181def1d
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '846'
 ht-degree: 100%
 
