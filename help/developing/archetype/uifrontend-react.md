@@ -4,9 +4,8 @@ description: Description du processus de génération front-end pour les projets
 feature: Composants principaux, archétype de projet AEM
 role: Architect, Developer, Administrator
 exl-id: dd8ef13a-9686-47a9-b6af-e486ff10c4d8
-translation-type: ht
 source-git-commit: 8ff36ca143af9496f988b1ca65475497181def1d
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '517'
 ht-degree: 100%
 
