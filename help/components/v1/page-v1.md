@@ -4,9 +4,8 @@ description: Le composant de page est un composant de page extensible, conçu po
 index: n
 role: Architect, Developer, Administrator, Business Practitioner
 exl-id: 522f32f0-fc06-4ca0-ada2-61bdbc8761e0
-translation-type: ht
 source-git-commit: 8ff36ca143af9496f988b1ca65475497181def1d
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '490'
 ht-degree: 100%
 
