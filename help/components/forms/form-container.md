@@ -3,9 +3,8 @@ title: Composant de conteneur de formulaires
 description: Le composant de conteneur de formulaires des composants principaux permet la création de formulaires d’envoi simples.
 role: Architect, Developer, Administrator, Business Practitioner
 exl-id: 552f9dd5-6a3a-42d9-9969-e62a1f36e811
-translation-type: ht
 source-git-commit: 8ff36ca143af9496f988b1ca65475497181def1d
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '956'
 ht-degree: 100%
 
@@ -54,7 +53,7 @@ La boîte de dialogue de configuration permet à l’auteur de contenu de défin
 
 Selon le **type d’action** sélectionné, les options disponibles dans le conteneur changent. Les types d’actions disponibles sont les suivants :
 
-* [Publier les données de formulaire (Post Form Data)](#post-data)
+* [Publier les données de formulaire (Post Form Data) ](#post-data)
 * [Courrier](#mail)
 * [Stocker le contenu](#store-content)
 
@@ -120,7 +119,7 @@ Quelle que soit le type d’action sélectionné, une page de remerciement peut 
 
 ## Boîte de dialogue de conception {#design-dialog}
 
-La boîte de dialogue de conception permet à l’auteur du modèle de définir les composants autorisés et leurs mappages pour le conteneur similaires à la boîte de dialogue de conception du [conteneur de mises en page standard dans l’éditeur de modèles](https://docs.adobe.com/content/help/fr-FR/experience-manager-cloud-service/sites/authoring/features/templates.html).
+La boîte de dialogue de conception permet à l’auteur du modèle de définir les composants autorisés et leurs mappages pour le conteneur similaires à la boîte de dialogue de conception du [conteneur de mises en page standard dans l’éditeur de modèles](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/sites/authoring/features/templates.html).
 
 ### Onglet Styles {#styles-tab}
 
