@@ -3,9 +3,8 @@ title: Chemins vers la réussite avec les composants principaux
 description: Réussir la mise en œuvre de votre projet avec les composants principaux
 role: Architect, Developer, Administrator, Business Practitioner
 exl-id: 1ea8cd1c-8435-4ded-82dc-5a7896c53e0c
-translation-type: ht
 source-git-commit: 056c5bc15ac9e669c3bf6d5da7f060d6eef02608
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '564'
 ht-degree: 100%
 
