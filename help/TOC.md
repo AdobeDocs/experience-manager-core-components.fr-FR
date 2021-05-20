@@ -4,7 +4,6 @@ user-guide-title: Composants principaux AEM
 breadcrumb-title: Guide des composants principaux
 user-guide-description: Utilisez les composants principaux extensibles pour permettre aux auteurs de créer facilement du contenu.
 feature-set: Experience Manager Sites
-translation-type: tm+mt
 source-git-commit: 15aa2145a4872a9e9c46e639f42f212363823d75
 workflow-type: tm+mt
 source-wordcount: '214'
@@ -31,7 +30,7 @@ ht-degree: 100%
    + [Conteneur](components/container.md)
    + [Fragment de contenu](components/content-fragment-component.md)
    + [Liste de fragments de contenu](components/content-fragment-list.md)
-   + [Téléchargement](components/download.md)
+   + [Télécharger](components/download.md)
    + [Incorporer](components/embed.md)
    + [Fragment d’expérience](components/experience-fragment.md)
    + [Image](components/image.md)
