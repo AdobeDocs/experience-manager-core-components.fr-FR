@@ -3,9 +3,8 @@ title: Composant du séparateur
 description: Le composant du séparateur crée un saut entre les composants d’une page.
 role: Architect, Developer, Administrator, Business Practitioner
 exl-id: 79f19368-67fa-4864-93f7-2aa801d13fdb
-translation-type: ht
 source-git-commit: 8ff36ca143af9496f988b1ca65475497181def1d
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '304'
 ht-degree: 100%
 
