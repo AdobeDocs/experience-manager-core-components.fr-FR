@@ -3,9 +3,8 @@ title: Composant Liste
 description: Le composant principal Liste permet de créer facilement des listes dynamiques et statiques.
 role: Architect, Developer, Administrator, Business Practitioner
 exl-id: 662ab508-0253-4d28-b95c-8c4cde8173bd
-translation-type: ht
 source-git-commit: 8ff36ca143af9496f988b1ca65475497181def1d
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '979'
 ht-degree: 100%
 
@@ -52,7 +51,7 @@ La liste peut être générée de différentes manières.
 
 * [Pages enfants](#child-pages)
 * [Liste fixe](#fixed-list)
-* [Recherche](#search-options)
+* [Rechercher](#search-options)
 * [Balises](#tags)
 
 Quelle que soit la façon dont la liste est créée, il existe des [options de tri et d’ID](#sort-options) qui peuvent toujours être configurées.
