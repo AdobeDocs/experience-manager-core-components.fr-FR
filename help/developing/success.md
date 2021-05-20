@@ -3,11 +3,11 @@ title: Chemins vers la réussite avec les composants principaux
 description: Réussir la mise en œuvre de votre projet avec les composants principaux
 role: Architect, Developer, Administrator, Business Practitioner
 exl-id: 1ea8cd1c-8435-4ded-82dc-5a7896c53e0c
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 056c5bc15ac9e669c3bf6d5da7f060d6eef02608
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '564'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
@@ -59,4 +59,4 @@ Si l’auteur souhaite réutiliser des parties (un fragment d’une expérience)
 
 ### Le composant Incorporer {#embed-component}
 
-[Le ](/help/components/embed.md) composant Incorporer permet non seulement d&#39;inclure des ressources externes telles que le contenu vidéo YouTube, mais il est également extensible pour lui permettre de s&#39;adapter au contenu spécifique aux besoins d&#39;un projet.
+[Le composant Incorporer](/help/components/embed.md) permet d’inclure simplement des ressources externes telles que du contenu vidéo YouTube, mais il est également extensible pour s’adapter selon le contenu spécifique aux besoins d’un projet.
