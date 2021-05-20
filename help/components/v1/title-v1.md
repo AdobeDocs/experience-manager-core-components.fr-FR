@@ -4,9 +4,8 @@ description: Le composant du titre des composants principaux est un composant dâ
 index: n
 role: Architect, Developer, Administrator, Business Practitioner
 exl-id: 79549ac0-82f2-4ea0-9cce-d534d0b47b5c
-translation-type: ht
 source-git-commit: 8ff36ca143af9496f988b1ca65475497181def1d
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '337'
 ht-degree: 100%
 
