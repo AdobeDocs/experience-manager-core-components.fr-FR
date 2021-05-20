@@ -4,9 +4,8 @@ description: Le composant de texte de formulaire des composants principaux perme
 index: n
 role: Architect, Developer, Administrator, Business Practitioner
 exl-id: d6fbc596-cb42-4478-8a3c-aa5aead3be0a
-translation-type: ht
 source-git-commit: 8ff36ca143af9496f988b1ca65475497181def1d
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '491'
 ht-degree: 100%
 
@@ -116,7 +115,7 @@ La boîte de dialogue de configuration permet à l’auteur de contenu de défin
 * **Nom de l’élément** : nom du champ qui est envoyé avec les données de formulaire.
 * **Valeur** : valeur par défaut prérenseignée dans le champ.
 
-### À propos {#about}
+### À propos d’ {#about}
 
 ![](/help/assets/chlimage_1-24.png)
 
