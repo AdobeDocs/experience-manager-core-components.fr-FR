@@ -3,9 +3,8 @@ title: Composant de fragment d’expérience
 description: Le composant de fragment d’expérience permet à l’auteur de contenu d’ajouter une variation de fragment d’expérience à une page.
 role: Architect, Developer, Administrator, Business Practitioner
 exl-id: 103f729a-084d-4b6a-a239-d8ef8902eb95
-translation-type: ht
 source-git-commit: 8ff36ca143af9496f988b1ca65475497181def1d
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '816'
 ht-degree: 100%
 
