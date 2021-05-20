@@ -3,9 +3,8 @@ title: Composant textuel
 description: Le composant Texte est un composant d’édition et de composition de texte enrichi qui propose une édition statique.
 role: Architect, Developer, Administrator, Business Practitioner
 exl-id: bcea202a-9ecb-4dcd-99b6-0848cbb9d500
-translation-type: ht
 source-git-commit: 8ff36ca143af9496f988b1ca65475497181def1d
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '2213'
 ht-degree: 100%
 
@@ -52,7 +51,7 @@ Le reste de cet article illustre la configuration standard du composant principa
 
 >[!NOTE]
 >
->Seules les options activées par [les configurations de l’interface utilisateur de l’éditeur de texte enrichi](https://docs.adobe.com/content/help/fr-FR/experience-manager-cloud-service/implementing/configuring-and-extending/configure-rich-text-editor-plug-ins.html) sont disponibles dans le composant Texte.
+>Seules les options activées par [les configurations de l’interface utilisateur de l’éditeur de texte enrichi](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/implementing/configuring-and-extending/configure-rich-text-editor-plug-ins.html) sont disponibles dans le composant Texte.
 
 ## Boîte de dialogue de modification {#edit-dialog}
 
@@ -259,7 +258,7 @@ Utilisé pour insérer un tableau dans le texte. Cette option permet d’ouvrir 
 
 Permet de vérifier l’orthographe du contenu du texte. Les fautes de frappe possibles sont soulignées avec des lignes rouges rompues.
 
-Vous trouverez plus d’informations sur la vérification orthographique et la personnalisation des dictionnaires orthographiques dans le document [Configuration des modules de l’éditeur de texte enrichi](https://docs.adobe.com/content/help/fr-FR/experience-manager-cloud-service/implementing/configuring-and-extending/configure-rich-text-editor-plug-ins.html).
+Vous trouverez plus d’informations sur la vérification orthographique et la personnalisation des dictionnaires orthographiques dans le document [Configuration des modules de l’éditeur de texte enrichi](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/implementing/configuring-and-extending/configure-rich-text-editor-plug-ins.html).
 
 ### Caractères spéciaux {#special-characters}
 
@@ -319,7 +318,7 @@ La boîte de dialogue de conception permet à l’auteur du modèle de définir 
 
 L’onglet Plugins permet d’activer et de désactiver diverses options de formatage de texte disponibles pour les auteurs de contenu.
 
-### Fonctionnalités {#features}
+### Fonctions {#features}
 
 ![Fonctionnalités de la boîte de dialogue de conception](/help/assets/text-design-features.png)
 
