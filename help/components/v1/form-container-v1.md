@@ -4,9 +4,8 @@ description: Le composant de conteneur de formulaires des composants principaux 
 index: n
 role: Architect, Developer, Administrator, Business Practitioner
 exl-id: 1e34219f-fa82-494e-82e2-1b4d63d37fea
-translation-type: ht
 source-git-commit: 8ff36ca143af9496f988b1ca65475497181def1d
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '638'
 ht-degree: 100%
 
