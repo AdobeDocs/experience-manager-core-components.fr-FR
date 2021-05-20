@@ -4,9 +4,8 @@ description: Le composant principal Liste permet de créer facilement des listes
 index: n
 role: Architect, Developer, Administrator, Business Practitioner
 exl-id: 510d059c-e60a-40aa-9032-66a901109f6e
-translation-type: ht
 source-git-commit: 8ff36ca143af9496f988b1ca65475497181def1d
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '854'
 ht-degree: 100%
 
@@ -147,7 +146,7 @@ La liste peut être générée de différentes manières.
 
 * [Pages enfants](#child-pages)
 * [Liste fixe](#fixed-list)
-* [Recherche](#search-list)
+* [Rechercher](#search-list)
 * [Balises](#tags)
 
 Quelle que soit la création de la liste, il existe des [Options de tri](#sort-options) qui peuvent toujours être configurées.
