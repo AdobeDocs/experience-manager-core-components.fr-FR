@@ -3,9 +3,8 @@ title: Composant Teaser
 description: Le composant Teaser peut afficher une image, un titre, un texte enrichi et éventuellement un lien vers un contenu supplémentaire.
 role: Architect, Developer, Administrator, Business Practitioner
 exl-id: ec75e168-6f3b-4dff-8df6-06ca7dc18688
-translation-type: ht
 source-git-commit: 8ff36ca143af9496f988b1ca65475497181def1d
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '775'
 ht-degree: 100%
 
