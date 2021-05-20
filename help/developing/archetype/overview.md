@@ -4,7 +4,6 @@ description: Modèle de projet pour les applications basées sur AEM
 feature: Composants principaux, archétype de projet AEM
 role: Architect, Developer, Administrator
 exl-id: 58994726-9b65-4035-9d45-60b745d577bb
-translation-type: tm+mt
 source-git-commit: 32679158dd71c361f01904b4462a6ec8b33d305c
 workflow-type: tm+mt
 source-wordcount: '1040'
