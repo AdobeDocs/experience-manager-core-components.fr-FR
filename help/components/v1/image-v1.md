@@ -4,9 +4,8 @@ description: Le composant d’image des composants principaux est un composant d
 index: n
 role: Architect, Developer, Administrator, Business Practitioner
 exl-id: 625ce8de-5c4a-476d-b749-895493d169b1
-translation-type: ht
 source-git-commit: 8ff36ca143af9496f988b1ca65475497181def1d
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '1229'
 ht-degree: 100%
 
@@ -195,9 +194,9 @@ Appuyez ou cliquez sur le bouton Ajouter pour ajouter une autre taille.
 
 Par défaut, le chargement des images est différé jusqu’à ce qu’elles deviennent visibles. Sélectionnez l’option **Désactiver le chargement différé** pour charger les images au chargement de la page.
 
-### Fonctionnalités {#features}
+### Fonctions {#features}
 
-Sur l’onglet **Fonctionnalités**, vous pouvez définir les options disponibles pour les auteurs de contenu lors de l’utilisation du composant, y compris les options de téléchargement, d’orientation et de recadrage.
+Sur l’onglet **Fonctions**, vous pouvez définir les options disponibles pour les auteurs de contenu lors de l’utilisation du composant, y compris les options de téléchargement, d’orientation et de recadrage.
 
 * Source
 
