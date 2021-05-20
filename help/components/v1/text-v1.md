@@ -4,9 +4,8 @@ description: Le composant Texte est un composant d’édition et de composition 
 index: n
 role: Architect, Developer, Administrator, Business Practitioner
 exl-id: c9fe3052-a33d-412e-9456-52c9a0cea292
-translation-type: ht
 source-git-commit: 8ff36ca143af9496f988b1ca65475497181def1d
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '1657'
 ht-degree: 100%
 
@@ -317,7 +316,7 @@ Le composant de texte peut également être modifié en ligne mais en raison des
 
 La boîte de dialogue de conception permet à l’auteur du modèle de définir quelles options de formatage de texte sont disponibles pour les auteurs de contenu.
 
-### Fonctionnalités {#features}
+### Fonctions {#features}
 
 ![](/help/assets/chlimage_1-28.png)
 
@@ -329,7 +328,7 @@ Les fonctionnalités suivantes peuvent être activées ou désactivées pour le 
 * Vérificateur orthographique
 * Modification de la source
 
-### Formatage {#formatting}
+### Mise en forme {#formatting}
 
 ![](/help/assets/chlimage_1-29.png)
 
