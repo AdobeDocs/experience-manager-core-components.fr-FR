@@ -3,9 +3,8 @@ title: Création à l’aide des composants principaux
 description: 'Dans AEM, les composants sont les éléments structurels qui constituent le contenu des pages créées : les composants principaux offrent une fonctionnalité de création flexible et riche en fonctionnalités.'
 role: Architect, Developer, Administrator, Business Practitioner
 exl-id: 56e58303-a178-45ab-b59d-e374c9cf90cf
-translation-type: ht
 source-git-commit: 8ff36ca143af9496f988b1ca65475497181def1d
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '764'
 ht-degree: 100%
 
@@ -27,7 +26,7 @@ Pour une présentation plus détaillée et plus orientée vers les développeurs
 
 >[!CAUTION]
 >
->Les composants principaux [requièrent AEM 6.4 ou version ultérieure](/help/versions.md), ainsi que l’utilisation de [modèles modifiables](https://docs.adobe.com/content/help/fr-FR/experience-manager-cloud-service/sites/authoring/features/templates.html). Ils ne fonctionnent pas avec l’interface utilisateur classique ni avec les modèles statiques.
+>Les composants principaux [requièrent AEM 6.4 ou version ultérieure](/help/versions.md), ainsi que l’utilisation de [modèles modifiables](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/sites/authoring/features/templates.html). Ils ne fonctionnent pas avec l’interface utilisateur classique ni avec les modèles statiques.
 
 ## Création à l’aide des composants principaux {#authoring-with-core-components}
 
@@ -35,9 +34,9 @@ En tant qu’auteur, vous remarquerez que les composants principaux présentent 
 
 * Simples d’utilisation et bien intégrés à l’[éditeur de page](https://docs.adobe.com/content/help/fr-FR/experience-manager-cloud-service/sites/authoring/fundamentals/editing-content.html)
 
-* Riches en fonctionnalités pour répondre à de nombreux cas d’utilisation, comme illustré sur le [site de référence WKND](https://wknd.site), ainsi que dans la [bibliothèque de composants](https://adobe.com/go/aem_cmp_library_fr)
+* Riches en fonctionnalités pour répondre à de nombreux cas d’utilisation, comme illustré sur le [site de référence WKND](https://wknd.site), ainsi que dans la [bibliothèque de composants](https://adobe.com/go/aem_cmp_library)
 
-* [Préconfigurables](#pre-configuring-core-components) afin de définir les fonctionnalités disponibles pour les auteurs de pages au moyen de l’[éditeur de modèles](https://docs.adobe.com/content/help/fr-FR/experience-manager-cloud-service/sites/authoring/features/templates.html)
+* [Préconfigurables](#pre-configuring-core-components) afin de définir les fonctionnalités disponibles pour les auteurs de pages au moyen de l’[éditeur de modèles](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/sites/authoring/features/templates.html)
 
 * Conçus selon les [consignes d’accessibilité](https://docs.adobe.com/content/help/fr-FR/experience-manager-cloud-service/sites/authoring/fundamentals/accessible-content.html)
 
@@ -45,9 +44,9 @@ En tant qu’auteur, vous remarquerez que les composants principaux présentent 
 
 * Conçus pour prendre en charge la [localisation facile](localization.md)
 
-Les composants sont disponibles dans l’onglet **Composants** du panneau latéral de l’éditeur de page lors de la [modification d’une page](https://docs.adobe.com/content/help/fr-FR/experience-manager-cloud-service/sites/authoring/fundamentals/editing-content.html).
+Les composants sont disponibles dans l’onglet **Composants** du panneau latéral de l’éditeur de page lors de la [modification d’une page](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/sites/authoring/fundamentals/editing-content.html).
 
-Les composants sont regroupés selon des catégories appelées groupes de composants afin de les organiser et de les filtrer facilement. Le nom du groupe de composants s’affiche avec le composant dans l’[explorateur de composants](https://docs.adobe.com/content/help/fr-FR/experience-manager-cloud-service/sites/authoring/fundamentals/editing-content.html) et il est également possible de filtrer par groupe pour trouver facilement le composant approprié.
+Les composants sont regroupés selon des catégories appelées groupes de composants afin de les organiser et de les filtrer facilement. Le nom du groupe de composants s’affiche avec le composant dans l’[explorateur de composants](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/sites/authoring/fundamentals/editing-content.html) et il est également possible de filtrer par groupe pour trouver facilement le composant approprié.
 
 >[!NOTE]
 >
@@ -61,7 +60,7 @@ La configuration des composants de base a été la tâche d’un développeur. T
 
 Par exemple, si un composant d’image n’autorise pas le chargement d’images à partir du système de fichiers ou si un composant textuel autorise uniquement la mise en forme des paragraphes, ces fonctions peuvent être activées ou désactivées en un seul clic.
 
-Pour plus d’informations, voir [Création de modèles de page](https://docs.adobe.com/content/help/fr-FR/experience-manager-cloud-service/sites/authoring/features/templates.html).
+Pour plus d’informations, voir [Création de modèles de page](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/sites/authoring/features/templates.html).
 
 ### Boîtes de dialogue de modification et de conception {#edit-and-design-dialogs}
 
