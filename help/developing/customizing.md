@@ -3,9 +3,8 @@ title: Personnalisation des composants principaux
 description: Les composants principaux implémentent plusieurs modèles permettant une personnalisation facile, depuis l’application d’un style simple jusqu’à la réutilisation de fonctionnalités avancées.
 role: Architect, Developer, Administrator
 exl-id: ec4b918b-bc70-4d72-ba84-a24556aedb41
-translation-type: ht
 source-git-commit: b5b77f21cbeaa46622cef85f3bbaa549f17f1a06
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '1106'
 ht-degree: 100%
 
@@ -153,7 +152,7 @@ Comme pour tout composant AEM, il existe un certain nombre d’éléments à pre
 
 1. **Consultez régulièrement les fonctionnalités obsolètes et supprimées.**
 
-   Avec chaque nouvelle version d’AEM vers laquelle est effectuée une mise à niveau, vérifiez que toutes les API utilisées sont toujours d’actualité en gardant un œil sur la page [Fonctionnalités obsolètes et supprimées](https://docs.adobe.com/content/help/fr-FR/experience-manager-cloud-service/release-notes/deprecated-removed-features.html).
+   Avec chaque nouvelle version d’AEM vers laquelle est effectuée une mise à niveau, vérifiez que toutes les API utilisées sont toujours d’actualité en gardant un œil sur la page [Fonctionnalités obsolètes et supprimées](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/release-notes/deprecated-removed-features.html).
 
 Consultez aussi la section [Prise en charge des composants principaux](overview.md#core-component-support).
 
