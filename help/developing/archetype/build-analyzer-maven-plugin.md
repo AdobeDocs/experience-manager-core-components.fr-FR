@@ -5,9 +5,9 @@ feature: Composants principaux, archétype de projet AEM
 role: Architect, Developer, Administrator
 exl-id: de26b310-a294-42d6-a0db-91f6036a328c
 source-git-commit: de1bb63dc965e6674652bc3e61b515f8f045c6bc
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '510'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
@@ -21,7 +21,7 @@ Consultez la [documentation du plug-in Maven](https://github.com/adobe/aemanalys
 >
 >Il est recommandé de mettre à jour votre projet Maven pour référencer la dernière version du plug-in du référentiel central Maven, à cet emplacement : https://repo1.maven.org/maven2/com/adobe/aem/aemanalyser-maven-plugin/
 
-Le module externe utilise le dernier SDK disponible plutôt que celui configuré dans le projet.
+Le plug-in utilise le dernier SDK disponible plutôt que celui configuré dans le projet.
 
 Vous trouverez ci-dessous un tableau décrivant les analyseurs exécutés au cours de cette étape. <!-- Note that some are executed in the local SDK, while others are only executed during the Cloud Manager pipeline deployment. -->
 
@@ -36,5 +36,5 @@ Vous trouverez ci-dessous un tableau décrivant les analyseurs exécutés au cou
 | `repoinit` | Vérifiez la syntaxe de toutes les sections de redirection. | Oui | Oui |
 | `bundle-nativecode` | Vérifie que les lots OSGI n’installent pas de code natif. | Oui | Oui |
 | `configuration-api` | Valide les configurations OSGi importantes. <p> </p> `Configuration org.apache.felix.webconsole.internal.servlet.OsgiManager: Configuration is not allowed (com.mysite:mysite.all:1.0.0-SNAPSHOT\|com.mysite:mysite.ui.config:1.0.0-SNAPSHOT)` | Oui | Oui |
-| `region-deprecated-api` | Vérifie si [api obsolète](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/release-notes/deprecated-apis.html) est utilisée <p> </p>`[WARNING] com.mysite:mysite.core:1.0.0-SNAPSHOT: Usage of deprecated package found : org.apache.sling.settings : Avoid these features at runtime: run modes, file system access (com.mysite:mysite.all:1.0.0-SNAPSHOT)` | Oui | Oui |
+| `region-deprecated-api` | Vérifie si une [API obsolète](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/release-notes/deprecated-apis.html?lang=fr) est utilisée. <p> </p>`[WARNING] com.mysite:mysite.core:1.0.0-SNAPSHOT: Usage of deprecated package found : org.apache.sling.settings : Avoid these features at runtime: run modes, file system access (com.mysite:mysite.all:1.0.0-SNAPSHOT)` | Oui | Oui |
 
