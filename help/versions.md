@@ -4,15 +4,15 @@ description: Les composants principaux sont publiés sous forme de versions qui 
 role: Architect, Developer, Administrator, Business Practitioner
 exl-id: 7d4dbe46-4013-4217-b815-cdb1462072c6
 source-git-commit: e62bb19a487e337c1ea5994d9fbfc845145ae19d
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2147'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
 # Versions des composants principaux {#core-components-versions}
 
-La version actuelle des composants principaux est la version 2.17.0. Elle est compatible avec les installations [AEM as a Cloud Service](https://docs.adobe.com/content/help/fr-FR/experience-manager-cloud-service/landing/home.html) et [AEM On-Premise](https://docs.adobe.com/content/help/fr-FR/experience-manager-65/user-guide/home.html).
+La version actuelle des composants principaux est la version 2.17.0. Elle est compatible avec les installations [AEM as a Cloud Service](https://docs.adobe.com/content/help/fr-FR/experience-manager-cloud-service/landing/home.html) et [AEM On-Premise](https://docs.adobe.com/content/help/fr-FR/experience-manager-65/user-guide/home.html).
 
 ## Historique des versions et compatibilité {#release-history-and-compatibility}
 
@@ -26,7 +26,7 @@ Le tableau suivant, dont le contenu est [disponible sur GitHub avec les détails
 
 | Mise à jour | Description | AEM 6.4 | AEM 6.5 | AEM as a Cloud Service | Java | Date de publication |
 |---|---|---|---|---|---|---|
-| [2.17.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.17.0) | Cette version comprend des aperçus techniques de nombreuses nouvelles versions de composants prenant en charge les fonctionnalités de gestionnaire de liens, ainsi qu’un aperçu technique d’une fonctionnalité d’image présentée pour le [composant de page.](/help/components/page.md) Plusieurs correctifs sont également inclus. | 6.4.8.4+ * | 6.5.6.0+ * | Suite | 8, 11 | 16 juin 2021 |
+| [2.17.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.17.0) | Cette version comprend des aperçus techniques de nombreuses nouvelles versions de composants prenant en charge les fonctionnalités de gestionnaire de liens, ainsi qu’un aperçu technique d’une fonctionnalité d’image présentée pour le [composant de page.](/help/components/page.md) Plusieurs correctifs sont également inclus. | 6.4.8.4+ * | 6.5.6.0+ * | Suite | 8, 11 | 16 juin 2021 |
 | [2.16.4](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.16.4) | Il s’agit d’une version de correctif permettant de résoudre un problème lié au nouveau gestionnaire de liens. | 6.4.8.1+ * | 6.5.5.0+ * | Suite | 8, 11 | 19 mai 2021 |
 | [2.16.2](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.16.2) | Il s’agissait d’une version de correctif qui corrigeait principalement un problème avec le nouveau gestionnaire de liens et ajoutait une amélioration pour la prise en charge des applications de plusieurs pages pour [PWA](/help/components/page.md#pwa-support). | 6.4.8.1+ * | 6.5.5.0+ * | Suite | 8, 11 | 15 mai 2021 |
 | [2.16.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.16.0) | Cette version s’est concentrée sur les améliorations de l’accessibilité et sur l’introduction d’un nouveau gestionnaire de liens dans les composants existants. | 6.4.8.1+ * | 6.5.5.0+ * | Suite | 8, 11 | 22 avril 2021 |
