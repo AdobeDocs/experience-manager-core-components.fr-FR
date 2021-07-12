@@ -1,9 +1,9 @@
 ---
 title: Composant de conteneur de formulaires
 description: Le composant de conteneur de formulaires des composants principaux permet la création de formulaires d’envoi simples.
-role: Architect, Developer, Administrator, Business Practitioner
+role: Architect, Developer, Admin, User
 exl-id: 552f9dd5-6a3a-42d9-9969-e62a1f36e811
-source-git-commit: 8ff36ca143af9496f988b1ca65475497181def1d
+source-git-commit: 3ebe1a42d265185b36424b01844f4a00f05d4724
 workflow-type: tm+mt
 source-wordcount: '956'
 ht-degree: 100%
@@ -59,7 +59,7 @@ Selon le **type d’action** sélectionné, les options disponibles dans le cont
 
 Quel que soit le type, il existe des [paramètres généraux](#general-settings) qui s’appliquent à chaque action.
 
-### Publier les données de formulaire (Post Form Data) {#post-data}
+### Publier les données de formulaire (Post Form Data)  {#post-data}
 
 Lorsque le formulaire est envoyé, le type d’action Publier les données de formulaire transmet les données envoyées à un tiers au format JSON pour qu’elles soient traitées.
 
