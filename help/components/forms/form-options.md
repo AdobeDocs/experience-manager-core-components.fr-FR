@@ -1,9 +1,9 @@
 ---
 title: Composant des options de formulaire
 description: Le composant des options de formulaire des composants principaux permet la sélection d’options prédéfinies dans divers formats.
-role: Architect, Developer, Administrator, Business Practitioner
+role: Architect, Developer, Admin, User
 exl-id: 8a74bd37-9b12-4fa6-bff2-53e337b16251
-source-git-commit: 8ff36ca143af9496f988b1ca65475497181def1d
+source-git-commit: 3ebe1a42d265185b36424b01844f4a00f05d4724
 workflow-type: tm+mt
 source-wordcount: '545'
 ht-degree: 100%
