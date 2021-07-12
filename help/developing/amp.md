@@ -1,9 +1,9 @@
 ---
 title: Prise en charge d’AMP par les composants principaux
 description: Les composants principaux prennent en charge les pages mobiles accélérées (AMP).
-role: Architect, Developer, Administrator
+role: Architect, Developer, Admin
 exl-id: 1fd9b6b5-0e4d-48c7-8faa-42e0d4a6bbd0
-source-git-commit: 8ff36ca143af9496f988b1ca65475497181def1d
+source-git-commit: 3ebe1a42d265185b36424b01844f4a00f05d4724
 workflow-type: tm+mt
 source-wordcount: '558'
 ht-degree: 100%
@@ -16,7 +16,7 @@ Depuis la [version 2.11.0](/help/versions.md) des composants principaux, la fon
 
 Ce document donne un aperçu de la prise en charge d’AMP et explique comment l’activer pour vos sites. Pour obtenir des détails techniques complets, consultez la [documentation destinée aux développeurs sur GitHub](https://github.com/adobe/aem-core-wcm-components/tree/master/extensions/amp).
 
-## Qu’est-ce qu’AMP ? {#what-is-amp}
+## Qu’est-ce qu’AMP ?  {#what-is-amp}
 
 AMP (Accelerated Mobile Pages) est un framework open source conçu à l’origine par Google en vue d’optimiser les pages pour la navigation mobile. En règle générale, les pages AMP se chargent beaucoup plus rapidement que les pages web standard, offrant ainsi de meilleures expériences mobiles.
 
