@@ -3,14 +3,14 @@ title: Présentation des composants principaux
 description: 'Les composants principaux fournissent des composants de base solides et extensibles, reposant sur les dernières technologies et les bonnes pratiques. '
 role: Architect, Developer, Administrator, Business Practitioner
 exl-id: d294db22-4cb0-48a4-9366-03fda5b8bb8e
-source-git-commit: cc1fc14e1ca9125a24c13ac68716951ef790afea
-workflow-type: ht
+source-git-commit: 85904d334091f1b9345023a84e8f12abeeb54692
+workflow-type: tm+mt
 source-wordcount: '936'
 ht-degree: 100%
 
 ---
 
-# Présentation des composants principaux {#core-components-introduction}
+# Présentation des composants principaux{#core-components-introduction}
 
 Dans Adobe Experience Manager, les composants sont des éléments structurels qui constituent le contenu des pages en cours de création. Les composants ont toujours été un élément fondamental de l’expérience AEM. Ils facilitent la création de pages pour l’auteur et le développement de composants flexibles et extensibles pour le développeur.
 
@@ -106,7 +106,7 @@ La version actuelle des composants principaux comporte les composants ci-après.
 
 | Composants principaux | AEM as a Cloud Service | AEM 6.5 | AEM 6.4 | Java SE | Maven |
 |---------|---------|---------|---------|---------|---------|
-| [2.17.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.17.0) | Suite | 6.5.6.0+ * | 6.4.8.4+ * | 8, 11 | 3.3.9+ |
+| [2.17.2](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.17.2) | Suite | 6.5.6.0+ * | 6.4.8.4+ * | 8, 11 | 3.3.9+ |
 
 >[!NOTE]
 >
