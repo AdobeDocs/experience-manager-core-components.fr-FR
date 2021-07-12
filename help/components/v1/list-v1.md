@@ -2,9 +2,9 @@
 title: Composant Liste (v1)
 description: Le composant principal Liste permet de créer facilement des listes dynamiques et statiques.
 index: n
-role: Architect, Developer, Administrator, Business Practitioner
+role: Architect, Developer, Admin, User
 exl-id: 510d059c-e60a-40aa-9032-66a901109f6e
-source-git-commit: 8ff36ca143af9496f988b1ca65475497181def1d
+source-git-commit: 3ebe1a42d265185b36424b01844f4a00f05d4724
 workflow-type: tm+mt
 source-wordcount: '854'
 ht-degree: 100%
@@ -178,7 +178,7 @@ Appuyez ou cliquez sur le bouton **Ajouter** pour insérer un nouvel élément d
 * Utilisez la poignée de glisser-déplacer pour réorganiser les éléments de la liste.
 * Utilisez l’icône de corbeille pour supprimer les éléments de la liste.
 
-#### Recherche {#search-list}
+#### Rechercher {#search-list}
 
 La liste peut être créée à l’aide des résultats d’une recherche de contenu AEM.
 
