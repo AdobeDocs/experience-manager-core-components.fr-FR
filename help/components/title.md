@@ -1,16 +1,16 @@
 ---
 title: Composant du titre
 description: Le composant du titre des composants principaux est un composant d’en-tête de section qui comporte des fonctions d’édition statique.
-role: Architect, Developer, Administrator, Business Practitioner
+role: Architect, Developer, Admin, User
 exl-id: 393af72c-549f-4609-afb0-2712f827b549
-source-git-commit: 8ff36ca143af9496f988b1ca65475497181def1d
+source-git-commit: 3ebe1a42d265185b36424b01844f4a00f05d4724
 workflow-type: tm+mt
 source-wordcount: '569'
 ht-degree: 100%
 
 ---
 
-# Composant du titre {#title-component}
+# Composant du titre{#title-component}
 
 Le composant du titre des composants principaux est un composant d’en-tête de section qui comporte des fonctions d’édition statique.
 
