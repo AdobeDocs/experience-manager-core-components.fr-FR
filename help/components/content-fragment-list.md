@@ -1,9 +1,9 @@
 ---
 title: Composant de liste de fragments de contenu
 description: Le composant de liste de fragments de contenu des composants principaux permet d’afficher une liste de fragments de contenu.
-role: Architect, Developer, Administrator, Business Practitioner
+role: Architect, Developer, Admin, User
 exl-id: 0f2295b1-d287-4f72-8ee4-fa98c4850e53
-source-git-commit: 8ff36ca143af9496f988b1ca65475497181def1d
+source-git-commit: 3ebe1a42d265185b36424b01844f4a00f05d4724
 workflow-type: tm+mt
 source-wordcount: '762'
 ht-degree: 100%
