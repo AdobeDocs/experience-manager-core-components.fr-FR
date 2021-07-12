@@ -1,16 +1,16 @@
 ---
 title: Utilisation des composants principaux
 description: '« Pour que les composants principaux soient opérationnels dans votre propre projet, suivez les quatre étapes ci-après : téléchargement et installation, création de composants proxy, chargement des styles principaux et autorisation des composants de vos modèles. »'
-role: Architect, Developer, Administrator, Business Practitioner
+role: Architect, Developer, Admin, User
 exl-id: ee2d25e4-e2b8-4ecc-a62c-f0066de2bf2d
-source-git-commit: 45a17fe42146516f351f897e85a4a48dcf3aadab
+source-git-commit: 3ebe1a42d265185b36424b01844f4a00f05d4724
 workflow-type: tm+mt
 source-wordcount: '977'
 ht-degree: 100%
 
 ---
 
-# Utilisation des composants principaux {#using-core-components}
+# Utilisation des composants principaux{#using-core-components}
 
 Pour que les composants principaux soient opérationnels dans votre propre projet, vous devez suivre quatre étapes qui sont détaillées dans les sections ci-dessous :
 
