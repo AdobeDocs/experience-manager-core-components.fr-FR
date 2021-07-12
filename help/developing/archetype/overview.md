@@ -4,10 +4,10 @@ description: Modèle de projet pour les applications basées sur AEM
 feature: Composants principaux, archétype de projet AEM
 role: Architect, Developer, Administrator
 exl-id: 58994726-9b65-4035-9d45-60b745d577bb
-source-git-commit: 8b3f98d5087ddca6928950daf2db1eb7728fa44e
+source-git-commit: b5ad1c874d5f6d6781c2d0b0cc992b278c91211b
 workflow-type: tm+mt
-source-wordcount: '1111'
-ht-degree: 93%
+source-wordcount: '1118'
+ht-degree: 99%
 
 ---
 
@@ -54,12 +54,13 @@ Pour générer un projet, ajustez la ligne de commande suivante en fonction de v
 mvn -B archetype:generate \
  -D archetypeGroupId=com.adobe.aem \
  -D archetypeArtifactId=aem-project-archetype \
- -D archetypeVersion=27 \
+ -D archetypeVersion=XX \
  -D appTitle="My Site" \
  -D appId="mysite" \
  -D groupId="com.mysite" \
 ```
 
+* Remplacez `XX` par le dernier [numéro de version de l’archétype.](#requirements)
 * Définissez `aemVersion=cloud` pour [AEM as a Cloud Service](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/landing/home.html).\
    Définissez `aemVersion=6.5.0` pour [Adobe Managed Services](https://github.com/adobe/aem-project-archetype/tree/master/src/main/archetype/dispatcher.ams) ou On-Premise.
 La dépendance des composants principaux n’est ajoutée que pour les versions d’AEM hors du cloud, car ils sont fournis prêts à l’emploi pour AEM as a Cloud Service.
@@ -91,7 +92,7 @@ La dépendance des composants principaux n’est ajoutée que pour les versions 
 | `commerceEndpoint` |  | Requis pour CIF uniquement. Point d’entrée facultatif du service GraphQL du système commercial à utiliser (par ex. `https://hostname.com/grapql`). |
 | `datalayer` | `y` | Activez l’intégration avec la [couche de données client Adobe](/help/developing/data-layer/overview.md). |
 | `amp` | `n` | Activez la prise en charge [AMP](/help/developing/amp.md) pour les modèles de projets générés. |
-| `enableDynamicMedia` | `n` | Active les composants Dynamic Media de base dans les paramètres de stratégie de projet et active les fonctionnalités Dynamic Media dans la stratégie du composant Image de base. |
+| `enableDynamicMedia` | `n` | Active les composants Dynamic Media de base dans les paramètres de règles de projet et active les fonctionnalités Dynamic Media dans les règles du composant Image de base. |
 | `enableSSR` | `n` | Option permettant d’activer le rendu côté serveur pour le projet front-end |
 
 ## Configuration requise {#requirements}
@@ -108,7 +109,7 @@ Lorsque vous exécutez Windows et générez la configuration du Dispatcher, vous
 
 Lors de l’exécution de l’archétype en mode interactif (sans le paramètre `-B`), les propriétés avec des valeurs par défaut ne peuvent pas être modifiées, sauf si la confirmation finale est rejetée, ce qui répète les questions en incluant les propriétés avec des valeurs par défaut (voir [ARCHETYPE-308](https://issues.apache.org/jira/browse/ARCHETYPE-308) pour plus de détails).
 
-Vous ne pouvez pas utiliser cet archétype dans Eclipse lors du démarrage d’un nouveau projet avec `File -> New -> Maven Project`, car le script de post-génération `archetype-post-generate.groovy` ne sera pas exécuté en raison d’un problème [Eclipse.](https://bugs.eclipse.org/bugs/show_bug.cgi?id=514993) La solution consiste à utiliser la ligne de commande ci-dessus, puis dans Eclipse, à utiliser  `File -> Import -> Existing Maven Project`.
+Vous ne pouvez pas utiliser cet archétype dans Eclipse lors du démarrage d’un nouveau projet avec `File -> New -> Maven Project`, car le script de post-génération `archetype-post-generate.groovy` ne sera pas exécuté en raison d’un [ problème concernant Eclipse.](https://bugs.eclipse.org/bugs/show_bug.cgi?id=514993) La solution consiste à utiliser la ligne de commande ci-dessus, puis, dans Eclipse, à utiliser `File -> Import -> Existing Maven Project`.
 
 ## Informations complémentaires {#further-reading}
 
