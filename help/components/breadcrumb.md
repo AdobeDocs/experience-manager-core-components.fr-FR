@@ -1,16 +1,16 @@
 ---
 title: Composant de chemin de navigation
 description: Le composant de chemin de navigation des composants principaux est un composant de navigation qui crée un chemin de navigation des liens en fonction de l’emplacement de la page dans la hiérarchie du contenu.
-role: Architect, Developer, Administrator, Business Practitioner
+role: Architect, Developer, Admin, User
 exl-id: 19d65b9d-a407-4f50-9c55-8de0f12222ed
-source-git-commit: 8ff36ca143af9496f988b1ca65475497181def1d
+source-git-commit: 3ebe1a42d265185b36424b01844f4a00f05d4724
 workflow-type: tm+mt
 source-wordcount: '722'
 ht-degree: 100%
 
 ---
 
-# Composant de chemin de navigation {#breadcrumb-component}
+# Composant de chemin de navigation{#breadcrumb-component}
 
 Le composant de chemin de navigation des composants principaux est un composant de navigation qui crée un chemin de navigation des liens en fonction de l’emplacement de la page dans la hiérarchie du contenu.
 
@@ -71,7 +71,7 @@ La boîte de dialogue de modification permet à l’auteur de contenu de supprim
 
 La boîte de dialogue de conception permet à l’auteur du modèle de définir les valeurs par défaut des options de suppression des pages masquées et actives dans les chemins de navigation, ainsi que la profondeur de la hiérarchie qu’elle doit afficher.
 
-### Onglet principal {#main-tab}
+### Onglet Principal {#main-tab}
 
 ![](/help/assets/breadcrumb-design.png)
 
