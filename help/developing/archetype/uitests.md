@@ -2,9 +2,9 @@
 title: Module ui.tests de l’archétype de projet AEM
 description: Utilisation des tests d’interface utilisateur de l’archétype de projet AEM
 feature: Composants principaux, archétype de projet AEM
-role: Architect, Developer, Administrator
+role: Architect, Developer, Admin
 exl-id: eb3c9b34-f10e-410f-bcf3-34f94f124c7c
-source-git-commit: 8ff36ca143af9496f988b1ca65475497181def1d
+source-git-commit: 3ebe1a42d265185b36424b01844f4a00f05d4724
 workflow-type: tm+mt
 source-wordcount: '117'
 ht-degree: 100%
