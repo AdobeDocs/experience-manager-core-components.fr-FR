@@ -2,12 +2,12 @@
 title: Utilisation de l’archétype de projet AEM
 description: Instructions d’utilisation détaillées pour l’archétype de projet AEM
 feature: Composants principaux, archétype de projet AEM
-role: Architect, Developer, Administrator
+role: Architect, Developer, Admin
 exl-id: a3978d8b-4904-42aa-9ee2-9c1f884327bb
-source-git-commit: 17081a073998512a52aebfc662f2bc125ca2a2c4
+source-git-commit: 3ebe1a42d265185b36424b01844f4a00f05d4724
 workflow-type: tm+mt
 source-wordcount: '2147'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -114,7 +114,7 @@ Les propriétés suivantes sont disponibles lors de la création d’un projet �
 | `commerceEndpoint` |  | Requis pour CIF uniquement. Point d’entrée facultatif du service GraphQL du système commercial à utiliser (par ex. `https://hostname.com/grapql`). |
 | `datalayer` | `y` | Activez l’intégration avec la [couche de données client Adobe](/help/developing/data-layer/overview.md). |
 | `amp` | `n` | Activez la prise en charge [AMP](/help/developing/amp.md) pour les modèles de projets générés. |
-| `enableDynamicMedia` | `n` | Active les composants Dynamic Media de base dans les paramètres de stratégie de projet et active les fonctionnalités Dynamic Media dans la stratégie du composant Image de base. |
+| `enableDynamicMedia` | `n` | Active les composants Dynamic Media de base dans les paramètres de règles de projet et active les fonctionnalités Dynamic Media dans les règles du composant Image de base. |
 | `enableSSR` | `n` | Option permettant d’activer le rendu côté serveur pour le projet front-end |
 
 >[!NOTE]
