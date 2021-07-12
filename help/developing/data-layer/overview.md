@@ -2,9 +2,9 @@
 title: Utilisation de la couche de données client Adobe avec les composants principaux
 description: Utilisation de la couche de données client Adobe avec les composants principaux
 feature: Composants principaux, couche de données client Adobe
-role: Architect, Developer, Administrator
+role: Architect, Developer, Admin
 exl-id: 55c984d3-deb7-4eda-a81d-7768791d2b46
-source-git-commit: 8ff36ca143af9496f988b1ca65475497181def1d
+source-git-commit: 3ebe1a42d265185b36424b01844f4a00f05d4724
 workflow-type: tm+mt
 source-wordcount: '980'
 ht-degree: 100%
@@ -77,7 +77,7 @@ Les composants suivants prennent en charge la couche de données.
 * [Navigation par langue](/help/components/language-navigation.md)
 * [Liste](/help/components/list.md)
 * [Navigation](/help/components/navigation.md)
-* [Page](/help/components/page.md)
+* [Page ](/help/components/page.md)
 * [Barre de progression](/help/components/progress-bar.md)
 * [Onglets](/help/components/tabs.md)
 * [Teaser](/help/components/teaser.md)
@@ -125,7 +125,7 @@ L’[événement](#events) suivant correspond au schéma d’élément de compos
 
 Le schéma de page est utilisé par le composant suivant :
 
-* [Page](/help/components/page.md)
+* [Page ](/help/components/page.md)
 
 Le schéma de page est défini comme suit.
 
