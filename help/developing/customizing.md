@@ -1,16 +1,16 @@
 ---
 title: Personnalisation des composants principaux
 description: Les composants principaux implémentent plusieurs modèles permettant une personnalisation facile, depuis l’application d’un style simple jusqu’à la réutilisation de fonctionnalités avancées.
-role: Architect, Developer, Administrator
+role: Architect, Developer, Admin
 exl-id: ec4b918b-bc70-4d72-ba84-a24556aedb41
-source-git-commit: b5b77f21cbeaa46622cef85f3bbaa549f17f1a06
+source-git-commit: 3ebe1a42d265185b36424b01844f4a00f05d4724
 workflow-type: tm+mt
 source-wordcount: '1106'
 ht-degree: 100%
 
 ---
 
-# Personnalisation des composants principaux {#customizing-core-components}
+# Personnalisation des composants principaux{#customizing-core-components}
 
 Les [composants principaux](overview.md) implémentent plusieurs modèles permettant une personnalisation facile, depuis l’application d’un style simple jusqu’à la réutilisation de fonctionnalités avancées.
 
