@@ -5,7 +5,7 @@ index: n
 role: Architect, Developer, Admin, User
 exl-id: c9fe3052-a33d-412e-9456-52c9a0cea292
 source-git-commit: 3ebe1a42d265185b36424b01844f4a00f05d4724
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1657'
 ht-degree: 100%
 
@@ -140,7 +140,7 @@ La boîte de dialogue de modification propose les outils standard de mise en for
 
    * Saisissez l’emplacement.
 
-      * Utilisation de la boîte de dialogue Ouvrir la sélection pour choisir un chemin dans AEM
+      * Utilisez la boîte de dialogue Ouvrir la sélection pour choisir un chemin dans AEM.
       * Si le lien ne figure pas dans AEM, saisissez l’URL absolue (les chemins non absolus sont interprétés comme relatifs par rapport à AEM).
    * Saisissez un autre texte descriptif pour le lien.
    * Sélectionner le comportement des liens
