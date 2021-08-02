@@ -4,7 +4,7 @@ description: 'Les composants principaux fournissent des composants de base solid
 role: Architect, Developer, Admin, User
 exl-id: d294db22-4cb0-48a4-9366-03fda5b8bb8e
 source-git-commit: 3ebe1a42d265185b36424b01844f4a00f05d4724
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '936'
 ht-degree: 100%
 
