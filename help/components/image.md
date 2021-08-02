@@ -4,7 +4,7 @@ description: Le composant d’image des composants principaux est un composant d
 role: Architect, Developer, Admin, User
 exl-id: c5e57f4b-139f-40e7-8d79-be9a74360b63
 source-git-commit: 3ebe1a42d265185b36424b01844f4a00f05d4724
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2170'
 ht-degree: 100%
 
@@ -177,7 +177,7 @@ L’éditeur statique peut également être utilisé pour modifier l’image. En
 
 ## Boîte de dialogue de conception {#design-dialog}
 
-La boîte de dialogue de conception permet à l’auteur du modèle de définir le recadrage, le téléchargement et la rotation dont dispose l’auteur du contenu lors de l’utilisation de ce composant.
+La boîte de dialogue de conception permet à l’auteur du modèle de définir les options de recadrage, de chargement et de rotation dont dispose l’auteur du contenu lors de l’utilisation de ce composant.
 
 ### Onglet Principal {#main-tab}
 
