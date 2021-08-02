@@ -4,13 +4,13 @@ description: Le composant de fragment d’expérience permet à l’auteur de co
 role: Architect, Developer, Admin, User
 exl-id: 103f729a-084d-4b6a-a239-d8ef8902eb95
 source-git-commit: 3ebe1a42d265185b36424b01844f4a00f05d4724
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '816'
 ht-degree: 100%
 
 ---
 
-# Composant de fragment d’expérience{#experience-fragment-component}
+# Composant de fragment d’expérience {#experience-fragment-component}
 
 Le composant de fragment d’expérience de composant principal permet à l’auteur du contenu de placer une variation de fragment d’expérience sur une page tout en prenant en charge une structure de site localisée.
 
