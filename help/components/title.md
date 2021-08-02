@@ -4,7 +4,7 @@ description: Le composant du titre des composants principaux est un composant d�
 role: Architect, Developer, Admin, User
 exl-id: 393af72c-549f-4609-afb0-2712f827b549
 source-git-commit: 3ebe1a42d265185b36424b01844f4a00f05d4724
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '569'
 ht-degree: 100%
 
@@ -45,9 +45,9 @@ Vous trouverez plus d’informations sur le développement des composants princi
 
 La boîte de dialogue de modification permet à l’auteur de contenu de définir le texte du titre et de sélectionner le niveau de titre.
 
-* **Titre** : Si ce cham est vide, le titre de la page est utilisé.
-* **Type/Taille** : Définit le niveau d’en-tête du titre.
-* **Lien** : Définit le contenu auquel le titre sera associé. Il peut s’agir d’un chemin d’accès à une page de contenu, d’une URL externe ou d’une ancre de page.
+* **Titre** : si ce champ est vide, le titre de la page est utilisé.
+* **Type/Taille** : définit le niveau d’en-tête du titre.
+* **Lien** : définit le contenu auquel le titre sera associé. Il peut s’agir d’un chemin d’accès à une page de contenu, d’une URL externe ou d’une ancre de page.
 * **ID** : cette option permet de contrôler l’identifiant unique du composant dans le code HTML ainsi que dans la [couche de données](/help/developing/data-layer/overview.md).
    * Si rien n’est indiqué, un ID unique est généré automatiquement et peut être trouvé en examinant la page obtenue.
    * Si un ID est spécifié, il incombe à l’auteur de s’assurer qu’il est unique.
@@ -65,14 +65,14 @@ L’éditeur statique peut également être utilisé pour modifier le texte du c
 
 ## Boîte de dialogue de conception {#design-dialog}
 
-La boîte de dialogue de conception permet à l’auteur du modèle de définir le niveau d’en-tête par défaut que les composants de titre auront lorsqu’ils sont créés par les auteurs de contenu.
+La boîte de dialogue de conception permet à l’auteur du modèle de définir le niveau d’en-tête par défaut que les composants de titre auront une fois créés par les auteurs de contenu.
 
 ### Onglet Tailles {#sizes-tab}
 
 ![Boîte de dialogue de conception du composant Titre](/help/assets/title-design.png)
 
 * **Types/tailles autorisés pour les auteurs** : Activez ou désactivez les types d’en-têtes qui seront disponibles pour les auteurs de contenu lorsqu’ils utilisent le composant du titre.
-* **Type/Taille par défaut** - Définissez le type d’en-tête qui sera automatiquement attribué lorsqu’un auteur de contenu ajoute le composant du titre à une page.
+* **Type par défaut/taille** - Définissez le type d’en-tête qui sera automatiquement attribué lorsqu’un auteur de contenu ajoute le composant du titre à une page.
 * **Désactiver le lien** - Désactivez la prise en charge des liens dans le composant du titre pour interdire aux auteurs de contenu de lier des titres.
 
 >[!NOTE]
