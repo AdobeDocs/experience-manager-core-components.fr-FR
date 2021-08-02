@@ -5,7 +5,7 @@ index: n
 role: Architect, Developer, Admin, User
 exl-id: 1e34219f-fa82-494e-82e2-1b4d63d37fea
 source-git-commit: 3ebe1a42d265185b36424b01844f4a00f05d4724
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '638'
 ht-degree: 100%
 
@@ -92,7 +92,7 @@ Lorsque le formulaire est envoyé, la commande est mise à jour.
 
 ### Paramètres généraux {#general-settings}
 
-Quelle que soit le type d’action sélectionné, une page de remerciement peut toujours être définie.
+Quel que soit le type d’action sélectionné, une page de remerciement peut toujours être définie.
 
 ![](/help/assets/chlimage_1-5.png)
 
