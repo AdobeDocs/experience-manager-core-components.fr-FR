@@ -4,7 +4,7 @@ description: Le composant du séparateur crée un saut entre les composants d’
 role: Architect, Developer, Admin, User
 exl-id: 79f19368-67fa-4864-93f7-2aa801d13fdb
 source-git-commit: 3ebe1a42d265185b36424b01844f4a00f05d4724
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '304'
 ht-degree: 100%
 
