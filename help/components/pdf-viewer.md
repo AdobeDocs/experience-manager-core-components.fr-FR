@@ -4,7 +4,7 @@ description: Le composant Visionneuse PDF permet l’affichage d’un document P
 role: Architect, Developer, Admin, User
 exl-id: deb635f5-2b73-4e7a-9838-3a941e39e898
 source-git-commit: 3ebe1a42d265185b36424b01844f4a00f05d4724
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '705'
 ht-degree: 100%
 
