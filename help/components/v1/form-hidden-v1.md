@@ -1,42 +1,42 @@
 ---
-title: Composant Masqué du formulaire (v1)
-description: Le composant Masqué du formulaire des composants principaux permet l’affichage d’un champ masqué.
+title: Composant Formulaire masqué (v1)
+description: Le composant Formulaire masqué des composants principaux permet l’affichage d’un champ masqué.
 index: n
 role: Architect, Developer, Admin, User
 exl-id: 8e30dac0-5b4b-4fc7-af99-5791c98c90bf
 source-git-commit: 3ebe1a42d265185b36424b01844f4a00f05d4724
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '335'
 ht-degree: 100%
 
 ---
 
-# Composant Masqué du formulaire (v1) {#form-hidden-component-v}
+# Composant Formulaire masqué (v1) {#form-hidden-component-v}
 
-Le composant Masqué du formulaire des composants principaux permet l’affichage d’un champ masqué.
+Le composant Formulaire masqué des composants principaux permet l’affichage d’un champ masqué.
 
 ## Utilisation {#usage}
 
-Le composant Masqué du formulaire des composants principaux permet la création de champs masqués pour transmettre des informations sur la page actuelle à AEM. Il est destiné à être utilisé avec le [composant de conteneur de formulaires](form-container-v1.md).
+Le composant Formulaire masqué des composants principaux permet la création de champs masqués pour transmettre des informations sur la page actuelle à AEM. Il est destiné à être utilisé avec le [composant de conteneur de formulaires](form-container-v1.md).
 
 Les propriétés de champ peuvent être définies par l’éditeur de contenu dans la [boîte de dialogue de configuration](#configure-dialog).
 
 ## Version et compatibilité {#version-and-compatibility}
 
-Ce document décrit la version v1 du composant Masqué du formulaire, introduite à l’origine avec la version 1.0.0 des composants principaux avec AEM 6.3.
+Ce document décrit la version v1 du composant Formulaire masqué, introduite à l’origine avec la version 1.0.0 des composants principaux avec AEM 6.3.
 
-Le tableau ci-après répertorie la compatibilité de la version v1 du composant Masqué du formulaire.
+Le tableau ci-après répertorie la compatibilité de la version v1 du composant Formulaire masqué.
 
-| Version d’AEM | Composant Masqué du formulaire v1 |
+| Version d’AEM | Composant Formulaire masqué v1 |
 |--- |--- |
 | 6.3 | Compatible |
 | 6.4 | Compatible |
 
 >[!CAUTION]
 >
->Ce document décrit la version v1 du composant Masqué du formulaire.
+>Ce document décrit la version v1 du composant Formulaire masqué.
 >
->Pour plus d’informations sur la version actuelle du composant Masqué du formulaire, voir le document [Composant Masqué du formulaire](/help/components/forms/form-hidden.md).
+>Pour plus d’informations sur la version actuelle du composant Formulaire masqué, voir le document [Composant Formulaire masqué](/help/components/forms/form-hidden.md).
 
 ## Exemple de sortie de composant {#sample-component-output}
 
@@ -94,11 +94,11 @@ La boîte de dialogue de configuration permet à l’auteur de contenu de défin
 
 ## Boîte de dialogue de conception {#design-dialog}
 
-Il n’existe pas de boîte de dialogue de conception pour le composant Masqué du formulaire.
+Il n’existe pas de boîte de dialogue de conception pour le composant Formulaire masqué.
 
 ## Détails techniques {#technical-details}
 
-La documentation technique la plus récente sur le composant Masqué du formulaire [se trouve sur GitHub](https://github.com/adobe/aem-core-wcm-components/tree/master/content/src/content/jcr_root/apps/core/wcm/components/form/hidden/v1/hidden).
+La documentation technique la plus récente sur le composant Formulaire masqué [se trouve sur GitHub](https://github.com/adobe/aem-core-wcm-components/tree/master/content/src/content/jcr_root/apps/core/wcm/components/form/hidden/v1/hidden).
 
 Le projet sur les composants principaux peut être téléchargé depuis GitHub.
 
