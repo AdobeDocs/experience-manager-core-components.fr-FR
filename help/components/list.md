@@ -4,7 +4,7 @@ description: Le composant principal Liste permet de créer facilement des listes
 role: Architect, Developer, Admin, User
 exl-id: 662ab508-0253-4d28-b95c-8c4cde8173bd
 source-git-commit: 3ebe1a42d265185b36424b01844f4a00f05d4724
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '979'
 ht-degree: 100%
 
@@ -174,7 +174,7 @@ Désactive le type de liste de balises dans le composant.
 
 ### Paramètres d’élément {#item-settings}
 
-Dans l’onglet **Paramètres d’élément**, les options de formatage des éléments de liste individuels qui doivent être disponibles dans le composant pour les auteurs de contenu peuvent être définies.
+Dans l’onglet **Paramètres d’élément**, les options de mise en forme des éléments de liste individuels qui doivent être disponibles dans le composant pour les auteurs de contenu peuvent être définies.
 
 ![Paramètre d’élément de la boîte de dialogue de conception du composant Liste](/help/assets/list-design-item-settings.png)
 
