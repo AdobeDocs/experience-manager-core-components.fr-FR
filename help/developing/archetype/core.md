@@ -5,7 +5,7 @@ feature: Composants principaux, archétype de projet AEM
 role: Architect, Developer, Admin
 exl-id: 49e80d8c-2b41-4c42-b45e-c2e3b4b16a59
 source-git-commit: 3ebe1a42d265185b36424b01844f4a00f05d4724
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '187'
 ht-degree: 100%
 
@@ -25,7 +25,7 @@ mvn -PautoInstallBundle clean install
 
 Une fois l’exécution terminée, vous devriez pouvoir visualiser la console des lots à l’adresse `http://<host>:<port>/system/console/bundles`.
 
-## Tests unitaires  {#unit-tests}
+## Tests unitaires {#unit-tests}
 
 Le test unitaire dans le module principal comprend les tests unitaires classiques du code contenu dans le lot. Pour lancer ce test, exécutez :
 
