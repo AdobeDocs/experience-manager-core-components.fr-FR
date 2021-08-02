@@ -4,7 +4,7 @@ description: Fonctions de localisation des composants principaux
 role: Architect, Developer, Admin, User
 exl-id: 9140b65a-6dd7-4ec9-9095-6e8243ec8424
 source-git-commit: 3ebe1a42d265185b36424b01844f4a00f05d4724
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '725'
 ht-degree: 100%
 
@@ -12,7 +12,7 @@ ht-degree: 100%
 
 # Fonctions de localisation des composants principaux {#localization-features-of-the-core-components}
 
-De nombreux sites Web exigent que le contenu soit diffusé dans un format localisé dans plusieurs langues et géographies. Les composants principaux sélectionnés disposent d’une résolution intelligente des références afin de faciliter la création d’un modèle unifié pour l’ensemble du contenu localisé qui s’adapte automatiquement en fonction de la structure de votre site localisé.
+De nombreux sites web exigent que le contenu soit diffusé dans un format localisé dans plusieurs langues et géographies. Les composants principaux sélectionnés disposent d’une résolution intelligente des références afin de faciliter la création d’un modèle unifié pour l’ensemble du contenu localisé qui s’adapte automatiquement en fonction de la structure de votre site localisé.
 
 ## Exemple - Page localisée avec navigation et pieds de page {#example}
 
@@ -107,6 +107,6 @@ Le composant de navigation et le composant de fragment d’expérience provienne
 
 ## Ajuster tout ensemble {#fitting-it-all-together}
 
-Voici une image complète de la manière dont ces éléments simples mais puissants opèrent ensemble pour fournir des pages localisées aux auteurs de contenu.
+Voici une image complète de la manière dont ces éléments simples, mais puissants, opèrent ensemble pour fournir des pages localisées aux auteurs de contenu.
 
 ![](/help/assets/screen-shot-2019-09-09-11.27.58.png)
