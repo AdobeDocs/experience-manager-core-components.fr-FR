@@ -4,7 +4,7 @@ description: Le composant Incorporer permet d’incorporer du contenu externe da
 role: Architect, Developer, Admin, User
 exl-id: 985fa304-70a3-4329-957e-76d1832a06f1
 source-git-commit: 3ebe1a42d265185b36424b01844f4a00f05d4724
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1341'
 ht-degree: 100%
 
