@@ -4,7 +4,7 @@ description: Le composant de page est un composant de page extensible, conçu po
 role: Architect, Developer, Admin, User
 exl-id: 2503e067-abed-427d-8a54-8b79e3451487
 source-git-commit: 3ebe1a42d265185b36424b01844f4a00f05d4724
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '691'
 ht-degree: 100%
 
@@ -22,7 +22,7 @@ Grâce à la [boîte de dialogue de conception](#design-dialog), les bibliothèq
 
 ## Prise en charge des applications web progressives {#pwa-support}
 
-La version 2.15.0 des composants principaux a introduit la prise en charge d’AEM as a Cloud Service de façon intégrée dans les fonctionnalités des [applications web progressives (PWA). ](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/features/enable-pwa.html?lang=fr) Grâce à cette simple configuration au niveau du site, transformez votre expérience AEM en PWA !
+La version 2.15.0 des composants principaux a introduit la prise en charge d’AEM as a Cloud Service de façon intégrée dans les fonctionnalités des [applications web progressives (PWA).](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/features/enable-pwa.html?lang=fr) Grâce à cette simple configuration au niveau du site, transformez votre expérience AEM en PWA !
 
 ## Version et compatibilité {#version-and-compatibility}
 
@@ -49,7 +49,7 @@ Vous trouverez plus d’informations sur le développement des composants princi
 
 ## Boîte de dialogue de conception {#design-dialog}
 
-Étant donné que le composant représente la page entière, la boîte de dialogue de conception est accessible via **les informations de page -> Stratégie de page** lors de la modification du modèle de page.
+Étant donné que le composant représente la page entière, la boîte de dialogue de conception est accessible via **Informations sur la page -> Stratégie de page** lors de la modification du modèle de page.
 
 ![Stratégie de page](/help/assets/page-policy.png)
 
@@ -59,7 +59,7 @@ Vous trouverez plus d’informations sur le développement des composants princi
 
 ### Onglet Propriétés {#properties-tab}
 
-À l’aide de la fenêtre Conception de page, vous pouvez définir les bibliothèques clientes à charger ainsi que la bibliothèque de ressources Web pour la page.
+À l’aide de la fenêtre Conception de page, vous pouvez définir les bibliothèques clientes à charger ainsi que la bibliothèque de ressources web pour la page.
 
 * **Bibliothèques clientes** : cette option définit les catégories de bibliothèques clientes à charger. JavaScript est ajouté à la fin du corps et le CSS est ajouté à l’en-tête de la page.
 * **En-tête de page JavaScript des bibliothèques clientes** : cette option définit les catégories de bibliothèques clientes JavaScript à charger dans l’en-tête de la page.
