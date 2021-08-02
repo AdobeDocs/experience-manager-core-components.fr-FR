@@ -1,28 +1,28 @@
 ---
-title: Composant Masqué du formulaire
-description: Le composant Masqué du formulaire des composants principaux permet l’affichage d’un champ masqué.
+title: Composant Formulaire masqué
+description: Le composant Formulaire masqué des composants principaux permet l’affichage d’un champ masqué.
 role: Architect, Developer, Admin, User
 exl-id: 0364cd3b-3c09-46db-9392-a67e3f9ea7a5
 source-git-commit: 3ebe1a42d265185b36424b01844f4a00f05d4724
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '428'
 ht-degree: 100%
 
 ---
 
-# Composant Masqué du formulaire{#form-hidden-component}
+# Composant Formulaire masqué {#form-hidden-component}
 
-Le composant Masqué du formulaire des composants principaux permet l’affichage d’un champ masqué.
+Le composant Formulaire masqué des composants principaux permet l’affichage d’un champ masqué.
 
 ## Utilisation {#usage}
 
-Le composant Masqué du formulaire des composants principaux permet la création de champs masqués pour transmettre des informations sur la page actuelle à AEM. Il est destiné à être utilisé avec le [composant de conteneur de formulaires](form-container.md).
+Le composant Formulaire masqué des composants principaux permet la création de champs masqués pour transmettre des informations sur la page actuelle à AEM. Il est destiné à être utilisé avec le [composant de conteneur de formulaires](form-container.md).
 
 Les propriétés de champ peuvent être définies par l’éditeur de contenu dans la [boîte de dialogue de configuration](form-hidden.md).
 
 ## Version et compatibilité {#version-and-compatibility}
 
-La version actuelle du composant Masqué du formulaire est v2, qui a été introduite avec la version 2.0.0 des composants principaux en janvier 2018. Elle est décrite dans ce document.
+La version actuelle du composant Formulaire masqué est v2, qui a été introduite avec la version 2.0.0 des composants principaux en janvier 2018. Elle est décrite dans ce document.
 
 Le tableau ci-après présente en détail toutes les versions prises en charge du composant, les versions AEM avec lesquelles les versions du composant sont compatibles et les liens vers la documentation pour les versions précédentes.
 
@@ -35,11 +35,11 @@ Pour plus d’informations sur les versions et les publications des composants p
 
 ## Exemple de sortie de composant {#sample-component-output}
 
-Pour tester le composant Masqué du formulaire et obtenir des exemples d’options de configuration, ainsi que des sorties HTML et JSON, consultez la [bibliothèque de composants](https://adobe.com/go/aem_cmp_library_form_hidden_fr).
+Pour tester le composant Formulaire masqué et obtenir des exemples d’options de configuration, ainsi que des sorties HTML et JSON, consultez la [bibliothèque de composants](https://adobe.com/go/aem_cmp_library_form_hidden_fr).
 
 ### Détails techniques {#technical-details}
 
-La documentation technique la plus récente sur le composant Masqué du formulaire [se trouve sur GitHub](https://adobe.com/go/aem_cmp_tech_form_hidden_v2_fr).
+La documentation technique la plus récente sur le composant Formulaire masqué [se trouve sur GitHub](https://adobe.com/go/aem_cmp_tech_form_hidden_v2_fr).
 
 Vous trouverez plus d’informations sur le développement des composants principaux dans la [documentation destinée aux développeurs de composants principaux](/help/developing/overview.md).
 
