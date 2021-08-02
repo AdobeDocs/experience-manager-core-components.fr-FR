@@ -4,7 +4,7 @@ description: Réussir la mise en œuvre de votre projet avec les composants prin
 role: Architect, Developer, Admin, User
 exl-id: 1ea8cd1c-8435-4ded-82dc-5a7896c53e0c
 source-git-commit: 3ebe1a42d265185b36424b01844f4a00f05d4724
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '564'
 ht-degree: 100%
 
