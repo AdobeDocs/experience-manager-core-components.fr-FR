@@ -5,7 +5,7 @@ index: n
 role: Architect, Developer, Admin, User
 exl-id: d6fbc596-cb42-4478-8a3c-aa5aead3be0a
 source-git-commit: 3ebe1a42d265185b36424b01844f4a00f05d4724
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '491'
 ht-degree: 100%
 
@@ -115,7 +115,7 @@ La boîte de dialogue de configuration permet à l’auteur de contenu de défin
 * **Nom de l’élément** : nom du champ qui est envoyé avec les données de formulaire.
 * **Valeur** : valeur par défaut prérenseignée dans le champ.
 
-### À propos d’ {#about}
+### À propos {#about}
 
 ![](/help/assets/chlimage_1-24.png)
 
@@ -131,7 +131,7 @@ La boîte de dialogue de configuration permet à l’auteur de contenu de défin
    * Message affiché sous forme d’info-bulle lors de l’envoi du formulaire si la valeur ne valide pas le type sélectionné
    * Non affiché pour les types de contraintes **Texte** et **Zone de texte**.
 
-* **Requis** : indique si l’utilisateur doit renseigner une valeur avant d’envoyer le formulaire.
+* **Obligatoire** : indique si l’utilisateur doit renseigner une valeur avant d’envoyer le formulaire.
 * **Rendre en lecture seule** : si cette option est sélectionnée, l’utilisateur ne peut pas modifier la valeur du champ.
 
 ## Boîte de dialogue de conception {#design-dialog}
