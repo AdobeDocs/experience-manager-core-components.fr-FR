@@ -4,7 +4,7 @@ description: Le composant de téléchargement des composants principaux permet l
 role: Architect, Developer, Admin, User
 exl-id: 48e7ade0-b849-4d1f-b836-51196e5ac507
 source-git-commit: 3ebe1a42d265185b36424b01844f4a00f05d4724
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '687'
 ht-degree: 100%
 
@@ -63,9 +63,9 @@ La sélection d’une ressource de téléchargement est très similaire à la fo
 ![Onglet Propriétés de la boîte de dialogue de modification du composant Téléchargement](/help/assets/download-edit-properties.png)
 
 * **Titre** : s’affiche sous forme de titre pour l’élément de téléchargement.
-   * **Obtenir le titre de la ressource DAM** : lorsqu’il est sélectionné, le titre est automatiquement renseigné avec celui de la ressource DAM.
+   * **Obtenir le titre auprès d’une ressource DAM** : lorsqu’il est sélectionné, le titre est automatiquement renseigné avec celui de la ressource DAM.
 * **Description** : s’affiche sous forme de sous-titre descriptif de l’élément de téléchargement.
-   * **Obtenir la description de la ressource DAM** : lorsqu’elle est sélectionnée, la description est automatiquement renseignée avec la description de la ressource DAM.
+   * **Obtenir la description auprès d’une ressource DAM** : lorsqu’elle est sélectionnée, la description est automatiquement renseignée avec la description de la ressource DAM.
 * **Texte d’action** : s’affiche sous forme de texte d’action pour l’élément de téléchargement.
    * Ce champ est obligatoire lors du téléchargement d’une ressource depuis le système de fichiers.
    * **Afficher en ligne** : lorsque cette option est sélectionnée, le **texte d’action** fourni s’affiche en ligne.
@@ -82,7 +82,7 @@ La boîte de dialogue de conception permet à l’auteur du modèle de définir 
 
 ![Boîte de dialogue de conception du composant Téléchargement](/help/assets/download-design.png)
 
-* **Autoriser le téléchargement à partir du système de fichiers** : permet à l’auteur du contenu de télécharger une ressource depuis son système de fichiers local comme ressource de téléchargement.
+* **Autoriser le transfert depuis le système de fichiers** : permet à l’auteur du contenu de télécharger une ressource depuis son système de fichiers local comme ressource de téléchargement.
    * La valeur par défaut n’est pas sélectionnée.
 * **Type de titre** : élément HTML utilisé pour le titre du composant de téléchargement.
    * Si aucune valeur n’est sélectionnée, la valeur par défaut est H3.
