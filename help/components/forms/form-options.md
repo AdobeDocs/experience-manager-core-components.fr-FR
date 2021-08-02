@@ -4,7 +4,7 @@ description: Le composant des options de formulaire des composants principaux pe
 role: Architect, Developer, Admin, User
 exl-id: 8a74bd37-9b12-4fa6-bff2-53e337b16251
 source-git-commit: 3ebe1a42d265185b36424b01844f4a00f05d4724
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '545'
 ht-degree: 100%
 
