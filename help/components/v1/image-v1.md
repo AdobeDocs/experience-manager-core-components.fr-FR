@@ -5,7 +5,7 @@ index: n
 role: Architect, Developer, Admin, User
 exl-id: 625ce8de-5c4a-476d-b749-895493d169b1
 source-git-commit: 3ebe1a42d265185b36424b01844f4a00f05d4724
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1229'
 ht-degree: 100%
 
@@ -179,7 +179,7 @@ L’éditeur statique peut également être utilisé pour modifier l’image. En
 
 ## Boîte de dialogue de conception {#design-dialog}
 
-La boîte de dialogue de conception permet à l’auteur du modèle de définir le recadrage, le téléchargement et la rotation dont dispose l’auteur du contenu lors de l’utilisation de ce composant.
+La boîte de dialogue de conception permet à l’auteur du modèle de définir les options de recadrage, de chargement et de rotation dont dispose l’auteur du contenu lors de l’utilisation de ce composant.
 
 ### Principal {#main}
 
