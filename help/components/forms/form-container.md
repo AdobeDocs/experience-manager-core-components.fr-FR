@@ -4,7 +4,7 @@ description: Le composant de conteneur de formulaires des composants principaux 
 role: Architect, Developer, Admin, User
 exl-id: 552f9dd5-6a3a-42d9-9969-e62a1f36e811
 source-git-commit: 3ebe1a42d265185b36424b01844f4a00f05d4724
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '956'
 ht-degree: 100%
 
@@ -53,13 +53,13 @@ La boîte de dialogue de configuration permet à l’auteur de contenu de défin
 
 Selon le **type d’action** sélectionné, les options disponibles dans le conteneur changent. Les types d’actions disponibles sont les suivants :
 
-* [Publier les données de formulaire (Post Form Data) ](#post-data)
+* [Publier les données de formulaire (Post Form Data)](#post-data)
 * [Courrier](#mail)
 * [Stocker le contenu](#store-content)
 
 Quel que soit le type, il existe des [paramètres généraux](#general-settings) qui s’appliquent à chaque action.
 
-### Publier les données de formulaire (Post Form Data)  {#post-data}
+### Publier les données de formulaire (Post Form Data) {#post-data}
 
 Lorsque le formulaire est envoyé, le type d’action Publier les données de formulaire transmet les données envoyées à un tiers au format JSON pour qu’elles soient traitées.
 
@@ -104,7 +104,7 @@ Lorsque le formulaire est envoyé, le contenu du formulaire est stocké dans un 
 
 ### Paramètres généraux {#general-settings}
 
-Quelle que soit le type d’action sélectionné, une page de remerciement peut toujours être définie.
+Quel que soit le type d’action sélectionné, une page de remerciement peut toujours être définie.
 
 ![Options générales dans la boîte de dialogue de modification du composant Conteneur de formulaire](/help/assets/form-container-edit-general.png)
 
@@ -119,7 +119,7 @@ Quelle que soit le type d’action sélectionné, une page de remerciement peut 
 
 ## Boîte de dialogue de conception {#design-dialog}
 
-La boîte de dialogue de conception permet à l’auteur du modèle de définir les composants autorisés et leurs mappages pour le conteneur similaires à la boîte de dialogue de conception du [conteneur de mises en page standard dans l’éditeur de modèles](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/sites/authoring/features/templates.html).
+La boîte de dialogue de conception permet à l’auteur du modèle de définir les composants autorisés et leurs mappages pour le conteneur similaires à la boîte de dialogue de conception du [conteneur de mises en page standard dans l’éditeur de modèles](https://docs.adobe.com/content/help/fr-FR/experience-manager-cloud-service/sites/authoring/features/templates.html).
 
 ### Onglet Styles {#styles-tab}
 
