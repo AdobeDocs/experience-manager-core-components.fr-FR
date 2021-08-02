@@ -4,7 +4,7 @@ description: Le composant Onglets permet la création de plusieurs onglets pour 
 role: Architect, Developer, Admin, User
 exl-id: 0031c5f3-447c-4932-898f-2f453801e492
 source-git-commit: 3ebe1a42d265185b36424b01844f4a00f05d4724
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1040'
 ht-degree: 100%
 
@@ -102,7 +102,7 @@ Dans l’onglet **Accessibilité**, les valeurs peuvent être définies pour les
 
 ## Sélectionner un panneau {#select-panel}
 
-L’auteur du contenu peut utiliser l’option **Sélectionner un panneau** la barre d’outils du composant pour choisir un panneau différent, ainsi que pour réorganiser l’ordre des onglets.
+L’auteur du contenu peut utiliser l’option **Sélectionner un panneau** dans la barre d’outils du composant pour choisir un panneau différent, ainsi que pour réorganiser l’ordre des onglets.
 
 ![Icône Sélectionner un panneau](/help/assets/select-panel-icon.png)
 
@@ -118,7 +118,7 @@ Lorsque vous sélectionnez l’option **Sélectionner un panneau** dans la barre
 
 >[!NOTE]
 >
->Les onglets ne sont pas sélectionnables par l’auteur en mode **Édition**. Utilisez le mode **[Aperçu](https://docs.adobe.com/content/help/fr-FR/experience-manager-cloud-service/sites/authoring/fundamentals/editing-content.html#preview-mode)** ou l’option **[Afficher comme publié(e)](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/sites/authoring/fundamentals/editing-content.html#view-as-published)** pour interagir avec les onglets comme un lecteur du contenu publié.
+>Les onglets ne sont pas sélectionnables par l’auteur en mode **Édition**. Utilisez le mode **[Aperçu](https://docs.adobe.com/content/help/fr-FR/experience-manager-cloud-service/sites/authoring/fundamentals/editing-content.html#preview-mode)** ou l’option **[Afficher comme publié(e)](https://docs.adobe.com/content/help/fr-FR/experience-manager-cloud-service/sites/authoring/fundamentals/editing-content.html#view-as-published)** pour interagir avec les onglets comme un lecteur du contenu publié.
 
 ## Boîte de dialogue de conception {#design-dialog}
 
