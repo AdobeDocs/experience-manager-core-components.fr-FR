@@ -4,13 +4,13 @@ description: Le composant de bouton des composants principaux permet de créer e
 role: Architect, Developer, Admin, User
 exl-id: e17efd1d-90d4-497a-9e7d-45934d81bc28
 source-git-commit: 3ebe1a42d265185b36424b01844f4a00f05d4724
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '451'
 ht-degree: 100%
 
 ---
 
-# Composant de bouton{#button-component}
+# Composant de bouton {#button-component}
 
 Le composant de bouton des composants principaux permet de configurer et d’afficher un élément de bouton sur une page.
 
