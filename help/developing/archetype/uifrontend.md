@@ -5,7 +5,7 @@ feature: Composants principaux, archétype de projet AEM
 role: Architect, Developer, Admin
 exl-id: 99132b49-bd06-4ac2-9348-12c0dfdfe8b2
 source-git-commit: 3ebe1a42d265185b36424b01844f4a00f05d4724
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1625'
 ht-degree: 100%
 
@@ -36,9 +36,9 @@ Si l’archétype complet de projet AEM est exécuté avec `mvn clean install -P
 >
 >Découvrez comment AEM gère les bibliothèques clientes (ClientLibs) dans la [documentation de développement AEM](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/developing/full-stack/clientlibs.html?lang=fr-FR) et comment [les inclure](/help/developing/including-clientlibs.md), ou voyez ci-dessous [comment le module ui.frontend les utilise.](#clientlib-generation)
 
-## Présentation des bibliothèques clientes (ClientLibs)  {#clientlibs}
+## Présentation des bibliothèques clientes (ClientLibs) {#clientlibs}
 
-Le module front-end est rendu disponible à l’aide d’une [bibliothèque cliente AEM](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/developing/full-stack/clientlibs.html). Lors de l’exécution du script de génération NPM, l’application est créée et le package aem-clientlib-generator récupère le résultat de la génération et le transforme en une bibliothèque cliente de ce type.
+Le module front-end est rendu disponible à l’aide d’une [bibliothèque cliente AEM](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/developing/full-stack/clientlibs.html?lang=fr-FR). Lors de l’exécution du script de génération NPM, l’application est créée et le package aem-clientlib-generator récupère le résultat de la génération et le transforme en une bibliothèque cliente de ce type.
 
 Une bibliothèque cliente se compose des fichiers et répertoires suivants :
 
@@ -131,7 +131,7 @@ Le module ui.frontend compile le code sous le dossier `ui.frontend/src` et gén�
 
 ### JavaScript {#javascript}
 
-* Optimisation : pour les versions de production, tous les JS qui ne sont pas utilisés ou appelés sont supprimés.
+* Optimisation : pour les versions de production, tous les JS qui ne sont pas utilisés ni appelés sont supprimés.
 
 ### CSS {#css}
 
@@ -202,7 +202,7 @@ Le module ui.frontend comprend un serveur webpack-dev-server qui assure le recha
    * Ce fichier comporte également des références aux bibliothèques clientes stockées dans AEM, comme Core Component CSS et Responsive Grid CSS.
    * Le serveur de développement Webpack est configuré pour remplacer les fichiers CSS et JavaScript ajoutés depuis une instance locale AEM en cours d’exécution, selon la configuration disponible dans `ui.frontend/webpack.dev.js`.
 
-#### Utilisation de {#using-webpack-server}
+#### Utilisation {#using-webpack-server}
 
 1. Exécutez la commande `mvn -PautoInstallSinglePackage clean install` depuis la racine du projet pour l’installer dans son intégralité sur une instance AEM s’exécutant sur `localhost:4502`.
 1. Naviguez dans le dossier `ui.frontend`.
