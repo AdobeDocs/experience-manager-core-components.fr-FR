@@ -4,7 +4,7 @@ description: '« Pour que les composants principaux soient opérationnels dans 
 role: Architect, Developer, Admin, User
 exl-id: ee2d25e4-e2b8-4ecc-a62c-f0066de2bf2d
 source-git-commit: 3ebe1a42d265185b36424b01844f4a00f05d4724
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '977'
 ht-degree: 100%
 
@@ -17,7 +17,7 @@ Pour que les composants principaux soient opérationnels dans votre propre proje
 1. [Téléchargement et installation](#download-and-install)
 1. [Création des composants proxy](#create-proxy-components)
 1. [Chargement des styles principaux](#load-the-core-styles)
-1. [Autorisation des composants](#allow-the-components)
+1. [Activation des composants](#allow-the-components)
 
 >[!TIP]
 >
