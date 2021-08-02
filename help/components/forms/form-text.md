@@ -4,7 +4,7 @@ description: Le composant de texte de formulaire des composants principaux perme
 role: Architect, Developer, Admin, User
 exl-id: e8fa3881-51fb-4726-9654-8f93acfb7464
 source-git-commit: 3ebe1a42d265185b36424b01844f4a00f05d4724
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '577'
 ht-degree: 100%
 
