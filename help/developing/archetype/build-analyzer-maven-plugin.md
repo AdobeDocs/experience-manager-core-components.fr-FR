@@ -4,10 +4,10 @@ description: Documentation du plug-in local Maven Build Analyzer
 feature: Composants principaux, archétype de projet AEM
 role: Architect, Developer, Admin
 exl-id: de26b310-a294-42d6-a0db-91f6036a328c
-source-git-commit: 3ebe1a42d265185b36424b01844f4a00f05d4724
-workflow-type: ht
-source-wordcount: '510'
-ht-degree: 100%
+source-git-commit: a6c28db9eaf20e194b4b3355e59f710e2c251305
+workflow-type: tm+mt
+source-wordcount: '595'
+ht-degree: 86%
 
 ---
 
@@ -38,3 +38,25 @@ Vous trouverez ci-dessous un tableau décrivant les analyseurs exécutés au cou
 | `configuration-api` | Valide les configurations OSGi importantes. <p> </p> `Configuration org.apache.felix.webconsole.internal.servlet.OsgiManager: Configuration is not allowed (com.mysite:mysite.all:1.0.0-SNAPSHOT\|com.mysite:mysite.ui.config:1.0.0-SNAPSHOT)` | Oui | Oui |
 | `region-deprecated-api` | Vérifie si une [API obsolète](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/release-notes/deprecated-apis.html?lang=fr) est utilisée. <p> </p>`[WARNING] com.mysite:mysite.core:1.0.0-SNAPSHOT: Usage of deprecated package found : org.apache.sling.settings : Avoid these features at runtime: run modes, file system access (com.mysite:mysite.all:1.0.0-SNAPSHOT)` | Oui | Oui |
 
+## Problèmes connus
+
+Vous trouverez ci-dessous une liste des problèmes connus lors de l’utilisation du plug-in Maven Build Analyzer.
+
+### Échec de l’exécution du module externe Maven Build Analyzer dans le SDK local
+
+Lorsque vous utilisez le SDK local avec une version du plug-in Maven Build Analyzer inférieure à `1.1.2`, l’exécution du plug-in peut entraîner l’erreur ci-dessous. Dans ce cas, mettez à jour votre projet vers la dernière version du module externe .
+
+```txt
+[ERROR] Failed to execute goal com.adobe.aem:aemanalyser-maven-plugin:1.1.0:analyse (default-analyse) on project mysite.analyse: Execution default-analyse of goal com.adobe.aem:aemanalyser-maven-plugin:1.1.0:analyse failed: arraycopy: source index -1 out of bounds for char[65536] -> [Help 1]
+```
+
+Si vous avez utilisé l’ archétype de projet AEM pour configurer votre projet, veillez à ajuster la propriété dans le Maven racine `pom.xml` comme ci-dessous.
+
+```xml
+   ...
+   <properties>
+      ...
+      <aemanalyser.version>1.1.2</aemanalyser.version> <!-- Make sure to use the latest release -->
+      ...
+   </properties>
+```
