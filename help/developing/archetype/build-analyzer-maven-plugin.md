@@ -5,9 +5,9 @@ feature: Composants principaux, archétype de projet AEM
 role: Architect, Developer, Admin
 exl-id: de26b310-a294-42d6-a0db-91f6036a328c
 source-git-commit: a6c28db9eaf20e194b4b3355e59f710e2c251305
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '595'
-ht-degree: 86%
+ht-degree: 100%
 
 ---
 
@@ -40,17 +40,17 @@ Vous trouverez ci-dessous un tableau décrivant les analyseurs exécutés au cou
 
 ## Problèmes connus
 
-Vous trouverez ci-dessous une liste des problèmes connus lors de l’utilisation du plug-in Maven Build Analyzer.
+Vous trouverez, ci-dessous, une liste de problèmes connus dans le cadre de l’utilisation du plug-in Maven Build Analyzer.
 
-### Échec de l’exécution du module externe Maven Build Analyzer dans le SDK local
+### Échec de l’exécution du plug-in Maven Build Analyzer dans le SDK local
 
-Lorsque vous utilisez le SDK local avec une version du plug-in Maven Build Analyzer inférieure à `1.1.2`, l’exécution du plug-in peut entraîner l’erreur ci-dessous. Dans ce cas, mettez à jour votre projet vers la dernière version du module externe .
+Lorsque vous utilisez le SDK local avec une version du plug-in Maven Build Analyzer inférieure à `1.1.2`, l’exécution du plug-in peut entraîner l’erreur ci-dessous. Dans ce cas, mettez à jour votre projet vers la dernière version du plug-in.
 
 ```txt
 [ERROR] Failed to execute goal com.adobe.aem:aemanalyser-maven-plugin:1.1.0:analyse (default-analyse) on project mysite.analyse: Execution default-analyse of goal com.adobe.aem:aemanalyser-maven-plugin:1.1.0:analyse failed: arraycopy: source index -1 out of bounds for char[65536] -> [Help 1]
 ```
 
-Si vous avez utilisé l’ archétype de projet AEM pour configurer votre projet, veillez à ajuster la propriété dans le Maven racine `pom.xml` comme ci-dessous.
+Si vous avez utilisé l’archétype de projet AEM pour configurer votre projet, veillez à configurer la propriété dans le fichier `pom.xml` Maven racine comme indiqué ci-dessous.
 
 ```xml
    ...
