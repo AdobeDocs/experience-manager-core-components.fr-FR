@@ -3,10 +3,10 @@ title: Composant Liste
 description: Le composant principal Liste permet de créer facilement des listes dynamiques et statiques.
 role: Architect, Developer, Admin, User
 exl-id: 662ab508-0253-4d28-b95c-8c4cde8173bd
-source-git-commit: 3ebe1a42d265185b36424b01844f4a00f05d4724
-workflow-type: ht
-source-wordcount: '979'
-ht-degree: 100%
+source-git-commit: eea159ad494150c3f132166d48f624605eb92e64
+workflow-type: tm+mt
+source-wordcount: '1064'
+ht-degree: 92%
 
 ---
 
@@ -17,6 +17,17 @@ Le composant principal Liste permet de créer facilement des listes dynamiques e
 ## Utilisation {#usage}
 
 Le composant Liste peut servir à créer, par exemple, une liste dynamique de pages enfants ou une liste statique d’éléments définis de manière arbitraire. Le type de liste disponible et les options de mise en forme peuvent être définis par l’auteur du modèle dans la [boîte de dialogue de conception](#design-dialog). L’éditeur de contenu peut sélectionner les types de liste disponibles et mettre en forme les éléments de liste dans la [boîte de dialogue de modification](#edit-dialog).
+
+## Redirections dans les listes {#redirects}
+
+Lorsqu&#39;une page a une cible de redirection (qu&#39;elle pointe vers une URL externe ou vers une autre page AEM), alors une liste contenant des liens vers cette cible pointe directement vers l&#39;URL de la cible de redirection.
+
+### Exemple {#redirect-example}
+
+* Créez une page A qui redirige vers la page B.
+* Créez une page C qui redirige vers `https://aemcomponents.dev`
+* Sur une page D, insérez un composant de liste contenant les pages A et C
+* Les liens respectifs générés pointent alors directement vers la page B et `https://aemcomponents.dev`
 
 ## Version et compatibilité {#version-and-compatibility}
 
