@@ -3,9 +3,9 @@ title: Versions des composants principaux
 description: Les composants principaux sont publiés sous forme de versions qui peuvent contenir plusieurs versions des mêmes composants principaux. Ce document explique les versions et les mises à jour ainsi que comment comprendre la compatibilité avec les composants principaux et AEM.
 role: Architect, Developer, Admin, User
 exl-id: 7d4dbe46-4013-4217-b815-cdb1462072c6
-source-git-commit: 5271174f5c325a9793dc155c763054752c7308b8
+source-git-commit: fdca922ff637dc905fc90e80a1018c214a38e8c8
 workflow-type: tm+mt
-source-wordcount: '2275'
+source-wordcount: '2279'
 ht-degree: 97%
 
 ---
@@ -26,7 +26,7 @@ Le tableau suivant, dont le contenu est [disponible sur GitHub avec les détails
 
 | Mise à jour | Description | AEM 6.4 | AEM 6.5 | AEM as a Cloud Service | Java | Date de publication |
 |---|---|---|---|---|---|---|
-| [2.17.10](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.17.10) | Ce correctif améliore les composants [Liste](/help/components/list.md) et [Navigation](/help/components/navigation.md) pour afficher l’URL externe pour les cibles de redirection, active l’héritage des images de page pour le composant [Teaser](/help/components/teaser.md) et contient des correctifs supplémentaires. | 6.4.8.4+ * | 6.5.6.0+ * | Suite | 8, 11 | 31 août 2021 |
+| [2.17.10](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.17.10) | Ce correctif améliore les composants [Liste](/help/components/list.md) et [Navigation](/help/components/navigation.md) pour afficher l’URL externe pour les cibles de redirection, active l’héritage des images de page pour la version v2 à venir du composant [Teaser](/help/components/teaser.md) et contient des correctifs supplémentaires. | 6.4.8.4+ * | 6.5.6.0+ * | Suite | 8, 11 | 31 août 2021 |
 | [2.17.8](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.17.8) | Cette version de correctif Il s’agit d’une version de correctif permettant de corriger une modification rétrocompatible introduite précédemment. | 6.4.8.4+ * | 6.5.6.0+ * | Suite | 8, 11 | 2 août 2021 |
 | [2.17.6](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.17.6) | Cette version de correctif prend en charge les cartes du site pour les pages et comprend diverses améliorations de l’accessibilité. | 6.4.8.4+ * | 6.5.6.0+ * | Suite | 8, 11 | 29 juillet 2021 |
 | [2.17.2](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.17.2) | Cette version de correctif vient corriger la [couche de données](/help/developing/data-layer/overview.md) qui ne fonctionne pas avec AEMaaCS. | 6.4.8.4+ * | 6.5.6.0+ * | Suite | 8, 11 | 8 juillet 2021 |
