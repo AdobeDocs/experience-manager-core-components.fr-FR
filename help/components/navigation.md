@@ -4,13 +4,13 @@ description: Le composant Navigation permet aux utilisateurs de parcourir facile
 role: Architect, Developer, Admin, User
 exl-id: 9154f2a3-3d1e-4865-a413-298748fa66d3
 source-git-commit: eea159ad494150c3f132166d48f624605eb92e64
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1469'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
-# Composant Navigation{#navigation-component}
+# Composant Navigation {#navigation-component}
 
 Le composant Navigation permet aux utilisateurs de parcourir facilement une structure de site globalisée.
 
@@ -90,13 +90,13 @@ Le composant de navigation affichera alors le menu en fonction de la structure d
 
 ## Redirections dans la navigation {#redirects}
 
-Lorsqu&#39;une page a une cible de redirection (qu&#39;elle pointe vers une URL externe ou vers une autre page AEM), alors un composant de navigation qui contient des liens vers ce point directement vers l&#39;URL de la cible de redirection.
+Lorsqu’une page a une cible de redirection (et ce, qu’elle pointe vers une URL externe ou vers une autre page AEM), un composant de navigation contenant des liens vers cette cible pointe directement vers l’URL de la cible de redirection.
 
 ### Exemple {#redirect-example}
 
 * Créez une page A qui redirige vers la page B.
 * Créez une page C qui redirige vers `https://aemcomponents.dev`
-* Sur une page D, insérez un composant de navigation ou qui contient les pages A et C
+* Sur une page D, insérez un composant de navigation qui contient les pages A et C
 * Les liens respectifs générés pointent alors directement vers la page B et `https://aemcomponents.dev`
 
 
