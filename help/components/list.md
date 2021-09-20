@@ -4,13 +4,13 @@ description: Le composant principal Liste permet de créer facilement des listes
 role: Architect, Developer, Admin, User
 exl-id: 662ab508-0253-4d28-b95c-8c4cde8173bd
 source-git-commit: eea159ad494150c3f132166d48f624605eb92e64
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1064'
-ht-degree: 92%
+ht-degree: 100%
 
 ---
 
-# Composant Liste{#list-component}
+# Composant Liste {#list-component}
 
 Le composant principal Liste permet de créer facilement des listes dynamiques et statiques.
 
@@ -20,7 +20,7 @@ Le composant Liste peut servir à créer, par exemple, une liste dynamique de pa
 
 ## Redirections dans les listes {#redirects}
 
-Lorsqu&#39;une page a une cible de redirection (qu&#39;elle pointe vers une URL externe ou vers une autre page AEM), alors une liste contenant des liens vers cette cible pointe directement vers l&#39;URL de la cible de redirection.
+Lorsqu’une page a une cible de redirection (et ce, qu’elle pointe vers une URL externe ou vers une autre page AEM), une liste contenant des liens vers cette cible pointe directement vers l’URL de la cible de redirection.
 
 ### Exemple {#redirect-example}
 
@@ -137,7 +137,7 @@ Quelle que soit la manière dont vous choisissez de créer la liste, certaines o
 Comment les éléments doivent être triés.
    * **Titre**
    * **Date de dernière modification**
-* **Ordre du tri**
+* **Ordre de tri**
 Ordre dans lequel les éléments doivent être triés.
    * **croissant**
    * **décroissant**
@@ -172,7 +172,7 @@ Dans l’onglet **Paramètres de liste**, le format de date peut être défini e
 
 ![Paramètre de liste de la boîte de dialogue de conception du composant Liste](/help/assets/list-design-list-settings.png)
 
-* **Format de date**
+* **Format de la date**
 Format à utiliser pour l’affichage de la date de la dernière modification.
 * **Désactiver les enfants**
 Désactive le type de liste enfant dans le composant.
