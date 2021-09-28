@@ -1,20 +1,20 @@
 ---
 sub-product: AEM Core Components
-user-guide-title: Composants principaux AEM
+user-guide-title: AEM Core Components
 breadcrumb-title: Guide des composants principaux
 user-guide-description: Utilisez les composants principaux extensibles pour permettre aux auteurs de créer facilement du contenu.
 feature-set: Experience Manager Sites
-source-git-commit: 15aa2145a4872a9e9c46e639f42f212363823d75
+source-git-commit: 7bff1282bdd05b98e7ce33ab0e1a1be7080bb209
 workflow-type: tm+mt
 source-wordcount: '214'
-ht-degree: 100%
+ht-degree: 98%
 
 ---
 
 
 # Aide sur les composants principaux d’AEM {#using}
 
-+ [Présentation des composants principaux](introduction.md)
++ [Présentation des composants principaux ](introduction.md)
 + [Chemins vers la réussite](developing/success.md)
 + [Bibliothèque de composants](https://adobe.com/go/aem_cmp_library_fr)
 + [Versions des composants principaux](versions.md)
@@ -84,6 +84,7 @@ ht-degree: 100%
       + [Utilisation de l’archétype](developing/archetype/using.md)
       + [Module principal](developing/archetype/core.md)
       + [Module ui.apps](developing/archetype/uiapps.md)
+      + [Scripts groupés précompilés](developing/archetype/precompiled-bundled-scripts.md)
       + [Module ui.content](developing/archetype/uicontent.md)
       + [Module ui.frontend.general](developing/archetype/uifrontend.md)
       + [Module ui.frontend.react](developing/archetype/uifrontend-react.md)

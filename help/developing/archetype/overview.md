@@ -4,10 +4,10 @@ description: Modèle de projet pour les applications basées sur AEM
 feature: Core Components, AEM Project Archetype
 role: Architect, Developer, Admin
 exl-id: 58994726-9b65-4035-9d45-60b745d577bb
-source-git-commit: 5271174f5c325a9793dc155c763054752c7308b8
-workflow-type: ht
-source-wordcount: '1113'
-ht-degree: 100%
+source-git-commit: 69be45e2aa80753789fa19b12374b8e15eb6a394
+workflow-type: tm+mt
+source-wordcount: '1138'
+ht-degree: 97%
 
 ---
 
@@ -41,7 +41,7 @@ L’archétype de projet AEM est un modèle Maven qui crée un projet Adobe Exp
 * **En-tête et pied de page :** assemblez-les et localisez-les sans code, à l’aide des [fonctionnalités de localisation des composants](https://docs.adobe.com/content/help/fr-FR/experience-manager-core-components/using/get-started/localization.html).
 * **Système de style :** évitez de devoir créer des composants personnalisés en permettant aux auteurs de leur [appliquer différents styles](https://docs.adobe.com/content/help/fr-FR/experience-manager-learn/getting-started-wknd-tutorial-develop/style-system.html).
 * **Création front-end :** les développeurs front-end peuvent [concevoir des maquettes de pages AEM](uifrontend.md#webpack-dev-server) et [créer des bibliothèques clientes](uifrontend.md) avec Webpack, TypeScript et SASS.
-* **Prêt pour WebApp :** pour les sites qui utilisent [React](uifrontend-react.md) ou [Angular](uifrontend-angular.md), utilisez le [SDK SPA](https://docs.adobe.com/content/help/fr-FR/experience-manager-cloud-service/implementing/headless/spa/developing.html) afin de conserver la [création en contexte au sein de l’application](https://docs.adobe.com/content/help/fr-FR/experience-manager-learn/sites/spa-editor/spa-editor-framework-feature-video-use.html).
+* **Prêt pour WebApp :** pour les sites qui utilisent [React](uifrontend-react.md) ou [Angular](uifrontend-angular.md), utilisez le [SDK SPA](https://docs.adobe.com/content/help/fr-FR/experience-manager-cloud-service/implementing/headless/spa/developing.html) afin de conserver la [création en contexte au sein de l’application](https://docs.adobe.com/content/help/en/experience-manager-learn/sites/spa-editor/spa-editor-framework-feature-video-use.html).
 * **Compatible Commerce :** pour les projets qui souhaitent intégrer [AEM Commerce](https://docs.adobe.com/content/help/fr-FR/experience-manager-cloud-service/commerce/home.translate.html) à des solutions commerciales comme [Magento](https://magento.com/fr) à l’aide des composants [principaux](https://github.com/adobe/aem-core-cif-components) Commerce.
 * **Exemple de code :** vous pouvez extraire le composant HelloWorld, ainsi que les exemples de modèles, servlets, filtres et planificateurs.
 * **Open source :** si quelque chose ne va pas, [contribuez](https://github.com/adobe/aem-core-wcm-components/blob/master/CONTRIBUTING.md) en apportant vos améliorations.
@@ -61,7 +61,7 @@ mvn -B archetype:generate \
 ```
 
 * Remplacez `XX` par le dernier [numéro de version de l’archétype.](#requirements)
-* Définissez `aemVersion=cloud` pour [AEM as a Cloud Service](https://docs.adobe.com/content/help/fr-FR/experience-manager-cloud-service/landing/home.html).\
+* Définissez `aemVersion=cloud` pour [AEM as a Cloud Service](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/landing/home.html).\
    Définissez `aemVersion=6.5.0` pour [Adobe Managed Services](https://github.com/adobe/aem-project-archetype/tree/master/src/main/archetype/dispatcher.ams) ou On-Premise.
 La dépendance des composants principaux n’est ajoutée que pour les versions d’AEM hors du cloud, car ils sont fournis prêts à l’emploi pour AEM as a Cloud Service.
 * Ajustez `appTitle="My Site"` de façon à définir le titre du site web et les groupes de composants.
@@ -79,7 +79,7 @@ La dépendance des composants principaux n’est ajoutée que pour les versions 
 | `groupId` |  | ID de groupe Maven de base (par exemple, `"com.mysite"`). |
 | `package` | *`${groupId}`* | Package source Java (par exemple, `"com.mysite"`). |
 | `version` | `1.0-SNAPSHOT` | Version du projet (par exemple, `1.0-SNAPSHOT`). |
-| `aemVersion` | `cloud` | Version d’AEM cible (par exemple, `cloud` pour [AEM as a Cloud Service](https://docs.adobe.com/content/help/fr-FR/experience-manager-cloud-service/landing/home.html) ; ou `6.5.0` ou `6.4.4` pour [Adobe Managed Services](https://github.com/adobe/aem-project-archetype/tree/master/src/main/archetype/dispatcher.ams) ou On-Premise). |
+| `aemVersion` | `cloud` | Version d’AEM cible (par exemple, `cloud` pour [AEM as a Cloud Service](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/landing/home.html) ; ou `6.5.0` ou `6.4.4` pour [Adobe Managed Services](https://github.com/adobe/aem-project-archetype/tree/master/src/main/archetype/dispatcher.ams) ou On-Premise). |
 | `sdkVersion` | `latest` | Lorsque `aemVersion=cloud`, une version de [SDK](https://docs.adobe.com/content/help/fr-FR/experience-manager-cloud-service/implementing/developing/aem-as-a-cloud-service-sdk.html) peut être spécifiée (par exemple, `2020.02.2265.20200217T222518Z-200130`). |
 | `includeDispatcherConfig` | `y` | Inclut une configuration du Dispatcher pour le cloud ou pour AMS/On-Premise, selon la valeur de `aemVersion` (par exemple, `y` ou `n`). |
 | `frontendModule` | `general` | Comprend un module de création front-end Webpack qui génère les bibliothèques clientes (par exemple, `general` ou `none` pour les sites standard ; ou `angular` ou `react` pour une application monopage qui implémente l’[éditeur d’application monopage](https://docs.adobe.com/content/help/fr-FR/experience-manager-cloud-service/implementing/headless/spa/editor-overview.html)). |
@@ -94,6 +94,7 @@ La dépendance des composants principaux n’est ajoutée que pour les versions 
 | `amp` | `n` | Activez la prise en charge [AMP](/help/developing/amp.md) pour les modèles de projets générés. |
 | `enableDynamicMedia` | `n` | Active les composants Dynamic Media de base dans les paramètres de règles de projet et active les fonctionnalités Dynamic Media dans les règles du composant Image de base. |
 | `enableSSR` | `n` | Option permettant d’activer le rendu côté serveur pour le projet front-end |
+| `precompiledScripts` | `n` | Option permettant de [précompiler](/help/developing/archetype/precompiled-bundled-scripts.md) les scripts côté serveur à partir de `ui.apps` et de les joindre à la version en tant qu’artefact de bundle secondaire dans le projet `ui.apps`. `aemVersion` doit être défini sur  `cloud`. |
 
 ## Configuration requise {#requirements}
 

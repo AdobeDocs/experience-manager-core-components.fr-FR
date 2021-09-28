@@ -1,13 +1,13 @@
 ---
 title: Utilisation de l’archétype de projet AEM
 description: Instructions d’utilisation détaillées pour l’archétype de projet AEM
-feature: Composants principaux, archétype de projet AEM
+feature: Core Components, AEM Project Archetype
 role: Architect, Developer, Admin
 exl-id: a3978d8b-4904-42aa-9ee2-9c1f884327bb
-source-git-commit: 3ebe1a42d265185b36424b01844f4a00f05d4724
-workflow-type: ht
-source-wordcount: '2147'
-ht-degree: 100%
+source-git-commit: 69be45e2aa80753789fa19b12374b8e15eb6a394
+workflow-type: tm+mt
+source-wordcount: '2209'
+ht-degree: 96%
 
 ---
 
@@ -101,7 +101,7 @@ Les propriétés suivantes sont disponibles lors de la création d’un projet �
 | `groupId` |  | ID de groupe Maven de base (par exemple, `"com.mysite"`). |
 | `package` | *`${groupId}`* | Package source Java (par exemple, `"com.mysite"`). |
 | `version` | `1.0-SNAPSHOT` | Version du projet (par exemple, `1.0-SNAPSHOT`). |
-| `aemVersion` | `cloud` | Version d’AEM cible (par exemple, `cloud` pour [AEM as a Cloud Service](https://docs.adobe.com/content/help/fr-FR/experience-manager-cloud-service/landing/home.html) ; ou `6.5.0` ou `6.4.4` pour [Adobe Managed Services](https://github.com/adobe/aem-project-archetype/tree/master/src/main/archetype/dispatcher.ams) ou On-Premise). |
+| `aemVersion` | `cloud` | Version d’AEM cible (par exemple, `cloud` pour [AEM as a Cloud Service](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/landing/home.html) ; ou `6.5.0` ou `6.4.4` pour [Adobe Managed Services](https://github.com/adobe/aem-project-archetype/tree/master/src/main/archetype/dispatcher.ams) ou On-Premise). |
 | `sdkVersion` | `latest` | Lorsque `aemVersion=cloud`, une version de [SDK](https://docs.adobe.com/content/help/fr-FR/experience-manager-cloud-service/implementing/developing/aem-as-a-cloud-service-sdk.html) peut être spécifiée (par exemple, `2020.02.2265.20200217T222518Z-200130`). |
 | `includeDispatcherConfig` | `y` | Inclut une configuration du Dispatcher pour le cloud ou pour AMS/On-Premise, selon la valeur de `aemVersion` (par exemple, `y` ou `n`). |
 | `frontendModule` | `general` | Comprend un module de création front-end Webpack qui génère les bibliothèques clientes (par exemple, `general` ou `none` pour les sites standard ; ou `angular` ou `react` pour une application monopage qui implémente l’[éditeur d’application monopage](https://docs.adobe.com/content/help/fr-FR/experience-manager-cloud-service/implementing/headless/spa/editor-overview.html)). |
@@ -116,6 +116,7 @@ Les propriétés suivantes sont disponibles lors de la création d’un projet �
 | `amp` | `n` | Activez la prise en charge [AMP](/help/developing/amp.md) pour les modèles de projets générés. |
 | `enableDynamicMedia` | `n` | Active les composants Dynamic Media de base dans les paramètres de règles de projet et active les fonctionnalités Dynamic Media dans les règles du composant Image de base. |
 | `enableSSR` | `n` | Option permettant d’activer le rendu côté serveur pour le projet front-end |
+| `precompiledScripts` | `n` | Option permettant de [précompiler](/help/developing/archetype/precompiled-bundled-scripts.md) les scripts côté serveur à partir de `ui.apps` et de les joindre à la version en tant qu’artefact de bundle secondaire dans le projet `ui.apps`. `aemVersion` doit être défini sur  `cloud`. |
 
 >[!NOTE]
 >
@@ -137,6 +138,7 @@ Le projet Maven généré prend en charge différents profils de déploiement lo
 | `autoInstallSinglePackage` | Installez le package de contenu `all` avec le plug-in content-package-maven-plugin dans le gestionnaire de packages sur l’instance de création par défaut sur l’hôte local, port 4502. Le nom d’hôte et le port peuvent être modifiés à l’aide des propriétés `aem.host` et `aem.port` définies par l’utilisateur. |
 | `autoInstallSinglePackagePublish` | Installez le package de contenu `all` avec le plug-in content-package-maven-plugin dans le gestionnaire de packages sur l’instance de publication par défaut sur l’hôte local, port 4503. Le nom d’hôte et le port peuvent être modifiés à l’aide des propriétés `aem.host` et `aem.port` définies par l’utilisateur. |
 | `integrationTests` | Exécute les tests d’intégration fournis sur l’instance AEM (uniquement pour la phase `verify`). |
+| `precompiledScripts` | Défini automatiquement lorsque le projet a été généré avec la propriété `precompiledScripts` définie sur `y`. Le profil est principal par défaut et génère un lot OSGi à l’intérieur de `ui.apps` avec les scripts précompilés, qui seront inclus dans le package de contenu `all`. Le profil peut être désactivé avec `-DskipScriptPrecompilation=true`. |
 
 ### Création et installation {#building-and-installing}
 
