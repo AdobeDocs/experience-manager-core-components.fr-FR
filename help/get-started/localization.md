@@ -3,10 +3,10 @@ title: Fonctions de localisation des composants principaux
 description: Fonctions de localisation des composants principaux
 role: Architect, Developer, Admin, User
 exl-id: 9140b65a-6dd7-4ec9-9095-6e8243ec8424
-source-git-commit: 3ebe1a42d265185b36424b01844f4a00f05d4724
-workflow-type: ht
-source-wordcount: '725'
-ht-degree: 100%
+source-git-commit: 888719359f9a1d1c9dccff97fb639b332f2be54c
+workflow-type: tm+mt
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -20,7 +20,7 @@ La plupart des sites nécessitent qu’un pied de page soit présent sur toutes 
 
 De même, un composant de navigation doit généralement être affiché sur toutes les pages. Toutefois, il devra également refléter le contenu des pages localisées.
 
-En utilisant les fonctionnalités de localisation du [composant principal de navigation](/help/components/navigation.md) et du [composant principal de fragment d’expérience](/help/components/experience-fragment.md), ainsi que les [modèles modifiables d’AEM](https://docs.adobe.com/content/help/fr-FR/experience-manager-cloud-service/sites/authoring/features/templates.html), cela devient facile à réaliser. L’exemple pourrait être étendu à l’utilisation du [composant Navigation linguistique](/help/components/language-navigation.md).
+En utilisant les fonctionnalités de localisation du [composant principal de navigation](/help/components/navigation.md) et du [composant principal de fragment d’expérience](/help/components/experience-fragment.md), ainsi que les [modèles modifiables d’AEM](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/features/templates.html?lang=fr), cela devient facile à réaliser. L’exemple pourrait être étendu à l’utilisation du [composant Navigation linguistique](/help/components/language-navigation.md).
 
 ## La structure du contenu {#content-structure}
 

@@ -3,10 +3,10 @@ title: Création à l’aide des composants principaux
 description: 'Dans AEM, les composants sont les éléments structurels qui constituent le contenu des pages créées : les composants principaux offrent une fonctionnalité de création flexible et riche en fonctionnalités.'
 role: Architect, Developer, Admin, User
 exl-id: 56e58303-a178-45ab-b59d-e374c9cf90cf
-source-git-commit: 3ebe1a42d265185b36424b01844f4a00f05d4724
-workflow-type: ht
-source-wordcount: '764'
-ht-degree: 100%
+source-git-commit: 888719359f9a1d1c9dccff97fb639b332f2be54c
+workflow-type: tm+mt
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -18,35 +18,35 @@ Les composants principaux offrent une fonctionnalité de création flexible et r
 
 Pour tester les composants principaux et consulter des exemples d’options de configuration, ainsi que des sorties HTML et JSON, consultez la [bibliothèque de composants](https://adobe.com/go/aem_cmp_library_fr).
 
-Pour une présentation plus détaillée et plus orientée vers les développeurs de l’implémentation des composants principaux dans un projet AEM utilisant l’[archétype de projet AEM](/help/developing/archetype/overview.md), consultez [le tutoriel WKND.](https://docs.adobe.com/content/help/fr-FR/experience-manager-learn/getting-started-wknd-tutorial-develop/overview.html)
+Pour une présentation plus détaillée et plus orientée vers les développeurs de l’implémentation des composants principaux dans un projet AEM utilisant l’[archétype de projet AEM](/help/developing/archetype/overview.md), consultez [le tutoriel WKND.](https://experienceleague.adobe.com/docs/experience-manager-learn/getting-started-wknd-tutorial-develop/overview.html)
 
 >[!NOTE]
 >
->Les auteurs ne peuvent pas disposer immédiatement de ces composants principaux. En effet, l’[équipe de développement doit d’abord les intégrer dans leur environnement](/help/get-started/using.md). Une fois intégrés, ils peuvent être rendus disponibles et préconfigurés dans l’[éditeur de modèles](https://docs.adobe.com/content/help/fr-FR/experience-manager-cloud-service/sites/authoring/features/templates.html).
+>Les auteurs ne peuvent pas disposer immédiatement de ces composants principaux. En effet, l’[équipe de développement doit d’abord les intégrer dans leur environnement](/help/get-started/using.md). Une fois intégrés, ils peuvent être rendus disponibles et préconfigurés dans l’[éditeur de modèles](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/features/templates.html?lang=fr).
 
 >[!CAUTION]
 >
->Les composants principaux [requièrent AEM 6.4 ou version ultérieure](/help/versions.md), ainsi que l’utilisation de [modèles modifiables](https://docs.adobe.com/content/help/fr-FR/experience-manager-cloud-service/sites/authoring/features/templates.html). Ils ne fonctionnent pas avec l’interface utilisateur classique ni avec les modèles statiques.
+>Les composants principaux [requièrent AEM 6.4 ou version ultérieure](/help/versions.md), ainsi que l’utilisation de [modèles modifiables](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/features/templates.html). Ils ne fonctionnent pas avec l’interface utilisateur classique ni avec les modèles statiques.
 
 ## Création à l’aide des composants principaux {#authoring-with-core-components}
 
 En tant qu’auteur, vous remarquerez que les composants principaux présentent quelques avantages. En voici un aperçu :
 
-* Simples d’utilisation et bien intégrés à l’[éditeur de page](https://docs.adobe.com/content/help/fr-FR/experience-manager-cloud-service/sites/authoring/fundamentals/editing-content.html)
+* Simples d’utilisation et bien intégrés à l’[éditeur de page](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/fundamentals/editing-content.html)
 
-* Riches en fonctionnalités pour répondre à de nombreux cas d’utilisation, comme illustré sur le [site de référence WKND](https://wknd.site), ainsi que dans la [bibliothèque de composants](https://adobe.com/go/aem_cmp_library_fr)
+* Riches en fonctionnalités pour répondre à de nombreux cas d’utilisation, comme illustré sur le [site de référence WKND](https://wknd.site), ainsi que dans la [bibliothèque de composants](https://adobe.com/go/aem_cmp_library)
 
-* [Préconfigurables](#pre-configuring-core-components) afin de définir les fonctionnalités disponibles pour les auteurs de pages au moyen de l’[éditeur de modèles](https://docs.adobe.com/content/help/fr-FR/experience-manager-cloud-service/sites/authoring/features/templates.html)
+* [Préconfigurables](#pre-configuring-core-components) afin de définir les fonctionnalités disponibles pour les auteurs de pages au moyen de l’[éditeur de modèles](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/features/templates.html)
 
-* Conçus selon les [consignes d’accessibilité](https://docs.adobe.com/content/help/fr-FR/experience-manager-cloud-service/sites/authoring/fundamentals/accessible-content.html)
+* Conçus selon les [consignes d’accessibilité](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/fundamentals/accessible-content.html)
 
-* Conçus pour prendre en charge la [mise en page réactive](https://docs.adobe.com/content/help/fr-FR/experience-manager-cloud-service/sites/authoring/features/responsive-layout.html)
+* Conçus pour prendre en charge la [mise en page réactive](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/features/responsive-layout.html)
 
 * Conçus pour prendre en charge la [localisation facile](localization.md)
 
-Les composants sont disponibles dans l’onglet **Composants** du panneau latéral de l’éditeur de page lors de la [modification d’une page](https://docs.adobe.com/content/help/fr-FR/experience-manager-cloud-service/sites/authoring/fundamentals/editing-content.html).
+Les composants sont disponibles dans l’onglet **Composants** du panneau latéral de l’éditeur de page lors de la [modification d’une page](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/fundamentals/editing-content.html).
 
-Les composants sont regroupés selon des catégories appelées groupes de composants afin de les organiser et de les filtrer facilement. Le nom du groupe de composants s’affiche avec le composant dans l’[explorateur de composants](https://docs.adobe.com/content/help/fr-FR/experience-manager-cloud-service/sites/authoring/fundamentals/editing-content.html) et il est également possible de filtrer par groupe pour trouver facilement le composant approprié.
+Les composants sont regroupés selon des catégories appelées groupes de composants afin de les organiser et de les filtrer facilement. Le nom du groupe de composants s’affiche avec le composant dans l’[explorateur de composants](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/fundamentals/editing-content.html) et il est également possible de filtrer par groupe pour trouver facilement le composant approprié.
 
 >[!NOTE]
 >
@@ -60,7 +60,7 @@ La configuration des composants de base a été la tâche d’un développeur. T
 
 Par exemple, si un composant d’image n’autorise pas le chargement d’images à partir du système de fichiers ou si un composant textuel autorise uniquement la mise en forme des paragraphes, ces fonctions peuvent être activées ou désactivées en un seul clic.
 
-Pour plus d’informations, voir [Création de modèles de page](https://docs.adobe.com/content/help/fr-FR/experience-manager-cloud-service/sites/authoring/features/templates.html).
+Pour plus d’informations, voir [Création de modèles de page](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/features/templates.html).
 
 ### Boîtes de dialogue de modification et de conception {#edit-and-design-dialogs}
 
@@ -78,7 +78,7 @@ Les styles de la plupart des composants principaux peuvent être définis à l�
 * Un auteur de modèles peut définir les styles disponibles pour un composant particulier dans la boîte de dialogue de conception de ce composant.
 * L’auteur du contenu peut ensuite choisir les styles à appliquer lors de l’ajout du composant et la création de contenu.
 
-Pour plus d’informations, consultez la documentation [Système de style](https://docs.adobe.com/content/help/fr-FR/experience-manager-cloud-service/sites/authoring/features/style-system.html).
+Pour plus d’informations, consultez la documentation [Système de style](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/features/style-system.html).
 
 ## Références pour les développeurs {#developer-resources}
 

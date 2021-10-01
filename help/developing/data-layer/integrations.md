@@ -1,13 +1,13 @@
 ---
 title: Intégrations et couche de données client Adobe
 description: Découvrez comment la couche de données client Adobe peut s’intégrer à vos composants personnalisés et comment les intégrations avec Adobe Analytics et Adobe Target peuvent vous aider à obtenir des informations sur votre site web
-feature: Composants principaux, couche de données client Adobe
+feature: Core Components, Adobe Client Data Layer
 role: Architect, Developer, Admin
 exl-id: 503dd3dc-fe95-4a17-83f5-1f0c1960993d
-source-git-commit: 3ebe1a42d265185b36424b01844f4a00f05d4724
-workflow-type: ht
-source-wordcount: '422'
-ht-degree: 100%
+source-git-commit: 2ac16b15718128feefbe903e92f276b16fe96f69
+workflow-type: tm+mt
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -40,10 +40,10 @@ Associée à Adobe Analytics et Adobe Target, la couche de données client Ado
 
 Découvrez comment utiliser les fonctionnalités intégrées de la couche de données client Adobe avec les composants principaux d’AEM pour collecter des données sur une page dans Adobe Experience Manager Sites. Experience Platform Launch et l’extension Adobe Analytics seront utilisés pour créer des règles permettant d’envoyer des données de page à Adobe Analytics.
 
-[Afficher le tutoriel ici.](https://docs.adobe.com/content/help/fr-FR/experience-manager-learn/sites/integrations/analytics/collect-data-analytics.html)
+[Afficher le tutoriel ici.](https://experienceleague.adobe.com/docs/experience-manager-learn/sites/integrations/analytics/collect-data-analytics.html)
 
 ### Suivi des composants cliqués avec Adobe Analytics {#track-clicked-components}
 
 Utilisez la couche de données client Adobe orientée sur les événements avec les composants principaux d’AEM pour effectuer le suivi des clics effectués sur des composants spécifiques sur un site Adobe Experience Manager. Découvrez comment utiliser des règles dans Experience Platform Launch pour écouter les événements de clics, filtrer par composant et envoyer les données à une instance Adobe Analytics avec une balise de lien de suivi.
 
-[Afficher le tutoriel ici.](https://docs.adobe.com/content/help/fr-FR/experience-manager-learn/sites/integrations/analytics/track-clicked-component.html)
+[Afficher le tutoriel ici.](https://experienceleague.adobe.com/docs/experience-manager-learn/sites/integrations/analytics/track-clicked-component.html)

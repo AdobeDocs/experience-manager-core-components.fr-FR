@@ -3,16 +3,16 @@ title: Composant Fragment de contenu
 description: Le composant Fragment de contenu des composants principaux permet l’affichage d’un fragment de contenu.
 role: Architect, Developer, Admin, User
 exl-id: 551ff2a1-f8db-490c-84a3-4255b364fc83
-source-git-commit: 3ebe1a42d265185b36424b01844f4a00f05d4724
-workflow-type: ht
-source-wordcount: '673'
+source-git-commit: 888719359f9a1d1c9dccff97fb639b332f2be54c
+workflow-type: tm+mt
+source-wordcount: '667'
 ht-degree: 100%
 
 ---
 
 # Composant Fragment de contenu{#content-fragment-component}
 
-Le composant Fragment de contenu des composants principaux permet l’affichage d’un [fragment de contenu](https://docs.adobe.com/content/help/fr-FR/experience-manager-cloud-service/assets/content-fragments/content-fragments.html).
+Le composant Fragment de contenu des composants principaux permet l’affichage d’un [fragment de contenu](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/content-fragments/content-fragments.html?lang=fr).
 
 >[!NOTE]
 >
@@ -20,11 +20,11 @@ Le composant Fragment de contenu des composants principaux permet l’affichage 
 
 ## Utilisation {#usage}
 
-Le composant de fragment de contenu des composants principaux permet d’inclure un [fragment de contenu](https://docs.adobe.com/content/help/fr-FR/experience-manager-cloud-service/assets/content-fragments/content-fragments.html) sur une page.
+Le composant de fragment de contenu des composants principaux permet d’inclure un [fragment de contenu](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/content-fragments/content-fragments.html) sur une page.
 
 * Le fragment et ses propriétés peuvent être sélectionnés dans la [boîte de dialogue de configuration](#configure-dialog).
 * Les types de ressources qui permettent de gérer certaines images et grilles peuvent être définis dans la [boîte de dialogue de conception](#design-dialog).
-* L’option d’édition ouvre le fragment sélectionné dans l’[éditeur de fragments de contenu](https://docs.adobe.com/content/help/fr-FR/experience-manager-cloud-service/assets/content-fragments/content-fragments-variations.html).
+* L’option d’édition ouvre le fragment sélectionné dans l’[éditeur de fragments de contenu](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/content-fragments/content-fragments-variations.html?lang=fr).
 
 ## Version et compatibilité {#version-and-compatibility}
 

@@ -3,10 +3,10 @@ title: Personnalisation des composants principaux
 description: Les composants principaux implémentent plusieurs modèles permettant une personnalisation facile, depuis l’application d’un style simple jusqu’à la réutilisation de fonctionnalités avancées.
 role: Architect, Developer, Admin
 exl-id: ec4b918b-bc70-4d72-ba84-a24556aedb41
-source-git-commit: 3ebe1a42d265185b36424b01844f4a00f05d4724
-workflow-type: ht
-source-wordcount: '1106'
-ht-degree: 100%
+source-git-commit: 2ac16b15718128feefbe903e92f276b16fe96f69
+workflow-type: tm+mt
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -122,7 +122,7 @@ Par exemple, en examinant le fichier HTL du composant principal de chemin de nav
 .cmp-breadcrumb a {}
 ```
 
-De plus, chacun des composants principaux utilise le [système de style AEM](https://docs.adobe.com/content/help/fr-FR/experience-manager-cloud-service/sites/authoring/features/style-system.html) qui permet aux auteurs de modèles de définir des noms de classe CSS supplémentaires qui peuvent être appliqués au composant par les auteurs de pages. Cela permet de définir pour chaque modèle une liste de styles de composants autorisés et de déterminer si l’un d’entre eux doit s’appliquer par défaut à tous les composants de ce type.
+De plus, chacun des composants principaux utilise le [système de style AEM](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/features/style-system.html?lang=fr) qui permet aux auteurs de modèles de définir des noms de classe CSS supplémentaires qui peuvent être appliqués au composant par les auteurs de pages. Cela permet de définir pour chaque modèle une liste de styles de composants autorisés et de déterminer si l’un d’entre eux doit s’appliquer par défaut à tous les composants de ce type.
 
 ## Compatibilité de la mise à niveau des personnalisations {#upgrade-compatibility-of-customizations}
 
@@ -132,7 +132,7 @@ Trois types de mises à niveau sont possibles :
 * mise à niveau des composants principaux vers une nouvelle version mineure
 * mise à niveau des composants principaux vers une version majeure
 
-En règle générale, la mise à niveau d’AEM vers une nouvelle version n’affecte pas les composants principaux ou les personnalisations, à condition que les versions des composants prennent également en charge la nouvelle version d’AEM vers laquelle est effectuée la migration et que les personnalisations n’utilisent pas d’API [obsolètes ou supprimées](https://docs.adobe.com/content/help/fr-FR/experience-manager-cloud-service/release-notes/deprecated-removed-features.html).
+En règle générale, la mise à niveau d’AEM vers une nouvelle version n’affecte pas les composants principaux ou les personnalisations, à condition que les versions des composants prennent également en charge la nouvelle version d’AEM vers laquelle est effectuée la migration et que les personnalisations n’utilisent pas d’API [obsolètes ou supprimées](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/release-notes/deprecated-removed-features.html).
 
 La mise à niveau des composants principaux sans passer à une version majeure plus récente ne devrait pas affecter les personnalisations tant que les modèles de personnalisation décrits dans cette page sont utilisés.
 
@@ -152,7 +152,7 @@ Comme pour tout composant AEM, il existe un certain nombre d’éléments à pre
 
 1. **Consultez régulièrement les fonctionnalités obsolètes et supprimées.**
 
-   Avec chaque nouvelle version d’AEM vers laquelle est effectuée une mise à niveau, vérifiez que toutes les API utilisées sont toujours d’actualité en gardant un œil sur la page [Fonctionnalités obsolètes et supprimées](https://docs.adobe.com/content/help/fr-FR/experience-manager-cloud-service/release-notes/deprecated-removed-features.html).
+   Avec chaque nouvelle version d’AEM vers laquelle est effectuée une mise à niveau, vérifiez que toutes les API utilisées sont toujours d’actualité en gardant un œil sur la page [Fonctionnalités obsolètes et supprimées](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/release-notes/deprecated-removed-features.html).
 
 Consultez aussi la section [Prise en charge des composants principaux](overview.md#core-component-support).
 

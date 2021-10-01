@@ -3,10 +3,10 @@ title: Utilisation des composants principaux
 description: '« Pour que les composants principaux soient opérationnels dans votre propre projet, suivez les quatre étapes ci-après : téléchargement et installation, création de composants proxy, chargement des styles principaux et autorisation des composants de vos modèles. »'
 role: Architect, Developer, Admin, User
 exl-id: ee2d25e4-e2b8-4ecc-a62c-f0066de2bf2d
-source-git-commit: 3ebe1a42d265185b36424b01844f4a00f05d4724
-workflow-type: ht
-source-wordcount: '977'
-ht-degree: 100%
+source-git-commit: 888719359f9a1d1c9dccff97fb639b332f2be54c
+workflow-type: tm+mt
+source-wordcount: '969'
+ht-degree: 97%
 
 ---
 
@@ -22,7 +22,7 @@ Pour que les composants principaux soient opérationnels dans votre propre proje
 >[!TIP]
 >
 >Pour obtenir des instructions plus générales pour commencer avec la configuration du projet, les composants principaux, les modèles modifiables, les bibliothèques clientes et le développement des composants, le tutoriel en plusieurs parties suivant peut vous intéresser :\
->[Prise en main du développement AEM Sites – Tutoriel WKND](https://docs.adobe.com/content/help/fr-FR/experience-manager-learn/getting-started-wknd-tutorial-develop/overview.html)
+>[Prise en main du développement AEM Sites – Tutoriel WKND](https://experienceleague.adobe.com/docs/experience-manager-learn/getting-started-wknd-tutorial-develop/overview.html)
 
 >[!TIP]
 >
@@ -50,7 +50,7 @@ Gardez à l’esprit les points suivants lorsque vous utilisez les composants pr
 
 Les composants principaux ne font pas partie du démarrage rapide lors du lancement en mode de production (sans exemple de contenu). C’est pourquoi la première étape consiste [à télécharger le dernier module de contenu publié à partir de GitHub](https://github.com/adobe/aem-core-wcm-components/releases/latest) et à l’installer dans vos environnements AEM.
 
-Il existe plusieurs manières d’automatiser cette opération, mais la méthode la plus simple pour installer rapidement un module de contenu sur une instance consiste à utiliser le gestionnaire de modules. Consultez la section [Installation des modules](https://docs.adobe.com/content/help/fr-FR/experience-manager-65/administering/contentmanagement/package-manager.html#installing-packages). En outre, une fois qu’une instance de publication s’exécute, vous devrez répliquer ce module dans l’éditeur. Consultez la section [Réplication des modules](https://docs.adobe.com/content/help/fr-FR/experience-manager-65/administering/contentmanagement/package-manager.html#replicating-packages).
+Il existe plusieurs manières d’automatiser cette opération, mais la méthode la plus simple pour installer rapidement un module de contenu sur une instance consiste à utiliser le gestionnaire de modules. Consultez la section [Installation des modules](https://experienceleague.adobe.com/docs/experience-manager-65/administering/contentmanagement/package-manager.html#installing-packages). En outre, une fois qu’une instance de publication s’exécute, vous devrez répliquer ce module dans l’éditeur. Consultez la section [Réplication des modules](https://experienceleague.adobe.com/docs/experience-manager-65/administering/contentmanagement/package-manager.html#replicating-packages).
 
 ## Création des composants proxy {#create-proxy-components}
 
@@ -105,7 +105,7 @@ Assurez-vous que vos composants proxy et vos bibliothèques clientes ont été d
 
 ## Autorisation des composants {#allow-the-components}
 
-Les étapes suivantes sont effectuées dans l’[éditeur de modèles](https://docs.adobe.com/content/help/fr-FR/experience-manager-cloud-service/sites/authoring/features/templates.html).
+Les étapes suivantes sont effectuées dans l’[éditeur de modèles](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/features/templates.html?lang=fr).
 
 1. Dans l’éditeur de modèles, sélectionnez le conteneur de mises en page et ouvrez sa stratégie.
 1. Dans la liste des composants autorisés, sélectionnez les composants proxy créés précédemment, qui doivent s’afficher sous le groupe de composants qui leur est affecté. Ensuite, appliquez les modifications.

@@ -3,10 +3,10 @@ title: Composant Incorporer
 description: Le composant Incorporer permet d’incorporer du contenu externe dans une page de contenu AEM.
 role: Architect, Developer, Admin, User
 exl-id: 985fa304-70a3-4329-957e-76d1832a06f1
-source-git-commit: 3ebe1a42d265185b36424b01844f4a00f05d4724
-workflow-type: ht
-source-wordcount: '1341'
-ht-degree: 100%
+source-git-commit: d435e82d5950336c66997399829e3baf23f170c0
+workflow-type: tm+mt
+source-wordcount: '1337'
+ht-degree: 99%
 
 ---
 
@@ -111,7 +111,7 @@ Les balises HTML que l’auteur peut entrer sont filtrées à des fins de sécur
 
 Toutefois, les règles sont plus complexes, car le composant Incorporer suit l’ensemble de règles de filtrage de la structure d’assainissement HTML AntiSamy d’AEM, qui se trouve à l’adresse `/libs/cq/xssprotection/config.xml`. Cela peut être superposé pour une configuration spécifique au projet par un développeur, si nécessaire.
 
-Vous trouverez des informations de sécurité supplémentaires dans la [documentation du développeur AEM pour les installations On-Premise](https://docs.adobe.com/content/help/fr-FR/experience-manager-65/developing/introduction/security.html), ainsi que les [installations AEM as a Cloud Service.](https://docs.adobe.com/content/help/fr-FR/experience-manager-cloud-service/security/home.html)
+Vous trouverez des informations de sécurité supplémentaires dans la [documentation du développeur AEM pour les installations On-Premise](https://experienceleague.adobe.com/docs/experience-manager-65/developing/introduction/security.html), ainsi que les [installations AEM as a Cloud Service.](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/security/home.html)
 
 >[!NOTE]
 >Bien que les règles de structure d’assainissement AntiSamy puissent être configurées en superposant `/libs/cq/xssprotection/config.xml`, ces modifications ont un impact sur l’ensemble du comportement HTL et JSP et pas seulement sur le composant principal Incorporer.
