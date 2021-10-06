@@ -5,9 +5,9 @@ feature: Core Components, AEM Project Archetype
 role: Architect, Developer, Admin
 exl-id: de26b310-a294-42d6-a0db-91f6036a328c
 source-git-commit: db33866f0a9e87e34eaaa061d308438c6f5bebb4
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '605'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -37,7 +37,7 @@ Vous trouverez ci-dessous un tableau décrivant les analyseurs exécutés au cou
 | `bundle-nativecode` | Vérifie que les lots OSGI n’installent pas de code natif. | Oui | Oui |
 | `configuration-api` | Valide les configurations OSGi importantes. <p> </p> `Configuration org.apache.felix.webconsole.internal.servlet.OsgiManager: Configuration is not allowed (com.mysite:mysite.all:1.0.0-SNAPSHOT\|com.mysite:mysite.ui.config:1.0.0-SNAPSHOT)` | Oui | Oui |
 | `region-deprecated-api` | Vérifie si une [API obsolète](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/release-notes/deprecated-apis.html?lang=fr) est utilisée. <p> </p>`[WARNING] com.mysite:mysite.core:1.0.0-SNAPSHOT: Usage of deprecated package found : org.apache.sling.settings : Avoid these features at runtime: run modes, file system access (com.mysite:mysite.all:1.0.0-SNAPSHOT)` | Oui | Oui |
-| `artifact-rules` | Valide les dépendances telles que les lots et les packages de contenu pour éviter les problèmes connus dans les artefacts.<p> </p>`[WARNING] [artifact-rules] com.adobe.acs:acs-aem-commons-bundle:5.0.4: Use at least version 5.0.10 (com.mysite:mysite.all:1.0.0-SNAPSHOT)` | Oui | Oui |
+| `artifact-rules` | Valide les dépendances comme les lots et les packages de contenu pour éviter les problèmes connus dans les artefacts.<p> </p>`[WARNING] [artifact-rules] com.adobe.acs:acs-aem-commons-bundle:5.0.4: Use at least version 5.0.10 (com.mysite:mysite.all:1.0.0-SNAPSHOT)` | Oui | Oui |
 
 ## Problèmes connus
 
