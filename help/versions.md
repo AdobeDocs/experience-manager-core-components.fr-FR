@@ -4,15 +4,15 @@ description: Les composants principaux sont publiés sous forme de versions qui 
 role: Architect, Developer, Admin, User
 exl-id: 7d4dbe46-4013-4217-b815-cdb1462072c6
 source-git-commit: 35d29c28672f53812de4a348c9f75f6766b2a7e7
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2300'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
 # Versions des composants principaux {#core-components-versions}
 
-La version actuelle des composants principaux est la version 2.17.12. Elle est compatible avec les installations [AEM as a Cloud Service](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/landing/home.html?lang=fr) et [AEM On-Premise](https://experienceleague.adobe.com/docs/experience-manager-65/user-guide/home.html).
+La version actuelle des composants principaux est la version 2.17.12. Elle est compatible avec les installations [AEM as a Cloud Service](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/landing/home.html?lang=fr) et [AEM On-Premise](https://experienceleague.adobe.com/docs/experience-manager-65/user-guide/home.html?lang=fr).
 
 ## Historique des versions et compatibilité {#release-history-and-compatibility}
 
@@ -26,7 +26,7 @@ Le tableau suivant, dont le contenu est [disponible sur GitHub avec les détails
 
 | Mise à jour | Description | AEM 6.4 | AEM 6.5 | AEM as a Cloud Service | Java | Date de publication |
 |---|---|---|---|---|---|---|
-| [2.17.12](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.17.12) | Il s’agit d’une version de correctif qui corrige une régression introduite avec la version précédente. | 6.4.8.4+ * | 6.5.6.0+ * | Suite | 8, 11 | 1er octobre 2021 |
+| [2.17.12](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.17.12) | Il s’agit d’une version de correctif qui corrige une régression introduite dans la version précédente. | 6.4.8.4+ * | 6.5.6.0+ * | Suite | 8, 11 | 1 octobre 2021 |
 | [2.17.10](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.17.10) | Ce correctif améliore les composants [Liste](/help/components/list.md) et [Navigation](/help/components/navigation.md) pour afficher l’URL externe pour les cibles de redirection, active l’héritage des images de page pour la version v2 à venir du composant [Teaser](/help/components/teaser.md) et contient des correctifs supplémentaires. | 6.4.8.4+ * | 6.5.6.0+ * | Suite | 8, 11 | 31 août 2021 |
 | [2.17.8](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.17.8) | Cette version de correctif Il s’agit d’une version de correctif permettant de corriger une modification rétrocompatible introduite précédemment. | 6.4.8.4+ * | 6.5.6.0+ * | Suite | 8, 11 | 2 août 2021 |
 | [2.17.6](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.17.6) | Cette version de correctif prend en charge les cartes du site pour des pages et comprend différentes améliorations d’accessibilité. | 6.4.8.4+ * | 6.5.6.0+ * | Suite | 8, 11 | 29 juillet 2021 |
@@ -156,4 +156,4 @@ Pour plus d’informations sur la prise en charge des personnalisations des comp
 
 Concernant le développement, Adobe met l’accent sur les composants principaux et de nouvelles fonctionnalités continueront d’être ajoutées.
 
-[Presque tous les composants de base ont été abandonnés avec AEM 6.5](https://experienceleague.adobe.com/docs/experience-manager-65/authoring/siteandpage/default-components-foundation.html) et seuls les correctifs majeurs seront pris en compte à l’avenir pour ces composants.
+[Presque tous les composants de base ont été abandonnés avec AEM 6.5](https://experienceleague.adobe.com/docs/experience-manager-65/authoring/siteandpage/default-components-foundation.html?lang=fr) et seuls les correctifs majeurs seront pris en compte à l’avenir pour ces composants.
