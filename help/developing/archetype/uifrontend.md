@@ -5,9 +5,9 @@ feature: Core Components, AEM Project Archetype
 role: Architect, Developer, Admin
 exl-id: 99132b49-bd06-4ac2-9348-12c0dfdfe8b2
 source-git-commit: 2ac16b15718128feefbe903e92f276b16fe96f69
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1618'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -38,7 +38,7 @@ Si l’archétype complet de projet AEM est exécuté avec `mvn clean install -P
 
 ## Présentation des bibliothèques clientes (ClientLibs) {#clientlibs}
 
-Le module front-end est rendu disponible à l’aide d’une [bibliothèque cliente AEM](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/developing/full-stack/clientlibs.html). Lors de l’exécution du script de génération NPM, l’application est créée et le package aem-clientlib-generator récupère le résultat de la génération et le transforme en une bibliothèque cliente de ce type.
+Le module front-end est rendu disponible à l’aide d’une [bibliothèque cliente AEM](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/developing/full-stack/clientlibs.html?lang=fr-FR). Lors de l’exécution du script de génération NPM, l’application est créée et le package aem-clientlib-generator récupère le résultat de la génération et le transforme en une bibliothèque cliente de ce type.
 
 Une bibliothèque cliente se compose des fichiers et répertoires suivants :
 
@@ -163,7 +163,7 @@ Le processus de génération du module ui.frontend tire parti du plug-in [aem-cl
 
 ### Ajout de bibliothèques clientes aux pages {#clientlib-inclusion}
 
-Les catégories `clientlib-site` et `clientlib-dependencies` sont ajoutées aux pages via la [configuration Règles de page](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/components-templates/templates.html#template-definitions) dans le modèle par défaut. Pour afficher les règles, modifiez la ligne de commande **Modèle de page de contenu > Informations de page > Règles de page**.
+Les catégories `clientlib-site` et `clientlib-dependencies` sont ajoutées aux pages via la [configuration Règles de page](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/components-templates/templates.html?lang=fr#template-definitions) dans le modèle par défaut. Pour afficher les règles, modifiez la ligne de commande **Modèle de page de contenu > Informations de page > Règles de page**.
 
 L’ajout final de bibliothèques clientes à la page des sites se présente comme suit :
 
