@@ -4,13 +4,13 @@ description: Le composant Partage sur les réseaux sociaux des composants princi
 role: Architect, Developer, Admin, User
 exl-id: 8bd53c76-da91-479b-b416-f978682a3d43
 source-git-commit: d435e82d5950336c66997399829e3baf23f170c0
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '419'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
-# Composant Partage sur les réseaux sociaux{#social-sharing-component}
+# Composant Partage sur les réseaux sociaux {#social-sharing-component}
 
 Le composant Partage sur les réseaux sociaux des composants principaux est un widget permettant de partager des contenus sur Facebook et Pinterest.
 
@@ -18,7 +18,7 @@ Le composant Partage sur les réseaux sociaux des composants principaux est un w
 
 Le composant Partage sur les réseaux sociaux ajoute des liens de partage Facebook et Pinterest à la page. Il est souvent inclus dans les en-têtes ou les pieds de page.
 
-Contrairement à d’autres composants, les paramètres du composant Partage sur les réseaux sociaux sont définis par l’auteur du modèle par le biais [des propriétés de la page initiale](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/features/templates.html?lang=fr) et par l’auteur du contenu via [les propriétés de la page](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/fundamentals/page-properties.html).
+Contrairement à d’autres composants, les paramètres du composant Partage sur les réseaux sociaux sont définis par l’auteur du modèle par le biais [des propriétés de la page initiale](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/features/templates.html?lang=fr) et par l’auteur du contenu via [les propriétés de la page](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/fundamentals/page-properties.html?lang=fr).
 
 ## Version et compatibilité {#version-and-compatibility}
 
@@ -51,8 +51,8 @@ Vous trouverez plus d’informations sur le développement des composants princi
    * Si un ID est spécifié, il incombe à l’auteur de s’assurer qu’il est unique.
    * La modification de l’ID peut avoir un impact sur le suivi CSS, JS et de couche de données.
 
-Étant donné que le partage nécessite des en-têtes de page spéciaux, tout partage doit être activé au niveau de la page. Par conséquent, pour l’auteur du contenu, des options de modification supplémentaires du composant Partage sont disponibles via l’onglet de partage dans les [propriétés de la page](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/fundamentals/page-properties.html).
+Étant donné que le partage nécessite des en-têtes de page spéciaux, tout partage doit être activé au niveau de la page. Par conséquent, pour l’auteur du contenu, des options de modification supplémentaires du composant Partage sont disponibles via l’onglet de partage dans les [propriétés de la page](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/fundamentals/page-properties.html?lang=fr).
 
 ## Boîte de dialogue de conception {#design-dialog}
 
-Étant donné que le partage nécessite des en-têtes de page spéciaux, tout partage doit être activé au niveau de la page. Par conséquent, pour l’auteur du modèle, les options de conception du composant Partage sont disponibles via les [propriétés de la page initiale](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/features/templates.html).
+Étant donné que le partage nécessite des en-têtes de page spéciaux, tout partage doit être activé au niveau de la page. Par conséquent, pour l’auteur du modèle, les options de conception du composant Partage sont disponibles via les [propriétés de la page initiale](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/features/templates.html?lang=fr).
