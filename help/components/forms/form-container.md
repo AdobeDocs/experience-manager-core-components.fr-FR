@@ -4,9 +4,9 @@ description: Le composant de conteneur de formulaires des composants principaux 
 role: Architect, Developer, Admin, User
 exl-id: 552f9dd5-6a3a-42d9-9969-e62a1f36e811
 source-git-commit: d435e82d5950336c66997399829e3baf23f170c0
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '950'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -22,7 +22,7 @@ En utilisant la [boîte de dialogue de configuration](#configure-dialog), l’é
 
 >[!NOTE]
 >
->Le composant de conteneur de formulaires des composants principaux prend uniquement en charge l’utilisation d’autres composants de formulaire (bouton, texte, masqué, etc.). L’utilisation des composants de formulaire des [composants de base](https://experienceleague.adobe.com/docs/experience-manager-65/authoring/siteandpage/default-components-foundation.html) dans le conteneur de formulaires (et vice versa) n’est pas prise en charge.
+>Le composant de conteneur de formulaires des composants principaux prend uniquement en charge l’utilisation d’autres composants de formulaire (bouton, texte, masqué, etc.). L’utilisation des composants de formulaire des [composants de base](https://experienceleague.adobe.com/docs/experience-manager-65/authoring/siteandpage/default-components-foundation.html?lang=fr) dans le conteneur de formulaires (et vice versa) n’est pas prise en charge.
 
 ## Version et compatibilité {#version-and-compatibility}
 
@@ -93,7 +93,7 @@ Lorsque le formulaire est envoyé, le contenu du formulaire est stocké dans un 
 ![Options de stockage du contenu dans la boîte de dialogue de modification du conteneur de formulaire](/help/assets/form-container-edit-store.png)
 
 * **Chemin d’accès au contenu** : chemin d’accès au référentiel de contenu où le contenu envoyé est stocké.
-* **Afficher les données** : appuyez ou cliquez sur cette option pour afficher les données envoyées stockées sous la forme JSON.
+* **Afficher des données** : appuyez ou cliquez sur cette option pour afficher les données envoyées stockées sous la forme JSON.
 * **Démarrer le processus** : configurez cette option pour démarrer un workflow avec le contenu stocké comme charge utile lors de l’envoi du formulaire.
 
 >[!NOTE]
@@ -119,7 +119,7 @@ Quel que soit le type d’action sélectionné, une page de remerciement peut to
 
 ## Boîte de dialogue de conception {#design-dialog}
 
-La boîte de dialogue de conception permet à l’auteur du modèle de définir les composants autorisés et leurs mappages pour le conteneur similaires à la boîte de dialogue de conception du [conteneur de mises en page standard dans l’éditeur de modèles](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/features/templates.html).
+La boîte de dialogue de conception permet à l’auteur du modèle de définir les composants autorisés et leurs mappages pour le conteneur similaires à la boîte de dialogue de conception du [conteneur de mises en page standard dans l’éditeur de modèles](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/features/templates.html?lang=fr).
 
 ### Onglet Styles {#styles-tab}
 
