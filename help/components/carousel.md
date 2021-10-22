@@ -4,13 +4,13 @@ description: Le composant du carrousel permet à l’auteur de contenu de prése
 role: Architect, Developer, Admin, User
 exl-id: 3331214c-a05c-47e1-b54c-fbfd1045bd60
 source-git-commit: 888719359f9a1d1c9dccff97fb639b332f2be54c
-workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+workflow-type: ht
+source-wordcount: '1115'
+ht-degree: 100%
 
 ---
 
-# Composant du carrousel{#carousel-component}
+# Composant du carrousel {#carousel-component}
 
 Le composant du carrousel des composants principaux permet à l’auteur de contenu de présenter le contenu dans un carrousel navigable.
 
@@ -59,7 +59,7 @@ Utilisez le bouton **Ajouter** pour ouvrir le sélecteur de composants afin de c
 
 >[!TIP]
 >
->Si la fenêtre d’affichage de la page est réduite, de sorte que la boîte de dialogue de modification s’affiche en plein écran, le bouton **Ajouter** est masqué. Vous pouvez toujours ajouter des composants au composant du carrousel en [les faisant glisser depuis l’explorateur de composants et en les déposant ensuite sur le composant du carrousel dans l’éditeur de page](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/fundamentals/editing-content.html#inserting-a-component-from-the-components-browser).
+>Si la fenêtre d’affichage de la page est réduite, de sorte que la boîte de dialogue de modification s’affiche en plein écran, le bouton **Ajouter** est masqué. Vous pouvez toujours ajouter des composants au composant du carrousel en [les faisant glisser depuis l’explorateur de composants et en les déposant ensuite sur le composant du carrousel dans l’éditeur de page](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/fundamentals/editing-content.html?lang=fr#inserting-a-component-from-the-components-browser).
 
 ### Onglet Propriétés {#properties-tab}
 
@@ -77,9 +77,9 @@ Dans l’onglet **Propriétés**, l’auteur du contenu peut définir les diapos
 
 >[!NOTE]
 >
->Les commandes d’avance de diapositives ne sont pas activées en mode **Édition**. Utilisez le mode [**Aperçu**](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/fundamentals/editing-content.html#preview-mode) ou l’option **[Afficher comme publié(e)](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/fundamentals/editing-content.html#view-as-published)** pour interagir avec le carrousel en tant que lecteur du contenu publié.
+>Les commandes d’avance de diapositives ne sont pas activées en mode **Édition**. Utilisez le mode [**Aperçu**](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/fundamentals/editing-content.html?lang=fr#preview-mode) ou l’option **[Afficher comme publié(e)](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/fundamentals/editing-content.html?lang=fr#view-as-published)** pour interagir avec le carrousel en tant que lecteur du contenu publié.
 >
->La fonction d’avance automatique n’est pas activée en mode **Édition**. Utilisez l’option **[Afficher comme publié(e)](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/fundamentals/editing-content.html#view-as-published)** pour afficher la fonctionnalité d’avance automatique en tant que lecteur du contenu publié.
+>La fonction d’avance automatique n’est pas activée en mode **Édition**. Utilisez l’option **[Afficher comme publié(e)](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/fundamentals/editing-content.html?lang=fr#view-as-published)** pour afficher la fonctionnalité d’avance automatique en tant que lecteur du contenu publié.
 
 ### Onglet Accessibilité {#accessibility-tab}
 
