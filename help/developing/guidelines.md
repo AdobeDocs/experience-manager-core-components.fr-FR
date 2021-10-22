@@ -4,9 +4,9 @@ description: Les composants principaux suivent des modèles d’implémentations
 role: Architect, Developer, Admin
 exl-id: e8c58fa5-c991-433c-8d38-575dacfc3433
 source-git-commit: 2ac16b15718128feefbe903e92f276b16fe96f69
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1264'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -85,17 +85,17 @@ Lorsqu’elle est combinée avec le [modèle de composant proxy](#proxy-componen
 
 ## Assemblage {#putting-it-all-together}
 
-Vous trouverez ci-dessous un aperçu de la structure entière de liaison de type de ressource, en prenant l’exemple du composant principal du titre. Il illustre la manière dont un composant proxy spécifique au site permet de résoudre le contrôle des composants, afin d’éviter que la ressource de contenu contienne un numéro de version. Il indique ensuite comment le fichier `title.html` [HTL](https://experienceleague.adobe.com/docs/experience-manager-htl/using/overview.html) du composant utilise l’interface du modèle, tandis que l’implémentation est liée à la version spécifique du composant via les annotations du [modèle Sling](https://sling.apache.org/documentation/bundles/models.html).
+Vous trouverez ci-dessous un aperçu de la structure entière de liaison de type de ressource, en prenant l’exemple du composant principal du titre. Il illustre la manière dont un composant proxy spécifique au site permet de résoudre le contrôle des composants, afin d’éviter que la ressource de contenu contienne un numéro de version. Il indique ensuite comment le fichier `title.html` [HTL](https://experienceleague.adobe.com/docs/experience-manager-htl/using/overview.html?lang=fr) du composant utilise l’interface du modèle, tandis que l’implémentation est liée à la version spécifique du composant via les annotations du [modèle Sling](https://sling.apache.org/documentation/bundles/models.html).
 
 ![Présentation de la liaison des ressources](/help/assets/chlimage_1-32.png)
 
-Vous trouverez ci-dessous un autre aperçu qui n’affiche pas les détails du POJO d’implémentation, mais révèle la manière dont les [modèles et stratégies associés](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/components-templates/templates.html) sont référencés.
+Vous trouverez ci-dessous un autre aperçu qui n’affiche pas les détails du POJO d’implémentation, mais révèle la manière dont les [modèles et stratégies associés](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/components-templates/templates.html?lang=fr) sont référencés.
 
 La propriété `cq:allowedTemplates` indique les modèles qui peuvent être utilisés pour un site et la propriété `cq:template` indique pour chaque page quel est le modèle associé. Chaque modèle est composé de trois parties :
 
-* **structure** : contient les ressources dont la présence sera forcée sur chaque page et que l’auteur de la page ne pourra pas supprimer, comme les composants d’en-tête et de pied de page.
-* **initial** : contient le contenu initial qui sera dupliqué sur la page lors de sa création.
-* **policies** : contient pour chaque composant le mappage à une stratégie, qui correspond à la préconfiguration du composant. Ce mappage permet de réutiliser les stratégies dans les modèles et donc de les gérer de manière centralisée.
+* **Structure** : contient les ressources dont la présence sera forcée sur chaque page et que l’auteur de la page ne pourra pas supprimer, comme les composants d’en-tête et de pied de page.
+* **Initiale** : contient le contenu initial qui sera dupliqué sur la page lors de sa création.
+* **Stratégies** : contient pour chaque composant le mappage à une stratégie, qui correspond à la préconfiguration du composant. Ce mappage permet de réutiliser les stratégies dans les modèles et donc de les gérer de manière centralisée.
 
 ![Présentation des modèles et de la stratégie](/help/assets/screen_shot_2018-12-07at093102.png)
 
