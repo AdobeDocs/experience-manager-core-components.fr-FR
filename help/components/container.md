@@ -4,13 +4,13 @@ description: Le composant de conteneur des composants principaux permet la créa
 role: Architect, Developer, Admin, User
 exl-id: 53c7190d-44cb-42ff-bc1a-483c7875bcf8
 source-git-commit: 888719359f9a1d1c9dccff97fb639b332f2be54c
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '786'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
-# Composant de conteneur{#container-component}
+# Composant de conteneur {#container-component}
 
 Le composant de conteneur des composants principaux permet la création d’un conteneur pour plusieurs autres composants sur une page.
 
@@ -51,7 +51,7 @@ La boîte de dialogue de configuration permet à l’auteur du contenu de défin
 
 * **Disposition** : cette option définit le comportement ou le comportement de mise en page du composant de conteneur.
    * **Simple** : définit un conteneur en tant qu’ensemble simple de composants.
-   * **Grille réactive** : définit un conteneur en tant que [mise en page réactive AEM.](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/features/responsive-layout.html)
+   * **Grille réactive** : définit un conteneur en tant que [mise en page réactive AEM.](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/features/responsive-layout.html?lang=fr)
 * **Couleur d’arrière-plan** : définissable en tant que valeurs RVB de forme libre ou en utilisant le sélecteur de couleurs, [selon la configuration](#background-tab)
 * **Image d’arrière-plan** : définit une couleur d’arrière-plan pour le conteneur, [selon la configuration](#background-tab)
 * **ID** : cette option permet de contrôler l’identifiant unique du composant dans le code HTML ainsi que dans la [couche de données](/help/developing/data-layer/overview.md).
@@ -71,7 +71,7 @@ L’onglet Composants autorisés fonctionne de la même manière que l’onglet 
 
 ### Onglet Composants par défaut {#default-components-tab}
 
-L’onglet Composants par défaut permet de définir quel composant est ajouté au composant lorsqu’un type de ressource particulier est déposé sur le conteneur, comme [la définition des composants par défaut sur le modèle de page](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/features/templates.html).
+L’onglet Composants par défaut permet de définir quel composant est ajouté au composant lorsqu’un type de ressource particulier est déposé sur le conteneur, comme [la définition des composants par défaut sur le modèle de page](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/features/templates.html?lang=fr).
 
 ### Onglet Paramètres réactifs {#responsive-settings-tab}
 
