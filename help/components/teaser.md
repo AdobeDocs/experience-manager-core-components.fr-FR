@@ -4,9 +4,9 @@ description: Le composant Teaser peut afficher une image, un titre, un texte enr
 role: Architect, Developer, Admin, User
 exl-id: ec75e168-6f3b-4dff-8df6-06ca7dc18688
 source-git-commit: d435e82d5950336c66997399829e3baf23f170c0
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '771'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -49,7 +49,7 @@ L’auteur du contenu peut utiliser la boîte de dialogue de configuration pour 
 ![Onglet Image de la boîte de dialogue de modification du composant Teaser](/help/assets/teaser-edit-image.png)
 
 * **Ressource image**
-   * Déposez un fichier depuis l’[explorateur de ressources](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/fundamentals/environment-tools.html) ou appuyez sur l’option **parcourir** pour effectuer un téléchargement à partir d’un système de fichiers local.
+   * Déposez un fichier depuis l’[explorateur de ressources](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/fundamentals/environment-tools.html?lang=fr) ou appuyez sur l’option **parcourir** pour effectuer un téléchargement à partir d’un système de fichiers local.
    * Appuyez ou cliquez sur **Effacer** pour désélectionner l’image actuellement sélectionnée.
    * Appuyez ou cliquez sur **Modifier** pour [gérer les rendus de la ressource](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/manage/manage-digital-assets.html?lang=fr) dans l’éditeur de ressources.
 
