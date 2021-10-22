@@ -6,9 +6,9 @@ description: Documentation relative aux composants principaux Adobe Experience M
 git-repo: https://git.corp.adobe.com/AdobeDocs/experience-manager-core-components.fr-FR
 index: y
 source-git-commit: 2fbf593dee19f22b87a0f7e98d8a1f0c9252e7e7
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '112'
-ht-degree: 91%
+ht-degree: 100%
 
 ---
 
@@ -48,4 +48,4 @@ Article
 * `description`
 * `index: n` (uniquement pour les versions précédentes des composants)
 
-Vous trouverez des informations supplémentaires sur les métadonnées dans le [guide de création interne.](https://experienceleague.adobe.com/docs/authoring-guide-exl/using/authoring/features/metadata.html#solution)
+Vous trouverez des informations supplémentaires sur les métadonnées dans le [guide de création interne.](https://experienceleague.adobe.com/docs/authoring-guide-exl/using/authoring/features/metadata.html?lang=fr#solution)
