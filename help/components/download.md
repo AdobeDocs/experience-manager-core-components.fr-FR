@@ -4,13 +4,13 @@ description: Le composant de téléchargement des composants principaux permet l
 role: Architect, Developer, Admin, User
 exl-id: 48e7ade0-b849-4d1f-b836-51196e5ac507
 source-git-commit: d435e82d5950336c66997399829e3baf23f170c0
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '683'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
-# Composant de téléchargement{#download-component}
+# Composant de téléchargement {#download-component}
 
 Le composant de téléchargement des composants principaux permet la création d’une option de téléchargement sur une page.
 
@@ -47,14 +47,14 @@ Vous trouverez plus d’informations sur le développement des composants princi
 
 La boîte de dialogue de configuration permet à l’auteur du contenu de définir l’élément de téléchargement et la façon dont il se comporte et apparaît pour un visiteur sur la page.
 
-![Onglet Ressource de la boîte de dialogue de modification du composant Téléchargement](/help/assets/download-edit-asset.png)
+![Onglet Contenu de la boîte de dialogue de modification du composant Téléchargement](/help/assets/download-edit-asset.png)
 
-### Onglet Ressources {#asset-tab}
+### Onglet Contenu {#asset-tab}
 
 La sélection d’une ressource de téléchargement est très similaire à la fonctionnalité du [composant d’image](image.md) et utilise également la fonctionnalité DAM d’AEM.
 
 * **Télécharger la ressource**
-   * Déposez un fichier depuis l’[explorateur de ressources](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/fundamentals/environment-tools.html) ou appuyez sur l’option **parcourir** pour effectuer un téléchargement à partir d’un système de fichiers local.
+   * Déposez un fichier depuis l’[explorateur de ressources](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/fundamentals/environment-tools.html?lang=fr) ou appuyez sur l’option **parcourir** pour effectuer un téléchargement à partir d’un système de fichiers local.
    * Appuyez ou cliquez sur **Effacer** pour désélectionner l’image actuellement sélectionnée.
    * Appuyez ou cliquez sur **Modifier** pour [gérer les rendus de la ressource](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/manage/manage-digital-assets.html?lang=fr) dans l’éditeur de ressources.
 
