@@ -4,9 +4,9 @@ description: Les composants principaux tirent parti des configurations basées s
 role: Architect, Developer, Admin
 exl-id: d35210f7-a65d-4768-ab9e-f12ec406da2d
 source-git-commit: 2ac16b15718128feefbe903e92f276b16fe96f69
-workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+workflow-type: ht
+source-wordcount: '198'
+ht-degree: 100%
 
 ---
 
@@ -18,7 +18,7 @@ Les configurations tenant compte du contexte sont une [fonctionnalité de Sling]
 
 Votre site peut nécessiter différentes configurations pour différentes régions de sites, par exemple lorsque certains paramètres peuvent être partagés et nécessitent l’héritage pour les contextes imbriqués et les valeurs de secours globales. AEM exploite les configurations compatibles avec le contexte Sling, ce qui permet cette possibilité.
 
-Pour plus d’informations sur les configurations dans AEM, [consultez la documentation sur les configurations et le navigateur de configuration.](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/developing/configurations.html)
+Pour plus d’informations sur les configurations dans AEM, [consultez la documentation sur les configurations et le navigateur de configuration.](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/developing/configurations.html?lang=fr)
 
 ## Utilisation dans les composants principaux {#core-components}
 
