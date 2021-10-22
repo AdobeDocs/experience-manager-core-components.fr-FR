@@ -4,13 +4,13 @@ description: Le composant d’image des composants principaux est un composant d
 role: Architect, Developer, Admin, User
 exl-id: c5e57f4b-139f-40e7-8d79-be9a74360b63
 source-git-commit: d435e82d5950336c66997399829e3baf23f170c0
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2162'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
-# Composant d’image{#image-component}
+# Composant d’image {#image-component}
 
 Le composant d’image des composants principaux est un composant d’image adaptatif qui permet d’effectuer des modifications statiques.
 
@@ -59,7 +59,7 @@ Pour des raisons de sécurité, l’éditeur d’image ne fait jamais appel au f
 
 >[!CAUTION]
 >
->La prise en charge de SVG nécessite la version 2.1.0, ou ultérieure, des composants principaux et le [Service Pack 2](https://experienceleague.adobe.com/docs/experience-manager-64/release-notes/sp-release-notes.html?lang=fr) pour AEM 6.4, ou version ultérieure, pour être compatible avec les [fonctionnalités de l’éditeur d’image](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/components-templates/image-editor.html) d’AEM.
+>La prise en charge de SVG nécessite la version 2.1.0, ou ultérieure, des composants principaux et le [Service Pack 2](https://experienceleague.adobe.com/docs/experience-manager-64/release-notes/sp-release-notes.html?lang=fr) pour AEM 6.4, ou version ultérieure, pour être compatible avec les [fonctionnalités de l’éditeur d’image](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/components-templates/image-editor.html?lang=fr) d’AEM.
 
 ## Exemple de sortie de composant {#sample-component-output}
 
@@ -77,12 +77,12 @@ Le composant d’image prend en charge les [microdonnées schéma.org](https://s
 
 Outre la [boîte de dialogue de modification](#edit-dialog) et la [boîte de dialogue de conception](#design-dialog) standard, le composant d’image propose une boîte de dialogue de configuration dans laquelle l’image elle-même est définie avec sa description et ses propriétés de base.
 
-### Onglet Ressources {#asset-tab}
+### Onglet Contenu {#asset-tab}
 
-![Onglet Ressource de la boîte de dialogue de configuration du composant Image](/help/assets/image-configure-asset.png)
+![Onglet Contenu de la boîte de dialogue de configuration du composant Image](/help/assets/image-configure-asset.png)
 
 * **Ressource image**
-   * Déposez un fichier depuis l’[explorateur de ressources](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/fundamentals/environment-tools.html) ou appuyez sur l’option **parcourir** pour effectuer un téléchargement à partir d’un système de fichiers local.
+   * Déposez un fichier depuis l’[explorateur de ressources](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/fundamentals/environment-tools.html?lang=fr) ou appuyez sur l’option **parcourir** pour effectuer un téléchargement à partir d’un système de fichiers local.
    * Appuyez ou cliquez sur **Effacer** pour désélectionner l’image actuellement sélectionnée.
    * Appuyez ou cliquez sur **Modifier** pour [gérer les rendus de la ressource](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/manage/manage-digital-assets.html?lang=fr) dans l’éditeur de ressources.
 
