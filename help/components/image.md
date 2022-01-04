@@ -3,10 +3,10 @@ title: Composant d’image
 description: Le composant d’image des composants principaux est un composant d’image adaptatif qui permet d’effectuer des modifications statiques.
 role: Architect, Developer, Admin, User
 exl-id: c5e57f4b-139f-40e7-8d79-be9a74360b63
-source-git-commit: d435e82d5950336c66997399829e3baf23f170c0
-workflow-type: ht
-source-wordcount: '2162'
-ht-degree: 100%
+source-git-commit: c48f332ac97ef96d0cb59f2b64e3f726f9a90307
+workflow-type: tm+mt
+source-wordcount: '2270'
+ht-degree: 95%
 
 ---
 
@@ -25,6 +25,10 @@ Les largeurs d’image ainsi que le recadrage et les paramètres supplémentaire
 Le composant d’image s’accompagne de fonctions réactives efficaces prêtes à l’emploi. Au niveau du modèle de page, la [boîte de dialogue de conception](#design-dialog) permet de définir les largeurs par défaut du fichier image. Le composant d’image charge alors automatiquement la largeur correcte à afficher en fonction de la taille de la fenêtre du navigateur. Lorsque la fenêtre est redimensionnée, le composant d’image charge dynamiquement la taille d’image correcte, instantanément. Les développeurs de composants n’ont pas à définir des requêtes multimédias personnalisées, puisque le composant d’image est déjà optimisé pour charger le contenu.
 
 En outre, le composant d’image prend en charge le chargement différé afin de différer le chargement du fichier image réel jusqu’à ce qu’il soit visible dans le navigateur, ce qui augmente la réactivité des pages.
+
+>[!TIP]
+>
+>Voir la section [Servlet d’image adaptative](#adaptive-image-servlet) pour plus d’informations techniques sur ces fonctionnalités et des conseils sur l’optimisation de la sélection du rendu.
 
 ## Prise en charge de Dynamic Media {#dynamic-media}
 
@@ -202,6 +206,10 @@ En outre, vous pouvez définir quelles options de composant générales sont aut
       * Sélectionnez l’option **Désactiver le chargement différé** pour charger les images au chargement de la page.
 * **Qualité JPEG** : facteur de qualité (exprimé par un pourcentage entre 0 et 100) pour les images JPEG transformées (mises à l’échelle ou recadrées, par exemple).
 
+>[!TIP]
+>
+>Voir la section [Servlet d’image adaptative](#adaptive-image-servlet) pour plus d’informations techniques sur ses fonctionnalités et des conseils sur l’optimisation de la sélection de rendu en définissant soigneusement vos largeurs.
+
 ### Onglet Fonctions {#features-tab}
 
 Sur l’onglet **Fonctions**, vous pouvez définir les options disponibles pour les auteurs de contenu lors de l’utilisation du composant, y compris les options de téléchargement, d’orientation et de recadrage.
@@ -247,6 +255,12 @@ Le composant d’image prend en charge le [système de style](/help/get-started/
 ## Servlet d’image adaptative {#adaptive-image-servlet}
 
 Le composant d’image utilise la servlet d’image adaptative des composants principaux. [La servlet d’image adaptative](https://github.com/adobe/aem-core-wcm-components/wiki/The-Adaptive-Image-Servlet) est en charge du traitement des images et de leur diffusion en flux continu. Les développeurs peuvent l’utiliser dans le cadre de leur [personnalisation des composants principaux](/help/developing/customizing.md).
+
+### Optimisation de la sélection du rendu {#optimizing-rendition-selection}
+
+La servlet d’image adaptative tente de sélectionner le meilleur rendu pour la taille et le type d’image demandés. Il est recommandé que les rendus DAM et les largeurs autorisées des composants Image soient définis en synchronisation afin que la servlet d’image adaptative effectue le moins de traitement possible.
+
+Cela améliore les performances et évite que certaines images ne soient pas correctement traitées par la bibliothèque de traitement des images sous-jacente.
 
 >[!NOTE]
 >
