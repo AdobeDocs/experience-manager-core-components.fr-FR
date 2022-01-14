@@ -1,16 +1,16 @@
 ---
-title: 'Présentation des composants principaux '
+title: Présentation des composants principaux
 description: 'Les composants principaux fournissent des composants de base solides et extensibles, reposant sur les dernières technologies et les bonnes pratiques. '
 role: Architect, Developer, Admin, User
 exl-id: d294db22-4cb0-48a4-9366-03fda5b8bb8e
 source-git-commit: ef18f65be72295f7886a132a26bdd4f8bc2fbd50
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '917'
 ht-degree: 100%
 
 ---
 
-# Présentation des composants principaux{#core-components-introduction}
+# Présentation des composants principaux {#core-components-introduction}
 
 Dans Adobe Experience Manager, les composants sont des éléments structurels qui constituent le contenu des pages en cours de création. Les composants ont toujours été un élément fondamental de l’expérience AEM. Ils facilitent la création de pages pour l’auteur et le développement de composants flexibles et extensibles pour le développeur.
 
