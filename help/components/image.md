@@ -4,9 +4,9 @@ description: Le composant d’image des composants principaux est un composant d
 role: Architect, Developer, Admin, User
 exl-id: c5e57f4b-139f-40e7-8d79-be9a74360b63
 source-git-commit: c48f332ac97ef96d0cb59f2b64e3f726f9a90307
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2270'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -28,7 +28,7 @@ En outre, le composant d’image prend en charge le chargement différé afin de
 
 >[!TIP]
 >
->Voir la section [Servlet d’image adaptative](#adaptive-image-servlet) pour plus d’informations techniques sur ces fonctionnalités et des conseils sur l’optimisation de la sélection du rendu.
+>Consultez la section [Servlet d’image adaptative](#adaptive-image-servlet) pour plus d’informations techniques sur ces fonctionnalités et des conseils sur l’optimisation de la sélection du rendu.
 
 ## Prise en charge de Dynamic Media {#dynamic-media}
 
@@ -208,7 +208,7 @@ En outre, vous pouvez définir quelles options de composant générales sont aut
 
 >[!TIP]
 >
->Voir la section [Servlet d’image adaptative](#adaptive-image-servlet) pour plus d’informations techniques sur ses fonctionnalités et des conseils sur l’optimisation de la sélection de rendu en définissant soigneusement vos largeurs.
+>Consultez la section [Servlet d’image adaptative](#adaptive-image-servlet) pour plus d’informations techniques sur ses fonctionnalités et des conseils sur l’optimisation de la sélection du rendu en définissant soigneusement vos largeurs.
 
 ### Onglet Fonctions {#features-tab}
 
@@ -258,7 +258,7 @@ Le composant d’image utilise la servlet d’image adaptative des composants pr
 
 ### Optimisation de la sélection du rendu {#optimizing-rendition-selection}
 
-La servlet d’image adaptative tente de sélectionner le meilleur rendu pour la taille et le type d’image demandés. Il est recommandé que les rendus DAM et les largeurs autorisées des composants Image soient définis en synchronisation afin que la servlet d’image adaptative effectue le moins de traitement possible.
+La servlet d’image adaptative tente de sélectionner le meilleur rendu pour la taille et le type d’image demandés. Il est recommandé de définir les rendus DAM et les largeurs autorisées des composants Image de façon synchronisée afin que la servlet d’image adaptative effectue le moins de traitement possible.
 
 Cela améliore les performances et évite que certaines images ne soient pas correctement traitées par la bibliothèque de traitement des images sous-jacente.
 
