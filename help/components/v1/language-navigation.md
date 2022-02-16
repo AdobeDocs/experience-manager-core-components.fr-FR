@@ -1,16 +1,16 @@
 ---
-title: Composant de navigation par langue
+title: Composant de navigation par langue (v1)
 description: Le composant de navigation par langue fournit une navigation par langue/pays pour un site, de sorte que les visiteurs puissent accéder à la même page dans un autre paramètre régional.
 role: Architect, Developer, Admin, User
-exl-id: 10b218b4-c439-4a0f-a46f-0b15d78b0360
-source-git-commit: 28409185f2e46a30fa588b3f92b83b2fa05de96d
+source-git-commit: e5251010ca41025eb2bb56b66164ecf4cc0145c8
 workflow-type: tm+mt
-source-wordcount: '957'
-ht-degree: 84%
+source-wordcount: '810'
+ht-degree: 94%
 
 ---
 
-# Composant de navigation par langue {#language-navigation-component}
+
+# Composant de navigation par langue  (v1) {#language-navigation-component}
 
 Le composant de navigation par langue fournit une navigation par langue/pays pour un site, de sorte que les visiteurs puissent accéder à la même page dans un autre paramètre régional.
 
@@ -25,16 +25,13 @@ La [boîte de dialogue de modification](#edit-dialog) permet de définir la raci
 
 ## Version et compatibilité {#version-and-compatibility}
 
-La version actuelle du composant de navigation par langue est v2, qui a été introduite avec la version 2.18.0 des composants principaux en février 2022. Elle est décrite dans ce document.
+Ce document décrit la version v1 du composant Navigation par langue, introduite avec la version 2.0.0 des composants principaux en janvier 2018.
 
-Le tableau ci-après présente en détail toutes les versions prises en charge du composant, les versions AEM avec lesquelles les versions du composant sont compatibles et les liens vers la documentation pour les versions précédentes.
-
-| Version du composant | AEM 6.4 | AEM 6.5 | AEM as a Cloud Service |
-|--- |--- |--- |---|
-| v2 | - | Compatible | Compatible |
-| [v1](v1/language-navigation.md) | Compatible | Compatible | Compatible |
-
-Pour plus d’informations sur les versions et les publications des composants principaux, voir le document sur les [versions des composants principaux](/help/versions.md).
+>[!CAUTION]
+>
+>Ce document décrit la version v1 du composant Navigation par langue.
+>
+>Pour plus d’informations sur la version actuelle du composant Navigation par langue, voir [Composant Navigation par langue](/help/components/language-navigation.md) document.
 
 ## Exemple de sortie de composant {#sample-component-output}
 
@@ -48,7 +45,7 @@ Vous trouverez plus d’informations sur le développement des composants princi
 
 ## Boîte de dialogue de conception {#design-dialog}
 
-La boîte de dialogue de conception permet de définir la racine de navigation globale du site ainsi que la profondeur de la structure de navigation.
+La boîte de dialogue de modification permet de définir la racine de navigation globale d’un site ainsi que la profondeur de la structure de navigation.
 
 En règle générale, ces configurations doivent être effectuées uniquement au niveau du modèle de page. Toutefois, elles peuvent être modifiées au niveau de la page dans la [boîte de dialogue de modification](#edit-dialog).
 
@@ -96,9 +93,7 @@ Le composant Navigation par langue prend en charge le [système de style](/help/
 
 ## Boîte de dialogue de modification {#edit-dialog}
 
-### Onglet Propriétés {#properties-tab-edit}
-
-En règle générale, le composant Navigation par langue doit uniquement être ajouté et configuré sur les modèles de page d’un site. Cependant, si le composant Navigation par langue doit être ajouté à une page de contenu, la boîte de dialogue de modification permet à un auteur de contenu de configurer les mêmes valeurs, comme décrit dans la [boîte de dialogue de conception](#design-dialog)
+En règle générale, le composant Navigation par langue doit uniquement être ajouté et configuré sur les modèles de page d’un site. Cependant, si le composant Navigation par langue doit être ajouté à une page de contenu, la boîte de dialogue de modification permet à un auteur de contenu de configurer les mêmes valeurs, comme décrit dans la [boîte de dialogue de conception](#design-dialog).
 
 De plus, vous pouvez définir un **ID**. Cette option permet de contrôler l’identifiant unique du composant dans le code HTML et dans la [couche de données](/help/developing/data-layer/overview.md).
 
@@ -107,22 +102,6 @@ De plus, vous pouvez définir un **ID**. Cette option permet de contrôler l’i
 * La modification de l’ID peut avoir un impact sur le suivi CSS, JS et de couche de données.
 
 ![Boîte de dialogue de modification du composant Navigation par langue](/help/assets/language-navigation-edit.png)
-
-### Onglet Accessibilité {#accessibility-tab}
-
-* **Libellé** - Cette option doit être définie si la page contient plusieurs langues de navigation pour définir l’attribut label aria du composant.
-
-![Onglet Accessibilité pour la navigation par langue](/help/assets/language-navigation-edit-accessibility.png)
-
-### Onglet Styles {#styles-tab-edit}
-
-Le composant Navigation par langue prend en charge l’AEM [Système de style.](/help/get-started/authoring.md#component-styling).
-
-Utilisez la liste déroulante pour sélectionner les styles à appliquer au composant. Les sélections effectuées dans la boîte de dialogue de modification ont le même effet que celles sélectionnées dans la barre d’outils du composant.
-
-Les styles doivent être configurés pour ce composant dans la variable [boîte de dialogue de conception](#design-dialog) pour que le menu déroulant soit disponible.
-
-![Onglet Styles de la boîte de dialogue de modification du composant Navigation par langue](/help/assets/language-navigation-edit-styles.png)
 
 ## Couche de données client Adobe {#data-layer}
 

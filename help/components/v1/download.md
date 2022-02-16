@@ -1,16 +1,16 @@
 ---
-title: 'Composant de téléchargement '
+title: Composant de téléchargement (v1)
 description: Le composant de téléchargement des composants principaux permet la création d’une option de téléchargement sur une page.
 role: Architect, Developer, Admin, User
-exl-id: 48e7ade0-b849-4d1f-b836-51196e5ac507
-source-git-commit: 395a1669cf3e17f649c23852addc37316b923bfd
+source-git-commit: f8aa86d58ba71ede3c3cd867c45aafff06923325
 workflow-type: tm+mt
-source-wordcount: '758'
-ht-degree: 87%
+source-wordcount: '644'
+ht-degree: 93%
 
 ---
 
-# Composant de téléchargement {#download-component}
+
+# Composant de téléchargement  (v1) {#download-component}
 
 Le composant de téléchargement des composants principaux permet la création d’une option de téléchargement sur une page.
 
@@ -23,16 +23,13 @@ Le composant de téléchargement des composants principaux permet d’inclure un
 
 ## Version et compatibilité {#version-and-compatibility}
 
-La version actuelle du composant de téléchargement est v2, qui a été introduite avec la version 2.18.0 des composants principaux en février 2022. Elle est décrite dans ce document.
+Ce document décrit la version v1 du composant de téléchargement, introduite avec la version 2.5.0 des composants principaux en juin 2019.
 
-Le tableau ci-après présente en détail toutes les versions prises en charge du composant, les versions AEM avec lesquelles les versions du composant sont compatibles et les liens vers la documentation pour les versions précédentes.
-
-| Version du composant | AEM 6.4 | AEM 6.5 | AEM as a Cloud Service |
-|--- |--- |---|---|
-| v2 | - | Compatible | Compatible |
-| [v1](v1/download.md) | Compatible | Compatible | Compatible |
-
-Pour plus d’informations sur les versions et les publications des composants principaux, voir le document sur les [versions des composants principaux](/help/versions.md).
+>[!CAUTION]
+>
+>Ce document décrit la version v1 du composant de téléchargement.
+>
+>Pour plus d’informations sur la version actuelle du composant de téléchargement, voir [Composant de téléchargement](/help/components/download.md) document.
 
 ## Exemple de sortie de composant {#sample-component-output}
 
@@ -52,7 +49,7 @@ La boîte de dialogue de configuration permet à l’auteur du contenu de défin
 
 ### Onglet Contenu {#asset-tab}
 
-La sélection d’une ressource de téléchargement est très similaire à la fonctionnalité du [composant d’image](image.md) et utilise également la fonctionnalité DAM d’AEM.
+La sélection d’une ressource de téléchargement est très similaire à la fonctionnalité du [composant d’image](image-v1.md) et utilise également la fonctionnalité DAM d’AEM.
 
 * **Télécharger la ressource**
    * Déposez un fichier depuis l’[explorateur de ressources](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/fundamentals/environment-tools.html?lang=fr) ou appuyez sur l’option **parcourir** pour effectuer un téléchargement à partir d’un système de fichiers local.
@@ -74,16 +71,6 @@ La sélection d’une ressource de téléchargement est très similaire à la fo
    * Si rien n’est indiqué, un ID unique est généré automatiquement et peut être trouvé en examinant la page obtenue.
    * Si un ID est spécifié, il incombe à l’auteur de s’assurer qu’il est unique.
    * La modification de l’ID peut avoir un impact sur le suivi CSS, JS et de couche de données.
-
-### Onglet Styles {#styles-tab-edit}
-
-![Onglet Styles de la boîte de dialogue de modification du composant Téléchargement](/help/assets/download-edit-styles.png)
-
-Le composant de téléchargement prend en charge l’AEM [Système de style.](/help/get-started/authoring.md#component-styling).
-
-Utilisez la liste déroulante pour sélectionner les styles à appliquer au composant. Les sélections effectuées dans la boîte de dialogue de modification ont le même effet que celles sélectionnées dans la barre d’outils du composant.
-
-Les styles doivent être configurés pour ce composant dans la variable [boîte de dialogue de conception](#design-dialog) pour que le menu déroulant soit disponible.
 
 ## Boîte de dialogue de conception {#design-dialog}
 

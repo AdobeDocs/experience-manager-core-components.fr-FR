@@ -1,16 +1,16 @@
 ---
-title: Composant de bouton
+title: Composant de bouton (v1)
 description: Le composant de bouton des composants principaux permet de créer et d’afficher un bouton.
 role: Architect, Developer, Admin, User
-exl-id: e17efd1d-90d4-497a-9e7d-45934d81bc28
-source-git-commit: 395a1669cf3e17f649c23852addc37316b923bfd
+source-git-commit: e5251010ca41025eb2bb56b66164ecf4cc0145c8
 workflow-type: tm+mt
-source-wordcount: '542'
-ht-degree: 79%
+source-wordcount: '412'
+ht-degree: 89%
 
 ---
 
-# Composant de bouton {#button-component}
+
+# Composant de bouton  (v1) {#button-component}
 
 Le composant de bouton des composants principaux permet de configurer et d’afficher un élément de bouton sur une page.
 
@@ -23,16 +23,13 @@ Le composant de bouton des composants principaux permet l’inclusion d’un bou
 
 ## Version et compatibilité {#version-and-compatibility}
 
-La version actuelle du composant de bouton est v2, qui a été introduite avec la version 2.18.0 des composants principaux en février 2022. Elle est décrite dans ce document.
+Le document décrit la version v1 du composant de bouton, qui a été introduite avec la version 2.5.0 des composants principaux en juin 2019.
 
-Le tableau ci-après présente en détail toutes les versions prises en charge du composant, les versions AEM avec lesquelles les versions du composant sont compatibles et les liens vers la documentation pour les versions précédentes.
-
-| Version du composant | AEM 6.4 | AEM 6.5 | AEM as a Cloud Service |
-|--- |--- |---|---|
-| v2 | - | Compatible | Compatible |
-| [v1](v1/button.md) | Compatible | Compatible | Compatible |
-
-Pour plus d’informations sur les versions et les publications des composants principaux, voir le document sur les [versions des composants principaux](/help/versions.md).
+>[!CAUTION]
+>
+>Ce document décrit la version v1 du composant Bouton.
+>
+>Pour plus d’informations sur la version actuelle du composant de bouton, voir [Composant de bouton](/help/components/button.md) document.
 
 ## Exemple de sortie de composant {#sample-component-output}
 
@@ -55,7 +52,6 @@ La boîte de dialogue de configuration permet à l’auteur du contenu de défin
 * **Texte** : texte à afficher sur le bouton.
 * **Lien** : lien vers une page de contenu dans AEM, une ressource externe ou une ancre.
    * Utilisez la **boîte de dialogue de sélection** pour choisir un chemin dans AEM.
-* **Ouvrir le lien dans un nouvel onglet** - Si cette case est cochée, le lien s’ouvre dans un nouvel onglet du navigateur.
 * **Icône** : identificateur pour l’affichage d’une icône dans le bouton.
 * **ID** : cette option permet de contrôler l’identifiant unique du composant dans le code HTML ainsi que dans la [couche de données](/help/developing/data-layer/overview.md).
    * Si rien n’est indiqué, un ID unique est généré automatiquement et peut être trouvé en examinant la page obtenue.
@@ -69,16 +65,6 @@ La boîte de dialogue de configuration permet à l’auteur du contenu de défin
 Dans l’onglet **Accessibilité**, les valeurs peuvent être définies pour les étiquettes d’[accessibilité ARIA](https://www.w3.org/WAI/standards-guidelines/aria/) du composant.
 
 * **Étiquette** : Valeur d’un attribut de étiquette ARIA pour le composant
-
-### Onglet Styles {#styles-tab-edit}
-
-![Onglet Styles de la boîte de dialogue de modification du composant Bouton](/help/assets/button-edit-styles.png)
-
-Le composant de bouton prend en charge l’AEM [Système de style.](/help/get-started/authoring.md#component-styling).
-
-Utilisez la liste déroulante pour sélectionner les styles à appliquer au composant. Les sélections effectuées dans la boîte de dialogue de modification ont le même effet que celles sélectionnées dans la barre d’outils du composant.
-
-Les styles doivent être configurés pour ce composant dans la variable [boîte de dialogue de conception](#design-dialog) pour que le menu déroulant soit disponible.
 
 ## Boîte de dialogue de conception {#design-dialog}
 

@@ -1,16 +1,16 @@
 ---
-title: Composant de page
+title: Composant Page (v2)
 description: Le composant de page est un composant de page extensible, conçu pour fonctionner avec l’éditeur de modèles et autoriser l’assemblage de composants d’en-tête/de pied de page et de structure à l’aide de l’éditeur de modèles.
 role: Architect, Developer, Admin, User
-exl-id: 2503e067-abed-427d-8a54-8b79e3451487
-source-git-commit: dbc1ba9ae0f9caa3bc52a7a5e08899c457813003
+source-git-commit: e5251010ca41025eb2bb56b66164ecf4cc0145c8
 workflow-type: tm+mt
-source-wordcount: '715'
-ht-degree: 92%
+source-wordcount: '645'
+ht-degree: 97%
 
 ---
 
-# Composant de page {#page-component}
+
+# Composant de page  (v2) {#page-component}
 
 Le composant de page est un composant de page extensible conçu pour fonctionner avec l’[éditeur de modèles](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/features/templates.html?lang=fr) et permet l’assemblage de composants d’en-tête/de pied de page et de structure à l’aide de l’éditeur de modèles.
 
@@ -22,17 +22,13 @@ Grâce à la [boîte de dialogue de conception](#design-dialog), les bibliothèq
 
 ## Version et compatibilité {#version-and-compatibility}
 
-La version actuelle du composant Page est v3, qui a été introduite avec la version 2.18.0 des composants principaux en février 2022. Elle est décrite dans ce document.
+Ce document décrit la version v2 du composant Page, introduite avec la version 2.0.0 des composants principaux en janvier 2018.
 
-Le tableau ci-après présente en détail toutes les versions prises en charge du composant, les versions AEM avec lesquelles les versions du composant sont compatibles et les liens vers la documentation pour les versions précédentes.
-
-| Version du composant | AEM 6.4 | AEM 6.5 | AEM as a Cloud Service |
-|---|---|---|---|
-| v3 | - | Compatible | Compatible |
-| [v2](v2/page.md) | Compatible | Compatible | Compatible |
-| [v1](v1/page-v1.md) | Compatible | Compatible | - |
-
-Pour plus d’informations sur les versions et les publications des composants principaux, voir le document sur les [versions des composants principaux](/help/versions.md).
+>[!CAUTION]
+>
+>Ce document décrit la version v2 du composant Page.
+>
+>Pour plus d’informations sur la version actuelle du composant Page, voir le document [Composant Page](/help/components/page.md).
 
 ## Prise en charge des applications web progressives {#pwa-support}
 
@@ -70,8 +66,6 @@ Vous trouverez plus d’informations sur le développement des composants princi
 * **Bibliothèque cliente des ressources web** : catégorie de bibliothèque cliente utilisée pour distribuer des ressources web telles que des favicons.
 
 * **Passer au sélecteur d’élément de contenu principal** : utilisé comme fonction d’accessibilité pour passer directement au contenu principal de la page.
-
-* **Rendu de liens de langue alternative** - Si cette option est activée, les liens vers d’autres versions linguistiques de la page sur le même site sont ajoutés à l’en-tête de la page.
 
 ![Boîte de dialogue de conception du composant Page](/help/assets/page-design.png)
 

@@ -1,16 +1,16 @@
 ---
-title: Composant Navigation
+title: Composant Navigation (v1)
 description: Le composant Navigation permet aux utilisateurs de parcourir facilement une structure de site globalisée.
 role: Architect, Developer, Admin, User
-exl-id: 9154f2a3-3d1e-4865-a413-298748fa66d3
-source-git-commit: 395a1669cf3e17f649c23852addc37316b923bfd
+source-git-commit: e5251010ca41025eb2bb56b66164ecf4cc0145c8
 workflow-type: tm+mt
-source-wordcount: '1544'
-ht-degree: 93%
+source-wordcount: '1430'
+ht-degree: 97%
 
 ---
 
-# Composant Navigation {#navigation-component}
+
+# Composant Navigation  (v1) {#navigation-component}
 
 Le composant Navigation permet aux utilisateurs de parcourir facilement une structure de site globalisée.
 
@@ -24,16 +24,13 @@ La boîte de dialogue de [modification](#edit-dialog) permet à l’auteur de co
 
 ## Version et compatibilité {#version-and-compatibility}
 
-La version actuelle du composant de navigation est v2, qui a été introduite avec la version 2.18.0 des composants principaux en février 2022. Elle est décrite dans ce document.
+Ce document décrit la version v1 du composant Navigation, qui a été introduite avec la version 2.0.0 des composants principaux en janvier 2018.
 
-Le tableau ci-après présente en détail toutes les versions prises en charge du composant, les versions AEM avec lesquelles les versions du composant sont compatibles et les liens vers la documentation pour les versions précédentes.
-
-| Version du composant | AEM 6.4 | AEM 6.5 | AEM as a Cloud Service |
-|--- |--- |--- |---|
-| v2 | - | Compatible | Compatible |
-| [v1](v1/navigation.md) | Compatible | Compatible | Compatible |
-
-Pour plus d’informations sur les versions et les publications des composants principaux, voir le document sur les [versions des composants principaux](/help/versions.md).
+>[!CAUTION]
+>
+>Ce document décrit la version v1 du composant Navigation.
+>
+>Pour plus d’informations sur la version actuelle du composant Navigation, voir [Composant Navigation](/help/components/navigation.md) document.
 
 ## Prise en charge de la structure de site localisée {#localized-site-structure}
 
@@ -155,16 +152,6 @@ Dans la boîte de dialogue de modification, l’auteur du contenu peut définir 
 Dans l’onglet **Accessibilité**, les valeurs peuvent être définies pour les étiquettes d’[accessibilité ARIA](https://www.w3.org/WAI/standards-guidelines/aria/) du composant.
 
 * **Étiquette** : Valeur d’un attribut de étiquette ARIA pour le composant
-
-### Onglet Styles {#styles-tab-edit}
-
-Le composant de navigation prend en charge l’AEM [Système de style.](/help/get-started/authoring.md#component-styling).
-
-Utilisez la liste déroulante pour sélectionner les styles à appliquer au composant. Les sélections effectuées dans la boîte de dialogue de modification ont le même effet que celles sélectionnées dans la barre d’outils du composant.
-
-Les styles doivent être configurés pour ce composant dans la variable [boîte de dialogue de conception](#design-dialog) pour que le menu déroulant soit disponible.
-
-![Onglet Styles de la boîte de dialogue de modification du composant Navigation](/help/assets/navigation-edit-styles.png)
 
 ## Boîte de dialogue de conception {#design-dialog}
 

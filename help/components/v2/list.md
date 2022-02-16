@@ -1,16 +1,16 @@
 ---
-title: Composant Liste
+title: Composant Liste (v2)
 description: Le composant principal Liste permet de créer facilement des listes dynamiques et statiques.
 role: Architect, Developer, Admin, User
-exl-id: 662ab508-0253-4d28-b95c-8c4cde8173bd
-source-git-commit: 395a1669cf3e17f649c23852addc37316b923bfd
+source-git-commit: e5251010ca41025eb2bb56b66164ecf4cc0145c8
 workflow-type: tm+mt
-source-wordcount: '1151'
-ht-degree: 88%
+source-wordcount: '1022'
+ht-degree: 98%
 
 ---
 
-# Composant Liste {#list-component}
+
+# Composant Liste  (v2) {#list-component}
 
 Le composant principal Liste permet de créer facilement des listes dynamiques et statiques.
 
@@ -20,17 +20,13 @@ Le composant Liste peut servir à créer, par exemple, une liste dynamique de pa
 
 ## Version et compatibilité {#version-and-compatibility}
 
-La version actuelle du composant Liste est v3, qui a été introduite avec la version 2.18.0 des composants principaux en février 2022. Elle est décrite dans ce document.
+Ce document décrit la version v1 du composant Liste, qui a été introduite avec la version 2.0.0 des composants principaux en janvier 2018.
 
-Le tableau ci-après présente en détail toutes les versions prises en charge du composant, les versions AEM avec lesquelles les versions du composant sont compatibles et les liens vers la documentation pour les versions précédentes.
-
-| Version du composant | AEM 6.4 | AEM 6.5 | AEM as a Cloud Service |
-|--- |--- |--- |---|
-| v3 | - | Compatible | Compatible |
-| [v2](v2/list.md) | Compatible | Compatible | Compatible |
-| [v1](v1/list-v1.md) | Compatible | Compatible | - |
-
-Pour plus d’informations sur les versions et les publications des composants principaux, voir le document sur les [versions des composants principaux](/help/versions.md).
+>[!CAUTION]
+>
+>Ce document décrit la version v2 du composant Liste.
+>
+>Pour plus d’informations sur la version actuelle du composant Liste, voir [le document Composant Liste](/help/components/list.md).
 
 ## Redirections dans les listes {#redirects}
 
@@ -156,20 +152,12 @@ Nombre maximal d’éléments affichés dans la liste.
 
 ![Paramètres d’élément](/help/assets/list-edit-items.png)
 
-* **Éléments de lien** - Lier des éléments à la page correspondante
-* **Afficher la description** - Afficher les descriptions de l’élément de lien
-* **Afficher la date** - Afficher la date de modification de l’élément de lien
-* **Afficher comme teaser** - Lorsque cette option est cochée, l’élément s’affiche sous forme de teaser.
-
-### Onglet Styles {#styles-tab-edit}
-
-Le composant Liste prend en charge l’AEM [Système de style.](/help/get-started/authoring.md#component-styling).
-
-Utilisez la liste déroulante pour sélectionner les styles à appliquer au composant. Les sélections effectuées dans la boîte de dialogue de modification ont le même effet que celles sélectionnées dans la barre d’outils du composant.
-
-Les styles doivent être configurés pour ce composant dans la variable [boîte de dialogue de conception](#design-dialog) pour que le menu déroulant soit disponible.
-
-![Onglet Styles de la boîte de dialogue de modification du composant Liste](/help/assets/list-edit-styles.png)
+* **Lier des éléments**
+Liez des éléments à la page correspondante.
+* **Afficher la description**
+Affichez les descriptions de l’élément de lien.
+* **Afficher la date**
+Permet d’afficher la date de modification de l’élément de lien.
 
 ## Boîte de dialogue de conception {#design-dialog}
 

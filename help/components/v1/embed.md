@@ -1,16 +1,16 @@
 ---
-title: Composant Incorporer
+title: Composant Incorporer (v1)
 description: Le composant Incorporer permet d’incorporer du contenu externe dans une page de contenu AEM.
 role: Architect, Developer, Admin, User
-exl-id: 985fa304-70a3-4329-957e-76d1832a06f1
-source-git-commit: 28409185f2e46a30fa588b3f92b83b2fa05de96d
+source-git-commit: e5251010ca41025eb2bb56b66164ecf4cc0145c8
 workflow-type: tm+mt
-source-wordcount: '1395'
-ht-degree: 92%
+source-wordcount: '1298'
+ht-degree: 96%
 
 ---
 
-# Composant Incorporer  {#embed-component}
+
+# Composant Incorporer  (v1) {#embed-component}
 
 Le composant Incorporer des composants principaux permet d’incorporer du contenu externe dans une page de contenu AEM.
 
@@ -23,16 +23,13 @@ Le composant Incorporer des composants principaux permet à l’auteur de conten
 
 ## Version et compatibilité {#version-and-compatibility}
 
-La version actuelle du composant Incorporer est v2, qui a été introduite avec la version 2.18.0 des composants principaux en février 2022. Elle est décrite dans ce document.
+Ce document décrit la version v1 du composant Incorporer, introduite avec la version 2.7.0 des composants principaux en septembre 2019.
 
-Le tableau ci-après présente en détail toutes les versions prises en charge du composant, les versions AEM avec lesquelles les versions du composant sont compatibles et les liens vers la documentation pour les versions précédentes.
-
-| Version du composant | AEM 6.4 | AEM 6.5 | AEM as a Cloud Service |
-|--- |--- |---|---|
-| v2 | - | Compatible | Compatible |
-| [v1](v1/embed.md) | Compatible | Compatible | Compatible |
-
-Pour plus d’informations sur les versions et les publications des composants principaux, voir le document sur les [versions des composants principaux](/help/versions.md).
+>[!CAUTION]
+>
+>Ce document décrit la version v1 du composant Incorporer.
+>
+>Pour plus d’informations sur la version actuelle du composant Incorporer, voir la section [Composant Incorporer](/help/components/embed.md) document.
 
 ## Exemple de sortie de composant {#sample-component-output}
 
@@ -46,23 +43,19 @@ Vous trouverez plus d’informations sur le développement des composants princi
 
 ## Boîte de dialogue de configuration {#configure-dialog}
 
-La boîte de dialogue de configuration permet à l’auteur de contenu de définir la ressource externe à incorporer dans la page.
-
-### Onglet Propriétés {#properties-tab}
-
-Sélectionnez d’abord le type de ressource à incorporer :
+La boîte de dialogue de configuration permet à l’auteur de contenu de définir la ressource externe à incorporer dans la page. Sélectionnez d’abord le type de ressource à incorporer :
 
 * [URL](#url)
 * [Élément intégrable](#embeddable)
 * [HTML](#html)
 
-Pour chaque type d’incorporation, vous pouvez définir une **ID**. Cette option permet de contrôler l’identifiant unique du composant dans le code HTML et dans la [couche de données](/help/developing/data-layer/overview.md).
+Pour chaque type d’intégration, vous pouvez définir un **ID** de publicité. Cette option permet de contrôler l’identifiant unique du composant dans le code HTML et dans la [couche de données](/help/developing/data-layer/overview.md).
 
 * Si rien n’est indiqué, un ID unique est généré automatiquement et peut être trouvé en examinant la page obtenue.
 * Si un ID est spécifié, il incombe à l’auteur de s’assurer qu’il est unique.
 * La modification de l’ID peut avoir un impact sur le suivi CSS, JS et de couche de données.
 
-#### URL {#url}
+### URL {#url}
 
 L’incorporation la plus simple se fait par le biais d’une URL. Il vous suffit de coller l’URL de la ressource à incorporer dans le champ **URL**. Le composant tente d’accéder à la ressource. Si le rendu peut être effectué par l’un des processeurs, il affiche un message de confirmation sous le champ **URL**. Si ce n’est pas le cas, le champ sera indiqué comme étant dans un état d’erreur.
 
@@ -75,7 +68,7 @@ Les développeurs peuvent ajouter d’autres processeurs d’URL en [consultant 
 
 ![Boîte de dialogue de modification du composant Incorporer pour l’URL](/help/assets/embed-url.png)
 
-#### Élément intégrable {#embeddable}
+### Élément intégrable {#embeddable}
 
 Les éléments intégrables permettent une plus grande personnalisation de la ressource incorporée, qui peut être paramétrée et inclure des informations supplémentaires. Un auteur peut effectuer un choix parmi des éléments intégrables approuvés préconfigurés. De plus, le composant est fourni avec un élément intégrable YouTube prêt à l’emploi.
 
@@ -90,15 +83,16 @@ Le champ **Élément intégrable** définit le type de processeur que vous souha
 * **Activer la lecture intégrée (iOS)** : ce paramètre détermine si les vidéos sont lues de manière intégrée (activé) ou en plein écran (désactivé) dans un lecteur HTML5 sous iOS.
 * **Vidéos connexes sans restriction** : si cette option est désactivée, les vidéos connexes viendront du même canal que la vidéo qui vient d’être lue, sinon elles peuvent provenir de n’importe quel canal.
 
+Notez que les options doivent être activées dans la [boîte de dialogue de conception](#design-dialog) et peuvent être définies comme valeurs par défaut.
+
 D’autres éléments intégrables proposent des champs similaires et peuvent être définis par un développeur en [consultant la documentation sur le composant Incorporer destinée aux développeurs.](https://github.com/adobe/aem-core-wcm-components/tree/master/content/src/content/jcr_root/apps/core/wcm/components/embed/v1/embed#extending-the-embed-component)
 
 ![Boîte de dialogue de modification du composant Incorporer pour les éléments intégrables](/help/assets/embed-embeddable.png)
 
 >[!NOTE]
->
 >Pour être accessibles à l’auteur de la page, les éléments intégrables doivent être activés au niveau du modèle au moyen de la [boîte de dialogue de conception](#design-dialog).
 
-#### HTML {#html}
+### HTML {#html}
 
 Vous pouvez ajouter du code HTML de forme libre à votre page à l’aide du composant Incorporer.
 
@@ -107,29 +101,18 @@ Vous pouvez ajouter du code HTML de forme libre à votre page à l’aide du com
 >[!NOTE]
 >Les balises non sécurisées, telles que les scripts, sont filtrées à partir du code HTML entré et ne sont pas affichées sur la page obtenue.
 
-##### Sécurité {#security}
+#### Sécurité {#security}
 
 Les balises HTML que l’auteur peut entrer sont filtrées à des fins de sécurité pour éviter toute attaque de script entre sites qui pourrait permettre aux auteurs d’obtenir des droits d’administration, par exemple.
 
-En règle générale, tous les scripts et les éléments`style`, ainsi que tous les attributs `on*` et `style` sont supprimés de la sortie.
+*En règle générale,* tous les scripts et les éléments`style`, ainsi que tous les attributs `on*` et `style` sont supprimés de la sortie.
 
 Toutefois, les règles sont plus complexes, car le composant Incorporer suit l’ensemble de règles de filtrage de la structure d’assainissement HTML AntiSamy d’AEM, qui se trouve à l’adresse `/libs/cq/xssprotection/config.xml`. Cela peut être superposé pour une configuration spécifique au projet par un développeur, si nécessaire.
 
 Vous trouverez des informations de sécurité supplémentaires dans la [documentation du développeur AEM pour les installations On-Premise](https://experienceleague.adobe.com/docs/experience-manager-65/developing/introduction/security.html?lang=fr), ainsi que les [installations AEM as a Cloud Service.](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/security/home.html?lang=fr)
 
 >[!NOTE]
->
 >Bien que les règles de structure d’assainissement AntiSamy puissent être configurées en superposant `/libs/cq/xssprotection/config.xml`, ces modifications ont un impact sur l’ensemble du comportement HTL et JSP et pas seulement sur le composant principal Incorporer.
-
-### Onglet Styles {#styles-tab-edit}
-
-![Onglet Styles de la boîte de dialogue de modification du composant Incorporer](/help/assets/embed-styles.png)
-
-Le composant Incorporer prend en charge l’AEM [Système de style.](/help/get-started/authoring.md#component-styling).
-
-Utilisez la liste déroulante pour sélectionner les styles à appliquer au composant. Les sélections effectuées dans la boîte de dialogue de modification ont le même effet que celles sélectionnées dans la barre d’outils du composant.
-
-Les styles doivent être configurés pour ce composant dans la variable [boîte de dialogue de conception](#design-dialog) pour que le menu déroulant soit disponible.
 
 ## Boîte de dialogue de conception {#design-dialog}
 

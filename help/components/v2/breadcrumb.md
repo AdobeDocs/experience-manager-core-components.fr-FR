@@ -1,16 +1,16 @@
 ---
-title: Composant de chemin de navigation
+title: Composant de chemin de navigation (v2)
 description: Le composant de chemin de navigation des composants principaux est un composant de navigation qui crée un chemin de navigation des liens en fonction de l’emplacement de la page dans la hiérarchie du contenu.
 role: Architect, Developer, Admin, User
-exl-id: 19d65b9d-a407-4f50-9c55-8de0f12222ed
-source-git-commit: 395a1669cf3e17f649c23852addc37316b923bfd
+source-git-commit: f8aa86d58ba71ede3c3cd867c45aafff06923325
 workflow-type: tm+mt
-source-wordcount: '800'
-ht-degree: 88%
+source-wordcount: '680'
+ht-degree: 97%
 
 ---
 
-# Composant de chemin de navigation{#breadcrumb-component}
+
+# Composant de chemin de navigation (v2) {#breadcrumb-component}
 
 Le composant de chemin de navigation des composants principaux est un composant de navigation qui crée un chemin de navigation des liens en fonction de l’emplacement de la page dans la hiérarchie du contenu.
 
@@ -22,17 +22,13 @@ Les options disponibles, telles que le niveau de navigation par défaut et la po
 
 ## Version et compatibilité {#version-and-compatibility}
 
-La version actuelle du composant de chemin de navigation est v3, qui a été introduite avec la version 2.18.0 des composants principaux en février 2022. Elle est décrite dans ce document.
+Ce document décrit la version v2 du composant de chemin de navigation, qui a été introduite avec la version 2.0.0 des composants principaux en janvier 2018.
 
-Le tableau ci-après présente en détail toutes les versions prises en charge du composant, les versions AEM avec lesquelles les versions du composant sont compatibles et les liens vers la documentation pour les versions précédentes.
-
-| Version du composant | AEM 6.4 | AEM 6.5 | AEM as a Cloud Service |
-|--- | --- |--- |---|
-| v3 | - | Compatible | Compatible |
-| [v2](v2/breadcrumb.md) | Compatible | Compatible | Compatible |
-| [v1](v1/breadcrumb-v1.md) | Compatible | Compatible | - |
-
-Pour plus d’informations sur les versions et les publications des composants principaux, voir le document sur les [versions des composants principaux](/help/versions.md).
+>[!CAUTION]
+>
+>Ce document décrit la version v2 du composant de chemin de navigation.
+>
+>Pour plus d’informations sur la version actuelle du composant de chemin de navigation, voir le document [Composant de chemin de navigation](/help/components/breadcrumb.md).
 
 ## Exemple de sortie de composant {#sample-component-output}
 
@@ -52,8 +48,6 @@ Vous trouverez plus d’informations sur le développement des composants princi
 
 La boîte de dialogue de modification permet à l’auteur de contenu de supprimer les pages masquées et actives dans les chemins de navigation ainsi que la profondeur de la hiérarchie qu’elle doit afficher.
 
-## Onglet Propriétés {#properties-tab}
-
 ![Boîte de dialogue de modification du composant Chemin de navigation](/help/assets/breadcrumb-edit.png)
 
 * **Niveau de départ de la navigation** : à quel niveau dans la hiérarchie le composant de chemin de navigation doit commencer à descendre jusqu’à la page actuelle. Par exemple :
@@ -64,21 +58,11 @@ La boîte de dialogue de modification permet à l’auteur de contenu de supprim
 
 * **Afficher les éléments de navigation masqués** : affichez les pages marquées comme étant masquées dans le chemin de navigation (elles ne sont pas affichées par défaut).
 * **Masquer la page active** : supprime la page actuelle dans le chemin de navigation (par défaut, elle s’affiche).
-* **Désactiver l’effet d’ombre portée** : si la page de la hiérarchie est une redirection, le nom de la page de redirection s’affiche à la place de la cible. Pour plus d’informations, consultez [Prise en charge de la structure de site fantôme](navigation.md#shadow-structure) du composant Navigation.
+* **Désactiver l’effet d’ombre portée** : si la page de la hiérarchie est une redirection, le nom de la page de redirection s’affiche à la place de la cible. Pour plus d’informations, consultez [Prise en charge de la structure de site fantôme](../v1/navigation.md#shadow-structure) du composant Navigation.
 * **ID** : cette option permet de contrôler l’identifiant unique du composant dans le code HTML ainsi que dans la [couche de données](/help/developing/data-layer/overview.md).
    * Si rien n’est indiqué, un ID unique est généré automatiquement et peut être trouvé en examinant la page obtenue.
    * Si un ID est spécifié, il incombe à l’auteur de s’assurer qu’il est unique.
    * La modification de l’ID peut avoir un impact sur le suivi CSS, JS et de couche de données.
-
-### Onglet Styles {#styles-tab-edit}
-
-![Onglet Styles de la boîte de dialogue de modification du composant Liste de chemin de navigation](/help/assets/breadcrumb-edit-styles.png)
-
-Le composant de chemin de navigation prend en charge le [système de style AEM.](/help/get-started/authoring.md#component-styling).
-
-Utilisez la liste déroulante pour sélectionner les styles à appliquer au composant. Les sélections effectuées dans la boîte de dialogue de modification ont le même effet que celles sélectionnées dans la barre d’outils du composant.
-
-Les styles doivent être configurés pour ce composant dans la variable [boîte de dialogue de conception](#design-dialog) pour que le menu déroulant soit disponible.
 
 ## Boîte de dialogue de conception {#design-dialog}
 

@@ -3,10 +3,10 @@ title: Composant Teaser
 description: Le composant Teaser peut afficher une image, un titre, un texte enrichi et éventuellement un lien vers un contenu supplémentaire.
 role: Architect, Developer, Admin, User
 exl-id: ec75e168-6f3b-4dff-8df6-06ca7dc18688
-source-git-commit: d435e82d5950336c66997399829e3baf23f170c0
-workflow-type: ht
-source-wordcount: '771'
-ht-degree: 100%
+source-git-commit: 395a1669cf3e17f649c23852addc37316b923bfd
+workflow-type: tm+mt
+source-wordcount: '999'
+ht-degree: 69%
 
 ---
 
@@ -22,13 +22,14 @@ L’auteur du modèle peut utiliser la [boîte de dialogue de conception](#desig
 
 ## Version et compatibilité {#version-and-compatibility}
 
-La version actuelle du composant Teaser est v1, qui a été introduite avec la version 2.1.0 des composants principaux de juillet 2018 et est décrite dans ce document.
+La version actuelle du composant Teaser est v2, qui a été introduite avec la version 2.18.0 des composants principaux en février 2022. Elle est décrite dans ce document.
 
 Le tableau ci-après présente en détail toutes les versions prises en charge du composant, les versions AEM avec lesquelles les versions du composant sont compatibles et les liens vers la documentation pour les versions précédentes.
 
 | Version du composant | AEM 6.4 | AEM 6.5 | AEM as a Cloud Service |
 |---|---|---|---|
-| v1 | Compatible | Compatible | Compatible |
+| v2 | - | Compatible | Compatible |
+| [v1](v1/teaser.md) | Compatible | Compatible | Compatible |
 
 ## Exemple de sortie de composant {#sample-component-output}
 
@@ -44,20 +45,18 @@ Vous trouverez plus d’informations sur le développement des composants princi
 
 L’auteur du contenu peut utiliser la boîte de dialogue de configuration pour définir les propriétés du teaser individuel. Il existe également une [boîte de dialogue de modification](#edit-dialog) pour modifier l’image de teaser si celle-ci est sélectionnée.
 
-### Image {#image}
+### Onglet Liens {#links-tab}
 
-![Onglet Image de la boîte de dialogue de modification du composant Teaser](/help/assets/teaser-edit-image.png)
+![Onglet Liens de la boîte de dialogue de modification du composant Teaser](/help/assets/teaser-edit-links.png)
 
-* **Ressource image**
-   * Déposez un fichier depuis l’[explorateur de ressources](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/fundamentals/environment-tools.html?lang=fr) ou appuyez sur l’option **parcourir** pour effectuer un téléchargement à partir d’un système de fichiers local.
-   * Appuyez ou cliquez sur **Effacer** pour désélectionner l’image actuellement sélectionnée.
-   * Appuyez ou cliquez sur **Modifier** pour [gérer les rendus de la ressource](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/manage/manage-digital-assets.html?lang=fr) dans l’éditeur de ressources.
+Le titre, la description et l’image du teaser peuvent être hérités de la page liée ou de la page liée dans le premier appel à l’action. Si aucun lien ni appel à l’action n’est spécifié, le titre, la description et l’image seront hérités de la page active.
 
->[!NOTE]
->
->Actuellement, les [fonctionnalités Dynamic Media](image.md#dynamic-media) ne sont pas disponibles dans le composant Teaser.
+* **Lien** - Ce fichier est lié à une page de contenu, une URL externe ou une ancre de page.
+* **Ouvrir le lien dans un nouvel onglet** - Si cette option est activée, le lien s’ouvre dans un nouvel onglet du navigateur.
+* **Appels à l’action** - Cette option permet de créer des liens vers plusieurs destinations.
+   * La page liée dans le premier appel à l’action est utilisée lors de l’héritage du titre, de la description ou de l’image du teaser.
 
-### Texte {#text}
+### Onglet Texte {#text-tab}
 
 ![Onglet Texte de la boîte de dialogue de modification du composant Teaser](/help/assets/teaser-edit-text.png)
 
@@ -71,12 +70,31 @@ L’auteur du contenu peut utiliser la boîte de dialogue de configuration pour 
    * Si un ID est spécifié, il incombe à l’auteur de s’assurer qu’il est unique.
    * La modification de l’ID peut avoir un impact sur le suivi CSS, JS et de couche de données.
 
-### Liens et actions {#links-actions}
+### Onglet Contenu {#asset-tab}
 
-![Onglet Lien de la boîte de dialogue de modification du composant Teaser](/help/assets/teaser-edit-link.png)
+![Onglet Image de la boîte de dialogue de modification du composant Teaser](/help/assets/teaser-edit-image.png)
 
-* **Lien** : lien appliqué au teaser. Utilisez le navigateur de chemins pour sélectionner la cible du lien.
-* **Activer les appels à l’action** : lorsque cette option est cochée, elle permet la définition d’appels à l’action. Le premier lien Appel à action de la liste est utilisé comme lien pour d’autres éléments de teaser.
+* **Hériter de l’image fournie de la page** - Utilisez l’image définie dans les propriétés de page de la page liée ou de la page active si aucune image n’est trouvée.
+* **Ressource image** - Déposez une ressource du [explorateur de ressources](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/fundamentals/environment-tools.html?lang=fr) ou appuyez sur **parcourir** pour télécharger à partir d’un système de fichiers local.
+   * Appuyez ou cliquez sur **Effacer** pour désélectionner l’image actuellement sélectionnée.
+   * Appuyez ou cliquez sur **Modifier** pour [gérer les rendus de la ressource](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/manage/manage-digital-assets.html?lang=fr) dans l’éditeur de ressources.
+* **Texte de remplacement pour l’accessibilité** - Ce champ vous permet de définir une description de l’image pour les utilisateurs malvoyants.
+   * **Hériter du texte de remplacement de la page** - Cette option utilise une autre description de la valeur de ressource liée de la fonction `dc:description` métadonnées dans la gestion des ressources numériques ou de la page active si aucune ressource n’est liée.
+* **Ne pas fournir de texte de remplacement** - Cette option indique l’image à ignorer par les technologies d’assistance telles que les lecteurs d’écran dans les cas où l’image est purement décorative ou ne transmet aucune information supplémentaire à la page.
+
+>[!NOTE]
+>
+>Actuellement, les [fonctionnalités Dynamic Media](image.md#dynamic-media) ne sont pas disponibles dans le composant Teaser.
+
+### Onglet Styles {#styles-tab-edit}
+
+![Onglet Styles de la boîte de dialogue de modification du composant Liste de teaser](/help/assets/teaser-edit-styles.png)
+
+Le composant Teaser prend en charge l’AEM [Système de style.](/help/get-started/authoring.md#component-styling).
+
+Utilisez la liste déroulante pour sélectionner les styles à appliquer au composant. Les sélections effectuées dans la boîte de dialogue de modification ont le même effet que celles sélectionnées dans la barre d’outils du composant.
+
+Les styles doivent être configurés pour ce composant dans la variable [boîte de dialogue de conception](#design-dialog) pour que le menu déroulant soit disponible.
 
 ## Boîte de dialogue de modification {#edit-dialog}
 
@@ -97,10 +115,7 @@ La boîte de dialogue de conception permet à l’auteur du modèle de définir 
    * **Masquer le titre** : masque l’option **Titre** pour les auteurs de contenu.
       * Lorsque cette option est sélectionnée, le **Type de titre** est masqué.
    * **Masquer la description** : masque l’option **Description** pour les auteurs de contenu.
-* **Type de titre** : définit la balise H que le titre du teaser doit utiliser.
-* **Liens**
-   * **Ne pas lier l’image** : lorsque cette option est sélectionnée, l’image de teaser n’est pas liée.
-   * **Ne pas lier le titre** : lorsque cette option est sélectionnée, le titre du teaser n’est pas lié.
+* **Type de titre par défaut** - Définit la balise H à utiliser par le titre du teaser.
 * **Délégué d’image** : affichage d’informations indiquant à quel composant le teaser délègue la gestion des images.
 
 ### Onglet Styles {#styles-tab}

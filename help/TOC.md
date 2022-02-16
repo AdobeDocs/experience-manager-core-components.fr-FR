@@ -4,9 +4,9 @@ user-guide-title: AEM Core Components
 breadcrumb-title: Guide des composants principaux
 user-guide-description: Utilisez les composants principaux extensibles pour permettre aux auteurs de créer facilement du contenu.
 feature-set: Experience Manager Sites
-source-git-commit: 04adfb00ca5908714e611f8b5de6cd2b6d127a37
-workflow-type: ht
-source-wordcount: '212'
+source-git-commit: e5251010ca41025eb2bb56b66164ecf4cc0145c8
+workflow-type: tm+mt
+source-wordcount: '244'
 ht-degree: 100%
 
 ---
@@ -55,9 +55,17 @@ ht-degree: 100%
       + [Texte du formulaire](components/forms/form-text.md)
    + Composants v1 {#v1-components}
       + [Chemin de navigation (v1)](components/v1/breadcrumb-v1.md)
+      + [Bouton (v1)](components/v1/button.md)
+      + [Liste des fragments de contenu (v1)](components/v1/content-fragment-list.md)
+      + [Téléchargement (v1)](components/v1/download.md)
+      + [Incorporer (v1)](components/v1/embed.md)
+      + [Fragment d’expérience (v1)](components/v1/experience-fragment.md)
       + [Image (v1)](components/v1/image-v1.md)
+      + [Navigation par langue (v1)](components/v1/language-navigation.md)
       + [Liste (v1)](components/v1/list-v1.md)
+      + [Navigation (v1)](components/v1/navigation.md)
       + [Page (v1)](components/v1/page-v1.md)
+      + [Teaser (v1)](components/v1/teaser.md)
       + [Texte (v1)](components/v1/text-v1.md)
       + [Titre (v1)](components/v1/title-v1.md)
       + Composants de formulaire v1 {#v1-forms}
@@ -66,6 +74,12 @@ ht-degree: 100%
          + [Formulaire masqué (v1)](components/v1/form-hidden-v1.md)
          + [Options de formulaire (v1)](components/v1/form-options-v1.md)
          + [Texte de formulaire (v1)](components/v1/form-text-v1.md)
+   + Composants v2 {#v2-components}
+      + [Chemin de navigation (v2)](components/v2/breadcrumb.md)
+      + [Image (v2)](components/v2/image.md)
+      + [Liste (v2)](components/v2/list.md)
+      + [Page (v2)](components/v2/page.md)
+      + [Titre (v2)](components/v2/title.md)
 + Développement {#developing}
    + [Développement des composants principaux](developing/overview.md)
    + [Chemins vers la réussite](https://experienceleague.adobe.com/docs/experience-manager-core-components/using/success.html?lang=fr)
