@@ -3,7 +3,7 @@ title: Versions des composants principaux
 description: Les composants principaux sont publiés sous forme de versions qui peuvent contenir plusieurs versions des mêmes composants principaux. Ce document explique les versions et les mises à jour ainsi que comment comprendre la compatibilité avec les composants principaux et AEM.
 role: Architect, Developer, Admin, User
 exl-id: 7d4dbe46-4013-4217-b815-cdb1462072c6
-source-git-commit: 06fc67134b312d2fa0311dc9f2250c82b8eee3f6
+source-git-commit: 4f5ab401aee70b979217738dce4f1a72de940ae9
 workflow-type: tm+mt
 source-wordcount: '2389'
 ht-degree: 92%
@@ -26,7 +26,7 @@ Le tableau suivant, dont le contenu est [disponible sur GitHub avec les détails
 
 | Mise à jour | Description | AEM 6.4 | AEM 6.5 | AEM as a Cloud Service | Java | Date de publication |
 |---|---|---|---|---|---|---|
-| [2.18.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.18.0) | Cette version majeure des composants principaux voit l’introduction d’un nouveau gestionnaire de liens dans les nouvelles versions de plusieurs composants, ainsi que de nombreuses améliorations d’accessibilité et correctifs. | - | 6.5.10.0+ * | Suite | 8, 11 | 24 février 2022 |
+| [2.18.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.18.0) | Cette version majeure des composants principaux voit l’introduction d’un nouveau gestionnaire de liens dans les nouvelles versions de plusieurs composants, ainsi que de nombreuses améliorations d’accessibilité et correctifs. | - | 6.5.10.0+ * | Suite | 8, 11 | 16 février 2022 |
 | [2.17.14](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.17.12) | Il s’agit d’une version de correctif. | 6.4.8.4+ * | 6.5.6.0+ * | Suite | 8, 11 | 13 décembre 2021 |
 | [2.17.12](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.17.12) | Il s’agit d’une version de correctif qui corrige une régression introduite avec la version précédente. | 6.4.8.4+ * | 6.5.6.0+ * | Suite | 8, 11 | 1 octobre 2021 |
 | [2.17.10](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.17.10) | Ce correctif améliore les composants [Liste](/help/components/list.md) et [Navigation](/help/components/navigation.md) pour afficher l’URL externe pour les cibles de redirection, active l’héritage des images de page pour la version v2 à venir du composant [Teaser](/help/components/teaser.md) et contient des correctifs supplémentaires. | 6.4.8.4+ * | 6.5.6.0+ * | Suite | 8, 11 | 31 août 2021 |

@@ -4,9 +4,9 @@ user-guide-title: AEM Core Components
 breadcrumb-title: Guide des composants principaux
 user-guide-description: Utilisez les composants principaux extensibles pour permettre aux auteurs de créer facilement du contenu.
 feature-set: Experience Manager Sites
-source-git-commit: e5251010ca41025eb2bb56b66164ecf4cc0145c8
+source-git-commit: 4f5ab401aee70b979217738dce4f1a72de940ae9
 workflow-type: tm+mt
-source-wordcount: '244'
+source-wordcount: '242'
 ht-degree: 100%
 
 ---
@@ -17,7 +17,7 @@ ht-degree: 100%
 + [Présentation des composants principaux ](introduction.md)
 + [Chemins vers la réussite](developing/success.md)
 + [Bibliothèque de composants](https://adobe.com/go/aem_cmp_library_fr)
-+ [Versions des composants principaux](versions.md)
++ [Versions](versions.md)
 + Prise en main {#get-started}
    + [Création à l’aide des composants principaux](get-started/authoring.md)
    + [Utilisation des composants principaux](get-started/using.md)
