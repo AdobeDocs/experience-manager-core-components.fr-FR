@@ -1,18 +1,18 @@
 ---
-title: Composant du titre (v2)
-description: Le composant du titre des composants principaux est un composant d’en-tête de section qui comporte des fonctions d’édition statique.
+title: Composant Titre (v2)
+description: Le composant Titre des composants principaux est un composant d’en-tête de section qui comporte des fonctions d’édition statique.
 role: Architect, Developer, Admin, User
 source-git-commit: e5251010ca41025eb2bb56b66164ecf4cc0145c8
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '527'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
 
-# Composant du titre (v2) {#title-component}
+# Composant Titre (v2) {#title-component}
 
-Le composant du titre des composants principaux est un composant d’en-tête de section qui comporte des fonctions d’édition statique.
+Le composant Titre des composants principaux est un composant d’en-tête de section qui comporte des fonctions d’édition statique.
 
 ## Utilisation {#usage}
 
@@ -20,11 +20,11 @@ Le composant du titre est conçu pour être utilisé comme titre ou en-tête d�
 
 ## Version et compatibilité {#version-and-compatibility}
 
-Ce document décrit la version v2 du composant Titre, qui a été introduite avec la version 2.0.0 des composants principaux en janvier 2018.
+Ce document décrit la version v2 du composant Titre, qui a été introduite avec la version 2.0.0 des composants principaux en janvier 2018.
 
 >[!CAUTION]
 >
->Ce document décrit la version v2 du composant Titre.
+>Ce document décrit la version v2 du composant Titre.
 >
 >Pour plus d’informations sur la version actuelle du composant Titre, voir le document [Composant Titre](/help/components/title.md).
 
