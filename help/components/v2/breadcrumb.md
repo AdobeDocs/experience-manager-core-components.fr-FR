@@ -1,18 +1,18 @@
 ---
-title: Composant de chemin de navigation (v2)
-description: Le composant de chemin de navigation des composants principaux est un composant de navigation qui crée un chemin de navigation des liens en fonction de l’emplacement de la page dans la hiérarchie du contenu.
+title: Composant Chemin de navigation (v2)
+description: Le composant Chemin de navigation des composants principaux est un composant de navigation qui crée un chemin de navigation des liens en fonction de l’emplacement de la page dans la hiérarchie du contenu.
 role: Architect, Developer, Admin, User
 source-git-commit: f8aa86d58ba71ede3c3cd867c45aafff06923325
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '680'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
 
-# Composant de chemin de navigation (v2) {#breadcrumb-component}
+# Composant Chemin de navigation (v2) {#breadcrumb-component}
 
-Le composant de chemin de navigation des composants principaux est un composant de navigation qui crée un chemin de navigation des liens en fonction de l’emplacement de la page dans la hiérarchie du contenu.
+Le composant Chemin de navigation des composants principaux est un composant de navigation qui crée un chemin de navigation des liens en fonction de l’emplacement de la page dans la hiérarchie du contenu.
 
 ## Utilisation {#usage}
 
@@ -22,13 +22,13 @@ Les options disponibles, telles que le niveau de navigation par défaut et la po
 
 ## Version et compatibilité {#version-and-compatibility}
 
-Ce document décrit la version v2 du composant de chemin de navigation, qui a été introduite avec la version 2.0.0 des composants principaux en janvier 2018.
+Ce document décrit la version v2 du composant Chemin de navigation, qui a été introduite avec la version 2.0.0 des composants principaux en janvier 2018.
 
 >[!CAUTION]
 >
->Ce document décrit la version v2 du composant de chemin de navigation.
+>Ce document décrit la version v2 du composant Chemin de navigation.
 >
->Pour plus d’informations sur la version actuelle du composant de chemin de navigation, voir le document [Composant de chemin de navigation](/help/components/breadcrumb.md).
+>Pour plus d’informations sur la version actuelle du composant Chemin de navigation, voir le document [Composant Chemin de navigation](/help/components/breadcrumb.md).
 
 ## Exemple de sortie de composant {#sample-component-output}
 
