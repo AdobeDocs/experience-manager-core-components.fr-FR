@@ -1,18 +1,18 @@
 ---
 title: Composant Liste (v2)
-description: Le composant principal Liste permet de créer facilement des listes dynamiques et statiques.
+description: Le composant Liste des composants principaux permet de créer facilement des listes dynamiques et statiques.
 role: Architect, Developer, Admin, User
 source-git-commit: e5251010ca41025eb2bb56b66164ecf4cc0145c8
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1022'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
 
 # Composant Liste  (v2) {#list-component}
 
-Le composant principal Liste permet de créer facilement des listes dynamiques et statiques.
+Le composant Liste des composants principaux permet de créer facilement des listes dynamiques et statiques.
 
 ## Utilisation {#usage}
 
@@ -20,13 +20,13 @@ Le composant Liste peut servir à créer, par exemple, une liste dynamique de pa
 
 ## Version et compatibilité {#version-and-compatibility}
 
-Ce document décrit la version v1 du composant Liste, qui a été introduite avec la version 2.0.0 des composants principaux en janvier 2018.
+Ce document décrit la version v1 du composant Liste, qui a été introduite avec la version 2.0.0 des composants principaux en janvier 2018.
 
 >[!CAUTION]
 >
 >Ce document décrit la version v2 du composant Liste.
 >
->Pour plus d’informations sur la version actuelle du composant Liste, voir [le document Composant Liste](/help/components/list.md).
+>Pour plus d’informations sur la version actuelle du composant Liste, voir le document [Composant Liste](/help/components/list.md).
 
 ## Redirections dans les listes {#redirects}
 
