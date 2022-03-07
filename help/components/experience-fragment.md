@@ -1,29 +1,29 @@
 ---
 title: Composant de fragment d’expérience
-description: Le composant de fragment d’expérience permet à l’auteur de contenu d’ajouter une variation de fragment d’expérience à une page.
+description: Le composant Fragment d’expérience permet à l’auteur de contenu d’ajouter une variation de fragment d’expérience à une page.
 role: Architect, Developer, Admin, User
 exl-id: 103f729a-084d-4b6a-a239-d8ef8902eb95
 source-git-commit: 395a1669cf3e17f649c23852addc37316b923bfd
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '893'
-ht-degree: 88%
+ht-degree: 100%
 
 ---
 
 # Composant de fragment d’expérience {#experience-fragment-component}
 
-Le composant de fragment d’expérience de composant principal permet à l’auteur du contenu de placer une variation de fragment d’expérience sur une page tout en prenant en charge une structure de site localisée.
+Le composant Fragment d’expérience des composants principaux permet à l’auteur du contenu de placer une variation de fragment d’expérience sur une page tout en prenant en charge une structure de site localisée.
 
 ## Utilisation {#usage}
 
-Le composant de fragment d’expérience des composants principaux permet à l’auteur du contenu d’effectuer une sélection parmi les variations de fragments d’expérience existantes et d’en placer une dans la page de contenu. Le composant de fragment d’expérience prend également en charge une structure de site localisée.
+Le composant Fragment d’expérience des composants principaux permet à l’auteur du contenu d’effectuer une sélection parmi les variations de fragments d’expérience existantes et d’en placer une dans la page de contenu. Le composant de fragment d’expérience prend également en charge une structure de site localisée.
 
 * Les propriétés du composant peuvent être définies dans la [boîte de dialogue de configuration](#configure-dialog).
 * Les valeurs par défaut du composant lors de son ajout à une page peuvent être définies dans la [boîte de dialogue de conception](#design-dialog).
 
 ## Version et compatibilité {#version-and-compatibility}
 
-La version actuelle du composant de fragment d’expérience est v2, qui a été introduite avec la version 2.18.0 des composants principaux en février 2022. Elle est décrite dans ce document.
+La version actuelle du composant Fragment d’expérience est v2, qui a été introduite avec la version 2.18.0 des composants principaux en février 2022. Elle est décrite dans ce document.
 
 Le tableau ci-après présente en détail toutes les versions prises en charge du composant, les versions AEM avec lesquelles les versions du composant sont compatibles et les liens vers la documentation pour les versions précédentes.
 
@@ -133,11 +133,11 @@ Vous pouvez également définir un **ID**. Cette option permet de contrôler l�
 
 ![Onglet Styles de la boîte de dialogue de modification du composant Fragment d’expérience](/help/assets/experience-fragment-edit-styles.png)
 
-Le composant de fragment d’expérience prend en charge l’AEM [Système de style.](/help/get-started/authoring.md#component-styling).
+Le composant Fragment d’expérience prend en charge le [système de style](/help/get-started/authoring.md#component-styling) AEM.
 
-Utilisez la liste déroulante pour sélectionner les styles à appliquer au composant. Les sélections effectuées dans la boîte de dialogue de modification ont le même effet que celles sélectionnées dans la barre d’outils du composant.
+Utilisez la liste déroulante pour sélectionner les styles à appliquer au composant. Les sélections effectuées dans la boîte de dialogue de modification ou dans la barre d’outils du composant ont le même effet.
 
-Les styles doivent être configurés pour ce composant dans la variable [boîte de dialogue de conception](#design-dialog) pour que le menu déroulant soit disponible.
+Pour que le menu déroulant soit disponible, les styles doivent être configurés pour ce composant dans la [boîte de dialogue de conception](#design-dialog).
 
 ## Boîte de dialogue de conception {#design-dialog}
 
