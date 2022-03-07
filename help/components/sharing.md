@@ -4,9 +4,9 @@ description: Le composant Partage sur les réseaux sociaux des composants princi
 role: Architect, Developer, Admin, User
 exl-id: 8bd53c76-da91-479b-b416-f978682a3d43
 source-git-commit: 9767a3a10cb9a77f385edc0ac3fb00096c0087af
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '423'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -28,7 +28,7 @@ Le tableau ci-après présente en détail toutes les versions prises en charge d
 
 | Version du composant | AEM 6.4 | AEM 6.5 | AEM as a Cloud Service |
 |--- |--- |--- |---|
-| v1 | Compatible avec<br>[version 2.17.4](/help/versions.md) et précédent | Compatible | Compatible |
+| v1 | Compatible avec la <br>[version 2.17.4](/help/versions.md) et versions antérieures. | Compatible | Compatible |
 
 Pour plus d’informations sur les versions et les publications des composants principaux, voir le document sur les [versions des composants principaux](/help/versions.md).
 
@@ -51,8 +51,8 @@ Vous trouverez plus d’informations sur le développement des composants princi
    * Si un ID est spécifié, il incombe à l’auteur de s’assurer qu’il est unique.
    * La modification de l’ID peut avoir un impact sur le suivi CSS, JS et de couche de données.
 
-Étant donné que le partage nécessite des en-têtes de page spéciaux, tout partage doit être activé au niveau de la page. Par conséquent, pour l’auteur du contenu, des options de modification supplémentaires du composant Partage sont disponibles via l’onglet de partage dans les [propriétés de la page](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/fundamentals/page-properties.html).
+Étant donné que le partage nécessite des en-têtes de page spéciaux, tout partage doit être activé au niveau de la page. Par conséquent, pour l’auteur du contenu, des options de modification supplémentaires du composant Partage sont disponibles via l’onglet de partage dans les [propriétés de la page](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/fundamentals/page-properties.html?lang=fr).
 
 ## Boîte de dialogue de conception {#design-dialog}
 
-Étant donné que le partage nécessite des en-têtes de page spéciaux, tout partage doit être activé au niveau de la page. Par conséquent, pour l’auteur du modèle, les options de conception du composant Partage sont disponibles via les [propriétés de la page initiale](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/features/templates.html).
+Étant donné que le partage nécessite des en-têtes de page spéciaux, tout partage doit être activé au niveau de la page. Par conséquent, pour l’auteur du modèle, les options de conception du composant Partage sont disponibles via les [propriétés de la page initiale](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/features/templates.html?lang=fr).
