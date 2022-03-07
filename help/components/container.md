@@ -4,9 +4,9 @@ description: Le composant de conteneur des composants principaux permet la créa
 role: Architect, Developer, Admin, User
 exl-id: 53c7190d-44cb-42ff-bc1a-483c7875bcf8
 source-git-commit: 9767a3a10cb9a77f385edc0ac3fb00096c0087af
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '790'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -29,7 +29,7 @@ Le tableau ci-après présente en détail toutes les versions prises en charge d
 
 | Version du composant | AEM 6.4 | AEM 6.5 | AEM as a Cloud Service |
 |--- |--- |---|---|
-| v1 | Compatible avec<br>[version 2.17.4](/help/versions.md) et précédent | Compatible | Compatible |
+| v1 | Compatible avec la <br>[version 2.17.4](/help/versions.md) et versions antérieures | Compatible | Compatible |
 
 Pour plus d’informations sur les versions et les publications des composants principaux, voir le document sur les [versions des composants principaux](/help/versions.md).
 
@@ -71,7 +71,7 @@ L’onglet Composants autorisés fonctionne de la même manière que l’onglet 
 
 ### Onglet Composants par défaut {#default-components-tab}
 
-L’onglet Composants par défaut permet de définir quel composant est ajouté au composant lorsqu’un type de ressource particulier est déposé sur le conteneur, comme [la définition des composants par défaut sur le modèle de page](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/features/templates.html).
+L’onglet Composants par défaut permet de définir quel composant est ajouté au composant lorsqu’un type de ressource particulier est déposé sur le conteneur, comme [la définition des composants par défaut sur le modèle de page](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/features/templates.html?lang=fr).
 
 ### Onglet Paramètres réactifs {#responsive-settings-tab}
 
