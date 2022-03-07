@@ -4,9 +4,9 @@ description: Le composant Navigation permet aux utilisateurs de parcourir facile
 role: Architect, Developer, Admin, User
 exl-id: 9154f2a3-3d1e-4865-a413-298748fa66d3
 source-git-commit: 395a1669cf3e17f649c23852addc37316b923bfd
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1544'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
@@ -24,7 +24,7 @@ La boîte de dialogue de [modification](#edit-dialog) permet à l’auteur de co
 
 ## Version et compatibilité {#version-and-compatibility}
 
-La version actuelle du composant de navigation est v2, qui a été introduite avec la version 2.18.0 des composants principaux en février 2022. Elle est décrite dans ce document.
+La version actuelle du composant Navigation est v2, qui a été introduite avec la version 2.18.0 des composants principaux en février 2022. Elle est décrite dans ce document.
 
 Le tableau ci-après présente en détail toutes les versions prises en charge du composant, les versions AEM avec lesquelles les versions du composant sont compatibles et les liens vers la documentation pour les versions précédentes.
 
@@ -158,11 +158,11 @@ Dans l’onglet **Accessibilité**, les valeurs peuvent être définies pour les
 
 ### Onglet Styles {#styles-tab-edit}
 
-Le composant de navigation prend en charge l’AEM [Système de style.](/help/get-started/authoring.md#component-styling).
+Le composant Navigation prend en charge le [système de style](/help/get-started/authoring.md#component-styling) AEM.
 
-Utilisez la liste déroulante pour sélectionner les styles à appliquer au composant. Les sélections effectuées dans la boîte de dialogue de modification ont le même effet que celles sélectionnées dans la barre d’outils du composant.
+Utilisez la liste déroulante pour sélectionner les styles à appliquer au composant. Les sélections effectuées dans la boîte de dialogue de modification ou dans la barre d’outils du composant ont le même effet.
 
-Les styles doivent être configurés pour ce composant dans la variable [boîte de dialogue de conception](#design-dialog) pour que le menu déroulant soit disponible.
+Pour que le menu déroulant soit disponible, les styles doivent être configurés pour ce composant dans la [boîte de dialogue de conception](#design-dialog).
 
 ![Onglet Styles de la boîte de dialogue de modification du composant Navigation](/help/assets/navigation-edit-styles.png)
 
