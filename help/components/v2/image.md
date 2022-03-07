@@ -1,28 +1,28 @@
 ---
-title: Composant d’image (v2)
-description: Le composant d’image des composants principaux est un composant d’image adaptatif qui permet d’effectuer des modifications statiques.
+title: Composant Image (v2)
+description: Le composant Image des composants principaux est un composant d’image adaptatif qui permet d’effectuer des modifications statiques.
 role: Architect, Developer, Admin, User
 source-git-commit: e5251010ca41025eb2bb56b66164ecf4cc0145c8
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2228'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
 
 # Composant d’image  (v2) {#image-component}
 
-Le composant d’image des composants principaux est un composant d’image adaptatif qui permet d’effectuer des modifications statiques.
+Le composant Image des composants principaux est un composant d’image adaptatif qui permet d’effectuer des modifications statiques.
 
 ## Utilisation {#usage}
 
-Le composant d’image comprend une sélection des images adaptatives et un comportement réactif avec chargement différé pour le visiteur de la page, ainsi qu’un positionnement et un recadrage des images faciles pour l’auteur du contenu.
+Le composant Image comprend une sélection des images adaptatives et un comportement réactif avec chargement différé pour le visiteur de la page, ainsi qu’un positionnement et un recadrage des images faciles pour l’auteur du contenu.
 
 Les largeurs d’image ainsi que le recadrage et les paramètres supplémentaires peuvent être définis par l’auteur du modèle dans la [boîte de dialogue de conception](#design-dialog). L’éditeur de contenu peut télécharger ou sélectionner des ressources dans la [boîte de dialogue de configuration](#configure-dialog) et recadrer l’image dans la [boîte de dialogue de modification](#edit-dialog). Pour plus de commodité, une simple modification statique de l’image est également disponible.
 
 ## Version et compatibilité {#version-and-compatibility}
 
-Ce document décrit la version v2 du composant d’image, introduite avec la version 2.0.0 des composants principaux en janvier 2018.
+Ce document décrit la version v2 du composant Image, qui a été introduite avec la version 2.0.0 des composants principaux en janvier 2018.
 
 >[!CAUTION]
 >
