@@ -3,9 +3,9 @@ title: Composant Navigation (v1)
 description: Le composant Navigation permet aux utilisateurs de parcourir facilement une structure de site globalisée.
 role: Architect, Developer, Admin, User
 source-git-commit: e5251010ca41025eb2bb56b66164ecf4cc0145c8
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1430'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -24,13 +24,13 @@ La boîte de dialogue de [modification](#edit-dialog) permet à l’auteur de co
 
 ## Version et compatibilité {#version-and-compatibility}
 
-Ce document décrit la version v1 du composant Navigation, qui a été introduite avec la version 2.0.0 des composants principaux en janvier 2018.
+Ce document décrit la version v1 du composant Navigation, qui a été introduite avec la version 2.0.0 des composants principaux en janvier 2018.
 
 >[!CAUTION]
 >
->Ce document décrit la version v1 du composant Navigation.
+>Ce document décrit la version v1 du composant Navigation.
 >
->Pour plus d’informations sur la version actuelle du composant Navigation, voir [Composant Navigation](/help/components/navigation.md) document.
+>Pour plus d’informations sur la version actuelle du composant Navigation, consultez le document [Composant Navigation](/help/components/navigation.md).
 
 ## Prise en charge de la structure de site localisée {#localized-site-structure}
 
