@@ -1,11 +1,11 @@
 ---
-title: Composant Teaser (v1)
+title: Composant Teaser (v1)
 description: Le composant Teaser peut afficher une image, un titre, un texte enrichi et éventuellement un lien vers un contenu supplémentaire.
 role: Architect, Developer, Admin, User
 source-git-commit: f8aa86d58ba71ede3c3cd867c45aafff06923325
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '748'
-ht-degree: 91%
+ht-degree: 100%
 
 ---
 
@@ -22,13 +22,13 @@ L’auteur du modèle peut utiliser la [boîte de dialogue de conception](#desig
 
 ## Version et compatibilité {#version-and-compatibility}
 
-Ce document décrit la version v1 du composant Teaser, qui a été introduite avec la version 2.1.0 des composants principaux en juillet 2018.
+Ce document décrit la version v1 du composant Teaser, qui a été introduite avec la version 2.1.0 des composants principaux en juillet 2018.
 
 >[!CAUTION]
 >
->Ce document décrit la version v1 du composant Teaser.
+>Ce document décrit la version v1 du composant Teaser.
 >
->Pour plus d’informations sur la version actuelle du composant Teaser, voir la section [Composant Teaser](/help/components/teaser.md) document.
+>Pour plus d’informations sur la version actuelle du composant Teaser, consultez le document [Composant Teaser](/help/components/teaser.md).
 
 ## Exemple de sortie de composant {#sample-component-output}
 
@@ -80,7 +80,7 @@ L’auteur du contenu peut utiliser la boîte de dialogue de configuration pour 
 
 ## Boîte de dialogue de modification {#edit-dialog}
 
-Le composant Teaser délègue le rendu d’image au [Composant Image](image-v1.md). Par conséquent, la variable [Modifier la boîte de dialogue](image-v1.md#edit-dialog du composant Image est disponible pour l’auteur du contenu afin de manipuler l’image de teaser.
+Le composant Teaser délègue le rendu d’image au [Composant Image](image-v1.md). Par conséquent, la [boîte de dialogue Modifier](image-v1.md#edit-dialog) du composant Image est accessible à l’auteur du contenu pour manipuler l’image de teaser.
 
 ## Boîte de dialogue de conception {#design-dialog}
 
