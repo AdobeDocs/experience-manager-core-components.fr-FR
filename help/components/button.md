@@ -1,29 +1,29 @@
 ---
 title: Composant de bouton
-description: Le composant de bouton des composants principaux permet de créer et d’afficher un bouton.
+description: Le composant Bouton des composants principaux permet de créer et d’afficher un bouton.
 role: Architect, Developer, Admin, User
 exl-id: e17efd1d-90d4-497a-9e7d-45934d81bc28
 source-git-commit: 395a1669cf3e17f649c23852addc37316b923bfd
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '542'
-ht-degree: 79%
+ht-degree: 100%
 
 ---
 
 # Composant de bouton {#button-component}
 
-Le composant de bouton des composants principaux permet de configurer et d’afficher un élément de bouton sur une page.
+Le composant Bouton des composants principaux permet de configurer et d’afficher un élément de bouton sur une page.
 
 ## Utilisation {#usage}
 
-Le composant de bouton des composants principaux permet l’inclusion d’un bouton sur une page.
+Le composant Bouton des composants principaux permet l’inclusion d’un bouton sur une page.
 
 * Les propriétés du bouton peuvent être définies dans la [boîte de dialogue de configuration](#configure-dialog).
 * Les styles du composant de bouton peuvent être définis dans la [boîte de dialogue de conception](#design-dialog).
 
 ## Version et compatibilité {#version-and-compatibility}
 
-La version actuelle du composant de bouton est v2, qui a été introduite avec la version 2.18.0 des composants principaux en février 2022. Elle est décrite dans ce document.
+La version actuelle du composant Bouton est v2, qui a été introduite avec la version 2.18.0 des composants principaux en février 2022. Elle est décrite dans ce document.
 
 Le tableau ci-après présente en détail toutes les versions prises en charge du composant, les versions AEM avec lesquelles les versions du composant sont compatibles et les liens vers la documentation pour les versions précédentes.
 
@@ -55,7 +55,7 @@ La boîte de dialogue de configuration permet à l’auteur du contenu de défin
 * **Texte** : texte à afficher sur le bouton.
 * **Lien** : lien vers une page de contenu dans AEM, une ressource externe ou une ancre.
    * Utilisez la **boîte de dialogue de sélection** pour choisir un chemin dans AEM.
-* **Ouvrir le lien dans un nouvel onglet** - Si cette case est cochée, le lien s’ouvre dans un nouvel onglet du navigateur.
+* **Ouvrir le lien dans un nouvel onglet** : si cette option est cochée, le lien s’ouvre dans un nouvel onglet du navigateur.
 * **Icône** : identificateur pour l’affichage d’une icône dans le bouton.
 * **ID** : cette option permet de contrôler l’identifiant unique du composant dans le code HTML ainsi que dans la [couche de données](/help/developing/data-layer/overview.md).
    * Si rien n’est indiqué, un ID unique est généré automatiquement et peut être trouvé en examinant la page obtenue.
@@ -74,11 +74,11 @@ Dans l’onglet **Accessibilité**, les valeurs peuvent être définies pour les
 
 ![Onglet Styles de la boîte de dialogue de modification du composant Bouton](/help/assets/button-edit-styles.png)
 
-Le composant de bouton prend en charge l’AEM [Système de style.](/help/get-started/authoring.md#component-styling).
+Le composant Bouton prend en charge le [système de style](/help/get-started/authoring.md#component-styling) AEM.
 
-Utilisez la liste déroulante pour sélectionner les styles à appliquer au composant. Les sélections effectuées dans la boîte de dialogue de modification ont le même effet que celles sélectionnées dans la barre d’outils du composant.
+Utilisez la liste déroulante pour sélectionner les styles à appliquer au composant. Les sélections effectuées dans la boîte de dialogue de modification ou dans la barre d’outils du composant ont le même effet.
 
-Les styles doivent être configurés pour ce composant dans la variable [boîte de dialogue de conception](#design-dialog) pour que le menu déroulant soit disponible.
+Pour que le menu déroulant soit disponible, les styles doivent être configurés pour ce composant dans la [boîte de dialogue de conception](#design-dialog).
 
 ## Boîte de dialogue de conception {#design-dialog}
 
