@@ -1,18 +1,18 @@
 ---
 title: Composant du titre
-description: Le composant du titre des composants principaux est un composant d’en-tête de section qui comporte des fonctions d’édition statique.
+description: Le composant Titre des composants principaux est un composant d’en-tête de section qui comporte des fonctions d’édition statique.
 role: Architect, Developer, Admin, User
 exl-id: 393af72c-549f-4609-afb0-2712f827b549
 source-git-commit: 395a1669cf3e17f649c23852addc37316b923bfd
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '626'
-ht-degree: 82%
+ht-degree: 100%
 
 ---
 
 # Composant du titre{#title-component}
 
-Le composant du titre des composants principaux est un composant d’en-tête de section qui comporte des fonctions d’édition statique.
+Le composant Titre des composants principaux est un composant d’en-tête de section qui comporte des fonctions d’édition statique.
 
 ## Utilisation {#usage}
 
@@ -20,7 +20,7 @@ Le composant du titre est conçu pour être utilisé comme titre ou en-tête d�
 
 ## Version et compatibilité {#version-and-compatibility}
 
-La version actuelle du composant Titre est v3, qui a été introduite avec la version 2.18.0 des composants principaux en février 2022. Elle est décrite dans ce document.
+La version actuelle du composant Titre est v3, qui a été introduite avec la version 2.18.0 des composants principaux en février 2022. Elle est décrite dans ce document.
 
 Le tableau ci-après présente en détail toutes les versions prises en charge du composant, les versions AEM avec lesquelles les versions du composant sont compatibles et les liens vers la documentation pour les versions précédentes.
 
@@ -49,7 +49,7 @@ La boîte de dialogue de modification permet à l’auteur de contenu de défini
 * **Titre** : si ce champ est vide, le titre de la page est utilisé.
 * **Type/Taille** : définit le niveau d’en-tête du titre.
 * **Lien** : définit le contenu auquel le titre sera associé. Il peut s’agir d’un chemin d’accès à une page de contenu, d’une URL externe ou d’une ancre de page.
-* **Ouvrir le lien dans un nouvel onglet** - Lorsque cette case est cochée, le lien s’ouvre dans un nouvel onglet du navigateur.
+* **Ouvrir le lien dans un nouvel onglet** : lorsque cette option est cochée, le lien s’ouvre dans un nouvel onglet du navigateur.
 * **ID** : cette option permet de contrôler l’identifiant unique du composant dans le code HTML ainsi que dans la [couche de données](/help/developing/data-layer/overview.md).
    * Si rien n’est indiqué, un ID unique est généré automatiquement et peut être trouvé en examinant la page obtenue.
    * Si un ID est spécifié, il incombe à l’auteur de s’assurer qu’il est unique.
@@ -63,11 +63,11 @@ L’éditeur statique peut également être utilisé pour modifier le texte du c
 
 ### Onglet Styles {#styles-tab-edit}
 
-Le composant Titre prend en charge l’AEM [Système de style.](/help/get-started/authoring.md#component-styling).
+Le composant Titre prend en charge le [système de style](/help/get-started/authoring.md#component-styling) AEM.
 
-Utilisez la liste déroulante pour sélectionner les styles à appliquer au composant. Les sélections effectuées dans la boîte de dialogue de modification ont le même effet que celles sélectionnées dans la barre d’outils du composant.
+Utilisez la liste déroulante pour sélectionner les styles à appliquer au composant. Les sélections effectuées dans la boîte de dialogue de modification ou dans la barre d’outils du composant ont le même effet.
 
-Les styles doivent être configurés pour ce composant dans la variable [boîte de dialogue de conception](#design-dialog) pour que le menu déroulant soit disponible.
+Pour que le menu déroulant soit disponible, les styles doivent être configurés pour ce composant dans la [boîte de dialogue de conception](#design-dialog).
 
 ![Onglet Styles de la boîte de dialogue de modification du composant Titre](/help/assets/title-edit-styles.png)
 
