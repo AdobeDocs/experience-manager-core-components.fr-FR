@@ -1,35 +1,35 @@
 ---
 title: Composant de bouton (v1)
-description: Le composant de bouton des composants principaux permet de créer et d’afficher un bouton.
+description: Le composant Bouton des composants principaux permet de créer et d’afficher un bouton.
 role: Architect, Developer, Admin, User
 source-git-commit: e5251010ca41025eb2bb56b66164ecf4cc0145c8
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '412'
-ht-degree: 89%
+ht-degree: 100%
 
 ---
 
 
 # Composant de bouton  (v1) {#button-component}
 
-Le composant de bouton des composants principaux permet de configurer et d’afficher un élément de bouton sur une page.
+Le composant Bouton des composants principaux permet de configurer et d’afficher un élément de bouton sur une page.
 
 ## Utilisation {#usage}
 
-Le composant de bouton des composants principaux permet l’inclusion d’un bouton sur une page.
+Le composant Bouton des composants principaux permet l’inclusion d’un bouton sur une page.
 
 * Les propriétés du bouton peuvent être définies dans la [boîte de dialogue de configuration](#configure-dialog).
 * Les styles du composant de bouton peuvent être définis dans la [boîte de dialogue de conception](#design-dialog).
 
 ## Version et compatibilité {#version-and-compatibility}
 
-Le document décrit la version v1 du composant de bouton, qui a été introduite avec la version 2.5.0 des composants principaux en juin 2019.
+Le document décrit la version v1 du composant Bouton, qui a été introduite avec la version 2.5.0 des composants principaux en juin 2019.
 
 >[!CAUTION]
 >
->Ce document décrit la version v1 du composant Bouton.
+>Ce document décrit la version v1 du composant Bouton.
 >
->Pour plus d’informations sur la version actuelle du composant de bouton, voir [Composant de bouton](/help/components/button.md) document.
+>Pour plus d’informations sur la version actuelle du composant Bouton, consultez le document [Composant Bouton](/help/components/button.md).
 
 ## Exemple de sortie de composant {#sample-component-output}
 
