@@ -4,9 +4,9 @@ description: Le composant Incorporer permet d’incorporer du contenu externe da
 role: Architect, Developer, Admin, User
 exl-id: 985fa304-70a3-4329-957e-76d1832a06f1
 source-git-commit: 28409185f2e46a30fa588b3f92b83b2fa05de96d
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1395'
-ht-degree: 92%
+ht-degree: 100%
 
 ---
 
@@ -23,7 +23,7 @@ Le composant Incorporer des composants principaux permet à l’auteur de conten
 
 ## Version et compatibilité {#version-and-compatibility}
 
-La version actuelle du composant Incorporer est v2, qui a été introduite avec la version 2.18.0 des composants principaux en février 2022. Elle est décrite dans ce document.
+La version actuelle du composant Incorporer est v2, qui a été introduite avec la version 2.18.0 des composants principaux en février 2022. Elle est décrite dans ce document.
 
 Le tableau ci-après présente en détail toutes les versions prises en charge du composant, les versions AEM avec lesquelles les versions du composant sont compatibles et les liens vers la documentation pour les versions précédentes.
 
@@ -56,7 +56,7 @@ Sélectionnez d’abord le type de ressource à incorporer :
 * [Élément intégrable](#embeddable)
 * [HTML](#html)
 
-Pour chaque type d’incorporation, vous pouvez définir une **ID**. Cette option permet de contrôler l’identifiant unique du composant dans le code HTML et dans la [couche de données](/help/developing/data-layer/overview.md).
+Pour chaque type d’intégration, vous pouvez définir un **ID**. Cette option permet de contrôler l’identifiant unique du composant dans le code HTML et dans la [couche de données](/help/developing/data-layer/overview.md).
 
 * Si rien n’est indiqué, un ID unique est généré automatiquement et peut être trouvé en examinant la page obtenue.
 * Si un ID est spécifié, il incombe à l’auteur de s’assurer qu’il est unique.
@@ -111,7 +111,7 @@ Vous pouvez ajouter du code HTML de forme libre à votre page à l’aide du com
 
 Les balises HTML que l’auteur peut entrer sont filtrées à des fins de sécurité pour éviter toute attaque de script entre sites qui pourrait permettre aux auteurs d’obtenir des droits d’administration, par exemple.
 
-En règle générale, tous les scripts et les éléments`style`, ainsi que tous les attributs `on*` et `style` sont supprimés de la sortie.
+En règle générale, tous les scripts et les éléments `style`, ainsi que tous les attributs `on*` et `style` sont supprimés de la sortie.
 
 Toutefois, les règles sont plus complexes, car le composant Incorporer suit l’ensemble de règles de filtrage de la structure d’assainissement HTML AntiSamy d’AEM, qui se trouve à l’adresse `/libs/cq/xssprotection/config.xml`. Cela peut être superposé pour une configuration spécifique au projet par un développeur, si nécessaire.
 
@@ -125,11 +125,11 @@ Vous trouverez des informations de sécurité supplémentaires dans la [document
 
 ![Onglet Styles de la boîte de dialogue de modification du composant Incorporer](/help/assets/embed-styles.png)
 
-Le composant Incorporer prend en charge l’AEM [Système de style.](/help/get-started/authoring.md#component-styling).
+Le composant Incorporer prend en charge le [système de style](/help/get-started/authoring.md#component-styling) AEM.
 
-Utilisez la liste déroulante pour sélectionner les styles à appliquer au composant. Les sélections effectuées dans la boîte de dialogue de modification ont le même effet que celles sélectionnées dans la barre d’outils du composant.
+Utilisez la liste déroulante pour sélectionner les styles à appliquer au composant. Les sélections effectuées dans la boîte de dialogue de modification ou dans la barre d’outils du composant ont le même effet.
 
-Les styles doivent être configurés pour ce composant dans la variable [boîte de dialogue de conception](#design-dialog) pour que le menu déroulant soit disponible.
+Pour que le menu déroulant soit disponible, les styles doivent être configurés pour ce composant dans la [boîte de dialogue de conception](#design-dialog).
 
 ## Boîte de dialogue de conception {#design-dialog}
 
