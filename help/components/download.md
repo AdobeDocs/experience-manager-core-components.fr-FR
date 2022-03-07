@@ -1,29 +1,29 @@
 ---
 title: 'Composant de téléchargement '
-description: Le composant de téléchargement des composants principaux permet la création d’une option de téléchargement sur une page.
+description: Le composant Téléchargement des composants principaux permet la création d’une option de téléchargement sur une page.
 role: Architect, Developer, Admin, User
 exl-id: 48e7ade0-b849-4d1f-b836-51196e5ac507
 source-git-commit: 395a1669cf3e17f649c23852addc37316b923bfd
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '758'
-ht-degree: 87%
+ht-degree: 100%
 
 ---
 
 # Composant de téléchargement {#download-component}
 
-Le composant de téléchargement des composants principaux permet la création d’une option de téléchargement sur une page.
+Le composant Téléchargement des composants principaux permet la création d’une option de téléchargement sur une page.
 
 ## Utilisation {#usage}
 
-Le composant de téléchargement des composants principaux permet d’inclure une option de téléchargement et sa ressource associée dans une page.
+Le composant Téléchargement des composants principaux permet d’inclure une option de téléchargement et sa ressource associée dans une page.
 
 * Les propriétés de l’option de téléchargement peuvent être sélectionnées dans la [boîte de dialogue de configuration](#configure-dialog).
 * Les valeurs par défaut du composant de téléchargement peuvent être définies dans la [boîte de dialogue de conception](#design-dialog).
 
 ## Version et compatibilité {#version-and-compatibility}
 
-La version actuelle du composant de téléchargement est v2, qui a été introduite avec la version 2.18.0 des composants principaux en février 2022. Elle est décrite dans ce document.
+La version actuelle du composant Téléchargement est v2, qui a été introduite avec la version 2.18.0 des composants principaux en février 2022. Elle est décrite dans ce document.
 
 Le tableau ci-après présente en détail toutes les versions prises en charge du composant, les versions AEM avec lesquelles les versions du composant sont compatibles et les liens vers la documentation pour les versions précédentes.
 
@@ -79,11 +79,11 @@ La sélection d’une ressource de téléchargement est très similaire à la fo
 
 ![Onglet Styles de la boîte de dialogue de modification du composant Téléchargement](/help/assets/download-edit-styles.png)
 
-Le composant de téléchargement prend en charge l’AEM [Système de style.](/help/get-started/authoring.md#component-styling).
+Le composant Téléchargement prend en charge le [système de style](/help/get-started/authoring.md#component-styling) AEM.
 
-Utilisez la liste déroulante pour sélectionner les styles à appliquer au composant. Les sélections effectuées dans la boîte de dialogue de modification ont le même effet que celles sélectionnées dans la barre d’outils du composant.
+Utilisez la liste déroulante pour sélectionner les styles à appliquer au composant. Les sélections effectuées dans la boîte de dialogue de modification ou dans la barre d’outils du composant ont le même effet.
 
-Les styles doivent être configurés pour ce composant dans la variable [boîte de dialogue de conception](#design-dialog) pour que le menu déroulant soit disponible.
+Pour que le menu déroulant soit disponible, les styles doivent être configurés pour ce composant dans la [boîte de dialogue de conception](#design-dialog).
 
 ## Boîte de dialogue de conception {#design-dialog}
 
@@ -97,9 +97,9 @@ La boîte de dialogue de conception permet à l’auteur du modèle de définir 
    * La valeur par défaut n’est pas sélectionnée.
 * **Type de titre** : élément HTML utilisé pour le titre du composant de téléchargement.
    * Si aucune valeur n’est sélectionnée, la valeur par défaut est H3.
-* **Afficher la taille du fichier** : lorsque cette option est sélectionnée, la taille de fichier de la ressource est affichée dans le composant de téléchargement.
+* **Afficher la taille de fichier** : lorsque cette option est sélectionnée, la taille de fichier de la ressource est affichée dans le composant de téléchargement.
    * La valeur par défaut est sélectionnée.
-* **Afficher le format du fichier** : lorsque cette option est sélectionnée, le format de fichier de la ressource est affiché dans le composant de téléchargement.
+* **Afficher le format de fichier** : lorsque cette option est sélectionnée, le format de fichier de la ressource est affiché dans le composant de téléchargement.
    * La valeur par défaut est sélectionnée.
 * **Afficher le nom de fichier** : lorsque cette option est sélectionnée, le nom de fichier de la ressource est affiché dans le composant de téléchargement.
    * La valeur par défaut est sélectionnée.
