@@ -4,9 +4,9 @@ description: Le composant Visionneuse PDF permet l’affichage d’un document P
 role: Architect, Developer, Admin, User
 exl-id: deb635f5-2b73-4e7a-9838-3a941e39e898
 source-git-commit: 9767a3a10cb9a77f385edc0ac3fb00096c0087af
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '709'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -26,7 +26,7 @@ Le tableau ci-après présente en détail toutes les versions prises en charge d
 
 | Version du composant | AEM 6.4 | AEM 6.5 | AEM as a Cloud Service |
 |--- |--- |---|---|
-| v1 | Compatible avec<br>[version 2.17.4](/help/versions.md) et précédent | Compatible | Compatible |
+|  v1 | Compatible avec la <br>[version 2.17.4](/help/versions.md) et versions antérieures | Compatible | Compatible |
 
 Pour plus d’informations sur les versions et les publications des composants principaux, voir le document sur les [versions des composants principaux](/help/versions.md).
 
