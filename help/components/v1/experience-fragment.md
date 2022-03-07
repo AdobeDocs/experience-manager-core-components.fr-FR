@@ -1,35 +1,35 @@
 ---
-title: Composant de fragment d’expérience (v1)
-description: Le composant de fragment d’expérience permet à l’auteur de contenu d’ajouter une variation de fragment d’expérience à une page.
+title: Composant Fragment d’expérience (v1)
+description: Le composant Fragment d’expérience permet à l’auteur de contenu d’ajouter une variation de fragment d’expérience à une page.
 role: Architect, Developer, Admin, User
 source-git-commit: 395a1669cf3e17f649c23852addc37316b923bfd
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '780'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
 
 # Composant de fragment d’expérience  (v1) {#experience-fragment-component}
 
-Le composant de fragment d’expérience de composant principal permet à l’auteur du contenu de placer une variation de fragment d’expérience sur une page tout en prenant en charge une structure de site localisée.
+Le composant Fragment d’expérience des composants principaux permet à l’auteur du contenu de placer une variation de fragment d’expérience sur une page tout en prenant en charge une structure de site localisée.
 
 ## Utilisation {#usage}
 
-Le composant de fragment d’expérience des composants principaux permet à l’auteur du contenu d’effectuer une sélection parmi les variations de fragments d’expérience existantes et d’en placer une dans la page de contenu. Le composant de fragment d’expérience prend également en charge une structure de site localisée.
+Le composant Fragment d’expérience des composants principaux permet à l’auteur du contenu d’effectuer une sélection parmi les variations de fragments d’expérience existantes et d’en placer une dans la page de contenu. Le composant de fragment d’expérience prend également en charge une structure de site localisée.
 
 * Les propriétés du composant peuvent être définies dans la [boîte de dialogue de configuration](#configure-dialog).
 * Les valeurs par défaut du composant lors de son ajout à une page peuvent être définies dans la [boîte de dialogue de conception](#design-dialog).
 
 ## Version et compatibilité {#version-and-compatibility}
 
-Ce document décrit la version v1 du composant de fragment d’expérience, introduite avec la version 2.6.0 des composants principaux en septembre 2019.
+Ce document décrit la version v1 du composant Fragment d’expérience, qui a été introduite avec la version 2.6.0 des composants principaux en septembre 2019.
 
 >[!CAUTION]
 >
->Ce document décrit la version v1 du composant de fragment d’expérience.
+>Ce document décrit la version v1 du composant Fragment d’expérience.
 >
->Pour plus d’informations sur la version actuelle du composant de fragment d’expérience, voir [Composant de fragment d’expérience](/help/components/experience-fragment.md) document.
+>Pour plus d’informations sur la version actuelle du composant Fragment d’expérience, consultez le document [Composant Fragment d’expérience](/help/components/experience-fragment.md).
 
 ## Prise en charge de la structure de site localisée {#localized-site-structure}
 
