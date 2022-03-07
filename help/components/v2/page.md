@@ -1,18 +1,18 @@
 ---
 title: Composant Page (v2)
-description: Le composant de page est un composant de page extensible, conçu pour fonctionner avec l’éditeur de modèles et autoriser l’assemblage de composants d’en-tête/de pied de page et de structure à l’aide de l’éditeur de modèles.
+description: Le composant Page est un composant de page extensible, conçu pour fonctionner avec l’éditeur de modèles et autoriser l’assemblage de composants d’en-tête/de pied de page et de structure à l’aide de l’éditeur de modèles.
 role: Architect, Developer, Admin, User
 source-git-commit: e5251010ca41025eb2bb56b66164ecf4cc0145c8
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '645'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
 
 # Composant de page  (v2) {#page-component}
 
-Le composant de page est un composant de page extensible conçu pour fonctionner avec l’[éditeur de modèles](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/features/templates.html?lang=fr) et permet l’assemblage de composants d’en-tête/de pied de page et de structure à l’aide de l’éditeur de modèles.
+Le composant Page est un composant de page extensible conçu pour fonctionner avec l’[éditeur de modèles](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/features/templates.html?lang=fr) et permet l’assemblage de composants d’en-tête/de pied de page et de structure à l’aide de l’éditeur de modèles.
 
 ## Utilisation {#usage}
 
@@ -22,7 +22,7 @@ Grâce à la [boîte de dialogue de conception](#design-dialog), les bibliothèq
 
 ## Version et compatibilité {#version-and-compatibility}
 
-Ce document décrit la version v2 du composant Page, introduite avec la version 2.0.0 des composants principaux en janvier 2018.
+Ce document décrit la version v2 du composant Page, introduite à l’origine avec la version 2.0.0 des composants principaux en janvier 2018.
 
 >[!CAUTION]
 >
