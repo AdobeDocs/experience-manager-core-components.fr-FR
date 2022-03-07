@@ -1,11 +1,11 @@
 ---
-title: Composant Incorporer (v1)
+title: Composant Incorporer (v1)
 description: Le composant Incorporer permet d’incorporer du contenu externe dans une page de contenu AEM.
 role: Architect, Developer, Admin, User
 source-git-commit: e5251010ca41025eb2bb56b66164ecf4cc0145c8
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1298'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -23,13 +23,13 @@ Le composant Incorporer des composants principaux permet à l’auteur de conten
 
 ## Version et compatibilité {#version-and-compatibility}
 
-Ce document décrit la version v1 du composant Incorporer, introduite avec la version 2.7.0 des composants principaux en septembre 2019.
+Ce document décrit la version v1 du composant Incorporer, qui a été introduite avec la version 2.7.0 des composants principaux en septembre 2019.
 
 >[!CAUTION]
 >
->Ce document décrit la version v1 du composant Incorporer.
+>Ce document décrit la version v1 du composant Incorporer.
 >
->Pour plus d’informations sur la version actuelle du composant Incorporer, voir la section [Composant Incorporer](/help/components/embed.md) document.
+>Pour plus d’informations sur la version actuelle du composant Incorporer, consultez le document [Composant Incorporer](/help/components/embed.md).
 
 ## Exemple de sortie de composant {#sample-component-output}
 
