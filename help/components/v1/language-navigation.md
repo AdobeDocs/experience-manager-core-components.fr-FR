@@ -1,18 +1,18 @@
 ---
 title: Composant de navigation par langue (v1)
-description: Le composant de navigation par langue fournit une navigation par langue/pays pour un site, de sorte que les visiteurs puissent accéder à la même page dans un autre paramètre régional.
+description: Le composant Navigation par langue fournit une navigation par langue/pays pour un site, de sorte que les visiteurs puissent accéder à la même page dans un autre paramètre régional.
 role: Architect, Developer, Admin, User
 source-git-commit: e5251010ca41025eb2bb56b66164ecf4cc0145c8
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '810'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
 
 # Composant de navigation par langue  (v1) {#language-navigation-component}
 
-Le composant de navigation par langue fournit une navigation par langue/pays pour un site, de sorte que les visiteurs puissent accéder à la même page dans un autre paramètre régional.
+Le composant Navigation par langue fournit une navigation par langue/pays pour un site, de sorte que les visiteurs puissent accéder à la même page dans un autre paramètre régional.
 
 ## Utilisation {#usage}
 
@@ -25,13 +25,13 @@ La [boîte de dialogue de modification](#edit-dialog) permet de définir la raci
 
 ## Version et compatibilité {#version-and-compatibility}
 
-Ce document décrit la version v1 du composant Navigation par langue, introduite avec la version 2.0.0 des composants principaux en janvier 2018.
+Ce document décrit la version v1 du composant Navigation par langue, qui a été introduite avec la version 2.0.0 des composants principaux en janvier 2018.
 
 >[!CAUTION]
 >
->Ce document décrit la version v1 du composant Navigation par langue.
+>Ce document décrit la version v1 du composant Navigation par langue.
 >
->Pour plus d’informations sur la version actuelle du composant Navigation par langue, voir [Composant Navigation par langue](/help/components/language-navigation.md) document.
+>Pour plus d’informations sur la version actuelle du composant Navigation par langue, consultez le document [Composant Navigation par langue](/help/components/language-navigation.md).
 
 ## Exemple de sortie de composant {#sample-component-output}
 
