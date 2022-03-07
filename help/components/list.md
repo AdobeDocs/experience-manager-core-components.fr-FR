@@ -1,18 +1,18 @@
 ---
 title: Composant Liste
-description: Le composant principal Liste permet de créer facilement des listes dynamiques et statiques.
+description: Le composant Liste des composants principaux permet de créer facilement des listes dynamiques et statiques.
 role: Architect, Developer, Admin, User
 exl-id: 662ab508-0253-4d28-b95c-8c4cde8173bd
 source-git-commit: 395a1669cf3e17f649c23852addc37316b923bfd
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1151'
-ht-degree: 88%
+ht-degree: 100%
 
 ---
 
 # Composant Liste {#list-component}
 
-Le composant principal Liste permet de créer facilement des listes dynamiques et statiques.
+Le composant Liste des composants principaux permet de créer facilement des listes dynamiques et statiques.
 
 ## Utilisation {#usage}
 
@@ -20,7 +20,7 @@ Le composant Liste peut servir à créer, par exemple, une liste dynamique de pa
 
 ## Version et compatibilité {#version-and-compatibility}
 
-La version actuelle du composant Liste est v3, qui a été introduite avec la version 2.18.0 des composants principaux en février 2022. Elle est décrite dans ce document.
+La version actuelle du composant Liste est v3, qui a été introduite avec la version 2.18.0 des composants principaux en février 2022. Elle est décrite dans ce document.
 
 Le tableau ci-après présente en détail toutes les versions prises en charge du composant, les versions AEM avec lesquelles les versions du composant sont compatibles et les liens vers la documentation pour les versions précédentes.
 
@@ -156,18 +156,18 @@ Nombre maximal d’éléments affichés dans la liste.
 
 ![Paramètres d’élément](/help/assets/list-edit-items.png)
 
-* **Éléments de lien** - Lier des éléments à la page correspondante
-* **Afficher la description** - Afficher les descriptions de l’élément de lien
-* **Afficher la date** - Afficher la date de modification de l’élément de lien
-* **Afficher comme teaser** - Lorsque cette option est cochée, l’élément s’affiche sous forme de teaser.
+* **Lier des éléments** : liez des éléments à la page correspondante.
+* **Afficher la description** : affichez les descriptions de l’élément de lien.
+* **Afficher la date** : permet d’afficher la date de modification de l’élément de lien.
+* **Afficher en tant que teaser** : lorsque cette option est cochée, l’élément est affiché comme un teaser.
 
 ### Onglet Styles {#styles-tab-edit}
 
-Le composant Liste prend en charge l’AEM [Système de style.](/help/get-started/authoring.md#component-styling).
+Le composant Liste prend en charge le [système de style](/help/get-started/authoring.md#component-styling) AEM.
 
-Utilisez la liste déroulante pour sélectionner les styles à appliquer au composant. Les sélections effectuées dans la boîte de dialogue de modification ont le même effet que celles sélectionnées dans la barre d’outils du composant.
+Utilisez la liste déroulante pour sélectionner les styles à appliquer au composant. Les sélections effectuées dans la boîte de dialogue de modification ou dans la barre d’outils du composant ont le même effet.
 
-Les styles doivent être configurés pour ce composant dans la variable [boîte de dialogue de conception](#design-dialog) pour que le menu déroulant soit disponible.
+Pour que le menu déroulant soit disponible, les styles doivent être configurés pour ce composant dans la [boîte de dialogue de conception](#design-dialog).
 
 ![Onglet Styles de la boîte de dialogue de modification du composant Liste](/help/assets/list-edit-styles.png)
 
