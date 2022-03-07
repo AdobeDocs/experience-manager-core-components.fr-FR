@@ -1,35 +1,35 @@
 ---
-title: Composant de téléchargement (v1)
-description: Le composant de téléchargement des composants principaux permet la création d’une option de téléchargement sur une page.
+title: Composant Téléchargement (v1)
+description: Le composant Téléchargement des composants principaux permet la création d’une option de téléchargement sur une page.
 role: Architect, Developer, Admin, User
 source-git-commit: f8aa86d58ba71ede3c3cd867c45aafff06923325
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '644'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
 
 # Composant de téléchargement  (v1) {#download-component}
 
-Le composant de téléchargement des composants principaux permet la création d’une option de téléchargement sur une page.
+Le composant Téléchargement des composants principaux permet la création d’une option de téléchargement sur une page.
 
 ## Utilisation {#usage}
 
-Le composant de téléchargement des composants principaux permet d’inclure une option de téléchargement et sa ressource associée dans une page.
+Le composant Téléchargement des composants principaux permet d’inclure une option de téléchargement et sa ressource associée dans une page.
 
 * Les propriétés de l’option de téléchargement peuvent être sélectionnées dans la [boîte de dialogue de configuration](#configure-dialog).
 * Les valeurs par défaut du composant de téléchargement peuvent être définies dans la [boîte de dialogue de conception](#design-dialog).
 
 ## Version et compatibilité {#version-and-compatibility}
 
-Ce document décrit la version v1 du composant de téléchargement, introduite avec la version 2.5.0 des composants principaux en juin 2019.
+Ce document décrit la version v1 du composant Téléchargement, qui a été introduite avec la version 2.5.0 des composants principaux en juin 2019.
 
 >[!CAUTION]
 >
->Ce document décrit la version v1 du composant de téléchargement.
+>Ce document décrit la version v1 du composant Téléchargement.
 >
->Pour plus d’informations sur la version actuelle du composant de téléchargement, voir [Composant de téléchargement](/help/components/download.md) document.
+>Pour plus d’informations sur la version actuelle du composant Téléchargement, consultez le document [Composant Téléchargement](/help/components/download.md).
 
 ## Exemple de sortie de composant {#sample-component-output}
 
@@ -84,9 +84,9 @@ La boîte de dialogue de conception permet à l’auteur du modèle de définir 
    * La valeur par défaut n’est pas sélectionnée.
 * **Type de titre** : élément HTML utilisé pour le titre du composant de téléchargement.
    * Si aucune valeur n’est sélectionnée, la valeur par défaut est H3.
-* **Afficher la taille du fichier** : lorsque cette option est sélectionnée, la taille de fichier de la ressource est affichée dans le composant de téléchargement.
+* **Afficher la taille de fichier** : lorsque cette option est sélectionnée, la taille de fichier de la ressource est affichée dans le composant de téléchargement.
    * La valeur par défaut est sélectionnée.
-* **Afficher le format du fichier** : lorsque cette option est sélectionnée, le format de fichier de la ressource est affiché dans le composant de téléchargement.
+* **Afficher le format de fichier** : lorsque cette option est sélectionnée, le format de fichier de la ressource est affiché dans le composant de téléchargement.
    * La valeur par défaut est sélectionnée.
 * **Afficher le nom de fichier** : lorsque cette option est sélectionnée, le nom de fichier de la ressource est affiché dans le composant de téléchargement.
    * La valeur par défaut est sélectionnée.
