@@ -1,18 +1,18 @@
 ---
 title: Composant de chemin de navigation
-description: Le composant de chemin de navigation des composants principaux est un composant de navigation qui crée un chemin de navigation des liens en fonction de l’emplacement de la page dans la hiérarchie du contenu.
+description: Le composant Chemin de navigation des composants principaux est un composant de navigation qui crée un chemin de navigation des liens en fonction de l’emplacement de la page dans la hiérarchie du contenu.
 role: Architect, Developer, Admin, User
 exl-id: 19d65b9d-a407-4f50-9c55-8de0f12222ed
 source-git-commit: 395a1669cf3e17f649c23852addc37316b923bfd
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '800'
-ht-degree: 88%
+ht-degree: 100%
 
 ---
 
 # Composant de chemin de navigation{#breadcrumb-component}
 
-Le composant de chemin de navigation des composants principaux est un composant de navigation qui crée un chemin de navigation des liens en fonction de l’emplacement de la page dans la hiérarchie du contenu.
+Le composant Chemin de navigation des composants principaux est un composant de navigation qui crée un chemin de navigation des liens en fonction de l’emplacement de la page dans la hiérarchie du contenu.
 
 ## Utilisation {#usage}
 
@@ -22,7 +22,7 @@ Les options disponibles, telles que le niveau de navigation par défaut et la po
 
 ## Version et compatibilité {#version-and-compatibility}
 
-La version actuelle du composant de chemin de navigation est v3, qui a été introduite avec la version 2.18.0 des composants principaux en février 2022. Elle est décrite dans ce document.
+La version actuelle du composant Chemin de navigation est v3, qui a été introduite avec la version 2.18.0 des composants principaux en février 2022. Elle est décrite dans ce document.
 
 Le tableau ci-après présente en détail toutes les versions prises en charge du composant, les versions AEM avec lesquelles les versions du composant sont compatibles et les liens vers la documentation pour les versions précédentes.
 
@@ -74,11 +74,11 @@ La boîte de dialogue de modification permet à l’auteur de contenu de supprim
 
 ![Onglet Styles de la boîte de dialogue de modification du composant Liste de chemin de navigation](/help/assets/breadcrumb-edit-styles.png)
 
-Le composant de chemin de navigation prend en charge le [système de style AEM.](/help/get-started/authoring.md#component-styling).
+Le composant Chemin de navigation prend en charge le [système de style AEM](/help/get-started/authoring.md#component-styling).
 
-Utilisez la liste déroulante pour sélectionner les styles à appliquer au composant. Les sélections effectuées dans la boîte de dialogue de modification ont le même effet que celles sélectionnées dans la barre d’outils du composant.
+Utilisez la liste déroulante pour sélectionner les styles à appliquer au composant. Les sélections effectuées dans la boîte de dialogue de modification ou dans la barre d’outils du composant ont le même effet.
 
-Les styles doivent être configurés pour ce composant dans la variable [boîte de dialogue de conception](#design-dialog) pour que le menu déroulant soit disponible.
+Pour que le menu déroulant soit disponible, les styles doivent être configurés pour ce composant dans la [boîte de dialogue de conception](#design-dialog).
 
 ## Boîte de dialogue de conception {#design-dialog}
 
