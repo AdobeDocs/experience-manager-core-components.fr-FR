@@ -56,7 +56,7 @@ ht-degree: 100%
    + Composants v1 {#v1-components}
       + [Chemin de navigation (v1)](components/v1/breadcrumb-v1.md)
       + [Bouton (v1)](components/v1/button.md)
-      + [Liste des fragments de contenu (v1)](components/v1/content-fragment-list.md)
+      + [Liste de fragments de contenu (v1)](components/v1/content-fragment-list.md)
       + [Téléchargement (v1)](components/v1/download.md)
       + [Incorporer (v1)](components/v1/embed.md)
       + [Fragment d’expérience (v1)](components/v1/experience-fragment.md)
