@@ -3,10 +3,10 @@ title: Présentation des composants principaux
 description: 'Les composants principaux fournissent des composants de base solides et extensibles, reposant sur les dernières technologies et les bonnes pratiques. '
 role: Architect, Developer, Admin, User
 exl-id: d294db22-4cb0-48a4-9366-03fda5b8bb8e
-source-git-commit: 3407b5d086dca4ba18eeaf2e57b648923a4557b4
+source-git-commit: e92a4b594ed7528d7383afd68853df982bd991ec
 workflow-type: tm+mt
-source-wordcount: '920'
-ht-degree: 100%
+source-wordcount: '925'
+ht-degree: 97%
 
 ---
 
@@ -34,14 +34,14 @@ Les composants principaux sont un ensemble de composants WCM (Web Content Manage
 | Prêts pour la production | Les composants principaux sont 28 composants robustes, bien testés, largement utilisés et performants. |
 | Prêts pour le cloud | Ils fonctionnent aussi bien sur [AEM as a Cloud Service](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/landing/home.html?lang=fr) que sur [Adobe Managed Services](https://github.com/adobe/aem-project-archetype/tree/master/src/main/archetype/dispatcher.ams) ou On-Premise. |
 | Polyvalents | Les composants représentent des concepts génériques avec lesquels les auteurs peuvent assembler pratiquement n’importe quelle disposition. |
-| Configurables | Des [stratégies de contenu](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/components-templates/templates.html?lang=fr#content-policies) au niveau du modèle définissent les fonctionnalités que les auteurs de pages peuvent ou non utiliser. |
+| Configurables | Des [stratégies de contenu](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/implementing/developing/full-stack/components-templates/templates.html#content-policies) au niveau du modèle définissent les fonctionnalités que les auteurs de pages peuvent ou non utiliser. |
 | Permettent un suivi | L’[intégration de la couche de données client Adobe](/help/developing/data-layer/overview.md) permet le suivi de tous les aspects de l’expérience du visiteur. |
 | Accessibles | Ils sont conformes à la [norme WCAG 2.1](https://www.w3.org/TR/WCAG21/), fournissent des étiquettes ARIA et prennent en charge la navigation au clavier ([problèmes connus](https://github.com/adobe/aem-core-wcm-components/issues?utf8=✓&amp;q=is%3Aissue+is%3Aopen+accessibility+in%3Atitle)). |
 | Optimisation du référencement | La sortie HTML est sémantique et fournit des annotations de microdonnées [schema.org](https://schema.org). |
 | Prêts pour WebApp | La [sortie JSON rationalisée](https://experienceleague.adobe.com/docs/experience-manager-learn/foundation/development/develop-sling-model-exporter.html?lang=fr) permet le rendu côté client, avec la possibilité d’une [modification contextuelle](https://experienceleague.adobe.com/docs/experience-manager-learn/sites/spa-editor/spa-editor-framework-feature-video-use.html?lang=fr). |
 | Prise en charge d’AMP | Les composants intègrent la [prise en charge de la norme AMP](/help/developing/amp.md), ce qui accélère vos expériences mobiles. |
 | Kit de conception | Un [kit d’interface utilisateur pour Adobe XD](https://experienceleague.adobe.com/docs/experience-manager-learn/assets/AEM-CoreComponents-UI-Kit.xd) permet aux concepteurs de créer des maquettes qu’ils peuvent ensuite [mettre en forme selon leurs besoins](https://github.com/adobe/aem-guides-wknd/releases/download/aem-guides-wknd-0.0.2/AEM_UI-kit-WKND.xd). |
-| Possibilité d’appliquer des thèmes | Les composants implémentent le [système de style](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/components-templates/style-system.html?lang=fr) et le balisage suit les [conventions CSS BEM](http://getbem.com/). |
+| Possibilité d’appliquer des thèmes | Les composants implémentent le [système de style](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/sites/authoring/features/style-system.html) et le balisage suit les [conventions CSS BEM](http://getbem.com/). |
 | Personnalisables | Plusieurs modèles permettent une [personnalisation facile](developing/customizing.md), depuis l’ajustement du code HTML jusqu’à la réutilisation des fonctionnalités avancées. |
 | Contrôle de version | La [politique de contrôle de version](https://github.com/adobe/aem-core-wcm-components/wiki/Versioning-policies) garantit que les composants principaux ne rendent pas votre site inopérable lorsqu’ils améliorent des éléments susceptibles de vous affecter. |
 | Localisables | La résolution intelligente des références permet à certains composants de rechercher le contenu localisé correspondant et d’en [effectuer automatiquement le rendu](get-started/localization.md). |
