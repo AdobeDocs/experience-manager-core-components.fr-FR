@@ -4,9 +4,9 @@ description: Les composants principaux sont publiés sous forme de versions qui 
 role: Architect, Developer, Admin, User
 exl-id: 7d4dbe46-4013-4217-b815-cdb1462072c6
 source-git-commit: 3407b5d086dca4ba18eeaf2e57b648923a4557b4
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2425'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -26,8 +26,8 @@ Le tableau suivant, dont le contenu est [disponible sur GitHub avec les détails
 
 | Mise à jour | Description | AEM 6.4 | AEM 6.5 | AEM as a Cloud Service | Java | Date de publication |
 |---|---|---|---|---|---|---|
-| [2.18.8](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.18.8) | Cette version corrige un problème pour AEMaaCS. | - | 6.5.10.0+ * | En continu | 8, 11 | 17 mars 2022 |
-| [2.18.6](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.18.6) | Il s’agit d’une version de correctif. | - | 6.5.10.0+ * | En continu | 8, 11 | 3 mars 2022 |
+| [2.18.8](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.18.8) | Cette version corrige un problème pour AEMaaCS. | - | 6.5.10.0+ * | En continu | 8, 11 | 17 mars 2022 |
+| [2.18.6](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.18.6) | Il s’agit d’une version de correctif. | - | 6.5.10.0+ * | En continu | 8, 11 | 3 mars 2022 |
 | [2.18.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.18.0) | Cette version majeure des composants principaux contient les améliorations suivantes : introduction d’un nouveau gestionnaire de liens dans les nouvelles versions de plusieurs composants, nombreuses améliorations en matière dʼaccessibilité et correctifs de bugs. | - | 6.5.10.0+ * | En continu | 8, 11 | 16 février 2022 |
 | [2.17.14](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.17.12) | Il s’agit d’une version de correctif. | 6.4.8.4+ * | 6.5.6.0+ * | En continu | 8, 11 | 13 décembre 2021 |
 | [2.17.12](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.17.12) | Il s’agit d’une version de correctif qui corrige une régression introduite dans la version précédente. | 6.4.8.4+ * | 6.5.6.0+ * | En continu | 8, 11 | 1 octobre 2021 |
