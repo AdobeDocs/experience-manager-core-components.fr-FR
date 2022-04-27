@@ -4,10 +4,10 @@ description: Documentation du plug-in local Maven Build Analyzer
 feature: Core Components, AEM Project Archetype
 role: Architect, Developer, Admin
 exl-id: de26b310-a294-42d6-a0db-91f6036a328c
-source-git-commit: db33866f0a9e87e34eaaa061d308438c6f5bebb4
-workflow-type: ht
-source-wordcount: '605'
-ht-degree: 100%
+source-git-commit: 79eb9cc18a66c09deeef1477c4d26d8616ba55de
+workflow-type: tm+mt
+source-wordcount: '643'
+ht-degree: 94%
 
 ---
 
@@ -38,6 +38,7 @@ Vous trouverez ci-dessous un tableau décrivant les analyseurs exécutés au cou
 | `configuration-api` | Valide les configurations OSGi importantes. <p> </p> `Configuration org.apache.felix.webconsole.internal.servlet.OsgiManager: Configuration is not allowed (com.mysite:mysite.all:1.0.0-SNAPSHOT\|com.mysite:mysite.ui.config:1.0.0-SNAPSHOT)` | Oui | Oui |
 | `region-deprecated-api` | Vérifie si une [API obsolète](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/release-notes/deprecated-apis.html?lang=fr) est utilisée. <p> </p>`[WARNING] com.mysite:mysite.core:1.0.0-SNAPSHOT: Usage of deprecated package found : org.apache.sling.settings : Avoid these features at runtime: run modes, file system access (com.mysite:mysite.all:1.0.0-SNAPSHOT)` | Oui | Oui |
 | `artifact-rules` | Valide les dépendances comme les lots et les packages de contenu pour éviter les problèmes connus dans les artefacts.<p> </p>`[WARNING] [artifact-rules] com.adobe.acs:acs-aem-commons-bundle:5.0.4: Use at least version 5.0.10 (com.mysite:mysite.all:1.0.0-SNAPSHOT)` | Oui | Oui |
+| `content-package-validation` | Exécute les validateurs filevault. Par défaut, jackrabbit-docviewparser est activé, ce qui recherche une syntaxe de contenu bien formée du xml dans les modules qui seront installés pendant le déploiement.<p> </p>`[main] WARN org.apache.sling.feature.analyser.task.impl.CheckContentPackages - ValidationViolation: "jackrabbit-docviewparser: Invalid XML found: The reference to entity "se" must end with the ';' delimiter.", filePath=jcr_root/apps/somename/configs/com.adobe.test.Invalid.xml, nodePath=/apps/somename/configs/com.adobe.test.Invalid`<p> </p>Pour résoudre ce problème, vérifiez les problèmes xml dans le fichier nommé par l’analyseur. | Oui | Oui |
 
 ## Problèmes connus
 
