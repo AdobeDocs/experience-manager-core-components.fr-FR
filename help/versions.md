@@ -4,9 +4,9 @@ description: Les composants principaux sont publiés sous forme de versions qui 
 role: Architect, Developer, Admin, User
 exl-id: 7d4dbe46-4013-4217-b815-cdb1462072c6
 source-git-commit: fce9b5b2693acf96724c4c6e9872012fda7d36d9
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2462'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -26,7 +26,7 @@ Le tableau suivant, dont le contenu est [disponible sur GitHub avec les détails
 
 | Mise à jour | Description | AEM 6.4 | AEM 6.5 | AEM as a Cloud Service | Java | Date de publication |
 |---|---|---|---|---|---|---|
-| [2.19.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.19.0) | Cette version ajoute une nouvelle version au [Composant de recherche](/help/components/quick-search.md) et les fonctionnalités de la fonction [Composant de bouton](/help/components/button.md) ainsi que de nombreuses améliorations de l’accessibilité et correctifs de bogues. | - | 6.5.10.0+ * | En continu | 8, 11 | 17 mars 2022 |
+| [2.19.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.19.0) | Cette version ajoute une nouvelle version au [Composant de recherche](/help/components/quick-search.md) et des fonctionnalités à la fonction [Composant de bouton](/help/components/button.md) ainsi que de nombreuses améliorations de l’accessibilité et correctifs de bogues. | - | 6.5.10.0+ * | En continu | 8, 11 | 17 mars 2022 |
 | [2.18.8](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.18.8) | Cette version corrige un problème pour AEMaaCS. | - | 6.5.10.0+ * | En continu | 8, 11 | 17 mars 2022 |
 | [2.18.6](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.18.6) | Il s’agit d’une version de correctif. | - | 6.5.10.0+ * | En continu | 8, 11 | 3 mars 2022 |
 | [2.18.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.18.0) | Cette version majeure des composants principaux contient les améliorations suivantes : introduction d’un nouveau gestionnaire de liens dans les nouvelles versions de plusieurs composants, nombreuses améliorations en matière dʼaccessibilité et correctifs de bugs. | - | 6.5.10.0+ * | En continu | 8, 11 | 16 février 2022 |
