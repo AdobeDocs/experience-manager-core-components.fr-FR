@@ -3,8 +3,8 @@ title: Composant textuel
 description: Le composant Texte est un composant d’édition et de composition de texte enrichi qui propose une édition statique.
 role: Architect, Developer, Admin, User
 exl-id: bcea202a-9ecb-4dcd-99b6-0848cbb9d500
-source-git-commit: 9767a3a10cb9a77f385edc0ac3fb00096c0087af
-workflow-type: ht
+source-git-commit: c041439e31a7da62739b6d5130c52dea36662a0c
+workflow-type: tm+mt
 source-wordcount: '2209'
 ht-degree: 100%
 
@@ -28,7 +28,7 @@ Le tableau ci-après présente en détail toutes les versions prises en charge d
 
 | Version du composant | AEM 6.4 | AEM 6.5 | AEM as a Cloud Service |
 |---|---|---|---|
-| v2 | Compatible avec la <br>[version 2.17.4](/help/versions.md) et versions antérieures | Compatible | Compatible |
+| v2 | Compatible avec la <br>[version 2.17.4](/help/versions.md) et versions antérieures. | Compatible | Compatible |
 | [v1](v1/text-v1.md) | Compatible | Compatible | - |
 
 Pour plus d’informations sur les versions et les publications des composants principaux, voir le document sur les [versions des composants principaux](/help/versions.md).
@@ -51,7 +51,7 @@ Le reste de cet article illustre la configuration standard du composant principa
 
 >[!NOTE]
 >
->Seules les options activées par [les configurations de l’interface utilisateur de l’éditeur de texte enrichi](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/configuring-and-extending/configure-rich-text-editor-plug-ins.html?lang=fr) sont disponibles dans le composant Texte.
+>Seules les options activées par [les configurations de l’interface utilisateur de l’éditeur de texte enrichi](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/configuring-and-extending/configure-rich-text-editor-plug-ins.html) sont disponibles dans le composant Texte.
 
 ## Boîte de dialogue de modification {#edit-dialog}
 
@@ -226,7 +226,7 @@ Uniquement actif si le texte ou la position sélectionnés du curseur est déjà
 
 ### Retrait
 
-![Icône Retrait](/help/assets/text-outdent.png)
+![Icône Retrait](/help/assets/text-indent.png)
 
 Utilisé pour augmenter le niveau de mise en retrait du texte ou du texte sélectionnés après le curseur.
 
@@ -258,7 +258,7 @@ Utilisé pour insérer un tableau dans le texte. Cette option permet d’ouvrir 
 
 Permet de vérifier l’orthographe du contenu du texte. Les fautes de frappe possibles sont soulignées avec des lignes rouges rompues.
 
-Vous trouverez plus d’informations sur la vérification orthographique et la personnalisation des dictionnaires orthographiques dans le document [Configuration des modules de l’éditeur de texte enrichi](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/configuring-and-extending/configure-rich-text-editor-plug-ins.html?lang=fr).
+Vous trouverez plus d’informations sur la vérification orthographique et la personnalisation des dictionnaires orthographiques dans le document [Configuration des modules de l’éditeur de texte enrichi](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/configuring-and-extending/configure-rich-text-editor-plug-ins.html).
 
 ### Caractères spéciaux {#special-characters}
 
