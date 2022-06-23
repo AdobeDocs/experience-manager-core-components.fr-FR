@@ -3,9 +3,9 @@ title: Présentation des composants principaux
 description: 'Obtenez des solutions aux problèmes grâce aux composants principaux et permettez à d’autres personnes de créer des éléments dans AEM. '
 role: Architect, Developer, Admin, User
 exl-id: d294db22-4cb0-48a4-9366-03fda5b8bb8e
-source-git-commit: 72f774c7e4bbcf0e2dfefb6f8294dd729eb0ea1b
-workflow-type: ht
-source-wordcount: '924'
+source-git-commit: c572a2f5ab4e975e0ef467ab071fd25b373be18b
+workflow-type: tm+mt
+source-wordcount: '927'
 ht-degree: 100%
 
 ---
@@ -31,7 +31,7 @@ Les composants principaux sont un ensemble de composants WCM (Web Content Manage
 
 |  |  |
 |---|---|
-| Prêts pour la production | Les composants principaux sont 28 composants robustes, bien testés, largement utilisés et performants. |
+| Prêts pour la production | Les composants principaux sont 30 composants robustes, bien testés, largement utilisés et performants. |
 | Prêts pour le cloud | Ils fonctionnent aussi bien sur [AEM as a Cloud Service](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/landing/home.html?lang=fr) que sur [Adobe Managed Services](https://github.com/adobe/aem-project-archetype/tree/master/src/main/archetype/dispatcher.ams) ou On-Premise. |
 | Polyvalents | Les composants représentent des concepts génériques avec lesquels les auteurs peuvent assembler pratiquement n’importe quelle disposition. |
 | Configurables | Des [stratégies de contenu](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/implementing/developing/full-stack/components-templates/templates.html?lang=fr#content-policies) au niveau du modèle définissent les fonctionnalités que les auteurs de pages peuvent ou non utiliser. |
@@ -58,6 +58,7 @@ La version actuelle des composants principaux comporte les composants ci-après.
 * [Navigation par langue](components/language-navigation.md)
 * [Chemin de navigation](components/breadcrumb.md)
 * [Recherche rapide](components/quick-search.md)
+* [Table des matières](components/tableofcontents.md)
 
 ### Composants de création de page {#page-authoring-components}
 
@@ -106,7 +107,7 @@ La version actuelle des composants principaux comporte les composants ci-après.
 
 | Version des composants principaux | AEM as a Cloud Service | Niveau de correctif dʼAEM 6.5 | Version de Java SE | Version de Maven |
 |---------|---------|---------|---------|---------|
-| [2.19.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.19.0) | En continu | 6.5.10.0+ * | 8, 11 | 3.3.9+ |
+| [2.20.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.20.0) | En continu | 6.5.10.0+ * | 8, 11 | 3.3.9+ |
 
 >[!NOTE]
 >
