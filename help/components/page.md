@@ -3,9 +3,9 @@ title: Composant de page
 description: Le composant Page est un composant de page extensible, conçu pour fonctionner avec l’éditeur de modèles et autoriser l’assemblage de composants d’en-tête/de pied de page et de structure à l’aide de l’éditeur de modèles.
 role: Architect, Developer, Admin, User
 exl-id: 2503e067-abed-427d-8a54-8b79e3451487
-source-git-commit: dbc1ba9ae0f9caa3bc52a7a5e08899c457813003
-workflow-type: ht
-source-wordcount: '715'
+source-git-commit: 16930ccaa281f9d9c4ddbb890d4222e128557580
+workflow-type: tm+mt
+source-wordcount: '716'
 ht-degree: 100%
 
 ---
@@ -30,7 +30,7 @@ Le tableau ci-après présente en détail toutes les versions prises en charge d
 |---|---|---|---|
 | v3 | - | Compatible | Compatible |
 | [v2](v2/page.md) | Compatible | Compatible | Compatible |
-| [v1](v1/page-v1.md) | Compatible | Compatible | - |
+| [v1](v1/page-v1.md) | Compatible | Compatible | Compatible |
 
 Pour plus d’informations sur les versions et les publications des composants principaux, voir le document sur les [versions des composants principaux](/help/versions.md).
 

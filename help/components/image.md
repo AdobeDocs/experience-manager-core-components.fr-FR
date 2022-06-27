@@ -3,10 +3,10 @@ title: Composant d’image
 description: Le composant Image des composants principaux est un composant d’image adaptatif qui permet d’effectuer des modifications statiques.
 role: Architect, Developer, Admin, User
 exl-id: c5e57f4b-139f-40e7-8d79-be9a74360b63
-source-git-commit: 1a02aea6cda2bb1f70ab97d7a439e2c8e64add52
-workflow-type: ht
-source-wordcount: '1799'
-ht-degree: 100%
+source-git-commit: 2af48e397e47916760656cde8b0295b2f75cb0a6
+workflow-type: tm+mt
+source-wordcount: '1662'
+ht-degree: 93%
 
 ---
 
@@ -30,7 +30,7 @@ Le tableau ci-après présente en détail toutes les versions prises en charge d
 |--- |--- |--- |---|
 | v3 | - | Compatible | Compatible |
 | [v2](v2/image.md) | Compatible | Compatible | Compatible |
-| [v1](v1/image-v1.md) | Compatible | Compatible | - |
+| [v1](v1/image-v1.md) | Compatible | Compatible | Compatible |
 
 Pour plus d’informations sur les versions et les publications des composants principaux, voir le document sur les [versions des composants principaux](/help/versions.md).
 
@@ -40,23 +40,19 @@ Le composant d’image s’accompagne de fonctions réactives efficaces prêtes 
 
 En outre, le composant d’image prend en charge le chargement différé afin de différer le chargement du fichier image réel jusqu’à ce qu’il soit visible dans le navigateur, ce qui augmente la réactivité des pages.
 
->[!TIP]
->
->Consultez la section [Servlet d’image adaptative](#adaptive-image-servlet) pour plus d’informations techniques sur ces fonctionnalités et des conseils sur l’optimisation de la sélection du rendu.
-
 ## Prise en charge de Dynamic Media {#dynamic-media}
 
 Le composant d’image (à partir de la [version 2.13.0](/help/versions.md)) prend en charge les ressources [Dynamic Media](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/dynamicmedia/dynamic-media.html?lang=fr#dynamicmedia). [Lorsqu’elles sont activées](#design-dialog), ces fonctionnalités offrent la possibilité d’ajouter des fichiers d’image Dynamic Media par un simple glisser-déposer ou par le biais du navigateur de ressources, comme vous le feriez pour toute autre image. En outre, les modificateurs d’image, les paramètres d’image prédéfinis et les recadrages intelligents sont également pris en charge.
 
-Vos expériences web créées avec les composants principaux bénéficient des fonctionnalités d’image Dynamic Media sur plusieurs plateformes, hautement performantes, robustes, enrichies et optimisées par Sensei.
+Vos expériences web créées avec les composants principaux peuvent offrir des fonctionnalités d’image Dynamic Media sur plusieurs plateformes, riches, robustes, haute performance et optimisées par Sensei.
 
 ## Prise en charge SVG {#svg-support}
 
 Les composants SVG (Scalable Vector Graphics) sont pris en charge par le composant d’image.
 
 * Les opérations de glisser-déplacer d’une ressource SVG à partir de DAM et le téléchargement d’un fichier SVG depuis un système de fichiers local sont pris en charge.
-* La servlet d’image adaptative diffuse le fichier SVG d’origine en flux continu (les transformations sont ignorées).
-* Pour une image SVG, les « images intelligentes » et les « tailles intelligentes » sont définies sur un tableau vide dans le modèle d’image.
+* Le fichier du SVG d’origine est diffusé en continu (les transformations sont ignorées).
+* Pour une image de SVG, les &quot;images intelligentes&quot; et les &quot;tailles intelligentes&quot; sont définies sur un tableau vide dans le modèle d’image.
 
 ### Sécurité {#security}
 
@@ -135,10 +131,15 @@ Pour que le menu déroulant soit disponible, les styles doivent être configuré
 
 ## Boîte de dialogue de conception {#design-dialog}
 
+### Onglet Principal {#main-tab}
+
 ![Onglet principal de la boîte de dialogue de conception du composant Image](/help/assets/image-design-main.png)
 
 * **Activer les fonctionnalités DM** : lorsque cette option est cochée, les [fonctionnalités Dynamic Media](#dynamic-media) sont disponibles.
    * Dynamic Media doit être activé dans l’environnement pour que cette option apparaisse.
+* **Activer les images optimisées pour le web** - Lorsque cette case est cochée, [le service de diffusion d’images optimisé pour le web ;](/help/developing/web-optimized-image-delivery.md) diffusera les images au format WebP, réduisant la taille moyenne des images de 25 %.
+   * Cette option est disponible uniquement dans AEMaaCS.
+   * Lorsque cette option est décochée ou que le service de diffusion d’images optimisé pour le web n’est pas disponible, la fonction [Servlet d’image adaptative](/help/developing/adaptive-image-servlet.md) est utilisée.
 * **Désactiver le chargement différé** : lorsque cette option est cochée, le composant précharge toutes les images sans chargement différé.
 * **L’image est décorative** : définissez si l’option d’image décorative est activée automatiquement lors de l’ajout du composant d’image à une page.
 * **Obtenir un texte alternatif à partir de DAM** : définissez si l’option permettant de récupérer le texte de remplacement de DAM est automatiquement activée lors de l’ajout du composant d’image à une page.
@@ -161,27 +162,11 @@ Vous pouvez définir une liste de largeurs en pixels pour l’image, le composan
 
 >[!TIP]
 >
->Consultez la section [Servlet d’image adaptative](#adaptive-image-servlet) pour plus d’informations techniques sur ses fonctionnalités et des conseils sur l’optimisation de la sélection du rendu en définissant soigneusement vos largeurs.
+>Voir le document [Servlet d’image adaptative](/help/developing/adaptive-image-servlet.md) pour obtenir des conseils sur l’optimisation de la sélection de rendu en définissant soigneusement vos largeurs.
 
 ### Onglet Styles {#styles-tab}
 
 Le composant d’image prend en charge le [système de style](/help/get-started/authoring.md#component-styling) AEM.
-
-## Servlet d’image adaptative {#adaptive-image-servlet}
-
-Le composant d’image utilise la servlet d’image adaptative des composants principaux. [La servlet d’image adaptative](https://github.com/adobe/aem-core-wcm-components/wiki/The-Adaptive-Image-Servlet) est en charge du traitement des images et de leur diffusion en flux continu. Les développeurs peuvent l’utiliser dans le cadre de leur [personnalisation des composants principaux](/help/developing/customizing.md).
-
-### Optimisation de la sélection du rendu {#optimizing-rendition-selection}
-
-La servlet d’image adaptative tente de sélectionner le meilleur rendu pour la taille et le type d’image demandés. Il est recommandé de définir les rendus DAM et les largeurs autorisées des composants Image de façon synchronisée afin que la servlet d’image adaptative effectue le moins de traitement possible.
-
-Cela améliore les performances et évite que certaines images ne soient pas correctement traitées par la bibliothèque de traitement des images sous-jacente.
-
->[!NOTE]
->
->Les requêtes conditionnelles effectuées par le biais de `Last-Modified` en-tête sont prises en charge par la servlet d’image adaptative, mais la mise en cache de l’en-tête `Last-Modified` [doit être activée dans Dispatcher](https://experienceleague.adobe.com/docs/experience-manager-dispatcher/using/configuring/dispatcher-configuration.html?lang=fr#caching-http-response-headers).
->
->L’exemple de configuration de Dispatcher d’[AEM Project Archetype](/help/developing/archetype/overview.md) contient déjà cette configuration.
 
 ## Couche de données client Adobe {#data-layer}
 

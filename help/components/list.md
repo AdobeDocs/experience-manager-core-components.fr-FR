@@ -3,9 +3,9 @@ title: Composant Liste
 description: Le composant Liste des composants principaux permet de créer facilement des listes dynamiques et statiques.
 role: Architect, Developer, Admin, User
 exl-id: 662ab508-0253-4d28-b95c-8c4cde8173bd
-source-git-commit: 395a1669cf3e17f649c23852addc37316b923bfd
-workflow-type: ht
-source-wordcount: '1151'
+source-git-commit: 16930ccaa281f9d9c4ddbb890d4222e128557580
+workflow-type: tm+mt
+source-wordcount: '1152'
 ht-degree: 100%
 
 ---
@@ -28,7 +28,7 @@ Le tableau ci-après présente en détail toutes les versions prises en charge d
 |--- |--- |--- |---|
 | v3 | - | Compatible | Compatible |
 | [v2](v2/list.md) | Compatible | Compatible | Compatible |
-| [v1](v1/list-v1.md) | Compatible | Compatible | - |
+| [v1](v1/list-v1.md) | Compatible | Compatible | Compatible |
 
 Pour plus d’informations sur les versions et les publications des composants principaux, voir le document sur les [versions des composants principaux](/help/versions.md).
 

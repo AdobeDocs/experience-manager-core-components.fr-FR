@@ -2,10 +2,11 @@
 title: Composant Table des matières
 description: Le composant Table des matières crée une table des matières d’après les titres du contenu de votre page, ce qui permet à vos lecteurs de parcourir rapidement la page.
 role: Architect, Developer, Admin, User
-source-git-commit: 52c63ecb014e5d4fda4d166d92e8efb3163633ba
+exl-id: 006adde2-ebff-4e74-8e79-325cccd43e8f
+source-git-commit: 394a8b968d7bcde7e766ed719c5914ec5cb60744
 workflow-type: tm+mt
-source-wordcount: '730'
-ht-degree: 23%
+source-wordcount: '759'
+ht-degree: 22%
 
 ---
 
@@ -15,7 +16,11 @@ Le composant Table des matières crée une table des matières d’après les ti
 
 ## Utilisation {#usage}
 
-Le composant Table des matières permet aux visiteurs du site de parcourir rapidement le contenu de votre page par le biais d’une table des matières générée en fonction des titres du contenu de la page.
+Le composant Table des matières permet aux visiteurs du site de parcourir rapidement le contenu de votre page par le biais d’une table des matières générée de manière efficace en fonction des titres du contenu de la page.
+
+* La table des matières est générée côté serveur.
+* Il est entièrement mis en cache par Dispatcher pour une diffusion rapide.
+* Il fonctionne avec tous les composants de la page, et pas seulement avec les composants principaux.
 
 Le [Modifier la boîte de dialogue](#edit-dialog) permet à l’auteur de contenu de définir la plage de titres à utiliser dans la table des matières. En utilisant la variable [boîte de dialogue de conception](#design-dialog), l’auteur du modèle peut définir la valeur par défaut des titres lorsqu’un auteur de contenu ajoute un composant Table des matières à une page et limite les titres inclus dans la table des matières en fonction des noms de classe.
 
