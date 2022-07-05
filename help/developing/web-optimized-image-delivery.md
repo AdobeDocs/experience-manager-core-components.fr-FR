@@ -2,13 +2,13 @@
 title: Diffusion d’images optimisée pour le web
 description: Découvrez comment les composants principaux peuvent tirer parti des fonctionnalités de diffusion d’images optimisées pour le web d’AEM pour diffuser plus efficacement les images.
 role: Architect, Developer, Admin, User
-source-git-commit: 20436ffb5d6a6346738be1e6f5e6e2e8a68e76c9
+exl-id: 6080ab8b-f53c-4d5e-812e-16889da4d7de
+source-git-commit: df0ae972ca698e809a5cb8a5ad2d41ad89c2db8e
 workflow-type: tm+mt
-source-wordcount: '1170'
+source-wordcount: '1169'
 ht-degree: 0%
 
 ---
-
 
 # Diffusion d’images optimisée pour le web {#web-optimized-image-delivery}
 
@@ -16,7 +16,7 @@ Découvrez comment les composants principaux peuvent tirer parti des fonctionnal
 
 >[!NOTE]
 >
->Le service de diffusion d’images optimisé pour le web est une fonctionnalité de version préliminaire de la version de juin 2022 d’AEM as a Cloud Service avec disponibilité générale prévue pour juillet.
+>Le service de diffusion d’images optimisé pour le web est une version préliminaire de la version de juin 2022 d’AEM as a Cloud Service avec disponibilité générale prévue pour juillet.
 >
 >Pour plus d’informations sur les fonctionnalités de version préliminaire d’AEMaaCS, consultez le document . [Canal de version préliminaire Adobe Experience Manager as a Cloud Service](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/release-notes/prerelease.html?lang=fr)
 
@@ -122,6 +122,6 @@ Voir la section précédente [Activation de la diffusion d’images optimisée p
 
 Non, ça ne devrait jamais arriver.
 
-* Dans le HTML, le balisage ne change pas lors de l’activation des images optimisées pour le web. Seula la valeur de l’attribut SCR sur l’élément image change.
+* Dans le HTML, le balisage ne change pas lors de l’activation des images optimisées pour le web. Seula la valeur de l’attribut SRC sur l’élément image change.
 * Lorsque le nouveau service d’image n’est pas disponible ou ne peut pas traiter l’image souhaitée, l’URL générée [Basculement vers la servlet d’image adaptative.](#fallback)
 * Les règles de Dispatcher peuvent bloquer le service d’images optimisé pour le web et [doit être cochée lors de l’activation de la fonctionnalité.](#activating)
