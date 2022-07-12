@@ -4,7 +4,7 @@ description: Le composant de conteneur de formulaires des composants principaux 
 role: Architect, Developer, Admin, User
 exl-id: 552f9dd5-6a3a-42d9-9969-e62a1f36e811
 source-git-commit: 16930ccaa281f9d9c4ddbb890d4222e128557580
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '955'
 ht-degree: 100%
 
@@ -119,7 +119,7 @@ Quel que soit le type d’action sélectionné, une page de remerciement peut to
 
 ## Boîte de dialogue de conception {#design-dialog}
 
-La boîte de dialogue de conception permet à l’auteur du modèle de définir les composants autorisés et leurs mappages pour le conteneur similaires à la boîte de dialogue de conception du [conteneur de mises en page standard dans l’éditeur de modèles](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/features/templates.html).
+La boîte de dialogue de conception permet à l’auteur du modèle de définir les composants autorisés et leurs mappages pour le conteneur similaires à la boîte de dialogue de conception du [conteneur de mises en page standard dans l’éditeur de modèles](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/features/templates.html?lang=fr).
 
 ### Onglet Styles {#styles-tab}
 
