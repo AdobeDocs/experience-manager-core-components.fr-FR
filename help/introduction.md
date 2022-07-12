@@ -4,7 +4,7 @@ description: 'Obtenez des solutions aux problèmes grâce aux composants princip
 role: Architect, Developer, Admin, User
 exl-id: d294db22-4cb0-48a4-9366-03fda5b8bb8e
 source-git-commit: c572a2f5ab4e975e0ef467ab071fd25b373be18b
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '927'
 ht-degree: 100%
 
