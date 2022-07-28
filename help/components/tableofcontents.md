@@ -4,9 +4,9 @@ description: Le composant Table des matières permet de créer une table des mat
 role: Architect, Developer, Admin, User
 exl-id: 006adde2-ebff-4e74-8e79-325cccd43e8f
 source-git-commit: 394a8b968d7bcde7e766ed719c5914ec5cb60744
-workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+workflow-type: ht
+source-wordcount: '759'
+ht-degree: 100%
 
 ---
 
@@ -16,11 +16,11 @@ Le composant Table des matières permet de créer une table des matières basée
 
 ## Utilisation {#usage}
 
-Le composant Table des matières permet aux visiteurs du site de parcourir rapidement le contenu de votre page par le biais d’une table des matières générée de manière efficace en fonction des titres du contenu de la page.
+Le composant Table des matières offre aux visiteurs du site la possibilité de naviguer rapidement dans le contenu de votre page, grâce à une table des matières générée efficacement à partir des titres du contenu des pages.
 
 * La table des matières est générée côté serveur.
-* Il est entièrement mis en cache par Dispatcher pour une diffusion rapide.
-* Il fonctionne avec tous les composants de la page, et pas seulement avec les composants principaux.
+* Elle est entièrement mise en cache par le Dispatcher pour une diffusion rapide.
+* Elle fonctionne avec tous les composants de la page, et pas seulement avec les composants principaux.
 
 La [boîte de dialogue de modification](#edit-dialog) permet au créateur du contenu de définir les différents niveaux de titres qui doivent être repris dans la table des matières. À l’aide de la [boîte de dialogue de conception](#design-dialog), le créateur du modèle peut définir la valeur par défaut des titres lorsqu’un créateur de contenu ajoute un composant Table des matières à une page. Il peut également restreindre les titres inclus dans la table des matières en fonction des noms de classe.
 
@@ -53,7 +53,7 @@ La boîte de dialogue de modification permet au créateur du contenu de définir
 ![Boîte de dialogue de modification du composant Table des matières](/help/assets/tableofcontents-edit.png)
 
 **Type de liste** : cette option définit si la liste doit être une liste à puces ou une liste numérotée.
-* **Niveau de départ du titre** : cette option définit le niveau le plus élevé des titres que le composant Table des matières doit reprendre.
+* **Niveau de début du titre** : cette option définit le niveau le plus élevé des titres que le composant Table des matières doit reprendre.
 * **Niveau d’arrêt du titre** : cette option définit le niveau le plus bas des titres que le composant Table des matières doit reprendre.
 * **ID** : cette option permet de contrôler l’identifiant unique du composant dans le code HTML ainsi que dans la [couche de données](/help/developing/data-layer/overview.md).
    * Si rien n’est indiqué, un ID unique est généré automatiquement et peut être trouvé en examinant la page obtenue.
@@ -68,9 +68,9 @@ La boîte de dialogue de modification permet au créateur du contenu de définir
 
 ![Boîte de dialogue de conception du composant Recherche rapide](/help/assets/tableofcontents-design.png)
 
-* **Limiter le type de liste** : cette option définit le type de liste que le composant va générer. La sélection de cette option restreint la capacité du créateur du contenu à choisir un autre type de liste.
-* **Limiter le niveau de départ** : cette option définit le niveau de titre le plus élevé que le créateur de contenu peut sélectionner pour définir la table des matières.
-* **Limiter le niveau d’arrêt** : cette option définit le niveau de titre le plus bas que le créateur de contenu peut sélectionner pour définir la table des matières.
+* **Restreindre le type de liste** : cette option définit le type de liste que le composant va générer. La sélection de cette option restreint la capacité du créateur du contenu à choisir un autre type de liste.
+* **Restreindre le niveau de départ** : cette option définit le niveau de titre le plus élevé que le créateur de contenu peut sélectionner pour définir la table des matières.
+* **Restreindre le niveau d’arrêt** : cette option définit le niveau de titre le plus bas que le créateur de contenu peut sélectionner pour définir la table des matières.
 * **Inclure les noms de classe** : si cette option est définie, seuls les titres ayant les noms de classe spécifiés ou contenus dans des éléments des noms de classe spécifiés seront pris en compte par le composant Table des matières.
    * Appuyez ou cliquez sur l’icône **Ajouter** pour ajouter un ou plusieurs noms de classe.
    * Appuyez ou cliquez sur l’icône **Supprimer** en regard d’un nom de classe pour le supprimer.
