@@ -4,9 +4,9 @@ description: Le composant Image des composants principaux est un composant d’i
 role: Architect, Developer, Admin, User
 exl-id: c5e57f4b-139f-40e7-8d79-be9a74360b63
 source-git-commit: 2af48e397e47916760656cde8b0295b2f75cb0a6
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1662'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
@@ -44,15 +44,15 @@ En outre, le composant d’image prend en charge le chargement différé afin de
 
 Le composant d’image (à partir de la [version 2.13.0](/help/versions.md)) prend en charge les ressources [Dynamic Media](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/dynamicmedia/dynamic-media.html?lang=fr#dynamicmedia). [Lorsqu’elles sont activées](#design-dialog), ces fonctionnalités offrent la possibilité d’ajouter des fichiers d’image Dynamic Media par un simple glisser-déposer ou par le biais du navigateur de ressources, comme vous le feriez pour toute autre image. En outre, les modificateurs d’image, les paramètres d’image prédéfinis et les recadrages intelligents sont également pris en charge.
 
-Vos expériences web créées avec les composants principaux peuvent offrir des fonctionnalités d’image Dynamic Media sur plusieurs plateformes, riches, robustes, haute performance et optimisées par Sensei.
+Vos expériences web créées avec les composants principaux bénéficient des fonctionnalités d’image Dynamic Media sur plusieurs plateformes, hautement performantes, robustes, enrichies et optimisées par Sensei.
 
 ## Prise en charge SVG {#svg-support}
 
 Les composants SVG (Scalable Vector Graphics) sont pris en charge par le composant d’image.
 
 * Les opérations de glisser-déplacer d’une ressource SVG à partir de DAM et le téléchargement d’un fichier SVG depuis un système de fichiers local sont pris en charge.
-* Le fichier du SVG d’origine est diffusé en continu (les transformations sont ignorées).
-* Pour une image de SVG, les &quot;images intelligentes&quot; et les &quot;tailles intelligentes&quot; sont définies sur un tableau vide dans le modèle d’image.
+* Le fichier SVG d’origine est diffusé en continu (les transformations sont ignorées).
+* Pour une image SVG, les « images intelligentes » et les « tailles intelligentes » sont définies sur un tableau vide dans le modèle d’image.
 
 ### Sécurité {#security}
 
@@ -137,9 +137,9 @@ Pour que le menu déroulant soit disponible, les styles doivent être configuré
 
 * **Activer les fonctionnalités DM** : lorsque cette option est cochée, les [fonctionnalités Dynamic Media](#dynamic-media) sont disponibles.
    * Dynamic Media doit être activé dans l’environnement pour que cette option apparaisse.
-* **Activer les images optimisées pour le web** - Lorsque cette case est cochée, [le service de diffusion d’images optimisé pour le web ;](/help/developing/web-optimized-image-delivery.md) diffusera les images au format WebP, réduisant la taille moyenne des images de 25 %.
+* **Activer les images optimisées pour le web** - lorsque cette case est cochée, [le service de diffusion d’images optimisées pour le web](/help/developing/web-optimized-image-delivery.md) ; diffusera les images au format WebP, réduisant ainsi la taille moyenne des images de 25 %.
    * Cette option est disponible uniquement dans AEMaaCS.
-   * Lorsque cette option est décochée ou que le service de diffusion d’images optimisé pour le web n’est pas disponible, la fonction [Servlet d’image adaptative](/help/developing/adaptive-image-servlet.md) est utilisée.
+   * Lorsque cette option est décochée ou que le service de diffusion d’images optimisées pour le web n’est pas disponible, le [servlet Image adaptative](/help/developing/adaptive-image-servlet.md) est utilisé.
 * **Désactiver le chargement différé** : lorsque cette option est cochée, le composant précharge toutes les images sans chargement différé.
 * **L’image est décorative** : définissez si l’option d’image décorative est activée automatiquement lors de l’ajout du composant d’image à une page.
 * **Obtenir un texte alternatif à partir de DAM** : définissez si l’option permettant de récupérer le texte de remplacement de DAM est automatiquement activée lors de l’ajout du composant d’image à une page.
@@ -162,7 +162,7 @@ Vous pouvez définir une liste de largeurs en pixels pour l’image, le composan
 
 >[!TIP]
 >
->Voir le document [Servlet d’image adaptative](/help/developing/adaptive-image-servlet.md) pour obtenir des conseils sur l’optimisation de la sélection de rendu en définissant soigneusement vos largeurs.
+>Reportez-vous au document [Servlet Image adaptative](/help/developing/adaptive-image-servlet.md) pour obtenir des conseils sur l’optimisation de la sélection du rendu en définissant soigneusement vos largeurs.
 
 ### Onglet Styles {#styles-tab}
 
