@@ -5,9 +5,9 @@ breadcrumb-title: Guide des composants principaux
 user-guide-description: Utilisez les composants principaux extensibles pour permettre aux auteurs de créer facilement du contenu.
 feature-set: Experience Manager Sites
 source-git-commit: 3ff1343ab4ef7a52f910984a0bcd8fc4201441bf
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '255'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -15,7 +15,7 @@ ht-degree: 97%
 # Aide sur les composants principaux d’AEM {#using}
 
 + [Présentation des composants principaux ](introduction.md)
-+ [Chemins vers la réussite](developing/success.md)
++ [Chemins vers la succès](developing/success.md)
 + [Bibliothèque de composants](https://adobe.com/go/aem_cmp_library_fr)
 + [Versions](versions.md)
 + Prise en main {#get-started}
@@ -84,15 +84,15 @@ ht-degree: 97%
       + [Titre (v2)](components/v2/title.md)
 + Développement {#developing}
    + [Développement des composants principaux](developing/overview.md)
-   + [Chemins vers la réussite](https://experienceleague.adobe.com/docs/experience-manager-core-components/using/success.html?lang=fr)
+   + [Chemins vers la succès](https://experienceleague.adobe.com/docs/experience-manager-core-components/using/success.html?lang=fr)
    + [Tutoriel du développeur WKND](https://experienceleague.adobe.com/docs/experience-manager-learn/getting-started-wknd-tutorial-develop/overview.html?lang=fr)
    + [Personnalisation des composants principaux](developing/customizing.md)
    + [Instructions relatives aux composants](developing/guidelines.md)
    + [Prise en charge d’AMP](developing/amp.md)
    + [Configurations basées sur le contexte](developing/context-aware-configs.md)
    + [Inclusion de bibliothèques clientes](developing/including-clientlibs.md)
-   + [Servlet d’image adaptative](/help/developing/adaptive-image-servlet.md)
-   + [Diffusion d’images optimisée pour le web](/help/developing/web-optimized-image-delivery.md)
+   + [Servlet Image adaptative](/help/developing/adaptive-image-servlet.md)
+   + [Diffusion d’images optimisées pour le web](/help/developing/web-optimized-image-delivery.md)
    + Couche de données client Adobe {#data-layer}
       + [Présentation de la couche de données](developing/data-layer/overview.md)
       + [Intégrations à la couche de données](developing/data-layer/integrations.md)
