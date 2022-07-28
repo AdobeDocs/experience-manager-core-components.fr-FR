@@ -4,9 +4,9 @@ description: Le composant Image des composants principaux est un composant d’i
 role: Architect, Developer, Admin, User
 exl-id: 3f2b93f9-c48d-43ef-a78a-accd5090fe6f
 source-git-commit: 5f25aee6ebcb7a5c6b8db0df5b8b853f15af97d0
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2092'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -47,7 +47,7 @@ Vos expériences web créées avec les composants principaux bénéficient des f
 Les composants SVG (Scalable Vector Graphics) sont pris en charge par le composant d’image.
 
 * Les opérations de glisser-déplacer d’une ressource SVG à partir de DAM et le téléchargement d’un fichier SVG depuis un système de fichiers local sont pris en charge.
-* Le fichier du SVG d’origine est diffusé en continu (les transformations sont ignorées).
+* Le fichier SVG d’origine est diffusé en continu (les transformations sont ignorées).
 * Pour une image SVG, les « images intelligentes » et les « tailles intelligentes » sont définies sur un tableau vide dans le modèle d’image.
 
 ### Sécurité {#security}
@@ -185,9 +185,9 @@ En outre, vous pouvez définir quelles options de composant générales sont aut
 ![Onglet principal de la boîte de dialogue de conception du composant Image](/help/assets/image-design-main-v2.png)
 
 * **Activer les fonctionnalités DM** : lorsque cette option est cochée, les fonctionnalités [d’activation de Dynamic Media](#dynamic-media) sont disponibles.
-* **Activer les images optimisées pour le web** - Lorsque cette case est cochée, la variable [service de diffusion d’images optimisée pour le web](/help/developing/web-optimized-image-delivery.md) diffusera les images au format WebP, réduisant la taille moyenne des images de 25 %.
+* **Activer les images optimisées pour le web** - lorsque cette case est cochée, le [service de diffusion d’images optimisées pour le web](/help/developing/web-optimized-image-delivery.md) diffusera les images au format WebP, réduisant ainsi la taille moyenne des images de 25 %.
    * Cette option est disponible uniquement dans AEMaaCS.
-   * Lorsque cette option est décochée ou que le service de diffusion d’images optimisé pour le web n’est pas disponible, la fonction [Servlet d’image adaptative](/help/developing/adaptive-image-servlet.md) est utilisée.
+   * Lorsque cette option est décochée ou que le service de diffusion d’images optimisées pour le web n’est pas disponible, le [servlet Image adaptative](/help/developing/adaptive-image-servlet.md) est utilisé.
 * **Activer le chargement différé** : définissez si l’option de chargement différé est activée automatiquement lors de l’ajout du composant d’image à une page.
 * **L’image est décorative** : définissez si l’option d’image décorative est activée automatiquement lors de l’ajout du composant d’image à une page.
 * **Obtenir un texte alternatif à partir de DAM** : définissez si l’option permettant de récupérer le texte de remplacement de DAM est automatiquement activée lors de l’ajout du composant d’image à une page.
@@ -204,7 +204,7 @@ En outre, vous pouvez définir quelles options de composant générales sont aut
 
 >[!TIP]
 >
->Voir le document [Servlet d’image adaptative](#adaptive-image-servlet) pour obtenir des conseils sur l’optimisation de la sélection de rendu en définissant soigneusement vos largeurs.
+>Reportez-vous au document [Servlet Image adaptative](#adaptive-image-servlet) pour obtenir des conseils sur l’optimisation de la sélection du rendu en définissant soigneusement vos largeurs.
 
 ### Onglet Fonctions {#features-tab}
 
