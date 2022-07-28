@@ -5,9 +5,9 @@ index: n
 role: Architect, Developer, Admin, User
 exl-id: 625ce8de-5c4a-476d-b749-895493d169b1
 source-git-commit: 5f25aee6ebcb7a5c6b8db0df5b8b853f15af97d0
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1323'
-ht-degree: 92%
+ht-degree: 100%
 
 ---
 
@@ -194,17 +194,17 @@ Appuyez ou cliquez sur le bouton Ajouter pour ajouter une autre taille.
 
 Par défaut, le chargement des images est différé jusqu’à ce qu’elles deviennent visibles. Sélectionnez l’option **Désactiver le chargement différé** pour charger les images au chargement de la page.
 
-* **Activer les images optimisées pour le web** - Lorsque cette case est cochée, la variable [service de diffusion d’images optimisée pour le web](/help/developing/web-optimized-image-delivery.md) diffusera les images au format WebP, réduisant la taille moyenne des images de 25 %.
+* **Activer les images optimisées pour le web** - lorsque cette case est cochée, le [service de diffusion d’images optimisées pour le web](/help/developing/web-optimized-image-delivery.md) diffusera les images au format WebP, réduisant la taille moyenne des images de 25 %.
    * Cette option est disponible uniquement dans AEMaaCS.
-   * Lorsque cette option est décochée ou que le service de diffusion d’images optimisé pour le web n’est pas disponible, la fonction [Servlet d’image adaptative](/help/developing/adaptive-image-servlet.md) est utilisée.
+   * Lorsque cette option est décochée ou que le service de diffusion d’images optimisées pour le web n’est pas disponible, le [servlet Image adaptative](/help/developing/adaptive-image-servlet.md) est utilisé.
 
 ### Fonctions {#features}
 
-Sur l’onglet **Fonctions**, vous pouvez définir les options disponibles pour les auteurs de contenu lors de l’utilisation du composant, y compris les options de téléchargement, d’orientation et de recadrage.
+Sur l’onglet **Fonctions**, vous pouvez définir les options disponibles pour les créateurs de contenu lors de l’utilisation du composant, y compris les options de téléchargement, d’orientation et de recadrage.
 
-* **Activer les images optimisées pour le web** - lorsque cette case est cochée, le service de diffusion d’images optimisé pour le web diffuse les images au format WebP, réduisant ainsi la taille moyenne des images de 25 %.
+* **Activer les images optimisées pour le web** - lorsque cette case est cochée, le service de diffusion d’images optimisées pour le web diffuse les images au format WebP, réduisant ainsi la taille moyenne des images de 25 %.
    * Cette option est disponible uniquement dans AEMaaCS.
-   * Lorsque cette option est décochée ou que le service de diffusion d’images optimisé pour le web n’est pas disponible, la fonction [Servlet d’image adaptative](/help/developing/adaptive-image-servlet.md) est utilisée.
+   * Lorsque cette option est décochée ou que le service de diffusion d’images optimisées pour le web n’est pas disponible, le [servlet Image adaptative](/help/developing/adaptive-image-servlet.md) est utilisé.
 
 * Source
 
