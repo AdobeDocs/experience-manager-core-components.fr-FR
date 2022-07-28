@@ -3,7 +3,7 @@ title: Diffusion d’images optimisée pour le web
 description: Découvrez comment les composants principaux peuvent tirer parti des fonctionnalités de diffusion d’images optimisées pour le web d’AEM pour diffuser plus efficacement les images.
 role: Architect, Developer, Admin, User
 exl-id: 6080ab8b-f53c-4d5e-812e-16889da4d7de
-source-git-commit: df0ae972ca698e809a5cb8a5ad2d41ad89c2db8e
+source-git-commit: a134c2593593efef4df7b01e3a870e03e9860640
 workflow-type: tm+mt
 source-wordcount: '1169'
 ht-degree: 0%
@@ -20,7 +20,7 @@ Découvrez comment les composants principaux peuvent tirer parti des fonctionnal
 >
 >Pour plus d’informations sur les fonctionnalités de version préliminaire d’AEMaaCS, consultez le document . [Canal de version préliminaire Adobe Experience Manager as a Cloud Service](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/release-notes/prerelease.html?lang=fr)
 
-##  Présentation {#overview}
+## Présentation {#overview}
 
 La fonction de diffusion d’images optimisée pour le web d’AEM as a Cloud Service fournit des ressources d’image à partir de la gestion des actifs numériques dans [Format WebP.](https://developers.google.com/speed/webp) WebP peut réduire la taille de téléchargement d’une image d’environ 25 % en moyenne, ce qui se traduit par un chargement de page plus rapide.
 
