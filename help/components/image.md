@@ -3,10 +3,10 @@ title: Composant d’image
 description: Le composant Image des composants principaux est un composant d’image adaptatif qui permet d’effectuer des modifications statiques.
 role: Architect, Developer, Admin, User
 exl-id: c5e57f4b-139f-40e7-8d79-be9a74360b63
-source-git-commit: 2af48e397e47916760656cde8b0295b2f75cb0a6
-workflow-type: ht
-source-wordcount: '1662'
-ht-degree: 100%
+source-git-commit: 420e6085da57e5dc6deb670a5f0498b018441cb8
+workflow-type: tm+mt
+source-wordcount: '1687'
+ht-degree: 98%
 
 ---
 
@@ -39,6 +39,10 @@ Pour plus d’informations sur les versions et les publications des composants p
 Le composant d’image s’accompagne de fonctions réactives efficaces prêtes à l’emploi. Au niveau du modèle de page, la [boîte de dialogue de conception](#design-dialog) permet de définir les largeurs par défaut du fichier image. Le composant d’image charge alors automatiquement la largeur correcte à afficher en fonction de la taille de la fenêtre du navigateur. Lorsque la fenêtre est redimensionnée, le composant d’image charge dynamiquement la taille d’image correcte, instantanément. Les développeurs de composants n’ont pas à définir des requêtes multimédias personnalisées, puisque le composant d’image est déjà optimisé pour charger le contenu.
 
 En outre, le composant d’image prend en charge le chargement différé afin de différer le chargement du fichier image réel jusqu’à ce qu’il soit visible dans le navigateur, ce qui augmente la réactivité des pages.
+
+>[!TIP]
+>
+>Par défaut, le composant d’image est optimisé par la servlet d’image adaptative. Consultez le document [Servlet d’image adaptative](#adaptive-image-servlet) pour plus d’informations sur son fonctionnement.
 
 ## Prise en charge de Dynamic Media {#dynamic-media}
 
