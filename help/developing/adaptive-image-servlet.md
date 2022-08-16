@@ -4,9 +4,9 @@ description: Découvrez comment les composants principaux utilisent le servlet I
 role: Architect, Developer, Admin, User
 exl-id: d9199d51-6f09-4000-9525-afc30474437e
 source-git-commit: 420e6085da57e5dc6deb670a5f0498b018441cb8
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '410'
-ht-degree: 61%
+ht-degree: 100%
 
 ---
 
@@ -29,16 +29,16 @@ Par défaut, le composant d’image utilise le servlet Image adaptative du compo
 
 ## Sélection du rendu {#rendition-selection}
 
-La servlet d’image adaptative sélectionne automatiquement le rendu le plus approprié à afficher en fonction de la taille du conteneur dans lequel il est affiché. Le processus de sélection du rendu est le suivant.
+Le servlet d’image adaptative sélectionne automatiquement le rendu le plus approprié à afficher en fonction de la taille du conteneur dans lequel il s’affiche. Le processus de sélection du rendu est le suivant.
 
 1. Le servlet d’image adaptative examine tous les rendus disponibles de la ressource d’image.
-1. Il sélectionne uniquement les ressources ayant le même type/MIME de la ressource référencée d’origine.
+1. Il sélectionne uniquement les ressources de même type/MIME de la ressource référencée d’origine.
    * Par exemple, si la ressource d’origine était un fichier PNG, elle ne prendra en compte que les rendus PNG.
-1. De ces rendus, il prend en compte les dimensions et les compare à la taille du conteneur dans lequel l’image doit être affichée.
-   1. Si le rendu est >= la taille du conteneur, il est ajouté à une liste de rendus candidats.
-   1. Si le rendu est &lt; la taille du conteneur, il n’est pas pris en compte.
-   1. Ces critères garantissent que le rendu ne sera pas mis à l’échelle, ce qui aura une incidence sur la qualité de l’image.
-1. La servlet d’image adaptative sélectionne ensuite le rendu avec la plus petite taille de fichier de la liste des candidats.
+1. De ces rendus, elle prend en compte les dimensions et les compare à la taille du conteneur dans lequel l’image doit s’afficher.
+   1. Si le rendu est >= à la taille du conteneur, il est ajouté à une liste de rendus candidats.
+   1. Si le rendu est &lt; à la taille du conteneur, il n’est pas pris en compte.
+   1. Ces critères garantissent que le rendu ne sera pas amélioré, ce qui aurait un impact sur la qualité de l’image.
+1. Le servlet d’image adaptative sélectionne ensuite le rendu ayant la plus petite taille de fichier dans la liste des candidats.
 
 ## Optimisation de la sélection du rendu {#optimizing-rendition-selection}
 
@@ -46,7 +46,7 @@ La servlet d’image adaptative tente de sélectionner le meilleur rendu pour la
 
 Cela améliore les performances et évite que certaines images ne soient pas correctement traitées par la bibliothèque de traitement des images sous-jacente.
 
-## Utilisation d’en-têtes modifiés pour la dernière fois {#last-modified}
+## Utiliser les derniers en-têtes modifiés {#last-modified}
 
 Les requêtes conditionnelles effectuées par le biais de `Last-Modified` en-tête sont prises en charge par la servlet d’image adaptative, mais la mise en cache de l’en-tête `Last-Modified` [doit être activée dans Dispatcher](https://experienceleague.adobe.com/docs/experience-manager-dispatcher/using/configuring/dispatcher-configuration.html?lang=fr#caching-http-response-headers).
 
