@@ -6,7 +6,7 @@ exl-id: 6080ab8b-f53c-4d5e-812e-16889da4d7de
 source-git-commit: 420e6085da57e5dc6deb670a5f0498b018441cb8
 workflow-type: tm+mt
 source-wordcount: '1118'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -60,7 +60,7 @@ De même que l’activation de la diffusion d’images optimisées pour le web n
 
 ## Questions fréquentes {#faq}
 
-### Pourquoi n’existe-t-il pas d’option pour activer les images optimisées pour le web dans mon environnement ? {#missing-option}
+### Pourquoi n’existe-t-il pas une option permettant d’activer les images optimisées pour le web dans mon environnement ? {#missing-option}
 
 Cette fonctionnalité n’est disponible que sur AEM as a Cloud Service. Lorsqu’AEM s’exécute localement ou on-premise, le composant Image [retourne](#fallback) à l’utilisation du servlet Image adaptative.
 
