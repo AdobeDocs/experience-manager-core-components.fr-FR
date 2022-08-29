@@ -3,7 +3,7 @@ title: Composant Recherche rapide
 description: Le composant Recherche rapide fournit des fonctionnalités de recherche à un site web et présente les résultats de recherche afin que les visiteurs puissent effectuer des recherches sur le site et filtrer les résultats.
 role: Architect, Developer, Admin, User
 exl-id: fc40ce1d-e69a-4a40-853e-67a37228271b
-source-git-commit: c5db61a3f812fd47eedd1543585ef25d1fc0dc1c
+source-git-commit: 327c239b02e0aecee878784c918bfa98d960530e
 workflow-type: tm+mt
 source-wordcount: '621'
 ht-degree: 100%
@@ -39,7 +39,7 @@ Pour plus d’informations sur les versions et les publications des composants p
 >
 >La protection du composant Recherche ou de toute application basée sur AEM par rapport aux attaques DOS doit être implémentée à un niveau supérieur, par exemple à l’aide de `mod_security` sur le Dispatcher.
 
-La documentation technique la plus récente sur le composant Recherche rapide [se trouve sur GitHub](https://adobe.com/go/aem_cmp_tech_search_v1_fr).
+La documentation technique la plus récente sur le composant Recherche rapide [se trouve sur GitHub](https://adobe.com/go/aem_cmp_tech_search_v2_fr).
 
 Vous trouverez plus d’informations sur le développement des composants principaux dans la [documentation destinée aux développeurs de composants principaux](/help/developing/overview.md).
 

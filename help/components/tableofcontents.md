@@ -3,9 +3,9 @@ title: Composant Table des matières
 description: Le composant Table des matières permet de créer une table des matières basée sur les titres du contenu de votre page. Vos lecteurs peuvent ainsi naviguer rapidement dans la page.
 role: Architect, Developer, Admin, User
 exl-id: 006adde2-ebff-4e74-8e79-325cccd43e8f
-source-git-commit: 394a8b968d7bcde7e766ed719c5914ec5cb60744
-workflow-type: ht
-source-wordcount: '759'
+source-git-commit: 327c239b02e0aecee878784c918bfa98d960530e
+workflow-type: tm+mt
+source-wordcount: '722'
 ht-degree: 100%
 
 ---
@@ -35,10 +35,6 @@ Le tableau ci-après présente en détail toutes les versions prises en charge d
 | v1 | Compatible | Compatible |
 
 Pour plus d’informations sur les versions et les publications des composants principaux, voir le document sur les [versions des composants principaux](/help/versions.md).
-
-## Exemple de sortie de composant {#sample-component-output}
-
-Pour tester le composant Table des matières et voir des exemples d’options de configuration et de sorties HTML et JSON, consultez la [bibliothèque de composants](https://adobe.com/go/aem_cmp_library_tableofcontents).
 
 ### Détails techniques {#technical-details}
 

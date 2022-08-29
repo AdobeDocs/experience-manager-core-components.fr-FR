@@ -3,8 +3,8 @@ title: Composant de chemin de navigation
 description: Le composant Chemin de navigation des composants principaux est un composant de navigation qui crée un chemin de navigation des liens en fonction de l’emplacement de la page dans la hiérarchie du contenu.
 role: Architect, Developer, Admin, User
 exl-id: 19d65b9d-a407-4f50-9c55-8de0f12222ed
-source-git-commit: 16930ccaa281f9d9c4ddbb890d4222e128557580
-workflow-type: ht
+source-git-commit: 327c239b02e0aecee878784c918bfa98d960530e
+workflow-type: tm+mt
 source-wordcount: '801'
 ht-degree: 100%
 
@@ -44,7 +44,7 @@ Pour tester le composant de chemin de navigation et obtenir des exemples d’opt
 
 ## Détails techniques {#technical-details}
 
-La documentation technique la plus récente sur le composant de chemin de navigation [se trouve sur GitHub](https://adobe.com/go/aem_cmp_tech_breadcrumb_v2_fr).
+La documentation technique la plus récente sur le composant de chemin de navigation [se trouve sur GitHub](https://adobe.com/go/aem_cmp_tech_breadcrumb_v3_fr).
 
 Vous trouverez plus d’informations sur le développement des composants principaux dans la [documentation destinée aux développeurs de composants principaux](/help/developing/overview.md).
 

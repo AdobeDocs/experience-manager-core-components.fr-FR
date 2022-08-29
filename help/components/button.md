@@ -3,8 +3,8 @@ title: Composant de bouton
 description: Le composant Bouton des composants principaux permet de créer et d’afficher un bouton.
 role: Architect, Developer, Admin, User
 exl-id: e17efd1d-90d4-497a-9e7d-45934d81bc28
-source-git-commit: 395a1669cf3e17f649c23852addc37316b923bfd
-workflow-type: ht
+source-git-commit: 327c239b02e0aecee878784c918bfa98d960530e
+workflow-type: tm+mt
 source-wordcount: '542'
 ht-degree: 100%
 
@@ -40,7 +40,7 @@ Pour tester le composant de bouton et obtenir des exemples d’options de config
 
 ## Détails techniques {#technical-details}
 
-La documentation technique la plus récente sur le composant de bouton [se trouve sur GitHub](https://adobe.com/go/aem_cmp_tech_button_v1).
+La documentation technique la plus récente sur le composant de bouton [se trouve sur GitHub](https://adobe.com/go/aem_cmp_tech_button_v2).
 
 Vous trouverez plus d’informations sur le développement des composants principaux dans la [documentation destinée aux développeurs de composants principaux](/help/developing/overview.md).
 

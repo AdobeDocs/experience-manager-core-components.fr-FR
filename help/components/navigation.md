@@ -3,8 +3,8 @@ title: Composant Navigation
 description: Le composant Navigation permet aux utilisateurs de parcourir facilement une structure de site globalisée.
 role: Architect, Developer, Admin, User
 exl-id: 9154f2a3-3d1e-4865-a413-298748fa66d3
-source-git-commit: 395a1669cf3e17f649c23852addc37316b923bfd
-workflow-type: ht
+source-git-commit: 327c239b02e0aecee878784c918bfa98d960530e
+workflow-type: tm+mt
 source-wordcount: '1544'
 ht-degree: 100%
 
@@ -118,7 +118,7 @@ Pour tester le composant de navigation et obtenir des exemples d’options de co
 
 ## Détails techniques {#technical-details}
 
-La documentation technique la plus récente sur le composant de navigation [se trouve sur GitHub](https://adobe.com/go/aem_cmp_tech_navigation_v1_fr).
+La documentation technique la plus récente sur le composant de navigation [se trouve sur GitHub](https://adobe.com/go/aem_cmp_tech_navigation_v2_fr).
 
 Vous trouverez plus d’informations sur le développement des composants principaux dans la [documentation destinée aux développeurs de composants principaux](/help/developing/overview.md).
 

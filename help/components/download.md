@@ -3,8 +3,8 @@ title: 'Composant de téléchargement '
 description: Le composant Téléchargement des composants principaux permet la création d’une option de téléchargement sur une page.
 role: Architect, Developer, Admin, User
 exl-id: 48e7ade0-b849-4d1f-b836-51196e5ac507
-source-git-commit: 395a1669cf3e17f649c23852addc37316b923bfd
-workflow-type: ht
+source-git-commit: 327c239b02e0aecee878784c918bfa98d960530e
+workflow-type: tm+mt
 source-wordcount: '758'
 ht-degree: 100%
 
@@ -40,7 +40,7 @@ Pour tester le composant de téléchargement et voir des exemples de ses options
 
 ## Détails techniques {#technical-details}
 
-La documentation technique la plus récente sur le composant de téléchargement [se trouve sur GitHub](https://adobe.com/go/aem_cmp_tech_download_v1).
+La documentation technique la plus récente sur le composant de téléchargement [se trouve sur GitHub](https://adobe.com/go/aem_cmp_tech_download_v2).
 
 Vous trouverez plus d’informations sur le développement des composants principaux dans la [documentation destinée aux développeurs de composants principaux](/help/developing/overview.md).
 

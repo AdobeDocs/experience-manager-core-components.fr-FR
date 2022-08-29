@@ -1,10 +1,10 @@
 ---
-title: Composant Liste
+title: 'Composant Liste '
 description: Le composant Liste des composants principaux permet de créer facilement des listes dynamiques et statiques.
 role: Architect, Developer, Admin, User
 exl-id: 662ab508-0253-4d28-b95c-8c4cde8173bd
-source-git-commit: 16930ccaa281f9d9c4ddbb890d4222e128557580
-workflow-type: ht
+source-git-commit: 327c239b02e0aecee878784c918bfa98d960530e
+workflow-type: tm+mt
 source-wordcount: '1152'
 ht-degree: 100%
 
@@ -49,7 +49,7 @@ Pour tester le composant de liste et obtenir des exemples d’options de configu
 
 ### Détails techniques {#technical-details}
 
-La documentation technique la plus récente sur le composant de liste [se trouve sur GitHub](https://adobe.com/go/aem_cmp_tech_list_v2_fr).
+La documentation technique la plus récente sur le composant de liste [se trouve sur GitHub](https://adobe.com/go/aem_cmp_tech_list_v3_fr).
 
 Vous trouverez plus d’informations sur le développement des composants principaux dans la [documentation destinée aux développeurs de composants principaux](/help/developing/overview.md).
 
