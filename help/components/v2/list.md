@@ -2,15 +2,15 @@
 title: Composant Liste (v2)
 description: Le composant Liste des composants principaux permet de créer facilement des listes dynamiques et statiques.
 role: Architect, Developer, Admin, User
-source-git-commit: e5251010ca41025eb2bb56b66164ecf4cc0145c8
-workflow-type: ht
+exl-id: fa34be64-b345-45cd-baf3-571973414852
+source-git-commit: 241c86240377858a73f4a022368d428da9c11100
+workflow-type: tm+mt
 source-wordcount: '1022'
 ht-degree: 100%
 
 ---
 
-
-# Composant Liste  (v2) {#list-component}
+# Composant Liste (v2) {#list-component}
 
 Le composant Liste des composants principaux permet de créer facilement des listes dynamiques et statiques.
 
@@ -64,7 +64,7 @@ La liste peut être générée de différentes manières.
 
 Quelle que soit la façon dont la liste est créée, il existe des [options de tri et d’ID](#sort-options) qui peuvent toujours être configurées.
 
-![Boîte de dialogue de modification du composant Liste](/help/assets/list-edit.png)
+![Boîte de dialogue de modification du composant Liste](/help/assets/v2/list-edit.png)
 
 Selon la manière dont l’auteur du contenu choisit de construire la liste, les options de configuration supplémentaires changent.
 
@@ -72,7 +72,7 @@ Selon la manière dont l’auteur du contenu choisit de construire la liste, les
 
 La liste peut être créée à partir des pages enfants de la page active ou d’une autre page.
 
-![Options de page enfant](/help/assets/list-edit-child-pages.png)
+![Options de page enfant](/help/assets/v2/list-edit-child-pages.png)
 
 * **Page parente**
    * Page dont les pages enfants doivent faire la liste.
@@ -85,7 +85,7 @@ Combien de niveaux dans la hiérarchie doivent être utilisés.
 
 La liste peut être créée à l’aide d’une liste fixe d’éléments.
 
-![Options de liste fixe](/help/assets/list-edit-fixed.png)
+![Options de liste fixe](/help/assets/v2/list-edit-fixed-list.png)
 
 Appuyez ou cliquez sur le bouton **Ajouter** pour insérer un nouvel élément dans la liste.
 
@@ -97,7 +97,7 @@ Appuyez ou cliquez sur le bouton **Ajouter** pour insérer un nouvel élément d
 
 La liste peut être créée à l’aide des résultats d’une recherche de contenu AEM.
 
-![Options de liste de recherche](/help/assets/list-edit-search.png)
+![Options de liste de recherche](/help/assets/v2/list-edit-search.png)
 
 * **Requête de recherche**
 Chaîne pour laquelle une recherche de texte intégral est exécutée afin de générer les éléments de la liste.
@@ -110,7 +110,7 @@ L’emplacement où la recherche doit être exécutée.
 
 La liste peut être créée à l’aide de pages qui correspondent à certaines balises sous un emplacement particulier.
 
-![Options de liste de balises](/help/assets/list-edit-tags.png)
+![Options de liste de balises](/help/assets/v2/list-edit-tags.png)
 
 * **Page parente**
 Où la correspondance des balises doit commencer.
@@ -128,7 +128,7 @@ Définit quel type de correspondance doit qualifier une page à inclure dans la 
 
 Quelle que soit la manière dont vous choisissez de créer la liste, certaines options de tri peuvent toujours être définies.
 
-![Options de tri](/help/assets/list-edit-sort-options.png)
+![Options de tri](/help/assets/v2/list-edit-sort-options.png)
 
 * **Classer par**
 Comment les éléments doivent être triés.
@@ -150,7 +150,7 @@ Nombre maximal d’éléments affichés dans la liste.
 
 À l’aide de l’onglet Paramètres d’élément, la mise en forme des éléments de liste peut être configurée.
 
-![Paramètres d’élément](/help/assets/list-edit-items.png)
+![Paramètres d’élément](/help/assets/v2/list-edit-item-settings.png)
 
 * **Lier des éléments**
 Liez des éléments à la page correspondante.
@@ -167,7 +167,7 @@ La boîte de dialogue de conception permet à l’auteur du modèle de définir 
 
 Dans l’onglet **Paramètres de liste**, le format de date peut être défini et le type de liste doit être disponible dans le composant pour les auteurs de contenu.
 
-![Paramètre de liste de la boîte de dialogue de conception du composant Liste](/help/assets/list-design-list-settings.png)
+![Paramètre de liste de la boîte de dialogue de conception du composant Liste](/help/assets/v2/list-design-list-settings.png)
 
 * **Format de la date**
 Format à utiliser pour l’affichage de la date de la dernière modification.
@@ -184,7 +184,7 @@ Désactive le type de liste de balises dans le composant.
 
 Dans l’onglet **Paramètres d’élément**, les options de mise en forme des éléments de liste individuels qui doivent être disponibles dans le composant pour les auteurs de contenu peuvent être définies.
 
-![Paramètre d’élément de la boîte de dialogue de conception du composant Liste](/help/assets/list-design-item-settings.png)
+![Paramètre d’élément de la boîte de dialogue de conception du composant Liste](/help/assets/v2/list-design-item-settings.png)
 
 * **Lier des éléments**
 Activez l’option Lier des éléments dans la [boîte de dialogue de modification](#edit-dialog).

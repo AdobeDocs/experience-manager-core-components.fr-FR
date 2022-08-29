@@ -3,10 +3,10 @@ title: Présentation des composants principaux
 description: 'Obtenez des solutions aux problèmes grâce aux composants principaux et permettez à d’autres personnes de créer des éléments dans AEM. '
 role: Architect, Developer, Admin, User
 exl-id: d294db22-4cb0-48a4-9366-03fda5b8bb8e
-source-git-commit: 35b9c0d32d402e3f5466ccc1021094de5c7a750e
-workflow-type: ht
-source-wordcount: '927'
-ht-degree: 100%
+source-git-commit: 12fef6732ba53beeb7b3354335005f459321da96
+workflow-type: tm+mt
+source-wordcount: '928'
+ht-degree: 99%
 
 ---
 
@@ -73,7 +73,7 @@ La version actuelle des composants principaux comporte les composants ci-après.
 * [Fragment de contenu](components/content-fragment-component.md)
 * [Liste de fragments de contenu](components/content-fragment-list.md)
 * [Incorporer](components/embed.md)
-* [Partage sur les réseaux sociaux](components/sharing.md)
+* [Partage sur les réseaux sociaux](components/sharing.md) (obsolète)
 * [Séparateur](components/separator.md)
 * [Barre de progression](components/progress-bar.md)
 * [Visionneuse PDF](components/pdf-viewer.md)

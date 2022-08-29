@@ -3,8 +3,8 @@ title: Composant Recherche rapide
 description: Le composant Recherche rapide fournit des fonctionnalités de recherche à un site web et présente les résultats de recherche afin que les visiteurs puissent effectuer des recherches sur le site et filtrer les résultats.
 role: Architect, Developer, Admin, User
 exl-id: fc40ce1d-e69a-4a40-853e-67a37228271b
-source-git-commit: 16930ccaa281f9d9c4ddbb890d4222e128557580
-workflow-type: ht
+source-git-commit: c5db61a3f812fd47eedd1543585ef25d1fc0dc1c
+workflow-type: tm+mt
 source-wordcount: '621'
 ht-degree: 100%
 
@@ -22,7 +22,7 @@ La [boîte de dialogue de modification](#edit-dialog) permet à l’auteur de co
 
 ## Version et compatibilité {#version-and-compatibility}
 
-La version actuelle du composant Recherche rapide est v1, qui a été introduite avec la version 2.0.0 des composants principaux en janvier 2018 et est décrite dans ce document.
+La version actuelle du composant Recherche rapide est v2, qui a été introduite avec la version 2.18.0 des composants principaux en janvier 2018 et est décrite dans ce document.
 
 Le tableau ci-après présente en détail toutes les versions prises en charge du composant, les versions AEM avec lesquelles les versions du composant sont compatibles et les liens vers la documentation pour les versions précédentes.
 
