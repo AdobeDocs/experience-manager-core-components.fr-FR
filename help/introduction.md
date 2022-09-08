@@ -1,12 +1,12 @@
 ---
 title: Présentation des composants principaux
-description: 'Obtenez des solutions aux problèmes grâce aux composants principaux et permettez à d’autres personnes de créer des éléments dans AEM. '
+description: Obtenez des solutions aux problèmes grâce aux composants principaux et permettez à d’autres personnes de créer des éléments dans AEM.
 role: Architect, Developer, Admin, User
 exl-id: d294db22-4cb0-48a4-9366-03fda5b8bb8e
 source-git-commit: 12fef6732ba53beeb7b3354335005f459321da96
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '928'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -49,7 +49,7 @@ Les composants principaux sont un ensemble de composants WCM (Web Content Manage
 
 ## Composants {#the-components}
 
-La version actuelle des composants principaux comporte les composants ci-après.
+La version actuelle des composants principaux comporte les composants ci-après :
 
 ### Composants de modèle {#template-components}
 
