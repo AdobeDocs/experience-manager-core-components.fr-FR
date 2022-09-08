@@ -1,12 +1,12 @@
 ---
-title: 'Composant Partage sur les réseaux sociaux '
+title: Composant Partage sur les réseaux sociaux
 description: Le composant Partage sur les réseaux sociaux des composants principaux est un widget permettant de partager des contenus sur Facebook et Pinterest.
 role: Architect, Developer, Admin, User
 exl-id: 8bd53c76-da91-479b-b416-f978682a3d43
 source-git-commit: 327c239b02e0aecee878784c918bfa98d960530e
 workflow-type: tm+mt
-source-wordcount: '400'
-ht-degree: 96%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -16,7 +16,7 @@ Le composant Partage sur les réseaux sociaux des composants principaux est un w
 
 >[!NOTE]
 >
->Le composant Partage sur les réseaux sociaux a été déprécié avec les composants principaux. [version 2.18.0.](/help/versions.md)
+>Le composant Partage social est devenu obsolète avec la [version 2.18.0](/help/versions.md) des composants principaux.
 
 ## Utilisation {#usage}
 
@@ -32,7 +32,7 @@ Le tableau ci-après présente en détail toutes les versions prises en charge d
 
 | Version du composant | AEM 6.4 | AEM 6.5 | AEM as a Cloud Service |
 |--- |--- |--- |---|
-| v1 | Compatible avec la <br>[version 2.17.4](/help/versions.md) et versions antérieures | Compatible, deprecated | Compatible, obsolète |
+| v1 | Compatible avec la <br>[version 2.17.4](/help/versions.md) et versions antérieures | Compatible, obsolète | Compatible, obsolète |
 
 Pour plus d’informations sur les versions et les publications des composants principaux, voir le document sur les [versions des composants principaux](/help/versions.md).
 
