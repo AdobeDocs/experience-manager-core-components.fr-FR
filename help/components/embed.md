@@ -4,7 +4,7 @@ description: Le composant Incorporer permet d’incorporer du contenu externe da
 role: Architect, Developer, Admin, User
 exl-id: 985fa304-70a3-4329-957e-76d1832a06f1
 source-git-commit: 327c239b02e0aecee878784c918bfa98d960530e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1395'
 ht-degree: 100%
 
@@ -40,7 +40,7 @@ Pour tester le composant Incorporer et obtenir des exemples d’options de confi
 
 ## Détails techniques {#technical-details}
 
-La documentation technique la plus récente sur le composant Incorporer [se trouve sur GitHub](https://adobe.com/go/aem_cmp_tech_embed_v2).
+La documentation technique la plus récente sur le composant Incorporer [se trouve sur GitHub](https://adobe.com/go/aem_cmp_tech_embed_v2_fr).
 
 Vous trouverez plus d’informations sur le développement des composants principaux dans la [documentation destinée aux développeurs de composants principaux](/help/developing/overview.md).
 
