@@ -4,7 +4,7 @@ description: Obtenez des solutions aux problèmes grâce aux composants principa
 role: Architect, Developer, Admin, User
 exl-id: d294db22-4cb0-48a4-9366-03fda5b8bb8e
 source-git-commit: 9064b357476128525c428b33bdb49fbe68138890
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '928'
 ht-degree: 100%
 
@@ -73,7 +73,7 @@ La version actuelle des composants principaux comporte les composants ci-après�
 * [Fragment de contenu](components/content-fragment-component.md)
 * [Liste de fragments de contenu](components/content-fragment-list.md)
 * [Incorporer](components/embed.md)
-* [Partage sur les réseaux sociaux](components/sharing.md) (obsolète)
+* [Partage sur les médias sociaux](components/sharing.md) (obsolète)
 * [Séparateur](components/separator.md)
 * [Barre de progression](components/progress-bar.md)
 * [Visionneuse PDF](components/pdf-viewer.md)
