@@ -3,7 +3,7 @@ title: Versions des composants principaux
 description: Les composants principaux sont publiés sous forme de versions qui peuvent contenir plusieurs versions des mêmes composants principaux. Ce document explique les versions et les mises à jour ainsi que comment comprendre la compatibilité avec les composants principaux et AEM.
 role: Architect, Developer, Admin, User
 exl-id: 7d4dbe46-4013-4217-b815-cdb1462072c6
-source-git-commit: 1e449c2b3c8fb9a98093c6731455089e8a157015
+source-git-commit: 6fd0fd045846da0d8e6f9c4753d172a9af101ba2
 workflow-type: tm+mt
 source-wordcount: '2780'
 ht-degree: 98%
@@ -30,9 +30,7 @@ Le tableau suivant, dont le contenu est [disponible sur GitHub avec les détails
 | [2.21.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.21.0) | Cette version comprend plusieurs améliorations, notamment la publication de l’API LinkHandler et des améliorations apportées à la fonction [Composant d’image](/help/components/image.md) et [Couche de données,](/help/developing/data-layer/overview.md) ainsi que des améliorations apportées aux composants à plusieurs panneaux. | - | 6.5.13.0+ * | En continu | 8, 11 | 12 septembre 2022 |
 | [2.20.8](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.20.8) | Cette version corrige un problème lié à la diffusion des images SVG via le servlet Image adaptative. | - | 6.5.13.0+ * | En continu | 8, 11 | 4 août 2022 |
 | [2.20.6](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.20.6) | Cette version de correctif corrige un problème lié au nouveau [composant Table des matières.](/help/components/tableofcontents.md) | - | 6.5.13.0+ * | En continu | 8, 11 | 7 juillet 2022 |
-| --- | — | — | — | — | — | — |
 | [2.20.4](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.20.4) | Cette version de correctif corrige un problème lié au nouveau [composant Table des matières.](/help/components/tableofcontents.md) | - | 6.5.13.0+ * | En continu | 8, 11 | 29 juin 2022 |
-| — | — | — | — | — | — | — |
 | [2.20.2](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.20.2) | Il s’agit d’une version de correctif qui corrige un problème dans le nouveau [service de diffusion de ressources optimisées pour le web](/help/developing/web-optimized-image-delivery.md) d’AEMaaCS. | - | 6.5.13.0+ * | En continu | 8, 11 | 20 juin 2022 |
 | [2.20.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.20.0) | Cette version comprend un nouveau [composant Table des matières](/help/components/tableofcontents.md), prend en charge le [service de diffusion de ressources optimisées pour le web](/help/developing/web-optimized-image-delivery.md) d’AEMaaCS et comprend des correctifs. | - | 6.5.13.0+ * | En continu | 8, 11 | 9 juin 2022 |
 | [2.19.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.19.0) | Cette version ajoute une nouvelle version au [Composant de recherche](/help/components/quick-search.md) et des fonctionnalités à la fonction [Composant de bouton](/help/components/button.md) ainsi que de nombreuses améliorations de l’accessibilité et correctifs de bogues. | - | 6.5.10.0+ * | En continu | 8, 11 | 7 avril 2022 |
