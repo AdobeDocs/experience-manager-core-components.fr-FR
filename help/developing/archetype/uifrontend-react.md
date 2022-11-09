@@ -1,12 +1,12 @@
 ---
 title: Génération front-end pour les applications monopage React
 description: Description du processus de génération front-end pour les projets d’application monopage React
-feature: Composants principaux, archétype de projet AEM
+feature: Core Components, AEM Project Archetype
 role: Architect, Developer, Admin
 exl-id: dd8ef13a-9686-47a9-b6af-e486ff10c4d8
-source-git-commit: 3ebe1a42d265185b36424b01844f4a00f05d4724
-workflow-type: ht
-source-wordcount: '517'
+source-git-commit: 0eea0cd65063c739e5b405b0380b73962a858e48
+workflow-type: tm+mt
+source-wordcount: '512'
 ht-degree: 100%
 
 ---
@@ -19,7 +19,7 @@ Ce document explique les détails du projet créé lors de l’utilisation de l�
 
 Ce projet a été démarré avec [create-response-app](https://github.com/facebook/create-react-app).
 
-Cette application est créée pour consommer le modèle AEM d’un site. Elle génère automatiquement la mise en page à l’aide des composants de l’application d’assistance à partir du package [@adobe/cq-response-editable-components](https://www.npmjs.com/package/@adobe/cq-react-editable-components).
+Cette application est créée pour consommer le modèle AEM d’un site. Elle génère automatiquement la mise en page à l’aide des composants de l’application d’assistance à partir du package [@adobe/cq-response-editable-components](https://www.npmjs.com/package/@adobe/aem-react-editable-components).
 
 ## Scripts {#scripts}
 
