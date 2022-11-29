@@ -2,11 +2,10 @@
 title: Utilisation des composants principaux de messagerie
 description: Découvrez l’installation, la configuration et l’utilisation de base des composants principaux d’email.
 role: Architect, Developer, Admin, User
-hidefromtoc: true
-index: false
-source-git-commit: 8bebe3ca036557f3f7c6b8ec0e65d6d104d5ffae
+exl-id: 0e79ca8f-eb0a-4519-b1e8-a9d3b0b99987
+source-git-commit: 33976c0e745ad091a142109f70541f01a31edc5b
 workflow-type: tm+mt
-source-wordcount: '672'
+source-wordcount: '653'
 ht-degree: 7%
 
 ---
@@ -22,7 +21,7 @@ Les composants principaux d’email peuvent être utilisés avec AEM 6.5. Voir l
 
 ### Installation des composants principaux {#core-components}
 
-Les composants principaux d’email sont créés sur les composants principaux d’AEM. Comme les composants principaux ne sont pas fournis avec AEM, vous devez d’abord installer les composants principaux AEM avant d’installer les composants principaux du courrier électronique.
+Les composants principaux d’email sont créés sur les composants principaux d’AEM. Comme les composants principaux ne sont pas fournis avec AEM 6.5, vous devez d’abord installer les composants principaux AEM avant d’installer les composants principaux du courrier électronique.
 
 Voir la section [Téléchargement et installation](/help/get-started/using.md#download-and-install) section du document Utilisation des composants principaux pour plus d’informations sur l’installation des composants principaux.
 
@@ -80,6 +79,4 @@ Une fois les composants de messagerie installés et l’intégration à Adobe Ca
 
 Pour obtenir un exemple de création de contenu d’email dans AEM et de diffusion dans Adobe Campaign, reportez-vous aux ressources suivantes.
 
-* AEM as a Cloud Service : [Création de newsletters Campaign avec AEM](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/sites/authoring/campaign/creating-newsletters.html)
 * AEM 6.5 : [Utilisation de Adobe Campaign Classic et Adobe Campaign Standard](https://experienceleague.adobe.com/docs/experience-manager-65/authoring/aem-adobe-campaign/campaign.html)
-

@@ -2,9 +2,8 @@
 title: Composant Teaser de message électronique
 description: Le composant Teaser de courrier électronique peut afficher une image, un titre, du texte enrichi et éventuellement un lien vers un contenu supplémentaire.
 role: Architect, Developer, Admin, User
-hidefromtoc: true
-index: false
-source-git-commit: 8bebe3ca036557f3f7c6b8ec0e65d6d104d5ffae
+exl-id: d6123b22-7cba-406c-986d-b6f00322d135
+source-git-commit: 33976c0e745ad091a142109f70541f01a31edc5b
 workflow-type: tm+mt
 source-wordcount: '1056'
 ht-degree: 53%
