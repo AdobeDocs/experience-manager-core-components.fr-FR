@@ -4,10 +4,10 @@ user-guide-title: AEM Core Components
 breadcrumb-title: Guide des composants principaux
 user-guide-description: Utilisez les composants principaux extensibles pour permettre aux auteurs de créer facilement du contenu.
 feature-set: Experience Manager Sites
-source-git-commit: 7744cc1debe991d2c0daa9e91f2a6b7c04d65342
+source-git-commit: 5431b57727ca5b9518cb80f620cffd0c31ef2f2d
 workflow-type: tm+mt
-source-wordcount: '281'
-ht-degree: 95%
+source-wordcount: '282'
+ht-degree: 94%
 
 ---
 
@@ -22,7 +22,7 @@ ht-degree: 95%
    + [Création à l’aide des composants principaux](get-started/authoring.md)
    + [Utilisation des composants principaux](get-started/using.md)
    + [Fonctions de localisation](get-started/localization.md)
-+ Composants {#components}
++ Composants WCM {#wcm-components}
    + [Accordéon](components/accordion.md)
    + [Chemin de navigation](components/breadcrumb.md)
    + [Bouton](components/button.md)
@@ -82,6 +82,22 @@ ht-degree: 95%
       + [Liste (v2)](components/v2/list.md)
       + [Page (v2)](components/v2/page.md)
       + [Titre (v2)](components/v2/title.md)
++ Composants de messagerie électronique {#email}
+   + [Présentation](/help/email/introduction.md)
+   + [Utilisation des composants principaux de messagerie](/help/email/using.md)
+   + [Variables de campagne](/help/email/campaign-variables.md)
+   + [Versions](/help/email/versions.md)
+   + Composants Email {#components}
+      + [État](/help/email/components/page.md)
+      + [Conteneur](/help/email/components/container.md)
+      + [Titre](/help/email/components/title.md)
+      + [Texte](/help/email/components/text.md)
+      + [Image](/help/email/components/image.md)
+      + [Bouton](/help/email/components/button.md)
+      + [Teaser](/help/email/components/teaser.md)
+      + [Fragment d’expérience](/help/email/components/experience-fragment.md)
+      + [Fragment de contenu](/help/email/components/content-fragment.md)
+      + [Segmentation](/help/email/components/segmentation.md)
 + Développement {#developing}
    + [Développement des composants principaux](developing/overview.md)
    + [Chemins vers la succès](https://experienceleague.adobe.com/docs/experience-manager-core-components/using/success.html?lang=fr)
@@ -110,19 +126,3 @@ ht-degree: 95%
       + [Module ui.tests](developing/archetype/uitests.md)
       + [Module it.tests](developing/archetype/ittests.md)
       + [Plug-in Maven Build Analyzer](developing/archetype/build-analyzer-maven-plugin.md)
-+ Composants de messagerie électronique {#email}
-   + [Présentation ](/help/email/introduction.md)
-   + [Utilisation des composants principaux de messagerie](/help/email/using.md)
-   + [Variables de campagne](/help/email/campaign-variables.md)
-   + [Versions](/help/email/versions.md)
-   + Composants Email {#components}
-      + [Page](/help/email/components/page.md)
-      + [Conteneur](/help/email/components/container.md)
-      + [Titre](/help/email/components/title.md)
-      + [Texte](/help/email/components/text.md)
-      + [Image](/help/email/components/image.md)
-      + [Bouton](/help/email/components/button.md)
-      + [Teaser](/help/email/components/teaser.md)
-      + [Fragment d’expérience](/help/email/components/experience-fragment.md)
-      + [Fragment de contenu](/help/email/components/content-fragment.md)
-      + [Segmentation](/help/email/components/segmentation.md)
