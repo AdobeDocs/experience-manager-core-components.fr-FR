@@ -1,30 +1,30 @@
 ---
-title: Composant d’image de message électronique
-description: Le composant d’image de courrier électronique est un composant d’image adaptatif qui permet d’effectuer des modifications statiques.
+title: Composant Image d’e-mail
+description: Le composant Image d’e-mail est un composant d’image adaptatif qui permet d’effectuer des modifications statiques.
 role: Architect, Developer, Admin, User
 exl-id: f5d40047-3082-4edd-a5f6-6ab3e33997f9
 source-git-commit: 33976c0e745ad091a142109f70541f01a31edc5b
-workflow-type: tm+mt
-source-wordcount: '1683'
-ht-degree: 63%
+workflow-type: ht
+source-wordcount: '0'
+ht-degree: 100%
 
 ---
 
 
-# Composant d’image de message électronique {#email-image-component}
+# Composant Image d’e-mail {#email-image-component}
 
-Le composant d’image de courrier électronique est un composant d’image adaptatif qui permet d’effectuer des modifications statiques.
+Le composant Image d’e-mail est un composant d’image adaptatif qui permet d’effectuer des modifications statiques.
 
 ## Utilisation {#usage}
 
-Le composant d’image de courrier électronique comprend une sélection d’image adaptative et un comportement réactif avec chargement différé pour le visiteur de la page, ainsi qu’un placement d’image par glisser-déposer et une configuration simples pour l’auteur du contenu.
+Le composant Image d’e-mail comprend une sélection d’images adaptative, un comportement réactif avec chargement différé pour le visiteur de la page, ainsi qu’un placement et une configuration d’images faciles par glisser-déposer pour le créateur de contenu.
 
-* Les largeurs d’image et les paramètres supplémentaires peuvent être définis par l’auteur du modèle dans la [boîte de dialogue de conception.](#design-dialog)
+* Les largeurs d’image et les paramètres supplémentaires peuvent être définis par le créateur du modèle dans la [boîte de dialogue de conception.](#design-dialog)
 * L’éditeur de contenu peut charger ou sélectionner des ressources dans la [boîte de dialogue de configuration.](#configure-dialog)
 
 ## Version et compatibilité {#version-and-compatibility}
 
-La version actuelle du composant d’image d’email est v1, qui a été introduite avec la version x des composants principaux d’email en octobre 2022. Elle est décrite dans ce document.
+La version actuelle du composant Image d’e-mail est v1. Celle-ci a été introduite avec la version X des composants principaux d’e-mail en octobre 2022. Elle est décrite dans ce document.
 
 Le tableau ci-après présente en détail toutes les versions prises en charge du composant, les versions AEM avec lesquelles les versions du composant sont compatibles et les liens vers la documentation pour les versions précédentes.
 
@@ -32,27 +32,27 @@ Le tableau ci-après présente en détail toutes les versions prises en charge d
 |---|---|---|
 | v1 | Compatible | Compatible |
 
-Pour plus d’informations sur les versions et versions des composants principaux, consultez le document . [Courrier électronique des versions des composants principaux](/help/email/versions.md).
+Pour plus d’informations sur les versions et les publications des composants principaux, voir le document sur les [versions des composants principaux d’e-mail](/help/email/versions.md).
 
 ## Fonctions réactives {#responsive-features}
 
-Le composant d’image d’email est fourni avec des fonctionnalités réactives puissantes prêtes à l’emploi. Au niveau du modèle de page, la [boîte de dialogue de conception](#design-dialog) permet de définir les largeurs par défaut du fichier image. Le composant d’image de courrier électronique charge alors automatiquement la largeur correcte à afficher en fonction de la taille de la fenêtre du navigateur. Lorsque la fenêtre est redimensionnée, le composant d’image d’email charge dynamiquement la taille d’image correcte à la volée. Les développeurs de composants n’ont pas besoin de se soucier de la définition de requêtes multimédias personnalisées, car le composant d’image d’email est déjà optimisé pour charger votre contenu.
+Le composant Image d’e-mail s’accompagne de fonctions réactives, efficaces et prêtes à l’emploi. Au niveau du modèle de page, la [boîte de dialogue de conception](#design-dialog) permet de définir les largeurs par défaut du fichier image. Le composant Image d’e-mail charge alors automatiquement la largeur correcte à afficher en fonction de la taille de la fenêtre du navigateur. Lorsque la fenêtre est redimensionnée, le composant Image d’e-mail charge dynamiquement la taille d’image à la volée. Les développeurs de composants n’ont pas à définir des requêtes multimédias personnalisées, puisque le composant Image d’e-mail est déjà optimisé pour charger le contenu.
 
-En outre, le composant d’image de courrier électronique prend en charge le chargement différé pour différer le chargement de la ressource d’image réelle jusqu’à ce qu’elle soit visible dans le navigateur, ce qui augmente la réactivité de votre contenu.
+En outre, le composant Image d’e-mail prend en charge le chargement différé, de façon à différer le chargement du fichier image réel jusqu’à ce qu’il soit visible dans le navigateur. Cela a pour effet d’augmenter la réactivité votre contenu.
 
 >[!TIP]
 >
->Par défaut, le composant d’image de courrier électronique est optimisé par la servlet d’image adaptative. Veuillez consulter le document [Servlet d’image adaptative](#adaptive-image-servlet) pour plus d’informations sur son fonctionnement.
+>Par défaut, le composant Image d’e-mail est optimisé par le servlet d’image adaptative. Veuillez consulter le document [Servlet d’image adaptative](#adaptive-image-servlet) pour plus d’informations sur son fonctionnement.
 
 ## Prise en charge de Dynamic Media {#dynamic-media}
 
-Le composant Image de courrier électronique prend en charge [Dynamic Media](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/dynamicmedia/dynamic-media.html?lang=fr#dynamicmedia) ressources. [Lorsqu’elles sont activées](#design-dialog), ces fonctionnalités offrent la possibilité d’ajouter des fichiers d’image Dynamic Media par un simple glisser-déposer ou par le biais du navigateur de ressources, comme vous le feriez pour toute autre image. En outre, les modificateurs d’image, les paramètres d’image prédéfinis et les recadrages intelligents sont également pris en charge.
+Le composant Image d’e-mail prend en charge les ressources [Dynamic Media](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/dynamicmedia/dynamic-media.html?lang=fr#dynamicmedia). [Lorsqu’elles sont activées](#design-dialog), ces fonctionnalités offrent la possibilité d’ajouter des fichiers d’image Dynamic Media par un simple glisser-déposer ou par le biais du navigateur de ressources, comme vous le feriez pour toute autre image. En outre, les modificateurs d’image, les paramètres d’image prédéfinis et les recadrages intelligents sont également pris en charge.
 
-Vos expériences e-mail créées à l’aide des composants principaux d’email peuvent offrir des fonctionnalités d’image Dynamic Media sur plusieurs plateformes riches, optimisées par Sensei, robustes, hautement performantes.
+Vos expériences e-mail créées avec les composants principaux d’e-mail bénéficient des fonctionnalités d’image Dynamic Media sur plusieurs plateformes. Elles sont hautement performantes, robustes, enrichies et optimisées par Sensei.
 
 ## Prise en charge SVG {#svg-support}
 
-Les graphiques vectoriels évolutifs (SVG) sont pris en charge par le composant Image d’email.
+Les formats SVG (Scalable Vector Graphics) sont pris en charge par le composant Image d’e-mail.
 
 * Les opérations de glisser-déplacer d’une ressource SVG à partir de DAM et le chargement d’un fichier SVG depuis un système de fichiers local sont pris en charge.
 * Le fichier SVG d’origine est diffusé en continu (les transformations sont ignorées).
@@ -64,23 +64,23 @@ Pour des raisons de sécurité, l’éditeur d’image ne fait jamais appel au f
 
 ## Exemple de sortie de composant {#sample-component-output}
 
-Pour tester le composant d’image d’email et obtenir des exemples d’options de configuration, ainsi que des sorties HTML et JSON, consultez la page [Bibliothèque de composants.](https://adobe.com/go/aem_cmp_library_email_image)
+Pour tester le composant Image d’e-mail et voir des exemples de ses options de configuration, ainsi que la sortie HTML et JSON, consultez la [bibliothèque de composants.](https://adobe.com/go/aem_cmp_library_email_image)
 
 ### Détails techniques {#technical-details}
 
-Documentation technique la plus récente sur le composant Image d’email [est disponible sur GitHub.](https://adobe.com/go/aem_cmp_tech_email_image_v1)
+La documentation technique la plus récente sur le composant Image d’e-mail [se trouve sur GitHub.](https://adobe.com/go/aem_cmp_tech_email_image_v1)
 
 Vous trouverez plus d’informations sur le développement des composants principaux dans la [documentation destinée aux développeurs de composants principaux.](/help/developing/overview.md)
 
-Le composant d’image prend en charge les [microdonnées schéma.org.](https://schema.org)
+Le composant d’image prend en charge les [microdonnées schema.org.](https://schema.org)
 
 ## Boîte de dialogue de configuration {#configure-dialog}
 
-Le composant d’image de courrier électronique propose une boîte de dialogue de configuration dans laquelle l’image elle-même est définie, ainsi que sa description et ses propriétés de base.
+Le composant Image d’e-email comprend une boîte de dialogue de configuration, qui fournit la définition, la description ainsi que les propriétés de base de lʼimage.
 
 ### Onglet Contenu {#asset-tab}
 
-![Onglet Ressource de la boîte de dialogue de configuration du composant Image de courrier électronique](/help/email/assets/email-image-configure-asset.png)
+![Onglet Contenu de la boîte de dialogue de configuration du Composant Image d’e-mail](/help/email/assets/email-image-configure-asset.png)
 
 * **Hériter l’image en vedette de la page** : si vous cochez cette option, lʼ[image en vedette de la page liée](page.md) ou l’image de la page active si l’image n’est pas liée est utilisée.
 
@@ -91,33 +91,33 @@ Le composant d’image de courrier électronique propose une boîte de dialogue 
 * **Ressource image**
    * Déposez un fichier depuis l’[explorateur de ressources](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/fundamentals/environment-tools.html?lang=fr) ou appuyez sur l’option **parcourir** pour effectuer un téléchargement à partir d’un système de fichiers local.
    * Appuyez ou cliquez sur **Effacer** pour désélectionner l’image actuellement sélectionnée.
-   * Appuyez ou cliquez sur **Modifier** to [gestion des rendus de la ressource](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/manage/manage-digital-assets.html?lang=fr) dans l’Éditeur de ressources.
+   * Appuyez ou cliquez sur **Modifier** pour [gérer les rendus de la ressource](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/manage/manage-digital-assets.html?lang=fr) dans l’éditeur de ressources.
 
 * **Ne pas fournir de texte secondaire** : cette option marque lʼimage afin quʼelle soit ignorée par les technologies dʼassistance, comme les lecteurs dʼécran, dans les cas où lʼimage existe à des fins dʼillustration et ne comporte pas de signification particulière.
 
-* **Désactiver le chargement différé** - Cette option précharge tous les composants d’image sans les charger au besoin.
+* **Désactiver le chargement différé** : Cette option précharge tous les composants d’image sans les charger au besoin.
 
 ### Onglet Métadonnées {#metadata-tab}
 
 ![Onglet Métadonnées de la boîte de dialogue de configuration du composant Image](/help/email/assets/email-image-configure-metadata.png)
 
 * **Type de paramètre prédéfini** : définit les types de paramètres d’image prédéfinis disponibles, soit **Paramètre d’image prédéfini** ou **Recadrage intelligent** et n’est disponible que lorsque les [fonctionnalités de Dynamic Media](#dynamic-meida) sont activées.
-   * **Paramètre d’image prédéfini** - Lorsque **Type de paramètre prédéfini** de **Paramètre d’image prédéfini** est sélectionné, la liste déroulante **Paramètre d’image prédéfini** est disponible, ce qui permet de sélectionner les paramètres prédéfinis Dynamic Media disponibles. Cette option n’est disponible que si des paramètres prédéfinis sont définis pour la ressource sélectionnée.
-   * **Recadrage intelligent** - Lorsque **Type de paramètre prédéfini** de **Recadrage intelligent** est sélectionné dans la liste déroulante **Rendu** est disponible, ce qui permet de sélectionner les rendus disponibles de la ressource sélectionnée. Cette option n’est disponible que si des rendus sont définis pour la ressource sélectionnée.
-   * **Modificateurs d’image** - D’autres commandes de service d’images Dynamic Media peuvent être définies ici, séparées par des `&`, quelle que soit la **Type de paramètre prédéfini** est sélectionnée.
+   * **Paramètre d’image prédéfini** : lorsque **Type de paramètre prédéfini** dans **Paramètre d’image prédéfini** est sélectionné, la liste déroulante **Paramètre d’image prédéfini** est disponible, ce qui permet de sélectionner les paramètres prédéfinis Dynamic Media disponibles. Cette option n’est disponible que si des paramètres prédéfinis sont définis pour la ressource sélectionnée.
+   * **Recadrage intelligent** : lorsque **Type de paramètre prédéfini** dans **Recadrage intelligent** est sélectionné, la liste déroulante **Rendu** est disponible, ce qui permet de sélectionner les rendus disponibles de la ressource sélectionnée. Cette option n’est disponible que si des rendus sont définis pour la ressource sélectionnée.
+   * **Modificateurs d’images** : il est possible de définir ici d’autres commandes de traitement d’images Dynamic Media, séparées par des caractères `&`, quel que soit le **type de paramètre prédéfini** sélectionné.
 * **Légende** : des informations supplémentaires sur l’image sont affichées par défaut sous l’image.
-   * **Obtenir la légende à partir de DAM** : lorsque cette option est cochée, le texte de légende de l’image est renseigné avec la valeur des métadonnées `dc:title` dans DAM. Disponible uniquement lorsqu’une ressource est sélectionnée dans la gestion des ressources numériques.
+   * **Obtenir la légende à partir de DAM** : lorsque cette option est cochée, le texte de légende de l’image est renseigné avec la valeur des métadonnées `dc:title` dans la gestion des ressources numériques. Disponible uniquement lorsqu’une ressource est sélectionnée dans la gestion des ressources numériques.
    * **Afficher la légende dans une fenêtre contextuelle** : si cette option est activée, la légende ne s’affiche pas sous l’image, mais dans une fenêtre contextuelle, dans certains navigateurs, lorsque vous pointez sur l’image.
 * **Lien** : lier l’image à une autre ressource.
    * Utilisez la boîte de dialogue de sélection pour créer un lien vers une autre ressource AEM.
    * Si vous ne créez pas de lien vers une ressource AEM, saisissez l’URL absolue. Les URL non absolues seront interprétées comme relatives à AEM.
    * **Ouvrir le lien dans un nouvel onglet** : cette option ouvre le lien dans une nouvelle fenêtre du navigateur.
-* **ID** - Cette option permet de contrôler l’identifiant unique du composant dans le HTML.
+* **ID** : Cette option permet de contrôler l’identifiant unique du composant dans le HTML.
    * Si rien n’est indiqué, un ID unique est généré automatiquement et peut être trouvé en examinant la page obtenue.
    * Si un ID est spécifié, il incombe à l’auteur de s’assurer qu’il est unique.
    * La modification de l’ID peut avoir un impact sur CSS.
-* **Corrigé en** - Cette option définit la largeur en pixels de l’image.
-* **Mettre l’image à l’échelle en fonction de la largeur disponible** - Cette option s’applique `"width":"100%"` à l’attribut de style d’image.
+* **Largeur** : Cette option définit la largeur en pixels de l’image.
+* **Mettre l’image à l’échelle en fonction de la largeur disponible** : Cette option applique `"width":"100%"` à l’attribut de style de l’image.
 
 >[!TIP]
 >
@@ -125,13 +125,13 @@ Le composant d’image de courrier électronique propose une boîte de dialogue 
 
 ### Onglet Styles {#styles-tab-edit}
 
-![Onglet Styles de la boîte de dialogue de modification du composant Image d’email](/help/assets/image-configure-styles.png)
+![Onglet Styles de la boîte de dialogue de modification du composant Image d’e-mail](/help/assets/image-configure-styles.png)
 
-Le composant Image de courrier électronique prend en charge l’AEM [Système de style.](/help/get-started/authoring.md#component-styling)
+Le composant Image d’e-mail prend en charge le [système de style](/help/get-started/authoring.md#component-styling) AEM.
 
 Utilisez la liste déroulante pour sélectionner les styles à appliquer au composant. Les sélections effectuées dans la boîte de dialogue de modification ou dans la barre d’outils du composant ont le même effet.
 
-Les styles doivent être configurés pour ce composant dans la variable [boîte de dialogue de conception](#design-dialog) pour que l’onglet soit disponible.
+Pour accéder à l’onglet, les styles doivent être configurés pour ce composant dans la [boîte de dialogue de conception](#design-dialog).
 
 ## Boîte de dialogue de conception {#design-dialog}
 
@@ -143,7 +143,7 @@ Les styles doivent être configurés pour ce composant dans la variable [boîte 
    * Dynamic Media doit être activé dans l’environnement pour que cette option apparaisse.
 * **Activer les images optimisées pour le web** : lorsque cette case est cochée, [le service de diffusion d’images optimisées pour le web](/help/developing/web-optimized-image-delivery.md) ; diffusera les images au format WebP, réduisant ainsi la taille moyenne des images de 25 %.
    * Cette option est disponible uniquement dans AEMaaCS.
-   * Si cette option est décochée ou si le service de diffusion d’images optimisé pour le web n’est pas disponible, la variable [Servlet d’image adaptative](/help/developing/adaptive-image-servlet.md) est utilisée.
+   * Lorsque cette option est décochée ou que le service de diffusion d’images optimisées pour le web n’est pas disponible, le [Servlet Image adaptative](/help/developing/adaptive-image-servlet.md) est utilisé.
 * **L’image est décorative** : définissez si l’option d’image décorative est activée automatiquement lors de l’ajout du composant d’image à une page.
 * **Obtenir un texte alternatif à partir de DAM** : définissez si l’option permettant de récupérer le texte de remplacement de DAM est automatiquement activée lors de l’ajout du composant d’image à une page.
 * **Obtenir la légende à partir de DAM** : définissez si l’option permettant de récupérer la légende à partir de DAM est automatiquement activée lors de l’ajout du composant d’image à une page.
@@ -153,7 +153,7 @@ Les styles doivent être configurés pour ce composant dans la variable [boîte 
    * Si la valeur est supérieure à la largeur de l’image, cette valeur nʼa aucun effet.
    * Cette valeur n’a aucun effet sur les images au format SVG.
 
-Vous pouvez définir une liste de largeurs en pixels pour l’image, le composant chargera alors automatiquement la largeur la plus appropriée en fonction de la taille du navigateur. Il s’agit d’une partie importante de la [fonctionnalités réactives](#responsive-features) du composant Image de courrier électronique.
+Vous pouvez définir une liste de largeurs en pixels pour l’image, le composant chargera alors automatiquement la largeur la plus appropriée en fonction de la taille du navigateur. Il s’agit d’une partie importante des [fonctions réactives](#responsive-features) du composant Image d’e-mail.
 
 * **Largeurs** : définit une liste de largeurs en pixels pour l’image ; le composant charge automatiquement la largeur la plus appropriée en fonction de la taille du navigateur.
    * Appuyez ou cliquez sur le bouton **Ajouter** pour ajouter une autre taille.
@@ -162,7 +162,7 @@ Vous pouvez définir une liste de largeurs en pixels pour l’image, le composan
    * Par défaut, le chargement des images est différé jusqu’à ce qu’elles deviennent visibles.
       * Sélectionnez l’option **Désactiver le chargement différé** pour charger les images au chargement de la page.
 * **Qualité JPEG** : facteur de qualité (exprimé par un pourcentage entre 0 et 100) pour les images JPEG transformées (mises à l’échelle ou recadrées, par exemple).
-* **Largeur par défaut** - Largeur par défaut des images, exprimée en pixels, qui sera utilisée dans la boîte de dialogue de conception
+* **Largeur par défaut** : La largeur par défaut des images, exprimée en pixels, qui sera utilisée dans la boîte de dialogue de conception
 
 >[!TIP]
 >
@@ -170,4 +170,4 @@ Vous pouvez définir une liste de largeurs en pixels pour l’image, le composan
 
 ### Onglet Styles {#styles-tab}
 
-Le composant Image de courrier électronique prend en charge l’AEM [Système de style](/help/get-started/authoring.md#component-styling).
+Le composant Image d’e-mail prend en charge le [système de style](/help/get-started/authoring.md#component-styling) AEM.
