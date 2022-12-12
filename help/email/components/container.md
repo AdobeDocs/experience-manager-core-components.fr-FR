@@ -4,7 +4,7 @@ description: Le composant Conteneur d’e-mail permet la création d’un conten
 role: Architect, Developer, Admin, User
 exl-id: 3b271e95-0093-4cb1-bb83-8446ba12a821
 source-git-commit: 33976c0e745ad091a142109f70541f01a31edc5b
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '835'
 ht-degree: 100%
 
@@ -85,7 +85,7 @@ L’onglet **Composants autorisés** fonctionne de la même manière que l’ong
 
 ### Onglet Composants par défaut {#default-components-tab}
 
-L’onglet **Composants par défaut** permet de définir quel composant est ajouté au composant lorsqu’un type de ressource particulier est déposé sur le conteneur, comme [la définition des composants par défaut sur le modèle de page.](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/features/templates.html?lang=fr)
+L’onglet **Composants par défaut** permet de définir quel composant est ajouté au composant lorsqu’un type de ressource particulier est déposé sur le conteneur, comme [la définition des composants par défaut sur le modèle de page.](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/features/templates.html)
 
 ### Onglet Paramètres de conteneur {#container-settings-tab}
 

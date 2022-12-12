@@ -4,8 +4,8 @@ description: Le composant Texte d’e-mail est un composant d’édition et de c
 role: Architect, Developer, Admin, User
 exl-id: 4aa192f6-8314-40e7-8732-c6626d647986
 source-git-commit: 33976c0e745ad091a142109f70541f01a31edc5b
-workflow-type: ht
-source-wordcount: '0'
+workflow-type: tm+mt
+source-wordcount: '2328'
 ht-degree: 100%
 
 ---
@@ -52,7 +52,7 @@ Le reste de ce document illustre la configuration standard du composant Texte d�
 
 >[!NOTE]
 >
->Seules les options activées par les [configurations de l’interface utilisateur de l’éditeur de texte enrichi](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/configuring-and-extending/configure-rich-text-editor-plug-ins.html?lang=fr) sont disponibles dans le composant Texte d’e-mail.
+>Seules les options activées par les [configurations de l’interface utilisateur de l’éditeur de texte enrichi](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/configuring-and-extending/configure-rich-text-editor-plug-ins.html) sont disponibles dans le composant Texte d’e-mail.
 
 ## Boîte de dialogue de modification {#edit-dialog}
 
@@ -284,7 +284,7 @@ Utilisé pour aligner une image insérée.
 
 Permet de vérifier l’orthographe du contenu du texte. Les fautes de frappe possibles sont soulignées avec des lignes rouges rompues.
 
-Vous trouverez plus d’informations sur la vérification orthographique et la personnalisation des dictionnaires orthographiques dans le document [Configuration des modules de l’éditeur de texte enrichi](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/configuring-and-extending/configure-rich-text-editor-plug-ins.html?lang=fr).
+Vous trouverez plus d’informations sur la vérification orthographique et la personnalisation des dictionnaires orthographiques dans le document [Configuration des modules de l’éditeur de texte enrichi](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/configuring-and-extending/configure-rich-text-editor-plug-ins.html).
 
 #### Caractères spéciaux {#special-characters}
 

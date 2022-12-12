@@ -4,7 +4,7 @@ description: Le composant de fragment de contenu d’e-mail permet d’afficher 
 role: Architect, Developer, Admin, User
 exl-id: 9bc6b730-0d2a-4e5b-891c-d2f67f600bcc
 source-git-commit: 33976c0e745ad091a142109f70541f01a31edc5b
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '668'
 ht-degree: 100%
 
@@ -17,7 +17,7 @@ Le composant de fragment de contenu d’e-mail permet d’afficher un [fragment 
 
 ## Utilisation {#usage}
 
-Le composant de fragment de contenu d’e-mail permet d’inclure un [fragment de contenu](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/content-fragments/content-fragments.html?lang=fr) dans le contenu de votre e-mail. Les fragments de contenu sont du contenu structuré multicanal qui peut être créé de manière centralisée et facilement réutilisé.
+Le composant de fragment de contenu d’e-mail permet d’inclure un [fragment de contenu](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/content-fragments/content-fragments.html) dans le contenu de votre e-mail. Les fragments de contenu sont du contenu structuré multicanal qui peut être créé de manière centralisée et facilement réutilisé.
 
 * Le fragment et ses propriétés peuvent être sélectionnés dans la [boîte de dialogue de configuration](#configure-dialog).
 * Les types de ressources qui permettent de gérer certaines images et grilles peuvent être définis dans la [boîte de dialogue de conception](#design-dialog).
