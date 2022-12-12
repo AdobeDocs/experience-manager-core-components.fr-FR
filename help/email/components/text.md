@@ -1,30 +1,30 @@
 ---
-title: Composant Texte par email
-description: Le composant Texte de l’email est un composant d’édition et de composition de texte enrichi qui propose une édition statique.
+title: Composant Texte d’e-mail
+description: Le composant Texte d’e-mail est un composant d’édition et de composition de texte enrichi qui propose une édition statique.
 role: Architect, Developer, Admin, User
 exl-id: 4aa192f6-8314-40e7-8732-c6626d647986
 source-git-commit: 33976c0e745ad091a142109f70541f01a31edc5b
-workflow-type: tm+mt
-source-wordcount: '2328'
-ht-degree: 73%
+workflow-type: ht
+source-wordcount: '0'
+ht-degree: 100%
 
 ---
 
 
-# Composant Texte par email {#email-text-component}
+# Composant Texte d’e-mail {#email-text-component}
 
-Le composant Texte de l’email est un composant d’édition et de composition de texte enrichi qui propose une édition statique.
+Le composant Texte d’e-mail est un composant d’édition et de composition de texte enrichi qui propose une édition statique.
 
 ## Utilisation {#usage}
 
-Le composant Texte de l’email propose un puissant éditeur de texte enrichi qui permet de modifier facilement du texte dans un éditeur en ligne simplifié, ainsi qu’un format plein écran.
+Le composant Texte d’e-mail propose un puissant éditeur de texte enrichi qui permet d’apporter facilement des modifications de texte dans un éditeur en ligne simplifié, ainsi qu’un format plein écran.
 
 * La [boîte de dialogue de modification](#edit-dialog) permet de modifier en ligne les options limitées avec des fonctionnalités complètes disponibles dans la boîte de dialogue de modification en plein écran.
-* En utilisant la variable [boîte de dialogue de conception,](#design-dialog) Les options de mise en forme de texte telles que les en-têtes, les caractères spéciaux et les styles de paragraphe peuvent être configurées pour le modèle de l’auteur du contenu.
+* À l’aide de la [boîte de dialogue de conception](#design-dialog), les options de formatage de texte telles que les en-têtes, les caractères spéciaux et les styles de paragraphe peuvent être configurées pour le modèle de l’auteur de contenu.
 
 ## Version et compatibilité {#version-and-compatibility}
 
-La version actuelle du composant de texte d’email est v1, qui a été introduite avec la version X des composants principaux d’email en octobre 2022. Elle est décrite dans ce document.
+La version actuelle du composant Texte d’e-mail est v1. Celle-ci a été introduite avec la version X des composants principaux d’e-mail en octobre 2022. Elle est décrite dans ce document.
 
 Le tableau ci-après présente en détail toutes les versions prises en charge du composant, les versions AEM avec lesquelles les versions du composant sont compatibles et les liens vers la documentation pour les versions précédentes.
 
@@ -32,7 +32,7 @@ Le tableau ci-après présente en détail toutes les versions prises en charge d
 |---|---|---|
 | v1 | Compatible | Compatible |
 
-Pour plus d’informations sur les versions et versions des composants principaux, consultez le document . [Envoi des versions des composants principaux par courrier électronique.](/help/email/versions.md)
+Pour plus d’informations sur les versions et les publications des composants principaux, voir le document sur les [versions des composants principaux d’e-mail.](/help/email/versions.md)
 
 ## Exemple de sortie de composant {#sample-component-output}
 
@@ -40,19 +40,19 @@ Pour tester le composant de texte et obtenir des exemples d’options de configu
 
 ### Détails techniques {#technical-details}
 
-Documentation technique la plus récente sur le composant Texte de l’email [se trouve sur GitHub](https://adobe.com/go/aem_cmp_tech_email_text_v1).
+La documentation technique la plus récente sur le composant Texte d’e-mail [se trouve sur GitHub](https://adobe.com/go/aem_cmp_tech_email_text_v1).
 
 Vous trouverez plus d’informations sur le développement des composants principaux dans la [documentation destinée aux développeurs de composants principaux](/help/developing/overview.md).
 
-## Composant Texte de l’email et éditeur de texte enrichi {#the-text-component-and-the-rich-text-editor}
+## Composant Texte d’e-mail et Éditeur de texte enrichi {#the-text-component-and-the-rich-text-editor}
 
-Le composant Texte de l’e-mail tire parti de l’éditeur de texte enrichi AEM (RTE). L’éditeur de texte enrichi met à la disposition des auteurs de nombreuses fonctionnalités pour modifier leur contenu textuel. L’éditeur de texte enrichi est flexible dans sa configuration et offre plusieurs options. Vous trouverez plus d’informations sur la configuration de l’éditeur de texte enrichi dans les articles [Configuration de l’éditeur de texte enrichi](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/configuring-and-extending/rich-text-editor.html?lang=fr) et [Configuration des modules externes de l’éditeur de texte enrichi](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/configuring-and-extending/configure-rich-text-editor-plug-ins.html?lang=fr).
+Le composant Texte d’e-mail tire parti de l’éditeur de texte enrichi (RTE) AEM. L’éditeur de texte enrichi met à la disposition des auteurs de nombreuses fonctionnalités pour modifier leur contenu textuel. L’éditeur de texte enrichi est très flexible dans sa configuration et offre plusieurs options. Vous trouverez plus d’informations sur la configuration de l’éditeur de texte enrichi dans les articles [Configuration de l’éditeur de texte enrichi](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/configuring-and-extending/rich-text-editor.html?lang=fr) et [Configuration des modules externes d’éditeur de texte enrichi](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/configuring-and-extending/configure-rich-text-editor-plug-ins.html?lang=fr).
 
-Le reste de ce document présente la configuration standard du composant de texte d’email avec la configuration prête à l’emploi de l’éditeur de texte enrichi.
+Le reste de ce document illustre la configuration standard du composant Texte d’e-mail avec la configuration prête à l’emploi de l’éditeur de texte enrichi.
 
 >[!NOTE]
 >
->Seules les options activées par [Configurations de l’interface utilisateur de l’éditeur de texte enrichi](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/configuring-and-extending/configure-rich-text-editor-plug-ins.html) sont disponibles dans le composant Texte de l’email .
+>Seules les options activées par les [configurations de l’interface utilisateur de l’éditeur de texte enrichi](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/configuring-and-extending/configure-rich-text-editor-plug-ins.html?lang=fr) sont disponibles dans le composant Texte d’e-mail.
 
 ## Boîte de dialogue de modification {#edit-dialog}
 
@@ -60,7 +60,7 @@ Le reste de ce document présente la configuration standard du composant de text
 
 ### Options de formatage {#options}
 
-La boîte de dialogue de modification propose les outils de mise en forme de texte enrichi standard qu’un utilisateur s’attend à utiliser pour composer du texte.
+La boîte de dialogue de modification propose les outils de formatage de texte standard et enrichis auxquels un utilisateur s’attend pour composer du texte.
 
 #### Gras
 
@@ -104,7 +104,7 @@ Utilisé pour mettre en forme le texte ou le texte sélectionné après le curse
 
 Colle le texte copié en tant que texte brut sans mise en forme.
 
-Lorsque vous sélectionnez cette option, une fenêtre s’ouvre dans laquelle le texte peut être collé en tant que texte brut sans formatage en tant qu’aperçu avant d’être inséré dans le texte. Acceptez en appuyant ou en cliquant sur la coche, annulez en appuyant ou en cliquant sur le x.
+Lorsque vous sélectionnez cette option, vous ouvrez une fenêtre dans laquelle vous pouvez coller le texte en tant que texte brut sans formatage, à titre d’aperçu avant de l’insérer dans le texte. Acceptez en appuyant ou en cliquant sur la coche, annulez en appuyant ou en cliquant sur le x.
 
 ![Exemple de collage en tant que texte](/help/assets/text-paste-text-example.png)
 
@@ -112,7 +112,7 @@ Lorsque vous sélectionnez cette option, une fenêtre s’ouvre dans laquelle le
 
 ![Icône Coller à partir de Word](/help/assets/text-paste-word.png)
 
-Lorsque vous sélectionnez cette option, une fenêtre s’ouvre dans laquelle le texte peut être collé en conservant sa mise en forme en tant qu’aperçu avant d’être inséré dans le texte. Acceptez en appuyant ou en cliquant sur la coche, annulez en appuyant ou en cliquant sur le x.
+Lorsque vous sélectionnez cette option, vous ouvrez une fenêtre dans laquelle vous pouvez coller le texte tout en conservant sa mise en forme, à titre d’aperçu avant de l’insérer dans le texte. Acceptez en appuyant ou en cliquant sur la coche, annulez en appuyant ou en cliquant sur le x.
 
 ![Exemple de collage à partir de Word](/help/assets/text-paste-word-example.png)
 
@@ -120,12 +120,12 @@ Lorsque vous sélectionnez cette option, une fenêtre s’ouvre dans laquelle le
 
 ![Icône Hyperlien](/help/assets/text-hyperlink.png)
 
-Utilisez cette option pour convertir le texte sélectionné en hyperlien ou modifier un lien déjà défini. Cette option ouvre une fenêtre avec des options supplémentaires pour définir le lien.
+Utilisez cette option pour convertir le texte sélectionné en hyperlien ou modifier un lien déjà défini. Cette option ouvre une fenêtre offrant des options supplémentaires pour définir le lien.
 
 ![Exemple d’hyperlien](/help/assets/text-hyperlink-example.png)
 
 * Entrez le chemin.
-   * Utilisez la variable **Ouvrir la sélection** pour choisir un chemin dans AEM
+   * Utilisez la boîte de dialogue **Ouvrir la sélection** pour choisir un chemin dans AEM.
    * Si le lien ne se trouve pas dans AEM, saisissez l’URL absolue.
       * Les chemins non absolus sont interprétés comme relatifs à AEM.
 * Saisissez un autre texte descriptif pour le lien.
@@ -182,13 +182,13 @@ Entrez le texte à rechercher ainsi que le texte avec lequel le remplacer.
 * Si vous souhaitez effectuer une correspondance exacte, sélectionnez l’option **Respecter la casse** avant de lancer la recherche.
 * Sélectionnez **Tout remplacer** pour remplacer toutes les occurrences du texte à la fois.
 
-Si une correspondance est trouvée, elle est mise en surbrillance et le dialogue de recherche est grisé. Cliquez à nouveau sur le bouton **Rechercher** dans la boîte de dialogue grisée pour rechercher l’occurrence suivante ou sélectionner le bouton **Remplacer** pour remplacer le texte mis en surbrillance. Le **Remplacer** n’est principal qu’une fois qu’une correspondance est trouvée.
+Si une correspondance est trouvée, elle est mise en surbrillance et le dialogue de recherche est grisé. Cliquez à nouveau sur le bouton **Rechercher** dans la boîte de dialogue grisée pour rechercher l’occurrence suivante ou sélectionner le bouton **Remplacer** pour remplacer le texte mis en surbrillance. Notez que le bouton **Remplacer** n’est actif que lorsqu’une correspondance est trouvée.
 
 La boîte de dialogue de recherche et de remplacement devient transparente lorsque l’utilisateur clique sur Rechercher et devient opaque lorsque l’utilisateur clique sur Remplacer. Cela permet à l’auteur de vérifier le texte qui sera remplacé.
 
 >[!NOTE]
 >
->Lors de l’utilisation de la fonctionnalité de remplacement, la chaîne à remplacer doit être saisie en même temps que la chaîne à rechercher. Cependant, vous pouvez toujours cliquer sur Rechercher pour rechercher la chaîne avant de la remplacer. Si la chaîne de remplacement est saisie après avoir cliqué sur Rechercher, la recherche est réinitialisée au début du texte.
+>Lors de l’utilisation de la fonctionnalité de remplacement, la chaîne à remplacer doit être saisie en même temps que la chaîne à trouver. Cependant, vous pouvez toujours cliquer sur Rechercher pour rechercher la chaîne avant de la remplacer. Si la chaîne de remplacement est saisie après avoir cliqué sur Rechercher, la recherche est réinitialisée au début du texte.
 
 #### Annuler
 
@@ -200,7 +200,7 @@ Permet d’annuler la dernière modification dans l’éditeur de texte enrichi.
 
 ![Icône Rétablir](/help/email/assets/redo.png)
 
-Permet d’annuler une modification annulée à l’aide de l’icône Annuler .
+Permet d’annuler une modification annulée à l’aide de l’icône Annuler.
 
 #### Aligner le texte à gauche
 
@@ -269,7 +269,7 @@ Utilisé pour insérer un tableau dans le texte. Cette option permet d’ouvrir 
       * La première ligne doit être utilisée
       * La première colonne doit être utilisée
       * La première ligne et la première colonne doivent être utilisées
-      * Ou aucun en-tête ne doit être utilisé.
+      * Ou aucun en-tête ne doit être utilisé
 * **Légende** : Légende du tableau.
 
 #### Image
@@ -284,7 +284,7 @@ Utilisé pour aligner une image insérée.
 
 Permet de vérifier l’orthographe du contenu du texte. Les fautes de frappe possibles sont soulignées avec des lignes rouges rompues.
 
-Vous trouverez plus d’informations sur la vérification orthographique et la personnalisation des dictionnaires orthographiques dans le document [Configuration des modules de l’éditeur de texte enrichi](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/configuring-and-extending/configure-rich-text-editor-plug-ins.html).
+Vous trouverez plus d’informations sur la vérification orthographique et la personnalisation des dictionnaires orthographiques dans le document [Configuration des modules de l’éditeur de texte enrichi](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/configuring-and-extending/configure-rich-text-editor-plug-ins.html?lang=fr).
 
 #### Caractères spéciaux {#special-characters}
 
@@ -318,7 +318,7 @@ Appuyez ou cliquez sur l’icône **Modifier la source** pour modifier le conten
 
 ![Icône Format de paragraphe](/help/assets/text-paragraph.png)
 
-Utilisé pour appliquer le formatage des paragraphes au texte sélectionné ou au texte inséré après le curseur. Cette option ouvre une liste déroulante à partir de laquelle le format de paragraphe est sélectionné.
+Utilisé pour appliquer le formatage des paragraphes au texte sélectionné ou au texte inséré après le curseur. La sélection de cette option ouvre une liste déroulante à partir de laquelle le format de paragraphe est sélectionné.
 
 ![Exemple de format de paragraphe](/help/assets/text-paragraph-example.png)
 
@@ -326,25 +326,25 @@ Utilisé pour appliquer le formatage des paragraphes au texte sélectionné ou a
 
 ![Icône Sélectionner la variable Adobe Campaign](/help/email/assets/select-adobe-campaign-variable-icon.png)
 
-Ouvre la [Sélectionner la variable Adobe Campaign](/help/email/campaign-variables.md) pour insérer du contenu dynamique depuis Adobe Campaign.
+Ouvre la boîte de dialogue [Sélectionner la variable Adobe Campaign](/help/email/campaign-variables.md) pour insérer du contenu dynamique depuis Adobe Campaign.
 
 ### Modification en ligne {#in-line-editing}
 
-Le composant de texte peut également être modifié en ligne. Pour modifier en ligne, sélectionnez le composant Texte de l’email sur la page de contenu.
+Le composant de texte peut également être modifié en ligne. Pour modifier en ligne, sélectionnez le composant Texte d’e-mail sur la page de contenu.
 
-![Sélectionner le composant Texte de l’email](/help/email/assets/email-text-select-component.png)
+![Sélectionner le composant Texte d’e-mail](/help/email/assets/email-text-select-component.png)
 
-Ensuite, appuyez ou cliquez sur le bouton **Modifier** dans la barre d’outils qui s’affiche au-dessus du composant. La barre d’outils se modifie pour afficher des options de mise en forme de texte limitées (y compris l’accès à **Sélectionner la variable Adobe Campaign** ) et vous pouvez modifier le texte en ligne.
+Ensuite, appuyez ou cliquez sur l’icône **Modifier** dans la barre d’outils qui apparaît au-dessus du composant. La barre d’outils se modifie pour afficher des options de formatage limitées (y compris l’accès à l’option **Sélectionner la variable Adobe Campaign**) et vous pouvez modifier le texte en ligne.
 
 ![Exemple de modification en ligne](/help/email/assets/email-text-edit-inline-example.png)
 
-Appuyez ou cliquez sur la coche dans la barre d’outils pour enregistrer vos modifications ou sur le X à ignorer.
+Appuyez ou cliquez sur la coche dans la barre d’outils pour enregistrer vos modifications ou sur le X pour ignorer.
 
-En raison des contraintes d’espace, toutes les options de formatage ne sont pas disponibles en ligne. Pour afficher toutes les options, passez en mode plein écran.
+En raison des contraintes d’espace, les options de formatage ne sont pas toutes disponibles en ligne. Pour afficher toutes les options, passez en mode plein écran.
 
 ### Définition d’un ID {#setting-id}
 
-Cette option permet de contrôler l’identifiant unique du composant dans le fichier HTM.
+Cette option permet de contrôler l’identifiant unique du composant dans le HTM.
 
 * Si rien n’est indiqué, un ID unique est généré automatiquement et peut être trouvé en examinant la page obtenue.
 * Si un ID est spécifié, il incombe à l’auteur de s’assurer qu’il est unique.
@@ -354,9 +354,9 @@ Cette option permet de contrôler l’identifiant unique du composant dans le fi
 
 La boîte de dialogue de conception permet à l’auteur du modèle de définir quelles options de formatage de texte sont disponibles pour les auteurs de contenu.
 
-### Onglet Plugins {#plugins-tab}
+### Onglet Modules externes {#plugins-tab}
 
-Le **Modules externes** sert à activer et désactiver diverses options de formatage de texte disponibles pour les auteurs de contenu.
+L’onglet **Modules externes** permet d’activer et de désactiver diverses options de formatage de texte disponibles pour les auteurs de contenu.
 
 ### Fonctions {#features}
 
@@ -393,8 +393,8 @@ Les styles de paragraphe peuvent être activés ou désactivés pour le composan
 
 * Appuyez ou cliquez sur le bouton **Ajouter** pour insérer un nouveau style.
 * Entrez le code du style et une description qui s’affichera dans la boîte de dialogue de modification.
-* Pour supprimer un style, appuyez ou cliquez sur le bouton **Supprimer** bouton .
-* Pour réorganiser l’ordre des formats, appuyez ou cliquez dessus et faites glisser les poignées.
+* Pour supprimer un style, appuyez ou cliquez sur le bouton **Supprimer**.
+* Pour réorganiser l’ordre des formats, appuyez ou cliquez sur les poignées et faites-les glisser.
 
 ### Caractères spéciaux {#configuring-special-characters}
 
@@ -404,9 +404,9 @@ L’option permettant d’insérer des caractères spéciaux peut être activée
 
 * Appuyez ou cliquez sur le bouton **Ajouter** pour insérer un nouveau caractère.
 * Entrez le code HTML du caractère et une description qui s’afficheront dans la boîte de dialogue de modification.
-* Pour supprimer un caractère, appuyez ou cliquez sur le bouton **Supprimer** bouton .
-* Pour réorganiser l’ordre des caractères, appuyez ou cliquez et faites glisser les poignées.
+* Pour supprimer un caractère, appuyez ou cliquez sur le bouton **Supprimer**.
+* Pour réorganiser l’ordre des caractères, appuyez ou cliquez sur les poignées et faites-les glisser.
 
 ## Onglet Styles {#styles-tab}
 
-Le composant Texte de l’e-mail prend en charge l’AEM [système de style](/help/get-started/authoring.md#component-styling).
+Le composant Texte d’e-mail prend en charge le [système de style](/help/get-started/authoring.md#component-styling) AEM.
