@@ -1,22 +1,22 @@
 ---
 title: Composant d’image
-description: Le composant d’image des composants principaux est un composant d’image adaptative.
+description: Le composant Image des composants principaux est un composant d’image adaptatif.
 role: Architect, Developer, Admin, User
 exl-id: c5e57f4b-139f-40e7-8d79-be9a74360b63
 source-git-commit: f0971db66cbbf8221c12cedf108eee3bca8a527a
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1678'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
 # Composant d’image {#image-component}
 
-Le composant d’image des composants principaux est un composant d’image adaptative.
+Le composant Image des composants principaux est un composant d’image adaptatif.
 
 ## Utilisation {#usage}
 
-Le composant d’image comprend une sélection d’images adaptatives et un comportement réactif avec chargement différé pour le visiteur de la page, ainsi qu’un positionnement facile des images pour l’auteur du contenu.
+Le composant d’image comprend une sélection d’images adaptatives et un comportement réactif avec chargement différé pour le visiteur de la page, ainsi qu’un placement facile des images pour le créateur de contenu.
 
 Les largeurs d’image et les paramètres supplémentaires peuvent être définis par l’auteur du modèle dans la [boîte de dialogue de conception](#design-dialog). L’éditeur de contenu peut charger ou sélectionner des ressources dans la [boîte de dialogue de configuration.](#configure-dialog)
 
