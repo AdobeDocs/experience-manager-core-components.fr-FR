@@ -4,9 +4,9 @@ description: Découvrez l’installation, la configuration et l’utilisation de
 role: Architect, Developer, Admin, User
 exl-id: 0e79ca8f-eb0a-4519-b1e8-a9d3b0b99987
 source-git-commit: 33976c0e745ad091a142109f70541f01a31edc5b
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '653'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -21,7 +21,7 @@ Les composants principaux d’e-mail peuvent être utilisés avec AEM 6.5. Voir 
 
 ### Installer les composants principaux {#core-components}
 
-Les composants principaux d’e-mail sont créés sur les composants principaux d’AEM. Comme les composants principaux ne sont pas fournis avec AEM 6.5, vous devez d’abord installer les composants principaux AEM avant d’installer les composants principaux du courrier électronique.
+Les composants principaux d’e-mail sont créés sur les composants principaux d’AEM. Comme les composants principaux ne sont pas fournis avec AEM 6.5, vous devez d’abord installer les composants principaux AEM avant d’installer les composants principaux d’e-mail.
 
 Consultez la section [Téléchargement et installation](/help/get-started/using.md#download-and-install) du document Utilisation des composants principaux pour plus d’informations sur l’installation des composants principaux.
 
@@ -74,8 +74,8 @@ Une fois les composants d’e-mail installés et l’intégration à Adobe Campa
 | 3 | Les créateurs utilisent l’[éditeur de page](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/sites/authoring/fundamentals/editing-content.html?lang=fr) pour créer du contenu d’e-mail à l’aide de l’éditeur de texte dans lequel ils peuvent sélectionner des variables Adobe Campaign et utiliser le composant Segmentation pour afficher sous condition les informations si le destinataire répond à certains critères. | AEM |
 | 4 | Une fois le contenu de l’e-mail terminé, [un workflow est exécuté](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/sites/authoring/workflows/overview.html?lang=fr) pour approuver le contenu et l’envoyer à Campaign. | AEM |
 | 5 | Une diffusion est créée, définissant une liste de destinataires. | Campaign |
-| 6 | Le contenu créé dans AEM est sélectionné comme contenu de la diffusion. | Campagne |
-| 7 | Le contenu est envoyé aux destinataires, et remplace les variables Adobe Campaign par les informations personnalisées des destinataires. | Campagne |
+| 6 | Le contenu créé dans AEM est sélectionné comme contenu de la diffusion. | Campaign |
+| 7 | Le contenu est envoyé aux destinataires, et remplace les variables Adobe Campaign par les informations personnalisées des destinataires. | Campaign |
 
 Pour obtenir un exemple de création de contenu d’e-mail dans AEM et de diffusion dans Adobe Campaign, reportez-vous aux ressources suivantes.
 
