@@ -4,9 +4,9 @@ description: Obtenez des solutions aux problèmes grâce aux composants principa
 role: Architect, Developer, Admin, User
 exl-id: d294db22-4cb0-48a4-9366-03fda5b8bb8e
 source-git-commit: 5431b57727ca5b9518cb80f620cffd0c31ef2f2d
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '967'
-ht-degree: 91%
+ht-degree: 100%
 
 ---
 
@@ -31,7 +31,7 @@ Les composants principaux sont un ensemble de composants WCM (Web Content Manage
 
 |  |  |
 |---|---|
-| Prêts pour la production | Les composants principaux sont 30 composants WCM robustes, bien testés, largement utilisés et performants. |
+| Prêts pour la production | Les composants principaux sont 30 composants de gestion de contenu web robustes, bien testés, largement utilisés et performants. |
 | Prêts pour le cloud | Ils fonctionnent aussi bien sur [AEM as a Cloud Service](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/landing/home.html?lang=fr) que sur [Adobe Managed Services](https://github.com/adobe/aem-project-archetype/tree/master/src/main/archetype/dispatcher.ams) ou On-Premise. |
 | Polyvalents | Les composants représentent des concepts génériques avec lesquels les auteurs peuvent assembler pratiquement n’importe quelle disposition. |
 | Configurables | Des [stratégies de contenu](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/implementing/developing/full-stack/components-templates/templates.html?lang=fr#content-policies) au niveau du modèle définissent les fonctionnalités que les auteurs de pages peuvent ou non utiliser. |
@@ -47,7 +47,7 @@ Les composants principaux sont un ensemble de composants WCM (Web Content Manage
 | Localisables | La résolution intelligente des références permet à certains composants de rechercher le contenu localisé correspondant et d’en [effectuer automatiquement le rendu](get-started/localization.md). |
 | Open source | Si quelque chose ne va pas, [contribuez en apportant vos améliorations.](https://github.com/adobe/aem-core-wcm-components/blob/master/CONTRIBUTING.md) |
 
-## Composants WCM {#the-wcm-components}
+## Composants de gestion de contenu web {#the-wcm-components}
 
 La version actuelle des composants principaux comporte les composants ci-après :
 
@@ -117,7 +117,7 @@ Pour connaître les exigences des versions précédentes des composants principa
 
 Les composants principaux nécessitent l’utilisation de [modèles modifiables](https://experienceleague.adobe.com/docs/experience-manager-learn/sites/page-authoring/template-editor-feature-video-use.html?lang=fr) et ne prennent pas en charge l’interface utilisateur classique ni les modèles statiques. Si nécessaire, consultez les [outils de modernisation d’AEM](https://opensource.adobe.com/aem-modernize-tools/pages/tools.html) pour mettre à jour votre projet avec ces fonctionnalités modernes d’AEM.
 
-Pour configurer votre environnement de développement local, consultez [cette présentation pour AEM SDK as a Cloud Service](https://experienceleague.adobe.com/docs/experience-manager-learn/cloud-service/local-development-environment-set-up/overview.html?lang=fr) ou ce document [pour les versions plus anciennes d’AEM](https://experienceleague.adobe.com/docs/experience-manager-learn/foundation/development/set-up-a-local-aem-development-environment.html?lang=fr).
+Pour configurer votre environnement de développement local, consultez [cet aperçu du SDK d’AEM as a Cloud Service](https://experienceleague.adobe.com/docs/experience-manager-learn/cloud-service/local-development-environment-set-up/overview.html?lang=fr) ou ce document [pour les versions plus anciennes d’AEM](https://experienceleague.adobe.com/docs/experience-manager-learn/foundation/development/set-up-a-local-aem-development-environment.html?lang=fr).
 
 >[!TIP]
 >
@@ -127,6 +127,6 @@ Pour configurer votre environnement de développement local, consultez [cette pr
 
 ## Autres composants {#other-components}
 
-D’autres composants sont disponibles pour les auteurs d’AEM, qui sont construits sur les composants principaux.
+D’autres composants basés sur les composants principaux sont disponibles pour les auteurs AEM.
 
-* [Composants principaux de l’e-mail](/help/email/introduction.md) - Découvrez les composants conçus sur les composants principaux spécifiquement destinés à être utilisés avec Adobe Campaign.
+* [Composants principaux d’e-mail](/help/email/introduction.md) - Découvrez les composants conçus sur les composants principaux spécifiquement destinés à être utilisés avec Adobe Campaign.
