@@ -1,58 +1,58 @@
 ---
-title: Présentation des composants principaux du courrier électronique
-description: Créez un contenu d’email attrayant à l’aide de la flexibilité des composants principaux d’email et diffusez-le avec la puissance d’Adobe Campaign.
+title: Présentation des composants principaux d’e-mail
+description: Créez un contenu d’e-mail attrayant à l’aide de la flexibilité des composants principaux d’e-mail et diffusez-le avec la puissance d’Adobe Campaign.
 role: Architect, Developer, Admin, User
 exl-id: 0a411f28-bd6a-4bad-b473-6bc27c1d1055
 source-git-commit: 33976c0e745ad091a142109f70541f01a31edc5b
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '409'
-ht-degree: 10%
+ht-degree: 100%
 
 ---
 
 
-# Présentation des composants principaux du courrier électronique {#email-core-components-introduction}
+# Présentation des composants principaux d’e-mail {#email-core-components-introduction}
 
-Créez un contenu d’email attrayant à l’aide de la flexibilité des composants principaux d’email et diffusez-le avec la puissance d’Adobe Campaign.
+Créez un contenu d’e-mail attrayant à l’aide de la flexibilité des composants principaux d’e-mail et diffusez-le avec la puissance d’Adobe Campaign.
 
 ## Présentation {#overview}
 
-Les composants principaux d’email sont construits sur la même base puissante que les composants principaux. Ils permettent la création simple et flexible par glisser-déposer de contenu d&#39;email qui peut ensuite être diffusé à votre audience à l&#39;aide de la puissance d&#39;Adobe Campaign.
+Les composants principaux d’e-mail sont construits sur la même base puissante que les composants principaux. Ils permettent la création simple et flexible par glisser-déposer de contenu d’e-mail qui peut ensuite être diffusé à votre audience à l’aide de la puissance d’Adobe Campaign.
 
 ## Avantages {#benefits}
 
-Les emails font partie de l’expérience de la marque et du parcours client. Grâce aux composants principaux de messagerie, vos auteurs peuvent concevoir du contenu d’email à partir d’AEM, offrant ainsi une expérience de marque cohérente et augmentant ainsi la vitesse du contenu.
+Les e-mails font partie de l’expérience de la marque et du parcours client. Grâce aux composants principaux d’e-mail, vos créateurs peuvent concevoir du contenu d’e-mail à partir d’AEM, offrant ainsi une expérience de marque cohérente et augmentant par la suite la vitesse du contenu.
 
-* Tout comme pour la création de pages avec les composants principaux, les composants principaux d’email permettent aux auteurs d’assembler des emails sans connaissance technique tout en s’assurant qu’ils suivent les directives de marque.
-* La possibilité de réutiliser des ressources et du contenu encourage également les auteurs à suivre les directives de valorisation de marque et à optimiser le processus de création de contenu.
+* Tout comme pour la création de pages avec les composants principaux, les composants principaux d’e-mail permettent aux auteurs d’assembler des e-mails sans connaissance technique tout en s’assurant qu’ils suivent les directives en matière d’image de marque.
+* La possibilité de réutiliser des ressources et du contenu encourage également les créateurs à suivre les directives en matière d’image de marque et à optimiser le processus de création de contenu.
 
 ## Fonctions {#features}
 
-* Les composants de messagerie principaux sont basés sur la variable [Composants principaux,](/help/introduction.md) et donc aussi [Modèles modifiables](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/features/templates.html?lang=fr) et le [Système de style.](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/sites/authoring/features/style-system.html?lang=fr)
-* Il y a [dix composants prêts pour la production optimisés pour les emails](#components) pour créer du contenu d’email.
-* Les composants principaux de l’e-mail fournissent une personnalisation avancée grâce à l’insertion de la fonction [Variables Adobe Campaign](campaign-variables.md) dans la plupart des champs de la boîte de dialogue.
-* La flexibilité [Composant Segmentation](/help/email/components/segmentation.md) permet une segmentation avancée de votre contenu.
-* Les composants principaux de messagerie offrent une sortie de HTML optimale pour les courriers électroniques grâce au [Styles CSS inliner,](https://github.com/adobe/aem-core-email-components/wiki/CSS-Styles-Inliner:-Technical-documentation) [l&#39;attribut HTML inliner,](https://github.com/adobe/aem-core-email-components/wiki/HTML-Inliner) et [l&#39;assainisseur de HTMLS.](https://github.com/adobe/aem-core-email-components/wiki/HTML-Sanitizing)
-* Vous pouvez créer du contenu d’email n’importe où en dessous. `/content`.
-* Les composants principaux du courrier électronique sont les suivants : [open source.](https://github.com/adobe/aem-core-email-components)
+* Les composants principaux d’e-mail sont basés sur les [composants principaux,](/help/introduction.md) et par conséquent, ils prennent en charge les [modèles modifiables](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/features/templates.html?lang=fr) et le [système de style.](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/sites/authoring/features/style-system.html?lang=fr)
+* Il y a [dix composants prêts pour la production optimisés pour les e-mails](#components) qui permettent de créer du contenu d’e-mail.
+* Les composants principaux d’e-mail offrent une personnalisation avancée grâce à l’insertion de [variables Adobe Campaign](campaign-variables.md) dans la plupart des champs de la boîte de dialogue.
+* Le [composant Segmentation](/help/email/components/segmentation.md) flexible permet une segmentation avancée de votre contenu.
+* Les composants principaux d’e-mail offrent une sortie HTML optimale adaptée aux e-mails grâce à [CSS styles inliner,](https://github.com/adobe/aem-core-email-components/wiki/CSS-Styles-Inliner:-Technical-documentation) [HTML attribute inliner,](https://github.com/adobe/aem-core-email-components/wiki/HTML-Inliner) et [HTML sanitizer.](https://github.com/adobe/aem-core-email-components/wiki/HTML-Sanitizing)
+* Vous pouvez créer du contenu d’e-mail n’importe où sous `/content`.
+* Les composants principaux d’e-mail sont en [open source.](https://github.com/adobe/aem-core-email-components)
 
 ## Conditions requises {#requirements}
 
-Les composants principaux d’email ont les exigences suivantes.
+Les composants principaux d’e-mail ont les exigences suivantes.
 
 | AEM | Adobe Campaign  | Composants principaux |
 |---|---|---|
-| AEM 6.5.14.0+<br>On-premise ou AMS | Adobe Campaign Classic<br>Adobe Campaign Standard | [Version 2.21.2](/help/versions.md)+ |
+| AEM 6.5.14.0+<br>On premise ou AMS | Adobe Campaign Classic<br>Adobe Campaign Standard | [Version 2.21.2](/help/versions.md)+ |
 
 >[!NOTE]
 >
->Comme les intégrations Adobe Campaign ne sont pas prises en charge dans AEM as a Cloud Service, les composants principaux d’email ne sont pas non plus pris en charge dans AEM as a Cloud Service.
+>Étant donné que les intégrations Adobe Campaign ne sont pas prises en charge dans AEM as a Cloud Service, les composants principaux d’e-mail ne sont pas non plus pris en charge dans AEM as a Cloud Service.
 
-## Composants Email {#components}
+## Composants d’e-mail {#components}
 
-La version actuelle des composants principaux du courrier électronique comprend les composants suivants.
+La version actuelle des composants principaux d’e-mail comporte les composants suivants.
 
-* [État](components/page.md)
+* [Page](components/page.md)
 * [Conteneur](components/container.md)
 * [Titre](components/title.md)
 * [Texte](components/text.md)
@@ -65,4 +65,4 @@ La version actuelle des composants principaux du courrier électronique comprend
 
 ## Installation et utilisation {#installation-usage}
 
-Voir [Utilisation des composants principaux de messagerie](using.md) pour plus d’informations sur l’installation des composants principaux d’email.
+Consultez le document [Utilisation des composants principaux d’e-mail](using.md) pour plus d’informations sur l’installation des composants principaux d’e-mail.
