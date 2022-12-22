@@ -2,12 +2,12 @@
 sub-product: AEM Core Components
 user-guide-title: AEM Core Components
 breadcrumb-title: Guide des composants principaux
-user-guide-description: Utilisez les composants principaux extensibles pour permettre aux auteurs de créer facilement du contenu.
+user-guide-description: Utilisez les composants principaux extensibles pour permettre aux créateurs de créer facilement du contenu.
 feature-set: Experience Manager Sites
 source-git-commit: 5431b57727ca5b9518cb80f620cffd0c31ef2f2d
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '282'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
@@ -22,7 +22,7 @@ ht-degree: 94%
    + [Création à l’aide des composants principaux](get-started/authoring.md)
    + [Utilisation des composants principaux](get-started/using.md)
    + [Fonctions de localisation](get-started/localization.md)
-+ Composants WCM {#wcm-components}
++ Composants de gestion de contenu web {#wcm-components}
    + [Accordéon](components/accordion.md)
    + [Chemin de navigation](components/breadcrumb.md)
    + [Bouton](components/button.md)
@@ -82,13 +82,13 @@ ht-degree: 94%
       + [Liste (v2)](components/v2/list.md)
       + [Page (v2)](components/v2/page.md)
       + [Titre (v2)](components/v2/title.md)
-+ Composants de messagerie électronique {#email}
++ Composants d’e-mail {#email}
    + [Présentation](/help/email/introduction.md)
-   + [Utilisation des composants principaux de messagerie](/help/email/using.md)
+   + [Utilisation des composants principaux d’e-mail](/help/email/using.md)
    + [Variables de campagne](/help/email/campaign-variables.md)
    + [Versions](/help/email/versions.md)
-   + Composants Email {#components}
-      + [État](/help/email/components/page.md)
+   + Les composants d’e-mail {#components}
+      + [Page](/help/email/components/page.md)
       + [Conteneur](/help/email/components/container.md)
       + [Titre](/help/email/components/title.md)
       + [Texte](/help/email/components/text.md)
