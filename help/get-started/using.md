@@ -3,10 +3,10 @@ title: Utilisation des composants principaux
 description: '« Pour que les composants principaux soient opérationnels dans votre propre projet, suivez les quatre étapes ci-après : téléchargement et installation, création de composants proxy, chargement des styles principaux et autorisation des composants de vos modèles. »'
 role: Architect, Developer, Admin, User
 exl-id: ee2d25e4-e2b8-4ecc-a62c-f0066de2bf2d
-source-git-commit: 888719359f9a1d1c9dccff97fb639b332f2be54c
-workflow-type: ht
-source-wordcount: '969'
-ht-degree: 100%
+source-git-commit: 8beae61676340e8aafaee469018d865ea7ed934e
+workflow-type: tm+mt
+source-wordcount: '1008'
+ht-degree: 96%
 
 ---
 
@@ -45,6 +45,8 @@ Gardez à l’esprit les points suivants lorsque vous utilisez les composants pr
    * Dans une prochaine version, l’ajout de composants principaux supplémentaires causera l’échec du processus de génération du pipeline.
 * Si votre projet incluait précédemment les composants principaux dans `/apps`, [vous devrez peut-être le paramétrer différemment](/help/developing/overview.md#via-aemaacs).
 * Même si les composants principaux se trouvent maintenant dans `/libs`, il n’est pas recommandé de créer un recouvrement du même chemin dans `/apps`. Si un élément quelconque des composants devait être personnalisé, nous vous recommandons d’utiliser [le modèle de composant de proxy](/help/developing/guidelines.md#proxy-component-pattern) à la place.
+* Pour que la variable [Composant Table des matières](/help/components/tableofcontents.md) pour rendre son contenu, un filtre doit être configuré dans OSGi.
+   * [Consultez la documentation GitHub du composant.](https://adobe.com/go/aem_cmp_tech_tableofcontents_v1) pour plus d’informations.
 
 ### AEM 6.5 et version antérieure {#aem-65}
 
