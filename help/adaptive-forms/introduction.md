@@ -2,10 +2,10 @@
 title: AEM Présentation des composants principaux de Forms adaptatif
 description: Créez des expériences d’inscription attrayantes (formulaires) à l’aide de la flexibilité des composants principaux de Forms adaptatif et diffusez-les avec la puissance d’Adobe Experience Manager.
 role: Architect, Developer, Admin, User
-source-git-commit: 781cf351ef52cbb56ff33c2674c8af591c81a30e
+source-git-commit: 945e1793ae4e959f83960db46d2de4257916fe32
 workflow-type: tm+mt
-source-wordcount: '1069'
-ht-degree: 14%
+source-wordcount: '1202'
+ht-degree: 12%
 
 ---
 
@@ -18,15 +18,11 @@ ht-degree: 14%
 
 Dans Adobe Experience Manager (AEM), les composants sont les blocs de création utilisés pour créer des pages et des formulaires. Ils offrent aux auteurs un moyen simple et puissant de créer et de gérer du contenu, tout en offrant aux développeurs la flexibilité et l’extensibilité nécessaires à la création de composants personnalisés.
 
-Les composants principaux sont un ensemble de composants WCM préconfigurés et normalisés, conçus pour accélérer le temps de développement et réduire les coûts de maintenance des sites web. Ces composants comprennent des éléments tels que des champs de texte, des images, des vidéos, etc. Ils sont conçus pour être flexibles et peuvent être facilement personnalisés en fonction des besoins spécifiques d’un site web.
+Ils sont conçus pour accélérer le développement et réduire les coûts de maintenance des sites web et des formulaires, être flexibles et peuvent être facilement personnalisés en fonction des besoins spécifiques d’un site web et d’un formulaire.
 
 Les composants principaux sont également conçus pour être réactifs et prendre en charge un large éventail d’appareils, notamment des ordinateurs de bureau, des tablettes et des smartphones. Ils se conforment également aux dernières normes et bonnes pratiques web, ce qui en fait une solution robuste et fiable pour créer du contenu web.
 
-En outre, les composants principaux sont conçus pour fonctionner en toute transparence avec d’autres parties de l’AEM, ce qui permet aux auteurs et aux développeurs de créer des formulaires plus interactifs et plus attrayants avec moins d’effort et de temps.
-
 Dans l’ensemble, les composants principaux sont un outil essentiel pour la création et la gestion de contenu web dans AEM. Ils offrent une solution puissante et flexible qui peut contribuer à réduire le temps de développement et les coûts de maintenance, tout en offrant une expérience utilisateur optimale aux visiteurs du site web.
-
-Dans Adobe Experience Manager, les composants sont des éléments structurels qui constituent le contenu des pages et des formulaires en cours de création. Les composants ont toujours été un élément fondamental de l’expérience AEM, rendant la création de page et de formulaire simple mais puissante pour l’auteur et le développement de composants flexibles et extensibles pour le développeur. Les composants principaux sont un ensemble de composants WCM (Web Content Management) normalisés qui permettent d’accélérer le développement et de réduire les coûts de maintenance de vos sites web.
 
 ## Composants principaux de Forms adaptatif
 
@@ -54,19 +50,33 @@ En outre, comme ces composants sont Open Source, les développeurs peuvent facil
 
 ## Avantages {#benefits}
 
-Les expériences de capture de données sont essentielles pour la génération et l’inscription de pistes. Les composants principaux de Forms adaptatif offrent une solution puissante pour créer des formulaires optimisés pour la capture de données. Voici quelques raisons d’utiliser les composants principaux pour créer ces expériences :
+Les expériences de capture de données sont essentielles pour la génération et l’inscription de pistes. Les composants principaux de Forms adaptatif offrent une solution puissante pour créer des formulaires optimisés pour la capture de données. Voici quelques raisons d’utiliser les composants principaux pour créer ces expériences sur les composants de base :
 
-* **Personnalisation**: Les composants principaux de Forms adaptatif permettent aux développeurs de personnaliser facilement l’aspect et le comportement des composants de formulaire, tels que les champs de texte, les cases à cocher et les menus déroulants, pour répondre à des besoins spécifiques.
+* **Disponibilité sur GitHub et documentation complète**: Les composants principaux de Forms adaptatif AEM sont Open Source et disponibles sur GitHub, avec une documentation complète. Cela permet aux développeurs de comprendre plus facilement les composants et leur fonctionnement, ainsi que de contribuer à leur développement. Le site web aemcomponents.dev est également une ressource précieuse, où les développeurs peuvent voir les composants en action et accéder à la documentation détaillée.
+
+* **Modèle BEM pour le style**: Les composants principaux suivent le modèle BEM (Block Element Modifier) pour le style, qui est une méthodologie bien établie et largement utilisée pour organiser les CSS. Cela permet aux développeurs de comprendre plus facilement comment les styles sont organisés et comment les modifier en fonction de leurs besoins spécifiques.
+
+* **Aucune dépendance sur les bibliothèques tierces**: L’un des avantages des composants principaux est qu’ils ne dépendent pas des bibliothèques JavaScript tierces, y compris JQuery et Underscore. Les composants sont ainsi plus rapides et plus légers, et plus faciles à intégrer dans une mise en oeuvre d’AEM existante.
+
+* **Concentrez-vous sur les performances et l’accessibilité**: Les composants principaux sont conçus en tenant compte des performances et de l’accessibilité, qui se reflètent dans leurs scores Google Lighthouse élevés et dans leurs scores web vitaux. Cela facilite la création de pages web accessibles et performantes pour les développeurs, ce qui est de plus en plus important dans le paysage numérique actuel.
+
+* **Composants de formulaire dans le modèle et les thèmes Sites 30**: Les composants principaux prennent en charge les composants de formulaire dans le modèle et les thèmes Sites 30, ce qui facilite la création et la personnalisation de formulaires dans AEM.
+
+* **Style plus facile**: Les composants principaux sont plus faciles à mettre en forme que leurs homologues des composants de base. Le processus de création du thème est similaire à Sites, avec la possibilité d’hériter du même thème/CSS de la page Sites parente. En outre, le modèle BEM pour le style facilite la compréhension et la modification des styles.
 
 * **Accessibilité**: Les composants principaux de Forms adaptatif prennent en charge les normes et directives d’accessibilité, telles que  [WCAG 2.1 standard](https://www.w3.org/TR/WCAG21/), afin de garantir que les formulaires peuvent être utilisés par les personnes présentant un handicap, y compris celles qui utilisent des technologies d’assistance telles que les lecteurs d’écran.
 
-* **Formulaires cohérents**: En utilisant les composants principaux de Forms adaptatif, les développeurs peuvent créer des formulaires à l’apparence cohérente, ce qui facilite la compréhension et l’exécution des formulaires pour les utilisateurs, ce qui accroît l’engagement et améliore l’expérience utilisateur.
+* **Alignement avec AEM Sites**: Les composants principaux sont conçus pour être plus alignés sur AEM Sites, ce qui facilite l’adoption et l’utilisation par les utilisateurs de Sites sans avoir à apprendre quoi que ce soit de nouveau. Les composants utilisent le même pipeline frontal que Sites, ce qui facilite le style et la modification de leur apparence. En outre, les points suivants illustrent davantage cet alignement :
 
-* **Éditeur WYSIWYG**: AEM Forms offre une interface conviviale, une facilité d’utilisation de l’éditeur WYSIWYG pour utiliser ces composants afin de créer un formulaire adaptatif. Il permet aux auteurs de formulaires de créer et de modifier des formulaires sans avoir à savoir comment coder. Il comprend également un éditeur de règles visuel qui vous permet de créer facilement des actions basées sur des règles et d’implémenter une logique complexe afin d’automatiser le comportement du formulaire sans avoir à écrire de code.
+   * **Expérience de création intégrée avec l’éditeur de page**: Les composants principaux disposent d’une expérience de création intégrée à l’éditeur Sites, avec des boîtes de dialogue et d’autres expériences similaires à l’éditeur de page. Cela permet aux utilisateurs de Sites de créer et de gérer plus facilement des formulaires dans le contexte familier de l’éditeur de Sites.
 
-* **Logique conditionnelle**: Les composants principaux de Forms adaptatif prennent en charge l’utilisation d’une logique conditionnelle, ce qui signifie que l’aspect ou le comportement des composants de formulaire peuvent être modifiés en fonction des valeurs saisies par l’utilisateur. Par exemple, certains champs peuvent être masqués ou rendus obligatoires en fonction de la sélection effectuée dans d’autres champs.
+   * **Modification de formulaires en ligne dans l’éditeur de sites**: Les composants principaux permettent l’édition de formulaires en ligne dans l’éditeur Sites, évitant ainsi d’avoir à basculer d’un éditeur à l’autre. Cela simplifie l’expérience de création et facilite la création et la gestion des formulaires.
 
-* **Validation des données**: Les composants principaux de Forms adaptatif fournissent des fonctionnalités intégrées de validation des données, ce qui permet aux développeurs de s’assurer que les données entrées par l’utilisateur répondent à des critères spécifiques, tels que les longueurs minimales et maximales, les valeurs requises et des formats spécifiques.
+   * **Héritage des fonctionnalités de Sites dans Forms**: Forms créé dans une page Sites hérite des mêmes fonctionnalités que Sites. Vous bénéficiez ainsi d’une expérience transparente et intégrée pour la création et la gestion de formulaires dans le contexte d’AEM Sites.
+
+   <!--including Multi Site Manager, the ability to use Sites components within a form for static content, support for scheduled publish/unpublish, form translation aligned with Sites translation, versioning, and targeting -->
+
+
 
 ## Conditions requises {#requirements}
 

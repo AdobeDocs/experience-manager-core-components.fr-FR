@@ -2,7 +2,7 @@
 title: Composant principal Adaptive Forms - Bouton Réinitialiser
 description: Utilisation ou personnalisation du bouton de réinitialisation de Forms adaptative du composant principal.
 role: Architect, Developer, Admin, User
-source-git-commit: 1e6460d318f4f9a5dfdcbb81723da01b51b72f3f
+source-git-commit: 945e1793ae4e959f83960db46d2de4257916fe32
 workflow-type: tm+mt
 source-wordcount: '1173'
 ht-degree: 2%
@@ -33,8 +33,10 @@ Les raisons d’utiliser un bouton de réinitialisation dans un formulaire adapt
 
 Le bouton Réinitialiser le Forms adaptatif Core Component a été publié en février 2023 dans le cadre de la version 2.0.4 des composants principaux. Voici un tableau présentant toutes les versions prises en charge, la compatibilité AEM et les liens vers la documentation correspondante :
 
-| Version du composant | AEM as a Cloud Service |
-|--- |--- |---|---|
+|  |  |
+|---|---|
+| Version du composant | AEM as a Cloud Service |
+| --- | --- |
 | v1 | Compatible avec<br>[version 2.0.4](/help/versions.md) et plus tard | Compatible | Compatible |
 
 Pour plus d’informations sur les versions et versions des composants principaux, reportez-vous à la section [Versions des composants principaux](/help/versions.md) document.

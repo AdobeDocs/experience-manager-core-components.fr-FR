@@ -2,7 +2,7 @@
 title: Composant principal Adaptive Forms - Entrée de numéro
 description: Utilisation ou personnalisation du composant principal d’entrée Numéro de Forms adaptatif .
 role: Architect, Developer, Admin, User
-source-git-commit: 6ea000f9259e9478ee3c0923ac35af7814e184d9
+source-git-commit: 945e1793ae4e959f83960db46d2de4257916fe32
 workflow-type: tm+mt
 source-wordcount: '1780'
 ht-degree: 1%
@@ -39,8 +39,10 @@ Il existe plusieurs raisons pour lesquelles il est bénéfique d’inclure un co
 
 Le composant principal d’entrée Numéro de Forms adaptatif a été publié en février 2023 dans le cadre des composants principaux 2.0.4. Voici un tableau présentant toutes les versions prises en charge, la compatibilité AEM et les liens vers la documentation correspondante :
 
-| Version du composant | AEM as a Cloud Service |
-|--- |--- |---|---|
+|  |  |
+|---|---|
+| Version du composant | AEM as a Cloud Service |
+| --- | --- |
 | v1 | Compatible avec<br>[version 2.0.4](/help/versions.md) et plus tard | Compatible | Compatible |
 
 Pour plus d’informations sur les versions et versions des composants principaux, reportez-vous à la section [Versions des composants principaux](/help/versions.md) document.
@@ -93,6 +95,7 @@ Vous pouvez facilement personnaliser votre expérience d’entrée numérique po
 * **Exclure la valeur minimale** - Cochez cette case si vous ne souhaitez pas que la valeur minimale indiquée dans la variable **Numéro le plus bas / Numéro le plus petit** à inclure dans la plage de valeurs &#x200B; à renseigner dans le champ du formulaire.
 
 * **Nombre le plus élevé / Nombre le plus grand** - Utilisez cette option pour sélectionner le nombre maximal autorisé à renseigner dans le champ de formulaire. Si le nombre est supérieur au nombre spécifié dans **Nombre le plus élevé / Nombre le plus grand** est saisie dans le champ de formulaire, le message d’erreur s’affiche.
+
 * **Message d’erreur maximum** - Cette option vous permet de saisir un message d’erreur qui s’affiche lorsque l’utilisateur saisit une valeur supérieure à celle spécifiée dans la variable **Nombre le plus élevé / Nombre le plus grand** .
 
 * **Exclure la valeur maximale** - Cochez cette case si vous ne souhaitez pas que la valeur maximale indiquée dans la variable **Nombre le plus élevé / Nombre le plus grand** à inclure dans la plage de valeurs à renseigner dans le champ du formulaire.

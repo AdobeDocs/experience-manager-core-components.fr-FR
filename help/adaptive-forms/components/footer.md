@@ -2,9 +2,9 @@
 title: Composant principal Adaptive Forms - Pied de page
 description: Utilisation ou personnalisation du composant principal Pied de page de Forms adaptatif .
 role: Architect, Developer, Admin, User
-source-git-commit: 9a8b8661554eea2f669f17bee89f97165bcb58db
+source-git-commit: 945e1793ae4e959f83960db46d2de4257916fe32
 workflow-type: tm+mt
-source-wordcount: '751'
+source-wordcount: '749'
 ht-degree: 16%
 
 ---
@@ -36,8 +36,10 @@ Il existe plusieurs raisons pour lesquelles il est bénéfique d’inclure un co
 
 Le composant principal Pied de page de Forms adaptatif a été publié en février 2023 dans le cadre de la version 2.0.4 des composants principaux. Voici un tableau présentant toutes les versions prises en charge, la compatibilité AEM et les liens vers la documentation correspondante :
 
-| Version du composant | AEM as a Cloud Service |
-|--- |--- |---|---|
+|  |  |
+|---|---|
+| Version du composant | AEM as a Cloud Service |
+| --- | --- |
 | v1 | Compatible avec<br>[version 2.0.4](/help/versions.md) et plus tard | Compatible | Compatible |
 
 Pour plus d’informations sur les versions et versions des composants principaux, reportez-vous à la section [Versions des composants principaux](/help/versions.md) document.
@@ -60,52 +62,49 @@ Vous pouvez facilement personnaliser votre expérience de pied de page pour les 
 * **Boîte de dialogue Modifier**
 La boîte de dialogue de modification fournit des outils de mise en forme de texte enrichi standard qui permettent à l’utilisateur de créer du texte pour le pied de page.
 
-   * **Gras** - Cette option applique une mise en forme gras au texte sélectionné ou au texte gras saisi après le curseur. `Ctrl+B` est un raccourci clavier.
+* **Gras** - Cette option applique une mise en forme gras au texte sélectionné ou au texte gras saisi après le curseur. `Ctrl+B` est un raccourci clavier.
 
-   * **Italique** - Cette option applique une mise en forme en italique au texte sélectionné ou en italique au texte saisi après le curseur. `Ctrl+I` est un raccourci clavier.
+* **Italique** - Cette option applique une mise en forme en italique au texte sélectionné ou en italique au texte saisi après le curseur. `Ctrl+I` est un raccourci clavier.
 
-   * **Puce**
-
-      ![Options de puces](/help/adaptive-forms/assets/footer_bullet.png)
-
-      * **Icône Puce** - Le texte sélectionné est alors mis en forme sous forme de liste à puces ou commence l’insertion d’une liste à puces après le curseur. Pour mettre fin à une liste à puces, appuyez ou cliquez de nouveau sur le bouton Puces ou saisissez deux retours chariot.
-
-      * **Icône Liste numérotée** - Le texte sélectionné est alors mis en forme sous forme de liste numérotée ou commence l’insertion d’une liste numérotée après le curseur. Pour mettre fin à une liste numérotée, appuyez ou cliquez de nouveau sur le bouton Numérotée ou saisissez deux retours chariot.
-
-      * **Icône Retrait négatif** : réduit le niveau de mise en retrait du texte ou du texte sélectionné après le curseur. Uniquement actif si le texte ou la position sélectionnés du curseur est déjà mis en retrait.
-
-      * **Icône Retrait** - Cela augmente le niveau de mise en retrait du texte ou du texte sélectionné après le curseur.
-   * **Lien hypertexte**
-
-      ![Options d’hyperlien](/help/adaptive-forms/assets/footer_link.png)
+![Options de puces](/help/adaptive-forms/assets/footer_bullet.png)
 
 
-      * **Chemin** - Entrez le chemin
-         1. Utilisation de la boîte de dialogue Ouvrir la sélection pour choisir un chemin dans AEM.
-         1. Si le lien ne se trouve pas dans AEM, saisissez l’URL absolue.
-         1. Les chemins non absolus sont interprétés comme relatifs par rapport aux AEM.
-      * **Texte de remplacement** - Entrez un texte descriptif alternatif pour le lien.
+* **Puce**
 
-      * **Cible** - Sélectionner le comportement du lien
-         * Cible
-         * Même onglet
-         * Nouvel onglet
-         * Cadre parent
-         * Cadre supérieur
+   * **Icône Puce** - Le texte sélectionné est alors mis en forme sous forme de liste à puces ou commence l’insertion d’une liste à puces après le curseur. Pour mettre fin à une liste à puces, appuyez ou cliquez de nouveau sur le bouton Puces ou saisissez deux retours chariot.
+
+   * **Icône Liste numérotée** - Le texte sélectionné est alors mis en forme sous forme de liste numérotée ou commence l’insertion d’une liste numérotée après le curseur. Pour mettre fin à une liste numérotée, appuyez ou cliquez de nouveau sur le bouton Numérotée ou saisissez deux retours chariot.
+
+   * **Icône Retrait négatif** : réduit le niveau de mise en retrait du texte ou du texte sélectionné après le curseur. Uniquement actif si le texte ou la position sélectionnés du curseur est déjà mis en retrait.
+
+   * **Icône Retrait** - Cela augmente le niveau de mise en retrait du texte ou du texte sélectionné après le curseur.
+
+![Options d’hyperlien](/help/adaptive-forms/assets/footer_link.png)
+
+* **Lien hypertexte**
+
+   * **Chemin** - Entrez le chemin
+      1. Utilisation de la boîte de dialogue Ouvrir la sélection pour choisir un chemin dans AEM.
+      1. Si le lien ne se trouve pas dans AEM, saisissez l’URL absolue.
+      1. Les chemins non absolus sont interprétés comme relatifs par rapport aux AEM.
+   * **Texte de remplacement** - Entrez un texte descriptif alternatif pour le lien.
+
+   * **Cible** - Sélectionner le comportement du lien
+      * Cible
+      * Même onglet
+      * Nouvel onglet
+      * Cadre parent
+      * Cadre supérieur
    * **Icône Dissocier** - Cette option supprime un lien déjà appliqué au texte sélectionné. Cette option n’est principale que si le lien est déjà sélectionné.
 
    * **Icône Format de paragraphe** - Cette option vous permet d’appliquer une mise en forme de paragraphe au texte sélectionné. Il permet également de mettre en forme le texte inséré après le curseur. Il définit le niveau d’en-tête du titre.
 
 
 
-* **ID**
-Cette option permet de contrôler l’identifiant unique du composant dans le HTML et dans la couche de données.
+* **ID**: Cette option permet de contrôler l’identifiant unique du composant dans le HTML et dans la couche de données.
 
    * Si rien n’est indiqué, un identifiant unique est automatiquement * généré et peut être trouvé en examinant la page qui en résulte.
    * Si un ID est spécifié, il incombe à l’auteur de s’assurer qu’il est unique.
    * La modification de l’ID peut avoir un impact sur le suivi CSS, JS et de couche de données.
-
-## Boîte de dialogue de conception {#design-dialog}
-
 
 

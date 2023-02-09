@@ -2,7 +2,7 @@
 title: Composant principal de Forms adaptatif - Bouton
 description: Utilisation ou personnalisation du composant principal du bouton Forms adaptatif .
 role: Architect, Developer, Admin, User
-source-git-commit: 1e6460d318f4f9a5dfdcbb81723da01b51b72f3f
+source-git-commit: 945e1793ae4e959f83960db46d2de4257916fe32
 workflow-type: tm+mt
 source-wordcount: '1491'
 ht-degree: 2%
@@ -38,8 +38,10 @@ Il existe plusieurs raisons pour lesquelles il est bénéfique d’inclure un bo
 
 Le composant principal de bouton de Forms adaptatif v1 a été publié en février 2023 dans le cadre des composants principaux 2.0.4. Voici un tableau présentant toutes les versions prises en charge, la compatibilité AEM et les liens vers la documentation correspondante :
 
-| Version du composant | AEM as a Cloud Service |
-|--- |--- |---|---|
+|  |  |
+|---|---|
+| Version du composant | AEM as a Cloud Service |
+| --- | --- |
 | v1 | Compatible avec<br>[version 2.0.4](/help/versions.md) et plus tard | Compatible | Compatible |
 
 Pour plus d’informations sur les versions et versions des composants principaux, reportez-vous à la section [Versions des composants principaux](/help/versions.md) document.
@@ -87,15 +89,16 @@ Vous pouvez facilement personnaliser votre expérience de bouton pour les visite
 ![Onglet Accessibilité](/help/adaptive-forms/assets/button_accessibilitytab.png)
 
 
-* **Texte pour les lecteurs d’écran** - Le texte destiné aux lecteurs d’écran fait référence à un texte supplémentaire spécialement conçu pour être lu par les technologies d’assistance, comme les lecteurs d’écran, utilisé par les malvoyants. Ce texte fournit une description audio de l’objectif du champ de formulaire et peut inclure des informations sur le titre, la description, le nom et tout message pertinent du champ (texte personnalisé). Le texte du lecteur d’écran permet de s’assurer que le formulaire est accessible à tous les utilisateurs, y compris ceux ayant une déficience visuelle, et leur permet de bien comprendre le champ du formulaire et ses exigences.
-
 Sur le **Accessibilité** , les valeurs sont définies pour [Accessibilité ARIA](https://www.w3.org/WAI/standards-guidelines/aria/) libellés du composant. Plusieurs options sont disponibles pour l’utilisation du texte pour le lecteur d’écran :
 
-* **Texte personnalisé**: Sélectionnez cette option pour utiliser le texte personnalisé pour les étiquettes d’accessibilité ARIA. Cette option affiche la boîte de dialogue Texte personnalisé . Vous pouvez ajouter des informations pertinentes dans la boîte de dialogue Texte personnalisé .
-* **Description**: Sélectionnez cette option pour utiliser la description des étiquettes d’accessibilité ARIA.
-* **Titre**: Sélectionnez cette option pour utiliser le titre pour les étiquettes d’accessibilité ARIA.
-* **Nom**: Sélectionnez cette option pour utiliser le nom des étiquettes d’accessibilité ARIA.
-* **Aucun**: Sélectionnez cette option si vous ne souhaitez pas ajouter pour les étiquettes d’accessibilité ARIA.
+* **Texte pour les lecteurs d’écran** - Le texte destiné aux lecteurs d’écran fait référence à un texte supplémentaire spécialement conçu pour être lu par les technologies d’assistance, comme les lecteurs d’écran, utilisé par les malvoyants. Ce texte fournit une description audio de l’objectif du champ de formulaire et peut inclure des informations sur le titre, la description, le nom et tout message pertinent du champ (texte personnalisé). Le texte du lecteur d’écran permet de s’assurer que le formulaire est accessible à tous les utilisateurs, y compris ceux ayant une déficience visuelle, et leur permet de bien comprendre le champ du formulaire et ses exigences.
+
+
+   * **Texte personnalisé**: Sélectionnez cette option pour utiliser le texte personnalisé pour les étiquettes d’accessibilité ARIA. Cette option affiche la boîte de dialogue Texte personnalisé . Vous pouvez ajouter des informations pertinentes dans la boîte de dialogue Texte personnalisé .
+   * **Description**: Sélectionnez cette option pour utiliser la description des étiquettes d’accessibilité ARIA.
+   * **Titre**: Sélectionnez cette option pour utiliser le titre pour les étiquettes d’accessibilité ARIA.
+   * **Nom**: Sélectionnez cette option pour utiliser le nom des étiquettes d’accessibilité ARIA.
+   * **Aucun**: Sélectionnez cette option si vous ne souhaitez pas ajouter pour les étiquettes d’accessibilité ARIA.
 
 ## Boîte de dialogue de conception {#design-dialog}
 

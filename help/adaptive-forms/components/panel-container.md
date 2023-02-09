@@ -2,10 +2,10 @@
 title: Composant principal Forms adaptatif - Conteneur de panneau
 description: Utilisation ou personnalisation du composant principal du conteneur de panneau Forms adaptatif .
 role: Architect, Developer, Admin, User
-source-git-commit: 77ff7425be1e591b8f5b973a344d7def8191c033
+source-git-commit: 945e1793ae4e959f83960db46d2de4257916fe32
 workflow-type: tm+mt
-source-wordcount: '1218'
-ht-degree: 2%
+source-wordcount: '1216'
+ht-degree: 1%
 
 ---
 
@@ -38,8 +38,10 @@ Il existe plusieurs raisons d’utiliser un panneau dans un formulaire, notammen
 
 Le composant principal Conteneur de panneau Adaptive Forms a été publié en février 2023 dans le cadre de la version 2.0.4 des composants principaux. Voici un tableau présentant toutes les versions prises en charge, la compatibilité AEM et les liens vers la documentation correspondante :
 
-| Version du composant | AEM as a Cloud Service |
-|--- |--- |---|---|
+|  |  |
+|---|---|
+| Version du composant | AEM as a Cloud Service |
+| --- | --- |
 | v1 | Compatible avec<br>[version 2.0.4](/help/versions.md) et plus tard | Compatible | Compatible |
 
 Pour plus d’informations sur les versions et versions des composants principaux, reportez-vous à la section [Versions des composants principaux](/help/versions.md) document.
@@ -92,7 +94,6 @@ Vous pouvez facilement personnaliser l’expérience du conteneur de panneaux po
 
 * **Rôle de HTML à annoncer pour le lecteur d’écran** - Le rôle de HTML est un attribut utilisé pour spécifier l’objectif d’un élément de HTML pour les technologies d’assistance telles que les lecteurs d’écran. L’attribut role est utilisé pour fournir un contexte et une signification sémantique supplémentaires à un élément, ce qui facilite l’interprétation et l’annonce du contenu à l’utilisateur par les lecteurs d’écran. Par exemple, dans AEM Forms, le libellé d’un champ de formulaire peut avoir le rôle &quot;libellé&quot; et son champ de saisie peut avoir le rôle &quot;textbox&quot;. Cela permet au lecteur d’écran de comprendre la relation entre le libellé et le champ de saisie, et de les annoncer correctement à l’utilisateur.
 
-## Boîte de dialogue de conception {#design-dialog}
 
 
 

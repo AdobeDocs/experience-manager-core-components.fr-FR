@@ -2,9 +2,9 @@
 title: Composant principal Adaptive Forms - En-tête
 description: Utilisation ou personnalisation du composant principal En-tête de Forms adaptatif .
 role: Architect, Developer, Admin, User
-source-git-commit: 7f680eac1da61b55f9d90db6c0842421d03ac1dc
+source-git-commit: 945e1793ae4e959f83960db46d2de4257916fe32
 workflow-type: tm+mt
-source-wordcount: '656'
+source-wordcount: '654'
 ht-degree: 7%
 
 ---
@@ -34,10 +34,11 @@ Un composant d’en-tête d’un formulaire adaptatif est une section située en
 
 Le composant principal d’en-tête de Forms adaptatif a été publié en février 2023 dans le cadre des composants principaux 2.0.4. Voici un tableau présentant toutes les versions prises en charge, la compatibilité AEM et les liens vers la documentation correspondante :
 
-| Version du composant | AEM as a Cloud Service |
-|--- |--- |---|---|
+|  |  |
+|---|---|
+| Version du composant | AEM as a Cloud Service |
+| --- | --- |
 | v1 | Compatible avec<br>[version 2.0.4](/help/versions.md) et plus tard | Compatible | Compatible |
-
 Pour plus d’informations sur les versions et versions des composants principaux, reportez-vous à la section [Versions des composants principaux](/help/versions.md) document.
 
 
@@ -80,6 +81,5 @@ Cette partie de l’en-tête contient le titre et l’image de l’en-tête.
 
 Cette section permet de saisir le texte à inclure dans l’en-tête.
 
-## Boîte de dialogue de conception {#design-dialog}
 
 

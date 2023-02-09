@@ -2,9 +2,9 @@
 title: Composant principal Forms adaptatif - Conteneur de formulaires
 description: Ajouter un formulaire adaptatif à une page web.
 role: Architect, Developer, Admin, User
-source-git-commit: 7f680eac1da61b55f9d90db6c0842421d03ac1dc
+source-git-commit: 945e1793ae4e959f83960db46d2de4257916fe32
 workflow-type: tm+mt
-source-wordcount: '700'
+source-wordcount: '698'
 ht-degree: 3%
 
 ---
@@ -41,8 +41,10 @@ Plusieurs raisons peuvent expliquer l’ajout d’un formulaire à un site web :
 
 Le composant principal de conteneur de Forms adaptatif a été publié en février 2023 dans le cadre des composants principaux 2.0.4. Voici un tableau présentant toutes les versions prises en charge, la compatibilité AEM et les liens vers la documentation correspondante :
 
-| Version du composant | AEM as a Cloud Service |
-|--- |--- |---|---|
+|  |  |
+|---|---|
+| Version du composant | AEM as a Cloud Service |
+| --- | --- |
 | v1 | Compatible avec<br>[version 2.0.4](/help/versions.md) et plus tard | Compatible | Compatible |
 
 Pour plus d’informations sur les versions et versions des composants principaux, reportez-vous à la section [Versions des composants principaux](/help/versions.md) document.
@@ -72,6 +74,7 @@ Vous pouvez facilement personnaliser votre expérience de conteneur de formulair
 ![Onglet Envoi](/help/adaptive-forms/assets/formcontainer_submissiontab.png)
 
 Les utilisateurs peuvent configurer différentes actions pour les envois de formulaire adaptatif.
+
 * **URL/chemin de redirection** - Cette option permet à l’utilisateur de configurer une page pour chaque formulaire, vers laquelle les utilisateurs du formulaire sont redirigés après l’envoi d’un formulaire adaptatif. Cliquez ici pour plus d’informations sur [configuration des pages de redirection](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/create-an-adaptive-form/configure-submit-actions-and-metadata-submission/configuring-redirect-page.html).
 
 ![Afficher le message, onglet](/help/adaptive-forms/assets/formconatiner_showmessage.png)
@@ -80,7 +83,6 @@ Les utilisateurs peuvent configurer différentes actions pour les envois de form
 
 * **Action Envoyer** - Une action Envoyer est déclenchée lorsqu’un utilisateur clique sur le bouton Envoyer d’un formulaire adaptatif. Les utilisateurs peuvent sélectionner Actions Envoyer dans la liste déroulante qui sont prises en charge par défaut. Découvrez comment [configuration d’une action Envoyer dans l’onglet Envoi](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/create-an-adaptive-form/configure-submit-actions-and-metadata-submission/configuring-submit-actions.html#supporting-custom-functions-in-validation-expressions-br).
 
-## Boîte de dialogue de conception {#design-dialog}
 
 
 

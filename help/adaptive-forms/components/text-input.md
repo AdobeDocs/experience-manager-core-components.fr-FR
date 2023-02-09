@@ -2,7 +2,7 @@
 title: Composant principal Forms adaptatif - Saisie de texte (zone de texte)
 description: Utilisation ou personnalisation du composant principal d’entrée de texte Forms adaptatif .
 role: Architect, Developer, Admin, User
-source-git-commit: 0e4fb8454b7ef84eb5b1b73b01c982a2f9c12381
+source-git-commit: 945e1793ae4e959f83960db46d2de4257916fe32
 workflow-type: tm+mt
 source-wordcount: '1727'
 ht-degree: 1%
@@ -34,8 +34,10 @@ Il existe plusieurs raisons d’utiliser le composant de saisie de texte dans un
 
 Le composant principal d’entrée de texte de Forms adaptatif a été publié en février 2023 dans le cadre des composants principaux 2.0.4. Voici un tableau présentant toutes les versions prises en charge, la compatibilité AEM et les liens vers la documentation correspondante :
 
-| Version du composant | AEM as a Cloud Service |
-|--- |--- |---|---|
+|  |  |
+|---|---|
+| Version du composant | AEM as a Cloud Service |
+| --- | --- |
 | v1 | Compatible avec<br>[version 2.0.4](/help/versions.md) et plus tard | Compatible | Compatible |
 
 Pour plus d’informations sur les versions et versions des composants principaux, reportez-vous à la section [Versions des composants principaux](/help/versions.md) document.
@@ -61,13 +63,21 @@ Vous pouvez facilement personnaliser votre expérience de saisie de texte pour l
 * **Masquer le titre** - Sélectionnez l’option pour masquer le titre du composant.
 
 * **Texte d’espace réservé** - Le texte d’espace réservé dans un composant de formulaire fait référence à un libellé court ou à une invite qui apparaît dans un champ de saisie comme conseil à l’utilisateur sur le type d’information à saisir dans ce champ. Le texte d’espace réservé disparaît lorsque l’utilisateur commence à saisir du texte dans le champ et réapparaît si le champ est vide. Il fournit un indice visuel à l’utilisateur, mais n’agit pas comme une étiquette ou une valeur permanente pour le champ.
+
 * **Référence de liaison** - Une référence de liaison est une référence à un élément de données stocké dans une source de données externe et utilisé dans un formulaire. La référence de liaison vous permet de lier dynamiquement les données aux champs du formulaire, de sorte que le formulaire puisse afficher les données les plus récentes de la source de données. Par exemple, une référence de liaison peut être utilisée pour afficher le nom et l’adresse d’un client dans un formulaire, en fonction de l’identifiant du client saisi dans le formulaire. La référence de liaison peut également être utilisée pour mettre à jour la source de données avec les données saisies dans le formulaire. Ainsi, AEM Forms vous permet de créer des formulaires qui interagissent avec des sources de données externes, offrant ainsi une expérience utilisateur transparente pour la collecte et la gestion des données.
+
 * **Masquer le composant** - Sélectionnez l’option pour masquer le composant du formulaire. Le composant reste accessible à d’autres fins, par exemple pour les calculs dans l’éditeur de règles. Cela s’avère utile lorsque vous devez stocker des informations qui n’ont pas besoin d’être affichées ou directement modifiées par l’utilisateur.
+
 * **Désactiver le composant** - Sélectionnez l’option pour désactiver le composant. Le composant désactivé n’est pas principal ni modifiable par l’utilisateur final. L’utilisateur peut voir la valeur du champ mais ne peut pas la modifier. Le composant reste accessible à d’autres fins, par exemple pour les calculs dans l’éditeur de règles.
+
 * **Lecture seule** - Sélectionnez l’option pour rendre le composant non modifiable. L’utilisateur peut voir la valeur du champ mais ne peut pas la modifier. Le composant reste accessible à d’autres fins, par exemple pour les calculs dans l’éditeur de règles.
+
 * **Valeur par défaut** - Cette option vous permet d’ajouter une valeur par défaut dans un champ de formulaire. Le texte disparaît lorsque l’utilisateur commence à saisir du texte dans le champ. If **Composant désactivé** ou **Composant en lecture seule** est sélectionnée, la valeur par défaut s’affiche à l’écran. Si aucune valeur n’est saisie par l’utilisateur dans le champ de formulaire, cette valeur est envoyée au moment de l’envoi du formulaire.
+
 * **Permettre des lignes multiples** - Cette option permet à l’utilisateur de saisir plusieurs lignes dans un champ de formulaire.
+
 * **Autoriser le texte enrichi** - La boîte de dialogue de modification fournit des outils de mise en forme de texte enrichi standard qui permettent à l’utilisateur de mettre du texte en forme.
+
 * **Attribut de remplissage automatique** - L’option de remplissage automatique remplit le champ de formulaire selon un modèle ou un texte saisi précédemment. Lorsque l’utilisateur commence à saisir du texte dans le champ de formulaire, les suggestions s’affichent dans une liste déroulante à partir de laquelle il peut sélectionner l’option appropriée.
 
 ### Onglet Validation {#validation-tab}
@@ -89,7 +99,9 @@ Vous pouvez facilement personnaliser votre expérience de saisie de texte pour l
 * **Message d’erreur de caractères minimum** - Le **Message d’erreur de caractères minimum** vous permet d’ajouter un message d’erreur personnalisé si vous saisissez des caractères inférieurs à la valeur spécifiée dans la variable **Nombre minimum de caractères** .
 
 Le **Modèle de validation** vous permet de saisir un modèle pour valider le texte saisi. Si la validation du texte échoue avec la valeur saisie dans **Modèle** , le message d’erreur s’affiche à l’écran.
+
 * **Modèle** - Cette option vous permet de saisir les modèles de vérification autorisés pour le texte. Les expressions régulières sont également autorisées.
+
 * **Message d’erreur** - Cette option permet de saisir un message qui s&#39;affiche à l&#39;écran si la validation du texte saisi échoue avec la valeur saisie dans la variable **Modèle** option
 
 ### Onglet Contenu de l’aide {#help-content-tab}

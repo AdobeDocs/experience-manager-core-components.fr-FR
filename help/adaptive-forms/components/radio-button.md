@@ -2,7 +2,7 @@
 title: Composant principal Adaptive Forms - Bouton radio
 description: Utilisation ou personnalisation du composant principal de bouton radio Forms adaptatif .
 role: Architect, Developer, Admin, User
-source-git-commit: 1e6460d318f4f9a5dfdcbb81723da01b51b72f3f
+source-git-commit: 945e1793ae4e959f83960db46d2de4257916fe32
 workflow-type: tm+mt
 source-wordcount: '1645'
 ht-degree: 1%
@@ -44,8 +44,10 @@ Il existe plusieurs raisons d’utiliser des boutons radio dans un formulaire, n
 
 Le composant principal de bouton radio Adaptive Forms a été publié en février 2023 dans le cadre de la version 2.0.4 des composants principaux. Voici un tableau présentant toutes les versions prises en charge, la compatibilité AEM et les liens vers la documentation correspondante :
 
-| Version du composant | AEM as a Cloud Service |
-|--- |--- |---|---|
+|  |  |
+|---|---|
+| Version du composant | AEM as a Cloud Service |
+| --- | --- |
 | v1 | Compatible avec<br>[version 2.0.4](/help/versions.md) et plus tard | Compatible | Compatible |
 
 Pour plus d’informations sur les versions et versions des composants principaux, reportez-vous à la section [Versions des composants principaux](/help/versions.md) document.
@@ -80,6 +82,7 @@ Vous pouvez facilement personnaliser l’expérience de votre bouton radio pour 
 * **Référence de liaison** - Une référence de liaison est une référence à un élément de données stocké dans une source de données externe et utilisé dans un formulaire. La référence de liaison vous permet de lier dynamiquement les données aux champs du formulaire, de sorte que le formulaire puisse afficher les données les plus récentes de la source de données. Par exemple, une référence de liaison peut être utilisée pour afficher le nom et l’adresse d’un client dans un formulaire, en fonction de l’identifiant du client saisi dans le formulaire. La référence de liaison peut également être utilisée pour mettre à jour la source de données avec les données saisies dans le formulaire. Ainsi, AEM Forms vous permet de créer des formulaires qui interagissent avec des sources de données externes, offrant ainsi une expérience utilisateur transparente pour la collecte et la gestion des données.
 
 * **Type de données de la valeur envoyée** - Cette option spécifie le type de données de la valeur envoyée lorsqu’une option est sélectionnée. Si la variable **type de données de la valeur envoyée** est défini sur `Number` et d’ajouter des données de chaîne à **Valeur des données** &#x200B; &#x200B; sur le **Options** , l’écran affiche une `Value type mismatch` message d’erreur.
+
 * **Options par défaut** - Cette option vous permet d’ajouter des valeurs par défaut pré-sélectionnées lors du chargement du formulaire. Si la variable **type de données de la valeur envoyée** est défini sur `Number` et d’ajouter des données de chaîne à **Options par défaut**, l’écran affiche une `Value type mismatch` message d’erreur.
 
 * **Options d’affichage** - Cette option est utilisée pour définir l’alignement visuel des boutons radio dans un formulaire adaptatif. Les deux options prises en charge sont les suivantes :
@@ -128,3 +131,4 @@ La boîte de dialogue de conception permet de définir et de gérer les styles C
 **Classes CSS par défaut**: Vous pouvez fournir une classe CSS par défaut pour le composant principal de bouton radio Forms adaptatif.
 
 **Styles autorisés**: Vous pouvez définir des styles en fournissant un nom et la classe CSS qui représente le style. Par exemple, vous pouvez créer un style nommé &quot;bold text&quot; et fournir la classe CSS &quot;font-weight: bold&quot;. Vous pouvez utiliser ou appliquer ces styles à un formulaire adaptatif dans l’éditeur de Forms adaptatif. Pour appliquer un style, dans l’éditeur de Forms adaptatif, sélectionnez le composant auquel vous souhaitez appliquer le style, accédez à la boîte de dialogue Propriétés, puis sélectionnez le style de votre choix dans le **Styles** liste déroulante. Si vous devez mettre à jour ou modifier les styles, revenez simplement à la boîte de dialogue Conception, mettez à jour les styles dans l’onglet Styles et enregistrez les modifications.
+
