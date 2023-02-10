@@ -2,9 +2,9 @@
 title: AEM Présentation des composants principaux de Forms adaptatif
 description: Créez des expériences d’inscription attrayantes (formulaires) à l’aide de la flexibilité des composants principaux de Forms adaptatif et diffusez-les avec la puissance d’Adobe Experience Manager.
 role: Architect, Developer, Admin, User
-source-git-commit: 945e1793ae4e959f83960db46d2de4257916fe32
+source-git-commit: 86fa434d884b24b8d4b231c6108f5e6151a89813
 workflow-type: tm+mt
-source-wordcount: '1202'
+source-wordcount: '1231'
 ht-degree: 12%
 
 ---
@@ -16,9 +16,7 @@ ht-degree: 12%
 
 ## Composants principaux  {#overview}
 
-Dans Adobe Experience Manager (AEM), les composants sont les blocs de création utilisés pour créer des pages et des formulaires. Ils offrent aux auteurs un moyen simple et puissant de créer et de gérer du contenu, tout en offrant aux développeurs la flexibilité et l’extensibilité nécessaires à la création de composants personnalisés.
-
-Ils sont conçus pour accélérer le développement et réduire les coûts de maintenance des sites web et des formulaires, être flexibles et peuvent être facilement personnalisés en fonction des besoins spécifiques d’un site web et d’un formulaire.
+Dans Adobe Experience Manager (AEM), les composants sont les blocs de création utilisés pour créer des pages et des formulaires. Ils offrent aux auteurs un moyen simple et puissant de créer et de gérer du contenu, tout en offrant aux développeurs la flexibilité et l’extensibilité nécessaires à la création de composants personnalisés. Ils sont conçus pour accélérer le développement et réduire les coûts de maintenance des sites web et des formulaires, être flexibles et peuvent être facilement personnalisés en fonction des besoins spécifiques d’un site web et d’un formulaire.
 
 Les composants principaux sont également conçus pour être réactifs et prendre en charge un large éventail d’appareils, notamment des ordinateurs de bureau, des tablettes et des smartphones. Ils se conforment également aux dernières normes et bonnes pratiques web, ce qui en fait une solution robuste et fiable pour créer du contenu web.
 
@@ -43,7 +41,7 @@ En outre, comme ces composants sont Open Source, les développeurs peuvent facil
 | Polyvalents | Les composants représentent des concepts génériques avec lesquels les auteurs Forms peuvent assembler pratiquement n’importe quelle mise en page. |
 | Configurables | Au niveau du modèle [stratégies de contenu](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/implementing/developing/full-stack/components-templates/templates.html?lang=fr#content-policies) définir les fonctionnalités qui peuvent être utilisées ou non. |
 | Accessibles | Ils se conforment aux [WCAG 2.1 standard](https://www.w3.org/TR/WCAG21/), fournissez des libellés ARIA, prenez en charge la navigation au clavier ([problèmes connus](https://github.com/adobe/aem-core-wcm-components/issues?utf8=✓&amp;q=is%3Aissue+is%3Aopen+accessibility+in%3Atitle)) et le texte pour les technologies d’assistance telles que les lecteurs d’écran. |
-| Possibilité d’appliquer des thèmes | Les composants implémentent le [système de style](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/sites/authoring/features/style-system.html?lang=fr) et le balisage suit les [conventions CSS BEM](http://getbem.com/). |
+| Thème utilisable | Les composants implémentent le [système de style](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/sites/authoring/features/style-system.html?lang=fr) et le balisage suit les [conventions CSS BEM](https://getbem.com/). |
 | Personnalisables | Plusieurs modèles permettent une personnalisation facile, depuis l’ajustement du code HTML jusqu’à la réutilisation des fonctionnalités avancées. |
 | Contrôle de version | La [politique de contrôle de version](https://github.com/adobe/aem-core-wcm-components/wiki/Versioning-policies) garantit que les composants principaux ne rendent pas votre site inopérable lorsqu’ils améliorent des éléments susceptibles de vous affecter. |
 | Open source | Si quelque chose ne va pas, contribuez en apportant votre amélioration. |
@@ -52,7 +50,7 @@ En outre, comme ces composants sont Open Source, les développeurs peuvent facil
 
 Les expériences de capture de données sont essentielles pour la génération et l’inscription de pistes. Les composants principaux de Forms adaptatif offrent une solution puissante pour créer des formulaires optimisés pour la capture de données. Voici quelques raisons d’utiliser les composants principaux pour créer ces expériences sur les composants de base :
 
-* **Disponibilité sur GitHub et documentation complète**: Les composants principaux de Forms adaptatif AEM sont Open Source et disponibles sur GitHub, avec une documentation complète. Cela permet aux développeurs de comprendre plus facilement les composants et leur fonctionnement, ainsi que de contribuer à leur développement. Le site web aemcomponents.dev est également une ressource précieuse, où les développeurs peuvent voir les composants en action et accéder à la documentation détaillée.
+* **Disponibilité sur GitHub et documentation complète**: Les composants principaux de Forms adaptatif AEM sont Open Source et disponibles sur GitHub, avec une documentation complète. Cela permet aux développeurs de comprendre plus facilement les composants et leur fonctionnement, ainsi que de contribuer à leur développement. Le [aemcomponents.dev](https://www.aemcomponents.dev/) Le site web est également une ressource précieuse, où les développeurs peuvent voir les composants en action et accéder à la documentation détaillée.
 
 * **Modèle BEM pour le style**: Les composants principaux suivent le modèle BEM (Block Element Modifier) pour le style, qui est une méthodologie bien établie et largement utilisée pour organiser les CSS. Cela permet aux développeurs de comprendre plus facilement comment les styles sont organisés et comment les modifier en fonction de leurs besoins spécifiques.
 
@@ -89,7 +87,7 @@ Les composants principaux de Forms adaptatif ont les exigences suivantes.
 
 ## Composants principaux de Forms adaptatif {#components}
 
-La version actuelle des composants principaux de Forms adaptatif comprend les composants suivants.
+Vous pouvez utiliser [Éditeur Forms adaptatif](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/creating-adaptive-form-core-components.html) pour créer un Forms adaptatif basé sur des composants principaux. La version actuelle des composants principaux de Forms adaptatif comprend les composants répertoriés ci-dessous.
 
 * Accordéon
 * Bouton
