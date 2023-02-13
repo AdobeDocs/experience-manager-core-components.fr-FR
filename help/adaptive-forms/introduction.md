@@ -2,10 +2,10 @@
 title: AEM Présentation des composants principaux de Forms adaptatif
 description: Créez des expériences d’inscription attrayantes (formulaires) à l’aide de la flexibilité des composants principaux de Forms adaptatif et diffusez-les avec la puissance d’Adobe Experience Manager.
 role: Architect, Developer, Admin, User
-source-git-commit: 86fa434d884b24b8d4b231c6108f5e6151a89813
+source-git-commit: b378fbd5695f82b8fc9de3a2d53a8387099ae33b
 workflow-type: tm+mt
-source-wordcount: '1231'
-ht-degree: 12%
+source-wordcount: '1028'
+ht-degree: 13%
 
 ---
 
@@ -40,11 +40,14 @@ En outre, comme ces composants sont Open Source, les développeurs peuvent facil
 | Prêts pour le cloud | Disponible pour  [AEM Forms as a Cloud Service](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/home.html). |
 | Polyvalents | Les composants représentent des concepts génériques avec lesquels les auteurs Forms peuvent assembler pratiquement n’importe quelle mise en page. |
 | Configurables | Au niveau du modèle [stratégies de contenu](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/implementing/developing/full-stack/components-templates/templates.html?lang=fr#content-policies) définir les fonctionnalités qui peuvent être utilisées ou non. |
-| Accessibles | Ils se conforment aux [WCAG 2.1 standard](https://www.w3.org/TR/WCAG21/), fournissez des libellés ARIA, prenez en charge la navigation au clavier ([problèmes connus](https://github.com/adobe/aem-core-wcm-components/issues?utf8=✓&amp;q=is%3Aissue+is%3Aopen+accessibility+in%3Atitle)) et le texte pour les technologies d’assistance telles que les lecteurs d’écran. |
+| Accessibles | Ils fournissent des libellés ARIA, prennent en charge la navigation au clavier ([problèmes connus](https://github.com/adobe/aem-core-wcm-components/issues?utf8=✓&amp;q=is%3Aissue+is%3Aopen+accessibility+in%3Atitle)) et le texte pour les technologies d’assistance telles que les lecteurs d’écran. |
 | Thème utilisable | Les composants implémentent le [système de style](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/sites/authoring/features/style-system.html?lang=fr) et le balisage suit les [conventions CSS BEM](https://getbem.com/). |
 | Personnalisables | Plusieurs modèles permettent une personnalisation facile, depuis l’ajustement du code HTML jusqu’à la réutilisation des fonctionnalités avancées. |
 | Contrôle de version | La [politique de contrôle de version](https://github.com/adobe/aem-core-wcm-components/wiki/Versioning-policies) garantit que les composants principaux ne rendent pas votre site inopérable lorsqu’ils améliorent des éléments susceptibles de vous affecter. |
 | Open source | Si quelque chose ne va pas, contribuez en apportant votre amélioration. |
+
+<!-- comply with [WCAG 2.1 standard](https://www.w3.org/TR/WCAG21/), -->
+
 
 ## Avantages {#benefits}
 
@@ -62,17 +65,22 @@ Les expériences de capture de données sont essentielles pour la génération e
 
 * **Style plus facile**: Les composants principaux sont plus faciles à mettre en forme que leurs homologues des composants de base. Le processus de création du thème est similaire à Sites, avec la possibilité d’hériter du même thème/CSS de la page Sites parente. En outre, le modèle BEM pour le style facilite la compréhension et la modification des styles.
 
-* **Accessibilité**: Les composants principaux de Forms adaptatif prennent en charge les normes et directives d’accessibilité, telles que  [WCAG 2.1 standard](https://www.w3.org/TR/WCAG21/), afin de garantir que les formulaires peuvent être utilisés par les personnes présentant un handicap, y compris celles qui utilisent des technologies d’assistance telles que les lecteurs d’écran.
+* **Accessibilité**: Les composants principaux de Forms adaptatif prennent en charge les normes et directives d’accessibilité afin de s’assurer que les formulaires peuvent être utilisés par les personnes présentant un handicap, y compris celles qui utilisent des technologies d’assistance telles que les lecteurs d’écran.
 
-* **Alignement avec AEM Sites**: Les composants principaux sont conçus pour être plus alignés sur AEM Sites, ce qui facilite l’adoption et l’utilisation par les utilisateurs de Sites sans avoir à apprendre quoi que ce soit de nouveau. Les composants utilisent le même pipeline frontal que Sites, ce qui facilite le style et la modification de leur apparence. En outre, les points suivants illustrent davantage cet alignement :
 
-   * **Expérience de création intégrée avec l’éditeur de page**: Les composants principaux disposent d’une expérience de création intégrée à l’éditeur Sites, avec des boîtes de dialogue et d’autres expériences similaires à l’éditeur de page. Cela permet aux utilisateurs de Sites de créer et de gérer plus facilement des formulaires dans le contexte familier de l’éditeur de Sites.
+<!-- >, such as  [WCAG 2.1 standard](https://www.w3.org/TR/WCAG21/), to ensure that forms can be used by people with disabilities, including those using assistive technologies such as screen readers.
 
-   * **Modification de formulaires en ligne dans l’éditeur de sites**: Les composants principaux permettent l’édition de formulaires en ligne dans l’éditeur Sites, évitant ainsi d’avoir à basculer d’un éditeur à l’autre. Cela simplifie l’expérience de création et facilite la création et la gestion des formulaires.
+*   **Alignment with AEM Sites**: The Core Components are designed to be more aligned with AEM Sites, making it easier for Sites users to adopt and use them without having to learn anything new. The components use the same front-end pipeline as Sites, making it easier to style and modify their appearance. 
 
-   * **Héritage des fonctionnalités de Sites dans Forms**: Forms créé dans une page Sites hérite des mêmes fonctionnalités que Sites. Vous bénéficiez ainsi d’une expérience transparente et intégrée pour la création et la gestion de formulaires dans le contexte d’AEM Sites.
+<!-- Additionally, the following points further illustrate this alignment:
 
-   <!--including Multi Site Manager, the ability to use Sites components within a form for static content, support for scheduled publish/unpublish, form translation aligned with Sites translation, versioning, and targeting -->
+    *   **Authoring experience inline with Page editor**: The Core Components have an authoring experience that is inline with the Sites editor, with dialogs and other experiences similar to the Page editor. This makes it easier for Sites users to create and manage forms within the familiar context of the Sites editor.
+
+    *   **Inline form editing in Sites editor**: The Core Components allow  inline form editing within the Sites editor, avoiding the need to switch back and forth between editors. This streamlines the authoring experience and makes it easier to create and manage forms.
+
+    *   **Inheriting Sites features in Forms**: Forms authored within a Sites page inherit the same features as Sites. This provides a seamless and integrated experience for creating and managing forms within the context of AEM Sites 
+    
+    <!--including Multi Site Manager, the ability to use Sites components within a form for static content, support for scheduled publish/unpublish, form translation aligned with Sites translation, versioning, and targeting -->
 
 
 
