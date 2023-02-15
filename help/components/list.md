@@ -3,10 +3,10 @@ title: Composant Liste
 description: Le composant Liste des composants principaux permet de créer facilement des listes dynamiques et statiques.
 role: Architect, Developer, Admin, User
 exl-id: 662ab508-0253-4d28-b95c-8c4cde8173bd
-source-git-commit: 327c239b02e0aecee878784c918bfa98d960530e
-workflow-type: ht
-source-wordcount: '1152'
-ht-degree: 100%
+source-git-commit: af908d77b30b7642b553f38c217136cfd5603108
+workflow-type: tm+mt
+source-wordcount: '1208'
+ht-degree: 94%
 
 ---
 
@@ -20,15 +20,16 @@ Le composant Liste peut servir à créer, par exemple, une liste dynamique de pa
 
 ## Version et compatibilité {#version-and-compatibility}
 
-La version actuelle du composant Liste est v3, qui a été introduite avec la version 2.18.0 des composants principaux en février 2022. Elle est décrite dans ce document.
+La version actuelle du composant Liste est v4, qui a été introduite avec la version 2.22.0 des composants principaux en février 2023. Elle est décrite dans ce document.
 
 Le tableau ci-après présente en détail toutes les versions prises en charge du composant, les versions AEM avec lesquelles les versions du composant sont compatibles et les liens vers la documentation pour les versions précédentes.
 
 | Version du composant | AEM 6.4 | AEM 6.5 | AEM as a Cloud Service |
 |--- |--- |--- |---|
-| v3 | - | Compatible | Compatible |
-| [v2](v2/list.md) | Compatible | Compatible | Compatible |
-| [v1](v1/list-v1.md) | Compatible | Compatible | Compatible |
+| v4 | - | Compatible | Compatible |
+| [v3](/help/components/v3/list.md) | - | Compatible | Compatible |
+| [v2](/help/components/v2/list.md) | Compatible | Compatible | Compatible |
+| [v1](/help/components/v1/list-v1.md) | Compatible | Compatible | Compatible |
 
 Pour plus d’informations sur les versions et les publications des composants principaux, voir le document sur les [versions des composants principaux](/help/versions.md).
 
@@ -93,7 +94,15 @@ La liste peut être créée à l’aide d’une liste fixe d’éléments.
 
 Appuyez ou cliquez sur le bouton **Ajouter** pour insérer un nouvel élément dans la liste.
 
-* Entrez le texte de l’élément dans la liste ou utilisez la **boîte de dialogue Sélection** pour choisir un élément dans AEM.
+* Dans le **Lien** saisie de champ :
+   * Une URL complète
+   * URL relative au contenu AEM existant
+      * Vous pouvez utiliser la variable **Boîte de dialogue de sélection** pour sélectionner un élément dans AEM.
+* Dans le **Texte** , saisissez le texte qui s’affichera pour le lien dans la liste.
+* Cochez la case si le lien doit s’ouvrir dans un nouvel onglet du navigateur.
+
+Une fois que plusieurs éléments sont créés pour la liste, vous pouvez les classer.
+
 * Utilisez la poignée de glisser-déplacer pour réorganiser les éléments de la liste.
 * Utilisez l’icône de corbeille pour supprimer les éléments de la liste.
 
@@ -154,7 +163,7 @@ Nombre maximal d’éléments affichés dans la liste.
 
 À l’aide de l’onglet Paramètres d’élément, la mise en forme des éléments de liste peut être configurée.
 
-![Paramètres d’élément](/help/assets/list-edit-items.png)
+![Paramètres d’élément](/help/assets/list-edit-item-settings.png)
 
 * **Lier des éléments** : liez des éléments à la page correspondante.
 * **Afficher la description** : affichez les descriptions de l’élément de lien.
