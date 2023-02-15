@@ -3,9 +3,9 @@ title: Composant Teaser
 description: Le composant Teaser peut afficher une image, un titre, un texte enrichi et éventuellement un lien vers un contenu supplémentaire.
 role: Architect, Developer, Admin, User
 exl-id: ec75e168-6f3b-4dff-8df6-06ca7dc18688
-source-git-commit: 395a1669cf3e17f649c23852addc37316b923bfd
-workflow-type: ht
-source-wordcount: '999'
+source-git-commit: cfc86203051739cbcdc30be0fb10ccffa7d583a5
+workflow-type: tm+mt
+source-wordcount: '988'
 ht-degree: 100%
 
 ---
@@ -81,10 +81,6 @@ Le titre, la description et l’image du teaser peuvent être hérités de la pa
 * **Texte secondaire pour l’accessibilité** : ce champ vous permet de fournir une description de l’image pour les utilisateurs souffrant de déficience visuelle.
    * **Hériter le texte secondaire de la page** : cette option utilise la description secondaire de la valeur de la ressource liée des métadonnées `dc:description` dans la gestion des ressources numériques (DAM) ou de la page active si aucune ressource n’est liée.
 * **Ne pas fournir de texte secondaire** : cette option marque lʼimage afin quʼelle soit ignorée par les technologies dʼassistance, comme les lecteurs dʼécran, dans les cas où lʼimage existe à des fins dʼillustration et ne comporte pas de signification particulière.
-
->[!NOTE]
->
->Actuellement, les [fonctionnalités Dynamic Media](image.md#dynamic-media) ne sont pas disponibles dans le composant Teaser.
 
 ### Onglet Styles {#styles-tab-edit}
 
