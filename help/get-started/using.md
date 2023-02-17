@@ -4,9 +4,9 @@ description: '« Pour que les composants principaux soient opérationnels dans 
 role: Architect, Developer, Admin, User
 exl-id: ee2d25e4-e2b8-4ecc-a62c-f0066de2bf2d
 source-git-commit: 8beae61676340e8aafaee469018d865ea7ed934e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1008'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -45,8 +45,8 @@ Gardez à l’esprit les points suivants lorsque vous utilisez les composants pr
    * Dans une prochaine version, l’ajout de composants principaux supplémentaires causera l’échec du processus de génération du pipeline.
 * Si votre projet incluait précédemment les composants principaux dans `/apps`, [vous devrez peut-être le paramétrer différemment](/help/developing/overview.md#via-aemaacs).
 * Même si les composants principaux se trouvent maintenant dans `/libs`, il n’est pas recommandé de créer un recouvrement du même chemin dans `/apps`. Si un élément quelconque des composants devait être personnalisé, nous vous recommandons d’utiliser [le modèle de composant de proxy](/help/developing/guidelines.md#proxy-component-pattern) à la place.
-* Pour que la variable [Composant Table des matières](/help/components/tableofcontents.md) pour rendre son contenu, un filtre doit être configuré dans OSGi.
-   * [Consultez la documentation GitHub du composant.](https://adobe.com/go/aem_cmp_tech_tableofcontents_v1) pour plus d’informations.
+* Pour que le [composant Table des matières](/help/components/tableofcontents.md) puisse effectuer le rendu de son contenu, un filtre doit être configuré dans OSGi.
+   * Pour plus d’informations, [consultez la documentation GitHub du composant.](https://adobe.com/go/aem_cmp_tech_tableofcontents_v1).
 
 ### AEM 6.5 et version antérieure {#aem-65}
 
@@ -56,7 +56,7 @@ Il existe plusieurs manières d’automatiser cette opération, mais la méthode
 
 ## Création des composants proxy {#create-proxy-components}
 
-Pour des raisons expliquées dans la section [Modèle de composant proxy](/help/developing/guidelines.md#proxy-component-pattern), les composants principaux ne doivent pas être directement référencés à partir du contenu. Pour éviter cela, ils appartiennent tous à un groupe de composants masqué ( `.core-wcm` ou `.core-wcm-form`), ce qui les empêchera de s’afficher directement dans l’éditeur.
+Pour des raisons expliquées dans la section [Modèle de composant proxy](/help/developing/guidelines.md#proxy-component-pattern), les composants principaux ne doivent pas être directement référencés à partir du contenu. Pour éviter cela, ils appartiennent tous à un groupe de composants masqué (`.core-wcm` ou `.core-wcm-form`), ce qui les empêchera de s’afficher directement dans l’éditeur.
 
 Au lieu de cela, des composants spécifiques au site doivent être créés, pour définir le nom et le groupe du composant que vous souhaitez afficher aux auteurs de page, puis ils doivent être référencés à un composant principal comme super-type. Ces composants spécifiques au site sont parfois nommés « composants proxy », car ils ne doivent rien contenir et servent principalement à définir la version d’un composant à utiliser pour le site. Toutefois, lors de la personnalisation des [composants principaux](/help/developing/customizing.md), ces composants proxy jouent un rôle essentiel pour la personnalisation des balises et des logiques.
 
