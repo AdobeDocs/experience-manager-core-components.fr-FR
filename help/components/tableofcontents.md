@@ -4,9 +4,9 @@ description: Le composant Table des matières permet de créer une table des mat
 role: Architect, Developer, Admin, User
 exl-id: 006adde2-ebff-4e74-8e79-325cccd43e8f
 source-git-commit: 8beae61676340e8aafaee469018d865ea7ed934e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '768'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -38,9 +38,9 @@ Pour plus d’informations sur les versions et les publications des composants p
 
 >[!NOTE]
 >
->Sur AEM as a Cloud Service, votre administrateur doit activer un filtre pour le composant afin qu’il effectue le rendu du contenu du composant.
+>Sur AEM as a Cloud Service, votre administrateur ou adminstratrice doit activer un filtre pour le composant afin que ce dernier effectue le rendu de son contenu.
 >
->[Consultez la documentation GitHub du composant.](https://adobe.com/go/aem_cmp_tech_tableofcontents_v1) pour plus d’informations.
+>Pour plus d’informations, [consultez la documentation GitHub du composant.](https://adobe.com/go/aem_cmp_tech_tableofcontents_v1).
 
 ### Détails techniques {#technical-details}
 
