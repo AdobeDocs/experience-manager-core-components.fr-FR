@@ -3,10 +3,10 @@ title: Composant du carrousel
 description: Le composant du carrousel permet à l’auteur de contenu de présenter le contenu dans un carrousel rotatif.
 role: Architect, Developer, Admin, User
 exl-id: 3331214c-a05c-47e1-b54c-fbfd1045bd60
-source-git-commit: 9767a3a10cb9a77f385edc0ac3fb00096c0087af
-workflow-type: ht
-source-wordcount: '1119'
-ht-degree: 100%
+source-git-commit: e0d3790b265ab27ac2116f0d8daf1a18ecd3d714
+workflow-type: tm+mt
+source-wordcount: '1312'
+ht-degree: 88%
 
 ---
 
@@ -42,6 +42,20 @@ La documentation technique la plus récente sur le composant du carrousel [se tr
 
 Vous trouverez plus d’informations sur le développement des composants principaux dans la [documentation destinée aux développeurs de composants principaux](/help/developing/overview.md).
 
+## Liaison profonde vers un panneau {#deep-linking}
+
+Le carrousel, [Onglets,](tabs.md) et [Composants d’accordéon](accordion.md) prennent en charge la liaison directe à un panneau au sein du composant.
+
+Pour ce faire :
+
+1. Affichez la page avec le composant à l’aide de l’option **[Afficher comme publié(e)](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/fundamentals/editing-content.html?lang=fr#view-as-published)** dans l’éditeur de page.
+1. Examinez le contenu de la page et identifiez l’ID du panneau.
+   * Par exemple, `id="carousel-bfe4fa6647-item-47f1a7ca67-tabpanel"`
+1. L’ID devient l’ancre que vous pouvez ajouter à l’URL à l’aide d’un hachage (`#`).
+   * Par exemple, `https://wknd.site/content/wknd/language-masters/en/magazine/western-australia.html#carousel-bfe4fa6647-item-47f1a7ca67-tabpanel`
+
+En accédant à l’URL avec l’ID de panneau comme ancre, le navigateur fait défiler directement le composant et affiche le panneau spécifié. Si le panneau est configuré pour ne pas être affiché par défaut, il est automatiquement défilé.
+
 ## Boîte de dialogue de modification {#edit-dialog}
 
 La boîte de dialogue de modification permet à l’auteur de contenu d’ajouter, de renommer et de réorganiser les diapositives, ainsi que de définir les paramètres de transition automatique.
@@ -67,6 +81,7 @@ Utilisez le bouton **Ajouter** pour ouvrir le sélecteur de composants afin de c
 
 Dans l’onglet **Propriétés**, l’auteur du contenu peut définir les diapositives pour la transition automatique.
 
+* **Élément actif** : l’auteur du contenu peut définir quel onglet est actif lorsque la page est chargée.
 * **Transition automatique des diapositives** : lorsque cette option est activée, le composant passe automatiquement à la diapositive suivante après un délai spécifié.
 * **Délai de transition** : lorsque la transition automatique des diapositives est sélectionnée, cette valeur est utilisée pour définir le délai entre les transitions (en millisecondes).
 * **Désactiver la pause automatique lors du survol** : lorsque l’option **Transition automatique des diapositives** est sélectionnée, la transition du carrousel se met automatiquement en pause chaque fois que l’utilisateur survole le carrousel. Sélectionnez cette option pour que la transition ne soit pas interrompue.
@@ -87,7 +102,13 @@ Dans l’onglet **Propriétés**, l’auteur du contenu peut définir les diapos
 
 Dans l’onglet **Accessibilité**, les valeurs peuvent être définies pour les étiquettes d’[accessibilité ARIA](https://www.w3.org/WAI/standards-guidelines/aria/) du composant.
 
-* **Étiquette** : Valeur d’un attribut de étiquette ARIA pour le composant
+* **Libellé** - Valeur d’un attribut de libellé aria pour le carrousel, qui décrit le contenu du carrousel
+* **Précédent** - Valeur d’un attribut de libellé aria pour le libellé de bouton précédent de la navigation par carrousel
+* **Suivant** - Valeur d’un attribut de libellé aria pour le libellé de bouton suivant de la navigation du carrousel
+* **Play** - Valeur d’un attribut de libellé aria pour le libellé du bouton de lecture de la navigation du carrousel
+* **Pause** - Valeur d’un attribut de libellé aria pour le libellé du bouton de pause de la navigation du carrousel
+* **Tablist** - Valeur d’un attribut de libellé aria pour le libellé de liste d’éléments de la navigation du carrousel.
+* **Définissez le libellé aria de l’élément sur son titre.** - Si cette option est cochée, le titre des éléments du carrousel est automatiquement défini sur sa description du libellé aria.
 
 ## Sélectionner un panneau {#select-panel}
 
@@ -116,8 +137,7 @@ L’onglet **Propriétés** permet de définir les paramètres par défaut des t
 ![Boîte de dialogue de conception du composant Carrousel](/help/assets/carousel-design.png)
 
 * **Transition automatique des diapositives** : définit si par défaut l’option permettant d’avancer automatiquement le carrousel à la diapositive suivante est activée lorsque l’auteur du contenu ajoute le composant du carrousel à une page.
-* **Délai de transition** : définit la valeur par défaut du délai de transition entre les diapositives (en millisecondes) lorsqu’un auteur de contenu ajoute le composant du carrousel à une page.
-* **Désactiver la pause automatique lors du survol** : définit si par défaut l’option de désactivation de la pause automatique de la diapositive est activée lorsque l’option **Transition automatique des diapositives** est activée par l’auteur du contenu.
+* **Ajouter des éléments de contrôle en préfixe** - Lorsque cette case est cochée, les éléments de contrôle sont placés devant les éléments du carrousel afin d’améliorer l’accessibilité.
 
 ### Onglet Composants autorisés {#allowed-components-tab}
 

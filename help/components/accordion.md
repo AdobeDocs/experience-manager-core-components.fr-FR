@@ -1,12 +1,12 @@
 ---
-title: 'Composant d’accordéon '
+title: Composant d’accordéon
 description: Le composant d’accordéon des composants principaux permet la création d’un ensemble de panneaux organisés dans un accordéon sur une page.
 role: Architect, Developer, Admin, User
 exl-id: 1deb570a-3d8d-409e-805f-8460c49cf9bb
-source-git-commit: 9767a3a10cb9a77f385edc0ac3fb00096c0087af
-workflow-type: ht
-source-wordcount: '1067'
-ht-degree: 100%
+source-git-commit: e8b3e55a42b6be6262d6f51b9569c0be3e8ce6c3
+workflow-type: tm+mt
+source-wordcount: '1068'
+ht-degree: 98%
 
 ---
 
@@ -46,7 +46,7 @@ Vous trouverez plus d’informations sur le développement des composants princi
 
 ## Liaison profonde vers un panneau {#deep-linking}
 
-Les composants Accordéon et [Onglets](tabs.md) prennent en charge la liaison directe à un panneau au sein du composant.
+L&#39;accordéon, [Carrousel,](carousel.md) et [Composants Onglets](tabs.md) prennent en charge la liaison directe à un panneau au sein du composant.
 
 Pour ce faire :
 

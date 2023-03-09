@@ -3,10 +3,10 @@ title: Composant Onglets
 description: Le composant Onglets permet la création de plusieurs onglets pour disposer le contenu sur une page.
 role: Architect, Developer, Admin, User
 exl-id: 0031c5f3-447c-4932-898f-2f453801e492
-source-git-commit: 9767a3a10cb9a77f385edc0ac3fb00096c0087af
-workflow-type: ht
-source-wordcount: '1032'
-ht-degree: 100%
+source-git-commit: e8b3e55a42b6be6262d6f51b9569c0be3e8ce6c3
+workflow-type: tm+mt
+source-wordcount: '1033'
+ht-degree: 98%
 
 ---
 
@@ -50,7 +50,7 @@ Vous trouverez plus d’informations sur le développement des composants princi
 
 ## Liaison profonde vers un panneau {#deep-linking}
 
-Les composants Onglets et [Accordéon](accordion.md) prennent en charge la liaison directe à un panneau au sein du composant.
+Les Onglets, [Carrousel,](carousel.md) et [Composants d’accordéon](accordion.md) prennent en charge la liaison directe à un panneau au sein du composant.
 
 Pour ce faire :
 
