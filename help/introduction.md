@@ -3,9 +3,9 @@ title: Présentation des composants principaux
 description: Obtenez des solutions aux problèmes grâce aux composants principaux et permettez à d’autres personnes de créer des éléments dans AEM.
 role: Architect, Developer, Admin, User
 exl-id: d294db22-4cb0-48a4-9366-03fda5b8bb8e
-source-git-commit: 8b922d7f6305f91337ef3c19d56eb7f192d65774
+source-git-commit: 39adbada42b9ca10fe2a4ff79ce6c0b3876d7be6
 workflow-type: tm+mt
-source-wordcount: '967'
+source-wordcount: '965'
 ht-degree: 100%
 
 ---
@@ -115,7 +115,7 @@ La version actuelle des composants principaux comporte les composants ci-après�
 
 Pour connaître les exigences des versions précédentes des composants principaux, voir [Versions des composants principaux](versions.md).
 
-Les composants principaux nécessitent l’utilisation de [modèles modifiables](https://experienceleague.adobe.com/docs/experience-manager-learn/sites/page-authoring/template-editor-feature-video-use.html?lang=fr) et ne prennent pas en charge l’interface utilisateur classique ni les modèles statiques. Si nécessaire, consultez les [outils de modernisation d’AEM](https://opensource.adobe.com/aem-modernize-tools/pages/tools.html) pour mettre à jour votre projet avec ces fonctionnalités modernes d’AEM.
+Les composants principaux nécessitent l’utilisation de [modèles modifiables](https://experienceleague.adobe.com/docs/experience-manager-learn/sites/page-authoring/template-editor-feature-video-use.html?lang=fr) et ne prennent pas en charge l’interface utilisateur classique ni les modèles statiques. Si nécessaire, consultez les [outils de modernisation d’AEM](https://opensource.adobe.com/aem-modernize-tools/) pour mettre à jour votre projet avec ces fonctionnalités modernes d’AEM.
 
 Pour configurer votre environnement de développement local, consultez [cet aperçu du SDK d’AEM as a Cloud Service](https://experienceleague.adobe.com/docs/experience-manager-learn/cloud-service/local-development-environment-set-up/overview.html?lang=fr) ou ce document [pour les versions plus anciennes d’AEM](https://experienceleague.adobe.com/docs/experience-manager-learn/foundation/development/set-up-a-local-aem-development-environment.html?lang=fr).
 
