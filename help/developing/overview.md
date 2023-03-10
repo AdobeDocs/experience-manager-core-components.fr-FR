@@ -3,7 +3,7 @@ title: Développement des composants principaux
 description: Les composants principaux fournissent des composants de base robustes et extensibles qui offrent de riches fonctionnalités, une diffusion en continu, un contrôle de version des composants, une mise en œuvre moderne, un balisage Lean et une exportation JSON de contenu.
 role: Architect, Developer, Admin
 exl-id: 0f79cac1-a3b0-487e-90be-0bd8263d3912
-source-git-commit: faf73c70a4bff387bed2f8cf6e48c39e597e51c7
+source-git-commit: 614bc5fd01a76a6888606faa4576e1695b77ba58
 workflow-type: tm+mt
 source-wordcount: '1559'
 ht-degree: 100%
@@ -43,14 +43,14 @@ Tout nouveau projet doit être implémenté avec les composants principaux. Tout
 
 Un travail plus important sur un projet existant (par exemple une création de nouvelle image ou une restructuration globale) offre souvent une chance d’effectuer une migration vers les composants principaux. Pour faciliter cette migration, Adobe fournit un certain nombre d’outils de migration pour inciter l’adoption des composants principaux et de la dernière technologie AEM.
 
-[Les outils de modernisation AEM](http://opensource.adobe.com/aem-modernize-tools/) permettent de convertir facilement :
+[Les outils de modernisation AEM](https://opensource.adobe.com/aem-modernize-tools/) permettent de convertir facilement :
 
 * Les modèles statiques en modèles modifiables
 * Les configurations de la conception en stratégies
 * Les composants de base en composants principaux
 * L’interface utilisateur classique en interface utilisateur tactile
 
-Pour plus d’informations sur l’utilisation de ces outils, [voir leur documentation](http://opensource.adobe.com/aem-modernize-tools/).
+Pour plus d’informations sur l’utilisation de ces outils, [voir leur documentation](https://opensource.adobe.com/aem-modernize-tools/).
 
 >[!NOTE]
 >
@@ -103,7 +103,7 @@ Pour plus d’informations sur leurs capacités de création et les options pour
 | Diffusion | [Via le site GitHub public](https://github.com/adobe/aem-core-wcm-components) | Via Quickstart |
 | Licence | [Licence Apache](https://www.apache.org/licenses/LICENSE-2.0) | Adobe propriétaire |
 | Contribution | Via une demande d’extraction | Impossible |
-| Accessibilité | Totalement conforme à la [norme WCAG 2.0 AA](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/fundamentals/accessible-content.html?lang=fr) | Partiellement conforme à la [norme WCAG 2.0 AA](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/fundamentals/accessible-content.html) |
+| Accessibilité | Totalement conforme à la [norme WCAG 2.0 AA](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/fundamentals/accessible-content.html?lang=fr) | Partiellement conforme à la [norme WCAG 2.0 AA](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/fundamentals/accessible-content.html?lang=fr) |
 
 ## Liste des composants {#component-list}
 
