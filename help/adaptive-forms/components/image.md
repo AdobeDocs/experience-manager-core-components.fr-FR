@@ -2,13 +2,13 @@
 title: Composant principal Adaptive Forms - Image
 description: Utilisation ou personnalisation du composant principal Image Forms adaptative.
 role: Architect, Developer, Admin, User
-source-git-commit: 945e1793ae4e959f83960db46d2de4257916fe32
+exl-id: 9ee42d5d-16e3-4973-8364-5bc512ebe72e
+source-git-commit: d2a6108f17f6e0c6b91bec84893d64a8bd48effd
 workflow-type: tm+mt
-source-wordcount: '956'
+source-wordcount: '978'
 ht-degree: 2%
 
 ---
-
 
 # Image {#image-adaptive-forms-core-component}
 
@@ -36,15 +36,13 @@ Il existe plusieurs raisons pour lesquelles il est bénéfique d’inclure un co
 
 ## Version et compatibilité {#version-and-compatibility}
 
-Le composant principal d’image Adaptive Forms a été publié en février 2023 dans le cadre de la version 2.0.4 des composants principaux. Voici un tableau présentant toutes les versions prises en charge, la compatibilité AEM et les liens vers la documentation correspondante :
+Le composant principal Accordéon de Forms adaptatif a été publié en février 2023 dans le cadre des composants principaux 2.0.4 pour Cloud Service et des composants principaux 1.1.12 pour AEM 6.5.16.0 Forms ou version ultérieure. Voici un tableau de toutes les versions prises en charge, de la compatibilité AEM et des liens vers la documentation correspondante :
 
-|  |  |
-|---|---|
-| Version du composant | AEM as a Cloud Service |
-| --- | --- |
-| v1 | Compatible avec<br>[version 2.0.4](/help/versions.md) et plus tard | Compatible | Compatible |
+| Version du composant | AEM as a Cloud Service | AEM 6.5.16.0 Forms ou version ultérieure |
+|---|---|---|
+| v1 | Compatible avec<br>[version 2.0.4](/help/adaptive-forms/version.md) et plus tard | Compatible avec<br>[version 1.1.12](/help/adaptive-forms/version.md) et plus tard, mais moins de 2.0.0. |
 
-Pour plus d’informations sur les versions et versions des composants principaux, reportez-vous à la section [Versions des composants principaux](/help/versions.md) document.
+Pour plus d’informations sur les versions et versions des composants principaux, reportez-vous à la section [Versions des composants principaux](/help/adaptive-forms/version.md) document.
 
 
 <!-- ## Sample Component Output {#sample-component-output}
@@ -87,7 +85,9 @@ La boîte de dialogue de conception permet de définir et de gérer les styles C
 
 ### Onglet Styles {#styles-tab}
 
-La boîte de dialogue de conception permet de définir et de gérer les styles CSS d’un composant. Le composant principal Image Forms adaptative prend en charge l’AEM [Système de style](/help/get-started/authoring.md#component-styling).
+L’onglet permet de définir et de gérer les styles CSS d’un composant. Le composant principal Image Forms adaptative prend en charge l’AEM [Système de style](/help/get-started/authoring.md#component-styling).
+
+![Boîte de dialogue de conception](/help/adaptive-forms/assets/image_designdialog.png)
 
 **Classes CSS par défaut**: Vous pouvez fournir une classe CSS par défaut pour le composant principal Image Forms adaptative.
 

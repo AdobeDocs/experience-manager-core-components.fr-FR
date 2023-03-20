@@ -2,13 +2,13 @@
 title: Composant principal Adaptive Forms - Entrée de numéro
 description: Utilisation ou personnalisation du composant principal d’entrée Numéro de Forms adaptatif .
 role: Architect, Developer, Admin, User
-source-git-commit: b378fbd5695f82b8fc9de3a2d53a8387099ae33b
+exl-id: 75604ecf-1ec5-4e97-b934-d6ed49726147
+source-git-commit: d2a6108f17f6e0c6b91bec84893d64a8bd48effd
 workflow-type: tm+mt
-source-wordcount: '1780'
+source-wordcount: '1798'
 ht-degree: 1%
 
 ---
-
 
 # Entrée numérique {#number-input-adaptive-forms-core-component}
 
@@ -16,7 +16,7 @@ Un composant de saisie numérique dans un formulaire adaptatif est un type de ch
 
 Il peut également être utilisé avec des attributs tels que min, max, step, value, etc. Ces attributs peuvent être utilisés pour définir les valeurs minimale et maximale autorisées dans le champ, l’intervalle d’étape pour incrémenter ou décrémenter le nombre et la valeur par défaut du champ.
 
-Ce composant peut être utilisé pour collecter des données numériques telles que l’âge, la quantité, etc. et peuvent également être utilisés pour effectuer des opérations mathématiques comme l’addition et la soustraction. Ce composant peut également être utilisé pour valider les données numériques saisies par l’utilisateur.
+Ce composant peut être utilisé pour collecter des données numériques telles que l’âge, la quantité, etc. Il peut également être utilisé pour effectuer des opérations mathématiques comme l’addition et la soustraction. Ce composant peut également être utilisé pour valider les données numériques saisies par l’utilisateur.
 
 Pour l’accessibilité, il est important de spécifier un &quot;libellé&quot; qui décrit l’objectif du champ de saisie numérique et le type d’entrée attendu.
 
@@ -37,15 +37,13 @@ Il existe plusieurs raisons pour lesquelles il est bénéfique d’inclure un co
 
 ## Version et compatibilité {#version-and-compatibility}
 
-Le composant principal d’entrée Numéro de Forms adaptatif a été publié en février 2023 dans le cadre des composants principaux 2.0.4. Voici un tableau présentant toutes les versions prises en charge, la compatibilité AEM et les liens vers la documentation correspondante :
+Le composant principal Accordéon de Forms adaptatif a été publié en février 2023 dans le cadre des composants principaux 2.0.4 pour Cloud Service et des composants principaux 1.1.12 pour AEM 6.5.16.0 Forms ou version ultérieure. Voici un tableau de toutes les versions prises en charge, de la compatibilité AEM et des liens vers la documentation correspondante :
 
-|  |  |
-|---|---|
-| Version du composant | AEM as a Cloud Service |
-| --- | --- |
-| v1 | Compatible avec<br>[version 2.0.4](/help/versions.md) et plus tard | Compatible | Compatible |
+| Version du composant | AEM as a Cloud Service | AEM 6.5.16.0 Forms ou version ultérieure |
+|---|---|---|
+| v1 | Compatible avec<br>[version 2.0.4](/help/adaptive-forms/version.md) et plus tard | Compatible avec<br>[version 1.1.12](/help/adaptive-forms/version.md) et plus tard, mais moins de 2.0.0. |
 
-Pour plus d’informations sur les versions et versions des composants principaux, reportez-vous à la section [Versions des composants principaux](/help/versions.md) document.
+Pour plus d’informations sur les versions et versions des composants principaux, reportez-vous à la section [Versions des composants principaux](/help/adaptive-forms/version.md) document.
 
 
 <!-- ## Sample Component Output {#sample-component-output}
@@ -114,14 +112,13 @@ Vous pouvez facilement personnaliser votre expérience d’entrée numérique po
 
 ![Onglet Accessibilité](/help/adaptive-forms/assets/numberinput_accessibility.png)
 
-* **Texte pour les lecteurs d’écran** - Le texte destiné aux lecteurs d’écran fait référence à un texte supplémentaire spécialement conçu pour être lu par les technologies d’assistance, comme les lecteurs d’écran, utilisé par les malvoyants. Ce texte fournit une description audio de l’objectif du champ de formulaire et peut inclure des informations sur le titre, la description, le nom et tout message pertinent du champ (texte personnalisé). Le texte du lecteur d’écran permet de s’assurer que le formulaire est accessible à tous les utilisateurs, y compris ceux ayant une déficience visuelle, et leur permet de bien comprendre le champ du formulaire et ses exigences.
+**Texte pour les lecteurs d’écran** - Le texte destiné aux lecteurs d’écran fait référence à un texte supplémentaire destiné à être lu par les technologies d’assistance, telles que les lecteurs d’écran, utilisés par les malvoyants. Ce texte fournit une description audio de l’objectif du champ de formulaire et peut inclure des informations sur le titre, la description, le nom et tout message pertinent du champ (texte personnalisé). Le texte du lecteur d’écran permet de s’assurer que le formulaire est accessible à tous les utilisateurs, y compris ceux ayant une déficience visuelle, et leur permet de bien comprendre le champ du formulaire et ses exigences.
 
 ### Onglet Formats {#formats-tab}
 
 ![Onglet Accessibilité](/help/adaptive-forms/assets/numberinput_formattab.png)
 
-
-* **Format d’affichage** - Cette option vous permet de sélectionner une option dans différents formats de types numériques entiers pour l’affichage. Lorsque l’utilisateur sélectionne une option dans la variable **Type** , le menu déroulant **Format** devient visible dans le panneau. Vous pouvez choisir un format spécifique dans lequel les nombres s’affichent pour l’utilisateur.
+* **Format d’affichage** - Cette option vous permet de sélectionner une option dans différents formats de type numérique entier pour l’affichage. Lorsque l’utilisateur sélectionne une option dans la variable **Type** , le menu déroulant **Format** devient visible dans le panneau. Vous pouvez choisir un format spécifique dans lequel les nombres s’affichent pour l’utilisateur.
 
 * **Nombre de chiffres avant le séparateur décimal (1234.000)** - Utilisez cette option pour spécifier le nombre de chiffres à afficher avant la décimale.
 
@@ -131,15 +128,18 @@ Vous pouvez facilement personnaliser votre expérience d’entrée numérique po
 
 La boîte de dialogue de conception permet de définir et de gérer les styles CSS pour le composant d’entrée Number.
 
-
 ### Onglet Styles {#styles-tab}
 
-La boîte de dialogue de conception permet de définir et de gérer les styles CSS d’un composant. Le composant principal d’entrée Numéro de Forms adaptatif prend en charge l’AEM [Système de style](/help/get-started/authoring.md#component-styling).
+L’onglet permet de définir et de gérer les styles CSS d’un composant. Le composant principal d’entrée Numéro de Forms adaptatif prend en charge l’AEM [Système de style](/help/get-started/authoring.md#component-styling).
+
+![Styletab](/help/adaptive-forms/assets/datepicker_styletab.png)
 
 **Classes CSS par défaut**: Vous pouvez fournir une classe CSS par défaut pour le composant principal d’entrée Numéro de Forms adaptatif.
 
-**Styles autorisés**: Vous pouvez définir des styles en fournissant un nom et la classe CSS qui représente le style. Par exemple, vous pouvez créer un style nommé &quot;bold text&quot; et fournir la classe CSS &quot;font-weight: bold&quot;. Vous pouvez utiliser ou appliquer ces styles à un formulaire adaptatif dans l’éditeur de Forms adaptatif. Pour appliquer un style, dans l’éditeur de Forms adaptatif, sélectionnez le composant auquel vous souhaitez appliquer le style, accédez à la boîte de dialogue Propriétés, puis sélectionnez le style de votre choix dans le **Styles** liste déroulante. Si vous devez mettre à jour ou modifier les styles, revenez simplement à la boîte de dialogue Conception, mettez à jour les styles dans l’onglet Styles et enregistrez les modifications.
+**Styles autorisés**: Vous pouvez définir des styles en fournissant un nom et la classe CSS qui représente le style. Par exemple, vous pouvez créer un style nommé &quot;bold text&quot; et fournir la classe CSS &quot;font-weight: bold&quot;. Vous pouvez utiliser ou appliquer ces styles à un formulaire adaptatif dans Forms adaptatif . Pour appliquer un style, dans l’éditeur de Forms adaptatif, sélectionnez le composant auquel vous souhaitez appliquer l’éditeur, accédez à la boîte de dialogue Propriétés, puis sélectionnez le style de votre choix dans la **Styles** liste déroulante. Si vous devez mettre à jour ou modifier les styles, revenez simplement à la boîte de dialogue Conception, mettez à jour les styles dans l’onglet Styles et enregistrez les modifications.
 
 ### Onglet Formats {#format-tab}
 
 L’onglet Formats vous permet de définir des formats de nombres par défaut et personnalisés.
+![Onglet Conception](/help/adaptive-forms/assets/emailinput_designformattab.png)
+

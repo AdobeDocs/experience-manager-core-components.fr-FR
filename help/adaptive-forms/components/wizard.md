@@ -2,13 +2,13 @@
 title: Composant principal Adaptive Forms - Assistant
 description: Utilisation ou personnalisation du composant principal de l’assistant de Forms adaptatif.
 role: Architect, Developer, Admin, User
-source-git-commit: 945e1793ae4e959f83960db46d2de4257916fe32
+exl-id: fd785cd2-5ed6-4efb-997f-ce9056ed113d
+source-git-commit: d2a6108f17f6e0c6b91bec84893d64a8bd48effd
 workflow-type: tm+mt
-source-wordcount: '1681'
-ht-degree: 1%
+source-wordcount: '1847'
+ht-degree: 2%
 
 ---
-
 
 # réactif {#wizard-adaptive-forms-core-component}
 
@@ -51,13 +51,11 @@ Dans l’ensemble, une disposition Assistant peut rendre le processus de remplis
 
 Le composant principal Disposition de l’assistant de Forms adaptatif a été publié en février 2023 dans le cadre de la version 2.0.4 des composants principaux. Voici un tableau présentant toutes les versions prises en charge, la compatibilité AEM et les liens vers la documentation correspondante :
 
-|  |  |
-|---|---|
-| Version du composant | AEM as a Cloud Service |
-| --- | --- |
-| v1 | Compatible avec<br>[version 2.0.4](/help/versions.md) et plus tard | Compatible | Compatible |
+| Version du composant | AEM as a Cloud Service | AEM 6.5.16.0 Forms ou version ultérieure |
+|---|---|---|
+| v1 | Compatible avec<br>[version 2.0.4](/help/adaptive-forms/version.md) et plus tard | Compatible avec<br>[version 1.1.12](/help/adaptive-forms/version.md) et plus tard, mais moins de 2.0.0. |
 
-Pour plus d’informations sur les versions et versions des composants principaux, reportez-vous à la section [Versions des composants principaux](/help/versions.md) document.
+Pour plus d’informations sur les versions et versions des composants principaux, reportez-vous à la section [Versions des composants principaux](/help/adaptive-forms/version.md) document.
 
 <!-- ## Sample Component Output {#sample-component-output}
 
@@ -124,11 +122,38 @@ Cela permet de rendre le processus de création et de personnalisation de formul
 
 Le **Composants autorisés** Cet onglet permet à l’éditeur de modèles de définir les composants qui peuvent être ajoutés en tant qu’éléments aux panneaux dans le composant Assistant de l’éditeur de Forms adaptatif.
 
+![Onglets Composants autorisés](/help/adaptive-forms/assets/panel_allowedcomponent.png)
+
+### Onglet Composants par défaut {#default-component-tab}
+
+Cet onglet permet à l’éditeur de modèles de mapper les composants qui peuvent être ajoutés en tant qu’éléments aux panneaux dans le composant de l’assistant dans l’éditeur de Forms adaptatif.
+
+![Composant par défaut du panneau](/help/adaptive-forms/assets/panel_defaultcomponent.png)
+
+### Paramètres réactifs {#responsive-settings}
+
+Cet onglet permet à l’éditeur de modèles de définir le nombre de colonnes à afficher dans la grille réactive.
+
+![Grille réactive](/help/adaptive-forms/assets/panel_responsivesettings.png)
+
+### Onglet Paramètres de conteneur {#container-setting-tab}
+
+L’onglet Paramètres du conteneur permet de définir la position des composants dans l’éditeur de Forms adaptatif.
+
+![Paramètres du conteneur](/help/adaptive-forms/assets/panel_settings.png)
+
+* **Disposition**: La mise en page simple conserve tout ce qui est fixe, tandis que la grille réactive vous permet de modifier la position des composants en fonction de vos besoins.
+* **Désactiver la mise en page**: Vous pouvez également désactiver la sélection de mise en page dans la boîte de dialogue de modification en sélectionnant **Désactiver la mise en page** .
+* **Activer l’image d’arrière-plan**: Cet onglet permet de définir l’image d’arrière-plan et la couleur dans l’éditeur de modèles.
+* **Activer la couleur d’arrière-plan**: Cet onglet permet de définir la couleur d’arrière-plan dans l’éditeur de modèles.
+
 ### Onglet Styles {#styles-tab}
 
-La boîte de dialogue de conception permet de définir et de gérer les styles CSS d’un composant. Le composant principal de l’assistant de Forms adaptatif prend en charge l’AEM [Système de style](/help/get-started/authoring.md#component-styling).
+L’onglet permet de définir et de gérer les styles CSS d’un composant. Le composant principal de l’assistant de Forms adaptatif prend en charge l’AEM [Système de style](/help/get-started/authoring.md#component-styling).
 
-**Classes CSS par défaut**: Vous pouvez fournir une classe CSS par défaut pour le composant Assistant.
+![Onglet Style](/help/adaptive-forms/assets/panel_style.png)
 
-**Styles autorisés**: Vous pouvez définir des styles en fournissant un nom et la classe CSS qui représente le style. Par exemple, vous pouvez créer un style nommé &quot;bold text&quot; et fournir la classe CSS &quot;font-weight: bold&quot;. Vous pouvez utiliser ou appliquer ces styles à un formulaire adaptatif dans l’éditeur de Forms adaptatif. Pour appliquer un style, dans l’éditeur de Forms adaptatif, sélectionnez le composant auquel vous souhaitez appliquer le style, accédez à la boîte de dialogue Propriétés, puis sélectionnez le style de votre choix dans le **Styles** liste déroulante. Si vous devez mettre à jour ou modifier les styles, revenez simplement à la boîte de dialogue Conception, mettez à jour les styles dans l’onglet Styles et enregistrez les modifications.
+* **Classes CSS par défaut**: Vous pouvez fournir une classe CSS par défaut pour le composant Assistant.
+
+* **Styles autorisés**: Vous pouvez définir des styles en fournissant un nom et la classe CSS qui représente le style. Par exemple, vous pouvez créer un style nommé &quot;bold text&quot; et fournir la classe CSS &quot;font-weight: bold&quot;. Vous pouvez utiliser ou appliquer ces styles à un formulaire adaptatif dans l’éditeur de Forms adaptatif. Pour appliquer un style, dans l’éditeur de Forms adaptatif, sélectionnez le composant auquel vous souhaitez appliquer le style, accédez à la boîte de dialogue Propriétés, puis sélectionnez le style de votre choix dans le **Styles** liste déroulante. Si vous devez mettre à jour ou modifier les styles, revenez simplement à la boîte de dialogue Conception, mettez à jour les styles dans l’onglet Styles et enregistrez les modifications.
 

@@ -2,15 +2,15 @@
 title: Composant principal Adaptive Forms - Bouton radio
 description: Utilisation ou personnalisation du composant principal de bouton radio Forms adaptatif .
 role: Architect, Developer, Admin, User
-source-git-commit: b378fbd5695f82b8fc9de3a2d53a8387099ae33b
+exl-id: 86b5e9ec-58ac-4cd5-9c7c-4269247ec34f
+source-git-commit: d2a6108f17f6e0c6b91bec84893d64a8bd48effd
 workflow-type: tm+mt
-source-wordcount: '1645'
+source-wordcount: '1667'
 ht-degree: 1%
 
 ---
 
-
-# Case d’option {#radio-button-adaptive-forms-core-component}
+# Bouton radio {#radio-button-adaptive-forms-core-component}
 
 Un bouton radio d’un formulaire adaptatif est un type d’élément de saisie qui permet à un utilisateur de sélectionner une option dans un groupe d’options associées. Il est représenté par un petit bouton circulaire rempli ou vide pour indiquer si l’option est sélectionnée ou non. Lorsqu’un utilisateur sélectionne un bouton radio, les autres du groupe sont désélectionnés. Les boutons radio sont généralement utilisés lorsqu’il existe plusieurs options s’excluant mutuellement et qu’une seule option peut être sélectionnée à la fois.
 
@@ -42,15 +42,13 @@ Il existe plusieurs raisons d’utiliser des boutons radio dans un formulaire, n
 
 ## Version et compatibilité {#version-and-compatibility}
 
-Le composant principal de bouton radio Adaptive Forms a été publié en février 2023 dans le cadre de la version 2.0.4 des composants principaux. Voici un tableau présentant toutes les versions prises en charge, la compatibilité AEM et les liens vers la documentation correspondante :
+Le composant principal Accordéon de Forms adaptatif a été publié en février 2023 dans le cadre des composants principaux 2.0.4 pour Cloud Service et des composants principaux 1.1.12 pour AEM 6.5.16.0 Forms ou version ultérieure. Voici un tableau de toutes les versions prises en charge, de la compatibilité AEM et des liens vers la documentation correspondante :
 
-|  |  |
-|---|---|
-| Version du composant | AEM as a Cloud Service |
-| --- | --- |
-| v1 | Compatible avec<br>[version 2.0.4](/help/versions.md) et plus tard | Compatible | Compatible |
+| Version du composant | AEM as a Cloud Service | AEM 6.5.16.0 Forms ou version ultérieure |
+|---|---|---|
+| v1 | Compatible avec<br>[version 2.0.4](/help/adaptive-forms/version.md) et plus tard | Compatible avec<br>[version 1.1.12](/help/adaptive-forms/version.md) et plus tard, mais moins de 2.0.0. |
 
-Pour plus d’informations sur les versions et versions des composants principaux, reportez-vous à la section [Versions des composants principaux](/help/versions.md) document.
+Pour plus d’informations sur les versions et versions des composants principaux, reportez-vous à la section [Versions des composants principaux](/help/adaptive-forms/version.md) document.
 
 <!-- ## Sample Component Output {#sample-component-output}
 
@@ -116,8 +114,7 @@ Vous pouvez facilement personnaliser l’expérience de votre bouton radio pour 
 
 ![Onglet Accessibilité](/help/adaptive-forms/assets/radiobutton_accessibilitytab.png)
 
-* **Texte pour les lecteurs d’écran** - Le texte destiné aux lecteurs d’écran fait référence à un texte supplémentaire spécialement conçu pour être lu par les technologies d’assistance, comme les lecteurs d’écran, utilisé par les malvoyants. Ce texte fournit une description audio de l’objectif du champ de formulaire et peut inclure des informations sur le titre, la description, le nom et tout message pertinent du champ (texte personnalisé). Le texte du lecteur d’écran permet de s’assurer que le formulaire est accessible à tous les utilisateurs, y compris ceux ayant une déficience visuelle, et leur permet de bien comprendre le champ du formulaire et ses exigences.
-
+**Texte pour les lecteurs d’écran** - Le texte destiné aux lecteurs d’écran fait référence à un texte supplémentaire spécialement conçu pour être lu par les technologies d’assistance, comme les lecteurs d’écran, utilisé par les malvoyants. Ce texte fournit une description audio de l’objectif du champ de formulaire et peut inclure des informations sur le titre, la description, le nom et tout message pertinent du champ (texte personnalisé). Le texte du lecteur d’écran permet de s’assurer que le formulaire est accessible à tous les utilisateurs, y compris ceux ayant une déficience visuelle, et leur permet de bien comprendre le champ du formulaire et ses exigences.
 
 ## Boîte de dialogue de conception {#design-dialog}
 
@@ -126,9 +123,11 @@ La boîte de dialogue de conception permet de définir et de gérer les styles C
 
 ### Onglet Styles {#styles-tab}
 
-La boîte de dialogue de conception permet de définir et de gérer les styles CSS d’un composant. Le composant principal de bouton radio Forms adaptatif prend en charge l’AEM [Système de style](/help/get-started/authoring.md#component-styling).
+L’onglet permet de définir et de gérer les styles CSS d’un composant. Le composant principal de bouton radio Forms adaptatif prend en charge l’AEM [Système de style](/help/get-started/authoring.md#component-styling).
 
-**Classes CSS par défaut**: Vous pouvez fournir une classe CSS par défaut pour le composant principal de bouton radio Forms adaptatif.
+![Boîte de dialogue Conception de style](/help/adaptive-forms/assets/radiobutton_designdialog.png)
 
-**Styles autorisés**: Vous pouvez définir des styles en fournissant un nom et la classe CSS qui représente le style. Par exemple, vous pouvez créer un style nommé &quot;bold text&quot; et fournir la classe CSS &quot;font-weight: bold&quot;. Vous pouvez utiliser ou appliquer ces styles à un formulaire adaptatif dans l’éditeur de Forms adaptatif. Pour appliquer un style, dans l’éditeur de Forms adaptatif, sélectionnez le composant auquel vous souhaitez appliquer le style, accédez à la boîte de dialogue Propriétés, puis sélectionnez le style de votre choix dans le **Styles** liste déroulante. Si vous devez mettre à jour ou modifier les styles, revenez simplement à la boîte de dialogue Conception, mettez à jour les styles dans l’onglet Styles et enregistrez les modifications.
+* **Classes CSS par défaut**: Vous pouvez fournir une classe CSS par défaut pour le composant principal de bouton radio Forms adaptatif.
+
+* **Styles autorisés**: Vous pouvez définir des styles en fournissant un nom et la classe CSS qui représente le style. Par exemple, vous pouvez créer un style nommé &quot;bold text&quot; et fournir la classe CSS &quot;font-weight: bold&quot;. Vous pouvez utiliser ou appliquer ces styles à un formulaire adaptatif dans l’éditeur de Forms adaptatif. Pour appliquer un style, dans l’éditeur de Forms adaptatif, sélectionnez le composant auquel vous souhaitez appliquer le style, accédez à la boîte de dialogue Propriétés, puis sélectionnez le style de votre choix dans le **Styles** liste déroulante. Si vous devez mettre à jour ou modifier les styles, revenez simplement à la boîte de dialogue Conception, mettez à jour les styles dans l’onglet Styles et enregistrez les modifications.
 

@@ -2,19 +2,19 @@
 title: Composant principal Forms adaptatif - Conteneur de panneau
 description: Utilisation ou personnalisation du composant principal du conteneur de panneau Forms adaptatif .
 role: Architect, Developer, Admin, User
-source-git-commit: b378fbd5695f82b8fc9de3a2d53a8387099ae33b
+exl-id: 104836fe-8325-47de-978d-1ff2d6a9dd15
+source-git-commit: d2a6108f17f6e0c6b91bec84893d64a8bd48effd
 workflow-type: tm+mt
-source-wordcount: '1216'
-ht-degree: 1%
+source-wordcount: '1696'
+ht-degree: 2%
 
 ---
-
 
 # Conteneur de panneau {#panel-container-adaptive-forms-core-component}
 
 Dans un formulaire adaptatif, un panneau est un élément de conteneur qui peut être utilisé pour regrouper les éléments de formulaire associés. Il vous permet de regrouper et d’organiser différents éléments de formulaire de manière logique et significative. Cela peut contribuer à améliorer la structure globale et la lisibilité du formulaire, ce qui facilite la compréhension et la navigation des utilisateurs.
 
-Les panneaux peuvent également être utilisés pour créer des sections réductibles, ce qui peut s’avérer utile pour masquer les champs de formulaire complexes ou moins fréquemment utilisés, ce qui rend le formulaire simple et facile à utiliser. Il vous permet également d’inclure d’autres composants tels que du texte, des cases à cocher, des boutons, etc.
+Les panneaux peuvent être utilisés pour créer des sections réductibles, ce qui peut s’avérer utile pour masquer les champs de formulaire complexes ou moins fréquemment utilisés, ce qui rend le formulaire simple et facile à utiliser. Il vous permet également d’inclure d’autres composants tels que du texte, une case à cocher ou un bouton.
 
 Il peut également être utilisé pour définir différentes actions basées sur des règles, telles que l’envoi d’un formulaire, l’ouverture d’un site web, l’affichage/le masquage de composants ou l’ajout d’une instance d’un panneau.
 
@@ -36,15 +36,13 @@ Il existe plusieurs raisons d’utiliser un panneau dans un formulaire, notammen
 
 ## Version et compatibilité {#version-and-compatibility}
 
-Le composant principal Conteneur de panneau Adaptive Forms a été publié en février 2023 dans le cadre de la version 2.0.4 des composants principaux. Voici un tableau présentant toutes les versions prises en charge, la compatibilité AEM et les liens vers la documentation correspondante :
+Le composant principal Accordéon de Forms adaptatif a été publié en février 2023 dans le cadre des composants principaux 2.0.4 pour Cloud Service et des composants principaux 1.1.12 pour AEM 6.5.16.0 Forms ou version ultérieure. Voici un tableau de toutes les versions prises en charge, de la compatibilité AEM et des liens vers la documentation correspondante :
 
-|  |  |
-|---|---|
-| Version du composant | AEM as a Cloud Service |
-| --- | --- |
-| v1 | Compatible avec<br>[version 2.0.4](/help/versions.md) et plus tard | Compatible | Compatible |
+| Version du composant | AEM as a Cloud Service | AEM 6.5.16.0 Forms ou version ultérieure |
+|---|---|---|
+| v1 | Compatible avec<br>[version 2.0.4](/help/adaptive-forms/version.md) et plus tard | Compatible avec<br>[version 1.1.12](/help/adaptive-forms/version.md) et plus tard, mais moins de 2.0.0. |
 
-Pour plus d’informations sur les versions et versions des composants principaux, reportez-vous à la section [Versions des composants principaux](/help/versions.md) document.
+Pour plus d’informations sur les versions et versions des composants principaux, reportez-vous à la section [Versions des composants principaux](/help/adaptive-forms/version.md) document.
 
 <!-- ## Sample Component Output {#sample-component-output}
 
@@ -90,10 +88,52 @@ Vous pouvez facilement personnaliser l’expérience du conteneur de panneaux po
 
 ![Onglet Accessibilité](/help/adaptive-forms/assets/panelcontainer_accessibilitytab.png)
 
-* **Texte pour les lecteurs d’écran** - Le texte destiné aux lecteurs d’écran fait référence à un texte supplémentaire spécialement conçu pour être lu par les technologies d’assistance, comme les lecteurs d’écran, utilisé par les malvoyants. Ce texte fournit une description audio de l’objectif du champ de formulaire et peut inclure des informations sur le titre, la description, le nom et tout message pertinent du champ (texte personnalisé). Le texte du lecteur d’écran permet de s’assurer que le formulaire est accessible à tous les utilisateurs, y compris ceux ayant une déficience visuelle, et leur permet de bien comprendre le champ du formulaire et ses exigences.
+* **Texte pour les lecteurs d’écran** - Le texte destiné aux lecteurs d’écran fait référence à un texte supplémentaire destiné à être lu par les technologies d’assistance, telles que les lecteurs d’écran, utilisés par les malvoyants. Ce texte fournit une description audio de l’objectif du champ de formulaire et peut inclure des informations sur le titre, la description, le nom et tout message pertinent du champ (texte personnalisé). Le texte du lecteur d’écran permet de s’assurer que le formulaire est accessible à tous les utilisateurs, y compris ceux ayant une déficience visuelle, et leur permet de bien comprendre le champ du formulaire et ses exigences.
 
 * **Rôle de HTML à annoncer pour le lecteur d’écran** - Le rôle de HTML est un attribut utilisé pour spécifier l’objectif d’un élément de HTML pour les technologies d’assistance telles que les lecteurs d’écran. L’attribut role est utilisé pour fournir un contexte et une signification sémantique supplémentaires à un élément, ce qui facilite l’interprétation et l’annonce du contenu à l’utilisateur par les lecteurs d’écran. Par exemple, dans AEM Forms, le libellé d’un champ de formulaire peut avoir le rôle &quot;libellé&quot; et son champ de saisie peut avoir le rôle &quot;textbox&quot;. Cela permet au lecteur d’écran de comprendre la relation entre le libellé et le champ de saisie, et de les annoncer correctement à l’utilisateur.
 
+## Boîte de dialogue de conception {#design-dialog}
 
+La boîte de dialogue de conception permet de définir et de gérer les styles CSS du composant de conteneur Panneau.
 
+### Onglet Composants autorisés {#allowed-components-tab}
+
+![Onglets Composants autorisés](/help/adaptive-forms/assets/panel_allowedcomponent.png)
+
+Le **Composants autorisés** Cet onglet permet à l’éditeur de modèles de définir les composants qui peuvent être ajoutés en tant qu’éléments aux panneaux dans le composant Conteneur de panneau de l’éditeur Forms adaptatif.
+
+### Onglet Composants par défaut {#default-component-tab}
+
+Cet onglet permet à l’éditeur de modèles de mapper les composants qui peuvent être ajoutés en tant qu’éléments aux panneaux dans le composant de conteneur Panneau dans l’éditeur Forms adaptatif.
+
+![Composant par défaut du panneau](/help/adaptive-forms/assets/panel_defaultcomponent.png)
+
+### Paramètres réactifs {#responsive-settings}
+
+Cet onglet permet à l’éditeur de modèles de définir le nombre de colonnes à afficher dans la grille réactive.
+
+![Grille réactive](/help/adaptive-forms/assets/panel_responsivesettings.png)
+
+### Onglet Paramètres de conteneur {#container-setting-tab}
+
+L’onglet Paramètres du conteneur permet de définir la position des composants dans l’éditeur de Forms adaptatif.
+
+![Paramètres du conteneur](/help/adaptive-forms/assets/panel_settings.png)
+
+* **Disposition**: La mise en page simple conserve tout ce qui est fixe, tandis que la grille réactive vous permet de modifier la position des composants en fonction de vos besoins.
+* **Désactiver la mise en page**: Vous pouvez également désactiver la sélection de mise en page dans la boîte de dialogue de modification en sélectionnant **Désactiver la mise en page** .
+* **Activer l’image d’arrière-plan**: Cet onglet permet de définir l’image d’arrière-plan et la couleur dans l’éditeur de modèles.
+* **Activer la couleur d’arrière-plan**: Cet onglet permet de définir la couleur d’arrière-plan dans l’éditeur de modèles.
+
+### Onglet Styles {#styles-tab}
+
+L’onglet permet de définir et de gérer les styles CSS d’un composant. Le composant principal du panneau Forms adaptatif prend en charge l’AEM [Système de style](/help/get-started/authoring.md#component-styling).
+
+![Onglet Style](/help/adaptive-forms/assets/panel_style.png)
+
+* **Classes CSS par défaut**: Vous pouvez fournir une classe CSS par défaut pour le composant principal Forms adaptatif.
+
+* **Styles autorisés**: Vous pouvez définir des styles en fournissant un nom et la classe CSS qui représente le style. Par exemple, vous pouvez créer un style nommé &quot;bold text&quot; et fournir la classe CSS &quot;font-weight: bold&quot;. Vous pouvez utiliser ou appliquer ces styles à un formulaire adaptatif dans Forms adaptatif . Pour appliquer un style, dans l’éditeur de Forms adaptatif, sélectionnez le composant auquel vous souhaitez appliquer l’éditeur, accédez à la boîte de dialogue Propriétés, puis sélectionnez le style de votre choix dans la **Styles** liste déroulante. Si vous devez mettre à jour ou modifier les styles, revenez simplement à la boîte de dialogue Conception, mettez à jour les styles dans l’onglet Styles et enregistrez les modifications.
+
+* **Rôle de HTML à annoncer pour le lecteur d’écran** - Le rôle de HTML est un attribut utilisé pour spécifier l’objectif d’un élément de HTML pour les technologies d’assistance telles que les lecteurs d’écran. L’attribut role est utilisé pour fournir un contexte et une signification sémantique supplémentaires à un élément, ce qui facilite l’interprétation et l’annonce du contenu à l’utilisateur par les lecteurs d’écran. Par exemple, dans AEM Forms, le libellé d’un champ de formulaire peut avoir le rôle &quot;libellé&quot; et son champ de saisie peut avoir le rôle &quot;textbox&quot;. Cela permet au lecteur d’écran de comprendre la relation entre le libellé et le champ de saisie, et de les annoncer correctement à l’utilisateur.
 

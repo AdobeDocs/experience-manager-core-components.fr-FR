@@ -2,13 +2,13 @@
 title: Composant principal Forms adaptatif - Texte
 description: Utilisation ou personnalisation du composant principal Texte de Forms adaptatif .
 role: Architect, Developer, Admin, User
-source-git-commit: 945e1793ae4e959f83960db46d2de4257916fe32
+exl-id: b8de68e4-ca0d-4ae5-9a04-104cc617f1be
+source-git-commit: d2a6108f17f6e0c6b91bec84893d64a8bd48effd
 workflow-type: tm+mt
-source-wordcount: '790'
-ht-degree: 3%
+source-wordcount: '812'
+ht-degree: 2%
 
 ---
-
 
 # Texte {#text-adaptive-forms-core-component}
 
@@ -34,15 +34,13 @@ Il existe plusieurs raisons d’utiliser du texte dans un formulaire :
 
 ## Version et compatibilité {#version-and-compatibility}
 
-Le composant principal Texte adaptatif Forms a été publié en février 2023 dans le cadre des composants principaux 2.0.4. Voici un tableau présentant toutes les versions prises en charge, la compatibilité AEM et les liens vers la documentation correspondante :
+Le composant principal Accordéon de Forms adaptatif a été publié en février 2023 dans le cadre des composants principaux 2.0.4 pour Cloud Service et des composants principaux 1.1.12 pour AEM 6.5.16.0 Forms ou version ultérieure. Voici un tableau de toutes les versions prises en charge, de la compatibilité AEM et des liens vers la documentation correspondante :
 
-|  |  |
-|---|---|
-| Version du composant | AEM as a Cloud Service |
-| --- | --- |
-| v1 | Compatible avec<br>[version 2.0.4](/help/versions.md) et plus tard | Compatible | Compatible |
+| Version du composant | AEM as a Cloud Service | AEM 6.5.16.0 Forms ou version ultérieure |
+|---|---|---|
+| v1 | Compatible avec<br>[version 2.0.4](/help/adaptive-forms/version.md) et plus tard | Compatible avec<br>[version 1.1.12](/help/adaptive-forms/version.md) et plus tard, mais moins de 2.0.0. |
 
-Pour plus d’informations sur les versions et versions des composants principaux, reportez-vous à la section [Versions des composants principaux](/help/versions.md) document.
+Pour plus d’informations sur les versions et versions des composants principaux, reportez-vous à la section [Versions des composants principaux](/help/adaptive-forms/version.md) document.
 
 <!-- ## Sample Component Output {#sample-component-output}
 
@@ -69,11 +67,12 @@ Vous pouvez facilement personnaliser votre expérience textuelle pour les visite
 
 La boîte de dialogue de conception permet de définir et de gérer les styles CSS du composant Texte.
 
-
 ### Onglet Styles {#styles-tab}
 
-La boîte de dialogue de conception permet de définir et de gérer les styles CSS d’un composant. Le composant principal Texte Forms adaptatif prend en charge l’AEM [Système de style](/help/get-started/authoring.md#component-styling).
+L’onglet permet de définir et de gérer les styles CSS d’un composant. Le composant principal Texte Forms adaptatif prend en charge l’AEM [Système de style](/help/get-started/authoring.md#component-styling).
 
-**Classes CSS par défaut**: Vous pouvez fournir une classe CSS par défaut pour le composant principal Texte de Forms adaptatif .
+![Boîte de dialogue de conception](/help/adaptive-forms/assets/reset_designdialog.png)
 
-**Styles autorisés**: Vous pouvez définir des styles en fournissant un nom et la classe CSS qui représente le style. Par exemple, vous pouvez créer un style nommé &quot;bold text&quot; et fournir la classe CSS &quot;font-weight: bold&quot;. Vous pouvez utiliser ou appliquer ces styles à un formulaire adaptatif dans l’éditeur de Forms adaptatif. Pour appliquer un style, dans l’éditeur de Forms adaptatif, sélectionnez le composant auquel vous souhaitez appliquer le style, accédez à la boîte de dialogue Propriétés, puis sélectionnez le style de votre choix dans le **Styles** liste déroulante. Si vous devez mettre à jour ou modifier les styles, revenez simplement à la boîte de dialogue Conception, mettez à jour les styles dans l’onglet Styles et enregistrez les modifications.
+* **Classes CSS par défaut**: Vous pouvez fournir une classe CSS par défaut pour le composant principal Texte de Forms adaptatif .
+
+* **Styles autorisés**: Vous pouvez définir des styles en fournissant un nom et la classe CSS qui représente le style. Par exemple, vous pouvez créer un style nommé &quot;bold text&quot; et fournir la classe CSS &quot;font-weight: bold&quot;. Vous pouvez utiliser ou appliquer ces styles à un formulaire adaptatif dans l’éditeur de Forms adaptatif. Pour appliquer un style, dans l’éditeur de Forms adaptatif, sélectionnez le composant auquel vous souhaitez appliquer le style, accédez à la boîte de dialogue Propriétés, puis sélectionnez le style de votre choix dans le **Styles** liste déroulante. Si vous devez mettre à jour ou modifier les styles, revenez simplement à la boîte de dialogue Conception, mettez à jour les styles dans l’onglet Styles et enregistrez les modifications.

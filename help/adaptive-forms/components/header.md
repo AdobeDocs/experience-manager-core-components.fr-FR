@@ -2,13 +2,13 @@
 title: Composant principal Adaptive Forms - En-tête
 description: Utilisation ou personnalisation du composant principal En-tête de Forms adaptatif .
 role: Architect, Developer, Admin, User
-source-git-commit: b378fbd5695f82b8fc9de3a2d53a8387099ae33b
+exl-id: aa18def9-0bec-4475-8dde-213860621ef5
+source-git-commit: d2a6108f17f6e0c6b91bec84893d64a8bd48effd
 workflow-type: tm+mt
-source-wordcount: '654'
-ht-degree: 7%
+source-wordcount: '675'
+ht-degree: 6%
 
 ---
-
 
 # En-tête {#header-adaptive-forms-core-component}
 
@@ -32,14 +32,13 @@ Un composant d’en-tête d’un formulaire adaptatif est une section située en
 
 ## Version et compatibilité {#version-and-compatibility}
 
-Le composant principal d’en-tête de Forms adaptatif a été publié en février 2023 dans le cadre des composants principaux 2.0.4. Voici un tableau présentant toutes les versions prises en charge, la compatibilité AEM et les liens vers la documentation correspondante :
+Le composant principal Accordéon de Forms adaptatif a été publié en février 2023 dans le cadre des composants principaux 2.0.4 pour Cloud Service et des composants principaux 1.1.12 pour AEM 6.5.16.0 Forms ou version ultérieure. Voici un tableau de toutes les versions prises en charge, de la compatibilité AEM et des liens vers la documentation correspondante :
 
-|  |  |
-|---|---|
-| Version du composant | AEM as a Cloud Service |
-| --- | --- |
-| v1 | Compatible avec<br>[version 2.0.4](/help/versions.md) et plus tard | Compatible | Compatible |
-Pour plus d’informations sur les versions et versions des composants principaux, reportez-vous à la section [Versions des composants principaux](/help/versions.md) document.
+| Version du composant | AEM as a Cloud Service | AEM 6.5.16.0 Forms ou version ultérieure |
+|---|---|---|
+| v1 | Compatible avec<br>[version 2.0.4](/help/adaptive-forms/version.md) et plus tard | Compatible avec<br>[version 1.1.12](/help/adaptive-forms/version.md) et plus tard, mais moins de 2.0.0. |
+
+Pour plus d’informations sur les versions et versions des composants principaux, reportez-vous à la section [Versions des composants principaux](/help/adaptive-forms/version.md) document.
 
 
 <!-- ## Sample Component Output {#sample-component-output}
@@ -80,6 +79,4 @@ Cette partie de l’en-tête contient le titre et l’image de l’en-tête.
 ### Onglet Texte {#text-tab}
 
 Cette section permet de saisir le texte à inclure dans l’en-tête.
-
-
 

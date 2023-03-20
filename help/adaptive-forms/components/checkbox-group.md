@@ -2,13 +2,13 @@
 title: Composant principal Adaptive Forms - Groupe de cases à cocher
 description: Utilisation ou personnalisation du composant principal Groupe de cases à cocher de Forms adaptatif .
 role: Architect, Developer, Admin, User
-source-git-commit: 945e1793ae4e959f83960db46d2de4257916fe32
+exl-id: 2ced0223-e664-470b-a400-b6865d3a67c9
+source-git-commit: d2a6108f17f6e0c6b91bec84893d64a8bd48effd
 workflow-type: tm+mt
-source-wordcount: '1683'
+source-wordcount: '1628'
 ht-degree: 2%
 
 ---
-
 
 # Groupe de cases à cocher {#button-component-adaptive-forms-core-component}
 
@@ -46,15 +46,13 @@ Il existe plusieurs raisons pour lesquelles il est bénéfique d’inclure un gr
 
 ## Version et compatibilité {#version-and-compatibility}
 
-Le composant principal Groupe de cases à cocher Adaptive Forms a été publié en février 2023 dans le cadre de la version 2.0.4 des composants principaux. Voici un tableau présentant toutes les versions prises en charge, la compatibilité AEM et les liens vers la documentation correspondante :
+Le composant principal Accordéon de Forms adaptatif a été publié en février 2023 dans le cadre des composants principaux 2.0.4 pour Cloud Service et des composants principaux 1.1.12 pour AEM 6.5.16.0 Forms ou version ultérieure. Voici un tableau de toutes les versions prises en charge, de la compatibilité AEM et des liens vers la documentation correspondante :
 
-|  |  |
-|---|---|
-| Version du composant | AEM as a Cloud Service |
-| --- | --- |
-| v1 | Compatible avec<br>[version 2.0.4](/help/versions.md) et plus tard | Compatible | Compatible |
+| Version du composant | AEM as a Cloud Service | AEM 6.5.16.0 Forms ou version ultérieure |
+|---|---|---|
+| v1 | Compatible avec<br>[version 2.0.4](/help/adaptive-forms/version.md) et plus tard | Compatible avec<br>[version 1.1.12](/help/adaptive-forms/version.md) et plus tard, mais moins de 2.0.0. |
 
-Pour plus d’informations sur les versions et versions des composants principaux, reportez-vous à la section [Versions des composants principaux](/help/versions.md) document.
+Pour plus d’informations sur les versions et versions des composants principaux, reportez-vous à la section [Versions des composants principaux](/help/adaptive-forms/version.md) document.
 
 <!-- ## Sample Component Output {#sample-component-output}
 
@@ -123,16 +121,9 @@ Vous pouvez facilement personnaliser l’expérience de votre case à cocher pou
 
 ![Onglet Accessibilité](/help/adaptive-forms/assets/checkbox_accessibility.png)
 
-Sur le **Accessibilité** , les valeurs sont définies pour [Accessibilité ARIA](https://www.w3.org/WAI/standards-guidelines/aria/) libellés du composant. Plusieurs options sont disponibles pour l’utilisation du texte pour le lecteur d’écran :
+**Texte pour les lecteurs d’écran** - Le texte destiné aux lecteurs d’écran fait référence à un texte supplémentaire spécialement conçu pour être lu par les technologies d’assistance, comme les lecteurs d’écran, utilisé par les malvoyants. Ce texte fournit une description audio de l’objectif du champ de formulaire et peut inclure des informations sur le titre, la description, le nom et tout message pertinent du champ (texte personnalisé). Le texte du lecteur d’écran permet de s’assurer que le formulaire est accessible à tous les utilisateurs, y compris ceux ayant une déficience visuelle, et leur permet de bien comprendre le champ du formulaire et ses exigences.
 
-* **Texte pour les lecteurs d’écran** - Le texte destiné aux lecteurs d’écran fait référence à un texte supplémentaire spécialement conçu pour être lu par les technologies d’assistance, comme les lecteurs d’écran, utilisé par les malvoyants. Ce texte fournit une description audio de l’objectif du champ de formulaire et peut inclure des informations sur le titre, la description, le nom et tout message pertinent du champ (texte personnalisé). Le texte du lecteur d’écran permet de s’assurer que le formulaire est accessible à tous les utilisateurs, y compris ceux ayant une déficience visuelle, et leur permet de bien comprendre le champ du formulaire et ses exigences.
-
-   * **Texte personnalisé**: Sélectionnez cette option pour utiliser le texte personnalisé pour les étiquettes d’accessibilité ARIA. Cette option affiche la boîte de dialogue Texte personnalisé . Vous pouvez ajouter des informations pertinentes dans la boîte de dialogue Texte personnalisé .
-
-   * **Titre**: Sélectionnez cette option pour utiliser le titre pour les étiquettes d’accessibilité ARIA.
-
-
-## Boîte de dialogue de conception {#design-dialog}
+    ## Boîte de dialogue de conception {#design-dialog}
 
 La boîte de dialogue de conception permet de définir et de gérer les styles CSS du composant Groupe de cases à cocher.
 
@@ -140,7 +131,8 @@ La boîte de dialogue de conception permet de définir et de gérer les styles C
 
 Le composant principal Groupe de cases à cocher Adaptive Forms prend en charge l’AEM [Système de style](/help/get-started/authoring.md#component-styling).
 
-**Classes CSS par défaut**: Vous pouvez fournir une classe CSS par défaut pour le composant principal Groupe de cases à cocher du Forms adaptatif .
+![Boîte de dialogue de conception](/help/adaptive-forms/assets/checkbox_designdialog.png)
 
-**Styles autorisés**: Vous pouvez définir des styles en fournissant un nom et la classe CSS qui représente le style. Par exemple, vous pouvez créer un style nommé &quot;bold text&quot; et fournir la classe CSS &quot;font-weight: bold&quot;. Vous pouvez utiliser ou appliquer ces styles à un formulaire adaptatif dans l’éditeur de Forms adaptatif. Pour appliquer un style, dans l’éditeur de Forms adaptatif, sélectionnez le composant auquel vous souhaitez appliquer le style, accédez à la boîte de dialogue Propriétés, puis sélectionnez le style de votre choix dans le **Styles** liste déroulante. Si vous devez mettre à jour ou modifier les styles, revenez simplement à la boîte de dialogue Conception, mettez à jour les styles dans l’onglet Styles et enregistrez les modifications.
+* **Classes CSS par défaut**: Vous pouvez fournir une classe CSS par défaut pour le composant principal Groupe de cases à cocher du Forms adaptatif .
 
+* **Styles autorisés**: Vous pouvez définir des styles en fournissant un nom et la classe CSS qui représente le style. Par exemple, vous pouvez créer un style nommé &quot;bold text&quot; et fournir la classe CSS &quot;font-weight: bold&quot;. Vous pouvez utiliser ou appliquer ces styles à un formulaire adaptatif dans l’éditeur de Forms adaptatif. Pour appliquer un style, dans l’éditeur de Forms adaptatif, sélectionnez le composant auquel vous souhaitez appliquer le style, accédez à la boîte de dialogue Propriétés, puis sélectionnez le style de votre choix dans le **Styles** liste déroulante. Si vous devez mettre à jour ou modifier les styles, revenez simplement à la boîte de dialogue Conception, mettez à jour les styles dans l’onglet Styles et enregistrez les modifications.

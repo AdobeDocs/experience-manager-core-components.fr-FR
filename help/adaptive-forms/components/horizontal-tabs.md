@@ -2,13 +2,13 @@
 title: Composant principal Forms adaptatif - Onglets horizontaux
 description: Utilisation ou personnalisation des onglets horizontaux de Forms adaptatif du composant principal.
 role: Architect, Developer, Admin, User
-source-git-commit: 945e1793ae4e959f83960db46d2de4257916fe32
+exl-id: fbdf330b-3b85-4f94-9dab-eea8465fba67
+source-git-commit: d2a6108f17f6e0c6b91bec84893d64a8bd48effd
 workflow-type: tm+mt
-source-wordcount: '1584'
-ht-degree: 3%
+source-wordcount: '1609'
+ht-degree: 2%
 
 ---
-
 
 # Onglets horizontaux {#horizontal-tabs-adaptive-forms-core-component}
 
@@ -30,15 +30,13 @@ Les raisons courantes d’utiliser les onglets horizontaux dans un formulaire ad
 
 ## Version et compatibilité {#version-and-compatibility}
 
-Le composant principal Onglets horizontaux de Forms adaptatif a été publié en février 2023 dans le cadre de la version 2.0.4 des composants principaux. Voici un tableau présentant toutes les versions prises en charge, la compatibilité AEM et les liens vers la documentation correspondante :
+Le composant principal Accordéon de Forms adaptatif a été publié en février 2023 dans le cadre des composants principaux 2.0.4 pour Cloud Service et des composants principaux 1.1.12 pour AEM 6.5.16.0 Forms ou version ultérieure. Voici un tableau de toutes les versions prises en charge, de la compatibilité AEM et des liens vers la documentation correspondante :
 
-|  |  |
-|---|---|
-| Version du composant | AEM as a Cloud Service |
-| --- | --- |
-| v1 | Compatible avec<br>[version 2.0.4](/help/versions.md) et plus tard | Compatible | Compatible |
+| Version du composant | AEM as a Cloud Service | AEM 6.5.16.0 Forms ou version ultérieure |
+|---|---|---|
+| v1 | Compatible avec<br>[version 2.0.4](/help/adaptive-forms/version.md) et plus tard | Compatible avec<br>[version 1.1.12](/help/adaptive-forms/version.md) et plus tard, mais moins de 2.0.0. |
 
-Pour plus d’informations sur les versions et versions des composants principaux, reportez-vous à la section [Versions des composants principaux](/help/versions.md) document.
+Pour plus d’informations sur les versions et versions des composants principaux, reportez-vous à la section [Versions des composants principaux](/help/adaptive-forms/version.md) document.
 
 
 <!-- ## Sample Component Output {#sample-component-output}
@@ -80,7 +78,7 @@ Le **Ajouter** vous permet de sélectionner un composant à ajouter en tant que 
 
 * **Icône** - L’icône identifie le composant du panneau dans la liste. Pointez sur l’icône pour afficher le nom complet du composant sous forme d’info-bulle.
 * **Description** - Description utilisée comme texte du panneau. Par défaut, nom du composant sélectionné pour le panneau.
-* **Supprimer** : appuyez ou cliquez sur cette option pour supprimer le panneau du composant d’accordéon.
+* **Supprimer** - Appuyez ou cliquez sur pour supprimer le panneau du composant Onglets horizontaux.
 * **Réorganiser** : appuyez ou cliquez dessus et faites glisser pour réorganiser l’ordre des panneaux.
 
 ### Onglet Contenu de l’aide {#help-content}
@@ -103,10 +101,10 @@ Le **Ajouter** vous permet de sélectionner un composant à ajouter en tant que 
 
 ## Boîte de dialogue de conception {#design-dialog}
 
-La boîte de dialogue Conception permet aux créateurs de modèles de contrôler l’affichage des éléments par défaut. Pour le composant d’accordéon Forms adaptatif, vous pouvez définir les éléments suivants :
+La boîte de dialogue Conception permet aux créateurs de modèles de contrôler l’affichage des éléments par défaut. Pour le composant Forms adaptatif, vous pouvez définir les éléments suivants :
 
-* Composants principaux qu’un créateur de formulaire peut ajouter à l’accordéon dans l’éditeur de Forms adaptatif
-* Noms simples pour les styles (classes CSS) qui peuvent être appliqués dans la boîte de dialogue des propriétés du composant d’accordéon dans l’éditeur de Forms adaptatif.
+* Composants principaux qu’un créateur de formulaires peut ajouter aux onglets horizontaux dans l’éditeur de Forms adaptatif
+* Noms simples pour les styles (classes CSS) qui peuvent être appliqués dans la boîte de dialogue des propriétés du composant Onglets horizontaux dans l’éditeur de Forms adaptatif.
 
 Cela permet de rendre le processus de création et de personnalisation de formulaires plus simple et plus efficace.
 
@@ -114,10 +112,14 @@ Cela permet de rendre le processus de création et de personnalisation de formul
 
 Le **Composants autorisés** Cet onglet permet à l’éditeur de modèles de définir les composants qui peuvent être ajoutés en tant qu’éléments aux panneaux dans le composant Onglets horizontaux de l’éditeur Forms adaptatif.
 
+![Onglets horizontaux](/help/adaptive-forms/assets/horizontaltabs_designdilog.png)
+
 ### Onglet Styles {#styles-tab}
 
-La boîte de dialogue de conception permet de définir et de gérer les styles CSS d’un composant. Le composant principal Onglets horizontaux de Forms adaptatif prend en charge l’AEM [Système de style](/help/get-started/authoring.md#component-styling).
+L’onglet permet de définir et de gérer les styles CSS d’un composant. Le composant principal Onglets horizontaux de Forms adaptatif prend en charge l’AEM [Système de style](/help/get-started/authoring.md#component-styling).
 
-**Classes CSS par défaut**: Vous pouvez fournir une classe CSS par défaut pour le composant principal Onglets horizontaux de Forms adaptative.
+![Onglet Style](/help/adaptive-forms/assets/horizontaltabs_designstyletab.png)
 
-**Styles autorisés**: Vous pouvez définir des styles en fournissant un nom et la classe CSS qui représente le style. Par exemple, vous pouvez créer un style nommé &quot;bold text&quot; et fournir la classe CSS &quot;font-weight: bold&quot;. Vous pouvez utiliser ou appliquer ces styles à un formulaire adaptatif dans l’éditeur de Forms adaptatif. Pour appliquer un style, dans l’éditeur de Forms adaptatif, sélectionnez le composant auquel vous souhaitez appliquer le style, accédez à la boîte de dialogue Propriétés, puis sélectionnez le style de votre choix dans le **Styles** liste déroulante. Si vous devez mettre à jour ou modifier les styles, revenez simplement à la boîte de dialogue Conception, mettez à jour les styles dans l’onglet Styles et enregistrez les modifications.
+* **Classes CSS par défaut**: Vous pouvez fournir une classe CSS par défaut pour le composant principal Onglets horizontaux de Forms adaptative.
+
+* **Styles autorisés**: Vous pouvez définir des styles en fournissant un nom et la classe CSS qui représente le style. Par exemple, vous pouvez créer un style nommé &quot;bold text&quot; et fournir la classe CSS &quot;font-weight: bold&quot;. Vous pouvez utiliser ou appliquer ces styles à un formulaire adaptatif dans l’éditeur de Forms adaptatif. Pour appliquer un style, dans l’éditeur de Forms adaptatif, sélectionnez le composant auquel vous souhaitez appliquer le style, accédez à la boîte de dialogue Propriétés, puis sélectionnez le style de votre choix dans le **Styles** liste déroulante. Si vous devez mettre à jour ou modifier les styles, revenez simplement à la boîte de dialogue Conception, mettez à jour les styles dans l’onglet Styles et enregistrez les modifications.

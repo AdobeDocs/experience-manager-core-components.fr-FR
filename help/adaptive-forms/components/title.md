@@ -2,13 +2,13 @@
 title: Composant principal Adaptive Forms - Titre
 description: Utilisation ou personnalisation du composant principal Titre du Forms adaptatif .
 role: Architect, Developer, Admin, User
-source-git-commit: 945e1793ae4e959f83960db46d2de4257916fe32
+exl-id: 33eac885-8d66-4a5c-9a32-0ba11e6de293
+source-git-commit: d2a6108f17f6e0c6b91bec84893d64a8bd48effd
 workflow-type: tm+mt
-source-wordcount: '836'
+source-wordcount: '862'
 ht-degree: 13%
 
 ---
-
 
 # Titre {#title-input-adaptive-forms-core-component}
 
@@ -38,15 +38,13 @@ Dans l’ensemble, le titre d’un formulaire est un aspect important de l’exp
 
 ## Version et compatibilité {#version-and-compatibility}
 
-Le composant principal Titre du Forms adaptatif a été publié en février 2023 dans le cadre de la version 2.0.4 des composants principaux. Voici un tableau présentant toutes les versions prises en charge, la compatibilité AEM et les liens vers la documentation correspondante :
+Le composant principal Accordéon de Forms adaptatif a été publié en février 2023 dans le cadre des composants principaux 2.0.4 pour Cloud Service et des composants principaux 1.1.12 pour AEM 6.5.16.0 Forms ou version ultérieure. Voici un tableau de toutes les versions prises en charge, de la compatibilité AEM et des liens vers la documentation correspondante :
 
-|  |  |
-|---|---|
-| Version du composant | AEM as a Cloud Service |
-| --- | --- |
-| v1 | Compatible avec<br>[version 2.0.4](/help/versions.md) et plus tard | Compatible | Compatible |
+| Version du composant | AEM as a Cloud Service | AEM 6.5.16.0 Forms ou version ultérieure |
+|---|---|---|
+| v1 | Compatible avec<br>[version 2.0.4](/help/adaptive-forms/version.md) et plus tard | Compatible avec<br>[version 1.1.12](/help/adaptive-forms/version.md) et plus tard, mais moins de 2.0.0. |
 
-Pour plus d’informations sur les versions et versions des composants principaux, reportez-vous à la section [Versions des composants principaux](/help/versions.md) document.
+Pour plus d’informations sur les versions et versions des composants principaux, reportez-vous à la section [Versions des composants principaux](/help/adaptive-forms/version.md) document.
 
 <!-- ## Sample Component Output {#sample-component-output}
 
@@ -74,28 +72,32 @@ La boîte de dialogue de modification permet à l’auteur de contenu de défini
 
 ## Boîte de dialogue de conception {#design-dialog}
 
-La boîte de dialogue de conception permet de définir et de gérer les styles CSS du composant Sélecteur de date.
+Cet onglet permet de définir et de gérer les styles CSS du composant Sélecteur de date.
 
 ### Titre
 
 L’onglet Titre permet aux auteurs de modèles de définir des éléments d’en-tête de HTML par défaut et autorisés pour les auteurs de formulaires :
 
-![Onglet Titre de la boîte de dialogue de conception](/help/assets/accordion-design-properties.png)
+![Onglet Titre de la boîte de dialogue de conception](/help/adaptive-forms/assets/title_heading.png)
 
 * **Éléments d’en-tête autorisés**: Une liste comportant plusieurs options permettant à l’auteur du modèle de choisir les en-têtes que l’auteur peut utiliser pour le titre.
 
 * **Elément d’en-tête par défaut**: Liste déroulante qui définit l’élément Titre par défaut pour le composant Titre.
 
-
 ### Onglet Styles {#styles-tab}
 
-La boîte de dialogue de conception permet de définir et de gérer les styles CSS d’un composant. Le composant principal Sélecteur de date de Forms adaptatif prend en charge l’AEM [Système de style](/help/get-started/authoring.md#component-styling).
+L’onglet permet de définir et de gérer les styles CSS d’un composant. Le composant principal Sélecteur de date de Forms adaptatif prend en charge l’AEM [Système de style](/help/get-started/authoring.md#component-styling).
 
-**Classes CSS par défaut**: Vous pouvez fournir une classe CSS par défaut pour le composant principal Sélecteur de date du Forms adaptatif .
+![Onglet Titre de la boîte de dialogue de conception](/help/adaptive-forms/assets/title_styles.png)
 
-**Styles autorisés**: Vous pouvez définir des styles en fournissant un nom et la classe CSS qui représente le style. Par exemple, vous pouvez créer un style nommé &quot;bold text&quot; et fournir la classe CSS &quot;font-weight: bold&quot;. Vous pouvez utiliser ou appliquer ces styles à un formulaire adaptatif dans l’éditeur de Forms adaptatif. Pour appliquer un style, dans l’éditeur de Forms adaptatif, sélectionnez le composant auquel vous souhaitez appliquer le style, accédez à la boîte de dialogue Propriétés, puis sélectionnez le style de votre choix dans le **Styles** liste déroulante. Si vous devez mettre à jour ou modifier les styles, revenez simplement à la boîte de dialogue Conception, mettez à jour les styles dans l’onglet Styles et enregistrez les modifications.
+* **Classes CSS par défaut**: Vous pouvez fournir une classe CSS par défaut pour le composant principal Sélecteur de date du Forms adaptatif .
+
+* **Styles autorisés**: Vous pouvez définir des styles en fournissant un nom et la classe CSS qui représente le style. Par exemple, vous pouvez créer un style nommé &quot;bold text&quot; et fournir la classe CSS &quot;font-weight: bold&quot;. Vous pouvez utiliser ou appliquer ces styles à un formulaire adaptatif dans l’éditeur de Forms adaptatif. Pour appliquer un style, dans l’éditeur de Forms adaptatif, sélectionnez le composant auquel vous souhaitez appliquer le style, accédez à la boîte de dialogue Propriétés, puis sélectionnez le style de votre choix dans le **Styles** liste déroulante. Si vous devez mettre à jour ou modifier les styles, revenez simplement à la boîte de dialogue Conception, mettez à jour les styles dans l’onglet Styles et enregistrez les modifications.
 
 ### Onglet Formats {#format-tab}
 
 L’onglet Formats vous permet de définir des formats de date par défaut et personnalisés.
+
+![Onglet Format](/help/adaptive-forms/assets/title_styles.png)
+
 
