@@ -1,30 +1,30 @@
 ---
 title: Composant Liste (v3)
-description: Le composant de liste des composants principaux (v3) permet de créer facilement des listes dynamiques et statiques.
+description: Le composant principal « Liste » (v3) permet de créer facilement des listes dynamiques et statiques.
 role: Architect, Developer, Admin, User
-source-git-commit: af908d77b30b7642b553f38c217136cfd5603108
-workflow-type: tm+mt
+exl-id: 4aefce2e-9c22-4c6d-869e-aaa8c246b073
+source-git-commit: d86cb826922330f9877a725b84eb1844e1d5c0b7
+workflow-type: ht
 source-wordcount: '1176'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
-
 # Composant Liste (v3) {#list-component}
 
-Le composant de liste des composants principaux (v3) permet de créer facilement des listes dynamiques et statiques.
+Le composant principal « Liste » (v3) permet de créer facilement des listes dynamiques et statiques.
 
 ## Utilisation {#usage}
 
-Le composant Liste (v3) peut être utilisé pour créer par exemple une liste dynamique de pages enfants ou une liste statique d’éléments définis de manière arbitraire. Le type de liste disponible et les options de mise en forme peuvent être définis par l’auteur du modèle dans la [boîte de dialogue de conception](#design-dialog). L’éditeur de contenu peut sélectionner les types de liste disponibles et mettre en forme les éléments de liste dans la [boîte de dialogue de modification](#edit-dialog).
+Le composant « Liste » (v3) peut servir à créer, par exemple, une liste dynamique de pages enfants ou une liste statique d’éléments définis de manière arbitraire. Le type de liste disponible et les options de mise en forme peuvent être définis par l’auteur du modèle dans la [boîte de dialogue de conception](#design-dialog). L’éditeur de contenu peut sélectionner les types de liste disponibles et mettre en forme les éléments de liste dans la [boîte de dialogue de modification](#edit-dialog).
 
 ## Version et compatibilité {#version-and-compatibility}
 
-Ce document décrit la version v3 du composant Liste, introduite avec la version 2.18.0 des composants principaux en février 2022.
+Ce document décrit la version v3 du composant « Liste », qui a été introduite avec la version 2.18.0 des composants principaux en février 2022.
 
 >[!CAUTION]
 >
->Ce document décrit la version v3 du composant Liste.
+>Ce document décrit la version v3 du composant Liste.
 >
 >Pour plus d’informations sur la version actuelle du composant Liste, voir le document [Composant Liste](/help/components/list.md).
 
