@@ -1,13 +1,13 @@
 ---
 sub-product: AEM Core Components
-user-guide-title: AEM Core Components
+user-guide-title: Composants principaux d’AEM
 breadcrumb-title: Guide des composants principaux
 user-guide-description: Utilisez les composants principaux extensibles pour permettre aux créateurs de créer facilement du contenu.
 feature-set: Experience Manager Sites
 source-git-commit: 279b96734bc8621b98b828fa80ebe693dc7904e0
 workflow-type: tm+mt
 source-wordcount: '366'
-ht-degree: 79%
+ht-degree: 99%
 
 ---
 
@@ -42,7 +42,7 @@ ht-degree: 79%
    + [Barre de progression](components/progress-bar.md)
    + [Recherche rapide](components/quick-search.md)
    + [Séparateur](components/separator.md)
-   + [Partage sur les réseaux sociaux](components/sharing.md)
+   + [Partage sur les médias sociaux](components/sharing.md)
    + [Table des matières](components/tableofcontents.md)
    + [Texte](components/text.md)
    + [Onglets](components/tabs.md)
@@ -103,26 +103,26 @@ ht-degree: 79%
 + Formulaires adaptatifs {#adaptive-forms}
    + [Présentation](/help/adaptive-forms/introduction.md)
    + [Historique des versions](/help/adaptive-forms/version.md)
-   + Composants Forms adaptatifs {#adaptive-forms-components}
-      + [Accordéon Forms adaptatif](/help/adaptive-forms/components/accordion.md)
-      + [Bouton Forms adaptatif](/help/adaptive-forms/components/button.md)
-      + [Groupe de cases à cocher Adaptive Forms](/help/adaptive-forms/components/checkbox-group.md)
-      + [Sélecteur de date de Forms adaptatif](/help/adaptive-forms/components/date-picker.md)
-      + [Liste déroulante Forms adaptative](/help/adaptive-forms/components/drop-down.md)
-      + [Entrée de courrier électronique de Forms adaptative](/help/adaptive-forms/components/email-input.md)
-      + [Pièces jointes adaptatives Forms](/help/adaptive-forms/components/file-attachment.md)
-      + [Onglets horizontaux de Forms adaptatif](/help/adaptive-forms/components/horizontal-tabs.md)
-      + [Image Forms adaptative](/help/adaptive-forms/components/image.md)
-      + [Entrée de numéro de Forms adaptatif](/help/adaptive-forms/components/number-input.md)
-      + [Panneau Forms adaptatif](/help/adaptive-forms/components/panel-container.md)
-      + [Bouton radio Forms adaptatif](/help/adaptive-forms/components/radio-button.md)
-      + [Bouton de réinitialisation de Forms adaptatif](/help/adaptive-forms/components/reset-button.md)
-      + [Bouton d’envoi de Forms adaptatif](/help/adaptive-forms/components/submit-button.md)
-      + [Entrée téléphonique du Forms adaptatif](/help/adaptive-forms/components/telephone-input.md)
-      + [Texte Forms adaptatif](/help/adaptive-forms/components/text.md)
-      + [Zone de texte Forms adaptatif](/help/adaptive-forms/components/text-input.md)
-      + [Titre du Forms adaptatif](/help/adaptive-forms/components/title.md)
-      + [Disposition de l’assistant de Forms adaptatif](/help/adaptive-forms/components/wizard.md)
+   + Composants des formulaires adaptatifs {#adaptive-forms-components}
+      + [Formulaires adaptatifs - Accordéon](/help/adaptive-forms/components/accordion.md)
+      + [Formulaires adaptatifs - Bouton](/help/adaptive-forms/components/button.md)
+      + [Formulaires adaptatifs - Groupe de cases à cocher](/help/adaptive-forms/components/checkbox-group.md)
+      + [Formulaires adaptatifs - Sélecteur de dates](/help/adaptive-forms/components/date-picker.md)
+      + [Formulaires adaptatifs - Liste déroulante](/help/adaptive-forms/components/drop-down.md)
+      + [ Formulaires adaptatifs - Entrée « E-mail »](/help/adaptive-forms/components/email-input.md)
+      + [Formulaires adaptatifs - Pièces jointes](/help/adaptive-forms/components/file-attachment.md)
+      + [Formulaires adaptatifs - Onglets horizontaux](/help/adaptive-forms/components/horizontal-tabs.md)
+      + [Formulaires adaptatifs - Image](/help/adaptive-forms/components/image.md)
+      + [Formulaires adaptatifs - Entrée de nombre](/help/adaptive-forms/components/number-input.md)
+      + [Formulaires adaptatifs - Panneau](/help/adaptive-forms/components/panel-container.md)
+      + [Formulaires adaptatifs - Bouton radio](/help/adaptive-forms/components/radio-button.md)
+      + [Formulaires adaptatifs - Bouton réinitialiser](/help/adaptive-forms/components/reset-button.md)
+      + [Formulaires adaptatifs - Bouton envoyer](/help/adaptive-forms/components/submit-button.md)
+      + [Formulaires adaptatifs - Entrée téléphonique](/help/adaptive-forms/components/telephone-input.md)
+      + [Formulaires adaptatifs - Texte](/help/adaptive-forms/components/text.md)
+      + [Formulaires adaptatifs - Zone de texte](/help/adaptive-forms/components/text-input.md)
+      + [Formulaires adaptatifs - Titre](/help/adaptive-forms/components/title.md)
+      + [Formulaires adaptatifs - Mise en page de l’assistant](/help/adaptive-forms/components/wizard.md)
       + [En-tête](/help/adaptive-forms/components/header.md)
       + [Pied de page](/help/adaptive-forms/components/footer.md)
 + Développement {#developing}
