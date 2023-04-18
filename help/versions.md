@@ -3,20 +3,20 @@ title: Versions des composants principaux
 description: Les composants principaux sont publiés sous forme de versions qui peuvent contenir plusieurs versions des mêmes composants principaux. Ce document explique les versions et les mises à jour ainsi que comment comprendre la compatibilité avec les composants principaux et AEM.
 role: Architect, Developer, Admin, User
 exl-id: 7d4dbe46-4013-4217-b815-cdb1462072c6
-source-git-commit: 94c7783b861d6e793092d79da67a78120aa80fdc
+source-git-commit: 468078da4d31d7eedf9bd73cbcf2d71107bfe3f4
 workflow-type: tm+mt
-source-wordcount: '2873'
-ht-degree: 99%
+source-wordcount: '2924'
+ht-degree: 97%
 
 ---
 
 # Versions des composants principaux {#core-components-versions}
 
-La version actuelle des composants principaux est la version 2.22.0. Elle est compatible avec les installations [AEM as a Cloud Service](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/landing/home.html?lang=fr) et [AEM On-Premise](https://experienceleague.adobe.com/docs/experience-manager-65/user-guide/home.html?lang=fr).
+La version actuelle des composants principaux est la version 2.22.4. Elle est compatible avec les installations [AEM as a Cloud Service](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/landing/home.html?lang=fr) et [AEM On-Premise](https://experienceleague.adobe.com/docs/experience-manager-65/user-guide/home.html?lang=fr).
 
 ## Historique des versions et compatibilité {#release-history-and-compatibility}
 
-Les composants principaux sont conçus pour être flexibles et compatibles avec toutes les versions d’AEM prises en charge. C’est pourquoi une mise à jour des composants peut contenir plusieurs versions du même composant.
+Les composants principaux sont conçus pour être flexibles et compatibles avec toutes les versions d’AEM prises en charge. Pour cette raison, une version des composants peut contenir plusieurs versions du même compon©ent.
 
 Les tableaux ci-dessous illustrent la compatibilité des mises à jour des composants principaux avec les versions des composants contenues dans les mises à jour.
 
@@ -26,6 +26,8 @@ Le tableau suivant, dont le contenu est [disponible sur GitHub avec les détails
 
 | Mise à jour | Description | AEM 6.4 | AEM 6.5 | AEM as a Cloud Service | Java | Date de publication |
 |---|---|---|---|---|---|---|
+| [2.22.4](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.22.4) | Il s’agit d’une version de correctif pour corriger un problème dans la variable [Composant de liste de fragments de contenu.](/help/components/content-fragment-list.md) | - | 6.5.14.0+ * | En continu | 8, 11 | 5 avril 2023 |
+| [2.22.2](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.22.2) | Il s’agit d’une version de maintenance pour résoudre deux problèmes introduits dans la version 2.22.0 | - | 6.5.14.0+ * | En continu | 8, 11 | 31 mars 2023 |
 | [2.22.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.22.0) | Cette version introduit une nouvelle version de [Composant Liste](/help/components/list.md) ainsi que des améliorations de la fonction [Teaser](/help/components/teaser.md) et de la mise à jour du [Visionneuse de PDF](/help/components/pdf-viewer.md) et [Carrousel](/help/components/carousel.md) | - | 6.5.14.0+ * | En continu | 8, 11 | 9 février 2023 |
 | [2.21.2](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.21.2) | Il s’agit d’une version de correctif qui corrige un problème lié aux [composants du teaser](/help/components/teaser.md) des versions v1 et v2. | - | 6.5.13.0+ * | En continu | 8, 11 | 12 septembre 2022 |
 | [2.21.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.21.0) | Cette version comprend plusieurs améliorations, notamment la publication de l’API LinkHandler, des améliorations du [composant Image](/help/components/image.md) et de la [couche de données,](/help/developing/data-layer/overview.md) ainsi que des améliorations des composants à plusieurs panneaux. | - | 6.5.13.0+ * | En continu | 8, 11 | 12 septembre 2022 |
