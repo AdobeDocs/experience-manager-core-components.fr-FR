@@ -3,9 +3,9 @@ title: Composant Fragment d’expérience d’e-mail
 description: Le composant Fragment d’expérience d’e-mail permet au créateur du contenu de placer une variation de fragment d’expérience sur une page tout en prenant en charge une structure de site localisée.
 role: Architect, Developer, Admin, User
 exl-id: 861c1fd1-6d6d-426c-a338-a558326fe16e
-source-git-commit: 33976c0e745ad091a142109f70541f01a31edc5b
+source-git-commit: 3abc29e0c186a84f079d5938b8b716f4c7378d65
 workflow-type: tm+mt
-source-wordcount: '927'
+source-wordcount: '888'
 ht-degree: 100%
 
 ---
@@ -32,7 +32,7 @@ Le tableau ci-après présente en détail toutes les versions prises en charge d
 
 | Version du composant | AEM 6.5 | AEM as a Cloud Service |
 |---|---|---|
-| v1 | Compatible | Compatible |
+| v1 | Compatible | - |
 
 Pour plus d’informations sur les versions et les publications des composants principaux d’e-mail, voir le document sur les [versions des composants principaux d’e-mail.](/help/email/versions.md)
 
@@ -104,10 +104,6 @@ Le composant Fragment d’expérience d’e-mail tentera de trouver un composant
 1. Si elle est introuvable, il tente de trouver un plan directeur.
 1. S’il est introuvable, il tente de trouver une live copy.
 1. S’il est introuvable, il correspond par défaut au fragment d’expérience configuré dans le composant.
-
-## Exemple de sortie de composant {#sample-component-output}
-
-Pour tester le composant Fragment d’expérience d’e-mail et obtenir des exemples de ses options de configuration, ainsi que des sorties HTML et JSON, consultez la [bibliothèque de composants.](https://adobe.com/go/aem_cmp_library_email_xf)
 
 ## Détails techniques {#technical-details}
 

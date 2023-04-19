@@ -3,9 +3,9 @@ title: Composant Conteneur d’e-mail
 description: Le composant Conteneur d’e-mail permet la création d’un conteneur pour plusieurs composants supplémentaires dans votre contenu d’e-mail.
 role: Architect, Developer, Admin, User
 exl-id: 3b271e95-0093-4cb1-bb83-8446ba12a821
-source-git-commit: 33976c0e745ad091a142109f70541f01a31edc5b
+source-git-commit: 3abc29e0c186a84f079d5938b8b716f4c7378d65
 workflow-type: tm+mt
-source-wordcount: '835'
+source-wordcount: '797'
 ht-degree: 100%
 
 ---
@@ -32,13 +32,9 @@ Le tableau ci-après présente en détail toutes les versions prises en charge d
 
 | Version du composant | AEM 6.5 | AEM as a Cloud Service |
 |---|---|---|
-| v1 | Compatible | Compatible |
+| v1 | Compatible | - |
 
 Pour plus d’informations sur les versions et les publications des composants principaux d’e-mail, voir le document sur les [versions des composants principaux d’e-mail](/help/email/versions.md).
-
-## Exemple de sortie de composant {#sample-component-output}
-
-Pour tester le composant Conteneur d’e-mail et obtenir des exemples de ses options de configuration, ainsi que des sorties HTML et JSON, consultez la [bibliothèque de composants.](https://adobe.com/go/aem_cmp_library_email_container)
 
 ## Détails techniques {#technical-details}
 
@@ -85,7 +81,7 @@ L’onglet **Composants autorisés** fonctionne de la même manière que l’ong
 
 ### Onglet Composants par défaut {#default-components-tab}
 
-L’onglet **Composants par défaut** permet de définir quel composant est ajouté au composant lorsqu’un type de ressource particulier est déposé sur le conteneur, comme [la définition des composants par défaut sur le modèle de page.](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/features/templates.html)
+L’onglet **Composants par défaut** permet de définir quel composant est ajouté au composant lorsqu’un type de ressource particulier est déposé sur le conteneur, comme [la définition des composants par défaut sur le modèle de page.](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/features/templates.html?lang=fr)
 
 ### Onglet Paramètres de conteneur {#container-settings-tab}
 

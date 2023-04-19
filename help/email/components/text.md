@@ -3,9 +3,9 @@ title: Composant Texte d’e-mail
 description: Le composant Texte d’e-mail est un composant d’édition et de composition de texte enrichi qui propose une édition statique.
 role: Architect, Developer, Admin, User
 exl-id: 4aa192f6-8314-40e7-8732-c6626d647986
-source-git-commit: 33976c0e745ad091a142109f70541f01a31edc5b
+source-git-commit: 3abc29e0c186a84f079d5938b8b716f4c7378d65
 workflow-type: tm+mt
-source-wordcount: '2328'
+source-wordcount: '2291'
 ht-degree: 100%
 
 ---
@@ -30,13 +30,9 @@ Le tableau ci-après présente en détail toutes les versions prises en charge d
 
 | Version du composant | AEM 6.5 | AEM as a Cloud Service |
 |---|---|---|
-| v1 | Compatible | Compatible |
+| v1 | Compatible | - |
 
 Pour plus d’informations sur les versions et les publications des composants principaux, voir le document sur les [versions des composants principaux d’e-mail.](/help/email/versions.md)
-
-## Exemple de sortie de composant {#sample-component-output}
-
-Pour tester le composant de texte et obtenir des exemples d’options de configuration, ainsi que des sorties HTML et JSON, consultez la [bibliothèque de composants](https://adobe.com/go/aem_cmp_library_email_text).
 
 ### Détails techniques {#technical-details}
 
@@ -52,7 +48,7 @@ Le reste de ce document illustre la configuration standard du composant Texte d�
 
 >[!NOTE]
 >
->Seules les options activées par les [configurations de l’interface utilisateur de l’éditeur de texte enrichi](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/configuring-and-extending/configure-rich-text-editor-plug-ins.html) sont disponibles dans le composant Texte d’e-mail.
+>Seules les options activées par les [configurations de l’interface utilisateur de l’éditeur de texte enrichi](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/configuring-and-extending/configure-rich-text-editor-plug-ins.html?lang=fr) sont disponibles dans le composant Texte d’e-mail.
 
 ## Boîte de dialogue de modification {#edit-dialog}
 
@@ -284,7 +280,7 @@ Utilisé pour aligner une image insérée.
 
 Permet de vérifier l’orthographe du contenu du texte. Les fautes de frappe possibles sont soulignées avec des lignes rouges rompues.
 
-Vous trouverez plus d’informations sur la vérification orthographique et la personnalisation des dictionnaires orthographiques dans le document [Configuration des modules de l’éditeur de texte enrichi](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/configuring-and-extending/configure-rich-text-editor-plug-ins.html).
+Vous trouverez plus d’informations sur la vérification orthographique et la personnalisation des dictionnaires orthographiques dans le document [Configuration des modules de l’éditeur de texte enrichi](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/configuring-and-extending/configure-rich-text-editor-plug-ins.html?lang=fr).
 
 #### Caractères spéciaux {#special-characters}
 

@@ -3,9 +3,9 @@ title: Composant Titre de l’e-mail
 description: Le composant Titre de l’e-mail est un composant En-tête de section pour vos e-mails. Il permet d’effectuer des modifications statiques.
 role: Architect, Developer, Admin, User
 exl-id: f65b6973-bb36-406f-bbea-f85a23f5340b
-source-git-commit: 33976c0e745ad091a142109f70541f01a31edc5b
+source-git-commit: 3abc29e0c186a84f079d5938b8b716f4c7378d65
 workflow-type: tm+mt
-source-wordcount: '636'
+source-wordcount: '599'
 ht-degree: 100%
 
 ---
@@ -32,13 +32,9 @@ Le tableau ci-après présente en détail toutes les versions prises en charge d
 
 | Version du composant | AEM 6.5 | AEM as a Cloud Service |
 |---|---|---|
-| v1 | Compatible | Compatible |
+| v1 | Compatible | - |
 
 Pour plus d’informations sur les versions et les publications des composants principaux, voir le document sur les [versions des composants principaux d’e-mail](/help/versions.md).
-
-## Exemple de sortie de composant {#sample-component-output}
-
-Pour tester le composant du titre et obtenir des exemples d’options de configuration, ainsi que des sorties HTML et JSON, consultez la [bibliothèque de composants.](https://adobe.com/go/aem_cmp_library_email_title)
 
 ### Détails techniques {#technical-details}
 

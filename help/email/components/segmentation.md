@@ -3,9 +3,9 @@ title: Composant Segmentation d’e-mail
 description: Composant Segmentation d’email
 role: Architect, Developer, Admin, User
 exl-id: 6c88b8c5-189a-40c0-ab28-04d37dc5fbac
-source-git-commit: 33976c0e745ad091a142109f70541f01a31edc5b
+source-git-commit: 3abc29e0c186a84f079d5938b8b716f4c7378d65
 workflow-type: tm+mt
-source-wordcount: '1171'
+source-wordcount: '1133'
 ht-degree: 100%
 
 ---
@@ -32,11 +32,7 @@ Le tableau ci-après présente en détail toutes les versions prises en charge d
 
 | Version du composant | AEM 6.5 | AEM as a Cloud Service |
 |---|---|---|
-| v1 | Compatible | Compatible |
-
-## Exemple de sortie de composant {#sample-component-output}
-
-Pour tester le composant Segmentation d’e-mail et voir des exemples d’options de configuration, ainsi que des sorties HTML et JSON, consultez la [bibliothèque de composants](https://adobe.com/go/aem_cmp_library_email_segmentation).
+| v1 | Compatible | - |
 
 ### Détails techniques {#technical-details}
 
@@ -138,7 +134,7 @@ Appuyez ou cliquez sur le bouton **Ajouter** pour créer des conditions.
 
 * **Nom de la condition de segment** : description de la condition.
 * **Condition de segment** : condition réelle qui doit être remplie, en fonction des variables de personnalisation Adobe Campaign.
-   * [Cliquez ici pour découvrir les ressources de personnalisation Adobe Campaign Standard.](https://experienceleague.adobe.com/docs/campaign-standard/using/designing-content/personalization.html?)
+   * [Cliquez ici pour découvrir les ressources de personnalisation Adobe Campaign Standard.](https://experienceleague.adobe.com/docs/campaign-standard/using/designing-content/personalization.html?lang=fr)
    * [Cliquez ici pour découvrir les ressources de personnalisation Adobe Campaign Classic.](https://experienceleague.adobe.com/docs/
 * **Supprimer** : appuyez ou cliquez pour supprimer la condition.
 * **Réorganiser** : appuyez ou cliquez sur les conditions et faites-les glisser pour les réorganiser.

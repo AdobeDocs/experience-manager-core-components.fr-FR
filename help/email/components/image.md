@@ -3,9 +3,9 @@ title: Composant Image d’e-mail
 description: Le composant Image d’e-mail est un composant d’image adaptatif qui permet d’effectuer des modifications statiques.
 role: Architect, Developer, Admin, User
 exl-id: f5d40047-3082-4edd-a5f6-6ab3e33997f9
-source-git-commit: 33976c0e745ad091a142109f70541f01a31edc5b
+source-git-commit: 3abc29e0c186a84f079d5938b8b716f4c7378d65
 workflow-type: tm+mt
-source-wordcount: '1683'
+source-wordcount: '1645'
 ht-degree: 100%
 
 ---
@@ -30,7 +30,7 @@ Le tableau ci-après présente en détail toutes les versions prises en charge d
 
 | Version du composant | AEM 6.5 | AEM as a Cloud Service |
 |---|---|---|
-| v1 | Compatible | Compatible |
+| v1 | Compatible | - |
 
 Pour plus d’informations sur les versions et les publications des composants principaux, voir le document sur les [versions des composants principaux d’e-mail](/help/email/versions.md).
 
@@ -61,10 +61,6 @@ Les formats SVG (Scalable Vector Graphics) sont pris en charge par le composan
 ### Sécurité {#security}
 
 Pour des raisons de sécurité, l’éditeur d’image ne fait jamais appel au fichier SVG d’origine. Il est appelé par `<img src=“path-to-component”>`. Cela empêche le navigateur d’exécuter les scripts incorporés dans le fichier SVG.
-
-## Exemple de sortie de composant {#sample-component-output}
-
-Pour tester le composant Image d’e-mail et voir des exemples de ses options de configuration, ainsi que la sortie HTML et JSON, consultez la [bibliothèque de composants.](https://adobe.com/go/aem_cmp_library_email_image)
 
 ### Détails techniques {#technical-details}
 
