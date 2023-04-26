@@ -4,9 +4,9 @@ description: Utilisation ou personnalisation du composant principal « Entrée 
 role: Architect, Developer, Admin, User
 exl-id: 75604ecf-1ec5-4e97-b934-d6ed49726147
 source-git-commit: d2a6108f17f6e0c6b91bec84893d64a8bd48effd
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1798'
-ht-degree: 88%
+ht-degree: 100%
 
 ---
 
@@ -16,7 +16,7 @@ Dans un formulaire adaptatif, un composant « entrée de nombre » est un type
 
 Il peut également être utilisé avec des attributs tels que min, max, étape, valeur, etc. Ces attributs peuvent être utilisés pour définir les valeurs minimale et maximale autorisées dans le champ, l’intervalle d’étape pour incrémenter ou décrémenter le nombre et la valeur par défaut du champ.
 
-Ce composant peut être utilisé pour collecter des données numériques telles que l’âge, la quantité, etc. Il peut également être utilisé pour effectuer des opérations mathématiques comme l’addition et la soustraction. Ce composant peut également être utilisé pour valider les données numériques saisies par l’utilisateur ou l’utilisatrice.
+Ce composant peut être utilisé pour collecter des données numériques telles que l’âge, la quantité, etc. Il peut également être utilisé pour effectuer des opérations mathématiques, comme l’addition et la soustraction. Ce composant peut également être utilisé pour valider les données numériques saisies par l’utilisateur ou l’utilisatrice.
 
 Pour l’accessibilité, il est important de spécifier un « libellé » qui décrit l’objectif du champ d’entrée de nombre et le type d’entrée attendu.
 
@@ -28,20 +28,20 @@ Pour l’accessibilité, il est important de spécifier un « libellé » qui 
 
 Il existe plusieurs raisons d’inclure un composant « Entrée de nombre » dans un formulaire adaptatif, notamment :
 
-* **Opérations mathématiques**: Les champs numériques peuvent être utilisés pour effectuer des opérations mathématiques telles que l’addition, la soustraction, la multiplication et la division.
+* **Opérations mathématiques** : les champs numériques peuvent être utilisés pour effectuer des opérations mathématiques telles que l’addition, la soustraction, la multiplication et la division.
 
-* **Plage de données**: Les champs numériques peuvent être utilisés pour définir une plage de valeurs valides à l’aide des attributs min, max et step.
+* **Plage de données** : les champs numériques peuvent être utilisés pour définir une plage de valeurs valides à l’aide des attributs min, max et étape.
 
 * **Contenu dynamique** : un composant numérique peut être utilisé pour afficher des données dynamiques en fonction des champs du formulaire.
 
 
 ## Version et compatibilité {#version-and-compatibility}
 
-Le composant principal Accordéon de Forms adaptatif a été publié en février 2023 dans le cadre des composants principaux 2.0.4 pour Cloud Service et des composants principaux 1.1.12 pour AEM 6.5.16.0 Forms ou version ultérieure. Voici un tableau de toutes les versions prises en charge, de la compatibilité AEM et des liens vers la documentation correspondante :
+Le composant principal Accordéon des formulaires adaptatifs a été publié en février 2023 au sein des composants principaux 2.0.4 pour Cloud Service et des composants principaux 1.1.12 pour AEM 6.5.16.0 Forms ou version ultérieure. Vous trouverez ci-dessous un tableau détaillant les versions prises en charge, la compatibilité avec AEM et les liens vers la documentation correspondante :
 
-| Version du composant | AEM as a Cloud Service | AEM 6.5.16.0 Forms ou version ultérieure |
+| Version du composant | AEM as a Cloud Service | AEM 6.5.16.0 Forms ou version ultérieure |
 |---|---|---|
-| v1 | Compatible avec la <br>[version 2.0.4](/help/adaptive-forms/version.md) et les versions ultérieures | Compatible avec<br>[version 1.1.12](/help/adaptive-forms/version.md) et plus tard, mais moins de 2.0.0. |
+| v1 | Compatible avec la <br>[version 2.0.4](/help/adaptive-forms/version.md) et les versions ultérieures | Compatible avec les<br>[versions 1.1.12](/help/adaptive-forms/version.md) à 2.0.0 exclue. |
 
 Pour plus d’informations sur les versions et publications des composants principaux, consultez le document [Versions des composants principaux](/help/adaptive-forms/version.md).
 
@@ -112,13 +112,13 @@ Vous pouvez facilement personnaliser l’expérience d’entrée de nombre pour 
 
 ![Onglet Accessibilité](/help/adaptive-forms/assets/numberinput_accessibility.png)
 
-**Texte pour les lecteurs d’écran** - Le texte destiné aux lecteurs d’écran fait référence à un texte supplémentaire destiné à être lu par les technologies d’assistance, telles que les lecteurs d’écran, utilisés par les malvoyants. Ce texte fournit une description audio de l’objectif du champ de formulaire et peut inclure des informations sur le titre, la description, le nom du champ et tout message pertinent (texte personnalisé). Le texte du lecteur d’écran permet de s’assurer que le formulaire est accessible à tous les utilisateurs et utilisatrices, y compris celles et ceux ayant une déficience visuelle, et leur permet de bien comprendre le champ du formulaire et ses exigences.
+**Texte pour les lecteurs d’écran** : le texte destiné aux lecteurs d’écran fait référence à un texte supplémentaire conçu pour être lu par les technologies d’assistance, comme les lecteurs d’écran, utilisées par les personnes malvoyantes. Ce texte fournit une description audio de l’objectif du champ de formulaire et peut inclure des informations sur le titre, la description, le nom du champ et tout message pertinent (texte personnalisé). Le texte du lecteur d’écran permet de s’assurer que le formulaire est accessible à tous les utilisateurs et utilisatrices, y compris celles et ceux ayant une déficience visuelle, et leur permet de bien comprendre le champ du formulaire et ses exigences.
 
 ### Onglet Formats {#formats-tab}
 
 ![Onglet Accessibilité](/help/adaptive-forms/assets/numberinput_formattab.png)
 
-* **Format d’affichage** - Cette option vous permet de sélectionner une option dans différents formats de type numérique entier pour l’affichage. Lorsque l’utilisateur ou l’utilisatrice sélectionne une option dans le menu déroulant **Type**, l’option **Format** apparaît dans le panneau. Vous pouvez choisir un format spécifique dans lequel les nombres s’affichent pour l’utilisateur ou l’utilisatrice.
+* **Format d’affichage** : Cette option permet de sélectionner un format de type entier-numérique pour l’affichage. Lorsque l’utilisateur ou l’utilisatrice sélectionne une option dans le menu déroulant **Type**, l’option **Format** apparaît dans le panneau. Vous pouvez choisir un format spécifique dans lequel les nombres s’affichent pour l’utilisateur ou l’utilisatrice.
 
 * **Nombre de chiffres avant le séparateur décimal (1234,000)** - Utilisez cette option pour spécifier le nombre de chiffres à afficher avant la décimale.
 
@@ -130,16 +130,16 @@ La boîte de dialogue de conception permet de définir et de gérer les styles C
 
 ### Onglet Styles {#styles-tab}
 
-L’onglet permet de définir et de gérer les styles CSS d’un composant. Le composant principal « Entrée de nombre » des formulaires adaptatifs prend en charge le [Système de style](/help/get-started/authoring.md#component-styling) d’AEM.
+Cet onglet vous permet de définir et de gérer les styles CSS d’un composant. Le composant principal « Entrée de nombre » des formulaires adaptatifs prend en charge le [Système de style](/help/get-started/authoring.md#component-styling) d’AEM.
 
-![Styletab](/help/adaptive-forms/assets/datepicker_styletab.png)
+![Onglet Styles.](/help/adaptive-forms/assets/datepicker_styletab.png)
 
 **Classes CSS par défaut** : vous pouvez fournir une classe CSS par défaut pour le composant principal « Entrée de nombre » des formulaires adaptatifs.
 
-**Styles autorisés** : vous pouvez définir des styles en fournissant un nom et la classe CSS qui représente le style. Par exemple, vous pouvez créer un style nommé « texte en gras » et fournir la classe CSS « police d’épaisseur : gras ». Vous pouvez utiliser ou appliquer ces styles à un formulaire adaptatif dans Forms adaptatif . Pour appliquer un style, dans l’éditeur de Forms adaptatif, sélectionnez le composant auquel vous souhaitez appliquer l’éditeur, accédez à la boîte de dialogue Propriétés, puis sélectionnez le style de votre choix dans la **Styles** liste déroulante. Si vous devez mettre à jour ou modifier les styles, revenez simplement à la boîte de dialogue Conception, mettez à jour les styles dans l’onglet Styles et enregistrez les modifications.
+**Styles autorisés** : vous pouvez définir des styles en fournissant un nom et la classe CSS qui représente le style. Par exemple, vous pouvez créer un style nommé « texte en gras » et fournir la classe CSS « police d’épaisseur : gras ». Vous pouvez utiliser ou appliquer ces styles à un formulaire adaptatif dans les formulaires adaptatifs. Pour appliquer un style, sélectionnez le composant auquel vous souhaitez appliquer le style dans l’éditeur de formulaires adaptatifs, accédez à la boîte de dialogue des propriétés, puis sélectionnez le style de votre choix dans la liste déroulante **Styles**. Si vous devez mettre à jour ou modifier les styles, revenez simplement à la boîte de dialogue Conception, mettez à jour les styles dans l’onglet Styles et enregistrez les modifications.
 
 ### Onglet Formats {#format-tab}
 
 L’onglet Formats vous permet de définir des formats de nombres par défaut et personnalisés.
-![Onglet Conception](/help/adaptive-forms/assets/emailinput_designformattab.png)
+![Onglet Conception.](/help/adaptive-forms/assets/emailinput_designformattab.png)
 
