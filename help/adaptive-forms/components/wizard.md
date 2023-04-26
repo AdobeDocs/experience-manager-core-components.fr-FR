@@ -4,9 +4,9 @@ description: Utilisation ou personnalisation du composant principal « Assistan
 role: Architect, Developer, Admin, User
 exl-id: fd785cd2-5ed6-4efb-997f-ce9056ed113d
 source-git-commit: d2a6108f17f6e0c6b91bec84893d64a8bd48effd
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1847'
-ht-degree: 90%
+ht-degree: 100%
 
 ---
 
@@ -51,9 +51,9 @@ Dans l’ensemble, une disposition « Assistant » peut rendre le processus de
 
 Le composant principal « Disposition Assistant » des formulaires adaptatifs a été publié en février 2023 dans le cadre de la version 2.0.4 des composants principaux. Voici un tableau présentant toutes les versions prises en charge, la compatibilité AEM et les liens vers la documentation correspondante :
 
-| Version du composant | AEM as a Cloud Service | AEM 6.5.16.0 Forms ou version ultérieure |
+| Version du composant | AEM as a Cloud Service | AEM 6.5.16.0 Forms ou version ultérieure |
 |---|---|---|
-| v1 | Compatible avec la <br>[version 2.0.4](/help/adaptive-forms/version.md) et les versions ultérieures | Compatible avec<br>[version 1.1.12](/help/adaptive-forms/version.md) et plus tard, mais moins de 2.0.0. |
+| v1 | Compatible avec la <br>[version 2.0.4](/help/adaptive-forms/version.md) et les versions ultérieures | Compatible avec les<br>[versions 1.1.12](/help/adaptive-forms/version.md) à 2.0.0 exclue. |
 
 Pour plus d’informations sur les versions et publications des composants principaux, consultez le document [Versions des composants principaux](/help/adaptive-forms/version.md).
 
@@ -113,7 +113,7 @@ Vous pouvez facilement personnaliser l’expérience d’assistant pour les visi
 
 La boîte de dialogue Conception permet aux créateurs et aux créatrices de modèles de contrôler l’affichage des éléments par défaut. Pour le composant « Assistant » des formulaires adaptatifs, vous pouvez définir les éléments suivants :
 
-* Composants principaux qu’un créateur ou une créatrice de formulaire peut ajouter à l’assistant dans l’éditeur de formulaires adaptatifs
+* Composants principaux qu’un créateur ou une créatrice de formulaire peut ajouter à l’assistant dans l’éditeur de formulaires adaptatifs.
 * Noms simples pour les styles (classes CSS) qui peuvent être appliqués dans la boîte de dialogue des propriétés du composant « Assistant » dans l’éditeur de formulaires adaptatifs.
 
 Cela permet de rendre le processus de création et de personnalisation de formulaires plus simple et plus efficace.
@@ -122,36 +122,36 @@ Cela permet de rendre le processus de création et de personnalisation de formul
 
 L’onglet **Composants autorisés** permet à l’éditeur de modèles de définir les composants qui peuvent être ajoutés en tant qu’éléments aux panneaux dans le composant « Assistant » de l’éditeur de formulaires adaptatifs.
 
-![Onglets Composants autorisés](/help/adaptive-forms/assets/panel_allowedcomponent.png)
+![Onglets Composants autorisés.](/help/adaptive-forms/assets/panel_allowedcomponent.png)
 
 ### Onglet Composants par défaut {#default-component-tab}
 
-Cet onglet permet à l’éditeur de modèles de mapper les composants qui peuvent être ajoutés en tant qu’éléments aux panneaux dans le composant de l’assistant dans l’éditeur de Forms adaptatif.
+Cet onglet permet à l’éditeur de modèles de définir les composants qui peuvent être ajoutés en tant qu’éléments aux panneaux dans le composant Assistant de l’éditeur de formulaires adaptatifs.
 
-![Composant par défaut du panneau](/help/adaptive-forms/assets/panel_defaultcomponent.png)
+![Composant par défaut du panneau.](/help/adaptive-forms/assets/panel_defaultcomponent.png)
 
 ### Paramètres réactifs {#responsive-settings}
 
 Cet onglet permet à l’éditeur de modèles de définir le nombre de colonnes à afficher dans la grille réactive.
 
-![Grille réactive](/help/adaptive-forms/assets/panel_responsivesettings.png)
+![Grille réactive.](/help/adaptive-forms/assets/panel_responsivesettings.png)
 
 ### Onglet Paramètres de conteneur {#container-setting-tab}
 
-L’onglet Paramètres du conteneur permet de définir la position des composants dans l’éditeur de Forms adaptatif.
+L’onglet Paramètres du conteneur permet de définir la position des composants dans l’éditeur de formulaires adaptatifs.
 
-![Paramètres du conteneur](/help/adaptive-forms/assets/panel_settings.png)
+![Paramètres de conteneur.](/help/adaptive-forms/assets/panel_settings.png)
 
-* **Disposition**: La mise en page simple conserve tout ce qui est fixe, tandis que la grille réactive vous permet de modifier la position des composants en fonction de vos besoins.
-* **Désactiver la mise en page**: Vous pouvez également désactiver la sélection de mise en page dans la boîte de dialogue de modification en sélectionnant **Désactiver la mise en page** .
-* **Activer l’image d’arrière-plan**: Cet onglet permet de définir l’image d’arrière-plan et la couleur dans l’éditeur de modèles.
-* **Activer la couleur d’arrière-plan**: Cet onglet permet de définir la couleur d’arrière-plan dans l’éditeur de modèles.
+* **Disposition** : la disposition simple conserve tout ce qui est fixe, tandis que la grille réactive vous permet de modifier la position des composants en fonction de vos besoins.
+* **Désactiver la disposition** : vous pouvez également désactiver la disposition dans la boîte de dialogue de modification en activant la case **Désactiver la disposition**.
+* **Activer l’image d’arrière-plan** : cet onglet permet de définir l’image et la couleur d’arrière-plan dans l’éditeur de modèles.
+* **Activer la couleur d’arrière-plan** : cet onglet permet de définir la couleur d’arrière-plan dans l’éditeur de modèles.
 
 ### Onglet Styles {#styles-tab}
 
-L’onglet permet de définir et de gérer les styles CSS d’un composant. Le composant principal « Assistant » des formulaires adaptatifs prend en charge le [Système de style](/help/get-started/authoring.md#component-styling) d’AEM.
+Cet onglet vous permet de définir et de gérer les styles CSS d’un composant. Le composant principal « Assistant » des formulaires adaptatifs prend en charge le [Système de style](/help/get-started/authoring.md#component-styling) d’AEM.
 
-![Onglet Style](/help/adaptive-forms/assets/panel_style.png)
+![Onglet Styles.](/help/adaptive-forms/assets/panel_style.png)
 
 * **Classes CSS par défaut** : vous pouvez fournir une classe CSS par défaut pour le composant « Assistant ».
 
