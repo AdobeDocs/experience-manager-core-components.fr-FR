@@ -4,9 +4,9 @@ description: Utilisation ou personnalisation du composant principal Bouton de r�
 role: Architect, Developer, Admin, User
 exl-id: e5aa9d89-aece-491e-80a1-7fb9ea6c4b60
 source-git-commit: d2a6108f17f6e0c6b91bec84893d64a8bd48effd
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1194'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
@@ -31,11 +31,11 @@ L’emploi du bouton de réinitialisation dans un formulaire offre les avantages
 
 ## Version et compatibilité {#version-and-compatibility}
 
-Le composant principal d’accordéon Adaptive Forms a été publié en février 2023 dans le cadre des composants principaux 2.0.4 pour Cloud Service et des composants principaux 1.1.12 pour AEM 6.5.16.0 Forms ou version ultérieure. Voici un tableau de toutes les versions prises en charge, de la compatibilité AEM et des liens vers la documentation correspondante :
+Le composant principal Accordéon des formulaires adaptatifs a été publié en février 2023 au sein des composants principaux 2.0.4 pour Cloud Service et des composants principaux 1.1.12 pour AEM 6.5.16.0 Forms ou version ultérieure. Vous trouverez ci-dessous un tableau détaillant les versions prises en charge, la compatibilité avec AEM et les liens vers la documentation correspondante :
 
-| Version du composant | AEM as a Cloud Service | AEM 6.5.16.0 Forms ou version ultérieure |
+| Version du composant | AEM as a Cloud Service | AEM 6.5.16.0 Forms ou version ultérieure |
 |---|---|---|
-| v1 | Compatible avec la <br>[version 2.0.4](/help/adaptive-forms/version.md) et les versions ultérieures | Compatible avec<br>[version 1.1.12](/help/adaptive-forms/version.md) et plus tard, mais moins de 2.0.0. |
+| v1 | Compatible avec la <br>[version 2.0.4](/help/adaptive-forms/version.md) et les versions ultérieures | Compatible avec les<br>[versions 1.1.12](/help/adaptive-forms/version.md) à 2.0.0 exclue. |
 
 Pour plus d’informations sur les versions et publications des composants principaux, consultez le document [Versions des composants principaux](/help/adaptive-forms/version.md).
 
@@ -89,9 +89,9 @@ La boîte de dialogue de conception permet de définir et de gérer les styles C
 
 ### Onglet Styles {#styles-tab}
 
-L’onglet permet de définir et de gérer les styles CSS d’un composant. Le composant principal du bouton de réinitialisation des formulaires adaptatifs est compatible avec le [Système de style](/help/get-started/authoring.md#component-styling) d’AEM.
+Cet onglet vous permet de définir et de gérer les styles CSS d’un composant. Le composant principal du bouton de réinitialisation des formulaires adaptatifs est compatible avec le [Système de style](/help/get-started/authoring.md#component-styling) d’AEM.
 
-![Boîte de dialogue de conception](/help/adaptive-forms/assets/reset_designdialog.png)
+![Boîte de dialogue de conception.](/help/adaptive-forms/assets/reset_designdialog.png)
 
 * **Classes CSS par défaut** : vous pouvez fournir une classe CSS par défaut pour le composant principal du bouton de réinitialisation des formulaires adaptatifs.
 
