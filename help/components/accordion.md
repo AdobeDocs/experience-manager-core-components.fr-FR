@@ -4,9 +4,9 @@ description: Le composant d’accordéon des composants principaux permet la cr�
 role: Architect, Developer, Admin, User
 exl-id: 1deb570a-3d8d-409e-805f-8460c49cf9bb
 source-git-commit: e8b3e55a42b6be6262d6f51b9569c0be3e8ce6c3
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1068'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -44,9 +44,9 @@ La documentation technique la plus récente sur le composant d’accordéon [se 
 
 Vous trouverez plus d’informations sur le développement des composants principaux dans la [documentation destinée aux développeurs de composants principaux](/help/developing/overview.md).
 
-## Liaison profonde vers un panneau {#deep-linking}
+## Créer un lien profond vers un panneau {#deep-linking}
 
-L&#39;accordéon, [Carrousel,](carousel.md) et [Composants Onglets](tabs.md) prennent en charge la liaison directe à un panneau au sein du composant.
+Les composants Accordéon, [Carrousel](carousel.md) et [Onglets](tabs.md) prennent en charge le lien direct vers un panneau au sein du composant.
 
 Pour ce faire :
 
