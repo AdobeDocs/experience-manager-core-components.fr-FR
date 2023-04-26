@@ -1,18 +1,18 @@
 ---
-title: Composant principal Forms adaptatif - Onglets en haut
-description: Utilisation ou personnalisation des onglets Forms adaptatif sur le composant principal supérieur.
+title: Composant principal des formulaires adaptatifs - Onglets visibles
+description: Utilisez ou personnalisez le composant principal Onglets visibles des formulaires adaptatifs.
 role: Architect, Developer, Admin, User
 source-git-commit: d2a6108f17f6e0c6b91bec84893d64a8bd48effd
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '437'
-ht-degree: 5%
+ht-degree: 100%
 
 ---
 
 
-# Onglets dans la partie supérieure {#tabs-on-top-adaptive-forms-core-component}
+# Onglets visibles {#tabs-on-top-adaptive-forms-core-component}
 
-Une disposition à onglets dans un formulaire adaptatif permet d’organiser et de regrouper les champs et sections associés d’un formulaire dans des onglets distincts. Chaque onglet est représenté par un libellé d’onglet, généralement situé en haut du formulaire et contient un ensemble spécifique de champs et de sections de formulaire. Cette disposition permet aux utilisateurs de parcourir et d’accéder facilement aux différentes sections du formulaire, ce qui la rend plus conviviale et moins écrasante. Il est généralement utilisé lorsque le formulaire contient de nombreux champs et sections et qu’il est nécessaire de les diviser en petits blocs gérables. Les onglets peuvent également contribuer à améliorer l’accessibilité en permettant aux utilisateurs de parcourir le formulaire à l’aide de raccourcis clavier, ce qui facilite l’accès au formulaire pour les utilisateurs présentant un handicap.
+Une disposition à onglets visibles dans un formulaire adaptatif permet d’organiser et de regrouper les champs et sections associés d’un formulaire dans des onglets distincts. Chaque onglet est représenté par un libellé d’onglet, est généralement situé en haut du formulaire et contient un ensemble spécifique de champs et de sections de formulaire. Cette disposition permet aux utilisateurs et utilisatrices de parcourir et d’accéder facilement aux différentes sections du formulaire, pour une meilleure convivialité et plus de clarté. Elle revêt tout son intérêt lorsque le formulaire contient de nombreux champs et sections et qu’il est nécessaire de les diviser en parties plus petites et plus faciles à gérer. Les onglets peuvent également contribuer à améliorer l’accessibilité en permettant aux utilisateurs et aux utilisatrices de parcourir le formulaire à l’aide de raccourcis clavier. L’accès au formulaire est ainsi plus facile pour les personnes en situation de handicap.
 
 **Exemple**
 
@@ -20,27 +20,27 @@ Une disposition à onglets dans un formulaire adaptatif permet d’organiser et 
 
 ## Utilisation {#reasons-to-use-tab-on-the-top-layout}
 
-Il existe plusieurs raisons d’utiliser des onglets dans la disposition supérieure d’un formulaire adaptatif :
+La disposition des onglets visibles dans un formulaire adaptatif offre de nombreux avantages :
 
-* **Organisation**: Les onglets permettent d’organiser les différentes sections d’un formulaire en catégories distinctes, ce qui facilite la navigation et la recherche des informations dont les utilisateurs ont besoin.
+* **Organisation** : les onglets permettent de classer les différentes sections d’un formulaire en catégories distinctes, ce qui facilite la navigation et la recherche d’informations.
 
-* **Conservation de l&#39;espace**: Les onglets peuvent vous aider à économiser de l’espace sur une page en n’autorisant qu’une seule section du formulaire à être visible à la fois.
+* **Gain d’espace** : les onglets peuvent vous aider à gagner de l’espace sur une page en ne laissant apparaître qu’une seule section du formulaire à la fois.
 
-* **Expérience utilisateur améliorée**: Les onglets peuvent améliorer l’expérience utilisateur en rendant le formulaire plus attrayant visuellement et plus facile à utiliser.
+* **Expérience client améliorée** : les onglets peuvent améliorer l’expérience client en rendant le formulaire plus attrayant visuellement et plus facile à utiliser.
 
-* **Compatible avec les mobiles**: Les onglets rendent les formulaires plus compatibles avec les périphériques mobiles en réduisant le défilement et en facilitant le basculement entre les champs.
+* **Convivialité mobile** : l’expérience client sur mobile est renforcée grâce aux onglets, qui permettent de réduire le défilement et de faciliter le passage d’un champ à l’autre du formulaire.
 
-En résumé, les onglets peuvent rendre les formulaires plus organisés, plus efficaces en termes d’espace, plus conviviaux et plus accessibles.
+En résumé, les onglets offrent les avantages suivants : meilleure organisation des formulaires, gain d’espace, convivialité accrue et accessibilité renforcée.
 
 ## Version et compatibilité {#version-and-compatibility}
 
-Le composant principal Accordéon de Forms adaptatif a été publié en février 2023 dans le cadre des composants principaux 2.0.4 pour Cloud Service et des composants principaux 1.1.12 pour AEM 6.5.16.0 Forms ou version ultérieure. Voici un tableau de toutes les versions prises en charge, de la compatibilité AEM et des liens vers la documentation correspondante :
+Le composant principal Accordéon des formulaires adaptatifs a été publié en février 2023 au sein des composants principaux 2.0.4 pour Cloud Service et des composants principaux 1.1.12 pour AEM 6.5.16.0 Forms ou version ultérieure. Vous trouverez ci-dessous un tableau détaillant les versions prises en charge, la compatibilité avec AEM et les liens vers la documentation correspondante :
 
-| Version du composant | AEM as a Cloud Service | AEM 6.5.16.0 Forms ou version ultérieure |
+| Version du composant | AEM as a Cloud Service | AEM 6.5.16.0 Forms ou version ultérieure |
 |---|---|---|
-| v1 | Compatible avec<br>[version 2.0.4](/help/adaptive-forms/version.md) et plus tard | Compatible avec<br>[version 1.1.12](/help/adaptive-forms/version.md) et plus tard, mais moins de 2.0.0. |
+| v1 | Compatible avec la <br>[version 2.0.4](/help/adaptive-forms/version.md) et les versions ultérieures | Compatible avec les<br>[versions 1.1.12](/help/adaptive-forms/version.md) à 2.0.0 exclue. |
 
-Pour plus d’informations sur les versions et versions des composants principaux, reportez-vous à la section [Versions des composants principaux](/help/adaptive-forms/version.md) document.
+Pour plus d’informations sur les versions et publications des composants principaux, consultez le document [Versions des composants principaux](/help/adaptive-forms/version.md).
 
 <!-- ## Sample Component Output {#sample-component-output}
 
@@ -48,10 +48,10 @@ To experience the Accordion Component as well as see examples of its configurati
 
 ## Détails techniques {#technical-details}
 
-Obtenez les dernières informations sur les onglets de Forms adaptatif sur le composant principal supérieur dans la documentation technique sur [GitHub](https://github.com/adobe/aem-core-forms-components/tree/master/ui.af.apps/src/main/content/jcr_root/apps/core/fd/components/form/tabsontop/v1/tabsontop). Pour plus d’informations sur le développement des composants principaux, consultez la section [Documentation destinée aux développeurs sur les composants principaux](/help/developing/overview.md).
+Retrouvez les informations les plus récentes sur le composant principal « Onglet en haut » des formulaires adaptatifs dans la documentation technique sur [GitHub](https://github.com/adobe/aem-core-forms-components/tree/master/ui.af.apps/src/main/content/jcr_root/apps/core/fd/components/form/tabsontop/v1/tabsontop). Pour plus d’informations sur le développement des composants principaux, consultez la [documentation destinée aux développeurs et développeuses de composants principaux](/help/developing/overview.md).
 
 ## Boîte de dialogue de configuration {#configure-dialog}
 
-Vous pouvez facilement personnaliser vos onglets pour l’expérience supérieure pour les visiteurs qui utilisent la boîte de dialogue Configurer . Vous pouvez également définir facilement des onglets sur les options principales pour une expérience utilisateur fluide.
+Vous pouvez facilement personnaliser l’expérience des onglets visibles pour les visiteurs et les visiteuses à l’aide de la boîte de dialogue de configuration. Vous pouvez également définir facilement des options d’onglets visibles pour une expérience client fluide.
 
 ## Boîte de dialogue de conception {#design-dialog}
