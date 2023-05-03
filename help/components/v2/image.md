@@ -3,9 +3,9 @@ title: Composant Image (v2)
 description: Le composant Image des composants principaux est un composant d’image adaptatif qui permet d’effectuer des modifications statiques.
 role: Architect, Developer, Admin, User
 exl-id: 3f2b93f9-c48d-43ef-a78a-accd5090fe6f
-source-git-commit: 420e6085da57e5dc6deb670a5f0498b018441cb8
-workflow-type: ht
-source-wordcount: '2115'
+source-git-commit: 6c251cd03997dca8961b31498c6f5de3cfdc3793
+workflow-type: tm+mt
+source-wordcount: '2073'
 ht-degree: 100%
 
 ---
@@ -50,17 +50,13 @@ Vos expériences web créées avec les composants principaux bénéficient des f
 
 Les composants SVG (Scalable Vector Graphics) sont pris en charge par le composant d’image.
 
-* Les opérations de glisser-déplacer d’une ressource SVG à partir de DAM et le téléchargement d’un fichier SVG depuis un système de fichiers local sont pris en charge.
+* Les opérations de glisser-déplacer d’une ressource SVG à partir de DAM et le chargement d’un fichier SVG depuis un système de fichiers local sont pris en charge.
 * Le fichier SVG d’origine est diffusé en continu (les transformations sont ignorées).
 * Pour une image SVG, les « images intelligentes » et les « tailles intelligentes » sont définies sur un tableau vide dans le modèle d’image.
 
 ### Sécurité {#security}
 
 Pour des raisons de sécurité, l’éditeur d’image ne fait jamais appel au fichier SVG d’origine. Il est appelé par `<img src=“path-to-component”>`. Cela empêche le navigateur d’exécuter les scripts incorporés dans le fichier SVG.
-
->[!CAUTION]
->
->La prise en charge de SVG nécessite la version 2.1.0, ou ultérieure, des composants principaux et le [Service Pack 2](https://experienceleague.adobe.com/docs/experience-manager-64/release-notes/sp-release-notes.html?lang=fr) pour AEM 6.4, ou version ultérieure, pour être compatible avec les [fonctionnalités de l’éditeur d’image](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/implementing/developing/full-stack/components-templates/image-editor.html?lang=fr) d’AEM.
 
 ## Exemple de sortie de composant {#sample-component-output}
 
