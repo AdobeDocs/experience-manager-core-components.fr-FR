@@ -4,7 +4,7 @@ description: Le composant Image des composants principaux est un composant d’i
 role: Architect, Developer, Admin, User
 exl-id: 3f2b93f9-c48d-43ef-a78a-accd5090fe6f
 source-git-commit: 6c251cd03997dca8961b31498c6f5de3cfdc3793
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2073'
 ht-degree: 100%
 
@@ -96,7 +96,7 @@ Outre la [boîte de dialogue de modification](#edit-dialog) et la [boîte de dia
    * **Obtenir un texte alternatif à partir de DAM** : lorsque cette option est cochée, le texte de remplacement de l’image est renseigné avec la valeur des métadonnées `dc:description` dans DAM.
 * **Légende** : des informations supplémentaires sur l’image sont affichées par défaut sous l’image.
    * **Obtenir la légende à partir de DAM** : lorsque cette option est cochée, le texte de légende de l’image est renseigné avec la valeur des métadonnées `dc:title` dans DAM.
-   * **Afficher la légende dans une fenêtre contextuelle** : si cette option est activée, la légende ne s’affiche pas sous l’image, mais dans une fenêtre contextuelle, dans certains navigateurs, lorsque vous pointez sur l’image.
+   * **Afficher la légende dans un pop-up** : si cette option est activée, la légende ne s’affiche pas sous l’image, mais dans un pop-up, dans certains navigateurs, lorsque vous pointez sur l’image.
 * **Lien** : lier l’image à une autre ressource.
    * Utilisez la boîte de dialogue de sélection pour créer un lien vers une autre ressource AEM.
    * Si vous ne créez pas de lien vers une ressource AEM, saisissez l’URL absolue. Les URL non absolues seront interprétées comme relatives à AEM.
@@ -192,7 +192,7 @@ En outre, vous pouvez définir quelles options de composant générales sont aut
 * **L’image est décorative** : définissez si l’option d’image décorative est activée automatiquement lors de l’ajout du composant d’image à une page.
 * **Obtenir un texte alternatif à partir de DAM** : définissez si l’option permettant de récupérer le texte de remplacement de DAM est automatiquement activée lors de l’ajout du composant d’image à une page.
 * **Obtenir la légende à partir de DAM** : définissez si l’option permettant de récupérer la légende à partir de DAM est automatiquement activée lors de l’ajout du composant d’image à une page.
-* **Afficher la légende dans une fenêtre contextuelle** : définissez si l’option permettant d’afficher la légende d’image est automatiquement activée lors de l’ajout du composant d’image à une page.
+* **Afficher la légende dans un pop-up** : définissez si l’option permettant d’afficher la légende d’image est automatiquement activée lors de l’ajout du composant d’image à une page.
 * **Désactiver le suivi d’UUID** : cochez cette option pour désactiver le suivi de l’UUID de la ressource d’image.
 * **Largeurs** : définit une liste de largeurs en pixels pour l’image ; le composant charge automatiquement la largeur la plus appropriée en fonction de la taille du navigateur.
    * Appuyez ou cliquez sur le bouton **Ajouter** pour ajouter une autre taille.
