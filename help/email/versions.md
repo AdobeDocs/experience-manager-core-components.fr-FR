@@ -3,17 +3,17 @@ title: Versions des composants d’e-mail principaux
 description: Les composants d’e-mail principaux sont publiés sous forme de versions.
 role: Architect, Developer, Admin, User
 exl-id: 9733659a-641c-4a98-8d10-84e93e0e0a5d
-source-git-commit: 33976c0e745ad091a142109f70541f01a31edc5b
-workflow-type: ht
-source-wordcount: '422'
-ht-degree: 100%
+source-git-commit: 7ab19cb73493121282e90e752b38c445fd0962f0
+workflow-type: tm+mt
+source-wordcount: '448'
+ht-degree: 96%
 
 ---
 
 
 # Versions des composants d’e-mail principaux {#core-components-versions}
 
-La version actuelle des composants principaux d’e-mail est la version 1.0.0. Celle-ci est compatible avec AEM 6.5.
+La version actuelle des composants principaux d’e-mail est la version 1.2.0. Celle-ci est compatible avec AEM 6.5.
 
 Pour plus d’informations sur les conditions requises et l’installation, voir la [section Conditions requises](/help/email/introduction.md#requirements) du document d’introduction aux composants principaux d’e-mail et la [section Installation](/help/email/using.md#installing-the-email-core-components) du document Utilisation des composants principaux d’e-mail, respectivement.
 
@@ -23,14 +23,15 @@ Les composants principaux d’e-mail sont conçus pour être flexibles et compat
 
 | Mise à jour | Description | AEM 6.5 | Composants principaux | Java | Date de publication |
 |---|---|---|---|---|---|
-| [1.0.0](https://github.com/adobe/aem-core-email-components/releases/tag/core.email.components.reactor-1.0.0) | Première version publique, voir les notes de mise à jour pour plus de détails | 6.5.14.0+ | [2.21.2](/help/versions.md) | 8, 11 | 29 novembre 2022 |
+| [1.2.0](https://github.com/adobe/aem-core-email-components/releases/tag/core.email.components.reactor-1.2.0) | Cette version a introduit des tests Selenium e2e et inclus un certain nombre de correctifs. | 6.5.14.0+ | [2.21.2+](/help/versions.md) | 8, 11 | 29 novembre 2022 |
+| [1.0.0](https://github.com/adobe/aem-core-email-components/releases/tag/core.email.components.reactor-1.0.0) | Première version publique, voir les notes de mise à jour pour plus de détails | 6.5.14.0+ | [2.21.2+](/help/versions.md) | 8, 11 | 29 novembre 2022 |
 | [0.18.0](https://github.com/adobe/aem-core-email-components/releases/tag/v0.18.0) | Correctifs | 6.5.13.0+ |  | 8, 11 | 30 septembre 2022 |
 | [0.17.0](https://github.com/adobe/aem-core-email-components/releases/tag/v0.17.0) | Correctifs | 6.5.13.0+ |  | 8, 11 | 27 septembre 2022 |
 | [0.16.0](https://github.com/adobe/aem-core-email-components/releases/tag/v0.16.0) | Correctifs | 6.5.13.0+ |  | 8, 11 | 14 septembre 2022 |
 | [0.14.0](https://github.com/adobe/aem-core-email-components/releases/tag/v0.14.0) | Correction des requêtes multimédias pour Outlook sur iOS | 6.5.13.0+ |  | 8, 11 | 8 août 2022 |
 | [0.13.0](https://github.com/adobe/aem-core-email-components/releases/tag/v0.13.0) | Correctif de performances Wrapper DIV, correction de la gestion des liens en texte enrichi | 6.5.13.0+ |  | 8, 11 | 27 juillet 2022 |
 | [0.11.0](https://github.com/adobe/aem-core-email-components/releases/tag/v0.11.0) | Prise en charge des segments personnalisés pour le composant Segmentation, aligneur HTML, correctifs | 6.5.13.0+ |  | 8, 11 | 6 juillet 2022 |
-| [0.10.0](https://github.com/adobe/aem-core-email-components/releases/tag/v0.10.0) | Activation des stratégies de page pour les paramètres de colonne des composants de page, mises à jour du composant Segmentation et améliorations de la couverture du code | 6.5.13.0+ |  | 8, 11 | 15 juin 2022 |
+| [0.10.0](https://github.com/adobe/aem-core-email-components/releases/tag/v0.10.0) | Activation des politiques de page pour les paramètres de colonne des composants de page, mises à jour du composant Segmentation et améliorations de la couverture du code | 6.5.13.0+ |  | 8, 11 | 15 juin 2022 |
 | [0.9.0](https://github.com/adobe/aem-core-email-components/releases/tag/v0.9.0) | Correctifs et mises à jour des composants Titre et Conteneur | 6.5.13.0+ |  | 8, 11 | 1er juin 2022 |
 | [0.8.0](https://github.com/adobe/aem-core-email-components/releases/tag/v0.8.0) | Ajout du composant Teaser, correctifs et améliorations de la couverture de code | 6.5.13.0+ |  | 8, 11 | 19 mai 2022 |
 | [0.7.0](https://github.com/adobe/aem-core-email-components/releases/tag/v0.7.0) | Correctifs | 6.5.13.0+ |  | 8, 11 | 4 mai 2022 |

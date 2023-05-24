@@ -3,20 +3,20 @@ title: Versions des composants principaux
 description: Les composants principaux sont publiés sous forme de versions qui peuvent contenir plusieurs versions des mêmes composants principaux. Ce document explique les versions et les mises à jour ainsi que comment comprendre la compatibilité avec les composants principaux et AEM.
 role: Architect, Developer, Admin, User
 exl-id: 7d4dbe46-4013-4217-b815-cdb1462072c6
-source-git-commit: 468078da4d31d7eedf9bd73cbcf2d71107bfe3f4
-workflow-type: ht
-source-wordcount: '2924'
-ht-degree: 100%
+source-git-commit: 1b419d6f340f8062945f96b1605a67620d5f79af
+workflow-type: tm+mt
+source-wordcount: '2988'
+ht-degree: 98%
 
 ---
 
 # Versions des composants principaux {#core-components-versions}
 
-La version actuelle des composants principaux est la version 2.22.4. Elle est compatible avec les installations [AEM as a Cloud Service](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/landing/home.html?lang=fr) et [AEM On-Premise](https://experienceleague.adobe.com/docs/experience-manager-65/user-guide/home.html?lang=fr).
+La version actuelle des composants principaux est la version 2.22.10. Elle est compatible avec les installations [AEM as a Cloud Service](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/landing/home.html?lang=fr) et [AEM On-Premise](https://experienceleague.adobe.com/docs/experience-manager-65/user-guide/home.html?lang=fr).
 
 ## Historique des versions et compatibilité {#release-history-and-compatibility}
 
-Les composants principaux sont conçus pour être flexibles et compatibles avec toutes les versions d’AEM prises en charge. La mise à jour des composants peut ainsi proposer plusieurs versions du même composant.
+Les composants principaux sont conçus pour être flexibles et compatibles avec toutes les versions d’AEM prises en charge. C’est pourquoi une mise à jour des composants peut contenir plusieurs versions du même composant.
 
 Les tableaux ci-dessous illustrent la compatibilité des mises à jour des composants principaux avec les versions des composants contenues dans les mises à jour.
 
@@ -26,6 +26,9 @@ Le tableau suivant, dont le contenu est [disponible sur GitHub avec les détails
 
 | Mise à jour | Description | AEM 6.4 | AEM 6.5 | AEM as a Cloud Service | Java | Date de publication |
 |---|---|---|---|---|---|---|
+| [2.22.10](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.22.10) | Cette version de correctif corrige deux régressions. | - | 6.5.14.0+ * | En continu | 8, 11 | 11 mai 2023 |
+| [2.22.8](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.22.8) | Cette version de correctif récupère les fonctionnalités qui ont été supprimées accidentellement dans la version précédente. | - | 6.5.14.0+ * | En continu | 8, 11 | 9 mai 2023 |
+| [2.22.6](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.22.6) | Cette version de correctif corrige une régression dans [Composant de conteneur.](/help/components/container.md) | - | 6.5.14.0+ * | En continu | 8, 11 | 21 avril 2023 |
 | [2.22.4](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.22.4) | Il s’agit d’une version de correctif qui corrige un problème dans le [composant Liste de fragments de contenu.](/help/components/content-fragment-list.md) | - | 6.5.14.0+ * | En continu | 8, 11 | 5 avril 2023 |
 | [2.22.2](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.22.2) | Il s’agit d’une version de maintenance qui résout deux problèmes introduits dans la version 2.22.0. | - | 6.5.14.0+ * | En continu | 8, 11 | 31 mars 2023 |
 | [2.22.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.22.0) | Cette version introduit une nouvelle version du [composant Liste](/help/components/list.md) ainsi que des améliorations de la fonction [Teaser](/help/components/teaser.md) et une mise à jour de la [Visionneuse PDF](/help/components/pdf-viewer.md) et du [Carrousel](/help/components/carousel.md). | - | 6.5.14.0+ * | En continu | 8, 11 | 9 février 2023 |
