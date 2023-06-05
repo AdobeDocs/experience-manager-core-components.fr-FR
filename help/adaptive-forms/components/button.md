@@ -3,10 +3,10 @@ title: Composant principal Formulaires adaptatifs - Bouton
 description: Utilisation ou personnalisation du composant principal Bouton des formulaires adaptatifs.
 role: Architect, Developer, Admin, User
 exl-id: cb75929b-8c86-49d1-b51a-368f5b80b1a9
-source-git-commit: d2a6108f17f6e0c6b91bec84893d64a8bd48effd
-workflow-type: ht
-source-wordcount: '1397'
-ht-degree: 100%
+source-git-commit: 90a48e6203ce611679c2a7269ffb5d48912e3d71
+workflow-type: tm+mt
+source-wordcount: '1406'
+ht-degree: 97%
 
 ---
 
@@ -16,7 +16,7 @@ Le bouton d’un formulaire adaptatif est un élément de l’interface utilisat
 
 L’éditeur de règles de formulaires adaptatifs permet aux utilisateurs et utilisatrices de définir différentes actions pour le composant Bouton. Par exemple, l’ouverture d’un site web, l’affichage ou le masquage de composants de formulaire, l’ajout d’une instance Panneau ou Composant, l’envoi ou la réinitialisation d’un formulaire, etc.
 
-Les formulaires adaptatifs fournissent également des composants Bouton distincts pour l’envoi ou la réinitialisation d’un formulaire, mais le composant Bouton peut également être configuré pour effectuer ces actions si nécessaire.
+Les composants séparés des fonctionnalités de Forms adaptatives pour [Bouton Envoyer](/help/adaptive-forms/components/submit-button.md) et [Bouton Réinitialiser](/help/adaptive-forms/components/reset-button.md), ce qui permet aux utilisateurs d’envoyer ou de réinitialiser facilement un formulaire. Le composant Bouton peut être configuré de manière flexible pour exécuter ces actions en fonction de besoins spécifiques.
 
 Les utilisateurs et utilisatrices peuvent accéder à la liste complète des actions prises en charge par le composant Bouton à l’aide de l’éditeur de règles de formulaires adaptatifs. L’éditeur de règles permet de créer des règles qui sont déclenchées par divers événements, comme le clic sur un bouton, le chargement d’un formulaire ou la modification de la valeur d’un champ. Ces règles peuvent ensuite être utilisées pour effectuer différentes actions, telles que l’affichage ou le masquage de composants, la définition de valeurs de champ ou l’envoi du formulaire.
 
