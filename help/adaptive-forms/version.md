@@ -4,9 +4,9 @@ description: Les composants principaux sont publiés sous forme de versions qui 
 role: Architect, Developer, Admin, User
 exl-id: 8146a5b1-acf6-4b54-ad6b-6e1747a137f6
 source-git-commit: 8648a8dabd1999c9d3bbb76bb4f04f16eafda650
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '314'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -25,7 +25,7 @@ Le tableau suivant dresse la liste des versions des composants principaux compat
 | [2.0.6](https://github.com/adobe/aem-core-forms-components/releases/tag/core-forms-components-reactor-2.0.6) | Cette version introduit plusieurs formats pour le composant principal Saisie numérique. | En continu | 8, 11 | 8 février 2023 |
 | [2.0.4](https://github.com/adobe/aem-core-forms-components/releases/tag/core-forms-components-reactor-2.0.6) | Cette version offre la prise en charge des composants principaux dans AEM as a Cloud Service. | En continu | 8, 11 | 30 janvier 2023 |
 
-## Historique des versions d’AEM 6.5 Forms {#aem-as-form-version-history}
+## Historique des versions d’AEM 6.5 Forms {#aem-as-form-version-history}
 
 Le tableau suivant dresse la liste des versions des composants principaux compatibles avec AEM 6.5 Forms On-Premise et AMS disponibles sur [GitHub avec toutes les informations de version](https://github.com/adobe/aem-core-forms-components/releases/tag/core-forms-components-reactor-1.1.12).
 
