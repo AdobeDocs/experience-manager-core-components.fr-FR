@@ -4,9 +4,9 @@ description: Le composant Fragment d’expérience d’e-mail permet au créateu
 role: Architect, Developer, Admin, User
 exl-id: 861c1fd1-6d6d-426c-a338-a558326fe16e
 source-git-commit: e5afead6bfdcc59cbd6da888f4e1e36038c6c0f8
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '882'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -107,7 +107,7 @@ Le composant Fragment d’expérience d’e-mail tentera de trouver un composant
 
 ## Détails techniques {#technical-details}
 
-Lire la dernière version [documentation technique sur le composant de fragment d’expérience](https://www.adobe.com/go/aem_cmp_xf_v1).
+Consultez la dernière [documentation technique sur le composant de fragment d’expérience](https://www.adobe.com/go/aem_cmp_xf_v1_fr).
 
 Vous trouverez plus d’informations sur le développement des composants principaux dans la [documentation destinée aux développeurs de composants principaux.](/help/developing/overview.md)
 
