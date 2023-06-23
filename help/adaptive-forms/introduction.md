@@ -4,9 +4,9 @@ description: Créez des expériences d’inscription attrayantes (formulaires) g
 role: Architect, Developer, Admin, User
 exl-id: 6d0f2845-bbb8-4488-a254-b69d7a6290b1
 source-git-commit: a450d265d10984b879fcb1ad4ffe0f3ce3edef5b
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1147'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -65,7 +65,7 @@ Les expériences de capture de données sont essentielles pour la génération d
 
 * **Style plus facile** : les composants principaux sont plus faciles à mettre en forme que leurs composants de base homologues. Le processus de création du thème est similaire à Sites, avec la possibilité d’hériter du même thème/CSS de la page Sites parente. En outre, le modèle BEM pour le style facilite la compréhension et la modification des styles.
 
-* **Accessibilité** : les composants principaux des formulaires adaptatifs prennent en charge les normes et directives d’accessibilité afin de s’assurer que les formulaires peuvent être utilisés par les personnes présentant un handicap, y compris celles qui utilisent des technologies d’assistance telles que les lecteurs d’écran.
+* **Accessibilité** : les composants principaux des formulaires adaptatifs prennent en charge les normes et directives d’accessibilité afin de s’assurer que les formulaires peuvent être utilisés par les personnes présentant un handicap, y compris celles qui utilisent des technologies d’assistance telles que les lecteurs d’écran
 
 ## Composants principaux des formulaires adaptatifs {#components}
 
