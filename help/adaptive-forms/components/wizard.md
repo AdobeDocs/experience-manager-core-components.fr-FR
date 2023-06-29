@@ -3,10 +3,10 @@ title: Composant principal des formulaires adaptatifs - Assistant
 description: Utilisation ou personnalisation du composant principal « Assistant » des formulaires adaptatifs.
 role: Architect, Developer, Admin, User
 exl-id: fd785cd2-5ed6-4efb-997f-ce9056ed113d
-source-git-commit: d2a6108f17f6e0c6b91bec84893d64a8bd48effd
-workflow-type: ht
-source-wordcount: '1847'
-ht-degree: 100%
+source-git-commit: b2c35d78ba0473273852deb678b34b5dd96cf51e
+workflow-type: tm+mt
+source-wordcount: '1829'
+ht-degree: 91%
 
 ---
 
@@ -51,11 +51,13 @@ Dans l’ensemble, une disposition « Assistant » peut rendre le processus de
 
 Le composant principal « Disposition Assistant » des formulaires adaptatifs a été publié en février 2023 dans le cadre de la version 2.0.4 des composants principaux. Voici un tableau présentant toutes les versions prises en charge, la compatibilité AEM et les liens vers la documentation correspondante :
 
-| Version du composant | AEM as a Cloud Service | AEM 6.5.16.0 Forms ou version ultérieure |
-|---|---|---|
-| v1 | Compatible avec la <br>[version 2.0.4](/help/adaptive-forms/version.md) et les versions ultérieures | Compatible avec les<br>[versions 1.1.12](/help/adaptive-forms/version.md) à 2.0.0 exclue. |
+|  |  |
+|---|---|
+| Version du composant | AEM as a Cloud Service |
+| --- | --- |
+| v1 | Compatible avec la <br>[version 2.0.4](/help/versions.md) et les versions ultérieures | Compatible | Compatible |
 
-Pour plus d’informations sur les versions et publications des composants principaux, consultez le document [Versions des composants principaux](/help/adaptive-forms/version.md).
+Pour plus d’informations sur les versions et publications des composants principaux, consultez le document [Versions des composants principaux](/help/versions.md).
 
 <!-- ## Sample Component Output {#sample-component-output}
 
@@ -71,7 +73,7 @@ Vous pouvez facilement personnaliser l’expérience d’assistant pour les visi
 
 ### Onglet De base {#basic-tab}
 
-![Onglet De base](/help/adaptive-forms/assets/wizard_basictab.png)
+![Onglet De base](/help/adaptive-forms/assets/wizard-basic.png)
 
 * **Nom** - Vous pouvez identifier facilement un composant de formulaire avec son nom unique à la fois dans le formulaire et dans l’éditeur de règles, mais le nom ne doit pas contenir d’espaces ni de caractères spéciaux.
 
@@ -89,9 +91,21 @@ Vous pouvez facilement personnaliser l’expérience d’assistant pour les visi
 
 * **Désactiver le composant** - Sélectionnez cette option pour désactiver le composant. Le composant désactivé n’est pas actif ni modifiable par l’utilisateur final ou l’utilisatrice finale. L’utilisateur ou l’utilisatrice peut voir la valeur du champ mais ne peut pas la modifier. Le composant reste accessible à d’autres fins, par exemple pour les calculs dans l’éditeur de règles.
 
+### Onglet Assistant Répétition {#repeat-wizard-tab}
+
+![Assistant Répétition](/help/adaptive-forms/assets/wizard-repeat.png)
+
+Vous pouvez utiliser les options de répétition pour dupliquer l’assistant et ses composants enfants, définir un nombre de répétitions minimal et maximal et faciliter la réplication de sections similaires dans un formulaire. Lors de l’interaction avec le composant Assistant et de l’accès à ses paramètres, les options suivantes sont présentées :
+
+* **Rendre l’assistant répétable**: Fonctionnalité de basculement qui permet aux utilisateurs d’activer ou de désactiver la fonctionnalité de répétabilité.
+* **Répétition minimale**: Définit le nombre minimal de répétitions du panneau Assistant. La valeur zéro indique que le panneau Assistant n’est pas répété. la valeur par défaut est zéro.
+* **Nombre maximal de répétitions**: Définit le nombre maximal de répétitions possibles dans le panneau Assistant. Par défaut, cette valeur est illimitée.
+
+Pour gérer efficacement les sections répétables dans l’assistant, procédez comme indiqué dans la section [Création de formulaires avec des sections répétables](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/create-forms-repeatable-sections.html) article.
+
 ### Onglet Aide {#help-tab}
 
-![Onglet Aide](/help/adaptive-forms/assets/wizard_helptab.png)
+![Onglet Aide](/help/adaptive-forms/assets/wizard-helpcontent.png)
 
 * **Description courte** - Une description courte est une brève explication textuelle qui fournit des informations supplémentaires ou une clarification sur l’objectif d’un champ de formulaire spécifique. Il permet à l’utilisateur ou l’utilisatrice de comprendre le type de données à saisir dans le champ et peut fournir des conseils ou des exemples pour s’assurer que les informations saisies sont valides et répondent aux critères souhaités. Par défaut, les descriptions courtes restent masquées. Activez l’option **Toujours afficher une description courte** pour l’afficher sous le composant.
 
@@ -102,7 +116,7 @@ Vous pouvez facilement personnaliser l’expérience d’assistant pour les visi
 
 ### Onglet Accessibilité {#accessibility}
 
-![Onglet De base](/help/adaptive-forms/assets/wizard_accessibiltytab.png)
+![Onglet Accessibilité](/help/adaptive-forms/assets/wizard-accessibility.png)
 
 * **Texte pour les lecteurs d’écran** - Le texte destiné aux lecteurs d’écran fait référence à un texte supplémentaire spécialement conçu pour être lu par les technologies d’assistance, comme les lecteurs d’écran, utilisées par les personnes malvoyantes. Ce texte fournit une description audio de l’objectif du champ de formulaire et peut inclure des informations sur le titre, la description, le nom du champ et tout message pertinent (texte personnalisé). Le texte du lecteur d’écran permet de s’assurer que le formulaire est accessible à tous les utilisateurs et utilisatrices, y compris celles et ceux ayant une déficience visuelle, et leur permet de bien comprendre le champ du formulaire et ses exigences.
 
@@ -122,38 +136,11 @@ Cela permet de rendre le processus de création et de personnalisation de formul
 
 L’onglet **Composants autorisés** permet à l’éditeur de modèles de définir les composants qui peuvent être ajoutés en tant qu’éléments aux panneaux dans le composant « Assistant » de l’éditeur de formulaires adaptatifs.
 
-![Onglets Composants autorisés.](/help/adaptive-forms/assets/panel_allowedcomponent.png)
-
-### Onglet Composants par défaut {#default-component-tab}
-
-Cet onglet permet à l’éditeur de modèles de définir les composants qui peuvent être ajoutés en tant qu’éléments aux panneaux dans le composant Assistant de l’éditeur de formulaires adaptatifs.
-
-![Composant par défaut du panneau.](/help/adaptive-forms/assets/panel_defaultcomponent.png)
-
-### Paramètres réactifs {#responsive-settings}
-
-Cet onglet permet à l’éditeur de modèles de définir le nombre de colonnes à afficher dans la grille réactive.
-
-![Grille réactive.](/help/adaptive-forms/assets/panel_responsivesettings.png)
-
-### Onglet Paramètres de conteneur {#container-setting-tab}
-
-L’onglet Paramètres du conteneur permet de définir la position des composants dans l’éditeur de formulaires adaptatifs.
-
-![Paramètres de conteneur.](/help/adaptive-forms/assets/panel_settings.png)
-
-* **Disposition** : la disposition simple conserve tout ce qui est fixe, tandis que la grille réactive vous permet de modifier la position des composants en fonction de vos besoins.
-* **Désactiver la disposition** : vous pouvez également désactiver la disposition dans la boîte de dialogue de modification en activant la case **Désactiver la disposition**.
-* **Activer l’image d’arrière-plan** : cet onglet permet de définir l’image et la couleur d’arrière-plan dans l’éditeur de modèles.
-* **Activer la couleur d’arrière-plan** : cet onglet permet de définir la couleur d’arrière-plan dans l’éditeur de modèles.
-
 ### Onglet Styles {#styles-tab}
 
-Cet onglet vous permet de définir et de gérer les styles CSS d’un composant. Le composant principal « Assistant » des formulaires adaptatifs prend en charge le [Système de style](/help/get-started/authoring.md#component-styling) d’AEM.
+La boîte de dialogue de conception permet de définir et de gérer les styles CSS d’un composant. Le composant principal « Assistant » des formulaires adaptatifs prend en charge le [Système de style](/help/get-started/authoring.md#component-styling) d’AEM.
 
-![Onglet Styles.](/help/adaptive-forms/assets/panel_style.png)
+**Classes CSS par défaut** : vous pouvez fournir une classe CSS par défaut pour le composant « Assistant ».
 
-* **Classes CSS par défaut** : vous pouvez fournir une classe CSS par défaut pour le composant « Assistant ».
-
-* **Styles autorisés** : vous pouvez définir des styles en fournissant un nom et la classe CSS qui représente le style. Par exemple, vous pouvez créer un style nommé « texte en gras » et fournir la classe CSS « police d’épaisseur : gras ». Vous pouvez utiliser ou appliquer ces styles à un formulaire adaptatif dans l’éditeur de formulaires adaptatifs. Pour appliquer un style, sélectionnez le composant auquel vous souhaitez appliquer le style dans l’éditeur de formulaires adaptatifs, accédez à la boîte de dialogue Propriétés, puis sélectionnez le style de votre choix dans la liste déroulante **Styles**. Si vous devez mettre à jour ou modifier les styles, revenez simplement à la boîte de dialogue Conception, mettez à jour les styles dans l’onglet Styles et enregistrez les modifications.
+**Styles autorisés** : vous pouvez définir des styles en fournissant un nom et la classe CSS qui représente le style. Par exemple, vous pouvez créer un style nommé « texte en gras » et fournir la classe CSS « police d’épaisseur : gras ». Vous pouvez utiliser ou appliquer ces styles à un formulaire adaptatif dans l’éditeur de formulaires adaptatifs. Pour appliquer un style, sélectionnez le composant auquel vous souhaitez appliquer le style dans l’éditeur de formulaires adaptatifs, accédez à la boîte de dialogue Propriétés, puis sélectionnez le style de votre choix dans la liste déroulante **Styles**. Si vous devez mettre à jour ou modifier les styles, revenez simplement à la boîte de dialogue Conception, mettez à jour les styles dans l’onglet Styles et enregistrez les modifications.
 

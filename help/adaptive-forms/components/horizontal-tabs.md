@@ -3,10 +3,10 @@ title: Composant principal des formulaires adaptatifs - Onglets horizontaux
 description: Utilisation ou personnalisation du composant principal des onglets horizontaux des formulaires adaptatifs.
 role: Architect, Developer, Admin, User
 exl-id: fbdf330b-3b85-4f94-9dab-eea8465fba67
-source-git-commit: d2a6108f17f6e0c6b91bec84893d64a8bd48effd
-workflow-type: ht
-source-wordcount: '1609'
-ht-degree: 100%
+source-git-commit: b2c35d78ba0473273852deb678b34b5dd96cf51e
+workflow-type: tm+mt
+source-wordcount: '1733'
+ht-degree: 88%
 
 ---
 
@@ -30,18 +30,20 @@ Les raisons courantes d’utiliser les onglets horizontaux dans un formulaire ad
 
 ## Version et compatibilité {#version-and-compatibility}
 
-Le composant principal Accordéon des formulaires adaptatifs a été publié en février 2023 au sein des composants principaux 2.0.4 pour Cloud Service et des composants principaux 1.1.12 pour AEM 6.5.16.0 Forms ou version ultérieure. Vous trouverez ci-dessous un tableau détaillant les versions prises en charge, la compatibilité avec AEM et les liens vers la documentation correspondante :
+Le composant principal Onglets horizontaux des formulaires adaptatif a été publié en février 2023 dans le cadre de la version 2.0.4 des composants principaux. Voici un tableau présentant toutes les versions prises en charge, la compatibilité AEM et les liens vers la documentation correspondante :
 
-| Version du composant | AEM as a Cloud Service | AEM 6.5.16.0 Forms ou version ultérieure |
-|---|---|---|
-| v1 | Compatible avec la <br>[version 2.0.4](/help/adaptive-forms/version.md) et les versions ultérieures | Compatible avec les<br>[versions 1.1.12](/help/adaptive-forms/version.md) à 2.0.0 exclue. |
+|  |  |
+|---|---|
+| Version du composant | AEM as a Cloud Service |
+| --- | --- |
+| v1 | Compatible avec la <br>[version 2.0.4](/help/versions.md) et les versions ultérieures | Compatible | Compatible |
 
-Pour plus d’informations sur les versions et publications des composants principaux, consultez le document [Versions des composants principaux](/help/adaptive-forms/version.md).
+Pour plus d’informations sur les versions et publications des composants principaux, consultez le document [Versions des composants principaux](/help/versions.md).
 
 
 <!-- ## Sample Component Output {#sample-component-output}
 
-To experience the Accordion Component as well as see examples of its configuration options as well as HTML and JSON output, visit the [Component Library](https://adobe.com/go/aem_cmp_library_accordion). -->
+To experience the Horizontal-tabs  Component as well as see examples of its configuration options as well as HTML and JSON output, visit the [Component Library](https://adobe.com/go/aem_cmp_library_Horizontal-tabs ). -->
 
 
 ## Détails techniques {#technical-details}
@@ -54,9 +56,9 @@ Vous pouvez facilement personnaliser votre expérience en matière d’onglets h
 
 ### Onglet De base {#basic-tab}
 
-![Onglet De base](/help/adaptive-forms/assets/tabsontop_basictab.png)
+![Onglet De base](/help/adaptive-forms/assets/tabs-on-top-basic.png)
 
-* **Nom** : vous pouvez identifier facilement un composant de formulaire en lui attribuant un nom unique dans le formulaire et dans l’éditeur de règles, mais le nom ne doit pas contenir d’espaces ni de caractères spéciaux.
+* **Nom** : Vous pouvez identifier facilement un composant de formulaire en lui attribuant un nom unique dans le formulaire et dans l’éditeur de règles, mais le nom ne doit pas contenir d’espaces ni de caractères spéciaux.
 
 * **Titre** - Avec son titre, vous pouvez facilement identifier un composant dans un formulaire. Par défaut, le titre s’affiche au-dessus du composant. Si vous n’ajoutez pas de titre, le nom du composant s’affiche à la place du texte du titre.
 
@@ -70,20 +72,32 @@ Vous pouvez facilement personnaliser votre expérience en matière d’onglets h
 * **Masquer le composant** - Sélectionnez cette option pour masquer le composant du formulaire. Le composant reste accessible à d’autres fins, par exemple pour les calculs dans l’éditeur de règles. Cela s’avère utile lorsque vous devez stocker des informations qui n’ont pas besoin d’être affichées ou directement modifiées par les utilisateurs ou les utilisatrices.
 * **Désactiver le composant** - Sélectionnez cette option pour désactiver le composant. Le composant désactivé n’est pas actif ni modifiable par l’utilisateur final ou l’utilisatrice finale. L’utilisateur ou l’utilisatrice peut voir la valeur du champ mais ne peut pas la modifier. Le composant reste accessible à d’autres fins, par exemple pour les calculs dans l’éditeur de règles.
 
+### Répéter les onglets supérieurs {#repeat-tabs-on-top}
+
+![Onglet Accessibilité](/help/adaptive-forms/assets/repeat-tabsontop.png)
+
+Vous pouvez utiliser les options de répétition pour dupliquer le composant Onglets horizontaux et ses composants enfants, définir un nombre de répétitions minimal et maximal et faciliter la réplication de sections similaires dans un formulaire. Lors de l’interaction avec le composant Onglets horizontaux et de l’accès à ses paramètres, les options suivantes sont présentées :
+
+* **Rendre les onglets horizontaux répétables**: Fonctionnalité de basculement qui permet aux utilisateurs d’activer ou de désactiver la fonctionnalité de répétabilité.
+* **Répétition minimale**: Définit le nombre minimal de répétitions du composant Onglets horizontaux. La valeur zéro indique que le composant Onglets horizontaux n’est pas répété ; la valeur par défaut est zéro.
+* **Nombre maximal de répétitions**: Définit le nombre maximal de répétitions possibles du composant Onglets horizontaux. Par défaut, cette valeur est illimitée.
+
+Pour gérer efficacement les sections répétables dans les onglets Horizontal, procédez comme indiqué dans la section [Création de formulaires avec des sections répétables](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/create-forms-repeatable-sections.html) article.
+
 ### Onglet Éléments {#items-tab}
 
-![Onglet Éléments](/help/adaptive-forms/assets/tabsontop_itemstab.png)
+![Onglet Éléments](/help/adaptive-forms/assets/items-tabs-on-top.png)
 
 Le bouton **Ajouter** vous permet de sélectionner un composant à ajouter en tant que panneau à partir de la fenêtre de sélection de composant. Après avoir ajouté le composant, vous pouvez voir les options suivantes :
 
 * **Icône** - L’icône identifie le composant du panneau dans la liste. Pointez sur l’icône pour afficher le nom complet du composant sous forme d’info-bulle.
 * **Description** - Description utilisée comme texte du panneau. Par défaut, le nom du composant sélectionné pour le panneau.
-* **Supprimer** : appuyez ou cliquez sur cette option pour supprimer le panneau du composant Onglet horizontal.
+* **Supprimer** - Appuyez ou cliquez sur pour supprimer le panneau du composant Onglets horizontaux.
 * **Réorganiser** : Appuyez ou cliquez et faites glisser pour réorganiser l’ordre des panneaux.
 
 ### Onglet Contenu de l’aide {#help-content}
 
-![Onglet Contenu d’aide](/help/adaptive-forms/assets/tabsontop_helptab.png)
+![Onglet Contenu d’aide](/help/adaptive-forms/assets/helpcontent-tabs-on-top.png)
 
 * **Description courte** - Une description courte est une brève explication textuelle qui fournit des informations supplémentaires ou une clarification sur l’objectif d’un champ de formulaire spécifique. Il permet à l’utilisateur ou l’utilisatrice de comprendre le type de données à saisir dans le champ et peut fournir des conseils ou des exemples pour s’assurer que les informations saisies sont valides et répondent aux critères souhaités. Par défaut, les descriptions courtes restent masquées. Activez l’option **Toujours afficher une description courte** pour l’afficher sous le composant.
 
@@ -93,7 +107,7 @@ Le bouton **Ajouter** vous permet de sélectionner un composant à ajouter en ta
 
 ### Onglet Accessibilité {#accessibility}
 
-![Onglet Accessibilité](/help/adaptive-forms/assets/tabsontop_accessibilitytab.png)
+![Onglet Accessibilité](/help/adaptive-forms/assets/accessibilty-tabs-on-top.png)
 
 * **Texte pour les lecteurs d’écran** - Le texte destiné aux lecteurs d’écran fait référence à un texte supplémentaire spécialement conçu pour être lu par les technologies d’assistance, comme les lecteurs d’écran, utilisées par les personnes malvoyantes. Ce texte fournit une description audio de l’objectif du champ de formulaire et peut inclure des informations sur le titre, la description, le nom du champ et tout message pertinent (texte personnalisé). Le texte du lecteur d’écran permet de s’assurer que le formulaire est accessible à tous les utilisateurs et utilisatrices, y compris celles et ceux ayant une déficience visuelle, et leur permet de bien comprendre le champ du formulaire et ses exigences.
 
@@ -101,10 +115,10 @@ Le bouton **Ajouter** vous permet de sélectionner un composant à ajouter en ta
 
 ## Boîte de dialogue de conception {#design-dialog}
 
-La boîte de dialogue Conception permet aux créateurs et aux créatrices de modèles de contrôler l’affichage des éléments par défaut. Pour le composant des formulaires adaptatifs, vous pouvez définir les éléments suivants :
+La boîte de dialogue Conception permet aux créateurs et aux créatrices de modèles de contrôler l’affichage des éléments par défaut. Pour le composant Onglets horizontaux de Forms adaptative, vous pouvez définir les options suivantes :
 
-* Composants principaux qu’un créateur ou une créatrice de formulaire peut ajouter aux onglets horizontaux dans l’éditeur de formulaires adaptatifs.
-* Noms simples pour les styles (classes CSS) qui peuvent être appliqués dans la boîte de dialogue des propriétés du composant Onglets horizontaux dans l’éditeur de formulaires adaptatifs.
+* Composants principaux qu’un créateur de formulaire peut ajouter aux onglets Horizontal dans l’éditeur de Forms adaptatif
+* Noms simples pour les styles (classes CSS) qui peuvent être appliqués dans la boîte de dialogue des propriétés du composant Onglets horizontaux dans l’éditeur de Forms adaptatif.
 
 Cela permet de rendre le processus de création et de personnalisation de formulaires plus simple et plus efficace.
 
@@ -112,14 +126,10 @@ Cela permet de rendre le processus de création et de personnalisation de formul
 
 L’onglet **Composants autorisés** permet à l’éditeur de modèles de définir les composants qui peuvent être ajoutés en tant qu’éléments aux panneaux dans le composant « Onglets horizontaux » de l’éditeur de formulaires adaptatifs.
 
-![Onglets horizontaux.](/help/adaptive-forms/assets/horizontaltabs_designdilog.png)
-
 ### Onglet Styles {#styles-tab}
 
-Cet onglet vous permet de définir et de gérer les styles CSS d’un composant. Le composant principal « Onglets horizontaux » des formulaires adaptatifs prend en charge le [Système de style](/help/get-started/authoring.md#component-styling) d’AEM.
+La boîte de dialogue de conception permet de définir et de gérer les styles CSS d’un composant. Le composant principal « Onglets horizontaux » des formulaires adaptatifs prend en charge le [Système de style](/help/get-started/authoring.md#component-styling) d’AEM.
 
-![Onglet Styles.](/help/adaptive-forms/assets/horizontaltabs_designstyletab.png)
+**Classes CSS par défaut** : vous pouvez fournir une classe CSS par défaut pour le composant principal « Onglets horizontaux » des formulaires adaptatifs.
 
-* **Classes CSS par défaut** : vous pouvez fournir une classe CSS par défaut pour le composant principal « Onglets horizontaux » des formulaires adaptatifs.
-
-* **Styles autorisés** : vous pouvez définir des styles en fournissant un nom et la classe CSS qui représente le style. Par exemple, vous pouvez créer un style nommé « texte en gras » et fournir la classe CSS « police d’épaisseur : gras ». Vous pouvez utiliser ou appliquer ces styles à un formulaire adaptatif dans l’éditeur de formulaires adaptatifs. Pour appliquer un style, sélectionnez le composant auquel vous souhaitez appliquer le style dans l’éditeur de formulaires adaptatifs, accédez à la boîte de dialogue Propriétés, puis sélectionnez le style de votre choix dans la liste déroulante **Styles**. Si vous devez mettre à jour ou modifier les styles, revenez simplement à la boîte de dialogue Conception, mettez à jour les styles dans l’onglet Styles et enregistrez les modifications.
+**Styles autorisés** : vous pouvez définir des styles en fournissant un nom et la classe CSS qui représente le style. Par exemple, vous pouvez créer un style nommé « texte en gras » et fournir la classe CSS « police d’épaisseur : gras ». Vous pouvez utiliser ou appliquer ces styles à un formulaire adaptatif dans l’éditeur de formulaires adaptatifs. Pour appliquer un style, sélectionnez le composant auquel vous souhaitez appliquer le style dans l’éditeur de formulaires adaptatifs, accédez à la boîte de dialogue Propriétés, puis sélectionnez le style de votre choix dans la liste déroulante **Styles**. Si vous devez mettre à jour ou modifier les styles, revenez simplement à la boîte de dialogue Conception, mettez à jour les styles dans l’onglet Styles et enregistrez les modifications.

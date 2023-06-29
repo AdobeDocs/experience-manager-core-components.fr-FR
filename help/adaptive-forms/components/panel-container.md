@@ -2,11 +2,10 @@
 title: Composant principal de formulaires adaptatifs - Conteneur de panneau
 description: Utilisation ou personnalisation du composant principal Conteneur de panneau de formulaires adaptatifs.
 role: Architect, Developer, Admin, User
-exl-id: 104836fe-8325-47de-978d-1ff2d6a9dd15
-source-git-commit: d2a6108f17f6e0c6b91bec84893d64a8bd48effd
-workflow-type: ht
-source-wordcount: '1696'
-ht-degree: 100%
+source-git-commit: b2c35d78ba0473273852deb678b34b5dd96cf51e
+workflow-type: tm+mt
+source-wordcount: '1366'
+ht-degree: 89%
 
 ---
 
@@ -14,9 +13,9 @@ ht-degree: 100%
 
 Dans un formulaire adaptatif, un panneau est un élément de conteneur qui peut être utilisé pour regrouper les éléments de formulaire associés. Il vous permet de regrouper et d’organiser différents éléments de formulaire de manière logique et significative. Cela peut contribuer à améliorer la structure et la lisibilité globale du formulaire, ce qui facilite la compréhension et la navigation des utilisateurs et utilisatrices.
 
-Les panneaux peuvent être utilisés pour créer des sections réductibles, ce qui peut s’avérer utile pour masquer les champs de formulaire complexes ou moins fréquemment utilisés, et donc faciliter et simplifier l’utilisation du formulaire. Ils vous permettent également d’inclure d’autres composants tels que du texte, des cases à cocher, ou des boutons.
+Les panneaux peuvent également être utilisés pour créer des sections réductibles, ce qui peut s’avérer utile pour masquer les champs de formulaire complexes ou moins fréquemment utilisés, et donc faciliter et simplifier l’utilisation du formulaire. Ils vous permettent également d’inclure d’autres composants tels que du texte, des cases à cocher, des boutons, etc.
 
-Ils peuvent également être utilisés pour définir différentes actions basées sur des règles, telles qu’envoyer un formulaire, ouvrir un site web, afficher ou masquer des composants ou ajouter une instance d’un panneau.
+Ils peuvent également être utilisés pour définir différentes actions basées sur des règles, telles qu’envoyer un formulaire, ouvrir un site Web, afficher ou masquer des composants ou ajouter une instance d’un panneau.
 
 **Exemple**
 
@@ -36,13 +35,15 @@ Il existe plusieurs raisons d’utiliser un panneau dans un formulaire, notammen
 
 ## Version et compatibilité {#version-and-compatibility}
 
-Le composant principal Accordéon des formulaires adaptatifs a été publié en février 2023 au sein des composants principaux 2.0.4 pour Cloud Service et des composants principaux 1.1.12 pour AEM 6.5.16.0 Forms ou version ultérieure. Vous trouverez ci-dessous un tableau détaillant les versions prises en charge, la compatibilité avec AEM et les liens vers la documentation correspondante :
+Le composant principal Conteneur de panneau des formulaires adaptatifs a été publié en février 2023 dans le cadre de la version 2.0.4 des composants principaux. Voici un tableau présentant toutes les versions prises en charge, la compatibilité AEM et les liens vers la documentation correspondante :
 
-| Version du composant | AEM as a Cloud Service | AEM 6.5.16.0 Forms ou version ultérieure |
-|---|---|---|
-| v1 | Compatible avec la <br>[version 2.0.4](/help/adaptive-forms/version.md) et les versions ultérieures | Compatible avec les<br>[versions 1.1.12](/help/adaptive-forms/version.md) à 2.0.0 exclue. |
+|  |  |
+|---|---|
+| Version du composant | AEM as a Cloud Service |
+| --- | --- |
+| v1 | Compatible avec la <br>[version 2.0.4](/help/versions.md) et les versions ultérieures | Compatible | Compatible |
 
-Pour plus d’informations sur les versions et publications des composants principaux, consultez le document [Versions des composants principaux](/help/adaptive-forms/version.md).
+Pour plus d’informations sur les versions et publications des composants principaux, consultez le document [Versions des composants principaux](/help/versions.md).
 
 <!-- ## Sample Component Output {#sample-component-output}
 
@@ -58,7 +59,7 @@ Vous pouvez facilement personnaliser l’expérience de votre conteneur de panne
 
 ### Onglet De base {#basic-tab}
 
-![Onglet De base](/help/adaptive-forms/assets/panelcontainer_basictab.png)
+![Onglet De base](/help/adaptive-forms/assets/basic-panel.png)
 
 * **Nom** : Vous pouvez identifier facilement un composant de formulaire en lui attribuant un nom unique dans le formulaire et dans l’éditeur de règles, mais le nom ne doit pas contenir d’espaces ni de caractères spéciaux.
 
@@ -74,9 +75,22 @@ Vous pouvez facilement personnaliser l’expérience de votre conteneur de panne
 * **Masquer le composant** - Sélectionnez cette option pour masquer le composant du formulaire. Le composant reste accessible à d’autres fins, par exemple pour les calculs dans l’éditeur de règles. Cela s’avère utile lorsque vous devez stocker des informations qui n’ont pas besoin d’être affichées ou directement modifiées par les utilisateurs ou les utilisatrices.
 * **Désactiver le composant** - Sélectionnez cette option pour désactiver le composant. Le composant désactivé n’est pas actif ni modifiable par l’utilisateur final ou l’utilisatrice finale. L’utilisateur ou l’utilisatrice peut voir la valeur du champ mais ne peut pas la modifier. Le composant reste accessible à d’autres fins, par exemple pour les calculs dans l’éditeur de règles.
 
+### Onglet Panneau Répéter {#repeat-panel}
+
+![panneau de répétition](/help/adaptive-forms/assets/repeat-panel.png)
+
+Vous pouvez utiliser les options de répétition pour dupliquer le conteneur de panneau et ses composants enfants, définir un nombre de répétitions minimal et maximal et faciliter la réplication de sections similaires dans un formulaire. Lors de l’interaction avec le composant de conteneur de panneau et de l’accès à ses paramètres, les options suivantes sont présentées :
+
+* **Rendre l’assistant répétable**: Fonctionnalité de basculement qui permet aux utilisateurs d’activer ou de désactiver la fonctionnalité de répétabilité.
+* **Répétition minimale**: Définit le nombre minimal de répétitions du conteneur du panneau. La valeur zéro indique que le panneau Assistant n’est pas répété. la valeur par défaut est zéro.
+* **Nombre maximal de répétitions**: Définit le nombre maximal de répétitions possibles du conteneur du panneau. Par défaut, cette valeur est illimitée.
+
+Pour gérer efficacement les sections répétables dans le conteneur du panneau, procédez comme indiqué dans la section [Création de formulaires avec des sections répétables](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/create-forms-repeatable-sections.html) article.
+
 ### Onglet Contenu de l’aide {#help-content}
 
-![Onglet Contenu d’aide](/help/adaptive-forms/assets/panelcontainer_helptab.png)
+![Onglet Contenu d’aide](/help/adaptive-forms/assets/helpcontent-panel.png)
+
 
 * **Description courte** - Une description courte est une brève explication textuelle qui fournit des informations supplémentaires ou une clarification sur l’objectif d’un champ de formulaire spécifique. Il permet à l’utilisateur ou l’utilisatrice de comprendre le type de données à saisir dans le champ et peut fournir des conseils ou des exemples pour s’assurer que les informations saisies sont valides et répondent aux critères souhaités. Par défaut, les descriptions courtes restent masquées. Activez l’option **Toujours afficher une description courte** pour l’afficher sous le composant.
 
@@ -86,54 +100,10 @@ Vous pouvez facilement personnaliser l’expérience de votre conteneur de panne
 
 ### Onglet Accessibilité {#accessibility}
 
-![Onglet Accessibilité](/help/adaptive-forms/assets/panelcontainer_accessibilitytab.png)
+![Onglet Accessibilité](/help/adaptive-forms/assets/accessibilty-panel.png)
 
-* **Texte pour les lecteurs d’écran** : Il s’agit d’un texte supplémentaire conçu pour être lu par les technologies d’assistance, comme les lecteurs d’écran, utilisées par les personnes malvoyantes. Ce texte fournit une description audio de l’objectif du champ de formulaire et peut inclure des informations sur le titre, la description, le nom du champ et tout message pertinent (texte personnalisé). Le texte du lecteur d’écran permet de s’assurer que le formulaire est accessible à tous les utilisateurs et utilisatrices, y compris celles et ceux ayant une déficience visuelle, et leur permet de bien comprendre le champ du formulaire et ses exigences.
 
-* **Rôle HTML à annoncer par le lecteur d’écran** - Le rôle HTML est un attribut utilisé pour spécifier l’objectif d’un élément HTML pour les technologies d’assistance telles que les lecteurs d’écran. L’attribut rôle est utilisé pour fournir un contexte et une signification sémantique supplémentaires à un élément, ce qui facilite l’interprétation et l’annonce du contenu à l’utilisateur ou à l’utilisatrice par les lecteurs d’écran. Par exemple, dans AEM Forms, le libellé d’un champ de formulaire peut avoir le rôle « libellé » et son champ de saisie peut avoir le rôle « zone de texte ». Cela permet au lecteur d’écran de comprendre la relation entre le libellé et le champ de saisie, et de les annoncer correctement à l’utilisateur ou à l’utilisatrice.
-
-## Boîte de dialogue de conception {#design-dialog}
-
-La boîte de dialogue de conception permet de définir et de gérer les styles CSS pour le composant Conteneur de panneau.
-
-### Onglet Composants autorisés {#allowed-components-tab}
-
-![Onglets Composants autorisés.](/help/adaptive-forms/assets/panel_allowedcomponent.png)
-
-L’onglet **Composants autorisés** permet à l’éditeur de modèles de définir les composants qui peuvent être ajoutés en tant qu’éléments aux panneaux dans le composant Conteneur de panneau de l’éditeur de formulaires adaptatifs.
-
-### Onglet Composants par défaut {#default-component-tab}
-
-Cet onglet permet à l’éditeur de modèles de mapper les composants qui peuvent être ajoutés en tant qu’éléments aux panneaux dans le composant Conteneur de panneau de l’éditeur de formulaires adaptatifs.
-
-![Composant par défaut du panneau.](/help/adaptive-forms/assets/panel_defaultcomponent.png)
-
-### Paramètres réactifs {#responsive-settings}
-
-Cet onglet permet à l’éditeur de modèles de définir le nombre de colonnes à afficher dans la grille réactive.
-
-![Grille réactive.](/help/adaptive-forms/assets/panel_responsivesettings.png)
-
-### Onglet Paramètres de conteneur {#container-setting-tab}
-
-L’onglet Paramètres du conteneur permet de définir la position des composants dans l’éditeur de formulaires adaptatifs.
-
-![Paramètres de conteneur.](/help/adaptive-forms/assets/panel_settings.png)
-
-* **Disposition** : la disposition simple conserve tout ce qui est fixe, tandis que la grille réactive vous permet de modifier la position des composants en fonction de vos besoins.
-* **Désactiver la disposition** : vous pouvez également désactiver la disposition dans la boîte de dialogue de modification en activant la case **Désactiver la disposition**.
-* **Activer l’image d’arrière-plan** : cet onglet permet de définir l’image et la couleur d’arrière-plan dans l’éditeur de modèles.
-* **Activer la couleur d’arrière-plan** : cet onglet permet de définir la couleur d’arrière-plan dans l’éditeur de modèles.
-
-### Onglet Styles {#styles-tab}
-
-Cet onglet vous permet de définir et de gérer les styles CSS d’un composant. Le composant principal Conteneur de panneau des formulaires adaptatifs prend en charge le [Système de style](/help/get-started/authoring.md#component-styling) d’AEM.
-
-![Onglet Styles.](/help/adaptive-forms/assets/panel_style.png)
-
-* **Classes CSS par défaut** : vous pouvez fournir une classe CSS par défaut pour le composant principal des formulaires adaptatifs.
-
-* **Styles autorisés** : vous pouvez définir des styles en fournissant un nom et la classe CSS qui représente le style. Par exemple, vous pouvez créer un style nommé « texte en gras » et fournir la classe CSS « police d’épaisseur : gras ». Vous pouvez utiliser ou appliquer ces styles à un formulaire adaptatif dans les formulaires adaptatifs. Pour appliquer un style, sélectionnez le composant auquel vous souhaitez appliquer le style dans l’éditeur de formulaires adaptatifs, accédez à la boîte de dialogue des propriétés, puis sélectionnez le style de votre choix dans la liste déroulante **Styles**. Si vous devez mettre à jour ou modifier les styles, revenez simplement à la boîte de dialogue Conception, mettez à jour les styles dans l’onglet Styles et enregistrez les modifications.
+* **Texte pour les lecteurs d’écran** - Le texte destiné aux lecteurs d’écran fait référence à un texte supplémentaire spécialement conçu pour être lu par les technologies d’assistance, comme les lecteurs d’écran, utilisées par les personnes malvoyantes. Ce texte fournit une description audio de l’objectif du champ de formulaire et peut inclure des informations sur le titre, la description, le nom du champ et tout message pertinent (texte personnalisé). Le texte du lecteur d’écran permet de s’assurer que le formulaire est accessible à tous les utilisateurs et utilisatrices, y compris celles et ceux ayant une déficience visuelle, et leur permet de bien comprendre le champ du formulaire et ses exigences.
 
 * **Rôle HTML à annoncer par le lecteur d’écran** - Le rôle HTML est un attribut utilisé pour spécifier l’objectif d’un élément HTML pour les technologies d’assistance telles que les lecteurs d’écran. L’attribut rôle est utilisé pour fournir un contexte et une signification sémantique supplémentaires à un élément, ce qui facilite l’interprétation et l’annonce du contenu à l’utilisateur ou à l’utilisatrice par les lecteurs d’écran. Par exemple, dans AEM Forms, le libellé d’un champ de formulaire peut avoir le rôle « libellé » et son champ de saisie peut avoir le rôle « zone de texte ». Cela permet au lecteur d’écran de comprendre la relation entre le libellé et le champ de saisie, et de les annoncer correctement à l’utilisateur ou à l’utilisatrice.
 
