@@ -2,10 +2,10 @@
 title: Composant principal des formulaires adaptatifs - Onglets visibles
 description: Utilisez ou personnalisez le composant principal Onglets visibles des formulaires adaptatifs.
 role: Architect, Developer, Admin, User
-source-git-commit: d2a6108f17f6e0c6b91bec84893d64a8bd48effd
-workflow-type: ht
-source-wordcount: '437'
-ht-degree: 100%
+source-git-commit: 7888cfa0f1358ce8018fc1e3cc3b19eb66a82b9d
+workflow-type: tm+mt
+source-wordcount: '471'
+ht-degree: 94%
 
 ---
 
@@ -54,4 +54,8 @@ Retrouvez les informations les plus récentes sur le composant principal « Ong
 
 Vous pouvez facilement personnaliser l’expérience des onglets visibles pour les visiteurs et les visiteuses à l’aide de la boîte de dialogue de configuration. Vous pouvez également définir facilement des options d’onglets visibles pour une expérience client fluide.
 
-## Boîte de dialogue de conception {#design-dialog}
+## Article connexe {#related-article}
+
+* [Création d’un formulaire adaptatif dans une page AEM Sites ou un fragment d’expérience](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/create-or-add-an-adaptive-form-to-aem-sites-page.html)
+
+* [Création d’un formulaire adaptatif autonome](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/creating-adaptive-form-core-components.html?lang=fr)
