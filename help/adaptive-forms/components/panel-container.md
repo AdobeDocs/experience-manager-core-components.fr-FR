@@ -5,7 +5,7 @@ role: Architect, Developer, Admin, User
 source-git-commit: 7888cfa0f1358ce8018fc1e3cc3b19eb66a82b9d
 workflow-type: tm+mt
 source-wordcount: '1402'
-ht-degree: 87%
+ht-degree: 98%
 
 ---
 
@@ -61,7 +61,7 @@ Vous pouvez facilement personnaliser l’expérience de votre conteneur de panne
 
 ![Onglet De base](/help/adaptive-forms/assets/basic-panel.png)
 
-* **Nom** : Vous pouvez identifier facilement un composant de formulaire en lui attribuant un nom unique dans le formulaire et dans l’éditeur de règles, mais le nom ne doit pas contenir d’espaces ni de caractères spéciaux.
+* **Nom** - Vous pouvez identifier facilement un composant de formulaire en lui attribuant un nom unique dans le formulaire et dans l’éditeur de règles, mais le nom ne doit pas contenir d’espaces ni de caractères spéciaux.
 
 * **Titre** - Avec son titre, vous pouvez facilement identifier un composant dans un formulaire. Par défaut, le titre s’affiche au-dessus du composant. Si vous n’ajoutez pas de titre, le nom du composant s’affiche à la place du texte du titre.
 
@@ -75,17 +75,17 @@ Vous pouvez facilement personnaliser l’expérience de votre conteneur de panne
 * **Masquer le composant** - Sélectionnez cette option pour masquer le composant du formulaire. Le composant reste accessible à d’autres fins, par exemple pour les calculs dans l’éditeur de règles. Cela s’avère utile lorsque vous devez stocker des informations qui n’ont pas besoin d’être affichées ou directement modifiées par les utilisateurs ou les utilisatrices.
 * **Désactiver le composant** - Sélectionnez cette option pour désactiver le composant. Le composant désactivé n’est pas actif ni modifiable par l’utilisateur final ou l’utilisatrice finale. L’utilisateur ou l’utilisatrice peut voir la valeur du champ mais ne peut pas la modifier. Le composant reste accessible à d’autres fins, par exemple pour les calculs dans l’éditeur de règles.
 
-### Onglet Panneau Répéter {#repeat-panel}
+### Onglet Répéter le panneau {#repeat-panel}
 
-![panneau de répétition](/help/adaptive-forms/assets/repeat-panel.png)
+![onglet répéter](/help/adaptive-forms/assets/repeat-panel.png)
 
-Vous pouvez utiliser les options de répétition pour dupliquer le conteneur de panneau et ses composants enfants, définir un nombre de répétitions minimal et maximal et faciliter la réplication de sections similaires dans un formulaire. Lors de l’interaction avec le composant de conteneur de panneau et de l’accès à ses paramètres, les options suivantes sont présentées :
+Vous pouvez utiliser les options de répétition pour dupliquer le conteneur du panneau et ses composants enfants, définir un nombre de répétitions minimal et maximal et faciliter la réplication de sections similaires dans un formulaire. Lors de l’interaction avec le composant de conteneur du panneau et de l’accès à ses paramètres, les options suivantes s’affichent :
 
-* **Rendre l’assistant répétable**: Fonctionnalité de basculement qui permet aux utilisateurs d’activer ou de désactiver la fonctionnalité de répétabilité.
-* **Répétition minimale**: Définit le nombre minimal de répétitions du conteneur du panneau. La valeur zéro indique que le panneau Assistant n’est pas répété. la valeur par défaut est zéro.
-* **Nombre maximal de répétitions**: Définit le nombre maximal de répétitions possibles du conteneur du panneau. Par défaut, cette valeur est illimitée.
+* **Rendre l’assistant répétable** : fonctionnalité de basculement qui permet aux utilisateurs et utilisatrices d’activer ou de désactiver la fonctionnalité de répétabilité.
+* **Nombre minimal de répétitions** : définit le nombre minimal de répétitions possibles du conteneur du panneau. La valeur zéro indique que le panneau Assistant n’est pas répété. La valeur par défaut est zéro.
+* **Nombre maximal de répétitions** : définit le nombre maximal de répétitions possibles du conteneur du panneau. Par défaut, cette valeur est illimitée.
 
-Pour gérer efficacement les sections répétables dans le conteneur du panneau, procédez comme indiqué dans la section [Création de formulaires avec des sections répétables](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/create-forms-repeatable-sections.html) article.
+Pour gérer efficacement les sections répétables dans le conteneur du panneau, procédez comme indiqué dans l’article [Création de formulaires avec des sections répétables](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/create-forms-repeatable-sections.html?lang=fr).
 
 ### Onglet Contenu de l’aide {#help-content}
 

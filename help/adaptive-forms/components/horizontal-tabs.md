@@ -6,7 +6,7 @@ exl-id: fbdf330b-3b85-4f94-9dab-eea8465fba67
 source-git-commit: 7888cfa0f1358ce8018fc1e3cc3b19eb66a82b9d
 workflow-type: tm+mt
 source-wordcount: '1769'
-ht-degree: 86%
+ht-degree: 98%
 
 ---
 
@@ -58,7 +58,7 @@ Vous pouvez facilement personnaliser votre expérience en matière d’onglets h
 
 ![Onglet De base](/help/adaptive-forms/assets/tabs-on-top-basic.png)
 
-* **Nom** : Vous pouvez identifier facilement un composant de formulaire en lui attribuant un nom unique dans le formulaire et dans l’éditeur de règles, mais le nom ne doit pas contenir d’espaces ni de caractères spéciaux.
+* **Nom** - Vous pouvez identifier facilement un composant de formulaire en lui attribuant un nom unique dans le formulaire et dans l’éditeur de règles, mais le nom ne doit pas contenir d’espaces ni de caractères spéciaux.
 
 * **Titre** - Avec son titre, vous pouvez facilement identifier un composant dans un formulaire. Par défaut, le titre s’affiche au-dessus du composant. Si vous n’ajoutez pas de titre, le nom du composant s’affiche à la place du texte du titre.
 
@@ -76,13 +76,13 @@ Vous pouvez facilement personnaliser votre expérience en matière d’onglets h
 
 ![Onglet Accessibilité](/help/adaptive-forms/assets/repeat-tabsontop.png)
 
-Vous pouvez utiliser les options de répétition pour dupliquer le composant Onglets horizontaux et ses composants enfants, définir un nombre de répétitions minimal et maximal et faciliter la réplication de sections similaires dans un formulaire. Lors de l’interaction avec le composant Onglets horizontaux et de l’accès à ses paramètres, les options suivantes sont présentées :
+Vous pouvez utiliser les options de répétition pour dupliquer le composant Onglets horizontaux et ses composants enfants, définir un nombre de répétitions minimal et maximal et faciliter la réplication de sections similaires dans un formulaire. Lors de l’interaction avec le composant Onglets horizontaux et de l’accès à ses paramètres, les options suivantes s’affichent :
 
-* **Rendre les onglets horizontaux répétables**: Fonctionnalité de basculement qui permet aux utilisateurs d’activer ou de désactiver la fonctionnalité de répétabilité.
-* **Répétition minimale**: Définit le nombre minimal de répétitions du composant Onglets horizontaux. La valeur zéro indique que le composant Onglets horizontaux n’est pas répété ; la valeur par défaut est zéro.
-* **Nombre maximal de répétitions**: Définit le nombre maximal de répétitions possibles du composant Onglets horizontaux. Par défaut, cette valeur est illimitée.
+* **Rendre les onglets horizontaux répétables** : fonctionnalité de basculement qui permet aux utilisateurs et utilisatrices d’activer ou de désactiver la fonctionnalité de répétabilité.
+* **Nombre minimal de répétitions** : définit le nombre minimal de répétitions possibles du composant Onglets horizontaux. La valeur zéro indique que le composant Onglets horizontaux n’est pas répété. La valeur par défaut est zéro.
+* **Nombre maximal de répétitions** : définit le nombre maximal de répétitions possibles du composant Onglets horizontaux. Par défaut, cette valeur est illimitée.
 
-Pour gérer efficacement les sections répétables dans les onglets Horizontal, procédez comme indiqué dans la section [Création de formulaires avec des sections répétables](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/create-forms-repeatable-sections.html) article.
+Pour gérer efficacement les sections répétables dans les Onglets horizontaux, procédez comme indiqué dans l’article [Création de formulaires avec des sections répétables](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/create-forms-repeatable-sections.html?lang=fr).
 
 ### Onglet Éléments {#items-tab}
 
@@ -90,9 +90,9 @@ Pour gérer efficacement les sections répétables dans les onglets Horizontal, 
 
 Le bouton **Ajouter** vous permet de sélectionner un composant à ajouter en tant que panneau à partir de la fenêtre de sélection de composant. Après avoir ajouté le composant, vous pouvez voir les options suivantes :
 
-* **Icône** - L’icône identifie le composant du panneau dans la liste. Pointez sur l’icône pour afficher le nom complet du composant sous forme d’info-bulle.
-* **Description** - Description utilisée comme texte du panneau. Par défaut, le nom du composant sélectionné pour le panneau.
-* **Supprimer** - Appuyez ou cliquez sur pour supprimer le panneau du composant Onglets horizontaux.
+* **Icône** : L’icône identifie le composant du panneau dans la liste. Pointez sur l’icône pour afficher le nom complet du composant sous forme d’info-bulle.
+* **Description** : Description utilisée comme texte du panneau. Par défaut, le nom du composant sélectionné pour le panneau.
+* **Supprimer** : Appuyez ou cliquez sur cette option pour supprimer le panneau du composant Onglets horizontaux.
 * **Réorganiser** : Appuyez ou cliquez et faites glisser pour réorganiser l’ordre des panneaux.
 
 ### Onglet Contenu de l’aide {#help-content}
@@ -115,10 +115,10 @@ Le bouton **Ajouter** vous permet de sélectionner un composant à ajouter en ta
 
 ## Boîte de dialogue de conception {#design-dialog}
 
-La boîte de dialogue Conception permet aux créateurs et aux créatrices de modèles de contrôler l’affichage des éléments par défaut. Pour le composant Onglets horizontaux de Forms adaptative, vous pouvez définir les options suivantes :
+La boîte de dialogue Conception permet aux créateurs et aux créatrices de modèles de contrôler l’affichage des éléments par défaut. Pour le composant Onglets horizontaux des formulaires adaptatifs, vous pouvez définir les éléments suivants :
 
-* Composants principaux qu’un créateur de formulaire peut ajouter aux onglets Horizontal dans l’éditeur de Forms adaptatif
-* Noms simples pour les styles (classes CSS) qui peuvent être appliqués dans la boîte de dialogue des propriétés du composant Onglets horizontaux dans l’éditeur de Forms adaptatif.
+* Composants principaux qu’un créateur ou une créatrice de formulaire peut ajouter aux Onglets horizontaux dans l’éditeur de formulaires adaptatifs.
+* Noms simples pour les styles (classes CSS) qui peuvent être appliqués dans la boîte de dialogue des propriétés du composant Onglets horizontaux dans l’éditeur de formulaires adaptatifs.
 
 Cela permet de rendre le processus de création et de personnalisation de formulaires plus simple et plus efficace.
 

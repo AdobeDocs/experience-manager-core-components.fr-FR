@@ -6,7 +6,7 @@ exl-id: fd785cd2-5ed6-4efb-997f-ce9056ed113d
 source-git-commit: 7888cfa0f1358ce8018fc1e3cc3b19eb66a82b9d
 workflow-type: tm+mt
 source-wordcount: '1865'
-ht-degree: 90%
+ht-degree: 98%
 
 ---
 
@@ -91,17 +91,17 @@ Vous pouvez facilement personnaliser l’expérience d’assistant pour les visi
 
 * **Désactiver le composant** - Sélectionnez cette option pour désactiver le composant. Le composant désactivé n’est pas actif ni modifiable par l’utilisateur final ou l’utilisatrice finale. L’utilisateur ou l’utilisatrice peut voir la valeur du champ mais ne peut pas la modifier. Le composant reste accessible à d’autres fins, par exemple pour les calculs dans l’éditeur de règles.
 
-### Onglet Assistant Répétition {#repeat-wizard-tab}
+### Onglet Répéter l’assistant {#repeat-wizard-tab}
 
-![Assistant Répétition](/help/adaptive-forms/assets/wizard-repeat.png)
+![Répéter l’assistant](/help/adaptive-forms/assets/wizard-repeat.png)
 
-Vous pouvez utiliser les options de répétition pour dupliquer l’assistant et ses composants enfants, définir un nombre de répétitions minimal et maximal et faciliter la réplication de sections similaires dans un formulaire. Lors de l’interaction avec le composant Assistant et de l’accès à ses paramètres, les options suivantes sont présentées :
+Vous pouvez utiliser les options de répétition pour dupliquer l’assistant et ses composants enfants, définir un nombre de répétitions minimal et maximal et faciliter la réplication de sections similaires dans un formulaire. Lors de l’interaction avec le composant Assistant et de l’accès à ses paramètres, les options suivantes s’affichent :
 
-* **Rendre l’assistant répétable**: Fonctionnalité de basculement qui permet aux utilisateurs d’activer ou de désactiver la fonctionnalité de répétabilité.
-* **Répétition minimale**: Définit le nombre minimal de répétitions du panneau Assistant. La valeur zéro indique que le panneau Assistant n’est pas répété. la valeur par défaut est zéro.
-* **Nombre maximal de répétitions**: Définit le nombre maximal de répétitions possibles dans le panneau Assistant. Par défaut, cette valeur est illimitée.
+* **Rendre l’assistant répétable** : fonctionnalité de basculement qui permet aux utilisateurs et utilisatrices d’activer ou de désactiver la fonctionnalité de répétabilité.
+* **Nombre minimal de répétitions** : définit le nombre minimal de répétitions possibles du panneau Assistant. La valeur zéro indique que le panneau Assistant n’est pas répété. La valeur par défaut est zéro.
+* **Nombre maximal de répétitions** : définit le nombre maximal de répétitions possibles du panneau Assistant. Par défaut, cette valeur est illimitée.
 
-Pour gérer efficacement les sections répétables dans l’assistant, procédez comme indiqué dans la section [Création de formulaires avec des sections répétables](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/create-forms-repeatable-sections.html) article.
+Pour gérer efficacement les sections répétables dans l’assistant, procédez comme indiqué dans l’article [Création de formulaires avec des sections répétables](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/create-forms-repeatable-sections.html?lang=fr).
 
 ### Onglet Aide {#help-tab}
 

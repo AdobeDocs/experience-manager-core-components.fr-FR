@@ -6,7 +6,7 @@ exl-id: 0ed38eee-fc22-4708-82eb-3fb1839b1ff2
 source-git-commit: 7888cfa0f1358ce8018fc1e3cc3b19eb66a82b9d
 workflow-type: tm+mt
 source-wordcount: '1950'
-ht-degree: 91%
+ht-degree: 98%
 
 ---
 
@@ -65,7 +65,7 @@ Vous pouvez facilement personnaliser l’expérience d’accordéon pour les vis
 
 ![Onglet De base](/help/adaptive-forms/assets/acc-basic.png)
 
-* **Nom** : Vous pouvez identifier facilement un composant de formulaire en lui attribuant un nom unique dans le formulaire et dans l’éditeur de règles, mais le nom ne doit pas contenir d’espaces ni de caractères spéciaux.
+* **Nom** - Vous pouvez identifier facilement un composant de formulaire en lui attribuant un nom unique dans le formulaire et dans l’éditeur de règles, mais le nom ne doit pas contenir d’espaces ni de caractères spéciaux.
 
 * **Titre** - Avec son titre, vous pouvez facilement identifier un composant dans un formulaire. Par défaut, le titre s’affiche au-dessus du composant. Si vous n’ajoutez pas de titre, le nom du composant s’affiche à la place du texte du titre.
 
@@ -83,13 +83,13 @@ Vous pouvez facilement personnaliser l’expérience d’accordéon pour les vis
 
 ![repeat-accordion](/help/adaptive-forms/assets/repeat-accordion.png)
 
-Vous pouvez utiliser les options de répétition pour dupliquer les panneaux d’accordéon et ses composants enfants, définir un nombre de répétitions minimal et maximal et faciliter la réplication de sections similaires dans un formulaire. Lors de l’interaction avec le composant d’accordéon et de l’accès à ses paramètres, les options suivantes sont présentées :
+Vous pouvez utiliser les options de répétition pour dupliquer les panneaux d’accordéon et ses composants enfants, définir un nombre de répétitions minimal et maximal et faciliter la réplication de sections similaires dans un formulaire. Lors de l’interaction avec le composant Accordéon et de l’accès à ses paramètres, les options suivantes s’affichent :
 
-* **Rendre l’accordéon répétable**: Fonctionnalité de basculement qui permet aux utilisateurs d’activer ou de désactiver la fonctionnalité de répétabilité.
-* **Répétition minimale**: Définit le nombre minimal de répétitions du panneau d’accordéon. La valeur zéro indique que le panneau d’accordéon n’est pas répété. la valeur par défaut est zéro.
-* **Nombre maximal de répétitions**: Définit le nombre maximal de répétitions possibles dans le panneau d’accordéon. Par défaut, cette valeur est illimitée.
+* **Rendre l’accordéon répétable** : fonctionnalité de basculement qui permet aux utilisateurs et utilisatrices d’activer ou de désactiver la fonctionnalité de répétabilité.
+* **Nombre minimal de répétitions** : définit le nombre minimal de répétitions possibles du panneau d’accordéon. La valeur zéro indique que le panneau d’accordéon n’est pas répété. La valeur par défaut est zéro.
+* **Nombre maximal de répétitions** : définit le nombre maximal de répétitions possibles du panneau d’accordéon. Par défaut, cette valeur est illimitée.
 
-Pour gérer efficacement les sections répétables dans l’accordéon, suivez les étapes fournies dans la section [Création de formulaires avec des sections répétables](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/create-forms-repeatable-sections.html) article.
+Pour gérer efficacement les sections répétables dans l’accordéon, procédez comme indiqué dans l’article [Création de formulaires avec des sections répétables](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/create-forms-repeatable-sections.html?lang=fr).
 
 ### Onglet Éléments {#items-tab}
 
@@ -97,9 +97,9 @@ Pour gérer efficacement les sections répétables dans l’accordéon, suivez l
 
 Le bouton Ajouter vous permet de sélectionner un composant à ajouter sous forme de panneau à partir de la fenêtre de sélection des composants. Après avoir ajouté le composant, vous pouvez voir les options suivantes :
 
-* **Icône** - L’icône identifie le composant du panneau dans la liste. Pointez sur l’icône pour afficher le nom complet du composant sous forme d’info-bulle.
-* **Description** - Description utilisée comme texte du panneau. Par défaut, le nom du composant est sélectionné pour le panneau.
-* **Supprimer** : appuyez ou cliquez sur cette option pour supprimer le panneau du composant d’accordéon.
+* **Icône** : L’icône identifie le composant du panneau dans la liste. Pointez sur l’icône pour afficher le nom complet du composant sous forme d’info-bulle.
+* **Description** : Description utilisée comme texte du panneau. Par défaut, le nom du composant est sélectionné pour le panneau.
+* **Supprimer** : Appuyez ou cliquez sur cette option pour supprimer le panneau du composant d’accordéon.
 * **Réorganiser** : Appuyez ou cliquez et faites glisser pour réorganiser l’ordre des panneaux.
 
 ### Onglet Contenu de l’aide {#help-content}
