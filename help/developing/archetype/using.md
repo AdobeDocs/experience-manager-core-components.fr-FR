@@ -4,10 +4,10 @@ description: Instructions d’utilisation détaillées pour l’archétype de pr
 feature: Core Components, AEM Project Archetype
 role: Architect, Developer, Admin
 exl-id: a3978d8b-4904-42aa-9ee2-9c1f884327bb
-source-git-commit: ca61d71a2644465e74249058157d8dea2aa71352
-workflow-type: ht
-source-wordcount: '2198'
-ht-degree: 100%
+source-git-commit: e0dff3b15c9637292eb2bb89836215afc0fcf8f9
+workflow-type: tm+mt
+source-wordcount: '2201'
+ht-degree: 99%
 
 ---
 
@@ -45,7 +45,7 @@ L’archétype AEM est constitué de modules :
 * **all** : package de contenu unique qui intègre tous les modules compilés (offres groupées et packages de contenu), y compris les dépendances des fournisseurs.
 * **analyse** : exécute l’analyse du projet en vue de fournir une validation supplémentaire pour le déploiement dans AEM as a Cloud Service.
 
-![](/help/assets/archetype-structure.png)
+![Organisation du package de contenu](/help/assets/content-package-organization.png)
 
 Les modules de l’archétype AEM représentés dans Maven sont déployés vers AEM en tant que packages de contenu représentant l’application, le contenu et les lots OSGi nécessaires.
 
@@ -76,7 +76,7 @@ mvn -B archetype:generate \
 
 * Définissez `XX` sur le [numéro de la dernière version](https://github.com/adobe/aem-project-archetype/blob/master/VERSIONS.md) de l’archétype de projet AEM.
 * Définissez `aemVersion=cloud` pour [AEM as a Cloud Service](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/landing/home.html?lang=fr).\
-   Définissez `aemVersion=6.5.0` pour [Adobe Managed Services](https://github.com/adobe/aem-project-archetype/tree/master/src/main/archetype/dispatcher.ams) ou On-Premise.
+  Définissez `aemVersion=6.5.0` pour [Adobe Managed Services](https://github.com/adobe/aem-project-archetype/tree/master/src/main/archetype/dispatcher.ams) ou On-Premise.
 La dépendance des composants principaux n’est ajoutée que pour les versions d’AEM hors du cloud, car ils sont fournis prêts à l’emploi pour AEM as a Cloud Service.
 * Ajustez `appTitle="My Site"` de façon à définir le titre du site web et les groupes de composants.
 * Ajustez `appId="mysite"` afin de définir l’artifactId Maven, les noms des dossiers de composants, de configurations et de contenu, ainsi que les noms des bibliothèques clientes.
@@ -95,10 +95,10 @@ Les propriétés suivantes sont disponibles lors de la création d’un projet �
 
 | Nom | Valeur par défaut | Description |
 |---------------------------|----------------|--------------------|
-| `appTitle` |  | Titre de l’application qui sera utilisé comme titre du site web et des groupes de composants (par exemple, `"My Site"`). |
-| `appId` |  | Nom technique qui sera utilisé pour les noms des dossiers de composants, de configurations et de contenu, ainsi que pour les noms des bibliothèques clientes (par exemple, `"mysite"`). |
+| `appTitle` |                | Titre de l’application qui sera utilisé comme titre du site web et des groupes de composants (par exemple, `"My Site"`). |
+| `appId` |                | Nom technique qui sera utilisé pour les noms des dossiers de composants, de configurations et de contenu, ainsi que pour les noms des bibliothèques clientes (par exemple, `"mysite"`). |
 | `artifactId` | *`${appId}`* | ID d’artefact Maven de base (par exemple, `"mysite"`). |
-| `groupId` |  | ID de groupe Maven de base (par exemple, `"com.mysite"`). |
+| `groupId` |                | ID de groupe Maven de base (par exemple, `"com.mysite"`). |
 | `package` | *`${groupId}`* | Package source Java (par exemple, `"com.mysite"`). |
 | `version` | `1.0-SNAPSHOT` | Version du projet (par exemple, `1.0-SNAPSHOT`). |
 | `aemVersion` | `cloud` | Version d’AEM cible (par exemple, `cloud` pour [AEM as a Cloud Service](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/landing/home.html?lang=fr) ; ou `6.5.0` ou `6.4.4` pour [Adobe Managed Services](https://github.com/adobe/aem-project-archetype/tree/master/src/main/archetype/dispatcher.ams) ou On-Premise). |
@@ -111,10 +111,10 @@ Les propriétés suivantes sont disponibles lors de la création d’un projet �
 | `includeExamples` | `n` | Inclut un exemple de site de [bibliothèque de composants](https://www.aemcomponents.dev/) (par exemple, `y` ou `n`). |
 | `includeErrorHandler` | `n` | Inclut une page de réponse personnalisée 404 qui sera globale pour l’ensemble de l’instance (par exemple, `y` ou `n`). |
 | `includeCommerce` | `n` | Inclut des dépendances [Composants principaux CIF](https://github.com/adobe/aem-core-cif-components) et génère les artefacts correspondants. |
-| `commerceEndpoint` |  | Requis pour CIF uniquement. Point d’entrée facultatif du service GraphQL du système commercial à utiliser (par ex. `https://hostname.com/grapql`). |
+| `commerceEndpoint` |                | Requis pour CIF uniquement. Point d’entrée facultatif du service GraphQL du système commercial à utiliser (par ex. `https://hostname.com/grapql`). |
 | `datalayer` | `y` | Activez l’intégration avec la [couche de données client Adobe](/help/developing/data-layer/overview.md). |
 | `amp` | `n` | Activez la prise en charge [AMP](/help/developing/amp.md) pour les modèles de projets générés. |
-| `enableDynamicMedia` | `n` | Active les composants Dynamic Media de base dans les paramètres de règles de projet et active les fonctionnalités Dynamic Media dans les règles du composant Image de base. |
+| `enableDynamicMedia` | `n` | Active les composants Dynamic Media de base dans les paramètres de politiques de projet et active les fonctionnalités Dynamic Media dans les politiques du composant Image de base. |
 | `enableSSR` | `n` | Option permettant d’activer le rendu côté serveur pour le projet front-end |
 | `precompiledScripts` | `n` | Option permettant de [précompiler](/help/developing/archetype/precompiled-bundled-scripts.md) les scripts côté serveur à partir de `ui.apps` et de les joindre à la version en tant qu’artefact de bundle secondaire dans le projet `ui.apps`. `aemVersion` doit être défini sur `cloud`. |
 
