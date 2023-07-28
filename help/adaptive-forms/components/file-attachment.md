@@ -4,9 +4,9 @@ description: Utilisation ou personnalisation du composant principal « Pièce j
 role: Architect, Developer, Admin, User
 exl-id: 64a54fc6-db52-481f-bf5a-60c05122004d
 source-git-commit: 7888cfa0f1358ce8018fc1e3cc3b19eb66a82b9d
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1544'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -59,7 +59,7 @@ Vous pouvez facilement personnaliser l’expérience de pièce jointe pour les v
 
 ![Onglet De base](/help/adaptive-forms/assets/fileattachement_basictab.png)
 
-* **Nom** : Vous pouvez identifier facilement un composant de formulaire en lui attribuant un nom unique dans le formulaire et dans l’éditeur de règles, mais le nom ne doit pas contenir d’espaces ni de caractères spéciaux.
+* **Nom** - Vous pouvez identifier facilement un composant de formulaire en lui attribuant un nom unique dans le formulaire et dans l’éditeur de règles, mais le nom ne doit pas contenir d’espaces ni de caractères spéciaux.
 
 * **Titre** - Avec son titre, vous pouvez facilement identifier un composant dans un formulaire. Par défaut, le titre s’affiche au-dessus du composant. Si vous n’ajoutez pas de titre, le nom du composant s’affiche à la place du texte du titre.
 
@@ -77,7 +77,7 @@ Vous pouvez facilement personnaliser l’expérience de pièce jointe pour les v
 
 ![Onglet Validation](/help/adaptive-forms/assets/fileattachment_validationtab.png)
 
-* **Obligatoire** - Sélectionnez cette option si vous souhaitez afficher le composant dans un formulaire adaptatif. Vous ne pouvez pas sélectionner **Masquer le composant** ou **Désactiver le composant**  dans l’onglet **De base** lorsque cette option est sélectionnée.
+* **Obligatoire** : Sélectionnez cette option si vous souhaitez afficher le composant dans un formulaire adaptatif. Vous ne pouvez pas sélectionner **Masquer le composant** ou **Désactiver le composant**  dans l’onglet **De base** lorsque cette option est sélectionnée.
 
 * **Message d’erreur** - Cette option vous permet de saisir un message qui s’affiche si la case à cocher **Obligatoire** est cochée et que le champ n’est pas renseigné.
 
@@ -101,7 +101,7 @@ Vous pouvez facilement personnaliser l’expérience de pièce jointe pour les v
 
 ![Onglet Contenu d’aide](/help/adaptive-forms/assets/fileattachement_helpcontenttab.png)
 
-* **Description courte** - Une description courte est une brève explication textuelle qui fournit des informations supplémentaires ou une clarification sur l’objectif d’un champ de formulaire spécifique. Il permet à l’utilisateur ou l’utilisatrice de comprendre le type de données à saisir dans le champ et peut fournir des conseils ou des exemples pour s’assurer que les informations saisies sont valides et répondent aux critères souhaités. Par défaut, les descriptions courtes restent masquées. Activez l’option **Toujours afficher une description courte** pour l’afficher sous le composant.
+* **Description courte** : Une description courte est une brève explication textuelle qui fournit des informations supplémentaires ou une clarification sur l’objectif d’un champ de formulaire spécifique. Il permet à l’utilisateur ou l’utilisatrice de comprendre le type de données à saisir dans le champ et peut fournir des conseils ou des exemples pour s’assurer que les informations saisies sont valides et répondent aux critères souhaités. Par défaut, les descriptions courtes restent masquées. Activez l’option **Toujours afficher une description courte** pour l’afficher sous le composant.
 
 * **Toujours afficher une description courte** - Activez l’option pour afficher la description courte sous le composant.
 
@@ -131,6 +131,6 @@ Le composant principal « Pièce jointe » des formulaires adaptatifs prend en
 
 ## Article connexe {#related-article}
 
-* [Création d’un formulaire adaptatif dans une page AEM Sites ou un fragment d’expérience](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/create-or-add-an-adaptive-form-to-aem-sites-page.html)
+* [Création d’un formulaire adaptatif dans une page AEM Sites ou un fragment d’expérience](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/create-or-add-an-adaptive-form-to-aem-sites-page.html?lang=fr)
 
 * [Création d’un formulaire adaptatif autonome](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/creating-adaptive-form-core-components.html?lang=fr)
