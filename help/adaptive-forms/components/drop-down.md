@@ -3,10 +3,10 @@ title: Composant principal des formulaires adaptatifs - Liste déroulante
 description: Utilisation ou personnalisation du composant principal « Liste déroulante » des formulaires adaptatifs.
 role: Architect, Developer, Admin, User
 exl-id: 9d59d0d2-d38f-4ed5-8b43-984c45f26f27
-source-git-commit: 7888cfa0f1358ce8018fc1e3cc3b19eb66a82b9d
-workflow-type: ht
-source-wordcount: '1731'
-ht-degree: 100%
+source-git-commit: ad3e3bca5cb46f14e864e4704c90ac3b62779794
+workflow-type: tm+mt
+source-wordcount: '1767'
+ht-degree: 99%
 
 ---
 
@@ -99,7 +99,7 @@ Vous pouvez facilement personnaliser l’expérience des visiteurs et des visite
 
 * **Obligatoire** : Sélectionnez cette option si vous souhaitez afficher le composant dans un formulaire adaptatif. Vous ne pouvez pas sélectionner **Masquer le composant** ou **Désactiver le composant**  dans l’onglet **De base** lorsque cette option est sélectionnée.
 
-* **Message d’erreur** - Cette option vous permet de saisir un message qui s’affiche si la case à cocher **Obligatoire** est cochée et que le champ de formulaire reste vide.
+* **Message d’erreur** : Cette option vous permet de saisir un message qui s’affiche si la case à cocher **Obligatoire** est cochée et que le champ de formulaire reste vide.
 
 * **Message de validation de script** : cette option permet de saisir un message à afficher en cas d’échec de la validation du script.
 
@@ -142,3 +142,26 @@ Cet onglet vous permet de définir et de gérer les styles CSS d’un composant.
 * [Création d’un formulaire adaptatif autonome](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/creating-adaptive-form-core-components.html?lang=fr)
 
 
+## Voir aussi {#see-also}
+
+* [Accordéon](/help/adaptive-forms/components/accordion.md)
+* [Bouton](/help/adaptive-forms/components/button.md)
+* [Case à cocher Groupe](/help/adaptive-forms/components/checkbox-group.md)
+* [Sélecteur de date](/help/adaptive-forms/components/date-picker.md)
+* [Entrée d’e-mail](/help/adaptive-forms/components/email-input.md)
+* [Conteneur de formulaires](/help/adaptive-forms/components/form-container.md)
+* [Pièce jointe](/help/adaptive-forms/components/file-attachment.md)
+* [Pied de page](/help/adaptive-forms/components/footer.md)
+* [En-tête](/help/adaptive-forms/components/header.md)
+* [Onglets horizontaux](/help/adaptive-forms/components/horizontal-tabs.md)
+* [Image](/help/adaptive-forms/components/image.md)
+* [Entrée de nombre](/help/adaptive-forms/components/number-input.md)
+* [Conteneur de panneau](/help/adaptive-forms/components/panel-container.md)
+* [Bouton radio](/help/adaptive-forms/components/radio-button.md)
+* [Bouton de réinitialisation](/help/adaptive-forms/components/reset-button.md)
+* [Bouton Envoyer](/help/adaptive-forms/components/submit-button.md)
+* [Entrée téléphonique](/help/adaptive-forms/components/telephone-input.md)
+* [Entrée de texte](/help/adaptive-forms/components/text-input.md)
+* [Texte](/help/adaptive-forms/components/text.md)
+* [Titre](/help/adaptive-forms/components/title.md)
+* [Assistant](/help/adaptive-forms/components/wizard.md)

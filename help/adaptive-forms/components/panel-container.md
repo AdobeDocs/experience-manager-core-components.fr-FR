@@ -2,10 +2,10 @@
 title: Composant principal de formulaires adaptatifs - Conteneur de panneau
 description: Utilisation ou personnalisation du composant principal Conteneur de panneau de formulaires adaptatifs.
 role: Architect, Developer, Admin, User
-source-git-commit: 9a80b453d6a6cf7b347128654d3b5e673a063505
+source-git-commit: b6e3a443c7425a60fc6c3469dc273960a4e29088
 workflow-type: tm+mt
-source-wordcount: '1503'
-ht-degree: 90%
+source-wordcount: '1539'
+ht-degree: 91%
 
 ---
 
@@ -133,3 +133,28 @@ Pour gérer efficacement les sections répétables dans le conteneur du panneau,
 - [Création d’un formulaire adaptatif dans une page AEM Sites ou un fragment d’expérience](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/create-or-add-an-adaptive-form-to-aem-sites-page.html?lang=fr)
 
 - [Création d’un formulaire adaptatif autonome](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/creating-adaptive-form-core-components.html?lang=fr)
+
+
+## Voir aussi {#see-also}
+
+- [Accordéon](/help/adaptive-forms/components/accordion.md)
+- [Bouton](/help/adaptive-forms/components/button.md)
+- [Case à cocher Groupe](/help/adaptive-forms/components/checkbox-group.md)
+- [Sélecteur de date](/help/adaptive-forms/components/date-picker.md)
+- [Liste déroulante](/help/adaptive-forms/components/drop-down.md)
+- [Entrée d’e-mail](/help/adaptive-forms/components/email-input.md)
+- [Conteneur de formulaires](/help/adaptive-forms/components/form-container.md)
+- [Pièce jointe](/help/adaptive-forms/components/file-attachment.md)
+- [Pied de page](/help/adaptive-forms/components/footer.md)
+- [En-tête](/help/adaptive-forms/components/header.md)
+- [Onglets horizontaux](/help/adaptive-forms/components/horizontal-tabs.md)
+- [Image](/help/adaptive-forms/components/image.md)
+- [Entrée de nombre](/help/adaptive-forms/components/number-input.md)
+- [Bouton radio](/help/adaptive-forms/components/radio-button.md)
+- [Bouton de réinitialisation](/help/adaptive-forms/components/reset-button.md)
+- [Bouton Envoyer](/help/adaptive-forms/components/submit-button.md)
+- [Entrée téléphonique](/help/adaptive-forms/components/telephone-input.md)
+- [Entrée de texte](/help/adaptive-forms/components/text-input.md)
+- [Texte](/help/adaptive-forms/components/text.md)
+- [Titre](/help/adaptive-forms/components/title.md)
+- [Assistant](/help/adaptive-forms/components/wizard.md)
