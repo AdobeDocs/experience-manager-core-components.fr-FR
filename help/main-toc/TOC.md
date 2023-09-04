@@ -6,16 +6,16 @@ feature: Core Components
 user-guide-description: Utilisez les composants principaux extensibles pour permettre aux créateurs de créer facilement du contenu.
 feature-set: Experience Manager Sites
 source-git-commit: 8db061f3d6f1041336c379b34f3b6b7f03083560
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '381'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
 
 # Aide sur les composants principaux d’AEM {#using}
 
-+ [Présentation des composants principaux ](/help/introduction.md)
++ [Présentation des composants principaux](/help/introduction.md)
 + [Chemins vers la succès](/help/developing/success.md)
 + [Bibliothèque de composants](https://adobe.com/go/aem_cmp_library_fr)
 + [Versions](/help/versions.md)
@@ -111,13 +111,13 @@ ht-degree: 97%
       + [Conteneur de formulaires adaptatifs](/help/adaptive-forms/components/form-container.md)
       + [Formulaires adaptatifs - Sélecteur de dates](/help/adaptive-forms/components/date-picker.md)
       + [Formulaires adaptatifs - Liste déroulante](/help/adaptive-forms/components/drop-down.md)
-      + [ Formulaires adaptatifs - Entrée « E-mail »](/help/adaptive-forms/components/email-input.md)
+      + [Formulaires adaptatifs - Entrée « E-mail »](/help/adaptive-forms/components/email-input.md)
       + [Formulaires adaptatifs - Pièces jointes](/help/adaptive-forms/components/file-attachment.md)
       + [Formulaires adaptatifs - Onglets horizontaux](/help/adaptive-forms/components/horizontal-tabs.md)
       + [Formulaires adaptatifs - Image](/help/adaptive-forms/components/image.md)
       + [Formulaires adaptatifs - Entrée de nombre](/help/adaptive-forms/components/number-input.md)
       + [Formulaires adaptatifs - Panneau](/help/adaptive-forms/components/panel-container.md)
-      + [CAPTCHA Forms adaptatif](/help/adaptive-forms/components/captcha.md)
+      + [Captcha pour formulaire adaptatif](/help/adaptive-forms/components/captcha.md)
       + [Formulaires adaptatifs - Bouton radio](/help/adaptive-forms/components/radio-button.md)
       + [Formulaires adaptatifs - Bouton réinitialiser](/help/adaptive-forms/components/reset-button.md)
       + [Formulaires adaptatifs - Bouton envoyer](/help/adaptive-forms/components/submit-button.md)
@@ -128,7 +128,7 @@ ht-degree: 97%
       + [Formulaires adaptatifs - Mise en page de l’assistant](/help/adaptive-forms/components/wizard.md)
       + [En-tête](/help/adaptive-forms/components/header.md)
       + [Pied de page](/help/adaptive-forms/components/footer.md)
-   + [Personnalisation des composants principaux de Forms adaptatif](/help/developing/customize-adaptive-forms-core-components.md)
+   + [Personnaliser les composants principaux des formulaires adaptatifs](/help/developing/customize-adaptive-forms-core-components.md)
    + [Exemples de thèmes et de modèles](/help/adaptive-forms/sample-themes-templates-form-data-models-core-components.md)
 + Développement {#developing}
    + [Développement des composants principaux](/help/developing/overview.md)
