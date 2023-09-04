@@ -5,35 +5,35 @@ role: Architect, Developer, Admin, User
 hide: true
 hidefromtoc: true
 source-git-commit: 8db061f3d6f1041336c379b34f3b6b7f03083560
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '723'
-ht-degree: 54%
+ht-degree: 100%
 
 ---
 
 
-# Google reCPATCHA {#google-recaptcha}
+# Google reCAPTCHA {#google-recaptcha}
 
 CAPTCHA (Completely Automated Public Turing test to tell Computers and Humans Apart, Test public de Turing complètement automatique ayant pour but de différencier les humains des ordinateurs) est un programme couramment utilisé dans les transactions en ligne pour différencier les humains des programmes automatisés ou des robots. Il présente un test et évalue la réponse de l’utilisateur ou de l’utilisatrice pour déterminer s’il s’agit d’un humain ou d’un robot qui interagit avec le site. Il empêche l’utilisateur ou l’utilisatrice de continuer si le test échoue et contribue à sécuriser les transactions en ligne en empêchant les robots d’envoyer des spams ou des messages malveillants.
 
-AEM Forms as a Cloud Service prend en charge Google reCAPTCHA v2 dans les Forms adaptatifs. Vous pouvez l’utiliser pour présenter un défi CAPTCHA lors de l’envoi du formulaire.
+AEM Forms as a Cloud Service prend en charge Google reCAPTCHA v2 dans les formulaires adaptatifs. Vous pouvez l’utiliser pour présenter un défi Captcha lors de l’envoi du formulaire.
 
 ## Utilisation {#reasons-to-use-google-recaptcha}
 
 
-- **Spam et prévention des robots**: l’une des principales raisons d’utiliser reCAPTCHA est d’empêcher les envois de spam et les robots malveillants d’inonder votre formulaire. Les algorithmes avancés de reCAPTCHA peuvent détecter les tentatives automatisées d’envoi du formulaire, assurant ainsi que seuls les utilisateurs légitimes peuvent interagir avec celui-ci.
+- **Prévention contre le spam et les robots** : l’une des principales raisons d’utiliser reCAPTCHA est d’empêcher les envois de spam et l’afflux de robots malveillants dans votre formulaire. Les algorithmes avancés de reCAPTCHA peuvent détecter les tentatives automatisées d’envoi du formulaire, assurant ainsi que seuls les utilisateurs et utilisatrices légitimes peuvent interagir avec celui-ci.
 
-- **Sécurité renforcée**: en implémentant reCAPTCHA, vous ajoutez une couche supplémentaire de sécurité à votre formulaire adaptatif. Cela permet de protéger les informations sensibles et d’empêcher les utilisateurs malveillants d’exploiter les vulnérabilités.
+- **Sécurité renforcée** : en implémentant reCAPTCHA, vous ajoutez une couche supplémentaire de sécurité à votre formulaire adaptatif. Cela permet de protéger les informations sensibles et d’empêcher les utilisateurs et utilisatrices malveillants d’exploiter les vulnérabilités.
 
-- **Expérience utilisateur**: bien que les CAPTCHA puissent parfois être considérés comme un inconvénient, l’approche adaptative de reCAPTCHA signifie que la plupart des utilisateurs se voient présenter une expérience rationalisée et conviviale qui nécessite une interaction minimale. Cela peut aider à maintenir une expérience utilisateur positive tout en dissuadant les robots.
+- **Expérience client** : bien que les Captcha puissent parfois être considérés comme un inconvénient, l’approche adaptative de reCAPTCHA signifie que la plupart des utilisateurs et utilisatrices se voient présenter une expérience rationalisée et conviviale qui nécessite une interaction minimale. Cela peut aider à maintenir une expérience client positive tout en dissuadant les robots.
 
-- **Adaptabilité**: le mécanisme adaptatif de reCAPTCHA analyse le comportement et les interactions des utilisateurs pour déterminer s’ils sont humains ou non. Cela signifie que le niveau de défi présenté à l’utilisateur peut varier en fonction de la probabilité qu’il soit un robot. Cette adaptabilité réduit la friction pour les utilisateurs authentiques tout en maintenant une sécurité renforcée.
+- **Adaptabilité** : le mécanisme adaptatif de reCAPTCHA analyse le comportement et les interactions des utilisateurs et utilisatrices pour déterminer s’ils sont humains ou non. Cela signifie que le niveau de défi présenté à la personne utilisatrice peut varier en fonction de la probabilité qu’elle soit un robot. Cette adaptabilité réduit la friction pour les utilisateurs et utilisatrices authentiques tout en maintenant une sécurité renforcée.
 
-- **Modération manuelle réduite**: en réduisant de manière significative le nombre d’envois de spam et le contenu généré par les robots, reCAPTCHA peut gagner du temps et des ressources qui seraient autrement utilisées pour la modération manuelle et le nettoyage.
+- **Modération manuelle réduite** : en réduisant de manière significative le nombre d’envois de spam et le contenu généré par les robots, reCAPTCHA peut faire économiser du temps et des ressources qui seraient autrement utilisés pour la modération manuelle et le nettoyage.
 
 ## Version et compatibilité {#version-and-compatibility}
 
-Le composant principal reCAPTCHA du Google adaptatif a été publié en août 2023 dans le cadre de la &quot;version&quot; des composants principaux. Vous trouverez ci-dessous un tableau détaillant les versions prises en charge, la compatibilité avec AEM et les liens vers la documentation correspondante :
+Le composant principal Google reCAPTCHA du formulaire adaptatif a été publié en août 2023 dans le cadre de la « version » des composants principaux. Vous trouverez ci-dessous un tableau détaillant les versions prises en charge, la compatibilité avec AEM et les liens vers la documentation correspondante :
 
 |  |  |
 |---|---|
@@ -45,11 +45,11 @@ Pour plus d’informations sur les versions et publications des composants princ
 
 ## Détails techniques {#technical-details}
 
-Découvrez les informations les plus récentes sur le composant principal reCAPTCHA du Google adaptatif dans la documentation technique de [GitHub](https://github.com/adobe/aem-core-forms-components/tree/master/ui.af.apps/src/main/content/jcr_root/apps/core/fd/components/form/recaptcha/v1/recaptcha). Pour plus d’informations sur le développement des composants principaux, consultez la [documentation destinée aux développeurs et développeuses de composants principaux](/help/developing/overview.md).
+Retrouvez les informations les plus récentes sur le composant principal Google reCAPTCHA des formulaires adaptatifs dans la documentation technique sur [GitHub](https://github.com/adobe/aem-core-forms-components/tree/master/ui.af.apps/src/main/content/jcr_root/apps/core/fd/components/form/recaptcha/v1/recaptcha). Pour plus d’informations sur le développement des composants principaux, consultez la [documentation destinée aux développeurs et développeuses de composants principaux](/help/developing/overview.md).
 
 ## Boîte de dialogue de configuration {#configure-dialog}
 
-Vous pouvez facilement personnaliser votre expérience Google reCAPTCHA pour les visiteurs qui utilisent la boîte de dialogue Configurer . Vous pouvez également définir facilement les options reCAPTCHA de Google pour une expérience utilisateur fluide.
+Vous pouvez facilement personnaliser votre expérience Google reCAPTCHA pour les visiteurs et les visiteuses à l’aide de la boîte de dialogue de configuration. Vous pouvez également définir facilement des options de Google reCAPTCHA pour une expérience client fluide.
 
 ### Onglet De base {#basic-tab}
 
@@ -65,11 +65,11 @@ Vous pouvez facilement personnaliser votre expérience Google reCAPTCHA pour les
 
 - **Masquer le composant** - Sélectionnez cette option pour masquer le composant du formulaire. Le composant reste accessible à d’autres fins, par exemple pour les calculs dans l’éditeur de règles. Cela s’avère utile lorsque vous devez stocker des informations qui n’ont pas besoin d’être affichées ou directement modifiées par les utilisateurs ou les utilisatrices.
 
-- **Désactiver le composant** - Sélectionnez cette option pour désactiver le composant. Le composant désactivé n’est pas actif ni modifiable par l’utilisateur final ou l’utilisatrice finale. Les données du composant désactivé ne sont pas envoyées L’utilisateur peut voir la valeur du champ mais ne peut pas le modifier. Le composant reste accessible à d’autres fins, par exemple pour les calculs dans l’éditeur de règles.
+- **Désactiver le composant** - Sélectionnez cette option pour désactiver le composant. Le composant désactivé n’est pas actif ni modifiable par l’utilisateur final ou l’utilisatrice finale. Les données du composant désactivé ne sont pas envoyées. L’utilisateur ou l’utilisatrice peut voir la valeur du champ mais ne peut pas la modifier. Le composant reste accessible à d’autres fins, par exemple pour les calculs dans l’éditeur de règles.
 
 - **Lecture seule** - Sélectionnez cette option pour rendre le composant non modifiable. L’utilisateur ou l’utilisatrice peut voir la valeur du champ mais ne peut pas la modifier. Le composant reste accessible à d’autres fins, par exemple pour les calculs dans l’éditeur de règles.
 
 ### Onglet Validation {#validation-tab}
 
-- **Message d’erreur** : Cette option vous permet de saisir un message qui s’affiche si la case à cocher **Obligatoire** est cochée et que le champ de formulaire reste vide.
+- **Message d’erreur** : cette option vous permet de saisir un message qui s’affiche si la case à cocher **Obligatoire** est cochée et que le champ de formulaire reste vide.
 
