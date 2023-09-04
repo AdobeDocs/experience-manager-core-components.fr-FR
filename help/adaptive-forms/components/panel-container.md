@@ -5,7 +5,7 @@ role: Architect, Developer, Admin, User
 source-git-commit: b6e3a443c7425a60fc6c3469dc273960a4e29088
 workflow-type: tm+mt
 source-wordcount: '1539'
-ht-degree: 91%
+ht-degree: 99%
 
 ---
 
@@ -67,11 +67,11 @@ Vous pouvez facilement personnaliser l’expérience de votre conteneur de panne
 
 - **Masquer le titre** - Sélectionnez cette option pour masquer le titre du composant.
 
-- **Regrouper les données des composants enfants lors de l’envoi du formulaire (encapsuler les données dans l’objet)** - Lorsque l’option est sélectionnée, les données de ses composants enfants sont imbriquées dans l’objet JSON du composant parent. Cependant, si l’option n’est pas sélectionnée, les données JSON envoyées ont une structure plate, sans objet pour le composant parent. Par exemple :
+- **Associer les données des composants enfants lors de l’envoi du formulaire (encapsuler les données dans l’objet)** : lorsque l’option est sélectionnée, les données de ses composants enfants sont imbriquées dans l’objet JSON du composant parent. Cependant, si l’option n’est pas sélectionnée, les données JSON envoyées ont une structure plate, sans objet pour le composant parent. Par exemple :
 
    - Lorsque cette option est sélectionnée, les données des composants enfants (par exemple, Rue, Ville et Code postal) sont imbriquées dans le composant parent (Adresse) sous la forme d’un objet JSON. Cela crée une structure hiérarchique et les données sont organisées sous le composant parent.
 
-     Structure des données envoyées :
+     Structure des données envoyées :
 
      ```JSON
      { "Address":
@@ -81,10 +81,10 @@ Vous pouvez facilement personnaliser l’expérience de votre conteneur de panne
      }
      ```
 
-   - Lorsque l’option n’est pas sélectionnée, les données JSON envoyées ont une structure plate sans objet pour le composant parent (adresse). Toutes les données se trouvent au même niveau, sans organisation hiérarchique.
+   - Lorsque l’option n’est pas sélectionnée, les données JSON envoyées ont une structure plate sans objet pour le composant parent (Adresse). Toutes les données se trouvent au même niveau, sans organisation hiérarchique.
 
 
-     Structure des données envoyées :
+     Structure des données envoyées :
 
      ```JSON
         { "Street": "123 Main Street", "City": "New York", "Zip Code": "12345" }
