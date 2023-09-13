@@ -4,9 +4,9 @@ description: Utilisation ou personnalisation du composant principal Bouton des f
 role: Architect, Developer, Admin, User
 exl-id: cb75929b-8c86-49d1-b51a-368f5b80b1a9
 source-git-commit: ad3e3bca5cb46f14e864e4704c90ac3b62779794
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1479'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -109,7 +109,7 @@ Le composant principal Bouton des formulaires adaptatifs prend en charge le [Sys
 
 * [Création d’un formulaire adaptatif autonome](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/creating-adaptive-form-core-components.html?lang=fr)
 
-## Voir aussi {#see-also}
+## Voir également {#see-also}
 
 * [Accordéon](/help/adaptive-forms/components/accordion.md)
 * [Groupe de cases à cocher](/help/adaptive-forms/components/checkbox-group.md)
