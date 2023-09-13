@@ -3,9 +3,9 @@ title: Composant principal de formulaires adaptatifs - Conteneur de panneau
 description: Utilisation ou personnalisation du composant principal Conteneur de panneau de formulaires adaptatifs.
 role: Architect, Developer, Admin, User
 source-git-commit: b6e3a443c7425a60fc6c3469dc273960a4e29088
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1539'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -135,7 +135,7 @@ Pour gérer efficacement les sections répétables dans le conteneur du panneau,
 - [Création d’un formulaire adaptatif autonome](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/creating-adaptive-form-core-components.html?lang=fr)
 
 
-## Voir aussi {#see-also}
+## Voir également {#see-also}
 
 - [Accordéon](/help/adaptive-forms/components/accordion.md)
 - [Bouton](/help/adaptive-forms/components/button.md)
