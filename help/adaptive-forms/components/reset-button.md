@@ -4,9 +4,9 @@ description: Utilisation ou personnalisation du composant principal Bouton de r�
 role: Architect, Developer, Admin, User
 exl-id: e5aa9d89-aece-491e-80a1-7fb9ea6c4b60
 source-git-commit: ad3e3bca5cb46f14e864e4704c90ac3b62779794
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1266'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -104,7 +104,7 @@ Cet onglet vous permet de définir et de gérer les styles CSS d’un composant.
 * [Création d’un formulaire adaptatif autonome](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/creating-adaptive-form-core-components.html?lang=fr)
 
 
-## Voir aussi {#see-also}
+## Voir également {#see-also}
 
 * [Accordéon](/help/adaptive-forms/components/accordion.md)
 * [Bouton](/help/adaptive-forms/components/button.md)
