@@ -4,9 +4,9 @@ description: Utilisation ou personnalisation du composant principal Pied de page
 role: Architect, Developer, Admin, User
 exl-id: c8e7d3fe-4b82-4a80-8da2-19f6cff1e3e9
 source-git-commit: ad3e3bca5cb46f14e864e4704c90ac3b62779794
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '843'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -112,7 +112,7 @@ La boîte de dialogue de modification fournit des outils de mise en forme de tex
 * [Création d’un formulaire adaptatif autonome](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/creating-adaptive-form-core-components.html?lang=fr)
 
 
-## Voir aussi {#see-also}
+## Voir également {#see-also}
 
 * [Accordéon](/help/adaptive-forms/components/accordion.md)
 * [Bouton](/help/adaptive-forms/components/button.md)
