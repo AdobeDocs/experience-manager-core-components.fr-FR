@@ -4,9 +4,9 @@ description: Utilisation ou personnalisation du composant principal « Assistan
 role: Architect, Developer, Admin, User
 exl-id: fd785cd2-5ed6-4efb-997f-ce9056ed113d
 source-git-commit: ad3e3bca5cb46f14e864e4704c90ac3b62779794
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1902'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -150,7 +150,7 @@ La boîte de dialogue de conception permet de définir et de gérer les styles C
 
 * [Création d’un formulaire adaptatif autonome](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/creating-adaptive-form-core-components.html?lang=fr)
 
-## Voir aussi {#see-also}
+## Voir également {#see-also}
 
 * [Accordéon](/help/adaptive-forms/components/accordion.md)
 * [Bouton](/help/adaptive-forms/components/button.md)
