@@ -2,7 +2,7 @@
 title: Prise en charge de Dynamic Media de nouvelle génération
 description: Découvrez comment configurer les composants Image et Teaser des composants principaux pour prendre en charge les ressources Dynamic Media de génération suivante distantes.
 role: Architect, Developer, Admin, User
-source-git-commit: 57307b75bd33fd538a1eb704cc37822847c896de
+source-git-commit: 9b8930c2e268f52a1377906725db9a05a089e233
 workflow-type: tm+mt
 source-wordcount: '470'
 ht-degree: 3%
@@ -70,7 +70,7 @@ Une fois les composants principaux et le site WKND installés, vous pouvez teste
 
 1. Une fois authentifié, un navigateur de ressources du service distant s’ouvre. Sélectionnez la ressource souhaitée, puis appuyez ou cliquez sur **Sélectionner**.
 
-   ![Sélection d’une ressource distante](/help/assets/remote-asset-selection.png)
+   ![Sélection d’une ressource distante](/help/assets/remote-asset-picker.png)
 
 La ressource distante est ajoutée à votre page d’AEM locale et vous avez vérifié que la fonctionnalité est correctement configurée.
 
