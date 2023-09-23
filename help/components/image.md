@@ -3,20 +3,23 @@ title: Composant d’image
 description: Le composant Image des composants principaux est un composant d’image adaptatif.
 role: Architect, Developer, Admin, User
 exl-id: c5e57f4b-139f-40e7-8d79-be9a74360b63
-source-git-commit: 1cb06273ecb2c5b5f90c02b74b7ac0e440d87ecc
-workflow-type: ht
-source-wordcount: '1636'
-ht-degree: 100%
+source-git-commit: c879cf92cae028230f092c7376a1e9271f568388
+workflow-type: tm+mt
+source-wordcount: '2084'
+ht-degree: 85%
 
 ---
 
-# Composant d’image {#image-component}
+
+# Composant d’image  {#image-component}
 
 Le composant Image des composants principaux est un composant d’image adaptatif.
 
 ## Utilisation {#usage}
 
 Le composant d’image comprend une sélection d’images adaptatives et un comportement réactif avec chargement différé pour le visiteur de la page, ainsi qu’un placement facile des images pour le créateur de contenu.
+
+L’auteur du contenu peut utiliser la variable [Modifier la boîte de dialogue](#edit-dialog) pour modifier la ressource image, par exemple en appliquant un recadrage ou en faisant pivoter l’image.
 
 Les largeurs d’image et les paramètres supplémentaires peuvent être définis par l’auteur du modèle dans la [boîte de dialogue de conception](#design-dialog). L’éditeur de contenu peut charger ou sélectionner des ressources dans la [boîte de dialogue de configuration.](#configure-dialog)
 
@@ -50,6 +53,12 @@ Le composant d’image (à partir de la [version 2.13.0](/help/versions.md)) pr
 
 Vos expériences web créées avec les composants principaux bénéficient des fonctionnalités d’image Dynamic Media sur plusieurs plateformes, hautement performantes, robustes, enrichies et optimisées par Sensei.
 
+## Prise en charge de Dynamic Media de nouvelle génération {#next-gen-dm}
+
+Le composant d’image (à partir de [version 2.23.2](/help/versions.md)) prend en charge les ressources distantes Dynamic Media de génération suivante.
+
+[Une fois la configuration effectuée,](/help/developing/next-gen-dm.md) vous pouvez sélectionner des ressources à partir d’un service Dynamic Media de génération suivante distant pour votre composant d’image.
+
 ## Prise en charge SVG {#svg-support}
 
 Les composants SVG (Scalable Vector Graphics) sont pris en charge par le composant d’image.
@@ -74,6 +83,76 @@ Vous trouverez plus d’informations sur le développement des composants princi
 
 Le composant d’image prend en charge les [microdonnées schéma.org](https://schema.org).
 
+## Boîte de dialogue de modification {#edit-dialog}
+
+La boîte de dialogue de modification permet à l’auteur de contenu de recadrer et de zoomer sur l’image.
+
+Selon si vous disposez de la variable [Dynamic Media](#dynamic-media) activé ou [Dynamic Media de génération suivante](#next-gen-dm) fonctions activées, les options disponibles pour la modification des images diffèrent.
+
+### Modification de ressources standard {#standard-assets}
+
+Si vous modifiez des AEM standard, vous pouvez cliquer sur le bouton **Modifier** dans le menu contextuel du composant image.
+
+![Boîte de dialogue de modification du composant Image](/help/assets/image-edit.png)
+
+* Commencer recadrage
+
+  ![Icône Commencer recadrage](/help/assets/image-start-crop.png)
+
+  Cette option ouvre une liste déroulante pour les proportions de recadrage prédéfinies.
+
+   * Choisissez l’option **Supprimer le recadrage** pour afficher la ressource d’origine.
+
+  Une fois qu’une option de recadrage est sélectionnée, utilisez les poignées bleues pour dimensionner le recadrage sur l’image.
+
+  ![Options de recadrage](/help/assets/image-crop-options.png)
+
+* Rotation à droite
+
+  ![Icône Rotation à droite](/help/assets/image-rotate-right.png)
+
+  Utilisez cette option pour faire pivoter l’image de 90° vers la droite (dans le sens horaire).
+
+* Réinitialiser le zoom
+
+  ![Icône Réinitialiser le zoom](/help/assets/image-reset-zoom.png)
+
+  Si l’image a déjà été agrandie, utilisez cette option pour réinitialiser le niveau de zoom.
+
+* Ouvrir le curseur de zoom
+
+  ![Icône Ouvrir le curseur de zoom](/help/assets/image-zoom.png)
+
+  Utilisez cette option pour afficher un curseur permettant de contrôler le niveau de zoom de l’image.
+
+  ![Commande du curseur de zoom](/help/assets/image-zoom-slider.png)
+
+L’éditeur statique peut également être utilisé pour modifier l’image. En raison d’un espace limité, seules les options de base sont disponibles en ligne. Pour des options de modification complètes, utilisez le mode Plein écran.
+
+![Options de modification statique des images](/help/assets/image-in-place-edit.png)
+
+>[!NOTE]
+>
+>Les opérations de modification d’image ne sont pas prises en charge pour les images de GIF. Aucune modification de ce type apportée en mode d’édition aux fichiers GIF n’est conservée.
+
+### Modification des ressources Dynamic Media {#dynamic-media-assets}
+
+Si vous avez [Fonctionnalités Dynamic Media activées,](#dynamic-media) l’édition de l’image elle-même doit être effectuée dans la console ressources.
+
+### Modification des ressources Dynamic Media de nouvelle génération {#next-gen-dm-assets}
+
+Si vous avez [Dynamic Media de génération suivante configurée,](#next-gen-dm) la valeur **Recadrage intelligent** est disponible dans les menus contextuels du composant.
+
+![Recadrage intelligent](/help/assets/image-smart-crop.png)
+
+Utilisez la boîte de dialogue pour ajuster le recadrage intelligent.
+
+![Boîte de dialogue Recadrage intelligent](/help/assets/image-smart-crop-dialog.png)
+
+>[!TIP]
+>
+>Pour plus d’informations sur le recadrage intelligent, voir [cette vidéo sur la fonctionnalité.](https://experienceleague.adobe.com/docs/experience-manager-learn/assets/dynamic-media/images/smart-crop-feature-video-use.html?lang=fr)
+
 ## Boîte de dialogue de configuration {#configure-dialog}
 
 Le composant Image comprend une boîte de dialogue de configuration, qui fournit la définition, la description ainsi que les propriétés de base de lʼimage.
@@ -84,14 +163,19 @@ Le composant Image comprend une boîte de dialogue de configuration, qui fournit
 
 * **Hériter l’image en vedette de la page** : si vous cochez cette option, lʼ[image en vedette de la page liée](page.md) ou l’image de la page active si l’image n’est pas liée est utilisée.
 
+* **Ressource image** - Cette valeur est automatiquement renseignée si **Hériter de l’image fournie de la page** est sélectionnée. Désélectionnez cette option pour définir manuellement l’image en définissant les options suivantes.
+
+   * Déposez un fichier depuis l’[explorateur de ressources](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/fundamentals/environment-tools.html?lang=fr) ou appuyez sur l’option **parcourir** pour effectuer un téléchargement à partir d’un système de fichiers local.
+   * Appuyez ou cliquez sur **Effacer** pour désélectionner l’image actuellement sélectionnée.
+   * Appuyez ou cliquez sur **Pick** pour ouvrir le [explorateur de ressources](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/fundamentals/environment-tools.html?lang=fr) pour sélectionner une image.
+      * If [Fonctionnalités Dynamic Media de nouvelle génération](#next-gen-dm) sont activées, vous disposez de plusieurs options pour sélectionner une ressource :
+         * **Local** sélectionne dans la bibliothèque de ressources d’AEM locale.
+         * **Distant** fait une sélection à partir d’une bibliothèque Dynamic Media en dehors de votre instance AEM.
+   * Appuyez ou cliquez sur **Modifier** pour [gérer les rendus de la ressource](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/manage/manage-digital-assets.html?lang=fr) dans l’éditeur de ressources.
+
 * **Texte secondaire pour l’accessibilité** : ce champ vous permet de fournir une description de l’image pour les utilisateurs souffrant de déficience visuelle.
 
    * **Hériter le texte secondaire de la page** : cette option utilise la description secondaire de la valeur de la ressource liée des métadonnées `dc:description` dans la gestion des ressources numériques (DAM) ou de la page active si aucune ressource n’est liée.
-
-* **Ressource image**
-   * Déposez un fichier depuis l’[explorateur de ressources](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/fundamentals/environment-tools.html?lang=fr) ou appuyez sur l’option **parcourir** pour effectuer un téléchargement à partir d’un système de fichiers local.
-   * Appuyez ou cliquez sur **Effacer** pour désélectionner l’image actuellement sélectionnée.
-   * Appuyez ou cliquez sur **Modifier** pour [gérer les rendus de la ressource](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/manage/manage-digital-assets.html?lang=fr) dans l’éditeur de ressources.
 
 * **Ne pas fournir de texte secondaire** : cette option marque lʼimage afin quʼelle soit ignorée par les technologies dʼassistance, comme les lecteurs dʼécran, dans les cas où lʼimage existe à des fins dʼillustration et ne comporte pas de signification particulière.
 
@@ -101,7 +185,7 @@ Le composant Image comprend une boîte de dialogue de configuration, qui fournit
 
 * **Type de paramètre prédéfini** : définit les types de paramètres d’image prédéfinis disponibles, soit **Paramètre d’image prédéfini** ou **Recadrage intelligent** et n’est disponible que lorsque les [fonctionnalités de Dynamic Media](#dynamic-meida) sont activées.
    * **Paramètre d’image prédéfini** : lorsque **Type de paramètre prédéfini** dans **Paramètre d’image prédéfini** est sélectionné, la liste déroulante **Paramètre d’image prédéfini** est disponible, ce qui permet de sélectionner les paramètres prédéfinis Dynamic Media disponibles. Cette option n’est disponible que si des paramètres prédéfinis sont définis pour la ressource sélectionnée.
-   * **Recadrage intelligent** : lorsque **Type de paramètre prédéfini** dans **Recadrage intelligent** est sélectionné, la liste déroulante **Rendu** est disponible, ce qui permet de sélectionner les rendus disponibles de la ressource sélectionnée. Cette option n’est disponible que si des rendus sont définis pour la ressource sélectionnée.
+   * **Recadrage intelligent** - Lorsque **Type de paramètre prédéfini** de **Recadrage intelligent** est sélectionné, la liste déroulante **Rendu** est disponible, ce qui permet de sélectionner les rendus disponibles de la ressource sélectionnée. Cette option n’est disponible que si des rendus sont définis pour la ressource sélectionnée.
    * **Modificateurs d’images** : il est possible de définir ici d’autres commandes de traitement d’images Dynamic Media, séparées par des caractères `&`, quel que soit le **type de paramètre prédéfini** sélectionné.
 * **Légende** : des informations supplémentaires sur l’image sont affichées par défaut sous l’image.
    * **Obtenir la légende à partir de DAM** : lorsque cette option est cochée, le texte de légende de l’image est renseigné avec la valeur des métadonnées `dc:title` dans DAM.
