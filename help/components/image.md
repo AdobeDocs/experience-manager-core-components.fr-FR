@@ -3,10 +3,10 @@ title: Composant d’image
 description: Le composant Image des composants principaux est un composant d’image adaptatif.
 role: Architect, Developer, Admin, User
 exl-id: c5e57f4b-139f-40e7-8d79-be9a74360b63
-source-git-commit: c879cf92cae028230f092c7376a1e9271f568388
+source-git-commit: a10c98aecf6d3c0d989f2e3c18affc51850f60bc
 workflow-type: tm+mt
-source-wordcount: '2084'
-ht-degree: 85%
+source-wordcount: '2061'
+ht-degree: 61%
 
 ---
 
@@ -17,7 +17,7 @@ Le composant Image des composants principaux est un composant d’image adaptati
 
 ## Utilisation {#usage}
 
-Le composant d’image comprend une sélection d’images adaptatives et un comportement réactif avec chargement différé pour le visiteur de la page, ainsi qu’un placement facile des images pour le créateur de contenu.
+Le composant d’image comprend une sélection d’images adaptatives et un comportement réactif avec chargement différé pour le visiteur de la page et un placement d’image facile pour l’auteur du contenu.
 
 L’auteur du contenu peut utiliser la variable [Modifier la boîte de dialogue](#edit-dialog) pour modifier la ressource image, par exemple en appliquant un recadrage ou en faisant pivoter l’image.
 
@@ -27,7 +27,7 @@ Les largeurs d’image et les paramètres supplémentaires peuvent être défini
 
 La version actuelle du composant Image est v3, qui a été introduite avec la version 2.18.0 des composants principaux en février 2022. Elle est décrite dans ce document.
 
-Le tableau ci-après présente en détail toutes les versions prises en charge du composant, les versions AEM avec lesquelles les versions du composant sont compatibles et les liens vers la documentation pour les versions précédentes.
+Le tableau suivant décrit toutes les versions prises en charge du composant, les versions AEM avec lesquelles les versions du composant sont compatibles et les liens vers la documentation pour les versions précédentes.
 
 | Version du composant | AEM 6.4 | AEM 6.5 | AEM as a Cloud Service |
 |--- |--- |--- |---|
@@ -39,17 +39,17 @@ Pour plus d’informations sur les versions et les publications des composants p
 
 ## Fonctions réactives {#responsive-features}
 
-Le composant d’image s’accompagne de fonctions réactives efficaces prêtes à l’emploi. Au niveau du modèle de page, la [boîte de dialogue de conception](#design-dialog) permet de définir les largeurs par défaut du fichier image. Le composant d’image charge alors automatiquement la largeur correcte à afficher en fonction de la taille de la fenêtre du navigateur. Lorsque la fenêtre est redimensionnée, le composant d’image charge dynamiquement la taille d’image correcte, instantanément. Les développeurs de composants n’ont pas à définir des requêtes multimédias personnalisées, puisque le composant d’image est déjà optimisé pour charger le contenu.
+Le composant d’image s’accompagne de fonctions réactives efficaces prêtes à l’emploi. Au niveau du modèle de page, la [boîte de dialogue de conception](#design-dialog) permet de définir les largeurs par défaut du fichier image. Le composant d’image charge automatiquement la largeur correcte à afficher en fonction de la taille de la fenêtre du navigateur. Lorsque la fenêtre est redimensionnée, le composant d’image charge dynamiquement la taille d’image correcte, instantanément. Les développeurs de composants n’ont pas à définir des requêtes multimédias personnalisées, puisque le composant d’image est déjà optimisé pour charger le contenu.
 
 En outre, le composant d’image prend en charge le chargement différé afin de différer le chargement du fichier image réel jusqu’à ce qu’il soit visible dans le navigateur, ce qui augmente la réactivité des pages.
 
 >[!TIP]
 >
->Par défaut, le composant d’image est optimisé par le servlet d’image adaptative. Veuillez consulter le document [Servlet d’image adaptative](#adaptive-image-servlet) pour plus d’informations sur son fonctionnement.
+>Par défaut, le composant d’image est optimisé par le servlet d’image adaptative. Voir [Servlet d’image adaptative](/help/developing/adaptive-image-servlet.md) pour plus d’informations sur son fonctionnement.
 
 ## Prise en charge de Dynamic Media {#dynamic-media}
 
-Le composant d’image (à partir de la [version 2.13.0](/help/versions.md)) prend en charge les ressources [Dynamic Media](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/dynamicmedia/dynamic-media.html?lang=fr#dynamicmedia). [Lorsqu’elles sont activées](#design-dialog), ces fonctionnalités offrent la possibilité d’ajouter des fichiers d’image Dynamic Media par un simple glisser-déposer ou par le biais du navigateur de ressources, comme vous le feriez pour toute autre image. En outre, les modificateurs d’image, les paramètres d’image prédéfinis et les recadrages intelligents sont également pris en charge.
+Le composant d’image (à partir de la [version 2.13.0](/help/versions.md)) prend en charge les ressources [Dynamic Media](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/assets/dynamicmedia/dynamic-media.html). [Lorsqu’elles sont activées](#design-dialog), ces fonctionnalités offrent la possibilité d’ajouter des fichiers d’image Dynamic Media par un simple glisser-déposer ou par le biais du navigateur de ressources, comme vous le feriez pour toute autre image. En outre, les modificateurs d’image, les paramètres d’image prédéfinis et les recadrages intelligents sont également pris en charge.
 
 Vos expériences web créées avec les composants principaux bénéficient des fonctionnalités d’image Dynamic Media sur plusieurs plateformes, hautement performantes, robustes, enrichies et optimisées par Sensei.
 
@@ -63,17 +63,17 @@ Le composant d’image (à partir de [version 2.23.2](/help/versions.md)) prend 
 
 Les composants SVG (Scalable Vector Graphics) sont pris en charge par le composant d’image.
 
-* Les opérations de glisser-déplacer d’une ressource SVG à partir de DAM et le chargement d’un fichier SVG depuis un système de fichiers local sont pris en charge.
+* Le glisser-déposer d’une ressource de SVG à partir de DAM et le chargement d’un fichier de SVG chargé à partir d’un système de fichiers local sont tous deux pris en charge.
 * Le fichier SVG d’origine est diffusé en continu (les transformations sont ignorées).
 * Pour une image SVG, les « images intelligentes » et les « tailles intelligentes » sont définies sur un tableau vide dans le modèle d’image.
 
 ### Sécurité {#security}
 
-Pour des raisons de sécurité, l’éditeur d’image ne fait jamais appel au fichier SVG d’origine. Il est appelé par `<img src=“path-to-component”>`. Cela empêche le navigateur d’exécuter les scripts incorporés dans le fichier SVG.
+Pour des raisons de sécurité, l’éditeur d’image ne fait jamais appel au fichier SVG d’origine. Il est appelé par `<img src="path-to-component">`. Cela empêche le navigateur d’exécuter les scripts incorporés dans le fichier SVG.
 
 ## Exemple de sortie de composant {#sample-component-output}
 
-Pour tester le composant d’image et voir des exemples de ses options de configuration, ainsi que la sortie HTML et JSON, consultez la [bibliothèque de composants](https://adobe.com/go/aem_cmp_library_image_fr).
+Pour tester le composant d’image et obtenir des exemples d’options de configuration, ainsi que des sorties HTML et JSON, consultez la page [Bibliothèque de composants](https://adobe.com/go/aem_cmp_library_image_fr).
 
 ### Détails techniques {#technical-details}
 
@@ -133,7 +133,7 @@ L’éditeur statique peut également être utilisé pour modifier l’image. En
 
 >[!NOTE]
 >
->Les opérations de modification d’image ne sont pas prises en charge pour les images de GIF. Aucune modification de ce type apportée en mode d’édition aux fichiers GIF n’est conservée.
+>Les opérations de modification d’image ne sont pas prises en charge pour les images de GIF. Les modifications de ce type effectuées en mode d’édition sur GIF ne sont pas conservées.
 
 ### Modification des ressources Dynamic Media {#dynamic-media-assets}
 
@@ -165,19 +165,19 @@ Le composant Image comprend une boîte de dialogue de configuration, qui fournit
 
 * **Ressource image** - Cette valeur est automatiquement renseignée si **Hériter de l’image fournie de la page** est sélectionnée. Désélectionnez cette option pour définir manuellement l’image en définissant les options suivantes.
 
-   * Déposez un fichier depuis l’[explorateur de ressources](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/fundamentals/environment-tools.html?lang=fr) ou appuyez sur l’option **parcourir** pour effectuer un téléchargement à partir d’un système de fichiers local.
+   * Déposez une ressource du [explorateur de ressources](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/sites/authoring/fundamentals/environment-tools.html) ou appuyez sur **parcourir** pour que vous puissiez effectuer un téléchargement à partir d’un système de fichiers local.
    * Appuyez ou cliquez sur **Effacer** pour désélectionner l’image actuellement sélectionnée.
-   * Appuyez ou cliquez sur **Pick** pour ouvrir le [explorateur de ressources](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/fundamentals/environment-tools.html?lang=fr) pour sélectionner une image.
+   * Appuyez ou cliquez sur **Pick** pour ouvrir le [explorateur de ressources](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/sites/authoring/fundamentals/environment-tools.html) pour sélectionner une image.
       * If [Fonctionnalités Dynamic Media de nouvelle génération](#next-gen-dm) sont activées, vous disposez de plusieurs options pour sélectionner une ressource :
          * **Local** sélectionne dans la bibliothèque de ressources d’AEM locale.
          * **Distant** fait une sélection à partir d’une bibliothèque Dynamic Media en dehors de votre instance AEM.
-   * Appuyez ou cliquez sur **Modifier** pour [gérer les rendus de la ressource](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/manage/manage-digital-assets.html?lang=fr) dans l’éditeur de ressources.
+   * Appuyez ou cliquez sur **Modifier** pour [gérer les rendus de la ressource](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/assets/manage/manage-digital-assets.html) dans l’éditeur de ressources.
 
 * **Texte secondaire pour l’accessibilité** : ce champ vous permet de fournir une description de l’image pour les utilisateurs souffrant de déficience visuelle.
 
    * **Hériter le texte secondaire de la page** : cette option utilise la description secondaire de la valeur de la ressource liée des métadonnées `dc:description` dans la gestion des ressources numériques (DAM) ou de la page active si aucune ressource n’est liée.
 
-* **Ne pas fournir de texte secondaire** : cette option marque lʼimage afin quʼelle soit ignorée par les technologies dʼassistance, comme les lecteurs dʼécran, dans les cas où lʼimage existe à des fins dʼillustration et ne comporte pas de signification particulière.
+* **Ne pas fournir de texte de remplacement** - Marque l’image à ignorer par les technologies d’assistance telles que les lecteurs d’écran pour les cas où l’image est purement décorative ou ne transmet aucune information supplémentaire à la page.
 
 ### Onglet Métadonnées {#metadata-tab}
 
@@ -188,30 +188,30 @@ Le composant Image comprend une boîte de dialogue de configuration, qui fournit
    * **Recadrage intelligent** - Lorsque **Type de paramètre prédéfini** de **Recadrage intelligent** est sélectionné, la liste déroulante **Rendu** est disponible, ce qui permet de sélectionner les rendus disponibles de la ressource sélectionnée. Cette option n’est disponible que si des rendus sont définis pour la ressource sélectionnée.
    * **Modificateurs d’images** : il est possible de définir ici d’autres commandes de traitement d’images Dynamic Media, séparées par des caractères `&`, quel que soit le **type de paramètre prédéfini** sélectionné.
 * **Légende** : des informations supplémentaires sur l’image sont affichées par défaut sous l’image.
-   * **Obtenir la légende à partir de DAM** : lorsque cette option est cochée, le texte de légende de l’image est renseigné avec la valeur des métadonnées `dc:title` dans DAM.
-   * **Afficher la légende dans un pop-up** : si cette option est activée, la légende ne s’affiche pas sous l’image, mais dans un pop-up, dans certains navigateurs, lorsque vous pointez sur l’image.
+   * **Obtenir la légende à partir de DAM** : lorsque cette case est cochée, le texte de la légende de l’image est renseigné avec la valeur de la propriété `dc:title` métadonnées dans la gestion des ressources numériques.
+   * **Afficher la légende dans une fenêtre contextuelle** - Lorsque cette option est cochée, la légende n’est pas affichée sous l’image, mais dans une fenêtre contextuelle affichée par certains navigateurs lorsque vous pointez sur l’image.
 * **Lien** : lier l’image à une autre ressource.
    * Utilisez la boîte de dialogue de sélection pour créer un lien vers une autre ressource AEM.
-   * Si vous ne créez pas de lien vers une ressource AEM, saisissez l’URL absolue. Les URL non absolues seront interprétées comme relatives à AEM.
+   * Si vous ne créez pas de lien vers une ressource AEM, saisissez l’URL absolue. Les URL non résolues sont interprétées comme relatives à l’AEM.
    * **Ouvrir le lien dans un nouvel onglet** : cette option ouvre le lien dans une nouvelle fenêtre du navigateur.
-* **ID** : cette option permet de contrôler l’identifiant unique du composant dans le code HTML ainsi que dans la [couche de données](/help/developing/data-layer/overview.md).
+* **ID** - Cette option permet de contrôler l’identifiant unique du composant dans le HTML et dans la variable [Couche de données](/help/developing/data-layer/overview.md).
    * Si rien n’est indiqué, un ID unique est généré automatiquement et peut être trouvé en examinant la page obtenue.
    * Si un ID est spécifié, il incombe à l’auteur de s’assurer qu’il est unique.
    * La modification de l’ID peut avoir un impact sur le suivi CSS, JS et de couche de données.
 
 >[!TIP]
 >
->Les options **Recadrage intelligent** et **Paramètre d’image prédéfini** s’excluent mutuellement. Si un auteur doit utiliser un paramètre d’image prédéfini associé à un rendu avec recadrage dynamique, il devra utiliser les **modificateurs d’image** pour ajouter manuellement ce paramètre.
+>Les options **Recadrage intelligent** et **Paramètre d’image prédéfini** s’excluent mutuellement. Si un auteur doit utiliser un paramètre d’image prédéfini avec un rendu avec recadrage intelligent, il doit utiliser la variable **Modificateurs d’image** pour ajouter manuellement des paramètres prédéfinis.
 
 ### Onglet Styles {#styles-tab-edit}
 
 ![Onglet Styles de la boîte de dialogue de modification du composant Image](/help/assets/image-configure-styles.png)
 
-Le composant Image prend en charge le [système de style](/help/get-started/authoring.md#component-styling) AEM.
+Le composant d’image prend en charge le [système de style](/help/get-started/authoring.md#component-styling) AEM.
 
 Utilisez la liste déroulante pour sélectionner les styles à appliquer au composant. Les sélections effectuées dans la boîte de dialogue de modification ou dans la barre d’outils du composant ont le même effet.
 
-Pour que le menu déroulant soit disponible, les styles doivent être configurés pour ce composant dans la [boîte de dialogue de conception](#design-dialog).
+Les styles doivent être configurés pour ce composant dans la variable [boîte de dialogue de conception](#design-dialog) pour que le menu déroulant soit disponible.
 
 ## Boîte de dialogue de conception {#design-dialog}
 
@@ -221,28 +221,28 @@ Pour que le menu déroulant soit disponible, les styles doivent être configuré
 
 * **Activer les fonctionnalités DM** : lorsque cette option est cochée, les [fonctionnalités Dynamic Media](#dynamic-media) sont disponibles.
    * Dynamic Media doit être activé dans l’environnement pour que cette option apparaisse.
-* **Activer les images optimisées pour le web** : lorsque cette case est cochée, [le service de diffusion d’images optimisées pour le web](/help/developing/web-optimized-image-delivery.md) ; diffusera les images au format WebP, réduisant ainsi la taille moyenne des images de 25 %.
+* **Activer les images optimisées pour le web** - Lorsque coché, [le service de diffusion d’images optimisé pour le web ;](/help/developing/web-optimized-image-delivery.md) diffuse des images au format WebP, réduisant la taille moyenne des images de 25 %.
    * Cette option est disponible uniquement dans AEMaaCS.
-   * Lorsque cette option est décochée ou que le service de diffusion d’images optimisées pour le web n’est pas disponible, le [servlet Image adaptative](/help/developing/adaptive-image-servlet.md) est utilisé.
-* **Désactiver le chargement différé** : lorsque cette option est cochée, le composant précharge toutes les images sans chargement différé.
+   * Si cette option n’est pas cochée ou si le service de diffusion d’images optimisé pour le web n’est pas disponible, la variable [Servlet d’image adaptative](/help/developing/adaptive-image-servlet.md) est utilisée.
+* **Désactiver le chargement différé** - Lorsque cette case est cochée, le composant précharge toutes les images sans chargement différé.
 * **L’image est décorative** : définissez si l’option d’image décorative est activée automatiquement lors de l’ajout du composant d’image à une page.
 * **Obtenir un texte alternatif à partir de DAM** : définissez si l’option permettant de récupérer le texte de remplacement de DAM est automatiquement activée lors de l’ajout du composant d’image à une page.
 * **Obtenir la légende à partir de DAM** : définissez si l’option permettant de récupérer la légende à partir de DAM est automatiquement activée lors de l’ajout du composant d’image à une page.
 * **Afficher la légende dans un pop-up** : définissez si l’option permettant d’afficher la légende d’image est automatiquement activée lors de l’ajout du composant d’image à une page.
 * **Redimensionner la largeur** : cette valeur est utilisée pour redimensionner la largeur des images de base qui sont des ressources DAM.
    * Les proportions des images sont conservées.
-   * Si la valeur est supérieure à la largeur de l’image, cette valeur nʼa aucun effet.
+   * Si la valeur est supérieure à la largeur réelle de l’image, cette valeur n’a aucun effet.
    * Cette valeur n’a aucun effet sur les images au format SVG.
 
-Vous pouvez définir une liste de largeurs en pixels pour l’image, le composant chargera alors automatiquement la largeur la plus appropriée en fonction de la taille du navigateur. Il s’agit d’une partie importante des [fonctions réactives](#responsive-features) du composant d’image.
+Vous pouvez définir une liste de largeurs en pixels pour l’image ; le composant charge automatiquement la largeur la plus appropriée en fonction de la taille du navigateur. Il s’agit d’une partie importante des [fonctions réactives](#responsive-features) du composant d’image.
 
 * **Largeurs** : définit une liste de largeurs en pixels pour l’image ; le composant charge automatiquement la largeur la plus appropriée en fonction de la taille du navigateur.
    * Appuyez ou cliquez sur le bouton **Ajouter** pour ajouter une autre taille.
       * Utilisez les poignées de capture pour réorganiser l’ordre des tailles.
       * Utilisez l’icône **Supprimer** pour supprimer une largeur.
    * Par défaut, le chargement des images est différé jusqu’à ce qu’elles deviennent visibles.
-      * Sélectionnez l’option **Désactiver le chargement différé** pour charger les images au chargement de la page.
-* **Qualité JPEG** : facteur de qualité (exprimé par un pourcentage entre 0 et 100) pour les images JPEG transformées (mises à l’échelle ou recadrées, par exemple).
+      * Sélectionner l’option **Désactiver le chargement différé** afin que vous puissiez charger les images au chargement de la page.
+* **Qualité du JPEG** - Facteur de qualité (en pourcentage entre 0 et 100) pour les images de JPEG transformées (mises à l’échelle ou recadrées, par exemple).
 
 >[!TIP]
 >
