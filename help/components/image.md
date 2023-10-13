@@ -6,7 +6,7 @@ exl-id: c5e57f4b-139f-40e7-8d79-be9a74360b63
 source-git-commit: a10c98aecf6d3c0d989f2e3c18affc51850f60bc
 workflow-type: tm+mt
 source-wordcount: '2061'
-ht-degree: 61%
+ht-degree: 72%
 
 ---
 
@@ -19,7 +19,7 @@ Le composant Image des composants principaux est un composant d’image adaptati
 
 Le composant d’image comprend une sélection d’images adaptatives et un comportement réactif avec chargement différé pour le visiteur de la page et un placement d’image facile pour l’auteur du contenu.
 
-L’auteur du contenu peut utiliser la variable [Modifier la boîte de dialogue](#edit-dialog) pour modifier la ressource image, par exemple en appliquant un recadrage ou en faisant pivoter l’image.
+L’auteur ou l’autrice du contenu peut utiliser la [boîte de dialogue de modification](#edit-dialog) pour modifier le fichier image, par exemple en effectuant un recadrage ou en faisant pivoter l’image.
 
 Les largeurs d’image et les paramètres supplémentaires peuvent être définis par l’auteur du modèle dans la [boîte de dialogue de conception](#design-dialog). L’éditeur de contenu peut charger ou sélectionner des ressources dans la [boîte de dialogue de configuration.](#configure-dialog)
 
@@ -53,11 +53,11 @@ Le composant d’image (à partir de la [version 2.13.0](/help/versions.md)) pr
 
 Vos expériences web créées avec les composants principaux bénéficient des fonctionnalités d’image Dynamic Media sur plusieurs plateformes, hautement performantes, robustes, enrichies et optimisées par Sensei.
 
-## Prise en charge de Dynamic Media de nouvelle génération {#next-gen-dm}
+## Prise en charge de Dynamic Media de nouvelle génération {#next-gen-dm}
 
-Le composant d’image (à partir de [version 2.23.2](/help/versions.md)) prend en charge les ressources distantes Dynamic Media de génération suivante.
+Le composant Image (à partir de la [version 2.23.2](/help/versions.md)) prend en charge les ressources distantes Dynamic Media de nouvelle génération.
 
-[Une fois la configuration effectuée,](/help/developing/next-gen-dm.md) vous pouvez sélectionner des ressources à partir d’un service Dynamic Media de génération suivante distant pour votre composant d’image.
+[Une fois la configuration effectuée,](/help/developing/next-gen-dm.md) vous pouvez sélectionner des ressources à partir d’un service distant Dynamic Media de nouvelle génération pour votre composant Image.
 
 ## Prise en charge SVG {#svg-support}
 
@@ -85,13 +85,13 @@ Le composant d’image prend en charge les [microdonnées schéma.org](https://s
 
 ## Boîte de dialogue de modification {#edit-dialog}
 
-La boîte de dialogue de modification permet à l’auteur de contenu de recadrer et de zoomer sur l’image.
+La boîte de dialogue de modification permet à l’auteur ou l’autrice du contenu de recadrer et de faire un zoom sur l’image.
 
 Selon si vous disposez de la variable [Dynamic Media](#dynamic-media) activé ou [Dynamic Media de génération suivante](#next-gen-dm) fonctions activées, les options disponibles pour la modification des images diffèrent.
 
-### Modification de ressources standard {#standard-assets}
+### Modification des ressources standards {#standard-assets}
 
-Si vous modifiez des AEM standard, vous pouvez cliquer sur le bouton **Modifier** dans le menu contextuel du composant image.
+Si vous modifiez des ressources AEM standards, vous pouvez cliquer sur l’icône **Modifier** dans le menu contextuel du composant Image.
 
 ![Boîte de dialogue de modification du composant Image](/help/assets/image-edit.png)
 
@@ -111,7 +111,7 @@ Si vous modifiez des AEM standard, vous pouvez cliquer sur le bouton **Modifier*
 
   ![Icône Rotation à droite](/help/assets/image-rotate-right.png)
 
-  Utilisez cette option pour faire pivoter l’image de 90° vers la droite (dans le sens horaire).
+  Utilisez cette option pour faire pivoter l’image de 90° vers la droite (dans le sens des aiguilles d&#39;une montre).
 
 * Réinitialiser le zoom
 
@@ -133,15 +133,15 @@ L’éditeur statique peut également être utilisé pour modifier l’image. En
 
 >[!NOTE]
 >
->Les opérations de modification d’image ne sont pas prises en charge pour les images de GIF. Les modifications de ce type effectuées en mode d’édition sur GIF ne sont pas conservées.
+>Les opérations de modification d’image ne sont pas prises en charge pour les images GIF. Les modifications de ce type effectuées en mode d’édition sur GIF ne sont pas conservées.
 
-### Modification des ressources Dynamic Media {#dynamic-media-assets}
+### Modification des ressources Dynamic Media {#dynamic-media-assets}
 
-Si vous avez [Fonctionnalités Dynamic Media activées,](#dynamic-media) l’édition de l’image elle-même doit être effectuée dans la console ressources.
+Si les [fonctionnalités de Dynamic Media sont activées,](#dynamic-media) l’édition de l’image doit être effectuée dans la console Ressources.
 
-### Modification des ressources Dynamic Media de nouvelle génération {#next-gen-dm-assets}
+### Modification des ressources Dynamic Media de nouvelle génération {#next-gen-dm-assets}
 
-Si vous avez [Dynamic Media de génération suivante configurée,](#next-gen-dm) la valeur **Recadrage intelligent** est disponible dans les menus contextuels du composant.
+Si [Dynamic Media de nouvelle génération est configuré,](#next-gen-dm) l’option **Recadrage intelligent** est disponible dans les menus contextuels du composant.
 
 ![Recadrage intelligent](/help/assets/image-smart-crop.png)
 
@@ -151,7 +151,7 @@ Utilisez la boîte de dialogue pour ajuster le recadrage intelligent.
 
 >[!TIP]
 >
->Pour plus d’informations sur le recadrage intelligent, voir [cette vidéo sur la fonctionnalité.](https://experienceleague.adobe.com/docs/experience-manager-learn/assets/dynamic-media/images/smart-crop-feature-video-use.html?lang=fr)
+>Pour plus d’informations sur le recadrage intelligent, regardez [cette vidéo sur la fonctionnalité.](https://experienceleague.adobe.com/docs/experience-manager-learn/assets/dynamic-media/images/smart-crop-feature-video-use.html?lang=fr)
 
 ## Boîte de dialogue de configuration {#configure-dialog}
 
@@ -163,14 +163,14 @@ Le composant Image comprend une boîte de dialogue de configuration, qui fournit
 
 * **Hériter l’image en vedette de la page** : si vous cochez cette option, lʼ[image en vedette de la page liée](page.md) ou l’image de la page active si l’image n’est pas liée est utilisée.
 
-* **Ressource image** - Cette valeur est automatiquement renseignée si **Hériter de l’image fournie de la page** est sélectionnée. Désélectionnez cette option pour définir manuellement l’image en définissant les options suivantes.
+* **Ressource image** : cette valeur est automatiquement renseignée si **Récupérer l’image en vedette de la page** est sélectionnée. Désélectionnez cette option pour configurer manuellement l’image en définissant les options suivantes.
 
    * Déposez une ressource du [explorateur de ressources](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/sites/authoring/fundamentals/environment-tools.html) ou appuyez sur **parcourir** pour que vous puissiez effectuer un téléchargement à partir d’un système de fichiers local.
    * Appuyez ou cliquez sur **Effacer** pour désélectionner l’image actuellement sélectionnée.
    * Appuyez ou cliquez sur **Pick** pour ouvrir le [explorateur de ressources](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/sites/authoring/fundamentals/environment-tools.html) pour sélectionner une image.
-      * If [Fonctionnalités Dynamic Media de nouvelle génération](#next-gen-dm) sont activées, vous disposez de plusieurs options pour sélectionner une ressource :
-         * **Local** sélectionne dans la bibliothèque de ressources d’AEM locale.
-         * **Distant** fait une sélection à partir d’une bibliothèque Dynamic Media en dehors de votre instance AEM.
+      * Si les [fonctionnalités de Dynamic Media de nouvelle génération](#next-gen-dm) sont activées, vous disposez de plusieurs options pour sélectionner une ressource :
+         * **Locale** permet de sélectionner dans la bibliothèque de ressources AEM locale.
+         * **Distante** permet de sélectionner à partir d’une bibliothèque Dynamic Media en dehors de votre instance AEM.
    * Appuyez ou cliquez sur **Modifier** pour [gérer les rendus de la ressource](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/assets/manage/manage-digital-assets.html) dans l’éditeur de ressources.
 
 * **Texte secondaire pour l’accessibilité** : ce champ vous permet de fournir une description de l’image pour les utilisateurs souffrant de déficience visuelle.
