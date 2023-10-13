@@ -4,9 +4,9 @@ description: Le composant Teaser peut afficher une image, un titre, un texte enr
 role: Architect, Developer, Admin, User
 exl-id: ec75e168-6f3b-4dff-8df6-06ca7dc18688
 source-git-commit: 63f9659a547729c7cb3eb3c7a61cf1bc838cf6ce
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1081'
-ht-degree: 92%
+ht-degree: 100%
 
 ---
 
@@ -31,11 +31,11 @@ Le tableau ci-après présente en détail toutes les versions prises en charge d
 | v2 | - | Compatible | Compatible |
 | [v1](v1/teaser.md) | Compatible | Compatible | Compatible |
 
-## Prise en charge de Dynamic Media de nouvelle génération {#next-gen-dm}
+## Prise en charge de Dynamic Media de nouvelle génération {#next-gen-dm}
 
-Le composant Teaser (à partir de [version 2.23.2](/help/versions.md)) prend en charge les ressources distantes Dynamic Media de génération suivante.
+Le composant Teaser (à partir de la [version 2.23.2](/help/versions.md)) prend en charge les ressources distantes Dynamic Media de nouvelle génération.
 
-[Une fois la configuration effectuée,](/help/developing/next-gen-dm.md) vous pouvez sélectionner des ressources à partir d’un service Dynamic Media de génération suivante distant pour votre composant de teaser.
+[Une fois la configuration effectuée,](/help/developing/next-gen-dm.md) vous pouvez sélectionner des ressources à partir d’un service distant Dynamic Media de nouvelle génération pour votre composant Teaser.
 
 ## Exemple de sortie de composant {#sample-component-output}
 
@@ -83,10 +83,10 @@ Le titre, la description et l’image du teaser peuvent être hérités de la pa
 * **Hériter l’image en vedette de la page** : utilisez l’image définie dans les propriétés de page de la page liée ou de la page active si aucune image n’est trouvée.
 * **Ressource image** : déposez un fichier depuis l’[explorateur de ressources](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/fundamentals/environment-tools.html?lang=fr) ou appuyez sur l’option **parcourir** pour effectuer un chargement à partir d’un système de fichiers local.
    * Appuyez ou cliquez sur **Effacer** pour désélectionner l’image actuellement sélectionnée.
-   * Appuyez ou cliquez sur **Pick** pour ouvrir le [explorateur de ressources](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/fundamentals/environment-tools.html?lang=fr) pour sélectionner une image.
-      * If [Fonctionnalités Dynamic Media de nouvelle génération](#next-gen-dm) sont activées, vous disposez de plusieurs options pour sélectionner une ressource :
-         * **Local** sélectionne dans la bibliothèque de ressources d’AEM locale.
-         * **Distant** fait une sélection à partir d’une bibliothèque Dynamic Media en dehors de votre instance AEM.
+   * Appuyez ou cliquez sur **Sélectionner** pour ouvrir l’[explorateur de ressources](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/fundamentals/environment-tools.html?lang=fr) et sélectionner une image.
+      * Si les [fonctionnalités de Dynamic Media de nouvelle génération](#next-gen-dm) sont activées, vous disposez de plusieurs options pour sélectionner une ressource :
+         * **Locale** permet de sélectionner dans la bibliothèque de ressources AEM locale.
+         * **Distante** permet de sélectionner à partir d’une bibliothèque Dynamic Media en dehors de votre instance AEM.
    * Appuyez ou cliquez sur **Modifier** pour [gérer les rendus de la ressource](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/manage/manage-digital-assets.html?lang=fr) dans l’éditeur de ressources.
 * **Texte secondaire pour l’accessibilité** : ce champ vous permet de fournir une description de l’image pour les utilisateurs souffrant de déficience visuelle.
    * **Hériter le texte secondaire de la page** : cette option utilise la description secondaire de la valeur de la ressource liée des métadonnées `dc:description` dans la gestion des ressources numériques (DAM) ou de la page active si aucune ressource n’est liée.
@@ -115,12 +115,12 @@ La boîte de dialogue de conception permet à l’auteur du modèle de définir 
 ![Boîte de dialogue de conception du composant Teaser](/help/assets/teaser-design.png)
 
 * **Appels à l’action**
-   * **Désactiver les appels à l’action** : masque l’option **Appels à l’action** pour les auteurs de contenu.
+   * **Désactiver les appels à l’action** : masque l’option **Appels à l’action** pour les auteurs de contenu
 * **Éléments**
    * **Masquer le prétitre** : masque l’option **Prétitre** pour les auteurs de contenu.
-   * **Masquer le titre** : masque l’option **Titre** pour les auteurs de contenu.
-      * Lorsque cette option est sélectionnée, le **Type de titre** est masqué.
-   * **Masquer la description** : masque l’option **Description** pour les auteurs de contenu.
+   * **Masquer le titre** : masque l’option **Titre** pour les auteurs de contenu
+      * Lorsque cette option est sélectionnée, le **Type de titre** est masqué
+   * **Masquer la description** : masque l’option **Description** pour les auteurs de contenu
 * **Type de titre par défaut** : définit la balise H que le titre du teaser doit utiliser.
 * **Délégué d’image** : affichage d’informations indiquant à quel composant le teaser délègue la gestion des images.
 
