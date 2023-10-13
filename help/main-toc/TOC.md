@@ -6,9 +6,9 @@ feature: Core Components
 user-guide-description: Utilisez les composants principaux extensibles pour permettre aux créateurs de créer facilement du contenu.
 feature-set: Experience Manager Sites
 source-git-commit: 63f9659a547729c7cb3eb3c7a61cf1bc838cf6ce
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '386'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -141,7 +141,7 @@ ht-degree: 98%
    + [Inclusion de bibliothèques clientes](/help/developing/including-clientlibs.md)
    + [Servlet Image adaptative](/help/developing/adaptive-image-servlet.md)
    + [Diffusion d’images optimisées pour le web](/help/developing/web-optimized-image-delivery.md)
-   + [Prise en charge de Dynamic Media de nouvelle génération](/help/developing/next-gen-dm.md)
+   + [Prise en charge de Dynamic Media de nouvelle génération](/help/developing/next-gen-dm.md)
    + Couche de données client Adobe {#data-layer}
       + [Présentation de la couche de données](/help/developing/data-layer/overview.md)
       + [Intégrations à la couche de données](/help/developing/data-layer/integrations.md)
