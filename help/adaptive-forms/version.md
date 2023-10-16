@@ -3,8 +3,8 @@ title: Versions des composants principaux d’AEM Forms
 description: Les composants principaux sont publiés sous forme de versions qui peuvent contenir plusieurs versions des mêmes composants principaux. Ce document explique les versions et les mises à jour ainsi que comment comprendre la compatibilité avec les composants principaux et AEM.
 role: Architect, Developer, Admin, User
 exl-id: 8146a5b1-acf6-4b54-ad6b-6e1747a137f6
-source-git-commit: 7888cfa0f1358ce8018fc1e3cc3b19eb66a82b9d
-workflow-type: ht
+source-git-commit: 13e802c510e165d3ef3da431e1e8b0fe7b35d801
+workflow-type: tm+mt
 source-wordcount: '314'
 ht-degree: 100%
 
@@ -33,3 +33,4 @@ Le tableau suivant dresse la liste des versions des composants principaux compat
 |---|---|---|---|---|---|
 | [1.1.12](https://github.com/adobe/aem-core-forms-components/releases/tag/core-forms-components-reactor-1.1.12) | La prise en charge des composants principaux pour AEM Forms On-Premise et AMS est introduite dans cette version. | - | 6.5.16.0 et version ultérieure | 8, 11 | 8 février 2023 |
 
+{{see-also}}
