@@ -3,9 +3,9 @@ title: Composant principal des formulaires adaptatifs - Entrée de nombre
 description: Utilisation ou personnalisation du composant principal « Entrée de nombre » dans les formulaires adaptatifs.
 role: Architect, Developer, Admin, User
 exl-id: 75604ecf-1ec5-4e97-b934-d6ed49726147
-source-git-commit: 0bebc248ee2b708f7677950d90356abd5bc70a98
+source-git-commit: be630c4d0a10ebaa679b77419b901fac818addb1
 workflow-type: tm+mt
-source-wordcount: '1870'
+source-wordcount: '1834'
 ht-degree: 100%
 
 ---
@@ -143,11 +143,13 @@ Cet onglet vous permet de définir et de gérer les styles CSS d’un composant.
 L’onglet Formats vous permet de définir des formats de nombres par défaut et personnalisés.
 ![Onglet Conception.](/help/adaptive-forms/assets/emailinput_designformattab.png)
 
-## Article connexe {#related-article}
+<!--
 
-* [Création d’un formulaire adaptatif dans une page AEM Sites ou un fragment d’expérience](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/create-or-add-an-adaptive-form-to-aem-sites-page.html?lang=fr)
+## Related article {#related-article}
 
-* [Création d’un formulaire adaptatif autonome](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/creating-adaptive-form-core-components.html?lang=fr)
+* [Create a standalone Adaptive Form](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/creating-adaptive-form-core-components.html)
+
+-->
 
 
 >[!MORELIKETHIS]
@@ -173,6 +175,7 @@ L’onglet Formats vous permet de définir des formats de nombres par défaut et
 >* [Texte](/help/adaptive-forms/components/text.md)
 >* [Titre](/help/adaptive-forms/components/title.md)
 >* [Assistant](/help/adaptive-forms/components/wizard.md)
+
 
 ## Voir également {#see-also}
 
