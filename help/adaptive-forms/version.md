@@ -4,7 +4,7 @@ description: Les composants principaux sont publiés sous forme de versions qui 
 role: Architect, Developer, Admin, User
 exl-id: 8146a5b1-acf6-4b54-ad6b-6e1747a137f6
 source-git-commit: 0bebc248ee2b708f7677950d90356abd5bc70a98
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '316'
 ht-degree: 100%
 
