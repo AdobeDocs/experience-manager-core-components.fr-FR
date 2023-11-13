@@ -1,21 +1,21 @@
 ---
-title: Comment obtenir des exemples de thèmes et de modèles pour les composants principaux AEM Forms ?
-description: Les composants principaux d’AEM Forms fournissent des exemples de thèmes de formulaire adaptatif, de modèles et de modèles de données de formulaire.
+title: Comment obtenir des exemples de thèmes et de modèles pour les composants principaux AEM Forms ?
+description: Les composants principaux d’AEM Forms fournissent des exemples de thèmes, de modèles et de modèles de données de formulaire pour les formulaires adaptatifs.
 solution: Experience Manager Forms
 topic: Administration
 role: Admin, User
 level: Intermediate
 exl-id: aef6e88b-dcae-4777-9893-9257d7702f43
 source-git-commit: 1dd55fdd836dff89763887d88af2671ed1f9ce2b
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1304'
-ht-degree: 69%
+ht-degree: 100%
 
 ---
 
 # Exemples de thèmes, modèles et modèles de données de formulaire {#sample-themes-templates-and-data-models}
 
-Les composants principaux [!DNL AEM Forms] fournissent des exemples de thèmes, de modèles et de modèles de données de formulaire prêts à l’emploi pour créer rapidement des formulaires adaptatifs polyvalents. Ils aident également les auteurs de formulaires à apprendre l’extensibilité, l’adaptabilité et la réactivité des [Composants principaux de Forms adaptatif](https://experienceleague.adobe.com/docs/experience-manager-core-components/using/adaptive-forms/introduction.html?lang=fr) pour créer facilement des formulaires simples en un rien de temps et des formulaires complexes lors d’une connexion transparente à la base de données.
+Les composants principaux [!DNL AEM Forms] fournissent des exemples de thèmes, de modèles et de modèles de données de formulaire prêts à l’emploi pour créer rapidement des formulaires adaptatifs polyvalents. Ils aident également les auteurs et autrices de formulaires à comprendre l’extensibilité, l’adaptabilité et la réactivité des [composants principaux des formulaires adaptatifs](https://experienceleague.adobe.com/docs/experience-manager-core-components/using/adaptive-forms/introduction.html?lang=fr) pour créer facilement des formulaires simples en un rien de temps, ainsi que des formulaires complexes lors d’une connexion transparente à la base de données.
 
 Les exemples de thèmes, modèles et modèles de données de formulaire inclus dans le package de contenu de référence sont les suivants :
 
@@ -36,20 +36,20 @@ Les exemples de thèmes, modèles et modèles de données de formulaire inclus d
 
 ## Exemples de thèmes {#Sample-Themes}
 
-Les exemples de thèmes de référence aident les auteurs à utiliser, définir et personnaliser la mise en forme des formulaires. Les auteurs possédant même une connaissance de base du code CSS peuvent personnaliser le thème selon leurs besoins.
+Les exemples de thèmes de référence aident les auteurs et autrices à définir et personnaliser le style des formulaires. Les créateurs et créatrices qui ne possèdent que de simples connaissances de base du code CSS peuvent aussi personnaliser le thème selon leurs besoins.
 
 **Comment obtenir ces thèmes ?**
-Vous obtenez ces thèmes en suivant les étapes ci-dessous pour **AEM as a Cloud Service** environnement :
+Vous obtenez ces thèmes en suivant les étapes ci-dessous pour un environnement **AEM as a Cloud Service** :
 
-1. [Activation des composants principaux de formulaires adaptatifs](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/setup-configure-migrate/enable-adaptive-forms-core-components.html?lang=fr)
-1. [Déployer un projet AEM Archetype 45 dans votre environnement](https://github.com/adobe/aem-project-archetype)
+1. [Activer les composants principaux des formulaires adaptatifs](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/setup-configure-migrate/enable-adaptive-forms-core-components.html?lang=fr)
+1. [Déployer un archétype de projet AEM 45 dans votre environnement](https://github.com/adobe/aem-project-archetype)
 
 
-Lorsque vous déployez un archétype AEM, vous ne pouvez utiliser que les thèmes prêts à l’emploi dans vos formulaires. Pour personnaliser les thèmes selon vos besoins, [Utilisation du pipeline front-end](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/using-themes-in-core-components.html?lang=fr) pour déployer les thèmes.
+Lorsque vous déployez un archétype AEM, vous ne pouvez utiliser que les thèmes prêts à l’emploi dans vos formulaires. Pour personnaliser les thèmes selon vos besoins, [utilisez un pipeline front-end](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/using-themes-in-core-components.html?lang=fr) pour déployer les thèmes.
 
 >[!NOTE]
 >
-> * Les thèmes ne sont pas disponibles pour **AEM 6.5** environnement.
+> * Les thèmes ne sont pas disponibles pour un environnement **AEM 6.5**.
 
 <!--
 
@@ -88,7 +88,7 @@ Les thèmes **prêts à l’emploi** des [composants principaux des formulaires 
 
 ### Canevas {#Canvas}
 
-Le thème de la zone de travail est le thème par défaut des formulaires et met l’accent sur l’utilisation des couleurs de base, la transparence et les icônes plates. Dans la capture d’écran ci-dessous, vous pouvez voir à quoi ressemble le thème Canevas.
+Canevas est le thème par défaut des formulaires. Il souligne l’utilisation des couleurs de base, de la transparence et des icônes aplaties. Dans la capture d’écran ci-dessous, vous pouvez voir à quoi ressemble le thème Canevas.
 
 ![Thème Canevas](/help/adaptive-forms/assets/Safety-Inspection-Theme-Canvas.png)
 
@@ -101,22 +101,22 @@ Le thème WKND incarne un design vivant, imaginatif et attrayant pour donner un 
 
 ### Chevalet {#Easel}
 
-Le thème Chevalet permet de créer une apparence de formulaire attrayante et facile à configurer. Il est personnalisé pour plus de simplicité et de convivialité. Le thème du chevalet est basé sur le concept où un stand portable est utilisé par les artistes pour supporter une toile lorsqu&#39;ils travaillent sur leurs tableaux.
+Le thème Chevalet permet de créer une apparence de formulaire attrayante et facile à configurer. Il est personnalisé pour plus de simplicité et de convivialité. Le thème Chevalet reprend le concept du support portable utilisé par les artistes pour poser leur toile pendant qu’ils travaillent.
 
 ![Thème Chevalet](/help/adaptive-forms/assets/Safety-Inspection-Theme-Easel.png)
 
 ### FSI (Financial Services &amp; Insurance) {#FSI}
 
-Le thème de l&#39;IFI met l&#39;accent sur l&#39;aspect pratique et propre de votre formulaire. La couleur bleue douce est appliquée à votre formulaire lorsque vous appliquez le thème FSI, comme vous pouvez le voir dans l’image.
+Le thème du FSI met l’accent sur l’aspect pratique et propre de votre formulaire. La teinte douce de bleu est appliquée à votre formulaire lorsque vous appliquez le thème FSI, comme vous pouvez le voir sur l’image.
 
 ![Thème FSI](/help/adaptive-forms/assets/fsi-theme-new1.png)
 
 
 ### Healthcare {#Healthcare}
 
-Le thème Health Care utilise des tons riches et transparents pour accentuer les éléments tels que les onglets, les panneaux, les zones de texte et les boutons dans votre formulaire.
+Le thème Healthcare utilise des tons riches et transparents pour accentuer les éléments tels que les onglets, les panneaux, les zones de texte et les boutons dans votre formulaire.
 
-![Thème Santé](/help/adaptive-forms/assets/healthcare-new-theme.png)
+![Thème Healthcare](/help/adaptive-forms/assets/healthcare-new-theme.png)
 
 
 ## Exemples de modèles {#Sample-templates}
@@ -124,7 +124,7 @@ Le thème Health Care utilise des tons riches et transparents pour accentuer les
 Les modèles définissent la structure, le contenu et les actions du formulaire initial à répliquer dans votre propre formulaire. Ils utilisent une structure de modèle similaire à votre formulaire, comme le formulaire de consentement, le formulaire de souscription aux prestations, et bien d’autres encore.
 
 **Comment obtenir ces modèles ?**
-Vous pouvez obtenir ces modèles en déployant un [AEM Archetype 45](https://github.com/adobe/aem-project-archetype) à votre **AEM Forms as a Cloud Service** environnement ou **AEM 6.5 Forms** environnement.
+Vous pouvez obtenir les modèles en déployant un [archetype de projet AEM 45](https://github.com/adobe/aem-project-archetype) à votre environnement **AEM Forms as a Cloud Service** ou **AEM Forms 6.5**.
 
 <!--
 
@@ -170,20 +170,20 @@ Le modèle Mise à jour des détails du contact aident les auteurs et autrices �
 
 ### Formulaire de consentement {#Consent-Form}
 
-Le modèle de formulaire de consentement est utilisé pour créer un formulaire d’obtention d’un document juridique par les participants qui participent à une activité spécifique, une étude de recherche, une procédure médicale ou toute situation où leurs informations personnelles ou leurs droits peuvent être impliqués. Ce formulaire garantit la transparence, protège les droits des personnes participantes et établit une compréhension claire de ce que la personne accepte.
+Le modèle Formulaire de consentement permet de créer un formulaire d’obtention d’un document juridique auprès des personnes participant à une activité spécifique, une étude de recherche ou une procédure médicale, etc. Il concerne également les personnes dont les informations personnelles ou les droits sont impliqués. Ce formulaire garantit la transparence, protège les droits des personnes participantes et établit une compréhension claire de ce que la personne accepte.
 
 ![Formulaire de consentement](/help/adaptive-forms/assets/Consent-form-desktop-view.png)
 
 ### Demande de service de consignation {#Log-Service-Request}
 
-Le modèle Demande de service de consignation permet de créer un formulaire qui demande des services de consignation spécifiques à un prestataire de services. Le formulaire sert de requête formelle de création d’un ticket pour les événements, les activités ou les journaux de données à des fins de surveillance ou de suivi de l’état.
+Le modèle Demande de service de consignation permet de créer un formulaire qui demande des services de consignation spécifiques à un prestataire de services. Ce formulaire sert de demande formelle de création d’un ticket pour des événements, des activités ou des journaux de données à des fins de surveillance ou de suivi de leur statut.
 
 ![Modèle Demande de service de consignation](/help/adaptive-forms/assets/Log-service-request-desktop-view.png)
 
 
 ### Envoyer des commentaires {#Give-Feedback}
 
-Le modèle de formulaire Envoyer des commentaires permet de créer un formulaire fournissant des informations constructives à une autre personne ou équipe. Le formulaire permet de s’assurer que les commentaires sont clairs, spécifiques et pratiques, ce qui favorise la communication ouverte et l’amélioration.
+Le modèle de formulaire Envoyer des commentaires permet de créer un formulaire fournissant des informations constructives à une autre personne ou équipe. Le formulaire permet de s’assurer que les commentaires sont clairs, spécifiques et exploitables, ce qui favorise une communication ouverte et l’amélioration des situations.
 
 ![Modèle Envoyer des commentaires](/help/adaptive-forms/assets/Give-feedback-desktop-view.png)
 
@@ -203,7 +203,7 @@ Le modèle de formulaire Résumé des prestations souscrites par les employé(e)
 
 ### Demande de relevé de compte {#Request-for-Account-Statement}
 
-Un modèle de demande de relevé de compte permet de créer un formulaire qui initie le processus d’obtention d’une instruction de client exacte et à jour. Le relevé fournit un enregistrement détaillé des transactions financières, des activités ou d’autres informations pertinentes concernant les client(e)s qui utilisent ce formulaire.
+Le modèle Demande de relevé de compte permet de créer un formulaire qui initie le processus d’obtention d’un relevé de compte précis et actualisé. Le relevé fournit un enregistrement détaillé des transactions financières, des activités ou d’autres informations pertinentes concernant les client(e)s qui utilisent ce formulaire.
 
 ![Request-for-account-statment](/help/adaptive-forms/assets/Request-for-account-statment.png)
 
