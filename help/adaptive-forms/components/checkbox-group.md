@@ -3,10 +3,10 @@ title: Composant principal des formulaires adaptatifs - Groupe de cases à coche
 description: Utilisation ou personnalisation du composant principal « Groupe de cases à cocher » des formulaires adaptatifs.
 role: Architect, Developer, Admin, User
 exl-id: 2ced0223-e664-470b-a400-b6865d3a67c9
-source-git-commit: 0026734a2e43c51c7f5af2b37492d61e8f779ac7
-workflow-type: ht
-source-wordcount: '1663'
-ht-degree: 100%
+source-git-commit: 93acf5f6f11da42a7834bbb11b15a36db1e03dc9
+workflow-type: tm+mt
+source-wordcount: '1875'
+ht-degree: 87%
 
 ---
 
@@ -16,11 +16,11 @@ Un groupe de cases à cocher dans un formulaire adaptatif est un ensemble de cas
 
 **Exemple**
 
-![](/help/adaptive-forms/assets/checkbox-group.png)
+![exemple de groupe de cases à cocher](/help/adaptive-forms/assets/checkbox-group.png)
 
 **Boîte de dialogue Propriétés**
 
-![](/help/adaptive-forms/assets/checkbox-group-properties.png)
+![Boîte de dialogue de propriété du groupe de cases à cocher](/help/adaptive-forms/assets/checkbox-group-properties.png)
 
 Dans cet exemple, l’élément Options est utilisé pour associer les cases à cocher. L’élément **Texte d’affichage** sert à fournir un libellé pour un élément et **Valeur des données** sert à spécifier la valeur envoyée au serveur lors de l’envoi du formulaire.
 
@@ -32,17 +32,17 @@ De plus, le groupe de cases à cocher peut être configuré pour avoir différen
 
 Il existe plusieurs raisons d’inclure un groupe de cases à cocher dans un formulaire adaptatif, notamment :
 
-* **Sélections multiples** : un groupe de cases à cocher permet aux utilisateurs et aux utilisatrices de sélectionner plusieurs options dans une liste, ce qui peut s’avérer utile dans les cas où plusieurs sélections sont autorisées ou obligatoires.
+- **Sélections multiples** : un groupe de cases à cocher permet aux utilisateurs et aux utilisatrices de sélectionner plusieurs options dans une liste, ce qui peut s’avérer utile dans les cas où plusieurs sélections sont autorisées ou obligatoires.
 
-* **Expérience utilisateur** : le groupe de cases à cocher peut être utilisé pour rendre le formulaire plus convivial en offrant une méthode claire et intuitive de sélection de plusieurs options aux utilisateurs et aux utilisatrices.
+- **Expérience utilisateur** : le groupe de cases à cocher peut être utilisé pour rendre le formulaire plus convivial en offrant une méthode claire et intuitive de sélection de plusieurs options aux utilisateurs et aux utilisatrices.
 
-* **Analyse des données** : le groupe de cases à cocher peut être utilisé pour collecter des données provenant de diverses sources et les analyser, ou pour les utiliser comme entrée pour un traitement ultérieur.
+- **Analyse des données** : le groupe de cases à cocher peut être utilisé pour collecter des données provenant de diverses sources et les analyser, ou pour les utiliser comme entrée pour un traitement ultérieur.
 
-* **Questionnaires** : le groupe de cases à cocher peut être utilisé dans les enquêtes pour sélectionner plusieurs options pour une question.
+- **Questionnaires** : le groupe de cases à cocher peut être utilisé dans les enquêtes pour sélectionner plusieurs options pour une question.
 
-* **Préférences utilisateur** : le groupe de cases à cocher peut être utilisé pour collecter les préférences de l’utilisateur ou de l’utilisatrice pour différentes options.
+- **Préférences utilisateur** : le groupe de cases à cocher peut être utilisé pour collecter les préférences de l’utilisateur ou de l’utilisatrice pour différentes options.
 
-* **Valeur des données** : le groupe de cases à cocher peut également être utilisé pour traiter les éléments d’un groupe de cases à cocher.
+- **Valeur des données** : le groupe de cases à cocher peut également être utilisé pour traiter les éléments d’un groupe de cases à cocher.
 
 ## Version et compatibilité {#version-and-compatibility}
 
@@ -71,51 +71,53 @@ Vous pouvez facilement personnaliser l’expérience des cases à cocher pour le
 
 ![Onglet De base](/help/adaptive-forms/assets/checkbox_basictab.png)
 
-* **Nom** - Le nom identifie de manière unique le composant dans l’éditeur de règles. Les caractères spéciaux et les espaces ne sont pas autorisés dans les chaînes de nom.
+- **Nom** - Le nom identifie de manière unique le composant dans l’éditeur de règles. Les caractères spéciaux et les espaces ne sont pas autorisés dans les chaînes de nom.
 
-* **Titre** - Avec son titre, vous pouvez facilement identifier un composant dans un formulaire. Par défaut, le titre s’affiche au-dessus du composant. Si vous n’ajoutez pas de titre, le nom du composant s’affiche à la place du texte du titre.
+- **Titre** - Avec son titre, vous pouvez facilement identifier un composant dans un formulaire. Par défaut, le titre s’affiche au-dessus du composant. Si vous n’ajoutez pas de titre, le nom du composant s’affiche à la place du texte du titre.
 
-* **Masquer le titre** - Sélectionnez l’option pour masquer le titre du composant.
+- **Masquer le titre** - Sélectionnez l’option pour masquer le titre du composant.
 
-* **Options** - Vous pouvez ajouter des valeurs de données et des paires de texte d’affichage à l’aide du bouton **Ajouter**. Une fois qu’une nouvelle option est ajoutée, les actions suivantes peuvent être effectuées :
+- **Options** - Vous pouvez ajouter des valeurs de données et des paires de texte d’affichage à l’aide du bouton **Ajouter**. Une fois qu’une nouvelle option est ajoutée, les actions suivantes peuvent être effectuées :
 
-   * **Valeur des données** - Cette option permet de saisir le contenu à envoyer lorsqu’une option est sélectionnée.
-   * **Texte d’affichage** - Cette option permet de saisir le contenu à afficher dans un formulaire adaptatif.
-   * **Supprimer** - Appuyez ou cliquez sur supprimer pour supprimer l’option d’une case à cocher.
-   * **Réorganiser** : Appuyez ou cliquez et faites glisser pour réorganiser l’ordre des panneaux.
+   - **Valeur des données** - Cette option permet de saisir le contenu à envoyer lorsqu’une option est sélectionnée.
+   - **Texte d’affichage** - Cette option permet de saisir le contenu à afficher dans un formulaire adaptatif.
+   - **Supprimer** - Appuyez ou cliquez sur supprimer pour supprimer l’option d’une case à cocher.
+   - **Réorganiser** : Appuyez ou cliquez et faites glisser pour réorganiser l’ordre des panneaux.
 
-* **Référence Bind** - Une référence Bind est une référence à un élément de données stockée dans une source de données externe et utilisée dans un formulaire. La référence de liaison vous permet de lier dynamiquement les données aux champs du formulaire, de sorte que le formulaire puisse afficher les données les plus récentes de la source de données. Par exemple, une référence de liaison peut être utilisée pour afficher le nom et l’adresse d’un client ou d’une cliente dans un formulaire, en fonction de l’identifiant du client ou de la cliente saisi dans le formulaire. La référence de liaison peut également être utilisée pour mettre à jour la source de données avec les données saisies dans le formulaire. Ainsi, AEM Forms vous permet de créer des formulaires qui interagissent avec des sources de données externes, offrant ainsi une expérience utilisateur fluide pour la collecte et la gestion des données.
+- **Référence Bind** - Une référence Bind est une référence à un élément de données stockée dans une source de données externe et utilisée dans un formulaire. La référence de liaison vous permet de lier dynamiquement les données aux champs du formulaire, de sorte que le formulaire puisse afficher les données les plus récentes de la source de données. Par exemple, une référence de liaison peut être utilisée pour afficher le nom et l’adresse d’un client ou d’une cliente dans un formulaire, en fonction de l’identifiant du client ou de la cliente saisi dans le formulaire. La référence de liaison peut également être utilisée pour mettre à jour la source de données avec les données saisies dans le formulaire. Ainsi, AEM Forms vous permet de créer des formulaires qui interagissent avec des sources de données externes, offrant ainsi une expérience utilisateur fluide pour la collecte et la gestion des données.
 
-* **Type de données de la valeur envoyée** - Cette option spécifie le type de données de la valeur envoyée lorsqu’une option est sélectionnée. Si le **type de données de la valeur envoyée** est défini sur `Number` et que vous ajoutez des données de chaîne à **Valeur des données** dans l’onglet **Options**, l’écran affiche un message d’erreur `Value type mismatch`.
+- **Marquer comme élément de formulaire non lié**: sélectionnez l’option de configuration d’un champ de formulaire non lié à un schéma. Cette option vous permet d’enregistrer des données sans mettre à jour la source de données. Il vous permet également de gérer les données de manière personnalisée, en les séparant de l’intégration de base de données standard.
 
-* **Options d’affichage** - Cette option est utilisée pour définir l’alignement visuel des cases à cocher dans un formulaire adaptatif. Les deux options prises en charge sont les suivantes :
-   * **Horizontal** - Lorsque cette option est sélectionnée, les cases à cocher s’affichent de gauche à droite dans un formulaire adaptatif.
-   * **Vertical** - Lorsque cette option est sélectionnée, les cases à cocher s’affichent de haut en bas dans un formulaire adaptatif.
+- **Type de données de la valeur envoyée** - Cette option spécifie le type de données de la valeur envoyée lorsqu’une option est sélectionnée. Si le **type de données de la valeur envoyée** est défini sur `Number` et que vous ajoutez des données de chaîne à **Valeur des données** dans l’onglet **Options**, l’écran affiche un message d’erreur `Value type mismatch`.
 
-* **Options par défaut** - Cette option vous permet d’ajouter des valeurs par défaut présélectionnées au chargement du formulaire. Utilisez l’icône Supprimer pour supprimer les options ajoutées. Si le **type de données de la valeur envoyée** est défini sur `Number` et que vous ajoutez des données de chaîne à **Options par défaut**, l’écran affiche un message d’erreur `Value type mismatch`.
-* **Masquer le composant** - Sélectionnez l’option pour masquer le composant du formulaire. Le composant reste accessible à d’autres fins, par exemple pour les calculs dans l’éditeur de règles. Cela s’avère utile lorsque vous devez stocker des informations qui n’ont pas besoin d’être affichées ou directement modifiées par les utilisateurs ou les utilisatrices.
-* **Désactiver le composant** - Sélectionnez cette option pour désactiver le composant. Le composant désactivé n’est pas actif ni modifiable par l’utilisateur final ou l’utilisatrice finale. L’utilisateur ou l’utilisatrice peut voir la valeur du champ mais ne peut pas la modifier. Le composant reste accessible à d’autres fins, par exemple pour les calculs dans l’éditeur de règles.
-* **Lecture seule** - Sélectionnez cette option pour rendre le composant non modifiable. L’utilisateur ou l’utilisatrice peut voir la valeur du champ mais ne peut pas la modifier. Le composant reste accessible à d’autres fins, par exemple pour les calculs dans l’éditeur de règles.
+- **Options d’affichage** - Cette option est utilisée pour définir l’alignement visuel des cases à cocher dans un formulaire adaptatif. Les deux options prises en charge sont les suivantes :
+   - **Horizontal** - Lorsque cette option est sélectionnée, les cases à cocher s’affichent de gauche à droite dans un formulaire adaptatif.
+   - **Vertical** - Lorsque cette option est sélectionnée, les cases à cocher s’affichent de haut en bas dans un formulaire adaptatif.
+
+- **Options par défaut** - Cette option vous permet d’ajouter des valeurs par défaut présélectionnées au chargement du formulaire. Utilisez l’icône Supprimer pour supprimer les options ajoutées. Si le **type de données de la valeur envoyée** est défini sur `Number` et que vous ajoutez des données de chaîne à **Options par défaut**, l’écran affiche un message d’erreur `Value type mismatch`.
+- **Masquer le composant** - Sélectionnez l’option pour masquer le composant du formulaire. Le composant reste accessible à d’autres fins, par exemple pour les calculs dans l’éditeur de règles. Cela s’avère utile lorsque vous devez stocker des informations qui n’ont pas besoin d’être affichées ou directement modifiées par les utilisateurs ou les utilisatrices.
+- **Désactiver le composant** - Sélectionnez cette option pour désactiver le composant. Le composant désactivé n’est pas actif ni modifiable par l’utilisateur final ou l’utilisatrice finale. L’utilisateur ou l’utilisatrice peut voir la valeur du champ mais ne peut pas la modifier. Le composant reste accessible à d’autres fins, par exemple pour les calculs dans l’éditeur de règles.
+- **Lecture seule** - Sélectionnez cette option pour rendre le composant non modifiable. L’utilisateur ou l’utilisatrice peut voir la valeur du champ mais ne peut pas la modifier. Le composant reste accessible à d’autres fins, par exemple pour les calculs dans l’éditeur de règles.
 
 ### Onglet Validation {#validation-tab}
 
 ![Onglet Validation](/help/adaptive-forms/assets/checkbox_validationtab.png)
 
-* **Obligatoire** : Sélectionnez cette option si vous souhaitez afficher le composant dans un formulaire adaptatif. Vous ne pouvez pas sélectionner **Masquer le composant** ou **Désactiver le composant**  dans l’onglet **De base** lorsque cette option est sélectionnée.
+- **Obligatoire** : Sélectionnez cette option si vous souhaitez afficher le composant dans un formulaire adaptatif. Après avoir sélectionné cette option, vous devez effectuer une sélection avant de poursuivre l’envoi du formulaire. Vous ne pouvez pas sélectionner **Masquer le composant** ou **Désactiver le composant**  dans l’onglet **De base** lorsque cette option est sélectionnée.
 
-* **Message d’erreur** : Cette option vous permet de saisir un message qui s’affiche si la case à cocher **Obligatoire** est cochée et que le champ de formulaire reste vide.
+- **Message d’erreur** : Cette option vous permet de saisir un message qui s’affiche si la case à cocher **Obligatoire** est cochée et que le champ de formulaire reste vide.
 
-* **Message de validation de script** : cette option permet de saisir un message à afficher en cas d’échec de la validation du script.
+- **Message de validation de script** : cette option permet de saisir un message à afficher en cas d’échec de la validation du script.
 
 ### Onglet Contenu de l’aide {#helpcontent-tab}
 
 ![Onglet Contenu d’aide](/help/adaptive-forms/assets/checkbox_helptab.png)
 
-* **Description courte** : Une description courte est une brève explication textuelle qui fournit des informations supplémentaires ou une clarification sur l’objectif d’un champ de formulaire spécifique. Il permet à l’utilisateur ou l’utilisatrice de comprendre le type de données à saisir dans le champ et peut fournir des conseils ou des exemples pour s’assurer que les informations saisies sont valides et répondent aux critères souhaités. Par défaut, les descriptions courtes restent masquées. Activez l’option **Toujours afficher une description courte** pour l’afficher sous le composant.
+- **Description courte** : Une description courte est une brève explication textuelle qui fournit des informations supplémentaires ou une clarification sur l’objectif d’un champ de formulaire spécifique. Il permet à l’utilisateur ou l’utilisatrice de comprendre le type de données à saisir dans le champ et peut fournir des conseils ou des exemples pour s’assurer que les informations saisies sont valides et répondent aux critères souhaités. Par défaut, les descriptions courtes restent masquées. Activez l’option **Toujours afficher une description courte** pour l’afficher sous le composant.
 
-* **Toujours afficher une description courte** - Activez cette option pour afficher la description courte sous le composant.
+- **Toujours afficher une description courte** - Activez cette option pour afficher la description courte sous le composant.
 
-* **Texte d’aide** - Le texte d’aide fait référence à des informations ou des conseils supplémentaires fournis à l’utilisateur ou à l’utilisatrice pour l’aider à remplir correctement un champ de formulaire. Il s’affiche lorsque l’utilisateur ou l’utilisatrice clique sur l’icône d’aide (i) placée à côté du composant. Le texte d’aide fournit des informations plus détaillées que le texte du libellé ou de l’espace réservé d’un champ de formulaire. Il est conçu pour aider l’utilisateur ou l’utilisatrice à comprendre les exigences ou les contraintes du champ. Il peut également proposer des suggestions ou des exemples pour faciliter le remplissage du formulaire et le rendre plus précis.
+- **Texte d’aide** - Le texte d’aide fait référence à des informations ou des conseils supplémentaires fournis à l’utilisateur ou à l’utilisatrice pour l’aider à remplir correctement un champ de formulaire. Il s’affiche lorsque l’utilisateur ou l’utilisatrice clique sur l’icône d’aide (i) placée à côté du composant. Le texte d’aide fournit des informations plus détaillées que le texte du libellé ou de l’espace réservé d’un champ de formulaire. Il est conçu pour aider l’utilisateur ou l’utilisatrice à comprendre les exigences ou les contraintes du champ. Il peut également proposer des suggestions ou des exemples pour faciliter le remplissage du formulaire et le rendre plus précis.
 
 ### Onglet Accessibilité {#accessibility-tab}
 
@@ -123,7 +125,7 @@ Vous pouvez facilement personnaliser l’expérience des cases à cocher pour le
 
 **Texte pour les lecteurs d’écran** - Le texte destiné aux lecteurs d’écran fait référence à un texte supplémentaire spécialement conçu pour être lu par les technologies d’assistance, comme les lecteurs d’écran, utilisées par les personnes malvoyantes. Ce texte fournit une description audio de l’objectif du champ de formulaire et peut inclure des informations sur le titre, la description, le nom du champ et tout message pertinent (texte personnalisé). Le texte du lecteur d’écran permet de s’assurer que le formulaire est accessible à tous les utilisateurs et utilisatrices, y compris celles et ceux ayant une déficience visuelle, et leur permet de bien comprendre le champ du formulaire et ses exigences.
 
-    ## Boîte de dialogue de conception {#design-dialog}
+## Boîte de dialogue de conception {#design-dialog}
 
 La boîte de dialogue de conception permet de définir et de gérer les styles CSS du composant « Groupe de cases à cocher ».
 
@@ -131,43 +133,29 @@ La boîte de dialogue de conception permet de définir et de gérer les styles C
 
 Le composant principal du groupe de cases à cocher des formulaires adaptatifs prend en charge le [système de style](/help/get-started/authoring.md#component-styling) d’AEM.
 
-![Boîte de dialogue de conception.](/help/adaptive-forms/assets/checkbox_designdialog.png)
+![Boîte de dialogue de conception.](/help/adaptive-forms/assets/checkbox-style.png)
 
-* **Classes CSS par défaut** : vous pouvez fournir une classe CSS par défaut pour le composant principal du groupe de cases à cocher des formulaires adaptatifs.
+- **Classes CSS par défaut** : vous pouvez fournir une classe CSS par défaut pour le composant principal du groupe de cases à cocher des formulaires adaptatifs.
 
-* **Styles autorisés** : vous pouvez définir des styles en fournissant un nom et la classe CSS qui représente le style. Par exemple, vous pouvez créer un style nommé « texte en gras » et fournir la classe CSS « police d’épaisseur : gras ». Vous pouvez utiliser ou appliquer ces styles à un formulaire adaptatif dans l’éditeur de formulaires adaptatifs. Pour appliquer un style, sélectionnez le composant auquel vous souhaitez appliquer le style dans l’éditeur de formulaires adaptatifs, accédez à la boîte de dialogue Propriétés, puis sélectionnez le style de votre choix dans la liste déroulante **Styles**. Si vous devez mettre à jour ou modifier les styles, revenez simplement à la boîte de dialogue Conception, mettez à jour les styles dans l’onglet Styles et enregistrez les modifications.
+- **Styles autorisés** : vous pouvez définir des styles en fournissant un nom et la classe CSS qui représente le style. Par exemple, vous pouvez créer un style nommé « texte en gras » et fournir la classe CSS « police d’épaisseur : gras ». Vous pouvez utiliser ou appliquer ces styles à un formulaire adaptatif dans l’éditeur de formulaires adaptatifs. Pour appliquer un style, sélectionnez le composant auquel vous souhaitez appliquer le style dans l’éditeur de formulaires adaptatifs, accédez à la boîte de dialogue Propriétés, puis sélectionnez le style de votre choix dans la liste déroulante **Styles**. Si vous devez mettre à jour ou modifier les styles, revenez simplement à la boîte de dialogue Conception, mettez à jour les styles dans l’onglet Styles et enregistrez les modifications.
 
-<!--
+### Propriétés personnalisées
 
-## Related article {#related-article}
+![Boîte de dialogue Propriétés personnalisées](/help/adaptive-forms/assets/checkbox-customproperties.png)
 
-* [Create a standalone Adaptive Form](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/creating-adaptive-form-core-components.html)
+Les propriétés personnalisées vous permettent d’associer des attributs personnalisés (paires clé-valeur) à un composant de base de formulaire adaptatif à l’aide du modèle de formulaire. Les propriétés personnalisées sont répercutées dans la section des propriétés du rendu sans en-tête du composant. Il permet de créer un comportement de formulaire dynamique qui s’adapte en fonction des valeurs d’attributs personnalisés. Par exemple, les développeurs peuvent concevoir différents rendus d’un composant Forms sans affichage pour les plateformes mobiles, de bureau ou web, ce qui améliore considérablement l’expérience utilisateur sur un large éventail d’appareils.
 
--->
+- **Nom du groupe**: vous pouvez fournir un nom pour identifier le groupe de propriétés personnalisé. Vous pouvez ajouter, supprimer ou réorganiser plusieurs groupes de propriétés personnalisés. Après avoir ajouté le groupe de propriétés personnalisées, vous pouvez voir les options suivantes :
 
->[!MORELIKETHIS]
->
->* [Accordéon](/help/adaptive-forms/components/accordion.md)
->* [Bouton](/help/adaptive-forms/components/button.md)
->* [Sélecteur de date](/help/adaptive-forms/components/date-picker.md)
->* [Liste déroulante](/help/adaptive-forms/components/drop-down.md)
->* [Entrée d’e-mail](/help/adaptive-forms/components/email-input.md)
->* [Conteneur de formulaires](/help/adaptive-forms/components/form-container.md)
->* [Pièce jointe](/help/adaptive-forms/components/file-attachment.md)
->* [Pied de page](/help/adaptive-forms/components/footer.md)
->* [En-tête](/help/adaptive-forms/components/header.md)
->* [Onglets horizontaux](/help/adaptive-forms/components/horizontal-tabs.md)
->* [Image](/help/adaptive-forms/components/image.md)
->* [Entrée de nombre](/help/adaptive-forms/components/number-input.md)
->* [Conteneur de panneau](/help/adaptive-forms/components/panel-container.md)
->* [Bouton radio](/help/adaptive-forms/components/radio-button.md)
->* [Bouton de réinitialisation](/help/adaptive-forms/components/reset-button.md)
->* [Bouton Envoyer](/help/adaptive-forms/components/submit-button.md)
->* [Entrée téléphonique](/help/adaptive-forms/components/telephone-input.md)
->* [Entrée de texte](/help/adaptive-forms/components/text-input.md)
->* [Texte](/help/adaptive-forms/components/text.md)
->* [Titre](/help/adaptive-forms/components/title.md)
->* [Assistant](/help/adaptive-forms/components/wizard.md)
+   - **Paires clé-valeur**: vous pouvez ajouter plusieurs noms de propriétés personnalisées et valeurs de propriétés personnalisées en cliquant sur le bouton **Ajouter** pour chaque groupe de propriétés personnalisé.
+
+   - **Supprimer**: appuyez ou cliquez sur pour supprimer le nom de propriété personnalisée et la valeur de propriété personnalisée.
+
+   - **Réorganiser**: appuyez ou cliquez dessus et faites glisser pour réorganiser l’ordre du nom de propriété personnalisée et de la valeur de propriété personnalisée.
+
+## Articles connexes {#related-articles}
+
+{{more-like-this}})
 
 ## Voir également {#see-also}
 

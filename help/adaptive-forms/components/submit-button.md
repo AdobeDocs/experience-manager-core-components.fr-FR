@@ -3,10 +3,10 @@ title: Composant principal des formulaires adaptatifs - Bouton Envoyer
 description: Utilisation ou personnalisation du composant principal « Bouton Envoyer » des formulaires adaptifs.
 role: Architect, Developer, Admin, User
 exl-id: e4b8e475-79b9-4c4d-9f11-a125a424d32b
-source-git-commit: be630c4d0a10ebaa679b77419b901fac818addb1
-workflow-type: ht
-source-wordcount: '1188'
-ht-degree: 100%
+source-git-commit: e0ed415bd7f45fdca6fbbb8ba409604d9e82a647
+workflow-type: tm+mt
+source-wordcount: '1380'
+ht-degree: 83%
 
 ---
 
@@ -16,15 +16,19 @@ Un bouton Envoyer dans un formulaire adaptatif est un bouton qui permet aux util
 
 Le bouton Envoyer est généralement la dernière étape du processus de remplissage du formulaire. Il est utilisé pour lancer le processus d’envoi des données de formulaire au serveur.
 
+**Exemple**
+
+![Exemple de bouton](/help/adaptive-forms/assets/example-button.png)
+
 ## Utilisation {#reasons-to-use-submit-button}
 
 Les raisons pour lesquelles utiliser un bouton Envoyer dans un formulaire adaptatif sont les suivantes :
 
-* **Envoi de données** : le bouton Envoyer est le mécanisme principal pour envoyer des données de formulaire à un serveur en vue de leur traitement.
+- **Envoi de données** : le bouton Envoyer est le mécanisme principal pour envoyer des données de formulaire à un serveur en vue de leur traitement.
 
-* **Expérience utilisateur améliorée** : un bouton Envoyer bien conçu peut améliorer l’expérience de l’utilisateur ou de l’utilisatrice en fournissant des commentaires clairs sur le processus d’envoi du formulaire et en indiquant le moment où le formulaire a bien été envoyé.
+- **Expérience utilisateur améliorée** : un bouton Envoyer bien conçu peut améliorer l’expérience de l’utilisateur ou de l’utilisatrice en fournissant des commentaires clairs sur le processus d’envoi du formulaire et en indiquant le moment où le formulaire a bien été envoyé.
 
-* **Validation des données** : le bouton Envoyer peut être utilisé pour déclencher des contrôles de validation des données, en veillant à ce que les données du formulaire soient complètes et précises avant d’être envoyées au serveur.
+- **Validation des données** : le bouton Envoyer peut être utilisé pour déclencher des contrôles de validation des données, en veillant à ce que les données du formulaire soient complètes et précises avant d’être envoyées au serveur.
 
 
 ## Version et compatibilité {#version-and-compatibility}
@@ -53,25 +57,26 @@ Vous pouvez facilement personnaliser l’expérience du bouton Envoyer pour les 
 
 ![Onglet De base](/help/adaptive-forms/assets/button_basictab.png)
 
-* **Nom** - Vous pouvez identifier facilement un composant de formulaire avec son nom unique aussi bien dans le formulaire et dans l’éditeur de règles, mais le nom ne doit pas contenir d’espaces ni de caractères spéciaux.
+- **Nom** - Vous pouvez identifier facilement un composant de formulaire avec son nom unique aussi bien dans le formulaire et dans l’éditeur de règles, mais le nom ne doit pas contenir d’espaces ni de caractères spéciaux.
 
-* **Titre** - Avec son titre, vous pouvez facilement identifier un composant dans un formulaire. Par défaut, le titre s’affiche au-dessus du composant. Si vous n’ajoutez pas de titre, le nom du composant s’affiche à la place du texte du titre.
+- **Titre** - Avec son titre, vous pouvez facilement identifier un composant dans un formulaire. Par défaut, le titre s’affiche au-dessus du composant. Si vous n’ajoutez pas de titre, le nom du composant s’affiche à la place du texte du titre.
 
-* **Référence Bind** - Une référence Bind est une référence à un élément de données stockée dans une source de données externe et utilisée dans un formulaire. La référence de liaison vous permet de lier dynamiquement les données aux champs du formulaire, de sorte que le formulaire puisse afficher les données les plus récentes de la source de données. Par exemple, une référence de liaison peut être utilisée pour afficher le nom et l’adresse d’un client ou d’une cliente dans un formulaire, en fonction de l’identifiant du client ou de la cliente saisi dans le formulaire. La référence de liaison peut également être utilisée pour mettre à jour la source de données avec les données saisies dans le formulaire. Ainsi, AEM Forms vous permet de créer des formulaires qui interagissent avec des sources de données externes, offrant ainsi une expérience utilisateur fluide pour la collecte et la gestion des données.
+- **Référence Bind** - Une référence Bind est une référence à un élément de données stockée dans une source de données externe et utilisée dans un formulaire. La référence de liaison vous permet de lier dynamiquement les données aux champs du formulaire, de sorte que le formulaire puisse afficher les données les plus récentes de la source de données. Par exemple, une référence de liaison peut être utilisée pour afficher le nom et l’adresse d’un client ou d’une cliente dans un formulaire, en fonction de l’identifiant du client ou de la cliente saisi dans le formulaire. La référence de liaison peut également être utilisée pour mettre à jour la source de données avec les données saisies dans le formulaire. Ainsi, AEM Forms vous permet de créer des formulaires qui interagissent avec des sources de données externes, offrant ainsi une expérience utilisateur fluide pour la collecte et la gestion des données.
+- **Marquer comme élément de formulaire non lié**: sélectionnez l’option de configuration d’un champ de formulaire non lié à un schéma. Cette option vous permet d’enregistrer des données sans mettre à jour la source de données. Il vous permet également de gérer les données de manière personnalisée, en les séparant de l’intégration de base de données standard.
 
-* **Masquer le composant** - Sélectionnez cette option pour masquer le composant du formulaire. Le composant reste accessible à d’autres fins, par exemple pour les calculs dans l’éditeur de règles. Cela s’avère utile lorsque vous devez stocker des informations qui n’ont pas besoin d’être affichées ou directement modifiées par les utilisateurs ou les utilisatrices.
-* **Désactiver le composant** - Sélectionnez cette option pour désactiver le composant. Le composant désactivé n’est pas actif ni modifiable par l’utilisateur final ou l’utilisatrice finale. L’utilisateur ou l’utilisatrice peut voir la valeur du champ mais ne peut pas la modifier. Le composant reste accessible à d’autres fins, par exemple pour les calculs dans l’éditeur de règles.
-* **Lecture seule** - Sélectionnez cette option pour rendre le composant non modifiable. L’utilisateur ou l’utilisatrice peut voir la valeur du champ mais ne peut pas la modifier. Le composant reste accessible à d’autres fins, par exemple pour les calculs dans l’éditeur de règles.
+- **Masquer le composant** - Sélectionnez cette option pour masquer le composant du formulaire. Le composant reste accessible à d’autres fins, par exemple pour les calculs dans l’éditeur de règles. Cela s’avère utile lorsque vous devez stocker des informations qui n’ont pas besoin d’être affichées ou directement modifiées par les utilisateurs ou les utilisatrices.
+- **Désactiver le composant** - Sélectionnez cette option pour désactiver le composant. Le composant désactivé n’est pas actif ni modifiable par l’utilisateur final ou l’utilisatrice finale. L’utilisateur ou l’utilisatrice peut voir la valeur du champ mais ne peut pas la modifier. Le composant reste accessible à d’autres fins, par exemple pour les calculs dans l’éditeur de règles.
+- **Lecture seule** - Sélectionnez cette option pour rendre le composant non modifiable. L’utilisateur ou l’utilisatrice peut voir la valeur du champ mais ne peut pas la modifier. Le composant reste accessible à d’autres fins, par exemple pour les calculs dans l’éditeur de règles.
 
 ### Onglet Contenu de l’aide {#help-content}
 
 ![Onglet Contenu d’aide](/help/adaptive-forms/assets/button_helptab.png)
 
-* **Description courte** : Une description courte est une brève explication textuelle qui fournit des informations supplémentaires ou une clarification sur l’objectif d’un champ de formulaire spécifique. Il permet à l’utilisateur ou l’utilisatrice de comprendre le type de données à saisir dans le champ et peut fournir des conseils ou des exemples pour s’assurer que les informations saisies sont valides et répondent aux critères souhaités. Par défaut, les descriptions courtes restent masquées. Activez l’option **Toujours afficher une description courte** pour l’afficher sous le composant.
+- **Description courte** : Une description courte est une brève explication textuelle qui fournit des informations supplémentaires ou une clarification sur l’objectif d’un champ de formulaire spécifique. Il permet à l’utilisateur ou l’utilisatrice de comprendre le type de données à saisir dans le champ et peut fournir des conseils ou des exemples pour s’assurer que les informations saisies sont valides et répondent aux critères souhaités. Par défaut, les descriptions courtes restent masquées. Activez l’option **Toujours afficher une description courte** pour l’afficher sous le composant.
 
-* **Toujours afficher une description courte** - Activez cette option pour afficher la description courte sous le composant.
+- **Toujours afficher une description courte** - Activez cette option pour afficher la description courte sous le composant.
 
-* **Texte d’aide** - Le texte d’aide fait référence à des informations ou des conseils supplémentaires fournis à l’utilisateur ou à l’utilisatrice pour l’aider à remplir correctement un champ de formulaire. Il s’affiche lorsque l’utilisateur ou l’utilisatrice clique sur l’icône d’aide (i) placée à côté du composant. Le texte d’aide fournit des informations plus détaillées que le texte du libellé ou de l’espace réservé d’un champ de formulaire. Il est conçu pour aider l’utilisateur ou l’utilisatrice à comprendre les exigences ou les contraintes du champ. Il peut également proposer des suggestions ou des exemples pour faciliter le remplissage du formulaire et le rendre plus précis.
+- **Texte d’aide** - Le texte d’aide fait référence à des informations ou des conseils supplémentaires fournis à l’utilisateur ou à l’utilisatrice pour l’aider à remplir correctement un champ de formulaire. Il s’affiche lorsque l’utilisateur ou l’utilisatrice clique sur l’icône d’aide (i) placée à côté du composant. Le texte d’aide fournit des informations plus détaillées que le texte du libellé ou de l’espace réservé d’un champ de formulaire. Il est conçu pour aider l’utilisateur ou l’utilisatrice à comprendre les exigences ou les contraintes du champ. Il peut également proposer des suggestions ou des exemples pour faciliter le remplissage du formulaire et le rendre plus précis.
 
 ### Accessibilité {#accessibility}
 
@@ -87,45 +92,29 @@ La boîte de dialogue de conception permet de définir et de gérer les styles C
 
 Cet onglet vous permet de définir et de gérer les styles CSS d’un composant. Le composant principal « Bouton Envoyer » des formulaires adaptatifs prend en charge le [Système de style](/help/get-started/authoring.md#component-styling) d’AEM.
 
-![Boîte de dialogue de conception.](/help/adaptive-forms/assets/reset_designdialog.png)
+![Boîte de dialogue de conception.](/help/adaptive-forms/assets/checkbox-style.png)
 
+- **Classes CSS par défaut** : vous pouvez fournir une classe CSS par défaut pour le composant principal du groupe de cases à cocher des formulaires adaptatifs.
 
-* **Classes CSS par défaut** : vous pouvez fournir une classe CSS par défaut pour le composant principal « Bouton Envoyer » des formulaires adaptatifs.
+- **Styles autorisés** : vous pouvez définir des styles en fournissant un nom et la classe CSS qui représente le style. Par exemple, vous pouvez créer un style nommé « texte en gras » et fournir la classe CSS « police d’épaisseur : gras ». Vous pouvez utiliser ou appliquer ces styles à un formulaire adaptatif dans l’éditeur de formulaires adaptatifs. Pour appliquer un style, sélectionnez le composant auquel vous souhaitez appliquer le style dans l’éditeur de formulaires adaptatifs, accédez à la boîte de dialogue Propriétés, puis sélectionnez le style de votre choix dans la liste déroulante **Styles**. Si vous devez mettre à jour ou modifier les styles, revenez simplement à la boîte de dialogue Conception, mettez à jour les styles dans l’onglet Styles et enregistrez les modifications.
 
-* **Styles autorisés** : vous pouvez définir des styles en fournissant un nom et la classe CSS qui représente le style. Par exemple, vous pouvez créer un style nommé « texte en gras » et fournir la classe CSS « police d’épaisseur : gras ». Vous pouvez utiliser ou appliquer ces styles à un formulaire adaptatif dans l’éditeur de formulaires adaptatifs. Pour appliquer un style, sélectionnez le composant auquel vous souhaitez appliquer le style dans l’éditeur de formulaires adaptatifs, accédez à la boîte de dialogue Propriétés, puis sélectionnez le style de votre choix dans la liste déroulante **Styles**. Si vous devez mettre à jour ou modifier les styles, revenez simplement à la boîte de dialogue Conception, mettez à jour les styles dans l’onglet Styles et enregistrez les modifications.
+### Propriétés personnalisées
 
-<!--
+![Boîte de dialogue Propriétés personnalisées](/help/adaptive-forms/assets/checkbox-customproperties.png)
 
-## Related article {#related-article}
+Les propriétés personnalisées vous permettent d’associer des attributs personnalisés (paires clé-valeur) à un composant de base de formulaire adaptatif à l’aide du modèle de formulaire. Les propriétés personnalisées sont répercutées dans la section des propriétés du rendu sans en-tête du composant. Il permet de créer un comportement de formulaire dynamique qui s’adapte en fonction des valeurs d’attributs personnalisés. Par exemple, les développeurs peuvent concevoir différents rendus d’un composant Forms sans affichage pour les plateformes mobiles, de bureau ou web, ce qui améliore considérablement l’expérience utilisateur sur un large éventail d’appareils.
 
-* [Create a standalone Adaptive Form](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/creating-adaptive-form-core-components.html)
+- **Nom du groupe**: vous pouvez fournir un nom pour identifier le groupe de propriétés personnalisé. Vous pouvez ajouter, supprimer ou réorganiser plusieurs groupes de propriétés personnalisés. Après avoir ajouté le groupe de propriétés personnalisées, vous pouvez voir les options suivantes :
 
--->
+   - **Paires clé-valeur**: vous pouvez ajouter plusieurs noms de propriétés personnalisées et valeurs de propriétés personnalisées en cliquant sur le bouton **Ajouter** pour chaque groupe de propriétés personnalisé.
 
+   - **Supprimer**: appuyez ou cliquez sur pour supprimer le nom de propriété personnalisée et la valeur de propriété personnalisée.
 
->[!MORELIKETHIS]
->
->* [Accordéon](/help/adaptive-forms/components/accordion.md)
->* [Bouton](/help/adaptive-forms/components/button.md)
->* [Groupe de cases à cocher](/help/adaptive-forms/components/checkbox-group.md)
->* [Sélecteur de date](/help/adaptive-forms/components/date-picker.md)
->* [Liste déroulante](/help/adaptive-forms/components/drop-down.md)
->* [Entrée d’e-mail](/help/adaptive-forms/components/email-input.md)
->* [Conteneur de formulaires](/help/adaptive-forms/components/form-container.md)
->* [Pièce jointe](/help/adaptive-forms/components/file-attachment.md)
->* [Pied de page](/help/adaptive-forms/components/footer.md)
->* [En-tête](/help/adaptive-forms/components/header.md)
->* [Onglets horizontaux](/help/adaptive-forms/components/horizontal-tabs.md)
->* [Image](/help/adaptive-forms/components/image.md)
->* [Entrée de nombre](/help/adaptive-forms/components/number-input.md)
->* [Conteneur de panneau](/help/adaptive-forms/components/panel-container.md)
->* [Bouton radio](/help/adaptive-forms/components/radio-button.md)
->* [Bouton de réinitialisation](/help/adaptive-forms/components/reset-button.md)
->* [Entrée téléphonique](/help/adaptive-forms/components/telephone-input.md)
->* [Entrée de texte](/help/adaptive-forms/components/text-input.md)
->* [Texte](/help/adaptive-forms/components/text.md)
->* [Titre](/help/adaptive-forms/components/title.md)
->* [Assistant](/help/adaptive-forms/components/wizard.md)
+   - **Réorganiser**: appuyez ou cliquez dessus et faites glisser pour réorganiser l’ordre du nom de propriété personnalisée et de la valeur de propriété personnalisée.
+
+## Articles connexes {#related-articles}
+
+{{more-like-this}}
 
 
 ## Voir également {#see-also}

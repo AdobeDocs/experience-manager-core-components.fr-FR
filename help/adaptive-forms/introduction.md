@@ -3,10 +3,10 @@ title: Présentation des composants principaux des formulaires adaptatifs AEM
 description: Créez des expériences d’inscription attrayantes (formulaires) grâce à la flexibilité des composants principaux des formulaires adaptatifs et diffusez-les avec la puissance d’Adobe Experience Manager.
 role: Architect, Developer, Admin, User
 exl-id: 6d0f2845-bbb8-4488-a254-b69d7a6290b1
-source-git-commit: 0bebc248ee2b708f7677950d90356abd5bc70a98
-workflow-type: ht
-source-wordcount: '1264'
-ht-degree: 100%
+source-git-commit: 1dbbb598c0856b76c076f322cdf0210bf38ee9e8
+workflow-type: tm+mt
+source-wordcount: '1267'
+ht-degree: 99%
 
 ---
 
@@ -30,7 +30,7 @@ Ces composants peuvent être utilisés pour créer des expériences de capture d
 
 En outre, comme ces composants sont en open source, les développeurs et les développeuses peuvent facilement les personnaliser et les étendre pour répondre aux besoins spécifiques de leur entreprise. De plus, ces composants sont construits sur une méthodologie BEM qui garantit leur évolutivité et leur mise à jour.
 
-![](assets/sample-adaptive-form.png)
+![image de formulaire adaptatif](assets/sample-adaptive-form.png)
 
 ## Fonctions {#features}
 

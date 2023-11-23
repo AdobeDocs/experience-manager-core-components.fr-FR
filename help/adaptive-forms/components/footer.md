@@ -3,9 +3,9 @@ title: Composant principal des formulaires adaptatifs - Pied de page
 description: Utilisation ou personnalisation du composant principal Pied de page des formulaires adaptatifs.
 role: Architect, Developer, Admin, User
 exl-id: c8e7d3fe-4b82-4a80-8da2-19f6cff1e3e9
-source-git-commit: be630c4d0a10ebaa679b77419b901fac818addb1
-workflow-type: ht
-source-wordcount: '807'
+source-git-commit: e0ed415bd7f45fdca6fbbb8ba409604d9e82a647
+workflow-type: tm+mt
+source-wordcount: '775'
 ht-degree: 100%
 
 ---
@@ -16,21 +16,21 @@ Un composant Pied de page d’un formulaire adaptatif est une zone qui s’affic
 
 **Exemple**
 
-![](/help/adaptive-forms/assets/footer.png)
+![exemple](/help/adaptive-forms/assets/footer.png)
 
 ## Utilisation {#reasons-to-use-footer}
 
 Il existe plusieurs raisons pour lesquelles il est bénéfique d’inclure un composant Pied de page dans un formulaire, notamment :
 
-* **Exigences juridiques** : il peut être requis pour certains formulaires d’inclure une clause de non-responsabilité, un avis de copyright ou d’autres informations juridiques. Un pied de page est un endroit pratique pour inclure ces informations.
+- **Exigences juridiques** : il peut être requis pour certains formulaires d’inclure une clause de non-responsabilité, un avis de copyright ou d’autres informations juridiques. Un pied de page est un endroit pratique pour inclure ces informations.
 
-* **Navigation** : un pied de page peut fournir des liens vers d’autres pages importantes du site Web, telles qu’une politique de confidentialité, les conditions d’utilisation ou une page de contact.
+- **Navigation** : un pied de page peut fournir des liens vers d’autres pages importantes du site Web, telles qu’une politique de confidentialité, les conditions d’utilisation ou une page de contact.
 
-* **Image de marque** : un pied de page peut être utilisé pour inclure un logo ou d’autres éléments d’image de marque, ce qui contribue à renforcer l’identité de l’organisation ou du site Web.
+- **Image de marque** : un pied de page peut être utilisé pour inclure un logo ou d’autres éléments d’image de marque, ce qui contribue à renforcer l’identité de l’organisation ou du site Web.
 
-* **Cohérence** : un pied de page est cohérent au niveau de la conception et de la mise en page du formulaire, ce qui rend la navigation plus intuitive et plus facile pour les utilisateurs et les utilisatrices.
+- **Cohérence** : un pied de page est cohérent au niveau de la conception et de la mise en page du formulaire, ce qui rend la navigation plus intuitive et plus facile pour les utilisateurs et les utilisatrices.
 
-* **Contexte supplémentaire** : un pied de page peut fournir un contexte supplémentaire au formulaire, tel qu’un texte décrivant le formulaire ou un lien vers des ressources associées, ce qui le rend plus informatif et convivial.
+- **Contexte supplémentaire** : un pied de page peut fournir un contexte supplémentaire au formulaire, tel qu’un texte décrivant le formulaire ou un lien vers des ressources associées, ce qui le rend plus informatif et convivial.
 
 ## Version et compatibilité {#version-and-compatibility}
 
@@ -57,53 +57,53 @@ Vous pouvez facilement personnaliser votre expérience de pied de page pour les 
 
 ![Onglet Propriétés](/help/adaptive-forms/assets/footer_propertiestab.png)
 
-* **Boîte de dialogue Modifier**
+- **Boîte de dialogue Modifier**
 La boîte de dialogue de modification fournit des outils de mise en forme de texte enrichi standard qui permettent à l’utilisateur ou à l’utilisatrice de créer du texte pour le pied de page.
 
-* **Gras** - Cette option est utilisée pour appliquer le format Gras au texte sélectionné ou au texte saisi après le curseur. `Ctrl+B` est un raccourci clavier.
+- **Gras** - Cette option est utilisée pour appliquer le format Gras au texte sélectionné ou au texte saisi après le curseur. `Ctrl+B` est un raccourci clavier.
 
-* **Italique** - Cette option applique une mise en forme en italique au texte sélectionné ou au texte saisi après le curseur. `Ctrl+I` est un raccourci clavier.
+- **Italique** - Cette option applique une mise en forme en italique au texte sélectionné ou au texte saisi après le curseur. `Ctrl+I` est un raccourci clavier.
 
 ![Options de puces](/help/adaptive-forms/assets/footer_bullet.png)
 
 
-* **Puce**
+- **Puce**
 
-   * **Icône Puces** - Utilisée pour formater le texte sélectionné sous forme d’une liste à puces ou commencer l’insertion d’une liste à puces après le curseur. Pour mettre fin à une liste à puces, appuyez ou cliquez de nouveau sur le bouton Puces ou saisissez deux retours chariot.
+   - **Icône Puces** - Utilisée pour formater le texte sélectionné sous forme d’une liste à puces ou commencer l’insertion d’une liste à puces après le curseur. Pour mettre fin à une liste à puces, appuyez ou cliquez de nouveau sur le bouton Puces ou saisissez deux retours chariot.
 
-   * **Icône Liste numérotée** - Utilisée pour mettre en forme le texte sélectionné sous forme de liste numérotée ou commencer l’insertion d’une liste numérotée après le curseur. Pour mettre fin à une liste numérotée, appuyez ou cliquez de nouveau sur le bouton Numérotée ou saisissez deux retours chariot.
+   - **Icône Liste numérotée** - Utilisée pour mettre en forme le texte sélectionné sous forme de liste numérotée ou commencer l’insertion d’une liste numérotée après le curseur. Pour mettre fin à une liste numérotée, appuyez ou cliquez de nouveau sur le bouton Numérotée ou saisissez deux retours chariot.
 
-   * **Icône Ajouter un retrait négatif** : Ajoute un retrait négatif au texte ou du texte saisi après le curseur. Uniquement actif si le texte ou la position sélectionnés du curseur est déjà mis en retrait.
+   - **Icône Ajouter un retrait négatif** : Ajoute un retrait négatif au texte ou du texte saisi après le curseur. Uniquement actif si le texte ou la position sélectionnés du curseur est déjà mis en retrait.
 
-   * **Icône Mettre en retrait** - Met en retrait le texte ou le texte sélectionné après le curseur.
+   - **Icône Mettre en retrait** - Met en retrait le texte ou le texte sélectionné après le curseur.
 
 ![Options d’hyperlien](/help/adaptive-forms/assets/footer_link.png)
 
-* **Lien hypertexte**
+- **Lien hypertexte**
 
-   * **Chemin** - Saisir le chemin
+   - **Chemin** - Saisir le chemin
       1. Utilisation de la boîte de dialogue Ouvrir la sélection pour choisir un chemin dans AEM.
       1. Si le lien ne se trouve pas dans AEM, saisissez l’URL absolue.
       1. Les chemins non absolus sont interprétés comme relatifs à AEM.
 
-   * **Texte secondaire** - Saisir un autre texte descriptif pour le lien.
+   - **Texte secondaire** - Saisir un autre texte descriptif pour le lien.
 
-   * **Cible** - Sélectionner le comportement du lien
-      * Cible
-      * Même onglet
-      * Nouvel onglet
-      * Cadre parent
-      * Cadre supérieur
+   - **Cible** - Sélectionner le comportement du lien
+      - Cible
+      - Même onglet
+      - Nouvel onglet
+      - Cadre parent
+      - Cadre supérieur
 
-   * **Icône Dissocier** - Cette option supprime un lien déjà appliqué au texte sélectionné. Cette option est uniquement active lorsqu’un lien est déjà sélectionné.
+   - **Icône Dissocier** - Cette option supprime un lien déjà appliqué au texte sélectionné. Cette option est uniquement active lorsqu’un lien est déjà sélectionné.
 
-   * **Icône Format de paragraphe** - Cette option vous permet d’appliquer une mise en forme de paragraphe au texte sélectionné. Elle permet également de mettre en forme le texte inséré après le curseur. Définit le niveau d’en-tête du titre.
+   - **Icône Format de paragraphe** - Cette option vous permet d’appliquer une mise en forme de paragraphe au texte sélectionné. Elle permet également de mettre en forme le texte inséré après le curseur. Définit le niveau d’en-tête du titre.
 
-* **ID** : cette option permet de contrôler l’identifiant unique du composant dans le code HTML ainsi que dans la couche de données.
+- **ID** : cette option permet de contrôler l’identifiant unique du composant dans le code HTML ainsi que dans la couche de données.
 
-   * Si rien n’est indiqué, un ID unique est généré automatiquement et peut être trouvé en examinant la page obtenue.
-   * Si un ID est spécifié, il incombe à l’auteur de s’assurer qu’il est unique.
-   * La modification de l’ID peut avoir un impact sur le suivi CSS, JS et de couche de données.
+   - Si rien n’est indiqué, un ID unique est généré automatiquement et peut être trouvé en examinant la page obtenue.
+   - Si un ID est spécifié, il incombe à l’auteur de s’assurer qu’il est unique.
+   - La modification de l’ID peut avoir un impact sur le suivi CSS, JS et de couche de données.
 
 <!--
 
@@ -113,31 +113,9 @@ La boîte de dialogue de modification fournit des outils de mise en forme de tex
 
 -->
 
+## Articles connexes {#related-articles}
 
->[!MORELIKETHIS]
->
->* [Accordéon](/help/adaptive-forms/components/accordion.md)
->* [Bouton](/help/adaptive-forms/components/button.md)
->* [Groupe de cases à cocher](/help/adaptive-forms/components/checkbox-group.md)
->* [Sélecteur de date](/help/adaptive-forms/components/date-picker.md)
->* [Liste déroulante](/help/adaptive-forms/components/drop-down.md)
->* [Entrée d’e-mail](/help/adaptive-forms/components/email-input.md)
->* [Conteneur de formulaires](/help/adaptive-forms/components/form-container.md)
->* [Pièce jointe](/help/adaptive-forms/components/file-attachment.md)
->* [En-tête](/help/adaptive-forms/components/header.md)
->* [Onglets horizontaux](/help/adaptive-forms/components/horizontal-tabs.md)
->* [Image](/help/adaptive-forms/components/image.md)
->* [Entrée de nombre](/help/adaptive-forms/components/number-input.md)
->* [Conteneur de panneau](/help/adaptive-forms/components/panel-container.md)
->* [Bouton radio](/help/adaptive-forms/components/radio-button.md)
->* [Bouton de réinitialisation](/help/adaptive-forms/components/reset-button.md)
->* [Bouton Envoyer](/help/adaptive-forms/components/submit-button.md)
->* [Entrée téléphonique](/help/adaptive-forms/components/telephone-input.md)
->* [Entrée de texte](/help/adaptive-forms/components/text-input.md)
->* [Texte](/help/adaptive-forms/components/text.md)
->* [Titre](/help/adaptive-forms/components/title.md)
->* [Assistant](/help/adaptive-forms/components/wizard.md)
-
+{{more-like-this}}
 
 ## Voir également {#see-also}
 

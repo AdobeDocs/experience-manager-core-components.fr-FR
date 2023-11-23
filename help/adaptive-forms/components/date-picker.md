@@ -3,10 +3,10 @@ title: Composant principal des formulaires adaptatifs - Sélecteur de date
 description: Utilisation ou personnalisation du composant principal Sélecteur de date des formulaires adaptatifs.
 role: Architect, Developer, Admin, User
 exl-id: aa9402de-ca57-4c19-8d36-2dd0a78d6806
-source-git-commit: be630c4d0a10ebaa679b77419b901fac818addb1
-workflow-type: ht
-source-wordcount: '1702'
-ht-degree: 100%
+source-git-commit: 93acf5f6f11da42a7834bbb11b15a36db1e03dc9
+workflow-type: tm+mt
+source-wordcount: '1906'
+ht-degree: 87%
 
 ---
 
@@ -22,17 +22,17 @@ Un composant de sélecteur de date dans un formulaire adaptatif est un élément
 
 Plusieurs raisons expliquent l’intérêt d’inclure un sélecteur de date dans un formulaire adaptatif, notamment :
 
-* **Convivialité** : un composant de sélecteur de date permet aux utilisateurs et aux utilisatrices de sélectionner facilement une date d’un calendrier sans avoir à saisir manuellement cette date dans un champ de texte. Cela peut vous faire gagner du temps et réduire les erreurs.
+- **Convivialité** : un composant de sélecteur de date permet aux utilisateurs et aux utilisatrices de sélectionner facilement une date d’un calendrier sans avoir à saisir manuellement cette date dans un champ de texte. Cela peut vous faire gagner du temps et réduire les erreurs.
 
-* **Expérience utilisateur** : le composant Sélecteur de date peut être utilisé pour rendre le formulaire plus convivial en offrant une méthode claire et intuitive de sélection de date pour les utilisateurs et les utilisatrices.
+- **Expérience utilisateur** : le composant Sélecteur de date peut être utilisé pour rendre le formulaire plus convivial en offrant une méthode claire et intuitive de sélection de date pour les utilisateurs et les utilisatrices.
 
-* **Analyse des données** : le composant Sélecteur de date peut être utilisé pour collecter des données provenant de diverses sources et les analyser, ou pour les utiliser comme entrée pour un traitement ultérieur.
+- **Analyse des données** : le composant Sélecteur de date peut être utilisé pour collecter des données provenant de diverses sources et les analyser, ou pour les utiliser comme entrée pour un traitement ultérieur.
 
-* **Gestion des événements** : le composant Sélecteur de date peut être utilisé dans les sites Web de gestion des événements pour sélectionner la date de l’événement.
+- **Gestion des événements** : le composant Sélecteur de date peut être utilisé dans les sites Web de gestion des événements pour sélectionner la date de l’événement.
 
-* **Réservations** : le composant Sélecteur de date peut être utilisé dans les sites Web de réservation pour sélectionner les dates d’entrée et de sortie.
+- **Réservations** : le composant Sélecteur de date peut être utilisé dans les sites Web de réservation pour sélectionner les dates d’entrée et de sortie.
 
-* **Format de date** : le composant Sélecteur de date peut être utilisé pour corriger le format d’affichage et de saisie de la date. Assurez-vous que le format de date est cohérent dans l’ensemble du formulaire pour garantir une expérience utilisateur cohérente.
+- **Format de date** : le composant Sélecteur de date peut être utilisé pour corriger le format d’affichage et de saisie de la date. Assurez-vous que le format de date est cohérent dans l’ensemble du formulaire pour garantir une expérience utilisateur cohérente.
 
 ## Version et compatibilité {#version-and-compatibility}
 
@@ -61,48 +61,50 @@ Vous pouvez facilement personnaliser votre expérience de sélecteur de date pou
 
 ![Onglet De base](/help/adaptive-forms/assets/datepicker_basictab.png)
 
-* **Nom** - Le nom identifie de manière unique le composant dans l’éditeur de règles. Les caractères spéciaux et les espaces ne sont pas autorisés dans les chaînes de nom.
+- **Nom** - Le nom identifie de manière unique le composant dans l’éditeur de règles. Les caractères spéciaux et les espaces ne sont pas autorisés dans les chaînes de nom.
 
-* **Titre** - Le titre est une chaîne qui s’affiche en haut d’un composant dans un formulaire adaptatif. Le titre identifie de manière unique le composant dans l’arborescence d’un formulaire adaptatif. Si vous n’ajoutez pas de titre, le nom du composant s’affiche à la place du texte du titre.
+- **Titre** - Le titre est une chaîne qui s’affiche en haut d’un composant dans un formulaire adaptatif. Le titre identifie de manière unique le composant dans l’arborescence d’un formulaire adaptatif. Si vous n’ajoutez pas de titre, le nom du composant s’affiche à la place du texte du titre.
 
-* **Masquer le titre** - Sélectionnez cette option pour masquer le titre du type de composant dans un formulaire adaptatif.
+- **Masquer le titre** - Sélectionnez cette option pour masquer le titre du type de composant dans un formulaire adaptatif.
 
-* **Texte d’espace réservé** - Le texte d’espace réservé dans un composant de formulaire fait référence à un libellé court ou à une invite qui apparaît dans un champ de saisie comme conseil à l’utilisateur ou à l’utilisatrice sur le type d’information à saisir dans ce champ. Le texte d’espace réservé disparaît lorsque l’utilisateur ou l’utilisatrice commence à saisir du texte dans le champ et réapparaît si le champ est vide. Il fournit un indice visuel à l’utilisateur ou à l’utilisatrice, mais n’agit pas comme une valeur ou un libellé permanent pour le champ.
+- **Texte d’espace réservé** - Le texte d’espace réservé dans un composant de formulaire fait référence à un libellé court ou à une invite qui apparaît dans un champ de saisie comme conseil à l’utilisateur ou à l’utilisatrice sur le type d’information à saisir dans ce champ. Le texte d’espace réservé disparaît lorsque l’utilisateur ou l’utilisatrice commence à saisir du texte dans le champ et réapparaît si le champ est vide. Il fournit un indice visuel à l’utilisateur ou à l’utilisatrice, mais n’agit pas comme une valeur ou un libellé permanent pour le champ.
 
-* **Masquer le composant** - Sélectionnez cette option pour masquer le composant du formulaire. Le composant reste accessible à d’autres fins, par exemple pour les calculs dans l’éditeur de règles. Cela s’avère utile lorsque vous devez stocker des informations qui n’ont pas besoin d’être affichées ou directement modifiées par les utilisateurs ou les utilisatrices.
-* **Désactiver le composant** - Sélectionnez cette option pour désactiver le composant. Le composant désactivé n’est pas actif ni modifiable par l’utilisateur final ou l’utilisatrice finale. L’utilisateur ou l’utilisatrice peut voir la valeur du champ mais ne peut pas la modifier. Le composant reste accessible à d’autres fins, par exemple pour les calculs dans l’éditeur de règles.
-* **Lecture seule** - Sélectionnez cette option pour rendre le composant non modifiable. L’utilisateur ou l’utilisatrice peut voir la valeur du champ mais ne peut pas la modifier. Le composant reste accessible à d’autres fins, par exemple pour les calculs dans l’éditeur de règles.
-* **Date par défaut** - Cette option vous permet d’ajouter une date au champ de formulaire. La date saisie s’affiche par défaut à l’emplacement du composant. Si aucune date n’est saisie par l’utilisateur ou l’utilisatrice, cette valeur est envoyée au moment de l’envoi du formulaire. Dans le cas où **Composant désactivé** ou **Composant en lecture seule** est sélectionné, la date par défaut s’affiche à l’écran et est envoyée au moment de l’envoi du formulaire.
+- **Marquer comme élément de formulaire non lié**: sélectionnez l’option de configuration d’un champ de formulaire non lié à un schéma. Cette option vous permet d’enregistrer des données sans mettre à jour la source de données. Il vous permet également de gérer les données de manière personnalisée, en les séparant de l’intégration de base de données standard.
+
+- **Masquer le composant** - Sélectionnez cette option pour masquer le composant du formulaire. Le composant reste accessible à d’autres fins, par exemple pour les calculs dans l’éditeur de règles. Cela s’avère utile lorsque vous devez stocker des informations qui n’ont pas besoin d’être affichées ou directement modifiées par les utilisateurs ou les utilisatrices.
+- **Désactiver le composant** - Sélectionnez cette option pour désactiver le composant. Le composant désactivé n’est pas actif ni modifiable par l’utilisateur final ou l’utilisatrice finale. L’utilisateur ou l’utilisatrice peut voir la valeur du champ mais ne peut pas la modifier. Le composant reste accessible à d’autres fins, par exemple pour les calculs dans l’éditeur de règles.
+- **Lecture seule** - Sélectionnez cette option pour rendre le composant non modifiable. L’utilisateur ou l’utilisatrice peut voir la valeur du champ mais ne peut pas la modifier. Le composant reste accessible à d’autres fins, par exemple pour les calculs dans l’éditeur de règles.
+- **Date par défaut** - Cette option vous permet d’ajouter une date au champ de formulaire. La date saisie s’affiche par défaut à l’emplacement du composant. Si aucune date n’est saisie par l’utilisateur ou l’utilisatrice, cette valeur est envoyée au moment de l’envoi du formulaire. Dans le cas où **Composant désactivé** ou **Composant en lecture seule** est sélectionné, la date par défaut s’affiche à l’écran et est envoyée au moment de l’envoi du formulaire.
 
 
 ### Onglet Validation {#validation-tab}
 
 ![Onglet Validation](/help/adaptive-forms/assets/datepicker_validation.png)
 
-* **Obligatoire** : sélectionnez cette option si vous souhaitez afficher le composant dans un formulaire adaptatif. Vous ne pouvez pas sélectionner **Masquer le composant** ou **Désactiver le composant** sous l’onglet **De base** lorsque cette option est sélectionnée.
+- **Obligatoire** : Sélectionnez cette option si vous souhaitez afficher le composant dans un formulaire adaptatif. Après avoir sélectionné cette option, vous devez effectuer une sélection avant de poursuivre l’envoi du formulaire. Vous ne pouvez pas sélectionner **Masquer le composant** ou **Désactiver le composant** sous l’onglet **De base** lorsque cette option est sélectionnée.
 
-* **Message d’erreur** : cette option vous permet de rédiger un message qui s’affiche si la case à cocher **Obligatoire** est activée et le champ de formulaire reste vide.
+- **Message d’erreur** : cette option vous permet de rédiger un message qui s’affiche si la case à cocher **Obligatoire** est activée et le champ de formulaire reste vide.
 
-* **Message de validation de script** : cette option permet de rédiger un message à afficher en cas d’échec de la validation du script.
+- **Message de validation de script** : cette option permet de rédiger un message à afficher en cas d’échec de la validation du script.
 
-* **Date minimale** : cette option vous permet de saisir la date minimale requise. Si vous saisissez une date antérieure à la date spécifiée dans Date minimale, un message d’erreur s’affiche à l’écran. La boîte de dialogue **Message d’erreur avec date minimale** vous permet d’ajouter un message d’erreur personnalisé.
+- **Date minimale** : cette option vous permet de saisir la date minimale requise. Si vous saisissez une date antérieure à la date spécifiée dans Date minimale, un message d’erreur s’affiche à l’écran. La boîte de dialogue **Message d’erreur avec date minimale** vous permet d’ajouter un message d’erreur personnalisé.
 
-* **Message d’erreur avec date minimal** : le **Message d’erreur avec date minimale** vous permet d’ajouter un message d’erreur personnalisé à afficher, si vous saisissez une date antérieure à celle spécifiée dans la **Date minimale**.
+- **Message d’erreur avec date minimal** : le **Message d’erreur avec date minimale** vous permet d’ajouter un message d’erreur personnalisé à afficher, si vous saisissez une date antérieure à celle spécifiée dans la **Date minimale**.
 
-* **Date maximale** : cette option vous permet de saisir la date maximale requise. Si vous saisissez une date ultérieure à celle spécifiée dans la Date maximale, un message d’erreur s’affiche à l’écran. Le **Message d’erreur avec date maximale** vous permet d’ajouter un message d’erreur personnalisé.
+- **Date maximale** : cette option vous permet de saisir la date maximale requise. Si vous saisissez une date ultérieure à celle spécifiée dans la Date maximale, un message d’erreur s’affiche à l’écran. Le **Message d’erreur avec date maximale** vous permet d’ajouter un message d’erreur personnalisé.
 
-* **Message d’erreur avec date maximale** : le **Message d’erreur avec date maximale** vous permet d’ajouter un message d’erreur personnalisé à afficher, si vous saisissez une date ultérieure à celle spécifiée dans la **Date maximale**.
+- **Message d’erreur avec date maximale** : le **Message d’erreur avec date maximale** vous permet d’ajouter un message d’erreur personnalisé à afficher, si vous saisissez une date ultérieure à celle spécifiée dans la **Date maximale**.
 
 
 ### Onglet Contenu de l’aide {#help-content-tab}
 
 ![Onglet Contenu d’aide](/help/adaptive-forms/assets/datepicker_helptab.png)
 
-* **Description courte** : Une description courte est une brève explication textuelle qui fournit des informations supplémentaires ou une clarification sur l’objectif d’un champ de formulaire spécifique. Il permet à l’utilisateur ou l’utilisatrice de comprendre le type de données à saisir dans le champ et peut fournir des conseils ou des exemples pour s’assurer que les informations saisies sont valides et répondent aux critères souhaités. Par défaut, les descriptions courtes restent masquées. Sélectionnez l’option **Toujours afficher la description courte** pour l’afficher sous le composant.
+- **Description courte** : Une description courte est une brève explication textuelle qui fournit des informations supplémentaires ou une clarification sur l’objectif d’un champ de formulaire spécifique. Il permet à l’utilisateur ou l’utilisatrice de comprendre le type de données à saisir dans le champ et peut fournir des conseils ou des exemples pour s’assurer que les informations saisies sont valides et répondent aux critères souhaités. Par défaut, les descriptions courtes restent masquées. Sélectionnez l’option **Toujours afficher la description courte** pour l’afficher sous le composant.
 
-* **Toujours afficher la description courte** : sélectionnez cette option pour afficher la description courte sous le composant.
+- **Toujours afficher la description courte** : sélectionnez cette option pour afficher la description courte sous le composant.
 
-* **Texte de l’aide** : le texte d’aide prodigue des informations supplémentaires ou des conseils à l’utilisateur ou à l’utilisatrice pour l’aider à remplir correctement un champ de formulaire. Il s’affiche lorsque l’utilisateur ou l’utilisatrice clique sur l’icône d’aide (i) placée à côté du composant. Le texte d’aide fournit des informations plus détaillées que le texte du libellé ou de l’espace réservé d’un champ de formulaire. Il est conçu pour aider l’utilisateur ou l’utilisatrice à comprendre les exigences ou les contraintes du champ. Il peut également proposer des suggestions ou des exemples pour faciliter le remplissage du formulaire et le rendre plus précis.
+- **Texte de l’aide** : le texte d’aide prodigue des informations supplémentaires ou des conseils à l’utilisateur ou à l’utilisatrice pour l’aider à remplir correctement un champ de formulaire. Il s’affiche lorsque l’utilisateur ou l’utilisatrice clique sur l’icône d’aide (i) placée à côté du composant. Le texte d’aide fournit des informations plus détaillées que le texte du libellé ou de l’espace réservé d’un champ de formulaire. Il est conçu pour aider l’utilisateur ou l’utilisatrice à comprendre les exigences ou les contraintes du champ. Il peut également proposer des suggestions ou des exemples pour faciliter le remplissage du formulaire et le rendre plus précis.
 
 
 ### Onglet Accessibilité {#accessibility-tab}
@@ -115,13 +117,13 @@ Vous pouvez facilement personnaliser votre expérience de sélecteur de date pou
 
 ![Onglet Formats](/help/adaptive-forms/assets/datepicker_formattab.png)
 
-* **Format d’affichage** : il s’agit du format de date affiché pour l’utilisateur ou l’utilisatrice. L’option **Type** permet à l’utilisateur ou à l’utilisatrice de sélectionner le format de date. Vous pouvez également personnaliser le format de date à l’aide de l’option **Personnaliser** dans le menu déroulant **Type**.
+- **Format d’affichage** : il s’agit du format de date affiché pour l’utilisateur ou l’utilisatrice. L’option **Type** permet à l’utilisateur ou à l’utilisatrice de sélectionner le format de date. Vous pouvez également personnaliser le format de date à l’aide de l’option **Personnaliser** dans le menu déroulant **Type**.
 
-* **Modifier le format** : il s’agit d’un format de date dans lequel l’utilisateur ou l’utilisatrice peut modifier la date. L’option **Type** permet à l’utilisateur ou à l’utilisatrice de sélectionner le format de date. Vous pouvez également personnaliser le format de date à l’aide de l’option **Personnaliser** dans le menu déroulant **Type**.
+- **Modifier le format** : il s’agit d’un format de date dans lequel l’utilisateur ou l’utilisatrice peut modifier la date. L’option **Type** permet à l’utilisateur ou à l’utilisatrice de sélectionner le format de date. Vous pouvez également personnaliser le format de date à l’aide de l’option **Personnaliser** dans le menu déroulant **Type**.
 
-* **Format d’affichage** : il s’agit du format de date affiché pour l’utilisateur ou l’utilisatrice. L’option Type permet à l’utilisateur ou à l’utilisatrice de sélectionner le format de date. Vous pouvez également personnaliser le format de date à l’aide de l’option **Personnaliser** dans le menu déroulant **Type**.
+- **Format d’affichage** : il s’agit du format de date affiché pour l’utilisateur ou l’utilisatrice. L’option Type permet à l’utilisateur ou à l’utilisatrice de sélectionner le format de date. Vous pouvez également personnaliser le format de date à l’aide de l’option **Personnaliser** dans le menu déroulant **Type**.
 
-* **Modifier le format** : il s’agit d’un format de date dans lequel l’utilisateur ou l’utilisatrice modifie la date. L’option Type permet à l’utilisateur ou à l’utilisatrice de sélectionner le format de date. Vous pouvez également personnaliser le format de date à l’aide de l’option **Personnaliser** dans le menu déroulant **Type**.
+- **Modifier le format** : il s’agit d’un format de date dans lequel l’utilisateur ou l’utilisatrice modifie la date. L’option Type permet à l’utilisateur ou à l’utilisatrice de sélectionner le format de date. Vous pouvez également personnaliser le format de date à l’aide de l’option **Personnaliser** dans le menu déroulant **Type**.
 
 ## Boîte de dialogue de conception {#design-dialog}
 
@@ -133,9 +135,23 @@ Cet onglet vous permet de définir et de gérer les styles CSS d’un composant.
 
 ![Onglet Styles.](/help/adaptive-forms/assets/datepicker_styletab.png)
 
-* **Classes CSS par défaut** : vous pouvez indiquer une classe CSS par défaut pour le composant principal Sélecteur de date des formulaires adaptatifs.
+- **Classes CSS par défaut** : vous pouvez indiquer une classe CSS par défaut pour le composant principal Sélecteur de date des formulaires adaptatifs.
 
-* **Styles autorisés** : vous pouvez appliquer des styles en indiquant un nom et la classe CSS du style. Par exemple, vous pouvez créer un style nommé « texte en gras » et fournir la classe CSS « police d’épaisseur : gras ». Vous pouvez utiliser ou appliquer ces styles à un formulaire adaptatif dans l’éditeur de formulaires adaptatifs. Pour appliquer un style, sélectionnez le composant auquel vous souhaitez appliquer le style dans l’éditeur de formulaires adaptatifs, accédez à la boîte de dialogue Propriétés, puis sélectionnez le style de votre choix dans la liste déroulante **Styles**. Si vous devez mettre à jour ou modifier les styles, revenez simplement à la boîte de dialogue Conception, mettez à jour les styles dans l’onglet Styles et enregistrez les modifications.
+- **Styles autorisés** : vous pouvez appliquer des styles en indiquant un nom et la classe CSS du style. Par exemple, vous pouvez créer un style nommé « texte en gras » et fournir la classe CSS « police d’épaisseur : gras ». Vous pouvez utiliser ou appliquer ces styles à un formulaire adaptatif dans l’éditeur de formulaires adaptatifs. Pour appliquer un style, sélectionnez le composant auquel vous souhaitez appliquer le style dans l’éditeur de formulaires adaptatifs, accédez à la boîte de dialogue Propriétés, puis sélectionnez le style de votre choix dans la liste déroulante **Styles**. Si vous devez mettre à jour ou modifier les styles, revenez simplement à la boîte de dialogue Conception, mettez à jour les styles dans l’onglet Styles et enregistrez les modifications.
+
+### Propriétés personnalisées
+
+![Boîte de dialogue Propriétés personnalisées](/help/adaptive-forms/assets/datepicker_customproperties.png)
+
+Les propriétés personnalisées vous permettent d’associer des attributs personnalisés (paires clé-valeur) à un composant de base de formulaire adaptatif à l’aide du modèle de formulaire. Les propriétés personnalisées sont répercutées dans la section des propriétés du rendu sans en-tête du composant. Il permet de créer un comportement de formulaire dynamique qui s’adapte en fonction des valeurs d’attributs personnalisés. Par exemple, les développeurs peuvent concevoir différents rendus d’un composant Forms sans affichage pour les plateformes mobiles, de bureau ou web, ce qui améliore considérablement l’expérience utilisateur sur un large éventail d’appareils.
+
+- **Nom du groupe**: vous pouvez fournir un nom pour identifier le groupe de propriétés personnalisé. Vous pouvez ajouter, supprimer ou réorganiser plusieurs groupes de propriétés personnalisés. Après avoir ajouté le groupe de propriétés personnalisées, vous pouvez voir les options suivantes :
+
+   - **Paires clé-valeur**: vous pouvez ajouter plusieurs noms de propriétés personnalisées et valeurs de propriétés personnalisées en cliquant sur le bouton **Ajouter** pour chaque groupe de propriétés personnalisé.
+
+   - **Supprimer**: appuyez ou cliquez sur pour supprimer le nom de propriété personnalisée et la valeur de propriété personnalisée.
+
+   - **Réorganiser**: appuyez ou cliquez dessus et faites glisser pour réorganiser l’ordre du nom de propriété personnalisée et de la valeur de propriété personnalisée.
 
 ### Onglet Formats {#formats-tab}
 
@@ -151,31 +167,12 @@ L’onglet Formats vous permet de définir des formats de date par défaut et pe
 
 -->
 
+## Articles connexes {#related-articles}
 
->[!MORELIKETHIS]
->
->* [Accordéon](/help/adaptive-forms/components/accordion.md)
->* [Bouton](/help/adaptive-forms/components/button.md)
->* [Groupe de cases à cocher](/help/adaptive-forms/components/checkbox-group.md)
->* [Liste déroulante](/help/adaptive-forms/components/drop-down.md)
->* [Entrée d’e-mail](/help/adaptive-forms/components/email-input.md)
->* [Conteneur de formulaires](/help/adaptive-forms/components/form-container.md)
->* [Pièce jointe](/help/adaptive-forms/components/file-attachment.md)
->* [Pied de page](/help/adaptive-forms/components/footer.md)
->* [En-tête](/help/adaptive-forms/components/header.md)
->* [Onglets horizontaux](/help/adaptive-forms/components/horizontal-tabs.md)
->* [Image](/help/adaptive-forms/components/image.md)
->* [Entrée de nombre](/help/adaptive-forms/components/number-input.md)
->* [Conteneur de panneau](/help/adaptive-forms/components/panel-container.md)
->* [Bouton radio](/help/adaptive-forms/components/radio-button.md)
->* [Bouton de réinitialisation](/help/adaptive-forms/components/reset-button.md)
->* [Bouton Envoyer](/help/adaptive-forms/components/submit-button.md)
->* [Entrée téléphonique](/help/adaptive-forms/components/telephone-input.md)
->* [Entrée de texte](/help/adaptive-forms/components/text-input.md)
->* [Texte](/help/adaptive-forms/components/text.md)
->* [Titre](/help/adaptive-forms/components/title.md)
->* [Assistant](/help/adaptive-forms/components/wizard.md)
+{{more-like-this}}
 
 ## Voir également {#see-also}
 
 {{see-also}}
+
+

@@ -3,10 +3,10 @@ title: Composant principal des formulaires adaptatifs - Entrée de nombre
 description: Utilisation ou personnalisation du composant principal « Entrée de nombre » dans les formulaires adaptatifs.
 role: Architect, Developer, Admin, User
 exl-id: 75604ecf-1ec5-4e97-b934-d6ed49726147
-source-git-commit: be630c4d0a10ebaa679b77419b901fac818addb1
-workflow-type: ht
-source-wordcount: '1834'
-ht-degree: 100%
+source-git-commit: 93acf5f6f11da42a7834bbb11b15a36db1e03dc9
+workflow-type: tm+mt
+source-wordcount: '2038'
+ht-degree: 88%
 
 ---
 
@@ -22,17 +22,17 @@ Pour l’accessibilité, il est important de spécifier un « libellé » qui 
 
 **Exemple**
 
-![](/help/adaptive-forms/assets/numeric-stepper.png)
+![exemple](/help/adaptive-forms/assets/numeric-stepper.png)
 
 ## Utilisation {#reasons-to-use-number-input-numeric-stepper}
 
 Il existe plusieurs raisons d’inclure un composant « Entrée de nombre » dans un formulaire adaptatif, notamment :
 
-* **Opérations mathématiques** : les champs numériques peuvent être utilisés pour effectuer des opérations mathématiques telles que l’addition, la soustraction, la multiplication et la division.
+- **Opérations mathématiques** : les champs numériques peuvent être utilisés pour effectuer des opérations mathématiques telles que l’addition, la soustraction, la multiplication et la division.
 
-* **Plage de données** : les champs numériques peuvent être utilisés pour définir une plage de valeurs valides à l’aide des attributs min, max et étape.
+- **Plage de données** : les champs numériques peuvent être utilisés pour définir une plage de valeurs valides à l’aide des attributs min, max et étape.
 
-* **Contenu dynamique** : un composant numérique peut être utilisé pour afficher des données dynamiques en fonction des champs du formulaire.
+- **Contenu dynamique** : un composant numérique peut être utilisé pour afficher des données dynamiques en fonction des champs du formulaire.
 
 
 ## Version et compatibilité {#version-and-compatibility}
@@ -62,51 +62,52 @@ Vous pouvez facilement personnaliser l’expérience d’entrée de nombre pour 
 
 ![Onglet De base](/help/adaptive-forms/assets/numberinput_basictab.png)
 
-* **Nom** - Vous pouvez identifier facilement un composant de formulaire avec son nom unique aussi bien dans le formulaire et dans l’éditeur de règles, mais le nom ne doit pas contenir d’espaces ni de caractères spéciaux.
+- **Nom** - Vous pouvez identifier facilement un composant de formulaire avec son nom unique aussi bien dans le formulaire et dans l’éditeur de règles, mais le nom ne doit pas contenir d’espaces ni de caractères spéciaux.
 
-* **Titre** - Avec son titre, vous pouvez facilement identifier un composant dans un formulaire. Par défaut, le titre s’affiche au-dessus du composant. Si vous n’ajoutez pas de titre, le nom du composant s’affiche à la place du texte du titre.
+- **Titre** - Avec son titre, vous pouvez facilement identifier un composant dans un formulaire. Par défaut, le titre s’affiche au-dessus du composant. Si vous n’ajoutez pas de titre, le nom du composant s’affiche à la place du texte du titre.
 
-* **Masquer le titre** - Sélectionnez cette option pour masquer le titre du composant.
+- **Masquer le titre** - Sélectionnez cette option pour masquer le titre du composant.
 
-* **Texte d’espace réservé** - Le texte d’espace réservé dans un composant de formulaire fait référence à un libellé court ou à une invite qui apparaît dans un champ de saisie comme conseil à l’utilisateur ou à l’utilisatrice sur le type d’information à saisir dans ce champ. Le texte d’espace réservé disparaît lorsque l’utilisateur ou l’utilisatrice commence à saisir du texte dans le champ et réapparaît si le champ est vide. Il fournit un indice visuel à l’utilisateur ou à l’utilisatrice, mais n’agit pas comme une valeur ou un libellé permanent pour le champ.
-* **Référence Bind** - Une référence Bind est une référence à un élément de données stockée dans une source de données externe et utilisée dans un formulaire. La référence de liaison vous permet de lier dynamiquement les données aux champs du formulaire, de sorte que le formulaire puisse afficher les données les plus récentes de la source de données. Par exemple, une référence de liaison peut être utilisée pour afficher le nom et l’adresse d’un client ou d’une cliente dans un formulaire, en fonction de l’identifiant du client ou de la cliente saisi dans le formulaire. La référence de liaison peut également être utilisée pour mettre à jour la source de données avec les données saisies dans le formulaire. Ainsi, AEM Forms vous permet de créer des formulaires qui interagissent avec des sources de données externes, offrant ainsi une expérience utilisateur fluide pour la collecte et la gestion des données.
-* **Masquer le composant** - Sélectionnez cette option pour masquer le composant du formulaire. Le composant reste accessible à d’autres fins, par exemple pour les calculs dans l’éditeur de règles. Cela s’avère utile lorsque vous devez stocker des informations qui n’ont pas besoin d’être affichées ou directement modifiées par les utilisateurs ou les utilisatrices.
-* **Désactiver le composant** - Sélectionnez cette option pour désactiver le composant. Le composant désactivé n’est pas actif ni modifiable par l’utilisateur final ou l’utilisatrice finale. L’utilisateur ou l’utilisatrice peut voir la valeur du champ mais ne peut pas la modifier. Le composant reste accessible à d’autres fins, par exemple pour les calculs dans l’éditeur de règles.
-* **Lecture seule** - Sélectionnez cette option pour rendre le composant non modifiable. L’utilisateur ou l’utilisatrice peut voir la valeur du champ mais ne peut pas le modifier. Le composant reste accessible à d’autres fins, par exemple pour les calculs dans l’éditeur de règles.
-* **Type de nombre** - Cette option permet de sélectionner le type de valeurs numériques autorisé dans le champ du formulaire. Vous pouvez sélectionner les types Décimal ou Entier dans le menu déroulant.
-* **Valeur par défaut** - Cette option vous permet d’ajouter une valeur par défaut dans un champ de formulaire. Si **Composant désactivé** ou **Composant en lecture seule** est sélectionné, la valeur par défaut s’affiche à l’écran. Si aucune valeur n’est saisie par l’utilisateur ou l’utilisatrice dans le champ de formulaire, cette valeur est envoyée au moment de l’envoi du formulaire.
+- **Texte d’espace réservé** - Le texte d’espace réservé dans un composant de formulaire fait référence à un libellé court ou à une invite qui apparaît dans un champ de saisie comme conseil à l’utilisateur ou à l’utilisatrice sur le type d’information à saisir dans ce champ. Le texte d’espace réservé disparaît lorsque l’utilisateur ou l’utilisatrice commence à saisir du texte dans le champ et réapparaît si le champ est vide. Il fournit un indice visuel à l’utilisateur ou à l’utilisatrice, mais n’agit pas comme une valeur ou un libellé permanent pour le champ.
+- **Référence Bind** - Une référence Bind est une référence à un élément de données stockée dans une source de données externe et utilisée dans un formulaire. La référence de liaison vous permet de lier dynamiquement les données aux champs du formulaire, de sorte que le formulaire puisse afficher les données les plus récentes de la source de données. Par exemple, une référence de liaison peut être utilisée pour afficher le nom et l’adresse d’un client ou d’une cliente dans un formulaire, en fonction de l’identifiant du client ou de la cliente saisi dans le formulaire. La référence de liaison peut également être utilisée pour mettre à jour la source de données avec les données saisies dans le formulaire. Ainsi, AEM Forms vous permet de créer des formulaires qui interagissent avec des sources de données externes, offrant ainsi une expérience utilisateur fluide pour la collecte et la gestion des données.
+- **Marquer comme élément de formulaire non lié**: sélectionnez l’option de configuration d’un champ de formulaire non lié à un schéma. Cette option vous permet d’enregistrer des données sans mettre à jour la source de données. Il vous permet également de gérer les données de manière personnalisée, en les séparant de l’intégration de base de données standard.
+- **Masquer le composant** - Sélectionnez cette option pour masquer le composant du formulaire. Le composant reste accessible à d’autres fins, par exemple pour les calculs dans l’éditeur de règles. Cela s’avère utile lorsque vous devez stocker des informations qui n’ont pas besoin d’être affichées ou directement modifiées par les utilisateurs ou les utilisatrices.
+- **Désactiver le composant** - Sélectionnez cette option pour désactiver le composant. Le composant désactivé n’est pas actif ni modifiable par l’utilisateur final ou l’utilisatrice finale. L’utilisateur ou l’utilisatrice peut voir la valeur du champ mais ne peut pas la modifier. Le composant reste accessible à d’autres fins, par exemple pour les calculs dans l’éditeur de règles.
+- **Lecture seule** - Sélectionnez cette option pour rendre le composant non modifiable. L’utilisateur ou l’utilisatrice peut voir la valeur du champ mais ne peut pas le modifier. Le composant reste accessible à d’autres fins, par exemple pour les calculs dans l’éditeur de règles.
+- **Type de nombre** - Cette option permet de sélectionner le type de valeurs numériques autorisé dans le champ du formulaire. Vous pouvez sélectionner les types Décimal ou Entier dans le menu déroulant.
+- **Valeur par défaut** - Cette option vous permet d’ajouter une valeur par défaut dans un champ de formulaire. Si **Composant désactivé** ou **Composant en lecture seule** est sélectionné, la valeur par défaut s’affiche à l’écran. Si aucune valeur n’est saisie par l’utilisateur ou l’utilisatrice dans le champ de formulaire, cette valeur est envoyée au moment de l’envoi du formulaire.
 
 ### Onglet Validation {#validation-tab}
 
 ![Onglet Validation](/help/adaptive-forms/assets/numberinput_validationtab.png)
 
-* **Obligatoire** : Sélectionnez cette option si vous souhaitez afficher le composant dans un formulaire adaptatif. Vous ne pouvez pas sélectionner **Masquer le composant** ou **Désactiver le composant**  dans l’onglet **De base** lorsque cette option est sélectionnée.
+- **Obligatoire** : Sélectionnez cette option si vous souhaitez afficher le composant dans un formulaire adaptatif. Après avoir sélectionné cette option, vous devez saisir une valeur avant de poursuivre l’envoi du formulaire. Vous ne pouvez pas sélectionner **Masquer le composant** ou **Désactiver le composant**  dans l’onglet **De base** lorsque cette option est sélectionnée.
 
-* **Message d’erreur** - Cette option vous permet de saisir un message qui s’affiche si la case à cocher **Obligatoire** est cochée et que le champ n’est pas renseigné.
+- **Message d’erreur** - Cette option vous permet de saisir un message qui s’affiche si la case à cocher **Obligatoire** est cochée et que le champ n’est pas renseigné.
 
-* **Message de validation de script** - Cette option permet de saisir un message à afficher en cas d’échec de la validation du script.
+- **Message de validation de script** - Cette option permet de saisir un message à afficher en cas d’échec de la validation du script.
 
-* **Nombre le plus bas/Nombre le plus petit** - Utilisez cette option pour sélectionner le nombre minimum autorisé pouvant être renseigné dans le champ de formulaire. Si une valeur inférieure au nombre spécifié dans **Nombre le plus bas/Nombre le plus petit** est saisie dans le champ de formulaire, le message d’erreur s’affiche.
+- **Nombre le plus bas/Nombre le plus petit** - Utilisez cette option pour sélectionner le nombre minimum autorisé pouvant être renseigné dans le champ de formulaire. Si une valeur inférieure au nombre spécifié dans **Nombre le plus bas/Nombre le plus petit** est saisie dans le champ de formulaire, le message d’erreur s’affiche.
 
-* **Message d’erreur minimum** - Cette option vous permet de saisir un message d’erreur qui s’affiche lorsque l’utilisateur ou l’utilisatrice saisit une valeur inférieure à celle spécifiée dans l’option **Nombre minimum**.
+- **Message d’erreur minimum** - Cette option vous permet de saisir un message d’erreur qui s’affiche lorsque l’utilisateur ou l’utilisatrice saisit une valeur inférieure à celle spécifiée dans l’option **Nombre minimum**.
 
-* **Exclure la valeur minimum** - Cochez cette case si vous ne souhaitez pas que la valeur minimum indiquée dans l’option **Nombre le plus bas/Nombre le plus petit** soit incluse dans la plage de valeurs à renseigner dans le champ du formulaire.
+- **Exclure la valeur minimum** - Cochez cette case si vous ne souhaitez pas que la valeur minimum indiquée dans l’option **Nombre le plus bas/Nombre le plus petit** soit incluse dans la plage de valeurs à renseigner dans le champ du formulaire.
 
-* **Nombre le plus élevé/Nombre le plus grand** - Utilisez cette option pour sélectionner le nombre maximal autorisé pouvant être renseigné dans le champ de formulaire. Si un nombre supérieur au nombre spécifié dans **Nombre le plus élevé/Nombre le plus grand** est saisi dans le champ de formulaire, le message d’erreur s’affiche.
+- **Nombre le plus élevé/Nombre le plus grand** - Utilisez cette option pour sélectionner le nombre maximal autorisé pouvant être renseigné dans le champ de formulaire. Si un nombre supérieur au nombre spécifié dans **Nombre le plus élevé/Nombre le plus grand** est saisi dans le champ de formulaire, le message d’erreur s’affiche.
 
-* **Message d’erreur maximum** - Cette option vous permet de saisir un message d’erreur qui s’affiche lorsque l’utilisateur ou l’utilisatrice saisit une valeur supérieure à celle spécifiée dans l’option **Nombre le plus élevé/Nombre le plus grand**.
+- **Message d’erreur maximum** - Cette option vous permet de saisir un message d’erreur qui s’affiche lorsque l’utilisateur ou l’utilisatrice saisit une valeur supérieure à celle spécifiée dans l’option **Nombre le plus élevé/Nombre le plus grand**.
 
-* **Exclure la valeur maximale** - Cochez cette case si vous ne souhaitez pas que la valeur maximale indiquée dans l’option **Nombre le plus élevé/Nombre le plus grand** soit incluse dans la plage de valeurs à renseigner dans le champ du formulaire.
+- **Exclure la valeur maximale** - Cochez cette case si vous ne souhaitez pas que la valeur maximale indiquée dans l’option **Nombre le plus élevé/Nombre le plus grand** soit incluse dans la plage de valeurs à renseigner dans le champ du formulaire.
 
 ### Onglet Contenu de l’aide {#help-content}
 
 ![Onglet Contenu d’aide](/help/adaptive-forms/assets/numberinput_helptab.png)
 
-* **Description courte** : Une description courte est une brève explication textuelle qui fournit des informations supplémentaires ou une clarification sur l’objectif d’un champ de formulaire spécifique. Il permet à l’utilisateur ou l’utilisatrice de comprendre le type de données à saisir dans le champ et peut fournir des conseils ou des exemples pour s’assurer que les informations saisies sont valides et répondent aux critères souhaités. Par défaut, les descriptions courtes restent masquées. Activez l’option **Toujours afficher une description courte** pour l’afficher sous le composant.
+- **Description courte** : Une description courte est une brève explication textuelle qui fournit des informations supplémentaires ou une clarification sur l’objectif d’un champ de formulaire spécifique. Il permet à l’utilisateur ou l’utilisatrice de comprendre le type de données à saisir dans le champ et peut fournir des conseils ou des exemples pour s’assurer que les informations saisies sont valides et répondent aux critères souhaités. Par défaut, les descriptions courtes restent masquées. Activez l’option **Toujours afficher une description courte** pour l’afficher sous le composant.
 
-* **Toujours afficher une description courte** - Activez cette option pour afficher la description courte sous le composant.
+- **Toujours afficher une description courte** - Activez cette option pour afficher la description courte sous le composant.
 
-* **Texte d’aide** - Le texte d’aide fait référence à des informations ou des conseils supplémentaires fournis à l’utilisateur ou à l’utilisatrice pour l’aider à remplir correctement un champ de formulaire. Il s’affiche lorsque l’utilisateur ou l’utilisatrice clique sur l’icône d’aide (i) placée à côté du composant. Le texte d’aide fournit des informations plus détaillées que le texte du libellé ou de l’espace réservé d’un champ de formulaire. Il est conçu pour aider l’utilisateur ou l’utilisatrice à comprendre les exigences ou les contraintes du champ. Il peut également proposer des suggestions ou des exemples pour faciliter le remplissage du formulaire et le rendre plus précis.
+- **Texte d’aide** - Le texte d’aide fait référence à des informations ou des conseils supplémentaires fournis à l’utilisateur ou à l’utilisatrice pour l’aider à remplir correctement un champ de formulaire. Il s’affiche lorsque l’utilisateur ou l’utilisatrice clique sur l’icône d’aide (i) placée à côté du composant. Le texte d’aide fournit des informations plus détaillées que le texte du libellé ou de l’espace réservé d’un champ de formulaire. Il est conçu pour aider l’utilisateur ou l’utilisatrice à comprendre les exigences ou les contraintes du champ. Il peut également proposer des suggestions ou des exemples pour faciliter le remplissage du formulaire et le rendre plus précis.
 
 ### Onglet Accessibilité {#accessibility}
 
@@ -114,15 +115,15 @@ Vous pouvez facilement personnaliser l’expérience d’entrée de nombre pour 
 
 **Texte pour les lecteurs d’écran** : le texte destiné aux lecteurs d’écran fait référence à un texte supplémentaire conçu pour être lu par les technologies d’assistance, comme les lecteurs d’écran, utilisées par les personnes malvoyantes. Ce texte fournit une description audio de l’objectif du champ de formulaire et peut inclure des informations sur le titre, la description, le nom du champ et tout message pertinent (texte personnalisé). Le texte du lecteur d’écran permet de s’assurer que le formulaire est accessible à tous les utilisateurs et utilisatrices, y compris celles et ceux ayant une déficience visuelle, et leur permet de bien comprendre le champ du formulaire et ses exigences.
 
-### Onglet Formats {#formats-tab}
+### Onglet Formats {#formats-configure-tab}
 
 ![Onglet Accessibilité](/help/adaptive-forms/assets/numberinput_formattab.png)
 
-* **Format d’affichage** : Cette option permet de sélectionner un format de type entier-numérique pour l’affichage. Lorsque l’utilisateur ou l’utilisatrice sélectionne une option dans le menu déroulant **Type**, l’option **Format** apparaît dans le panneau. Vous pouvez choisir un format spécifique dans lequel les nombres s’affichent pour l’utilisateur ou l’utilisatrice.
+- **Format d’affichage** : Cette option permet de sélectionner un format de type entier-numérique pour l’affichage. Lorsque l’utilisateur ou l’utilisatrice sélectionne une option dans le menu déroulant **Type**, l’option **Format** apparaît dans le panneau. Vous pouvez choisir un format spécifique dans lequel les nombres s’affichent pour l’utilisateur ou l’utilisatrice.
 
-* **Nombre de chiffres avant le séparateur décimal (1234,000)** - Utilisez cette option pour spécifier le nombre de chiffres à afficher avant la décimale.
+- **Nombre de chiffres avant le séparateur décimal (1234,000)** - Utilisez cette option pour spécifier le nombre de chiffres à afficher avant la décimale.
 
-* **Nombre de chiffres après le séparateur décimal (1234,000)** - Utilisez cette option pour spécifier le nombre de chiffres à afficher après la décimale.
+- **Nombre de chiffres après le séparateur décimal (1234,000)** - Utilisez cette option pour spécifier le nombre de chiffres à afficher après la décimale.
 
 ## Boîte de dialogue de conception {#design-dialog}
 
@@ -134,14 +135,29 @@ Cet onglet vous permet de définir et de gérer les styles CSS d’un composant.
 
 ![Onglet Styles.](/help/adaptive-forms/assets/datepicker_styletab.png)
 
-**Classes CSS par défaut** : vous pouvez fournir une classe CSS par défaut pour le composant principal « Entrée de nombre » des formulaires adaptatifs.
+- **Classes CSS par défaut** : vous pouvez indiquer une classe CSS par défaut pour le composant principal Sélecteur de date des formulaires adaptatifs.
 
-**Styles autorisés** : vous pouvez définir des styles en fournissant un nom et la classe CSS qui représente le style. Par exemple, vous pouvez créer un style nommé « texte en gras » et fournir la classe CSS « police d’épaisseur : gras ». Vous pouvez utiliser ou appliquer ces styles à un formulaire adaptatif dans les formulaires adaptatifs. Pour appliquer un style, sélectionnez le composant auquel vous souhaitez appliquer le style dans l’éditeur de formulaires adaptatifs, accédez à la boîte de dialogue des propriétés, puis sélectionnez le style de votre choix dans la liste déroulante **Styles**. Si vous devez mettre à jour ou modifier les styles, revenez simplement à la boîte de dialogue Conception, mettez à jour les styles dans l’onglet Styles et enregistrez les modifications.
+- **Styles autorisés** : vous pouvez appliquer des styles en indiquant un nom et la classe CSS du style. Par exemple, vous pouvez créer un style nommé « texte en gras » et fournir la classe CSS « police d’épaisseur : gras ». Vous pouvez utiliser ou appliquer ces styles à un formulaire adaptatif dans l’éditeur de formulaires adaptatifs. Pour appliquer un style, sélectionnez le composant auquel vous souhaitez appliquer le style dans l’éditeur de formulaires adaptatifs, accédez à la boîte de dialogue Propriétés, puis sélectionnez le style de votre choix dans la liste déroulante **Styles**. Si vous devez mettre à jour ou modifier les styles, revenez simplement à la boîte de dialogue Conception, mettez à jour les styles dans l’onglet Styles et enregistrez les modifications.
 
-### Onglet Formats {#format-tab}
+### Propriétés personnalisées
 
-L’onglet Formats vous permet de définir des formats de nombres par défaut et personnalisés.
-![Onglet Conception.](/help/adaptive-forms/assets/emailinput_designformattab.png)
+![Boîte de dialogue Propriétés personnalisées](/help/adaptive-forms/assets/datepicker_customproperties.png)
+
+Les propriétés personnalisées vous permettent d’associer des attributs personnalisés (paires clé-valeur) à un composant de base de formulaire adaptatif à l’aide du modèle de formulaire. Les propriétés personnalisées sont répercutées dans la section des propriétés du rendu sans en-tête du composant. Il permet de créer un comportement de formulaire dynamique qui s’adapte en fonction des valeurs d’attributs personnalisés. Par exemple, les développeurs peuvent concevoir différents rendus d’un composant Forms sans affichage pour les plateformes mobiles, de bureau ou web, ce qui améliore considérablement l’expérience utilisateur sur un large éventail d’appareils.
+
+- **Nom du groupe**: vous pouvez fournir un nom pour identifier le groupe de propriétés personnalisé. Vous pouvez ajouter, supprimer ou réorganiser plusieurs groupes de propriétés personnalisés. Après avoir ajouté le groupe de propriétés personnalisées, vous pouvez voir les options suivantes :
+
+   - **Paires clé-valeur**: vous pouvez ajouter plusieurs noms de propriétés personnalisées et valeurs de propriétés personnalisées en cliquant sur le bouton **Ajouter** pour chaque groupe de propriétés personnalisé.
+
+   - **Supprimer**: appuyez ou cliquez sur pour supprimer le nom de propriété personnalisée et la valeur de propriété personnalisée.
+
+   - **Réorganiser**: appuyez ou cliquez dessus et faites glisser pour réorganiser l’ordre du nom de propriété personnalisée et de la valeur de propriété personnalisée.
+
+### Onglet Formats {#formats-tab}
+
+L’onglet Formats vous permet de définir des formats de date par défaut et personnalisés.
+
+![Onglet Format.](/help/adaptive-forms/assets/emailinput_formattab.png)
 
 <!--
 
@@ -151,31 +167,9 @@ L’onglet Formats vous permet de définir des formats de nombres par défaut et
 
 -->
 
+## Articles connexes {#related-articles}
 
->[!MORELIKETHIS]
->
->* [Accordéon](/help/adaptive-forms/components/accordion.md)
->* [Bouton](/help/adaptive-forms/components/button.md)
->* [Groupe de cases à cocher](/help/adaptive-forms/components/checkbox-group.md)
->* [Sélecteur de date](/help/adaptive-forms/components/date-picker.md)
->* [Liste déroulante](/help/adaptive-forms/components/drop-down.md)
->* [Entrée d’e-mail](/help/adaptive-forms/components/email-input.md)
->* [Conteneur de formulaires](/help/adaptive-forms/components/form-container.md)
->* [Pièce jointe](/help/adaptive-forms/components/file-attachment.md)
->* [Pied de page](/help/adaptive-forms/components/footer.md)
->* [En-tête](/help/adaptive-forms/components/header.md)
->* [Onglets horizontaux](/help/adaptive-forms/components/horizontal-tabs.md)
->* [Image](/help/adaptive-forms/components/image.md)
->* [Conteneur de panneau](/help/adaptive-forms/components/panel-container.md)
->* [Bouton radio](/help/adaptive-forms/components/radio-button.md)
->* [Bouton de réinitialisation](/help/adaptive-forms/components/reset-button.md)
->* [Bouton Envoyer](/help/adaptive-forms/components/submit-button.md)
->* [Entrée téléphonique](/help/adaptive-forms/components/telephone-input.md)
->* [Entrée de texte](/help/adaptive-forms/components/text-input.md)
->* [Texte](/help/adaptive-forms/components/text.md)
->* [Titre](/help/adaptive-forms/components/title.md)
->* [Assistant](/help/adaptive-forms/components/wizard.md)
-
+{{more-like-this}}
 
 ## Voir également {#see-also}
 

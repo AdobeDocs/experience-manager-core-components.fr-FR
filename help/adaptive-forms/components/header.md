@@ -3,9 +3,9 @@ title: Composant principal des formulaires adaptatifs - En-tête
 description: Utilisation ou personnalisation du composant principal « En-tête » des formulaires adaptatifs.
 role: Architect, Developer, Admin, User
 exl-id: aa18def9-0bec-4475-8dde-213860621ef5
-source-git-commit: 59cd9d65bf4c1be6ab2eaf15bbb747b532863fdd
-workflow-type: ht
-source-wordcount: '712'
+source-git-commit: 93acf5f6f11da42a7834bbb11b15a36db1e03dc9
+workflow-type: tm+mt
+source-wordcount: '679'
 ht-degree: 100%
 
 ---
@@ -20,15 +20,15 @@ Le composant « En-tête » d’un formulaire adaptatif est une section situé
 
 ## Utilisation {#reasons-to-use-header}
 
-* **Image de marque** : un en-tête peut être utilisé pour afficher le logo ou le nom de l’organisation qui a créé le formulaire, ce qui contribue à établir la reconnaissance et la crédibilité de la marque.
+- **Image de marque** : un en-tête peut être utilisé pour afficher le logo ou le nom de l’organisation qui a créé le formulaire, ce qui contribue à établir la reconnaissance et la crédibilité de la marque.
 
-* **Contexte** : un en-tête peut fournir une brève description de l’objectif du formulaire, aidant ainsi les utilisateurs et les utilisatrices à comprendre le contexte dans lequel le formulaire est utilisé.
+- **Contexte** : un en-tête peut fournir une brève description de l’objectif du formulaire, aidant ainsi les utilisateurs et les utilisatrices à comprendre le contexte dans lequel le formulaire est utilisé.
 
-* **Navigation** : un en-tête peut inclure des liens ou des boutons qui permettent aux utilisateurs et aux utilisatrices de naviguer vers d’autres parties du site Web ou de l’application.
+- **Navigation** : un en-tête peut inclure des liens ou des boutons qui permettent aux utilisateurs et aux utilisatrices de naviguer vers d’autres parties du site Web ou de l’application.
 
-* **Informations** : un en-tête peut inclure des coordonnées ou des liens vers des ressources d’aide pour les utilisateurs et les utilisatrices qui en ont besoin.
+- **Informations** : un en-tête peut inclure des coordonnées ou des liens vers des ressources d’aide pour les utilisateurs et les utilisatrices qui en ont besoin.
 
-* **Expérience utilisateur** : un en-tête peut être utilisé pour rendre le formulaire plus convivial en offrant une méthode claire et intuitive d’accès et de remplissage des champs de formulaire.
+- **Expérience utilisateur** : un en-tête peut être utilisé pour rendre le formulaire plus convivial en offrant une méthode claire et intuitive d’accès et de remplissage des champs de formulaire.
 
 ## Version et compatibilité {#version-and-compatibility}
 
@@ -60,21 +60,21 @@ Cette partie de l’en-tête contient le titre et l’image de l’en-tête.
 
 ![Onglet Image](/help/adaptive-forms/assets/header_image.png)
 
-* **Ressources Image** - Cette option permet de déposer une ressource telle qu’une image par glisser-déposer. Vous pouvez également télécharger un fichier à partir d’un système de fichiers local à l’aide du bouton **Parcourir**. Après avoir ajouté une image, trois boutons s’affichent au bas de l’image. Après avoir ajouté une image, trois boutons s’affichent au bas de l’image :
-   * **Modifier** - Appuyez ou cliquez sur **Modifier** pour gérer les rendus de la ressource dans l’éditeur de ressources.
-   * **Effacer** - Appuyez ou cliquez sur **Effacer** pour désélectionner l’image actuellement sélectionnée.
-   * **Sélection** - Appuyez ou cliquez sur **Sélection** pour sélectionner une autre image dans le dossier Ressources.
+- **Ressources Image** - Cette option permet de déposer une ressource telle qu’une image par glisser-déposer. Vous pouvez également télécharger un fichier à partir d’un système de fichiers local à l’aide du bouton **Parcourir**. Après avoir ajouté une image, trois boutons s’affichent au bas de l’image. Après avoir ajouté une image, trois boutons s’affichent au bas de l’image :
+   - **Modifier** - Appuyez ou cliquez sur **Modifier** pour gérer les rendus de la ressource dans l’éditeur de ressources.
+   - **Effacer** - Appuyez ou cliquez sur **Effacer** pour désélectionner l’image actuellement sélectionnée.
+   - **Sélection** - Appuyez ou cliquez sur **Sélection** pour sélectionner une autre image dans le dossier Ressources.
 
-* **Titre** - Cette option est utilisée pour ajouter le titre à l’en-tête. Le texte prédéfini est inclus dans la boîte de dialogue et peut être modifié par l’utilisateur ou l’utilisatrice.
-* **Lier à** - Vous pouvez lier l’en-tête au dossier à l’aide de l’icône **Parcourir**.
-* **Description** - Une description est une brève explication textuelle qui fournit des informations supplémentaires ou une clarification sur l’objectif d’une image spécifique.
-* **Taille (px)** - Cela permet d’ajuster la longueur et la largeur de l’image en augmentant ou en réduisant les pixels.
+- **Titre** - Cette option est utilisée pour ajouter le titre à l’en-tête. Le texte prédéfini est inclus dans la boîte de dialogue et peut être modifié par l’utilisateur ou l’utilisatrice.
+- **Lier à** - Vous pouvez lier l’en-tête au dossier à l’aide de l’icône **Parcourir**.
+- **Description** - Une description est une brève explication textuelle qui fournit des informations supplémentaires ou une clarification sur l’objectif d’une image spécifique.
+- **Taille (px)** - Cela permet d’ajuster la longueur et la largeur de l’image en augmentant ou en réduisant les pixels.
 
 ![Onglet Accessibilité](/help/adaptive-forms/assets/header_accessibility.png)
 
-* **Texte secondaire** - Cette option est utilisée pour saisir un texte de remplacement court et descriptif pour décire l’image aux personnes malvoyantes.
+- **Texte secondaire** - Cette option est utilisée pour saisir un texte de remplacement court et descriptif pour décire l’image aux personnes malvoyantes.
 
-* **L’image est décorative** : vérifiez si l’image doit être ignorée par les dispositifs d’assistance et ne requiert donc pas de texte de remplacement. Cela s’applique uniquement aux images décoratives.
+- **L’image est décorative** : vérifiez si l’image doit être ignorée par les dispositifs d’assistance et ne requiert donc pas de texte de remplacement. Cela s’applique uniquement aux images décoratives.
 
 ### Onglet Texte {#text-tab}
 
@@ -88,30 +88,9 @@ Cette section permet de saisir le texte à inclure dans l’en-tête.
 
 -->
 
+## Articles connexes {#related-articles}
 
->[!MORELIKETHIS]
->
->* [Accordéon](/help/adaptive-forms/components/accordion.md)
->* [Bouton](/help/adaptive-forms/components/button.md)
->* [Groupe de cases à cocher](/help/adaptive-forms/components/checkbox-group.md)
->* [Sélecteur de date](/help/adaptive-forms/components/date-picker.md)
->* [Liste déroulante](/help/adaptive-forms/components/drop-down.md)
->* [Entrée d’e-mail](/help/adaptive-forms/components/email-input.md)
->* [Conteneur de formulaires](/help/adaptive-forms/components/form-container.md)
->* [Pièce jointe](/help/adaptive-forms/components/file-attachment.md)
->* [Pied de page](/help/adaptive-forms/components/footer.md)
->* [Onglets horizontaux](/help/adaptive-forms/components/horizontal-tabs.md)
->* [Image](/help/adaptive-forms/components/image.md)
->* [Entrée de nombre](/help/adaptive-forms/components/number-input.md)
->* [Conteneur de panneau](/help/adaptive-forms/components/panel-container.md)
->* [Bouton radio](/help/adaptive-forms/components/radio-button.md)
->* [Bouton de réinitialisation](/help/adaptive-forms/components/reset-button.md)
->* [Bouton Envoyer](/help/adaptive-forms/components/submit-button.md)
->* [Entrée téléphonique](/help/adaptive-forms/components/telephone-input.md)
->* [Entrée de texte](/help/adaptive-forms/components/text-input.md)
->* [Texte](/help/adaptive-forms/components/text.md)
->* [Titre](/help/adaptive-forms/components/title.md)
->* [Assistant](/help/adaptive-forms/components/wizard.md)
+{{more-like-this}}
 
 ## Voir également {#see-also}
 
