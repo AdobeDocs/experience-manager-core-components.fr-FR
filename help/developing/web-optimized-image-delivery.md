@@ -3,10 +3,10 @@ title: Diffusion d’images optimisées pour le web
 description: Découvrez comment les composants principaux peuvent exploiter les fonctionnalités de diffusion d’images optimisées pour le web d’AEM as a Cloud Service dans le but de diffuser plus efficacement les images.
 role: Architect, Developer, Admin, User
 exl-id: 6080ab8b-f53c-4d5e-812e-16889da4d7de
-source-git-commit: 420e6085da57e5dc6deb670a5f0498b018441cb8
+source-git-commit: d8c8f4c3395313b21f56fd7d98175924287c367c
 workflow-type: tm+mt
-source-wordcount: '1118'
-ht-degree: 100%
+source-wordcount: '1023'
+ht-degree: 97%
 
 ---
 
@@ -96,17 +96,7 @@ Vous trouverez ci-dessous une interface de service que vous pouvez utiliser pour
 com.adobe.cq.wcm.spi.AssetDelivery.getDeliveryURL(Resource resource, Map<String, Object> parameterMap)
 ```
 
-Ce service prend une ressource comme étant le premier paramètre obligatoire et peut prendre une carte facultative des transformations d’image souhaitées à appliquer, qui peut contenir les paramètres suivants.
-
-* `path` – l’identifiant de ressource à diffuser doit être du modèle `([^:\[\]\|\*\/]+)` (`unicorn–1234` par exemple).
-* `seoname` – le nom défini par l’utilisateur, centré sur l’optimisation du moteur de recherche et à ajouter à l’URL de l’image peut contenir des traits d’union et doit être du modèle `([\w-]+)` (par exemple : `my-friend-the-unicorn`).
-* `format` – le format d’image souhaité peut être `gif`, `png`, `png8`, `jpg`, `pjpg`, `bjpg`, `webp`, `webpll`, `webply` (par exemple : `webp`).
-* `preferwebp` – si possible, diffusez la sortie WebP, en ignorant le paramètre `format` ([voir les FAQ sur la négociation de contenu](#content-negotiation)), booléen (par exemple : `true`).
-* `width` – la résolution d’image souhaitée en pixels doit être supérieure à 1 (par exemple : `400`).
-* `quality` – la compression souhaitée, entre `1` et `100` (par exemple : `75`).
-* `c` – les coordonnées de recadrage d’image souhaitées, les valeurs de pixels séparées par des virgules (par exemple : `100,100,400,200`).
-* `r` – la rotation de l’image souhaitée peut être `90`, `180`, `270` (par exemple : `90`).
-* `flip` – le retournement d’image souhaité peut être `h`, `v`, `hv` (par exemple : `h`).
+**Notez que les incorporations d’URL directe dans une expérience qui n’est pas créée par le biais des composants principaux s’exécutant sur AEM Sites CS sont contraires aux conditions de licence de Media Library.**
 
 ### Quelle est l’URL d’une image fournie par le nouveau service d’images ? {#url}
 
