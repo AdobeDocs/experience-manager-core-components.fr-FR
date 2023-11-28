@@ -2,15 +2,13 @@
 title: Composant principal Adaptive Forms - Termes et conditions
 description: Utilisation ou personnalisation du composant principal Termes et conditions de Forms adaptatif .
 role: Architect, Developer, Admin, User
-hide: true
-hidefromtoc: true
-source-git-commit: ecc6ba79ba5e90bd6e759353d15ca85ce404d769
+exl-id: c607d554-ad2d-4434-856d-91e174ef3149
+source-git-commit: f0b450ef93a32a56000c31d82bf92394c57b55f9
 workflow-type: tm+mt
 source-wordcount: '2639'
 ht-degree: 66%
 
 ---
-
 
 # Composant Termes et conditions
 
@@ -222,4 +220,3 @@ Vous pouvez facilement personnaliser la variable [Composant de case à cocher](/
 ## Voir également {#see-also}
 
 {{see-also}}
-

@@ -2,15 +2,13 @@
 title: Composant principal Adaptive Forms - Case à cocher
 description: Utilisation ou personnalisation du composant principal de case à cocher Forms adaptatif.
 role: Architect, Developer, Admin, User
-hide: true
-hidefromtoc: true
-source-git-commit: ecc6ba79ba5e90bd6e759353d15ca85ce404d769
+exl-id: c6ca4800-bd10-4aeb-957a-fb1780cf94f3
+source-git-commit: f0b450ef93a32a56000c31d82bf92394c57b55f9
 workflow-type: tm+mt
 source-wordcount: '1708'
 ht-degree: 53%
 
 ---
-
 
 # Case à cocher {#checkbox-component}
 
@@ -142,5 +140,3 @@ Les propriétés personnalisées vous permettent d’associer des attributs pers
 ## Voir également {#see-also}
 
 {{see-also}}
-
-
