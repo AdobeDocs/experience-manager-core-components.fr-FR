@@ -3,9 +3,9 @@ title: Composant principal Forms adaptatif - Onglets verticaux
 description: Utilisation ou personnalisation des onglets verticaux de Forms adaptatif composant principal.
 role: Architect, Developer, Admin, User
 exl-id: d5cd1c18-6840-4f2f-a767-a69b803e6075
-source-git-commit: f0b450ef93a32a56000c31d82bf92394c57b55f9
+source-git-commit: a567b5ad937d426abe16c34e039e19cd0b1af5b0
 workflow-type: tm+mt
-source-wordcount: '1929'
+source-wordcount: '1927'
 ht-degree: 65%
 
 ---
@@ -32,13 +32,13 @@ Les raisons courantes d’utiliser des onglets verticaux dans un formulaire adap
 
 ## Version et compatibilité {#version-and-compatibility}
 
-Le composant principal Onglets verticaux de Forms adaptatif a été publié en février 2023 dans le cadre de la version 2.0.4 des composants principaux. Voici un tableau de toutes les versions prises en charge, de la compatibilité AEM et des liens vers la documentation correspondante :
+Le composant principal Onglets verticaux de Forms adaptatif a été publié dans le cadre de la version 2.0.18 des composants principaux. Voici un tableau de toutes les versions prises en charge, de la compatibilité AEM et des liens vers la documentation correspondante :
 
 |  |  |
 |---|---|
 | Version du composant | AEM as a Cloud Service |
 | --- | --- |
-| v1 | Compatible avec la <br>[version 2.0.4](/help/versions.md) et les versions ultérieures | Compatible | Compatible |
+| v1 | Compatible avec la <br>[version 2.0.18](/help/versions.md) et les versions ultérieures | Compatible | Compatible |
 
 Pour plus d’informations sur les versions et publications des composants principaux, consultez le document [Versions des composants principaux](/help/versions.md).
 

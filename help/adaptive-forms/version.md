@@ -3,10 +3,10 @@ title: Versions des composants principaux d’AEM Forms
 description: Les composants principaux d’AEM sont publiés sous forme de versions qui peuvent contenir plusieurs versions des mêmes composants principaux. Ce document explique les versions et les mises à jour ainsi que comment comprendre la compatibilité avec les composants principaux et AEM.
 role: Architect, Developer, Admin, User
 exl-id: 8146a5b1-acf6-4b54-ad6b-6e1747a137f6
-source-git-commit: f53be69df3dff9f3873a3bda6ba331f76de75487
+source-git-commit: a567b5ad937d426abe16c34e039e19cd0b1af5b0
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '885'
+ht-degree: 58%
 
 ---
 
@@ -36,7 +36,7 @@ Le tableau suivant dresse la liste des versions des composants principaux compat
 | [2.0.34](https://github.com/adobe/aem-core-forms-components/releases/tag/core-forms-components-reactor-2.0.34) | Ajout de la prise en charge de la localisation des messages d’erreur par défaut, ainsi que du bouton Ajouter/Supprimer pour le composant Répétable. | En continu | 8, 11 | 28 juin 2023 |
 | [2.0.32](https://github.com/adobe/aem-core-forms-components/releases/tag/core-forms-components-reactor-2.0.32) | Avec cette version, la prise en charge de Captcha est ajoutée pour Adaptive Forms. | En continu | 8, 11 | 15 juin 2023 |
 | [2.0.26](https://github.com/adobe/aem-core-forms-components/releases/tag/core-forms-components-reactor-2.0.26) | Prise en charge de l’ajout de formulaires adaptatifs sur AEM Sites. | En continu | 8, 11 | 7 juin 2023 |
-| [2.0.18](https://github.com/adobe/aem-core-forms-components/releases/tag/core-forms-components-reactor-2.0.18) | Avec cette version, la prise en charge d’une répétabilité pour le composant Accordéon. | En continu | 8, 11 | 5 juin 2023 |
+| [2.0.18](https://github.com/adobe/aem-core-forms-components/releases/tag/core-forms-components-reactor-2.0.18) | Avec cette version, la prise en charge d’une répétabilité pour le composant Accordéon. Ajout également d’un nouveau composant sous la forme d’onglets verticaux. | En continu | 8, 11 | 5 juin 2023 |
 | [2.0.10](https://github.com/adobe/aem-core-forms-components/releases/tag/core-forms-components-reactor-2.0.10) | Cette version offre la prise en charge du composant Conteneur des formulaires adaptatifs dans l’éditeur de Sites. | En continu | 8, 11 | 17 mars 2023 |
 | [2.0.8](https://github.com/adobe/aem-core-forms-components/releases/tag/core-forms-components-reactor-2.0.8) | La fonction de répétition du composant Assistant est introduite dans cette version. | En continu | 8, 11 | 3 mars 2023 |
 | [2.0.6](https://github.com/adobe/aem-core-forms-components/releases/tag/core-forms-components-reactor-2.0.6) | Cette version introduit plusieurs formats pour le composant principal Saisie numérique. | En continu | 8, 11 | 8 février 2023 |
