@@ -3,14 +3,14 @@ title: Composant principal Adaptive Forms - Case à cocher
 description: Utilisation ou personnalisation du composant principal de case à cocher Forms adaptatif.
 role: Architect, Developer, Admin, User
 exl-id: c6ca4800-bd10-4aeb-957a-fb1780cf94f3
-source-git-commit: a567b5ad937d426abe16c34e039e19cd0b1af5b0
+source-git-commit: 4ca65f93e223fdd0b0a701ef335ed5be1fbab7fe
 workflow-type: tm+mt
-source-wordcount: '1706'
-ht-degree: 53%
+source-wordcount: '1692'
+ht-degree: 54%
 
 ---
 
-# Case à cocher {#checkbox-component}
+# Composant de case à cocher{#checkbox-component}
 
 Une case à cocher est un élément d’interface utilisateur graphique généralement utilisé dans les applications logicielles et les formulaires pour permettre aux utilisateurs d’effectuer un choix binaire entre deux options : cochée (sélectionnée) ou non cochée (désélectionnée).
 
@@ -71,7 +71,7 @@ Vous pouvez facilement personnaliser votre expérience de case à cocher pour le
 - **Désactiver le composant** - Sélectionnez l’option pour désactiver ou verrouiller le composant. Le composant désactivé n’est pas actif ni modifiable par l’utilisateur final ou l’utilisatrice finale. L’utilisateur ou l’utilisatrice peut voir la valeur du champ mais ne peut pas la modifier. Le composant reste accessible à d’autres fins, par exemple pour les calculs dans l’éditeur de règles.
 - **Lecture seule** - Sélectionnez cette option pour rendre le composant non modifiable. L’utilisateur ou l’utilisatrice peut voir la valeur du champ mais ne peut pas la modifier. Le composant reste accessible à d’autres fins, par exemple pour les calculs dans l’éditeur de règles.
 - **Lorsqu’elle est cochée, la valeur renvoyée** -Sélectionnez cette option pour spécifier la valeur à associer à la case à cocher lorsqu’elle est cochée ou sélectionnée. Il s’agit de l’action qui se produit lorsqu’un utilisateur coche ou marque la case.
-- **Activez l’option Décocher.**- Sélectionnez l’option permettant d’activer ou de désactiver la possibilité de décocher une case précédemment cochée.
+- **Activez Décochez.**- Sélectionnez l’option permettant d’activer ou de désactiver la possibilité de décocher une case précédemment cochée.
    - If **Enable Uncheck** est activée ou définie sur true, cela signifie que l’utilisateur peut cocher et décocher la case à cocher à sa discrétion. Ils peuvent activer et désactiver la case à cocher si nécessaire.
 
    - If **Enable Uncheck** est désactivé ou défini sur false, cela signifie qu’une fois la case à cocher cochée, l’utilisateur n’est pas autorisé à la décocher.
