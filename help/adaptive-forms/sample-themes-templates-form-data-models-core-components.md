@@ -6,7 +6,7 @@ topic: Administration
 role: Admin, User
 level: Intermediate
 exl-id: aef6e88b-dcae-4777-9893-9257d7702f43
-source-git-commit: ef86dfa62df0ac7f34ec1c4c4175e8a8132c8aed
+source-git-commit: 0f0c20c9fba6f062021721d6f48a42cc830b5a7c
 workflow-type: tm+mt
 source-wordcount: '1239'
 ht-degree: 96%
@@ -56,7 +56,7 @@ Lorsque vous déployez un archétype AEM, vous ne pouvez utiliser que les thème
 1. **AEM 6.5**
 
     1. [Enable Adaptive Form Core Components](https://experienceleague.adobe.com/docs/experience-manager-65/forms/adaptive-forms-core-components/enable-adaptive-forms-core-components.html)
-    1. [Deploy an AEM Archetype 45 or later project to your environment](https://github.com/adobe/aem-project-archetype)
+    1. [Deploy an AEM Archetype 47 or later project to your environment](https://github.com/adobe/aem-project-archetype)
 
 
     When you deploy an AEM Archetype, you can only use the OOTB themes in your forms, To customize the themes as per your requirements, [Use the front-end pipeline](https://experienceleague.adobe.com/docs/experience-manager-65/forms/adaptive-forms-core-components/create-or-customize-themes-for-adaptive-forms-core-components.html) to deploy the themes.
@@ -66,9 +66,9 @@ Lorsque vous déployez un archétype AEM, vous ne pouvez utiliser que les thème
 
 <!--
 
-### Deploying an AEM Archetype 45 or later project to your environment {#using-archetype-to-deploy-themes}
+### Deploying an AEM Archetype 47 or later project to your environment {#using-archetype-to-deploy-themes}
 
-You can get these themes by deploying an [AEM Archetype 45 or later](https://github.com/adobe/aem-project-archetype) to your **AEM Forms as a Cloud Service** or **AEM 6.5** Forms environment.
+You can get these themes by deploying an [AEM Archetype 47 or later](https://github.com/adobe/aem-project-archetype) to your **AEM Forms as a Cloud Service** or **AEM 6.5** Forms environment.
 
 ### Enable core components and use front-end pipeline to deploy themes {#use-front-end-pipeline-to-deploy-themes}
 
@@ -123,8 +123,9 @@ Le thème Healthcare utilise des tons riches et transparents pour accentuer les 
 
 Les modèles définissent la structure, le contenu et les actions du formulaire initial à répliquer dans votre propre formulaire. Ils utilisent une structure de modèle similaire à votre formulaire, comme le formulaire de consentement, le formulaire de souscription aux prestations, et bien d’autres encore.
 
-**Comment obtenir ces modèles ?**
-Vous pouvez obtenir ces modèles en déployant un [AEM Archetype 45 ou version ultérieure](https://github.com/adobe/aem-project-archetype) à votre **AEM Forms as a Cloud Service** environnement ou **AEM 6.5 Forms** environnement.
+**Comment obtenir ces modèles ?**
+
+Vous pouvez obtenir ces modèles en déployant un [AEM Archetype 47 ou version ultérieure](https://github.com/adobe/aem-project-archetype) à votre **AEM Forms as a Cloud Service** environnement ou **AEM 6.5 Forms** environnement.
 
 <!--
 
