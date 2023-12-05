@@ -6,10 +6,10 @@ topic: Administration
 role: Admin, User
 level: Intermediate
 exl-id: aef6e88b-dcae-4777-9893-9257d7702f43
-source-git-commit: 1dd55fdd836dff89763887d88af2671ed1f9ce2b
+source-git-commit: ef86dfa62df0ac7f34ec1c4c4175e8a8132c8aed
 workflow-type: tm+mt
-source-wordcount: '1304'
-ht-degree: 100%
+source-wordcount: '1239'
+ht-degree: 96%
 
 ---
 
@@ -42,7 +42,7 @@ Les exemples de thèmes de référence aident les auteurs et autrices à défini
 Vous obtenez ces thèmes en suivant les étapes ci-dessous pour un environnement **AEM as a Cloud Service** :
 
 1. [Activer les composants principaux des formulaires adaptatifs](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/setup-configure-migrate/enable-adaptive-forms-core-components.html?lang=fr)
-1. [Déployer un archétype de projet AEM 45 dans votre environnement](https://github.com/adobe/aem-project-archetype)
+1. [Déployer un projet AEM Archetype 47 ou version ultérieure dans votre environnement](https://github.com/adobe/aem-project-archetype)
 
 
 Lorsque vous déployez un archétype AEM, vous ne pouvez utiliser que les thèmes prêts à l’emploi dans vos formulaires. Pour personnaliser les thèmes selon vos besoins, [utilisez un pipeline front-end](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/using-themes-in-core-components.html?lang=fr) pour déployer les thèmes.
@@ -56,7 +56,7 @@ Lorsque vous déployez un archétype AEM, vous ne pouvez utiliser que les thème
 1. **AEM 6.5**
 
     1. [Enable Adaptive Form Core Components](https://experienceleague.adobe.com/docs/experience-manager-65/forms/adaptive-forms-core-components/enable-adaptive-forms-core-components.html)
-    1. [Deploy an AEM Archetype 45 project to your environment](https://github.com/adobe/aem-project-archetype)
+    1. [Deploy an AEM Archetype 45 or later project to your environment](https://github.com/adobe/aem-project-archetype)
 
 
     When you deploy an AEM Archetype, you can only use the OOTB themes in your forms, To customize the themes as per your requirements, [Use the front-end pipeline](https://experienceleague.adobe.com/docs/experience-manager-65/forms/adaptive-forms-core-components/create-or-customize-themes-for-adaptive-forms-core-components.html) to deploy the themes.
@@ -66,9 +66,9 @@ Lorsque vous déployez un archétype AEM, vous ne pouvez utiliser que les thème
 
 <!--
 
-### Deploying an AEM Archetype 45 project to your environment {#using-archetype-to-deploy-themes}
+### Deploying an AEM Archetype 45 or later project to your environment {#using-archetype-to-deploy-themes}
 
-You can get these themes by deploying an [AEM Archetype 45](https://github.com/adobe/aem-project-archetype) to your **AEM Forms as a Cloud Service** or **AEM 6.5** Forms environment.
+You can get these themes by deploying an [AEM Archetype 45 or later](https://github.com/adobe/aem-project-archetype) to your **AEM Forms as a Cloud Service** or **AEM 6.5** Forms environment.
 
 ### Enable core components and use front-end pipeline to deploy themes {#use-front-end-pipeline-to-deploy-themes}
 
@@ -124,7 +124,7 @@ Le thème Healthcare utilise des tons riches et transparents pour accentuer les 
 Les modèles définissent la structure, le contenu et les actions du formulaire initial à répliquer dans votre propre formulaire. Ils utilisent une structure de modèle similaire à votre formulaire, comme le formulaire de consentement, le formulaire de souscription aux prestations, et bien d’autres encore.
 
 **Comment obtenir ces modèles ?**
-Vous pouvez obtenir les modèles en déployant un [archetype de projet AEM 45](https://github.com/adobe/aem-project-archetype) à votre environnement **AEM Forms as a Cloud Service** ou **AEM Forms 6.5**.
+Vous pouvez obtenir ces modèles en déployant un [AEM Archetype 45 ou version ultérieure](https://github.com/adobe/aem-project-archetype) à votre **AEM Forms as a Cloud Service** environnement ou **AEM 6.5 Forms** environnement.
 
 <!--
 
