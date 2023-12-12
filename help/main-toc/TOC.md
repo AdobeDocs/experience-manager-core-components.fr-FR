@@ -6,9 +6,9 @@ feature: Core Components
 user-guide-description: Utilisez les composants principaux extensibles pour permettre aux créateurs de créer facilement du contenu.
 feature-set: Experience Manager Sites
 source-git-commit: 3e36fdf9b175930ee3a998bf91116c35b3cb6f9d
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '398'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -107,14 +107,14 @@ ht-degree: 96%
    + Composants des formulaires adaptatifs {#adaptive-forms-components}
       + [Formulaires adaptatifs - Accordéon](/help/adaptive-forms/components/accordion.md)
       + [Formulaires adaptatifs - Bouton](/help/adaptive-forms/components/button.md)
-      + [Case à cocher Adaptive Forms](/help/adaptive-forms/components/checkbox.md)
+      + [Case à cocher de formulaires adaptatifs](/help/adaptive-forms/components/checkbox.md)
       + [Formulaires adaptatifs - Groupe de cases à cocher](/help/adaptive-forms/components/checkbox-group.md)
       + [Conteneur de formulaires adaptatifs](/help/adaptive-forms/components/form-container.md)
       + [Formulaires adaptatifs - Sélecteur de dates](/help/adaptive-forms/components/date-picker.md)
       + [Formulaires adaptatifs - Liste déroulante](/help/adaptive-forms/components/drop-down.md)
       + [Formulaires adaptatifs - Entrée « E-mail »](/help/adaptive-forms/components/email-input.md)
       + [Formulaires adaptatifs - Pièces jointes](/help/adaptive-forms/components/file-attachment.md)
-      + [Onglets verticaux Adaptive Forms](/help/adaptive-forms/components/vertical-tabs.md)
+      + [Onglets verticaux de formulaires adaptatifs](/help/adaptive-forms/components/vertical-tabs.md)
       + [Formulaires adaptatifs - Onglets horizontaux](/help/adaptive-forms/components/horizontal-tabs.md)
       + [Formulaires adaptatifs - Image](/help/adaptive-forms/components/image.md)
       + [Formulaires adaptatifs - Entrée de nombre](/help/adaptive-forms/components/number-input.md)
@@ -128,7 +128,7 @@ ht-degree: 96%
       + [Formulaires adaptatifs - Zone de texte](/help/adaptive-forms/components/text-input.md)
       + [Formulaires adaptatifs - Titre](/help/adaptive-forms/components/title.md)
       + [Formulaires adaptatifs - Mise en page de l’assistant](/help/adaptive-forms/components/wizard.md)
-      + [Termes et conditions d’Adaptive Forms](/help/adaptive-forms/components/terms-and-conditions.md)
+      + [Conditions générales de formulaires adaptatifs](/help/adaptive-forms/components/terms-and-conditions.md)
       + [En-tête](/help/adaptive-forms/components/header.md)
       + [Pied de page](/help/adaptive-forms/components/footer.md)
    + [Personnaliser les composants principaux des formulaires adaptatifs](/help/developing/customize-adaptive-forms-core-components.md)
