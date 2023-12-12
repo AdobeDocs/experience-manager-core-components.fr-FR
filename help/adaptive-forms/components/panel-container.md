@@ -4,9 +4,9 @@ description: Utilisation ou personnalisation du composant principal Conteneur de
 role: Architect, Developer, Admin, User
 exl-id: 104836fe-8325-47de-978d-1ff2d6a9dd15
 source-git-commit: e0ed415bd7f45fdca6fbbb8ba409604d9e82a647
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2036'
-ht-degree: 79%
+ht-degree: 100%
 
 ---
 
@@ -129,37 +129,37 @@ Pour gérer efficacement les sections répétables dans le conteneur du panneau,
 
 ## Boîte de dialogue de conception {#design-dialog}
 
-La boîte de dialogue de conception permet de définir et de gérer les styles CSS du composant Conteneur de formulaires.
+La boîte de dialogue de conception permet de définir et de gérer les styles CSS pour le composant Conteneur de formulaire.
 
 ### Onglet Composants autorisés {#allowed-components-tab}
 
-![Onglet Composant autorisé de la boîte de dialogue de conception](/help/adaptive-forms/assets/panel-container-allowed-component.png)
+![Onglet Composants autorisés de la boîte de dialogue de conception](/help/adaptive-forms/assets/panel-container-allowed-component.png)
 
-La variable **Composants autorisés** Cet onglet permet à l’éditeur de modèles de définir les composants qui peuvent être ajoutés en tant qu’éléments aux panneaux du composant dans l’éditeur de Forms adaptatif.
+L’onglet **Composants autorisés** permet à l’éditeur de modèles de définir les composants qui peuvent être ajoutés en tant qu’éléments aux panneaux dans le composant de l’éditeur de formulaires adaptatifs.
 
 ### Onglet Composants par défaut {#default-components-tab}
 
-![Onglet Composant par défaut de la boîte de dialogue de conception](/help/adaptive-forms/assets/panel-container-default-component.png)
+![Onglet Composants par défaut de la boîte de dialogue de conception](/help/adaptive-forms/assets/panel-container-default-component.png)
 
-La variable **Composants par défaut** Cet onglet permet à l’éditeur de modèles de spécifier les composants visibles par défaut en tant qu’éléments dans le composant de conteneur de formulaires dans l’éditeur de Forms adaptatif.
+L’onglet **Composants par défaut** permet à l’éditeur de modèles de spécifier les composants visibles par défaut en tant qu’éléments dans le composant Conteneur de formulaire dans l’éditeur de formulaires adaptatifs.
 
 ### Onglet Paramètres réactifs {#responsive-tab}
 
 ![Onglet Paramètres réactifs de la boîte de dialogue de conception](/help/adaptive-forms/assets/panel-container-responsive-style-tab.png)
 
-La variable **Paramètres réactifs** permet à l’éditeur de modèles de spécifier le nombre de colonnes dans la grille dans le composant de conteneur de formulaires de l’éditeur de Forms adaptatif.
+L’onglet **Paramètres réactifs** permet à l’éditeur de modèles de spécifier le nombre de colonnes dans la grille à l’intérieur du composant Conteneur de formulaire de l’éditeur de formulaires adaptatifs.
 
-### Onglet Paramètres du conteneur
+### Onglet Paramètres de conteneur
 
-![Onglet Paramètres du conteneur](/help/adaptive-forms/assets/panel-container-container-settings.png)
+![Onglet Paramètres de conteneur](/help/adaptive-forms/assets/panel-container-container-settings.png)
 
 - **Disposition** - Vous pouvez utiliser une disposition fixe (simple) ou une disposition flexible (grille réactive) pour votre assistant. La disposition simple conserve tout ce qui est fixe, tandis que la grille réactive vous permet d’ajuster la position des composants en fonction de vos besoins. Par exemple, utilisez la grille réactive pour aligner « Prénom », « Deuxième prénom » et « Nom » dans un formulaire sur une seule ligne.
 
-- **Désactiver la mise en page**: sélectionnez cette option pour désactiver la sélection de mise en page dans la boîte de dialogue de modification d’un composant.
+- **Désactiver la disposition** : sélectionnez cette option pour désactiver la sélection de la disposition dans la boîte de dialogue de modification d’un composant.
 
-- **Activer l’image d’arrière-plan**: cette option permet à l’utilisateur de configurer les paramètres du panneau pour inclure un arrière-plan visuel afin d’améliorer l’attrait visuel.
+- **Activer l’image d’arrière-plan** : cette option permet à la personne de configurer les paramètres du panneau pour inclure un arrière-plan visuel afin d’améliorer l’attrait visuel.
 
-- **Activer la couleur d’arrière-plan**: cette option vous permet de définir ou de modifier la couleur d’arrière-plan du panneau. Cette fonctionnalité est généralement utilisée dans la conception de l’interface utilisateur pour personnaliser l’aspect des panneaux dans une interface plus grande. Lorsque vous sélectionnez la variable **Activer la couleur d’arrière-plan** , l’option **Nuancier uniquement** s’affiche. La variable **Nuancier uniquement** vous permet de spécifier ou de sélectionner des couleurs pour l’arrière-plan, le texte ou d’autres éléments visuels du panneau à l’aide de l’option **Ajouter** button
+- **Activer la couleur d’arrière-plan** : cette option vous permet de définir ou de modifier la couleur d’arrière-plan du panneau. Cette fonctionnalité est généralement utilisée dans la conception de l’interface utilisateur pour personnaliser l’apparence des panneaux dans une interface plus grande. Lorsque vous sélectionnez l’option **Activer la couleur d’arrière-plan**, l’option **Nuanciers uniquement** s’affiche. L’option **Nuanciers uniquement** vous permet de spécifier ou de sélectionner des couleurs pour l’arrière-plan, le texte ou d’autres éléments visuels du panneau à l’aide du bouton **Ajouter**.
 
 ### Onglet Styles {#styles-tab}
 
@@ -175,15 +175,15 @@ Le composant principal « Pièce jointe » des formulaires adaptatifs prend en
 
 ![Boîte de dialogue Propriétés personnalisées](/help/adaptive-forms/assets/panel-container-custom-properties.png)
 
-Les propriétés personnalisées vous permettent d’associer des attributs personnalisés (paires clé-valeur) à un composant de base de formulaire adaptatif à l’aide du modèle de formulaire. Les propriétés personnalisées sont répercutées dans la section des propriétés du rendu sans en-tête du composant. Il permet de créer un comportement de formulaire dynamique qui s’adapte en fonction des valeurs d’attributs personnalisés. Par exemple, les développeurs peuvent concevoir différents rendus d’un composant Forms sans affichage pour les plateformes mobiles, de bureau ou web, ce qui améliore considérablement l’expérience utilisateur sur un large éventail d’appareils.
+Les propriétés personnalisées vous permettent d’associer des attributs personnalisés (paires clé-valeur) à un composant principal de formulaire adaptatif à l’aide du modèle de formulaire. Les propriétés personnalisées sont répercutées dans la section des propriétés du rendu déocuplé du composant. Cela permet de créer un comportement de formulaire dynamique qui s’adapte en fonction des valeurs d’attributs personnalisés. Par exemple, les développeurs et développeuses peuvent concevoir plusieurs rendus d’un composant de formulaires découplés pour des plateformes mobiles, de bureau ou web, ce qui améliore considérablement l’expérience client sur un large éventail d’appareils.
 
-- **Nom du groupe**: vous pouvez fournir un nom pour identifier le groupe de propriétés personnalisé. Vous pouvez ajouter, supprimer ou réorganiser plusieurs groupes de propriétés personnalisés. Après avoir ajouté le groupe de propriétés personnalisées, vous pouvez voir les options suivantes :
+- **Nom du groupe** : vous pouvez fournir un nom pour identifier le groupe de propriétés personnalisées. Vous pouvez ajouter, supprimer ou réorganiser plusieurs groupes de propriétés personnalisées. Après avoir ajouté le groupe de propriétés personnalisées, vous pouvez voir les options suivantes :
 
-   - **Paires clé-valeur**: vous pouvez ajouter plusieurs noms de propriétés personnalisées et valeurs de propriétés personnalisées en cliquant sur le bouton **Ajouter** pour chaque groupe de propriétés personnalisé.
+   - **Paires clé-valeur** : vous pouvez ajouter plusieurs noms ou valeurs de propriétés personnalisées en cliquant sur le bouton **Ajouter** pour chaque groupe de propriétés personnalisées.
 
-   - **Supprimer**: appuyez ou cliquez sur pour supprimer le nom de propriété personnalisée et la valeur de propriété personnalisée.
+   - **Supprimer** : appuyez ou cliquez pour supprimer le nom ou la valeur des propriétés personnalisées.
 
-   - **Réorganiser**: appuyez ou cliquez dessus et faites glisser pour réorganiser l’ordre du nom de propriété personnalisée et de la valeur de propriété personnalisée.
+   - **Réorganiser** : appuyez ou cliquez et faites glisser pour réorganiser l’ordre du nom ou de la valeur des propriétés personnalisées.
 
 <!--
 
