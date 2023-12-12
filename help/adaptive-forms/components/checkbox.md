@@ -1,20 +1,20 @@
 ---
-title: Composant principal Adaptive Forms - Case à cocher
-description: Utilisation ou personnalisation du composant principal de case à cocher Forms adaptatif.
+title: Composant principal des formulaires adaptatifs – Case à cocher
+description: Utilisation ou personnalisation du composant principal de case à cocher des formulaires adaptatifs.
 role: Architect, Developer, Admin, User
 exl-id: c6ca4800-bd10-4aeb-957a-fb1780cf94f3
 source-git-commit: 4ca65f93e223fdd0b0a701ef335ed5be1fbab7fe
 workflow-type: tm+mt
 source-wordcount: '1692'
-ht-degree: 54%
+ht-degree: 98%
 
 ---
 
 # Composant de case à cocher{#checkbox-component}
 
-Une case à cocher est un élément d’interface utilisateur graphique généralement utilisé dans les applications logicielles et les formulaires pour permettre aux utilisateurs d’effectuer un choix binaire entre deux options : cochée (sélectionnée) ou non cochée (désélectionnée).
+Une case à cocher est un élément d’interface utilisateur graphique généralement utilisé dans les applications logicielles et les formulaires pour permettre aux personnes d’effectuer un choix binaire entre deux options : cochée (sélectionnée) ou non cochée (désélectionnée).
 
-Une case à cocher est généralement représentée sous la forme d’un petit carré qui peut être activé ou désactivé en cliquant ou en appuyant dessus. Lorsqu’une case est cochée, une coche s’affiche pour indiquer que l’option ou la fonction associée est active ou activée.
+Une case à cocher est généralement représentée sous la forme d’un petit carré qui peut être activé ou désactivé en cliquant ou en appuyant dessus. Lorsqu’une case est cochée, une coche s’affiche pour indiquer que l’option ou la fonctionnalité associée est active ou activée.
 
 **Exemple**
 
@@ -22,15 +22,15 @@ Une case à cocher est généralement représentée sous la forme d’un petit c
 
 ## Utilisation {#reasons-to-use-checkbox}
 
-Les raisons courantes d’utiliser la case à cocher dans un formulaire adaptatif sont les suivantes :
+Les raisons courantes d’utiliser une case à cocher dans un formulaire adaptatif sont les suivantes :
 
-- **Facilité d’utilisation**: les cases à cocher sont visuellement claires et fournissent une méthode simple pour effectuer des choix binaires. Ils sont intuitifs et faciles à comprendre, ce qui les rend conviviaux.
+- **Facilité d’utilisation** : les cases à cocher sont visuellement claires et fournissent une méthode simple pour effectuer des choix binaires. Elles sont intuitives et faciles à comprendre, pour un rendu convivial.
 
-- **Consentement et accord**: des cases à cocher sont utilisées pour obtenir le consentement de l’utilisateur à diverses fins, par exemple pour accepter les conditions générales, s’abonner à des newsletters ou confirmer la vérification de l’âge. Ils indiquent clairement que l’utilisateur accepte activement quelque chose.
+- **Consentement et accord** : des cases à cocher sont utilisées pour obtenir le consentement de l’utilisateur ou de l’utilisatrice à diverses fins. Par exemple pour accepter les conditions générales, s’abonner à des newsletters ou confirmer la vérification de l’âge. Elles indiquent clairement que l’utilisateur ou l’utilisatrice accepte activement quelque chose.
 
-- **Confirmation visuelle**: les cases à cocher activées fournissent une confirmation visuelle pour les utilisateurs que leur sélection a été enregistrée. Ces commentaires permettent d’éviter les erreurs des utilisateurs et de s’assurer qu’ils savent que leurs choix ont été enregistrés.
+- **Confirmation visuelle** : les cases cochées fournissent une confirmation visuelle aux personnes que leur sélection a été enregistrée. Cet élément permet d’éviter les erreurs des personnes, et de s’assurer qu’elles savent que leurs choix ont été enregistrés.
 
-- **Prévention des erreurs**: les cases à cocher réduisent la probabilité des erreurs en permettant aux utilisateurs de vérifier et de confirmer les choix avant l’envoi du formulaire.
+- **Prévention des erreurs** : les cases à cocher réduisent la probabilité des erreurs en permettant aux personnes de vérifier et de confirmer les choix avant l’envoi du formulaire.
 
 ## Version et compatibilité {#version-and-compatibility}
 
@@ -46,38 +46,38 @@ Pour plus d’informations sur les versions et publications des composants princ
 
 ## Détails techniques {#technical-details}
 
-Obtenez les dernières informations sur le composant principal de case à cocher Adaptive Forms dans la documentation technique sur [GitHub](https://github.com/adobe/aem-core-forms-components/tree/master/ui.af.apps/src/main/content/jcr_root/apps/core/fd/components/form/checkbox/v1/checkbox). Pour plus d’informations sur le développement des composants principaux, consultez la [documentation destinée aux développeurs et développeuses de composants principaux](/help/developing/overview.md).
+Retrouvez les dernières informations sur le composant principal de case à cocher des formulaires adaptatifs dans la documentation technique sur [GitHub](https://github.com/adobe/aem-core-forms-components/tree/master/ui.af.apps/src/main/content/jcr_root/apps/core/fd/components/form/checkbox/v1/checkbox). Pour plus d’informations sur le développement des composants principaux, consultez la [documentation destinée aux développeurs et développeuses de composants principaux](/help/developing/overview.md).
 
 ## Boîte de dialogue de configuration {#configure-dialog}
 
-Vous pouvez facilement personnaliser votre expérience de case à cocher pour les visiteurs qui utilisent la boîte de dialogue Configurer . Vous pouvez également définir facilement les options de case à cocher pour une expérience utilisateur fluide.
+Vous pouvez facilement personnaliser l’expérience des cases à cocher pour les visiteurs et les visiteuses en utilisant la boîte de dialogue Configurer. Vous pouvez également définir facilement des options de case à cocher pour une expérience utilisateur fluide.
 
 ![Onglet De base](/help/adaptive-forms/assets/checkbox-basic.png)
 
 - **Nom** - Vous pouvez identifier facilement un composant de formulaire en lui attribuant un nom unique dans le formulaire et dans l’éditeur de règles, mais le nom ne doit pas contenir d’espaces ni de caractères spéciaux.
 
-- **Titre** - Avec son titre, vous pouvez facilement identifier un composant dans un formulaire. Par défaut, le titre apparaît à côté du composant. Si vous n’ajoutez pas de titre, le composant ne s’affiche pas.
+- **Titre** – Avec son titre, vous pouvez facilement identifier un composant dans un formulaire. Par défaut, le titre s’affiche à côté du composant. Si vous n’ajoutez pas de titre, le composant ne s’affiche pas.
 
 - **Masquer le titre** - Sélectionnez cette option pour masquer le titre du composant.
 
 - **Référence Bind** - Une référence Bind est une référence à un élément de données stockée dans une source de données externe et utilisée dans un formulaire. La référence de liaison vous permet de lier dynamiquement les données aux champs du formulaire, de sorte que le formulaire puisse afficher les données les plus récentes de la source de données. Par exemple, une référence de liaison peut être utilisée pour afficher le nom et l’adresse d’un client ou d’une cliente dans un formulaire, en fonction de l’identifiant du client ou de la cliente saisi dans le formulaire. La référence de liaison peut également être utilisée pour mettre à jour la source de données avec les données saisies dans le formulaire. Ainsi, AEM Forms vous permet de créer des formulaires qui interagissent avec des sources de données externes, offrant ainsi une expérience utilisateur fluide pour la collecte et la gestion des données.
 
-- **Marquer comme élément de formulaire non lié**: sélectionnez l’option de configuration d’un champ de formulaire non lié à un schéma. Cette option vous permet d’enregistrer des données sans mettre à jour la source de données. Il vous permet également de gérer les données de manière personnalisée, en les séparant de l’intégration de base de données standard.
+- **Marquer comme élément de formulaire non lié** : sélectionnez cette option pour configurer un champ de formulaire qui n’est lié à aucun schéma. Cette option vous permet d’enregistrer des données sans mettre à jour la source de données. Elle vous permet également de gérer les données de manière personnalisée, en les séparant de l’intégration de base de données standard.
 
-- **Type de données de la valeur envoyée**: cette option spécifie le type de données de la valeur envoyée lorsqu’une option est sélectionnée. Si le **type de données de la valeur envoyée** est défini sur `Number` et que vous ajoutez des données de chaîne à la **Valeur des données** dans l’onglet **Options**, l’écran affiche un message d’erreur `Value type mismatch`.
+- **Type de données de la valeur envoyée** : cette option spécifie le type de données de la valeur envoyée lorsqu’une option est sélectionnée. Si le **type de données de la valeur envoyée** est défini sur `Number` et que vous ajoutez des données de chaîne à la **Valeur des données** dans l’onglet **Options**, l’écran affiche un message d’erreur `Value type mismatch`.
 
 - **Masquer le composant** - Sélectionnez cette option pour masquer le composant du formulaire. Le composant reste accessible à d’autres fins, par exemple pour les calculs dans l’éditeur de règles. Cela s’avère utile lorsque vous devez stocker des informations qui n’ont pas besoin d’être affichées ou directement modifiées par les utilisateurs ou les utilisatrices.
 
-- **Désactiver le composant** - Sélectionnez l’option pour désactiver ou verrouiller le composant. Le composant désactivé n’est pas actif ni modifiable par l’utilisateur final ou l’utilisatrice finale. L’utilisateur ou l’utilisatrice peut voir la valeur du champ mais ne peut pas la modifier. Le composant reste accessible à d’autres fins, par exemple pour les calculs dans l’éditeur de règles.
+- **Désactiver le composant** – Sélectionnez cette option pour désactiver le composant. Le composant désactivé n’est pas actif ni modifiable par l’utilisateur final ou l’utilisatrice finale. L’utilisateur ou l’utilisatrice peut voir la valeur du champ mais ne peut pas la modifier. Le composant reste accessible à d’autres fins, par exemple pour les calculs dans l’éditeur de règles.
 - **Lecture seule** - Sélectionnez cette option pour rendre le composant non modifiable. L’utilisateur ou l’utilisatrice peut voir la valeur du champ mais ne peut pas la modifier. Le composant reste accessible à d’autres fins, par exemple pour les calculs dans l’éditeur de règles.
-- **Lorsqu’elle est cochée, la valeur renvoyée** -Sélectionnez cette option pour spécifier la valeur à associer à la case à cocher lorsqu’elle est cochée ou sélectionnée. Il s’agit de l’action qui se produit lorsqu’un utilisateur coche ou marque la case.
-- **Activez Décochez.**- Sélectionnez l’option permettant d’activer ou de désactiver la possibilité de décocher une case précédemment cochée.
-   - If **Enable Uncheck** est activée ou définie sur true, cela signifie que l’utilisateur peut cocher et décocher la case à cocher à sa discrétion. Ils peuvent activer et désactiver la case à cocher si nécessaire.
+- **Lorsque cette case est cochée, valeur renvoyée** – Sélectionnez cette option pour spécifier la valeur à associer à la case à cocher lorsqu’elle est cochée ou sélectionnée. Il s’agit de l’action qui se produit lorsqu’une personne coche la case.
+- **Activez l’option Décocher.** – Sélectionnez cette option pour activer ou désactiver la possibilité de décocher une case précédemment cochée.
+   - Si **Activer l’option Décocher** est activé ou défini sur true, cela signifie que la personne peut cocher et décocher la case à sa guise. Elle peut cocher et décocher la case si nécessaire.
 
-   - If **Enable Uncheck** est désactivé ou défini sur false, cela signifie qu’une fois la case à cocher cochée, l’utilisateur n’est pas autorisé à la décocher.
-- **Lorsque la case est décochée, la valeur renvoyée** - L’option vous permet de spécifier la valeur à associer à la case à cocher lorsqu’elle est dans un état non coché ou désélectionné.
+   - Si **Activer l’option Décocher** est désactivé ou défini sur false, cela signifie qu’une fois la case cochée, la personne n’est pas autorisée à la décocher.
+- **Lorsque cette case est décochée, valeur renvoyée** – Cette option vous permet de spécifier la valeur à associer à la case lorsqu’elle n’est pas cochée ou sélectionnée.
 
-- **Valeur par défaut**: cette option permet d’ajouter une valeur par défaut dans un champ de formulaire. Si **Composant désactivé** ou **Composant en lecture seule** est sélectionné, la valeur par défaut s’affiche à l’écran. Si aucune valeur n’est saisie par l’utilisateur dans le champ de formulaire, cette valeur est envoyée au moment de l’envoi du formulaire.
+- **Valeur par défaut** – Cette option vous permet d’ajouter une valeur par défaut dans un champ de formulaire. Si **Composant désactivé** ou **Composant en lecture seule** est sélectionné, la valeur par défaut s’affiche à l’écran. Si aucune valeur n’est saisie par l’utilisateur dans le champ de formulaire, cette valeur est envoyée au moment de l’envoi du formulaire.
 
 ### Onglet Validation {#validation-tab}
 
@@ -107,11 +107,11 @@ Vous pouvez facilement personnaliser votre expérience de case à cocher pour le
 
 ## Boîte de dialogue de conception {#design-dialog}
 
-La boîte de dialogue de conception permet de définir et de gérer les styles CSS du composant Case à cocher.
+La boîte de dialogue de conception permet de définir et de gérer les styles CSS du composant de case à cocher.
 
 ### Onglet Styles {#styles-tab}
 
-Le composant principal de case à cocher Adaptive Forms prend en charge l’AEM [Système de style](/help/get-started/authoring.md#component-styling).
+Le composant principal de case à cocher des formulaires adaptatifs prend en charge le [système de style](/help/get-started/authoring.md#component-styling) d’AEM.
 
 ![Boîte de dialogue de conception.](/help/adaptive-forms/assets/checkbox-style.png)
 
@@ -123,15 +123,15 @@ Le composant principal de case à cocher Adaptive Forms prend en charge l’AEM 
 
 ![Boîte de dialogue Propriétés personnalisées](/help/adaptive-forms/assets/checkbox-customproperties.png)
 
-Les propriétés personnalisées vous permettent d’associer des attributs personnalisés (paires clé-valeur) à un composant de base de formulaire adaptatif à l’aide du modèle de formulaire. Les propriétés personnalisées sont répercutées dans la section des propriétés du rendu sans en-tête du composant. Il permet de créer un comportement de formulaire dynamique qui s’adapte en fonction des valeurs d’attributs personnalisés. Par exemple, les développeurs peuvent concevoir différents rendus d’un composant Forms sans affichage pour les plateformes mobiles, de bureau ou web, ce qui améliore considérablement l’expérience utilisateur sur un large éventail d’appareils.
+Les propriétés personnalisées vous permettent d’associer des attributs personnalisés (paires clé-valeur) à un composant principal de formulaire adaptatif à l’aide du modèle de formulaire. Les propriétés personnalisées sont répercutées dans la section des propriétés du rendu déocuplé du composant. Cela permet de créer un comportement de formulaire dynamique qui s’adapte en fonction des valeurs d’attributs personnalisés. Par exemple, les développeurs et développeuses peuvent concevoir plusieurs rendus d’un composant de formulaires découplés pour des plateformes mobiles, de bureau ou web, ce qui améliore considérablement l’expérience client sur un large éventail d’appareils.
 
-- **Nom du groupe**: vous pouvez fournir un nom pour identifier le groupe de propriétés personnalisé. Vous pouvez ajouter, supprimer ou réorganiser plusieurs groupes de propriétés personnalisés. Après avoir ajouté le groupe de propriétés personnalisées, vous pouvez voir les options suivantes :
+- **Nom du groupe** : vous pouvez fournir un nom pour identifier le groupe de propriétés personnalisées. Vous pouvez ajouter, supprimer ou réorganiser plusieurs groupes de propriétés personnalisées. Après avoir ajouté le groupe de propriétés personnalisées, vous pouvez voir les options suivantes :
 
-   - **Paires clé-valeur**: vous pouvez ajouter plusieurs noms de propriétés personnalisées et valeurs de propriétés personnalisées en cliquant sur le bouton **Ajouter** pour chaque groupe de propriétés personnalisé.
+   - **Paires clé-valeur** : vous pouvez ajouter plusieurs noms et valeurs de propriétés personnalisées en cliquant sur le bouton **Ajouter** pour chaque groupe de propriétés personnalisées.
 
-   - **Supprimer**: appuyez ou cliquez sur pour supprimer le nom de propriété personnalisée et la valeur de propriété personnalisée.
+   - **Supprimer** : appuyez ou cliquez pour supprimer le nom et la valeur des propriétés personnalisées.
 
-   - **Réorganiser**: appuyez ou cliquez dessus et faites glisser pour réorganiser l’ordre du nom de propriété personnalisée et de la valeur de propriété personnalisée.
+   - **Réorganiser** : appuyez ou cliquez et faites glisser pour réorganiser l’ordre du nom et de la valeur des propriétés personnalisées.
 
 ## Articles connexes {#related-articles}
 

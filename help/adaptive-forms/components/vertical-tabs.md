@@ -1,34 +1,34 @@
 ---
-title: Composant principal Forms adaptatif - Onglets verticaux
-description: Utilisation ou personnalisation des onglets verticaux de Forms adaptatif composant principal.
+title: Composant principal des formulaires adaptatifs – Onglets verticaux
+description: Utilisation ou personnalisation du composant principal Onglets verticaux des formulaires adaptatifs.
 role: Architect, Developer, Admin, User
 exl-id: d5cd1c18-6840-4f2f-a767-a69b803e6075
 source-git-commit: 4ca65f93e223fdd0b0a701ef335ed5be1fbab7fe
 workflow-type: tm+mt
 source-wordcount: '1904'
-ht-degree: 65%
+ht-degree: 98%
 
 ---
 
 # Composant Onglets verticaux{#vertical-tabs-adaptive-forms-core-component}
 
-Les onglets verticaux d’un formulaire adaptatif font référence à un modèle de conception dans lequel plusieurs sections d’un formulaire sont regroupées et affichées sous la forme d’onglets distincts, alignés verticalement. L’utilisateur ou l’utilisatrice peut basculer entre les onglets pour accéder aux différentes sections du formulaire. Chaque onglet sert de déclencheur pour afficher et masquer le contenu du formulaire associé. Les onglets verticaux permettent d’organiser les formulaires longs en sections gérables et d’améliorer l’expérience utilisateur. Les onglets peuvent vous aider à rendre un formulaire plus accessible aux personnes présentant un handicap, car elles peuvent permuter entre les sections à l’aide de la navigation à l’aide du clavier.
+Les onglets verticaux d’un formulaire adaptatif font référence à un modèle de conception dans lequel plusieurs sections d’un formulaire sont regroupées et affichées sous la forme d’onglets distincts, alignés verticalement. L’utilisateur ou l’utilisatrice peut basculer entre les onglets pour accéder aux différentes sections du formulaire. Chaque onglet sert de déclencheur pour afficher et masquer le contenu du formulaire associé. Les onglets verticaux permettent d’organiser les formulaires longs en sections gérables et d’améliorer l’expérience client. Les onglets peuvent vous aider à rendre un formulaire plus accessible aux personnes présentant un handicap, car elles peuvent permuter entre les sections à l’aide de la navigation au niveau du clavier.
 
-Lorsqu’un utilisateur ou une utilisatrice clique sur un onglet, le contenu du formulaire est mis à jour de manière dynamique afin d’afficher la section correspondante.
+Lorsqu’une personne clique sur un onglet, le contenu du formulaire est mis à jour de manière dynamique afin d’afficher la section correspondante.
 
 ![exemple](/help/adaptive-forms/assets/horizontal-example.png)
 
 ## Utilisation {#reasons-to-use-vertical-tabs}
 
-Les raisons courantes d’utiliser des onglets verticaux dans un formulaire adaptatif sont les suivantes :
+Les raisons courantes d’utiliser les onglets verticaux dans un formulaire adaptatif sont les suivantes :
 
-- **Amélioration de l’utilisation**: les onglets verticaux facilitent la navigation dans le formulaire, en particulier si celui-ci comporte plusieurs sections ou un grand nombre de champs.
+- **Utilisation améliorée** : les onglets verticaux permettent aux utilisateurs ou aux utilisatrices de parcourir plus facilement le formulaire, en particulier s’il comporte plusieurs sections ou un grand nombre de champs.
 
-- **Gestion de l’espace**: les onglets verticaux permettent de préserver l’espace écran en regroupant les sections de formulaire associées en onglets et en n’affichant qu’une seule section à la fois.
+- **Gestion de l’espace** : les onglets verticaux permettent de préserver l’espace de l’écran en regroupant les sections de formulaire associées en onglets et en n’affichant qu’une seule section à la fois.
 
-- **Meilleure organisation** : les onglets offrent une structure claire et organisée pour un formulaire, ce qui permet aux utilisateurs et aux utilisatrices de comprendre et de remplir plus facilement le formulaire.
+- **Meilleure organisation** : les onglets offrent une structure claire et organisée pour un formulaire, ce qui permet aux personnes de comprendre et de remplir plus facilement le formulaire.
 
-- **Engagement accru des utilisateurs**: les onglets verticaux peuvent rendre un formulaire plus attrayant et attrayant visuellement pour les utilisateurs, ce qui peut améliorer le taux d’remplissage du formulaire.
+- **Interaction client renforcée** : les onglets verticaux peuvent rendre un formulaire plus intéressant et attrayant visuellement pour les utilisateurs et les utilisatrices, ce qui peut améliorer le taux d’achèvement du formulaire.
 
 ## Version et compatibilité {#version-and-compatibility}
 
@@ -44,12 +44,12 @@ Pour plus d’informations sur les versions et publications des composants princ
 
 ## Détails techniques {#technical-details}
 
-Obtenez les dernières informations sur le composant principal des onglets verticaux de Forms adaptatif dans la documentation technique sur [GitHub](https://github.com/adobe/aem-core-forms-components/tree/master/ui.af.apps/src/main/content/jcr_root/apps/core/fd/components/form/verticaltabs/v1/verticaltabs). Pour plus d’informations sur le développement des composants principaux, consultez la [documentation destinée aux développeurs et développeuses de composants principaux](/help/developing/overview.md).
+Retrouvez les informations les plus récentes sur le composant principal Onglets verticaux des formulaires adaptatifs dans la documentation technique sur [GitHub](https://github.com/adobe/aem-core-forms-components/tree/master/ui.af.apps/src/main/content/jcr_root/apps/core/fd/components/form/verticaltabs/v1/verticaltabs). Pour plus d’informations sur le développement des composants principaux, consultez la [documentation destinée aux développeurs et développeuses de composants principaux](/help/developing/overview.md).
 
 
 ## Boîte de dialogue de configuration {#configure-dialog}
 
-Vous pouvez facilement personnaliser votre expérience d’onglets verticaux pour les visiteurs qui utilisent la boîte de dialogue Configurer . Vous pouvez également définir facilement des options d’onglets verticaux pour une expérience utilisateur transparente.
+Vous pouvez facilement personnaliser votre expérience en matière d’onglets verticaux pour les visiteurs et les visiteuses à l’aide de la boîte de dialogue de configuration. Vous pouvez également définir facilement des options d’onglets verticaux pour une expérience client fluide.
 
 ### Onglet De base {#basic-tab}
 
@@ -88,17 +88,17 @@ Vous pouvez facilement personnaliser votre expérience d’onglets verticaux pou
 - **Masquer le composant** - Sélectionnez cette option pour masquer le composant du formulaire. Le composant reste accessible à d’autres fins, par exemple pour les calculs dans l’éditeur de règles. Cela s’avère utile lorsque vous devez stocker des informations qui n’ont pas besoin d’être affichées ou directement modifiées par les utilisateurs ou les utilisatrices.
 - **Désactiver le composant** - Sélectionnez cette option pour désactiver le composant. Le composant désactivé n’est pas actif ni modifiable par l’utilisateur final ou l’utilisatrice finale. L’utilisateur ou l’utilisatrice peut voir la valeur du champ mais ne peut pas la modifier. Le composant reste accessible à d’autres fins, par exemple pour les calculs dans l’éditeur de règles.
 
-### Onglet Répéter verticalement {#repeat-tabs-on-top}
+### Répéter un onglet vertical {#repeat-tabs-on-top}
 
-![Onglet Répéter](/help/adaptive-forms/assets/vertical-tab-repeat-vertical-tab.png)
+![répéter un onglet](/help/adaptive-forms/assets/vertical-tab-repeat-vertical-tab.png)
 
-Vous pouvez utiliser les options de répétition pour dupliquer le composant Onglets verticaux et ses composants enfants, définir un nombre de répétitions minimal et maximal et faciliter la réplication de sections similaires dans un formulaire. Lors de l’interaction avec le composant Onglets verticaux et de l’accès à ses paramètres, les options suivantes sont présentées :
+Vous pouvez utiliser les options de répétition pour dupliquer le composant Onglets verticaux et ses composants enfants, définir un nombre de répétitions minimal et maximal et faciliter la réplication de sections similaires dans un formulaire. Lors de l’interaction avec le composant Onglets verticaux et de l’accès à ses paramètres, les options suivantes s’affichent :
 
-- **Rendre les onglets verticaux répétables**: fonction de basculement qui permet aux utilisateurs d’activer ou de désactiver la fonctionnalité de répétabilité.
-- **Répétition minimale**: définit le nombre minimal de répétitions du composant Onglets verticaux . La valeur zéro indique que le composant Onglets verticaux n’est pas répété ; la valeur par défaut est zéro.
-- **Nombre maximal de répétitions**: définit le nombre maximal de répétitions du composant Onglets verticaux . Par défaut, cette valeur est illimitée.
+- **Rendre les onglets verticaux répétables** : fonctionnalité de basculement qui permet aux utilisateurs et utilisatrices d’activer ou de désactiver la fonctionnalité de répétabilité.
+- **Nombre minimal de répétitions** : définit le nombre minimal de répétitions possibles du composant Onglets verticaux. La valeur zéro indique que le composant Onglets verticaux n’est pas répété. La valeur par défaut est zéro.
+- **Nombre maximal de répétitions** : définit le nombre maximal de répétitions possibles du composant Onglets verticaux. Par défaut, cette valeur est illimitée.
 
-Pour gérer efficacement les sections répétables dans les onglets verticaux, suivez les étapes fournies dans la section [Création de formulaires avec des sections répétables](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/create-forms-repeatable-sections.html?lang=fr) article.
+Pour gérer efficacement les sections répétables dans les Onglets verticaux, procédez comme indiqué dans l’article [Création de formulaires avec des sections répétables](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/create-forms-repeatable-sections.html?lang=fr).
 
 ### Onglet Éléments {#items-tab}
 
@@ -108,7 +108,7 @@ Le bouton **Ajouter** vous permet de sélectionner un composant à ajouter en ta
 
 - **Icône** : L’icône identifie le composant du panneau dans la liste. Pointez sur l’icône pour afficher le nom complet du composant sous forme d’info-bulle.
 - **Description** : Description utilisée comme texte du panneau. Par défaut, le nom du composant sélectionné pour le panneau.
-- **Supprimer** - Appuyez ou cliquez sur pour supprimer le panneau du composant Onglets verticaux .
+- **Supprimer** : appuyez ou cliquez sur cette option pour supprimer le panneau du composant Onglets verticaux.
 - **Réorganiser** : Appuyez ou cliquez et faites glisser pour réorganiser l’ordre des panneaux.
 
 ### Onglet Contenu de l’aide {#help-content}
@@ -131,26 +131,26 @@ Le bouton **Ajouter** vous permet de sélectionner un composant à ajouter en ta
 
 ## Boîte de dialogue de conception {#design-dialog}
 
-La boîte de dialogue Conception permet aux créateurs et aux créatrices de modèles de contrôler l’affichage des éléments par défaut. Pour le composant Onglets verticaux de Forms adaptatif, vous pouvez définir les éléments suivants :
+La boîte de dialogue Conception permet aux créateurs et aux créatrices de modèles de contrôler l’affichage des éléments par défaut. Pour le composant Onglets verticaux des formulaires adaptatifs, vous pouvez définir les éléments suivants :
 
-- Composants principaux qu’un créateur de formulaire peut ajouter aux onglets verticaux dans l’éditeur de Forms adaptatif
-- Noms simples pour les styles (classes CSS) qui peuvent être appliqués dans la boîte de dialogue des propriétés du composant Onglets verticaux dans l’éditeur de Forms adaptatif.
+- Composants principaux qu’un créateur ou une créatrice de formulaire peut ajouter aux onglets verticaux dans l’éditeur de formulaires adaptatifs.
+- Noms simples pour les styles (classes CSS) qui peuvent être appliqués dans la boîte de dialogue des propriétés du composant Onglets verticaux dans l’éditeur de formulaires adaptatifs.
 
 Cela permet de rendre le processus de création et de personnalisation de formulaires plus simple et plus efficace.
 
 ### Onglet Composants autorisés {#allowed-components-tab}
 
-![Onglet Composants autorisés.](/help/adaptive-forms/assets/tabs-allowed-component.png)
+![Onglet Composants autorisés](/help/adaptive-forms/assets/tabs-allowed-component.png)
 
-La variable **Composants autorisés** Cet onglet permet à l’éditeur de modèles de définir les composants qui peuvent être ajoutés en tant qu’éléments aux panneaux dans le composant Onglets verticaux de l’éditeur Forms adaptatif.
+L’onglet **Composants autorisés** permet à l’éditeur de modèles de définir les composants qui peuvent être ajoutés en tant qu’éléments aux panneaux dans le composant Onglets verticaux de l’éditeur de formulaires adaptatifs.
 
 ### Onglet Styles {#styles-tab}
 
 ![Onglet Styles](/help/adaptive-forms/assets/tabs-styles-tab.png)
 
-La boîte de dialogue de conception permet de définir et de gérer les styles CSS d’un composant. Le composant principal Onglets verticaux de Forms adaptatif prend en charge l’AEM [Système de style](/help/get-started/authoring.md#component-styling).
+La boîte de dialogue de conception permet de définir et de gérer les styles CSS d’un composant. Le composant principal Onglets verticaux des formulaires adaptatifs prend en charge le [Système de style](/help/get-started/authoring.md#component-styling) d’AEM.
 
-- **Classes CSS par défaut**: vous pouvez fournir une classe CSS par défaut pour le composant principal Onglets verticaux du Forms adaptatif .
+- **Classes CSS par défaut** : vous pouvez fournir une classe CSS par défaut pour le composant principal Onglets verticaux des formulaires adaptatifs.
 
 - **Styles autorisés** : vous pouvez définir des styles en fournissant un nom et la classe CSS qui représente le style. Par exemple, vous pouvez créer un style nommé « texte en gras » et fournir la classe CSS « police d’épaisseur : gras ». Vous pouvez utiliser ou appliquer ces styles à un formulaire adaptatif dans l’éditeur de formulaires adaptatifs. Pour appliquer un style, sélectionnez le composant auquel vous souhaitez appliquer le style dans l’éditeur de formulaires adaptatifs, accédez à la boîte de dialogue Propriétés, puis sélectionnez le style de votre choix dans la liste déroulante **Styles**. Si vous devez mettre à jour ou modifier les styles, revenez simplement à la boîte de dialogue Conception, mettez à jour les styles dans l’onglet Styles et enregistrez les modifications.
 
@@ -158,15 +158,15 @@ La boîte de dialogue de conception permet de définir et de gérer les styles C
 
 ![Onglet Propriétés personnalisées](/help/adaptive-forms/assets/tabs-custom-properties.png)
 
-Les propriétés personnalisées vous permettent d’associer des attributs personnalisés (paires clé-valeur) à un composant de base de formulaire adaptatif à l’aide du modèle de formulaire. Les propriétés personnalisées sont répercutées dans la section des propriétés du rendu sans en-tête du composant. Il permet de créer un comportement de formulaire dynamique qui s’adapte en fonction des valeurs d’attributs personnalisés. Par exemple, les développeurs peuvent concevoir différents rendus d’un composant Forms sans affichage pour les plateformes mobiles, de bureau ou web, ce qui améliore considérablement l’expérience utilisateur sur un large éventail d’appareils.
+Les propriétés personnalisées vous permettent d’associer des attributs personnalisés (paires clé-valeur) à un composant principal de formulaire adaptatif à l’aide du modèle de formulaire. Les propriétés personnalisées sont répercutées dans la section des propriétés du rendu déocuplé du composant. Cela permet de créer un comportement de formulaire dynamique qui s’adapte en fonction des valeurs d’attributs personnalisés. Par exemple, les développeurs et développeuses peuvent concevoir plusieurs rendus d’un composant de formulaires découplés pour des plateformes mobiles, de bureau ou web, ce qui améliore considérablement l’expérience client sur un large éventail d’appareils.
 
-- **Nom du groupe**: vous pouvez fournir un nom pour identifier le groupe de propriétés personnalisé. Vous pouvez ajouter, supprimer ou réorganiser plusieurs groupes de propriétés personnalisés. Après avoir ajouté le groupe de propriétés personnalisées, vous pouvez voir les options suivantes :
+- **Nom du groupe** : vous pouvez fournir un nom pour identifier le groupe de propriétés personnalisées. Vous pouvez ajouter, supprimer ou réorganiser plusieurs groupes de propriétés personnalisées. Après avoir ajouté le groupe de propriétés personnalisées, vous pouvez voir les options suivantes :
 
-   - **Paires clé-valeur**: vous pouvez ajouter plusieurs noms de propriétés personnalisées et valeurs de propriétés personnalisées en cliquant sur le bouton **Ajouter** pour chaque groupe de propriétés personnalisé.
+   - **Paires clé-valeur** : vous pouvez ajouter plusieurs noms et valeurs de propriétés personnalisées en cliquant sur le bouton **Ajouter** pour chaque groupe de propriétés personnalisées.
 
-   - **Supprimer**: appuyez ou cliquez sur pour supprimer le nom de propriété personnalisée et la valeur de propriété personnalisée.
+   - **Supprimer** : appuyez ou cliquez pour supprimer le nom et la valeur des propriétés personnalisées.
 
-   - **Réorganiser**: appuyez ou cliquez dessus et faites glisser pour réorganiser l’ordre du nom de propriété personnalisée et de la valeur de propriété personnalisée.
+   - **Réorganiser** : appuyez ou cliquez et faites glisser pour réorganiser l’ordre du nom et de la valeur des propriétés personnalisées.
 
 ## Articles connexes {#related-articles}
 
