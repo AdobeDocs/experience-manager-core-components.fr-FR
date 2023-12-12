@@ -1,8 +1,8 @@
 ---
 source-git-commit: 2b1e62dc57126316a79f22d7d9f203f7ef044dc4
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '372'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 # Fragments de code {#snippets}
@@ -54,7 +54,7 @@ ht-degree: 97%
 - [Envoyer des données de formulaire adaptatif à un workflow AEM](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/configure-submit-actions-core-components.html?lang=fr#invoke-an-aem-workflow)
 - [Utiliser le Portail Formulaires pour répertorier des formulaires adaptatifs AEM sur un site web AEM](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-foundation-components/configure-forms-portal.html?lang=fr)
 
-## Plus comme ceci {#more-like-this}
+## Sites connexes {#more-like-this}
 
 - [Accordéon](/help/adaptive-forms/components/accordion.md)
 - [Bouton](/help/adaptive-forms/components/button.md)
@@ -79,6 +79,6 @@ ht-degree: 97%
 - [Entrée de texte](/help/adaptive-forms/components/text-input.md)
 - [Texte](/help/adaptive-forms/components/text.md)
 - [Titre](/help/adaptive-forms/components/title.md)
-- [Onglet Termes et conditions](/help/adaptive-forms/components/terms-and-conditions.md)
+- [Onglet Conditions générales](/help/adaptive-forms/components/terms-and-conditions.md)
 - [Assistant](/help/adaptive-forms/components/wizard.md)
 
