@@ -4,9 +4,9 @@ description: Ajoutez un formulaire adaptatif à une page Web.
 role: Architect, Developer, Admin, User
 exl-id: 03c4cf7c-51d6-4850-a566-1c0514d52dab
 source-git-commit: 93acf5f6f11da42a7834bbb11b15a36db1e03dc9
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1243'
-ht-degree: 75%
+ht-degree: 100%
 
 ---
 
@@ -70,7 +70,7 @@ Vous pouvez facilement personnaliser votre expérience de conteneur de formulair
 
 ![Onglet Envoi](/help/adaptive-forms/assets/formcontainer_fdmtab.png)
 
-Vous pouvez utiliser le modèle de données de formulaire pour connecter un formulaire à une source de données afin d’envoyer et de recevoir des données en fonction des actions de l’utilisateur ou de l’utilisatrice. Vous pouvez également connecter un formulaire à un schéma JSON pour recevoir les données envoyées dans un format prédéfini. Selon les besoins, connectez votre formulaire à un schéma JSON ou à un modèle de données de formulaire :
+Vous pouvez utiliser le modèle de données de formulaire pour connecter un formulaire à une source de données afin d’envoyer et de recevoir des données en fonction des actions de l’utilisateur ou de l’utilisatrice. Vous pouvez également connecter un formulaire à un schéma JSON pour recevoir les données envoyées dans un format prédéfini. Selon les besoins, connectez votre formulaire à un schéma JSON ou à un modèle de données de formulaire :
 - Créer un schéma JSON et le charger dans votre environnement
 - Créer un modèle de données de formulaire
 
@@ -90,25 +90,25 @@ Les utilisateurs et les utilisatrices peuvent configurer différentes actions po
 
 ## Boîte de dialogue de conception {#design-dialog}
 
-La boîte de dialogue de conception permet de définir et de gérer les styles CSS du composant Conteneur de formulaires.
+La boîte de dialogue de conception permet de définir et de gérer les styles CSS pour le composant Conteneur de formulaire.
 
 ### Onglet Composants autorisés {#allowed-components-tab}
 
 ![Onglet Composant autorisé de la boîte de dialogue de conception](/help/adaptive-forms/assets/formcontainer-allowedcomponents.png)
 
-La variable **Composants autorisés** Cet onglet permet à l’éditeur de modèles de définir les composants qui peuvent être ajoutés en tant qu’éléments aux panneaux du composant dans l’éditeur de Forms adaptatif.
+L’onglet **Composants autorisés** permet à l’éditeur de modèles de définir les composants qui peuvent être ajoutés en tant qu’éléments aux panneaux dans le composant de l’éditeur de formulaires adaptatifs.
 
 ### Onglet Composants par défaut {#default-components-tab}
 
 ![Onglet Composant par défaut de la boîte de dialogue de conception](/help/adaptive-forms/assets/formcontainer-defaultcomponents.png)
 
-La variable **Composants par défaut** Cet onglet permet à l’éditeur de modèles de spécifier les composants visibles par défaut en tant qu’éléments dans le composant de conteneur de formulaires dans l’éditeur de Forms adaptatif.
+L’onglet **Composants par défaut** permet à l’éditeur de modèles de spécifier les composants visibles par défaut en tant qu’éléments dans le composant Conteneur de formulaire dans l’éditeur de formulaires adaptatifs.
 
 ### Onglet Paramètres réactifs {#responsive-tab}
 
 ![Onglet Paramètres réactifs de la boîte de dialogue de conception](/help/adaptive-forms/assets/formcontainer-responsivestyle.png)
 
-La variable **Paramètres réactifs** permet à l’éditeur de modèles de spécifier le nombre de colonnes dans la grille dans le composant de conteneur de formulaires de l’éditeur de Forms adaptatif.
+L’onglet **Paramètres réactifs** permet à l’éditeur de modèles de spécifier le nombre de colonnes dans la grille à l’intérieur du composant Conteneur de formulaire de l’éditeur de formulaires adaptatifs.
 
 ### Onglet Styles {#styles-tab}
 
@@ -124,15 +124,15 @@ Le composant principal « Pièce jointe » des formulaires adaptatifs prend en
 
 ![Boîte de dialogue Propriétés personnalisées](/help/adaptive-forms/assets/formcontainer-custompropertiestab.png)
 
-Les propriétés personnalisées vous permettent d’associer des attributs personnalisés (paires clé-valeur) à un composant de base de formulaire adaptatif à l’aide du modèle de formulaire. Les propriétés personnalisées sont répercutées dans la section des propriétés du rendu sans en-tête du composant. Il permet de créer un comportement de formulaire dynamique qui s’adapte en fonction des valeurs d’attributs personnalisés. Par exemple, les développeurs peuvent concevoir différents rendus d’un composant Forms sans affichage pour les plateformes mobiles, de bureau ou web, ce qui améliore considérablement l’expérience utilisateur sur un large éventail d’appareils.
+Les propriétés personnalisées vous permettent d’associer des attributs personnalisés (paires clé-valeur) à un composant principal de formulaire adaptatif à l’aide du modèle de formulaire. Les propriétés personnalisées sont répercutées dans la section des propriétés du rendu déocuplé du composant. Cela permet de créer un comportement de formulaire dynamique qui s’adapte en fonction des valeurs d’attributs personnalisés. Par exemple, les développeurs et développeuses peuvent concevoir plusieurs rendus d’un composant de formulaires découplés pour des plateformes mobiles, de bureau ou web, ce qui améliore considérablement l’expérience client sur un large éventail d’appareils.
 
-- **Nom du groupe**: vous pouvez fournir un nom pour identifier le groupe de propriétés personnalisé. Vous pouvez ajouter, supprimer ou réorganiser plusieurs groupes de propriétés personnalisés. Après avoir ajouté le groupe de propriétés personnalisées, vous pouvez voir les options suivantes :
+- **Nom du groupe** : vous pouvez fournir un nom pour identifier le groupe de propriétés personnalisées. Vous pouvez ajouter, supprimer ou réorganiser plusieurs groupes de propriétés personnalisées. Après avoir ajouté le groupe de propriétés personnalisées, vous pouvez voir les options suivantes :
 
-   - **Paires clé-valeur**: vous pouvez ajouter plusieurs noms de propriétés personnalisées et valeurs de propriétés personnalisées en cliquant sur le bouton **Ajouter** pour chaque groupe de propriétés personnalisé.
+   - **Paires clé-valeur** : vous pouvez ajouter plusieurs noms et valeurs de propriétés personnalisées en cliquant sur le bouton **Ajouter** pour chaque groupe de propriétés personnalisées.
 
-   - **Supprimer**: appuyez ou cliquez sur pour supprimer le nom de propriété personnalisée et la valeur de propriété personnalisée.
+   - **Supprimer** : appuyez ou cliquez pour supprimer le nom et la valeur des propriétés personnalisées.
 
-   - **Réorganiser**: appuyez ou cliquez dessus et faites glisser pour réorganiser l’ordre du nom de propriété personnalisée et de la valeur de propriété personnalisée.
+   - **Réorganiser** : appuyez ou cliquez et faites glisser pour réorganiser l’ordre du nom et de la valeur des propriétés personnalisées.
 
 <!--
 
