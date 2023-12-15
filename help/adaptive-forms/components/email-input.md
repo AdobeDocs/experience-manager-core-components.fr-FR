@@ -3,10 +3,10 @@ title: Composant principal des formulaires adaptatifs - Entrée d’e-mail
 description: Utilisation ou personnalisation du composant principal « Entrée d’e-mail » des formulaires adaptatifs.
 role: Architect, Developer, Admin, User
 exl-id: f6a2974b-991e-4cea-9ef8-0b03e8975eeb
-source-git-commit: e0ed415bd7f45fdca6fbbb8ba409604d9e82a647
-workflow-type: ht
-source-wordcount: '1922'
-ht-degree: 100%
+source-git-commit: 120f8023ac2e13380e59703e199dc929176a59b6
+workflow-type: tm+mt
+source-wordcount: '1916'
+ht-degree: 95%
 
 ---
 
@@ -96,9 +96,10 @@ Vous pouvez facilement personnaliser l’expérience d’entrée d’e-mail pour
 - **Message d’erreur du nombre de caractères minimum** - La boîte de dialogue **Message d’erreur du nombre de caractères minimum** vous permet d’ajouter un message d’erreur personnalisé si vous saisissez un nombre de caractères inférieur à la valeur spécifiée dans l’option **Nombre minimum de caractères**.
 <br>
 
-    L’option **Motif de validation** vous permet de saisir un motif pour valider l’ID d’e-mail saisi. Si la validation de l’ID d’e-mail échoue avec la valeur saisie dans l’option **Motif**, le message d’erreur s’affiche à l’écran.
-    - **Motif** - Cette option vous permet de saisir les motifs de vérification autorisés pour les e-mails. Les expressions régulières sont également autorisées.
-    - **Message d’erreur** – Cette option permet de saisir un message qui s’affiche à l’écran si la validation de l’ID d’e-mail échoue avec la valeur saisie dans l’option **Motif**
+La variable **Modèle de validation** vous permet de saisir un modèle pour valider l’e-mail saisi. Si la validation de l’ID d’email échoue avec la valeur saisie dans **Modèle** , le message d’erreur s’affiche à l’écran.
+
+- **Modèle** - Cette option vous permet de saisir les modèles de vérification autorisés pour les emails. Les expressions régulières sont également autorisées.
+- **Message d’erreur** - Cette option vous permet de saisir un message qui s’affiche à l’écran si la validation de l’e-mail échoue avec la valeur saisie dans la variable **Modèle** option
 
 ### Onglet Contenu de l’aide {#help-content-tab}
 
@@ -136,11 +137,11 @@ Cet onglet vous permet de définir et de gérer les styles CSS d’un composant.
 
 Les propriétés personnalisées vous permettent d’associer des attributs personnalisés (paires clé-valeur) à un composant principal de formulaire adaptatif à l’aide du modèle de formulaire. Les propriétés personnalisées sont répercutées dans la section des propriétés du rendu déocuplé du composant. Cela permet de créer un comportement de formulaire dynamique qui s’adapte en fonction des valeurs d’attributs personnalisés. Par exemple, les développeurs et développeuses peuvent concevoir plusieurs rendus d’un composant de formulaires découplés pour des plateformes mobiles, de bureau ou web, ce qui améliore considérablement l’expérience client sur un large éventail d’appareils.
 
-- **Nom du groupe** : vous pouvez fournir un nom pour identifier le groupe des propriétés personnalisées. Vous pouvez ajouter, supprimer ou réorganiser plusieurs groupes de propriétés personnalisées. Après avoir ajouté le groupe de propriétés personnalisées, vous pouvez voir les options suivantes :
+- **Nom du groupe** : vous pouvez fournir un nom pour identifier le groupe de propriétés personnalisées. Vous pouvez ajouter, supprimer ou réorganiser plusieurs groupes de propriétés personnalisées. Après avoir ajouté le groupe de propriétés personnalisées, vous pouvez voir les options suivantes :
 
    - **Paires clé-valeur** : vous pouvez ajouter plusieurs noms et valeurs de propriétés personnalisées en cliquant sur le bouton **Ajouter** pour chaque groupe de propriétés personnalisées.
 
-   - **Supprimer** : appuyez ou cliquez pour supprimer le nom ou la valeur des propriétés personnalisées.
+   - **Supprimer** : appuyez ou cliquez pour supprimer le nom et la valeur des propriétés personnalisées.
 
    - **Réorganiser** : appuyez ou cliquez et faites glisser pour réorganiser l’ordre du nom et de la valeur des propriétés personnalisées.
 
