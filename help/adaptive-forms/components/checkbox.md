@@ -4,13 +4,13 @@ description: Utilisation ou personnalisation du composant principal de case à c
 role: Architect, Developer, Admin, User
 exl-id: c6ca4800-bd10-4aeb-957a-fb1780cf94f3
 source-git-commit: 4ca65f93e223fdd0b0a701ef335ed5be1fbab7fe
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1692'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
-# Composant de case à cocher{#checkbox-component}
+# Composant Case à cocher{#checkbox-component}
 
 Une case à cocher est un élément d’interface utilisateur graphique généralement utilisé dans les applications logicielles et les formulaires pour permettre aux personnes d’effectuer un choix binaire entre deux options : cochée (sélectionnée) ou non cochée (désélectionnée).
 
@@ -34,7 +34,7 @@ Les raisons courantes d’utiliser une case à cocher dans un formulaire adaptat
 
 ## Version et compatibilité {#version-and-compatibility}
 
-Le composant principal de case à cocher Adaptive Forms a été publié dans le cadre des composants principaux 2.0.52. Voici un tableau de toutes les versions prises en charge, de la compatibilité AEM et des liens vers la documentation correspondante :
+Le composant principal Case à cocher des formulaires adaptatifs a été publié dans le cadre de la version 2.0.52 des composants principaux. Voici un tableau présentant toutes les versions prises en charge, la compatibilité AEM et les liens vers la documentation correspondante :
 
 |  |  |
 |---|---|
