@@ -4,9 +4,9 @@ description: Utilisation ou personnalisation du composant principal Onglets vert
 role: Architect, Developer, Admin, User
 exl-id: d5cd1c18-6840-4f2f-a767-a69b803e6075
 source-git-commit: 4ca65f93e223fdd0b0a701ef335ed5be1fbab7fe
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1904'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -32,7 +32,7 @@ Les raisons courantes d’utiliser les onglets verticaux dans un formulaire adap
 
 ## Version et compatibilité {#version-and-compatibility}
 
-Le composant principal Onglets verticaux de Forms adaptatif a été publié dans le cadre de la version 2.0.18 des composants principaux. Voici un tableau de toutes les versions prises en charge, de la compatibilité AEM et des liens vers la documentation correspondante :
+Le composant principal Onglets verticaux des formulaires adaptatifs a été publié dans le cadre de la version 2.0.18 des composants principaux. Voici un tableau présentant toutes les versions prises en charge, la compatibilité AEM et les liens vers la documentation correspondante :
 
 |  |  |
 |---|---|
