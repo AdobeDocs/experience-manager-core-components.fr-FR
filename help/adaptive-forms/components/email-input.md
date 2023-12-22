@@ -4,9 +4,9 @@ description: Utilisation ou personnalisation du composant principal « Entrée 
 role: Architect, Developer, Admin, User
 exl-id: f6a2974b-991e-4cea-9ef8-0b03e8975eeb
 source-git-commit: 120f8023ac2e13380e59703e199dc929176a59b6
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1916'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -96,10 +96,10 @@ Vous pouvez facilement personnaliser l’expérience d’entrée d’e-mail pour
 - **Message d’erreur du nombre de caractères minimum** - La boîte de dialogue **Message d’erreur du nombre de caractères minimum** vous permet d’ajouter un message d’erreur personnalisé si vous saisissez un nombre de caractères inférieur à la valeur spécifiée dans l’option **Nombre minimum de caractères**.
 <br>
 
-La variable **Modèle de validation** vous permet de saisir un modèle pour valider l’e-mail saisi. Si la validation de l’ID d’email échoue avec la valeur saisie dans **Modèle** , le message d’erreur s’affiche à l’écran.
+L’option **Modèle de validation** vous permet de saisir un modèle pour valider l’ID d’e-mail saisi. Si la validation de l’ID d’e-mail échoue avec la valeur saisie dans l’option **Modèle**, le message d’erreur s’affiche à l’écran.
 
-- **Modèle** - Cette option vous permet de saisir les modèles de vérification autorisés pour les emails. Les expressions régulières sont également autorisées.
-- **Message d’erreur** - Cette option vous permet de saisir un message qui s’affiche à l’écran si la validation de l’e-mail échoue avec la valeur saisie dans la variable **Modèle** option
+- **Modèle** - Cette option vous permet de saisir les modèles de vérification autorisés pour les e-mails. Les expressions régulières sont également autorisées.
+- **Message d’erreur** - Cette option permet de saisir un message qui s’affiche à l’écran si la validation de l’ID d’e-mail échoue avec la valeur saisie dans l’option **Modèle**.
 
 ### Onglet Contenu de l’aide {#help-content-tab}
 
