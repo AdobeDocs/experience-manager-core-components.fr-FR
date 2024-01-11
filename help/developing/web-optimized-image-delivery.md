@@ -3,10 +3,10 @@ title: Diffusion d’images optimisées pour le web
 description: Découvrez comment les composants principaux peuvent exploiter les fonctionnalités de diffusion d’images optimisées pour le web d’AEM as a Cloud Service dans le but de diffuser plus efficacement les images.
 role: Architect, Developer, Admin, User
 exl-id: 6080ab8b-f53c-4d5e-812e-16889da4d7de
-source-git-commit: d8c8f4c3395313b21f56fd7d98175924287c367c
-workflow-type: ht
-source-wordcount: '1022'
-ht-degree: 100%
+source-git-commit: a312eb7a1dc68a264eaf0938c450a17f7cbc4506
+workflow-type: tm+mt
+source-wordcount: '1020'
+ht-degree: 95%
 
 ---
 
@@ -88,7 +88,7 @@ L’avantage de cette technique est que l’élément `img` et ses attributs peu
 
 ### Puis-je utiliser la diffusion d’images optimisées pour le web avec mon propre composant ?
 
-Oui, le service de diffusion d’images optimisées pour le web peut être utilisé par des composants personnalisés. Adobe recommande [l’extension du composant Image](/help/developing/customizing.md) dans ce cas.
+Oui, le service de diffusion d’images optimisé pour le web peut être utilisé par des composants personnalisés, qui sont créés par [extension du composant Image,](/help/developing/customizing.md)
 
 Vous trouverez ci-dessous une interface de service que vous pouvez utiliser pour générer l’URL de la ressource.
 
@@ -96,7 +96,9 @@ Vous trouverez ci-dessous une interface de service que vous pouvez utiliser pour
 com.adobe.cq.wcm.spi.AssetDelivery.getDeliveryURL(Resource resource, Map<String, Object> parameterMap)
 ```
 
-**Notez que les incorporations d’URL directe dans une expérience qui n’est pas créée par le biais des composants principaux s’exécutant sur AEM Sites CS sont contraires aux conditions de licence de Media Library.**
+>[!WARNING]
+>
+>Les incorporations d’URL directes dans une expérience qui n’est pas créée via les composants principaux s’exécutant sur AEM Sites CS sont contraires aux conditions de licence de Media Library.
 
 ### Quelle est l’URL d’une image fournie par le nouveau service d’images ? {#url}
 
