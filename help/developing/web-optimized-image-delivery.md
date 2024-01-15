@@ -4,9 +4,9 @@ description: Découvrez comment les composants principaux peuvent exploiter les 
 role: Architect, Developer, Admin, User
 exl-id: 6080ab8b-f53c-4d5e-812e-16889da4d7de
 source-git-commit: a312eb7a1dc68a264eaf0938c450a17f7cbc4506
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1020'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -98,7 +98,7 @@ com.adobe.cq.wcm.spi.AssetDelivery.getDeliveryURL(Resource resource, Map<String,
 
 >[!WARNING]
 >
->Les incorporations d’URL directes dans une expérience qui n’est pas créée via les composants principaux s’exécutant sur AEM Sites CS sont contraires aux conditions de licence de Media Library.
+>Les incorporations d’URL directes dans une expérience qui n’est pas créée par le biais des composants principaux s’exécutant sur AEM Sites CS sont contraires aux conditions de licence de Media Library.
 
 ### Quelle est l’URL d’une image fournie par le nouveau service d’images ? {#url}
 
