@@ -3,9 +3,9 @@ title: Formulaire adaptatif - Accordéon
 description: Utilisez l’accordéon pour organiser et simplifier un formulaire long ou complexe en le divisant en sections plus petites et plus faciles à gérer.
 role: Architect, Developer, Admin, User
 exl-id: 0ed38eee-fc22-4708-82eb-3fb1839b1ff2
-source-git-commit: e0ed415bd7f45fdca6fbbb8ba409604d9e82a647
+source-git-commit: 8388de05c86641d4887b48a9fd10901cb5a19998
 workflow-type: ht
-source-wordcount: '2202'
+source-wordcount: '2174'
 ht-degree: 100%
 
 ---
@@ -47,9 +47,9 @@ Le composant principal « Accordéon » pour les formulaires adaptatifs a ét�
 |---|---|
 | Version du composant | AEM as a Cloud Service |
 | --- | --- |
-| v1 | Compatible avec la <br>[version 2.0.4](/help/versions.md) et les versions ultérieures | Compatible | Compatible |
+| v1 | Compatible avec la <br>[version 2.0.4](/help/adaptive-forms/version.md) et les versions ultérieures | Compatible | Compatible |
 
-Pour plus d’informations sur les versions et publications des composants principaux, consultez le document [Versions des composants principaux](/help/versions.md).
+Pour plus d’informations sur les versions et publications des composants principaux, consultez le document [Versions des composants principaux](/help/adaptive-forms/version.md).
 
 <!-- ## Sample Component Output {#sample-component-output}
 
