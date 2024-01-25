@@ -3,7 +3,7 @@ title: Composant principal des formulaires adaptatifs – Onglets verticaux
 description: Utilisation ou personnalisation du composant principal Onglets verticaux des formulaires adaptatifs.
 role: Architect, Developer, Admin, User
 exl-id: d5cd1c18-6840-4f2f-a767-a69b803e6075
-source-git-commit: 4ca65f93e223fdd0b0a701ef335ed5be1fbab7fe
+source-git-commit: 8388de05c86641d4887b48a9fd10901cb5a19998
 workflow-type: ht
 source-wordcount: '1904'
 ht-degree: 100%
@@ -38,9 +38,9 @@ Le composant principal Onglets verticaux des formulaires adaptatifs a été publ
 |---|---|
 | Version du composant | AEM as a Cloud Service |
 | --- | --- |
-| v1 | Compatible avec la <br>[version 2.0.18](/help/versions.md) et les versions ultérieures | Compatible | Compatible |
+| v1 | Compatible avec la <br>[version 2.0.18](/help/adaptive-forms/version.md) et les versions ultérieures | Compatible | Compatible |
 
-Pour plus d’informations sur les versions et publications des composants principaux, consultez le document [Versions des composants principaux](/help/versions.md).
+Pour plus d’informations sur les versions et publications des composants principaux, consultez le document [Versions des composants principaux](/help/adaptive-forms/version.md).
 
 ## Détails techniques {#technical-details}
 
