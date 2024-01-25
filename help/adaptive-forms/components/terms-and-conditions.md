@@ -3,10 +3,10 @@ title: Composant principal des formulaires adaptatifs – Conditions générales
 description: Utilisation ou personnalisation du composant principal Conditions générales des formulaires adaptatifs.
 role: Architect, Developer, Admin, User
 exl-id: c607d554-ad2d-4434-856d-91e174ef3149
-source-git-commit: a567b5ad937d426abe16c34e039e19cd0b1af5b0
-workflow-type: ht
-source-wordcount: '2633'
-ht-degree: 100%
+source-git-commit: 8388de05c86641d4887b48a9fd10901cb5a19998
+workflow-type: tm+mt
+source-wordcount: '2635'
+ht-degree: 98%
 
 ---
 
@@ -46,7 +46,7 @@ Pour plus d’informations sur les versions et publications des composants princ
 
 ## Détails techniques {#technical-details}
 
-Retrouvez les dernières informations sur le composant principal « Groupe de cases à cocher » des formulaires adaptatifs dans la documentation technique sur [GitHub](https://github.com/adobe/aem-core-forms-components/tree/master/ui.af.apps/src/main/content/jcr_root/apps/core/fd/components/form/checkboxgroup/v1/checkboxgroup). Pour plus d’informations sur le développement des composants principaux, consultez la [Documentation destinée aux développeurs et développeuses de composants principaux](/help/developing/overview.md).
+Obtenez les dernières informations sur le composant principal Termes et conditions de Forms adaptatif dans la documentation technique sur [GitHub](https://github.com/adobe/aem-core-forms-components/tree/master/ui.af.apps/src/main/content/jcr_root/apps/core/fd/components/form/checkboxgroup/v1/checkboxgroup). Pour plus d’informations sur le développement des composants principaux, consultez la [documentation destinée aux développeurs et développeuses de composants principaux](/help/developing/overview.md).
 
 ## Boîte de dialogue de configuration {#configure-dialog}
 
@@ -121,9 +121,9 @@ La boîte de dialogue de conception permet de définir et de gérer les styles C
 
 Cet onglet vous permet de définir et de gérer les styles CSS d’un composant. Le composant principal Conditions générales des formulaires adaptatifs prend en charge le [Système de style](/help/get-started/authoring.md#component-styling) d’AEM.
 
-![Boîte de dialogue de conception.](/help/adaptive-forms/assets/checkbox-style.png)
+![Boîte de dialogue de conception](/help/adaptive-forms/assets/checkbox-style.png)
 
-- **Classes CSS par défaut** : vous pouvez fournir une classe CSS par défaut pour le composant principal du groupe de cases à cocher des formulaires adaptatifs.
+- **Classes CSS par défaut**: vous pouvez fournir une classe CSS par défaut pour le composant principal Termes et conditions de Forms adaptatif .
 
 - **Styles autorisés** : vous pouvez définir des styles en fournissant un nom et la classe CSS qui représente le style. Par exemple, vous pouvez créer un style nommé « texte en gras » et fournir la classe CSS « police d’épaisseur : gras ». Vous pouvez utiliser ou appliquer ces styles à un formulaire adaptatif dans l’éditeur de formulaires adaptatifs. Pour appliquer un style, sélectionnez le composant auquel vous souhaitez appliquer le style dans l’éditeur de formulaires adaptatifs, accédez à la boîte de dialogue Propriétés, puis sélectionnez le style de votre choix dans la liste déroulante **Styles**. Si vous devez mettre à jour ou modifier les styles, revenez simplement à la boîte de dialogue Conception, mettez à jour les styles dans l’onglet Styles et enregistrez les modifications.
 

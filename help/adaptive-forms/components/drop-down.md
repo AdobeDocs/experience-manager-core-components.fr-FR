@@ -3,10 +3,10 @@ title: Composant principal des formulaires adaptatifs - Liste déroulante
 description: Utilisation ou personnalisation du composant principal « Liste déroulante » des formulaires adaptatifs.
 role: Architect, Developer, Admin, User
 exl-id: 9d59d0d2-d38f-4ed5-8b43-984c45f26f27
-source-git-commit: e0ed415bd7f45fdca6fbbb8ba409604d9e82a647
-workflow-type: ht
-source-wordcount: '1937'
-ht-degree: 100%
+source-git-commit: 8388de05c86641d4887b48a9fd10901cb5a19998
+workflow-type: tm+mt
+source-wordcount: '1930'
+ht-degree: 99%
 
 ---
 
@@ -132,9 +132,9 @@ La boîte de dialogue de conception permet de définir et de gérer les styles C
 
 Cet onglet vous permet de définir et de gérer les styles CSS d’un composant. Le composant principal « Liste déroulante » des formulaires adaptatifs prend en charge le [Système de style](/help/get-started/authoring.md#component-styling) d’AEM.
 
-![Boîte de dialogue de conception.](/help/adaptive-forms/assets/checkbox-style.png)
+![Boîte de dialogue de conception](/help/adaptive-forms/assets/checkbox-style.png)
 
-- **Classes CSS par défaut** : vous pouvez fournir une classe CSS par défaut pour le composant principal du groupe de cases à cocher des formulaires adaptatifs.
+- **Classes CSS par défaut**: vous pouvez fournir une classe CSS par défaut pour le composant principal de liste déroulante Forms adaptative.
 
 - **Styles autorisés** : vous pouvez définir des styles en fournissant un nom et la classe CSS qui représente le style. Par exemple, vous pouvez créer un style nommé « texte en gras » et fournir la classe CSS « police d’épaisseur : gras ». Vous pouvez utiliser ou appliquer ces styles à un formulaire adaptatif dans l’éditeur de formulaires adaptatifs. Pour appliquer un style, sélectionnez le composant auquel vous souhaitez appliquer le style dans l’éditeur de formulaires adaptatifs, accédez à la boîte de dialogue Propriétés, puis sélectionnez le style de votre choix dans la liste déroulante **Styles**. Si vous devez mettre à jour ou modifier les styles, revenez simplement à la boîte de dialogue Conception, mettez à jour les styles dans l’onglet Styles et enregistrez les modifications.
 
@@ -146,11 +146,11 @@ Les propriétés personnalisées vous permettent d’associer des attributs pers
 
 - **Nom du groupe** : vous pouvez fournir un nom pour identifier le groupe de propriétés personnalisées. Vous pouvez ajouter, supprimer ou réorganiser plusieurs groupes de propriétés personnalisées. Après avoir ajouté le groupe de propriétés personnalisées, vous pouvez voir les options suivantes :
 
-   - **Paires clé-valeur** : vous pouvez ajouter plusieurs noms de propriétés personnalisées et valeurs de propriétés personnalisées en cliquant sur le bouton **Ajouter** pour chaque groupe de propriétés personnalisées.
+   - **Paires clé-valeur** : vous pouvez ajouter plusieurs noms et valeurs de propriétés personnalisées en cliquant sur le bouton **Ajouter** pour chaque groupe de propriétés personnalisées.
 
    - **Supprimer** : appuyez ou cliquez pour supprimer le nom et la valeur des propriétés personnalisées.
 
-   - **Réorganiser** : appuyez ou cliquez et faites glisser pour réorganiser l’ordre du nom de propriété personnalisée et de la valeur de propriété personnalisée.
+   - **Réorganiser** : appuyez ou cliquez et faites glisser pour réorganiser l’ordre du nom et de la valeur des propriétés personnalisées.
 
 ## Articles connexes {#related-articles}
 

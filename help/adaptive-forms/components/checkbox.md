@@ -3,10 +3,10 @@ title: Composant principal des formulaires adaptatifs – Case à cocher
 description: Utilisation ou personnalisation du composant principal de case à cocher des formulaires adaptatifs.
 role: Architect, Developer, Admin, User
 exl-id: c6ca4800-bd10-4aeb-957a-fb1780cf94f3
-source-git-commit: 4ca65f93e223fdd0b0a701ef335ed5be1fbab7fe
-workflow-type: ht
-source-wordcount: '1692'
-ht-degree: 100%
+source-git-commit: 8388de05c86641d4887b48a9fd10901cb5a19998
+workflow-type: tm+mt
+source-wordcount: '1691'
+ht-degree: 98%
 
 ---
 
@@ -40,9 +40,9 @@ Le composant principal Case à cocher des formulaires adaptatifs a été publié
 |---|---|
 | Version du composant | AEM as a Cloud Service |
 | --- | --- |
-| v1 | Compatible avec la <br>[version 2.0.52](/help/versions.md) et les versions ultérieures | Compatible | Compatible |
+| v1 | Compatible avec la <br>[version 2.0.52](/help/adaptive-forms/version.md) et les versions ultérieures | Compatible | Compatible |
 
-Pour plus d’informations sur les versions et publications des composants principaux, consultez le document [Versions des composants principaux](/help/versions.md).
+Pour plus d’informations sur les versions et publications des composants principaux, consultez le document [Versions des composants principaux](/help/adaptive-forms/version.md).
 
 ## Détails techniques {#technical-details}
 
@@ -113,9 +113,9 @@ La boîte de dialogue de conception permet de définir et de gérer les styles C
 
 Le composant principal de case à cocher des formulaires adaptatifs prend en charge le [système de style](/help/get-started/authoring.md#component-styling) d’AEM.
 
-![Boîte de dialogue de conception.](/help/adaptive-forms/assets/checkbox-style.png)
+![Boîte de dialogue de conception](/help/adaptive-forms/assets/checkbox-style.png)
 
-- **Classes CSS par défaut** : vous pouvez fournir une classe CSS par défaut pour le composant principal du groupe de cases à cocher des formulaires adaptatifs.
+- **Classes CSS par défaut**: vous pouvez fournir une classe CSS par défaut pour le composant principal de case à cocher Adaptive Forms.
 
 - **Styles autorisés** : vous pouvez définir des styles en fournissant un nom et la classe CSS qui représente le style. Par exemple, vous pouvez créer un style nommé « texte en gras » et fournir la classe CSS « police d’épaisseur : gras ». Vous pouvez utiliser ou appliquer ces styles à un formulaire adaptatif dans l’éditeur de formulaires adaptatifs. Pour appliquer un style, sélectionnez le composant auquel vous souhaitez appliquer le style dans l’éditeur de formulaires adaptatifs, accédez à la boîte de dialogue Propriétés, puis sélectionnez le style de votre choix dans la liste déroulante **Styles**. Si vous devez mettre à jour ou modifier les styles, revenez simplement à la boîte de dialogue Conception, mettez à jour les styles dans l’onglet Styles et enregistrez les modifications.
 

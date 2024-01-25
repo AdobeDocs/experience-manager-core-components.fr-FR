@@ -3,10 +3,10 @@ title: Composant principal des formulaires adaptatifs - Titre
 description: Utilisation ou personnalisation du composant principal « Titre » dans les formulaires adaptatifs.
 role: Architect, Developer, Admin, User
 exl-id: 33eac885-8d66-4a5c-9a32-0ba11e6de293
-source-git-commit: 93acf5f6f11da42a7834bbb11b15a36db1e03dc9
-workflow-type: ht
-source-wordcount: '867'
-ht-degree: 100%
+source-git-commit: 8388de05c86641d4887b48a9fd10901cb5a19998
+workflow-type: tm+mt
+source-wordcount: '861'
+ht-degree: 96%
 
 ---
 
@@ -72,7 +72,7 @@ La boîte de dialogue de modification permet au créateur ou à la créatrice de
 
 ## Boîte de dialogue de conception {#design-dialog}
 
-L’onglet Conception permet de définir et de gérer les styles CSS du composant Sélecteur de date.
+L’onglet Conception permet de définir et de gérer des styles CSS pour le composant de titre.
 
 ### Titre
 
@@ -90,9 +90,9 @@ Cet onglet vous permet de définir et de gérer les styles CSS d’un composant.
 
 ![Onglet Titre de la boîte de dialogue de conception.](/help/adaptive-forms/assets/title_styles.png)
 
-- **Classes CSS par défaut** : vous pouvez indiquer une classe CSS par défaut pour le composant principal Sélecteur de date des formulaires adaptatifs.
+- **Classes CSS par défaut**: vous pouvez fournir une classe CSS par défaut pour le composant principal Titre du Forms adaptatif .
 
-- **Styles autorisés** : vous pouvez appliquer des styles en indiquant un nom et la classe CSS du style. Par exemple, vous pouvez créer un style nommé « texte en gras » et fournir la classe CSS « police d’épaisseur : gras ». Vous pouvez utiliser ou appliquer ces styles à un formulaire adaptatif dans l’éditeur de formulaires adaptatifs. Pour appliquer un style, sélectionnez le composant auquel vous souhaitez appliquer le style dans l’éditeur de formulaires adaptatifs, accédez à la boîte de dialogue Propriétés, puis sélectionnez le style de votre choix dans la liste déroulante **Styles**. Si vous devez mettre à jour ou modifier les styles, revenez simplement à la boîte de dialogue Conception, mettez à jour les styles dans l’onglet Styles et enregistrez les modifications.
+- **Styles autorisés** : vous pouvez définir des styles en fournissant un nom et la classe CSS qui représente le style. Par exemple, vous pouvez créer un style nommé « texte en gras » et fournir la classe CSS « police d’épaisseur : gras ». Vous pouvez utiliser ou appliquer ces styles à un formulaire adaptatif dans l’éditeur de formulaires adaptatifs. Pour appliquer un style, sélectionnez le composant auquel vous souhaitez appliquer le style dans l’éditeur de formulaires adaptatifs, accédez à la boîte de dialogue Propriétés, puis sélectionnez le style de votre choix dans la liste déroulante **Styles**. Si vous devez mettre à jour ou modifier les styles, revenez simplement à la boîte de dialogue Conception, mettez à jour les styles dans l’onglet Styles et enregistrez les modifications.
 
 ### Onglet Formats {#format-tab}
 

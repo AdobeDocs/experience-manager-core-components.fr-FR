@@ -1,0 +1,159 @@
+---
+title: Composant principal Adaptive Forms - Composant Switch
+description: Utilisation ou personnalisation du composant principal Switch de Forms adaptatif.
+role: Architect, Developer, Admin, User
+hide: true
+hidefromToC: true
+source-git-commit: d172e019c5621d950a94cbdd8d27e4834dbabe3b
+workflow-type: tm+mt
+source-wordcount: '1689'
+ht-degree: 67%
+
+---
+
+
+# Composant Switch{#switch-adaptive-forms-core-component}
+
+Le composant switch est une interface utilisateur graphique utilisée dans les formulaires qui permet aux utilisateurs de sélectionner entre deux options. Il s’agit généralement d’un bouton à deux états qui permet aux utilisateurs de choisir entre deux états, ce qui permet d’activer ou de désactiver une fonctionnalité, un paramètre ou une fonctionnalité. Le composant switch est conçu pour représenter visuellement l’état actuel et afficher si une fonction particulière est activée ou désactivée.
+
+Le composant switch est un élément de contrôle booléen qui définit la valeur sur true ou false. Par exemple, il est utilisé pour activer ou désactiver une fonctionnalité, comme désactiver ou désactiver le son, ou activer ou désactiver le Bluetooth ou la Wi-Fi.
+
+![Exemple de composant Switch](/help/adaptive-forms/assets/switch-example.png)
+
+## Utilisation {#reasons-to-use-switch}
+
+Les raisons courantes d’utiliser le commutateur dans un formulaire adaptatif sont les suivantes :
+
+- **Interaction des utilisateurs**: les utilisateurs peuvent interagir avec le composant commutateur en cliquant ou en appuyant dessus.
+
+- **Etats**: le composant de commutateur a deux états : ACTIVÉ et désactivé. L’état initial du composant switch dépend du paramètre par défaut ou de l’état actuel de la fonctionnalité qu’il contrôle.
+
+- **Représentation visuelle**: le composant switch reflète visuellement son état actuel en modifiant la couleur ou la position.
+
+- **Fonctionnalité de contrôle**: le composant switch est utilisé pour activer ou désactiver des fonctionnalités spécifiques dans un formulaire AEM. Par exemple, il permet aux utilisateurs d’activer ou de désactiver une fonctionnalité.
+
+## Version et compatibilité {#version-and-compatibility}
+
+Le composant principal Switch de Forms adaptatif a été publié dans le cadre de la version 2.0.64 des composants principaux. Voici un tableau de toutes les versions prises en charge, de la compatibilité AEM et des liens vers la documentation correspondante :
+
+|  |  |
+|---|---|
+| Version du composant | AEM as a Cloud Service |
+| --- | --- |
+| v1 | Compatible avec la <br>[version 2.0.64](/help/adaptive-forms/version.md) et les versions ultérieures | Compatible | Compatible |
+
+Pour plus d’informations sur les versions et publications des composants principaux, consultez le document [Versions des composants principaux](/help/adaptive-forms/version.md).
+
+## Détails techniques {#technical-details}
+
+Obtenez les dernières informations sur le composant principal Switch de Forms adaptatif dans la documentation technique de [GitHub](https://github.com/adobe/aem-core-forms-components/tree/master/ui.af.apps/src/main/content/jcr_root/apps/core/fd/components/form/switch/v1/switch). Pour plus d’informations sur le développement des composants principaux, consultez la [documentation destinée aux développeurs et développeuses de composants principaux](/help/developing/overview.md).
+
+## Boîte de dialogue de configuration {#configure-dialog}
+
+Vous pouvez facilement personnaliser l’expérience du composant Switch pour les visiteurs qui utilisent la boîte de dialogue de configuration. Vous pouvez également définir facilement les options de composant Switch pour une expérience utilisateur transparente.
+
+### Onglet De base
+
+![Onglet De base](/help/adaptive-forms/assets/switch-basic.png)
+
+- **Nom** - Vous pouvez identifier facilement un composant de formulaire en lui attribuant un nom unique dans le formulaire et dans l’éditeur de règles, mais le nom ne doit pas contenir d’espaces ni de caractères spéciaux.
+
+- **Titre** – Avec son titre, vous pouvez facilement identifier un composant dans un formulaire. Par défaut, le titre s’affiche à côté du composant. Si vous n’ajoutez pas de titre, le composant ne s’affiche pas.
+
+- **Masquer le titre** - Sélectionnez cette option pour masquer le titre du composant.
+
+- **Conserver la valeur d’état de désélection** - La sélection de cette option vous permet de spécifier la valeur à renvoyer lorsque le composant switch n’est pas sélectionné.
+- **Options** - Spécifiez la valeur de données et le texte d’affichage pour chaque option.
+   - **Valeur des données** - Spécifiez la valeur à envoyer lorsque le commutateur est activé dans un formulaire adaptatif.
+   - **Sur le texte affiché** - Spécifiez le texte à afficher en tant que libellé lorsque le commutateur est activé dans un formulaire adaptatif.
+   - **Valeur des données désactivée** - Spécifiez la valeur à envoyer lorsque le commutateur n’est pas activé dans un formulaire adaptatif. Cette option n’est visible que si la variable **Conserver la valeur d’état de désélection** switch est activé.
+   - **Désafficher le texte** - Spécifiez le texte à afficher en tant que libellé lorsque le commutateur n’est pas activé dans un formulaire adaptatif. Cette option n’est visible que si la variable **Conserver la valeur d’état de désélection** switch est activé.
+
+- **Référence Bind** - Une référence Bind est une référence à un élément de données stockée dans une source de données externe et utilisée dans un formulaire. La référence de liaison vous permet de lier dynamiquement les données aux champs du formulaire, de sorte que le formulaire puisse afficher les données les plus récentes de la source de données. Par exemple, une référence de liaison peut être utilisée pour afficher le nom et l’adresse d’un client ou d’une cliente dans un formulaire, en fonction de l’identifiant du client ou de la cliente saisi dans le formulaire. La référence de liaison peut également être utilisée pour mettre à jour la source de données avec les données saisies dans le formulaire. Ainsi, AEM Forms vous permet de créer des formulaires qui interagissent avec des sources de données externes, offrant ainsi une expérience utilisateur fluide pour la collecte et la gestion des données.
+- **Marquer comme élément de formulaire non lié** : sélectionnez cette option pour configurer un champ de formulaire qui n’est lié à aucun schéma. Cette option vous permet d’enregistrer des données sans mettre à jour la source de données. Elle vous permet également de gérer les données de manière personnalisée, en les séparant de l’intégration de base de données standard.
+
+- **Type de données de la valeur envoyée** : cette option spécifie le type de données de la valeur envoyée lorsqu’une option est sélectionnée. Si le **type de données de la valeur envoyée** est défini sur `Number` et que vous ajoutez des données de chaîne à la **Valeur des données** dans l’onglet **Options**, l’écran affiche un message d’erreur `Value type mismatch`.
+- **Masquer le composant** - Sélectionnez cette option pour masquer le composant du formulaire. Le composant reste accessible à d’autres fins, par exemple pour les calculs dans l’éditeur de règles. Cela s’avère utile lorsque vous devez stocker des informations qui n’ont pas besoin d’être affichées ou directement modifiées par les utilisateurs ou les utilisatrices.
+
+- **Désactiver le composant** – Sélectionnez cette option pour désactiver le composant. Le composant désactivé n’est pas actif ni modifiable par l’utilisateur final ou l’utilisatrice finale. L’utilisateur ou l’utilisatrice peut voir la valeur du champ mais ne peut pas la modifier. Le composant reste accessible à d’autres fins, par exemple pour les calculs dans l’éditeur de règles.
+
+- **Valeur par défaut** – Cette option vous permet d’ajouter une valeur par défaut dans un champ de formulaire. Si **Composant désactivé** ou **Composant en lecture seule** est sélectionné, la valeur par défaut s’affiche à l’écran. Si aucune valeur n’est saisie par l’utilisateur dans le champ de formulaire, cette valeur est envoyée au moment de l’envoi du formulaire.
+
+### Onglet Validation {#validation-tab}
+
+![Onglet Validation](/help/adaptive-forms/assets/switch-validation.png)
+
+- **Obligatoire** : Sélectionnez cette option si vous souhaitez afficher le composant dans un formulaire adaptatif. Après avoir sélectionné cette option, vous devez effectuer une sélection avant de poursuivre l’envoi du formulaire. Vous ne pouvez pas sélectionner **Masquer le composant** ou **Désactiver le composant**  dans l’onglet **De base** lorsque cette option est sélectionnée.
+
+- **Message d’erreur** : Cette option vous permet de saisir un message qui s’affiche si la case à cocher **Obligatoire** est cochée et que le champ de formulaire reste vide.
+
+- **Message de validation de script** : cette option permet de saisir un message à afficher en cas d’échec de la validation du script.
+
+### Onglet Contenu de l’aide {#helpcontent-tab}
+
+![Onglet Contenu d’aide](/help/adaptive-forms/assets/switch-help.png)
+
+- **Description courte** : Une description courte est une brève explication textuelle qui fournit des informations supplémentaires ou une clarification sur l’objectif d’un champ de formulaire spécifique. Il permet à l’utilisateur ou l’utilisatrice de comprendre le type de données à saisir dans le champ et peut fournir des conseils ou des exemples pour s’assurer que les informations saisies sont valides et répondent aux critères souhaités. Par défaut, les descriptions courtes restent masquées. Activez l’option **Toujours afficher une description courte** pour l’afficher sous le composant.
+
+- **Toujours afficher une description courte** - Activez cette option pour afficher la description courte sous le composant.
+
+- **Texte d’aide** - Le texte d’aide fait référence à des informations ou des conseils supplémentaires fournis à l’utilisateur ou à l’utilisatrice pour l’aider à remplir correctement un champ de formulaire. Il s’affiche lorsque l’utilisateur ou l’utilisatrice clique sur l’icône d’aide (i) placée à côté du composant. Le texte d’aide fournit des informations plus détaillées que le texte du libellé ou de l’espace réservé d’un champ de formulaire. Il est conçu pour aider l’utilisateur ou l’utilisatrice à comprendre les exigences ou les contraintes du champ. Il peut également proposer des suggestions ou des exemples pour faciliter le remplissage du formulaire et le rendre plus précis.
+
+### Onglet Accessibilité {#accessibility-tab}
+
+![Onglet Accessibilité](/help/adaptive-forms/assets/switch-accessibility.png)
+
+**Texte pour les lecteurs d’écran** : le texte destiné aux lecteurs d’écran fait référence à un texte supplémentaire conçu pour être lu par les technologies d’assistance, comme les lecteurs d’écran, utilisées par les personnes malvoyantes. Ce texte fournit une description audio de l’objectif du champ de formulaire et peut inclure des informations sur le titre, la description, le nom du champ et tout message pertinent (texte personnalisé). Le texte du lecteur d’écran permet de s’assurer que le formulaire est accessible à tous les utilisateurs et utilisatrices, y compris celles et ceux ayant une déficience visuelle, et leur permet de bien comprendre le champ du formulaire et ses exigences.
+
+### Onglet Styles {#styles-tab}
+
+![Onglet Styles](/help/adaptive-forms/assets/switch-styles.png)
+
+- **Masquer les étiquettes** - Sélectionnez cette option pour masquer les libellés du composant switch.
+
+- **Afficher les étiquettes** - Sélectionnez cette option pour afficher les libellés du composant switch.
+
+## Boîte de dialogue de conception {#design-dialog}
+
+La boîte de dialogue de conception permet de définir et de gérer les styles CSS du composant Switch.
+
+### Onglet Styles {#styles-design-tab}
+
+Le composant principal Switch de Forms adaptatif prend en charge l’AEM [Système de style](/help/get-started/authoring.md#component-styling).
+
+![Boîte de dialogue de conception](/help/adaptive-forms/assets/checkbox-style.png)
+
+- **Classes CSS par défaut**: vous pouvez fournir une classe CSS par défaut pour le composant principal Groupe de commutateur de Forms adaptatif .
+
+- **Styles autorisés** : vous pouvez définir des styles en fournissant un nom et la classe CSS qui représente le style. Par exemple, vous pouvez créer un style nommé « texte en gras » et fournir la classe CSS « police d’épaisseur : gras ». Vous pouvez utiliser ou appliquer ces styles à un formulaire adaptatif dans l’éditeur de formulaires adaptatifs. Pour appliquer un style, sélectionnez le composant auquel vous souhaitez appliquer le style dans l’éditeur de formulaires adaptatifs, accédez à la boîte de dialogue Propriétés, puis sélectionnez le style de votre choix dans la liste déroulante **Styles**. Si vous devez mettre à jour ou modifier les styles, revenez simplement à la boîte de dialogue Conception, mettez à jour les styles dans l’onglet Styles et enregistrez les modifications.
+
+### Propriétés personnalisées
+
+![Boîte de dialogue Propriétés personnalisées](/help/adaptive-forms/assets/checkbox-customproperties.png)
+
+Les propriétés personnalisées vous permettent d’associer des attributs personnalisés (paires clé-valeur) à un composant de base de formulaire adaptatif à l’aide du modèle de formulaire. Les propriétés personnalisées sont répercutées dans la section des propriétés du rendu déocuplé du composant. Cela permet de créer un comportement de formulaire dynamique qui s’adapte en fonction des valeurs d’attributs personnalisés. Par exemple, les développeurs et développeuses peuvent concevoir plusieurs rendus d’un composant de formulaires découplés pour des plateformes mobiles, de bureau ou web, ce qui améliore considérablement l’expérience client sur un large éventail d’appareils.
+
+- **Nom du groupe** : vous pouvez fournir un nom pour identifier le groupe de propriétés personnalisées. Vous pouvez ajouter, supprimer ou réorganiser plusieurs groupes de propriétés personnalisées. Après avoir ajouté le groupe de propriétés personnalisées, vous pouvez voir les options suivantes :
+
+   - **Paires clé-valeur** : vous pouvez ajouter plusieurs noms et valeurs de propriétés personnalisées en cliquant sur le bouton **Ajouter** pour chaque groupe de propriétés personnalisées.
+
+   - **Supprimer** : appuyez ou cliquez pour supprimer le nom et la valeur des propriétés personnalisées.
+
+   - **Réorganiser**: appuyez ou cliquez dessus et faites glisser pour réorganiser le nom de propriété personnalisée et la valeur de propriété personnalisée.
+
+## Articles connexes {#related-articles}
+
+{{more-like-this}}
+
+## Voir également {#see-also}
+
+{{see-also}}
+
+
+
+
+
+
+
+
+

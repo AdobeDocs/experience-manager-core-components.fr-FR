@@ -5,10 +5,10 @@ breadcrumb-title: Guide des composants principaux
 feature: Core Components
 user-guide-description: Utilisez les composants principaux extensibles pour permettre aux créateurs de créer facilement du contenu.
 feature-set: Experience Manager Sites
-source-git-commit: 3e36fdf9b175930ee3a998bf91116c35b3cb6f9d
-workflow-type: ht
-source-wordcount: '398'
-ht-degree: 100%
+source-git-commit: d172e019c5621d950a94cbdd8d27e4834dbabe3b
+workflow-type: tm+mt
+source-wordcount: '390'
+ht-degree: 98%
 
 ---
 
@@ -113,6 +113,7 @@ ht-degree: 100%
       + [Formulaires adaptatifs - Sélecteur de dates](/help/adaptive-forms/components/date-picker.md)
       + [Formulaires adaptatifs - Liste déroulante](/help/adaptive-forms/components/drop-down.md)
       + [Formulaires adaptatifs - Entrée « E-mail »](/help/adaptive-forms/components/email-input.md)
+      + [Fragment de formulaire Forms adaptatif](/help/adaptive-forms/components/form-fragment.md)
       + [Formulaires adaptatifs - Pièces jointes](/help/adaptive-forms/components/file-attachment.md)
       + [Onglets verticaux de formulaires adaptatifs](/help/adaptive-forms/components/vertical-tabs.md)
       + [Formulaires adaptatifs - Onglets horizontaux](/help/adaptive-forms/components/horizontal-tabs.md)
@@ -123,6 +124,7 @@ ht-degree: 100%
       + [Formulaires adaptatifs - Bouton radio](/help/adaptive-forms/components/radio-button.md)
       + [Formulaires adaptatifs - Bouton réinitialiser](/help/adaptive-forms/components/reset-button.md)
       + [Formulaires adaptatifs - Bouton envoyer](/help/adaptive-forms/components/submit-button.md)
+      + [Changement de Forms adaptatif](/help/adaptive-forms/components/switch.md)
       + [Formulaires adaptatifs - Entrée téléphonique](/help/adaptive-forms/components/telephone-input.md)
       + [Formulaires adaptatifs - Texte](/help/adaptive-forms/components/text.md)
       + [Formulaires adaptatifs - Zone de texte](/help/adaptive-forms/components/text-input.md)
