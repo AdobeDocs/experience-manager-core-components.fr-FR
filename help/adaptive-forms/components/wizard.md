@@ -3,9 +3,9 @@ title: Composant principal des formulaires adaptatifs - Assistant
 description: Utilisation ou personnalisation du composant principal « Assistant » des formulaires adaptatifs.
 role: Architect, Developer, Admin, User
 exl-id: fd785cd2-5ed6-4efb-997f-ce9056ed113d
-source-git-commit: 93acf5f6f11da42a7834bbb11b15a36db1e03dc9
+source-git-commit: 8388de05c86641d4887b48a9fd10901cb5a19998
 workflow-type: ht
-source-wordcount: '2048'
+source-wordcount: '2025'
 ht-degree: 100%
 
 ---
@@ -55,9 +55,9 @@ Le composant principal « Disposition Assistant » des formulaires adaptatifs 
 |---|---|
 | Version du composant | AEM as a Cloud Service |
 | --- | --- |
-| v1 | Compatible avec la <br>[version 2.0.4](/help/versions.md) et les versions ultérieures | Compatible | Compatible |
+| v1 | Compatible avec la <br>[version 2.0.4](/help/adaptive-forms/version.md) et les versions ultérieures | Compatible | Compatible |
 
-Pour plus d’informations sur les versions et publications des composants principaux, consultez le document [Versions des composants principaux](/help/versions.md).
+Pour plus d’informations sur les versions et publications des composants principaux, consultez le document [Versions des composants principaux](/help/adaptive-forms/version.md).
 
 <!-- ## Sample Component Output {#sample-component-output}
 
