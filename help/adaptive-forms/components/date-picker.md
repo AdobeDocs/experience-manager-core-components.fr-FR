@@ -3,9 +3,9 @@ title: Composant principal des formulaires adaptatifs - Sélecteur de date
 description: Utilisation ou personnalisation du composant principal Sélecteur de date des formulaires adaptatifs.
 role: Architect, Developer, Admin, User
 exl-id: aa9402de-ca57-4c19-8d36-2dd0a78d6806
-source-git-commit: 93acf5f6f11da42a7834bbb11b15a36db1e03dc9
+source-git-commit: 8388de05c86641d4887b48a9fd10901cb5a19998
 workflow-type: ht
-source-wordcount: '1906'
+source-wordcount: '1901'
 ht-degree: 100%
 
 ---
@@ -16,7 +16,7 @@ Un composant de sélecteur de date dans un formulaire adaptatif est un élément
 
 **Exemple**
 
-![](/help/adaptive-forms/assets/date-picker.png)
+![exemple](/help/adaptive-forms/assets/date-picker.png)
 
 ## Utilisation {#reasons-to-use-drop-date-picker}
 
@@ -149,7 +149,7 @@ Les propriétés personnalisées vous permettent d’associer des attributs pers
 
    - **Paires clé-valeur** : vous pouvez ajouter plusieurs noms et valeurs de propriétés personnalisées en cliquant sur le bouton **Ajouter** pour chaque groupe de propriétés personnalisées.
 
-   - **Supprimer** : appuyez ou cliquez pour supprimer le nom ou la valeur des propriétés personnalisées.
+   - **Supprimer** : appuyez ou cliquez pour supprimer le nom et la valeur des propriétés personnalisées.
 
    - **Réorganiser** : appuyez ou cliquez et faites glisser pour réorganiser l’ordre du nom et de la valeur des propriétés personnalisées.
 
