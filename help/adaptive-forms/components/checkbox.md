@@ -3,10 +3,10 @@ title: Composant principal des formulaires adaptatifs – Case à cocher
 description: Utilisation ou personnalisation du composant principal de case à cocher des formulaires adaptatifs.
 role: Architect, Developer, Admin, User
 exl-id: c6ca4800-bd10-4aeb-957a-fb1780cf94f3
-source-git-commit: 8388de05c86641d4887b48a9fd10901cb5a19998
+source-git-commit: 723d29b88d4cbc73f756d26a64d503b425ab26f4
 workflow-type: tm+mt
-source-wordcount: '1691'
-ht-degree: 98%
+source-wordcount: '1746'
+ht-degree: 95%
 
 ---
 
@@ -15,6 +15,10 @@ ht-degree: 98%
 Une case à cocher est un élément d’interface utilisateur graphique généralement utilisé dans les applications logicielles et les formulaires pour permettre aux personnes d’effectuer un choix binaire entre deux options : cochée (sélectionnée) ou non cochée (désélectionnée).
 
 Une case à cocher est généralement représentée sous la forme d’un petit carré qui peut être activé ou désactivé en cliquant ou en appuyant dessus. Lorsqu’une case est cochée, une coche s’affiche pour indiquer que l’option ou la fonctionnalité associée est active ou activée.
+
+>[!NOTE]
+>
+> Pour AEM 6.5 Forms, ce composant a été introduit avec AEM 6.5 Forms Service Pack 19 (6.5.19.0). Pour activer ce composant, assurez-vous que les versions nécessaires des composants principaux Forms et WCM sont installées. Pour plus d’informations sur les versions des composants principaux de Forms adaptatif, reportez-vous à la section [Versions des composants principaux de Forms adaptatif](/help/adaptive-forms/version.md)
 
 **Exemple**
 

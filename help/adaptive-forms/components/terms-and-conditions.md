@@ -3,10 +3,10 @@ title: Composant principal des formulaires adaptatifs – Conditions générales
 description: Utilisation ou personnalisation du composant principal Conditions générales des formulaires adaptatifs.
 role: Architect, Developer, Admin, User
 exl-id: c607d554-ad2d-4434-856d-91e174ef3149
-source-git-commit: 8388de05c86641d4887b48a9fd10901cb5a19998
+source-git-commit: 723d29b88d4cbc73f756d26a64d503b425ab26f4
 workflow-type: tm+mt
-source-wordcount: '2635'
-ht-degree: 98%
+source-wordcount: '2690'
+ht-degree: 96%
 
 ---
 
@@ -15,6 +15,10 @@ ht-degree: 98%
 Un composant **Conditions générales** fait référence à une section d’un formulaire qui décrit les termes, règles et conditions que les personnes doivent accepter ou respecter lors de l’utilisation d’un service ou de l’accès à un contenu.
 
 Le composant **Conditions générales** est un composant composite constitué de composants Texte, Case à cocher et Lien. Le composant de texte contient un titre ainsi qu’une brève vue d’ensemble de l’objectif et de la portée des conditions générales. Il comprend également une case à cocher permettant d’obtenir le consentement explicite de la personne. Vous pouvez également remplacer un texte de consentement par des liens.
+
+>[!NOTE]
+>
+> Pour AEM 6.5 Forms, ce composant a été introduit avec AEM 6.5 Forms Service Pack 19 (6.5.19.0). Pour activer ce composant, assurez-vous que les versions nécessaires des composants principaux Forms et WCM sont installées. Pour plus d’informations sur les versions des composants principaux de Forms adaptatif, reportez-vous à la section [Versions des composants principaux de Forms adaptatif](/help/adaptive-forms/version.md)
 
 **Exemple**
 
