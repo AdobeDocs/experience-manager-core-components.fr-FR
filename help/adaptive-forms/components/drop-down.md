@@ -4,9 +4,9 @@ description: Utilisation ou personnalisation du composant principal « Liste d�
 role: Architect, Developer, Admin, User
 exl-id: 9d59d0d2-d38f-4ed5-8b43-984c45f26f27
 source-git-commit: 8388de05c86641d4887b48a9fd10901cb5a19998
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1930'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -16,7 +16,7 @@ ht-degree: 99%
 Une liste déroulante dans un formulaire adaptatif permet aux utilisateurs et aux utilisatrices de sélectionner une ou plusieurs options dans une liste d’options prédéfinies. Les options peuvent être de type Chaîne, Nombre ou Booléen. De plus, le composant « Liste déroulante » peut être configuré pour avoir différentes valeurs de validation et valeurs par défaut.
 
 **Exemple**
-![exemple](/help/adaptive-forms/assets/drop-down-list.png)
+![Exemple.](/help/adaptive-forms/assets/drop-down-list.png)
 
 ## Utilisation {#reasons-to-use-drop-down-list}
 
@@ -132,9 +132,9 @@ La boîte de dialogue de conception permet de définir et de gérer les styles C
 
 Cet onglet vous permet de définir et de gérer les styles CSS d’un composant. Le composant principal « Liste déroulante » des formulaires adaptatifs prend en charge le [Système de style](/help/get-started/authoring.md#component-styling) d’AEM.
 
-![Boîte de dialogue de conception](/help/adaptive-forms/assets/checkbox-style.png)
+![Boîte de dialogue de conception.](/help/adaptive-forms/assets/checkbox-style.png)
 
-- **Classes CSS par défaut**: vous pouvez fournir une classe CSS par défaut pour le composant principal de liste déroulante Forms adaptative.
+- **Classes CSS par défaut** : vous pouvez fournir une classe CSS par défaut pour le composant principal Liste déroulante des formulaires adaptatifs.
 
 - **Styles autorisés** : vous pouvez définir des styles en fournissant un nom et la classe CSS qui représente le style. Par exemple, vous pouvez créer un style nommé « texte en gras » et fournir la classe CSS « police d’épaisseur : gras ». Vous pouvez utiliser ou appliquer ces styles à un formulaire adaptatif dans l’éditeur de formulaires adaptatifs. Pour appliquer un style, sélectionnez le composant auquel vous souhaitez appliquer le style dans l’éditeur de formulaires adaptatifs, accédez à la boîte de dialogue Propriétés, puis sélectionnez le style de votre choix dans la liste déroulante **Styles**. Si vous devez mettre à jour ou modifier les styles, revenez simplement à la boîte de dialogue Conception, mettez à jour les styles dans l’onglet Styles et enregistrez les modifications.
 
