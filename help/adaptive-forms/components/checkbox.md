@@ -6,7 +6,7 @@ exl-id: c6ca4800-bd10-4aeb-957a-fb1780cf94f3
 source-git-commit: 723d29b88d4cbc73f756d26a64d503b425ab26f4
 workflow-type: tm+mt
 source-wordcount: '1746'
-ht-degree: 95%
+ht-degree: 96%
 
 ---
 
@@ -119,7 +119,7 @@ Le composant principal de case à cocher des formulaires adaptatifs prend en cha
 
 ![Boîte de dialogue de conception](/help/adaptive-forms/assets/checkbox-style.png)
 
-- **Classes CSS par défaut**: vous pouvez fournir une classe CSS par défaut pour le composant principal de case à cocher Adaptive Forms.
+- **Classes CSS par défaut** : vous pouvez indiquer une classe CSS par défaut pour le composant principal Case à cocher des formulaires adaptatifs.
 
 - **Styles autorisés** : vous pouvez définir des styles en fournissant un nom et la classe CSS qui représente le style. Par exemple, vous pouvez créer un style nommé « texte en gras » et fournir la classe CSS « police d’épaisseur : gras ». Vous pouvez utiliser ou appliquer ces styles à un formulaire adaptatif dans l’éditeur de formulaires adaptatifs. Pour appliquer un style, sélectionnez le composant auquel vous souhaitez appliquer le style dans l’éditeur de formulaires adaptatifs, accédez à la boîte de dialogue Propriétés, puis sélectionnez le style de votre choix dans la liste déroulante **Styles**. Si vous devez mettre à jour ou modifier les styles, revenez simplement à la boîte de dialogue Conception, mettez à jour les styles dans l’onglet Styles et enregistrez les modifications.
 

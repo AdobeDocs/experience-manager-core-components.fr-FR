@@ -8,7 +8,7 @@ feature-set: Experience Manager Sites
 source-git-commit: 2afcaeb90911de865814235586ea19eb21dd8126
 workflow-type: tm+mt
 source-wordcount: '378'
-ht-degree: 97%
+ht-degree: 99%
 
 ---
 
@@ -114,8 +114,8 @@ ht-degree: 97%
       + [Formulaires adaptatifs - Sélecteur de dates](/help/adaptive-forms/components/date-picker.md)
       + [Formulaires adaptatifs - Liste déroulante](/help/adaptive-forms/components/drop-down.md)
       + [Formulaires adaptatifs - Entrée « E-mail »](/help/adaptive-forms/components/email-input.md)
-      + [Fragment de formulaire Forms adaptatif](/help/adaptive-forms/components/form-fragment.md)
-      + [Formulaires adaptatifs - Pièces jointes](/help/adaptive-forms/components/file-attachment.md)
+      + [Formulaires adaptatifs – Fragment de formulaire](/help/adaptive-forms/components/form-fragment.md)
+      + [Formulaires adaptatifs – Pièces jointes](/help/adaptive-forms/components/file-attachment.md)
       + [Onglets verticaux de formulaires adaptatifs](/help/adaptive-forms/components/vertical-tabs.md)
       + [Formulaires adaptatifs - Onglets horizontaux](/help/adaptive-forms/components/horizontal-tabs.md)
       + [Formulaires adaptatifs - Image](/help/adaptive-forms/components/image.md)
@@ -125,7 +125,7 @@ ht-degree: 97%
       + [Formulaires adaptatifs - Bouton radio](/help/adaptive-forms/components/radio-button.md)
       + [Formulaires adaptatifs - Bouton réinitialiser](/help/adaptive-forms/components/reset-button.md)
       + [Formulaires adaptatifs - Bouton envoyer](/help/adaptive-forms/components/submit-button.md)
-      + [Changement de Forms adaptatif](/help/adaptive-forms/components/switch.md)
+      + [Formulaires adaptatifs – Commutateur](/help/adaptive-forms/components/switch.md)
       + [Formulaires adaptatifs - Entrée téléphonique](/help/adaptive-forms/components/telephone-input.md)
       + [Formulaires adaptatifs - Texte](/help/adaptive-forms/components/text.md)
       + [Formulaires adaptatifs - Zone de texte](/help/adaptive-forms/components/text-input.md)
