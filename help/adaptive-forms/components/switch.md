@@ -1,40 +1,40 @@
 ---
-title: Composant principal Adaptive Forms - Composant Switch
-description: Utilisation ou personnalisation du composant principal Switch de Forms adaptatif.
+title: Composant principal des formulaires adaptatifs – Composant de commutateur
+description: Utilisation ou personnalisation du composant principal Commutateur des formulaires adaptatifs.
 role: Architect, Developer, Admin, User
 hide: true
 hidefromToC: true
 source-git-commit: d172e019c5621d950a94cbdd8d27e4834dbabe3b
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1689'
-ht-degree: 67%
+ht-degree: 100%
 
 ---
 
 
-# Composant Switch{#switch-adaptive-forms-core-component}
+# Composant de commutateur{#switch-adaptive-forms-core-component}
 
-Le composant switch est une interface utilisateur graphique utilisée dans les formulaires qui permet aux utilisateurs de sélectionner entre deux options. Il s’agit généralement d’un bouton à deux états qui permet aux utilisateurs de choisir entre deux états, ce qui permet d’activer ou de désactiver une fonctionnalité, un paramètre ou une fonctionnalité. Le composant switch est conçu pour représenter visuellement l’état actuel et afficher si une fonction particulière est activée ou désactivée.
+Le composant de commutateur est une interface utilisateur graphique utilisée dans les formulaires qui permet aux utilisateurs et utilisatrices de choisir entre deux options. Il s’agit généralement d’un bouton (bascule) à deux états qui permet aux utilisateurs et aux utilisatrices de choisir entre deux états, permettant d’activer ou de désactiver une fonction, un paramètre ou une fonctionnalité. Le composant de commutateur est conçu pour représenter visuellement l’état actuel et indiquer si une fonction particulière est activée ou désactivée.
 
-Le composant switch est un élément de contrôle booléen qui définit la valeur sur true ou false. Par exemple, il est utilisé pour activer ou désactiver une fonctionnalité, comme désactiver ou désactiver le son, ou activer ou désactiver le Bluetooth ou la Wi-Fi.
+Le composant de commutateur est un élément de contrôle booléen qui définit la valeur sur vrai (true) ou faux (false). Par exemple, il est utilisé pour activer ou désactiver une fonction, comme couper ou activer le son, ou activer ou désactiver le Bluetooth ou le Wi-Fi.
 
-![Exemple de composant Switch](/help/adaptive-forms/assets/switch-example.png)
+![Exemple de composant de commutateur.](/help/adaptive-forms/assets/switch-example.png)
 
 ## Utilisation {#reasons-to-use-switch}
 
-Les raisons courantes d’utiliser le commutateur dans un formulaire adaptatif sont les suivantes :
+Les raisons courantes d’utiliser un commutateur dans un formulaire adaptatif sont les suivantes :
 
-- **Interaction des utilisateurs**: les utilisateurs peuvent interagir avec le composant commutateur en cliquant ou en appuyant dessus.
+- **Interaction des utilisateurs et utilisatrices** : les utilisateurs et utilisatrices peuvent interagir avec le composant de commutateur en cliquant ou en appuyant dessus.
 
-- **Etats**: le composant de commutateur a deux états : ACTIVÉ et désactivé. L’état initial du composant switch dépend du paramètre par défaut ou de l’état actuel de la fonctionnalité qu’il contrôle.
+- **États** : le composant de commutateur a deux états : activé et désactivé. L’état initial du composant de commutateur dépend du paramètre par défaut ou du statut actuel de la fonction qu’il contrôle.
 
-- **Représentation visuelle**: le composant switch reflète visuellement son état actuel en modifiant la couleur ou la position.
+- **Représentation visuelle** : le composant de commutateur reflète visuellement son état actuel en changeant de couleur ou de position.
 
-- **Fonctionnalité de contrôle**: le composant switch est utilisé pour activer ou désactiver des fonctionnalités spécifiques dans un formulaire AEM. Par exemple, il permet aux utilisateurs d’activer ou de désactiver une fonctionnalité.
+- **Fonctionnalité de contrôle** : le composant de commutateur est utilisé pour activer ou désactiver des fonctionnalités spécifiques dans un formulaire AEM. Par exemple, il permet aux utilisateurs et utilisatrices d’activer ou de désactiver une fonction.
 
 ## Version et compatibilité {#version-and-compatibility}
 
-Le composant principal Switch de Forms adaptatif a été publié dans le cadre de la version 2.0.64 des composants principaux. Voici un tableau de toutes les versions prises en charge, de la compatibilité AEM et des liens vers la documentation correspondante :
+Le composant principal Commutateur des formulaires adaptatifs a été publié dans le cadre de la version 2.0.64 des composants principaux. Voici un tableau présentant toutes les versions prises en charge, la compatibilité AEM et les liens vers la documentation correspondante :
 
 |  |  |
 |---|---|
@@ -46,11 +46,11 @@ Pour plus d’informations sur les versions et publications des composants princ
 
 ## Détails techniques {#technical-details}
 
-Obtenez les dernières informations sur le composant principal Switch de Forms adaptatif dans la documentation technique de [GitHub](https://github.com/adobe/aem-core-forms-components/tree/master/ui.af.apps/src/main/content/jcr_root/apps/core/fd/components/form/switch/v1/switch). Pour plus d’informations sur le développement des composants principaux, consultez la [documentation destinée aux développeurs et développeuses de composants principaux](/help/developing/overview.md).
+Retrouvez les dernières informations sur le composant principal Commutateur des formulaires adaptatifs dans la documentation technique sur [GitHub](https://github.com/adobe/aem-core-forms-components/tree/master/ui.af.apps/src/main/content/jcr_root/apps/core/fd/components/form/switch/v1/switch). Pour plus d’informations sur le développement des composants principaux, consultez la [documentation destinée aux développeurs et développeuses de composants principaux](/help/developing/overview.md).
 
 ## Boîte de dialogue de configuration {#configure-dialog}
 
-Vous pouvez facilement personnaliser l’expérience du composant Switch pour les visiteurs qui utilisent la boîte de dialogue de configuration. Vous pouvez également définir facilement les options de composant Switch pour une expérience utilisateur transparente.
+Vous pouvez facilement personnaliser l’expérience du composant Commutateur pour les visiteurs et les visiteuses à l’aide de la boîte de dialogue Configurer. Vous pouvez également définir facilement des options de composant Commutateur pour une expérience client fluide.
 
 ### Onglet De base
 
@@ -62,12 +62,12 @@ Vous pouvez facilement personnaliser l’expérience du composant Switch pour le
 
 - **Masquer le titre** - Sélectionnez cette option pour masquer le titre du composant.
 
-- **Conserver la valeur d’état de désélection** - La sélection de cette option vous permet de spécifier la valeur à renvoyer lorsque le composant switch n’est pas sélectionné.
-- **Options** - Spécifiez la valeur de données et le texte d’affichage pour chaque option.
-   - **Valeur des données** - Spécifiez la valeur à envoyer lorsque le commutateur est activé dans un formulaire adaptatif.
-   - **Sur le texte affiché** - Spécifiez le texte à afficher en tant que libellé lorsque le commutateur est activé dans un formulaire adaptatif.
-   - **Valeur des données désactivée** - Spécifiez la valeur à envoyer lorsque le commutateur n’est pas activé dans un formulaire adaptatif. Cette option n’est visible que si la variable **Conserver la valeur d’état de désélection** switch est activé.
-   - **Désafficher le texte** - Spécifiez le texte à afficher en tant que libellé lorsque le commutateur n’est pas activé dans un formulaire adaptatif. Cette option n’est visible que si la variable **Conserver la valeur d’état de désélection** switch est activé.
+- **Conserver la valeur de l’état décochée** – La sélection de cette option vous permet de spécifier la valeur à renvoyer lorsque le composant de commutateur n’est pas sélectionné.
+- **Options** – Spécifiez la valeur des données et le texte d’affichage pour chaque option.
+   - **Valeur des données activée** – Spécifiez la valeur à envoyer lorsque le commutateur est activé dans un formulaire adaptatif.
+   - **Texte d’affichage activé** – Spécifiez le texte à afficher en tant que libellé lorsque le commutateur est activé dans un formulaire adaptatif.
+   - **Valeur des données désactivée** – Spécifiez la valeur à envoyer lorsque le commutateur n’est pas activé dans un formulaire adaptatif. Cette option n’est visible que si le commutateur **Conserver la valeur de l’état décochée** est activé.
+   - **Texte d’affichage désactivé** – Spécifiez le texte à afficher en tant que libellé lorsque le commutateur n’est pas activé dans un formulaire adaptatif. Cette option n’est visible que si le commutateur **Conserver la valeur de l’état décochée** est activé.
 
 - **Référence Bind** - Une référence Bind est une référence à un élément de données stockée dans une source de données externe et utilisée dans un formulaire. La référence de liaison vous permet de lier dynamiquement les données aux champs du formulaire, de sorte que le formulaire puisse afficher les données les plus récentes de la source de données. Par exemple, une référence de liaison peut être utilisée pour afficher le nom et l’adresse d’un client ou d’une cliente dans un formulaire, en fonction de l’identifiant du client ou de la cliente saisi dans le formulaire. La référence de liaison peut également être utilisée pour mettre à jour la source de données avec les données saisies dans le formulaire. Ainsi, AEM Forms vous permet de créer des formulaires qui interagissent avec des sources de données externes, offrant ainsi une expérience utilisateur fluide pour la collecte et la gestion des données.
 - **Marquer comme élément de formulaire non lié** : sélectionnez cette option pour configurer un champ de formulaire qui n’est lié à aucun schéma. Cette option vous permet d’enregistrer des données sans mettre à jour la source de données. Elle vous permet également de gérer les données de manière personnalisée, en les séparant de l’intégration de base de données standard.
@@ -109,21 +109,21 @@ Vous pouvez facilement personnaliser l’expérience du composant Switch pour le
 
 ![Onglet Styles](/help/adaptive-forms/assets/switch-styles.png)
 
-- **Masquer les étiquettes** - Sélectionnez cette option pour masquer les libellés du composant switch.
+- **Masquer les libellés** – Sélectionnez cette option pour masquer les libellés du composant de commutateur.
 
-- **Afficher les étiquettes** - Sélectionnez cette option pour afficher les libellés du composant switch.
+- **Afficher les libellés** – Sélectionnez cette option pour afficher les libellés du composant de commutateur.
 
 ## Boîte de dialogue de conception {#design-dialog}
 
-La boîte de dialogue de conception permet de définir et de gérer les styles CSS du composant Switch.
+La boîte de dialogue de conception permet de définir et de gérer les styles CSS du composant Commutateur.
 
 ### Onglet Styles {#styles-design-tab}
 
-Le composant principal Switch de Forms adaptatif prend en charge l’AEM [Système de style](/help/get-started/authoring.md#component-styling).
+Le composant principal Commutateur des formulaires adaptatifs prend en charge le [Système de style](/help/get-started/authoring.md#component-styling) d’AEM.
 
-![Boîte de dialogue de conception](/help/adaptive-forms/assets/checkbox-style.png)
+![Boîte de dialogue de conception.](/help/adaptive-forms/assets/checkbox-style.png)
 
-- **Classes CSS par défaut**: vous pouvez fournir une classe CSS par défaut pour le composant principal Groupe de commutateur de Forms adaptatif .
+- **Classes CSS par défaut** : vous pouvez fournir une classe CSS par défaut pour le composant principal du groupe de commutateurs des formulaires adaptatifs.
 
 - **Styles autorisés** : vous pouvez définir des styles en fournissant un nom et la classe CSS qui représente le style. Par exemple, vous pouvez créer un style nommé « texte en gras » et fournir la classe CSS « police d’épaisseur : gras ». Vous pouvez utiliser ou appliquer ces styles à un formulaire adaptatif dans l’éditeur de formulaires adaptatifs. Pour appliquer un style, sélectionnez le composant auquel vous souhaitez appliquer le style dans l’éditeur de formulaires adaptatifs, accédez à la boîte de dialogue Propriétés, puis sélectionnez le style de votre choix dans la liste déroulante **Styles**. Si vous devez mettre à jour ou modifier les styles, revenez simplement à la boîte de dialogue Conception, mettez à jour les styles dans l’onglet Styles et enregistrez les modifications.
 
@@ -131,7 +131,7 @@ Le composant principal Switch de Forms adaptatif prend en charge l’AEM [Systè
 
 ![Boîte de dialogue Propriétés personnalisées](/help/adaptive-forms/assets/checkbox-customproperties.png)
 
-Les propriétés personnalisées vous permettent d’associer des attributs personnalisés (paires clé-valeur) à un composant de base de formulaire adaptatif à l’aide du modèle de formulaire. Les propriétés personnalisées sont répercutées dans la section des propriétés du rendu déocuplé du composant. Cela permet de créer un comportement de formulaire dynamique qui s’adapte en fonction des valeurs d’attributs personnalisés. Par exemple, les développeurs et développeuses peuvent concevoir plusieurs rendus d’un composant de formulaires découplés pour des plateformes mobiles, de bureau ou web, ce qui améliore considérablement l’expérience client sur un large éventail d’appareils.
+Les propriétés personnalisées vous permettent d’associer des attributs personnalisés (paires clé-valeur) à un composant principal de formulaire adaptatif à l’aide du modèle de formulaire. Les propriétés personnalisées sont répercutées dans la section des propriétés du rendu déocuplé du composant. Cela permet de créer un comportement de formulaire dynamique qui s’adapte en fonction des valeurs d’attributs personnalisés. Par exemple, les développeurs et développeuses peuvent concevoir plusieurs rendus d’un composant de formulaires découplés pour des plateformes mobiles, de bureau ou web, ce qui améliore considérablement l’expérience client sur un large éventail d’appareils.
 
 - **Nom du groupe** : vous pouvez fournir un nom pour identifier le groupe de propriétés personnalisées. Vous pouvez ajouter, supprimer ou réorganiser plusieurs groupes de propriétés personnalisées. Après avoir ajouté le groupe de propriétés personnalisées, vous pouvez voir les options suivantes :
 
@@ -139,7 +139,7 @@ Les propriétés personnalisées vous permettent d’associer des attributs pers
 
    - **Supprimer** : appuyez ou cliquez pour supprimer le nom et la valeur des propriétés personnalisées.
 
-   - **Réorganiser**: appuyez ou cliquez dessus et faites glisser pour réorganiser le nom de propriété personnalisée et la valeur de propriété personnalisée.
+   - **Réorganiser** : appuyez ou cliquez et faites glisser pour réorganiser le nom et la valeur des propriétés personnalisées.
 
 ## Articles connexes {#related-articles}
 
