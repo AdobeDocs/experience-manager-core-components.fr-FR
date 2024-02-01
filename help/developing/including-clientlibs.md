@@ -1,20 +1,36 @@
 ---
-title: Inclusion de bibliothèques clientes
-description: Il existe plusieurs façons d’inclure des bibliothèques clientes en fonction de votre cas d’utilisation.
+title: Bibliothèques clientes et composants principaux
+description: Les composants principaux sont fournis avec un certain nombre de bibliothèques clientes et offrent la possibilité d’inclure les vôtres.
 role: Architect, Developer, Admin
 exl-id: 84e7c178-247b-42a2-99bf-6d1699ecee14
-source-git-commit: 39a5dee1666fa2645e0579fdfac0400f7fcbdc27
+source-git-commit: d39fe0084522f67664203a026340b23d325c1883
 workflow-type: tm+mt
-source-wordcount: '369'
-ht-degree: 100%
+source-wordcount: '518'
+ht-degree: 65%
 
 ---
 
-# Inclusion de bibliothèques clientes {#including-client-libraries}
 
-Il existe plusieurs façons d’inclure des [bibliothèques clientes](/help/developing/archetype/front-end.md#clientlibs) en fonction de votre cas d’utilisation. Ce document fournit des exemples et des [fragments HTL](https://experienceleague.adobe.com/docs/experience-manager-htl/using/overview.html?lang=fr) pour chacun d’eux.
+# Bibliothèques clientes et composants principaux {#client-libraries}
 
-## Utilisation par défaut recommandée {#recommended-default-usage}
+Les composants principaux sont fournis avec un certain nombre de bibliothèques clientes et offrent la possibilité d’inclure les vôtres.
+
+## Bibliothèques clientes fournies {#provided}
+
+Les composants principaux fournissent les bibliothèques clientes suivantes prêtes à l’emploi.
+
+* La variable **site** clientlibs fournissent le comportement fonctionnel minimaliste des composants à appliquer au site.
+   * Elles servent de point de départ à l’accélération des projets, les mises en oeuvre étant encouragées à étendre et à [les personnaliser](/help/developing/customizing.md) pour obtenir l’apparence et la fonctionnalité souhaitées.
+* La variable **éditeur** les bibliothèques clientes sont appliquées à la boîte de dialogue de création pour garantir les fonctionnalités et l’aspect attendus.
+* La variable **editorhook** Les clientlibs sont appliquées au site lorsqu’elles sont chargées en mode d’édition.
+   * Ils contiennent du code JavaScript exécuté sur des événements déclenchés par l’éditeur, ce qui facilite l’initialisation des fonctionnalités dynamiques.
+* Certains composants peuvent avoir des clientlibs supplémentaires spécifiques, conçus pour être utilisés dans des situations particulières, par exemple lorsqu’ils sont utilisés aux côtés de [Dynamic Media](/help/components/image.md#dynamic-media) par exemple.
+
+## Inclusion de bibliothèques clientes {#including}
+
+Il existe plusieurs façons d’inclure des [bibliothèques clientes](/help/developing/archetype/front-end.md#clientlibs) en fonction de votre cas d’utilisation. Voici des exemples avec un exemple : [Fragments de code HTL](https://experienceleague.adobe.com/docs/experience-manager-htl/using/overview.html?lang=fr) pour chacun d’eux.
+
+### Utilisation par défaut recommandée {#recommended-default-usage}
 
 Si vous n’avez pas le temps d’étudier ce qui convient le mieux à votre situation, incluez vos bibliothèques clientes en plaçant les lignes HTL suivantes à l’intérieur de votre élément `head` de page :
 
@@ -27,7 +43,7 @@ Si vous n’avez pas le temps d’étudier ce qui convient le mieux à votre sit
 
 Cela inclura à la fois les éléments CSS et JS dans votre page `head`, mais en ajoutant l’attribut `defer` à vos inclusions `script` JS, de sorte que les navigateurs attendent que le DOM soit prêt avant d’exécuter vos scripts et, par conséquent, optimise la vitesse de chargement des pages.
 
-## Utilisation de base {#basic-usage}
+### Utilisation de base {#basic-usage}
 
 La syntaxe de base permettant d’inclure à la fois les éléments JS et CSS d’une catégorie de bibliothèque cliente, qui générera tous les éléments `link` CSS et/ou `script` JS correspondants, est la suivante :
 
@@ -46,7 +62,7 @@ Pour faire de même pour plusieurs catégories de bibliothèques clientes à la 
 </sly>
 ```
 
-## CSS ou JS uniquement {#css-js-only}
+### CSS ou JS uniquement {#css-js-only}
 
 Il est fréquent que l’on souhaite placer les inclusions CSS dans l’élément `head` HTML et les inclusions JS juste avant de fermer l’élément `body`.&#x200B;
 
@@ -66,7 +82,7 @@ Avant de fermer `body`, pour inclure uniquement les éléments JS, et non les é
 </sly>
 ```
 
-## Attributs {#attributes}
+### Attributs {#attributes}
 
 Pour appliquer des attributs aux éléments `link` CSS et/ou aux éléments `script` JS générés, plusieurs paramètres sont possibles :
 
@@ -90,7 +106,7 @@ Attributs `link` CSS qui peuvent être transmis à `jsAndCssIncludes` et `cssInc
 * `onload` : chaîne
 * `crossorigin` : chaîne
 
-## Insertion {#inlining}
+### Insertion {#inlining}
 
 Dans certains cas, que ce soit pour l’optimisation ou pour les emails ou [AMP](amp.md), il peut être nécessaire d’insérer les éléments CSS ou JS dans la sortie du code HTML.
 
@@ -112,7 +128,7 @@ De même, pour insérer les éléments JS, vous pouvez utiliser `jsInline`, auqu
 </script>
 ```
 
-## Chargement d’éléments CSS et JavaScript basés sur le contexte {#context-aware-loading}
+### Chargement d’éléments CSS et JavaScript basés sur le contexte {#context-aware-loading}
 
 Le [composant de page](/help/components/page.md) prend également en charge le chargement de balises CSS, JavaScript ou de métadonnées définies par les développeurs.
 
