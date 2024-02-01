@@ -3,9 +3,9 @@ title: Diffusion d’images optimisées pour le web
 description: Découvrez comment les composants principaux peuvent exploiter les fonctionnalités de diffusion d’images optimisées pour le web d’AEM as a Cloud Service dans le but de diffuser plus efficacement les images.
 role: Architect, Developer, Admin, User
 exl-id: 6080ab8b-f53c-4d5e-812e-16889da4d7de
-source-git-commit: 7325751541d463eb9744b1e4a72fd64611f74d55
+source-git-commit: eb1822cb41a849695afb5125745ed5f78e3e70a4
 workflow-type: tm+mt
-source-wordcount: '1056'
+source-wordcount: '1061'
 ht-degree: 54%
 
 ---
@@ -95,4 +95,5 @@ Non, cela ne devrait jamais se produire pour les raisons suivantes.
 
 * Dans le HTML, les balises ne changent pas lors de l’activation d’images optimisées pour le web, mais uniquement la valeur de la variable `src` sur l’élément image change.
 * Lorsque le nouveau service d’image n’est pas disponible ou ne peut pas traiter l’image souhaitée, l’URL générée [basculera vers le servlet Image adaptative.](#fallback)
-* Les règles de Dispatcher peuvent bloquer le service de diffusion d’images optimisé pour le web. Les URL du service de diffusion d’images commencent par `/adobe`, et examen [journaux de dispatcher pour les demandes rejetées](https://experienceleague.adobe.com/docs/experience-manager-learn/ams/dispatcher/common-logs.html#filter-rejects) doit vous aider à résoudre les problèmes rencontrés lors de la diffusion des images vers le navigateur.
+
+Cependant, les règles du Dispatcher peuvent bloquer le service de diffusion d’images optimisé pour le web. Les URL du service de diffusion d’images commencent par `/adobe`et examiner les journaux du dispatcher pour les demandes rejetées en tant que [décrit ici](https://experienceleague.adobe.com/docs/experience-manager-learn/ams/dispatcher/common-logs.html#filter-rejects) doit vous aider à résoudre les problèmes rencontrés lors de la diffusion des images vers le navigateur.
