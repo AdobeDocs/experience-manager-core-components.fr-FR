@@ -4,9 +4,9 @@ description: Ajoutez un formulaire adaptatif à une page Web.
 role: Architect, Developer, Admin, User
 exl-id: 03c4cf7c-51d6-4850-a566-1c0514d52dab
 source-git-commit: 4d01c75fadb0220f0093a6647c27c4002cc979c9
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1297'
-ht-degree: 91%
+ht-degree: 100%
 
 ---
 
@@ -65,9 +65,9 @@ Vous pouvez facilement personnaliser votre expérience de conteneur de formulair
 - **Services de préremplissage** : cette option permet à l’utilisateur ou à l’utilisatrice de sélectionner un service de préremplissage pour récupérer les données lors de la génération du formulaire adaptatif. En savoir plus sur [comment créer et configurer un service de préremplissage](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/create-an-adaptive-form/prepopulate-adaptive-form-fields.html?lang=fr#aem-forms-custom-prefill-service).
 
 - **Catégorie de bibliothèque cliente** - L’utilisateur ou l’utilisatrice peut configurer une bibliothèque JavaScript personnalisée par formulaire adaptatif. Il est recommandé de ne conserver que les fonctions réutilisables de la bibliothèque, qui dépendent des bibliothèques tierces jquery et underscore.js.
-Parfois, s’il existe **règles de validation complexes**, le script de validation exact réside dans des fonctions personnalisées et les utilisateurs appellent ces fonctions personnalisées à partir de l’expression de validation de champ. Pour rendre cette bibliothèque de fonctions personnalisées visible et disponible lors des validations côté serveur, l’utilisateur du formulaire peut configurer le nom de la bibliothèque cliente AEM sous le **[!UICONTROL De base]** de propriétés Adaptive Form Container comme illustré ci-dessous.
+Parfois, en cas de **règles de validation complexes**, le script de validation exact réside dans des fonctions personnalisées que l’utilisateur ou l’utilisatrice doit appeler à partir de l’expression du champ de validation. Pour rendre cette bibliothèque de fonctions personnalisées visible et disponible lors des validations côté serveur, l’utilisateur ou l’utilisatrice de formulaires peut configurer le nom de la bibliothèque cliente AEM sous l’onglet **[!UICONTROL Réglages de base]** des propriétés de conteneur de formulaires adaptatifs comme illustré ci-dessous.
 
-L’utilisateur peut configurer une bibliothèque JavaScript personnalisée par formulaire adaptatif. Dans la bibliothèque, conservez uniquement les fonctions réutilisables ayant une dépendance sur les bibliothèques tierces jquery et underscore.js.
+L’utilisateur ou l’utilisatrice peut configurer la bibliothèque personnalisée JavaScript pour chaque formulaire adaptatif. Dans la bibliothèque, conservez uniquement les fonctions réutilisables ayant une dépendance sur les bibliothèques tierces jquery et underscore.js.
 
 ### Onglet Modèle de données {#data-model-tab}
 
@@ -117,9 +117,9 @@ L’onglet **Paramètres réactifs** permet à l’éditeur de modèles de spéc
 
 Le composant principal « Pièce jointe » des formulaires adaptatifs prend en charge le [Système de style](/help/get-started/authoring.md#component-styling) d’AEM.
 
-![Boîte de dialogue de conception](/help/adaptive-forms/assets/formcontainer-styletab.png)
+![Boîte de dialogue de conception.](/help/adaptive-forms/assets/formcontainer-styletab.png)
 
-- **Classes CSS par défaut**: vous pouvez fournir une classe CSS par défaut pour le composant principal Conteneur de formulaires de Forms adaptatif .
+- **Classes CSS par défaut** : vous pouvez fournir une classe CSS par défaut pour le composant principal Conteneur de formulaire des formulaires adaptatifs.
 
 - **Styles autorisés** : vous pouvez définir des styles en fournissant un nom et la classe CSS qui représente le style. Par exemple, vous pouvez créer un style nommé « texte en gras » et fournir la classe CSS « police d’épaisseur : gras ». Vous pouvez utiliser ou appliquer ces styles à un formulaire adaptatif dans l’éditeur de formulaires adaptatifs. Pour appliquer un style, sélectionnez le composant auquel vous souhaitez appliquer le style dans l’éditeur de formulaires adaptatifs, accédez à la boîte de dialogue Propriétés, puis sélectionnez le style de votre choix dans la liste déroulante **Styles**. Si vous devez mettre à jour ou modifier les styles, revenez simplement à la boîte de dialogue Conception, mettez à jour les styles dans l’onglet Styles et enregistrez les modifications.
 
