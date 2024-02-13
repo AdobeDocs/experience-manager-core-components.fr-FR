@@ -4,9 +4,9 @@ description: Les composants principaux sont fournis avec un certain nombre de bi
 role: Architect, Developer, Admin
 exl-id: 84e7c178-247b-42a2-99bf-6d1699ecee14
 source-git-commit: d39fe0084522f67664203a026340b23d325c1883
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '518'
-ht-degree: 65%
+ht-degree: 100%
 
 ---
 
@@ -19,16 +19,16 @@ Les composants principaux sont fournis avec un certain nombre de bibliothèques 
 
 Les composants principaux fournissent les bibliothèques clientes suivantes prêtes à l’emploi.
 
-* La variable **site** clientlibs fournissent le comportement fonctionnel minimaliste des composants à appliquer au site.
-   * Elles servent de point de départ à l’accélération des projets, les mises en oeuvre étant encouragées à étendre et à [les personnaliser](/help/developing/customizing.md) pour obtenir l’apparence et la fonctionnalité souhaitées.
-* La variable **éditeur** les bibliothèques clientes sont appliquées à la boîte de dialogue de création pour garantir les fonctionnalités et l’aspect attendus.
-* La variable **editorhook** Les clientlibs sont appliquées au site lorsqu’elles sont chargées en mode d’édition.
-   * Ils contiennent du code JavaScript exécuté sur des événements déclenchés par l’éditeur, ce qui facilite l’initialisation des fonctionnalités dynamiques.
-* Certains composants peuvent avoir des clientlibs supplémentaires spécifiques, conçus pour être utilisés dans des situations particulières, par exemple lorsqu’ils sont utilisés aux côtés de [Dynamic Media](/help/components/image.md#dynamic-media) par exemple.
+* Les bibliothèques clientes **site** fournissent le comportement fonctionnel minimaliste des composants à appliquer au site.
+   * Elles servent de point de départ à l’accélération des projets, avec des mises en œuvre encouragées à les étendre et à les [personnaliser](/help/developing/customizing.md) pour obtenir l’apparence et la fonctionnalité souhaitées.
+* Les bibliothèques clientes **editor** sont appliquées à la boîte de dialogue de création pour garantir les fonctionnalités et l’aspect attendus.
+* Les bibliothèques clientes **editorhook** sont appliquées au site lorsqu’elles sont chargées en mode d’édition.
+   * Elles contiennent du code JavaScript exécuté sur des événements déclenchés lors de l’édition, ce qui facilite l’initialisation des fonctionnalités dynamiques.
+* Certains composants peuvent avoir des bibliothèques clientes supplémentaires spécifiques, conçues pour être utilisées dans des situations particulières, par exemple avec [Dynamic Media](/help/components/image.md#dynamic-media).
 
 ## Inclusion de bibliothèques clientes {#including}
 
-Il existe plusieurs façons d’inclure des [bibliothèques clientes](/help/developing/archetype/front-end.md#clientlibs) en fonction de votre cas d’utilisation. Voici des exemples avec un exemple : [Fragments de code HTL](https://experienceleague.adobe.com/docs/experience-manager-htl/using/overview.html?lang=fr) pour chacun d’eux.
+Il existe plusieurs façons d’inclure des [bibliothèques clientes](/help/developing/archetype/front-end.md#clientlibs) en fonction de votre cas d’utilisation. Voici des exemples de [fragments de code HTL](https://experienceleague.adobe.com/docs/experience-manager-htl/using/overview.html?lang=fr) pour chacun d’eux.
 
 ### Utilisation par défaut recommandée {#recommended-default-usage}
 
