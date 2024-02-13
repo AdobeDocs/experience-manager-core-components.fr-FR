@@ -1,48 +1,48 @@
 ---
-title: AEM Versions des composants principaux de Forms adaptatif
+title: Versions des composants principaux des formulaires adaptatifs AEM
 description: Les composants principaux d’AEM sont publiés sous forme de versions qui peuvent contenir plusieurs versions des mêmes composants principaux. Ce document explique les versions et les mises à jour ainsi que comment comprendre la compatibilité avec les composants principaux et AEM.
 role: Architect, Developer, Admin, User
 exl-id: 8146a5b1-acf6-4b54-ad6b-6e1747a137f6
 source-git-commit: 723d29b88d4cbc73f756d26a64d503b425ab26f4
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '773'
-ht-degree: 55%
+ht-degree: 100%
 
 ---
 
 
-# Versions des composants principaux de Forms adaptatif {#core-components-versions}
+# Versions des composants principaux des formulaires adaptatifs {#core-components-versions}
 
-Identifiez les versions précises des composants principaux Forms et des dépendances des composants principaux WCM requises pour activer les derniers composants principaux Forms adaptatif dans votre environnement. De plus, familiarisez-vous avec les composants et fonctionnalités activés dans chaque version des composants principaux de Forms adaptatif.
+Identifiez les versions précises des dépendances des composants principaux des formulaires et de la gestion de contenu web, requises pour activer les derniers composants principaux des formulaires adaptatifs dans votre environnement. De plus, familiarisez-vous avec les fonctionnalités et composants activés dans chaque version des composants principaux des formulaires adaptatifs.
 
-## Historique des versions d’AEM Forms en tant que Cloud Service {#aem-as-cs-version-history}
+## Historique des versions d’AEM Forms as Cloud Service {#aem-as-cs-version-history}
 
 Le tableau suivant dresse la liste des versions des composants principaux compatibles avec AEM as a Cloud Service disponibles sur [GitHub avec toutes les informations de version](https://github.com/adobe/aem-core-forms-components/releases).
 
 
 
 
-| Composants principaux de Forms | Composants principaux WCM | AEM Forms as a Cloud Service | Java | Maven |
+| Composants principaux des formulaires | Composants principaux de la gestion de contenu web | AEM Forms as a Cloud Service | Java | Maven |
 |-----------------------|---------------------| ---------------------------- | ----- | ------ |
-| 2,0,86 | 2.23.4 | En continu | 8, 11 | 3.3.9+ |
-| 2,0,76 | 2.23.4 | En continu | 8, 11 | 3.3.9+ |
-| 2,0,74 | 2.23.4 | En continu | 8, 11 | 3.3.9+ |
-| 2,0,72 | 2.23.4 | En continu | 8, 11 | 3.3.9+ |
-| 2,0,70 | 2.23.4 | En continu | 8, 11 | 3.3.9+ |
-| 2,0.68 | 2.23.2 | En continu | 8, 11 | 3.3.9+ |
-| 2,0.66 | 2.23.2 | En continu | 8, 11 | 3.3.9+ |
-| 2,0.64 | 2.23.2 | En continu | 8, 11 | 3.3.9+ |
-| 2,0.62 | 2.23.2 | En continu | 8, 11 | 3.3.9+ |
-| 2,0,60 | 2.23.0 | En continu | 8, 11 | 3.3.9+ |
-| 2,0,56 | 2.23.0 | En continu | 8, 11 | 3.3.9+ |
-| 2,0,54 | 2.23.0 | En continu | 8, 11 | 3.3.9+ |
-| 2,0,52 | 2.23.0 | En continu | 8, 11 | 3.3.9+ |
-| 2,0,50 | 2.23.0 | En continu | 8, 11 | 3.3.9+ |
-| 2,0.48 | 2.23.0 | En continu | 8, 11 | 3.3.9+ |
-| 2,0.46 | 2.23.0 | En continu | 8, 11 | 3.3.9+ |
-| 2,0.44 | 2.23.0 | En continu | 8, 11 | 3.3.9+ |
-| 2,0.42 | 2.23.0 | En continu | 8, 11 | 3.3.9+ |
-| 2,0,40 | 2.23.0 | En continu | 8, 11 | 3.3.9+ |
+| 2.0.86 | 2.23.4 | En continu | 8, 11 | 3.3.9+ |
+| 2.0.76 | 2.23.4 | En continu | 8, 11 | 3.3.9+ |
+| 2.0.74 | 2.23.4 | En continu | 8, 11 | 3.3.9+ |
+| 2.0.72 | 2.23.4 | En continu | 8, 11 | 3.3.9+ |
+| 2.0.70 | 2.23.4 | En continu | 8, 11 | 3.3.9+ |
+| 2.0.68 | 2.23.2 | En continu | 8, 11 | 3.3.9+ |
+| 2.0.66 | 2.23.2 | En continu | 8, 11 | 3.3.9+ |
+| 2.0.64 | 2.23.2 | En continu | 8, 11 | 3.3.9+ |
+| 2.0.62 | 2.23.2 | En continu | 8, 11 | 3.3.9+ |
+| 2.0.60 | 2.23.0 | En continu | 8, 11 | 3.3.9+ |
+| 2.0.56 | 2.23.0 | En continu | 8, 11 | 3.3.9+ |
+| 2.0.54 | 2.23.0 | En continu | 8, 11 | 3.3.9+ |
+| 2.0.52 | 2.23.0 | En continu | 8, 11 | 3.3.9+ |
+| 2.0.50 | 2.23.0 | En continu | 8, 11 | 3.3.9+ |
+| 2.0.48 | 2.23.0 | En continu | 8, 11 | 3.3.9+ |
+| 2.0.46 | 2.23.0 | En continu | 8, 11 | 3.3.9+ |
+| 2.0.44 | 2.23.0 | En continu | 8, 11 | 3.3.9+ |
+| 2.0.42 | 2.23.0 | En continu | 8, 11 | 3.3.9+ |
+| 2.0.40 | 2.23.0 | En continu | 8, 11 | 3.3.9+ |
 | 2.0.36 | 2.23.0 | En continu | 8, 11 | 3.3.9+ |
 | 2.0.26 | 2.22.12 | En continu | 8, 11 | 3.3.9+ |
 | 2.0.18 | 2.22.10 | En continu | 8, 11 | 3.3.9+ |
@@ -55,7 +55,7 @@ Le tableau suivant dresse la liste des versions des composants principaux compat
 | 1.0.56 | 2.21.2 | En continu | 8, 11 | 3.3.9+ |
 | 1.0.54 | 2.21.0 | En continu | 8, 11 | 3.3.9+ |
 | 1.0.52 | 2.21.0 | En continu | 8, 11 | 3.3.9+ |
-| 1,0,50 | 2.21.0 | En continu | 8, 11 | 3.3.9+ |
+| 1.0.50 | 2.21.0 | En continu | 8, 11 | 3.3.9+ |
 | 1.0.48 | 2.21.0 | En continu | 8, 11 | 3.3.9+ |
 | 1.0.46 | 2.21.0 | En continu | 8, 11 | 3.3.9+ |
 | 1.0.44 | 2.21.0 | En continu | 8, 11 | 3.3.9+ |
@@ -113,7 +113,7 @@ Le tableau suivant dresse la liste des versions des composants principaux compat
 Le tableau suivant dresse la liste des versions des composants principaux compatibles avec AEM 6.5 Forms On-Premise et AMS disponibles sur [GitHub avec toutes les informations de version](https://github.com/adobe/aem-core-forms-components/releases/tag/core-forms-components-reactor-1.1.12).
 
 
-| Composants principaux de Forms | Composants principaux WCM | AEM 6.5 | Java | Maven |
+| Composants principaux des formulaires | Composants principaux de la gestion de contenu web | AEM 6.5 | Java | Maven |
 |-----------------------|---------------------|---------| ----- | ------ |
 | 1.1.32 | 2.23.2 | 6.5.18+ | 8, 11 | 3.3.9+ |
 | 1.1.28 | 2.23.2 | 6.5.19+ | 8, 11 | 3.3.9+ |
