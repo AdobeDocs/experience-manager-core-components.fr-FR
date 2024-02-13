@@ -4,9 +4,9 @@ description: Utilisation ou personnalisation du composant principal Onglets vert
 role: Architect, Developer, Admin, User
 exl-id: d5cd1c18-6840-4f2f-a767-a69b803e6075
 source-git-commit: 723d29b88d4cbc73f756d26a64d503b425ab26f4
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1959'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -18,7 +18,7 @@ Lorsqu’une personne clique sur un onglet, le contenu du formulaire est mis à 
 
 >[!NOTE]
 >
-> Pour AEM 6.5 Forms, ce composant a été introduit avec AEM 6.5 Forms Service Pack 19 (6.5.19.0). Pour activer ce composant, assurez-vous que les versions nécessaires des composants principaux Forms et WCM sont installées. Pour plus d’informations sur les versions des composants principaux de Forms adaptatif, reportez-vous à la section [Versions des composants principaux de Forms adaptatif](/help/adaptive-forms/version.md)
+> Pour AEM 6.5 Forms, ce composant a été introduit avec le pack de services AEM 6.5 Forms 19 (6.5.19.0). Pour activer ce composant, assurez-vous que les versions nécessaires des composants principaux des formulaires et de la gestion de contenu web sont installées. Pour plus d’informations sur les versions des composants principaux des formulaires adaptatifs, reportez-vous à la section [Versions des composants principaux des formulaires adaptatifs](/help/adaptive-forms/version.md).
 
 ![exemple](/help/adaptive-forms/assets/horizontal-example.png)
 
