@@ -4,14 +4,14 @@ description: Le composant du carrousel permet à l’auteur de contenu de prése
 role: Architect, Developer, Admin, User
 exl-id: 3331214c-a05c-47e1-b54c-fbfd1045bd60
 source-git-commit: d39fe0084522f67664203a026340b23d325c1883
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1313'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
 
-# Composant du carrousel {#carousel-component}
+# Composant du carrousel{#carousel-component}
 
 Le composant du carrousel des composants principaux permet à l’auteur de contenu de présenter le contenu dans un carrousel navigable.
 
@@ -57,11 +57,11 @@ Pour ce faire :
 
 En accédant à l’URL avec l’ID de panneau comme ancre, le navigateur fait défiler directement le composant et affiche le panneau spécifié. Si le panneau est configuré pour ne pas être affiché par défaut, il est automatiquement défilé.
 
-## Carrousel et conception réactive {#responsive-design}
+## Carousel et conception réactive {#responsive-design}
 
 Tous les composants principaux sont conçus pour être entièrement réactifs, ce qui garantit une expérience transparente sur tous les appareils.
 
-Certains composants avancés tels que le composant du carrousel peuvent nécessiter une prise en compte spécifique dans le contexte du projet d’implémentation afin de maintenir la réactivité dans toutes les conditions. Consultez le document [Conception réactive des composants principaux](/help/responsive.md) pour plus d’informations.
+Certains composants avancés, tels que le composant Carousel, peuvent nécessiter une prise en compte spécifique dans le contexte du projet d’implémentation, afin de maintenir la réactivité dans toutes les conditions. Consultez le document [Conception réactive des composants principaux](/help/responsive.md) pour plus d’informations.
 
 ## Boîte de dialogue de modification {#edit-dialog}
 
@@ -148,9 +148,9 @@ L’onglet **Propriétés** permet de définir les paramètres par défaut des t
 
 ### Onglet Composants autorisés {#allowed-components-tab}
 
-L’onglet **Composants autorisés** permet de définir les composants pouvant être ajoutés en tant que diapositives au composant du carrousel par l’auteur du contenu.
+L’onglet **Composants autorisés** permet de définir les composants pouvant être ajoutés en tant que diapositives au composant Carrousel par l’auteur ou l’autrice du contenu.
 
-L’onglet Composants autorisés fonctionne de la même manière que l’onglet du même nom lors de la [définition de la stratégie et des propriétés d’un conteneur de mise en page dans l’éditeur de modèles](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/features/templates.html?lang=fr).
+L’onglet Composants autorisés fonctionne de la même manière que l’onglet du même nom lors de la [définition de la politique et des propriétés d’un conteneur de disposition dans l’éditeur de modèles](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/features/templates.html?lang=fr).
 
 ### Onglet Styles {#styles-tab}
 
