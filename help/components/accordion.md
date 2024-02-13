@@ -4,14 +4,14 @@ description: Le composant d’accordéon des composants principaux permet la cr�
 role: Architect, Developer, Admin, User
 exl-id: 1deb570a-3d8d-409e-805f-8460c49cf9bb
 source-git-commit: d39fe0084522f67664203a026340b23d325c1883
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1098'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
 
-# Composant d’accordéon {#accordion-component}
+# Composant d’accordéon{#accordion-component}
 
 Le composant d’accordéon des composants principaux permet la création d’un ensemble de panneaux organisés dans un accordéon sur une page.
 
@@ -63,7 +63,7 @@ En accédant à l’URL avec l’ID de panneau comme ancre, le navigateur fait d
 
 Tous les composants principaux sont conçus pour être entièrement réactifs, ce qui garantit une expérience transparente sur tous les appareils.
 
-Certains composants avancés tels que le composant d’accordéon peuvent nécessiter une attention particulière dans le contexte du projet d’implémentation afin de maintenir la réactivité dans toutes les conditions. Consultez le document [Conception réactive des composants principaux](/help/responsive.md) pour plus d’informations.
+Certains composants avancés, tels que le composant Accordéon peuvent nécessiter une attention particulière dans le contexte du projet d’implémentation, afin de maintenir la réactivité dans toutes les conditions. Consultez le document [Conception réactive des composants principaux](/help/responsive.md) pour plus d’informations.
 
 ## Boîte de dialogue de configuration {#configure-dialog}
 
