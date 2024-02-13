@@ -1,18 +1,18 @@
 ---
-title: Développement front-end avec l’archétype de projet AEM
-description: Découvrez le mécanisme de génération front-end facultatif et dédié de l’archétype de projet AEM basé sur Webpack.
+title: Développement front-end avec l’archétype de projet AEM
+description: Découvrez le mécanisme de génération front-end facultatif et dédié de l’archétype de projet AEM basé sur Webpack.
 feature: Core Components, AEM Project Archetype
 role: Architect, Developer, Admin
 exl-id: 99132b49-bd06-4ac2-9348-12c0dfdfe8b2
 source-git-commit: bd92a5d1884056ca7b44ea28e5817d8bde10a4d9
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '654'
-ht-degree: 75%
+ht-degree: 100%
 
 ---
 
 
-# Développement front-end avec l’archétype de projet AEM {#front-end}
+# Développement front-end avec l’archétype de projet AEM {#front-end}
 
 L’archétype de projet AEM comprend un mécanisme de génération front-end dédié et facultatif basé sur Webpack. Ainsi, le module ui.frontend devient l’emplacement central de toutes les ressources front-end du projet, y compris les fichiers JavaScript et CSS. Pour tirer pleinement parti de cette fonctionnalité utile et flexible, il est essentiel de savoir comment le développement front-end s’intègre à un projet AEM.
 
@@ -20,9 +20,9 @@ Ce document se concentre sur les schémas d’utilisation généraux du module d
 
 >[!TIP]
 >
->Dernier AEM archétype de projet et documentation technique associée [est disponible sur GitHub.](https://github.com/adobe/aem-project-archetype)
+>Le dernier archétype de projet AEM, ainsi que la documentation technique complète, [sont disponibles sur GitHub](https://github.com/adobe/aem-project-archetype).
 
-## AEM de développement front-end et back-end {#front-end-back-end}
+## Développement front-end et back-end d’AEM {#front-end-back-end}
 
 En termes beaucoup plus simples, les projets AEM peuvent être considérés comme comprenant deux parties distinctes, mais connexes :
 
@@ -37,7 +37,7 @@ Toutefois, le projet obtenu doit utiliser les résultats de ces deux processus d
 
 ## Définition du balisage {#determining-markup}
 
-Quel que soit le workflow front-end que vous décidez de mettre en œuvre pour votre projet, les développeurs front-end et back-end doivent avant tout s’entendre sur le balisage. En règle générale, AEM définit le balisage que les principaux composants fournissent. [Vous pouvez toutefois le personnaliser, si nécessaire.](/help/developing/customizing.md#customizing-the-markup)
+Quel que soit le workflow front-end que vous décidez de mettre en œuvre pour votre projet, les développeurs front-end et back-end doivent avant tout s’entendre sur le balisage. En règle générale, AEM définit le balisage que les principaux composants fournissent. [Vous pouvez toutefois le personnaliser, le cas échéant](/help/developing/customizing.md#customizing-the-markup).
 
 ## Workflows front-end possibles {#possible-workflows}
 
@@ -66,11 +66,11 @@ Avec [Storybook](https://storybook.js.org), vous pouvez effectuer un développem
 >
 >[Storybook](https://storybook.js.org) n’est pas fourni dans l’archétype de projet AEM. Si vous choisissez de l’utiliser, vous devez l’installer séparément.
 
-## Présentation des bibliothèques clientes {#clientlibs}
+## Vue d’ensemble des bibliothèques clientes {#clientlibs}
 
-Le module front-end est rendu disponible à l’aide d’une [AEM clientlib.](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/developing/full-stack/clientlibs.html?lang=fr-FR). Lors de l’exécution du script de création NPM, l’application est créée et la variable `aem-clientlib-generator` Le module prend la sortie de génération qui en résulte et la transforme en une bibliothèque cliente de ce type.
+Le module front-end est rendu disponible à l’aide d’une [bibliothèque cliente AEM.](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/developing/full-stack/clientlibs.html?lang=fr-FR). Lors de l’exécution du script de génération NPM, l’application est créée et le package `aem-clientlib-generator` récupère le résultat de la génération pour le transformer en une bibliothèque cliente de ce type.
 
-Une bibliothèque cliente se compose des fichiers et répertoires suivants :
+Une bibliothèque cliente se compose des fichiers et répertoires suivants :
 
 * `css/` : fichiers CSS pouvant être demandés dans le code HTML.
 * `css.txt` : indique à AEM l’ordre et le nom des fichiers dans `css/` afin qu’ils puissent être fusionnés.
@@ -80,4 +80,4 @@ Une bibliothèque cliente se compose des fichiers et répertoires suivants :
 
 >[!TIP]
 >
->En savoir plus sur la manière dont AEM gère les bibliothèques clientes dans la section [Documentation AEM développement](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/developing/full-stack/clientlibs.html?lang=fr-FR) Comment les inclure dans la variable [Documentation sur les composants principaux.](/help/developing/including-clientlibs.md)
+>En savoir plus sur la manière dont AEM gère les bibliothèques clientes dans la section [Documentation sur le développement d’AEM](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/developing/full-stack/clientlibs.html?lang=fr-FR) et sur la manière de les inclure dans la [Documentation sur les composants principaux](/help/developing/including-clientlibs.md).
