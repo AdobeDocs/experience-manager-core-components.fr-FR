@@ -4,9 +4,9 @@ description: Le composant Onglets permet la création de plusieurs onglets pour 
 role: Architect, Developer, Admin, User
 exl-id: 0031c5f3-447c-4932-898f-2f453801e492
 source-git-commit: d39fe0084522f67664203a026340b23d325c1883
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1034'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
@@ -67,7 +67,7 @@ En accédant à l’URL avec l’ID de panneau comme ancre, le navigateur fait d
 
 Tous les composants principaux sont conçus pour être entièrement réactifs, ce qui garantit une expérience transparente sur tous les appareils.
 
-Certains composants avancés tels que le composant Onglet peuvent nécessiter une prise en compte spécifique dans le contexte du projet d’implémentation afin de maintenir la réactivité dans toutes les conditions. Consultez le document [Conception réactive des composants principaux](/help/responsive.md) pour plus d’informations.
+Certains composants avancés, tels que le composant Onglet, peuvent nécessiter une prise en compte spécifique dans le contexte du projet d’implémentation afin de maintenir la réactivité dans toutes les conditions. Consultez le document [Conception réactive des composants principaux](/help/responsive.md) pour plus d’informations.
 
 ## Boîte de dialogue de modification {#edit-dialog}
 
@@ -133,9 +133,9 @@ La boîte de dialogue de conception permet à l’auteur du modèle de définir 
 
 ### Onglet Composants autorisés {#allowed-components-tab}
 
-L’onglet **Composants autorisés** permet de définir quels composants peuvent être ajoutés en tant qu’éléments au composant Onglets par l’auteur du contenu.
+L’onglet **Composants autorisés** permet de définir quels composants peuvent être ajoutés en tant qu’éléments au composant Onglets par l’auteur ou l’autrice du contenu.
 
-L’onglet Composants autorisés fonctionne de la même manière que l’onglet du même nom lors de la [définition de la stratégie et des propriétés d’un conteneur de mise en page dans l’éditeur de modèles](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/features/templates.html?lang=fr).
+L’onglet Composants autorisés fonctionne de la même manière que l’onglet du même nom lors de la [définition de la politique et des propriétés d’un conteneur de disposition dans l’éditeur de modèles](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/features/templates.html?lang=fr).
 
 ### Onglet Styles {#styles-tab}
 
