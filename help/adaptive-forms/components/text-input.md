@@ -3,10 +3,10 @@ title: Composant principal des formulaires adaptatifs - Entrée de texte (zone d
 description: Utilisation ou personnalisation du composant principal « Entrée de texte » des formulaires adaptatifs.
 role: Architect, Developer, Admin, User
 exl-id: 49d9fe69-0578-4489-beaa-a18cdb14add7
-source-git-commit: 8388de05c86641d4887b48a9fd10901cb5a19998
-workflow-type: ht
-source-wordcount: '1984'
-ht-degree: 100%
+source-git-commit: f1fce5f661bc7581f7c6c6905f34e9954d1d4f70
+workflow-type: tm+mt
+source-wordcount: '1949'
+ht-degree: 98%
 
 ---
 
@@ -57,6 +57,10 @@ Vous pouvez facilement personnaliser l’expérience d’entrée de texte pour l
 - **Nom** - Vous pouvez identifier facilement un composant de formulaire avec son nom unique aussi bien dans le formulaire et dans l’éditeur de règles, mais le nom ne doit pas contenir d’espaces ni de caractères spéciaux.
 
 - **Titre** - Avec son titre, vous pouvez facilement identifier un composant dans un formulaire. Par défaut, le titre s’affiche au-dessus du composant. Si vous n’ajoutez pas de titre, le nom du composant s’affiche à la place du texte du titre.
+<!-- **Allow Rich Text for Title** - This features enables users to format plain text titles, incorporating features like bold, italic, underlined text, various fonts, font sizes, colors, and additional option to enhance visual presentation and customization. It offers greater flexibility and creative control in making titles stand out within documents, websites, or applications.  
+    Upon selecting the checkbox for **Allow Rich Text for Title** , formatting options become visible to style the component's title. To access all available formatting options, you can click on the ![Fullscreen icon](/help/adaptive-forms/assets/fullscreen-icon.png) tab.
+     
+     ![Rich text support](/help/adaptive-forms/assets/richtext-support-title.png)-->
 
 - **Masquer le titre** - Sélectionnez cette option pour masquer le titre du composant.
 
@@ -75,9 +79,7 @@ Vous pouvez facilement personnaliser l’expérience d’entrée de texte pour l
 
 - **Permettre des lignes multiples** - Cette option permet à l’utilisateur ou à l’utilisatrice de saisir plusieurs lignes dans un champ de formulaire.
 
-- **Autoriser le texte enrichi** - La boîte de dialogue de modification fournit des outils de mise en forme de texte enrichi standard qui permettent à l’utilisateur ou à l’utilisatrice de mettre en forme le texte.
-
-- **Attribut de remplissage automatique** - L’option de remplissage automatique remplit le champ de formulaire selon un motif ou un texte saisi précédemment. Lorsque du texte est saisi dans le champ de formulaire, les suggestions s’affichent dans une liste déroulante à partir de laquelle l’option appropriée peut être sélectionnée.
+- **Attribut de remplissage automatique** - L’option permet aux utilisateurs de saisir une valeur automatiquement renseignée dans le champ de formulaire en fonction des informations stockées.
 
 ### Onglet Validation {#validation-tab}
 

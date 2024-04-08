@@ -3,9 +3,9 @@ title: Composant principal des formulaires adaptatifs - Entrée de nombre
 description: Utilisation ou personnalisation du composant principal « Entrée de nombre » dans les formulaires adaptatifs.
 role: Architect, Developer, Admin, User
 exl-id: 75604ecf-1ec5-4e97-b934-d6ed49726147
-source-git-commit: 8388de05c86641d4887b48a9fd10901cb5a19998
-workflow-type: ht
-source-wordcount: '2035'
+source-git-commit: f1fce5f661bc7581f7c6c6905f34e9954d1d4f70
+workflow-type: tm+mt
+source-wordcount: '1989'
 ht-degree: 100%
 
 ---
@@ -65,6 +65,10 @@ Vous pouvez facilement personnaliser l’expérience d’entrée de nombre pour 
 - **Nom** - Vous pouvez identifier facilement un composant de formulaire avec son nom unique aussi bien dans le formulaire et dans l’éditeur de règles, mais le nom ne doit pas contenir d’espaces ni de caractères spéciaux.
 
 - **Titre** - Avec son titre, vous pouvez facilement identifier un composant dans un formulaire. Par défaut, le titre s’affiche au-dessus du composant. Si vous n’ajoutez pas de titre, le nom du composant s’affiche à la place du texte du titre.
+<!-- **Allow Rich Text for Title** - This features enables users to format plain text titles, incorporating features like bold, italic, underlined text, various fonts, font sizes, colors, and additional option to enhance visual presentation and customization. It offers greater flexibility and creative control in making titles stand out within documents, websites, or applications.   
+    Upon selecting the checkbox for **Allow Rich Text for Title** , formatting options become visible to style the component's title. To access all available formatting options, you can click on the ![Fullscreen icon](/help/adaptive-forms/assets/fullscreen-icon.png) tab.
+     
+     ![Rich text support](/help/adaptive-forms/assets/richtext-support-title.png) -->
 
 - **Masquer le titre** - Sélectionnez cette option pour masquer le titre du composant.
 
@@ -121,9 +125,9 @@ Vous pouvez facilement personnaliser l’expérience d’entrée de nombre pour 
 
 - **Format d’affichage** : Cette option permet de sélectionner un format de type entier-numérique pour l’affichage. Lorsque l’utilisateur ou l’utilisatrice sélectionne une option dans le menu déroulant **Type**, l’option **Format** apparaît dans le panneau. Vous pouvez choisir un format spécifique dans lequel les nombres s’affichent pour l’utilisateur ou l’utilisatrice.
 
-- **Nombre de chiffres avant le séparateur décimal (1234,000)** - Utilisez cette option pour spécifier le nombre de chiffres à afficher avant la décimale.
+<!--   **Number of digits before the decimal separator (1234.000)** - Use this option to specify the number of digits to display before the decimal point. 
 
-- **Nombre de chiffres après le séparateur décimal (1234,000)** - Utilisez cette option pour spécifier le nombre de chiffres à afficher après la décimale.
+- **Number of digits after the decimal separator (1234.000)** - Use this option to specify the number of digits to display after the decimal point. -->
 
 ## Boîte de dialogue de conception {#design-dialog}
 

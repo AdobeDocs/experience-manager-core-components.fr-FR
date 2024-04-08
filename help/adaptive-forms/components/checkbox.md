@@ -3,10 +3,10 @@ title: Composant principal des formulaires adaptatifs – Case à cocher
 description: Utilisation ou personnalisation du composant principal de case à cocher des formulaires adaptatifs.
 role: Architect, Developer, Admin, User
 exl-id: c6ca4800-bd10-4aeb-957a-fb1780cf94f3
-source-git-commit: 723d29b88d4cbc73f756d26a64d503b425ab26f4
-workflow-type: ht
-source-wordcount: '1746'
-ht-degree: 100%
+source-git-commit: bb226c9545ce32f48896d737c8652a1e0c0e11a5
+workflow-type: tm+mt
+source-wordcount: '1666'
+ht-degree: 97%
 
 ---
 
@@ -62,6 +62,11 @@ Vous pouvez facilement personnaliser l’expérience des cases à cocher pour le
 
 - **Titre** – Avec son titre, vous pouvez facilement identifier un composant dans un formulaire. Par défaut, le titre s’affiche à côté du composant. Si vous n’ajoutez pas de titre, le composant ne s’affiche pas.
 
+<!-- **Allow Rich Text for Title** - This features enables users to format plain text titles, incorporating features like bold, italic, underlined text, various fonts, font sizes, colors, and additional option to enhance visual presentation and customization. It offers greater flexibility and creative control in making titles stand out within documents, websites, or applications.  
+    Upon selecting the checkbox for **Allow Rich Text for Title** , formatting options become visible to style the component's title. To access all available formatting options, you can click on the ![Fullscreen icon](/help/adaptive-forms/assets/fullscreen-icon.png) tab.
+     
+     ![Rich text support](/help/adaptive-forms/assets/richtext-support-title.png) -->
+
 - **Masquer le titre** - Sélectionnez cette option pour masquer le titre du composant.
 
 - **Référence Bind** - Une référence Bind est une référence à un élément de données stockée dans une source de données externe et utilisée dans un formulaire. La référence de liaison vous permet de lier dynamiquement les données aux champs du formulaire, de sorte que le formulaire puisse afficher les données les plus récentes de la source de données. Par exemple, une référence de liaison peut être utilisée pour afficher le nom et l’adresse d’un client ou d’une cliente dans un formulaire, en fonction de l’identifiant du client ou de la cliente saisi dans le formulaire. La référence de liaison peut également être utilisée pour mettre à jour la source de données avec les données saisies dans le formulaire. Ainsi, AEM Forms vous permet de créer des formulaires qui interagissent avec des sources de données externes, offrant ainsi une expérience utilisateur fluide pour la collecte et la gestion des données.
@@ -73,12 +78,9 @@ Vous pouvez facilement personnaliser l’expérience des cases à cocher pour le
 - **Masquer le composant** - Sélectionnez cette option pour masquer le composant du formulaire. Le composant reste accessible à d’autres fins, par exemple pour les calculs dans l’éditeur de règles. Cela s’avère utile lorsque vous devez stocker des informations qui n’ont pas besoin d’être affichées ou directement modifiées par les utilisateurs ou les utilisatrices.
 
 - **Désactiver le composant** – Sélectionnez cette option pour désactiver le composant. Le composant désactivé n’est pas actif ni modifiable par l’utilisateur final ou l’utilisatrice finale. L’utilisateur ou l’utilisatrice peut voir la valeur du champ mais ne peut pas la modifier. Le composant reste accessible à d’autres fins, par exemple pour les calculs dans l’éditeur de règles.
-- **Lecture seule** - Sélectionnez cette option pour rendre le composant non modifiable. L’utilisateur ou l’utilisatrice peut voir la valeur du champ mais ne peut pas la modifier. Le composant reste accessible à d’autres fins, par exemple pour les calculs dans l’éditeur de règles.
+  <!-- - **Read-only** - Select the option to make the component non-editable. The user can see the value of the field but cannot modify it. The component remains accessible for other purposes, such as using it for calculations in the Rule Editor.-->
 - **Lorsque cette case est cochée, valeur renvoyée** – Sélectionnez cette option pour spécifier la valeur à associer à la case à cocher lorsqu’elle est cochée ou sélectionnée. Il s’agit de l’action qui se produit lorsqu’une personne coche la case.
-- **Activez l’option Décocher.** – Sélectionnez cette option pour activer ou désactiver la possibilité de décocher une case précédemment cochée.
-   - Si **Activer l’option Décocher** est activé ou défini sur true, cela signifie que la personne peut cocher et décocher la case à sa guise. Elle peut cocher et décocher la case si nécessaire.
-
-   - Si **Activer l’option Décocher** est désactivé ou défini sur false, cela signifie qu’une fois la case cochée, la personne n’est pas autorisée à la décocher.
+- **Conserver la valeur d’état de désélection**- Sélectionnez cette option pour spécifier la valeur à renvoyer lorsque le composant de case à cocher n’est pas sélectionné. If **Conserver la valeur d’état de désélection** est activé ou défini sur true, **Lorsque la case est décochée, la valeur renvoyée** s’affiche.
 - **Lorsque cette case est décochée, valeur renvoyée** – Cette option vous permet de spécifier la valeur à associer à la case lorsqu’elle n’est pas cochée ou sélectionnée.
 
 - **Valeur par défaut** – Cette option vous permet d’ajouter une valeur par défaut dans un champ de formulaire. Si **Composant désactivé** ou **Composant en lecture seule** est sélectionné, la valeur par défaut s’affiche à l’écran. Si aucune valeur n’est saisie par l’utilisateur dans le champ de formulaire, cette valeur est envoyée au moment de l’envoi du formulaire.

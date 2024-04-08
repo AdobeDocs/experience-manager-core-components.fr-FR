@@ -3,10 +3,10 @@ title: Composant principal des formulaires adaptatifs - Pièce jointe
 description: Utilisation ou personnalisation du composant principal « Pièce jointe » des formulaires adaptatifs.
 role: Architect, Developer, Admin, User
 exl-id: 64a54fc6-db52-481f-bf5a-60c05122004d
-source-git-commit: 8388de05c86641d4887b48a9fd10901cb5a19998
-workflow-type: ht
-source-wordcount: '1740'
-ht-degree: 100%
+source-git-commit: 8c51bd29074e5977d3435d849033770cadc357b8
+workflow-type: tm+mt
+source-wordcount: '1726'
+ht-degree: 97%
 
 ---
 
@@ -62,6 +62,10 @@ Vous pouvez facilement personnaliser l’expérience de pièce jointe pour les v
 - **Nom** - Vous pouvez identifier facilement un composant de formulaire en lui attribuant un nom unique dans le formulaire et dans l’éditeur de règles, mais le nom ne doit pas contenir d’espaces ni de caractères spéciaux.
 
 - **Titre** - Avec son titre, vous pouvez facilement identifier un composant dans un formulaire. Par défaut, le titre s’affiche au-dessus du composant. Si vous n’ajoutez pas de titre, le nom du composant s’affiche à la place du texte du titre.
+<!-- **Allow Rich Text for Title** - This features enables users to format plain text titles, incorporating features like bold, italic, underlined text, various fonts, font sizes, colors, and additional option to enhance visual presentation and customization. It offers greater flexibility and creative control in making titles stand out within documents, websites, or applications.  
+    Upon selecting the checkbox for **Allow Rich Text for Title** , formatting options become visible to style the component's title. To access all available formatting options, you can click on the ![Fullscreen icon](/help/adaptive-forms/assets/fullscreen-icon.png) tab.
+     
+     ![Rich text support](/help/adaptive-forms/assets/richtext-support-title.png)-->
 
 - **Masquer le titre** - Sélectionnez cette option pour masquer le titre du composant.
 
@@ -73,6 +77,7 @@ Vous pouvez facilement personnaliser l’expérience de pièce jointe pour les v
 - **Désactiver le composant** - Sélectionnez cette option pour désactiver le composant. Le composant désactivé n’est pas actif ni modifiable par l’utilisateur final ou l’utilisatrice finale. L’utilisateur ou l’utilisatrice peut voir la valeur du champ mais ne peut pas la modifier. Le composant reste accessible à d’autres fins, par exemple pour les calculs dans l’éditeur de règles.
 - **Lecture seule** - Sélectionnez cette option pour rendre le composant non modifiable. L’utilisateur ou l’utilisatrice peut voir la valeur du champ mais ne peut pas la modifier. Le composant reste accessible à d’autres fins, par exemple pour les calculs dans l’éditeur de règles.
 - **Autoriser plusieurs pièces jointes** - Sélectionnez cette option pour accepter plusieurs pièces jointes à l’aide du bouton **Pièce jointe**.
+- **Faire glisser du texte** - Il s’agit du texte affiché en haut de la page **Joindre** pour inviter les utilisateurs à joindre ou à faire glisser des fichiers. Vous avez la possibilité de personnaliser le texte affiché en haut de la page **Joindre** bouton . <!-- Additionally, you can format the text using the rich text menu. -->
 
 ### Onglet Validation {#validation-tab}
 
@@ -84,11 +89,10 @@ Vous pouvez facilement personnaliser l’expérience de pièce jointe pour les v
 
 - **Message de validation de script** - Cette option permet de saisir un message à afficher en cas d’échec de la validation du script.
 
-- **Message d’erreur sur le nombre de fichiers minimaux** - Cette option est utilisée pour saisir un message d’erreur qui s’affiche si vous téléchargez un nombre de fichiers inférieur au nombre minimum de fichiers spécifié.
-
-- **Message d’erreur sur le nombre de fichiers maximum** - Cette option est utilisée pour saisir un message d’erreur qui s’affiche si vous téléchargez un nombre de fichiers supérieur au nombre maximum de fichiers spécifié.
+<!--   **Minimum files error message** - This option is used to enter an error message that is displayed if you upload files lesser than the specified minimum number of files.-->
 
 - **Taille maximale du fichier (Mo)** - Cette option permet de spécifier une taille de fichier maximale. Les tailles de fichier sont spécifiées en Mo.
+  <!--   **Maximum files error message** - This option is used to enter an error message that is displayed if you upload files greater than the specified maximum number of files.-->
 
 - **Message d’erreur sur la taille de fichier maximale** - Cette option est utilisée pour saisir un message d’erreur qui s’affiche si vous téléchargez des fichiers d’une taille supérieure à la taille de fichier spécifiée dans **Taille maximale du fichier (Mo)**.
 

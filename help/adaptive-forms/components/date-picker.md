@@ -3,10 +3,10 @@ title: Composant principal des formulaires adaptatifs - Sélecteur de date
 description: Utilisation ou personnalisation du composant principal Sélecteur de date des formulaires adaptatifs.
 role: Architect, Developer, Admin, User
 exl-id: aa9402de-ca57-4c19-8d36-2dd0a78d6806
-source-git-commit: 8388de05c86641d4887b48a9fd10901cb5a19998
+source-git-commit: f1fce5f661bc7581f7c6c6905f34e9954d1d4f70
 workflow-type: tm+mt
-source-wordcount: '1901'
-ht-degree: 100%
+source-wordcount: '1980'
+ht-degree: 98%
 
 ---
 
@@ -64,10 +64,16 @@ Vous pouvez facilement personnaliser votre expérience de sélecteur de date pou
 - **Nom** - Le nom identifie de manière unique le composant dans l’éditeur de règles. Les caractères spéciaux et les espaces ne sont pas autorisés dans les chaînes de nom.
 
 - **Titre** - Le titre est une chaîne qui s’affiche en haut d’un composant dans un formulaire adaptatif. Le titre identifie de manière unique le composant dans l’arborescence d’un formulaire adaptatif. Si vous n’ajoutez pas de titre, le nom du composant s’affiche à la place du texte du titre.
+<!-- **Allow Rich Text for Title** - This features enables users to format plain text titles, incorporating features like bold, italic, underlined text, various fonts, font sizes, colors, and additional option to enhance visual presentation and customization. It offers greater flexibility and creative control in making titles stand out within documents, websites, or applications.  
+    Upon selecting the checkbox for **Allow Rich Text for Title** , formatting options become visible to style the component's title. To access all available formatting options, you can click on the ![Fullscreen icon](/help/adaptive-forms/assets/fullscreen-icon.png) tab.
+     
+     ![Rich text support](/help/adaptive-forms/assets/richtext-support-title.png) -->
 
 - **Masquer le titre** - Sélectionnez cette option pour masquer le titre du type de composant dans un formulaire adaptatif.
 
 - **Texte d’espace réservé** - Le texte d’espace réservé dans un composant de formulaire fait référence à un libellé court ou à une invite qui apparaît dans un champ de saisie comme conseil à l’utilisateur ou à l’utilisatrice sur le type d’information à saisir dans ce champ. Le texte d’espace réservé disparaît lorsque l’utilisateur ou l’utilisatrice commence à saisir du texte dans le champ et réapparaît si le champ est vide. Il fournit un indice visuel à l’utilisateur ou à l’utilisatrice, mais n’agit pas comme une valeur ou un libellé permanent pour le champ.
+
+- **Référence Bind** - Une référence Bind est une référence à un élément de données stockée dans une source de données externe et utilisée dans un formulaire. La référence de liaison vous permet de lier dynamiquement les données aux champs du formulaire, de sorte que le formulaire puisse afficher les données les plus récentes de la source de données. Par exemple, une référence de liaison peut être utilisée pour afficher le nom et l’adresse d’un client ou d’une cliente dans un formulaire, en fonction de l’identifiant du client ou de la cliente saisi dans le formulaire. La référence de liaison peut également être utilisée pour mettre à jour la source de données avec les données saisies dans le formulaire. Ainsi, AEM Forms vous permet de créer des formulaires qui interagissent avec des sources de données externes, offrant ainsi une expérience utilisateur fluide pour la collecte et la gestion des données.
 
 - **Marquer comme élément de formulaire non lié** : sélectionnez cette option pour configurer un champ de formulaire qui n’est lié à aucun schéma. Cette option vous permet d’enregistrer des données sans mettre à jour la source de données. Elle vous permet également de gérer les données de manière personnalisée, en les séparant de l’intégration de base de données standard.
 
@@ -90,11 +96,13 @@ Vous pouvez facilement personnaliser votre expérience de sélecteur de date pou
 - **Date minimale** : cette option vous permet de saisir la date minimale requise. Si vous saisissez une date antérieure à la date spécifiée dans Date minimale, un message d’erreur s’affiche à l’écran. La boîte de dialogue **Message d’erreur avec date minimale** vous permet d’ajouter un message d’erreur personnalisé.
 
 - **Message d’erreur avec date minimal** : le **Message d’erreur avec date minimale** vous permet d’ajouter un message d’erreur personnalisé à afficher, si vous saisissez une date antérieure à celle spécifiée dans la **Date minimale**.
+- **Exclure la date minimale** - Cette option permet d’omettre la date minimale d’une période donnée ou d’un jeu de dates donné.
 
 - **Date maximale** : cette option vous permet de saisir la date maximale requise. Si vous saisissez une date ultérieure à celle spécifiée dans la Date maximale, un message d’erreur s’affiche à l’écran. Le **Message d’erreur avec date maximale** vous permet d’ajouter un message d’erreur personnalisé.
 
 - **Message d’erreur avec date maximale** : le **Message d’erreur avec date maximale** vous permet d’ajouter un message d’erreur personnalisé à afficher, si vous saisissez une date ultérieure à celle spécifiée dans la **Date maximale**.
 
+- **Exclure la date maximale** - Cette option permet d’omettre la date maximale d’une période donnée ou d’un jeu de dates donné.
 
 ### Onglet Contenu de l’aide {#help-content-tab}
 
@@ -120,10 +128,6 @@ Vous pouvez facilement personnaliser votre expérience de sélecteur de date pou
 - **Format d’affichage** : il s’agit du format de date affiché pour l’utilisateur ou l’utilisatrice. L’option **Type** permet à l’utilisateur ou à l’utilisatrice de sélectionner le format de date. Vous pouvez également personnaliser le format de date à l’aide de l’option **Personnaliser** dans le menu déroulant **Type**.
 
 - **Modifier le format** : il s’agit d’un format de date dans lequel l’utilisateur ou l’utilisatrice peut modifier la date. L’option **Type** permet à l’utilisateur ou à l’utilisatrice de sélectionner le format de date. Vous pouvez également personnaliser le format de date à l’aide de l’option **Personnaliser** dans le menu déroulant **Type**.
-
-- **Format d’affichage** : il s’agit du format de date affiché pour l’utilisateur ou l’utilisatrice. L’option Type permet à l’utilisateur ou à l’utilisatrice de sélectionner le format de date. Vous pouvez également personnaliser le format de date à l’aide de l’option **Personnaliser** dans le menu déroulant **Type**.
-
-- **Modifier le format** : il s’agit d’un format de date dans lequel l’utilisateur ou l’utilisatrice modifie la date. L’option Type permet à l’utilisateur ou à l’utilisatrice de sélectionner le format de date. Vous pouvez également personnaliser le format de date à l’aide de l’option **Personnaliser** dans le menu déroulant **Type**.
 
 ## Boîte de dialogue de conception {#design-dialog}
 
