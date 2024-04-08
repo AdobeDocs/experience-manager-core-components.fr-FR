@@ -5,9 +5,9 @@ role: Architect, Developer, Admin, User
 hide: true
 hidefromtoc: true
 exl-id: 1e413ef3-7a6f-41fc-825d-dbe09ebaffe9
-source-git-commit: 37ac7d3a9ae8c88d4c9be8129cfbd1eb4a7cccd1
-workflow-type: ht
-source-wordcount: '1048'
+source-git-commit: e4274194026c3370b52be17171776847374a86b5
+workflow-type: tm+mt
+source-wordcount: '869'
 ht-degree: 100%
 
 ---
@@ -19,7 +19,6 @@ CAPTCHA (Completely Automated Public Turing test to tell Computers and Humans Ap
 AEM Forms as a Cloud Service prend en charge Google reCAPTCHA v2 dans les formulaires adaptatifs. Vous pouvez l’utiliser pour présenter un défi Captcha lors de l’envoi du formulaire.
 
 ## Utilisation {#reasons-to-use-google-recaptcha}
-
 
 - **Prévention contre le spam et les robots** : l’une des principales raisons d’utiliser reCAPTCHA est d’empêcher les envois de spam et l’afflux de robots malveillants dans votre formulaire. Les algorithmes avancés de reCAPTCHA peuvent détecter les tentatives automatisées d’envoi du formulaire, assurant ainsi que seuls les utilisateurs et utilisatrices légitimes peuvent interagir avec celui-ci.
 

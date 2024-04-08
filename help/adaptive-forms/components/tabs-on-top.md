@@ -2,9 +2,9 @@
 title: Composant principal des formulaires adaptatifs - Onglets visibles
 description: Utilisez ou personnalisez le composant principal Onglets visibles des formulaires adaptatifs.
 role: Architect, Developer, Admin, User
-source-git-commit: 59cd9d65bf4c1be6ab2eaf15bbb747b532863fdd
-workflow-type: ht
-source-wordcount: '473'
+source-git-commit: e4274194026c3370b52be17171776847374a86b5
+workflow-type: tm+mt
+source-wordcount: '467'
 ht-degree: 100%
 
 ---
@@ -89,5 +89,6 @@ Vous pouvez facilement personnaliser l’expérience des onglets visibles pour l
 >* [Assistant](/help/adaptive-forms/components/wizard.md)
 
 ## Voir également {#see-also}
+
 
 {{see-also}}

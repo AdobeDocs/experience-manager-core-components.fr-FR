@@ -3,7 +3,7 @@ title: Composant principal de formulaires adaptatifs - Conteneur de formulaires
 description: Ajoutez un formulaire adaptatif à une page Web.
 role: Architect, Developer, Admin, User
 exl-id: 03c4cf7c-51d6-4850-a566-1c0514d52dab
-source-git-commit: 7862206660909b396cb3d95b7ac81eee9221957b
+source-git-commit: e4274194026c3370b52be17171776847374a86b5
 workflow-type: tm+mt
 source-wordcount: '1340'
 ht-degree: 100%
@@ -17,7 +17,6 @@ Les formulaires permettent aux visiteurs et aux visiteuses d’un site Web d’i
 ## Utilisation {#reasons-to-use-forms-container}
 
 Plusieurs raisons peuvent expliquer l’ajout d’un formulaire à un site Web :
-
 - **Collecte de données** : les formulaires peuvent être utilisés pour collecter des données auprès des visiteurs et visiteuses de sites Web à diverses fins, telles que des recherches sur le marché, une analyse du comportement des utilisateurs et des utilisatrices, etc.
 
 - **Génération de piste** : un formulaire peut être utilisé pour recueillir des informations auprès de clients et clientes potentiels, tels que le nom et l’adresse électronique, afin de générer des pistes pour les efforts de vente et de marketing.

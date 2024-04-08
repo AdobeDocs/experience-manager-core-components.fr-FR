@@ -3,7 +3,7 @@ title: Composant principal des formulaires adaptatifs - Onglets horizontaux
 description: Utilisation ou personnalisation du composant principal des onglets horizontaux des formulaires adaptatifs.
 role: Architect, Developer, Admin, User
 exl-id: fbdf330b-3b85-4f94-9dab-eea8465fba67
-source-git-commit: f1fce5f661bc7581f7c6c6905f34e9954d1d4f70
+source-git-commit: e4274194026c3370b52be17171776847374a86b5
 workflow-type: tm+mt
 source-wordcount: '1979'
 ht-degree: 98%
@@ -109,7 +109,6 @@ Vous pouvez utiliser les options de répétition pour dupliquer le composant Ong
 - **Rendre les onglets les plus répétables**: fonction de basculement qui permet aux utilisateurs d’activer ou de désactiver la fonctionnalité de répétabilité.
 - **Nombre minimal de répétitions** : définit le nombre minimal de répétitions possibles du composant Onglets horizontaux. La valeur zéro indique que le composant Onglets horizontaux n’est pas répété. La valeur par défaut est zéro.
 - **Nombre maximal de répétitions** : définit le nombre maximal de répétitions possibles du composant Onglets horizontaux. Par défaut, cette valeur est illimitée.
-
 Pour gérer efficacement les sections répétables dans les Onglets horizontaux, procédez comme indiqué dans l’article [Création de formulaires avec des sections répétables](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/create-forms-repeatable-sections.html?lang=fr).
 
 ### Onglet Éléments {#items-tab}

@@ -3,7 +3,7 @@ title: Composant principal des formulaires adaptatifs - En-tête
 description: Utilisation ou personnalisation du composant principal « En-tête » des formulaires adaptatifs.
 role: Architect, Developer, Admin, User
 exl-id: aa18def9-0bec-4475-8dde-213860621ef5
-source-git-commit: 8388de05c86641d4887b48a9fd10901cb5a19998
+source-git-commit: e4274194026c3370b52be17171776847374a86b5
 workflow-type: tm+mt
 source-wordcount: '674'
 ht-degree: 100%
@@ -44,7 +44,6 @@ Pour plus d’informations sur les versions et publications des composants princ
 <!-- ## Sample Component Output {#sample-component-output}
 
 To experience the Accordion Component as well as see examples of its configuration options as well as HTML and JSON output, visit the [Component Library](https://adobe.com/go/aem_cmp_library_accordion). -->
-
 
 ## Détails techniques {#technical-details}
 

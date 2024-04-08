@@ -3,7 +3,7 @@ title: Composant principal des formulaires adaptatifs - Pièce jointe
 description: Utilisation ou personnalisation du composant principal « Pièce jointe » des formulaires adaptatifs.
 role: Architect, Developer, Admin, User
 exl-id: 64a54fc6-db52-481f-bf5a-60c05122004d
-source-git-commit: 8c51bd29074e5977d3435d849033770cadc357b8
+source-git-commit: e4274194026c3370b52be17171776847374a86b5
 workflow-type: tm+mt
 source-wordcount: '1726'
 ht-degree: 97%
@@ -84,7 +84,6 @@ Vous pouvez facilement personnaliser l’expérience de pièce jointe pour les v
 ![Onglet Validation](/help/adaptive-forms/assets/fileattachment_validationtab.png)
 
 - **Obligatoire** : Sélectionnez cette option si vous souhaitez afficher le composant dans un formulaire adaptatif. Après avoir sélectionné cette option, vous devez ajouter des pièces jointes avant de poursuivre l’envoi du formulaire. Vous ne pouvez pas sélectionner **Masquer le composant** ou **Désactiver le composant**  dans l’onglet **De base** lorsque cette option est sélectionnée.
-
 - **Message d’erreur** - Cette option vous permet de saisir un message qui s’affiche si la case à cocher **Obligatoire** est cochée et que le champ n’est pas renseigné.
 
 - **Message de validation de script** - Cette option permet de saisir un message à afficher en cas d’échec de la validation du script.

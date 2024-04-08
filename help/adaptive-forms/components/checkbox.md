@@ -3,7 +3,7 @@ title: Composant principal des formulaires adaptatifs – Case à cocher
 description: Utilisation ou personnalisation du composant principal de case à cocher des formulaires adaptatifs.
 role: Architect, Developer, Admin, User
 exl-id: c6ca4800-bd10-4aeb-957a-fb1780cf94f3
-source-git-commit: bb226c9545ce32f48896d737c8652a1e0c0e11a5
+source-git-commit: e4274194026c3370b52be17171776847374a86b5
 workflow-type: tm+mt
 source-wordcount: '1666'
 ht-degree: 97%
@@ -92,7 +92,6 @@ Vous pouvez facilement personnaliser l’expérience des cases à cocher pour le
 - **Obligatoire** : Sélectionnez cette option si vous souhaitez afficher le composant dans un formulaire adaptatif. Après avoir sélectionné cette option, vous devez effectuer une sélection avant de poursuivre l’envoi du formulaire. Vous ne pouvez pas sélectionner **Masquer le composant** ou **Désactiver le composant**  dans l’onglet **De base** lorsque cette option est sélectionnée.
 
 - **Message d’erreur** : Cette option vous permet de saisir un message qui s’affiche si la case à cocher **Obligatoire** est cochée et que le champ de formulaire reste vide.
-
 - **Message de validation de script** : cette option permet de saisir un message à afficher en cas d’échec de la validation du script.
 
 ### Onglet Contenu de l’aide {#helpcontent-tab}

@@ -3,7 +3,7 @@ title: Composant principal de formulaires adaptatifs - Conteneur de panneau
 description: Utilisation ou personnalisation du composant principal Conteneur de panneau de formulaires adaptatifs.
 role: Architect, Developer, Admin, User
 exl-id: 104836fe-8325-47de-978d-1ff2d6a9dd15
-source-git-commit: f1fce5f661bc7581f7c6c6905f34e9954d1d4f70
+source-git-commit: e4274194026c3370b52be17171776847374a86b5
 workflow-type: tm+mt
 source-wordcount: '2052'
 ht-degree: 99%
@@ -115,7 +115,6 @@ Pour gérer efficacement les sections répétables dans le conteneur du panneau,
 ### Onglet Contenu de l’aide {#help-content}
 
 ![Onglet Contenu d’aide](/help/adaptive-forms/assets/helpcontent-panel.png)
-
 
 - **Description courte** : Une description courte est une brève explication textuelle qui fournit des informations supplémentaires ou une clarification sur l’objectif d’un champ de formulaire spécifique. Il permet à l’utilisateur ou l’utilisatrice de comprendre le type de données à saisir dans le champ et peut fournir des conseils ou des exemples pour s’assurer que les informations saisies sont valides et répondent aux critères souhaités. Par défaut, les descriptions courtes restent masquées. Activez l’option **Toujours afficher une description courte** pour l’afficher sous le composant.
 

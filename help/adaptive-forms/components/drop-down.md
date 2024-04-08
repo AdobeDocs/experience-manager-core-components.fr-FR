@@ -3,7 +3,7 @@ title: Composant principal des formulaires adaptatifs - Liste déroulante
 description: Utilisation ou personnalisation du composant principal « Liste déroulante » des formulaires adaptatifs.
 role: Architect, Developer, Admin, User
 exl-id: 9d59d0d2-d38f-4ed5-8b43-984c45f26f27
-source-git-commit: f1fce5f661bc7581f7c6c6905f34e9954d1d4f70
+source-git-commit: e4274194026c3370b52be17171776847374a86b5
 workflow-type: tm+mt
 source-wordcount: '2011'
 ht-degree: 98%
@@ -78,7 +78,6 @@ Vous pouvez facilement personnaliser l’expérience des visiteurs et des visite
 - **Masquer le titre** - Sélectionnez cette option pour masquer le titre du composant.
 
 - **Autoriser la sélection multiple** - Sélectionnez cette option pour sélectionner plusieurs options dans une liste déroulante.
-
 - **Enregistrer la valeur sous** - Cette option spécifie le type de données de la valeur envoyée lorsqu’une option est sélectionnée. Si **Enregistrer la valeur sous** est défini sur `Number` et que vous ajoutez des données de chaîne à **Valeur des données** dans l’onglet **Options**, l’écran affiche un message d’erreur `Value type mismatch`.
 
   Dans l’onglet **Options**, vous pouvez ajouter des valeurs de données et afficher des paires de texte à l’aide du bouton **Ajouter**. Une fois qu’une nouvelle option est ajoutée, les actions suivantes sont effectuées :

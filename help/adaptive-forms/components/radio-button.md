@@ -3,7 +3,7 @@ title: Composant principal des formulaires adaptatifs - Bouton radio
 description: Utilisation ou personnalisation du composant principal « Bouton radio » des formulaires adaptatifs.
 role: Architect, Developer, Admin, User
 exl-id: 86b5e9ec-58ac-4cd5-9c7c-4269247ec34f
-source-git-commit: f1fce5f661bc7581f7c6c6905f34e9954d1d4f70
+source-git-commit: e4274194026c3370b52be17171776847374a86b5
 workflow-type: tm+mt
 source-wordcount: '1901'
 ht-degree: 97%
@@ -72,7 +72,6 @@ Vous pouvez facilement personnaliser l’expérience du bouton radio pour les vi
      
      ![Rich text support](/help/adaptive-forms/assets/richtext-support-title.png)-->
 
-
 - **Masquer le titre** - Sélectionnez cette option pour masquer le titre du composant.
 
 - **Options** - Vous pouvez ajouter des valeurs de données et afficher des paires de texte à l’aide de la variable **Ajouter** bouton .
@@ -85,7 +84,6 @@ Vous pouvez facilement personnaliser l’expérience du bouton radio pour les vi
     ![Rich text support for options](/help/adaptive-forms/assets/richtextoptions-support.png)-->
 
   Une fois une nouvelle option ajoutée, les actions suivantes peuvent être effectuées :
-
    - **Valeur des données** - Cette option permet de saisir le contenu à envoyer lorsqu’une option est sélectionnée.
    - **Texte d’affichage** - Cette option permet de saisir le contenu à afficher dans un formulaire adaptatif.
    - **Supprimer** - Appuyez ou cliquez sur supprimer pour supprimer l’option d’un bouton radio.

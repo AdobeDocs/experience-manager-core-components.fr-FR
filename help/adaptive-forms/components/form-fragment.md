@@ -3,7 +3,7 @@ title: Fragment de formulaire adaptatif
 description: Utilisez des fragments de formulaire pour créer des segments de formulaire ou des groupes de champs et les réutiliser dans des formulaires adaptatifs afin d’améliorer l’efficacité et la possibilité de réutilisation.
 role: Architect, Developer, Admin, User
 exl-id: bde4a416-1d6b-4e9e-ac74-70fccef473cb
-source-git-commit: f1fce5f661bc7581f7c6c6905f34e9954d1d4f70
+source-git-commit: e4274194026c3370b52be17171776847374a86b5
 workflow-type: tm+mt
 source-wordcount: '1780'
 ht-degree: 100%
@@ -66,7 +66,6 @@ Vous pouvez facilement personnaliser l’expérience du fragment pour les visite
      ![Rich text support](/help/adaptive-forms/assets/richtext-support-title.png)-->
 
 - **Masquer le titre** - Sélectionnez cette option pour masquer le titre du composant.
-
 - **Associer les données des composants enfants lors de l’envoi du formulaire (encapsuler les données dans l’objet)** : lorsque l’option est sélectionnée, les données de ses composants enfants sont imbriquées dans l’objet JSON du composant parent. Cependant, si l’option n’est pas sélectionnée, les données JSON envoyées ont une structure plate, sans objet pour le composant parent. Par exemple :
 
    - Lorsque cette option est sélectionnée, les données des composants enfants (par exemple, Rue, Ville et Code postal) sont imbriquées dans le composant parent (Adresse) sous la forme d’un objet JSON. Cela crée une structure hiérarchique et les données sont organisées sous le composant parent.
