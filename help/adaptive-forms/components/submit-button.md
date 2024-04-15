@@ -3,7 +3,7 @@ title: Composant principal des formulaires adaptatifs - Bouton Envoyer
 description: Utilisation ou personnalisation du composant principal « Bouton Envoyer » des formulaires adaptifs.
 role: Architect, Developer, Admin, User
 exl-id: e4b8e475-79b9-4c4d-9f11-a125a424d32b
-source-git-commit: 79b99d4f6b5a2b186ff3dbf570a58dc86bf24d4a
+source-git-commit: e843ccf5c030cd4f1015e3290347b5799828537a
 workflow-type: tm+mt
 source-wordcount: '1449'
 ht-degree: 92%
@@ -31,7 +31,6 @@ Les raisons pour lesquelles utiliser un bouton Envoyer dans un formulaire adapta
 - **Expérience utilisateur améliorée** : un bouton Envoyer bien conçu peut améliorer l’expérience de l’utilisateur ou de l’utilisatrice en fournissant des commentaires clairs sur le processus d’envoi du formulaire et en indiquant le moment où le formulaire a bien été envoyé.
 
 - **Validation des données** : le bouton Envoyer peut être utilisé pour déclencher des contrôles de validation des données, en veillant à ce que les données du formulaire soient complètes et précises avant d’être envoyées au serveur.
-
 
 ## Version et compatibilité {#version-and-compatibility}
 

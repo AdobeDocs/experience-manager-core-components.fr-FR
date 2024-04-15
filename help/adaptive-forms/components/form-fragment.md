@@ -3,7 +3,7 @@ title: Fragment de formulaire adaptatif
 description: Utilisez des fragments de formulaire pour créer des segments de formulaire ou des groupes de champs et les réutiliser dans des formulaires adaptatifs afin d’améliorer l’efficacité et la possibilité de réutilisation.
 role: Architect, Developer, Admin, User
 exl-id: bde4a416-1d6b-4e9e-ac74-70fccef473cb
-source-git-commit: 79b99d4f6b5a2b186ff3dbf570a58dc86bf24d4a
+source-git-commit: e843ccf5c030cd4f1015e3290347b5799828537a
 workflow-type: tm+mt
 source-wordcount: '1894'
 ht-degree: 93%
@@ -152,6 +152,7 @@ Les propriétés personnalisées vous permettent d’associer des attributs pers
    - **Supprimer** : appuyez ou cliquez pour supprimer le nom et la valeur des propriétés personnalisées.
 
    - **Réorganiser** : appuyez ou cliquez et faites glisser pour réorganiser le nom et la valeur des propriétés personnalisées.
+
 
 ## Articles connexes {#related-articles}
 

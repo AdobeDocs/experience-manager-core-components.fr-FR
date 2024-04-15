@@ -3,7 +3,7 @@ title: Composant principal des formulaires adaptatifs - Entrée de texte (zone d
 description: Utilisation ou personnalisation du composant principal « Entrée de texte » des formulaires adaptatifs.
 role: Architect, Developer, Admin, User
 exl-id: 49d9fe69-0578-4489-beaa-a18cdb14add7
-source-git-commit: 79b99d4f6b5a2b186ff3dbf570a58dc86bf24d4a
+source-git-commit: e843ccf5c030cd4f1015e3290347b5799828537a
 workflow-type: tm+mt
 source-wordcount: '2063'
 ht-degree: 93%
@@ -15,7 +15,6 @@ ht-degree: 93%
 <span class="preview"> Cet article contient du contenu sur la variable **Autoriser le texte enrichi pour le titre** fonctionnalité , une fonctionnalité de version préliminaire. La fonctionnalité de version préliminaire n’est accessible que par le biais de notre [canal de version préliminaire](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/release-notes/prerelease.html#new-features).</span>
 
 Un composant d’entrée de texte (zone de texte) permet à l’utilisateur ou à l’utilisatrice de saisir et de modifier une ou plusieurs lignes de texte, selon l’attribut type de l’élément d’entrée. Le composant « Entrée de texte » peut être placé dans un formulaire et est généralement étiqueté avec un texte utile qui identifie facilement son objectif. C’est un élément fondamental de tout formulaire, largement utilisé pour collecter différents types de données auprès des utilisateurs et des utilisatrices. Ces éléments sont simples, flexibles, et peuvent être configurés pour valider les entrées et améliorer la précision de la collecte de données.
-
 
 **Exemple**
 

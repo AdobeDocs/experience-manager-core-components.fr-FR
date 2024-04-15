@@ -3,10 +3,10 @@ title: Composant principal des formulaires adaptatifs - Titre
 description: Utilisation ou personnalisation du composant principal « Titre » dans les formulaires adaptatifs.
 role: Architect, Developer, Admin, User
 exl-id: 33eac885-8d66-4a5c-9a32-0ba11e6de293
-source-git-commit: e4274194026c3370b52be17171776847374a86b5
+source-git-commit: e843ccf5c030cd4f1015e3290347b5799828537a
 workflow-type: tm+mt
-source-wordcount: '861'
-ht-degree: 100%
+source-wordcount: '863'
+ht-degree: 99%
 
 ---
 
@@ -16,7 +16,7 @@ Dans un formulaire adaptatif, un « titre » fait référence au texte qui s�
 
 **Exemple**
 
-![exemple](/help/adaptive-forms/assets/title.png)
+![exemple de titre](/help/adaptive-forms/assets/title.png)
 
 ## Utilisation {#reasons-to-use-title-in-an-adaptive-form}
 

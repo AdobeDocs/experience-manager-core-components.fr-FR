@@ -3,10 +3,10 @@ title: Composant principal des formulaires adaptatifs - Groupe de cases à coche
 description: Utilisation ou personnalisation du composant principal « Groupe de cases à cocher » des formulaires adaptatifs.
 role: Architect, Developer, Admin, User
 exl-id: 2ced0223-e664-470b-a400-b6865d3a67c9
-source-git-commit: 79b99d4f6b5a2b186ff3dbf570a58dc86bf24d4a
+source-git-commit: e843ccf5c030cd4f1015e3290347b5799828537a
 workflow-type: tm+mt
 source-wordcount: '2047'
-ht-degree: 90%
+ht-degree: 88%
 
 ---
 
@@ -15,7 +15,6 @@ ht-degree: 90%
 <span class="preview"> Cet article contient du contenu sur la variable **Autoriser le texte enrichi pour le titre** et **Autoriser le texte enrichi pour les options**  fonctions, fonctions de préversion. La fonctionnalité de version préliminaire n’est accessible que par le biais de notre [canal de version préliminaire](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/release-notes/prerelease.html#new-features).</span>
 
 Un groupe de cases à cocher dans un formulaire adaptatif est un ensemble de cases à cocher associées qui permettent aux utilisateurs et aux utilisatrices de sélectionner une ou plusieurs options d’une liste. Chaque case à cocher est représentée par une valeur de données (valeur utilisée pour traiter les éléments d’un groupe de cases à cocher) et une valeur d’affichage (libellé pour chaque élément de case à cocher qui décrit son objectif).
-
 **Exemple**
 
 ![exemple de groupe de cases à cocher](/help/adaptive-forms/assets/checkbox-group.png)

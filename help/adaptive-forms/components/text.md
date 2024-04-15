@@ -3,10 +3,10 @@ title: Composant principal des formulaires adaptatifs - Texte
 description: Utilisation ou personnalisation du composant principal Texte dans les formulaires adaptatifs.
 role: Architect, Developer, Admin, User
 exl-id: b8de68e4-ca0d-4ae5-9a04-104cc617f1be
-source-git-commit: e4274194026c3370b52be17171776847374a86b5
+source-git-commit: e843ccf5c030cd4f1015e3290347b5799828537a
 workflow-type: tm+mt
-source-wordcount: '993'
-ht-degree: 100%
+source-wordcount: '995'
+ht-degree: 99%
 
 ---
 
@@ -18,7 +18,7 @@ Vous pouvez également diviser la structure d’un formulaire en sections logiqu
 
 **Exemple**
 
-![exemple](/help/adaptive-forms/assets/text.png)
+![exemple de texte](/help/adaptive-forms/assets/text.png)
 
 ## Utilisation {#reasons-to-use-text-label}
 

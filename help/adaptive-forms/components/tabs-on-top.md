@@ -2,21 +2,20 @@
 title: Composant principal des formulaires adaptatifs - Onglets visibles
 description: Utilisez ou personnalisez le composant principal Onglets visibles des formulaires adaptatifs.
 role: Architect, Developer, Admin, User
-source-git-commit: e4274194026c3370b52be17171776847374a86b5
+source-git-commit: e843ccf5c030cd4f1015e3290347b5799828537a
 workflow-type: tm+mt
-source-wordcount: '467'
-ht-degree: 100%
+source-wordcount: '470'
+ht-degree: 93%
 
 ---
 
 
 # Onglets visibles {#tabs-on-top-adaptive-forms-core-component}
 
-Une disposition à onglets visibles dans un formulaire adaptatif permet d’organiser et de regrouper les champs et sections associés d’un formulaire dans des onglets distincts. Chaque onglet est représenté par un libellé d’onglet, est généralement situé en haut du formulaire et contient un ensemble spécifique de champs et de sections de formulaire. Cette disposition permet aux utilisateurs et utilisatrices de parcourir et d’accéder facilement aux différentes sections du formulaire, pour une meilleure convivialité et plus de clarté. Elle revêt tout son intérêt lorsque le formulaire contient de nombreux champs et sections et qu’il est nécessaire de les diviser en parties plus petites et plus faciles à gérer. Les onglets peuvent également contribuer à améliorer l’accessibilité en permettant aux utilisateurs et aux utilisatrices de parcourir le formulaire à l’aide de raccourcis clavier. L’accès au formulaire est ainsi plus facile pour les personnes en situation de handicap.
-
+Une disposition à onglets visibles dans un formulaire adaptatif permet d’organiser et de regrouper les champs et sections associés d’un formulaire dans des onglets distincts. Chaque onglet est représenté par un libellé d’onglet, est généralement situé en haut du formulaire et contient un ensemble spécifique de champs et de sections de formulaire. Cette disposition permet aux utilisateurs et utilisatrices de parcourir et d’accéder facilement aux différentes sections du formulaire, pour une meilleure convivialité et plus de clarté. Elle revêt tout son intérêt lorsque le formulaire contient de nombreux champs et sections et qu’il est nécessaire de les diviser en parties plus petites et plus faciles à gérer. Les onglets peuvent également contribuer à améliorer l’accessibilité en permettant aux utilisateurs de parcourir le formulaire à l’aide de raccourcis clavier, ce qui facilite l’accès au formulaire pour les utilisateurs présentant un handicap.
 **Exemple**
 
-![](/help/adaptive-forms/assets/tabs.png)
+![onglets en haut](/help/adaptive-forms/assets/tabs.png)
 
 ## Utilisation {#reasons-to-use-tab-on-the-top-layout}
 

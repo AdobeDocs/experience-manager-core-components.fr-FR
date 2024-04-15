@@ -3,7 +3,7 @@ title: Composant principal des formulaires adaptatifs - Entrée de nombre
 description: Utilisation ou personnalisation du composant principal « Entrée de nombre » dans les formulaires adaptatifs.
 role: Architect, Developer, Admin, User
 exl-id: 75604ecf-1ec5-4e97-b934-d6ed49726147
-source-git-commit: 79b99d4f6b5a2b186ff3dbf570a58dc86bf24d4a
+source-git-commit: e843ccf5c030cd4f1015e3290347b5799828537a
 workflow-type: tm+mt
 source-wordcount: '2103'
 ht-degree: 94%
@@ -35,7 +35,6 @@ Il existe plusieurs raisons d’inclure un composant « Entrée de nombre » d
 - **Plage de données** : les champs numériques peuvent être utilisés pour définir une plage de valeurs valides à l’aide des attributs min, max et étape.
 
 - **Contenu dynamique** : un composant numérique peut être utilisé pour afficher des données dynamiques en fonction des champs du formulaire.
-
 
 ## Version et compatibilité {#version-and-compatibility}
 
