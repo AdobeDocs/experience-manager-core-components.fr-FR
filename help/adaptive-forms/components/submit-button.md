@@ -3,14 +3,16 @@ title: Composant principal des formulaires adaptatifs - Bouton Envoyer
 description: Utilisation ou personnalisation du composant principal « Bouton Envoyer » des formulaires adaptifs.
 role: Architect, Developer, Admin, User
 exl-id: e4b8e475-79b9-4c4d-9f11-a125a424d32b
-source-git-commit: e4274194026c3370b52be17171776847374a86b5
+source-git-commit: 79b99d4f6b5a2b186ff3dbf570a58dc86bf24d4a
 workflow-type: tm+mt
-source-wordcount: '1335'
-ht-degree: 100%
+source-wordcount: '1449'
+ht-degree: 92%
 
 ---
 
 # Bouton Envoyer {#submit-button}
+
+<span class="preview"> Cet article contient du contenu sur la variable **Autoriser le texte enrichi pour le titre** fonctionnalité , une fonctionnalité de version préliminaire. La fonctionnalité de version préliminaire n’est accessible que par le biais de notre [canal de version préliminaire](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/release-notes/prerelease.html#new-features).</span>
 
 Un bouton Envoyer dans un formulaire adaptatif est un bouton qui permet aux utilisateurs et aux utilisatrices d’envoyer les données de formulaire à un serveur pour traitement. Lorsque l’utilisateur ou l’utilisatrice clique sur le bouton Envoyer, les données de formulaire sont envoyées au serveur, où elles peuvent être stockées, traitées ou utilisées à diverses fins, comme l’envoi d’un e-mail ou la mise à jour d’une base de données.
 
@@ -60,10 +62,10 @@ Vous pouvez facilement personnaliser l’expérience du bouton Envoyer pour les 
 - **Nom** - Vous pouvez identifier facilement un composant de formulaire avec son nom unique aussi bien dans le formulaire et dans l’éditeur de règles, mais le nom ne doit pas contenir d’espaces ni de caractères spéciaux.
 
 - **Titre** - Avec son titre, vous pouvez facilement identifier un composant dans un formulaire. Par défaut, le titre s’affiche au-dessus du composant. Si vous n’ajoutez pas de titre, le nom du composant s’affiche à la place du texte du titre.
-<!-- **Allow Rich Text for Title** - This features enables users to format plain text titles, incorporating features like bold, italic, underlined text, various fonts, font sizes, colors, and additional option to enhance visual presentation and customization. It offers greater flexibility and creative control in making titles stand out within documents, websites, or applications.  
-    Upon selecting the checkbox for **Allow Rich Text for Title** , formatting options become visible to style the component's title. To access all available formatting options, you can click on the ![Fullscreen icon](/help/adaptive-forms/assets/fullscreen-icon.png) tab.
-     
-     ![Rich text support](/help/adaptive-forms/assets/richtext-support-title.png)-->
+- **Autoriser le texte enrichi pour le titre** - Cette fonctionnalité permet aux utilisateurs de mettre en forme les titres en texte brut en y incorporant des fonctionnalités telles que le gras, l’italique, le texte souligné, diverses polices, la taille des polices, les couleurs et d’autres options pour améliorer la présentation visuelle et la personnalisation. Il offre une plus grande flexibilité et un contrôle créatif pour faire ressortir les titres dans les documents, sites web ou applications.\
+  Lorsque vous cochez la case pour **Autoriser le texte enrichi pour le titre** , les options de mise en forme deviennent visibles pour appliquer un style au titre du composant. Pour accéder à toutes les options de formatage disponibles, vous pouvez cliquer sur le ![Icône Plein écran](/help/adaptive-forms/assets/fullscreen-icon.png) .
+
+  ![Prise en charge du texte enrichi](/help/adaptive-forms/assets/richtext-support-title.png)
 
 - **Référence Bind** - Une référence Bind est une référence à un élément de données stockée dans une source de données externe et utilisée dans un formulaire. La référence de liaison vous permet de lier dynamiquement les données aux champs du formulaire, de sorte que le formulaire puisse afficher les données les plus récentes de la source de données. Par exemple, une référence de liaison peut être utilisée pour afficher le nom et l’adresse d’un client ou d’une cliente dans un formulaire, en fonction de l’identifiant du client ou de la cliente saisi dans le formulaire. La référence de liaison peut également être utilisée pour mettre à jour la source de données avec les données saisies dans le formulaire. Ainsi, AEM Forms vous permet de créer des formulaires qui interagissent avec des sources de données externes, offrant ainsi une expérience utilisateur fluide pour la collecte et la gestion des données.
 - **Marquer comme élément de formulaire non lié** : sélectionnez cette option pour configurer un champ de formulaire qui n’est lié à aucun schéma. Cette option vous permet d’enregistrer des données sans mettre à jour la source de données. Elle vous permet également de gérer les données de manière personnalisée, en les séparant de l’intégration de base de données standard.

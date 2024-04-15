@@ -3,14 +3,16 @@ title: Formulaire adaptatif - Accordéon
 description: Utilisez l’accordéon pour organiser et simplifier un formulaire long ou complexe en le divisant en sections plus petites et plus faciles à gérer.
 role: Architect, Developer, Admin, User
 exl-id: 0ed38eee-fc22-4708-82eb-3fb1839b1ff2
-source-git-commit: e4274194026c3370b52be17171776847374a86b5
+source-git-commit: 79b99d4f6b5a2b186ff3dbf570a58dc86bf24d4a
 workflow-type: tm+mt
-source-wordcount: '2149'
-ht-degree: 100%
+source-wordcount: '2263'
+ht-degree: 94%
 
 ---
 
 # Composant Accordéon {#accordion-component-adaptive-forms-core-component}
+
+<span class="preview"> Cet article contient du contenu sur la variable **Autoriser le texte enrichi pour le titre** fonctionnalité , une fonctionnalité de version préliminaire. La fonctionnalité de version préliminaire n’est accessible que par le biais de notre [canal de version préliminaire](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/release-notes/prerelease.html#new-features).</span>
 
 Le composant principal « Accordéon » permet aux utilisateurs et aux utilisatrices de créer des sections extensibles et réductibles dans un formulaire adaptatif. Il est souvent utilisé pour organiser et simplifier des formulaires longs ou complexes en les divisant en sections plus petites et plus faciles à gérer. Chaque section d’un accordéon est généralement représentée par un en-tête sur lequel l’utilisateur ou l’utilisatrice peut cliquer pour développer ou réduire le contenu correspondant. Le contenu peut être n’importe quel composant principal.
 
@@ -71,11 +73,10 @@ Vous pouvez facilement personnaliser l’expérience d’accordéon pour les vis
 
 - **Titre** - Avec son titre, vous pouvez facilement identifier un composant dans un formulaire. Par défaut, le titre s’affiche au-dessus du composant. Si vous n’ajoutez pas de titre, le nom du composant s’affiche à la place du texte du titre.
 
-<!--
-- **Allow Rich Text for Title** - This features enables users to format plain text titles, incorporating features like bold, italic, underlined text, various fonts, font sizes, colors, and additional option to enhance visual presentation and customization. It offers greater flexibility and creative control in making titles stand out within documents, websites, or applications.  
-      Upon selecting the checkbox for **Allow Rich Text for Title** , formatting options become visible to style the component's title. To access all available formatting options, you can click on the ![Fullscreen icon](/help/adaptive-forms/assets/fullscreen-icon.png) tab.
-     
-     ![Rich text support](/help/adaptive-forms/assets/richtext-support-title.png) -->
+- **Autoriser le texte enrichi pour le titre** - Cette fonctionnalité permet aux utilisateurs de mettre en forme les titres en texte brut en y incorporant des fonctionnalités telles que le gras, l’italique, le texte souligné, diverses polices, la taille des polices, les couleurs et d’autres options pour améliorer la présentation visuelle et la personnalisation. Il offre une plus grande flexibilité et un contrôle créatif pour faire ressortir les titres dans les documents, sites web ou applications.\
+  Lorsque vous cochez la case pour **Autoriser le texte enrichi pour le titre** , les options de mise en forme deviennent visibles pour appliquer un style au titre du composant. Pour accéder à toutes les options de formatage disponibles, vous pouvez cliquer sur le ![Icône Plein écran](/help/adaptive-forms/assets/fullscreen-icon.png) .
+
+  ![Prise en charge du texte enrichi](/help/adaptive-forms/assets/richtext-support-title.png)
 
 - **Masquer le titre** - Sélectionnez cette option pour masquer le titre du composant.
 - **Associer les données des composants enfants lors de l’envoi du formulaire (encapsuler les données dans l’objet)** : lorsque l’option est sélectionnée, les données de ses composants enfants sont imbriquées dans l’objet JSON du composant parent. Cependant, si l’option n’est pas sélectionnée, les données JSON envoyées ont une structure plate, sans objet pour le composant parent. Par exemple :

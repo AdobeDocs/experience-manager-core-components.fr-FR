@@ -3,14 +3,16 @@ title: Composant principal des formulaires adaptatifs - Bouton radio
 description: Utilisation ou personnalisation du composant principal « Bouton radio » des formulaires adaptatifs.
 role: Architect, Developer, Admin, User
 exl-id: 86b5e9ec-58ac-4cd5-9c7c-4269247ec34f
-source-git-commit: e4274194026c3370b52be17171776847374a86b5
+source-git-commit: 79b99d4f6b5a2b186ff3dbf570a58dc86bf24d4a
 workflow-type: tm+mt
-source-wordcount: '1901'
-ht-degree: 97%
+source-wordcount: '2079'
+ht-degree: 88%
 
 ---
 
 # Bouton Radio {#radio-button-adaptive-forms-core-component}
+
+<span class="preview"> Cet article contient du contenu sur la variable **Autoriser le texte enrichi pour le titre** et **Autoriser le texte enrichi pour les options**  fonctions, fonctions de préversion. La fonctionnalité de version préliminaire n’est accessible que par le biais de notre [canal de version préliminaire](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/release-notes/prerelease.html#new-features).</span>
 
 Un bouton radio dans un formulaire adaptatif est un type d’élément d’entrée qui permet à un utilisateur ou une utilisatrice de sélectionner une option dans un groupe d’options associées. Il est représenté par un petit bouton circulaire rempli ou vide pour indiquer si l’option est sélectionnée ou non. Lorsqu’un utilisateur ou une utilisatrice sélectionne un bouton radio, les autres boutons du groupe sont désélectionnés. Les boutons radio sont généralement utilisés lorsqu’il existe plusieurs options s’excluant mutuellement et qu’une seule option peut être sélectionnée à la fois.
 
@@ -67,27 +69,26 @@ Vous pouvez facilement personnaliser l’expérience du bouton radio pour les vi
 - **Nom** - Vous pouvez identifier facilement un composant de formulaire en lui attribuant un nom unique dans le formulaire et dans l’éditeur de règles, mais le nom ne doit pas contenir d’espaces ni de caractères spéciaux.
 
 - **Titre** - Avec son titre, vous pouvez facilement identifier un composant dans un formulaire. Par défaut, le titre s’affiche au-dessus du composant. Si vous n’ajoutez pas de titre, le nom du composant s’affiche à la place du texte du titre.
-<!-- **Allow Rich Text for Title** - This features enables users to format plain text titles, incorporating features like bold, italic, underlined text, various fonts, font sizes, colors, and additional option to enhance visual presentation and customization. It offers greater flexibility and creative control in making titles stand out within documents, websites, or applications.    
-    Upon selecting the checkbox for **Allow Rich Text for Title** , formatting options become visible to style the component's title. To access all available formatting options, you can click on the ![Fullscreen icon](/help/adaptive-forms/assets/fullscreen-icon.png) tab.
-     
-     ![Rich text support](/help/adaptive-forms/assets/richtext-support-title.png)-->
+- **Autoriser le texte enrichi pour le titre** - Cette fonctionnalité permet aux utilisateurs de mettre en forme les titres en texte brut en y incorporant des fonctionnalités telles que le gras, l’italique, le texte souligné, diverses polices, la taille des polices, les couleurs et d’autres options pour améliorer la présentation visuelle et la personnalisation. Il offre une plus grande flexibilité et un contrôle créatif pour faire ressortir les titres dans les documents, sites web ou applications.\
+  Lorsque vous cochez la case pour **Autoriser le texte enrichi pour le titre** , les options de mise en forme deviennent visibles pour appliquer un style au titre du composant. Pour accéder à toutes les options de formatage disponibles, vous pouvez cliquer sur le ![Icône Plein écran](/help/adaptive-forms/assets/fullscreen-icon.png) .
+
+  ![Prise en charge du texte enrichi](/help/adaptive-forms/assets/richtext-support-title.png)
 
 - **Masquer le titre** - Sélectionnez cette option pour masquer le titre du composant.
 
-- **Options** - Vous pouvez ajouter des valeurs de données et afficher des paires de texte à l’aide de la variable **Ajouter** bouton .
-  <!-- You can also format the options for radiobutton group using **Allow Rich Text for Options**. 
-  
-     ![Rich text support for options](/help/adaptive-forms/assets/richtext-for-options.png)-->
-
-  <!-- Once you select the checkbox for **Allow Rich Text for Options** formatting options become visible to style the component's options. To access all available formatting options, you can click on the `Fullscreen` ![Fullscreen icon](/help/adaptive-forms/assets/fullscreen-icon.png) tab.
-    
-    ![Rich text support for options](/help/adaptive-forms/assets/richtextoptions-support.png)-->
-
+- **Options** - Vous pouvez ajouter des valeurs de données et afficher des paires de texte à l’aide de la variable **Ajouter** bouton .\
   Une fois une nouvelle option ajoutée, les actions suivantes peuvent être effectuées :
    - **Valeur des données** - Cette option permet de saisir le contenu à envoyer lorsqu’une option est sélectionnée.
    - **Texte d’affichage** - Cette option permet de saisir le contenu à afficher dans un formulaire adaptatif.
    - **Supprimer** - Appuyez ou cliquez sur supprimer pour supprimer l’option d’un bouton radio.
-   - **Réorganiser** - Appuyez ou cliquez et faites glisser pour réorganiser l’ordre des options.
+   - **Réorganiser** - Appuyez ou cliquez dessus et faites glisser pour réorganiser l’ordre des options.
+Vous pouvez également mettre en forme les options du groupe radiobutton à l’aide de **Autoriser le texte enrichi pour les options**.
+
+  ![Prise en charge du texte enrichi pour les options](/help/adaptive-forms/assets/richtext-for-options.png)
+
+  Une fois que vous avez coché la case pour **Autoriser le texte enrichi pour les options** les options de formatage deviennent visibles pour appliquer un style aux options du composant. Pour accéder à toutes les options de formatage disponibles, vous pouvez cliquer sur le `Fullscreen` ![Icône Plein écran](/help/adaptive-forms/assets/fullscreen-icon.png) .
+
+  ![Prise en charge du texte enrichi pour les options](/help/adaptive-forms/assets/richtextoptions-support.png)
 
 - **Référence Bind** - Une référence Bind est une référence à un élément de données stockée dans une source de données externe et utilisée dans un formulaire. La référence de liaison vous permet de lier dynamiquement les données aux champs du formulaire, de sorte que le formulaire puisse afficher les données les plus récentes de la source de données. Par exemple, une référence de liaison peut être utilisée pour afficher le nom et l’adresse d’un client ou d’une cliente dans un formulaire, en fonction de l’identifiant du client ou de la cliente saisi dans le formulaire. La référence de liaison peut également être utilisée pour mettre à jour la source de données avec les données saisies dans le formulaire. Ainsi, AEM Forms vous permet de créer des formulaires qui interagissent avec des sources de données externes, offrant ainsi une expérience utilisateur fluide pour la collecte et la gestion des données.
 

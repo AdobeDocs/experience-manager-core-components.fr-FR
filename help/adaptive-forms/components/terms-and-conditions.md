@@ -3,14 +3,16 @@ title: Composant principal des formulaires adaptatifs – Conditions générales
 description: Utilisation ou personnalisation du composant principal Conditions générales des formulaires adaptatifs.
 role: Architect, Developer, Admin, User
 exl-id: c607d554-ad2d-4434-856d-91e174ef3149
-source-git-commit: e4274194026c3370b52be17171776847374a86b5
+source-git-commit: 79b99d4f6b5a2b186ff3dbf570a58dc86bf24d4a
 workflow-type: tm+mt
-source-wordcount: '2862'
-ht-degree: 98%
+source-wordcount: '3115'
+ht-degree: 90%
 
 ---
 
 # Composant Conditions générales
+
+<span class="preview"> Cet article contient du contenu sur la variable **Autoriser le texte enrichi pour le titre** et **Autoriser le texte enrichi pour les options**  fonctions, fonctions de préversion. La fonctionnalité de version préliminaire n’est accessible que par le biais de notre [canal de version préliminaire](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/release-notes/prerelease.html#new-features).</span>
 
 Un composant **Conditions générales** fait référence à une section d’un formulaire qui décrit les termes, règles et conditions que les personnes doivent accepter ou respecter lors de l’utilisation d’un service ou de l’accès à un contenu.
 
@@ -63,10 +65,10 @@ Vous pouvez facilement personnaliser l’expérience du composant Conditions gé
 - **Nom** - Le nom identifie de manière unique le composant dans l’éditeur de règles. Les caractères spéciaux et les espaces ne sont pas autorisés dans les chaînes de nom.
 
 - **Titre** - Avec son titre, vous pouvez facilement identifier un composant dans un formulaire. Par défaut, le titre s’affiche au-dessus du composant. Si vous n’ajoutez pas de titre, le nom du composant s’affiche à la place du texte du titre.
-<!-- **Allow Rich Text for Title** - This features enables users to format plain text titles, incorporating features like bold, italic, underlined text, various fonts, font sizes, colors, and additional option to enhance visual presentation and customization. It offers greater flexibility and creative control in making titles stand out within documents, websites, or applications.  
-    Upon selecting the checkbox for **Allow Rich Text for Title** , formatting options become visible to style the component's title. To access all available formatting options, you can click on the ![Fullscreen icon](/help/adaptive-forms/assets/fullscreen-icon.png) tab.
-     
-     ![Rich text support](/help/adaptive-forms/assets/richtext-support-title.png) -->
+- **Autoriser le texte enrichi pour le titre** - Cette fonctionnalité permet aux utilisateurs de mettre en forme les titres en texte brut en y incorporant des fonctionnalités telles que le gras, l’italique, le texte souligné, diverses polices, la taille des polices, les couleurs et d’autres options pour améliorer la présentation visuelle et la personnalisation. Il offre une plus grande flexibilité et un contrôle créatif pour faire ressortir les titres dans les documents, sites web ou applications.\
+  Lorsque vous cochez la case pour **Autoriser le texte enrichi pour le titre** , les options de mise en forme deviennent visibles pour appliquer un style au titre du composant. Pour accéder à toutes les options de formatage disponibles, vous pouvez cliquer sur le ![Icône Plein écran](/help/adaptive-forms/assets/fullscreen-icon.png) .
+
+  ![Prise en charge du texte enrichi](/help/adaptive-forms/assets/richtext-support-title.png)
 
 - **Option Afficher l’approbation** – Sélectionnez cette option pour afficher la case à cocher du consentement utilisée pour obtenir le consentement explicite de la personne.
 
@@ -169,10 +171,10 @@ Ce composant remplace un texte de consentement par un ou plusieurs liens web. Il
 - **Nom** - Le nom identifie de manière unique le composant dans l’éditeur de règles. Les caractères spéciaux et les espaces ne sont pas autorisés dans les chaînes de nom.
 
 - **Titre** - Avec son titre, vous pouvez facilement identifier un composant dans un formulaire. Par défaut, le titre s’affiche au-dessus du composant. Si vous n’ajoutez pas de titre, le nom du composant s’affiche à la place du texte du titre.
-<!-- **Allow Rich Text for Title** - This feature enables users to format titles using options like bold, italic, font styles, colors, and alignment, enhancing visual presentation and customization. It offers greater flexibility and creative control in making titles stand out within documents, websites, or applications.  
-    Upon selecting the checkbox for **Allow Rich Text for Title** , formatting options become visible to style the component's title. To access all available formatting options, you can click on the ![Fullscreen icon](/help/adaptive-forms/assets/fullscreen-icon.png) tab.
-     
-     ![Rich text support](/help/adaptive-forms/assets/richtext-support-title.png)-->
+- **Autoriser le texte enrichi pour le titre** - Cette fonctionnalité permet aux utilisateurs de mettre en forme les titres à l’aide d’options telles que le gras, l’italique, les styles de police, les couleurs et l’alignement, ce qui améliore la présentation visuelle et la personnalisation. Il offre une plus grande flexibilité et un contrôle créatif pour faire ressortir les titres dans les documents, sites web ou applications.\
+  Lorsque vous cochez la case pour **Autoriser le texte enrichi pour le titre** , les options de mise en forme deviennent visibles pour appliquer un style au titre du composant. Pour accéder à toutes les options de formatage disponibles, vous pouvez cliquer sur le ![Icône Plein écran](/help/adaptive-forms/assets/fullscreen-icon.png) .
+
+  ![Prise en charge du texte enrichi](/help/adaptive-forms/assets/richtext-support-title.png)
 
 - **Masquer le titre** - Sélectionnez cette option pour masquer le titre du composant.
 
@@ -183,9 +185,9 @@ Une fois une nouvelle option ajoutée, les actions suivantes peuvent être effec
    - **Supprimer** - Appuyez ou cliquez sur supprimer pour supprimer l’option d’un bouton radio.
    - **Réorganiser** - Appuyez ou cliquez et faites glisser pour réorganiser l’ordre des options.
 
-<!-- You can also format the options for checkbox group using **Allow Rich Text for Options**. Once you select the checkbox for **Allow Rich Text for Options** formatting options become visible to style the component's options. To access all available formatting options, you can click on the `Fullscreen` ![Fullscreen icon](/help/adaptive-forms/assets/fullscreen-icon.png) tab.
-    
-    ![Rich text support for options](/help/adaptive-forms/assets/link-options.png)-->
+  Vous pouvez également mettre en forme les options d’un groupe de cases à cocher à l’aide de **Autoriser le texte enrichi pour les options**. Une fois que vous avez coché la case pour **Autoriser le texte enrichi pour les options** les options de formatage deviennent visibles pour appliquer un style aux options du composant. Pour accéder à toutes les options de formatage disponibles, vous pouvez cliquer sur le `Fullscreen` ![Icône Plein écran](/help/adaptive-forms/assets/fullscreen-icon.png) .
+
+  ![Prise en charge du texte enrichi pour les options](/help/adaptive-forms/assets/link-options.png)
 
 - **Référence Bind** - Une référence Bind est une référence à un élément de données stockée dans une source de données externe et utilisée dans un formulaire. La référence de liaison vous permet de lier dynamiquement les données aux champs du formulaire, de sorte que le formulaire puisse afficher les données les plus récentes de la source de données. Par exemple, une référence de liaison peut être utilisée pour afficher le nom et l’adresse d’un client ou d’une cliente dans un formulaire, en fonction de l’identifiant du client ou de la cliente saisi dans le formulaire. La référence de liaison peut également être utilisée pour mettre à jour la source de données avec les données saisies dans le formulaire. Ainsi, AEM Forms vous permet de créer des formulaires qui interagissent avec des sources de données externes, offrant ainsi une expérience utilisateur fluide pour la collecte et la gestion des données.
 

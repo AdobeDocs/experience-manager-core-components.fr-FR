@@ -3,14 +3,16 @@ title: Composant principal des formulaires adaptatifs - Pièce jointe
 description: Utilisation ou personnalisation du composant principal « Pièce jointe » des formulaires adaptatifs.
 role: Architect, Developer, Admin, User
 exl-id: 64a54fc6-db52-481f-bf5a-60c05122004d
-source-git-commit: e4274194026c3370b52be17171776847374a86b5
+source-git-commit: 79b99d4f6b5a2b186ff3dbf570a58dc86bf24d4a
 workflow-type: tm+mt
-source-wordcount: '1726'
-ht-degree: 97%
+source-wordcount: '1851'
+ht-degree: 90%
 
 ---
 
 # Pièce jointe {#file-attachment-adaptive-forms-core-component}
+
+<span class="preview"> Cet article contient du contenu sur la variable **Autoriser le texte enrichi pour le titre** fonctionnalité , une fonctionnalité de version préliminaire. La fonctionnalité de version préliminaire n’est accessible que par le biais de notre [canal de version préliminaire](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/release-notes/prerelease.html#new-features).</span>
 
 Un composant « Pièce jointe » dans un formulaire adaptatif permet aux utilisateurs et aux utilisatrices de sélectionner et de charger des fichiers à partir de leur ordinateur ou appareil local. Le composant « Pièce jointe » peut être configuré pour accepter des types de fichiers spécifiques, plusieurs pièces jointes, et définir des limites de taille.
 
@@ -62,10 +64,10 @@ Vous pouvez facilement personnaliser l’expérience de pièce jointe pour les v
 - **Nom** - Vous pouvez identifier facilement un composant de formulaire en lui attribuant un nom unique dans le formulaire et dans l’éditeur de règles, mais le nom ne doit pas contenir d’espaces ni de caractères spéciaux.
 
 - **Titre** - Avec son titre, vous pouvez facilement identifier un composant dans un formulaire. Par défaut, le titre s’affiche au-dessus du composant. Si vous n’ajoutez pas de titre, le nom du composant s’affiche à la place du texte du titre.
-<!-- **Allow Rich Text for Title** - This features enables users to format plain text titles, incorporating features like bold, italic, underlined text, various fonts, font sizes, colors, and additional option to enhance visual presentation and customization. It offers greater flexibility and creative control in making titles stand out within documents, websites, or applications.  
-    Upon selecting the checkbox for **Allow Rich Text for Title** , formatting options become visible to style the component's title. To access all available formatting options, you can click on the ![Fullscreen icon](/help/adaptive-forms/assets/fullscreen-icon.png) tab.
-     
-     ![Rich text support](/help/adaptive-forms/assets/richtext-support-title.png)-->
+- **Autoriser le texte enrichi pour le titre** - Cette fonctionnalité permet aux utilisateurs de mettre en forme les titres en texte brut en y incorporant des fonctionnalités telles que le gras, l’italique, le texte souligné, diverses polices, la taille des polices, les couleurs et d’autres options pour améliorer la présentation visuelle et la personnalisation. Il offre une plus grande flexibilité et un contrôle créatif pour faire ressortir les titres dans les documents, sites web ou applications.\
+  Lorsque vous cochez la case pour **Autoriser le texte enrichi pour le titre** , les options de mise en forme deviennent visibles pour appliquer un style au titre du composant. Pour accéder à toutes les options de formatage disponibles, vous pouvez cliquer sur le ![Icône Plein écran](/help/adaptive-forms/assets/fullscreen-icon.png) .
+
+  ![Prise en charge du texte enrichi](/help/adaptive-forms/assets/richtext-support-title.png)
 
 - **Masquer le titre** - Sélectionnez cette option pour masquer le titre du composant.
 
@@ -77,7 +79,7 @@ Vous pouvez facilement personnaliser l’expérience de pièce jointe pour les v
 - **Désactiver le composant** - Sélectionnez cette option pour désactiver le composant. Le composant désactivé n’est pas actif ni modifiable par l’utilisateur final ou l’utilisatrice finale. L’utilisateur ou l’utilisatrice peut voir la valeur du champ mais ne peut pas la modifier. Le composant reste accessible à d’autres fins, par exemple pour les calculs dans l’éditeur de règles.
 - **Lecture seule** - Sélectionnez cette option pour rendre le composant non modifiable. L’utilisateur ou l’utilisatrice peut voir la valeur du champ mais ne peut pas la modifier. Le composant reste accessible à d’autres fins, par exemple pour les calculs dans l’éditeur de règles.
 - **Autoriser plusieurs pièces jointes** - Sélectionnez cette option pour accepter plusieurs pièces jointes à l’aide du bouton **Pièce jointe**.
-- **Faire glisser du texte** - Il s’agit du texte affiché en haut de la page **Joindre** pour inviter les utilisateurs à joindre ou à faire glisser des fichiers. Vous avez la possibilité de personnaliser le texte affiché en haut de la page **Joindre** bouton . <!-- Additionally, you can format the text using the rich text menu. -->
+- **Faire glisser du texte** - Il s’agit du texte affiché en haut de la page **Joindre** pour inviter les utilisateurs à joindre ou à faire glisser des fichiers. Vous avez la possibilité de personnaliser le texte affiché en haut de la page **Joindre** bouton . En outre, vous pouvez mettre en forme le texte à l’aide du menu de texte enrichi.
 
 ### Onglet Validation {#validation-tab}
 
