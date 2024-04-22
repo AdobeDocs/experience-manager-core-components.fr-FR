@@ -6,7 +6,7 @@ exl-id: c607d554-ad2d-4434-856d-91e174ef3149
 source-git-commit: e843ccf5c030cd4f1015e3290347b5799828537a
 workflow-type: tm+mt
 source-wordcount: '3115'
-ht-degree: 90%
+ht-degree: 91%
 
 ---
 
@@ -177,8 +177,8 @@ Ce composant remplace un texte de consentement par un ou plusieurs liens web. Il
 
 - **Masquer le titre** - Sélectionnez cette option pour masquer le titre du composant.
 
-- **Liens** - Indiquez le lien et le texte d’affichage correspondant utilisé à la place du texte de consentement. Vous pouvez ajouter plusieurs liens en cliquant sur le bouton **Ajouter** bouton .
-Une fois une nouvelle option ajoutée, les actions suivantes peuvent être effectuées :
+- **Liens** - Indiquez le lien et le texte d’affichage correspondant utilisé à la place du texte de consentement. Vous pouvez ajouter plusieurs liens en cliquant sur le bouton **Ajouter**.
+Lorsqu’une nouvelle option est ajoutée, les actions suivantes peuvent être effectuées :
    - **Lien** - Cette option permet de saisir l’URL de redirection lorsqu’une option est sélectionnée.
    - **Texte d’affichage** - Cette option permet de saisir le contenu à afficher dans un formulaire adaptatif.
    - **Supprimer** - Appuyez ou cliquez sur supprimer pour supprimer l’option d’un bouton radio.

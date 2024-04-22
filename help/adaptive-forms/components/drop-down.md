@@ -6,7 +6,7 @@ exl-id: 9d59d0d2-d38f-4ed5-8b43-984c45f26f27
 source-git-commit: e843ccf5c030cd4f1015e3290347b5799828537a
 workflow-type: tm+mt
 source-wordcount: '2125'
-ht-degree: 92%
+ht-degree: 94%
 
 ---
 
@@ -91,7 +91,7 @@ Vous pouvez facilement personnaliser l’expérience des visiteurs et des visite
 
 - **Texte d’espace réservé** - Le texte d’espace réservé dans un composant de formulaire fait référence à un libellé court ou à une invite qui apparaît dans un champ de saisie comme conseil à l’utilisateur ou à l’utilisatrice sur le type d’information à saisir dans ce champ. Le texte d’espace réservé disparaît lorsque l’utilisateur ou l’utilisatrice commence à saisir du texte dans le champ et réapparaît si le champ est vide. Il fournit un indice visuel à l’utilisateur ou à l’utilisatrice, mais n’agit pas comme une valeur ou un libellé permanent pour le champ.
 
-- **Options** - Vous pouvez ajouter des valeurs de données et afficher des paires de texte à l’aide de la variable **Ajouter** bouton .  Une fois une nouvelle option ajoutée, les actions suivantes peuvent être effectuées :
+- **Options** - Vous pouvez ajouter des valeurs de données et des paires de texte d’affichage à l’aide du bouton **Ajouter**.  Lorsqu’une nouvelle option est ajoutée, les actions suivantes peuvent être effectuées :
    - **Valeur des données** - Cette option permet de saisir le contenu à envoyer lorsqu’une option est sélectionnée.
    - **Texte d’affichage** - Cette option permet de saisir le contenu à afficher dans un formulaire adaptatif.
    - **Supprimer** - Appuyez ou cliquez sur supprimer pour supprimer l’option d’une case à cocher.

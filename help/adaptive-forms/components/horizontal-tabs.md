@@ -6,11 +6,11 @@ exl-id: fbdf330b-3b85-4f94-9dab-eea8465fba67
 source-git-commit: e843ccf5c030cd4f1015e3290347b5799828537a
 workflow-type: tm+mt
 source-wordcount: '2093'
-ht-degree: 93%
+ht-degree: 94%
 
 ---
 
-# Onglets horizontaux (onglets au-dessus){#horizontal-tabs-adaptive-forms-core-component}
+# Onglets horizontaux (onglets supérieurs){#horizontal-tabs-adaptive-forms-core-component}
 
 <span class="preview"> Cet article contient du contenu sur la variable **Autoriser le texte enrichi pour le titre** fonctionnalité , une fonctionnalité de version préliminaire. La fonctionnalité de version préliminaire n’est accessible que par le biais de notre [canal de version préliminaire](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/release-notes/prerelease.html#new-features).</span>
 
@@ -108,7 +108,7 @@ Vous pouvez facilement personnaliser votre expérience en matière d’onglets h
 
 Vous pouvez utiliser les options de répétition pour dupliquer le composant Onglets horizontaux et ses composants enfants, définir un nombre de répétitions minimal et maximal et faciliter la réplication de sections similaires dans un formulaire. Lors de l’interaction avec le composant Onglets horizontaux et de l’accès à ses paramètres, les options suivantes s’affichent :
 
-- **Rendre les onglets les plus répétables**: fonction de basculement qui permet aux utilisateurs d’activer ou de désactiver la fonctionnalité de répétabilité.
+- **Répéter les onglets supérieurs** : fonctionnalité de basculement qui permet aux utilisateurs et utilisatrices d’activer ou de désactiver la fonctionnalité de répétabilité.
 - **Nombre minimal de répétitions** : définit le nombre minimal de répétitions possibles du composant Onglets horizontaux. La valeur zéro indique que le composant Onglets horizontaux n’est pas répété. La valeur par défaut est zéro.
 - **Nombre maximal de répétitions** : définit le nombre maximal de répétitions possibles du composant Onglets horizontaux. Par défaut, cette valeur est illimitée.
 Pour gérer efficacement les sections répétables dans les Onglets horizontaux, procédez comme indiqué dans l’article [Création de formulaires avec des sections répétables](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/create-forms-repeatable-sections.html?lang=fr).

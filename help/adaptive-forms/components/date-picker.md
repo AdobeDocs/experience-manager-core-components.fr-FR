@@ -6,7 +6,7 @@ exl-id: aa9402de-ca57-4c19-8d36-2dd0a78d6806
 source-git-commit: e843ccf5c030cd4f1015e3290347b5799828537a
 workflow-type: tm+mt
 source-wordcount: '2094'
-ht-degree: 92%
+ht-degree: 94%
 
 ---
 
@@ -96,13 +96,13 @@ Vous pouvez facilement personnaliser votre expérience de sélecteur de date pou
 - **Date minimale** : cette option vous permet de saisir la date minimale requise. Si vous saisissez une date antérieure à la date spécifiée dans Date minimale, un message d’erreur s’affiche à l’écran. La boîte de dialogue **Message d’erreur avec date minimale** vous permet d’ajouter un message d’erreur personnalisé.
 
 - **Message d’erreur avec date minimal** : le **Message d’erreur avec date minimale** vous permet d’ajouter un message d’erreur personnalisé à afficher, si vous saisissez une date antérieure à celle spécifiée dans la **Date minimale**.
-- **Exclure la date minimale** - Cette option permet d’omettre la date minimale d’une période donnée ou d’un jeu de dates donné.
+- **Exclure la date minimale** - Cette option permet d’omettre la date minimale d’une plage ou d’un jeu de dates donné.
 
 - **Date maximale** : cette option vous permet de saisir la date maximale requise. Si vous saisissez une date ultérieure à celle spécifiée dans la Date maximale, un message d’erreur s’affiche à l’écran. Le **Message d’erreur avec date maximale** vous permet d’ajouter un message d’erreur personnalisé.
 
 - **Message d’erreur avec date maximale** : le **Message d’erreur avec date maximale** vous permet d’ajouter un message d’erreur personnalisé à afficher, si vous saisissez une date ultérieure à celle spécifiée dans la **Date maximale**.
 
-- **Exclure la date maximale** - Cette option permet d’omettre la date maximale d’une période donnée ou d’un jeu de dates donné.
+- **Exclure la date maximale** - Cette option permet d’omettre la date maximale d’une plage ou d’un jeu de dates donné.
 
 ### Onglet Contenu de l’aide {#help-content-tab}
 

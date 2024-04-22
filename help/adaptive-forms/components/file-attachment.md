@@ -6,7 +6,7 @@ exl-id: 64a54fc6-db52-481f-bf5a-60c05122004d
 source-git-commit: e843ccf5c030cd4f1015e3290347b5799828537a
 workflow-type: tm+mt
 source-wordcount: '1851'
-ht-degree: 90%
+ht-degree: 92%
 
 ---
 
@@ -78,7 +78,7 @@ Vous pouvez facilement personnaliser l’expérience de pièce jointe pour les v
 - **Désactiver le composant** - Sélectionnez cette option pour désactiver le composant. Le composant désactivé n’est pas actif ni modifiable par l’utilisateur final ou l’utilisatrice finale. L’utilisateur ou l’utilisatrice peut voir la valeur du champ mais ne peut pas la modifier. Le composant reste accessible à d’autres fins, par exemple pour les calculs dans l’éditeur de règles.
 - **Lecture seule** - Sélectionnez cette option pour rendre le composant non modifiable. L’utilisateur ou l’utilisatrice peut voir la valeur du champ mais ne peut pas la modifier. Le composant reste accessible à d’autres fins, par exemple pour les calculs dans l’éditeur de règles.
 - **Autoriser plusieurs pièces jointes** - Sélectionnez cette option pour accepter plusieurs pièces jointes à l’aide du bouton **Pièce jointe**.
-- **Faire glisser du texte** - Il s’agit du texte affiché en haut de la page **Joindre** pour inviter les utilisateurs à joindre ou à faire glisser des fichiers. Vous avez la possibilité de personnaliser le texte affiché en haut de la page **Joindre** bouton . En outre, vous pouvez mettre en forme le texte à l’aide du menu de texte enrichi.
+- **Glisser-déposer le texte** - Il s’agit du texte affiché en haut du bouton **Joindre** pour inviter les utilisateurs et utilisatrices à joindre ou à faire glisser et déposer des fichiers. Vous avez la possibilité de personnaliser le texte affiché en haut de la page **Joindre** bouton . En outre, vous pouvez mettre en forme le texte à l’aide du menu de texte enrichi.
 
 ### Onglet Validation {#validation-tab}
 

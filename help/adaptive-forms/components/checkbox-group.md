@@ -6,7 +6,7 @@ exl-id: 2ced0223-e664-470b-a400-b6865d3a67c9
 source-git-commit: e843ccf5c030cd4f1015e3290347b5799828537a
 workflow-type: tm+mt
 source-wordcount: '2047'
-ht-degree: 88%
+ht-degree: 89%
 
 ---
 
@@ -83,8 +83,8 @@ Vous pouvez facilement personnaliser l’expérience des cases à cocher pour le
 
 - **Masquer le titre** - Sélectionnez cette option pour masquer le titre du composant.
 
-- **Options** - Vous pouvez ajouter des valeurs de données et afficher des paires de texte à l’aide de la variable **Ajouter** bouton .\
-  Une fois une nouvelle option ajoutée, les actions suivantes peuvent être effectuées :
+- **Options** - Vous pouvez ajouter des valeurs de données et des paires de texte d’affichage à l’aide du bouton **Ajouter**.\
+  Lorsqu’une nouvelle option est ajoutée, les actions suivantes peuvent être effectuées :
    - **Valeur des données** - Cette option permet de saisir le contenu à envoyer lorsqu’une option est sélectionnée.
    - **Texte d’affichage** - Cette option permet de saisir le contenu à afficher dans un formulaire adaptatif.
    - **Supprimer** - Appuyez ou cliquez sur supprimer pour supprimer l’option d’une case à cocher.

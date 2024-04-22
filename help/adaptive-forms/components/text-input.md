@@ -6,7 +6,7 @@ exl-id: 49d9fe69-0578-4489-beaa-a18cdb14add7
 source-git-commit: e843ccf5c030cd4f1015e3290347b5799828537a
 workflow-type: tm+mt
 source-wordcount: '2063'
-ht-degree: 93%
+ht-degree: 94%
 
 ---
 
@@ -79,7 +79,7 @@ Vous pouvez facilement personnaliser l’expérience d’entrée de texte pour l
 
 - **Permettre des lignes multiples** - Cette option permet à l’utilisateur ou à l’utilisatrice de saisir plusieurs lignes dans un champ de formulaire.
 
-- **Attribut de remplissage automatique** - L’option permet aux utilisateurs de saisir une valeur automatiquement renseignée dans le champ de formulaire en fonction des informations stockées.
+- **Attribut de remplissage automatique** - L’option permet aux utilisateurs et utilisatrices de saisir une valeur qui est automatiquement renseignée dans le champ de formulaire en fonction des informations stockées.
 
 ### Onglet Validation {#validation-tab}
 

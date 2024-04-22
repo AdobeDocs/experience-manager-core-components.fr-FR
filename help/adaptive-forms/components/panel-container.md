@@ -6,7 +6,7 @@ exl-id: 104836fe-8325-47de-978d-1ff2d6a9dd15
 source-git-commit: e843ccf5c030cd4f1015e3290347b5799828537a
 workflow-type: tm+mt
 source-wordcount: '2166'
-ht-degree: 93%
+ht-degree: 94%
 
 ---
 
@@ -108,7 +108,7 @@ Vous pouvez facilement personnaliser l’expérience de votre conteneur de panne
 
 Vous pouvez utiliser les options de répétition pour dupliquer le conteneur du panneau et ses composants enfants, définir un nombre de répétitions minimal et maximal et faciliter la réplication de sections similaires dans un formulaire. Lors de l’interaction avec le composant de conteneur du panneau et de l’accès à ses paramètres, les options suivantes s’affichent :
 
-- **Rendre le panneau répétable**: fonction de basculement qui permet aux utilisateurs d’activer ou de désactiver la fonctionnalité de répétabilité.
+- **Activer la répétition du panneau** : fonctionnalité de basculement qui permet aux utilisateurs et utilisatrices d’activer ou de désactiver la fonctionnalité de répétabilité.
 - **Nombre minimal de répétitions** : définit le nombre minimal de répétitions possibles du conteneur du panneau. La valeur zéro indique que le panneau Assistant n’est pas répété. La valeur par défaut est zéro.
 - **Nombre maximal de répétitions** : définit le nombre maximal de répétitions possibles du conteneur du panneau. Par défaut, cette valeur est illimitée.
 

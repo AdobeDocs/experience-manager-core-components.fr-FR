@@ -6,7 +6,7 @@ exl-id: 86b5e9ec-58ac-4cd5-9c7c-4269247ec34f
 source-git-commit: e843ccf5c030cd4f1015e3290347b5799828537a
 workflow-type: tm+mt
 source-wordcount: '2079'
-ht-degree: 88%
+ht-degree: 90%
 
 ---
 
@@ -76,8 +76,8 @@ Vous pouvez facilement personnaliser l’expérience du bouton radio pour les vi
 
 - **Masquer le titre** - Sélectionnez cette option pour masquer le titre du composant.
 
-- **Options** - Vous pouvez ajouter des valeurs de données et afficher des paires de texte à l’aide de la variable **Ajouter** bouton .\
-  Une fois une nouvelle option ajoutée, les actions suivantes peuvent être effectuées :
+- **Options** - Vous pouvez ajouter des valeurs de données et des paires de texte d’affichage à l’aide du bouton **Ajouter**.\
+  Lorsqu’une nouvelle option est ajoutée, les actions suivantes peuvent être effectuées :
    - **Valeur des données** - Cette option permet de saisir le contenu à envoyer lorsqu’une option est sélectionnée.
    - **Texte d’affichage** - Cette option permet de saisir le contenu à afficher dans un formulaire adaptatif.
    - **Supprimer** - Appuyez ou cliquez sur supprimer pour supprimer l’option d’un bouton radio.
@@ -96,7 +96,7 @@ Vous pouvez également mettre en forme les options du groupe radiobutton à l’
 
 - **Type de données de la valeur envoyée** - Cette option spécifie le type de données de la valeur envoyée lorsqu’une option est sélectionnée. Si le **type de données de la valeur envoyée** est défini sur `Number` et que vous ajoutez des données de chaîne à la **Valeur des données** dans l’onglet **Options**, l’écran affiche un message d’erreur `Value type mismatch`.
 
-- **Option par défaut** - Cette option vous permet d’ajouter des valeurs par défaut pré-sélectionnées lors du chargement du formulaire. Si le **type de données de la valeur envoyée** est défini sur `Number` et que vous ajoutez des données de chaîne aux **options par défaut**, le message d’erreur suivant s’affiche à l’écran : `Value type mismatch`.
+- **Options par défaut** - Cette option vous permet d’ajouter des valeurs par défaut pré-sélectionnées lors du chargement du formulaire. Si le **type de données de la valeur envoyée** est défini sur `Number` et que vous ajoutez des données de chaîne aux **options par défaut**, le message d’erreur suivant s’affiche à l’écran : `Value type mismatch`.
 
 - **Options d’affichage** : cette option permet de définir l’alignement visuel des boutons radio d’un formulaire adaptatif. Les deux options prises en charge sont les suivantes :
    - **Horizontal** : sélectionnez cette option pour afficher les boutons radio de gauche à droite dans un formulaire adaptatif.
