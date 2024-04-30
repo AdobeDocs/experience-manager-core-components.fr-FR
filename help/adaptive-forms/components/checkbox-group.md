@@ -4,15 +4,15 @@ description: Utilisation ou personnalisation du composant principal « Groupe d
 role: Architect, Developer, Admin, User
 exl-id: 2ced0223-e664-470b-a400-b6865d3a67c9
 source-git-commit: e843ccf5c030cd4f1015e3290347b5799828537a
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2047'
-ht-degree: 89%
+ht-degree: 100%
 
 ---
 
 # Groupe de cases à cocher {#button-component-adaptive-forms-core-component}
 
-<span class="preview"> Cet article contient du contenu sur la variable **Autoriser le texte enrichi pour le titre** et **Autoriser le texte enrichi pour les options**  fonctions, fonctions de préversion. La fonctionnalité de version préliminaire n’est accessible que par le biais de notre [canal de version préliminaire](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/release-notes/prerelease.html#new-features).</span>
+<span class="preview"> Cet article contient du contenu sur les fonctionnalités **Autoriser le texte enrichi pour le titre** et **Autoriser le texte enrichi pour les options**, des fonctionnalités de version préliminaire. La fonctionnalité de version préliminaire n’est accessible que par le biais de notre [canal de version préliminaire](https://experienceleague.adobe.com/fr/docs/experience-manager-cloud-service/content/release-notes/prerelease#new-features).</span>
 
 Un groupe de cases à cocher dans un formulaire adaptatif est un ensemble de cases à cocher associées qui permettent aux utilisateurs et aux utilisatrices de sélectionner une ou plusieurs options d’une liste. Chaque case à cocher est représentée par une valeur de données (valeur utilisée pour traiter les éléments d’un groupe de cases à cocher) et une valeur d’affichage (libellé pour chaque élément de case à cocher qui décrit son objectif).
 **Exemple**
@@ -76,10 +76,10 @@ Vous pouvez facilement personnaliser l’expérience des cases à cocher pour le
 
 - **Titre** - Avec son titre, vous pouvez facilement identifier un composant dans un formulaire. Par défaut, le titre s’affiche au-dessus du composant. Si vous n’ajoutez pas de titre, le nom du composant s’affiche à la place du texte du titre.
 
-- **Autoriser le texte enrichi pour le titre** - Cette fonctionnalité permet aux utilisateurs de mettre en forme les titres en texte brut en y incorporant des fonctionnalités telles que le gras, l’italique, le texte souligné, diverses polices, la taille des polices, les couleurs et d’autres options pour améliorer la présentation visuelle et la personnalisation. Il offre une plus grande flexibilité et un contrôle créatif pour faire ressortir les titres dans les documents, sites web ou applications.\
-  Lorsque vous cochez la case pour **Autoriser le texte enrichi pour le titre** , les options de mise en forme deviennent visibles pour appliquer un style au titre du composant. Pour accéder à toutes les options de formatage disponibles, vous pouvez cliquer sur le `Fullscreen` ![Icône Plein écran](/help/adaptive-forms/assets/fullscreen-icon.png) .
+- **Autoriser le texte enrichi pour le titre** - Cette fonctionnalité permet aux personnes de mettre en forme les titres en texte brut en y incorporant des fonctionnalités telles que le texte en gras, en italique et souligné, diverses polices, tailles de police et couleurs, et d’autres options pour améliorer la présentation visuelle et la personnalisation. Elle offre une plus grande flexibilité et un contrôle créatif pour faire ressortir les titres dans les documents, sites web ou applications.\
+  Lorsque vous cochez la case **Autoriser le texte enrichi pour le titre**, les options de formatage deviennent visibles pour appliquer un style au titre du composant. Pour accéder à toutes les options de formatage disponibles, vous pouvez cliquer sur l’onglet `Fullscreen` ![Fullscreen icon](/help/adaptive-forms/assets/fullscreen-icon.png).
 
-  ![Prise en charge du texte enrichi](/help/adaptive-forms/assets/richtext-support-title.png)
+  ![Prise en charge de texte enrichi](/help/adaptive-forms/assets/richtext-support-title.png)
 
 - **Masquer le titre** - Sélectionnez cette option pour masquer le titre du composant.
 
@@ -94,7 +94,7 @@ Vous pouvez facilement personnaliser l’expérience des cases à cocher pour le
 
   ![Prise en charge du texte enrichi pour les options](/help/adaptive-forms/assets/richtext-for-options.png)
 
-  Une fois que vous avez coché la case pour **Autoriser le texte enrichi pour les options** les options de formatage deviennent visibles pour appliquer un style aux options du composant. Pour accéder à toutes les options de formatage disponibles, vous pouvez cliquer sur le `Fullscreen` ![Icône Plein écran](/help/adaptive-forms/assets/fullscreen-icon.png) .
+  Une fois que vous avez coché la case **Autoriser le texte enrichi pour les options**, les options de formatage deviennent visibles pour appliquer un style aux options du composant. Pour accéder à toutes les options de formatage disponibles, vous pouvez cliquer sur l’onglet `Fullscreen` ![Fullscreen icon](/help/adaptive-forms/assets/fullscreen-icon.png).
   ![Prise en charge du texte enrichi pour les options](/help/adaptive-forms/assets/richtextoptions-support.png)
 
 - **Référence Bind** - Une référence Bind est une référence à un élément de données stockée dans une source de données externe et utilisée dans un formulaire. La référence de liaison vous permet de lier dynamiquement les données aux champs du formulaire, de sorte que le formulaire puisse afficher les données les plus récentes de la source de données. Par exemple, une référence de liaison peut être utilisée pour afficher le nom et l’adresse d’un client ou d’une cliente dans un formulaire, en fonction de l’identifiant du client ou de la cliente saisi dans le formulaire. La référence de liaison peut également être utilisée pour mettre à jour la source de données avec les données saisies dans le formulaire. Ainsi, AEM Forms vous permet de créer des formulaires qui interagissent avec des sources de données externes, offrant ainsi une expérience utilisateur fluide pour la collecte et la gestion des données.

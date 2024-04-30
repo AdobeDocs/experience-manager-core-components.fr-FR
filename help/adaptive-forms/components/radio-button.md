@@ -4,15 +4,15 @@ description: Utilisation ou personnalisation du composant principal « Bouton r
 role: Architect, Developer, Admin, User
 exl-id: 86b5e9ec-58ac-4cd5-9c7c-4269247ec34f
 source-git-commit: e843ccf5c030cd4f1015e3290347b5799828537a
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2079'
-ht-degree: 90%
+ht-degree: 100%
 
 ---
 
 # Bouton Radio {#radio-button-adaptive-forms-core-component}
 
-<span class="preview"> Cet article contient du contenu sur la variable **Autoriser le texte enrichi pour le titre** et **Autoriser le texte enrichi pour les options**  fonctions, fonctions de préversion. La fonctionnalité de version préliminaire n’est accessible que par le biais de notre [canal de version préliminaire](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/release-notes/prerelease.html#new-features).</span>
+<span class="preview"> Cet article contient du contenu sur les fonctionnalités **Autoriser le texte enrichi pour le titre** et **Autoriser le texte enrichi pour les options**, des fonctionnalités de version préliminaire. La fonctionnalité de version préliminaire n’est accessible que par le biais de notre [canal de version préliminaire](https://experienceleague.adobe.com/fr/docs/experience-manager-cloud-service/content/release-notes/prerelease#new-features).</span>
 
 Un bouton radio dans un formulaire adaptatif est un type d’élément d’entrée qui permet à un utilisateur ou une utilisatrice de sélectionner une option dans un groupe d’options associées. Il est représenté par un petit bouton circulaire rempli ou vide pour indiquer si l’option est sélectionnée ou non. Lorsqu’un utilisateur ou une utilisatrice sélectionne un bouton radio, les autres boutons du groupe sont désélectionnés. Les boutons radio sont généralement utilisés lorsqu’il existe plusieurs options s’excluant mutuellement et qu’une seule option peut être sélectionnée à la fois.
 
@@ -69,10 +69,10 @@ Vous pouvez facilement personnaliser l’expérience du bouton radio pour les vi
 - **Nom** - Vous pouvez identifier facilement un composant de formulaire en lui attribuant un nom unique dans le formulaire et dans l’éditeur de règles, mais le nom ne doit pas contenir d’espaces ni de caractères spéciaux.
 
 - **Titre** - Avec son titre, vous pouvez facilement identifier un composant dans un formulaire. Par défaut, le titre s’affiche au-dessus du composant. Si vous n’ajoutez pas de titre, le nom du composant s’affiche à la place du texte du titre.
-- **Autoriser le texte enrichi pour le titre** - Cette fonctionnalité permet aux utilisateurs de mettre en forme les titres en texte brut en y incorporant des fonctionnalités telles que le gras, l’italique, le texte souligné, diverses polices, la taille des polices, les couleurs et d’autres options pour améliorer la présentation visuelle et la personnalisation. Il offre une plus grande flexibilité et un contrôle créatif pour faire ressortir les titres dans les documents, sites web ou applications.\
-  Lorsque vous cochez la case pour **Autoriser le texte enrichi pour le titre** , les options de mise en forme deviennent visibles pour appliquer un style au titre du composant. Pour accéder à toutes les options de formatage disponibles, vous pouvez cliquer sur le ![Icône Plein écran](/help/adaptive-forms/assets/fullscreen-icon.png) .
+- **Autoriser le texte enrichi pour le titre** : cette fonctionnalité permet aux personnes de mettre en forme les titres en texte brut en y incorporant des fonctionnalités telles que le texte en gras, en italique et souligné, diverses polices, tailles de police et couleurs, et d’autres options pour améliorer la présentation visuelle et la personnalisation. Elle offre une plus grande flexibilité et un contrôle créatif pour faire ressortir les titres dans les documents, sites web ou applications.\
+  Lorsque vous cochez la case **Autoriser le texte enrichi pour le titre**, les options de formatage deviennent visibles pour appliquer un style au titre du composant. Pour accéder à toutes les options de formatage disponibles, vous pouvez cliquer sur l’onglet ![Fullscreen icon](/help/adaptive-forms/assets/fullscreen-icon.png).
 
-  ![Prise en charge du texte enrichi](/help/adaptive-forms/assets/richtext-support-title.png)
+  ![Prise en charge de texte enrichi](/help/adaptive-forms/assets/richtext-support-title.png)
 
 - **Masquer le titre** - Sélectionnez cette option pour masquer le titre du composant.
 
@@ -81,12 +81,12 @@ Vous pouvez facilement personnaliser l’expérience du bouton radio pour les vi
    - **Valeur des données** - Cette option permet de saisir le contenu à envoyer lorsqu’une option est sélectionnée.
    - **Texte d’affichage** - Cette option permet de saisir le contenu à afficher dans un formulaire adaptatif.
    - **Supprimer** - Appuyez ou cliquez sur supprimer pour supprimer l’option d’un bouton radio.
-   - **Réorganiser** - Appuyez ou cliquez dessus et faites glisser pour réorganiser l’ordre des options.
-Vous pouvez également mettre en forme les options du groupe radiobutton à l’aide de **Autoriser le texte enrichi pour les options**.
+   - **Réorganiser** - Appuyez ou cliquez et faites glisser pour réorganiser l’ordre des options.
+Vous pouvez également mettre en forme les options du groupe de boutons radio à l’aide de **Autoriser le texte enrichi pour les options**.
 
   ![Prise en charge du texte enrichi pour les options](/help/adaptive-forms/assets/richtext-for-options.png)
 
-  Une fois que vous avez coché la case pour **Autoriser le texte enrichi pour les options** les options de formatage deviennent visibles pour appliquer un style aux options du composant. Pour accéder à toutes les options de formatage disponibles, vous pouvez cliquer sur le `Fullscreen` ![Icône Plein écran](/help/adaptive-forms/assets/fullscreen-icon.png) .
+  Une fois que vous avez coché la case **Autoriser le texte enrichi pour les options**, les options de formatage deviennent visibles pour appliquer un style aux options du composant. Pour accéder à toutes les options de formatage disponibles, vous pouvez cliquer sur l’onglet `Fullscreen` ![Fullscreen icon](/help/adaptive-forms/assets/fullscreen-icon.png).
 
   ![Prise en charge du texte enrichi pour les options](/help/adaptive-forms/assets/richtextoptions-support.png)
 

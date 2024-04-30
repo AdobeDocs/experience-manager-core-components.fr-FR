@@ -4,15 +4,15 @@ description: Utilisation ou personnalisation du composant principal Conditions g
 role: Architect, Developer, Admin, User
 exl-id: c607d554-ad2d-4434-856d-91e174ef3149
 source-git-commit: e843ccf5c030cd4f1015e3290347b5799828537a
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '3115'
-ht-degree: 91%
+ht-degree: 100%
 
 ---
 
 # Composant Conditions générales
 
-<span class="preview"> Cet article contient du contenu sur la variable **Autoriser le texte enrichi pour le titre** et **Autoriser le texte enrichi pour les options**  fonctions, fonctions de préversion. La fonctionnalité de version préliminaire n’est accessible que par le biais de notre [canal de version préliminaire](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/release-notes/prerelease.html#new-features).</span>
+<span class="preview"> Cet article contient du contenu sur les fonctionnalités **Autoriser le texte enrichi pour le titre** et **Autoriser le texte enrichi pour les options**, des fonctionnalités de version préliminaire. La fonctionnalité de version préliminaire n’est accessible que par le biais de notre [canal de version préliminaire](https://experienceleague.adobe.com/fr/docs/experience-manager-cloud-service/content/release-notes/prerelease#new-features).</span>
 
 Un composant **Conditions générales** fait référence à une section d’un formulaire qui décrit les termes, règles et conditions que les personnes doivent accepter ou respecter lors de l’utilisation d’un service ou de l’accès à un contenu.
 
@@ -65,10 +65,10 @@ Vous pouvez facilement personnaliser l’expérience du composant Conditions gé
 - **Nom** - Le nom identifie de manière unique le composant dans l’éditeur de règles. Les caractères spéciaux et les espaces ne sont pas autorisés dans les chaînes de nom.
 
 - **Titre** - Avec son titre, vous pouvez facilement identifier un composant dans un formulaire. Par défaut, le titre s’affiche au-dessus du composant. Si vous n’ajoutez pas de titre, le nom du composant s’affiche à la place du texte du titre.
-- **Autoriser le texte enrichi pour le titre** - Cette fonctionnalité permet aux utilisateurs de mettre en forme les titres en texte brut en y incorporant des fonctionnalités telles que le gras, l’italique, le texte souligné, diverses polices, la taille des polices, les couleurs et d’autres options pour améliorer la présentation visuelle et la personnalisation. Il offre une plus grande flexibilité et un contrôle créatif pour faire ressortir les titres dans les documents, sites web ou applications.\
-  Lorsque vous cochez la case pour **Autoriser le texte enrichi pour le titre** , les options de mise en forme deviennent visibles pour appliquer un style au titre du composant. Pour accéder à toutes les options de formatage disponibles, vous pouvez cliquer sur le ![Icône Plein écran](/help/adaptive-forms/assets/fullscreen-icon.png) .
+- **Autoriser le texte enrichi pour le titre** - Cette fonctionnalité permet aux personnes de mettre en forme les titres en texte brut en y incorporant des fonctionnalités telles que le texte en gras, en italique et souligné, diverses polices et tailles de police et couleurs, et d’autres options pour améliorer la présentation visuelle et la personnalisation. Elle offre une plus grande flexibilité et un contrôle créatif pour faire ressortir les titres dans les documents, sites web ou applications.\
+  Lorsque vous cochez la case **Autoriser le texte enrichi pour le titre**, les options de mise en forme deviennent visibles pour appliquer un style au titre du composant. Pour accéder à toutes les options de formatage disponibles, vous pouvez cliquer sur l’onglet ![Fullscreen icon](/help/adaptive-forms/assets/fullscreen-icon.png).
 
-  ![Prise en charge du texte enrichi](/help/adaptive-forms/assets/richtext-support-title.png)
+  ![Prise en charge de texte enrichi](/help/adaptive-forms/assets/richtext-support-title.png)
 
 - **Option Afficher l’approbation** – Sélectionnez cette option pour afficher la case à cocher du consentement utilisée pour obtenir le consentement explicite de la personne.
 
@@ -170,10 +170,10 @@ Ce composant remplace un texte de consentement par un ou plusieurs liens web. Il
 - **Nom** - Le nom identifie de manière unique le composant dans l’éditeur de règles. Les caractères spéciaux et les espaces ne sont pas autorisés dans les chaînes de nom.
 
 - **Titre** - Avec son titre, vous pouvez facilement identifier un composant dans un formulaire. Par défaut, le titre s’affiche au-dessus du composant. Si vous n’ajoutez pas de titre, le nom du composant s’affiche à la place du texte du titre.
-- **Autoriser le texte enrichi pour le titre** - Cette fonctionnalité permet aux utilisateurs de mettre en forme les titres à l’aide d’options telles que le gras, l’italique, les styles de police, les couleurs et l’alignement, ce qui améliore la présentation visuelle et la personnalisation. Il offre une plus grande flexibilité et un contrôle créatif pour faire ressortir les titres dans les documents, sites web ou applications.\
-  Lorsque vous cochez la case pour **Autoriser le texte enrichi pour le titre** , les options de mise en forme deviennent visibles pour appliquer un style au titre du composant. Pour accéder à toutes les options de formatage disponibles, vous pouvez cliquer sur le ![Icône Plein écran](/help/adaptive-forms/assets/fullscreen-icon.png) .
+- **Autoriser le texte enrichi pour le titre** : cette fonctionnalité permet aux personnes de mettre en forme les titres à l’aide d’options telles que le gras et l’italique, des styles de police, les couleurs et l’alignement, ce qui améliore la présentation visuelle et la personnalisation. Elle offre une plus grande flexibilité et un contrôle créatif pour faire ressortir les titres dans les documents, sites web ou applications.\
+  Lorsque vous cochez la case **Autoriser le texte enrichi pour le titre**, les options de formatage deviennent visibles pour appliquer un style au titre du composant. Pour accéder à toutes les options de formatage disponibles, vous pouvez cliquer sur l’onglet ![Fullscreen icon](/help/adaptive-forms/assets/fullscreen-icon.png).
 
-  ![Prise en charge du texte enrichi](/help/adaptive-forms/assets/richtext-support-title.png)
+  ![Prise en charge de texte enrichi](/help/adaptive-forms/assets/richtext-support-title.png)
 
 - **Masquer le titre** - Sélectionnez cette option pour masquer le titre du composant.
 
@@ -184,7 +184,7 @@ Lorsqu’une nouvelle option est ajoutée, les actions suivantes peuvent être e
    - **Supprimer** - Appuyez ou cliquez sur supprimer pour supprimer l’option d’un bouton radio.
    - **Réorganiser** - Appuyez ou cliquez et faites glisser pour réorganiser l’ordre des options.
 
-  Vous pouvez également mettre en forme les options d’un groupe de cases à cocher à l’aide de **Autoriser le texte enrichi pour les options**. Une fois que vous avez coché la case pour **Autoriser le texte enrichi pour les options** les options de formatage deviennent visibles pour appliquer un style aux options du composant. Pour accéder à toutes les options de formatage disponibles, vous pouvez cliquer sur le `Fullscreen` ![Icône Plein écran](/help/adaptive-forms/assets/fullscreen-icon.png) .
+  Vous pouvez également mettre en forme les options d’un groupe de cases à cocher à l’aide de **Autoriser le texte enrichi pour les options**. Une fois que vous avez coché la case **Autoriser le texte enrichi pour les options**, les options de formatage deviennent visibles pour appliquer un style aux options du composant. Pour accéder à toutes les options de formatage disponibles, vous pouvez cliquer sur l’onglet `Fullscreen` ![Fullscreen icon](/help/adaptive-forms/assets/fullscreen-icon.png).
 
   ![Prise en charge du texte enrichi pour les options](/help/adaptive-forms/assets/link-options.png)
 
