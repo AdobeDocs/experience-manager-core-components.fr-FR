@@ -3,9 +3,9 @@ title: Composant d’image
 description: Le composant Image des composants principaux est un composant d’image adaptatif.
 role: Architect, Developer, Admin, User
 exl-id: c5e57f4b-139f-40e7-8d79-be9a74360b63
-source-git-commit: a10c98aecf6d3c0d989f2e3c18affc51850f60bc
+source-git-commit: e37151536be5a4345f6e2bf630bb8bd4019ad699
 workflow-type: ht
-source-wordcount: '2061'
+source-wordcount: '1970'
 ht-degree: 100%
 
 ---
@@ -138,20 +138,6 @@ L’éditeur statique peut également être utilisé pour modifier l’image. En
 ### Modification des ressources Dynamic Media {#dynamic-media-assets}
 
 Si les [fonctionnalités de Dynamic Media sont activées,](#dynamic-media) l’édition de l’image doit être effectuée dans la console Ressources.
-
-### Modification des ressources Dynamic Media de nouvelle génération {#next-gen-dm-assets}
-
-Si [Dynamic Media de nouvelle génération est configuré,](#next-gen-dm) l’option **Recadrage intelligent** est disponible dans les menus contextuels du composant.
-
-![Recadrage intelligent](/help/assets/image-smart-crop.png)
-
-Utilisez la boîte de dialogue pour ajuster le recadrage intelligent.
-
-![Boîte de dialogue Recadrage intelligent](/help/assets/image-smart-crop-dialog.png)
-
->[!TIP]
->
->Pour plus d’informations sur le recadrage intelligent, regardez [cette vidéo sur la fonctionnalité.](https://experienceleague.adobe.com/docs/experience-manager-learn/assets/dynamic-media/images/smart-crop-feature-video-use.html?lang=fr)
 
 ## Boîte de dialogue de configuration {#configure-dialog}
 
