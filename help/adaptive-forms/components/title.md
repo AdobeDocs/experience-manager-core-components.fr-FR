@@ -3,14 +3,14 @@ title: Composant principal des formulaires adaptatifs - Titre
 description: Utilisation ou personnalisation du composant principal « Titre » dans les formulaires adaptatifs.
 role: Architect, Developer, Admin, User
 exl-id: 33eac885-8d66-4a5c-9a32-0ba11e6de293
-source-git-commit: e843ccf5c030cd4f1015e3290347b5799828537a
-workflow-type: ht
-source-wordcount: '863'
+source-git-commit: c3401da271efd930d1a2711bcab25c29f763f38e
+workflow-type: tm+mt
+source-wordcount: '864'
 ht-degree: 100%
 
 ---
 
-# Titre {#title-input-adaptive-forms-core-component}
+# Composant du titre{#title-input-adaptive-forms-core-component}
 
 Dans un formulaire adaptatif, un « titre » fait référence au texte qui s’affiche en haut du formulaire, généralement sous l’en-tête. Le titre est spécifié à l’aide du composant Titre. Ce composant peut être ajouté à la disposition du formulaire et son texte peut être modifié pour correspondre à l’objectif ou au sujet du formulaire. Le titre sert de libellé ou de brève description du formulaire pour l’utilisateur ou l’utilisatrice et permet de distinguer le formulaire des autres.
 

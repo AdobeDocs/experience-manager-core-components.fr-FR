@@ -3,14 +3,14 @@ title: Composant principal des formulaires adaptatifs - Assistant
 description: Utilisation ou personnalisation du composant principal « Assistant » des formulaires adaptatifs.
 role: Architect, Developer, Admin, User
 exl-id: fd785cd2-5ed6-4efb-997f-ce9056ed113d
-source-git-commit: e843ccf5c030cd4f1015e3290347b5799828537a
-workflow-type: ht
-source-wordcount: '2100'
-ht-degree: 100%
+source-git-commit: c3401da271efd930d1a2711bcab25c29f763f38e
+workflow-type: tm+mt
+source-wordcount: '2101'
+ht-degree: 99%
 
 ---
 
-# Assistant {#wizard-adaptive-forms-core-component}
+# Composant de l’assistant{#wizard-adaptive-forms-core-component}
 
 La disposition « Assistant » d’un formulaire adaptatif fait référence à un formulaire divisé en plusieurs étapes ou pages, où l’utilisateur ou l’utilisatrice passe d’une étape à l’autre. Cette disposition est appelée « assistant », car elle présente un processus détaillé du formulaire à l’utilisateur ou l’utilisatrice.
 

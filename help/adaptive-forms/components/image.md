@@ -3,14 +3,14 @@ title: Composant principal des formulaires adaptatifs - Image
 description: Utilisation ou personnalisation du composant principal « Image » des formulaires adaptatifs.
 role: Architect, Developer, Admin, User
 exl-id: 9ee42d5d-16e3-4973-8364-5bc512ebe72e
-source-git-commit: e4274194026c3370b52be17171776847374a86b5
-workflow-type: ht
-source-wordcount: '1057'
+source-git-commit: c3401da271efd930d1a2711bcab25c29f763f38e
+workflow-type: tm+mt
+source-wordcount: '1058'
 ht-degree: 100%
 
 ---
 
-# Image {#image-adaptive-forms-core-component}
+# Composant d’image{#image-adaptive-forms-core-component}
 
 Un composant « Image » dans un formulaire adaptatif permet d’inclure des images dans un formulaire. Ces images peuvent être utilisées pour améliorer la conception globale du formulaire, fournir des informations supplémentaires ou servir d’aide visuelle pour aider les utilisateurs et les utilisatrices à comprendre l’objectif du formulaire. Le composant « Image » peut être utilisé pour ajouter un logo, une photo ou un graphique dans le formulaire.
 
