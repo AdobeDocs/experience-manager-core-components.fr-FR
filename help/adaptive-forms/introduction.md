@@ -3,9 +3,9 @@ title: Présentation des composants principaux des formulaires adaptatifs AEM
 description: Créez des expériences d’inscription attrayantes (formulaires) grâce à la flexibilité des composants principaux des formulaires adaptatifs et diffusez-les avec la puissance d’Adobe Experience Manager.
 role: Architect, Developer, Admin, User
 exl-id: 6d0f2845-bbb8-4488-a254-b69d7a6290b1
-source-git-commit: 1dbbb598c0856b76c076f322cdf0210bf38ee9e8
-workflow-type: ht
-source-wordcount: '1267'
+source-git-commit: efc42e6c615987a1d85abe18b650ac23a6d84bf6
+workflow-type: tm+mt
+source-wordcount: '1176'
 ht-degree: 100%
 
 ---
@@ -75,7 +75,7 @@ La version actuelle des composants principaux des formulaires adaptatifs compren
 * [Bouton](/help/adaptive-forms/components/button.md)
 * [Groupe de cases à cocher](/help/adaptive-forms/components/checkbox-group.md)
 * [Sélecteur de date](/help/adaptive-forms/components/date-picker.md)
-* [Liste déroulante](/help/adaptive-forms/components/drop-down.md)
+* [Liste déroulante](/help/adaptive-forms/components/drop-down-list.md)
 * [Entrée d’e-mail](/help/adaptive-forms/components/email-input.md)
 * [Conteneur de formulaires](/help/adaptive-forms/components/form-container.md)
 * [Pièce jointe](/help/adaptive-forms/components/file-attachment.md)
@@ -83,13 +83,13 @@ La version actuelle des composants principaux des formulaires adaptatifs compren
 * [En-tête](/help/adaptive-forms/components/header.md)
 * [Onglets horizontaux](/help/adaptive-forms/components/horizontal-tabs.md)
 * [Image](/help/adaptive-forms/components/image.md)
-* [Entrée de nombre](/help/adaptive-forms/components/number-input.md)
-* [Conteneur de panneau](/help/adaptive-forms/components/panel-container.md)
+* [Zone numérique](/help/adaptive-forms/components/numeric-box.md)
+* [Panneau](/help/adaptive-forms/components/panel.md)
 * [Bouton radio](/help/adaptive-forms/components/radio-button.md)
 * [Bouton de réinitialisation](/help/adaptive-forms/components/reset-button.md)
 * [Bouton Envoyer](/help/adaptive-forms/components/submit-button.md)
 * [Entrée téléphonique](/help/adaptive-forms/components/telephone-input.md)
-* [Entrée de texte](/help/adaptive-forms/components/text-input.md)
+* [Zone de texte](/help/adaptive-forms/components/text-box.md)
 * [Texte](/help/adaptive-forms/components/text.md)
 * [Titre](/help/adaptive-forms/components/title.md)
 * [Assistant](/help/adaptive-forms/components/wizard.md)
@@ -100,7 +100,7 @@ L’activation des composants principaux des formulaires adaptatifs sur AEM For
 
 Les composants principaux des formulaires adaptatifs ont les exigences suivantes.
 
-| AEM Version | Module complémentaire AEM Forms | Composants principaux des formulaires adaptatifs |
+| Version d’AEM | Module complémentaire AEM Forms | Composants principaux des formulaires adaptatifs |
 |---|---|---|
 | AEM as a Cloud Service | Forms – Inscription numérique | [Version 2.0.10](version.md)+ |
 | AEM 6.5 | Module complémentaire Forms | [Version 1.1.12](version.md)+ |

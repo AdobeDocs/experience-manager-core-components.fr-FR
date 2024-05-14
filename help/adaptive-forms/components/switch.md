@@ -3,8 +3,10 @@ title: Composant principal des formulaires adaptatifs – Composant de commutate
 description: Utilisation ou personnalisation du composant principal Commutateur des formulaires adaptatifs.
 role: Architect, Developer, Admin, User
 exl-id: 6ff2ca76-1514-42eb-bde3-60259af2d187
-source-git-commit: e843ccf5c030cd4f1015e3290347b5799828537a
-workflow-type: ht
+hide: true
+hidefromtoc: true
+source-git-commit: a6c3fd98bcdcbb0d6d5697b93306adc9ef7e3fc9
+workflow-type: tm+mt
 source-wordcount: '1867'
 ht-degree: 100%
 
