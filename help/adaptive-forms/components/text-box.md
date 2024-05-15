@@ -3,7 +3,7 @@ title: Composant principal des formulaires adaptatifs - Entrée de texte (zone d
 description: Utilisation ou personnalisation du composant principal « Entrée de texte » des formulaires adaptatifs.
 role: Architect, Developer, Admin, User
 exl-id: 49d9fe69-0578-4489-beaa-a18cdb14add7
-source-git-commit: c3401da271efd930d1a2711bcab25c29f763f38e
+source-git-commit: 58a0f0f2ef6d9dec3ce2436dad954a8a7aca188c
 workflow-type: tm+mt
 source-wordcount: '2062'
 ht-degree: 99%
@@ -12,7 +12,7 @@ ht-degree: 99%
 
 # Composant de zone de texte{#text-input-adaptive-forms-core-component}
 
-<span class="preview"> Cet article contient du contenu sur la variable  **Autoriser le texte enrichi pour le titre**  fonctionnalité , une fonctionnalité de version préliminaire. La fonctionnalité de version préliminaire n’est accessible que par le biais de notre [canal de version préliminaire](https://experienceleague.adobe.com/fr/docs/experience-manager-cloud-service/content/release-notes/prerelease#new-features).</span>
+<span class="preview"> Cet article contient du contenu sur la variable   **Autoriser le texte enrichi pour le titre**    fonctionnalité , une fonctionnalité de version préliminaire. La fonctionnalité de version préliminaire n’est accessible que par le biais de notre [canal de version préliminaire](https://experienceleague.adobe.com/fr/docs/experience-manager-cloud-service/content/release-notes/prerelease#new-features).</span>
 
 Un composant d’entrée de texte (zone de texte) permet à l’utilisateur ou à l’utilisatrice de saisir et de modifier une ou plusieurs lignes de texte, selon l’attribut type de l’élément d’entrée. Le composant « Entrée de texte » peut être placé dans un formulaire et est généralement étiqueté avec un texte utile qui identifie facilement son objectif. C’est un élément fondamental de tout formulaire, largement utilisé pour collecter différents types de données auprès des utilisateurs et des utilisatrices. Ces éléments sont simples, flexibles, et peuvent être configurés pour valider les entrées et améliorer la précision de la collecte de données.
 

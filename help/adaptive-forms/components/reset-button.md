@@ -3,7 +3,7 @@ title: Composant principal des formulaires adaptatifs - Bouton de réinitialisat
 description: Utilisation ou personnalisation du composant principal Bouton de réinitialisation dans les formulaires adaptatifs.
 role: Architect, Developer, Admin, User
 exl-id: e5aa9d89-aece-491e-80a1-7fb9ea6c4b60
-source-git-commit: c3401da271efd930d1a2711bcab25c29f763f38e
+source-git-commit: 58a0f0f2ef6d9dec3ce2436dad954a8a7aca188c
 workflow-type: tm+mt
 source-wordcount: '1491'
 ht-degree: 98%
@@ -12,7 +12,7 @@ ht-degree: 98%
 
 # Composant de bouton Réinitialiser {#reset-button}
 
-<span class="preview"> Cet article contient du contenu sur la variable  **Autoriser le texte enrichi pour le titre**  fonctionnalité , une fonctionnalité de version préliminaire. La fonctionnalité de version préliminaire n’est accessible que par le biais de notre [canal de version préliminaire](https://experienceleague.adobe.com/fr/docs/experience-manager-cloud-service/content/release-notes/prerelease#new-features).</span>
+<span class="preview"> Cet article contient du contenu sur la variable   **Autoriser le texte enrichi pour le titre**    fonctionnalité , une fonctionnalité de version préliminaire. La fonctionnalité de version préliminaire n’est accessible que par le biais de notre [canal de version préliminaire](https://experienceleague.adobe.com/fr/docs/experience-manager-cloud-service/content/release-notes/prerelease#new-features).</span>
 
 Le bouton de réinitialisation d’un formulaire adaptatif est un bouton qui permet aux utilisateurs et utilisatrices d’effacer ou de réinitialiser tous les champs de formulaire avec leurs valeurs par défaut. Lorsque vous cliquez sur le bouton de réinitialisation, toutes les données qui ont été saisies dans les champs du formulaire sont supprimées et les champs reviennent à leur état d’origine. Le bouton de réinitialisation est généralement utilisé à la place du bouton d’envoi et permet aux utilisateurs et utilisatrices de recommencer à zéro s’ils ou elles ont saisi des données incorrectes ou superflues dans le formulaire.
 
