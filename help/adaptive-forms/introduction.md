@@ -3,7 +3,7 @@ title: Présentation des composants principaux des formulaires adaptatifs AEM
 description: Créez des expériences d’inscription attrayantes (formulaires) grâce à la flexibilité des composants principaux des formulaires adaptatifs et diffusez-les avec la puissance d’Adobe Experience Manager.
 role: Architect, Developer, Admin, User
 exl-id: 6d0f2845-bbb8-4488-a254-b69d7a6290b1
-source-git-commit: 63b4b59c43ffef10a036db3a639a6d5fa75a4e89
+source-git-commit: 83a9a37495bb189592a657cac97c7277755b96be
 workflow-type: tm+mt
 source-wordcount: '2215'
 ht-degree: 52%
@@ -24,7 +24,7 @@ Dans l’ensemble, les composants principaux sont un outil essentiel pour la cr�
 
 ## Composants principaux des formulaires adaptatifs
 
-Les composants principaux des fomulaires adaptatifs sont un ensemble de 24 composants Open Source compatibles avec BEM qui sont construits sur la base des composants principaux de la gestion de contenu web d’Adobe Experience Manager. Ils sont spécialement conçus pour créer des formulaires adaptatifs, qui sont des formulaires qui s’adaptent au périphérique, au navigateur et à la taille d’écran de l’utilisateur ou de l’utilisatrice.
+Les composants principaux des fomulaires adaptatifs sont un ensemble de 29 composants Open Source compatibles avec BEM qui sont construits sur la base des composants principaux de la gestion de contenu web d’Adobe Experience Manager. Ils sont spécialement conçus pour créer des formulaires adaptatifs, qui sont des formulaires qui s’adaptent au périphérique, au navigateur et à la taille d’écran de l’utilisateur ou de l’utilisatrice.
 
 Ces composants peuvent être utilisés pour créer des expériences de capture de données et d’inscription exceptionnelles en proposant un large éventail d’options de champ de formulaire, notamment des champs de texte, des cases à cocher, des menus déroulants, etc. Ils comprennent également des fonctionnalités telles que la validation, la logique conditionnelle et la conception réactive, qui peuvent être utilisées pour créer des formulaires conviviaux et simples.
 
