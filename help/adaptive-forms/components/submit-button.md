@@ -4,15 +4,15 @@ description: Utilisation ou personnalisation du composant principal « Bouton E
 role: Architect, Developer, Admin, User
 exl-id: e4b8e475-79b9-4c4d-9f11-a125a424d32b
 source-git-commit: 58a0f0f2ef6d9dec3ce2436dad954a8a7aca188c
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1450'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
-# Composant de bouton Envoyer {#submit-button}
+# Composant du bouton Envoyer {#submit-button}
 
-<span class="preview"> Cet article contient du contenu sur la variable   **Autoriser le texte enrichi pour le titre**    fonctionnalité , une fonctionnalité de version préliminaire. La fonctionnalité de version préliminaire n’est accessible que par le biais de notre [canal de version préliminaire](https://experienceleague.adobe.com/fr/docs/experience-manager-cloud-service/content/release-notes/prerelease#new-features).</span>
+<span class="preview"> Cet article contient du contenu sur la fonctionnalité **Autoriser le texte enrichi pour le titre**, une fonctionnalité de version préliminaire. La fonctionnalité de version préliminaire n’est accessible que par le biais de notre [canal de version préliminaire](https://experienceleague.adobe.com/fr/docs/experience-manager-cloud-service/content/release-notes/prerelease#new-features).</span>
 
 Un bouton Envoyer dans un formulaire adaptatif est un bouton qui permet aux utilisateurs et aux utilisatrices d’envoyer les données de formulaire à un serveur pour traitement. Lorsque l’utilisateur ou l’utilisatrice clique sur le bouton Envoyer, les données de formulaire sont envoyées au serveur, où elles peuvent être stockées, traitées ou utilisées à diverses fins, comme l’envoi d’un e-mail ou la mise à jour d’une base de données.
 

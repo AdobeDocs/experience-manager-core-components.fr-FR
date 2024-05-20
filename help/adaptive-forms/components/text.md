@@ -4,13 +4,13 @@ description: Utilisation ou personnalisation du composant principal Texte dans l
 role: Architect, Developer, Admin, User
 exl-id: b8de68e4-ca0d-4ae5-9a04-104cc617f1be
 source-git-commit: c3401da271efd930d1a2711bcab25c29f763f38e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '996'
 ht-degree: 100%
 
 ---
 
-# Composant textuel  {#text-adaptive-forms-core-component}
+# Composant textuel {#text-adaptive-forms-core-component}
 
 Dans un formulaire adaptatif, le texte fait référence au contenu affiché dans le formulaire pour que l’utilisateur ou l’utilisatrice puisse le lire. Vous pouvez ajouter des libellés afin d’étiqueter un groupe d’éléments de formulaire, tels que des champs de texte, ainsi que toute instruction ou information supplémentaire fournie à l’utilisateur ou à l’utilisatrice.
 

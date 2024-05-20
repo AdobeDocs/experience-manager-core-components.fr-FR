@@ -4,15 +4,15 @@ description: Utilisation ou personnalisation du composant principal Bouton de r�
 role: Architect, Developer, Admin, User
 exl-id: e5aa9d89-aece-491e-80a1-7fb9ea6c4b60
 source-git-commit: 58a0f0f2ef6d9dec3ce2436dad954a8a7aca188c
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1491'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
-# Composant de bouton Réinitialiser {#reset-button}
+# Composant de bouton de réinitialisation {#reset-button}
 
-<span class="preview"> Cet article contient du contenu sur la variable   **Autoriser le texte enrichi pour le titre**    fonctionnalité , une fonctionnalité de version préliminaire. La fonctionnalité de version préliminaire n’est accessible que par le biais de notre [canal de version préliminaire](https://experienceleague.adobe.com/fr/docs/experience-manager-cloud-service/content/release-notes/prerelease#new-features).</span>
+<span class="preview"> Cet article contient du contenu sur la fonctionnalité **Autoriser le texte enrichi pour le titre**, une fonctionnalité de version préliminaire. La fonctionnalité de version préliminaire n’est accessible que par le biais de notre [canal de version préliminaire](https://experienceleague.adobe.com/fr/docs/experience-manager-cloud-service/content/release-notes/prerelease#new-features).</span>
 
 Le bouton de réinitialisation d’un formulaire adaptatif est un bouton qui permet aux utilisateurs et utilisatrices d’effacer ou de réinitialiser tous les champs de formulaire avec leurs valeurs par défaut. Lorsque vous cliquez sur le bouton de réinitialisation, toutes les données qui ont été saisies dans les champs du formulaire sont supprimées et les champs reviennent à leur état d’origine. Le bouton de réinitialisation est généralement utilisé à la place du bouton d’envoi et permet aux utilisateurs et utilisatrices de recommencer à zéro s’ils ou elles ont saisi des données incorrectes ou superflues dans le formulaire.
 

@@ -4,15 +4,15 @@ description: Utilisation ou personnalisation du composant principal « Entrée 
 role: Architect, Developer, Admin, User
 exl-id: f6a2974b-991e-4cea-9ef8-0b03e8975eeb
 source-git-commit: 58a0f0f2ef6d9dec3ce2436dad954a8a7aca188c
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2055'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
-# Composant d’entrée de courrier électronique {#Email-input-adaptive-forms-core-component}
+# Composant de saisie d’e-mail {#Email-input-adaptive-forms-core-component}
 
-<span class="preview"> Cet article contient du contenu sur la variable   **Autoriser le texte enrichi pour le titre**    fonctionnalité , une fonctionnalité de version préliminaire. La fonctionnalité de version préliminaire n’est accessible que par le biais de notre [canal de version préliminaire](https://experienceleague.adobe.com/fr/docs/experience-manager-cloud-service/content/release-notes/prerelease#new-features).</span>
+<span class="preview"> Cet article contient du contenu sur la fonctionnalité **Autoriser le texte enrichi pour le titre**, une fonctionnalité de version préliminaire. La fonctionnalité de version préliminaire n’est accessible que par le biais de notre [canal de version préliminaire](https://experienceleague.adobe.com/fr/docs/experience-manager-cloud-service/content/release-notes/prerelease#new-features).</span>
 
 Le composant principal « Entrée d’e-mail » des formulaires adaptatifs est utilisé pour collecter les adresses e-mail des utilisateurs et des utilisatrices. Le champ d’entrée d’e-mail permet au navigateur de vérifier que le format de l’adresse e-mail renseignée est valide. Il est généralement représenté sous la forme d’une zone de texte et comporte des validations de motif pour n’accepter que des adresses e-mail valides. Le champ d’entrée d’e-mail peut être personnalisé de manière plus détaillée avec des attributs supplémentaires tels que « obligatoire », « espace réservé » et « motif » pour définir les validations des données de l’entrée.
 

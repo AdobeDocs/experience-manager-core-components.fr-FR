@@ -4,15 +4,15 @@ description: Utilisation ou personnalisation du composant principal « Liste d�
 role: Architect, Developer, Admin, User
 exl-id: 9d59d0d2-d38f-4ed5-8b43-984c45f26f27
 source-git-commit: 58a0f0f2ef6d9dec3ce2436dad954a8a7aca188c
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2126'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
-# Composant Liste déroulante{#drop-down-list-adaptive-forms-core-component}
+# Composant de liste déroulante{#drop-down-list-adaptive-forms-core-component}
 
-<span class="preview"> Cet article contient du contenu sur la variable   **Autoriser le texte enrichi pour le titre**    fonctionnalité , une fonctionnalité de version préliminaire. La fonctionnalité de version préliminaire n’est accessible que par le biais de notre [canal de version préliminaire](https://experienceleague.adobe.com/fr/docs/experience-manager-cloud-service/content/release-notes/prerelease#new-features).</span>
+<span class="preview"> Cet article contient du contenu sur la fonctionnalité **Autoriser le texte enrichi pour le titre**, une fonctionnalité de version préliminaire. La fonctionnalité de version préliminaire n’est accessible que par le biais de notre [canal de version préliminaire](https://experienceleague.adobe.com/fr/docs/experience-manager-cloud-service/content/release-notes/prerelease#new-features).</span>
 
 Une liste déroulante dans un formulaire adaptatif permet aux utilisateurs et aux utilisatrices de sélectionner une ou plusieurs options dans une liste d’options prédéfinies. Les options peuvent être de type Chaîne, Nombre ou Booléen. De plus, le composant « Liste déroulante » peut être configuré pour avoir différentes valeurs de validation et valeurs par défaut.
 

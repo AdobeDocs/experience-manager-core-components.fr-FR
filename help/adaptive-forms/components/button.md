@@ -4,15 +4,15 @@ description: Utilisation ou personnalisation du composant principal Bouton des f
 role: Architect, Developer, Admin, User
 exl-id: cb75929b-8c86-49d1-b51a-368f5b80b1a9
 source-git-commit: 58a0f0f2ef6d9dec3ce2436dad954a8a7aca188c
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1601'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
 # Composant Bouton {#button-component-adaptive-forms-core-component}
 
-<span class="preview"> Cet article contient du contenu sur la variable   **Autoriser le texte enrichi pour le titre**    fonctionnalité , une fonctionnalité de version préliminaire. La fonctionnalité de version préliminaire n’est accessible que par le biais de notre [canal de version préliminaire](https://experienceleague.adobe.com/fr/docs/experience-manager-cloud-service/content/release-notes/prerelease#new-features).</span>
+<span class="preview"> Cet article contient du contenu sur la fonctionnalité **Autoriser le texte enrichi pour le titre**, une fonctionnalité de version préliminaire. La fonctionnalité de version préliminaire n’est accessible que par le biais de notre [canal de version préliminaire](https://experienceleague.adobe.com/fr/docs/experience-manager-cloud-service/content/release-notes/prerelease#new-features).</span>
 
 Le bouton d’un formulaire adaptatif est un élément de l’interface utilisateur qui permet aux utilisateurs et utilisatrices de déclencher une action lorsqu’ils ou elles cliquent dessus. L’élément bouton peut être utilisé pour envoyer un formulaire, le réinitialiser ou effectuer d’autres actions, comme accéder à une autre page ou déclencher un code personnalisé. Le bouton peut être créé à l’aide du composant principal Bouton.
 
