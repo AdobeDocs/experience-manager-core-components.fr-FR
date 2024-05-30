@@ -4,9 +4,9 @@ description: Le composant Teaser peut afficher une image, un titre, un texte enr
 role: Architect, Developer, Admin, User
 exl-id: ec75e168-6f3b-4dff-8df6-06ca7dc18688
 source-git-commit: 5d2d79c96dc934efd7cccefb1a6a343813376483
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1042'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -33,7 +33,7 @@ Le tableau ci-après présente en détail toutes les versions prises en charge d
 
 ## Prise en charge des ressources distantes {#remote-assets}
 
-Le composant Teaser (à partir de [version 2.23.2](/help/versions.md)) prend en charge les ressources distantes. [Une fois la configuration effectuée,](/help/developing/remote-assets.md) vous pouvez sélectionner des ressources à partir d’un service distant pour votre composant de teaser.
+Le composant Teaser (à partir de la [version 2.23.2](/help/versions.md)) prend en charge les ressources distantes. [Une fois la configuration effectuée,](/help/developing/remote-assets.md) vous pouvez sélectionner des ressources à partir d’un service distant pour votre composant Teaser.
 
 ## Exemple de sortie de composant {#sample-component-output}
 
@@ -82,7 +82,7 @@ Le titre, la description et l’image du teaser peuvent être hérités de la pa
 * **Ressource image** : déposez un fichier depuis l’[explorateur de ressources](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/fundamentals/environment-tools.html?lang=fr) ou appuyez sur l’option **parcourir** pour effectuer un chargement à partir d’un système de fichiers local.
    * Appuyez ou cliquez sur **Effacer** pour désélectionner l’image actuellement sélectionnée.
    * Appuyez ou cliquez sur **Sélectionner** pour ouvrir l’[explorateur de ressources](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/fundamentals/environment-tools.html?lang=fr) et sélectionner une image.
-      * If [Prise en charge des ressources distantes](#remote-assets) est activé, vous disposez de plusieurs options pour sélectionner une ressource :
+      * Si la [Prise en charge des ressources distantes](#remote-assets) est activée, vous disposez de plusieurs options pour sélectionner une ressource :
          * **Locale** permet de sélectionner dans la bibliothèque de ressources AEM locale.
          * **Distante** permet de sélectionner à partir d’une bibliothèque Dynamic Media en dehors de votre instance AEM.
    * Appuyez ou cliquez sur **Modifier** pour [gérer les rendus de la ressource](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/manage/manage-digital-assets.html?lang=fr) dans l’éditeur de ressources.

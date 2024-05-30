@@ -4,9 +4,9 @@ description: Le composant Image des composants principaux est un composant d’i
 role: Architect, Developer, Admin, User
 exl-id: c5e57f4b-139f-40e7-8d79-be9a74360b63
 source-git-commit: 5d2d79c96dc934efd7cccefb1a6a343813376483
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1957'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -55,7 +55,7 @@ Vos expériences web créées avec les composants principaux bénéficient des f
 
 ## Prise en charge des ressources distantes {#remote-assets}
 
-Le composant d’image (à partir de [version 2.23.2](/help/versions.md)) prend en charge les ressources distantes. [Une fois la configuration effectuée,](/help/developing/remote-assets.md) vous pouvez sélectionner des ressources à partir d’un service distant pour votre composant d’image.
+Le composant Image (à partir de la [version 2.23.2](/help/versions.md)) prend en charge les ressources distantes. [Une fois la configuration effectuée,](/help/developing/remote-assets.md) vous pouvez sélectionner des ressources à partir d’un service distant pour votre composant Image.
 
 ## Prise en charge SVG {#svg-support}
 
@@ -85,7 +85,7 @@ Le composant d’image prend en charge les [microdonnées schéma.org](https://s
 
 La boîte de dialogue de modification permet à l’auteur ou l’autrice du contenu de recadrer et de faire un zoom sur l’image.
 
-Selon si vous disposez de la variable [Dynamic Media](#dynamic-media) activé ou [Prise en charge des ressources distantes](#remote-assets) est activée, les options disponibles pour la modification des images diffèrent.
+Selon que [Dynamic Media](#dynamic-media) ou la [Prise en charge des ressources distantes](#remote-assets) sont activés, les options disponibles pour la retouche des images diffèrent.
 
 ### Modification des ressources standards {#standard-assets}
 
@@ -152,7 +152,7 @@ Le composant Image comprend une boîte de dialogue de configuration, qui fournit
    * Déposez une ressource depuis l’[explorateur de ressources](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/sites/authoring/fundamentals/environment-tools.html?lang=fr) ou appuyez sur l’option **Parcourir** pour effectuer un chargement à partir d’un système de fichiers local.
    * Appuyez ou cliquez sur **Effacer** pour désélectionner l’image actuellement sélectionnée.
    * Appuyez ou cliquez sur **Sélectionner** pour ouvrir l’[explorateur de ressources](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/sites/authoring/fundamentals/environment-tools.html?lang=fr) et sélectionner une image.
-      * If [Prise en charge des serveurs distants](#remote-assets) est activé, vous disposez de plusieurs options pour sélectionner une ressource :
+      * Si la [Prise en charge des ressources distantes](#remote-assets) est activée, vous disposez de plusieurs options pour sélectionner une ressource :
          * **Locale** permet de sélectionner dans la bibliothèque de ressources AEM locale.
          * **Distante** permet de sélectionner à partir d’une bibliothèque Dynamic Media en dehors de votre instance AEM.
    * Appuyez ou cliquez sur **Modifier** pour [gérer les rendus de la ressource](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/assets/manage/manage-digital-assets.html?lang=fr) dans l’éditeur de ressources.

@@ -1,34 +1,34 @@
 ---
 title: Prise en charge des ressources distantes
-description: Découvrez comment configurer les composants Image et Teaser des composants principaux pour prendre en charge les ressources distantes à l’aide de Dynamic Media avec OpenAPI.
+description: Découvrez comment configurer les composants Image et Teaser des composants principaux pour prendre en charge les ressources distantes à l’aide de Dynamic Media avec OpenAPI.
 role: Architect, Developer, Admin, User
 exl-id: b462c1f3-a6c8-4a2a-abf4-d08ec82d4371
 source-git-commit: 36ef19d5b29fe21f86309719d1e3f6588e31a93b
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '465'
-ht-degree: 77%
+ht-degree: 100%
 
 ---
 
 
 # Prise en charge des ressources distantes {#remote-assets-support}
 
-Découvrez comment configurer les composants Image et Teaser des composants principaux pour prendre en charge les ressources distantes à l’aide de Dynamic Media avec OpenAPI.
+Découvrez comment configurer les composants Image et Teaser des composants principaux pour prendre en charge les ressources distantes à l’aide de Dynamic Media avec OpenAPI.
 
 >[!NOTE]
 >
->Dynamic Media avec OpenAPI était auparavant connu sous le nom de Dynamic Media de génération suivante. La fonctionnalité et l’utilisation sont identiques.
+>Dynamic Media avec OpenAPI était auparavant connu sous le nom de Dynamic Media de nouvelle génération. La fonctionnalité et l’utilisation sont identiques.
 
 ## Obtenir la dernière version d’AEM {#latest}
 
-La prise en charge des ressources distantes à l’aide de Dynamic Media avec OpenAPI requiert :
+La prise en charge des ressources distantes à l’aide de Dynamic Media avec OpenAPI nécessite les éléments suivants :
 
 * AEM 6.5 SP 18+ ou AEM as a Cloud Service
 * La version 2.23.2 ou ultérieure des composants principaux
 
 ## Configurer le HTTPS {#https}
 
-Il est généralement recommandé d’exécuter toutes vos instances AEM de production avec HTTPS. Toutefois, vos environnements de développement locaux ne sont peut-être pas configurés avec ce protocole. Toutefois, les ressources distantes utilisant Dynamic Media avec OpenAPI nécessitent HTTPS pour fonctionner.
+Il est généralement recommandé d’exécuter toutes vos instances AEM de production avec HTTPS. Toutefois, vos environnements de développement locaux ne sont peut-être pas configurés avec ce protocole. Cependant, les ressources distantes utilisant Dynamic Media avec OpenAPI nécessitent HTTPS pour fonctionner.
 
 [Suivez ce guide](https://experienceleague.adobe.com/docs/experience-manager-learn/foundation/security/use-the-ssl-wizard.html?lang=fr) pour configurer HTTPS partout où vous souhaitez utiliser des ressources distantes, y compris les environnements de développement.
 
@@ -52,7 +52,7 @@ Pour plus d’informations sur la configuration d’OSGi, consultez les document
 
 ## Vérifier la configuration {#verify}
 
-Vous pouvez désormais vérifier que la fonctionnalité des ressources distantes utilisant Dynamic Media avec OpenAPI fonctionne. Pour ce faire, vous pouvez installer l’exemple de site WKND et les composants principaux.
+Vous pouvez désormais vérifier que la fonctionnalité de ressources distantes utilisant Dynamic Media avec OpenAPI fonctionne. Pour ce faire, vous pouvez installer l’exemple de site WKND et les composants principaux.
 
 * La version 2.23.2 ou ultérieure des [composants principaux](https://github.com/adobe/aem-core-wcm-components/releases/download/core.wcm.components.reactor-2.23.2/core.wcm.components.all-2.23.2.zip) est requise.
 * La version 3.2.0 ou ultérieure de l’[exemple de site WKND](https://github.com/adobe/aem-guides-wknd/releases/download/aem-guides-wknd-3.2.0/aem-guides-wknd.all-3.2.0-classic.zip) est requise.
