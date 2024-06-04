@@ -3,16 +3,14 @@ title: Composant principal des formulaires adaptatifs - Entrée de nombre
 description: Utilisation ou personnalisation du composant principal « Entrée de nombre » dans les formulaires adaptatifs.
 role: Architect, Developer, Admin, User
 exl-id: 75604ecf-1ec5-4e97-b934-d6ed49726147
-source-git-commit: 58a0f0f2ef6d9dec3ce2436dad954a8a7aca188c
-workflow-type: ht
-source-wordcount: '2104'
-ht-degree: 100%
+source-git-commit: 4c510b8fe59f4be6e1b329ee4257ab1b780fbf22
+workflow-type: tm+mt
+source-wordcount: '2163'
+ht-degree: 98%
 
 ---
 
 # Composant de zone numérique{#number-input-adaptive-forms-core-component}
-
-<span class="preview"> Cet article contient du contenu sur la fonctionnalité **Autoriser le texte enrichi pour le titre**, une fonctionnalité de version préliminaire. La fonctionnalité de version préliminaire n’est accessible que par le biais de notre [canal de version préliminaire](https://experienceleague.adobe.com/fr/docs/experience-manager-cloud-service/content/release-notes/prerelease#new-features).</span>
 
 Dans un formulaire adaptatif, un composant « entrée de nombre » est un type de champ de formulaire qui permet aux utilisateurs et utilisatrices de saisir des valeurs numériques. Le composant est généralement représenté par un champ de texte avec une flèche vers le haut et vers le bas pour incrémenter et décrémenter le nombre.
 
@@ -117,7 +115,12 @@ Vous pouvez facilement personnaliser l’expérience d’entrée de nombre pour 
 
 ![Onglet Accessibilité](/help/adaptive-forms/assets/numberinput_accessibility.png)
 
-**Texte pour les lecteurs d’écran** : le texte destiné aux lecteurs d’écran fait référence à un texte supplémentaire conçu pour être lu par les technologies d’assistance, comme les lecteurs d’écran, utilisées par les personnes malvoyantes. Ce texte fournit une description audio de l’objectif du champ de formulaire et peut inclure des informations sur le titre, la description, le nom du champ et tout message pertinent (texte personnalisé). Le texte du lecteur d’écran permet de s’assurer que le formulaire est accessible à tous les utilisateurs et utilisatrices, y compris celles et ceux ayant une déficience visuelle, et leur permet de bien comprendre le champ du formulaire et ses exigences.
+- **Texte pour les lecteurs d’écran** : le texte destiné aux lecteurs d’écran fait référence à un texte supplémentaire conçu pour être lu par les technologies d’assistance, comme les lecteurs d’écran, utilisées par les personnes malvoyantes. Ce texte fournit une description audio de l’objectif du champ de formulaire et peut inclure des informations sur le titre, la description, le nom du champ et tout message pertinent (texte personnalisé). Le texte du lecteur d’écran permet de s’assurer que le formulaire est accessible à tous les utilisateurs et utilisatrices, y compris celles et ceux ayant une déficience visuelle, et leur permet de bien comprendre le champ du formulaire et ses exigences.
+   - **Texte personnalisé** : sélectionnez cette option pour utiliser le texte personnalisé pour les libellés d’accessibilité ARIA. Cette option affiche la boîte de dialogue Texte personnalisé. Vous pouvez ajouter des informations pertinentes dans la boîte de dialogue Texte personnalisé.
+   - **Description** : sélectionnez cette option pour utiliser la description des libellés d’accessibilité ARIA.
+   - **Titre** : sélectionnez cette option pour utiliser le titre pour les libellés d’accessibilité ARIA.
+   - **Nom** : sélectionnez cette option pour utiliser le nom pour les libellés d’accessibilité ARIA.
+   - **Aucun** : sélectionnez cette option si vous ne souhaitez pas ajouter de texte supplémentaire pour les libellés d’accessibilité ARIA.
 
 ### Onglet Formats {#formats-configure-tab}
 
@@ -131,7 +134,7 @@ Vous pouvez facilement personnaliser l’expérience d’entrée de nombre pour 
 
 ## Boîte de dialogue de conception {#design-dialog}
 
-La boîte de dialogue de conception permet de définir et de gérer les styles CSS pour le composant Entrée de nombre.
+La boîte de dialogue de conception permet de définir et de gérer les styles CSS du composant Zone numérique.
 
 ### Onglet Styles {#styles-tab}
 
@@ -139,7 +142,7 @@ Cet onglet vous permet de définir et de gérer les styles CSS d’un composant.
 
 ![Onglet Styles.](/help/adaptive-forms/assets/datepicker_styletab.png)
 
-- **Classes CSS par défaut** : vous pouvez fournir une classe CSS par défaut pour le composant principal Entrée de nombre des formulaires adaptatifs.
+- **Classes CSS par défaut**: vous pouvez fournir une classe CSS par défaut pour le composant principal Zone numérique de Forms adaptatif.
 
 - **Styles autorisés** : vous pouvez définir des styles en fournissant un nom et la classe CSS qui représente le style. Par exemple, vous pouvez créer un style nommé « texte en gras » et fournir la classe CSS « police d’épaisseur : gras ». Vous pouvez utiliser ou appliquer ces styles à un formulaire adaptatif dans l’éditeur de formulaires adaptatifs. Pour appliquer un style, sélectionnez le composant auquel vous souhaitez appliquer le style dans l’éditeur de formulaires adaptatifs, accédez à la boîte de dialogue Propriétés, puis sélectionnez le style de votre choix dans la liste déroulante **Styles**. Si vous devez mettre à jour ou modifier les styles, revenez simplement à la boîte de dialogue Conception, mettez à jour les styles dans l’onglet Styles et enregistrez les modifications.
 

@@ -1,7 +1,7 @@
 ---
-source-git-commit: efc42e6c615987a1d85abe18b650ac23a6d84bf6
-workflow-type: ht
-source-wordcount: '211'
+source-git-commit: 46278a9b0f5e548297db3d6fcc42acde67eabf47
+workflow-type: tm+mt
+source-wordcount: '214'
 ht-degree: 100%
 
 ---
@@ -57,29 +57,30 @@ ht-degree: 100%
 ## Sites connexes {#more-like-this}
 
 - [Accordéon](/help/adaptive-forms/components/accordion.md)
+- [Fragments de formulaire adaptatif](/help/adaptive-forms/components/adaptive-form-fragment.md)
+- [reCAPTCHA du formulaire adaptatif](/help/adaptive-forms/components/adaptive-form-recaptcha.md)
 - [Bouton](/help/adaptive-forms/components/button.md)
 - [Groupe de cases à cocher](/help/adaptive-forms/components/checkbox-group.md)
 - [Case à cocher](/help/adaptive-forms/components/checkbox.md)
 - [Sélecteur de date](/help/adaptive-forms/components/date-picker.md)
 - [Liste déroulante](/help/adaptive-forms/components/drop-down-list.md)
-- [Entrée d’e-mail](/help/adaptive-forms/components/email-input.md)
+- [E-mail](/help/adaptive-forms/components/email.md)
 - [Conteneur de formulaires](/help/adaptive-forms/components/form-container.md)
+- [Titre du formulaire](/help/adaptive-forms/components/form-title.md)
 - [Pièce jointe](/help/adaptive-forms/components/file-attachment.md)
-- [Fragments de formulaire adaptatif](/help/adaptive-forms/components/adaptive-form-fragment.md)
 - [Pied de page](/help/adaptive-forms/components/footer.md)
 - [En-tête](/help/adaptive-forms/components/header.md)
 - [Image](/help/adaptive-forms/components/image.md)
 - [Zone numérique](/help/adaptive-forms/components/numeric-box.md)
 - [Panneau](/help/adaptive-forms/components/panel.md)
+- [Téléphone](/help/adaptive-forms/components/phone.md)
 - [Onglet horizontal](/help/adaptive-forms/components/horizontal-tabs.md)
 - [Onglet vertical](/help/adaptive-forms/components/vertical-tabs.md)
 - [Bouton radio](/help/adaptive-forms/components/radio-button.md)
 - [Bouton de réinitialisation](/help/adaptive-forms/components/reset-button.md)
 - [Bouton Envoyer](/help/adaptive-forms/components/submit-button.md)
-- [Entrée téléphonique](/help/adaptive-forms/components/telephone-input.md)
 - [Zone de texte](/help/adaptive-forms/components/text-box.md)
 - [Texte](/help/adaptive-forms/components/text.md)
-- [Titre](/help/adaptive-forms/components/title.md)
 - [Onglet Conditions générales](/help/adaptive-forms/components/terms-and-conditions.md)
 - [Assistant](/help/adaptive-forms/components/wizard.md)
 

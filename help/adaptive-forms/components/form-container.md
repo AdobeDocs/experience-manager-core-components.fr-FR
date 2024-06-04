@@ -3,10 +3,10 @@ title: Composant principal de formulaires adaptatifs - Conteneur de formulaires
 description: Ajoutez un formulaire adaptatif à une page Web.
 role: Architect, Developer, Admin, User
 exl-id: 03c4cf7c-51d6-4850-a566-1c0514d52dab
-source-git-commit: e843ccf5c030cd4f1015e3290347b5799828537a
-workflow-type: ht
-source-wordcount: '1340'
-ht-degree: 100%
+source-git-commit: 8bba79956a04020647d5d04f9fe6fa674affedf1
+workflow-type: tm+mt
+source-wordcount: '1341'
+ht-degree: 97%
 
 ---
 
@@ -99,7 +99,7 @@ La boîte de dialogue de conception permet de définir et de gérer les styles C
 
 ![Onglet Composant autorisé de la boîte de dialogue de conception](/help/adaptive-forms/assets/formcontainer-allowedcomponents.png)
 
-L’onglet **Composants autorisés** permet à l’éditeur de modèles de définir les composants qui peuvent être ajoutés en tant qu’éléments aux panneaux dans le composant de l’éditeur de formulaires adaptatifs.
+La variable **Composants autorisés** Cet onglet permet à l’éditeur de modèles de définir les composants qui peuvent être ajoutés en tant qu’éléments aux panneaux du composant dans l’éditeur de Forms adaptatif.
 
 ### Onglet Composants par défaut {#default-components-tab}
 
