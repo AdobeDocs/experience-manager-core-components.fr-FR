@@ -3,9 +3,9 @@ title: Composant principal Adaptive Forms - Entrée téléphone, Téléphone
 description: Utilisation ou personnalisation du composant principal « Entrée téléphonique » dans les formulaires adaptatifs.
 role: Architect, Developer, Admin, User
 exl-id: d06179ac-04bd-4af4-b6ac-c4c78086058c
-source-git-commit: 4c510b8fe59f4be6e1b329ee4257ab1b780fbf22
+source-git-commit: b4a66a407e92398a98441c65ab588b9720777dfa
 workflow-type: tm+mt
-source-wordcount: '2198'
+source-wordcount: '2197'
 ht-degree: 97%
 
 ---
@@ -13,7 +13,7 @@ ht-degree: 97%
 
 # Composant Phone{#telephone-input-adaptive-forms-core-component}
 
-Le composant principal « Entrée téléphonique » des formulaires adaptatifs permet aux utilisateurs et utilisatrices de saisir un numéro de téléphone. Le champ « Entrée téléphonique » affiche les claviers sur les appareils mobiles qui correspondent aux numéros de téléphone. Il peut être personnalisé avec des attributs supplémentaires tels que « motif » et « espace réservé » pour spécifier le format et la description du numéro de téléphone.
+Le composant principal Téléphone du formulaire adaptatif permet aux utilisateurs de saisir un numéro de téléphone. Le champ « Entrée téléphonique » affiche les claviers sur les appareils mobiles qui correspondent aux numéros de téléphone. Il peut être personnalisé avec des attributs supplémentaires tels que « motif » et « espace réservé » pour spécifier le format et la description du numéro de téléphone.
 
 Le champ d’entrée téléphonique est généralement utilisé dans les formulaires de contact, les formulaires d’inscription et d’autres formulaires où un numéro de téléphone est requis comme moyen de cotnact. Le champ d’entrée téléphonique peut également être utilisé pour s’assurer que l’utilisateur ou l’utilisatrice saisit un numéro de téléphone valide, car le navigateur peut imposer certaines contraintes, telles que la longueur et le format du numéro de téléphone, en fonction de l’attribut « motif ».
 
