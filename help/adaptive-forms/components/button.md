@@ -4,13 +4,13 @@ description: Utilisation ou personnalisation du composant principal Bouton des f
 role: Architect, Developer, Admin, User
 exl-id: cb75929b-8c86-49d1-b51a-368f5b80b1a9
 source-git-commit: 4c510b8fe59f4be6e1b329ee4257ab1b780fbf22
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1660'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
-# Composant de bouton {#button-component-adaptive-forms-core-component}
+# Composant Bouton {#button-component-adaptive-forms-core-component}
 
 Le bouton d’un formulaire adaptatif est un élément de l’interface utilisateur qui permet aux utilisateurs et utilisatrices de déclencher une action lorsqu’ils ou elles cliquent dessus. L’élément bouton peut être utilisé pour envoyer un formulaire, le réinitialiser ou effectuer d’autres actions, comme accéder à une autre page ou déclencher un code personnalisé. Le bouton peut être créé à l’aide du composant principal Bouton.
 
@@ -65,11 +65,11 @@ Vous pouvez facilement personnaliser l’expérience visiteur du bouton à l’a
 
 ![Onglet De base](/help/adaptive-forms/assets/button_basictab.png)
 
-- **Nom** - Vous pouvez identifier facilement un composant de formulaire avec son nom unique aussi bien dans le formulaire et dans l’éditeur de règles, mais le nom ne doit pas contenir d’espaces ni de caractères spéciaux.
+- **Nom** - Vous pouvez identifier facilement un composant de formulaire en lui attribuant un nom unique dans le formulaire et dans l’éditeur de règles, mais le nom ne doit pas contenir d’espaces ni de caractères spéciaux.
 
 - **Titre** - Avec son titre, vous pouvez facilement identifier un composant dans un formulaire. Par défaut, le titre s’affiche au-dessus du composant. Si vous n’ajoutez pas de titre, le nom du composant s’affiche à la place du texte du titre.
 
-- **Autoriser le texte enrichi pour le titre** : cette fonctionnalité permet aux personnes de mettre en forme les titres en texte brut en y incorporant des fonctionnalités telles que le texte en gras, en italique et souligné, diverses polices, tailles de police et couleurs, et d’autres options pour améliorer la présentation visuelle et la personnalisation. Elle offre une plus grande flexibilité et un contrôle créatif pour faire ressortir les titres dans les documents, sites web ou applications.\
+- **Autoriser le texte enrichi pour le titre** - Cette fonctionnalité permet aux personnes de mettre en forme les titres en texte brut en y incorporant des fonctionnalités telles que le texte en gras, en italique et souligné, diverses polices, tailles de police et couleurs, et d’autres options pour améliorer la présentation visuelle et la personnalisation. Elle offre une plus grande flexibilité et un contrôle créatif pour faire ressortir les titres dans les documents, sites web ou applications.\
   Lorsque vous cochez la case **Autoriser le texte enrichi pour le titre**, les options de formatage deviennent visibles pour appliquer un style au titre du composant. Pour accéder à toutes les options de formatage disponibles, vous pouvez cliquer sur l’onglet ![Fullscreen icon](/help/adaptive-forms/assets/fullscreen-icon.png).
 
   ![Prise en charge de texte enrichi](/help/adaptive-forms/assets/richtext-support-title.png)

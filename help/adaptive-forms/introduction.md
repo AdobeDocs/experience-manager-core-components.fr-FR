@@ -4,7 +4,7 @@ description: Créez des expériences d’inscription attrayantes (formulaires) g
 role: Architect, Developer, Admin, User
 exl-id: 6d0f2845-bbb8-4488-a254-b69d7a6290b1
 source-git-commit: 4b05fb9d8db515289095f4d3c6a4efbe872dbde5
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2229'
 ht-degree: 100%
 
@@ -80,7 +80,7 @@ La version actuelle d’AEM Forms comporte les composants principaux suivants 
 | Fragment de formulaire adaptatif | ✔️ | ✔️ | | Pour les composants de base, vous pouvez [ajouter un fragment](https://experienceleague.adobe.com/fr/docs/experience-manager-65/content/forms/adaptive-forms-basic-authoring/adaptive-form-fragments#insert-a-fragment-in-an-adaptive-form) à partir de l’explorateur de ressources. |
 | reCAPTCHA du formulaire adaptatif | ✔️ | ✔️ | ✔️ | Pour les composants de base, utilisez le composant Captcha pour [ajouter Google reCaptcha à un formulaire](https://experienceleague.adobe.com/fr/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-foundation-components/add-components-to-an-adaptive-form/captcha-adaptive-forms#google-reCAPTCHA). |
 | Bouton | ✔️ | <span style="color:blue">[✔️](/help/adaptive-forms/components/button.md)</span> | ✔️ | |
-| CAPTCHA | ✔️ |  |  | Pour les composants de base, utilisez le composant Captcha pour [ajouter Google reCaptcha à un formulaire](https://experienceleague.adobe.com/fr/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-foundation-components/add-components-to-an-adaptive-form/captcha-adaptive-forms#google-reCAPTCHA). |
+| Captcha | ✔️ |  |  | Pour les composants de base, utilisez le composant Captcha pour [ajouter Google reCaptcha à un formulaire](https://experienceleague.adobe.com/fr/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-foundation-components/add-components-to-an-adaptive-form/captcha-adaptive-forms#google-reCAPTCHA). |
 | Graphique | ✔️ | | | |
 | Case à cocher | ✔️ | ✔️ | | |
 | Groupe de cases à cocher | ✔️ | <span style="color:blue">[✔️](/help/adaptive-forms/components/checkbox-group.md)</span> | ✔️ | Pour les composants de base, utilisez le composant de case à cocher pour ajouter plusieurs cases à cocher. |
@@ -92,7 +92,7 @@ La version actuelle d’AEM Forms comporte les composants principaux suivants 
 | Liste des pièces jointes | ✔️ | | | |
 | Pied de page | ✔️ | <span style="color:blue">[✔️](/help/adaptive-forms/components/footer.md)</span> | ✔️ | |
 | Espace réservé de note de bas de page | ✔️ | | | |
-| Conteneur de formulaires | ✔️ | <span style="color:blue">[✔️](/help/adaptive-forms/components/form-container.md)</span> | ✔️ | Pour les composants de base, utilisez le [composant de panneau racine](https://experienceleague.adobe.com/fr/docs/experience-manager-learn/cloud-service/forms/create-first-af/configure-root-panel). |
+| Conteneur de formulaire | ✔️ | <span style="color:blue">[✔️](/help/adaptive-forms/components/form-container.md)</span> | ✔️ | Pour les composants de base, utilisez le [composant de panneau racine](https://experienceleague.adobe.com/fr/docs/experience-manager-learn/cloud-service/forms/create-first-af/configure-root-panel). |
 | Titre du formulaire | ✔️ | ✔️ | | Pour les composants de base, utilisez le composant de titre. |
 | hCaptcha | ✔️ | <span style="color:blue">[✔️](/help/adaptive-forms/components/hcaptcha.md)</span> |  | |
 | En-tête | ✔️ | <span style="color:blue">[✔️](/help/adaptive-forms/components/header.md)</span> | ✔️ | |

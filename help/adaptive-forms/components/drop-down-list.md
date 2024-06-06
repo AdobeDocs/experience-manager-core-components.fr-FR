@@ -4,9 +4,9 @@ description: Utilisation ou personnalisation du composant principal « Liste d�
 role: Architect, Developer, Admin, User
 exl-id: 9d59d0d2-d38f-4ed5-8b43-984c45f26f27
 source-git-commit: 4c510b8fe59f4be6e1b329ee4257ab1b780fbf22
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2185'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -15,7 +15,7 @@ ht-degree: 99%
 Une liste déroulante dans un formulaire adaptatif permet aux utilisateurs et aux utilisatrices de sélectionner une ou plusieurs options dans une liste d’options prédéfinies. Les options peuvent être de type Chaîne, Nombre ou Booléen. De plus, le composant « Liste déroulante » peut être configuré pour avoir différentes valeurs de validation et valeurs par défaut.
 
 **Exemple**
-![Exemple.](/help/adaptive-forms/assets/drop-down-list.png)
+![exemple](/help/adaptive-forms/assets/drop-down-list.png)
 
 ## Utilisation {#reasons-to-use-drop-down-list}
 
@@ -65,10 +65,10 @@ Vous pouvez facilement personnaliser l’expérience des visiteurs et des visite
 
 ![Onglet De base](/help/adaptive-forms/assets/dropdown_basictab.png)
 
-- **Nom** - Vous pouvez identifier facilement un composant de formulaire avec son nom unique à la fois dans le formulaire et dans l’éditeur de règles, mais le nom ne doit pas contenir d’espaces ni de caractères spéciaux.
+- **Nom** - Vous pouvez identifier facilement un composant de formulaire en lui attribuant un nom unique dans le formulaire et dans l’éditeur de règles, mais le nom ne doit pas contenir d’espaces ni de caractères spéciaux.
 
 - **Titre** - Avec son titre, vous pouvez facilement identifier un composant dans un formulaire. Par défaut, le titre s’affiche au-dessus du composant. Si vous n’ajoutez pas de titre, le nom du composant s’affiche à la place du texte du titre.
-- **Autoriser le texte enrichi pour le titre** : cette fonctionnalité permet aux personnes de mettre en forme les titres en texte brut en y incorporant des fonctionnalités telles que le texte en gras, en italique et souligné, diverses polices, tailles de police et couleurs, et d’autres options pour améliorer la présentation visuelle et la personnalisation. Elle offre une plus grande flexibilité et un contrôle créatif pour faire ressortir les titres dans les documents, sites web ou applications.\
+- **Autoriser le texte enrichi pour le titre** - Cette fonctionnalité permet aux personnes de mettre en forme les titres en texte brut en y incorporant des fonctionnalités telles que le texte en gras, en italique et souligné, diverses polices, tailles de police et couleurs, et d’autres options pour améliorer la présentation visuelle et la personnalisation. Elle offre une plus grande flexibilité et un contrôle créatif pour faire ressortir les titres dans les documents, sites web ou applications.\
   Lorsque vous cochez la case **Autoriser le texte enrichi pour le titre**, les options de formatage deviennent visibles pour appliquer un style au titre du composant. Pour accéder à toutes les options de formatage disponibles, vous pouvez cliquer sur l’onglet ![Fullscreen icon](/help/adaptive-forms/assets/fullscreen-icon.png).
 
   ![Prise en charge de texte enrichi](/help/adaptive-forms/assets/richtext-support-title.png)
@@ -108,7 +108,7 @@ Vous pouvez facilement personnaliser l’expérience des visiteurs et des visite
 
 - **Obligatoire** : Sélectionnez cette option si vous souhaitez afficher le composant dans un formulaire adaptatif. Après avoir sélectionné cette option, vous devez effectuer une sélection avant de poursuivre l’envoi du formulaire. Vous ne pouvez pas sélectionner **Masquer le composant** ou **Désactiver le composant**  dans l’onglet **De base** lorsque cette option est sélectionnée.
 
-- **Message d’erreur** : Cette option vous permet de saisir un message qui s’affiche si la case à cocher **Obligatoire** est cochée et que le champ de formulaire reste vide.
+- **Message d’erreur** : cette option vous permet de rédiger un message qui s’affiche si la case à cocher **Obligatoire** est activée et le champ de formulaire reste vide.
 
 - **Message de validation de script** : cette option permet de saisir un message à afficher en cas d’échec de la validation du script.
 

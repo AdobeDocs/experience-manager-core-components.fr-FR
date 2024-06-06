@@ -4,13 +4,13 @@ description: Utilisation ou personnalisation du composant principal « Image �
 role: Architect, Developer, Admin, User
 exl-id: 9ee42d5d-16e3-4973-8364-5bc512ebe72e
 source-git-commit: 8bba79956a04020647d5d04f9fe6fa674affedf1
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1058'
 ht-degree: 100%
 
 ---
 
-# Composant d’image{#image-adaptive-forms-core-component}
+# Composant Image{#image-adaptive-forms-core-component}
 
 Un composant « Image » dans un formulaire adaptatif permet d’inclure des images dans un formulaire. Ces images peuvent être utilisées pour améliorer la conception globale du formulaire, fournir des informations supplémentaires ou servir d’aide visuelle pour aider les utilisateurs et les utilisatrices à comprendre l’objectif du formulaire. Le composant « Image » peut être utilisé pour ajouter un logo, une photo ou un graphique dans le formulaire.
 
@@ -59,7 +59,7 @@ Vous pouvez facilement personnaliser l’expérience d’image pour les visiteur
 
 ![Onglet Propriétés](/help/adaptive-forms/assets/image_properties.png)
 
-- **Nom** - Vous pouvez identifier facilement un composant de formulaire avec son nom unique à la fois dans le formulaire et dans l’éditeur de règles, mais le nom ne doit pas contenir d’espaces ni de caractères spéciaux.
+- **Nom** - Vous pouvez identifier facilement un composant de formulaire en lui attribuant un nom unique dans le formulaire et dans l’éditeur de règles, mais le nom ne doit pas contenir d’espaces ni de caractères spéciaux.
 
 - **Titre** - Avec son titre, vous pouvez facilement identifier un composant dans un formulaire. Par défaut, le titre s’affiche au-dessus du composant. Si vous n’ajoutez pas de titre, le nom du composant s’affiche à la place du texte du titre.
 

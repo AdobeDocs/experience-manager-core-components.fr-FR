@@ -4,13 +4,13 @@ description: Utilisation ou personnalisation du composant principal « Titre �
 role: Architect, Developer, Admin, User
 exl-id: 33eac885-8d66-4a5c-9a32-0ba11e6de293
 source-git-commit: 8bba79956a04020647d5d04f9fe6fa674affedf1
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '866'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
-# Composant de titre de formulaire{#title-input-adaptive-forms-core-component}
+# Composant Titre du formulaire{#title-input-adaptive-forms-core-component}
 
 Dans un formulaire adaptatif, un « titre » fait référence au texte qui s’affiche en haut du formulaire, généralement sous l’en-tête. Le titre est spécifié à l’aide du composant Titre. Ce composant peut être ajouté à la disposition du formulaire et son texte peut être modifié pour correspondre à l’objectif ou au sujet du formulaire. Le titre sert de libellé ou de brève description du formulaire pour l’utilisateur ou l’utilisatrice et permet de distinguer le formulaire des autres.
 
@@ -72,7 +72,7 @@ La boîte de dialogue de modification permet au créateur ou à la créatrice de
 
 ## Boîte de dialogue de conception {#design-dialog}
 
-L’onglet Conception permet de définir et de gérer les styles CSS du composant de titre de formulaire.
+L’onglet Conception permet de définir et de gérer les styles CSS du composant Titre du formulaire.
 
 ### Titre
 

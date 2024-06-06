@@ -4,13 +4,13 @@ description: Utilisation ou personnalisation du composant principal Commutateur 
 role: Architect, Developer, Admin, User
 exl-id: 6ff2ca76-1514-42eb-bde3-60259af2d187
 source-git-commit: 4c510b8fe59f4be6e1b329ee4257ab1b780fbf22
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1922'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
-# Composant de basculement de formulaire adaptatif{#switch-adaptive-forms-core-component}
+# Composant Commutateur du formulaire adaptatif{#switch-adaptive-forms-core-component}
 
 Le composant de commutateur est une interface utilisateur graphique utilisée dans les formulaires qui permet aux utilisateurs et utilisatrices de choisir entre deux options. Il s’agit généralement d’un bouton (bascule) à deux états qui permet aux utilisateurs et aux utilisatrices de choisir entre deux états, permettant d’activer ou de désactiver une fonction, un paramètre ou une fonctionnalité. Le composant de commutateur est conçu pour représenter visuellement l’état actuel et indiquer si une fonction particulière est activée ou désactivée.
 
@@ -87,7 +87,7 @@ Vous pouvez facilement personnaliser l’expérience du composant Commutateur po
 
 - **Désactiver le composant** – Sélectionnez cette option pour désactiver le composant. Le composant désactivé n’est pas actif ni modifiable par l’utilisateur final ou l’utilisatrice finale. L’utilisateur ou l’utilisatrice peut voir la valeur du champ mais ne peut pas la modifier. Le composant reste accessible à d’autres fins, par exemple pour les calculs dans l’éditeur de règles.
 
-- **Valeur par défaut** – Cette option vous permet d’ajouter une valeur par défaut dans un champ de formulaire. Si **Composant désactivé** ou **Composant en lecture seule** est sélectionné, la valeur par défaut s’affiche à l’écran. Si aucune valeur n’est saisie par l’utilisateur dans le champ de formulaire, cette valeur est envoyée au moment de l’envoi du formulaire.
+- **Valeur par défaut** – Cette option vous permet d’ajouter une valeur par défaut dans un champ de formulaire. Si **Composant désactivé** ou **Composant en lecture seule** est sélectionné, la valeur par défaut s’affiche à l’écran. Si aucune valeur n’est saisie par l’utilisateur ou l’utilisatrice dans le champ de formulaire, cette valeur est envoyée au moment de l’envoi du formulaire.
 
 ### Onglet Validation {#validation-tab}
 
@@ -95,7 +95,7 @@ Vous pouvez facilement personnaliser l’expérience du composant Commutateur po
 
 - **Obligatoire** : Sélectionnez cette option si vous souhaitez afficher le composant dans un formulaire adaptatif. Après avoir sélectionné cette option, vous devez effectuer une sélection avant de poursuivre l’envoi du formulaire. Vous ne pouvez pas sélectionner **Masquer le composant** ou **Désactiver le composant**  dans l’onglet **De base** lorsque cette option est sélectionnée.
 
-- **Message d’erreur** : Cette option vous permet de saisir un message qui s’affiche si la case à cocher **Obligatoire** est cochée et que le champ de formulaire reste vide.
+- **Message d’erreur** : cette option vous permet de rédiger un message qui s’affiche si la case à cocher **Obligatoire** est activée et le champ de formulaire reste vide.
 
 - **Message de validation de script** : cette option permet de saisir un message à afficher en cas d’échec de la validation du script.
 
@@ -138,7 +138,7 @@ Le composant principal Commutateur des formulaires adaptatifs prend en charge le
 
 ![Boîte de dialogue de conception.](/help/adaptive-forms/assets/checkbox-style.png)
 
-- **Classes CSS par défaut**: vous pouvez fournir une classe CSS par défaut pour le composant principal Switch de Forms adaptatif.
+- **Classes CSS par défaut** : vous pouvez fournir une classe CSS par défaut pour le composant principal Commutateur des formulaires adaptatifs.
 
 - **Styles autorisés** : vous pouvez définir des styles en fournissant un nom et la classe CSS qui représente le style. Par exemple, vous pouvez créer un style nommé « texte en gras » et fournir la classe CSS « police d’épaisseur : gras ». Vous pouvez utiliser ou appliquer ces styles à un formulaire adaptatif dans l’éditeur de formulaires adaptatifs. Pour appliquer un style, sélectionnez le composant auquel vous souhaitez appliquer le style dans l’éditeur de formulaires adaptatifs, accédez à la boîte de dialogue Propriétés, puis sélectionnez le style de votre choix dans la liste déroulante **Styles**. Si vous devez mettre à jour ou modifier les styles, revenez simplement à la boîte de dialogue Conception, mettez à jour les styles dans l’onglet Styles et enregistrez les modifications.
 

@@ -4,13 +4,13 @@ description: Utilisation ou personnalisation du composant principal de case à c
 role: Architect, Developer, Admin, User
 exl-id: c6ca4800-bd10-4aeb-957a-fb1780cf94f3
 source-git-commit: 4c510b8fe59f4be6e1b329ee4257ab1b780fbf22
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1836'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
-# Composant de case à cocher{#checkbox-component}
+# Composant Case à cocher{#checkbox-component}
 
 Une case à cocher est un élément d’interface utilisateur graphique généralement utilisé dans les applications logicielles et les formulaires pour permettre aux personnes d’effectuer un choix binaire entre deux options : cochée (sélectionnée) ou non cochée (désélectionnée).
 
@@ -83,7 +83,7 @@ Vous pouvez facilement personnaliser l’expérience des cases à cocher pour le
 - **Conserver la valeur de l’état décochée** – Sélectionnez cette option pour spécifier la valeur à renvoyer lorsque le composant de case à cocher n’est pas sélectionné. Si l’option **Conserver la valeur de l’état décochée** est activée ou définie sur true, l’option **Lorsque cette case est décochée, valeur renvoyée** s’affiche.
 - **Lorsque cette case est décochée, valeur renvoyée** – Cette option vous permet de spécifier la valeur à associer à la case lorsqu’elle n’est pas cochée ou sélectionnée.
 
-- **Valeur par défaut** – Cette option vous permet d’ajouter une valeur par défaut dans un champ de formulaire. If **Désactiver le composant** est sélectionnée, la valeur par défaut s’affiche à l’écran. Si aucune valeur n’est saisie par l’utilisateur dans le champ de formulaire, cette valeur est envoyée au moment de l’envoi du formulaire.
+- **Valeur par défaut** – Cette option vous permet d’ajouter une valeur par défaut dans un champ de formulaire. Si **Désactiver le composant** est sélectionné, la valeur par défaut s’affiche à l’écran. Si aucune valeur n’est saisie par l’utilisateur ou l’utilisatrice dans le champ de formulaire, cette valeur est envoyée au moment de l’envoi du formulaire.
 
 ### Onglet Validation {#validation-tab}
 
@@ -91,7 +91,7 @@ Vous pouvez facilement personnaliser l’expérience des cases à cocher pour le
 
 - **Obligatoire** : Sélectionnez cette option si vous souhaitez afficher le composant dans un formulaire adaptatif. Après avoir sélectionné cette option, vous devez effectuer une sélection avant de poursuivre l’envoi du formulaire. Vous ne pouvez pas sélectionner **Masquer le composant** ou **Désactiver le composant**  dans l’onglet **De base** lorsque cette option est sélectionnée.
 
-- **Message d’erreur** : Cette option vous permet de saisir un message qui s’affiche si la case à cocher **Obligatoire** est cochée et que le champ de formulaire reste vide.
+- **Message d’erreur** : cette option vous permet de rédiger un message qui s’affiche si la case à cocher **Obligatoire** est activée et le champ de formulaire reste vide.
 - **Message de validation de script** : cette option permet de saisir un message à afficher en cas d’échec de la validation du script.
 
 ### Onglet Contenu de l’aide {#helpcontent-tab}

@@ -1,6 +1,6 @@
 ---
 source-git-commit: 46278a9b0f5e548297db3d6fcc42acde67eabf47
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '214'
 ht-degree: 100%
 
@@ -65,7 +65,7 @@ ht-degree: 100%
 - [Sélecteur de date](/help/adaptive-forms/components/date-picker.md)
 - [Liste déroulante](/help/adaptive-forms/components/drop-down-list.md)
 - [E-mail](/help/adaptive-forms/components/email.md)
-- [Conteneur de formulaires](/help/adaptive-forms/components/form-container.md)
+- [Conteneur de formulaire](/help/adaptive-forms/components/form-container.md)
 - [Titre du formulaire](/help/adaptive-forms/components/form-title.md)
 - [Pièce jointe](/help/adaptive-forms/components/file-attachment.md)
 - [Pied de page](/help/adaptive-forms/components/footer.md)

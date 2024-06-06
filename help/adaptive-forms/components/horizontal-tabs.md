@@ -4,13 +4,13 @@ description: Utilisation ou personnalisation du composant principal des onglets 
 role: Architect, Developer, Admin, User
 exl-id: fbdf330b-3b85-4f94-9dab-eea8465fba67
 source-git-commit: 4c510b8fe59f4be6e1b329ee4257ab1b780fbf22
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2153'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
-# Composant Onglets horizontaux (onglets en haut){#horizontal-tabs-adaptive-forms-core-component}
+# Composant Onglets horizontaux (onglets supérieurs){#horizontal-tabs-adaptive-forms-core-component}
 
 Les onglets horizontaux d’un formulaire adaptatif font référence à un modèle de conception dans lequel plusieurs sections d’un formulaire sont regroupées et affichées sous la forme d’onglets distincts, alignés horizontalement. L’utilisateur ou l’utilisatrice peut basculer entre les onglets pour accéder aux différentes sections du formulaire. Chaque onglet sert de déclencheur pour afficher et masquer le contenu du formulaire associé. Les onglets horizontaux permettent d’organiser les formulaires longs en sections gérables et d’améliorer l’expérience client. Les onglets peuvent vous aider à rendre un formulaire plus accessible aux personnes présentant un handicap, car elles peuvent permuter entre les sections à l’aide de la navigation à l’aide du clavier.
 
@@ -50,7 +50,7 @@ To experience the Horizontal-tabs  Component as well as see examples of its conf
 
 ## Détails techniques {#technical-details}
 
-Obtenez les dernières informations sur le composant principal des onglets Horizontaux de Forms adaptatif dans la documentation technique sur [GitHub](https://github.com/adobe/aem-core-forms-components/tree/master/ui.af.apps/src/main/content/jcr_root/apps/core/fd/components/form/pageHorizontaltabs/v1/pageHorizontaltabs). Pour plus d’informations sur le développement des composants principaux, consultez la [documentation destinée aux développeurs et développeuses de composants principaux](/help/developing/overview.md).
+Retrouvez les informations les plus récentes sur le composant principal Onglets verticaux des formulaires adaptatifs dans la documentation technique sur [GitHub](https://github.com/adobe/aem-core-forms-components/tree/master/ui.af.apps/src/main/content/jcr_root/apps/core/fd/components/form/pageHorizontaltabs/v1/pageHorizontaltabs). Pour plus d’informations sur le développement des composants principaux, consultez la [documentation destinée aux développeurs et développeuses de composants principaux](/help/developing/overview.md).
 
 ## Boîte de dialogue de configuration {#configure-dialog}
 
@@ -63,7 +63,7 @@ Vous pouvez facilement personnaliser votre expérience en matière d’onglets h
 - **Nom** - Vous pouvez identifier facilement un composant de formulaire en lui attribuant un nom unique dans le formulaire et dans l’éditeur de règles, mais le nom ne doit pas contenir d’espaces ni de caractères spéciaux.
 
 - **Titre** - Avec son titre, vous pouvez facilement identifier un composant dans un formulaire. Par défaut, le titre s’affiche au-dessus du composant. Si vous n’ajoutez pas de titre, le nom du composant s’affiche à la place du texte du titre.
-- **Autoriser le texte enrichi pour le titre** : cette fonctionnalité permet aux personnes de mettre en forme les titres en texte brut en y incorporant des fonctionnalités telles que le texte en gras, en italique et souligné, diverses polices, tailles de police et couleurs, et d’autres options pour améliorer la présentation visuelle et la personnalisation. Elle offre une plus grande flexibilité et un contrôle créatif pour faire ressortir les titres dans les documents, sites web ou applications.\
+- **Autoriser le texte enrichi pour le titre** - Cette fonctionnalité permet aux personnes de mettre en forme les titres en texte brut en y incorporant des fonctionnalités telles que le texte en gras, en italique et souligné, diverses polices, tailles de police et couleurs, et d’autres options pour améliorer la présentation visuelle et la personnalisation. Elle offre une plus grande flexibilité et un contrôle créatif pour faire ressortir les titres dans les documents, sites web ou applications.\
   Lorsque vous cochez la case **Autoriser le texte enrichi pour le titre**, les options de formatage deviennent visibles pour appliquer un style au titre du composant. Pour accéder à toutes les options de formatage disponibles, vous pouvez cliquer sur l’onglet ![Fullscreen icon](/help/adaptive-forms/assets/fullscreen-icon.png).
 
   ![Prise en charge de texte enrichi](/help/adaptive-forms/assets/richtext-support-title.png)
@@ -146,10 +146,10 @@ Le bouton **Ajouter** vous permet de sélectionner un composant à ajouter en ta
 
 ## Boîte de dialogue de conception {#design-dialog}
 
-La boîte de dialogue Conception permet aux créateurs et aux créatrices de modèles de contrôler l’affichage des éléments par défaut. Pour le composant Onglets horizontaux de Forms adaptative, vous pouvez définir les options suivantes :
+La boîte de dialogue Conception permet aux créateurs et aux créatrices de modèles de contrôler l’affichage des éléments par défaut. Pour le composant Onglets horizontaux des formulaires adaptatifs, vous pouvez définir les éléments suivants :
 
-- Composants principaux qu’un créateur de formulaire peut ajouter aux onglets Horizontal dans l’éditeur de Forms adaptatif
-- Noms simples pour les styles (classes CSS) qui peuvent être appliqués dans la boîte de dialogue des propriétés du composant Onglets horizontaux dans l’éditeur de Forms adaptatif.
+- Composants principaux qu’un créateur ou une créatrice de formulaire peut ajouter aux Onglets horizontaux dans l’éditeur de formulaires adaptatifs
+- Noms simples pour les styles (classes CSS) qui peuvent être appliqués dans la boîte de dialogue des propriétés du composant Onglets horizontaux dans l’éditeur de formulaires adaptatifs.
 
 Cela permet de rendre le processus de création et de personnalisation de formulaires plus simple et plus efficace.
 

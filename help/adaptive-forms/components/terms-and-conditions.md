@@ -4,13 +4,13 @@ description: Utilisation ou personnalisation du composant principal Conditions g
 role: Architect, Developer, Admin, User
 exl-id: c607d554-ad2d-4434-856d-91e174ef3149
 source-git-commit: 4c510b8fe59f4be6e1b329ee4257ab1b780fbf22
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '3254'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
-# Composant Termes et conditions
+# Composant Conditions générales
 
 Un composant **Conditions générales** fait référence à une section d’un formulaire qui décrit les termes, règles et conditions que les personnes doivent accepter ou respecter lors de l’utilisation d’un service ou de l’accès à un contenu.
 
@@ -63,7 +63,7 @@ Vous pouvez facilement personnaliser l’expérience du composant Conditions gé
 - **Nom** - Le nom identifie de manière unique le composant dans l’éditeur de règles. Les caractères spéciaux et les espaces ne sont pas autorisés dans les chaînes de nom.
 
 - **Titre** - Avec son titre, vous pouvez facilement identifier un composant dans un formulaire. Par défaut, le titre s’affiche au-dessus du composant. Si vous n’ajoutez pas de titre, le nom du composant s’affiche à la place du texte du titre.
-- **Autoriser le texte enrichi pour le titre** : cette fonctionnalité permet aux personnes de mettre en forme les titres en texte brut en y incorporant des fonctionnalités telles que le texte en gras, en italique et souligné, diverses polices, tailles de police et couleurs, et d’autres options pour améliorer la présentation visuelle et la personnalisation. Elle offre une plus grande flexibilité et un contrôle créatif pour faire ressortir les titres dans les documents, sites web ou applications.\
+- **Autoriser le texte enrichi pour le titre** - Cette fonctionnalité permet aux personnes de mettre en forme les titres en texte brut en y incorporant des fonctionnalités telles que le texte en gras, en italique et souligné, diverses polices, tailles de police et couleurs, et d’autres options pour améliorer la présentation visuelle et la personnalisation. Elle offre une plus grande flexibilité et un contrôle créatif pour faire ressortir les titres dans les documents, sites web ou applications.\
   Lorsque vous cochez la case **Autoriser le texte enrichi pour le titre**, les options de formatage deviennent visibles pour appliquer un style au titre du composant. Pour accéder à toutes les options de formatage disponibles, vous pouvez cliquer sur l’onglet ![Fullscreen icon](/help/adaptive-forms/assets/fullscreen-icon.png).
 
   ![Prise en charge de texte enrichi](/help/adaptive-forms/assets/richtext-support-title.png)
@@ -160,7 +160,7 @@ Les propriétés personnalisées vous permettent d’associer des attributs pers
 Le composant **Conditions générales** est un composant composite qui comprend les sous-composants suivants :
 - [Composant Lien](#link)
 - [Composant Texte](#text)
-- [Composant de case à cocher](#checkbox)
+- [Composant Case à cocher](#checkbox)
 
 ### Composant Lien{#link}
 
@@ -205,7 +205,7 @@ Lorsqu’une nouvelle option est ajoutée, les actions suivantes peuvent être e
 
 - **Obligatoire** : Sélectionnez cette option si vous souhaitez afficher le composant dans un formulaire adaptatif. Après avoir sélectionné cette option, vous devez effectuer une sélection avant de poursuivre l’envoi du formulaire. Vous ne pouvez pas sélectionner **Masquer le composant** ou **Désactiver le composant**  dans l’onglet **De base** lorsque cette option est sélectionnée.
 
-- **Message d’erreur** : Cette option vous permet de saisir un message qui s’affiche si la case à cocher **Obligatoire** est cochée et que le champ de formulaire reste vide.
+- **Message d’erreur** : cette option vous permet de rédiger un message qui s’affiche si la case à cocher **Obligatoire** est activée et le champ de formulaire reste vide.
 
 - **Message de validation de script** : cette option permet de saisir un message à afficher en cas d’échec de la validation du script.
 
@@ -237,7 +237,7 @@ Le composant **Texte** affiche le contenu textuel qui fournit des informations a
 Vous pouvez facilement personnaliser le [composant Texte](/help/adaptive-forms/components/text.md) individuellement pour les visiteurs et visiteuses en utilisant la boîte de dialogue Configurer. Pour définir facilement des options de texte pour une expérience utilisateur fluide, utilisez la [boîte de dialogue Configurer du composant Texte](/help/adaptive-forms/components/text.md#configure-dialog).
 
 
-### Composant de case à cocher {#checkbox}
+### Composant Case à cocher {#checkbox}
 
 Une case à cocher permet d’obtenir le consentement ou l’accord de la personne. Elle sert d’indicateur visuel que la personne a lu et accepté les conditions décrites. Il est obligatoire de cocher la case pour indiquer le consentement de la personne.
 

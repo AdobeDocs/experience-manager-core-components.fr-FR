@@ -1,18 +1,18 @@
 ---
-title: Composant principal Forms adaptatif - Google reCAPTCHA
-description: Améliorez la sécurité des formulaires avec le service Google reCAPTCHA sans effort avec AEM Forms. Explication des propriétés de reCaptcha du formulaire adaptatif
+title: Composant principal des formulaires adaptatifs - Google reCAPTCHA
+description: Améliorez sans effort la sécurité des formulaires avec le service Google reCAPTCHA et AEM Forms. Expliquer les propriétés d’un reCaptcha de formulaire adaptatif
 role: Architect, Developer, Admin, User
 source-git-commit: 4c510b8fe59f4be6e1b329ee4257ab1b780fbf22
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1325'
-ht-degree: 82%
+ht-degree: 100%
 
 ---
 
 
 # reCAPTCHA du formulaire adaptatif {#google-recaptcha}
 
-CAPTCHA (Completely Automated Public Turing Test to say Computers and Humans Separ) est un programme couramment utilisé dans les transactions en ligne pour distinguer les humains des programmes ou robots automatisés. Il présente un test et évalue la réponse de l’utilisateur ou de l’utilisatrice pour déterminer s’il s’agit d’une personne humaine ou d’un robot qui interagit avec le site. Cela empêche l’utilisateur ou l’utilisatrice de continuer si le test échoue et permet de sécuriser les transactions en ligne en empêchant les robots d’envoyer du spam ou des éléments malveillants.
+CAPTCHA (Completely Automated Public Turing test to tell Computers and Humans Apart, Test public de Turing complètement automatisé ayant pour but de différencier les personnes humaines des ordinateurs) est un programme couramment utilisé dans les transactions en ligne pour différencier les personnes humaines des programmes automatisés ou des robots. Il présente un test et évalue la réponse de l’utilisateur ou de l’utilisatrice pour déterminer s’il s’agit d’une personne humaine ou d’un robot qui interagit avec le site. Cela empêche l’utilisateur ou l’utilisatrice de continuer si le test échoue et permet de sécuriser les transactions en ligne en empêchant les robots d’envoyer du spam ou des éléments malveillants.
 
 AEM Forms as a Cloud Service prend en charge Google reCAPTCHA v2 dans les formulaires adaptatifs. Vous pouvez l’utiliser pour présenter un défi Captcha lors de l’envoi du formulaire.
 
@@ -52,26 +52,26 @@ Vous pouvez facilement personnaliser votre expérience Google reCAPTCHA pour les
 
 ![Onglet De base](/help/adaptive-forms/assets/recaptcha-basictab.png)
 
-- **Nom** - Vous pouvez identifier facilement un composant de formulaire avec son nom unique aussi bien dans le formulaire et dans l’éditeur de règles, mais le nom ne doit pas contenir d’espaces ni de caractères spéciaux.
+- **Nom** - Vous pouvez identifier facilement un composant de formulaire en lui attribuant un nom unique dans le formulaire et dans l’éditeur de règles, mais le nom ne doit pas contenir d’espaces ni de caractères spéciaux.
 
 - **Titre** - Avec son titre, vous pouvez facilement identifier un composant dans un formulaire. Par défaut, le titre s’affiche au-dessus du composant. Si vous n’ajoutez pas de titre, le nom du composant s’affiche à la place du texte du titre.
 
-- **Autoriser le texte enrichi pour le titre** : cette fonctionnalité permet aux personnes de mettre en forme les titres en texte brut en y incorporant des fonctionnalités telles que le texte en gras, en italique et souligné, diverses polices, tailles de police et couleurs, et d’autres options pour améliorer la présentation visuelle et la personnalisation. Elle offre une plus grande flexibilité et un contrôle créatif pour faire ressortir les titres dans les documents, sites web ou applications.\
-  Lorsque vous cochez la case **Autoriser le texte enrichi pour le titre, les options de mise en forme deviennent visibles pour appliquer un style au titre du composant. Pour accéder à toutes les options de formatage disponibles, vous pouvez cliquer sur l’onglet ![Fullscreen icon](/help/adaptive-forms/assets/fullscreen-icon.png).
+- **Autoriser le texte enrichi pour le titre** - Cette fonctionnalité permet aux personnes de mettre en forme les titres en texte brut en y incorporant des fonctionnalités telles que le texte en gras, en italique et souligné, diverses polices, tailles de police et couleurs, et d’autres options pour améliorer la présentation visuelle et la personnalisation. Elle offre une plus grande flexibilité et un contrôle créatif pour faire ressortir les titres dans les documents, sites web ou applications.\
+  Lorsque vous cochez la case **Autoriser le texte enrichi pour le titre, les options de formatage deviennent visibles pour appliquer un style au titre du composant. Pour accéder à toutes les options de formatage disponibles, vous pouvez cliquer sur l’onglet ![Fullscreen icon](/help/adaptive-forms/assets/fullscreen-icon.png).
 
   ![Prise en charge de texte enrichi](/help/adaptive-forms/assets/richtext-support-title.png)
 
 - **Masquer le titre** - Sélectionnez cette option pour masquer le titre du composant.
 - **Marquer comme élément de formulaire non lié** : sélectionnez cette option pour configurer un champ de formulaire qui n’est lié à aucun schéma. Cette option vous permet d’enregistrer des données sans mettre à jour la source de données. Elle vous permet également de gérer les données de manière personnalisée, en les séparant de l’intégration de base de données standard.
-- **Paramètres de configuration**: sélectionnez le conteneur de configuration qui contient la configuration cloud connectant AEM Forms au service reCAPTCHA de Google.
+- **Paramètres de configuration** : sélectionnez le conteneur de configuration qui contient la configuration cloud connectant AEM Forms au service reCAPTCHA de Google.
 
   >[!NOTE]
   >
-  > Voir [Utilisation de Google reCAPTCHA dans un formulaire adaptatif AEM basé sur les composants principaux](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/captcha-adaptive-forms-core-components) article pour découvrir comment créer et configurer Google reCAPTCHA pour votre environnement.
+  > Voir l’article [Utiliser Google reCAPTCHA dans un formulaire adaptatif AEM basé sur les composants principaux](https://experienceleague.adobe.com/fr/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/captcha-adaptive-forms-core-components) pour découvrir comment créer et configurer Google reCAPTCHA pour votre environnement.
 
-- **Type**: choisissez cette option pour sélectionner la taille de reCAPTCHA.
-   - **Normal**: fait référence à la version standard plus grande du widget reCAPTCHA, qui peut être plus visible et plus facile à utiliser pour les utilisateurs, en particulier sur les périphériques dotés d’écrans plus volumineux.
-   - **Compact**: fait référence à une version plus petite du widget reCAPTCHA. Cette option est adaptée aux situations dans lesquelles l’espace est limité, par exemple sur les appareils mobiles ou dans des dispositions étroites sur les pages web.
+- **Type** : choisissez cette option pour sélectionner la taille du reCAPTCHA.
+   - **Normal** : fait référence à la version standard plus grande du widget reCAPTCHA, qui peut être plus visible et plus facile à utiliser, en particulier sur les périphériques dotés de grands écrans.
+   - **Compact** : fait référence à une version plus petite du widget reCAPTCHA. Cette option est adaptée aux situations dans lesquelles l’espace est limité, par exemple sur les appareils mobiles ou dans des dispositions étroites sur les pages web.
 
 - **Masquer le composant** - Sélectionnez cette option pour masquer le composant du formulaire. Le composant reste accessible à d’autres fins, par exemple pour les calculs dans l’éditeur de règles. Cela s’avère utile lorsque vous devez stocker des informations qui n’ont pas besoin d’être affichées ou directement modifiées par les utilisateurs ou les utilisatrices.
 
@@ -83,21 +83,21 @@ Vous pouvez facilement personnaliser votre expérience Google reCAPTCHA pour les
 
 ![Onglet Validation](/help/adaptive-forms/assets/recaptcha-validationtab.png)
 
-- **Message d’erreur** : Cette option vous permet de saisir un message qui s’affiche si la case à cocher **Obligatoire** est cochée et que le champ de formulaire reste vide.
+- **Message d’erreur** : cette option vous permet de rédiger un message qui s’affiche si la case à cocher **Obligatoire** est activée et le champ de formulaire reste vide.
 
 - **Message de validation de script** - Cette option permet de saisir un message à afficher en cas d’échec de la validation du script.
 
 ## Boîte de dialogue de conception {#design-dialog}
 
-La boîte de dialogue de conception permet de définir et de gérer les styles CSS du composant reCAPTCHA.
+La boîte de dialogue de conception permet de définir et de gérer les styles CSS du composant reCAPTCHA.
 
 ### Onglet Styles {#styles-design-tab}
 
-Le composant principal reCAPTCHA de Forms adaptatif prend en charge l’AEM [Système de style](/help/get-started/authoring.md#component-styling).
+Le composant principal reCAPTCHA des formulaires adaptatifs prend en charge le [Système de style](/help/get-started/authoring.md#component-styling) d’AEM.
 
 ![Boîte de dialogue de conception](/help/adaptive-forms/assets/checkbox-style.png)
 
-- **Classes CSS par défaut**: vous pouvez fournir une classe CSS par défaut pour le composant principal reCAPTCHA de Forms adaptatif.
+- **Classes CSS par défaut** : vous pouvez indiquer une classe CSS par défaut pour le composant principal reCAPTCHA des formulaires adaptatifs.
 
 - **Styles autorisés** : vous pouvez définir des styles en fournissant un nom et la classe CSS qui représente le style. Par exemple, vous pouvez créer un style nommé « texte en gras » et fournir la classe CSS « police d’épaisseur : gras ». Vous pouvez utiliser ou appliquer ces styles à un formulaire adaptatif dans l’éditeur de formulaires adaptatifs. Pour appliquer un style, sélectionnez le composant auquel vous souhaitez appliquer le style dans l’éditeur de formulaires adaptatifs, accédez à la boîte de dialogue Propriétés, puis sélectionnez le style de votre choix dans la liste déroulante **Styles**. Si vous devez mettre à jour ou modifier les styles, revenez simplement à la boîte de dialogue Conception, mettez à jour les styles dans l’onglet Styles et enregistrez les modifications.
 

@@ -4,19 +4,19 @@ description: Utilisez des fragments de formulaire pour créer des segments de fo
 role: Architect, Developer, Admin, User
 exl-id: bde4a416-1d6b-4e9e-ac74-70fccef473cb
 source-git-commit: 4c510b8fe59f4be6e1b329ee4257ab1b780fbf22
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1954'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
-# Composant de fragment de formulaire adaptatif {#form-fragment-component-adaptive-forms-core-component}
+# Composant Fragment de formulaire adaptatif {#form-fragment-component-adaptive-forms-core-component}
 
 Les formulaires adaptatifs offrent un moyen pratique de créer des segments de formulaire, tels que des panneaux ou des groupes de champs, afin qu’ils puissent être réutilisés dans différents formulaires adaptatifs. Ces segments réutilisables et autonomes s’appellent des [fragments de formulaire adaptatif](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/adaptive-form-fragments-core-components.html?lang=fr).
 
 Vous pouvez [ajouter un fragment plusieurs fois à un document](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/adaptive-form-fragments-core-components.html?lang=fr#insert-a-fragment-in-an-adaptive-form) et utiliser les propriétés de liaison de données de ses composants pour les lier à différentes sources de données ou différents schémas. Par exemple, vous pouvez utiliser le même fragment d’adresse pour les adresses permanentes, de communication et de facturation et le connecter à différents champs d’une source de données ou d’un schéma.
 
-![Exemple.](/help/adaptive-forms/assets/using-multiple-fragment-af.gif)
+![exemple](/help/adaptive-forms/assets/using-multiple-fragment-af.gif)
 
 
 Vous pouvez utiliser l’[option de répétition](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/create-forms-repeatable-sections.html?lang=fr) pour dupliquer le composant de fragment de formulaire et ses composants enfants, définir un nombre de répétitions minimal et maximal et faciliter la réplication de sections similaires dans un formulaire.
@@ -57,10 +57,10 @@ Vous pouvez facilement personnaliser l’expérience du fragment pour les visite
 
 ![Onglet De base](/help/adaptive-forms/assets/fragment-basictab.png)
 
-- **Nom** - Vous pouvez identifier facilement un composant de formulaire avec son nom unique aussi bien dans le formulaire et dans l’éditeur de règles, mais le nom ne doit pas contenir d’espaces ni de caractères spéciaux.
+- **Nom** - Vous pouvez identifier facilement un composant de formulaire en lui attribuant un nom unique dans le formulaire et dans l’éditeur de règles, mais le nom ne doit pas contenir d’espaces ni de caractères spéciaux.
 
 - **Titre** - Avec son titre, vous pouvez facilement identifier un composant dans un formulaire. Par défaut, le titre s’affiche au-dessus du composant. Si vous n’ajoutez pas de titre, le nom du composant s’affiche à la place du texte du titre.
-- **Autoriser le texte enrichi pour le titre** : cette fonctionnalité permet aux personnes de mettre en forme les titres en texte brut en y incorporant des fonctionnalités telles que le texte en gras, en italique et souligné, diverses polices, tailles de police et couleurs, et d’autres options pour améliorer la présentation visuelle et la personnalisation. Elle offre une plus grande flexibilité et un contrôle créatif pour faire ressortir les titres dans les documents, sites web ou applications.\
+- **Autoriser le texte enrichi pour le titre** - Cette fonctionnalité permet aux personnes de mettre en forme les titres en texte brut en y incorporant des fonctionnalités telles que le texte en gras, en italique et souligné, diverses polices, tailles de police et couleurs, et d’autres options pour améliorer la présentation visuelle et la personnalisation. Elle offre une plus grande flexibilité et un contrôle créatif pour faire ressortir les titres dans les documents, sites web ou applications.\
   Lorsque vous cochez la case **Autoriser le texte enrichi pour le titre**, les options de formatage deviennent visibles pour appliquer un style au titre du composant. Pour accéder à toutes les options de formatage disponibles, vous pouvez cliquer sur l’onglet ![Fullscreen icon](/help/adaptive-forms/assets/fullscreen-icon.png).
 
   ![Prise en charge de texte enrichi](/help/adaptive-forms/assets/richtext-support-title.png)

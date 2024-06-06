@@ -4,9 +4,9 @@ description: Utilisation ou personnalisation du composant principal Conteneur de
 role: Architect, Developer, Admin, User
 exl-id: 104836fe-8325-47de-978d-1ff2d6a9dd15
 source-git-commit: 4c510b8fe59f4be6e1b329ee4257ab1b780fbf22
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2225'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -65,7 +65,7 @@ Vous pouvez facilement personnaliser l’expérience de votre conteneur de panne
 - **Nom** - Vous pouvez identifier facilement un composant de formulaire en lui attribuant un nom unique dans le formulaire et dans l’éditeur de règles, mais le nom ne doit pas contenir d’espaces ni de caractères spéciaux.
 
 - **Titre** - Avec son titre, vous pouvez facilement identifier un composant dans un formulaire. Par défaut, le titre s’affiche au-dessus du composant. Si vous n’ajoutez pas de titre, le nom du composant s’affiche à la place du texte du titre.
-- **Autoriser le texte enrichi pour le titre** : cette fonctionnalité permet aux personnes de mettre en forme les titres en texte brut en y incorporant des fonctionnalités telles que le texte en gras, en italique et souligné, diverses polices, tailles de police et couleurs, et d’autres options pour améliorer la présentation visuelle et la personnalisation. Elle offre une plus grande flexibilité et un contrôle créatif pour faire ressortir les titres dans les documents, sites web ou applications.\
+- **Autoriser le texte enrichi pour le titre** - Cette fonctionnalité permet aux personnes de mettre en forme les titres en texte brut en y incorporant des fonctionnalités telles que le texte en gras, en italique et souligné, diverses polices, tailles de police et couleurs, et d’autres options pour améliorer la présentation visuelle et la personnalisation. Elle offre une plus grande flexibilité et un contrôle créatif pour faire ressortir les titres dans les documents, sites web ou applications.\
   Lorsque vous cochez la case **Autoriser le texte enrichi pour le titre**, les options de formatage deviennent visibles pour appliquer un style au titre du composant. Pour accéder à toutes les options de formatage disponibles, vous pouvez cliquer sur l’onglet ![Fullscreen icon](/help/adaptive-forms/assets/fullscreen-icon.png).
 
   ![Prise en charge de texte enrichi](/help/adaptive-forms/assets/richtext-support-title.png)
@@ -102,7 +102,7 @@ Vous pouvez facilement personnaliser l’expérience de votre conteneur de panne
 
 ### Onglet Répéter le panneau {#repeat-panel}
 
-![onglet répéter](/help/adaptive-forms/assets/repeat-panel.png)
+![répéter un onglet](/help/adaptive-forms/assets/repeat-panel.png)
 
 Vous pouvez utiliser les options de répétition pour dupliquer le conteneur du panneau et ses composants enfants, définir un nombre de répétitions minimal et maximal et faciliter la réplication de sections similaires dans un formulaire. Lors de l’interaction avec le composant de conteneur du panneau et de l’accès à ses paramètres, les options suivantes s’affichent :
 
@@ -138,13 +138,13 @@ Pour gérer efficacement les sections répétables dans le conteneur du panneau,
 
 ## Boîte de dialogue de conception {#design-dialog}
 
-La boîte de dialogue de conception permet de définir et de gérer les styles CSS du composant de panneau.
+La boîte de dialogue de conception permet de définir et de gérer les styles CSS du composant Panneau.
 
 ### Onglet Composants autorisés {#allowed-components-tab}
 
 ![Onglet Composant autorisé de la boîte de dialogue de conception](/help/adaptive-forms/assets/panel-container-allowed-component.png)
 
-La variable **Composants autorisés** Cet onglet permet à l’éditeur de modèles de définir les composants qui peuvent être ajoutés en tant qu’éléments aux panneaux du composant dans l’éditeur de Forms adaptatif.
+L’onglet **Composants autorisés** permet à l’éditeur de modèles de définir les composants qui peuvent être ajoutés en tant qu’éléments aux panneaux dans le composant de l’éditeur de formulaires adaptatifs.
 
 ### Onglet Composants par défaut {#default-components-tab}
 
