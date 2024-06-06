@@ -1,17 +1,17 @@
 ---
-title: Composant principal Adaptive Forms - Entrée téléphone, Téléphone
+title: Composant principal des formulaires adaptatifs - Entrée téléphonique, téléphone
 description: Utilisation ou personnalisation du composant principal « Entrée téléphonique » dans les formulaires adaptatifs.
 role: Architect, Developer, Admin, User
 exl-id: d06179ac-04bd-4af4-b6ac-c4c78086058c
 source-git-commit: b4a66a407e92398a98441c65ab588b9720777dfa
 workflow-type: tm+mt
 source-wordcount: '2197'
-ht-degree: 97%
+ht-degree: 99%
 
 ---
 
 
-# Composant Phone{#telephone-input-adaptive-forms-core-component}
+# Composant Téléphone{#telephone-input-adaptive-forms-core-component}
 
 Le composant principal Téléphone du formulaire adaptatif permet aux utilisateurs de saisir un numéro de téléphone. Le champ « Entrée téléphonique » affiche les claviers sur les appareils mobiles qui correspondent aux numéros de téléphone. Il peut être personnalisé avec des attributs supplémentaires tels que « motif » et « espace réservé » pour spécifier le format et la description du numéro de téléphone.
 
@@ -53,10 +53,10 @@ Vous pouvez facilement personnaliser l’expérience d’entrée téléphonique 
 
 ![Onglet De base](/help/adaptive-forms/assets/telephoneinput_basictab.png)
 
-- **Nom** - Vous pouvez identifier facilement un composant de formulaire avec son nom unique aussi bien dans le formulaire et dans l’éditeur de règles, mais le nom ne doit pas contenir d’espaces ni de caractères spéciaux.
+- **Nom** - Vous pouvez identifier facilement un composant de formulaire en lui attribuant un nom unique dans le formulaire et dans l’éditeur de règles, mais le nom ne doit pas contenir d’espaces ni de caractères spéciaux.
 
 - **Titre** - Avec son titre, vous pouvez facilement identifier un composant dans un formulaire. Par défaut, le titre s’affiche au-dessus du composant. Si vous n’ajoutez pas de titre, le nom du composant s’affiche à la place du texte du titre.
-- **Autoriser le texte enrichi pour le titre** : cette fonctionnalité permet aux personnes de mettre en forme les titres en texte brut en y incorporant des fonctionnalités telles que le texte en gras, en italique et souligné, diverses polices, tailles de police et couleurs, et d’autres options pour améliorer la présentation visuelle et la personnalisation. Elle offre une plus grande flexibilité et un contrôle créatif pour faire ressortir les titres dans les documents, sites web ou applications.\
+- **Autoriser le texte enrichi pour le titre** - Cette fonctionnalité permet aux personnes de mettre en forme les titres en texte brut en y incorporant des fonctionnalités telles que le texte en gras, en italique et souligné, diverses polices, tailles de police et couleurs, et d’autres options pour améliorer la présentation visuelle et la personnalisation. Elle offre une plus grande flexibilité et un contrôle créatif pour faire ressortir les titres dans les documents, sites web ou applications.\
   Lorsque vous cochez la case **Autoriser le texte enrichi pour le titre**, les options de formatage deviennent visibles pour appliquer un style au titre du composant. Pour accéder à toutes les options de formatage disponibles, vous pouvez cliquer sur l’onglet ![Fullscreen icon](/help/adaptive-forms/assets/fullscreen-icon.png).
 
   ![Prise en charge de texte enrichi](/help/adaptive-forms/assets/richtext-support-title.png)
@@ -73,7 +73,7 @@ Vous pouvez facilement personnaliser l’expérience d’entrée téléphonique 
 
 - **Lecture seule** - Sélectionnez cette option pour rendre le composant non modifiable. L’utilisateur ou l’utilisatrice peut voir la valeur du champ mais ne peut pas la modifier. Le composant reste accessible à d’autres fins, par exemple pour les calculs dans l’éditeur de règles.
 
-- **Valeur par défaut** - Cette option vous permet d’ajouter une valeur par défaut dans un champ de formulaire. Si **Composant désactivé** ou **Composant en lecture seule** est sélectionné, la valeur par défaut s’affiche à l’écran. Si aucune valeur n’est saisie par l’utilisateur dans le champ de formulaire, cette valeur est envoyée au moment de l’envoi du formulaire.
+- **Valeur par défaut** - Cette option vous permet d’ajouter une valeur par défaut dans un champ de formulaire. Si **Composant désactivé** ou **Composant en lecture seule** est sélectionné, la valeur par défaut s’affiche à l’écran. Si aucune valeur n’est saisie par l’utilisateur ou l’utilisatrice dans le champ de formulaire, cette valeur est envoyée au moment de l’envoi du formulaire.
 
 - **Attribut de remplissage automatique** - L’option permet aux utilisateurs et utilisatrices de saisir une valeur qui est automatiquement renseignée dans le champ de formulaire en fonction des informations stockées.
 
@@ -127,11 +127,11 @@ La boîte de dialogue de conception permet de définir et de gérer les styles C
 
 ### Onglet Styles {#styles-tab}
 
-Cet onglet vous permet de définir et de gérer les styles CSS d’un composant. Le composant principal Téléphone de Forms adaptatif prend en charge l’AEM [Système de style](/help/get-started/authoring.md#component-styling).
+Cet onglet vous permet de définir et de gérer les styles CSS d’un composant. Le composant principal Téléphone des formulaires adaptatifs prend en charge le [Système de style](/help/get-started/authoring.md#component-styling) d’AEM.
 
 ![Boîte de dialogue de conception](/help/adaptive-forms/assets/telephoneinput_designdialog.png)
 
-- **Classes CSS par défaut**: vous pouvez fournir une classe CSS par défaut pour le composant principal Téléphone du Forms adaptatif.
+- **Classes CSS par défaut** : vous pouvez fournir une classe CSS par défaut pour le composant principal Téléphone des formulaires adaptatifs.
 
 - **Styles autorisés** : vous pouvez définir des styles en fournissant un nom et la classe CSS qui représente le style. Par exemple, vous pouvez créer un style nommé « texte en gras » et fournir la classe CSS « police d’épaisseur : gras ». Vous pouvez utiliser ou appliquer ces styles à un formulaire adaptatif dans l’éditeur de formulaires adaptatifs. Pour appliquer un style, sélectionnez le composant auquel vous souhaitez appliquer le style dans l’éditeur de formulaires adaptatifs, accédez à la boîte de dialogue Propriétés, puis sélectionnez le style de votre choix dans la liste déroulante **Styles**. Si vous devez mettre à jour ou modifier les styles, revenez simplement à la boîte de dialogue Conception, mettez à jour les styles dans l’onglet Styles et enregistrez les modifications.
 
