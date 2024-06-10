@@ -4,15 +4,15 @@ description: Utilisation ou personnalisation du composant principal « Entrée 
 role: Architect, Developer, Admin, User
 exl-id: 75604ecf-1ec5-4e97-b934-d6ed49726147
 source-git-commit: b4a66a407e92398a98441c65ab588b9720777dfa
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2283'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
 # Composant Zone numérique{#number-input-adaptive-forms-core-component}
 
-Un composant de zone numérique dans un formulaire adaptatif est un type de champ de formulaire qui permet aux utilisateurs de saisir des valeurs numériques. Le composant est généralement représenté par un champ de texte avec une flèche vers le haut et vers le bas pour incrémenter et décrémenter le nombre.
+Dans un formulaire adaptatif, un composant Zone numérique est un type de champ de formulaire qui permet aux utilisateurs et utilisatrices de saisir des valeurs numériques. Le composant est généralement représenté par un champ de texte avec une flèche vers le haut et vers le bas pour incrémenter et décrémenter le nombre.
 
 Il peut également être utilisé avec des attributs tels que min, max, étape, valeur, etc. Ces attributs peuvent être utilisés pour définir les valeurs minimale et maximale autorisées dans le champ, l’intervalle d’étape pour incrémenter ou décrémenter le nombre et la valeur par défaut du champ.
 
@@ -127,20 +127,20 @@ Vous pouvez facilement personnaliser l’expérience d’entrée de nombre pour 
 ![Onglet Accessibilité](/help/adaptive-forms/assets/numberinput_formattab.png)
 
 - **Format d’affichage** : Cette option permet de sélectionner un format de type entier-numérique pour l’affichage. Lorsque l’utilisateur ou l’utilisatrice sélectionne une option dans le menu déroulant **Type**, l’option **Format** apparaît dans le panneau. Vous pouvez choisir un format spécifique dans lequel les nombres s’affichent pour l’utilisateur ou l’utilisatrice.
-- **Langue** - Cette fonctionnalité est utilisée pour mettre en forme le champ spécifique. Lorsqu’un utilisateur sélectionne une option de langue dans le **Type** , le menu déroulant **Balise de langue IETF BCP 47** s’affiche dans le panneau . Vous pouvez choisir la langue de formatage des champs lors de la traduction d’un formulaire adaptatif dans une langue spécifique.
+- **Langue** : cette fonctionnalité est utilisée pour mettre en forme le champ spécifique. Lorsqu’une personne sélectionne une option de langue dans le menu déroulant **Type**, l’option **Balise de langue IETF BCP 47** s’affiche dans le panneau. Vous pouvez choisir la langue de formatage des champs lors de la traduction d’un formulaire adaptatif dans une langue spécifique.
 
-L’ensemble de langues n’est pas visible par défaut, mais les utilisateurs peuvent saisir une **Balise de langue IETF BCP 47** en mettant à jour la stratégie de modèle :
+L’ensemble de langues n’est pas visible par défaut, mais les personnes peuvent saisir une **Balise de langue IETF BCP 47** en mettant à jour la politique des modèles :
 
 1. Ouvrez le modèle correspondant associé à un formulaire adaptatif dans l’éditeur de modèles.
-2. Sélectionnez la stratégie existante comme `numberinput-default-policy` dans le menu déroulant.
+2. Sélectionnez la politique existante `numberinput-default-policy` dans le menu déroulant.
 
-   ![Stratégie de modèle de sélecteur de date](/help/adaptive-forms/assets/numberinput-template-policy.png)
+   ![Politique des modèles de sélecteur de date](/help/adaptive-forms/assets/numberinput-template-policy.png)
 
 3. Cliquez sur **Terminé**.
 
    >[!NOTE]
    >
-   > Pour plus d’informations sur la façon de convertir un formulaire adaptatif en un paramètre régional spécifique, [cliquez ici](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/supporting-new-language-localization-core-components).
+   > Pour plus d’informations sur la façon de convertir un formulaire adaptatif en un paramètre régional spécifique, [cliquez ici](https://experienceleague.adobe.com/fr/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/supporting-new-language-localization-core-components).
 
 
 ## Boîte de dialogue de conception {#design-dialog}

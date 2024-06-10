@@ -4,9 +4,9 @@ description: Utilisation ou personnalisation du composant principal Sélecteur d
 role: Architect, Developer, Admin, User
 exl-id: aa9402de-ca57-4c19-8d36-2dd0a78d6806
 source-git-commit: b4a66a407e92398a98441c65ab588b9720777dfa
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2299'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
@@ -131,21 +131,21 @@ Vous pouvez facilement personnaliser votre expérience de sélecteur de date pou
 - **Format d’affichage** : il s’agit du format de date affiché pour l’utilisateur ou l’utilisatrice. L’option **Type** permet à l’utilisateur ou à l’utilisatrice de sélectionner le format de date. Vous pouvez également personnaliser le format de date à l’aide de l’option **Personnaliser** dans le menu déroulant **Type**.
 
 - **Modifier le format** : il s’agit d’un format de date dans lequel l’utilisateur ou l’utilisatrice peut modifier la date. L’option **Type** permet à l’utilisateur ou à l’utilisatrice de sélectionner le format de date. Vous pouvez également personnaliser le format de date à l’aide de l’option **Personnaliser** dans le menu déroulant **Type**.
-- **Format du message d’erreur** - Cette option permet de saisir le message affiché à l&#39;écran lorsque la date saisie n&#39;est pas au format correct.
-- **Langue** - Cette fonctionnalité est utilisée pour mettre en forme le champ spécifique. Lorsqu’un utilisateur sélectionne une option de langue dans le **Type** , le menu déroulant **Balise de langue IETF BCP 47** s’affiche dans le panneau . Vous pouvez choisir la langue de formatage des champs lors de la traduction d’un formulaire adaptatif dans une langue spécifique.
+- **Message d’erreur de format** : cette option permet de saisir le message affiché à l’écran lorsque la date saisie n’est pas au format correct.
+- **Langue** : cette fonctionnalité est utilisée pour mettre en forme le champ spécifique. Lorsqu’une personne sélectionne une option de langue dans le menu déroulant **Type**, l’option **Balise de langue IETF BCP 47** s’affiche dans le panneau. Vous pouvez choisir la langue de formatage des champs lors de la traduction d’un formulaire adaptatif dans une langue spécifique.
 
-L’ensemble de langues n’est pas visible par défaut, mais les utilisateurs peuvent saisir une **Balise de langue IETF BCP 47** en mettant à jour la stratégie de modèle :
+L’ensemble de langues n’est pas visible par défaut, mais les personnes peuvent saisir une **Balise de langue IETF BCP 47** en mettant à jour la politique des modèles :
 
 1. Ouvrez le modèle correspondant associé à un formulaire adaptatif dans l’éditeur de modèles.
-2. Sélectionnez la stratégie existante comme `datepicker-default-policy` dans le menu déroulant.
+2. Sélectionnez la politique existante `datepicker-default-policy` dans le menu déroulant.
 
-   ![Stratégie de modèle de sélecteur de date](/help/adaptive-forms/assets/date-picker-template-policy.png)
+   ![Politique des modèles de sélecteur de date](/help/adaptive-forms/assets/date-picker-template-policy.png)
 
 3. Cliquez sur **Terminé**.
 
    >[!NOTE]
    >
-   > Pour plus d’informations sur la façon de convertir un formulaire adaptatif en un paramètre régional spécifique, [cliquez ici](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/supporting-new-language-localization-core-components).
+   > Pour plus d’informations sur la façon de convertir un formulaire adaptatif en un paramètre régional spécifique, [cliquez ici](https://experienceleague.adobe.com/fr/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/supporting-new-language-localization-core-components).
 
 ## Boîte de dialogue de conception {#design-dialog}
 
