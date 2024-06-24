@@ -3,10 +3,10 @@ title: Configurations basées sur le contexte Sling et composants principaux
 description: Les composants principaux tirent parti des configurations basées sur le contexte Sling pour certaines fonctionnalités
 role: Architect, Developer, Admin
 exl-id: d35210f7-a65d-4768-ab9e-f12ec406da2d
-source-git-commit: 2ac16b15718128feefbe903e92f276b16fe96f69
-workflow-type: ht
-source-wordcount: '198'
-ht-degree: 100%
+source-git-commit: b72defe1bbe6cb286730ac3f508f7d6c14b3fc33
+workflow-type: tm+mt
+source-wordcount: '174'
+ht-degree: 87%
 
 ---
 
@@ -26,8 +26,9 @@ Un certain nombre de composants principaux exploitent les configurations basées
 
 * `/conf/<my-site>/sling:configs/<my-configuration>`
 
-Les configurations individuelles dépendent du composant ou de la fonctionnalité spécifique. Les fonctionnalités des composants principaux qui utilisent les configurations basées sur le contexte sont les suivantes :
+Les configurations individuelles dépendent du composant ou de la fonctionnalité spécifique. Les fonctionnalités des composants principaux qui utilisent des configurations basées sur le contexte incluent :
 
+* [Composant Page](https://github.com/adobe/aem-core-wcm-components/tree/main/content/src/content/jcr_root/apps/core/wcm/components/page/v3/page#loading-of-context-aware-cssjs) repose sur une configuration basée sur le contexte lors du rendu. `link`, `script` et `meta` balises.
 * [Composant Visionneuse PDF](https://github.com/adobe/aem-core-wcm-components/tree/master/content/src/content/jcr_root/apps/core/wcm/components/pdfviewer/v1/pdfviewer#context-aware-config)
 * [Couche de données client Adobe](/help/developing/data-layer/overview.md#installation-activation)
 * [Prise en charge d’AMP](https://github.com/adobe/aem-core-wcm-components/tree/master/extensions/amp)
