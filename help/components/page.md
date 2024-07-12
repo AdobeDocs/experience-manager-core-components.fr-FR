@@ -4,8 +4,8 @@ description: Le composant Page est un composant de page extensible, conçu pour 
 role: Architect, Developer, Admin, User
 exl-id: 2503e067-abed-427d-8a54-8b79e3451487
 source-git-commit: 327c239b02e0aecee878784c918bfa98d960530e
-workflow-type: ht
-source-wordcount: '716'
+workflow-type: tm+mt
+source-wordcount: '691'
 ht-degree: 100%
 
 ---
@@ -50,13 +50,13 @@ Vous trouverez plus d’informations sur le développement des composants princi
 
 ## Boîte de dialogue de conception {#design-dialog}
 
-Étant donné que le composant représente la page entière, la boîte de dialogue de conception est accessible via **Informations sur la page -> Stratégie de page** lors de la modification du modèle de page.
+Étant donné que le composant représente la page entière, la boîte de dialogue de conception est accessible via **Informations sur la page -> Politique de page** lors de la modification du modèle de page.
 
-![Stratégie de page](/help/assets/page-policy.png)
+![Politique de page](/help/assets/page-policy.png)
 
 >[!NOTE]
 >
->Dans les versions précédentes d’AEM, la **Stratégie de page** était appelée **Conception de page**.
+>Dans les versions précédentes d’AEM, la **Politique de page** était appelée **Conception de page**.
 
 ### Onglet Propriétés {#properties-tab}
 

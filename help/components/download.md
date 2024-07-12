@@ -4,8 +4,8 @@ description: Le composant Téléchargement des composants principaux permet la c
 role: Architect, Developer, Admin, User
 exl-id: 48e7ade0-b849-4d1f-b836-51196e5ac507
 source-git-commit: 327c239b02e0aecee878784c918bfa98d960530e
-workflow-type: ht
-source-wordcount: '758'
+workflow-type: tm+mt
+source-wordcount: '737'
 ht-degree: 100%
 
 ---

@@ -4,9 +4,9 @@ description: Découvrez comment les composants principaux utilisent le servlet I
 role: Architect, Developer, Admin, User
 exl-id: d9199d51-6f09-4000-9525-afc30474437e
 source-git-commit: 785aa82930e3bcf6ef16d7a1cdc614d230e8daa8
-workflow-type: ht
-source-wordcount: '410'
-ht-degree: 100%
+workflow-type: tm+mt
+source-wordcount: '397'
+ht-degree: 98%
 
 ---
 
@@ -14,7 +14,7 @@ ht-degree: 100%
 
 Découvrez comment les composants principaux utilisent le servlet Image adaptative pour la diffusion d’images et comment optimiser son utilisation.
 
-## Servlet Image adaptative ou diffusion d’images optimisée pour le web ? {#options}
+## Servlet d’image adaptative ou diffusion d’images optimisée pour le web ? {#options}
 
 Le composant Image principal peut utiliser deux méthodes pour diffuser des images.
 

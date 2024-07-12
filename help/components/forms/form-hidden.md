@@ -4,8 +4,8 @@ description: Le composant Formulaire masqu√© des composants principaux permet l‚
 role: Architect, Developer, Admin, User
 exl-id: 0364cd3b-3c09-46db-9392-a67e3f9ea7a5
 source-git-commit: 16930ccaa281f9d9c4ddbb890d4222e128557580
-workflow-type: ht
-source-wordcount: '433'
+workflow-type: tm+mt
+source-wordcount: '425'
 ht-degree: 100%
 
 ---

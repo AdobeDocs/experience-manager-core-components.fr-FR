@@ -4,8 +4,8 @@ description: Le composant Table des matières permet de créer une table des mat
 role: Architect, Developer, Admin, User
 exl-id: 006adde2-ebff-4e74-8e79-325cccd43e8f
 source-git-commit: 8beae61676340e8aafaee469018d865ea7ed934e
-workflow-type: ht
-source-wordcount: '768'
+workflow-type: tm+mt
+source-wordcount: '758'
 ht-degree: 100%
 
 ---

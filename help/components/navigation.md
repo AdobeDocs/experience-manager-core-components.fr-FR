@@ -4,8 +4,8 @@ description: Le composant Navigation permet aux utilisateurs de parcourir facile
 role: Architect, Developer, Admin, User
 exl-id: 9154f2a3-3d1e-4865-a413-298748fa66d3
 source-git-commit: 327c239b02e0aecee878784c918bfa98d960530e
-workflow-type: ht
-source-wordcount: '1544'
+workflow-type: tm+mt
+source-wordcount: '1540'
 ht-degree: 100%
 
 ---

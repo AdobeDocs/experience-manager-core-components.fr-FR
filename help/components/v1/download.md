@@ -2,15 +2,15 @@
 title: Composant Téléchargement (v1)
 description: Le composant Téléchargement des composants principaux permet la création d’une option de téléchargement sur une page.
 role: Architect, Developer, Admin, User
-source-git-commit: f8aa86d58ba71ede3c3cd867c45aafff06923325
-workflow-type: ht
-source-wordcount: '644'
+exl-id: ebd63522-218d-4784-bea0-1627c64f5230
+source-git-commit: e291d4c1bfd37292d68c236178f9681c4e5ee741
+workflow-type: tm+mt
+source-wordcount: '621'
 ht-degree: 100%
 
 ---
 
-
-# Composant de téléchargement  (v1) {#download-component}
+# Composant Téléchargement (v1) {#download-component}
 
 Le composant Téléchargement des composants principaux permet la création d’une option de téléchargement sur une page.
 

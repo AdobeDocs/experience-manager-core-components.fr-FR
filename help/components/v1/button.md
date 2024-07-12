@@ -2,15 +2,15 @@
 title: Composant de bouton (v1)
 description: Le composant Bouton des composants principaux permet de créer et d’afficher un bouton.
 role: Architect, Developer, Admin, User
-source-git-commit: e5251010ca41025eb2bb56b66164ecf4cc0145c8
-workflow-type: ht
-source-wordcount: '412'
-ht-degree: 100%
+exl-id: 63af16e4-dd4d-426d-88ef-769ecd1b3175
+source-git-commit: e291d4c1bfd37292d68c236178f9681c4e5ee741
+workflow-type: tm+mt
+source-wordcount: '397'
+ht-degree: 98%
 
 ---
 
-
-# Composant de bouton  (v1) {#button-component}
+# Composant de bouton (v1) {#button-component}
 
 Le composant Bouton des composants principaux permet de configurer et d’afficher un élément de bouton sur une page.
 

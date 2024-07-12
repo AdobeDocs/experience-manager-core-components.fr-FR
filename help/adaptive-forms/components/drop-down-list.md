@@ -4,7 +4,7 @@ description: Utilisation ou personnalisation du composant principal « Liste d�
 role: Architect, Developer, Admin, User
 exl-id: 9d59d0d2-d38f-4ed5-8b43-984c45f26f27
 source-git-commit: 4c510b8fe59f4be6e1b329ee4257ab1b780fbf22
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '2185'
 ht-degree: 100%
 

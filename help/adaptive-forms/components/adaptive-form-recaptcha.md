@@ -2,13 +2,13 @@
 title: Composant principal des formulaires adaptatifs - Google reCAPTCHA
 description: Améliorez sans effort la sécurité des formulaires avec le service Google reCAPTCHA et AEM Forms. Expliquer les propriétés d’un reCaptcha de formulaire adaptatif
 role: Architect, Developer, Admin, User
-source-git-commit: 4c510b8fe59f4be6e1b329ee4257ab1b780fbf22
-workflow-type: ht
+exl-id: 2d986b90-e596-4e8f-9a32-0ebced5461c8
+source-git-commit: b97687e7f7437af57e2a8b9f442d4e0c8322a3d2
+workflow-type: tm+mt
 source-wordcount: '1325'
 ht-degree: 100%
 
 ---
-
 
 # reCAPTCHA du formulaire adaptatif {#google-recaptcha}
 

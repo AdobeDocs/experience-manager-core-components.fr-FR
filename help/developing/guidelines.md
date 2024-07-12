@@ -4,8 +4,8 @@ description: Les composants principaux suivent des modèles d’implémentations
 role: Architect, Developer, Admin
 exl-id: e8c58fa5-c991-433c-8d38-575dacfc3433
 source-git-commit: ee18626280f74a51a799f16d6bf3f5b0be9cd6b9
-workflow-type: ht
-source-wordcount: '1267'
+workflow-type: tm+mt
+source-wordcount: '1227'
 ht-degree: 100%
 
 ---
@@ -42,7 +42,7 @@ Les instructions de cette section peuvent également être utilisées pour tout 
 
 ### Fonctionnalités préconfigurables {#pre-configurable-capabilities}
 
-Outre la boîte de dialogue de modification utilisée par les auteurs de pages, les composants peuvent également avoir une boîte de dialogue de conception pour les auteurs de modèles afin de les préconfigurer. L’[éditeur de modèles](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/features/templates.html?lang=fr) permet de configurer toutes ces préconfigurations, appelées « Stratégies ».
+Outre la boîte de dialogue de modification utilisée par les auteurs de pages, les composants peuvent également avoir une boîte de dialogue de conception pour les auteurs de modèles afin de les préconfigurer. L’[éditeur de modèles](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/features/templates.html?lang=fr) permet de configurer toutes ces préconfigurations, appelées « Politiques ».
 
 Pour rendre les composants aussi réutilisables que possible, ils doivent être fournis avec des options significatives pour la préconfiguration. Cela permet d’activer ou de désactiver les fonctionnalités des composants pour répondre aux besoins spécifiques des différents sites.
 
@@ -68,7 +68,7 @@ Les modifications incompatibles aux aspects suivants des composants entraîneron
 * Représentation JSON
 * Boîtes de dialogue
 
-Pour plus d’informations, reportez-vous au document [Stratégies de contrôle de version](https://github.com/adobe/aem-core-wcm-components/wiki/Versioning-Policies) dans GitHub.
+Pour plus d’informations, reportez-vous au document [Politiques de contrôle de version](https://github.com/adobe/aem-core-wcm-components/wiki/Versioning-Policies) dans GitHub.
 
 Le contrôle de version des composants crée une forme de contrat qui est importante pour les mises à niveau car elle clarifie le moment où il est nécessaire de restructurer un élément. Consultez aussi la section [Compatibilité de la mise à niveau des personnalisations](customizing.md#upgrade-compatibility-of-customizations), qui explique quels sont les différents types de personnalisations requis pour une mise à niveau.
 
@@ -89,15 +89,15 @@ Vous trouverez ci-dessous un aperçu de la structure entière de liaison de type
 
 ![Présentation de la liaison des ressources](/help/assets/chlimage_1-32.png)
 
-Vous trouverez ci-dessous un autre aperçu qui n’affiche pas les détails du POJO d’implémentation, mais révèle la manière dont les [modèles et stratégies associés](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/implementing/developing/full-stack/components-templates/templates.html?lang=fr) sont référencés.
+Vous trouverez ci-dessous un autre aperçu qui n’affiche pas les détails du POJO d’implémentation, mais révèle la manière dont les [modèles et politiques associés](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/implementing/developing/full-stack/components-templates/templates.html?lang=fr) sont référencés.
 
 La propriété `cq:allowedTemplates` indique les modèles qui peuvent être utilisés pour un site et la propriété `cq:template` indique pour chaque page quel est le modèle associé. Chaque modèle est composé de trois parties :
 
 * **Structure** : contient les ressources dont la présence sera forcée sur chaque page et que l’auteur de la page ne pourra pas supprimer, comme les composants d’en-tête et de pied de page.
 * **Initiale** : contient le contenu initial qui sera dupliqué sur la page lors de sa création.
-* **Stratégies** : contient pour chaque composant le mappage à une stratégie, qui correspond à la préconfiguration du composant. Ce mappage permet de réutiliser les stratégies dans les modèles et donc de les gérer de manière centralisée.
+* **Politiques** : contient pour chaque composant le mappage à une politique, qui correspond à la préconfiguration du composant. Ce mappage permet de réutiliser les politiques dans les modèles et donc de les gérer de manière centralisée.
 
-![Présentation des modèles et de la stratégie](/help/assets/screen_shot_2018-12-07at093102.png)
+![Présentation des modèles et de la politique](/help/assets/screen_shot_2018-12-07at093102.png)
 
 ## Archétype de projet AEM {#aem-project-archetype}
 

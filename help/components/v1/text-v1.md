@@ -5,8 +5,8 @@ index: n
 role: Architect, Developer, Admin, User
 exl-id: c9fe3052-a33d-412e-9456-52c9a0cea292
 source-git-commit: 3ebe1a42d265185b36424b01844f4a00f05d4724
-workflow-type: ht
-source-wordcount: '1657'
+workflow-type: tm+mt
+source-wordcount: '1639'
 ht-degree: 100%
 
 ---
@@ -78,70 +78,71 @@ La boîte de dialogue de modification propose les outils standard de mise en for
 
 * Gras
 
-   ![](/help/assets/chlimage_1-53.png)
+  ![](/help/assets/chlimage_1-53.png)
 
-   Utilisé pour appliquer une mise en forme gras au texte sélectionné ou au texte gras saisi après le curseur.
+  Utilisé pour appliquer une mise en forme gras au texte sélectionné ou au texte gras saisi après le curseur.
 
-   **Ctrl + B** peut être utilisé comme raccourci clavier.
+  **Ctrl + B** peut être utilisé comme raccourci clavier.
 
 * Italique
 
-   ![](/help/assets/chlimage_1-54.png)
+  ![](/help/assets/chlimage_1-54.png)
 
-   Utilisé pour appliquer une mise en forme en italique au texte sélectionné ou mettre en italique le texte saisi après le curseur.
+  Utilisé pour appliquer une mise en forme en italique au texte sélectionné ou mettre en italique le texte saisi après le curseur.
 
-   **Ctrl + I** peut être utilisé comme raccourci clavier.
+  **Ctrl + I** peut être utilisé comme raccourci clavier.
 
 * Souligné
 
-   ![](/help/assets/chlimage_1-55.png)
+  ![](/help/assets/chlimage_1-55.png)
 
-   Utilisé pour appliquer une mise en forme soulignée au texte ou au texte souligné sélectionné après le curseur.
+  Utilisé pour appliquer une mise en forme soulignée au texte ou au texte souligné sélectionné après le curseur.
 
-   **Ctrl + U** peut être utilisé comme raccourci clavier.
+  **Ctrl + U** peut être utilisé comme raccourci clavier.
 
 * Indice
 
-   ![](/help/assets/chlimage_1-56.png)
+  ![](/help/assets/chlimage_1-56.png)
 
-   Utilisé pour mettre en forme le texte ou le texte sélectionné après le curseur comme indice.
+  Utilisé pour mettre en forme le texte ou le texte sélectionné après le curseur comme indice.
 
 * Exposant
 
-   ![](/help/assets/chlimage_1-57.png)
+  ![](/help/assets/chlimage_1-57.png)
 
-   Utilisé pour mettre en forme le texte ou le texte sélectionné après le curseur comme exposant.
+  Utilisé pour mettre en forme le texte ou le texte sélectionné après le curseur comme exposant.
 
 * Coller en tant que texte
 
-   ![](/help/assets/chlimage_1-58.png)
+  ![](/help/assets/chlimage_1-58.png)
 
-   Colle le texte copié en tant que texte brut sans mise en forme.
+  Colle le texte copié en tant que texte brut sans mise en forme.
 
-   Lorsque vous sélectionnez cette option, une fenêtre s’ouvre où le texte peut être collé en tant que texte brut sans formatage en tant qu’aperçu avant d’être inséré dans le texte. Acceptez en appuyant ou en cliquant sur la coche, annulez en appuyant ou en cliquant sur le x.
+  Lorsque vous sélectionnez cette option, une fenêtre s’ouvre où le texte peut être collé en tant que texte brut sans formatage en tant qu’aperçu avant d’être inséré dans le texte. Acceptez en appuyant ou en cliquant sur la coche, annulez en appuyant ou en cliquant sur le x.
 
-   ![](/help/assets/chlimage_1-59.png)
+  ![](/help/assets/chlimage_1-59.png)
 
 * Coller à partir de Word
 
-   ![](/help/assets/chlimage_1-60.png)
+  ![](/help/assets/chlimage_1-60.png)
 
-   Lorsque vous sélectionnez cette option, une fenêtre s’ouvre où le texte peut être collé, en conservant sa mise en forme en tant qu’aperçu avant de l’insérer dans le texte. Acceptez en appuyant ou en cliquant sur la coche, annulez en appuyant ou en cliquant sur le x.
+  Lorsque vous sélectionnez cette option, une fenêtre s’ouvre où le texte peut être collé, en conservant sa mise en forme en tant qu’aperçu avant de l’insérer dans le texte. Acceptez en appuyant ou en cliquant sur la coche, annulez en appuyant ou en cliquant sur le x.
 
-   ![](/help/assets/chlimage_1-61.png)
+  ![](/help/assets/chlimage_1-61.png)
 
 * Lien hypertexte
 
-   ![](/help/assets/chlimage_1-62.png)
+  ![](/help/assets/chlimage_1-62.png)
 
-   Utilisez cette option pour convertir le texte sélectionné en hyperlien ou modifier un lien déjà défini. Cette option est uniquement active lorsque le texte est déjà sélectionné et ouvre une fenêtre avec des options supplémentaires pour définir le lien.
+  Utilisez cette option pour convertir le texte sélectionné en hyperlien ou modifier un lien déjà défini. Cette option est uniquement active lorsque le texte est déjà sélectionné et ouvre une fenêtre avec des options supplémentaires pour définir le lien.
 
-   ![](/help/assets/chlimage_1-63.png)
+  ![](/help/assets/chlimage_1-63.png)
 
    * Saisissez l’emplacement.
 
       * Utilisez la boîte de dialogue Ouvrir la sélection pour choisir un chemin dans AEM.
       * Si le lien ne figure pas dans AEM, saisissez l’URL absolue (les chemins non absolus sont interprétés comme relatifs par rapport à AEM).
+
    * Saisissez un autre texte descriptif pour le lien.
    * Sélectionner le comportement des liens
 
@@ -151,107 +152,107 @@ La boîte de dialogue de modification propose les outils standard de mise en for
       * Cadre parent
       * Cadre supérieur
 
-   Appuyez ou cliquez sur la coche pour appliquer le lien ou sur le x pour annuler.
+  Appuyez ou cliquez sur la coche pour appliquer le lien ou sur le x pour annuler.
 
 * Dissocier
 
-   ![](/help/assets/chlimage_1-64.png)
+  ![](/help/assets/chlimage_1-64.png)
 
-   Utilisez cette option pour supprimer un lien déjà appliqué au texte sélectionné. Cette option est uniquement active lorsqu’un lien est déjà sélectionné.
+  Utilisez cette option pour supprimer un lien déjà appliqué au texte sélectionné. Cette option est uniquement active lorsqu’un lien est déjà sélectionné.
 
 * Rechercher
 
-   ![](/help/assets/chlimage_1-65.png)
+  ![](/help/assets/chlimage_1-65.png)
 
-   Utilisez cette option pour rechercher dans le texte les occurrences d’une chaîne de texte spécifiée. Cette option permet d’ouvrir une fenêtre pour définir les options de recherche.
+  Utilisez cette option pour rechercher dans le texte les occurrences d’une chaîne de texte spécifiée. Cette option permet d’ouvrir une fenêtre pour définir les options de recherche.
 
-   ![](/help/assets/chlimage_1-66.png)
+  ![](/help/assets/chlimage_1-66.png)
 
-   Entrez le texte pour lequel vous souhaitez effectuer des recherches et appuyez ou cliquez sur **Rechercher** pour lancer la recherche. Appuyez ou cliquez sur le x pour annuler.
+  Entrez le texte pour lequel vous souhaitez effectuer des recherches et appuyez ou cliquez sur **Rechercher** pour lancer la recherche. Appuyez ou cliquez sur le x pour annuler.
 
-   Si vous souhaitez effectuer une correspondance exacte, sélectionnez l’option **Respecter la casse** avant de lancer la recherche.
+  Si vous souhaitez effectuer une correspondance exacte, sélectionnez l’option **Respecter la casse** avant de lancer la recherche.
 
-   Si une correspondance est trouvée, elle est mise en surbrillance et le dialogue de recherche est grisé. Appuyez ou cliquez à nouveau sur le bouton **Rechercher** dans la boîte de dialogue grisée pour rechercher l’occurrence suivante.
+  Si une correspondance est trouvée, elle est mise en surbrillance et le dialogue de recherche est grisé. Appuyez ou cliquez à nouveau sur le bouton **Rechercher** dans la boîte de dialogue grisée pour rechercher l’occurrence suivante.
 
-   ![](/help/assets/chlimage_1-67.png)
+  ![](/help/assets/chlimage_1-67.png)
 
-   Si aucune occurrence supplémentaire n’est trouvée, un message s’affiche et la recherche redémarre à partir du début du texte.
+  Si aucune occurrence supplémentaire n’est trouvée, un message s’affiche et la recherche redémarre à partir du début du texte.
 
-   ![](/help/assets/chlimage_1-68.png)
+  ![](/help/assets/chlimage_1-68.png)
 
 * Remplacer
 
-   ![](/help/assets/chlimage_1-69.png)
+  ![](/help/assets/chlimage_1-69.png)
 
-   Utilisez cette option pour rechercher dans le texte des occurrences d’une chaîne de texte spécifiée et remplacer les correspondances par une autre chaîne. Cette option ouvre une fenêtre permettant de spécifier les options de recherche et de remplacement.
+  Utilisez cette option pour rechercher dans le texte des occurrences d’une chaîne de texte spécifiée et remplacer les correspondances par une autre chaîne. Cette option ouvre une fenêtre permettant de spécifier les options de recherche et de remplacement.
 
-   ![](/help/assets/chlimage_1-70.png)
+  ![](/help/assets/chlimage_1-70.png)
 
-   Entrez le texte à rechercher ainsi que le texte avec lequel le remplacer.
+  Entrez le texte à rechercher ainsi que le texte avec lequel le remplacer.
 
-   Appuyez ou cliquez sur **Rechercher** pour lancer la recherche. Cliquez ou appuyez sur le x pour annuler.
+  Appuyez ou cliquez sur **Rechercher** pour lancer la recherche. Cliquez ou appuyez sur le x pour annuler.
 
-   Si vous souhaitez effectuer une correspondance exacte, sélectionnez l’option **Respecter la casse** avant de lancer la recherche.
+  Si vous souhaitez effectuer une correspondance exacte, sélectionnez l’option **Respecter la casse** avant de lancer la recherche.
 
-   Si une correspondance est trouvée, elle est mise en surbrillance et le dialogue de recherche est grisé. Cliquez à nouveau sur le bouton **Rechercher** dans la boîte de dialogue grisée pour rechercher l’occurrence suivante ou sélectionner le bouton **Remplacer** pour remplacer le texte mis en surbrillance. Notez que le bouton **Remplacer** n’est actif qu’une fois qu’une correspondance est trouvée.
+  Si une correspondance est trouvée, elle est mise en surbrillance et le dialogue de recherche est grisé. Cliquez à nouveau sur le bouton **Rechercher** dans la boîte de dialogue grisée pour rechercher l’occurrence suivante ou sélectionner le bouton **Remplacer** pour remplacer le texte mis en surbrillance. Notez que le bouton **Remplacer** n’est actif qu’une fois qu’une correspondance est trouvée.
 
-   Sélectionnez **Tout remplacer** pour remplacer toutes les occurrences du texte à la fois.
+  Sélectionnez **Tout remplacer** pour remplacer toutes les occurrences du texte à la fois.
 
 * Aligner le texte à gauche
 
-   ![](/help/assets/chlimage_1-71.png)
+  ![](/help/assets/chlimage_1-71.png)
 
-   Utilisé pour aligner le texte sur la marge gauche.
+  Utilisé pour aligner le texte sur la marge gauche.
 
 * Texte centré
 
-   ![](/help/assets/chlimage_1-72.png)
+  ![](/help/assets/chlimage_1-72.png)
 
-   Utilisé pour centrer le texte.
+  Utilisé pour centrer le texte.
 
 * Aligner le texte à droite
 
-   ![](/help/assets/chlimage_1-73.png)
+  ![](/help/assets/chlimage_1-73.png)
 
-   Utilisé pour aligner le texte sur la marge droite.
+  Utilisé pour aligner le texte sur la marge droite.
 
 * Puce
 
-   ![](/help/assets/chlimage_1-74.png)
+  ![](/help/assets/chlimage_1-74.png)
 
-   Utilisé pour formater le texte sélectionné sous forme d’une liste à puces ou commencer l’insertion d’une liste à puces après le curseur.
+  Utilisé pour formater le texte sélectionné sous forme d’une liste à puces ou commencer l’insertion d’une liste à puces après le curseur.
 
-   Pour mettre fin à une liste à puces, appuyez ou cliquez de nouveau sur le bouton **Puces** ou saisissez deux retours chariot.
+  Pour mettre fin à une liste à puces, appuyez ou cliquez de nouveau sur le bouton **Puces** ou saisissez deux retours chariot.
 
 * Numérotée
 
-   ![](/help/assets/chlimage_1-75.png)
+  ![](/help/assets/chlimage_1-75.png)
 
-   Utilisé pour mettre en forme le texte sélectionné sous forme de liste numérotée ou commencer l’insertion d’une liste numérotée après le curseur.
+  Utilisé pour mettre en forme le texte sélectionné sous forme de liste numérotée ou commencer l’insertion d’une liste numérotée après le curseur.
 
-   Pour mettre fin à une liste numérotée, appuyez ou cliquez de nouveau sur le bouton **Numérotée** ou saisissez deux retours chariot.
+  Pour mettre fin à une liste numérotée, appuyez ou cliquez de nouveau sur le bouton **Numérotée** ou saisissez deux retours chariot.
 
 * Retrait négatif
 
-   ![](/help/assets/chlimage_1-76.png)
+  ![](/help/assets/chlimage_1-76.png)
 
-   Utilisé pour diminuer le niveau de mise en retrait du texte sélectionné ou du texte entré après le curseur.
+  Utilisé pour diminuer le niveau de mise en retrait du texte sélectionné ou du texte entré après le curseur.
 
-   Uniquement actif si le texte ou la position sélectionnés du curseur est déjà mis en retrait.
+  Uniquement actif si le texte ou la position sélectionnés du curseur est déjà mis en retrait.
 
 * Retrait
 
-   ![](/help/assets/chlimage_1-77.png)
+  ![](/help/assets/chlimage_1-77.png)
 
-   Utilisé pour augmenter le niveau de mise en retrait du texte ou du texte sélectionnés après le curseur.
+  Utilisé pour augmenter le niveau de mise en retrait du texte ou du texte sélectionnés après le curseur.
 
 * Tableau
 
-   ![](/help/assets/chlimage_1-78.png)
+  ![](/help/assets/chlimage_1-78.png)
 
-   Utilisé pour insérer un tableau dans le texte. Cette option permet d’ouvrir une fenêtre pour indiquer les détails du tableau.
+  Utilisé pour insérer un tableau dans le texte. Cette option permet d’ouvrir une fenêtre pour indiquer les détails du tableau.
 
-   ![](/help/assets/chlimage_1-79.png)
+  ![](/help/assets/chlimage_1-79.png)
 
    * **Colonnes** - Nombre de colonnes du tableau (obligatoire).
    * **Lignes** : Nombre de lignes du tableau (obligatoire).
@@ -266,47 +267,47 @@ La boîte de dialogue de modification propose les outils standard de mise en for
       * La première colonne doit être utilisée
       * La première ligne et la première colonne doivent être utilisées
       * Ou aucun en-tête ne doit être utilisé.
-   * **Légende** - Légende du tableau.
 
+   * **Légende** - Légende du tableau.
 
 * Vérifier l’orthographe
 
-   ![](/help/assets/chlimage_1-80.png)
+  ![](/help/assets/chlimage_1-80.png)
 
-   Permet de vérifier l’orthographe du contenu du texte. Les fautes de frappe possibles sont soulignées avec des lignes rouges rompues.
+  Permet de vérifier l’orthographe du contenu du texte. Les fautes de frappe possibles sont soulignées avec des lignes rouges rompues.
 
 * Caractères spéciaux
 
-   ![](/help/assets/chlimage_1-81.png)
+  ![](/help/assets/chlimage_1-81.png)
 
-   Utilisé pour insérer des caractères spéciaux dans le texte. Cette option ouvre une fenêtre où les caractères disponibles sont affichés.
+  Utilisé pour insérer des caractères spéciaux dans le texte. Cette option ouvre une fenêtre où les caractères disponibles sont affichés.
 
-   ![](/help/assets/chlimage_1-82.png)
+  ![](/help/assets/chlimage_1-82.png)
 
-   Appuyez ou cliquez sur le caractère souhaité pour l’insérer dans le texte après le curseur. Plusieurs caractères peuvent être insérés. Appuyez ou cliquez sur le x pour fermer la fenêtre de sélection.
+  Appuyez ou cliquez sur le caractère souhaité pour l’insérer dans le texte après le curseur. Plusieurs caractères peuvent être insérés. Appuyez ou cliquez sur le x pour fermer la fenêtre de sélection.
 
 * Modification de la source
 
-   ![](/help/assets/chlimage_1-83.png)
+  ![](/help/assets/chlimage_1-83.png)
 
-   Utilisé pour afficher et modifier la source HTML du texte.
+  Utilisé pour afficher et modifier la source HTML du texte.
 
-   Appuyez ou cliquez sur l’icône **Modifier la source** pour modifier le contenu du texte à partir de la vue formatée pour afficher le code HTML brut. Dans ce mode, toutes les autres options de formatage sont désactivées. Appuyez ou cliquez de nouveau sur l’icône **Modifier la source** pour revenir à la vue formatée.
+  Appuyez ou cliquez sur l’icône **Modifier la source** pour modifier le contenu du texte à partir de la vue formatée pour afficher le code HTML brut. Dans ce mode, toutes les autres options de formatage sont désactivées. Appuyez ou cliquez de nouveau sur l’icône **Modifier la source** pour revenir à la vue formatée.
 
-   >[!CAUTION]
-   >
-   >Comme c’est toujours le cas avec l’accès au code HTML brut, vous devez faire preuve de prudence lors de l’utilisation de l’option **Modifier la source**.
-   >
-   >
-   >Le code HTML saisi via l’option **Modifier la source** est analysé pour les risques XSS et tous les scripts insérés sont supprimés et ne s’affichent pas sur la page produite. Cependant, le code HTML mal formé saisi dans l’option **Modifier la source** peut casser le modèle de la page, ce qui entraîne une mise en forme inattendue ou un rendu inutilisable de la page obtenue.
+  >[!CAUTION]
+  >
+  >Comme c’est toujours le cas avec l’accès au code HTML brut, vous devez faire preuve de prudence lors de l’utilisation de l’option **Modifier la source**.
+  >
+  >
+  >Le code HTML saisi via l’option **Modifier la source** est analysé pour les risques XSS et tous les scripts insérés sont supprimés et ne s’affichent pas sur la page produite. Cependant, le code HTML mal formé saisi dans l’option **Modifier la source** peut casser le modèle de la page, ce qui entraîne une mise en forme inattendue ou un rendu inutilisable de la page obtenue.
 
 * Format de paragraphe
 
-   ![](/help/assets/chlimage_1-84.png)
+  ![](/help/assets/chlimage_1-84.png)
 
-   Utilisé pour appliquer le formatage des paragraphes au texte sélectionné ou au texte inséré après le curseur. La sélection de cette option ouvre une liste déroulante à partir de laquelle le format de paragraphe est sélectionné.
+  Utilisé pour appliquer le formatage des paragraphes au texte sélectionné ou au texte inséré après le curseur. La sélection de cette option ouvre une liste déroulante à partir de laquelle le format de paragraphe est sélectionné.
 
-   ![](/help/assets/chlimage_1-85.png)
+  ![](/help/assets/chlimage_1-85.png)
 
 Le composant de texte peut également être modifié en ligne mais en raison des contraintes d’espace, toutes les options de formatage ne sont pas disponibles en ligne. Pour afficher toutes les options, passez en mode plein écran.
 

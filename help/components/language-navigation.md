@@ -4,8 +4,8 @@ description: Le composant Navigation par langue fournit une navigation par langu
 role: Architect, Developer, Admin, User
 exl-id: 10b218b4-c439-4a0f-a46f-0b15d78b0360
 source-git-commit: 327c239b02e0aecee878784c918bfa98d960530e
-workflow-type: ht
-source-wordcount: '957'
+workflow-type: tm+mt
+source-wordcount: '949'
 ht-degree: 100%
 
 ---

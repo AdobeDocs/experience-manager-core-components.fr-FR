@@ -5,8 +5,8 @@ index: n
 role: Architect, Developer, Admin, User
 exl-id: 625ce8de-5c4a-476d-b749-895493d169b1
 source-git-commit: 5f25aee6ebcb7a5c6b8db0df5b8b853f15af97d0
-workflow-type: ht
-source-wordcount: '1323'
+workflow-type: tm+mt
+source-wordcount: '1293'
 ht-degree: 100%
 
 ---
@@ -94,7 +94,7 @@ Outre la [boîte de dialogue de modification](#edit-dialog) et la [boîte de dia
    * Si vous ne créez pas de lien vers une ressource AEM, saisissez l’URL absolue. Les URL non absolues seront interprétées comme relatives à AEM.
 
 * **Légende** : des informations supplémentaires sur l’image sont affichées par défaut sous l’image.
-* **Afficher la légende dans une fenêtre contextuelle** : si cette option est activée, la légende ne s’affiche pas sous l’image, mais dans une fenêtre contextuelle dans certains navigateurs lorsque vous pointez sur l’image.
+* **Afficher la légende dans un pop-up** : si cette option est activée, la légende ne s’affiche pas sous l’image, mais dans un pop-up dans certains navigateurs lorsque vous pointez sur l’image.
 
 ## Boîte de dialogue de modification {#edit-dialog}
 
@@ -104,28 +104,28 @@ La boîte de dialogue de modification permet à l’auteur du contenu de recadre
 
 * Commencer recadrage
 
-   ![](/help/assets/chlimage_1-9.png)
+  ![](/help/assets/chlimage_1-9.png)
 
-   Cette option ouvre une liste déroulante pour les proportions de recadrage prédéfinies.
+  Cette option ouvre une liste déroulante pour les proportions de recadrage prédéfinies.
 
    * Choisissez l’option **Main libre** pour définir votre propre recadrage.
    * Choisissez l’option **Supprimer le recadrage** pour afficher la ressource d’origine.
 
-   Une fois qu’une option de recadrage est sélectionnée, utilisez les poignées bleues pour dimensionner le recadrage sur l’image.
+  Une fois qu’une option de recadrage est sélectionnée, utilisez les poignées bleues pour dimensionner le recadrage sur l’image.
 
-   ![](/help/assets/chlimage_1-10.png)
+  ![](/help/assets/chlimage_1-10.png)
 
 * Rotation à droite
 
-   ![](/help/assets/chlimage_1-11.png)
+  ![](/help/assets/chlimage_1-11.png)
 
-   Utilisez cette option pour faire pivoter l’image de 90° vers la droite (dans le sens horaire).
+  Utilisez cette option pour faire pivoter l’image de 90° vers la droite (dans le sens horaire).
 
 * Lancer une Map
 
-   ![](/help/assets/chlimage_1-12.png)
+  ![](/help/assets/chlimage_1-12.png)
 
-   Utilisez cette option pour appliquer une carte de lancement à l’image. Cette option ouvre une nouvelle fenêtre permettant à l’utilisateur de sélectionner la forme de la carte :
+  Utilisez cette option pour appliquer une carte de lancement à l’image. Cette option ouvre une nouvelle fenêtre permettant à l’utilisateur de sélectionner la forme de la carte :
 
    * **Ajouter une map rectangulaire**
    * **Ajouter une map circulaire**
@@ -133,11 +133,11 @@ La boîte de dialogue de modification permet à l’auteur du contenu de recadre
 
       * Par défaut, une carte en triangle est ajoutée. Cliquez deux fois sur une ligne de la forme pour ajouter une nouvelle poignée de redimensionnement bleue d’un nouveau côté.
 
-   Lorsqu’une forme de carte est sélectionnée, elle est superposée sur l’image pour le redimensionnement. Faites glisser les poignées de redimensionnement bleues pour ajuster la forme.
+  Lorsqu’une forme de carte est sélectionnée, elle est superposée sur l’image pour le redimensionnement. Faites glisser les poignées de redimensionnement bleues pour ajuster la forme.
 
-   ![](/help/assets/chlimage_1-13.png)
+  ![](/help/assets/chlimage_1-13.png)
 
-   Après avoir dimensionné la carte de lancement, cliquez dessus pour ouvrir une barre d’outils flottante afin de définir le chemin du lien.
+  Après avoir dimensionné la carte de lancement, cliquez dessus pour ouvrir une barre d’outils flottante afin de définir le chemin du lien.
 
    * **Chemin**
       * Utilisez l’option Sélecteur de chemin pour sélectionner un chemin dans AEM.
@@ -151,23 +151,23 @@ Autre description de la destination du chemin.
          * **Cadre parent**
          * **Cadre supérieur**
 
-   Appuyez ou cliquez sur la coche bleue pour enregistrer, le x noir pour annuler et la corbeille rouge pour supprimer la carte.
+  Appuyez ou cliquez sur la coche bleue pour enregistrer, le x noir pour annuler et la corbeille rouge pour supprimer la carte.
 
-   ![](/help/assets/chlimage_1-14.png)
+  ![](/help/assets/chlimage_1-14.png)
 
 * Réinitialiser le zoom
 
-   ![](/help/assets/chlimage_1-15.png)
+  ![](/help/assets/chlimage_1-15.png)
 
-   Si l’image a déjà été agrandie, utilisez cette option pour réinitialiser le niveau de zoom.
+  Si l’image a déjà été agrandie, utilisez cette option pour réinitialiser le niveau de zoom.
 
 * Ouvrir le curseur de zoom
 
-   ![](/help/assets/chlimage_1-16.png)
+  ![](/help/assets/chlimage_1-16.png)
 
-   Utilisez cette option pour afficher un curseur permettant de contrôler le niveau de zoom de l’image.
+  Utilisez cette option pour afficher un curseur permettant de contrôler le niveau de zoom de l’image.
 
-   ![](/help/assets/chlimage_1-17.png)
+  ![](/help/assets/chlimage_1-17.png)
 
 L’éditeur statique peut également être utilisé pour modifier l’image. En raison d’un espace limité, seules les options de base sont disponibles en ligne. Pour des options de modification complètes, utilisez le mode Plein écran.
 
@@ -208,35 +208,36 @@ Sur l’onglet **Fonctions**, vous pouvez définir les options disponibles pour 
 
 * Source
 
-   ![](/help/assets/chlimage_1-19.png)
+  ![](/help/assets/chlimage_1-19.png)
 
-   Sélectionnez l’option **Autoriser le transfert des ressources depuis le système de fichiers** pour permettre aux auteurs de contenu de télécharger des images à partir de leur ordinateur local. Pour forcer les auteurs de contenu à sélectionner uniquement des ressources à partir d’AEM, désactivez cette option.
+  Sélectionnez l’option **Autoriser le transfert des ressources depuis le système de fichiers** pour permettre aux auteurs de contenu de télécharger des images à partir de leur ordinateur local. Pour forcer les auteurs de contenu à sélectionner uniquement des ressources à partir d’AEM, désactivez cette option.
 
 * Orientation
 
-   ![](/help/assets/chlimage_1-20.png)
+  ![](/help/assets/chlimage_1-20.png)
 
-   * **Rotation** : utilisez cette option pour permettre à l’auteur de contenu d’utiliser l’option **Rotation à droite**.
-   * **Symétrie** : Utilisez cette option pour permettre à l’auteur de contenu d’appliquer 
-les options **Symétrie horizontale** et **Rotation verticale**.
-   >[!CAUTION]
-   >
-   >L’option **Symétrie** est désactivée par défaut. L’activation de cette option affichera les boutons **Symétrie verticale** et **Symétrie horizontale** dans la boîte de dialogue de modification du composant d’image. Toutefois, cette fonction n’est actuellement pas prise en charge par AEM et les modifications effectuées à l’aide de ces options ne seront pas conservées.
+   * **Rotation** : utilisez cette option pour permettre à l’auteur de contenu d’utiliser l&#39;option **Rotation à droite**.
+   * **Retourner**
+Utilisez cette option pour permettre à l’auteur de contenu d’utiliser les options **Rotation horizontale** et **Rotation verticale**.
+
+  >[!CAUTION]
+  >
+  >L’option **Retourner** est désactivée par défaut. L’activation de cette option affichera les boutons **Symétrie verticale** et **Symétrie horizontale** dans la boîte de dialogue de modification du composant d’image. Toutefois, cette fonction n’est actuellement pas prise en charge par AEM et les modifications effectuées à l’aide de ces options ne seront pas conservées.
 
 * Recadrage
 
-   ![](/help/assets/chlimage_1-21.png)
+  ![](/help/assets/chlimage_1-21.png)
 
-   Sélectionnez l’option **Autoriser le recadrage** pour permettre à l’auteur du contenu de recadrer l’image dans le composant au sein de la boîte de dialogue de modification.
+  Sélectionnez l’option **Autoriser le recadrage** pour permettre à l’auteur du contenu de recadrer l’image dans le composant au sein de la boîte de dialogue de modification.
    * Cliquez sur **Ajouter** pour ajouter des proportions de recadrage prédéfinies.
    * Saisissez un nom descriptif. Celui-ci s’affichera dans la liste déroulante **Commencer recadrage**.
    * Entrez les proportions.
    * Utilisez les poignées de glissement pour réorganiser l’ordre des proportions.
    * Utilisez l’icône de corbeille pour supprimer des proportions.
 
-   >[!CAUTION]
-   >
-   >Remarque : Dans AEM, les proportions de recadrage sont définies en tant que **hauteur/largeur**. Cela diffère de la définition conventionnelle de la largeur/hauteur. Cela a été créée pour des raisons de compatibilité héritée. Les auteurs de contenu ne verront aucune différence tant que vous indiquez le nom clair des proportions, car le nom s’affiche dans l’interface utilisateur et non les proportions.
+  >[!CAUTION]
+  >
+  >Remarque : Dans AEM, les proportions de recadrage sont définies en tant que **hauteur/largeur**. Cela diffère de la définition conventionnelle de la largeur/hauteur. Cela a été créée pour des raisons de compatibilité héritée. Les auteurs de contenu ne verront aucune différence tant que vous indiquez le nom clair des proportions, car le nom s’affiche dans l’interface utilisateur et non les proportions.
 
 ## Détails techniques {#technical-details}
 

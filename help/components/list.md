@@ -4,8 +4,8 @@ description: Le composant Liste des composants principaux permet de créer facil
 role: Architect, Developer, Admin, User
 exl-id: 662ab508-0253-4d28-b95c-8c4cde8173bd
 source-git-commit: af908d77b30b7642b553f38c217136cfd5603108
-workflow-type: ht
-source-wordcount: '1208'
+workflow-type: tm+mt
+source-wordcount: '1200'
 ht-degree: 100%
 
 ---

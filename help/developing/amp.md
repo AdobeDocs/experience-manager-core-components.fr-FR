@@ -4,8 +4,8 @@ description: Les composants principaux prennent en charge les pages mobiles acc�
 role: Architect, Developer, Admin
 exl-id: 1fd9b6b5-0e4d-48c7-8faa-42e0d4a6bbd0
 source-git-commit: 2ac16b15718128feefbe903e92f276b16fe96f69
-workflow-type: ht
-source-wordcount: '554'
+workflow-type: tm+mt
+source-wordcount: '525'
 ht-degree: 100%
 
 ---
@@ -41,9 +41,9 @@ La prise en charge AMP offre avec une grande flexibilité et quelques étapes si
 
 ### Activation d’AMP pour les pages {#enabling-amp}
 
-Pour activer AMP pour une page, le **Mode AMP** doit être sélectionné dans la [Stratégie de page.](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/features/templates.html?lang=fr#editing-a-template-page-policy-template-author-developer)
+Pour activer AMP pour une page, le **Mode AMP** doit être sélectionné dans la [Politique de page.](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/features/templates.html?lang=fr#editing-a-template-page-policy-template-author-developer)
 
-![Options de stratégie de page AMP](/help/assets/amp-policy.png)
+![Options de politique de page AMP](/help/assets/amp-policy.png)
 
 * **Aucun AMP** : la page est diffusée en HTML standard uniquement.
 * **AMP couplé** : la page est diffusée au format AMP ainsi qu’au format HTML.
@@ -53,7 +53,7 @@ Les paramètres AMP d’une page peuvent également être remplacés dans les [P
 
 ![Propriétés de page AMP](/help/assets/amp-page-properties.png)
 
-* **Hériter du modèle de page** : il s’agit de la valeur par défaut, qui permet d’utiliser le paramètre de la stratégie du modèle de page.
+* **Hériter du modèle de page** : il s’agit de la valeur par défaut, qui permet d’utiliser le paramètre de la politique du modèle de page.
 * **Aucun AMP** : la page est diffusée en HTML standard uniquement.
 * **AMP couplé** : la page est diffusée au format AMP ainsi qu’au format HTML.
 * **AMP uniquement** : la page est diffusée uniquement au format AMP.

@@ -2,15 +2,15 @@
 title: Composant de navigation par langue (v1)
 description: Le composant Navigation par langue fournit une navigation par langue/pays pour un site, de sorte que les visiteurs puissent accéder à la même page dans un autre paramètre régional.
 role: Architect, Developer, Admin, User
-source-git-commit: e5251010ca41025eb2bb56b66164ecf4cc0145c8
-workflow-type: ht
-source-wordcount: '810'
-ht-degree: 100%
+exl-id: 41194ba0-6833-40e5-88d9-036e9c231edd
+source-git-commit: e291d4c1bfd37292d68c236178f9681c4e5ee741
+workflow-type: tm+mt
+source-wordcount: '800'
+ht-degree: 99%
 
 ---
 
-
-# Composant de navigation par langue  (v1) {#language-navigation-component}
+# Composant de navigation par langue (v1) {#language-navigation-component}
 
 Le composant Navigation par langue fournit une navigation par langue/pays pour un site, de sorte que les visiteurs puissent accéder à la même page dans un autre paramètre régional.
 

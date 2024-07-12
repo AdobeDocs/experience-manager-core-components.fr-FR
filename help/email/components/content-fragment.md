@@ -4,8 +4,8 @@ description: Le composant de fragment de contenu d’e-mail permet d’afficher 
 role: Architect, Developer, Admin, User
 exl-id: 9bc6b730-0d2a-4e5b-891c-d2f67f600bcc
 source-git-commit: 3abc29e0c186a84f079d5938b8b716f4c7378d65
-workflow-type: ht
-source-wordcount: '629'
+workflow-type: tm+mt
+source-wordcount: '604'
 ht-degree: 100%
 
 ---

@@ -5,8 +5,8 @@ feature: Core Components, Adobe Client Data Layer
 role: Architect, Developer, Admin
 exl-id: 503dd3dc-fe95-4a17-83f5-1f0c1960993d
 source-git-commit: 2ac16b15718128feefbe903e92f276b16fe96f69
-workflow-type: ht
-source-wordcount: '412'
+workflow-type: tm+mt
+source-wordcount: '390'
 ht-degree: 100%
 
 ---
@@ -34,7 +34,7 @@ L’attribut `data-cmp-data-layer-enabled` peut être interrogé côté client p
 
 ## Intégration avec Adobe Analytics et Adobe Target {#analytics-target}
 
-Associée à Adobe Analytics et Adobe Target, la couche de données client Adobe devient la base d’un ensemble d’outils très puissant et flexible permettant de mieux comprendre vos expériences numériques. Les tutoriels suivants vous guident à travers des exemples d’intégration.
+Associée à Adobe Analytics et Adobe Target, la couche de données client Adobe devient la base d’un ensemble d’outils très puissant et flexible permettant de mieux comprendre vos expériences digitales. Les tutoriels suivants vous guident à travers des exemples d’intégration.
 
 ### Collecte de données de page avec Adobe Analytics {#collect-page-data}
 

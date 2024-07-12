@@ -4,8 +4,8 @@ description: Le composant Teaser d’e-mail peut afficher une image, un titre, u
 role: Architect, Developer, Admin, User
 exl-id: d6123b22-7cba-406c-986d-b6f00322d135
 source-git-commit: 3abc29e0c186a84f079d5938b8b716f4c7378d65
-workflow-type: ht
-source-wordcount: '1018'
+workflow-type: tm+mt
+source-wordcount: '999'
 ht-degree: 100%
 
 ---
@@ -110,11 +110,11 @@ La boîte de dialogue de conception permet à l’auteur du modèle de définir 
 * **Éléments d’en-tête autorisés** : utilisez la liste déroulante pour définir les éléments HTML d’en-tête qui peuvent être sélectionnés par un auteur pour le type de titre du teaser.
 * **Élément d’en-tête par défaut du titre** : l’élément HTML d’en-tête par défaut utilisé pour le type de titre du teaser.
 * **Appels à l’action**
-   * **Désactiver les appels à l’action** : masque l’option **Appels à l’action** pour les auteurs de contenu.
+   * **Désactiver les appels à l’action** : masque l’option **Appels à l’action** pour les auteurs de contenu
 * **Éléments**
    * **Masquer le prétitre** : masque l’option **Prétitre** pour les auteurs de contenu.
-   * **Masquer le titre** : masque l’option **Titre** pour les auteurs de contenu.
-      * Lorsque cette option est sélectionnée, le **Type de titre** est masqué.
+   * **Masquer le titre** : masque l’option **Titre** pour les auteurs de contenu
+      * Lorsque cette option est sélectionnée, le **Type de titre** est masqué
    * **Afficher le type de titre**
    * **Masquer la description** : masque l’option **Description** pour les auteurs de contenu.
 * **Délégué d’image** : affichage d’informations indiquant à quel composant le teaser d’e-mail délègue la gestion des images.

@@ -4,8 +4,8 @@ description: Fonctions de localisation des composants principaux
 role: Architect, Developer, Admin, User
 exl-id: 9140b65a-6dd7-4ec9-9095-6e8243ec8424
 source-git-commit: 888719359f9a1d1c9dccff97fb639b332f2be54c
-workflow-type: ht
-source-wordcount: '723'
+workflow-type: tm+mt
+source-wordcount: '716'
 ht-degree: 100%
 
 ---
@@ -93,7 +93,7 @@ Nous ajouterons à ce modèle les composants de base sur lesquels nous voulons q
    * Nous pointons le composant de fragment d’expérience vers le chemin du fragment dans notre langage de création du fragment qui représente le pied de page.
    * En fonction du chemin d’accès de ce fragment et de la structure des fragments d’expérience qui reflètent la structure de page localisée, le composant peut rechercher automatiquement le contenu localisé correspondant.
 
-   ![](/help/assets/screen-shot-2019-09-09-11.20.10.png)
+  ![](/help/assets/screen-shot-2019-09-09-11.20.10.png)
 
 ## Pages {#pages}
 

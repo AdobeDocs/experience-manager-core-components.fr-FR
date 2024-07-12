@@ -4,9 +4,9 @@ description: Le composant Texte d’e-mail est un composant d’édition et de c
 role: Architect, Developer, Admin, User
 exl-id: 4aa192f6-8314-40e7-8732-c6626d647986
 source-git-commit: 3abc29e0c186a84f079d5938b8b716f4c7378d65
-workflow-type: ht
-source-wordcount: '2291'
-ht-degree: 100%
+workflow-type: tm+mt
+source-wordcount: '2261'
+ht-degree: 99%
 
 ---
 
@@ -375,7 +375,7 @@ Les fonctionnalités suivantes peuvent être activées ou désactivées pour le 
 Les options de formatage suivantes peuvent être activées ou désactivées pour le composant.
 
 * Tableau
-* Listes (puce, numéro, retrait, retrait négatif)
+* Listes (puce, nombre, retrait, retrait)
 * Alignement (gauche, droite, centré)
 * Gras, italique, souligné
 * Lien (et dissociation)

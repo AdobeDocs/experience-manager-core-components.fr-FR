@@ -4,8 +4,8 @@ description: Composant Page d’e-mail
 role: Architect, Developer, Admin, User
 exl-id: 17fd0f5e-2b85-41a1-abaf-8ad190a5341a
 source-git-commit: c16dd8696e89f89c7b178ece11f57a565d73588b
-workflow-type: ht
-source-wordcount: '803'
+workflow-type: tm+mt
+source-wordcount: '777'
 ht-degree: 100%
 
 ---
@@ -72,9 +72,9 @@ L’onglet E-mail définit les propriétés des e-mails envoyés via Adobe Camp
 
 ## Boîte de dialogue de conception {#design-dialog}
 
-Étant donné que le composant représente la page entière, la boîte de dialogue de conception est accessible via **Informations sur la page -> Stratégie de page** lors de la modification du modèle de page.
+Étant donné que le composant représente la page entière, la boîte de dialogue de conception est accessible via **Informations sur la page -> Politique de page** lors de la modification du modèle de page.
 
-![Stratégie de page](/help/assets/page-policy.png)
+![Politique de page](/help/assets/page-policy.png)
 
 ### Onglet Propriétés {#properties-tab}
 

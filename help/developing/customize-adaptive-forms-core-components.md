@@ -2,13 +2,13 @@
 title: Personnaliser les composants principaux des formulaires adaptatifs
 description: Découvrez comment étendre ou créer un composant principal de formulaire adaptatif pour mettre en œuvre des fonctionnalités adaptées à votre organisation.
 role: Architect, Developer, Admin
-source-git-commit: 9a80b453d6a6cf7b347128654d3b5e673a063505
-workflow-type: ht
-source-wordcount: '707'
+exl-id: f3ab12aa-d48d-47e9-a965-15052cac6f18
+source-git-commit: 79cedf7099e2dc267a4cb1c25c06d4f0460367b2
+workflow-type: tm+mt
+source-wordcount: '562'
 ht-degree: 100%
 
 ---
-
 
 # Personnaliser les composants principaux des formulaires adaptatifs
 
@@ -57,4 +57,3 @@ Suivez les étapes ci-dessous pour modifier l’apparence, le comportement et le
 1. **Déployer le composant personnalisé dans votre environnement de production**
 
    Après avoir testé le composant dans votre environnement de développement local, déployez-le dans vos environnements de production.
-

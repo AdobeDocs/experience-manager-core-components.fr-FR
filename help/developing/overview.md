@@ -4,8 +4,8 @@ description: Les composants principaux fournissent des composants de base robust
 role: Architect, Developer, Admin
 exl-id: 0f79cac1-a3b0-487e-90be-0bd8263d3912
 source-git-commit: 614bc5fd01a76a6888606faa4576e1695b77ba58
-workflow-type: ht
-source-wordcount: '1559'
+workflow-type: tm+mt
+source-wordcount: '1287'
 ht-degree: 100%
 
 ---
@@ -22,14 +22,13 @@ Par conséquent, Adobe donne les recommandations suivantes :
 Les nouveaux projets doivent toujours tenter d’utiliser les composants principaux. Si les composants principaux ne peuvent pas être utilisés directement ou [étendus](customizing.md) pour répondre aux exigences du projet, créez un composant personnalisé d’après l’architecture du composant définie dans les composants principaux. Sauf si cela est impossible, évitez d’utiliser les [composants de base](/help/versions.md#foundation-component-support).
 * **Projets existants**
 Il est recommandé de continuer à utiliser les [composants de base](/help/versions.md#foundation-component-support), à moins qu’une restructuration de sites ou de composants ne soit planifiée.\
-   Comme la plupart des projets existants les utilisent largement, les composants de base [continueront à être pris en charge](/help/versions.md#foundation-component-support).
+  Comme la plupart des projets existants les utilisent largement, les composants de base [continueront à être pris en charge](/help/versions.md#foundation-component-support).
 * **Nouveaux composants personnalisés**
 Vous pouvez évaluer si un [composant principal existant peut être personnalisé](customizing.md).\
-   Dans le cas contraire, vous devez créer un nouveau composant personnalisé suivant les [instructions des composants](guidelines.md).
+  Dans le cas contraire, vous devez créer un nouveau composant personnalisé suivant les [instructions des composants](guidelines.md).
 * **Composants personnalisés existants**
-Si vos composants fonctionnent comme prévu, conservez-les tels quels.
-\
-   Dans le cas contraire, reportez-vous à la section « Nouveaux composants personnalisés » ci-dessus.
+Si vos composants fonctionnent comme prévu, conservez-les tels quels.\
+  Dans le cas contraire, reportez-vous à la section « Nouveaux composants personnalisés » ci-dessus.
 
 ## Réussir avec les composants principaux {#how-to-succeed}
 
@@ -46,7 +45,7 @@ Un travail plus important sur un projet existant (par exemple une création de n
 [Les outils de modernisation AEM](https://opensource.adobe.com/aem-modernize-tools/) permettent de convertir facilement :
 
 * Les modèles statiques en modèles modifiables
-* Les configurations de la conception en stratégies
+* Les configurations de la conception en politiques
 * Les composants de base en composants principaux
 * L’interface utilisateur classique en interface utilisateur tactile
 

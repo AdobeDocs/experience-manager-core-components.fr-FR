@@ -2,15 +2,15 @@
 title: Composant Page (v2)
 description: Le composant Page est un composant de page extensible, conçu pour fonctionner avec l’éditeur de modèles et autoriser l’assemblage de composants d’en-tête/de pied de page et de structure à l’aide de l’éditeur de modèles.
 role: Architect, Developer, Admin, User
-source-git-commit: e5251010ca41025eb2bb56b66164ecf4cc0145c8
-workflow-type: ht
-source-wordcount: '645'
+exl-id: e85fe4db-6de4-4a84-a54c-bd07a67efed3
+source-git-commit: e291d4c1bfd37292d68c236178f9681c4e5ee741
+workflow-type: tm+mt
+source-wordcount: '618'
 ht-degree: 100%
 
 ---
 
-
-# Composant de page  (v2) {#page-component}
+# Composant Page (v2) {#page-component}
 
 Le composant Page est un composant de page extensible conçu pour fonctionner avec l’[éditeur de modèles](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/features/templates.html?lang=fr) et permet l’assemblage de composants d’en-tête/de pied de page et de structure à l’aide de l’éditeur de modèles.
 
@@ -46,13 +46,13 @@ Vous trouverez plus d’informations sur le développement des composants princi
 
 ## Boîte de dialogue de conception {#design-dialog}
 
-Étant donné que le composant représente la page entière, la boîte de dialogue de conception est accessible via **Informations sur la page -> Stratégie de page** lors de la modification du modèle de page.
+Étant donné que le composant représente la page entière, la boîte de dialogue de conception est accessible via **Informations sur la page -> Politique de page** lors de la modification du modèle de page.
 
-![Stratégie de page](/help/assets/page-policy.png)
+![Politique de page](/help/assets/page-policy.png)
 
 >[!NOTE]
 >
->Dans les versions précédentes d’AEM, la **Stratégie de page** était appelée **Conception de page**.
+>Dans les versions précédentes d’AEM, la **Politique de page** était appelée **Conception de page**.
 
 ### Onglet Propriétés {#properties-tab}
 

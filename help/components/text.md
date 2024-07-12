@@ -4,9 +4,9 @@ description: Le composant Texte est un composant d’édition et de composition 
 role: Architect, Developer, Admin, User
 exl-id: bcea202a-9ecb-4dcd-99b6-0848cbb9d500
 source-git-commit: 16930ccaa281f9d9c4ddbb890d4222e128557580
-workflow-type: ht
-source-wordcount: '2210'
-ht-degree: 100%
+workflow-type: tm+mt
+source-wordcount: '2180'
+ht-degree: 99%
 
 ---
 
@@ -133,7 +133,7 @@ Utilisez cette option pour convertir le texte sélectionné en hyperlien ou modi
    * Cadre parent
    * Cadre supérieur
 
-   Appuyez ou cliquez sur la coche pour appliquer le lien ou sur le x pour annuler.
+  Appuyez ou cliquez sur la coche pour appliquer le lien ou sur le x pour annuler.
 
 ### Dissocier
 
@@ -249,7 +249,7 @@ Utilisé pour insérer un tableau dans le texte. Cette option permet d’ouvrir 
       * La première ligne doit être utilisée
       * La première colonne doit être utilisée
       * La première ligne et la première colonne doivent être utilisées
-      * Ou aucun en-tête ne doit être utilisé.
+      * Ou aucun en-tête ne doit être utilisé
 * **Légende** : Légende du tableau.
 
 ### Vérifier l’orthographe
@@ -338,7 +338,7 @@ Les fonctionnalités suivantes peuvent être activées ou désactivées pour le 
 Les options de formatage suivantes peuvent être activées ou désactivées pour le composant.
 
 * Tableau
-* Listes (puce, numéro, retrait, retrait négatif)
+* Listes (puce, nombre, retrait, retrait)
 * Alignement (gauche, droite, centré)
 * Gras, italique, souligné
 * Lien (et dissociation)
@@ -364,7 +364,7 @@ L’option permettant d’insérer des caractères spéciaux peut être activée
 * Appuyez ou cliquez sur le bouton **Ajouter** pour insérer un nouveau caractère.
 * Entrez le code HTML du caractère et une description qui s’afficheront dans la boîte de dialogue de modification.
 * Pour supprimer un caractère, appuyez ou cliquez sur le bouton **Supprimer**.
-* Pour réorganiser l’ordre des caractères, appuyez ou cliquez et faites glisser les poignées.
+* Pour réorganiser l’ordre des caractères, appuyez ou cliquez sur les poignées et faites-les glisser.
 
 ## Onglet Styles {#styles-tab}
 

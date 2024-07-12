@@ -3,7 +3,7 @@ title: Composant principal des formulaires adaptatifs - Onglets visibles
 description: Utilisez ou personnalisez le composant principal Onglets visibles des formulaires adaptatifs.
 role: Architect, Developer, Admin, User
 source-git-commit: e843ccf5c030cd4f1015e3290347b5799828537a
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '470'
 ht-degree: 100%
 

@@ -4,8 +4,8 @@ description: Le composant Titre des composants principaux est un composant d’e
 role: Architect, Developer, Admin, User
 exl-id: 393af72c-549f-4609-afb0-2712f827b549
 source-git-commit: 327c239b02e0aecee878784c918bfa98d960530e
-workflow-type: ht
-source-wordcount: '627'
+workflow-type: tm+mt
+source-wordcount: '619'
 ht-degree: 100%
 
 ---

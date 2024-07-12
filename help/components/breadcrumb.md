@@ -4,8 +4,8 @@ description: Le composant Chemin de navigation des composants principaux est un 
 role: Architect, Developer, Admin, User
 exl-id: 19d65b9d-a407-4f50-9c55-8de0f12222ed
 source-git-commit: 327c239b02e0aecee878784c918bfa98d960530e
-workflow-type: ht
-source-wordcount: '801'
+workflow-type: tm+mt
+source-wordcount: '796'
 ht-degree: 100%
 
 ---

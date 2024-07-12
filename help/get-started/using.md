@@ -4,8 +4,8 @@ description: '« Pour que les composants principaux soient opérationnels dans 
 role: Architect, Developer, Admin, User
 exl-id: ee2d25e4-e2b8-4ecc-a62c-f0066de2bf2d
 source-git-commit: 8beae61676340e8aafaee469018d865ea7ed934e
-workflow-type: ht
-source-wordcount: '1008'
+workflow-type: tm+mt
+source-wordcount: '948'
 ht-degree: 100%
 
 ---
@@ -50,9 +50,9 @@ Gardez à l’esprit les points suivants lorsque vous utilisez les composants pr
 
 ### AEM 6.5 et version antérieure {#aem-65}
 
-Les composants principaux ne font pas partie du démarrage rapide lors du lancement en mode de production (sans exemple de contenu). C’est pourquoi la première étape consiste [à télécharger le dernier module de contenu publié à partir de GitHub](https://github.com/adobe/aem-core-wcm-components/releases/latest) et à l’installer dans vos environnements AEM.
+Les composants principaux ne font pas partie du démarrage rapide lors du lancement en mode de production (sans exemple de contenu). C’est pourquoi la première étape consiste [à télécharger le dernier package de contenu publié à partir de GitHub](https://github.com/adobe/aem-core-wcm-components/releases/latest) et à l’installer dans vos environnements AEM.
 
-Il existe plusieurs manières d’automatiser cette opération, mais la méthode la plus simple pour installer rapidement un module de contenu sur une instance consiste à utiliser le gestionnaire de modules. Consultez la section [Installation des modules](https://experienceleague.adobe.com/docs/experience-manager-65/administering/contentmanagement/package-manager.html?lang=fr#installing-packages). En outre, une fois qu’une instance de publication s’exécute, vous devrez répliquer ce module dans l’éditeur. Consultez la section [Réplication des modules](https://experienceleague.adobe.com/docs/experience-manager-65/administering/contentmanagement/package-manager.html?lang=fr#replicating-packages).
+Il existe plusieurs manières d’automatiser cette opération, mais la méthode la plus simple pour installer rapidement un package de contenu sur une instance consiste à utiliser le gestionnaire de packages. Consultez la section [Installation des packages](https://experienceleague.adobe.com/docs/experience-manager-65/administering/contentmanagement/package-manager.html?lang=fr#installing-packages). En outre, une fois qu’une instance de publication s’exécute, vous devrez répliquer ce package dans l’éditeur. Consultez la section [Réplication des packages](https://experienceleague.adobe.com/docs/experience-manager-65/administering/contentmanagement/package-manager.html?lang=fr#replicating-packages).
 
 ## Création des composants proxy {#create-proxy-components}
 
@@ -109,7 +109,7 @@ Assurez-vous que vos composants proxy et vos bibliothèques clientes ont été d
 
 Les étapes suivantes sont effectuées dans l’[éditeur de modèles](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/features/templates.html?lang=fr).
 
-1. Dans l’éditeur de modèles, sélectionnez le conteneur de mises en page et ouvrez sa stratégie.
+1. Dans l’éditeur de modèles, sélectionnez le conteneur de mise en page et ouvrez sa stratégie.
 1. Dans la liste des composants autorisés, sélectionnez les composants proxy créés précédemment, qui doivent s’afficher sous le groupe de composants qui leur est affecté. Ensuite, appliquez les modifications.
 1. (Facultatif) Les composants qui ont une boîte de dialogue de conception peuvent être préconfigurés.
 

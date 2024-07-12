@@ -5,15 +5,15 @@ index: n
 role: Architect, Developer, Admin, User
 exl-id: 510d059c-e60a-40aa-9032-66a901109f6e
 source-git-commit: 3ebe1a42d265185b36424b01844f4a00f05d4724
-workflow-type: ht
-source-wordcount: '854'
+workflow-type: tm+mt
+source-wordcount: '836'
 ht-degree: 100%
 
 ---
 
 # Composant Liste (v1) {#list-component-v}
 
-Le composant principal Liste permet de créer facilement des listes dynamiques et statiques.
+Le composant Liste des composants principaux permet de créer facilement des listes dynamiques et statiques.
 
 ## Utilisation {#usage}
 
@@ -250,7 +250,7 @@ Dans l’onglet **Paramètres de liste**, le format de date peut être défini e
 
 ### Paramètres d’élément {#item-settings-1}
 
-Dans l’onglet **Paramètres d’élément**, les options de formatage des éléments de liste individuels qui doivent être disponibles dans le composant pour les auteurs de contenu peuvent être définies.
+Dans l’onglet **Paramètres d’élément**, les options de mise en forme des éléments de liste individuels qui doivent être disponibles dans le composant pour les auteurs de contenu peuvent être définies.
 
 ![](/help/assets/chlimage_1-46.png)
 

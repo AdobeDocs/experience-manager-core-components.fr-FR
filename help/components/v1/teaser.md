@@ -4,8 +4,8 @@ description: Le composant Teaser peut afficher une image, un titre, un texte enr
 role: Architect, Developer, Admin, User
 exl-id: 48e56938-660a-43e7-9e62-8069283ae73f
 source-git-commit: 84e09fa64b3a7ae40ff3ff1a04ea1c7504db29d2
-workflow-type: ht
-source-wordcount: '745'
+workflow-type: tm+mt
+source-wordcount: '722'
 ht-degree: 100%
 
 ---
@@ -91,11 +91,11 @@ La boîte de dialogue de conception permet à l’auteur du modèle de définir 
 ![Boîte de dialogue de conception du composant Teaser](/help/assets/teaser-design.png)
 
 * **Appels à l’action**
-   * **Désactiver les appels à l’action** : masque l’option **Appels à l’action** pour les auteurs de contenu.
+   * **Désactiver les appels à l’action** : masque l’option **Appels à l’action** pour les auteurs de contenu
 * **Éléments**
    * **Masquer le prétitre** : masque l’option **Prétitre** pour les auteurs de contenu.
-   * **Masquer le titre** : masque l’option **Titre** pour les auteurs de contenu.
-      * Lorsque cette option est sélectionnée, le **Type de titre** est masqué.
+   * **Masquer le titre** : masque l’option **Titre** pour les auteurs de contenu
+      * Lorsque cette option est sélectionnée, le **Type de titre** est masqué
    * **Masquer la description** : masque l’option **Description** pour les auteurs de contenu.
 * **Type de titre** : définit la balise H que le titre du teaser doit utiliser.
 * **Liens**
