@@ -3,10 +3,10 @@ title: Composant textuel
 description: Le composant Texte est un composant d’édition et de composition de texte enrichi qui propose une édition statique.
 role: Architect, Developer, Admin, User
 exl-id: bcea202a-9ecb-4dcd-99b6-0848cbb9d500
-source-git-commit: 16930ccaa281f9d9c4ddbb890d4222e128557580
+source-git-commit: 418f1b6c967760d801d0973a35e0a31343ddca6b
 workflow-type: tm+mt
-source-wordcount: '2180'
-ht-degree: 99%
+source-wordcount: '2181'
+ht-degree: 98%
 
 ---
 
@@ -302,9 +302,9 @@ Le composant de texte peut également être modifié en ligne mais en raison des
 
 ![Exemple de modification en ligne](/help/assets/text-edit-inline-example.png)
 
-### Définition et ID {#setting-id}
+### Définition d’un ID {#setting-id}
 
-Cette option permet de contrôler l’identifiant unique du composant dans le code HTML et dans la [couche de données](/help/developing/data-layer/overview.md).
+Cette option vous permet de contrôler l’identifiant unique du composant dans l’HTML et dans la [couche de données.](/help/developing/data-layer/overview.md)
 
 * Si rien n’est indiqué, un ID unique est généré automatiquement et peut être trouvé en examinant la page obtenue.
 * Si un ID est spécifié, il incombe à l’auteur de s’assurer qu’il est unique.
