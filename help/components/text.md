@@ -4,9 +4,9 @@ description: Le composant Texte est un composant d’édition et de composition 
 role: Architect, Developer, Admin, User
 exl-id: bcea202a-9ecb-4dcd-99b6-0848cbb9d500
 source-git-commit: 418f1b6c967760d801d0973a35e0a31343ddca6b
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2181'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -304,7 +304,7 @@ Le composant de texte peut également être modifié en ligne mais en raison des
 
 ### Définition d’un ID {#setting-id}
 
-Cette option vous permet de contrôler l’identifiant unique du composant dans l’HTML et dans la [couche de données.](/help/developing/data-layer/overview.md)
+Cette option permet de contrôler l’identifiant unique du composant dans le code HTML et dans la [couche de données](/help/developing/data-layer/overview.md).
 
 * Si rien n’est indiqué, un ID unique est généré automatiquement et peut être trouvé en examinant la page obtenue.
 * Si un ID est spécifié, il incombe à l’auteur de s’assurer qu’il est unique.
@@ -338,7 +338,7 @@ Les fonctionnalités suivantes peuvent être activées ou désactivées pour le 
 Les options de formatage suivantes peuvent être activées ou désactivées pour le composant.
 
 * Tableau
-* Listes (puce, nombre, retrait, retrait)
+* Listes (puce, numéro, retrait, retrait négatif)
 * Alignement (gauche, droite, centré)
 * Gras, italique, souligné
 * Lien (et dissociation)
