@@ -4,9 +4,9 @@ description: Créez des expériences d’inscription attrayantes (formulaires) g
 role: Architect, Developer, Admin, User
 exl-id: 6d0f2845-bbb8-4488-a254-b69d7a6290b1
 source-git-commit: fd4debea8510b2ae415dd09847444ad96f3478d9
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2205'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -108,7 +108,7 @@ La version actuelle d’AEM Forms comporte les composants principaux suivants 
 | Groupe de boutons radio | ✔️ | <span style="color:blue">[✔️](/help/adaptive-forms/components/radio-button.md)</span> | ✔️ | |
 | Bouton de réinitialisation | ✔️ | <span style="color:blue">[✔️](/help/adaptive-forms/components/reset-button.md)</span> | ✔️ | |
 | Signature tactile | ✔️ | | | |
-| Séparateur | ✔️ | | | Utiliser le composant WCM [Seperator](/help/components/separator.md) |
+| Séparateur | ✔️ | | | Utiliser le composant [Séparateur](/help/components/separator.md) WCM |
 | Bouton Envoyer | ✔️ | <span style="color:blue">[✔️](/help/adaptive-forms/components/submit-button.md)</span> | ✔️ | |
 | Étape de résumé | ✔️ | | | |
 | Basculer | ✔️ | <span style="color:blue"> [✔️](/help/adaptive-forms/components/adaptive-form-switch.md) | | |
