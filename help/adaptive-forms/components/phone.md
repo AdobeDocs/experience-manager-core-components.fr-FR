@@ -3,10 +3,10 @@ title: Composant principal des formulaires adaptatifs - Entrée téléphonique, 
 description: Utilisation ou personnalisation du composant principal « Entrée téléphonique » dans les formulaires adaptatifs.
 role: Architect, Developer, Admin, User
 exl-id: d06179ac-04bd-4af4-b6ac-c4c78086058c
-source-git-commit: b4a66a407e92398a98441c65ab588b9720777dfa
+source-git-commit: 732efc9ed450aa31078ecaad65c0c306679fe97e
 workflow-type: tm+mt
-source-wordcount: '2197'
-ht-degree: 100%
+source-wordcount: '2199'
+ht-degree: 98%
 
 ---
 
@@ -31,7 +31,7 @@ Les principales raisons d’utiliser un champ d’entrée téléphonique dans un
 
 ## Version et compatibilité {#version-and-compatibility}
 
-Le composant principal Accordéon des formulaires adaptatifs a été publié en février 2023 au sein des composants principaux 2.0.4 pour Cloud Service et des composants principaux 1.1.12 pour AEM 6.5.16.0 Forms ou version ultérieure. Vous trouverez ci-dessous un tableau détaillant les versions prises en charge, la compatibilité avec AEM et les liens vers la documentation correspondante :
+Le composant principal Téléphone de Forms adaptatif a été publié en février 2023 dans le cadre des composants principaux 2.0.4 pour Cloud Service et des composants principaux 1.1.12 pour AEM 6.5.16.0 Forms ou version ultérieure. Vous trouverez ci-dessous un tableau détaillant les versions prises en charge, la compatibilité avec AEM et les liens vers la documentation correspondante :
 
 | Version du composant | AEM as a Cloud Service | AEM 6.5.16.0 Forms ou version ultérieure |
 |---|---|---|
@@ -50,6 +50,8 @@ Retrouvez les informations les plus récentes sur le composant principal « Ent
 ## Boîte de dialogue de configuration {#configure-dialog}
 
 Vous pouvez facilement personnaliser l’expérience d’entrée téléphonique pour les visiteurs et les visiteuses à l’aide de la boîte de dialogue Configurer. Vous pouvez également définir facilement des options d’entrée téléphonique pour une expérience utilisateur fluide.
+
+### Onglet Simple
 
 ![Onglet De base](/help/adaptive-forms/assets/telephoneinput_basictab.png)
 

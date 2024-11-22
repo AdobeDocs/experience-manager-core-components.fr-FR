@@ -3,14 +3,16 @@ title: Composant principal des formulaires adaptatifs - Pièce jointe
 description: Utilisation ou personnalisation du composant principal « Pièce jointe » des formulaires adaptatifs.
 role: Architect, Developer, Admin, User
 exl-id: 64a54fc6-db52-481f-bf5a-60c05122004d
-source-git-commit: 4c510b8fe59f4be6e1b329ee4257ab1b780fbf22
+source-git-commit: 724940e8fe7eb5cfe3dc4edf7568049c993b1255
 workflow-type: tm+mt
-source-wordcount: '1911'
-ht-degree: 100%
+source-wordcount: '2043'
+ht-degree: 93%
 
 ---
 
 # Composant Pièce jointe {#file-attachment-adaptive-forms-core-component}
+
+<span class="preview"> La fonctionnalité **Type de données de valeur envoyée** est disponible sous le programme d’adoption précoce. Vous pouvez écrire à aem-forms-ea@adobe.com à partir de votre adresse e-mail officielle pour rejoindre le programme d’adoption précoce et demander l’accès à la fonctionnalité. </span>
 
 Un composant « Pièce jointe » dans un formulaire adaptatif permet aux utilisateurs et aux utilisatrices de sélectionner et de charger des fichiers à partir de leur ordinateur ou appareil local. Le composant « Pièce jointe » peut être configuré pour accepter des types de fichiers spécifiques, plusieurs pièces jointes, et définir des limites de taille.
 
@@ -35,7 +37,7 @@ Il existe plusieurs raisons d’inclure un composant « Pièce jointe » dans 
 
 ## Version et compatibilité {#version-and-compatibility}
 
-Le composant principal Accordéon des formulaires adaptatifs a été publié en février 2023 au sein des composants principaux 2.0.4 pour Cloud Service et des composants principaux 1.1.12 pour AEM 6.5.16.0 Forms ou version ultérieure. Vous trouverez ci-dessous un tableau détaillant les versions prises en charge, la compatibilité avec AEM et les liens vers la documentation correspondante :
+Le composant principal de pièce jointe de fichier Forms adaptatif a été publié en février 2023 dans le cadre des composants principaux 2.0.4 pour Cloud Service et des composants principaux 1.1.12 pour AEM 6.5.16.0 Forms ou version ultérieure. Vous trouverez ci-dessous un tableau détaillant les versions prises en charge, la compatibilité avec AEM et les liens vers la documentation correspondante :
 
 | Version du composant | AEM as a Cloud Service | AEM 6.5.16.0 Forms ou version ultérieure |
 |---|---|---|
@@ -57,7 +59,7 @@ Vous pouvez facilement personnaliser l’expérience de pièce jointe pour les v
 
 ### Onglet De base {#basic-tab}
 
-![Onglet De base](/help/adaptive-forms/assets/fileattachement_basictab.png)
+![Onglet De base](/help/adaptive-forms/assets/fileattachement_basictab1.png)
 
 - **Nom** - Vous pouvez identifier facilement un composant de formulaire en lui attribuant un nom unique dans le formulaire et dans l’éditeur de règles, mais le nom ne doit pas contenir d’espaces ni de caractères spéciaux.
 
@@ -72,6 +74,7 @@ Vous pouvez facilement personnaliser l’expérience de pièce jointe pour les v
 - **Titre du bouton** - Cette option est utilisée pour définir le libellé du bouton affiché sur un formulaire adaptatif.
 - **Référence Bind** - Une référence Bind est une référence à un élément de données stockée dans une source de données externe et utilisée dans un formulaire. La référence de liaison vous permet de lier dynamiquement les données aux champs du formulaire, de sorte que le formulaire puisse afficher les données les plus récentes de la source de données. Par exemple, une référence de liaison peut être utilisée pour afficher le nom et l’adresse d’un client ou d’une cliente dans un formulaire, en fonction de l’identifiant du client ou de la cliente saisi dans le formulaire. La référence de liaison peut également être utilisée pour mettre à jour la source de données avec les données saisies dans le formulaire. Ainsi, AEM Forms vous permet de créer des formulaires qui interagissent avec des sources de données externes, offrant ainsi une expérience utilisateur fluide pour la collecte et la gestion des données.
 - **Marquer comme élément de formulaire non lié** : sélectionnez cette option pour configurer un champ de formulaire qui n’est lié à aucun schéma. Cette option vous permet d’enregistrer des données sans mettre à jour la source de données. Elle vous permet également de gérer les données de manière personnalisée, en les séparant de l’intégration de base de données standard.
+- **Type de données de la valeur envoyée** : sélectionnez l’option pour déterminer comment le fichier joint est envoyé au serveur. Pour envoyer la pièce jointe en tant que données binaires, sélectionnez l’option `File` . Pour envoyer la pièce jointe en tant que chaîne codée en Base64, sélectionnez l’option `String` . Si `String` est sélectionné, le fichier au format binaire est envoyé au serveur sous la forme d’une URL de données. Le serveur convertit automatiquement l’URL des données au format binaire, assurant ainsi la compatibilité avec les actions existantes, telles que l’envoi d’emails et la génération du document d’enregistrement, sans que les utilisateurs n’aient à apporter de modifications. Par défaut, l’option `File` est sélectionnée.
 - **Masquer le composant** - Sélectionnez cette option pour masquer le composant du formulaire. Le composant reste accessible à d’autres fins, par exemple pour les calculs dans l’éditeur de règles. Cela s’avère utile lorsque vous devez stocker des informations qui n’ont pas besoin d’être affichées ou directement modifiées par les utilisateurs ou les utilisatrices.
 - **Désactiver le composant** - Sélectionnez cette option pour désactiver le composant. Le composant désactivé n’est pas actif ni modifiable par l’utilisateur final ou l’utilisatrice finale. L’utilisateur ou l’utilisatrice peut voir la valeur du champ mais ne peut pas la modifier. Le composant reste accessible à d’autres fins, par exemple pour les calculs dans l’éditeur de règles.
 - **Lecture seule** - Sélectionnez cette option pour rendre le composant non modifiable. L’utilisateur ou l’utilisatrice peut voir la valeur du champ mais ne peut pas la modifier. Le composant reste accessible à d’autres fins, par exemple pour les calculs dans l’éditeur de règles.

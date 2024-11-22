@@ -3,10 +3,10 @@ title: Composant principal des formulaires adaptatifs - Sélecteur de date
 description: Utilisation ou personnalisation du composant principal Sélecteur de date des formulaires adaptatifs.
 role: Architect, Developer, Admin, User
 exl-id: aa9402de-ca57-4c19-8d36-2dd0a78d6806
-source-git-commit: b4a66a407e92398a98441c65ab588b9720777dfa
+source-git-commit: 732efc9ed450aa31078ecaad65c0c306679fe97e
 workflow-type: tm+mt
-source-wordcount: '2299'
-ht-degree: 100%
+source-wordcount: '2300'
+ht-degree: 98%
 
 ---
 
@@ -36,7 +36,7 @@ Plusieurs raisons expliquent l’intérêt d’inclure un sélecteur de date dan
 
 ## Version et compatibilité {#version-and-compatibility}
 
-Le composant principal Accordéon des formulaires adaptatifs a été publié en février 2023 au sein des composants principaux 2.0.4 pour Cloud Service et des composants principaux 1.1.12 pour AEM 6.5.16.0 Forms ou version ultérieure. Vous trouverez ci-dessous un tableau détaillant les versions prises en charge, la compatibilité avec AEM et les liens vers la documentation correspondante :
+Le composant principal Sélecteur de date Adaptive Forms a été publié en février 2023 dans le cadre de la version 2.0.4 des composants principaux pour Cloud Service et des composants principaux 1.1.12 pour AEM 6.5.16.0 Forms ou version ultérieure. Vous trouverez ci-dessous un tableau détaillant les versions prises en charge, la compatibilité avec AEM et les liens vers la documentation correspondante :
 
 | Version du composant | AEM as a Cloud Service | AEM 6.5.16.0 Forms ou version ultérieure |
 |---|---|---|

@@ -3,10 +3,10 @@ title: Composant principal des formulaires adaptatifs - Entrée de texte (zone d
 description: Utilisation ou personnalisation du composant principal « Entrée de texte » des formulaires adaptatifs.
 role: Architect, Developer, Admin, User
 exl-id: 49d9fe69-0578-4489-beaa-a18cdb14add7
-source-git-commit: 4c510b8fe59f4be6e1b329ee4257ab1b780fbf22
+source-git-commit: 732efc9ed450aa31078ecaad65c0c306679fe97e
 workflow-type: tm+mt
-source-wordcount: '2121'
-ht-degree: 100%
+source-wordcount: '2124'
+ht-degree: 98%
 
 ---
 
@@ -31,7 +31,7 @@ Il existe plusieurs raisons d’inclure un composant « Entrée de texte » da
 
 ## Version et compatibilité {#version-and-compatibility}
 
-Le composant principal Accordéon des formulaires adaptatifs a été publié en février 2023 au sein des composants principaux 2.0.4 pour Cloud Service et des composants principaux 1.1.12 pour AEM 6.5.16.0 Forms ou version ultérieure. Vous trouverez ci-dessous un tableau détaillant les versions prises en charge, la compatibilité avec AEM et les liens vers la documentation correspondante :
+La zone de texte adaptatif Forms Core Component a été publiée en février 2023 dans le cadre des composants principaux 2.0.4 pour Cloud Service et des composants principaux 1.1.12 pour AEM 6.5.16.0 Forms ou version ultérieure. Vous trouverez ci-dessous un tableau détaillant les versions prises en charge, la compatibilité avec AEM et les liens vers la documentation correspondante :
 
 | Version du composant | AEM as a Cloud Service | AEM 6.5.16.0 Forms ou version ultérieure |
 |---|---|---|
@@ -50,6 +50,8 @@ Retrouvez les informations les plus récentes sur le composant principal « Ong
 ## Boîte de dialogue de configuration {#configure-dialog}
 
 Vous pouvez facilement personnaliser l’expérience d’entrée de texte pour les visiteurs et les visiteuses en utilisant la boîte de dialogue Configurer. Vous pouvez également définir facilement des options d’entrée de texte pour une expérience utilisateur fluide.
+
+### Onglet Simple
 
 ![Onglet De base](/help/adaptive-forms/assets/textinput_basictab.png)
 
