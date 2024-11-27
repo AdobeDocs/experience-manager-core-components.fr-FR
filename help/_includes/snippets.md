@@ -1,8 +1,8 @@
 ---
 source-git-commit: 86a30bc396d89340106177deb08323bfc5640e0e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '214'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 # Fragments de code {#snippets}
@@ -71,7 +71,7 @@ ht-degree: 99%
 - [Pied de page](/help/adaptive-forms/components/footer.md)
 - [En-tête](/help/adaptive-forms/components/header.md)
 - [Image](/help/adaptive-forms/components/image.md)
-- [Zone numérique](/help/adaptive-forms/components/numeric-box.md)
+- [Champ numérique](/help/adaptive-forms/components/numeric-box.md)
   <!--- [Password Box](/help/adaptive-forms/components/password-box.md)-->
 - [Panneau](/help/adaptive-forms/components/panel.md)
 - [Téléphone](/help/adaptive-forms/components/phone.md)

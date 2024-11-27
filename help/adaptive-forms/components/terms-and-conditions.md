@@ -4,9 +4,9 @@ description: Utilisation ou personnalisation du composant principal Conditions g
 role: Architect, Developer, Admin, User
 exl-id: c607d554-ad2d-4434-856d-91e174ef3149
 source-git-commit: 732efc9ed450aa31078ecaad65c0c306679fe97e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '3256'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -40,7 +40,7 @@ Consultez la section [Sous-composants du composant Conditions générales](#sub-
 
 ## Version et compatibilité {#version-and-compatibility}
 
-Le composant principal Termes et conditions de Forms adaptatif a été publié en février 2023 dans le cadre des composants principaux 2.0.62 pour Cloud Service et des composants principaux 1.1.28 pour AEM 6.5.16.0 Forms ou version ultérieure. Vous trouverez ci-dessous un tableau détaillant les versions prises en charge, la compatibilité avec AEM et les liens vers la documentation correspondante :
+Le composant principal Conditions générales des formulaires adaptatifs a été publié en février 2023 dans le cadre des composants principaux 2.0.62 pour le Cloud Service et des composants principaux 1.1.28 pour AEM 6.5.16.0 Forms ou version ultérieure. Vous trouverez ci-dessous un tableau détaillant les versions prises en charge, la compatibilité avec AEM et les liens vers la documentation correspondante :
 
 | Version du composant | AEM as a Cloud Service | AEM 6.5.16.0 Forms ou version ultérieure |
 |---|---|---|

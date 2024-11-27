@@ -1,37 +1,37 @@
 ---
-title: Composant principal Adaptive Forms - Zone de mot de passe
-description: Utilisation ou personnalisation du composant principal de la zone Mot de passe de Forms adaptatif .
+title: Composant principal des formulaires adaptatifs - Champ de mot de passe
+description: Utilisation ou personnalisation du composant principal Champ de mot de passe des formulaires adaptatifs.
 role: Architect, Developer, Admin, User
 hide: true
 hidefromtoc: true
 source-git-commit: 86a30bc396d89340106177deb08323bfc5640e0e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1916'
-ht-degree: 89%
+ht-degree: 100%
 
 ---
 
-# Composant de zone de mot de passe
+# Composant Champ de mot de passe
 
-<span class="preview"> Il s’agit d’une fonctionnalité de préversion accessible par le biais de notre [canal de pré-version](https://experienceleague.adobe.com/fr/docs/experience-manager-cloud-service/content/release-notes/prerelease#new-features). </span>
+<span class="preview"> Il s’agit d’une fonctionnalité de version préliminaire accessible par le biais de notre [canal de version préliminaire](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/release-notes/prerelease.html?lang=fr#new-features). </span>
 
-Un composant de zone de mot de passe permet aux utilisateurs de saisir et de modifier des informations sensibles, généralement masquées pour des raisons de confidentialité. Le composant Mot de passe peut être configuré avec différentes règles de validation pour garantir la précision des données. Généralement utilisés dans les formulaires, les champs de mot de passe sont simples et renforcent la sécurité des données.
+Un composant Champ de mot de passe permet aux utilisateurs et aux utilisatrices de saisir et de modifier des informations sensibles, généralement masquées pour des raisons de confidentialité. Le composant Mot de passe peut être configuré avec différentes règles de validation pour garantir la précision des données. Généralement utilisés dans les formulaires, les champs de mot de passe sont simples et renforcent la sécurité des données.
 
 **Exemple**
 
-![exemple de mot de passe](/help/adaptive-forms/assets/password.png)
+![Exemple de champ de mot de passe](/help/adaptive-forms/assets/password.png)
 
-L’utilisateur peut cliquer sur l’icône représentant un oeil pour activer/désactiver la visibilité du texte du mot de passe saisi. Il renforce la sécurité tout en permettant aux utilisateurs de saisir des informations confidentielles avec précision.
+L’utilisateur ou l’utilisatrice peut cliquer sur l’icône représentant un œil pour activer ou désactiver la visibilité du texte saisi dans le champ de mot de passe. Cette option améliore la sécurité tout en permettant aux utilisateurs et aux utilisatrices de saisir avec précision des informations confidentielles.
 
 ## Utilisation
 
-Il existe plusieurs raisons d’utiliser le composant de zone Mot de passe dans un formulaire adaptatif :
+Il existe plusieurs raisons d’inclure un composant Champ de mot de passe dans un formulaire adaptatif :
 
-- **Collecte de données sécurisée** : le champ de zone de mot de passe est utilisé pour collecter des informations sensibles, telles que des mots de passe, des code PIN et d’autres entrées confidentielles, affichant des caractères masqués pour des raisons de confidentialité.
+- **Collecte sécurisée des données** : le champ de mot de passe est conçu pour collecter des informations sensibles, telles que des mots de passe, des codes PIN ou d’autres données confidentielles, en affichant des caractères masqués afin de garantir la confidentialité.
 
-- **User-friendly** : le champ de zone Mot de passe permet aux utilisateurs de saisir et de modifier des informations en toute sécurité sans les exposer à l’écran.
+- **Convivial** : le champ de mot de passe permet aux utilisateurs et aux utilisatrices de saisir et de modifier des informations en toute sécurité, tout en empêchant leur affichage à l’écran.
 
-- **Flexibilité** : le composant de zone de mot de passe peut être configuré pour répondre aux exigences de sécurité, telles que la longueur minimale de caractères, les caractères spéciaux ou d’autres validations personnalisées, afin d’assurer une protection et une précision des données solides.
+- **Flexibilité** : le composant Champ de mot de passe peut être configuré pour répondre aux exigences de sécurité, telles qu’une longueur minimale de caractères, l’utilisation de caractères spéciaux ou d’autres validations personnalisées, afin de garantir une protection renforcée et une saisie précise des données.
 
 <!--
 ## Version and Compatibility {#version-and-compatibility}
@@ -56,7 +56,7 @@ Retrouvez les informations les plus récentes sur le composant principal « Ong
 
 Vous pouvez facilement personnaliser l’expérience d’entrée de texte pour les visiteurs et les visiteuses en utilisant la boîte de dialogue Configurer. Vous pouvez également définir facilement des options d’entrée de texte pour une expérience utilisateur fluide.
 
-### Onglet Simple
+### Onglet de base
 
 ![Onglet De base](/help/adaptive-forms/assets/password-basic.png)
 
@@ -123,7 +123,7 @@ L’option **Motif de validation** vous permet de saisir un motif pour valider l
    - **Description** : sélectionnez cette option pour utiliser la description des libellés d’accessibilité ARIA.
    - **Titre** : sélectionnez cette option pour utiliser le titre pour les libellés d’accessibilité ARIA.
    - **Nom** : sélectionnez cette option pour utiliser le nom pour les libellés d’accessibilité ARIA.
-   - **Aucun** : sélectionnez cette option si vous ne souhaitez pas l’ajouter pour les libellés d’accessibilité ARIA.
+   - **Aucun** : sélectionnez cette option si vous ne souhaitez pas ajouter de texte supplémentaire pour les libellés d’accessibilité ARIA.
 
 ## Boîte de dialogue de conception {#design-dialog}
 

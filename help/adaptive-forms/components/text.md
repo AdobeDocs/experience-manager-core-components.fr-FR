@@ -4,9 +4,9 @@ description: Utilisation ou personnalisation du composant principal Texte dans l
 role: Architect, Developer, Admin, User
 exl-id: b8de68e4-ca0d-4ae5-9a04-104cc617f1be
 source-git-commit: 732efc9ed450aa31078ecaad65c0c306679fe97e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '998'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -34,7 +34,7 @@ L’utilisation de texte dans un formulaire offre les avantages suivants :
 
 ## Version et compatibilité {#version-and-compatibility}
 
-Le composant principal Texte adaptatif Forms a été publié en février 2023 dans le cadre des composants principaux 2.0.4 pour Cloud Service et des composants principaux 1.1.12 pour AEM 6.5.16.0 Forms ou version ultérieure. Vous trouverez ci-dessous un tableau détaillant les versions prises en charge, la compatibilité avec AEM et les liens vers la documentation correspondante :
+Le composant principal Texte des formulaires adaptatifs a été publié en février 2023 au sein des composants principaux 2.0.4 pour Cloud Service et des composants principaux 1.1.12 pour AEM 6.5.16.0 Forms ou version ultérieure. Vous trouverez ci-dessous un tableau détaillant les versions prises en charge, la compatibilité avec AEM et les liens vers la documentation correspondante :
 
 | Version du composant | AEM as a Cloud Service | AEM 6.5.16.0 Forms ou version ultérieure |
 |---|---|---|
@@ -54,7 +54,7 @@ Pour obtenir les dernières informations sur le composant principal Texte des fo
 
 Vous pouvez facilement personnaliser l’expérience du texte pour les visiteurs et les visiteuses à l’aide de la boîte de dialogue de configuration. Vous pouvez également définir en toute facilité des options de texte pour une expérience utilisateur transparente.
 
-### Onglet Simple
+### Onglet de base
 
 ![Onglet De base](/help/adaptive-forms/assets/text_properties.png)
 

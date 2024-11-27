@@ -4,9 +4,9 @@ description: Utilisation ou personnalisation du composant principal de case à c
 role: Architect, Developer, Admin, User
 exl-id: c6ca4800-bd10-4aeb-957a-fb1780cf94f3
 source-git-commit: 732efc9ed450aa31078ecaad65c0c306679fe97e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1838'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -56,7 +56,7 @@ Retrouvez les dernières informations sur le composant principal de case à coch
 
 Vous pouvez facilement personnaliser l’expérience des cases à cocher pour les visiteurs et les visiteuses en utilisant la boîte de dialogue Configurer. Vous pouvez également définir facilement des options de case à cocher pour une expérience utilisateur fluide.
 
-### Onglet Simple
+### Onglet de base
 
 ![Onglet De base](/help/adaptive-forms/assets/checkbox-basic.png)
 

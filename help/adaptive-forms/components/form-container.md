@@ -4,15 +4,15 @@ description: Ajoutez un formulaire adaptatif à une page Web.
 role: Architect, Developer, Admin, User
 exl-id: 03c4cf7c-51d6-4850-a566-1c0514d52dab
 source-git-commit: 86a30bc396d89340106177deb08323bfc5640e0e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1526'
-ht-degree: 91%
+ht-degree: 100%
 
 ---
 
 # Conteneur de formulaire {#form-container-adaptive-forms-core-component}
 
-<span class="preview"> Cet article traite de la fonctionnalité **Brouillons** <!--and **Hamburger Menu Support** -->, qui est une fonctionnalité de version préliminaire. La fonctionnalité de version préliminaire n’est accessible que par le biais de notre [canal de version préliminaire](https://experienceleague.adobe.com/fr/docs/experience-manager-cloud-service/content/release-notes/prerelease#new-features).</span>
+<span class="preview"> Cet article traite de la fonctionnalité **Versions préliminaires** <!--and **Hamburger Menu Support** -->, qui est une fonctionnalité en version préliminaire. La fonctionnalité de version préliminaire n’est accessible que par le biais de notre [canal de version préliminaire](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/release-notes/prerelease.html?lang=fr#new-features).</span>
 
 Les formulaires permettent aux visiteurs et aux visiteuses d’un site Web d’interagir avec ce site en fournissant des informations précieuses, ce qui peut augmenter l’engagement et la satisfaction des utilisateurs et des utilisatrices. Un conteneur de formulaires adaptatifs dans Adobe Experience Manager (AEM) Sites permet aux propriétaires de sites Web d’ajouter facilement des formulaires à leurs pages. Cela facilite la communication entre les visiteurs et les visiteuses du site Web et le/la propriétaire ou l’organisation du site Web en permettant aux visiteurs et aux visiteuses de fournir des commentaires, de répondre à des questions et de terminer d’autres actions de manière simplifiée
 
@@ -66,10 +66,10 @@ Vous pouvez facilement personnaliser votre expérience de conteneur de formulair
 
 - **Services de préremplissage** : cette option permet à l’utilisateur ou à l’utilisatrice de sélectionner un service de préremplissage pour récupérer les données lors de la génération du formulaire adaptatif. En savoir plus sur [comment créer et configurer un service de préremplissage](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/create-an-adaptive-form/prepopulate-adaptive-form-fields.html?lang=fr#aem-forms-custom-prefill-service).
 
-- **Rôle** : le rôle est un attribut d’HTML utilisé pour spécifier l’objectif d’un élément d’HTML pour les technologies d’assistance telles que les lecteurs d’écran. L’attribut rôle est utilisé pour fournir un contexte et une signification sémantique supplémentaires à un élément, ce qui facilite l’interprétation et l’annonce du contenu à l’utilisateur ou à l’utilisatrice par les lecteurs d’écran. Par exemple, dans AEM Forms, le libellé d’un champ de formulaire peut avoir le rôle « libellé » et son champ de saisie peut avoir le rôle « zone de texte ». Cela permet au lecteur d’écran de comprendre la relation entre le libellé et le champ de saisie, et de les annoncer correctement à l’utilisateur ou à l’utilisatrice.
+- **Rôle** : le rôle est un attribut HTML utilisé pour spécifier l’objectif d’un élément HTML pour les technologies d’assistance telles que les lecteurs d’écran. L’attribut rôle est utilisé pour fournir un contexte et une signification sémantique supplémentaires à un élément, ce qui facilite l’interprétation et l’annonce du contenu à l’utilisateur ou à l’utilisatrice par les lecteurs d’écran. Par exemple, dans AEM Forms, le libellé d’un champ de formulaire peut avoir le rôle « libellé » et son champ de saisie peut avoir le rôle « zone de texte ». Cela permet au lecteur d’écran de comprendre la relation entre le libellé et le champ de saisie, et de les annoncer correctement à l’utilisateur ou à l’utilisatrice.
 
-- **Catégorie de bibliothèque cliente** - L’utilisateur ou l’utilisatrice peut configurer une bibliothèque JavaScript personnalisée par formulaire adaptatif. Il est recommandé de ne conserver que les fonctions réutilisables de la bibliothèque, qui dépendent des bibliothèques tierces jquery et underscore.js.
-Parfois, en cas de **règles de validation complexes**, le script de validation exact réside dans des fonctions personnalisées que l’utilisateur ou l’utilisatrice doit appeler à partir de l’expression du champ de validation. Pour rendre cette bibliothèque de fonctions personnalisées visible et disponible lors des validations côté serveur, l’utilisateur du formulaire peut configurer le nom de la bibliothèque cliente AEM sous l’onglet **[!UICONTROL De base]** des propriétés du conteneur de formulaires adaptatifs.
+- **Catégorie de bibliothèque cliente** : l’utilisateur ou l’utilisatrice peut configurer une bibliothèque JavaScript personnalisée par formulaire adaptatif. Il est recommandé de ne conserver que les fonctions réutilisables de la bibliothèque, qui dépendent des bibliothèques tierces jquery et underscore.js.
+Parfois, en cas de **règles de validation complexes**, le script de validation exact réside dans des fonctions personnalisées que l’utilisateur ou l’utilisatrice doit appeler à partir de l’expression du champ de validation. Pour rendre cette bibliothèque de fonctions personnalisées visible et disponible lors des validations côté serveur, l’utilisateur ou l’utilisatrice de formulaires peut configurer le nom de la bibliothèque cliente AEM sous l’onglet **[!UICONTROL Réglages de base]** des propriétés du conteneur de formulaires adaptatifs.
 L’utilisateur ou l’utilisatrice peut configurer la bibliothèque personnalisée JavaScript pour chaque formulaire adaptatif. Dans la bibliothèque, conservez uniquement les fonctions réutilisables ayant une dépendance sur les bibliothèques tierces jquery et underscore.js.
 
 <!--
@@ -88,9 +88,9 @@ Vous pouvez utiliser le modèle de données de formulaire pour connecter un form
 
 ![Onglet Envoi](/help/adaptive-forms/assets/formcontainer_autosavetab.png)
 
-- **Enregistrement automatique des brouillons** : cochez la case **Enregistrement automatique des brouillons** pour activer l’enregistrement des formulaires en tant que brouillons.
-- **Save Preference** : configurez **Save Preference** en tant que **Enregistrer les brouillons à intervalles réguliers**, pour enregistrer automatiquement le formulaire après un intervalle de temps spécifique.
-  **Périodicité de l’intervalle de sauvegarde (secondes)** : spécifiez l’intervalle de temps (en secondes) pour définir la durée qui déclenche l’enregistrement automatique du formulaire à l’intervalle défini.
+- **Enregistrer automatiquement les brouillons** : cochez la case **Enregistrer automatiquement les brouillons** pour activer l’enregistrement des formulaires en tant que brouillons.
+- **Préférence d’enregistrement** : configurez la **préférence d’enregistrement** sur **Enregistrer des brouillons à intervalles réguliers** pour enregistrer automatiquement le formulaire après un intervalle de temps spécifique.
+  **Fréquence d’intervalle d’enregistrement (en secondes)** : spécifiez l’intervalle de temps (en secondes) pour déterminer la durée qui déclenche l’enregistrement automatique du formulaire selon l’intervalle configuré.
 
 ### Onglet Envoi {#submission-tab}
 
