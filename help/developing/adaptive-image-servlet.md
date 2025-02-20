@@ -3,10 +3,10 @@ title: Servlet Image adaptative
 description: Découvrez comment les composants principaux utilisent le servlet Image adaptative pour la diffusion d’images et comment optimiser son utilisation.
 role: Architect, Developer, Admin, User
 exl-id: d9199d51-6f09-4000-9525-afc30474437e
-source-git-commit: 785aa82930e3bcf6ef16d7a1cdc614d230e8daa8
+source-git-commit: 87a96c1c9476b9d66fdc94d6c24123cdf24b9d91
 workflow-type: tm+mt
-source-wordcount: '397'
-ht-degree: 98%
+source-wordcount: '457'
+ht-degree: 85%
 
 ---
 
@@ -14,7 +14,13 @@ ht-degree: 98%
 
 Découvrez comment les composants principaux utilisent le servlet Image adaptative pour la diffusion d’images et comment optimiser son utilisation.
 
-## Servlet d’image adaptative ou diffusion d’images optimisée pour le web ? {#options}
+>[!WARNING]
+>
+>Pour des raisons de performances, il est vivement recommandé de stocker les images dans la gestion des ressources numériques (DAM) et d’utiliser la diffusion d’images optimisées pour le web.
+>
+>Le stockage des images directement sous le nœud de composant est destiné à une utilisation occasionnelle. Elle n’utilise pas les rendus DAM pour réduire le traitement dans le servlet Image adaptative et ne permet pas de bénéficier des avantages de performances de la diffusion d’images optimisées pour le web, ce qui peut entraîner des problèmes de performances.
+
+## Servlet Image adaptative ou diffusion d’images optimisées pour le web ? {#options}
 
 Le composant Image principal peut utiliser deux méthodes pour diffuser des images.
 
