@@ -3,10 +3,10 @@ title: Servlet Image adaptative
 description: Découvrez comment les composants principaux utilisent le servlet Image adaptative pour la diffusion d’images et comment optimiser son utilisation.
 role: Architect, Developer, Admin, User
 exl-id: d9199d51-6f09-4000-9525-afc30474437e
-source-git-commit: 87a96c1c9476b9d66fdc94d6c24123cdf24b9d91
-workflow-type: ht
-source-wordcount: '457'
-ht-degree: 100%
+source-git-commit: 3f6e40c4dbfbd1287213d9d16d96183d24f2ad0a
+workflow-type: tm+mt
+source-wordcount: '456'
+ht-degree: 97%
 
 ---
 
@@ -41,9 +41,9 @@ Le servlet d’image adaptative sélectionne automatiquement le rendu le plus ap
 1. Il sélectionne uniquement les ressources de même type/MIME de la ressource référencée d’origine.
    * Par exemple, si la ressource d’origine était un fichier PNG, elle ne prendra en compte que les rendus PNG.
 1. De ces rendus, elle prend en compte les dimensions et les compare à la taille du conteneur dans lequel l’image doit s’afficher.
-   1. Si le rendu est >= à la taille du conteneur, il est ajouté à une liste de rendus candidats.
-   1. Si le rendu est &lt; à la taille du conteneur, il n’est pas pris en compte.
-   1. Ces critères garantissent que le rendu ne sera pas amélioré, ce qui aurait un impact sur la qualité de l’image.
+1. Si le rendu est >= à la taille du conteneur, il est ajouté à une liste de rendus candidats.
+1. Si le rendu est &lt; à la taille du conteneur, il n’est pas pris en compte.
+1. Ces critères garantissent que le rendu ne sera pas amélioré, ce qui aurait un impact sur la qualité de l’image.
 1. Le servlet d’image adaptative sélectionne ensuite le rendu ayant la plus petite taille de fichier dans la liste des candidats.
 
 ## Optimisation de la sélection du rendu {#optimizing-rendition-selection}
@@ -56,4 +56,4 @@ Cela améliore les performances et évite que certaines images ne soient pas cor
 
 Les requêtes conditionnelles effectuées par le biais de `Last-Modified` en-tête sont prises en charge par la servlet d’image adaptative, mais la mise en cache de l’en-tête `Last-Modified` [doit être activée dans Dispatcher](https://experienceleague.adobe.com/docs/experience-manager-dispatcher/using/configuring/dispatcher-configuration.html?lang=fr#caching-http-response-headers).
 
-L’exemple de configuration de Dispatcher d’[AEM Project Archetype](/help/developing/archetype/overview.md) contient déjà cette configuration.
+[L’exemple de configuration Dispatcher de l’archétype de projet AEM](/help/developing/archetype/overview.md) contient déjà cette configuration.
