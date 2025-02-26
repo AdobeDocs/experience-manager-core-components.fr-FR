@@ -4,9 +4,9 @@ description: Découvrez comment les composants principaux utilisent le servlet I
 role: Architect, Developer, Admin, User
 exl-id: d9199d51-6f09-4000-9525-afc30474437e
 source-git-commit: 3f6e40c4dbfbd1287213d9d16d96183d24f2ad0a
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '456'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -54,6 +54,6 @@ Cela améliore les performances et évite que certaines images ne soient pas cor
 
 ## Utiliser les derniers en-têtes modifiés {#last-modified}
 
-Les requêtes conditionnelles effectuées par le biais de `Last-Modified` en-tête sont prises en charge par la servlet d’image adaptative, mais la mise en cache de l’en-tête `Last-Modified` [doit être activée dans Dispatcher](https://experienceleague.adobe.com/docs/experience-manager-dispatcher/using/configuring/dispatcher-configuration.html?lang=fr#caching-http-response-headers).
+Les requêtes conditionnelles effectuées par le biais de l’en-tête `Last-Modified` sont prises en charge par le servlet d’image adaptative, mais la mise en cache de l’en-tête `Last-Modified` [doit être activée dans Dispatcher](https://experienceleague.adobe.com/docs/experience-manager-dispatcher/using/configuring/dispatcher-configuration.html?lang=fr#caching-http-response-headers).
 
-[L’exemple de configuration Dispatcher de l’archétype de projet AEM](/help/developing/archetype/overview.md) contient déjà cette configuration.
+L’exemple de configuration du Dispatcher de l’[archétype de projet AEM](/help/developing/archetype/overview.md) contient déjà cette configuration.
