@@ -3,10 +3,10 @@ title: Versions des composants principaux
 description: Les composants principaux sont publiés sous forme de versions qui peuvent contenir plusieurs versions des mêmes composants principaux. Ce document explique les versions et les mises à jour ainsi que comment comprendre la compatibilité avec les composants principaux et AEM.
 role: Architect, Developer, Admin, User
 exl-id: 7d4dbe46-4013-4217-b815-cdb1462072c6
-source-git-commit: b723ad29b035bbff58c56c8a5cce3a2b50e8b2b2
-workflow-type: ht
-source-wordcount: '3103'
-ht-degree: 100%
+source-git-commit: 44d9b267f4d26b0ea4c00c7ceed9879abcdbd76d
+workflow-type: tm+mt
+source-wordcount: '3019'
+ht-degree: 99%
 
 ---
 
@@ -26,15 +26,16 @@ Le tableau suivant, dont le contenu est [disponible sur GitHub avec les détails
 
 | Mise à jour | Description | AEM 6.4 | AEM 6.5 | AEM as a Cloud Service | Java | Date de publication |
 |---|---|---|---|---|---|---|
-| [2.27.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.27.0) | Cette version corrige de nombreux bugs. | - | 6.5.21.0 ou ultérieure | En continu | 8, 11 | 10 septembre 2024 |
-| [2.26.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.26.0) | Cette version corrige de nombreux bugs. | - | 6.5.21.0 ou ultérieure | En continu | 8, 11 | 31 juillet 2024 |
-| [2.25.4](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.25.4) | Il s’agit d’une version mineure qui corrige certains échecs informatiques. | - | 6.5.21.0 ou ultérieure | En continu | 8, 11 | 10 mai 2024 |
-| [2.25.2](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.25.2) | Il s’agit d’une version mineure qui corrige certains échecs informatiques. | - | 6.5.21.0 ou ultérieure | En continu | 8, 11 | 9 mai 2024 |
-| [2.25.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.25.0) | Cette version prend en charge les recadrages intelligents nommés dans Dynamic Media. Elle comprend des améliorations de performances et d’accessibilité, ainsi que divers correctifs. | - | 6.5.21.0 ou ultérieure | En continu | 8, 11 | 2 mai 2024 |
-| [2.24.6](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.24.6) | Cette version de correctif inclut des améliorations pour l’initialisation de la couche de données. | - | 6.5.21.0 ou ultérieure | En continu | 8, 11 | 22 avril 2024 |
-| [2.24.4](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.24.4) | Cette version de correctif corrige une initialisation du modèle Sling. | - | 6.5.21.0 ou ultérieure | En continu | 8, 11 | 1er avril 2024 |
-| [2.24.2](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.24.2) | Cette version de correctif améliore la stabilité des tests d’intégration. | - | 6.5.21.0 ou ultérieure | En continu | 8, 11 | 22 février 2024 |
-| [2.24.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.24.0) | Cette version prend en charge la couche de données du Gestionnaire de balises de Google et comprend divers correctifs. | - | 6.5.21.0 ou ultérieure | En continu | 8, 11 | 14 février 2024 |
+| [2.28.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.28.0) | Cette version corrige de nombreux bugs. | - | 6.5.21.0+ | En continu | 8, 11 | 17 Mars 2025 |
+| [2.27.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.27.0) | Cette version corrige de nombreux bugs. | - | 6.5.21.0+ | En continu | 11 | 10 septembre 2024 |
+| [2.26.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.26.0) | Cette version corrige de nombreux bugs. | - | 6.5.21.0+ | En continu | 11 | 31 juillet 2024 |
+| [2.25.4](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.25.4) | Il s’agit d’une version mineure qui corrige certains échecs informatiques. | - | 6.5.21.0+ | En continu | 8, 11 | 10 mai 2024 |
+| [2.25.2](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.25.2) | Il s’agit d’une version mineure qui corrige certains échecs informatiques. | - | 6.5.21.0+ | En continu | 8, 11 | 9 mai 2024 |
+| [2.25.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.25.0) | Cette version prend en charge les recadrages intelligents nommés dans Dynamic Media. Elle comprend des améliorations de performances et d’accessibilité, ainsi que divers correctifs. | - | 6.5.21.0+ | En continu | 8, 11 | 2 mai 2024 |
+| [2.24.6](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.24.6) | Cette version de correctif inclut des améliorations pour l’initialisation de la couche de données. | - | 6.5.21.0+ | En continu | 8, 11 | 22 avril 2024 |
+| [2.24.4](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.24.4) | Cette version de correctif corrige une initialisation du modèle Sling. | - | 6.5.21.0+ | En continu | 8, 11 | 1er avril 2024 |
+| [2.24.2](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.24.2) | Cette version de correctif améliore la stabilité des tests d’intégration. | - | 6.5.21.0+ | En continu | 8, 11 | 22 février 2024 |
+| [2.24.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.24.0) | Cette version prend en charge la couche de données du Gestionnaire de balises de Google et comprend divers correctifs. | - | 6.5.21.0+ | En continu | 8, 11 | 14 février 2024 |
 | [2.23.4](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.23.4) | Cette version de correctif comprenait divers correctifs. | - | 6.5.17.0+ | En continu | 8, 11 | 15 septembre 2023 |
 | [2.23.2](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.23.2) | Ce correctif a ajouté un recadrage intelligent Dynamic Media pour les ressources distantes aux [composants d’image](/help/components/image.md) et [de teaser](/help/components/teaser.md) et corrigé un certain nombre de bugs. | - | 6.5.17.0+ | En continu | 8, 11 | 4 août 2023 |
 | [2.23.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.23.0) | Cette version a ajouté la prise en charge de [ressources distantes Dynamic Media de nouvelle génération.](/help/developing/remote-assets.md) | - | 6.5.17.0+ | En continu | 8, 11 | 6 juin 2023 |
