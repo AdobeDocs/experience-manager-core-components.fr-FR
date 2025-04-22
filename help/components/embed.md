@@ -3,10 +3,10 @@ title: Composant Incorporer
 description: Le composant Incorporer permet d’incorporer du contenu externe dans une page de contenu AEM.
 role: Architect, Developer, Admin, User
 exl-id: 985fa304-70a3-4329-957e-76d1832a06f1
-source-git-commit: 327c239b02e0aecee878784c918bfa98d960530e
+source-git-commit: 6fbc781db555bc6abaed1d122a9a8756e3d53222
 workflow-type: tm+mt
-source-wordcount: '1339'
-ht-degree: 100%
+source-wordcount: '1343'
+ht-degree: 99%
 
 ---
 
@@ -27,10 +27,10 @@ La version actuelle du composant Incorporer est v2, qui a été introduite avec 
 
 Le tableau ci-après présente en détail toutes les versions prises en charge du composant, les versions AEM avec lesquelles les versions du composant sont compatibles et les liens vers la documentation pour les versions précédentes.
 
-| Version du composant | AEM 6.4 | AEM 6.5 | AEM as a Cloud Service |
-|--- |--- |---|---|
-| v2 | - | Compatible | Compatible |
-| [v1](v1/embed.md) | Compatible | Compatible | Compatible |
+| Version du composant | AEM 6.4 | AEM 6.5 | AEM 6.5 LTS | AEM as a Cloud Service |
+|--- |--- |---|---|---|
+| v2 | - | Compatible | Compatible | Compatible |
+| [v1](v1/embed.md) | Compatible | Compatible | - | Compatible |
 
 Pour plus d’informations sur les versions et les publications des composants principaux, voir le document sur les [versions des composants principaux](/help/versions.md).
 
@@ -148,13 +148,13 @@ La boîte de dialogue de conception permet à l’auteur du modèle de définir 
 
 ![Onglet YouTube de la boîte de dialogue de conception du composant incorporé](/help/assets/embed-design-youtube.png)
 
-* **Autoriser la configuration du comportement Silence** : permet à l’auteur du contenu de configurer l’option **Activer Silence** dans le composant lorsque le type d’intégration YouTube est sélectionné.
-   * **Valeur par défaut du comportement Muet** : définit automatiquement l’option **Activer Silence** lorsque le type d’intégration YouTube est sélectionné.
-* **Autoriser la configuration du comportement Lecture automatique** : permet à l’auteur du contenu de configurer l’option **Activer la lecture automatique** dans le composant lorsque le type d’intégration YouTube est sélectionné.
-   * **Valeur par défaut de la lecture automatique** : définit automatiquement l’option **Activer la lecture automatique** lorsque le type d’intégration YouTube est sélectionné.
-* **Autoriser la configuration du comportement Boucle** : permet à l’auteur du contenu de configurer l’option **Activer le bouclage** dans le composant lorsque le type d’intégration YouTube est sélectionné.
-   * **Valeur par défaut de Boucle** : définit automatiquement l’option **Activer le bouclage** lorsque le type d’intégration YouTube est sélectionné.
-* **Autoriser la configuration de la lecture intégrée (iOS)** : permet à l’auteur du contenu de configurer l’option **Activer la lecture intégrée (iOS)** dans le composant lorsque le type d’intégration YouTube est sélectionné.
-   * **Valeur par défaut de la lecture intégrée (iOS)** : définit automatiquement l’option **Activer la lecture intégrée (iOS)** lorsque le type d’intégration YouTube est sélectionné.
-* **Autoriser la configuration des vidéos connexes** : permet à l’auteur du contenu de configurer l’option **Vidéos connexes sans restriction** dans le composant lorsque le type d’intégration YouTube est sélectionné.
-   * **Valeur par défaut des vidéos connexes sans restriction** : définit automatiquement l’option **Vidéos connexes sans restriction** lorsque le type d’intégration YouTube est sélectionné.
+* **Autoriser la configuration du comportement Silence** : permet à l’auteur du contenu de configurer l’option **Activer Silence** dans le composant lorsque le type d’incorporation YouTube est sélectionné.
+   * **Valeur par défaut du comportement Muet** : définit automatiquement l’option **Activer Silence** lorsque le type d’incorporation YouTube est sélectionné.
+* **Autoriser la configuration du comportement Lecture automatique** : permet à l’auteur du contenu de configurer l’option **Activer la lecture automatique** dans le composant lorsque le type d’incorporation YouTube est sélectionné.
+   * **Valeur par défaut de la lecture automatique** : définit automatiquement l’option **Activer la lecture automatique** lorsque le type d’incorporation YouTube est sélectionné.
+* **Autoriser la configuration du comportement Boucle** : permet à l’auteur du contenu de configurer l’option **Activer le bouclage** dans le composant lorsque le type d’incorporation YouTube est sélectionné.
+   * **Valeur par défaut de Boucle** : définit automatiquement l’option **Activer le bouclage** lorsque le type d’incorporation YouTube est sélectionné.
+* **Autoriser la configuration de la lecture intégrée (iOS)** : permet à l’auteur du contenu de configurer l’option **Activer la lecture intégrée (iOS)** dans le composant lorsque le type d’incorporation YouTube est sélectionné.
+   * **Valeur par défaut de la lecture intégrée (iOS)** : définit automatiquement l’option **Activer la lecture intégrée (iOS)** lorsque le type d’incorporation YouTube est sélectionné.
+* **Autoriser la configuration des vidéos connexes** : permet à l’auteur du contenu de configurer l’option **Vidéos connexes sans restriction** dans le composant lorsque le type d’incorporation YouTube est sélectionné.
+   * **Valeur par défaut des vidéos connexes sans restriction** : définit automatiquement l’option **Vidéos connexes sans restriction** lorsque le type d’incorporation YouTube est sélectionné.

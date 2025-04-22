@@ -3,10 +3,10 @@ title: Composant Teaser
 description: Le composant Teaser peut afficher une image, un titre, un texte enrichi et éventuellement un lien vers un contenu supplémentaire.
 role: Architect, Developer, Admin, User
 exl-id: ec75e168-6f3b-4dff-8df6-06ca7dc18688
-source-git-commit: 5d2d79c96dc934efd7cccefb1a6a343813376483
+source-git-commit: 6fbc781db555bc6abaed1d122a9a8756e3d53222
 workflow-type: tm+mt
-source-wordcount: '1042'
-ht-degree: 100%
+source-wordcount: '1046'
+ht-degree: 99%
 
 ---
 
@@ -26,10 +26,10 @@ La version actuelle du composant Teaser est v2, qui a été introduite avec la v
 
 Le tableau ci-après présente en détail toutes les versions prises en charge du composant, les versions AEM avec lesquelles les versions du composant sont compatibles et les liens vers la documentation pour les versions précédentes.
 
-| Version du composant | AEM 6.4 | AEM 6.5 | AEM as a Cloud Service |
-|---|---|---|---|
-| v2 | - | Compatible | Compatible |
-| [v1](v1/teaser.md) | Compatible | Compatible | Compatible |
+| Version du composant | AEM 6.4 | AEM 6.5 | AEM 6.5 LTS | AEM as a Cloud Service |
+|---|---|---|---|---|
+| v2 | - | Compatible | Compatible | Compatible |
+| [v1](v1/teaser.md) | Compatible | Compatible | - | Compatible |
 
 ## Prise en charge des ressources distantes {#remote-assets}
 
@@ -102,7 +102,7 @@ Pour que le menu déroulant soit disponible, les styles doivent être configuré
 
 ## Boîte de dialogue de modification {#edit-dialog}
 
-Le composant Teaser délègue le rendu d’image au [Composant Image](image.md). Par conséquent, [la boîte de dialogue de modification](image.md#edit-dialog) du composant Image est accessible à l’auteur du contenu pour manipuler l’image de teaser.
+Le composant Teaser délègue le rendu d’image au [Composant Image](image.md). Par conséquent, [la boîte de dialogue de modification]&#x200B;(image.md#edit-dialog) du composant Image est accessible à l’auteur du contenu pour manipuler l’image de teaser.
 
 ## Boîte de dialogue de conception {#design-dialog}
 

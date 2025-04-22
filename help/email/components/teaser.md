@@ -3,10 +3,10 @@ title: Composant Teaser d’e-mail
 description: Le composant Teaser d’e-mail peut afficher une image, un titre, un texte enrichi et éventuellement un lien vers du contenu supplémentaire.
 role: Architect, Developer, Admin, User
 exl-id: d6123b22-7cba-406c-986d-b6f00322d135
-source-git-commit: 3abc29e0c186a84f079d5938b8b716f4c7378d65
+source-git-commit: 6fbc781db555bc6abaed1d122a9a8756e3d53222
 workflow-type: tm+mt
-source-wordcount: '999'
-ht-degree: 100%
+source-wordcount: '1003'
+ht-degree: 99%
 
 ---
 
@@ -29,9 +29,9 @@ La version actuelle du composant Teaser d’e-mail est v1. Celle-ci a été intr
 
 Le tableau ci-après présente en détail toutes les versions prises en charge du composant, les versions AEM avec lesquelles les versions du composant sont compatibles et les liens vers la documentation pour les versions précédentes.
 
-| Version du composant | AEM 6.5 | AEM as a Cloud Service |
-|---|---|---|
-| v1 | Compatible | - |
+| Version du composant | AEM 6.5 | AEM 6.5 LTS | AEM as a Cloud Service |
+|---|---|---|---|
+| v1 | Compatible | Compatible | - |
 
 ### Détails techniques {#technical-details}
 
