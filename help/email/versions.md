@@ -3,9 +3,9 @@ title: Versions des composants d’e-mail principaux
 description: Les composants d’e-mail principaux sont publiés sous forme de versions.
 role: Architect, Developer, Admin, User
 exl-id: 9733659a-641c-4a98-8d10-84e93e0e0a5d
-source-git-commit: 6fbc781db555bc6abaed1d122a9a8756e3d53222
+source-git-commit: 91969e4956bef1a511b8d588d5290a7999bf86ec
 workflow-type: tm+mt
-source-wordcount: '447'
+source-wordcount: '444'
 ht-degree: 87%
 
 ---
@@ -23,7 +23,7 @@ Les composants principaux d’e-mail sont conçus pour être flexibles et compat
 
 | Mise à jour | Description | AEM 6.5 | AEM 6.5 LTS | Composants principaux | Java | Date de publication |
 |---|---|---|---|---|---|---|
-| [1.3.0](https://github.com/adobe/aem-core-email-components/releases/tag/core.email.components.reactor-1.3.0) | Cette version met à jour la bibliothèque jsoup incorporée. | 6.5.14.0+ | 6,5 LTS GA | [2.21.2+](/help/versions.md) | 8, 11 | 28 Juin 2024 |
+| [1.3.0](https://github.com/adobe/aem-core-email-components/releases/tag/core.email.components.reactor-1.3.0) | Cette version met à jour la bibliothèque jsoup incorporée. | 6.5.14.0+ | - | [2.21.2+](/help/versions.md) | 8, 11 | 28 Juin 2024 |
 | [1.2.2](https://github.com/adobe/aem-core-email-components/releases/tag/core.email.components.reactor-1.2.2) | Cette version de maintenance a corrigé le filtrage des sélecteurs, résolu une `SelectorParseException` et corrigé d’autres erreurs. | 6.5.14.0+ | - | [2.21.2+](/help/versions.md) | 8, 11 | 24 Mai 2023 |
 | [1.2.0](https://github.com/adobe/aem-core-email-components/releases/tag/core.email.components.reactor-1.2.0) | Cette version a introduit des tests Selenium e2e et a inclus un certain nombre de correctifs. | 6.5.14.0+ | - | [2.21.2+](/help/versions.md) | 8, 11 | 29 novembre 2022 |
 | [1.0.0](https://github.com/adobe/aem-core-email-components/releases/tag/core.email.components.reactor-1.0.0) | Première version publique, voir les notes de mise à jour pour plus de détails | 6.5.14.0+ | - | [2.21.2+](/help/versions.md) | 8, 11 | 29 novembre 2022 |
