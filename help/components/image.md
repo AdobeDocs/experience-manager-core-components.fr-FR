@@ -3,10 +3,10 @@ title: Composant d’image
 description: Le composant Image des composants principaux est un composant d’image adaptatif.
 role: Architect, Developer, Admin, User
 exl-id: c5e57f4b-139f-40e7-8d79-be9a74360b63
-source-git-commit: 6fbc781db555bc6abaed1d122a9a8756e3d53222
+source-git-commit: ad911040d7e47fc3884071005c17accf8edd0a62
 workflow-type: tm+mt
-source-wordcount: '1961'
-ht-degree: 99%
+source-wordcount: '2062'
+ht-degree: 94%
 
 ---
 
@@ -46,6 +46,14 @@ En outre, le composant d’image prend en charge le chargement différé afin de
 >[!TIP]
 >
 >Par défaut, le composant d’image est optimisé par le servlet d’image adaptative. Veuillez consulter le document [Servlet Image adaptative](/help/developing/adaptive-image-servlet.md) pour plus d’informations sur son fonctionnement.
+
+### Différences avec v2 {#v2-differences}
+
+Contrairement à la version 2 du composant Image, la version 3 utilise la réactivité native du navigateur. Cela signifie qu’il fournit au navigateur un ensemble de sources pour une image sur différentes largeurs et que le navigateur sélectionne la meilleure image.
+
+La plupart du temps, les navigateurs préfèrent réduire localement une largeur plus grande pour l’adapter à une fenêtre d’affichage plus petite au lieu de récupérer l’image de plus petite largeur à partir du serveur. Cela est normal et c’est la raison pour laquelle le composant Image ne doit pas être utilisé pour la direction graphique (différentes images/recadrages pour différentes fenêtres).
+
+[Pour plus d’informations](https://github.com/adobe/aem-core-wcm-components/tree/main/content/src/content/jcr_root/apps/core/wcm/components/image/v3/image#javascript-data-attribute-bindings) consultez la documentation technique du composant d’image.
 
 ## Prise en charge de Dynamic Media {#dynamic-media}
 
