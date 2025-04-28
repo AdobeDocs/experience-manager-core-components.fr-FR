@@ -4,9 +4,9 @@ description: Le composant Partage sur les réseaux sociaux des composants princi
 role: Architect, Developer, Admin, User
 exl-id: 8bd53c76-da91-479b-b416-f978682a3d43
 source-git-commit: 6fbc781db555bc6abaed1d122a9a8756e3d53222
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '378'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -30,7 +30,7 @@ La version actuelle du composant Partage sur les réseaux sociaux est v1, qui a 
 
 Le tableau ci-après présente en détail toutes les versions prises en charge du composant et les versions AEM avec lesquelles les versions du composant sont compatibles.
 
-| Version du composant | AEM 6.4 | AEM 6.5 | AEM 6.5 LTS | AEM as a Cloud Service |
+| Version du composant | AEM 6.4 | AEM 6.5 | AEM 6.5 LTS | AEM as a Cloud Service |
 |--- |--- |--- |---|---|
 | v1 | Compatible avec la <br>[version 2.17.4](/help/versions.md) et versions antérieures | Compatible, obsolète | Compatible, obsolète | Compatible, obsolète |
 

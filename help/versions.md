@@ -4,9 +4,9 @@ description: Les composants principaux sont publiés sous forme de versions qui 
 role: Architect, Developer, Admin, User
 exl-id: 7d4dbe46-4013-4217-b815-cdb1462072c6
 source-git-commit: 821530ce1958566f0a2c1fb88c5017572057f88f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '3056'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -24,10 +24,10 @@ Les tableaux ci-dessous illustrent la compatibilité des mises à jour des compo
 
 Le tableau suivant, dont le contenu est [disponible sur GitHub avec les détails complets de la mise à jour](https://github.com/adobe/aem-core-wcm-components/releases), donne une vue d’ensemble des versions des composants principaux et de leur compatibilité avec les versions AEM et les versions Java.
 
-| Mise à jour | Description | AEM 6.4 | AEM 6.5 | AEM 6.5 LTS | AEM as a Cloud Service | Java | Date de publication |
+| Mise à jour | Description | AEM 6.4 | AEM 6.5 | AEM 6.5 LTS | AEM as a Cloud Service | Java | Date de publication |
 |---|---|---|---|---|---|---|---|
-| [2.29.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.29.0) | Cette version a ajouté la prise en charge de la création de versions d’aperçu des ressources dans le composant principal Sites et corrige de nombreux correctifs. | - | 6.5.21.0+ | 6,5 LTS GA | En continu | 8, 11 | 21 Avril 2025 |
-| [2.28.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.28.0) | Cette version corrige de nombreux bugs. | - | 6.5.21.0+ | 6,5 LTS GA | En continu | 8, 11 | 17 mars 2025 |
+| [2.29.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.29.0) | Cette version a ajouté la prise en charge de la création de versions préliminaires des ressources dans le composant principal des sites et corrige de nombreux bugs. | - | 6.5.21.0+ | 6.5 LTS (disponibilité générale) | En continu | 8, 11 | 21 avril 2025 |
+| [2.28.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.28.0) | Cette version corrige de nombreux bugs. | - | 6.5.21.0+ | 6.5 LTS (disponibilité générale) | En continu | 8, 11 | 17 mars 2025 |
 | [2.27.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.27.0) | Cette version corrige de nombreux bugs. | - | 6.5.21.0+ | - | En continu | 11 | 10 septembre 2024 |
 | [2.26.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.26.0) | Cette version corrige de nombreux bugs. | - | 6.5.21.0+ | - | En continu | 11 | 31 juillet 2024 |
 | [2.25.4](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.25.4) | Il s’agit d’une version mineure qui corrige certains échecs informatiques. | - | 6.5.21.0+ | - | En continu | 8, 11 | 10 mai 2024 |
