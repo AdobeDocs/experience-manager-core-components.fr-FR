@@ -6,7 +6,7 @@ exl-id: 9bc6b730-0d2a-4e5b-891c-d2f67f600bcc
 source-git-commit: 91969e4956bef1a511b8d588d5290a7999bf86ec
 workflow-type: tm+mt
 source-wordcount: '607'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -29,7 +29,7 @@ La version actuelle du composant de fragment de contenu d’e-mail est la v1, qu
 
 Le tableau ci-après présente en détail toutes les versions prises en charge du composant, les versions AEM avec lesquelles les versions du composant sont compatibles et les liens vers la documentation pour les versions précédentes.
 
-| Version du composant | AEM 6.5 | AEM 6.5 LTS | AEM as a Cloud Service |
+| Version du composant | AEM 6.5 | AEM 6.5 LTS | AEM as a Cloud Service |
 |---|---|---|---|
 | v1 | Compatible | - | - |
 

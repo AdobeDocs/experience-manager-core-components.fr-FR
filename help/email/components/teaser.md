@@ -6,7 +6,7 @@ exl-id: d6123b22-7cba-406c-986d-b6f00322d135
 source-git-commit: 91969e4956bef1a511b8d588d5290a7999bf86ec
 workflow-type: tm+mt
 source-wordcount: '1002'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -29,7 +29,7 @@ La version actuelle du composant Teaser d’e-mail est v1. Celle-ci a été intr
 
 Le tableau ci-après présente en détail toutes les versions prises en charge du composant, les versions AEM avec lesquelles les versions du composant sont compatibles et les liens vers la documentation pour les versions précédentes.
 
-| Version du composant | AEM 6.5 | AEM 6.5 LTS | AEM as a Cloud Service |
+| Version du composant | AEM 6.5 | AEM 6.5 LTS | AEM as a Cloud Service |
 |---|---|---|---|
 | v1 | Compatible | - | - |
 

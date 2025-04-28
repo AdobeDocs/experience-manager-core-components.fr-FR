@@ -6,7 +6,7 @@ exl-id: 861c1fd1-6d6d-426c-a338-a558326fe16e
 source-git-commit: 91969e4956bef1a511b8d588d5290a7999bf86ec
 workflow-type: tm+mt
 source-wordcount: '865'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -30,7 +30,7 @@ La version actuelle du composant Fragment d’expérience d’e-mail est v1. Cel
 
 Le tableau ci-après présente en détail toutes les versions prises en charge du composant, les versions AEM avec lesquelles les versions du composant sont compatibles et les liens vers la documentation pour les versions précédentes.
 
-| Version du composant | AEM 6.5 | AEM 6.5 LTS | AEM as a Cloud Service |
+| Version du composant | AEM 6.5 | AEM 6.5 LTS | AEM as a Cloud Service |
 |---|---|---|---|
 | v1 | Compatible | - | - |
 

@@ -6,7 +6,7 @@ exl-id: c5e57f4b-139f-40e7-8d79-be9a74360b63
 source-git-commit: ad911040d7e47fc3884071005c17accf8edd0a62
 workflow-type: tm+mt
 source-wordcount: '2062'
-ht-degree: 94%
+ht-degree: 95%
 
 ---
 
@@ -29,7 +29,7 @@ La version actuelle du composant Image est v3, qui a été introduite avec la ve
 
 Le tableau ci-après présente en détail toutes les versions prises en charge du composant, les versions AEM avec lesquelles les versions du composant sont compatibles et les liens vers la documentation pour les versions précédentes.
 
-| Version du composant | AEM 6.4 | AEM 6.5 | AEM 6.5 LTS | AEM as a Cloud Service |
+| Version du composant | AEM 6.4 | AEM 6.5 | AEM 6.5 LTS | AEM as a Cloud Service |
 |--- |--- |--- |---|---|
 | v3 | - | Compatible | Compatible | Compatible |
 | [v2](v2/image.md) | Compatible | Compatible | - | Compatible |

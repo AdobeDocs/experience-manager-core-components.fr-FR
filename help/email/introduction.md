@@ -40,7 +40,7 @@ Les e-mails font partie de l’expérience de la marque et du parcours client. G
 
 Les composants principaux d’e-mail ont les exigences suivantes.
 
-| AEM | Adobe Campaign  | Composants principaux |
+| AEM | Adobe Campaign | Composants principaux |
 |---|---|---|
 | AEM 6.5.14.0+<br>On-premise ou AMS | Adobe Campaign Classic<br>Adobe Campaign Standard | [Version 2.21.2](/help/versions.md)+ |
 

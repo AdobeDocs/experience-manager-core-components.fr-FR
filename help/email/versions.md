@@ -6,7 +6,7 @@ exl-id: 9733659a-641c-4a98-8d10-84e93e0e0a5d
 source-git-commit: 91cf78d4c6622bbdec5ac7d22954c9c081c839d2
 workflow-type: tm+mt
 source-wordcount: '444'
-ht-degree: 87%
+ht-degree: 95%
 
 ---
 
@@ -21,10 +21,10 @@ Pour plus d’informations sur les conditions requises et l’installation, voir
 
 Les composants principaux d’e-mail sont conçus pour être flexibles et compatibles avec toutes les versions AEM prises en charge. Les détails complets de l’historique des versions des composants principaux d’e-mail [sont disponibles sur GitHub.](https://github.com/adobe/aem-core-email-components/releases) Cependant, le tableau suivant donne un aperçu des versions des composants principaux d’e-mail et de leur compatibilité avec les versions AEM et Java.
 
-| Mise à jour | Description | AEM 6.5 | AEM 6.5 LTS | Composants principaux | Java | Date de publication |
+| Mise à jour | Description | AEM 6.5 | AEM 6.5 LTS | Composants principaux | Java | Date de publication |
 |---|---|---|---|---|---|---|
-| [1.3.0](https://github.com/adobe/aem-core-email-components/releases/tag/core.email.components.reactor-1.3.0) | Cette version met à jour la bibliothèque jsoup incorporée. | 6.5.14.0+ | - | [2.21.2+](/help/versions.md) | 8, 11 | 28 Juin 2024 |
-| [1.2.2](https://github.com/adobe/aem-core-email-components/releases/tag/core.email.components.reactor-1.2.2) | Cette version de maintenance a corrigé le filtrage des sélecteurs, résolu une `SelectorParseException` et corrigé d’autres erreurs. | 6.5.14.0+ | - | [2.21.2+](/help/versions.md) | 8, 11 | 24 Mai 2023 |
+| [1.3.0](https://github.com/adobe/aem-core-email-components/releases/tag/core.email.components.reactor-1.3.0) | Cette version met à jour la bibliothèque jsoup incorporée. | 6.5.14.0+ | - | [2.21.2+](/help/versions.md) | 8, 11 | 28 Juin 2024 |
+| [1.2.2](https://github.com/adobe/aem-core-email-components/releases/tag/core.email.components.reactor-1.2.2) | Cette version de maintenance a corrigé le filtrage des sélecteurs, résolu une `SelectorParseException` et corrigé d’autres erreurs. | 6.5.14.0+ | - | [2.21.2+](/help/versions.md) | 8, 11 | 24 mai 2023 |
 | [1.2.0](https://github.com/adobe/aem-core-email-components/releases/tag/core.email.components.reactor-1.2.0) | Cette version a introduit des tests Selenium e2e et a inclus un certain nombre de correctifs. | 6.5.14.0+ | - | [2.21.2+](/help/versions.md) | 8, 11 | 29 novembre 2022 |
 | [1.0.0](https://github.com/adobe/aem-core-email-components/releases/tag/core.email.components.reactor-1.0.0) | Première version publique, voir les notes de mise à jour pour plus de détails | 6.5.14.0+ | - | [2.21.2+](/help/versions.md) | 8, 11 | 29 novembre 2022 |
 | [0.18.0](https://github.com/adobe/aem-core-email-components/releases/tag/v0.18.0) | Correctifs | 6.5.13.0+ |  |  | 8, 11 | 30 septembre 2022 |
