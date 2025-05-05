@@ -41,7 +41,7 @@ Consultez la [bibliothèque de composants](https://adobe.com/go/aem_cmp_library_
 
 ### Utilisez le kit d’interface utilisateur pour Adobe XD {#ui-kit}
 
-Dès qu’un composant personnalisé s’avère nécessaire, utilisez le kit d’interface utilisateur pour Adobe XD, [qui peut être téléchargé ici](https://experienceleague.adobe.com/docs/experience-manager-learn/assets/AEM-CoreComponents-UI-Kit.xd), afin que les concepteurs et les conceptrices puissent commencer à créer les maquettes et les conceptions en se servant des composants principaux comme blocs de création.
+Dès qu’un composant personnalisé s’avère nécessaire, utilisez le kit d’interface utilisateur pour Adobe XD, [qui peut être téléchargé ici](https://experienceleague.adobe.com/docs/experience-manager-learn/assets/AEM-CoreComponents-UI-Kit.xd?lang=fr), afin que les concepteurs et les conceptrices puissent commencer à créer les maquettes et les conceptions en se servant des composants principaux comme blocs de création.
 
 ## Ne passez pas à côté de leurs puissantes fonctionnalités {#powerful-features}
 

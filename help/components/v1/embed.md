@@ -37,7 +37,7 @@ Pour tester le composant Incorporer et obtenir des exemples d’options de confi
 
 ## Détails techniques {#technical-details}
 
-La documentation technique la plus récente sur le composant Incorporer [se trouve sur GitHub](https://adobe.com/go/aem_cmp_tech_embed_v1).
+La documentation technique la plus récente sur le composant Incorporer [se trouve sur GitHub](https://adobe.com/go/aem_cmp_tech_embed_v1_fr).
 
 Vous trouverez plus d’informations sur le développement des composants principaux dans la [documentation destinée aux développeurs de composants principaux](/help/developing/overview.md).
 

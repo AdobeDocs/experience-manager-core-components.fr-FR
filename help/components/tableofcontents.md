@@ -40,11 +40,11 @@ Pour plus d’informations sur les versions et les publications des composants p
 >
 >Sur AEM as a Cloud Service, votre administrateur ou adminstratrice doit activer un filtre pour le composant afin que ce dernier effectue le rendu de son contenu.
 >
->Pour plus d’informations, [consultez la documentation GitHub du composant.](https://adobe.com/go/aem_cmp_tech_tableofcontents_v1).
+>Pour plus d’informations, [consultez la documentation GitHub du composant.](https://adobe.com/go/aem_cmp_tech_tableofcontents_v1_fr).
 
 ### Détails techniques {#technical-details}
 
-La documentation technique la plus récente sur le composant Table des matières [se trouve sur GitHub](https://adobe.com/go/aem_cmp_tech_tableofcontents_v1).
+La documentation technique la plus récente sur le composant Table des matières [se trouve sur GitHub](https://adobe.com/go/aem_cmp_tech_tableofcontents_v1_fr).
 
 Vous trouverez plus d’informations sur le développement des composants principaux dans la [documentation destinée aux développeurs de composants principaux](/help/developing/overview.md).
 

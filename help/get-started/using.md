@@ -46,7 +46,7 @@ Gardez à l’esprit les points suivants lorsque vous utilisez les composants pr
 * Si votre projet incluait précédemment les composants principaux dans `/apps`, [vous devrez peut-être le paramétrer différemment](/help/developing/overview.md#via-aemaacs).
 * Même si les composants principaux se trouvent maintenant dans `/libs`, il n’est pas recommandé de créer un recouvrement du même chemin dans `/apps`. Si un élément quelconque des composants devait être personnalisé, nous vous recommandons d’utiliser [le modèle de composant de proxy](/help/developing/guidelines.md#proxy-component-pattern) à la place.
 * Pour que le [composant Table des matières](/help/components/tableofcontents.md) puisse effectuer le rendu de son contenu, un filtre doit être configuré dans OSGi.
-   * Pour plus d’informations, [consultez la documentation GitHub du composant.](https://adobe.com/go/aem_cmp_tech_tableofcontents_v1).
+   * Pour plus d’informations, [consultez la documentation GitHub du composant.](https://adobe.com/go/aem_cmp_tech_tableofcontents_v1_fr).
 
 ### AEM 6.5 et version antérieure {#aem-65}
 
