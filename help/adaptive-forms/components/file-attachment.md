@@ -3,7 +3,7 @@ title: Composant principal des formulaires adaptatifs - Pièce jointe
 description: Utilisation ou personnalisation du composant principal « Pièce jointe » des formulaires adaptatifs.
 role: Architect, Developer, Admin, User
 exl-id: 64a54fc6-db52-481f-bf5a-60c05122004d
-source-git-commit: a1a274b152b3a0fe0bcc72858721ef9830487bb9
+source-git-commit: b6ed89048065830171b70f105e755f2279dd7b01
 workflow-type: tm+mt
 source-wordcount: '2061'
 ht-degree: 97%
@@ -47,7 +47,7 @@ Pour plus d’informations sur les versions et publications des composants princ
 
 <!-- ## Sample Component Output {#sample-component-output}
 
-To experience the Accordion Component as well as see examples of its configuration options as well as HTML and JSON output, visit the [Component Library](https://adobe.com/go/aem_cmp_library_accordion_fr). -->
+To experience the Accordion Component as well as see examples of its configuration options as well as HTML and JSON output, visit the [Component Library](https://adobe.com/go/aem_cmp_library_accordion). -->
 
 ## Détails techniques {#technical-details}
 
@@ -101,12 +101,8 @@ Vous pouvez facilement personnaliser l’expérience de pièce jointe pour les v
    - **Supprimer** - Appuyez ou cliquez sur supprimer pour supprimer certains types de fichier.
    - **Réorganiser** - Appuyez ou faites glisser pour réorganiser l’ordre des types de fichier autorisés.
 
+  L’envoi d’un fichier en modifiant son type sur un format de types de fichiers autorisé renvoie une erreur lors de l’envoi du formulaire.
 - **Message d’erreur sur le type de fichier** - Cette option vous permet de saisir un message d’erreur qui s’affiche lorsque vous téléchargez des formats de fichiers autres que ceux répertoriés dans les **Types de fichiers autorisés**.
-
->
->
-> L’envoi d’un fichier en modifiant son type sur un format de types de fichiers autorisé renvoie une erreur lors de l’envoi du formulaire.
-
 
 ### Onglet Contenu de l’aide {#help-content-tab}
 
@@ -162,7 +158,7 @@ Les propriétés personnalisées vous permettent d’associer des attributs pers
 
 ## Related article {#related-article}
 
-* [Create a standalone Adaptive Form](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/creating-adaptive-form-core-components.html?lang=fr)
+* [Create a standalone Adaptive Form](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/creating-adaptive-form-core-components.html)
 
 -->
 
