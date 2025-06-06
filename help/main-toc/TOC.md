@@ -5,10 +5,10 @@ breadcrumb-title: Guide des composants principaux
 feature: Core Components
 user-guide-description: Utilisez les composants principaux extensibles pour permettre aux créateurs de créer facilement du contenu.
 feature-set: Experience Manager Sites, Experience Manager Forms
-source-git-commit: 732efc9ed450aa31078ecaad65c0c306679fe97e
-workflow-type: ht
-source-wordcount: '381'
-ht-degree: 100%
+source-git-commit: 9f151ae26c9d2006b74656ec5086f1a5e9fc4b30
+workflow-type: tm+mt
+source-wordcount: '384'
+ht-degree: 96%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 100%
 + [Chemins vers la succès](/help/developing/success.md)
 + [Bibliothèque de composants](https://adobe.com/go/aem_cmp_library_fr)
 + [Versions](/help/versions.md)
-+ Prise en main {#get-started}
++ Commencer {#get-started}
    + [Création à l’aide des composants principaux](/help/get-started/authoring.md)
    + [Utilisation des composants principaux](/help/get-started/using.md)
    + [Fonctions de localisation](/help/get-started/localization.md)
@@ -91,7 +91,7 @@ ht-degree: 100%
    + [Utilisation des composants principaux d’e-mail](/help/email/using.md)
    + [Variables de campagne](/help/email/campaign-variables.md)
    + [Versions](/help/email/versions.md)
-   + Les composants d’e-mail {#components}
+   + Composants d’e-mail {#components}
       + [Page](/help/email/components/page.md)
       + [Conteneur](/help/email/components/container.md)
       + [Titre](/help/email/components/title.md)
@@ -105,7 +105,7 @@ ht-degree: 100%
 + Formulaires adaptatifs {#adaptive-forms}
    + [Présentation](/help/adaptive-forms/introduction.md)
    + [Historique des versions](/help/adaptive-forms/version.md)
-   + Composants des formulaires adaptatifs {#adaptive-forms-components}
+   + Composants Forms adaptatifs {#adaptive-forms-components}
       + [Formulaires adaptatifs - Accordéon](/help/adaptive-forms/components/accordion.md)
       + [Formulaires adaptatifs - Bouton](/help/adaptive-forms/components/button.md)
       + [Case à cocher de formulaires adaptatifs](/help/adaptive-forms/components/checkbox.md)
@@ -126,6 +126,7 @@ ht-degree: 100%
       + [Captcha pour formulaire adaptatif](/help/adaptive-forms/components/adaptive-form-recaptcha.md)
       + [Formulaires adaptatifs - Bouton radio](/help/adaptive-forms/components/radio-button.md)
       + [Formulaires adaptatifs - Bouton réinitialiser](/help/adaptive-forms/components/reset-button.md)
+      + [Révision du formulaire adaptatif](/help/adaptive-forms/components/review.md)
       + [Formulaires adaptatifs - Bouton envoyer](/help/adaptive-forms/components/submit-button.md)
       + [Formulaires adaptatifs – Commutateur](/help/adaptive-forms/components/adaptive-form-switch.md)
       + [Formulaires adaptatifs - Téléphone](/help/adaptive-forms/components/phone.md)

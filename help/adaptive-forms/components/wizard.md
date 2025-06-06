@@ -3,10 +3,10 @@ title: Composant principal des formulaires adaptatifs - Assistant
 description: Utilisation ou personnalisation du composant principal « Assistant » des formulaires adaptatifs.
 role: Architect, Developer, Admin, User
 exl-id: fd785cd2-5ed6-4efb-997f-ce9056ed113d
-source-git-commit: 8bba79956a04020647d5d04f9fe6fa674affedf1
+source-git-commit: 9f151ae26c9d2006b74656ec5086f1a5e9fc4b30
 workflow-type: tm+mt
 source-wordcount: '2186'
-ht-degree: 100%
+ht-degree: 99%
 
 ---
 
@@ -59,11 +59,11 @@ Pour plus d’informations sur les versions et publications des composants princ
 
 <!-- ## Sample Component Output {#sample-component-output}
 
-To experience the Accordion Component as well as see examples of its configuration options as well as HTML and JSON output, visit the [Component Library](https://adobe.com/go/aem_cmp_library_accordion_fr). -->
+To experience the Accordion Component as well as see examples of its configuration options as well as HTML and JSON output, visit the [Component Library](https://adobe.com/go/aem_cmp_library_accordion). -->
 
 ## Détails techniques {#technical-details}
 
-Retrouvez les informations les plus récentes sur le composant principal « Titre » des formulaires adaptatifs dans la documentation technique sur [GitHub](https://github.com/adobe/aem-core-forms-components/tree/master/ui.af.apps/src/main/content/jcr_root/apps/core/fd/components/form/wizard/v1/wizard). Pour plus d’informations sur le développement des composants principaux, consultez la [documentation destinée aux développeurs et développeuses de composants principaux](/help/developing/overview.md).
+Retrouvez les informations les plus récentes sur le composant principal « Assistant » de l’Adaptive Forms dans la documentation technique sur [GitHub](https://github.com/adobe/aem-core-forms-components/tree/master/ui.af.apps/src/main/content/jcr_root/apps/core/fd/components/form/wizard/v1/wizard). Pour plus d’informations sur le développement des composants principaux, consultez la [documentation destinée aux développeurs et développeuses de composants principaux](/help/developing/overview.md).
 
 ## Boîte de dialogue de configuration {#configure-dialog}
 
@@ -152,7 +152,7 @@ Cette option vous permet d’ajouter des composants de formulaire adaptatif en c
    - **Description** : sélectionnez cette option pour utiliser la description des libellés d’accessibilité ARIA.
    - **Titre** : sélectionnez cette option pour utiliser le titre pour les libellés d’accessibilité ARIA.
    - **Nom** : sélectionnez cette option pour utiliser le nom pour les libellés d’accessibilité ARIA.
-   - **Aucun** : sélectionnez cette option si vous ne souhaitez pas l’ajouter pour les libellés d’accessibilité ARIA.
+   - **Aucun** : sélectionnez cette option si vous ne souhaitez pas ajouter de texte supplémentaire pour les libellés d’accessibilité ARIA.
 
 - **Rôle HTML à annoncer par le lecteur d’écran** - Le rôle HTML est un attribut utilisé pour spécifier l’objectif d’un élément HTML pour les technologies d’assistance telles que les lecteurs d’écran. L’attribut rôle est utilisé pour fournir un contexte et une signification sémantique supplémentaires à un élément, ce qui facilite l’interprétation et l’annonce du contenu à l’utilisateur ou à l’utilisatrice par les lecteurs d’écran. Par exemple, dans AEM Forms, le libellé d’un champ de formulaire peut avoir le rôle « libellé » et son champ de saisie peut avoir le rôle « zone de texte ». Cela permet au lecteur d’écran de comprendre la relation entre le libellé et le champ de saisie, et de les annoncer correctement à l’utilisateur ou à l’utilisatrice.
 

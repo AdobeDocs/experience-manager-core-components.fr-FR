@@ -3,10 +3,10 @@ title: Composant principal des formulaires adaptatifs - Pièce jointe
 description: Utilisation ou personnalisation du composant principal « Pièce jointe » des formulaires adaptatifs.
 role: Architect, Developer, Admin, User
 exl-id: 64a54fc6-db52-481f-bf5a-60c05122004d
-source-git-commit: 724940e8fe7eb5cfe3dc4edf7568049c993b1255
-workflow-type: ht
-source-wordcount: '2043'
-ht-degree: 100%
+source-git-commit: 8a5133d8551f9e35340b40aa00876cfa0231deb5
+workflow-type: tm+mt
+source-wordcount: '2061'
+ht-degree: 97%
 
 ---
 
@@ -37,9 +37,9 @@ Il existe plusieurs raisons d’inclure un composant « Pièce jointe » dans 
 
 ## Version et compatibilité {#version-and-compatibility}
 
-Le composant principal Pièce jointe des formulaires adaptatifs a été publié en février 2023 au sein des composants principaux 2.0.4 pour Cloud Service et des composants principaux 1.1.12 pour AEM 6.5.16.0 Forms ou version ultérieure. Vous trouverez ci-dessous un tableau détaillant les versions prises en charge, la compatibilité avec AEM et les liens vers la documentation correspondante :
+Le composant principal « Pièce jointe » des Forms adaptatives a été publié en février 2023 dans le cadre des composants principaux 2.0.4 pour Cloud Service et des composants principaux 1.1.12 pour AEM 6.5.16.0 Forms ou version ultérieure. Vous trouverez ci-dessous un tableau détaillant les versions prises en charge, la compatibilité avec AEM et les liens vers la documentation correspondante :
 
-| Version du composant | AEM as a Cloud Service | AEM 6.5.16.0 Forms ou version ultérieure |
+| Version du composant | AEM as a Cloud Service | AEM 6.5.16.0 Forms ou version ultérieure |
 |---|---|---|
 | v1 | Compatible avec la <br>[version 2.0.4](/help/adaptive-forms/version.md) et les versions ultérieures | Compatible avec les<br>[versions 1.1.12](/help/adaptive-forms/version.md) à 2.0.0 exclue. |
 
@@ -47,7 +47,7 @@ Pour plus d’informations sur les versions et publications des composants princ
 
 <!-- ## Sample Component Output {#sample-component-output}
 
-To experience the Accordion Component as well as see examples of its configuration options as well as HTML and JSON output, visit the [Component Library](https://adobe.com/go/aem_cmp_library_accordion_fr). -->
+To experience the Accordion Component as well as see examples of its configuration options as well as HTML and JSON output, visit the [Component Library](https://adobe.com/go/aem_cmp_library_accordion). -->
 
 ## Détails techniques {#technical-details}
 
@@ -103,6 +103,11 @@ Vous pouvez facilement personnaliser l’expérience de pièce jointe pour les v
 
 - **Message d’erreur sur le type de fichier** - Cette option vous permet de saisir un message d’erreur qui s’affiche lorsque vous téléchargez des formats de fichiers autres que ceux répertoriés dans les **Types de fichiers autorisés**.
 
+>
+>
+> L’envoi d’un fichier en modifiant son type sur un format de types de fichiers autorisé renvoie une erreur lors de l’envoi du formulaire.
+
+
 ### Onglet Contenu de l’aide {#help-content-tab}
 
 ![Onglet Contenu d’aide](/help/adaptive-forms/assets/fileattachement_helpcontenttab.png)
@@ -124,7 +129,7 @@ Vous pouvez facilement personnaliser l’expérience de pièce jointe pour les v
    - **Description** : sélectionnez cette option pour utiliser la description des libellés d’accessibilité ARIA.
    - **Titre** : sélectionnez cette option pour utiliser le titre pour les libellés d’accessibilité ARIA.
    - **Nom** : sélectionnez cette option pour utiliser le nom pour les libellés d’accessibilité ARIA.
-   - **Aucun** : sélectionnez cette option si vous ne souhaitez pas l’ajouter pour les libellés d’accessibilité ARIA.
+   - **Aucun** : sélectionnez cette option si vous ne souhaitez pas ajouter de texte supplémentaire pour les libellés d’accessibilité ARIA.
 
 ## Boîte de dialogue de conception {#design-dialog}
 
@@ -157,7 +162,7 @@ Les propriétés personnalisées vous permettent d’associer des attributs pers
 
 ## Related article {#related-article}
 
-* [Create a standalone Adaptive Form](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/creating-adaptive-form-core-components.html?lang=fr)
+* [Create a standalone Adaptive Form](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/creating-adaptive-form-core-components.html)
 
 -->
 

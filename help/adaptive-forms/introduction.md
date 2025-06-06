@@ -3,9 +3,9 @@ title: Présentation des composants principaux des formulaires adaptatifs AEM
 description: Créez des expériences d’inscription attrayantes (formulaires) grâce à la flexibilité des composants principaux des formulaires adaptatifs et diffusez-les avec la puissance d’Adobe Experience Manager.
 role: Architect, Developer, Admin, User
 exl-id: 6d0f2845-bbb8-4488-a254-b69d7a6290b1
-source-git-commit: b37b6315312ecee0a74d8830d96a72f8a5a04e43
-workflow-type: ht
-source-wordcount: '2215'
+source-git-commit: 12a829c164839fdcb2c98d52e409ec3ac2079c41
+workflow-type: tm+mt
+source-wordcount: '2123'
 ht-degree: 100%
 
 ---
@@ -105,6 +105,7 @@ La version actuelle d’AEM Forms comporte les composants principaux suivants 
 | Bouton Précédent | ✔️ | ✔️ | | Utilisez le [composant « Assistant »](/help/adaptive-forms/components/wizard.md) pour les boutons suivant et précédent afin de basculer entre plusieurs panneaux. |
 | Groupe de boutons radio | ✔️ | <span style="color:blue">[✔️](/help/adaptive-forms/components/radio-button.md)</span> | ✔️ | |
 | Bouton de réinitialisation | ✔️ | <span style="color:blue">[✔️](/help/adaptive-forms/components/reset-button.md)</span> | ✔️ | |
+| Révision |  | <span style="color:blue">[✔️](/help/adaptive-forms/components/reset-button.md)</span> |  | |
 | Signature tactile | ✔️ | | | |
 | Séparateur | ✔️ | | | Utiliser le composant [Séparateur](/help/components/separator.md) WCM |
 | Bouton Envoyer | ✔️ | <span style="color:blue">[✔️](/help/adaptive-forms/components/submit-button.md)</span> | ✔️ | |

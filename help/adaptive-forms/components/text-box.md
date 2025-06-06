@@ -3,10 +3,10 @@ title: Composant principal des formulaires adaptatifs - Entrée de texte (zone d
 description: Utilisation ou personnalisation du composant principal « Entrée de texte » des formulaires adaptatifs.
 role: Architect, Developer, Admin, User
 exl-id: 49d9fe69-0578-4489-beaa-a18cdb14add7
-source-git-commit: 732efc9ed450aa31078ecaad65c0c306679fe97e
-workflow-type: ht
-source-wordcount: '2124'
-ht-degree: 100%
+source-git-commit: 9f151ae26c9d2006b74656ec5086f1a5e9fc4b30
+workflow-type: tm+mt
+source-wordcount: '2120'
+ht-degree: 97%
 
 ---
 
@@ -31,9 +31,9 @@ Il existe plusieurs raisons d’inclure un composant « Entrée de texte » da
 
 ## Version et compatibilité {#version-and-compatibility}
 
-Le composant principal Zone de texte des formulaires adaptatifs a été publié en février 2023 au sein des composants principaux 2.0.4 pour Cloud Service et des composants principaux 1.1.12 pour AEM 6.5.16.0 Forms ou version ultérieure. Vous trouverez ci-dessous un tableau détaillant les versions prises en charge, la compatibilité avec AEM et les liens vers la documentation correspondante :
+Le composant principal « Zone de texte » du Forms adaptatif a été publié en février 2023 dans le cadre des composants principaux 2.0.4 pour Cloud Service et des composants principaux 1.1.12 pour AEM 6.5.16.0 Forms ou version ultérieure. Vous trouverez ci-dessous un tableau détaillant les versions prises en charge, la compatibilité avec AEM et les liens vers la documentation correspondante :
 
-| Version du composant | AEM as a Cloud Service | AEM 6.5.16.0 Forms ou version ultérieure |
+| Version du composant | AEM as a Cloud Service | AEM 6.5.16.0 Forms ou version ultérieure |
 |---|---|---|
 | v1 | Compatible avec la <br>[version 2.0.4](/help/adaptive-forms/version.md) et les versions ultérieures | Compatible avec les<br>[versions 1.1.12](/help/adaptive-forms/version.md) à 2.0.0 exclue. |
 
@@ -41,11 +41,11 @@ Pour plus d’informations sur les versions et publications des composants princ
 
 <!-- ## Sample Component Output {#sample-component-output}
 
-To experience the Accordion Component as well as see examples of its configuration options as well as HTML and JSON output, visit the [Component Library](https://adobe.com/go/aem_cmp_library_accordion_fr). -->
+To experience the Accordion Component as well as see examples of its configuration options as well as HTML and JSON output, visit the [Component Library](https://adobe.com/go/aem_cmp_library_accordion). -->
 
 ## Détails techniques {#technical-details}
 
-Retrouvez les informations les plus récentes sur le composant principal « Onglet en haut » des formulaires adaptatifs dans la documentation technique sur [GitHub](https://github.com/adobe/aem-core-forms-components/tree/master/ui.af.apps/src/main/content/jcr_root/apps/core/fd/components/form/textinput/v1/textinput). Pour plus d’informations sur le développement des composants principaux, consultez la [documentation destinée aux développeurs et développeuses de composants principaux](/help/developing/overview.md).
+Retrouvez les informations les plus récentes sur le composant principal « Zone de texte » du Forms adaptatif dans la documentation technique sur [GitHub](https://github.com/adobe/aem-core-forms-components/tree/master/ui.af.apps/src/main/content/jcr_root/apps/core/fd/components/form/textinput/v1/textinput). Pour plus d’informations sur le développement des composants principaux, consultez la [documentation destinée aux développeurs et développeuses de composants principaux](/help/developing/overview.md).
 
 ## Boîte de dialogue de configuration {#configure-dialog}
 
@@ -124,7 +124,7 @@ L’option **Motif de validation** vous permet de saisir un motif pour valider l
    - **Description** : sélectionnez cette option pour utiliser la description des libellés d’accessibilité ARIA.
    - **Titre** : sélectionnez cette option pour utiliser le titre pour les libellés d’accessibilité ARIA.
    - **Nom** : sélectionnez cette option pour utiliser le nom pour les libellés d’accessibilité ARIA.
-   - **Aucun** : sélectionnez cette option si vous ne souhaitez pas l’ajouter pour les libellés d’accessibilité ARIA.
+   - **Aucun** : sélectionnez cette option si vous ne souhaitez pas ajouter de texte supplémentaire pour les libellés d’accessibilité ARIA.
 
 ## Boîte de dialogue de conception {#design-dialog}
 
@@ -164,7 +164,7 @@ L’onglet Formats vous permet de définir des formats de date par défaut et pe
 
 ## Related article {#related-article}
 
-* [Create a standalone Adaptive Form](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/creating-adaptive-form-core-components.html?lang=fr)
+* [Create a standalone Adaptive Form](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/creating-adaptive-form-core-components.html)
 
 -->
 
