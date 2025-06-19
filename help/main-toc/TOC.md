@@ -8,7 +8,7 @@ feature-set: Experience Manager Sites, Experience Manager Forms
 source-git-commit: 5c4c72b2f52806cbcc889b676dfa2b2b65b08562
 workflow-type: tm+mt
 source-wordcount: '388'
-ht-degree: 92%
+ht-degree: 96%
 
 ---
 
@@ -56,7 +56,7 @@ ht-degree: 92%
       + [Formulaire masqué](/help/components/forms/form-hidden.md)
       + [Options du formulaire](/help/components/forms/form-options.md)
       + [Texte du formulaire](/help/components/forms/form-text.md)
-   + Composants v1 {#v1-components}
+   + Composants v1 {#v1-components}
       + [Chemin de navigation (v1)](/help/components/v1/breadcrumb-v1.md)
       + [Bouton (v1)](/help/components/v1/button.md)
       + [Liste de fragments de contenu (v1)](/help/components/v1/content-fragment-list.md)
@@ -72,19 +72,19 @@ ht-degree: 92%
       + [Recherche rapide (v1)](/help/components/v1/quick-search.md)
       + [Texte (v1)](/help/components/v1/text-v1.md)
       + [Titre (v1)](/help/components/v1/title-v1.md)
-      + Composants de formulaire v1 {#v1-forms}
+      + Composants de formulaire v1 {#v1-forms}
          + [Bouton de formulaire (v1)](/help/components/v1/form-button-v1.md)
          + [Conteneur de formulaires (v1)](/help/components/v1/form-container-v1.md)
          + [Formulaire masqué (v1)](/help/components/v1/form-hidden-v1.md)
          + [Options de formulaire (v1)](/help/components/v1/form-options-v1.md)
          + [Texte de formulaire (v1)](/help/components/v1/form-text-v1.md)
-   + Composants v2 {#v2-components}
+   + Composants v2 {#v2-components}
       + [Chemin de navigation (v2)](/help/components/v2/breadcrumb.md)
       + [Image (v2)](/help/components/v2/image.md)
       + [Liste (v2)](/help/components/v2/list.md)
       + [Page (v2)](/help/components/v2/page.md)
       + [Titre (v2)](/help/components/v2/title.md)
-   + Composants v3 {#v3-components}
+   + Composants v3 {#v3-components}
       + [Liste (v3)](/help/components/v3/list.md)
 + Composants d’e-mail {#email}
    + [Présentation](/help/email/introduction.md)
@@ -105,7 +105,7 @@ ht-degree: 92%
 + Formulaires adaptatifs {#adaptive-forms}
    + [Présentation](/help/adaptive-forms/introduction.md)
    + [Historique des versions](/help/adaptive-forms/version.md)
-   + Composants Forms adaptatifs {#adaptive-forms-components}
+   + Composants des formulaires adaptatifs {#adaptive-forms-components}
       + [Formulaires adaptatifs - Accordéon](/help/adaptive-forms/components/accordion.md)
       + [Formulaires adaptatifs - Bouton](/help/adaptive-forms/components/button.md)
       + [Case à cocher de formulaires adaptatifs](/help/adaptive-forms/components/checkbox.md)
@@ -127,7 +127,7 @@ ht-degree: 92%
       + [Formulaires adaptatifs - Bouton radio](/help/adaptive-forms/components/radio-button.md)
       + [Formulaires adaptatifs - Bouton réinitialiser](/help/adaptive-forms/components/reset-button.md)
       + [Révision du formulaire adaptatif](/help/adaptive-forms/components/review.md)
-      + [Formulaires adaptatifs - Bouton envoyer](/help/adaptive-forms/components/submit-button.md)
+      + [Formulaires adaptatifs - Bouton Envoyer](/help/adaptive-forms/components/submit-button.md)
       + [Formulaires adaptatifs – Commutateur](/help/adaptive-forms/components/adaptive-form-switch.md)
       + [Formulaires adaptatifs - Téléphone](/help/adaptive-forms/components/phone.md)
       + [Formulaires adaptatifs - Texte](/help/adaptive-forms/components/text.md)
@@ -151,7 +151,7 @@ ht-degree: 92%
    + [Servlet Image adaptative](/help/developing/adaptive-image-servlet.md)
    + [Diffusion d’images optimisées pour le web](/help/developing/web-optimized-image-delivery.md)
    + [Prise en charge des ressources distantes](/help/developing/remote-assets.md)
-   + Couche de données client Adobe {#data-layer}
+   + Couche de données de clientèle Adobe {#data-layer}
       + [Présentation de la couche de données](/help/developing/data-layer/overview.md)
       + [Intégrations à la couche de données](/help/developing/data-layer/integrations.md)
       + [Extension de la couche de données](/help/developing/data-layer/extending.md)
