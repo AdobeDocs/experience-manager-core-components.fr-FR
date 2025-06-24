@@ -35,7 +35,7 @@ Le tableau ci-après présente en détail toutes les versions prises en charge d
 >[!CAUTION]
 >
 >Ce document décrit la version v1 du composant Recherche rapide.
->>Pour plus d’informations sur la version actuelle du composant Recherche rapide, consultez le document [Composant Recherche rapide](/help/components/quick-search.md).
+>&#x200B;>Pour plus d’informations sur la version actuelle du composant Recherche rapide, consultez le document [Composant Recherche rapide](/help/components/quick-search.md).
 
 Pour plus d’informations sur les versions et les publications des composants principaux, voir le document sur les [versions des composants principaux](/help/versions.md).
 

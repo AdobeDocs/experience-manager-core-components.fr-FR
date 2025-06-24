@@ -36,7 +36,7 @@ Le tableau ci-après répertorie la compatibilité de la version v1 du composant
 >[!CAUTION]
 >
 >Ce document décrit la version v1 du composant de chemin de navigation.
->>Pour plus d’informations sur la version actuelle du composant Chemin de navigation, voir le document [Composant Chemin de navigation](/help/components/breadcrumb.md).
+>&#x200B;>Pour plus d’informations sur la version actuelle du composant Chemin de navigation, voir le document [Composant Chemin de navigation](/help/components/breadcrumb.md).
 
 ## Exemple de sortie de composant {#sample-component-output}
 
