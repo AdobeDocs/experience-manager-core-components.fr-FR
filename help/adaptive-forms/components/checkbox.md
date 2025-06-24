@@ -3,12 +3,13 @@ title: Composant principal des formulaires adaptatifs – Case à cocher
 description: Utilisation ou personnalisation du composant principal de case à cocher des formulaires adaptatifs.
 role: Architect, Developer, Admin, User
 exl-id: c6ca4800-bd10-4aeb-957a-fb1780cf94f3
-source-git-commit: 732efc9ed450aa31078ecaad65c0c306679fe97e
-workflow-type: ht
-source-wordcount: '1838'
-ht-degree: 100%
+source-git-commit: 6725784bd4c94d433c91d6bd65d14d03cbefd954
+workflow-type: tm+mt
+source-wordcount: '1837'
+ht-degree: 99%
 
 ---
+
 
 # Composant Case à cocher{#checkbox-component}
 
@@ -18,7 +19,9 @@ Une case à cocher est généralement représentée sous la forme d’un petit c
 
 >[!NOTE]
 >
-> Pour AEM 6.5 Forms, ce composant a été introduit avec le pack de services AEM 6.5 Forms 19 (6.5.19.0). Pour activer ce composant, assurez-vous que les versions nécessaires des composants principaux des formulaires et de la gestion de contenu web sont installées. Pour plus d’informations sur les versions des composants principaux des formulaires adaptatifs, reportez-vous à la section [Versions des composants principaux des formulaires adaptatifs](/help/adaptive-forms/version.md).
+> Pour AEM 6.5 Forms, ce composant a été introduit avec AEM 6.5 Forms Service Pack 19 (6.5.19.0). Pour activer ce composant, assurez-vous que les versions nécessaires des composants principaux des formulaires et de la gestion de contenu web sont installées. Pour plus d’informations sur les versions des composants principaux des formulaires adaptatifs, reportez-vous à la section [Versions des composants principaux des formulaires adaptatifs](/help/adaptive-forms/version.md).
+
+{{traditional-aem}}
 
 **Exemple**
 
@@ -115,7 +118,7 @@ Vous pouvez facilement personnaliser l’expérience des cases à cocher pour le
    - **Description** : sélectionnez cette option pour utiliser la description des libellés d’accessibilité ARIA.
    - **Titre** : sélectionnez cette option pour utiliser le titre pour les libellés d’accessibilité ARIA.
    - **Nom** : sélectionnez cette option pour utiliser le nom pour les libellés d’accessibilité ARIA.
-   - **Aucun** : sélectionnez cette option si vous ne souhaitez pas l’ajouter pour les libellés d’accessibilité ARIA.
+   - **Aucun** : sélectionnez cette option si vous ne souhaitez pas ajouter de texte supplémentaire pour les libellés d’accessibilité ARIA.
 
 ## Boîte de dialogue de conception {#design-dialog}
 

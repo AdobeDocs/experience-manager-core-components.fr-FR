@@ -4,12 +4,13 @@ description: Utilisation de la couche de données client Adobe avec les composan
 feature: Core Components, Adobe Client Data Layer
 role: Architect, Developer, Admin
 exl-id: 55c984d3-deb7-4eda-a81d-7768791d2b46
-source-git-commit: 2ac16b15718128feefbe903e92f276b16fe96f69
+source-git-commit: 5994133947ff697f7c866fe61598c58e37e77008
 workflow-type: tm+mt
-source-wordcount: '952'
-ht-degree: 100%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
+
 
 # Utilisation de la couche de données client Adobe avec les composants principaux {#data-layer-core-components}
 
@@ -24,6 +25,8 @@ Tout comme les composants principaux, le code de la couche de données client Ad
 >Pour plus d’informations sur la couche de données client Adobe, [reportez-vous aux ressources de son référentiel GitHub.](https://github.com/adobe/adobe-client-data-layer)
 >
 >Pour obtenir des détails techniques sur l’intégration de la couche de données client Adobe avec les composants principaux, voir le fichier [`DATA_LAYER_INTEGRATION.md`](https://github.com/adobe/aem-core-wcm-components/blob/master/DATA_LAYER_INTEGRATION.md) dans le référentiel des composants principaux.
+
+{{traditional-aem}}
 
 ## Installation et activation {#installation-activation}
 

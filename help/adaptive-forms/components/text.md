@@ -3,18 +3,21 @@ title: Composant principal des formulaires adaptatifs - Texte
 description: Utilisation ou personnalisation du composant principal Texte dans les formulaires adaptatifs.
 role: Architect, Developer, Admin, User
 exl-id: b8de68e4-ca0d-4ae5-9a04-104cc617f1be
-source-git-commit: 732efc9ed450aa31078ecaad65c0c306679fe97e
-workflow-type: ht
-source-wordcount: '998'
-ht-degree: 100%
+source-git-commit: 6725784bd4c94d433c91d6bd65d14d03cbefd954
+workflow-type: tm+mt
+source-wordcount: '996'
+ht-degree: 96%
 
 ---
+
 
 # Composant Texte {#text-adaptive-forms-core-component}
 
 Dans un formulaire adaptatif, le texte fait référence au contenu affiché dans le formulaire pour que l’utilisateur ou l’utilisatrice puisse le lire. Vous pouvez ajouter des libellés afin d’étiqueter un groupe d’éléments de formulaire, tels que des champs de texte, ainsi que toute instruction ou information supplémentaire fournie à l’utilisateur ou à l’utilisatrice.
 
 Vous pouvez également diviser la structure d’un formulaire en sections logiques, pour une meilleure compréhension et saisie par les utilisateurs et utilisatrices. En outre, le texte peut être utilisé à des fins d’accessibilité si vous donnez une brève description de l’élément auquel il est associé. Ce champ de texte est généralement affiché près des composants de formulaire, en amont ou en aval.
+
+{{traditional-aem}}
 
 **Exemple**
 
@@ -34,7 +37,7 @@ L’utilisation de texte dans un formulaire offre les avantages suivants :
 
 ## Version et compatibilité {#version-and-compatibility}
 
-Le composant principal Texte des formulaires adaptatifs a été publié en février 2023 au sein des composants principaux 2.0.4 pour Cloud Service et des composants principaux 1.1.12 pour AEM 6.5.16.0 Forms ou version ultérieure. Vous trouverez ci-dessous un tableau détaillant les versions prises en charge, la compatibilité avec AEM et les liens vers la documentation correspondante :
+Le composant principal Texte pour Forms adaptatif a été publié en février 2023 dans le cadre des composants principaux 2.0.4 pour Cloud Service et des composants principaux 1.1.12 pour AEM 6.5.16.0 Forms ou version ultérieure. Vous trouverez ci-dessous un tableau détaillant les versions prises en charge, la compatibilité avec AEM et les liens vers la documentation correspondante :
 
 | Version du composant | AEM as a Cloud Service | AEM 6.5.16.0 Forms ou version ultérieure |
 |---|---|---|
@@ -44,7 +47,7 @@ Pour plus d’informations sur les versions et publications des composants princ
 
 <!-- ## Sample Component Output {#sample-component-output}
 
-To experience the Accordion Component as well as see examples of its configuration options as well as HTML and JSON output, visit the [Component Library](https://adobe.com/go/aem_cmp_library_accordion_fr). -->
+To experience the Accordion Component as well as see examples of its configuration options as well as HTML and JSON output, visit the [Component Library](https://adobe.com/go/aem_cmp_library_accordion). -->
 
 ## Détails techniques {#technical-details}
 

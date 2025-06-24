@@ -3,16 +3,19 @@ title: Composant principal des formulaires adaptatifs - En-tête
 description: Utilisation ou personnalisation du composant principal « En-tête » des formulaires adaptatifs.
 role: Architect, Developer, Admin, User
 exl-id: aa18def9-0bec-4475-8dde-213860621ef5
-source-git-commit: 732efc9ed450aa31078ecaad65c0c306679fe97e
-workflow-type: ht
-source-wordcount: '674'
-ht-degree: 100%
+source-git-commit: 6725784bd4c94d433c91d6bd65d14d03cbefd954
+workflow-type: tm+mt
+source-wordcount: '672'
+ht-degree: 95%
 
 ---
+
 
 # En-tête {#header-adaptive-forms-core-component}
 
 Le composant « En-tête » d’un formulaire adaptatif est une section située en haut du formulaire et qui comprend généralement le titre, le logo ou le nom du formulaire. L’en-tête peut également inclure d’autres informations, telles qu’une brève description de l’objectif du formulaire, le nom de l’organisation qui a créé le formulaire ou des coordonnées pour obtenir de l’aide sur le formulaire. L’en-tête est utilisé pour donner aux utilisateurs et aux utilisatrices un aperçu du formulaire et fournir un contexte pour les informations qu’ils ou elles sont sur le point de remplir. Il est utilisé pour aider les utilisateurs et les utilisatrices à comprendre l’objectif du formulaire et comment le remplir correctement.
+
+{{traditional-aem}}
 
 **Exemple**
 
@@ -32,7 +35,7 @@ Le composant « En-tête » d’un formulaire adaptatif est une section situé
 
 ## Version et compatibilité {#version-and-compatibility}
 
-Le composant principal En-tête des formulaires adaptatifs a été publié en février 2023 au sein des composants principaux 2.0.4 pour Cloud Service et des composants principaux 1.1.12 pour AEM 6.5.16.0 Forms ou version ultérieure. Vous trouverez ci-dessous un tableau détaillant les versions prises en charge, la compatibilité avec AEM et les liens vers la documentation correspondante :
+Le composant principal d’en-tête de Forms adaptative a été publié en février 2023 dans le cadre des composants principaux 2.0.4 pour Cloud Service et des composants principaux 1.1.12 pour AEM 6.5.16.0 Forms ou version ultérieure. Vous trouverez ci-dessous un tableau détaillant les versions prises en charge, la compatibilité avec AEM et les liens vers la documentation correspondante :
 
 | Version du composant | AEM as a Cloud Service | AEM 6.5.16.0 Forms ou version ultérieure |
 |---|---|---|
@@ -43,7 +46,7 @@ Pour plus d’informations sur les versions et publications des composants princ
 
 <!-- ## Sample Component Output {#sample-component-output}
 
-To experience the Accordion Component as well as see examples of its configuration options as well as HTML and JSON output, visit the [Component Library](https://adobe.com/go/aem_cmp_library_accordion_fr). -->
+To experience the Accordion Component as well as see examples of its configuration options as well as HTML and JSON output, visit the [Component Library](https://adobe.com/go/aem_cmp_library_accordion). -->
 
 ## Détails techniques {#technical-details}
 
@@ -83,7 +86,7 @@ Cette section permet de saisir le texte à inclure dans l’en-tête.
 
 ## Related article {#related-article}
 
-* [Create a standalone Adaptive Form](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/creating-adaptive-form-core-components.html?lang=fr)
+* [Create a standalone Adaptive Form](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/creating-adaptive-form-core-components.html)
 
 -->
 

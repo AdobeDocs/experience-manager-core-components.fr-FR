@@ -3,10 +3,10 @@ title: Composant principal des formulaires adaptatifs - Entrée téléphonique, 
 description: Utilisation ou personnalisation du composant principal « Entrée téléphonique » dans les formulaires adaptatifs.
 role: Architect, Developer, Admin, User
 exl-id: d06179ac-04bd-4af4-b6ac-c4c78086058c
-source-git-commit: 732efc9ed450aa31078ecaad65c0c306679fe97e
-workflow-type: ht
-source-wordcount: '2199'
-ht-degree: 100%
+source-git-commit: 6725784bd4c94d433c91d6bd65d14d03cbefd954
+workflow-type: tm+mt
+source-wordcount: '2197'
+ht-degree: 98%
 
 ---
 
@@ -18,6 +18,8 @@ Le composant principal Téléphone des formulaires adaptatifs permet aux utilisa
 Le champ d’entrée téléphonique est généralement utilisé dans les formulaires de contact, les formulaires d’inscription et d’autres formulaires où un numéro de téléphone est requis comme moyen de cotnact. Le champ d’entrée téléphonique peut également être utilisé pour s’assurer que l’utilisateur ou l’utilisatrice saisit un numéro de téléphone valide, car le navigateur peut imposer certaines contraintes, telles que la longueur et le format du numéro de téléphone, en fonction de l’attribut « motif ».
 
 ![exemple](/help/adaptive-forms/assets/emailid-example.png)
+
+{{traditional-aem}}
 
 ## Utilisation {#reasons-to-use-telephone-input}
 
@@ -31,7 +33,7 @@ Les principales raisons d’utiliser un champ d’entrée téléphonique dans un
 
 ## Version et compatibilité {#version-and-compatibility}
 
-Le composant principal Téléphone des formulaires adaptatifs a été publié en février 2023 au sein des composants principaux 2.0.4 pour Cloud Service et des composants principaux 1.1.12 pour AEM 6.5.16.0 Forms ou version ultérieure. Vous trouverez ci-dessous un tableau détaillant les versions prises en charge, la compatibilité avec AEM et les liens vers la documentation correspondante :
+Le composant principal Téléphone Forms adaptatif a été publié en février 2023 dans le cadre des composants principaux 2.0.4 pour Cloud Service et des composants principaux 1.1.12 pour AEM 6.5.16.0 Forms ou version ultérieure. Vous trouverez ci-dessous un tableau détaillant les versions prises en charge, la compatibilité avec AEM et les liens vers la documentation correspondante :
 
 | Version du composant | AEM as a Cloud Service | AEM 6.5.16.0 Forms ou version ultérieure |
 |---|---|---|
@@ -41,7 +43,7 @@ Pour plus d’informations sur les versions et publications des composants princ
 
 <!-- ## Sample Component Output {#sample-component-output}
 
-To experience the Accordion Component as well as see examples of its configuration options as well as HTML and JSON output, visit the [Component Library](https://adobe.com/go/aem_cmp_library_accordion_fr). -->
+To experience the Accordion Component as well as see examples of its configuration options as well as HTML and JSON output, visit the [Component Library](https://adobe.com/go/aem_cmp_library_accordion). -->
 
 ## Détails techniques {#technical-details}
 
@@ -121,7 +123,7 @@ L’option **Motif de validation** permet de saisir un motif pour valider le num
    - **Description** : sélectionnez cette option pour utiliser la description des libellés d’accessibilité ARIA.
    - **Titre** : sélectionnez cette option pour utiliser le titre pour les libellés d’accessibilité ARIA.
    - **Nom** : sélectionnez cette option pour utiliser le nom pour les libellés d’accessibilité ARIA.
-   - **Aucun** : sélectionnez cette option si vous ne souhaitez pas l’ajouter pour les libellés d’accessibilité ARIA.
+   - **Aucun** : sélectionnez cette option si vous ne souhaitez pas ajouter de texte supplémentaire pour les libellés d’accessibilité ARIA.
 
 ## Boîte de dialogue de conception {#design-dialog}
 
@@ -167,7 +169,7 @@ L’onglet Modèle de validation permet de saisir des valeurs dans un format sp�
 
 ## Related article {#related-article}
 
-* [Create a standalone Adaptive Form](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/creating-adaptive-form-core-components.html?lang=fr)
+* [Create a standalone Adaptive Form](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/creating-adaptive-form-core-components.html)
 
 -->
 

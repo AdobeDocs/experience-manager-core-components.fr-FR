@@ -3,10 +3,11 @@ title: Composant Fragment d’expérience d’e-mail
 description: Le composant Fragment d’expérience d’e-mail permet au créateur du contenu de placer une variation de fragment d’expérience sur une page tout en prenant en charge une structure de site localisée.
 role: Architect, Developer, Admin, User
 exl-id: 861c1fd1-6d6d-426c-a338-a558326fe16e
-source-git-commit: 91969e4956bef1a511b8d588d5290a7999bf86ec
-workflow-type: ht
-source-wordcount: '865'
-ht-degree: 100%
+index: false
+source-git-commit: eb77567dc32cccb81a9fc131493d11fb55b7e93b
+workflow-type: tm+mt
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 

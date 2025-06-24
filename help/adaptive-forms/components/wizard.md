@@ -3,12 +3,13 @@ title: Composant principal des formulaires adaptatifs - Assistant
 description: Utilisation ou personnalisation du composant principal « Assistant » des formulaires adaptatifs.
 role: Architect, Developer, Admin, User
 exl-id: fd785cd2-5ed6-4efb-997f-ce9056ed113d
-source-git-commit: 9f151ae26c9d2006b74656ec5086f1a5e9fc4b30
-workflow-type: ht
-source-wordcount: '2186'
-ht-degree: 100%
+source-git-commit: 6725784bd4c94d433c91d6bd65d14d03cbefd954
+workflow-type: tm+mt
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
+
 
 # Composant Assistant{#wizard-adaptive-forms-core-component}
 
@@ -20,6 +21,8 @@ La disposition « Assistant » s’avère utile pour les formulaires contenant
 
 Cependant, cela peut également accroître la complexité du formulaire, car l’utilisateur ou l’utilisatrice doit parcourir plusieurs pages pour remplir le formulaire. Il est donc nécessaire d’évaluer les exigences du formulaire et les besoins de l’utilisateur ou de l’utilisatrice avant de décider d’utiliser la disposition « Assistant ».
 Vous pouvez utiliser le composant principal de disposition « Assistant » dans un formulaire adaptatif pour créer une disposition « Assistant ».
+
+{{traditional-aem}}
 
 **Exemple**
 
@@ -59,7 +62,7 @@ Pour plus d’informations sur les versions et publications des composants princ
 
 <!-- ## Sample Component Output {#sample-component-output}
 
-To experience the Accordion Component as well as see examples of its configuration options as well as HTML and JSON output, visit the [Component Library](https://adobe.com/go/aem_cmp_library_accordion_fr). -->
+To experience the Accordion Component as well as see examples of its configuration options as well as HTML and JSON output, visit the [Component Library](https://adobe.com/go/aem_cmp_library_accordion). -->
 
 ## Détails techniques {#technical-details}
 

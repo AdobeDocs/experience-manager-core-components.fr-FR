@@ -3,12 +3,13 @@ title: Composant Fragment de contenu
 description: Le composant Fragment de contenu des composants principaux permet l’affichage d’un fragment de contenu.
 role: Architect, Developer, Admin, User
 exl-id: 551ff2a1-f8db-490c-84a3-4255b364fc83
-source-git-commit: 6fbc781db555bc6abaed1d122a9a8756e3d53222
-workflow-type: ht
-source-wordcount: '659'
-ht-degree: 100%
+source-git-commit: dd30def59a8f037864da875ef4c831b11f766e57
+workflow-type: tm+mt
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
+
 
 # Composant Fragment de contenu {#content-fragment-component}
 
@@ -17,6 +18,8 @@ Le composant Fragment de contenu des composants principaux permet l’affichage 
 >[!NOTE]
 >
 >Avant la version 2.4.0 des composants principaux, le composant Fragment de contenu était disponible en tant qu’extension aux composants principaux et devait être téléchargé séparément et explicitement activé.
+
+{{traditional-aem}}
 
 ## Utilisation {#usage}
 

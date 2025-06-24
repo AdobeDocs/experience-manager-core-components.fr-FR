@@ -3,12 +3,13 @@ title: Fragment de formulaire adaptatif
 description: Utilisez des fragments de formulaire pour créer des segments de formulaire ou des groupes de champs et les réutiliser dans des formulaires adaptatifs afin d’améliorer l’efficacité et la possibilité de réutilisation.
 role: Architect, Developer, Admin, User
 exl-id: bde4a416-1d6b-4e9e-ac74-70fccef473cb
-source-git-commit: 4c510b8fe59f4be6e1b329ee4257ab1b780fbf22
+source-git-commit: 6725784bd4c94d433c91d6bd65d14d03cbefd954
 workflow-type: tm+mt
-source-wordcount: '1954'
-ht-degree: 100%
+source-wordcount: '1952'
+ht-degree: 98%
 
 ---
+
 
 # Composant Fragment de formulaire adaptatif {#form-fragment-component-adaptive-forms-core-component}
 
@@ -25,6 +26,8 @@ Vous pouvez utiliser l’[option de répétition](https://experienceleague.adobe
 >
 > Vous pouvez [créer un fragment de formulaire adaptatif](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/adaptive-form-fragments-core-components.html?lang=fr#create-a-fragment) à partir de zéro ou enregistrer un panneau dans un formulaire adaptatif existant en tant que fragment.
 
+{{traditional-aem}}
+
 ## Utilisation {#usage}
 
 - **Réutilisation** : la possibilité de réutiliser des fragments de formulaire sur plusieurs formulaires adaptatifs constitue le principal avantage de l’utilisation de fragments de formulaire. Cela permet d’assurer une conception et une fonctionnalité cohérentes, car les modifications apportées à un fragment sont répercutées dans toutes les instances où il est utilisé.
@@ -37,7 +40,7 @@ Vous pouvez utiliser l’[option de répétition](https://experienceleague.adobe
 
 ## Version et compatibilité {#version-and-compatibility}
 
-Le composant principal Fragment des formulaires adaptatifs a été publié dans le cadre des composants principaux 2.0.50 pour Cloud Service et des composants principaux 1.1.26 pour AEM 6.5.16.0 Forms ou version ultérieure. Vous trouverez ci-dessous un tableau détaillant les versions prises en charge, la compatibilité avec AEM et les liens vers la documentation correspondante :
+Le composant principal Fragment de Forms adaptatif a été publié dans le cadre des composants principaux 2.0.50 pour Cloud Service et des composants principaux 1.1.26 pour AEM 6.5.16.0 Forms ou une version ultérieure. Vous trouverez ci-dessous un tableau détaillant les versions prises en charge, la compatibilité avec AEM et les liens vers la documentation correspondante :
 
 | Version du composant | AEM as a Cloud Service | AEM 6.5.16.0 Forms ou version ultérieure |
 |---|---|---|
@@ -124,7 +127,7 @@ Vous pouvez facilement personnaliser l’expérience du fragment pour les visite
    - **Description** : sélectionnez cette option pour utiliser la description des libellés d’accessibilité ARIA.
    - **Titre** : sélectionnez cette option pour utiliser le titre pour les libellés d’accessibilité ARIA.
    - **Nom** : sélectionnez cette option pour utiliser le nom pour les libellés d’accessibilité ARIA.
-   - **Aucun** : sélectionnez cette option si vous ne souhaitez pas l’ajouter pour les libellés d’accessibilité ARIA.
+   - **Aucun** : sélectionnez cette option si vous ne souhaitez pas ajouter de texte supplémentaire pour les libellés d’accessibilité ARIA.
 
 - **Rôle HTML à annoncer par le lecteur d’écran** - Le rôle HTML est un attribut utilisé pour spécifier l’objectif d’un élément HTML pour les technologies d’assistance telles que les lecteurs d’écran. L’attribut rôle est utilisé pour fournir un contexte et une signification sémantique supplémentaires à un élément, ce qui facilite l’interprétation et l’annonce du contenu à l’utilisateur ou à l’utilisatrice par les lecteurs d’écran. Par exemple, dans AEM Forms, le libellé d’un champ de formulaire peut avoir le rôle « libellé » et son champ de saisie peut avoir le rôle « zone de texte ». Cela permet au lecteur d’écran de comprendre la relation entre le libellé et le champ de saisie, et de les annoncer correctement à l’utilisateur ou à l’utilisatrice.
 

@@ -3,12 +3,13 @@ title: Composant principal des formulaires adaptatifs – Composant de commutate
 description: Utilisation ou personnalisation du composant principal Commutateur des formulaires adaptatifs.
 role: Architect, Developer, Admin, User
 exl-id: 6ff2ca76-1514-42eb-bde3-60259af2d187
-source-git-commit: 04a89892aafe26fda253bcc5971c03eda27237f9
-workflow-type: ht
-source-wordcount: '1922'
-ht-degree: 100%
+source-git-commit: 6725784bd4c94d433c91d6bd65d14d03cbefd954
+workflow-type: tm+mt
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
+
 
 # Composant Commutateur du formulaire adaptatif{#switch-adaptive-forms-core-component}
 
@@ -17,6 +18,8 @@ Le composant de commutateur est une interface utilisateur graphique utilisée da
 Le composant de commutateur est un élément de contrôle booléen qui définit la valeur sur vrai (true) ou faux (false). Par exemple, il est utilisé pour activer ou désactiver une fonction, comme couper ou activer le son, ou activer ou désactiver le Bluetooth ou le Wi-Fi.
 
 ![Exemple de composant de commutateur.](/help/adaptive-forms/assets/switch-example.png)
+
+{{traditional-aem}}
 
 ## Utilisation {#reasons-to-use-switch}
 
@@ -117,7 +120,7 @@ Vous pouvez facilement personnaliser l’expérience du composant Commutateur po
    - **Description** : sélectionnez cette option pour utiliser la description des libellés d’accessibilité ARIA.
    - **Titre** : sélectionnez cette option pour utiliser le titre pour les libellés d’accessibilité ARIA.
    - **Nom** : sélectionnez cette option pour utiliser le nom pour les libellés d’accessibilité ARIA.
-   - **Aucun** : sélectionnez cette option si vous ne souhaitez pas l’ajouter pour les libellés d’accessibilité ARIA.
+   - **Aucun** : sélectionnez cette option si vous ne souhaitez pas ajouter de texte supplémentaire pour les libellés d’accessibilité ARIA.
 
 ### Onglet Styles {#styles-tab}
 

@@ -4,10 +4,11 @@ description: Utilisation ou personnalisation du composant principal de révision
 role: Architect, Developer, Admin, User
 hide: true
 hidefromtoc: true
-source-git-commit: 04a685cfa2616839f4fec715847bf0821808bd59
-workflow-type: ht
-source-wordcount: '742'
-ht-degree: 100%
+exl-id: acd230ed-284b-4df2-98e0-a0090cd73611
+source-git-commit: 6725784bd4c94d433c91d6bd65d14d03cbefd954
+workflow-type: tm+mt
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -15,6 +16,8 @@ ht-degree: 100%
 # Composant de révision
 
 Le composant de révision des formulaires adaptatifs permet aux utilisateurs et utilisatrices de vérifier les informations qu’ils ont saisies avant d’envoyer le formulaire. Il sert de page de résumé, offrant une vue en lecture seule de tous les champs et de leurs valeurs dans un format structuré et convivial. Cette fonctionnalité permet aux utilisateurs et utilisatrices d’identifier et de corriger les erreurs ou omissions avant de finaliser leur envoi, ce qui améliore l’expérience globale du formulaire. En cliquant sur l’icône Modifier, il est possible de modifier les informations saisies avant l’envoi du formulaire.
+
+{{traditional-aem}}
 
 **Exemple**
 
@@ -76,4 +79,3 @@ La vidéo ci-dessous montre comment configurer le composant **Révision** afin q
 ## Voir également {#see-also}
 
 {{see-also}}
-

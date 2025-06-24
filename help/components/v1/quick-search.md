@@ -3,12 +3,14 @@ title: Composant Recherche rapide (v1)
 description: Le composant Recherche rapide fournit des fonctionnalités de recherche à un site web et présente les résultats de recherche afin que les visiteurs puissent effectuer des recherches sur le site et filtrer les résultats.
 role: Architect, Developer, Admin, User
 exl-id: 60a043b7-d82c-4bc1-b91a-b77f748f7bc2
-source-git-commit: ae2e1d0aaadbc0ad04847ce9aecb382e10cbedf1
+index: n
+source-git-commit: 92a3ec273a5be6751c1503835b9c2e5cbd61bb9e
 workflow-type: tm+mt
 source-wordcount: '646'
 ht-degree: 98%
 
 ---
+
 
 # Composant Recherche rapide (v1) {#quick-search-component}
 
@@ -18,7 +20,7 @@ Le composant Recherche rapide fournit des fonctionnalités de recherche à un si
 
 Le composant Recherche rapide permet aux visiteurs du site de rechercher du contenu, d’afficher les résultats en place et de naviguer facilement vers les pages correspondantes. De nouveaux résultats sont extraits dynamiquement lorsque l’utilisateur fait défiler les résultats de la recherche.
 
-La [boîte de dialogue de modification](#edit-dialog) permet à l’auteur de contenu de définir l’emplacement où doit commencer la recherche dans l’arborescence de contenu. À l’aide de la [boîte de dialogue de conception](#design-dialog), l’auteur du modèle peut définir la valeur par défaut pour laquelle la recherche doit commencer dans l’arborescence de contenu, ainsi qu’une taille de jeu de résultats maximale et une durée minimale de recherche.
+La [boîte de dialogue de modification](#edit-dialog) permet à l’auteur de contenu de définir l’emplacement où doit commencer la recherche dans l’arborescence de contenu. À l’aide de la [boîte de dialogue de conception](#design-dialog), l’auteur du modèle peut définir la valeur par défaut pour laquelle la recherche doit commencer dans l’arborescence de contenu, ainsi qu’une taille de jeu de résultats maximale et la longueur minimale du terme de recherche.
 
 ## Version et compatibilité {#version-and-compatibility}
 
@@ -33,7 +35,7 @@ Le tableau ci-après présente en détail toutes les versions prises en charge d
 >[!CAUTION]
 >
 >Ce document décrit la version v1 du composant Recherche rapide.
->Pour plus d’informations sur la version actuelle du composant Recherche rapide, consultez le document [Composant Recherche rapide](/help/components/quick-search.md).
+>>Pour plus d’informations sur la version actuelle du composant Recherche rapide, consultez le document [Composant Recherche rapide](/help/components/quick-search.md).
 
 Pour plus d’informations sur les versions et les publications des composants principaux, voir le document sur les [versions des composants principaux](/help/versions.md).
 
@@ -65,7 +67,7 @@ La boîte de dialogue de modification permet à l’auteur de contenu de défini
 
 ## Boîte de dialogue de conception {#design-dialog}
 
-À l’aide de la boîte de dialogue de conception, l’auteur du modèle peut définir la valeur par défaut pour laquelle, dans l’arborescence de contenu, la recherche doit commencer, ainsi qu’une taille de jeu de résultats maximale et la longueur minimale du terme. La boîte de dialogue de conception permet à l’auteur du modèle de définir quelles options de mise en forme de texte sont disponibles pour les auteurs de contenu.
+À l’aide de la boîte de dialogue de conception, l’auteur du modèle peut définir la valeur par défaut pour laquelle, dans l’arborescence de contenu, la recherche doit commencer, ainsi qu’une taille de jeu de résultats maximale et la longueur minimale du terme de recherche. La boîte de dialogue de conception permet à l’auteur du modèle de définir quelles options de mise en forme de texte sont disponibles pour les auteurs de contenu.
 
 ### Onglet Propriétés {#properties-tab}
 

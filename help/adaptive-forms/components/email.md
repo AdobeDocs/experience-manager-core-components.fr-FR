@@ -3,23 +3,27 @@ title: Composant principal des formulaires adaptatifs - Entrée d’e-mail
 description: Utilisation ou personnalisation du composant principal « Entrée d’e-mail » des formulaires adaptatifs.
 role: Architect, Developer, Admin, User
 exl-id: f6a2974b-991e-4cea-9ef8-0b03e8975eeb
-source-git-commit: 732efc9ed450aa31078ecaad65c0c306679fe97e
-workflow-type: ht
-source-wordcount: '2113'
-ht-degree: 100%
+source-git-commit: 6725784bd4c94d433c91d6bd65d14d03cbefd954
+workflow-type: tm+mt
+source-wordcount: '2111'
+ht-degree: 98%
 
 ---
+
 
 # Composant E-mail {#Email-input-adaptive-forms-core-component}
 
 Le composant principal « Entrée d’e-mail » des formulaires adaptatifs est utilisé pour collecter les adresses e-mail des utilisateurs et des utilisatrices. Le champ d’entrée d’e-mail permet au navigateur de vérifier que le format de l’adresse e-mail renseignée est valide. Il est généralement représenté sous la forme d’une zone de texte et comporte des validations de motif pour n’accepter que des adresses e-mail valides. Le champ d’entrée d’e-mail peut être personnalisé de manière plus détaillée avec des attributs supplémentaires tels que « obligatoire », « espace réservé » et « motif » pour définir les validations des données de l’entrée.
 
+{{traditional-aem}}
+
 **Exemple**
+
 ![exemple](/help/adaptive-forms/assets/emailid-example.png)
 
 <!-- ## Sample Component Output {#sample-component-output}
 
-To experience the Accordion Component as well as see examples of its configuration options as well as HTML and JSON output, visit the [Component Library](https://adobe.com/go/aem_cmp_library_accordion_fr). -->
+To experience the Accordion Component as well as see examples of its configuration options as well as HTML and JSON output, visit the [Component Library](https://adobe.com/go/aem_cmp_library_accordion). -->
 
 Il existe plusieurs raisons d’inclure un composant « Entrée d’e-mail » dans un formulaire adaptatif, notamment :
 
@@ -35,7 +39,7 @@ Il existe plusieurs raisons d’inclure un composant « Entrée d’e-mail » 
 
 ## Version et compatibilité {#version-and-compatibility}
 
-Le composant principal E-mail des formulaires adaptatifs a été publié en février 2023 au sein des composants principaux 2.0.4 pour Cloud Service et des composants principaux 1.1.12 pour AEM 6.5.16.0 Forms ou version ultérieure. Vous trouverez ci-dessous un tableau détaillant les versions prises en charge, la compatibilité avec AEM et les liens vers la documentation correspondante :
+Le composant principal d’e-mail de Forms adaptatif a été publié en février 2023 dans le cadre des composants principaux 2.0.4 pour Cloud Service et des composants principaux 1.1.12 pour AEM 6.5.16.0 Forms ou version ultérieure. Vous trouverez ci-dessous un tableau détaillant les versions prises en charge, la compatibilité avec AEM et les liens vers la documentation correspondante :
 
 | Version du composant | AEM as a Cloud Service | AEM 6.5.16.0 Forms ou version ultérieure |
 |---|---|---|
@@ -45,7 +49,7 @@ Pour plus d’informations sur les versions et publications des composants princ
 
 <!-- ## Sample Component Output {#sample-component-output}
 
-To experience the Accordion Component as well as see examples of its configuration options as well as HTML and JSON output, visit the [Component Library](https://adobe.com/go/aem_cmp_library_accordion_fr). -->
+To experience the Accordion Component as well as see examples of its configuration options as well as HTML and JSON output, visit the [Component Library](https://adobe.com/go/aem_cmp_library_accordion). -->
 
 ## Détails techniques {#technical-details}
 
@@ -123,7 +127,7 @@ L’option **Modèle de validation** vous permet de saisir un modèle pour vali
    - **Description** : sélectionnez cette option pour utiliser la description des libellés d’accessibilité ARIA.
    - **Titre** : sélectionnez cette option pour utiliser le titre pour les libellés d’accessibilité ARIA.
    - **Nom** : sélectionnez cette option pour utiliser le nom pour les libellés d’accessibilité ARIA.
-   - **Aucun** : sélectionnez cette option si vous ne souhaitez pas l’ajouter pour les libellés d’accessibilité ARIA.
+   - **Aucun** : sélectionnez cette option si vous ne souhaitez pas ajouter de texte supplémentaire pour les libellés d’accessibilité ARIA.
 
 ## Boîte de dialogue de conception {#design-dialog}
 
@@ -163,7 +167,7 @@ L’onglet Formats vous permet de définir des formats de date par défaut et pe
 
 ## Related article {#related-article}
 
-* [Create a standalone Adaptive Form](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/creating-adaptive-form-core-components.html?lang=fr)
+* [Create a standalone Adaptive Form](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/creating-adaptive-form-core-components.html)
 
 -->
 

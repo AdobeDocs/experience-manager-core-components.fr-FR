@@ -3,10 +3,11 @@ title: Composant de fragment de contenu d’e-mail
 description: Le composant de fragment de contenu d’e-mail permet d’afficher un fragment de contenu dans votre contenu.
 role: Architect, Developer, Admin, User
 exl-id: 9bc6b730-0d2a-4e5b-891c-d2f67f600bcc
-source-git-commit: 91969e4956bef1a511b8d588d5290a7999bf86ec
-workflow-type: ht
-source-wordcount: '607'
-ht-degree: 100%
+index: false
+source-git-commit: eb77567dc32cccb81a9fc131493d11fb55b7e93b
+workflow-type: tm+mt
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 

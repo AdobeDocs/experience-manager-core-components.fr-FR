@@ -3,12 +3,14 @@ title: Composant Titre (v2)
 description: Le composant Titre des composants principaux est un composant d’en-tête de section qui comporte des fonctions d’édition statique.
 role: Architect, Developer, Admin, User
 exl-id: f853ec46-19fd-4569-a9d3-5c376d2a2101
-source-git-commit: e291d4c1bfd37292d68c236178f9681c4e5ee741
+index: n
+source-git-commit: 92a3ec273a5be6751c1503835b9c2e5cbd61bb9e
 workflow-type: tm+mt
-source-wordcount: '521'
-ht-degree: 100%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
+
 
 # Composant Titre (v2) {#title-component}
 

@@ -3,10 +3,11 @@ title: Composant Conteneur d’e-mail
 description: Le composant Conteneur d’e-mail permet la création d’un conteneur pour plusieurs composants supplémentaires dans votre contenu d’e-mail.
 role: Architect, Developer, Admin, User
 exl-id: 3b271e95-0093-4cb1-bb83-8446ba12a821
-source-git-commit: 91969e4956bef1a511b8d588d5290a7999bf86ec
-workflow-type: ht
-source-wordcount: '780'
-ht-degree: 100%
+index: false
+source-git-commit: eb77567dc32cccb81a9fc131493d11fb55b7e93b
+workflow-type: tm+mt
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 

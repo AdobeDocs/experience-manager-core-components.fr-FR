@@ -3,12 +3,14 @@ title: Composant Navigation (v1)
 description: Le composant Navigation permet aux utilisateurs de parcourir facilement une structure de site globalisée.
 role: Architect, Developer, Admin, User
 exl-id: 0b7de79a-e0c7-4cf9-b5a9-c78cbc3ecd2f
-source-git-commit: e291d4c1bfd37292d68c236178f9681c4e5ee741
+index: n
+source-git-commit: 92a3ec273a5be6751c1503835b9c2e5cbd61bb9e
 workflow-type: tm+mt
 source-wordcount: '1424'
 ht-degree: 99%
 
 ---
+
 
 # Composant Navigation (v1) {#navigation-component}
 

@@ -3,16 +3,19 @@ title: Composant textuel
 description: Le composant Texte est un composant d’édition et de composition de texte enrichi qui propose une édition statique.
 role: Architect, Developer, Admin, User
 exl-id: bcea202a-9ecb-4dcd-99b6-0848cbb9d500
-source-git-commit: da947be103bd68abad82fcfcbee58d527bc14dbd
-workflow-type: ht
-source-wordcount: '2185'
-ht-degree: 100%
+source-git-commit: dd30def59a8f037864da875ef4c831b11f766e57
+workflow-type: tm+mt
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
+
 
 # Composant textuel {#text-component}
 
 Le composant Texte des composants principaux est un composant d’édition et de composition de texte enrichi qui propose une édition statique.
+
+{{traditional-aem}}
 
 ## Utilisation {#usage}
 

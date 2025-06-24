@@ -3,12 +3,13 @@ title: Composant principal Formulaires adaptatifs - Bouton
 description: Utilisation ou personnalisation du composant principal Bouton des formulaires adaptatifs.
 role: Architect, Developer, Admin, User
 exl-id: cb75929b-8c86-49d1-b51a-368f5b80b1a9
-source-git-commit: 732efc9ed450aa31078ecaad65c0c306679fe97e
-workflow-type: ht
-source-wordcount: '1660'
-ht-degree: 100%
+source-git-commit: 6725784bd4c94d433c91d6bd65d14d03cbefd954
+workflow-type: tm+mt
+source-wordcount: '1658'
+ht-degree: 98%
 
 ---
+
 
 # Composant Bouton {#button-component-adaptive-forms-core-component}
 
@@ -19,6 +20,8 @@ L’éditeur de règles de formulaires adaptatifs permet aux utilisateurs et uti
 Les formulaires adaptatifs proposent des composants distincts pour le [Bouton Envoyer](/help/adaptive-forms/components/submit-button.md) et le [Bouton Réinitialiser](/help/adaptive-forms/components/reset-button.md), qui permettent d’envoyer ou de réinitialiser un formulaire en toute facilité. Le composant Bouton peut être configuré de manière flexible pour exécuter ces actions en fonction des besoins spécifiques.
 
 Les utilisateurs et utilisatrices peuvent accéder à la liste complète des actions prises en charge par le composant Bouton à l’aide de l’éditeur de règles de formulaires adaptatifs. L’éditeur de règles permet de créer des règles qui sont déclenchées par divers événements, comme le clic sur un bouton, le chargement d’un formulaire ou la modification de la valeur d’un champ. Ces règles peuvent ensuite être utilisées pour effectuer différentes actions, telles que l’affichage ou le masquage de composants, la définition de valeurs de champ ou l’envoi du formulaire.
+
+{{traditional-aem}}
 
 **Exemple**
 
@@ -40,7 +43,7 @@ L’emploi du bouton dans un formulaire offre les avantages suivants :
 
 ## Version et compatibilité {#version-and-compatibility}
 
-Le composant principal Bouton des formulaires adaptatifs a été publié en février 2023 au sein des composants principaux 2.0.4 pour Cloud Service et des composants principaux 1.1.12 pour AEM 6.5.16.0 Forms ou version ultérieure. Vous trouverez ci-dessous un tableau détaillant les versions prises en charge, la compatibilité avec AEM et les liens vers la documentation correspondante :
+Le composant principal Bouton du Forms adaptatif a été publié en février 2023 dans le cadre des composants principaux 2.0.4 pour Cloud Service et des composants principaux 1.1.12 pour AEM 6.5.16.0 Forms ou version ultérieure. Vous trouverez ci-dessous un tableau détaillant les versions prises en charge, la compatibilité avec AEM et les liens vers la documentation correspondante :
 
 | Version du composant | AEM as a Cloud Service | AEM 6.5.16.0 Forms ou version ultérieure |
 |---|---|---|
@@ -51,7 +54,7 @@ Pour plus d’informations sur les versions et publications des composants princ
 
 <!-- ## Sample Component Output {#sample-component-output}
 
-To experience the Accordion Component as well as see examples of its configuration options as well as HTML and JSON output, visit the [Component Library](https://adobe.com/go/aem_cmp_library_accordion_fr). -->
+To experience the Accordion Component as well as see examples of its configuration options as well as HTML and JSON output, visit the [Component Library](https://adobe.com/go/aem_cmp_library_accordion). -->
 
 ## Détails techniques {#technical-details}
 
@@ -104,7 +107,7 @@ Vous pouvez facilement personnaliser l’expérience visiteur du bouton à l’a
    - **Description** : sélectionnez cette option pour utiliser la description des libellés d’accessibilité ARIA.
    - **Titre** : sélectionnez cette option pour utiliser le titre pour les libellés d’accessibilité ARIA.
    - **Nom** : sélectionnez cette option pour utiliser le nom pour les libellés d’accessibilité ARIA.
-   - **Aucun** : sélectionnez cette option si vous ne souhaitez pas l’ajouter pour les libellés d’accessibilité ARIA.
+   - **Aucun** : sélectionnez cette option si vous ne souhaitez pas ajouter de texte supplémentaire pour les libellés d’accessibilité ARIA.
 
 ## Boîte de dialogue de conception {#design-dialog}
 

@@ -3,10 +3,11 @@ title: Présentation des composants principaux d’e-mail
 description: Créez un contenu d’e-mail attrayant à l’aide de la flexibilité des composants principaux d’e-mail et diffusez-le avec la puissance d’Adobe Campaign.
 role: Architect, Developer, Admin, User
 exl-id: 0a411f28-bd6a-4bad-b473-6bc27c1d1055
-source-git-commit: 91cf78d4c6622bbdec5ac7d22954c9c081c839d2
-workflow-type: ht
-source-wordcount: '376'
-ht-degree: 100%
+index: false
+source-git-commit: eb77567dc32cccb81a9fc131493d11fb55b7e93b
+workflow-type: tm+mt
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 

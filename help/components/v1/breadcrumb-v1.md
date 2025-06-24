@@ -4,12 +4,13 @@ description: Le composant de chemin de navigation des composants principaux est 
 index: n
 role: Architect, Developer, Admin, User
 exl-id: 4845e649-033a-43a8-b5ee-892a3f2a8b98
-source-git-commit: 3ebe1a42d265185b36424b01844f4a00f05d4724
+source-git-commit: 92a3ec273a5be6751c1503835b9c2e5cbd61bb9e
 workflow-type: tm+mt
-source-wordcount: '530'
-ht-degree: 100%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
+
 
 # Composant de chemin de navigation (v1) {#breadcrumb-component-v}
 
@@ -35,7 +36,7 @@ Le tableau ci-après répertorie la compatibilité de la version v1 du composant
 >[!CAUTION]
 >
 >Ce document décrit la version v1 du composant de chemin de navigation.
->Pour plus d’informations sur la version actuelle du composant Chemin de navigation, voir le document [Composant Chemin de navigation](/help/components/breadcrumb.md).
+>>Pour plus d’informations sur la version actuelle du composant Chemin de navigation, voir le document [Composant Chemin de navigation](/help/components/breadcrumb.md).
 
 ## Exemple de sortie de composant {#sample-component-output}
 

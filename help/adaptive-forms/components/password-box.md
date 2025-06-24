@@ -5,18 +5,21 @@ role: Architect, Developer, Admin, User
 hide: true
 hidefromtoc: true
 exl-id: 7e70d9e9-b066-4ba3-b7ed-e4aad026c5e0
-source-git-commit: 12a829c164839fdcb2c98d52e409ec3ac2079c41
-workflow-type: ht
-source-wordcount: '1914'
-ht-degree: 100%
+source-git-commit: 6725784bd4c94d433c91d6bd65d14d03cbefd954
+workflow-type: tm+mt
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
+
 
 # Composant Champ de mot de passe
 
 <span class="preview"> Il s’agit d’une fonctionnalité de version préliminaire accessible par le biais de notre [canal de version préliminaire](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/release-notes/prerelease.html?lang=fr#new-features). </span>
 
 Un composant Champ de mot de passe permet aux utilisateurs et aux utilisatrices de saisir et de modifier des informations sensibles, généralement masquées pour des raisons de confidentialité. Le composant Mot de passe peut être configuré avec différentes règles de validation pour garantir la précision des données. Généralement utilisés dans les formulaires, les champs de mot de passe sont simples et renforcent la sécurité des données.
+
+{{traditional-aem}}
 
 **Exemple**
 
@@ -47,7 +50,7 @@ For information on Core Component versions and releases, refer to the [Core Comp
 
 <!-- ## Sample Component Output {#sample-component-output}
 
-To experience the Accordion Component as well as see examples of its configuration options as well as HTML and JSON output, visit the [Component Library](https://adobe.com/go/aem_cmp_library_accordion_fr). -->
+To experience the Accordion Component as well as see examples of its configuration options as well as HTML and JSON output, visit the [Component Library](https://adobe.com/go/aem_cmp_library_accordion). -->
 
 ## Détails techniques {#technical-details}
 
@@ -164,7 +167,7 @@ L’onglet Formats vous permet de définir des formats de date par défaut et pe
 
 ## Related article {#related-article}
 
-* [Create a standalone Adaptive Form](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/creating-adaptive-form-core-components.html?lang=fr)
+* [Create a standalone Adaptive Form](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/creating-adaptive-form-core-components.html)
 
 -->
 

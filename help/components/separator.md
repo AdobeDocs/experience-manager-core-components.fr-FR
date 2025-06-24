@@ -3,16 +3,19 @@ title: Composant du séparateur
 description: Le composant du séparateur crée un saut entre les composants d’une page.
 role: Architect, Developer, Admin, User
 exl-id: 79f19368-67fa-4864-93f7-2aa801d13fdb
-source-git-commit: 6fbc781db555bc6abaed1d122a9a8756e3d53222
-workflow-type: ht
-source-wordcount: '306'
-ht-degree: 100%
+source-git-commit: dd30def59a8f037864da875ef4c831b11f766e57
+workflow-type: tm+mt
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
+
 
 # Composant du séparateur {#separator-component}
 
 Le composant du séparateur des composants principaux affiche une règle horizontale pour la séparation de contenu.
+
+{{traditional-aem}}
 
 ## Utilisation {#usage}
 

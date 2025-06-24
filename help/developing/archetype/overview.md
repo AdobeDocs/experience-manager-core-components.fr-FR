@@ -4,7 +4,7 @@ description: Découvrez l’archétype de projet AEM qui sert de modèle pour l
 feature: Core Components, AEM Project Archetype
 role: Architect, Developer, Admin
 exl-id: 58994726-9b65-4035-9d45-60b745d577bb
-source-git-commit: 8940285f4c5e5870b6a135dac674f06e4c1d8b5a
+source-git-commit: 5994133947ff697f7c866fe61598c58e37e77008
 workflow-type: tm+mt
 source-wordcount: '527'
 ht-degree: 100%
@@ -19,6 +19,8 @@ L’archétype de projet AEM est un modèle Maven qui crée un projet Adobe E
 >[!TIP]
 >
 >Le dernier archétype de projet AEM, ainsi que la documentation technique complète, [sont disponibles sur GitHub](https://github.com/adobe/aem-project-archetype).
+
+{{traditional-aem}}
 
 ## Pourquoi utiliser l’archétype {#why-use-the-archetype}
 
