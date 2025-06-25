@@ -3,12 +3,12 @@ sub-product: AEM Core Components
 user-guide-title: Composants principaux d’AEM
 breadcrumb-title: Guide des composants principaux
 feature: Core Components
-user-guide-description: Pour les projets AEM traditionnels, utilisez les composants principaux extensibles pour permettre aux auteurs de créer facilement du contenu.
+user-guide-description: Pour les projets AEM traditionnels, utilisez les composants principaux extensibles pour permettre aux créateurs et créatrices de créer facilement du contenu.
 feature-set: Experience Manager Sites, Experience Manager Forms
 source-git-commit: 5c4c72b2f52806cbcc889b676dfa2b2b65b08562
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '388'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
