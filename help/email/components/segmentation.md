@@ -136,6 +136,6 @@ Appuyez ou cliquez sur le bouton **Ajouter** pour créer des conditions.
 * **Nom de la condition de segment** : description de la condition.
 * **Condition de segment** : condition réelle qui doit être remplie, en fonction des variables de personnalisation Adobe Campaign.
    * [Cliquez ici pour découvrir les ressources de personnalisation Adobe Campaign Standard.](https://experienceleague.adobe.com/docs/campaign-standard/using/designing-content/personalization.html?lang=fr)
-   * [Cliquez ici pour découvrir les ressources de personnalisation Adobe Campaign Classic.]&#x200B;(https://experienceleague.adobe.com/docs/
+   * [Cliquez ici pour découvrir les ressources de personnalisation Adobe Campaign Classic.]&#x200B;(https://experienceleague.adobe.com/docs/?lang=fr
 * **Supprimer** : appuyez ou cliquez pour supprimer la condition.
 * **Réorganiser** : appuyez ou cliquez sur les conditions et faites-les glisser pour les réorganiser.
