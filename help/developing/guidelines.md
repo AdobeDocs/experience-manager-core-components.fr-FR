@@ -1,18 +1,18 @@
 ---
-title: Instructions relatives aux composants
-description: Les composants principaux suivent des modèles d’implémentation qui sont assez différents des composants de base.
+title: Directives relatives aux composants
+description: Les composants principaux suivent des modèles d’implémentations qui sont très différents des composants de base.
 role: Architect, Developer, Admin
 exl-id: e8c58fa5-c991-433c-8d38-575dacfc3433
 source-git-commit: 5994133947ff697f7c866fe61598c58e37e77008
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1225'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
-# Instructions relatives aux composants {#component-guidelines}
+# Directives relatives aux composants {#component-guidelines}
 
-Les [composants principaux](overview.md) suivent des modèles d’implémentation qui sont très différents des composants de base.
+Les [composants principaux](overview.md) suivent des modèles d’implémentations qui sont très différents des composants de base.
 
 Cette page explique ces modèles et à quel moment les utiliser pour créer vos propres composants. La première section [Modèles généraux de composants](#general-component-patterns) s’applique à n’importe quel type de composant, tandis que la deuxième section [Modèles de composants réutilisables](#reusable-component-patterns) s’applique aux composants destinés à être réutilisés sur plusieurs sites ou projets, comme les composants principaux d’une instance.
 

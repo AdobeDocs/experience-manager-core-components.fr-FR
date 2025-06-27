@@ -5,9 +5,9 @@ index: n
 role: Architect, Developer, Admin, User
 exl-id: 4845e649-033a-43a8-b5ee-892a3f2a8b98
 source-git-commit: 92a3ec273a5be6751c1503835b9c2e5cbd61bb9e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '0'
-ht-degree: 0%
+ht-degree: 100%
 
 ---
 
@@ -36,7 +36,7 @@ Le tableau ci-après répertorie la compatibilité de la version v1 du composant
 >[!CAUTION]
 >
 >Ce document décrit la version v1 du composant de chemin de navigation.
->&#x200B;>Pour plus d’informations sur la version actuelle du composant Chemin de navigation, voir le document [Composant Chemin de navigation](/help/components/breadcrumb.md).
+>>Pour plus d’informations sur la version actuelle du composant Chemin de navigation, voir le document [Composant Chemin de navigation](/help/components/breadcrumb.md).
 
 ## Exemple de sortie de composant {#sample-component-output}
 

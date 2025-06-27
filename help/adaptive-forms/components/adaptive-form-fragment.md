@@ -4,9 +4,9 @@ description: Utilisez des fragments de formulaire pour créer des segments de fo
 role: Architect, Developer, Admin, User
 exl-id: bde4a416-1d6b-4e9e-ac74-70fccef473cb
 source-git-commit: 6725784bd4c94d433c91d6bd65d14d03cbefd954
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1952'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -40,7 +40,7 @@ Vous pouvez utiliser l’[option de répétition](https://experienceleague.adobe
 
 ## Version et compatibilité {#version-and-compatibility}
 
-Le composant principal Fragment de Forms adaptatif a été publié dans le cadre des composants principaux 2.0.50 pour Cloud Service et des composants principaux 1.1.26 pour AEM 6.5.16.0 Forms ou une version ultérieure. Vous trouverez ci-dessous un tableau détaillant les versions prises en charge, la compatibilité avec AEM et les liens vers la documentation correspondante :
+Le composant principal Fragment des formulaires adaptatifs a été publié au sein des composants principaux 2.0.50 pour Cloud Service et des composants principaux 1.1.26 pour AEM 6.5.16.0 Forms ou version ultérieure. Vous trouverez ci-dessous un tableau détaillant les versions prises en charge, la compatibilité avec AEM et les liens vers la documentation correspondante :
 
 | Version du composant | AEM as a Cloud Service | AEM 6.5.16.0 Forms ou version ultérieure |
 |---|---|---|

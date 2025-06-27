@@ -5,9 +5,9 @@ role: Architect, Developer, Admin, User
 exl-id: 63af16e4-dd4d-426d-88ef-769ecd1b3175
 index: n
 source-git-commit: 92a3ec273a5be6751c1503835b9c2e5cbd61bb9e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '397'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -39,7 +39,7 @@ Pour tester le composant de bouton et obtenir des exemples d’options de config
 
 ## Détails techniques {#technical-details}
 
-La documentation technique la plus récente sur le composant de bouton [se trouve sur GitHub](https://adobe.com/go/aem_cmp_tech_button_v1_fr).
+La documentation technique la plus récente sur le composant de bouton [se trouve sur GitHub](https://adobe.com/go/aem_cmp_tech_button_v1).
 
 Vous trouverez plus d’informations sur le développement des composants principaux dans la [documentation destinée aux développeurs de composants principaux](/help/developing/overview.md).
 

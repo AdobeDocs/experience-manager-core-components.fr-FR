@@ -1,18 +1,18 @@
 ---
-title: Composant Fragment d’expérience (v1)
+title: Composant Fragment d’expérience (v1)
 description: Le composant Fragment d’expérience permet à l’auteur de contenu d’ajouter une variation de fragment d’expérience à une page.
 role: Architect, Developer, Admin, User
 exl-id: 42230a7b-6feb-4535-baf9-b8fc06978d98
 index: n
 source-git-commit: 92a3ec273a5be6751c1503835b9c2e5cbd61bb9e
-workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+workflow-type: ht
+source-wordcount: '770'
+ht-degree: 100%
 
 ---
 
 
-# Composant Fragment d’expérience (v1) {#experience-fragment-component}
+# Composant Fragment d’expérience (v1) {#experience-fragment-component}
 
 Le composant Fragment d’expérience des composants principaux permet à l’auteur du contenu de placer une variation de fragment d’expérience sur une page tout en prenant en charge une structure de site localisée.
 

@@ -4,9 +4,9 @@ description: Les composants principaux fournissent des composants de base robust
 role: Architect, Developer, Admin
 exl-id: 0f79cac1-a3b0-487e-90be-0bd8263d3912
 source-git-commit: 5994133947ff697f7c866fe61598c58e37e77008
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '0'
-ht-degree: 0%
+ht-degree: 100%
 
 ---
 
@@ -117,12 +117,12 @@ Le tableau ci-après répertorie les composants principaux disponibles, les lien
 | [Fragment de contenu](https://adobe.com/go/aem_cmp_tech_cf_v1_fr) | Permet l’affichage d’un fragment de contenu | `-` |
 | [Liste de fragments de contenu](https://adobe.com/go/aem_cmp_tech_cflist_v1_fr) | Permet l’affichage d’une liste de fragments de contenu | `-` |
 | [Séparateur](https://adobe.com/go/aem_cmp_tech_separator_v1_fr) | Sépare le contenu d’une page | `-` |
-| [Accordéon](https://adobe.com/go/aem_cmp_tech_accordion_v1_fr) | Organise les panneaux de contenu dans un accordéon réductible | `-` |
+| [Accordéon](https://adobe.com/go/aem_cmp_tech_accordion_v1) | Organise les panneaux de contenu dans un accordéon réductible | `-` |
 | [Conteneur](https://adobe.com/go/aem_cmp_tech_container_v1_fr) | Organise les composants dans un conteneur | `-` |
-| [Bouton](https://adobe.com/go/aem_cmp_tech_button_v1_fr) | Crée un bouton sur une page | `-` |
-| [Téléchargement](https://adobe.com/go/aem_cmp_tech_download_v1_fr) | Ajoute une ressource téléchargeable à une page | `-` |
+| [Bouton](https://adobe.com/go/aem_cmp_tech_button_v1) | Crée un bouton sur une page | `-` |
+| [Téléchargement](https://adobe.com/go/aem_cmp_tech_download_v1) | Ajoute une ressource téléchargeable à une page | `-` |
 | [Fragment d’expérience](https://adobe.com/go/aem_cmp_tech_xf_v1_fr) | Ajout d’un fragment d’expérience à une page | `/libs/cq/experience-fragments/editor/components/experiencefragment` |
-| [Incorporer](https://adobe.com/go/aem_cmp_tech_embed_v1_fr) | Incorporation d’une ressource externe dans une page | - |
+| [Incorporer](https://adobe.com/go/aem_cmp_tech_embed_v1) | Incorporation d’une ressource externe dans une page | - |
 | [Barre de progression](https://adobe.com/go/aem_cmp_tech_progress_v1) | Fournit une représentation visuelle de la progression par rapport à un objectif | - |
 | [Visionneuse PDF](https://adobe.com/go/aem_cmp_tech_pdfviewer_v1_fr) | Présente un document PDF sur une page | - |
 

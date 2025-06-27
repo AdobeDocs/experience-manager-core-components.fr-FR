@@ -1,13 +1,13 @@
 ---
 title: Composant Recherche rapide (v1)
-description: Le composant Recherche rapide fournit des fonctionnalités de recherche à un site web et présente les résultats de recherche afin que les visiteurs puissent effectuer des recherches sur le site et filtrer les résultats.
+description: Le composant Recherche rapide fournit des fonctionnalités de recherche à un site web et présente les résultats de recherche afin que les visiteurs et les visiteuses puissent effectuer des recherches sur le site et filtrer les résultats.
 role: Architect, Developer, Admin, User
 exl-id: 60a043b7-d82c-4bc1-b91a-b77f748f7bc2
 index: n
 source-git-commit: 92a3ec273a5be6751c1503835b9c2e5cbd61bb9e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '646'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -35,7 +35,7 @@ Le tableau ci-après présente en détail toutes les versions prises en charge d
 >[!CAUTION]
 >
 >Ce document décrit la version v1 du composant Recherche rapide.
->&#x200B;>Pour plus d’informations sur la version actuelle du composant Recherche rapide, consultez le document [Composant Recherche rapide](/help/components/quick-search.md).
+>>Pour plus d’informations sur la version actuelle du composant Recherche rapide, consultez le document [Composant Recherche rapide](/help/components/quick-search.md).
 
 Pour plus d’informations sur les versions et les publications des composants principaux, voir le document sur les [versions des composants principaux](/help/versions.md).
 

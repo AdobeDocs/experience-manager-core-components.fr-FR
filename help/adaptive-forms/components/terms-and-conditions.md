@@ -4,9 +4,9 @@ description: Utilisation ou personnalisation du composant principal Conditions g
 role: Architect, Developer, Admin, User
 exl-id: c607d554-ad2d-4434-856d-91e174ef3149
 source-git-commit: 6725784bd4c94d433c91d6bd65d14d03cbefd954
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '3253'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -19,7 +19,7 @@ Le composant **Conditions générales** est un composant composite constitué de
 
 >[!NOTE]
 >
-> Pour AEM 6.5 Forms, ce composant a été introduit avec AEM 6.5 Forms Service Pack 19 (6.5.19.0). Pour activer ce composant, assurez-vous que les versions nécessaires des composants principaux des formulaires et de la gestion de contenu web sont installées. Pour plus d’informations sur les versions des composants principaux des formulaires adaptatifs, reportez-vous à la section [Versions des composants principaux des formulaires adaptatifs](/help/adaptive-forms/version.md).
+> Pour AEM 6.5 Forms, ce composant a été introduit avec le pack de services AEM 6.5 Forms 19 (6.5.19.0). Pour activer ce composant, assurez-vous que les versions nécessaires des composants principaux des formulaires et de la gestion de contenu web sont installées. Pour plus d’informations sur les versions des composants principaux des formulaires adaptatifs, reportez-vous à la section [Versions des composants principaux des formulaires adaptatifs](/help/adaptive-forms/version.md).
 
 {{traditional-aem}}
 
@@ -43,7 +43,7 @@ Consultez la section [Sous-composants du composant Conditions générales](#sub-
 
 ## Version et compatibilité {#version-and-compatibility}
 
-Le composant principal des conditions générales d’Adaptive Forms a été publié en février 2023 dans le cadre des composants principaux 2.0.62 pour Cloud Service et des composants principaux 1.1.28 pour AEM 6.5.16.0 Forms ou version ultérieure. Vous trouverez ci-dessous un tableau détaillant les versions prises en charge, la compatibilité avec AEM et les liens vers la documentation correspondante :
+Le composant principal Conditions générales des formulaires adaptatifs a été publié en février 2023 au sein des composants principaux 2.0.62 pour Cloud Service et des composants principaux 1.1.28 pour AEM 6.5.16.0 Forms ou version ultérieure. Vous trouverez ci-dessous un tableau détaillant les versions prises en charge, la compatibilité avec AEM et les liens vers la documentation correspondante :
 
 | Version du composant | AEM as a Cloud Service | AEM 6.5.16.0 Forms ou version ultérieure |
 |---|---|---|

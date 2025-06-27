@@ -4,9 +4,9 @@ description: Le composant Fragment de contenu des composants principaux permet l
 role: Architect, Developer, Admin, User
 exl-id: 551ff2a1-f8db-490c-84a3-4255b364fc83
 source-git-commit: dd30def59a8f037864da875ef4c831b11f766e57
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '0'
-ht-degree: 0%
+ht-degree: 100%
 
 ---
 

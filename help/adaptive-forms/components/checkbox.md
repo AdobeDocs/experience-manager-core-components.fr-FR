@@ -4,9 +4,9 @@ description: Utilisation ou personnalisation du composant principal de case à c
 role: Architect, Developer, Admin, User
 exl-id: c6ca4800-bd10-4aeb-957a-fb1780cf94f3
 source-git-commit: 6725784bd4c94d433c91d6bd65d14d03cbefd954
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1837'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -19,7 +19,7 @@ Une case à cocher est généralement représentée sous la forme d’un petit c
 
 >[!NOTE]
 >
-> Pour AEM 6.5 Forms, ce composant a été introduit avec AEM 6.5 Forms Service Pack 19 (6.5.19.0). Pour activer ce composant, assurez-vous que les versions nécessaires des composants principaux des formulaires et de la gestion de contenu web sont installées. Pour plus d’informations sur les versions des composants principaux des formulaires adaptatifs, reportez-vous à la section [Versions des composants principaux des formulaires adaptatifs](/help/adaptive-forms/version.md).
+> Pour AEM 6.5 Forms, ce composant a été introduit avec le pack de services AEM 6.5 Forms 19 (6.5.19.0). Pour activer ce composant, assurez-vous que les versions nécessaires des composants principaux des formulaires et de la gestion de contenu web sont installées. Pour plus d’informations sur les versions des composants principaux des formulaires adaptatifs, reportez-vous à la section [Versions des composants principaux des formulaires adaptatifs](/help/adaptive-forms/version.md).
 
 {{traditional-aem}}
 

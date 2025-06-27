@@ -5,8 +5,8 @@ role: Architect, Developer, Admin, User
 exl-id: ebd63522-218d-4784-bea0-1627c64f5230
 index: n
 source-git-commit: 92a3ec273a5be6751c1503835b9c2e5cbd61bb9e
-workflow-type: tm+mt
-source-wordcount: '621'
+workflow-type: ht
+source-wordcount: '0'
 ht-degree: 100%
 
 ---
@@ -35,11 +35,11 @@ Ce document décrit la version v1 du composant Téléchargement, qui a été in
 
 ## Exemple de sortie de composant {#sample-component-output}
 
-Pour tester le composant de téléchargement et voir des exemples de ses options de configuration, ainsi que la sortie HTML et JSON, consultez la [bibliothèque de composants](https://adobe.com/go/aem_cmp_library_download_fr).
+Pour tester le composant de téléchargement et voir des exemples de ses options de configuration, ainsi que la sortie HTML et JSON, consultez la [bibliothèque de composants](https://adobe.com/go/aem_cmp_library_download).
 
 ## Détails techniques {#technical-details}
 
-La documentation technique la plus récente sur le composant de téléchargement [se trouve sur GitHub](https://adobe.com/go/aem_cmp_tech_download_v1_fr).
+La documentation technique la plus récente sur le composant de téléchargement [se trouve sur GitHub](https://adobe.com/go/aem_cmp_tech_download_v1).
 
 Vous trouverez plus d’informations sur le développement des composants principaux dans la [documentation destinée aux développeurs de composants principaux](/help/developing/overview.md).
 

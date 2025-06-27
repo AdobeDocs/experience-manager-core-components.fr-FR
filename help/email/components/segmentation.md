@@ -5,9 +5,9 @@ role: Architect, Developer, Admin, User
 exl-id: 6c88b8c5-189a-40c0-ab28-04d37dc5fbac
 index: false
 source-git-commit: eb77567dc32cccb81a9fc131493d11fb55b7e93b
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '0'
-ht-degree: 0%
+ht-degree: 100%
 
 ---
 
@@ -136,6 +136,6 @@ Appuyez ou cliquez sur le bouton **Ajouter** pour créer des conditions.
 * **Nom de la condition de segment** : description de la condition.
 * **Condition de segment** : condition réelle qui doit être remplie, en fonction des variables de personnalisation Adobe Campaign.
    * [Cliquez ici pour découvrir les ressources de personnalisation Adobe Campaign Standard.](https://experienceleague.adobe.com/docs/campaign-standard/using/designing-content/personalization.html?lang=fr)
-   * [Cliquez ici pour découvrir les ressources de personnalisation Adobe Campaign Classic.]&#x200B;(https://experienceleague.adobe.com/docs/?lang=fr
+   * [Cliquez ici pour découvrir les ressources de personnalisation Adobe Campaign Classic.]&#x200B;(https://experienceleague.adobe.com/docs/
 * **Supprimer** : appuyez ou cliquez pour supprimer la condition.
 * **Réorganiser** : appuyez ou cliquez sur les conditions et faites-les glisser pour les réorganiser.

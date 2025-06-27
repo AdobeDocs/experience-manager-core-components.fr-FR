@@ -4,9 +4,9 @@ description: Découvrez comment étendre ou créer un composant principal de for
 role: Architect, Developer, Admin
 exl-id: f3ab12aa-d48d-47e9-a965-15052cac6f18
 source-git-commit: 5994133947ff697f7c866fe61598c58e37e77008
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '0'
-ht-degree: 0%
+ht-degree: 100%
 
 ---
 
