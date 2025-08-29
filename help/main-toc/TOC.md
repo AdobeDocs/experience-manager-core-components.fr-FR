@@ -5,10 +5,10 @@ breadcrumb-title: Guide des composants principaux
 feature: Core Components
 user-guide-description: Pour les projets AEM traditionnels, utilisez les composants principaux extensibles pour permettre aux créateurs et créatrices de créer facilement du contenu.
 feature-set: Experience Manager Sites, Experience Manager Forms
-source-git-commit: 5c4c72b2f52806cbcc889b676dfa2b2b65b08562
+source-git-commit: bf6953f24388ed08cd5a66bb51011b3ac82fb58e
 workflow-type: tm+mt
-source-wordcount: '388'
-ht-degree: 100%
+source-wordcount: '397'
+ht-degree: 97%
 
 ---
 
@@ -111,6 +111,7 @@ ht-degree: 100%
       + [Case à cocher de formulaires adaptatifs](/help/adaptive-forms/components/checkbox.md)
       + [Formulaires adaptatifs - Groupe de cases à cocher](/help/adaptive-forms/components/checkbox-group.md)
       + [Conteneur de formulaires adaptatifs](/help/adaptive-forms/components/form-container.md)
+      + [Date et heure du Forms adaptatif](/help/adaptive-forms/components/date-time-component.md)
       + [Formulaires adaptatifs - Sélecteur de dates](/help/adaptive-forms/components/date-picker.md)
       + [Formulaires adaptatifs - Liste déroulante](/help/adaptive-forms/components/drop-down-list.md)
       + [Formulaires adaptatifs - E-mail](/help/adaptive-forms/components/email.md)
@@ -127,6 +128,7 @@ ht-degree: 100%
       + [Formulaires adaptatifs - Bouton radio](/help/adaptive-forms/components/radio-button.md)
       + [Formulaires adaptatifs - Bouton réinitialiser](/help/adaptive-forms/components/reset-button.md)
       + [Révision du formulaire adaptatif](/help/adaptive-forms/components/review.md)
+      + [Signature tactile Forms adaptative](/help/adaptive-forms/components/scribble-signature.md)
       + [Formulaires adaptatifs - Bouton Envoyer](/help/adaptive-forms/components/submit-button.md)
       + [Formulaires adaptatifs – Commutateur](/help/adaptive-forms/components/adaptive-form-switch.md)
       + [Formulaires adaptatifs - Téléphone](/help/adaptive-forms/components/phone.md)
