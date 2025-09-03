@@ -1,18 +1,18 @@
 ---
-title: Composant principal de Forms adaptatif - Date et heure
-description: Utilisation ou personnalisation du composant principal Date et heure du Forms adaptatif.
+title: Composant principal des formulaires adaptatifs - Date et heure
+description: Utilisation ou personnalisation du composant principal Date et heure des formulaires adaptatifs.
 role: Architect, Developer, Admin, User
 source-git-commit: daeabccaff39e255c111c6af2540ca4d5be0c709
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1898'
-ht-degree: 74%
+ht-degree: 100%
 
 ---
 
 
 # Composant Date et heure
 
-Un composant Date et heure d’un formulaire adaptatif est un élément de l’interface utilisateur qui permet aux utilisateurs et aux utilisatrices de sélectionner à la fois la **date et l’heure** à l’aide d’une interface de calendrier et d’horloge, ou en saisissant manuellement des valeurs dans un format spécifique. Il garantit une entrée précise et normalisée pour les cas d’utilisation où la date et l’heure sont essentielles.
+Un composant Date et heure dans un formulaire adaptatif est un élément de l’interface d’utilisation qui permet aux utilisateurs et aux utilisatrices de sélectionner **la date et l’heure** à l’aide d’une interface de type calendrier et horloge ou en saisissant manuellement les valeurs dans un format spécifique. Il garantit une saisie précise et normalisée pour les cas d’utilisation où la date et l’heure sont essentielles.
 
 **Exemple**
 
@@ -20,18 +20,18 @@ Un composant Date et heure d’un formulaire adaptatif est un élément de l’i
 
 ## Utilisation {#reasons-to-use-date-time-picker}
 
-Il existe plusieurs raisons d’inclure un sélecteur de date et d’heure dans un formulaire, notamment :
+Il existe plusieurs raisons pour lesquelles il est bénéfique d’inclure un sélecteur de date et d’heure dans un formulaire, notamment :
 
-- **Convivialité** : permet aux utilisateurs de sélectionner facilement une date et une heure sans avoir à saisir manuellement des valeurs.
-- **Cohérence** : applique un format standard pour les entrées de date et d’heure dans le formulaire.
-- **Expérience utilisateur améliorée** : fournit une interface utilisateur intuitive avec des sélecteurs de calendrier et d’heure.
-- **Planification des événements** : utile dans les formulaires de réservation de rendez-vous, d’entretiens ou de planification de réunion.
-- **Voyage et réservations** : permet aux utilisateurs de sélectionner les dates et heures d’enregistrement et de départ.
-- **Précision des données** : réduit les erreurs de saisie par rapport à la saisie de texte libre.
+- **Convivialité** : permet aux utilisateurs et aux utilisatrices de sélectionner facilement une date et une heure sans avoir à saisir manuellement des valeurs.
+- **Cohérence** : applique un format standard pour les entrées de date et d’heure dans le formulaire.
+- **Expérience d’utilisation améliorée** : fournit une interface d’utilisation intuitive avec des sélecteurs de calendrier et d’heure.
+- **Planification des événements** : utile dans les formulaires de réservation de rendez-vous, d’entretiens ou de planification de réunion.
+- **Voyages et réservations** : permet aux utilisateurs et utilisatrices de sélectionner les dates et heures d’arrivée et de départ.
+- **Précision des données** : réduit les erreurs de saisie par rapport à la saisie de texte libre.
 
 ## Version et compatibilité {#version-and-compatibility}
 
-Le composant principal Date et heure d’Adaptive Forms a été publié en **août 2025** dans le cadre de **Core Components 2.24.6** pour Cloud Service et versions ultérieures.
+Le composant principal Date et heure des formulaires adaptatifs a été publié en **août 2025** au sein des **composants principaux 2.24.6** pour Cloud Service et versions ultérieures.
 
 | Version du composant | AEM as a Cloud Service | AEM 6.5.16.0 Forms ou version ultérieure |
 |---|---|---|
@@ -41,7 +41,7 @@ Pour plus d’informations sur les versions, voir [Versions des composants princ
 
 ## Détails techniques {#technical-details}
 
-Obtenez les derniers détails techniques sur le composant principal Date et heure d’Adaptive Forms sur [GitHub](https://github.com/adobe/aem-core-forms-components). Pour plus d’informations sur le développement des composants principaux, voir [Documentation destinée aux développeurs et développeuses de composants principaux](/help/developing/overview.md).
+Obtenez les derniers détails techniques sur le composant principal Date et heure des formulaires adaptatifs sur [GitHub](https://github.com/adobe/aem-core-forms-components). Pour plus d’informations sur le développement des composants principaux, consultez la [documentation destinée aux développeurs et développeuses de composants principaux](/help/developing/overview.md).
 
 ## Boîte de dialogue de configuration {#configure-dialog}
 
@@ -69,7 +69,7 @@ La boîte de dialogue de configuration permet de personnaliser la date et l’he
 - **Masquer le composant** - Sélectionnez cette option pour masquer le composant du formulaire. Le composant reste accessible à d’autres fins, par exemple pour les calculs dans l’éditeur de règles. Cela s’avère utile lorsque vous devez stocker des informations qui n’ont pas besoin d’être affichées ou directement modifiées par les utilisateurs ou les utilisatrices.
 - **Désactiver le composant** - Sélectionnez cette option pour désactiver le composant. Le composant désactivé n’est pas actif ni modifiable par l’utilisateur final ou l’utilisatrice finale. L’utilisateur ou l’utilisatrice peut voir la valeur du champ mais ne peut pas la modifier. Le composant reste accessible à d’autres fins, par exemple pour les calculs dans l’éditeur de règles.
 - **Lecture seule** - Sélectionnez cette option pour rendre le composant non modifiable. L’utilisateur ou l’utilisatrice peut voir la valeur du champ mais ne peut pas la modifier. Le composant reste accessible à d’autres fins, par exemple pour les calculs dans l’éditeur de règles.
-- **Date et heure par défaut** - Cette option vous permet d’ajouter une date et une heure au champ de formulaire. La date saisie s’affiche par défaut à l’emplacement du composant. Si aucune date ou heure n’est saisie par l’utilisateur ou l’utilisatrice, cette valeur est envoyée au moment de l’envoi du formulaire. Dans le cas où **Composant désactivé** ou **Composant en lecture seule** est sélectionné, la date et l’heure par défaut s’affichent à l’écran et sont envoyées au moment de l’envoi du formulaire.
+- **Date et heure par défaut** : cette option vous permet d’ajouter une date et une heure au champ de formulaire. La date saisie s’affiche par défaut à l’emplacement du composant. Si aucune date ou heure n’est saisie par l’utilisateur ou l’utilisatrice, cette valeur est envoyée au moment de l’envoi du formulaire. Dans le cas où **Composant désactivé** ou **Composant en lecture seule** est sélectionné, la date et l’heure par défaut s’affichent à l’écran et sont envoyées au moment de l’envoi du formulaire.
 
 ### Onglet Validation {#validation-tab}
 
@@ -83,11 +83,11 @@ La boîte de dialogue de configuration permet de personnaliser la date et l’he
 
 - **Date minimale** : cette option vous permet de saisir la date minimale requise. Si vous saisissez une date antérieure à la date spécifiée dans Date et heure minimales, un message d’erreur s’affiche à l’écran. La boîte de dialogue **Message d’erreur avec date minimale** vous permet d’ajouter un message d’erreur personnalisé.
 
-- **Message d’erreur avec date minimale** - La boîte de dialogue **Message d’erreur avec date minimale** vous permet d’ajouter un message d’erreur personnalisé à afficher, si vous saisissez une date ou une heure antérieure à celle spécifiée dans l’option **Date minimale**.
+- **Message d’erreur avec date minimal** : la boîte de dialogue **Message d’erreur avec date minimale** vous permet d’ajouter un message d’erreur personnalisé à afficher, si vous saisissez une date antérieure à celle spécifiée dans l’option **Date minimale**.
 
-- **Date maximale** - Cette option vous permet de saisir la date et l’heure maximales requises. Si vous saisissez une date ou une heure ultérieure à celle spécifiée dans la Date maximale, un message d’erreur s’affiche à l’écran. Le **Message d’erreur avec date maximale** vous permet d’ajouter un message d’erreur personnalisé.
+- **Date maximale** : cette option vous permet de saisir la date et l’heure maximales requises. Si vous saisissez une date ou une heure ultérieure à celle spécifiée dans Date et heure maximales, un message d’erreur s’affiche à l’écran. Le **Message d’erreur avec date maximale** vous permet d’ajouter un message d’erreur personnalisé.
 
-- **Message d’erreur avec date maximale** - La boîte de dialogue **Message d’erreur avec date maximale** vous permet d’ajouter un message d’erreur personnalisé à afficher, si vous saisissez une date ou une heure postérieure à celle spécifiée dans l’option **Date maximale**.
+- **Message d’erreur avec date maximale** : la boîte de dialogue **Message d’erreur avec date maximale** vous permet d’ajouter un message d’erreur personnalisé à afficher, si vous saisissez une date ou une heure ultérieure à celle spécifiée dans l’option **Date maximale**.
 
 ### Onglet Contenu de l’aide {#help-content-tab}
 
@@ -133,20 +133,20 @@ The set of languages is not visible by default, but users can input a custom **I
 
         >[!NOTE]
         >
-        > For further information on how to translate an Adaptive Form to a specific locale, [click here](https://experienceleague.adobe.com/fr/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/supporting-new-language-localization-core-components).
+        > For further information on how to translate an Adaptive Form to a specific locale, [click here](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/supporting-new-language-localization-core-components).
 -->
 
 ## Boîte de dialogue de conception {#design-dialog}
 
-La boîte de dialogue de conception permet de définir et de gérer les styles CSS du composant Date et heure.
+La boîte de dialogue de conception permet de définir et de gérer les styles CSS pour le composant Date et heure.
 
 ### Onglet Styles {#styles-tab}
 
-Cet onglet vous permet de définir et de gérer les styles CSS d’un composant. Le composant principal Date et heure d’Adaptive Forms prend en charge le [Système de style](/help/get-started/authoring.md#component-styling) d’AEM.
+Cet onglet vous permet de définir et de gérer les styles CSS d’un composant. Le composant principal Date et heure des formulaires adaptatifs prend en charge le [Système de style](/help/get-started/authoring.md#component-styling) d’AEM.
 
 ![Onglet Styles.](/help/adaptive-forms/assets/datepicker_styletab.png)
 
-- **Classes CSS par défaut** : vous pouvez fournir une classe CSS par défaut pour le composant principal Date et heure de Forms adaptative.
+- **Classes CSS par défaut** : vous pouvez fournir une classe CSS par défaut pour le composant principal Date et heure des formulaires adaptatifs.
 
 - **Styles autorisés** : vous pouvez définir des styles en fournissant un nom et la classe CSS qui représente le style. Par exemple, vous pouvez créer un style nommé « texte en gras » et fournir la classe CSS « police d’épaisseur : gras ». Vous pouvez utiliser ou appliquer ces styles à un formulaire adaptatif dans l’éditeur de formulaires adaptatifs. Pour appliquer un style, sélectionnez le composant auquel vous souhaitez appliquer le style dans l’éditeur de formulaires adaptatifs, accédez à la boîte de dialogue Propriétés, puis sélectionnez le style de votre choix dans la liste déroulante **Styles**. Si vous devez mettre à jour ou modifier les styles, revenez simplement à la boîte de dialogue Conception, mettez à jour les styles dans l’onglet Styles et enregistrez les modifications.
 
@@ -175,7 +175,7 @@ The formats tab allows you to specify default and custom date formats.
 
 ## Related article {#related-article}
 
-* [Create a standalone Adaptive Form](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/creating-adaptive-form-core-components.html?lang=fr)
+* [Create a standalone Adaptive Form](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/creating-adaptive-form-core-components.html)
 
 -->
 
