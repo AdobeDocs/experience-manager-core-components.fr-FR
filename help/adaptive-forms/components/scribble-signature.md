@@ -1,20 +1,20 @@
 ---
-title: Composant principal de Forms adaptatif - Signature tactile
-description: Utilisation ou personnalisation du composant principal de signature tactile du Forms adaptatif.
+title: Composant principal des formulaires adaptatifs - Signature tactile
+description: Utilisation ou personnalisation du composant principal Signature tactile des formulaires adaptatifs.
 role: Architect, Developer, Admin, User
-source-git-commit: 246a608e4c23a9075813a64691d583584164578c
+exl-id: 608c4368-d539-4d05-a75c-c077ea822f93
+source-git-commit: 006f6c844ab9e7a784dabea026867939445479e9
 workflow-type: tm+mt
 source-wordcount: '1761'
-ht-degree: 79%
+ht-degree: 98%
 
 ---
-
 
 # Composant Signature tactile
 
 <span>Le composant Signature tactile fait partie du programme des utilisateurs et utilisatrices précoces. Vous pouvez écrire à `aem-forms-ea@adobe.com` à partir de votre ID d’e-mail officiel pour rejoindre le programme des utilisateurs et utilisatrices précoces et demander l’accès à la fonctionnalité.</span>
 
-Un composant Signature tactile dans un formulaire adaptatif est un élément de l’interface utilisateur qui permet aux utilisateurs et aux utilisatrices de tracer leur **signature** directement dans le formulaire à l’aide d’une souris, d’un stylet ou d’un écran tactile. Elle garantit la capture précise du consentement écrit à la main, des approbations ou de la vérification dans les workflows numériques.
+Un composant Signature tactile dans un formulaire adaptatif est un élément de l’interface d’utilisation qui permet aux utilisateurs et aux utilisatrices de tracer leur **signature** directement dans le formulaire à l’aide d’une souris, d’un stylet ou d’un écran tactile. Il garantit la capture précise du consentement écrit à la main, des approbations ou de la vérification dans les workflows numériques.
 
 **Exemple**
 
@@ -22,7 +22,7 @@ Un composant Signature tactile dans un formulaire adaptatif est un élément de 
 
 **Diverses options disponibles dans la fenêtre de signature**
 
-- **A :** cliquez sur l’icône **Dessiner** pour tracer votre signature sur la zone de travail.
+- **A :** cliquez sur l’icône **Pinceau** pour tracer votre signature sur la zone de travail.
 - **B :** cliquez sur l’icône **Effacer** pour effacer la signature sur la zone de travail.
 - **C :** cliquez sur l’icône **Géolocalisation** pour ajouter une géolocalisation avec la signature.
 - **D :** cliquez sur l’icône **Clavier** pour saisir votre nom sur la zone de travail.
@@ -35,17 +35,17 @@ Une fois que vous avez sélectionné l’icône **Enregistrer** dans la fenêtre
 
 ## Utilisation {#reasons-to-use-scribble-signature}
 
-Il existe plusieurs raisons d’inclure un champ de signature tactile dans un formulaire, notamment :
+Il existe plusieurs raisons pour lesquelles il est bénéfique d’inclure un composant Signature tactile dans un formulaire, notamment :
 
-- **Consentement numérique** : permet aux utilisateurs de fournir électroniquement des signatures légalement valides.
-- **Expérience utilisateur améliorée** : permet de se connecter directement et naturellement aux appareils sans analyser ni charger.
-- **Workflows sans papier** : élimine le besoin d’imprimer, de signer et de numériser à nouveau des documents.
-- **Authentification** : agit comme une couche supplémentaire de confirmation et d’approbation.
-- **Précision des données** : garantit la capture correcte de l’entrée manuscrite du signataire sous forme numérique.
+- **Consentement numérique** : permet aux utilisateurs et utilisatrices de fournir électroniquement des signatures valides sur le plan juridique.
+- **Expérience d’utilisation améliorée** : offre un moyen naturel de signer directement sur les appareils, sans avoir à scanner ni téléverser.
+- **Workflows sans papier** : élimine le besoin d’imprimer, de signer et de numériser à nouveau des documents.
+- **Authentification** : agit comme une couche supplémentaire de confirmation et d’approbation.
+- **Précision des données** : garantit la capture correcte de l’entrée manuscrite de la personne signataire sous forme numérique.
 
 ## Version et compatibilité {#version-and-compatibility}
 
-Le composant principal de signature tactile Forms adaptative a été publié en **août 2025** dans le cadre de **composants principaux 2.24.6** pour Cloud Service et versions ultérieures.
+Le composant principal Signature tactile des formulaires adaptatifs a été publié en **août 2025** au sein des **composants principaux 2.24.6** pour Cloud Service et versions ultérieures.
 
 | Version du composant | AEM as a Cloud Service | AEM 6.5.16.0 Forms ou version ultérieure |
 |---|---|---|
@@ -55,7 +55,7 @@ Pour plus d’informations sur les versions, voir [Versions des composants princ
 
 ## Détails techniques {#technical-details}
 
-Obtenez les derniers détails techniques sur le composant principal de la signature tactile du Forms adaptatif sur [GitHub](https://github.com/adobe/aem-core-forms-components). Pour plus d’informations sur le développement des composants principaux, voir [Documentation destinée aux développeurs et développeuses de composants principaux](/help/developing/overview.md).
+Obtenez les derniers détails techniques sur le composant principal Signature tactile des formulaires adaptatifs sur [GitHub](https://github.com/adobe/aem-core-forms-components). Pour plus d’informations sur le développement des composants principaux, consultez la [documentation destinée aux développeurs et développeuses de composants principaux](/help/developing/overview.md).
 
 ## Boîte de dialogue de configuration {#configure-dialog}
 
@@ -83,13 +83,13 @@ La boîte de dialogue de configuration permet de personnaliser le composant Sign
 - **Masquer le composant** - Sélectionnez cette option pour masquer le composant du formulaire. Le composant reste accessible à d’autres fins, par exemple pour les calculs dans l’éditeur de règles. Cela s’avère utile lorsque vous devez stocker des informations qui n’ont pas besoin d’être affichées ou directement modifiées par les utilisateurs ou les utilisatrices.
 - **Désactiver le composant** - Sélectionnez cette option pour désactiver le composant. Le composant désactivé n’est pas actif ni modifiable par l’utilisateur final ou l’utilisatrice finale. L’utilisateur ou l’utilisatrice peut voir la valeur du champ mais ne peut pas la modifier. Le composant reste accessible à d’autres fins, par exemple pour les calculs dans l’éditeur de règles.
 
-- **Titre de la boîte de dialogue de signature** : le titre de la boîte de dialogue de signature définit le texte affiché en haut de la boîte de dialogue de capture de signature. Il sert d’invite ou d’instruction à l’utilisateur lorsqu’il est tenu de fournir une signature. Le texte guide l’utilisateur tout au long du processus de signature, rendant l’interaction claire et intuitive.
+- **Titre de la boîte de dialogue de signature** : le titre de la boîte de dialogue de signature définit le texte affiché en haut de la boîte de dialogue de capture de signature. Il sert d’invite ou d’instruction pour la personne lorsqu’elle est tenue de fournir une signature. Le texte guide l’utilisateur ou l’utilisatrice tout au long du processus de signature, ce qui rend l’interaction claire et intuitive.
 
 ### Onglet Validation
 
 ![onglet validation](/help/adaptive-forms/assets/scribble-signature-validation.png)
 
-- **Obligatoire** : Sélectionnez cette option si vous souhaitez afficher le composant dans un formulaire adaptatif. Après avoir sélectionné cette option, vous devez effectuer une sélection avant de poursuivre l’envoi du formulaire. Vous ne pouvez pas sélectionner **Masquer le composant** ou **Désactiver le composant** sous l’onglet **De base** lorsque cette option est sélectionnée.
+- **Obligatoire** : sélectionnez cette option si vous souhaitez afficher le composant dans un formulaire adaptatif. Après avoir sélectionné cette option, vous devez effectuer une sélection avant de poursuivre l’envoi du formulaire. Vous ne pouvez pas sélectionner **Masquer le composant** ou **Désactiver le composant** sous l’onglet **De base** lorsque cette option est sélectionnée.
 
 - **Message d’erreur** : cette option vous permet de rédiger un message qui s’affiche si la case à cocher **Obligatoire** est activée et le champ de formulaire reste vide.
 
@@ -118,15 +118,15 @@ La boîte de dialogue de configuration permet de personnaliser le composant Sign
 
 ## Boîte de dialogue de conception {#design-dialog}
 
-La boîte de dialogue de conception permet de définir et de gérer les styles CSS du composant Signature tactile.
+La boîte de dialogue de conception permet de définir et de gérer les styles CSS du composant Signature tactile.
 
 ### Onglet Styles {#styles-tab}
 
-Cet onglet vous permet de définir et de gérer les styles CSS d’un composant. Le composant principal de signature tactile Forms adaptative prend en charge le [système de style](/help/get-started/authoring.md#component-styling) AEM.
+Cet onglet vous permet de définir et de gérer les styles CSS d’un composant. Le composant principal Signature tactile des formulaires adaptatifs prend en charge le [Système de style](/help/get-started/authoring.md#component-styling) d’AEM.
 
 ![Boîte de dialogue de conception](/help/adaptive-forms/assets/checkbox-style.png)
 
-- **Classes CSS par défaut** : vous pouvez fournir une classe CSS par défaut pour le composant principal de la signature tactile du Forms adaptatif.
+- **Classes CSS par défaut** : vous pouvez fournir une classe CSS par défaut pour le composant principal Signature tactile des formulaires adaptatifs.
 
 - **Styles autorisés** : vous pouvez définir des styles en fournissant un nom et la classe CSS qui représente le style. Par exemple, vous pouvez créer un style nommé « texte en gras » et fournir la classe CSS « police d’épaisseur : gras ». Vous pouvez utiliser ou appliquer ces styles à un formulaire adaptatif dans l’éditeur de formulaires adaptatifs. Pour appliquer un style, sélectionnez le composant auquel vous souhaitez appliquer le style dans l’éditeur de formulaires adaptatifs, accédez à la boîte de dialogue Propriétés, puis sélectionnez le style de votre choix dans la liste déroulante **Styles**. Si vous devez mettre à jour ou modifier les styles, revenez simplement à la boîte de dialogue Conception, mettez à jour les styles dans l’onglet Styles et enregistrez les modifications.
 
