@@ -4,15 +4,15 @@ description: Utilisation ou personnalisation du composant principal Signature ta
 role: Architect, Developer, Admin, User
 exl-id: 608c4368-d539-4d05-a75c-c077ea822f93
 source-git-commit: 006f6c844ab9e7a784dabea026867939445479e9
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1761'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
 # Composant Signature tactile
 
-<span>Le composant Signature tactile fait partie du programme des utilisateurs et utilisatrices précoces. Vous pouvez écrire à `aem-forms-ea@adobe.com` à partir de votre ID d’e-mail officiel pour rejoindre le programme des utilisateurs et utilisatrices précoces et demander l’accès à la fonctionnalité.</span>
+<span>Le composant Signature tactile fait partie du programme d’accès anticipé. Vous pouvez écrire à `aem-forms-ea@adobe.com` depuis votre adresse e-mail officielle pour rejoindre le programme d’accès anticipé et demander l’accès à la fonctionnalité.</span>
 
 Un composant Signature tactile dans un formulaire adaptatif est un élément de l’interface d’utilisation qui permet aux utilisateurs et aux utilisatrices de tracer leur **signature** directement dans le formulaire à l’aide d’une souris, d’un stylet ou d’un écran tactile. Il garantit la capture précise du consentement écrit à la main, des approbations ou de la vérification dans les workflows numériques.
 
