@@ -4,9 +4,9 @@ description: Le composant Image des composants principaux est un composant d’i
 role: Architect, Developer, Admin, User
 exl-id: 3f2b93f9-c48d-43ef-a78a-accd5090fe6f
 index: n
-source-git-commit: 92a3ec273a5be6751c1503835b9c2e5cbd61bb9e
-workflow-type: ht
-source-wordcount: '0'
+source-git-commit: 3908828cf62043483a74e908204c3e9bf540300b
+workflow-type: tm+mt
+source-wordcount: '2048'
 ht-degree: 100%
 
 ---
@@ -40,7 +40,7 @@ En outre, le composant d’image prend en charge le chargement différé afin de
 
 >[!TIP]
 >
->Le composant d’image est optimisé par le servlet d’image adaptative. Veuillez consulter le document [Servlet d’image adaptative](#adaptive-image-servlet) pour plus d’informations sur son fonctionnement.
+>Le composant d’image est optimisé par le servlet d’image adaptative. Veuillez consulter le document [Servlet d’image adaptative](/help/developing/adaptive-image-servlet.md) pour plus d’informations sur son fonctionnement.
 
 ## Prise en charge de Dynamic Media {#dynamic-media}
 
@@ -206,7 +206,7 @@ En outre, vous pouvez définir quelles options de composant générales sont aut
 
 >[!TIP]
 >
->Reportez-vous au document [Servlet Image adaptative](#adaptive-image-servlet) pour obtenir des conseils sur l’optimisation de la sélection du rendu en définissant soigneusement vos largeurs.
+>Reportez-vous au document [Servlet Image adaptative](/help/developing/adaptive-image-servlet.md) pour obtenir des conseils sur l’optimisation de la sélection du rendu en définissant soigneusement vos largeurs.
 
 ### Onglet Fonctions {#features-tab}
 
