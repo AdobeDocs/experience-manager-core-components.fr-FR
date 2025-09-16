@@ -3,10 +3,10 @@ title: Versions des composants principaux
 description: Les composants principaux sont publiés sous forme de versions qui peuvent contenir plusieurs versions des mêmes composants principaux. Ce document explique les versions et les mises à jour ainsi que comment comprendre la compatibilité avec les composants principaux et AEM.
 role: Architect, Developer, Admin, User
 exl-id: 7d4dbe46-4013-4217-b815-cdb1462072c6
-source-git-commit: 821530ce1958566f0a2c1fb88c5017572057f88f
-workflow-type: ht
-source-wordcount: '3056'
-ht-degree: 100%
+source-git-commit: b6b850237bdab1cb59a81c3162182e5b25fbdb68
+workflow-type: tm+mt
+source-wordcount: '3087'
+ht-degree: 99%
 
 ---
 
@@ -26,6 +26,7 @@ Le tableau suivant, dont le contenu est [disponible sur GitHub avec les détails
 
 | Mise à jour | Description | AEM 6.4 | AEM 6.5 | AEM 6.5 LTS | AEM as a Cloud Service | Java | Date de publication |
 |---|---|---|---|---|---|---|---|
+| [2.30.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.30.0) | Cette version a résolu un certain nombre de problèmes liés aux ressources et à Dynamic Media, clarifié la prise en charge de LTS et corrigé de nombreux bogues. | - | 6.5.21.0+ | 6.5 LTS (disponibilité générale) | En continu | 8, 11 | 4 Septembre 2025 |
 | [2.29.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.29.0) | Cette version a ajouté la prise en charge de la création de versions préliminaires des ressources dans le composant principal des sites et corrige de nombreux bugs. | - | 6.5.21.0+ | 6.5 LTS (disponibilité générale) | En continu | 8, 11 | 21 avril 2025 |
 | [2.28.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.28.0) | Cette version corrige de nombreux bugs. | - | 6.5.21.0+ | 6.5 LTS (disponibilité générale) | En continu | 8, 11 | 17 mars 2025 |
 | [2.27.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.27.0) | Cette version corrige de nombreux bugs. | - | 6.5.21.0+ | - | En continu | 11 | 10 septembre 2024 |
