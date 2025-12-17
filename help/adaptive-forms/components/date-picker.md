@@ -3,10 +3,10 @@ title: Composant principal des formulaires adaptatifs - Sélecteur de date
 description: Utilisation ou personnalisation du composant principal Sélecteur de date des formulaires adaptatifs.
 role: Architect, Developer, Admin, User
 exl-id: aa9402de-ca57-4c19-8d36-2dd0a78d6806
-source-git-commit: daeabccaff39e255c111c6af2540ca4d5be0c709
-workflow-type: ht
-source-wordcount: '2298'
-ht-degree: 100%
+source-git-commit: f0c4d6adf7266bdb6ebc7cde49656efaf3027624
+workflow-type: tm+mt
+source-wordcount: '2404'
+ht-degree: 95%
 
 ---
 
@@ -47,11 +47,11 @@ Pour plus d’informations sur les versions et publications des composants princ
 
 <!-- ## Sample Component Output {#sample-component-output}
 
-To experience the Accordion Component as well as see examples of its configuration options as well as HTML and JSON output, visit the [Component Library](https://adobe.com/go/aem_cmp_library_accordion_fr). -->
+To experience the Accordion Component as well as see examples of its configuration options as well as HTML and JSON output, visit the [Component Library](https://adobe.com/go/aem_cmp_library_accordion). -->
 
 ## Détails techniques {#technical-details}
 
-Obtenez les dernières informations sur le composant principal Sélecteur de date des formulaires adaptatifs dans la documentation technique sur [GitHub](https://github.com/adobe/aem-core-forms-components/tree/master/ui.af.apps/src/main/content/jcr_root/apps/core/fd/components/form/datepicker/v1/datepicker). Pour plus d’informations sur le développement des composants principaux, consultez la [documentation destinée aux développeurs et développeuses de composants principaux](/help/developing/overview.md).
+Obtenez les dernières informations sur le composant principal Sélecteur de date des formulaires adaptatifs dans la documentation technique sur [GitHub](https://github.com/adobe/aem-core-forms-components/tree/master/ui.af.apps/src/main/content/jcr_root/apps/core/fd/components/form/datepicker/v1/datepicker). Pour plus d’informations sur le développement des composants principaux, consultez la [documentation relative au développement des composants principaux](/help/developing/overview.md).
 
 ## Boîte de dialogue de configuration {#configure-dialog}
 
@@ -86,7 +86,7 @@ Vous pouvez facilement personnaliser votre expérience de sélecteur de date pou
 
 ![Onglet Validation](/help/adaptive-forms/assets/datepicker_validation.png)
 
-- **Obligatoire** : Sélectionnez cette option si vous souhaitez afficher le composant dans un formulaire adaptatif. Après avoir sélectionné cette option, vous devez effectuer une sélection avant de poursuivre l’envoi du formulaire. Vous ne pouvez pas sélectionner **Masquer le composant** ou **Désactiver le composant** sous l’onglet **De base** lorsque cette option est sélectionnée.
+- **Obligatoire** : sélectionnez cette option si vous souhaitez afficher le composant dans un formulaire adaptatif. Après avoir sélectionné cette option, vous devez effectuer une sélection avant de poursuivre l’envoi du formulaire. Vous ne pouvez pas sélectionner **Masquer le composant** ou **Désactiver le composant** sous l’onglet **De base** lorsque cette option est sélectionnée.
 
 - **Message d’erreur** : cette option vous permet de rédiger un message qui s’affiche si la case à cocher **Obligatoire** est activée et le champ de formulaire reste vide.
 
@@ -178,15 +178,31 @@ Les propriétés personnalisées vous permettent d’associer des attributs pers
 
 ### Onglet Formats {#formats-tab}
 
-L’onglet Formats vous permet de définir des formats de date par défaut et personnalisés.
+L’onglet Formats vous permet de spécifier des formats de date par défaut et personnalisés. De plus, vous pouvez également ajouter un nouveau format de date personnalisé à l’aide du bouton **Ajouter**.
 
 ![Onglet Format.](/help/adaptive-forms/assets/datepicker_formatpolicy.png)
+
+#### Ajouter des formats dans la stratégie de modèle du composant
+
+Pour afficher les formats disponibles pour le composant, vous devez les ajouter à la stratégie de modèle du composant.
+
+>[!VIDEO](https://video.tv.adobe.com/v/3477975?quality=12&learn=on)
+
+Pour ajouter des formats à la stratégie de modèle :
+
+1. Ouvrez le modèle correspondant associé à un formulaire adaptatif ou à Sites dans l’éditeur de modèles.
+2. Dans la section **Composants autorisés**, sélectionnez le composant **[!UICONTROL Sélecteur de date]**.
+   ![Stratégie du modèle de sélecteur de date](/help/adaptive-forms/assets/date-picker-policy.png)
+3. Cliquez sur l’icône **[!UICONTROL Ajouter]** pour créer une politique pour le composant Sélecteur de date.
+4. Saisissez le nom de la stratégie et sélectionnez tous les formats requis sous l’onglet **Format**.
+   ![Créer une politique](/help/adaptive-forms/assets/number-input-format-policy.png)
+5. Cliquez sur **[!UICONTROL Terminé]**.
 
 <!--
 
 ## Related article {#related-article}
 
-* [Create a standalone Adaptive Form](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/creating-adaptive-form-core-components.html?lang=fr)
+* [Create a standalone Adaptive Form](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/creating-adaptive-form-core-components.html)
 
 -->
 

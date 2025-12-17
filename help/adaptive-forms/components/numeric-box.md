@@ -3,10 +3,10 @@ title: Composant principal des formulaires adaptatifs - Entrée de nombre
 description: Utilisation ou personnalisation du composant principal « Entrée de nombre » dans les formulaires adaptatifs.
 role: Architect, Developer, Admin, User
 exl-id: 75604ecf-1ec5-4e97-b934-d6ed49726147
-source-git-commit: 6725784bd4c94d433c91d6bd65d14d03cbefd954
-workflow-type: ht
-source-wordcount: '2282'
-ht-degree: 100%
+source-git-commit: f0c4d6adf7266bdb6ebc7cde49656efaf3027624
+workflow-type: tm+mt
+source-wordcount: '2388'
+ht-degree: 95%
 
 ---
 
@@ -50,11 +50,11 @@ Pour plus d’informations sur les versions et publications des composants princ
 
 <!-- ## Sample Component Output {#sample-component-output}
 
-To experience the Accordion Component as well as see examples of its configuration options as well as HTML and JSON output, visit the [Component Library](https://adobe.com/go/aem_cmp_library_accordion_fr). -->
+To experience the Accordion Component as well as see examples of its configuration options as well as HTML and JSON output, visit the [Component Library](https://adobe.com/go/aem_cmp_library_accordion). -->
 
 ## Détails techniques {#technical-details}
 
-Retrouvez les informations les plus récentes sur le composant principal « Entrée de nombre » des formulaires adaptatif dans la documentation technique sur [GitHub](https://github.com/adobe/aem-core-forms-components/tree/master/ui.af.apps/src/main/content/jcr_root/apps/core/fd/components/form/numberinput/v1/numberinput). Pour plus d’informations sur le développement des composants principaux, consultez la [documentation destinée aux développeurs et développeuses de composants principaux](/help/developing/overview.md).
+Retrouvez les informations les plus récentes sur le composant principal « Entrée de nombre » des formulaires adaptatif dans la documentation technique sur [GitHub](https://github.com/adobe/aem-core-forms-components/tree/master/ui.af.apps/src/main/content/jcr_root/apps/core/fd/components/form/numberinput/v1/numberinput). Pour plus d’informations sur le développement des composants principaux, consultez la [documentation relative au développement des composants principaux](/help/developing/overview.md).
 
 ## Boîte de dialogue de configuration {#configure-dialog}
 
@@ -73,7 +73,7 @@ Vous pouvez facilement personnaliser l’expérience d’entrée de nombre pour 
   ![Prise en charge de texte enrichi](/help/adaptive-forms/assets/richtext-support-title.png)
 
 - **Masquer le titre** - Sélectionnez cette option pour masquer le titre du composant.
-- **Texte d’espace réservé** - Le texte d’espace réservé dans un composant de formulaire fait référence à un libellé court ou à une invite qui apparaît dans un champ de saisie comme conseil à l’utilisateur ou à l’utilisatrice sur le type d’information à saisir dans ce champ. Le texte d’espace réservé disparaît lorsque l’utilisateur ou l’utilisatrice commence à saisir du texte dans le champ et réapparaît si le champ est vide. Il fournit un indice visuel à l’utilisateur ou à l’utilisatrice, mais n’agit pas comme une valeur ou un libellé permanent pour le champ.
+- **Texte d’espace réservé** - Le texte d’espace réservé dans un composant de formulaire fait référence à un libellé court ou à un prompt qui apparaît dans un champ de saisie comme conseil à l’utilisateur ou à l’utilisatrice sur le type d’information à saisir dans ce champ. Le texte d’espace réservé disparaît lorsque l’utilisateur ou l’utilisatrice commence à saisir du texte dans le champ et réapparaît si le champ est vide. Il fournit un indice visuel à l’utilisateur ou à l’utilisatrice, mais n’agit pas comme une valeur ou un libellé permanent pour le champ.
 - **Référence Bind** - Une référence Bind est une référence à un élément de données stockée dans une source de données externe et utilisée dans un formulaire. La référence de liaison vous permet de lier dynamiquement les données aux champs du formulaire, de sorte que le formulaire puisse afficher les données les plus récentes de la source de données. Par exemple, une référence de liaison peut être utilisée pour afficher le nom et l’adresse d’un client ou d’une cliente dans un formulaire, en fonction de l’identifiant du client ou de la cliente saisi dans le formulaire. La référence de liaison peut également être utilisée pour mettre à jour la source de données avec les données saisies dans le formulaire. Ainsi, AEM Forms vous permet de créer des formulaires qui interagissent avec des sources de données externes, offrant ainsi une expérience utilisateur fluide pour la collecte et la gestion des données.
 - **Marquer comme élément de formulaire non lié** : sélectionnez cette option pour configurer un champ de formulaire qui n’est lié à aucun schéma. Cette option vous permet d’enregistrer des données sans mettre à jour la source de données. Elle vous permet également de gérer les données de manière personnalisée, en les séparant de l’intégration de base de données standard.
 - **Masquer le composant** - Sélectionnez cette option pour masquer le composant du formulaire. Le composant reste accessible à d’autres fins, par exemple pour les calculs dans l’éditeur de règles. Cela s’avère utile lorsque vous devez stocker des informations qui n’ont pas besoin d’être affichées ou directement modifiées par les utilisateurs ou les utilisatrices.
@@ -143,7 +143,7 @@ L’ensemble de langues n’est pas visible par défaut, mais les personnes peuv
 
    >[!NOTE]
    >
-   > Pour plus d’informations sur la façon de convertir un formulaire adaptatif en un paramètre régional spécifique, [cliquez ici](https://experienceleague.adobe.com/fr/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/supporting-new-language-localization-core-components).
+   > Pour plus d’informations sur la façon de convertir un formulaire adaptatif en paramètres régionaux spécifiques, [cliquez ici](https://experienceleague.adobe.com/fr/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/supporting-new-language-localization-core-components).
 
 
 ## Boîte de dialogue de conception {#design-dialog}
@@ -176,15 +176,31 @@ Les propriétés personnalisées vous permettent d’associer des attributs pers
 
 ### Onglet Formats {#formats-tab}
 
-L’onglet Formats vous permet de définir des formats de date par défaut et personnalisés.
+L’onglet Formats vous permet de spécifier des formats de date par défaut et personnalisés. De plus, vous pouvez également ajouter un nouveau format de nombre personnalisé à l’aide du bouton **Ajouter**.
 
 ![Onglet Format.](/help/adaptive-forms/assets/emailinput_formattab.png)
+
+#### Ajouter des formats dans la stratégie de modèle du composant
+
+Pour afficher les formats disponibles pour le composant, vous devez les ajouter à la stratégie de modèle du composant.
+
+>[!VIDEO](https://video.tv.adobe.com/v/3477976?quality=12&learn=on)
+
+Pour ajouter des formats à la stratégie de modèle :
+
+1. Ouvrez le modèle correspondant associé à un formulaire adaptatif ou à Sites dans l’éditeur de modèles.
+2. Dans la section **Composants autorisés**, sélectionnez le composant **[!UICONTROL Entrée de nombre]**.
+   ![Stratégie du modèle de sélecteur de date](/help/adaptive-forms/assets/number-input-policy.png)
+3. Cliquez sur l’icône **[!UICONTROL Ajouter]** pour créer une stratégie pour le composant Entrée de nombre.
+4. Saisissez le nom de la stratégie et sélectionnez tous les formats requis sous l’onglet **Format**.
+   ![Créer une politique](/help/adaptive-forms/assets/date-picker-format-policy.png)
+5. Cliquez sur **[!UICONTROL Terminé]**.
 
 <!--
 
 ## Related article {#related-article}
 
-* [Create a standalone Adaptive Form](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/creating-adaptive-form-core-components.html?lang=fr)
+* [Create a standalone Adaptive Form](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/creating-adaptive-form-core-components.html)
 
 -->
 
