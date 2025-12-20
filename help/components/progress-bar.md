@@ -37,7 +37,7 @@ Pour tester le composant Barre de progression et obtenir des exemples d’option
 
 ### Détails techniques {#technical-details}
 
-La documentation technique la plus récente sur le composant Barre de progression [se trouve sur GitHub](https://adobe.com/go/aem_cmp_tech_progress_v1).
+La documentation technique la plus récente sur le composant Barre de progression [se trouve sur GitHub](https://adobe.com/go/aem_cmp_tech_progress_v1_fr).
 
 Vous trouverez plus d’informations sur le développement des composants principaux dans la [documentation destinée aux développeurs de composants principaux](/help/developing/overview.md).
 

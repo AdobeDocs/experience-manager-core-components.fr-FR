@@ -123,7 +123,7 @@ Le tableau ci-après répertorie les composants principaux disponibles, les lien
 | [Téléchargement](https://adobe.com/go/aem_cmp_tech_download_v1_fr) | Ajoute une ressource téléchargeable à une page | `-` |
 | [Fragment d’expérience](https://adobe.com/go/aem_cmp_tech_xf_v1_fr) | Ajout d’un fragment d’expérience à une page | `/libs/cq/experience-fragments/editor/components/experiencefragment` |
 | [Incorporer](https://adobe.com/go/aem_cmp_tech_embed_v1_fr) | Incorporation d’une ressource externe dans une page | - |
-| [Barre de progression](https://adobe.com/go/aem_cmp_tech_progress_v1) | Fournit une représentation visuelle de la progression par rapport à un objectif | - |
+| [Barre de progression](https://adobe.com/go/aem_cmp_tech_progress_v1_fr) | Fournit une représentation visuelle de la progression par rapport à un objectif | - |
 | [Visionneuse PDF](https://adobe.com/go/aem_cmp_tech_pdfviewer_v1_fr) | Présente un document PDF sur une page | - |
 
 ## Mise à niveau des composants principaux {#upgrade-of-core-components}
