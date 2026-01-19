@@ -4,10 +4,10 @@ description: Utilisation de la couche de données client Adobe avec les composan
 feature: Core Components, Adobe Client Data Layer
 role: Architect, Developer, Admin
 exl-id: 55c984d3-deb7-4eda-a81d-7768791d2b46
-source-git-commit: 5994133947ff697f7c866fe61598c58e37e77008
-workflow-type: ht
-source-wordcount: '0'
-ht-degree: 100%
+source-git-commit: 8f0ece0eed42f72e919535c6da6e729e54d1d339
+workflow-type: tm+mt
+source-wordcount: '985'
+ht-degree: 96%
 
 ---
 
@@ -119,6 +119,10 @@ id: {                   // component ID
     parentId            // parent component ID
 }
 ```
+
+>[!NOTE]
+>
+>Ce schéma est le schéma d’élément de composant générique utilisé comme modèle de base pour plusieurs composants principaux. Cela ne garantit pas que tous les composants répertoriés renseigneront tous ces champs sur chaque élément.
 
 L’[événement](#events) suivant correspond au schéma d’élément de composant/conteneur :
 
