@@ -3,9 +3,9 @@ title: Composant principal des formulaires adaptatifs – Onglets verticaux
 description: Utilisation ou personnalisation du composant principal Onglets verticaux des formulaires adaptatifs.
 role: Architect, Developer, Admin, User
 exl-id: d5cd1c18-6840-4f2f-a767-a69b803e6075
-source-git-commit: 6725784bd4c94d433c91d6bd65d14d03cbefd954
-workflow-type: ht
-source-wordcount: '2173'
+source-git-commit: 2be68aa708131486f7d89f33952153a7a90c3d0a
+workflow-type: tm+mt
+source-wordcount: '2153'
 ht-degree: 100%
 
 ---
@@ -18,7 +18,7 @@ Lorsqu’un utilisateur ou une utilisatrice clique sur un onglet, le contenu du 
 
 >[!NOTE]
 >
-> Pour AEM 6.5 Forms, ce composant a été introduit avec le pack de services AEM 6.5 Forms 19 (6.5.19.0). Pour activer ce composant, assurez-vous que les versions nécessaires des composants principaux des formulaires et de la gestion de contenu web sont installées. Pour plus d’informations sur les versions des composants principaux des formulaires adaptatifs, reportez-vous à la section [Versions des composants principaux des formulaires adaptatifs](/help/adaptive-forms/version.md).
+> Pour AEM 6.5 Forms, ce composant a été introduit avec le pack de services AEM 6.5 Forms 19 (6.5.19.0). Pour plus d’informations sur les versions des composants principaux des formulaires adaptatifs, reportez-vous à la section [Versions des composants principaux des formulaires adaptatifs](/help/adaptive-forms/version.md).
 
 ![exemple](/help/adaptive-forms/assets/horizontal-example.png)
 
@@ -34,7 +34,7 @@ Les raisons courantes d’utiliser les onglets verticaux dans un formulaire adap
 
 - **Meilleure organisation** : les onglets offrent une structure claire et organisée pour un formulaire, ce qui permet aux personnes de comprendre et de remplir plus facilement le formulaire.
 
-- **Interaction client renforcée** : les onglets verticaux peuvent rendre un formulaire plus intéressant et attrayant visuellement pour les utilisateurs et les utilisatrices, ce qui peut améliorer le taux d’achèvement du formulaire.
+- **Engagement client renforcé** : les onglets verticaux peuvent rendre un formulaire plus intéressant et attrayant visuellement pour les utilisateurs et les utilisatrices, ce qui peut améliorer le taux d’achèvement du formulaire.
 
 ## Version et compatibilité {#version-and-compatibility}
 
@@ -50,7 +50,7 @@ Pour plus d’informations sur les versions et publications des composants princ
 
 ## Détails techniques {#technical-details}
 
-Retrouvez les informations les plus récentes sur le composant principal Onglets verticaux des formulaires adaptatifs dans la documentation technique sur [GitHub](https://github.com/adobe/aem-core-forms-components/tree/master/ui.af.apps/src/main/content/jcr_root/apps/core/fd/components/form/verticaltabs/v1/verticaltabs). Pour plus d’informations sur le développement des composants principaux, consultez la [documentation destinée aux développeurs et développeuses de composants principaux](/help/developing/overview.md).
+Retrouvez les informations les plus récentes sur le composant principal Onglets verticaux des formulaires adaptatifs dans la documentation technique sur [GitHub](https://github.com/adobe/aem-core-forms-components/tree/master/ui.af.apps/src/main/content/jcr_root/apps/core/fd/components/form/verticaltabs/v1/verticaltabs). Pour plus d’informations sur le développement des composants principaux, consultez la [documentation relative au développement des composants principaux](/help/developing/overview.md).
 
 ## Boîte de dialogue de configuration {#configure-dialog}
 

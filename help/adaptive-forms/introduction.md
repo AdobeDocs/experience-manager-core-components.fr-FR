@@ -3,10 +3,10 @@ title: Présentation des composants principaux des formulaires adaptatifs AEM
 description: Créez des expériences d’inscription attrayantes (formulaires) grâce à la flexibilité des composants principaux des formulaires adaptatifs et diffusez-les avec la puissance d’Adobe Experience Manager.
 role: Architect, Developer, Admin, User
 exl-id: 6d0f2845-bbb8-4488-a254-b69d7a6290b1
-source-git-commit: 6725784bd4c94d433c91d6bd65d14d03cbefd954
-workflow-type: ht
-source-wordcount: '0'
-ht-degree: 100%
+source-git-commit: 2be68aa708131486f7d89f33952153a7a90c3d0a
+workflow-type: tm+mt
+source-wordcount: '1980'
+ht-degree: 98%
 
 ---
 
@@ -27,7 +27,7 @@ Dans l’ensemble, les composants principaux sont un outil essentiel pour la cr�
 
 ## Composants principaux des formulaires adaptatifs
 
-Les composants principaux des formulaires adaptatifs sont un ensemble de 30 composants open source conformes à BEM qui sont construits sur la base des composants principaux de la gestion de contenu web d’Adobe Experience Manager. Ils sont spécialement conçus pour créer des formulaires adaptatifs, qui sont des formulaires qui s’adaptent au périphérique, au navigateur et à la taille d’écran de l’utilisateur ou de l’utilisatrice.
+Les composants principaux des formulaires adaptatifs sont un ensemble de 30 composants Open Source compatibles avec BEM qui sont construits sur la base des composants principaux de la gestion de contenu web d’Adobe Experience Manager. Ils sont spécialement conçus pour créer des formulaires adaptatifs, qui sont des formulaires qui s’adaptent au périphérique, au navigateur et à la taille d’écran de l’utilisateur ou de l’utilisatrice.
 
 Ces composants peuvent être utilisés pour créer des expériences de capture de données et d’inscription exceptionnelles en proposant un large éventail d’options de champ de formulaire, notamment des champs de texte, des cases à cocher, des menus déroulants, etc. Ils comprennent également des fonctionnalités telles que la validation, la logique conditionnelle et la conception réactive, qui peuvent être utilisées pour créer des formulaires conviviaux et simples.
 
@@ -56,7 +56,7 @@ En outre, comme ces composants sont en open source, les développeurs et les dé
 
 Les expériences de capture de données sont essentielles pour la génération de pistes et l’inscription. Les composants principaux des formulaires adaptatifs offrent une solution puissante pour créer des formulaires optimisés pour la capture de données. Voici quelques raisons d’utiliser les composants principaux pour créer ces expériences sur les composants de base :
 
-* **[Disponibilité sur GitHub](https://github.com/adobe/aem-core-forms-components)** : les composants principaux des formulaires adaptatifs d’AEM sont en open source et disponibles sur GitHub, avec une documentation complète. Cela permet aux développeurs et aux développeuses de comprendre plus facilement les composants et leur fonctionnement, ainsi que de contribuer à leur développement. Le site Web [aemcomponents.dev](https://www.aemcomponents.dev/) est également une ressource précieuse, où les développeurs et les développeuses peuvent voir les composants en action et accéder à la documentation détaillée.
+* **[Disponibilité sur GitHub](https://github.com/adobe/aem-core-forms-components)** : les composants principaux des formulaires adaptatifs d’AEM sont en Open Source et disponibles sur GitHub, avec une documentation complète. Cela permet aux développeurs et aux développeuses de comprendre plus facilement les composants et leur fonctionnement, ainsi que de contribuer à leur développement. Le site Web [aemcomponents.dev](https://www.aemcomponents.dev/) est également une ressource précieuse, où les développeurs et les développeuses peuvent voir les composants en action et accéder à la documentation détaillée.
 
 * **[Modèle BEM pour le style](https://experienceleague.adobe.com/fr/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/using-themes-in-core-components)** : les composants principaux suivent le modèle BEM (Block Element Modifier) pour le style, qui est une méthodologie bien établie et largement utilisée pour organiser le CSS. Cela permet aux développeurs et aux développeuses de comprendre plus facilement comment les styles sont organisés et comment les modifier en fonction de leurs besoins spécifiques.
 
@@ -165,7 +165,7 @@ La version actuelle d’AEM Forms comporte les composants principaux suivants 
 
 ## Éditeur de formulaires facile à utiliser
 
-L’éditeur de formulaires adaptatifs basés sur les composants principaux est similaire à celui que vous utilisez déjà pour créer des pages AEM Sites. Voici ce dont vous bénéficiez :
+L’éditeur de formulaires adaptatifs basés sur les composants principaux est semblable à celui que vous utilisez déjà pour créer des pages AEM Sites. Voici ce dont vous bénéficiez :
 
 
 * **Éléments et paramètres habituels de l’interface d’utilisation** : lors de la configuration des propriétés des composants de formulaire, la boîte de dialogue des propriétés ressemble à celle que vous utilisez pour les composants principaux de gestion de contenu web. Cela permet de trouver plus rapidement les options dont vous avez besoin. Comme les composants principaux de gestion de contenu web, pour les composants de formulaire, la boîte de dialogue des propriétés apparaît au centre de l’éditeur avec des onglets clairs séparant les options de base et avancées, le texte d’aide et les informations d’accessibilité, le tout sous forme d’onglets pour une navigation facile.
@@ -211,32 +211,33 @@ L’éditeur de formulaires adaptatifs basés sur les composants principaux est 
    * [Appeler un processus AEM](https://experienceleague.adobe.com/fr/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/configure-submit-actions-core-components#:~:text=Invoke%20an%20AEM%20Workflow)
 
 
-* [Composants principaux des formulaires adaptatifs dans l’éditeur de pages de Sites](https://experienceleague.adobe.com/fr/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/create-or-add-an-adaptive-form-to-aem-sites-page) : vous pouvez activer et utiliser les composants de base des formulaires adaptatifs dans l’éditeur de pages AEM et les fragments d’expérience AEM pour créer directement une expérience de capture de données en même temps que la construction d’une page Sites.
+* [Composants principaux de Forms adaptative dans l’éditeur de page de Sites](https://experienceleague.adobe.com/fr/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/create-or-add-an-adaptive-form-to-aem-sites-page) : vous pouvez utiliser les composants principaux de Forms adaptative dans l’éditeur de page d’AEM et les fragments d’expérience AEM pour créer directement une expérience de capture de données lors de la création d’une page de Sites.
 
   >[!VIDEO](https://video.tv.adobe.com/v/3419284?quality=12&learn=on)
 
 
 <!-- 
 * **Preview Forms**: You can use the editor to  simulates how the form would appear on various devices like desktops, tablets, and smartphones.
+
+
+
+
+## Enable Adaptive Forms Core Components
+
+Enabling Adaptive Forms Core Components on AEM Forms as a Cloud Service, allows you to start creating, publishing, and delivering Core Components based Adaptive Forms and Headless Forms using your AEM Forms Cloud Service instances to multiple channels. For detailed instructions to enable Adaptive Form Core Components, see [Enable Adaptive Forms Core Components on AEM Forms as a Cloud Service and local development environment](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/setup-configure-migrate/enable-adaptive-forms-core-components.html).
+
+The Adaptive Forms Core Components have the following requirements.
+
+|AEM Version|AEM Forms add-on|Adaptive Forms Core Components|
+|---|---|---|
+|AEM as a Cloud Service|Forms - Digital Enrollment|[Release 2.0.10](version.md)+|
+|AEM 6.5 | Forms add-on |[Release 1.1.12](version.md)+|
+
+If your AEM Cloud Service SDK version older than 2023.02.0, [ensure that you have `prerelease` flag enabled on your environment](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/release-notes/prerelease.html?lang=en#new-features) as Adaptive Forms Core Components were part of pre-prelease before the 2023.02.0 release.
+
 -->
 
-
-
-## Activer les composants principaux des formulaires adaptatifs
-
-L’activation des composants principaux des formulaires adaptatifs sur AEM Forms as a Cloud Service vous permet de commencer à créer, à publier et à diffuser des formulaires adaptatif et des formulaires découplés basés sur les composants principaux à l’aide de vos instances Cloud Service d&#39;AEM Forms sur plusieurs canaux. Pour obtenir des instructions détaillées sur l’activation des composants principaux des formulaires adaptatifs, voir [Activer les composants principaux des formulaires adaptatifs sur AEM Forms as a Cloud Service et dans l’environnement de développement as a Cloud Service](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/setup-configure-migrate/enable-adaptive-forms-core-components.html?lang=fr).
-
-Les composants principaux des formulaires adaptatifs ont les exigences suivantes.
-
-| Version d’AEM | Module complémentaire AEM Forms | Composants principaux des formulaires adaptatifs |
-|---|---|---|
-| AEM as a Cloud Service | Forms – Inscription numérique | [Version 2.0.10](version.md)+ |
-| AEM 6.5 | Module complémentaire Forms | [Version 1.1.12](version.md)+ |
-
-Si votre version d&#39;AEM Cloud Service est antérieure à 2023.02.0, [assurez-vous que l’indicateur `prerelease` est activé dans votre environnement](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/release-notes/prerelease.html?lang=fr#new-features), car les composants principaux des formulaires adaptatifs faisaient partie de la version préliminaire avant la version 2023.02.0.
-
-
-## Création d’un formulaire adaptatif basé sur des composants principaux
+## Créer un formulaire adaptatif basé sur des composants principaux
 
 Vous pouvez effectuer les actions suivantes dans les environnements AEM Forms as a Cloud Service ou AEM 6.5 Forms :
 

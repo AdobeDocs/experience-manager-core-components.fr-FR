@@ -3,9 +3,9 @@ title: Composant principal des formulaires adaptatifs – Case à cocher
 description: Utilisation ou personnalisation du composant principal de case à cocher des formulaires adaptatifs.
 role: Architect, Developer, Admin, User
 exl-id: c6ca4800-bd10-4aeb-957a-fb1780cf94f3
-source-git-commit: 6725784bd4c94d433c91d6bd65d14d03cbefd954
-workflow-type: ht
-source-wordcount: '1837'
+source-git-commit: 2be68aa708131486f7d89f33952153a7a90c3d0a
+workflow-type: tm+mt
+source-wordcount: '1817'
 ht-degree: 100%
 
 ---
@@ -19,7 +19,7 @@ Une case à cocher est généralement représentée sous la forme d’un petit c
 
 >[!NOTE]
 >
-> Pour AEM 6.5 Forms, ce composant a été introduit avec le pack de services AEM 6.5 Forms 19 (6.5.19.0). Pour activer ce composant, assurez-vous que les versions nécessaires des composants principaux des formulaires et de la gestion de contenu web sont installées. Pour plus d’informations sur les versions des composants principaux des formulaires adaptatifs, reportez-vous à la section [Versions des composants principaux des formulaires adaptatifs](/help/adaptive-forms/version.md).
+> Pour AEM 6.5 Forms, ce composant a été introduit avec le pack de services AEM 6.5 Forms 19 (6.5.19.0). Pour plus d’informations sur les versions des composants principaux des formulaires adaptatifs, reportez-vous à la section [Versions des composants principaux des formulaires adaptatifs](/help/adaptive-forms/version.md).
 
 {{traditional-aem}}
 
@@ -35,7 +35,7 @@ Les raisons courantes d’utiliser une case à cocher dans un formulaire adaptat
 
 - **Consentement et accord** : des cases à cocher sont utilisées pour obtenir le consentement de l’utilisateur ou de l’utilisatrice à diverses fins. Par exemple pour accepter les conditions générales, s’abonner à des newsletters ou confirmer la vérification de l’âge. Elles indiquent clairement que l’utilisateur ou l’utilisatrice accepte activement quelque chose.
 
-- **Confirmation visuelle** : les cases cochées fournissent une confirmation visuelle aux personnes que leur sélection a été enregistrée. Cet élément permet d’éviter les erreurs des personnes, et de s’assurer qu’elles savent que leurs choix ont été enregistrés.
+- **Confirmation visuelle** : les cases cochées fournissent une confirmation visuelle aux personnes que leur sélection a été enregistrée. Ce feedback permet d’éviter les erreurs des utilisateurs et de s’assurer qu’ils savent que leurs choix ont biens été enregistrés.
 
 - **Prévention des erreurs** : les cases à cocher réduisent la probabilité des erreurs en permettant aux personnes de vérifier et de confirmer les choix avant l’envoi du formulaire.
 
@@ -53,7 +53,7 @@ Pour plus d’informations sur les versions et publications des composants princ
 
 ## Détails techniques {#technical-details}
 
-Retrouvez les dernières informations sur le composant principal de case à cocher des formulaires adaptatifs dans la documentation technique sur [GitHub](https://github.com/adobe/aem-core-forms-components/tree/master/ui.af.apps/src/main/content/jcr_root/apps/core/fd/components/form/checkbox/v1/checkbox). Pour plus d’informations sur le développement des composants principaux, consultez la [documentation destinée aux développeurs et développeuses de composants principaux](/help/developing/overview.md).
+Retrouvez les dernières informations sur le composant principal de case à cocher des formulaires adaptatifs dans la documentation technique sur [GitHub](https://github.com/adobe/aem-core-forms-components/tree/master/ui.af.apps/src/main/content/jcr_root/apps/core/fd/components/form/checkbox/v1/checkbox). Pour plus d’informations sur le développement des composants principaux, consultez la [documentation relative au développement des composants principaux](/help/developing/overview.md).
 
 ## Boîte de dialogue de configuration {#configure-dialog}
 
@@ -94,7 +94,7 @@ Vous pouvez facilement personnaliser l’expérience des cases à cocher pour le
 
 ![Onglet Validation](/help/adaptive-forms/assets/checkbox-validation.png)
 
-- **Obligatoire** : Sélectionnez cette option si vous souhaitez afficher le composant dans un formulaire adaptatif. Après avoir sélectionné cette option, vous devez effectuer une sélection avant de poursuivre l’envoi du formulaire. Vous ne pouvez pas sélectionner **Masquer le composant** ou **Désactiver le composant**  dans l’onglet **De base** lorsque cette option est sélectionnée.
+- **Obligatoire** : sélectionnez cette option si vous souhaitez afficher le composant dans un formulaire adaptatif. Après avoir sélectionné cette option, vous devez effectuer une sélection avant de poursuivre l’envoi du formulaire. Vous ne pouvez pas sélectionner **Masquer le composant** ou **Désactiver le composant**  dans l’onglet **De base** lorsque cette option est sélectionnée.
 
 - **Message d’erreur** : cette option vous permet de rédiger un message qui s’affiche si la case à cocher **Obligatoire** est activée et le champ de formulaire reste vide.
 - **Message de validation de script** : cette option permet de saisir un message à afficher en cas d’échec de la validation du script.
