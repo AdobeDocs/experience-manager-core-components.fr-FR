@@ -5,10 +5,10 @@ breadcrumb-title: Guide des composants principaux
 feature: Core Components
 user-guide-description: Pour les projets AEM traditionnels, utilisez les composants principaux extensibles pour permettre aux créateurs et créatrices de créer facilement du contenu.
 feature-set: Experience Manager Sites, Experience Manager Forms
-source-git-commit: bf6953f24388ed08cd5a66bb51011b3ac82fb58e
+source-git-commit: 1ac3d987337f8279e762ab5357d32bb732dea0be
 workflow-type: tm+mt
-source-wordcount: '397'
-ht-degree: 100%
+source-wordcount: '428'
+ht-degree: 98%
 
 ---
 
@@ -141,6 +141,7 @@ ht-degree: 100%
       + [Pied de page](/help/adaptive-forms/components/footer.md)
    + [Personnaliser les composants principaux des formulaires adaptatifs](/help/developing/customize-adaptive-forms-core-components.md)
    + [Exemples de thèmes et de modèles](/help/adaptive-forms/sample-themes-templates-form-data-models-core-components.md)
+   + [Activer les modèles de validation d’entrée de texte](/help/adaptive-forms/enable-validation-patterns.md)
 + Développement {#developing}
    + [Développement des composants principaux](/help/developing/overview.md)
    + [Chemins vers la succès](https://experienceleague.adobe.com/docs/experience-manager-core-components/using/success.html?lang=fr)
