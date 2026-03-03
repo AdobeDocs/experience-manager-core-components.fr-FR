@@ -49,7 +49,7 @@ Le composant principal Case d’option des formulaires adaptatifs a été publi�
 
 | Version du composant | AEM as a Cloud Service | AEM 6.5.16.0 Forms ou version ultérieure |
 |---|---|---|
-| v2 | Compatible avec <br>[ version 3.0.142](/help/adaptive-forms/version.md) et versions ultérieures | |
+| v2 | Compatible avec <br>[&#x200B; version 3.0.142](/help/adaptive-forms/version.md) et versions ultérieures | |
 | v1 | Compatible avec la <br>[version 2.0.4](/help/adaptive-forms/version.md) et les versions ultérieures | Compatible avec les<br>[versions 1.1.12](/help/adaptive-forms/version.md) à 2.0.0 exclue. |
 
 
@@ -181,7 +181,7 @@ Les composants principaux de Forms adaptatifs utilisent des `<fieldset>` sémant
 
 Les composants Bouton radio (v2) s’affichent dans un élément `<fieldset>`, le libellé du groupe étant encapsulé dans un `<legend>` en tant que premier enfant. Les attributs ARIA redondants ou non valides sont supprimés et les libellés individuels sont correctement associés à leurs entrées respectives. Cela permet de s’assurer que les lecteurs d’écran lisent clairement chaque libellé de bouton radio, ainsi que son contexte de groupe.
 
-![ bouton radio ](/help/adaptive-forms/assets/radiobutton-fieldset.png)
+![&#x200B; bouton radio &#x200B;](/help/adaptive-forms/assets/radiobutton-fieldset.png)
 
 ## Articles connexes {#related-articles}
 
