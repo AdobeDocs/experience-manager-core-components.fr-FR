@@ -3,10 +3,10 @@ title: Composant principal des formulaires adaptatifs - Groupe de cases à coche
 description: Utilisation ou personnalisation du composant principal « Groupe de cases à cocher » des formulaires adaptatifs.
 role: Architect, Developer, Admin, User
 exl-id: 2ced0223-e664-470b-a400-b6865d3a67c9
-source-git-commit: 6725784bd4c94d433c91d6bd65d14d03cbefd954
-workflow-type: ht
-source-wordcount: '2101'
-ht-degree: 100%
+source-git-commit: e9354f24e1f2f8cd1e899dbd999e80406b5ce2bc
+workflow-type: tm+mt
+source-wordcount: '2315'
+ht-degree: 91%
 
 ---
 
@@ -53,17 +53,22 @@ Le composant principal Groupe de cases à cocher des formulaires adaptatifs a é
 
 | Version du composant | AEM as a Cloud Service | AEM 6.5.16.0 Forms ou version ultérieure |
 |---|---|---|
+| v2 | Compatible avec <br>[ version 3.0.142](/help/adaptive-forms/version.md) et versions ultérieures | |
 | v1 | Compatible avec la <br>[version 2.0.4](/help/adaptive-forms/version.md) et les versions ultérieures | Compatible avec les<br>[versions 1.1.12](/help/adaptive-forms/version.md) à 2.0.0 exclue. |
 
 Pour plus d’informations sur les versions et publications des composants principaux, consultez le document [Versions des composants principaux](/help/adaptive-forms/version.md).
 
+>[!NOTE]
+>
+> La version v1 du composant principal Groupe de cases à cocher prend en charge WCAG 2.1, qui se concentre sur la rendre accessible en suivant les bonnes pratiques en matière de convivialité et de lisibilité. La version v2 prend en charge WCAG 2.2, qui va encore plus loin en mettant l’accent sur une accessibilité claire, prévisible et sans ambiguïté par le biais d’un regroupement logique et sémantique des champs associés, ce qui en fait une exigence essentielle pour la conception de formulaire inclusive.
+
 <!-- ## Sample Component Output {#sample-component-output}
 
-To experience the Accordion Component as well as see examples of its configuration options as well as HTML and JSON output, visit the [Component Library](https://adobe.com/go/aem_cmp_library_accordion_fr). -->
+To experience the Accordion Component as well as see examples of its configuration options as well as HTML and JSON output, visit the [Component Library](https://adobe.com/go/aem_cmp_library_accordion). -->
 
 ## Détails techniques {#technical-details}
 
-Retrouvez les dernières informations sur le composant principal « Groupe de cases à cocher » des formulaires adaptatifs dans la documentation technique sur [GitHub](https://github.com/adobe/aem-core-forms-components/tree/master/ui.af.apps/src/main/content/jcr_root/apps/core/fd/components/form/checkboxgroup/v1/checkboxgroup). Pour plus d’informations sur le développement des composants principaux, consultez la [Documentation destinée aux développeurs et développeuses de composants principaux](/help/developing/overview.md).
+Retrouvez les dernières informations sur le composant principal « Groupe de cases à cocher » des formulaires adaptatifs dans la documentation technique sur [GitHub](https://github.com/adobe/aem-core-forms-components/tree/master/ui.af.apps/src/main/content/jcr_root/apps/core/fd/components/form/checkboxgroup/v1/checkboxgroup). Pour plus d’informations sur le développement des composants principaux, consultez la [documentation relative au développement des composants principaux](/help/developing/overview.md).
 
 ## Boîte de dialogue de configuration {#configure-dialog}
 
@@ -110,7 +115,7 @@ Vous pouvez facilement personnaliser l’expérience des cases à cocher pour le
    - **Vertical** - Lorsque cette option est sélectionnée, les cases à cocher s’affichent de haut en bas dans un formulaire adaptatif.
 
 - **Options par défaut** - Cette option vous permet d’ajouter des valeurs par défaut présélectionnées au chargement du formulaire. Utilisez l’icône Supprimer pour supprimer les options ajoutées. Si le **type de données de la valeur envoyée** est défini sur `Number` et que vous ajoutez des données de chaîne à **Options par défaut**, l’écran affiche un message d’erreur `Value type mismatch`.
-- **Masquer le composant** - Sélectionnez l’option pour masquer le composant du formulaire. Le composant reste accessible à d’autres fins, par exemple pour les calculs dans l’éditeur de règles. Cela s’avère utile lorsque vous devez stocker des informations qui n’ont pas besoin d’être affichées ou directement modifiées par les utilisateurs ou les utilisatrices.
+- **Masquer le composant** - Sélectionnez cette option pour masquer le composant du formulaire. Le composant reste accessible à d’autres fins, par exemple pour les calculs dans l’éditeur de règles. Cela s’avère utile lorsque vous devez stocker des informations qui n’ont pas besoin d’être affichées ou directement modifiées par les utilisateurs ou les utilisatrices.
 - **Désactiver le composant** - Sélectionnez cette option pour désactiver le composant. Le composant désactivé n’est pas actif ni modifiable par l’utilisateur final ou l’utilisatrice finale. L’utilisateur ou l’utilisatrice peut voir la valeur du champ mais ne peut pas la modifier. Le composant reste accessible à d’autres fins, par exemple pour les calculs dans l’éditeur de règles.
 - **Lecture seule** - Sélectionnez cette option pour rendre le composant non modifiable. L’utilisateur ou l’utilisatrice peut voir la valeur du champ mais ne peut pas la modifier. Le composant reste accessible à d’autres fins, par exemple pour les calculs dans l’éditeur de règles.
 
@@ -173,9 +178,19 @@ Les propriétés personnalisées vous permettent d’associer des attributs pers
 
    - **Réorganiser** : appuyez ou cliquez et faites glisser pour réorganiser l’ordre du nom et de la valeur des propriétés personnalisées.
 
+## Prise en charge des jeux de champs et des légendes pour le groupe de cases à cocher (v2)
+
+<span class="preview"> Cette fonctionnalité est disponible via le programme d’accès anticipé. Pour demander l’accès, envoyez un e-mail à partir de votre adresse officielle à [aem-forms-ea@adobe.com](mailto:aem-forms-ea@adobe.com). </span>
+
+Les composants principaux de Forms adaptatif utilisent des `<fieldset>` sémantiques et `<legend>` des éléments HTML pour améliorer l’accessibilité des groupes de cases à cocher. Ces éléments permettent aux lecteurs d’écran d’interpréter avec précision la structure des formulaires et de transmettre les relations entre les libellés de groupe et leurs options.
+
+Le composant de groupe de cases à cocher (v2) s’affiche dans un élément de `<fieldset>`, avec le libellé de groupe encapsulé dans un `<legend>` comme premier enfant. Cette structure permet de s’assurer que les lecteurs d’écran annoncent le libellé du groupe avant de lire les options de case à cocher individuelles, ce qui facilite la compréhension du contexte et de l’objectif de chaque option par les utilisateurs et utilisatrices dotés de technologies d’assistance.
+
+![checkbox fieldset](/help/adaptive-forms/assets/checkbox-fieldset.png)
+
 ## Articles connexes {#related-articles}
 
-{{more-like-this}})
+{{more-like-this}}
 
 ## Voir également {#see-also}
 

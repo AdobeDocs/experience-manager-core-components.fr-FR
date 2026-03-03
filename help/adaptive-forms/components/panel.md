@@ -3,10 +3,10 @@ title: Composant principal de formulaires adaptatifs - Conteneur de panneau
 description: Utilisation ou personnalisation du composant principal Conteneur de panneau de formulaires adaptatifs.
 role: Architect, Developer, Admin, User
 exl-id: 104836fe-8325-47de-978d-1ff2d6a9dd15
-source-git-commit: 6725784bd4c94d433c91d6bd65d14d03cbefd954
-workflow-type: ht
-source-wordcount: '0'
-ht-degree: 100%
+source-git-commit: d1e1a1aea38de931dc3902c43db8c48f4bc7c0cb
+workflow-type: tm+mt
+source-wordcount: '2331'
+ht-degree: 96%
 
 ---
 
@@ -35,11 +35,11 @@ Il existe plusieurs raisons d’utiliser un panneau dans un formulaire, notammen
 
 - **Création de sections réductibles** : les panneaux peuvent être utilisés pour créer des sections réductibles, ce qui peut s’avérer utile pour masquer les champs de formulaire complexes ou moins fréquemment utilisés, et donc faciliter et simplifier l’utilisation du formulaire.
 
-- **Améliorations apportées à l’utilisation** : en utilisant des panneaux pour organiser les éléments de formulaire, le formulaire est plus convivial et plus facile à utiliser, ce qui peut aboutir à des taux de remplissage plus élevés.
+- **Améliorations apportées à l’utilisation** : en utilisant des panneaux pour organiser les éléments de formulaire, le formulaire est plus convivial et plus facile à utiliser, ce qui peut aboutir à des taux d’achèvement plus élevés.
 
 ## Version et compatibilité {#version-and-compatibility}
 
-Le composant principal Conteneur de panneau des formulaires adaptatifs a été publié en février 2023 dans le cadre de la version 2.0.4 des composants principaux. Voici un tableau présentant toutes les versions prises en charge, la compatibilité AEM et les liens vers la documentation correspondante :
+Le composant principal Conteneur de panneau de Forms adaptatif a été publié en février 2023 dans le cadre de la version 2.0.4 des composants principaux. Vous trouverez ci-dessous un tableau détaillant les versions prises en charge, la compatibilité avec AEM et les liens vers la documentation correspondante :
 
 |  |  |
 |---|---|
@@ -51,11 +51,11 @@ Pour plus d’informations sur les versions et publications des composants princ
 
 <!-- ## Sample Component Output {#sample-component-output}
 
-To experience the Accordion Component as well as see examples of its configuration options as well as HTML and JSON output, visit the [Component Library](https://adobe.com/go/aem_cmp_library_accordion_fr). -->
+To experience the Accordion Component as well as see examples of its configuration options as well as HTML and JSON output, visit the [Component Library](https://adobe.com/go/aem_cmp_library_accordion). -->
 
 ## Détails techniques {#technical-details}
 
-Obtenez les dernières informations sur le composant principal Conteneur de panneau des formulaires adaptatifs dans la documentation technique sur [GitHub](https://github.com/adobe/aem-core-forms-components/tree/master/ui.af.apps/src/main/content/jcr_root/apps/core/fd/components/form/panelcontainer/v1/panelcontainer). Pour plus d’informations sur le développement des composants principaux, consultez la [documentation destinée aux développeurs et développeuses de composants principaux](/help/developing/overview.md).
+Obtenez les dernières informations sur le composant principal Conteneur de panneau des formulaires adaptatifs dans la documentation technique sur [GitHub](https://github.com/adobe/aem-core-forms-components/tree/master/ui.af.apps/src/main/content/jcr_root/apps/core/fd/components/form/panelcontainer/v1/panelcontainer). Pour plus d’informations sur le développement des composants principaux, consultez la [documentation relative au développement des composants principaux](/help/developing/overview.md).
 
 ## Boîte de dialogue de configuration {#configure-dialog}
 
@@ -97,6 +97,10 @@ Vous pouvez facilement personnaliser l’expérience de votre conteneur de panne
      ```JSON
         { "Street": "123 Main Street", "City": "New York", "Zip Code": "12345" }
      ```
+
+- **Regrouper les champs sous un en-tête de section** : sélectionnez cette option pour organiser les champs de formulaire associés sous un en-tête de section commun. Ce regroupement permet de s’assurer que les technologies d’assistance, telles que les lecteurs d’écran, peuvent identifier et annoncer les champs regroupés en tant qu’unité unique et cohérente, améliorant ainsi l’accessibilité du formulaire et la navigation pour tous les utilisateurs et utilisatrices.
+
+  ![Champ de groupe de panneaux](/help/adaptive-forms/assets/panel-fieldset.png)
 
 - **Référence Bind** - Une référence Bind est une référence à un élément de données stockée dans une source de données externe et utilisée dans un formulaire. La référence de liaison vous permet de lier dynamiquement les données aux champs du formulaire, de sorte que le formulaire puisse afficher les données les plus récentes de la source de données. Par exemple, une référence de liaison peut être utilisée pour afficher le nom et l’adresse d’un client ou d’une cliente dans un formulaire, en fonction de l’identifiant du client ou de la cliente saisi dans le formulaire. La référence de liaison peut également être utilisée pour mettre à jour la source de données avec les données saisies dans le formulaire. Ainsi, AEM Forms vous permet de créer des formulaires qui interagissent avec des sources de données externes, offrant ainsi une expérience utilisateur fluide pour la collecte et la gestion des données.
 - **Masquer le composant** - Sélectionnez cette option pour masquer le composant du formulaire. Le composant reste accessible à d’autres fins, par exemple pour les calculs dans l’éditeur de règles. Cela s’avère utile lorsque vous devez stocker des informations qui n’ont pas besoin d’être affichées ou directement modifiées par les utilisateurs ou les utilisatrices.
@@ -201,7 +205,7 @@ Les propriétés personnalisées vous permettent d’associer des attributs pers
 
 ## Related article {#related-article}
 
-* [Create a standalone Adaptive Form](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/creating-adaptive-form-core-components.html?lang=fr)
+* [Create a standalone Adaptive Form](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/creating-adaptive-form-core-components.html)
 
 -->
 
