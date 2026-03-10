@@ -3,10 +3,10 @@ title: Composant Table des matières
 description: Le composant Table des matières permet de créer une table des matières basée sur les titres du contenu de votre page. Vos lecteurs peuvent ainsi naviguer rapidement dans la page.
 role: Architect, Developer, Admin, User
 exl-id: 006adde2-ebff-4e74-8e79-325cccd43e8f
-source-git-commit: dd30def59a8f037864da875ef4c831b11f766e57
-workflow-type: ht
-source-wordcount: '0'
-ht-degree: 100%
+source-git-commit: 1987431c99a1e4b834c86ea731c52a19909b297b
+workflow-type: tm+mt
+source-wordcount: '753'
+ht-degree: 98%
 
 ---
 
@@ -43,13 +43,13 @@ Pour plus d’informations sur les versions et les publications des composants p
 >
 >Sur AEM as a Cloud Service, votre administrateur ou adminstratrice doit activer un filtre pour le composant afin que ce dernier effectue le rendu de son contenu.
 >
->Pour plus d’informations, [consultez la documentation GitHub du composant.](https://adobe.com/go/aem_cmp_tech_tableofcontents_v1_fr).
+>Pour plus d’informations, [consultez la documentation GitHub du composant.](https://adobe.com/go/aem_cmp_tech_tableofcontents_v1).
 
 ### Détails techniques {#technical-details}
 
-La documentation technique la plus récente sur le composant Table des matières [se trouve sur GitHub](https://adobe.com/go/aem_cmp_tech_tableofcontents_v1_fr).
+La documentation technique la plus récente sur le composant Table des matières [se trouve sur GitHub](https://adobe.com/go/aem_cmp_tech_tableofcontents_v1).
 
-Vous trouverez plus d’informations sur le développement des composants principaux dans la [documentation destinée aux développeurs de composants principaux](/help/developing/overview.md).
+Vous trouverez plus d’informations sur le développement des composants principaux dans la [documentation relative au développement des composants principaux](/help/developing/overview.md).
 
 ## Boîte de dialogue de modification {#edit-dialog}
 
@@ -85,8 +85,4 @@ La boîte de dialogue de modification permet au créateur du contenu de définir
 
 ### Onglet Styles {#styles-tab}
 
-Le composant Table des matières prend en charge le [Système de style](/help/get-started/authoring.md#component-styling) AEM.
-
-## Couche de données client Adobe {#data-layer}
-
-Le composant Table des matières prend en charge la [Couche de données client Adobe](/help/developing/data-layer/overview.md).
+Le composant Table des matières prend en charge le [système de style](/help/get-started/authoring.md#component-styling) AEM.
