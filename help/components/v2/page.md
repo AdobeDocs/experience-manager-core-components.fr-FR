@@ -34,7 +34,7 @@ Ce document décrit la version v2 du composant Page, introduite à l’origine 
 
 ## Prise en charge des applications web progressives {#pwa-support}
 
-La version 2.15.0 des composants principaux a introduit la prise en charge des fonctionnalités intégrées d’AEM as a Cloud Service [Progressive Web Apps (PWA) ](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/features/enable-pwa.html?lang=fr). Avec une configuration simple au niveau du site, transformez votre expérience AEM en un PWA !
+La version 2.15.0 des composants principaux a introduit la prise en charge des fonctionnalités intégrées d’AEM as a Cloud Service [Progressive Web Apps (PWA) &#x200B;](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/features/enable-pwa.html?lang=fr). Avec une configuration simple au niveau du site, transformez votre expérience AEM en un PWA !
 
 ### Détails techniques {#technical-details}
 

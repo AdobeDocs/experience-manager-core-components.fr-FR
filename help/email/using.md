@@ -18,7 +18,7 @@ Découvrez l’installation, la configuration et l’utilisation de base des com
 
 ## Installation des composants principaux d’e-mail {#installation}
 
-Les composants principaux d’e-mail peuvent être utilisés avec AEM 6.5. Pour plus d’informations](introduction.md#requirements) consultez la section [ Conditions requises du document d’introduction aux composants principaux d’e-mail .
+Les composants principaux d’e-mail peuvent être utilisés avec AEM 6.5. Pour plus d’informations[&#128279;](introduction.md#requirements) consultez la section  Conditions requises du document d’introduction aux composants principaux d’e-mail .
 
 ### Installer les composants principaux {#core-components}
 

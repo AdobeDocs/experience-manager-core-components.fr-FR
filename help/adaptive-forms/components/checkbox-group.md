@@ -53,7 +53,7 @@ Le composant principal Groupe de cases à cocher des formulaires adaptatifs a é
 
 | Version du composant | AEM as a Cloud Service | AEM 6.5.16.0 Forms ou version ultérieure |
 |---|---|---|
-| v2 | Compatible avec <br>[ version 3.0.142](/help/adaptive-forms/version.md) et versions ultérieures | |
+| v2 | Compatible avec <br>[&#x200B; version 3.0.142](/help/adaptive-forms/version.md) et versions ultérieures | |
 | v1 | Compatible avec la <br>[version 2.0.4](/help/adaptive-forms/version.md) et les versions ultérieures | Compatible avec les<br>[versions 1.1.12](/help/adaptive-forms/version.md) à 2.0.0 exclue. |
 
 Pour plus d’informations sur les versions et publications des composants principaux, consultez le document [Versions des composants principaux](/help/adaptive-forms/version.md).

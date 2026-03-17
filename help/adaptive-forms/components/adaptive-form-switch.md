@@ -41,7 +41,7 @@ Le composant principal de commutateur de Forms adaptatif a été publié dans le
 |---|---|
 | Version du composant | AEM as a Cloud Service |
 | --- | --- |
-| v1 | Compatible avec <br>[ version 2.0.64](/help/adaptive-forms/version.md) et versions ultérieures\|Compatible\|Compatible |
+| v1 | Compatible avec <br>[&#x200B; version 2.0.64](/help/adaptive-forms/version.md) et versions ultérieures\|Compatible\|Compatible |
 
 Pour plus d’informations sur les versions et publications des composants principaux, consultez le document [Versions des composants principaux](/help/adaptive-forms/version.md).
 

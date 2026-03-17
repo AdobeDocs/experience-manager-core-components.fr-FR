@@ -69,7 +69,7 @@ Lorsque le formulaire est envoyé, le type d’action Publier les données de fo
 * **Message d’erreur** : message qui s’affiche si l’envoi échoue
 
 >[!TIP]
->Un administrateur système peut ajuster d’autres options de délai d’expiration pour gérer le traitement des données de formulaire transférées. [Pour plus d’informations, consultez la documentation technique sur GitHub ](https://github.com/adobe/aem-core-wcm-components/tree/master/content/src/content/jcr_root/apps/core/wcm/components/form/actions/rpc).
+>Un administrateur système peut ajuster d’autres options de délai d’expiration pour gérer le traitement des données de formulaire transférées. [Pour plus d’informations, consultez la documentation technique sur GitHub &#x200B;](https://github.com/adobe/aem-core-wcm-components/tree/master/content/src/content/jcr_root/apps/core/wcm/components/form/actions/rpc).
 
 ### Courrier {#mail}
 

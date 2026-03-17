@@ -44,7 +44,7 @@ Le composant principal Onglets verticaux de Forms adaptatif a été publié dans
 |---|---|
 | Version du composant | AEM as a Cloud Service |
 | --- | --- |
-| v1 | Compatible avec <br>[ version 2.0.18](/help/adaptive-forms/version.md) et versions ultérieures\|Compatible\|Compatible |
+| v1 | Compatible avec <br>[&#x200B; version 2.0.18](/help/adaptive-forms/version.md) et versions ultérieures\|Compatible\|Compatible |
 
 Pour plus d’informations sur les versions et publications des composants principaux, consultez le document [Versions des composants principaux](/help/adaptive-forms/version.md).
 

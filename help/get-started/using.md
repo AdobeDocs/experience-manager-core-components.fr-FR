@@ -44,7 +44,7 @@ Gardez à l’esprit les points suivants lorsque vous utilisez les composants pr
 * Le pipeline de génération de projet génère des avertissements dans le journal s’il inclut également les composants principaux dans `/apps`. Il ignorera alors la version intégrée dans le cadre de votre projet.
    * Dans une prochaine version, l’ajout de composants principaux supplémentaires causera l’échec du processus de génération du pipeline.
 * Si votre projet incluait précédemment les composants principaux dans `/apps`, [vous devrez peut-être le paramétrer différemment](/help/developing/overview.md#via-aemaacs).
-* Même si les composants principaux sont désormais en `/libs`, il n’est pas recommandé de créer une superposition du même chemin dans `/apps`. [Le modèle de composant proxy ](/help/developing/guidelines.md#proxy-component-pattern) doit être utilisé à la place si l’un des aspects des composants doit être personnalisé.
+* Même si les composants principaux sont désormais en `/libs`, il n’est pas recommandé de créer une superposition du même chemin dans `/apps`. [Le modèle de composant proxy &#x200B;](/help/developing/guidelines.md#proxy-component-pattern) doit être utilisé à la place si l’un des aspects des composants doit être personnalisé.
 * Pour que le [composant Table des matières](/help/components/tableofcontents.md) puisse effectuer le rendu de son contenu, un filtre doit être configuré dans OSGi.
    * Pour plus d’informations, [consultez la documentation GitHub du composant.](https://adobe.com/go/aem_cmp_tech_tableofcontents_v1).
 

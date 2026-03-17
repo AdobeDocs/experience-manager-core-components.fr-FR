@@ -47,7 +47,7 @@ En outre, le composant Image d’e-mail prend en charge le chargement différé,
 
 ## Prise en charge de Dynamic Media {#dynamic-media}
 
-Le composant Image d’e-mail prend en charge les ressources [ Dynamic Media ](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/dynamicmedia/dynamic-media.html?lang=fr#dynamicmedia). [Lorsqu’elles sont activées](#design-dialog) ces fonctionnalités permettent d’ajouter des ressources d’image Dynamic Media par simple glisser-déposer ou via l’explorateur de ressources comme vous le feriez pour n’importe quelle autre image. En outre, les modificateurs d’image, les paramètres d’image prédéfinis et les recadrages intelligents sont également pris en charge.
+Le composant Image d’e-mail prend en charge les ressources [&#x200B; Dynamic Media &#x200B;](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/dynamicmedia/dynamic-media.html?lang=fr#dynamicmedia). [Lorsqu’elles sont activées](#design-dialog) ces fonctionnalités permettent d’ajouter des ressources d’image Dynamic Media par simple glisser-déposer ou via l’explorateur de ressources comme vous le feriez pour n’importe quelle autre image. En outre, les modificateurs d’image, les paramètres d’image prédéfinis et les recadrages intelligents sont également pris en charge.
 
 Vos expériences d’e-mail créées avec les composants principaux d’e-mail bénéficient des fonctionnalités d’image Dynamic Media sur plusieurs plateformes, riches, robustes, hautes performances et optimisées par Adobe AI.
 
