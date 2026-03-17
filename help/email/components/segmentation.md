@@ -37,7 +37,7 @@ Le tableau ci-après présente en détail toutes les versions prises en charge d
 
 ### Détails techniques {#technical-details}
 
-La documentation technique la plus récente sur le composant Teaser d’e-mail [se trouve sur GitHub](https://adobe.com/go/aem_cmp_tech_email_segmentation_v1).
+La documentation technique la plus récente sur le composant Teaser d’e-mail [se trouve sur GitHub](https://adobe.com/go/aem_cmp_tech_email_segmentation_v1_fr).
 
 Vous trouverez plus d’informations sur le développement des composants principaux dans la [documentation relative au développement des composants principaux](/help/developing/overview.md).
 
@@ -136,6 +136,6 @@ Appuyez ou cliquez sur le bouton **Ajouter** pour créer des conditions.
 * **Nom de la condition de segment** : description de la condition.
 * **Condition de segment** : condition réelle qui doit être remplie, en fonction des variables de personnalisation Adobe Campaign.
    * [Cliquez ici pour découvrir les ressources de personnalisation Adobe Campaign Standard.](https://experienceleague.adobe.com/docs/campaign-standard/using/designing-content/personalization.html?lang=fr)
-   * [Cliquez ici pour découvrir les ressources de personnalisation Adobe Campaign Classic.]&#x200B;(https://experienceleague.adobe.com/docs/)
+   * [Cliquez ici pour découvrir les ressources de personnalisation Adobe Campaign Classic.]&#x200B;(https://experienceleague.adobe.com/docs/?lang=fr)
 * **Supprimer** : appuyez ou cliquez pour supprimer la condition.
 * **Réorganiser** : appuyez ou cliquez sur les conditions et faites-les glisser pour les réorganiser.
