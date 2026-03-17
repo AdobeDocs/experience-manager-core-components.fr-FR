@@ -2,12 +2,12 @@
 title: Utilisation de la couche de données client Adobe avec les composants principaux
 description: Utilisation de la couche de données client Adobe avec les composants principaux
 feature: Core Components, Adobe Client Data Layer
-role: Architect, Developer, Admin
+role: Developer, Admin
 exl-id: 55c984d3-deb7-4eda-a81d-7768791d2b46
-source-git-commit: 8f0ece0eed42f72e919535c6da6e729e54d1d339
+source-git-commit: 7ba1374bd64686c2e7ac44398d77fb187ff60949
 workflow-type: tm+mt
-source-wordcount: '985'
-ht-degree: 96%
+source-wordcount: '1024'
+ht-degree: 93%
 
 ---
 
@@ -30,7 +30,7 @@ Tout comme les composants principaux, le code de la couche de données client Ad
 
 ## Installation et activation {#installation-activation}
 
-Depuis la version 2.9.0 des composants principaux, la couche de données est distribuée avec les composants principaux sous la forme d’une bibliothèque cliente AEM et aucune installation n’est nécessaire. Tous les projets générés par l’[archétype de projets AEM v. 24+](/help/developing/archetype/overview.md) incluent par défaut une couche de données activée.
+Depuis la version 2.9.0 des composants principaux, la couche de données est distribuée avec les composants principaux sous la forme d’une bibliothèque cliente AEM et aucune installation n’est nécessaire. Tous les projets générés par l’[archétype de projet AEM v. 24+](/help/developing/archetype/overview.md) incluent par défaut une couche de données activée.
 
 Pour activer manuellement la couche de données, vous devez créer une [configuration contextuelle](/help/developing/context-aware-configs.md) :
 
@@ -313,7 +313,7 @@ window.adobeDataLayer.push(function (dl) {
 
 ## Tutoriel
 
-Souhaitez-vous explorer plus en détail la couche de données et les composants principaux ? [Consultez ce tutoriel pratique](https://experienceleague.adobe.com/docs/experience-manager-learn/sites/integrations/adobe-client-data-layer/data-layer-overview.html?lang=fr).
+Vous souhaitez explorer plus en détail la couche de données et les composants principaux ? [Consultez ce tutoriel pratique](https://experienceleague.adobe.com/docs/experience-manager-learn/sites/integrations/adobe-client-data-layer/data-layer-overview.html?lang=fr).
 
 >[!TIP]
 >

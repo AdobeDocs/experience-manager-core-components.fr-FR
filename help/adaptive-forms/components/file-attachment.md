@@ -1,11 +1,11 @@
 ---
 title: Composant principal des formulaires adaptatifs - Pièce jointe
 description: Utilisation ou personnalisation du composant principal « Pièce jointe » des formulaires adaptatifs.
-role: Architect, Developer, Admin, User
+role: Developer, Admin, User
 exl-id: 64a54fc6-db52-481f-bf5a-60c05122004d
-source-git-commit: 6725784bd4c94d433c91d6bd65d14d03cbefd954
-workflow-type: ht
-source-wordcount: '0'
+source-git-commit: 7ba1374bd64686c2e7ac44398d77fb187ff60949
+workflow-type: tm+mt
+source-wordcount: '2089'
 ht-degree: 100%
 
 ---
@@ -48,13 +48,15 @@ Le composant principal de pièce jointe des formulaires adaptatifs a été publi
 
 Pour plus d’informations sur les versions et publications des composants principaux, consultez le document [Versions des composants principaux](/help/adaptive-forms/version.md).
 
-<!-- ## Sample Component Output {#sample-component-output}
+<!--
+## Sample Component Output {#sample-component-output}
 
-To experience the Accordion Component as well as see examples of its configuration options as well as HTML and JSON output, visit the [Component Library](https://adobe.com/go/aem_cmp_library_accordion_fr). -->
+To experience the Accordion Component as well as see examples of its configuration options as well as HTML and JSON output, visit the [Component Library](https://adobe.com/go/aem_cmp_library_accordion). 
+-->
 
 ## Détails techniques {#technical-details}
 
-Retrouvez les informations les plus récentes sur le composant principal « Pièce jointe » des formulaires adaptatifs dans la documentation technique sur [GitHub](https://github.com/adobe/aem-core-forms-components/tree/master/ui.af.apps/src/main/content/jcr_root/apps/core/fd/components/form/fileinput/v1/fileinput). Pour plus d’informations sur le développement des composants principaux, consultez la [documentation destinée aux développeurs et développeuses de composants principaux](/help/developing/overview.md).
+Retrouvez les informations les plus récentes sur le composant principal « Pièce jointe » des formulaires adaptatifs dans la documentation technique sur [GitHub](https://github.com/adobe/aem-core-forms-components/tree/master/ui.af.apps/src/main/content/jcr_root/apps/core/fd/components/form/fileinput/v1/fileinput). Pour plus d’informations sur le développement des composants principaux, consultez la [documentation relative au développement des composants principaux](/help/developing/overview.md).
 
 ## Boîte de dialogue de configuration {#configure-dialog}
 
@@ -102,7 +104,7 @@ Vous pouvez facilement personnaliser l’expérience de pièce jointe pour les v
 
 - **Types de fichiers autorisés** - Les différents types de fichiers qui peuvent être chargés à l’aide du bouton **Pièce jointe** sont ajoutés ici. Cette option permet également d’ajouter un nouveau format de fichier en cliquant sur le bouton **Ajouter**. Les formats de fichiers pris en charge sont les suivants : audio, vidéo, image, texte ou PDF. Vous pouvez également supprimer ou réorganiser les types de fichiers autorisés à l’aide de :
    - **Supprimer** - Appuyez ou cliquez sur supprimer pour supprimer certains types de fichier.
-   - **Réorganiser** - Appuyez ou faites glisser pour réorganiser l’ordre des types de fichier autorisés.
+   - **Réorganiser** - Appuyez ou cliquez et faites glisser pour réorganiser l’ordre des types de fichier autorisés.
 
   L’envoi d’un fichier en modifiant son type sur un format de types de fichiers autorisé renvoie une erreur lors de l’envoi du formulaire.
 - **Message d’erreur sur le type de fichier** - Cette option vous permet de saisir un message d’erreur qui s’affiche lorsque vous téléchargez des formats de fichiers autres que ceux répertoriés dans les **Types de fichiers autorisés**.
@@ -138,7 +140,7 @@ La boîte de dialogue de conception permet de définir et de gérer les styles C
 
 Le composant principal « Pièce jointe » des formulaires adaptatifs prend en charge le [Système de style](/help/get-started/authoring.md#component-styling) d’AEM.
 
-![Boîte de dialogue de conception](/help/adaptive-forms/assets/checkbox-style.png)
+![Boîte de dialogue de conception.](/help/adaptive-forms/assets/checkbox-style.png)
 
 - **Classes CSS par défaut** : vous pouvez fournir une classe CSS par défaut pour le composant principal « Pièce jointe » des formulaires adaptatifs.
 
@@ -161,7 +163,7 @@ Les propriétés personnalisées vous permettent d’associer des attributs pers
 
 ## Related article {#related-article}
 
-* [Create a standalone Adaptive Form](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/creating-adaptive-form-core-components.html?lang=fr)
+* [Create a standalone Adaptive Form](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/creating-adaptive-form-core-components.html)
 
 -->
 

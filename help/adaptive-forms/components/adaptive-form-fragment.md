@@ -1,11 +1,11 @@
 ---
 title: Fragment de formulaire adaptatif
 description: Utilisez des fragments de formulaire pour créer des segments de formulaire ou des groupes de champs et les réutiliser dans des formulaires adaptatifs afin d’améliorer l’efficacité et la possibilité de réutilisation.
-role: Architect, Developer, Admin, User
+role: Developer, Admin, User
 exl-id: bde4a416-1d6b-4e9e-ac74-70fccef473cb
-source-git-commit: 6725784bd4c94d433c91d6bd65d14d03cbefd954
-workflow-type: ht
-source-wordcount: '1952'
+source-git-commit: 6fc9e1732302f114ad5c9c037ce203af6324edf0
+workflow-type: tm+mt
+source-wordcount: '2093'
 ht-degree: 100%
 
 ---
@@ -50,13 +50,13 @@ Pour plus d’informations sur les versions et publications des composants princ
 
 ## Détails techniques {#technical-details}
 
-Retrouvez les dernières informations sur le composant principal Fragment des formulaires adaptatifs dans la documentation technique sur [GitHub](https://github.com/adobe/aem-core-forms-components/tree/master/ui.af.apps/src/main/content/jcr_root/apps/core/fd/components/form/fragment). Pour plus d’informations sur le développement des composants principaux, consultez la [documentation destinée aux développeurs et développeuses de composants principaux](/help/developing/overview.md).
+Retrouvez les dernières informations sur le composant principal Fragment des formulaires adaptatifs dans la documentation technique sur [GitHub](https://github.com/adobe/aem-core-forms-components/tree/master/ui.af.apps/src/main/content/jcr_root/apps/core/fd/components/form/fragment). Pour plus d’informations sur le développement des composants principaux, consultez la [documentation relative au développement des composants principaux](/help/developing/overview.md).
 
 ## Boîte de dialogue de configuration {#configure-dialog}
 
 Vous pouvez facilement personnaliser l’expérience du fragment pour les visiteurs et les visiteuses à l’aide de la boîte de dialogue Configurer. Vous pouvez également définir facilement les propriétés du fragment pour une expérience client transparente.
 
-### Onglet De base {#basic-tab}
+### Onglet de base {#basic-tab}
 
 ![Onglet De base](/help/adaptive-forms/assets/fragment-basictab.png)
 

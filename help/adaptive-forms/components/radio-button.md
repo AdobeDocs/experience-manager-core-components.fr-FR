@@ -1,9 +1,9 @@
 ---
 title: Composant principal des formulaires adaptatifs - Bouton radio
 description: Utilisation ou personnalisation du composant principal « Bouton radio » des formulaires adaptatifs.
-role: Architect, Developer, Admin, User
+role: Developer, Admin, User
 exl-id: 86b5e9ec-58ac-4cd5-9c7c-4269247ec34f
-source-git-commit: e9354f24e1f2f8cd1e899dbd999e80406b5ce2bc
+source-git-commit: 7ba1374bd64686c2e7ac44398d77fb187ff60949
 workflow-type: tm+mt
 source-wordcount: '2349'
 ht-degree: 91%
@@ -49,7 +49,7 @@ Le composant principal Case d’option des formulaires adaptatifs a été publi�
 
 | Version du composant | AEM as a Cloud Service | AEM 6.5.16.0 Forms ou version ultérieure |
 |---|---|---|
-| v2 | Compatible avec <br>[&#x200B; version 3.0.142](/help/adaptive-forms/version.md) et versions ultérieures | |
+| v2 | Compatible avec <br>[ version 3.0.142](/help/adaptive-forms/version.md) et versions ultérieures | |
 | v1 | Compatible avec la <br>[version 2.0.4](/help/adaptive-forms/version.md) et les versions ultérieures | Compatible avec les<br>[versions 1.1.12](/help/adaptive-forms/version.md) à 2.0.0 exclue. |
 
 
@@ -59,9 +59,11 @@ Pour plus d’informations sur les versions et publications des composants princ
 >
 > La version v1 du composant principal Groupe de cases à cocher prend en charge WCAG 2.1, qui se concentre sur la rendre accessible en suivant les bonnes pratiques en matière de convivialité et de lisibilité. La version v2 prend en charge WCAG 2.2, qui va encore plus loin en mettant l’accent sur une accessibilité claire, prévisible et sans ambiguïté par le biais d’un regroupement logique et sémantique des champs associés, ce qui en fait une exigence essentielle pour la conception de formulaire inclusive.
 
-<!-- ## Sample Component Output {#sample-component-output}
+<!--
+## Sample Component Output {#sample-component-output}
 
-To experience the Accordion Component as well as see examples of its configuration options as well as HTML and JSON output, visit the [Component Library](https://adobe.com/go/aem_cmp_library_accordion_fr). -->
+To experience the Accordion Component as well as see examples of its configuration options as well as HTML and JSON output, visit the [Component Library](https://adobe.com/go/aem_cmp_library_accordion). 
+-->
 
 ## Détails techniques {#technical-details}
 
@@ -181,7 +183,7 @@ Les composants principaux de Forms adaptatifs utilisent des `<fieldset>` sémant
 
 Les composants Bouton radio (v2) s’affichent dans un élément `<fieldset>`, le libellé du groupe étant encapsulé dans un `<legend>` en tant que premier enfant. Les attributs ARIA redondants ou non valides sont supprimés et les libellés individuels sont correctement associés à leurs entrées respectives. Cela permet de s’assurer que les lecteurs d’écran lisent clairement chaque libellé de bouton radio, ainsi que son contexte de groupe.
 
-![&#x200B; bouton radio &#x200B;](/help/adaptive-forms/assets/radiobutton-fieldset.png)
+![ bouton radio ](/help/adaptive-forms/assets/radiobutton-fieldset.png)
 
 ## Articles connexes {#related-articles}
 

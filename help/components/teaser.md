@@ -1,12 +1,12 @@
 ---
 title: Composant Teaser
 description: Le composant Teaser peut afficher une image, un titre, un texte enrichi et éventuellement un lien vers un contenu supplémentaire.
-role: Architect, Developer, Admin, User
+role: Developer, Admin, User
 exl-id: ec75e168-6f3b-4dff-8df6-06ca7dc18688
-source-git-commit: dd30def59a8f037864da875ef4c831b11f766e57
-workflow-type: ht
-source-wordcount: '0'
-ht-degree: 100%
+source-git-commit: 7ba1374bd64686c2e7ac44398d77fb187ff60949
+workflow-type: tm+mt
+source-wordcount: '1101'
+ht-degree: 93%
 
 ---
 
@@ -36,7 +36,7 @@ Le tableau ci-après présente en détail toutes les versions prises en charge d
 
 ## Prise en charge des ressources distantes {#remote-assets}
 
-Le composant Teaser (à partir de la [version 2.23.2](/help/versions.md)) prend en charge les ressources distantes. [Une fois la configuration effectuée,](/help/developing/remote-assets.md) vous pouvez sélectionner des ressources à partir d’un service distant pour votre composant Teaser.
+Le composant Teaser (à compter de la version [2.23.2](/help/versions.md)) prend en charge les ressources distantes. [Une fois configurées](/help/developing/remote-assets.md) vous pouvez sélectionner des ressources à partir d’un service distant pour votre composant Teaser.
 
 ## Exemple de sortie de composant {#sample-component-output}
 
@@ -46,7 +46,7 @@ Pour tester le composant Teaser et obtenir des exemples de ses options de config
 
 La documentation technique la plus récente sur le composant Teaser [se trouve sur GitHub](https://adobe.com/go/aem_cmp_tech_teaser_v1_fr).
 
-Vous trouverez plus d’informations sur le développement des composants principaux dans la [documentation destinée aux développeurs de composants principaux](/help/developing/overview.md).
+Vous trouverez plus d’informations sur le développement des composants principaux dans la [documentation relative au développement des composants principaux](/help/developing/overview.md).
 
 ## Boîte de dialogue de configuration {#configure-dialog}
 
@@ -56,7 +56,7 @@ L’auteur du contenu peut utiliser la boîte de dialogue de configuration pour 
 
 ![Onglet Liens de la boîte de dialogue de modification du composant Teaser](/help/assets/teaser-edit-links.png)
 
-Le titre, la description et l’image du teaser peuvent être hérités de la page liée ou de la page liée dans le premier appel à l’action. Si aucun lien ni appel à l’action n’est spécifié, le titre, la description et l’image seront hérités de la page active.
+Le titre, la description et l’image du teaser peuvent être hérités de la page liée ou de la page liée dans le premier call to action. Si aucun lien ni call to action n’est spécifié, le titre, la description et l’image seront hérités de la page active.
 
 * **Lien** : ce fichier établit un lien vers une page de contenu, une URL externe ou une ancre de page.
 * **Ouvrir le lien dans un nouvel onglet** : si cette option est activée, le lien s’ouvre dans un nouvel onglet du navigateur.
@@ -121,7 +121,7 @@ La boîte de dialogue de conception permet à l’auteur du modèle de définir 
    * **Masquer le prétitre** : masque l’option **Prétitre** pour les auteurs de contenu.
    * **Masquer le titre** : masque l’option **Titre** pour les auteurs de contenu
       * Lorsque cette option est sélectionnée, le **Type de titre** est masqué
-   * **Masquer la description** : masque l’option **Description** pour les auteurs de contenu
+   * **Masquer la description** : masque l’option **Description** pour les auteurs de contenu.
 * **Type de titre par défaut** : définit la balise H que le titre du teaser doit utiliser.
 * **Délégué d’image** : affichage d’informations indiquant à quel composant le teaser délègue la gestion des images.
 

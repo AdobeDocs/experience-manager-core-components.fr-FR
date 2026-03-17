@@ -1,12 +1,12 @@
 ---
 title: Composant principal des formulaires adaptatifs - Pied de page
 description: Utilisation ou personnalisation du composant principal Pied de page des formulaires adaptatifs.
-role: Architect, Developer, Admin, User
+role: Developer, Admin, User
 exl-id: c8e7d3fe-4b82-4a80-8da2-19f6cff1e3e9
-source-git-commit: 6725784bd4c94d433c91d6bd65d14d03cbefd954
-workflow-type: ht
-source-wordcount: '767'
-ht-degree: 100%
+source-git-commit: 7ba1374bd64686c2e7ac44398d77fb187ff60949
+workflow-type: tm+mt
+source-wordcount: '783'
+ht-degree: 94%
 
 ---
 
@@ -45,13 +45,15 @@ Le composant principal Pied de page des formulaires adaptatifs a été publié e
 
 Pour plus d’informations sur les versions et publications des composants principaux, consultez le document [Versions des composants principaux](/help/adaptive-forms/version.md).
 
-<!-- ## Sample Component Output {#sample-component-output}
+<!--
+## Sample Component Output {#sample-component-output}
 
-To experience the Accordion Component as well as see examples of its configuration options as well as HTML and JSON output, visit the [Component Library](https://adobe.com/go/aem_cmp_library_accordion_fr). -->
+To experience the Accordion Component as well as see examples of its configuration options as well as HTML and JSON output, visit the [Component Library](https://adobe.com/go/aem_cmp_library_accordion). 
+-->
 
 ## Détails techniques {#technical-details}
 
-Découvrez les informations les plus récentes sur le composant principal Pied de page des formulaires adaptatifs dans la documentation technique de [GitHub](https://github.com/adobe/aem-core-forms-components/tree/master/ui.af.apps/src/main/content/jcr_root/apps/core/fd/components/form/footer/v1/footer). Pour plus d’informations sur le développement des composants principaux, consultez la [documentation destinée aux développeurs et développeuses de composants principaux](/help/developing/overview.md).
+Découvrez les informations les plus récentes sur le composant principal Pied de page des formulaires adaptatifs dans la documentation technique de [GitHub](https://github.com/adobe/aem-core-forms-components/tree/master/ui.af.apps/src/main/content/jcr_root/apps/core/fd/components/form/footer/v1/footer). Pour plus d’informations sur le développement des composants principaux, consultez la [documentation relative au développement des composants principaux](/help/developing/overview.md).
 
 
 ## Boîte de dialogue de configuration {#configure-dialog}
@@ -63,9 +65,9 @@ Vous pouvez facilement personnaliser votre expérience de pied de page pour les 
 - **Boîte de dialogue Modifier**
 La boîte de dialogue de modification fournit des outils de mise en forme de texte enrichi standard qui permettent à l’utilisateur ou à l’utilisatrice de créer du texte pour le pied de page.
 
-- **Gras** - Cette option est utilisée pour appliquer le format Gras au texte sélectionné ou au texte saisi après le curseur. `Ctrl+B` est un raccourci clavier.
+- **Gras** - Cette option met le texte sélectionné en gras ou en gras   mettre en forme le texte saisi après le curseur. `Ctrl+B` est un raccourci clavier.
 
-- **Italique** - Cette option applique une mise en forme en italique au texte sélectionné ou au texte saisi après le curseur. `Ctrl+I` est un raccourci clavier.
+- **Italique** - Cette option applique une mise en forme en italique au texte ou au texte sélectionné   texte en italique saisi après le curseur. `Ctrl+I` est un raccourci clavier.
 
 ![Options de puces](/help/adaptive-forms/assets/footer_bullet.png)
 
@@ -112,7 +114,7 @@ La boîte de dialogue de modification fournit des outils de mise en forme de tex
 
 ## Related article {#related-article}
 
-* [Create a standalone Adaptive Form](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/creating-adaptive-form-core-components.html?lang=fr)
+* [Create a standalone Adaptive Form](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/creating-adaptive-form-core-components.html)
 
 -->
 

@@ -1,13 +1,13 @@
 ---
 title: Composant Page (v2)
 description: Le composant Page est un composant de page extensible, conçu pour fonctionner avec l’éditeur de modèles et autoriser l’assemblage de composants d’en-tête/de pied de page et de structure à l’aide de l’éditeur de modèles.
-role: Architect, Developer, Admin, User
+role: Developer, Admin, User
 exl-id: e85fe4db-6de4-4a84-a54c-bd07a67efed3
-index: n
-source-git-commit: 92a3ec273a5be6751c1503835b9c2e5cbd61bb9e
-workflow-type: ht
-source-wordcount: '618'
-ht-degree: 100%
+index: false
+source-git-commit: 7ba1374bd64686c2e7ac44398d77fb187ff60949
+workflow-type: tm+mt
+source-wordcount: '662'
+ht-degree: 94%
 
 ---
 
@@ -34,13 +34,13 @@ Ce document décrit la version v2 du composant Page, introduite à l’origine 
 
 ## Prise en charge des applications web progressives {#pwa-support}
 
-La version 2.15.0 des composants principaux a introduit la prise en charge d’AEM as a Cloud Service de façon intégrée dans les fonctionnalités des [applications web progressives (PWA).](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/features/enable-pwa.html?lang=fr) Grâce à cette simple configuration au niveau du site, transformez votre expérience AEM en PWA !
+La version 2.15.0 des composants principaux a introduit la prise en charge des fonctionnalités intégrées d’AEM as a Cloud Service [Progressive Web Apps (PWA) ](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/features/enable-pwa.html?lang=fr). Avec une configuration simple au niveau du site, transformez votre expérience AEM en un PWA !
 
 ### Détails techniques {#technical-details}
 
 La documentation technique la plus récente sur le composant Page [se trouve sur GitHub](https://adobe.com/go/aem_cmp_tech_page_v2_fr).
 
-Vous trouverez plus d’informations sur le développement des composants principaux dans la [documentation destinée aux développeurs de composants principaux](/help/developing/overview.md).
+Vous trouverez plus d’informations sur le développement des composants principaux dans la [documentation relative au développement des composants principaux](/help/developing/overview.md).
 
 ## Boîte de dialogue de modification {#edit-dialog}
 

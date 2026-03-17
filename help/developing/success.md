@@ -1,11 +1,11 @@
 ---
 title: Chemins vers la réussite avec les composants principaux
 description: Réussir la mise en œuvre de votre projet avec les composants principaux
-role: Architect, Developer, Admin, User
+role: Developer, Admin, User
 exl-id: 1ea8cd1c-8435-4ded-82dc-5a7896c53e0c
-source-git-commit: b1d38310a3f05e2dd2a68de1574a278bac2c78e7
+source-git-commit: 7ba1374bd64686c2e7ac44398d77fb187ff60949
 workflow-type: tm+mt
-source-wordcount: '541'
+source-wordcount: '592'
 ht-degree: 100%
 
 ---
@@ -37,11 +37,11 @@ Au lieu de considérer uniquement les composants principaux lors de la phase de 
 
 ### Utilisez la bibliothèque de composants {#component-library}
 
-Consultez la [bibliothèque de composants](https://adobe.com/go/aem_cmp_library_fr) dès la phase de conception. Les composants principaux sont puissants et flexibles et peuvent vous amener loin dès le début. Ajoutez uniquement des composants personnalisés lorsqu’il existe un réel besoin métier qui ne peut pas être réalisé de manière raisonnable avec un composant principal.
+Consultez la [bibliothèque de composants](https://adobe.com/go/aem_cmp_library_fr) dès la phase de conception. Les composants principaux sont puissants et flexibles et peuvent vous amener loin dès le début. Ajoutez uniquement des composants personnalisés lorsqu’il existe un réel besoin qui ne peut pas être réalisé de manière raisonnable avec un composant principal.
 
 ### Utilisez le kit d’interface utilisateur pour Adobe XD {#ui-kit}
 
-Dès qu’un composant personnalisé s’avère nécessaire, utilisez le kit d’interface utilisateur pour Adobe XD, [qui peut être téléchargé ici](https://experienceleague.adobe.com/docs/experience-manager-learn/assets/AEM-CoreComponents-UI-Kit.xd?lang=fr), afin que les concepteurs et les conceptrices puissent commencer à créer les maquettes et les conceptions en se servant des composants principaux comme blocs de création.
+Dès qu’un composant personnalisé s’avère nécessaire, utilisez le kit d’interface utilisateur pour Adobe XD, [qui peut être téléchargé ici](https://experienceleague.adobe.com/docs/experience-manager-learn/assets/AEM-CoreComponents-UI-Kit.xd), afin que les concepteurs et les conceptrices puissent commencer à créer les maquettes et les conceptions en se servant des composants principaux comme blocs de création.
 
 ## Ne passez pas à côté de leurs puissantes fonctionnalités {#powerful-features}
 

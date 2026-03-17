@@ -1,11 +1,11 @@
 ---
 title: Composant de bouton de formulaire
-description: Le composant Formulaire masqué des composants principaux permet l’inclusion d’un champ masqué dans un formulaire.
-role: Architect, Developer, Admin, User
+description: Le composant Masqué du formulaire des composants principaux permet l’inclusion d’un champ masqué dans un formulaire.
+role: Developer, Admin, User
 exl-id: 1e5cff43-57db-4bfc-b2d2-23307eaf5eb3
-source-git-commit: 6fbc781db555bc6abaed1d122a9a8756e3d53222
-workflow-type: ht
-source-wordcount: '413'
+source-git-commit: 7ba1374bd64686c2e7ac44398d77fb187ff60949
+workflow-type: tm+mt
+source-wordcount: '416'
 ht-degree: 100%
 
 ---
@@ -28,7 +28,7 @@ Le tableau ci-après présente en détail toutes les versions prises en charge d
 
 | Version du composant | AEM 6.4 | AEM 6.5 | AEM 6.5 LTS | AEM as a Cloud Service |
 |--- |--- |--- |---|---|
-| v2 | Compatible avec la <br>[version 2.17.4](/help/versions.md) et versions antérieures. | Compatible | Compatible | Compatible |
+| v2 | Compatible avec la <br>[version 2.17.4](/help/versions.md) et versions antérieures | Compatible | Compatible | Compatible |
 | [v1](/help/components/v1/form-button-v1.md) | Compatible | Compatible | - | Compatible |
 
 Pour plus d’informations sur les versions et les publications des composants principaux, voir le document sur les [versions des composants principaux](/help/versions.md).
@@ -41,7 +41,7 @@ Pour tester le composant de bouton de formulaire et obtenir des exemples d’opt
 
 La documentation technique la plus récente sur le composant de bouton de formulaire [se trouve sur GitHub](https://adobe.com/go/aem_cmp_tech_form_button_v2_fr).
 
-Vous trouverez plus d’informations sur le développement des composants principaux dans la [documentation destinée aux développeurs de composants principaux](/help/developing/overview.md).
+Vous trouverez plus d’informations sur le développement des composants principaux dans la [documentation relative au développement des composants principaux](/help/developing/overview.md).
 
 ## Boîte de dialogue de configuration {#configure-dialog}
 

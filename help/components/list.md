@@ -1,17 +1,17 @@
 ---
-title: 'Composant Liste '
+title: Composant Liste
 description: Le composant Liste des composants principaux permet de créer facilement des listes dynamiques et statiques.
-role: Architect, Developer, Admin, User
+role: Developer, Admin, User
 exl-id: 662ab508-0253-4d28-b95c-8c4cde8173bd
-source-git-commit: dd30def59a8f037864da875ef4c831b11f766e57
-workflow-type: ht
-source-wordcount: '0'
+source-git-commit: 6fc9e1732302f114ad5c9c037ce203af6324edf0
+workflow-type: tm+mt
+source-wordcount: '1214'
 ht-degree: 100%
 
 ---
 
 
-# Composant Liste {#list-component}
+# Composant Liste{#list-component}
 
 Le composant Liste des composants principaux permet de créer facilement des listes dynamiques et statiques.
 
@@ -29,7 +29,7 @@ Le tableau ci-après présente en détail toutes les versions prises en charge d
 
 | Version du composant | AEM 6.4 | AEM 6.5 | AEM 6.5 LTS | AEM as a Cloud Service |
 |--- |--- |--- |---|---|
-| v4 | - | Compatible | Compatible |
+| v4 | - | Compatible | Compatible | |
 | [v3](/help/components/v3/list.md) | - | Compatible | Compatible | Compatible |
 | [v2](/help/components/v2/list.md) | Compatible | Compatible | - | Compatible |
 | [v1](/help/components/v1/list-v1.md) | Compatible | Compatible | - | Compatible |
@@ -55,7 +55,7 @@ Pour tester le composant de liste et obtenir des exemples d’options de configu
 
 La documentation technique la plus récente sur le composant de liste [se trouve sur GitHub](https://adobe.com/go/aem_cmp_tech_list_v3_fr).
 
-Vous trouverez plus d’informations sur le développement des composants principaux dans la [documentation destinée aux développeurs de composants principaux](/help/developing/overview.md).
+Vous trouverez plus d’informations sur le développement des composants principaux dans la [documentation relative au développement des composants principaux](/help/developing/overview.md).
 
 ## Boîte de dialogue de modification {#edit-dialog}
 

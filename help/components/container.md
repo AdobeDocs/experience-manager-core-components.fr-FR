@@ -1,17 +1,17 @@
 ---
-title: 'Composant de conteneur '
+title: Composant de conteneur
 description: Le composant de conteneur des composants principaux permet la création d’un conteneur pour plusieurs autres composants sur une page.
-role: Architect, Developer, Admin, User
+role: Developer, Admin, User
 exl-id: 53c7190d-44cb-42ff-bc1a-483c7875bcf8
-source-git-commit: dd30def59a8f037864da875ef4c831b11f766e57
-workflow-type: ht
-source-wordcount: '0'
+source-git-commit: 7ba1374bd64686c2e7ac44398d77fb187ff60949
+workflow-type: tm+mt
+source-wordcount: '805'
 ht-degree: 100%
 
 ---
 
 
-# Composant de conteneur {#container-component}
+# Composant de conteneur{#container-component}
 
 Le composant de conteneur des composants principaux permet la création d’un conteneur pour plusieurs autres composants sur une page.
 
@@ -44,7 +44,7 @@ Pour tester le composant de conteneur et voir des exemples de ses options de con
 
 La documentation technique la plus récente sur le composant de conteneur [se trouve sur GitHub](https://adobe.com/go/aem_cmp_tech_container_v1_fr).
 
-Vous trouverez plus d’informations sur le développement des composants principaux dans la [documentation destinée aux développeurs de composants principaux](/help/developing/overview.md).
+Vous trouverez plus d’informations sur le développement des composants principaux dans la [documentation relative au développement des composants principaux](/help/developing/overview.md).
 
 ## Boîte de dialogue de configuration {#configure-dialog}
 

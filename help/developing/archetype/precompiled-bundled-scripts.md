@@ -2,12 +2,12 @@
 title: Scripts groupés précompilés
 description: Découvrez comment déployer vos scripts de composant à l’aide de lots OSGi vers Adobe Experience Manager Cloud Service.
 feature: Core Components, AEM Project Archetype
-role: Architect, Developer, Admin
+role: Developer, Admin
 exl-id: 3edc388f-01b2-45cc-bd56-f22e5a5a8624
-source-git-commit: 554be9539428cd75462a38fc45f1bece04baf066
+source-git-commit: 7ba1374bd64686c2e7ac44398d77fb187ff60949
 workflow-type: tm+mt
-source-wordcount: '335'
-ht-degree: 100%
+source-wordcount: '416'
+ht-degree: 93%
 
 ---
 
@@ -35,7 +35,7 @@ Vous pouvez ajouter [`bnd-maven-plugin`](https://github.com/bndtools/bnd/tree/ma
 
 Le framework OSGi offre un moyen puissant de définir les [exigences et fonctionnalités](https://docs.osgi.org/specification/osgi.core/7.0.0/framework.module.html#framework.module.dependencies) permettant d’exprimer les contrats entre les différents composants. Elles sont décrites au moyen de métadonnées et appliquées au moment de l’exécution. Les scripts groupés utilisent ce mécanisme pour exprimer à la fois leurs relations d’héritage (`sling:resourceSuperType`), ainsi que la délégation (y compris d’autres types de ressources dans le processus de rendu).
 
-Le plug-in `bnd` du projet [scriptingbundle-maven-plugin](https://sling.apache.org/components/scriptingbundle-maven-plugin/bnd.html) peut être utilisé afin d’extraire les exigences et fonctionnalités correspondant aux scripts fournis par le package de contenu [`ui.apps`.](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/developing/aem-project-content-package-structure.html?lang=fr#code-packages-%2F-osgi-bundles)
+Le module externe `bnd` du projet [scriptingbundle-maven-plugin](https://sling.apache.org/components/scriptingbundle-maven-plugin/bnd.html) peut être utilisé pour extraire les exigences et fonctionnalités correspondant aux scripts fournis par le [`ui.apps`.](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/developing/aem-project-content-package-structure.html?lang=fr#code-packages-%2F-osgi-bundles) package de contenu
 
 ## Prise en charge de l’archétype de projet AEM {#support}
 

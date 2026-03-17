@@ -1,13 +1,13 @@
 ---
 title: Utilisation des composants principaux d’e-mail
 description: Découvrez l’installation, la configuration et l’utilisation de base des composants principaux d’e-mail.
-role: Architect, Developer, Admin, User
+role: Developer, Admin, User
 exl-id: 0e79ca8f-eb0a-4519-b1e8-a9d3b0b99987
 index: false
-source-git-commit: eb77567dc32cccb81a9fc131493d11fb55b7e93b
-workflow-type: ht
-source-wordcount: '0'
-ht-degree: 100%
+source-git-commit: 7ba1374bd64686c2e7ac44398d77fb187ff60949
+workflow-type: tm+mt
+source-wordcount: '683'
+ht-degree: 96%
 
 ---
 
@@ -18,7 +18,7 @@ Découvrez l’installation, la configuration et l’utilisation de base des com
 
 ## Installation des composants principaux d’e-mail {#installation}
 
-Les composants principaux d’e-mail peuvent être utilisés avec AEM 6.5. Voir la section [Conditions requises du document Présentation des composants principaux d’e-mail](introduction.md#requirements) pour plus d’informations.
+Les composants principaux d’e-mail peuvent être utilisés avec AEM 6.5. Pour plus d’informations](introduction.md#requirements) consultez la section [ Conditions requises du document d’introduction aux composants principaux d’e-mail .
 
 ### Installer les composants principaux {#core-components}
 

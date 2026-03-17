@@ -1,11 +1,11 @@
 ---
 title: Composant principal des formulaires adaptatifs - Bouton de réinitialisation
 description: Utilisation ou personnalisation du composant principal Bouton de réinitialisation dans les formulaires adaptatifs.
-role: Architect, Developer, Admin, User
+role: Developer, Admin, User
 exl-id: e5aa9d89-aece-491e-80a1-7fb9ea6c4b60
-source-git-commit: 6725784bd4c94d433c91d6bd65d14d03cbefd954
-workflow-type: ht
-source-wordcount: '1549'
+source-git-commit: 7ba1374bd64686c2e7ac44398d77fb187ff60949
+workflow-type: tm+mt
+source-wordcount: '1569'
 ht-degree: 100%
 
 ---
@@ -43,19 +43,21 @@ Le composant principal Bouton Réinitialiser des formulaires adaptatifs a été 
 
 Pour plus d’informations sur les versions et publications des composants principaux, consultez le document [Versions des composants principaux](/help/adaptive-forms/version.md).
 
-<!-- ## Sample Component Output {#sample-component-output}
+<!--
+## Sample Component Output {#sample-component-output}
 
-To experience the Accordion Component as well as see examples of its configuration options as well as HTML and JSON output, visit the [Component Library](https://adobe.com/go/aem_cmp_library_accordion_fr). -->
+To experience the Accordion Component as well as see examples of its configuration options as well as HTML and JSON output, visit the [Component Library](https://adobe.com/go/aem_cmp_library_accordion). 
+-->
 
 ## Détails techniques {#technical-details}
 
-Pour obtenir les dernières informations sur le composant principal Bouton de réinitialisation des formulaires adaptatifs, consultez la documentation technique sur [GitHub](https://github.com/adobe/aem-core-forms-components/tree/master/ui.af.apps/src/main/content/jcr_root/apps/core/fd/components/form/button/v1/button). Pour plus d’informations sur le développement des composants principaux, consultez la [documentation destinée aux développeurs et développeuses de composants principaux](/help/developing/overview.md).
+Pour obtenir les dernières informations sur le composant principal Bouton de réinitialisation des formulaires adaptatifs, consultez la documentation technique sur [GitHub](https://github.com/adobe/aem-core-forms-components/tree/master/ui.af.apps/src/main/content/jcr_root/apps/core/fd/components/form/button/v1/button). Pour plus d’informations sur le développement des composants principaux, consultez la [documentation relative au développement des composants principaux](/help/developing/overview.md).
 
 ## Boîte de dialogue de configuration {#configure-dialog}
 
 Vous pouvez facilement personnaliser l’expérience du bouton de réinitialisation pour les visiteurs et les visiteuses à l’aide de la boîte de dialogue de configuration. Vous pouvez également définir en toute facilité les options du bouton de réinitialisation pour une expérience utilisateur fluide.
 
-### Onglet De base {#basic-tab}
+### Onglet de base {#basic-tab}
 
 ![Onglet De base](/help/adaptive-forms/assets/button_basictab.png)
 

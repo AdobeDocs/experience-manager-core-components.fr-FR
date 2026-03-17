@@ -1,12 +1,12 @@
 ---
 title: Composant principal des formulaires adaptatifs - Google reCAPTCHA
 description: Améliorez sans effort la sécurité des formulaires avec le service Google reCAPTCHA et AEM Forms. Expliquer les propriétés d’un reCaptcha de formulaire adaptatif
-role: Architect, Developer, Admin, User
+role: Developer, Admin, User
 exl-id: 2d986b90-e596-4e8f-9a32-0ebced5461c8
-source-git-commit: 6725784bd4c94d433c91d6bd65d14d03cbefd954
-workflow-type: ht
-source-wordcount: '0'
-ht-degree: 100%
+source-git-commit: 6fc9e1732302f114ad5c9c037ce203af6324edf0
+workflow-type: tm+mt
+source-wordcount: '1382'
+ht-degree: 99%
 
 ---
 
@@ -39,19 +39,19 @@ Le composant principal Google reCAPTCHA du formulaire adaptatif a été publié 
 
 | Version du composant | AEM as a Cloud Service |
 |--- |--- |
-| v1 | Compatible avec la <br>[version 2.0.4](/help/versions.md) et les versions ultérieures | Compatible | Compatible |
+| v1 | Compatible avec les versions 2<br>[0.4](/help/versions.md) et ultérieures \| Compatible\|Compatible |
 
 Pour plus d’informations sur les versions et publications des composants principaux, consultez le document [Versions des composants principaux](/help/versions.md).
 
 ## Détails techniques {#technical-details}
 
-Retrouvez les informations les plus récentes sur le composant principal Google reCAPTCHA des formulaires adaptatifs dans la documentation technique sur [GitHub](https://github.com/adobe/aem-core-forms-components/tree/master/ui.af.apps/src/main/content/jcr_root/apps/core/fd/components/form/recaptcha/v1/recaptcha). Pour plus d’informations sur le développement des composants principaux, consultez la [documentation destinée aux développeurs et développeuses de composants principaux](/help/developing/overview.md).
+Retrouvez les informations les plus récentes sur le composant principal Google reCAPTCHA des formulaires adaptatifs dans la documentation technique sur [GitHub](https://github.com/adobe/aem-core-forms-components/tree/master/ui.af.apps/src/main/content/jcr_root/apps/core/fd/components/form/recaptcha/v1/recaptcha). Pour plus d’informations sur le développement des composants principaux, consultez la [documentation relative au développement des composants principaux](/help/developing/overview.md).
 
 ## Boîte de dialogue de configuration {#configure-dialog}
 
 Vous pouvez facilement personnaliser votre expérience Google reCAPTCHA pour les visiteurs et les visiteuses à l’aide de la boîte de dialogue de configuration. Vous pouvez également définir facilement des options de Google reCAPTCHA pour une expérience client fluide.
 
-### Onglet De base {#basic-tab}
+### Onglet de base {#basic-tab}
 
 ![Onglet De base](/help/adaptive-forms/assets/recaptcha-basictab.png)
 
@@ -88,7 +88,7 @@ Vous pouvez facilement personnaliser votre expérience Google reCAPTCHA pour les
 
 - **Message d’erreur** : cette option vous permet de rédiger un message qui s’affiche si la case à cocher **Obligatoire** est activée et le champ de formulaire reste vide.
 
-- **Message de validation de script** - Cette option permet de saisir un message à afficher en cas d’échec de la validation du script.
+- **Message de validation de script** : cette option permet de saisir un message à afficher en cas d’échec de la validation du script.
 
 ## Boîte de dialogue de conception {#design-dialog}
 

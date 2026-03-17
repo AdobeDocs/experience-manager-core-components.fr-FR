@@ -1,12 +1,12 @@
 ---
 title: Composant Liste (v1)
 description: Le composant principal Liste permet de créer facilement des listes dynamiques et statiques.
-index: n
-role: Architect, Developer, Admin, User
+index: false
+role: Developer, Admin, User
 exl-id: 510d059c-e60a-40aa-9032-66a901109f6e
-source-git-commit: 92a3ec273a5be6751c1503835b9c2e5cbd61bb9e
-workflow-type: ht
-source-wordcount: '0'
+source-git-commit: 7ba1374bd64686c2e7ac44398d77fb187ff60949
+workflow-type: tm+mt
+source-wordcount: '866'
 ht-degree: 100%
 
 ---
@@ -24,7 +24,7 @@ Le type de liste disponible et les options de mise en forme peuvent être défin
 
 ## Version et compatibilité {#version-and-compatibility}
 
-Ce document décrit la version v1 du composant Liste, introduite à l’origine avec la version 1.0.0 des composants principaux avec AEM 6.3.
+Ce document décrit la version v1 du composant Liste, introduite à l’origine avec la version 1.0.0 des composants principaux avec AEM 6.3.
 
 Le tableau suivant répertorie la compatibilité de la version v1 du composant Liste.
 
@@ -265,4 +265,4 @@ La documentation technique la plus récente sur le composant de liste [se trouve
 
 Le projet sur les composants principaux peut être téléchargé depuis GitHub.
 
-Vous trouverez plus d’informations sur le développement des composants principaux dans la [documentation destinée aux développeurs de composants principaux](/help/developing/overview.md).
+Vous trouverez plus d’informations sur le développement des composants principaux dans la [documentation relative au développement des composants principaux](/help/developing/overview.md).

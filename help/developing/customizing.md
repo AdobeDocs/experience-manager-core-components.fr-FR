@@ -1,16 +1,16 @@
 ---
 title: Personnalisation des composants principaux
 description: Les composants principaux implémentent plusieurs modèles permettant une personnalisation facile, depuis l’application d’un style simple jusqu’à la réutilisation de fonctionnalités avancées.
-role: Architect, Developer, Admin
+role: Developer, Admin
 exl-id: ec4b918b-bc70-4d72-ba84-a24556aedb41
-source-git-commit: 5994133947ff697f7c866fe61598c58e37e77008
-workflow-type: ht
-source-wordcount: '0'
-ht-degree: 100%
+source-git-commit: 7ba1374bd64686c2e7ac44398d77fb187ff60949
+workflow-type: tm+mt
+source-wordcount: '1146'
+ht-degree: 96%
 
 ---
 
-# Personnalisation des composants principaux {#customizing-core-components}
+# Personnalisation des composants principaux{#customizing-core-components}
 
 Les [composants principaux](overview.md) implémentent plusieurs modèles permettant une personnalisation facile, depuis l’application d’un style simple jusqu’à la réutilisation de fonctionnalités avancées.
 
@@ -43,7 +43,7 @@ Il peut être souhaitable de personnaliser les options de configuration disponib
 
 Chaque boîte de dialogue possède une structure de nœud cohérente. Il est recommandé de répliquer cette structure dans un composant héritant de sorte que [Sling Resource Merger](https://helpx.adobe.com/fr/experience-manager/6-4/sites/developing/using/sling-resource-merger.html) et l’option [Masquer les conditions](https://helpx.adobe.com/fr/experience-manager/6-5/sites/developing/using/hide-conditions.html) puissent être utilisés pour masquer, remplacer ou réorganiser les sections de la boîte de dialogue d’origine. La structure à répliquer est définie comme tous les éléments jusqu’au niveau de nœud de l’élément d’onglet.
 
-Pour être entièrement compatibles avec toutes les modifications apportées à une boîte de dialogue sur sa version actuelle, il est important que les structures sous le niveau de l’élément d’onglet ne soient pas touchées (masquées, ajoutées, remplacées, réorganisées, etc.). À la place, un élément d’onglet du parent doit être masqué via la propriété `sling:hideResource` (voir [Propriétés de Sling Resource Merger](https://helpx.adobe.com/fr/experience-manager/6-5/sites/developing/using/sling-resource-merger.html)), et les nouveaux éléments d’onglet ajoutés qui contiennent les champs de configuration personnalisés. `sling:orderBefore` peut être utilisé pour réorganiser les éléments d’onglet si nécessaire.
+Pour être entièrement compatibles avec toutes les modifications apportées à une boîte de dialogue sur sa version actuelle, il est important que les structures sous le niveau de l’élément d’onglet ne soient pas touchées (masquées, ajoutées, remplacées, réorganisées, etc.). Au lieu de cela, un élément d’onglet du parent doit être masqué via la propriété `sling:hideResource` (voir [Propriétés de fusion de ressources Sling](https://helpx.adobe.com/fr/experience-manager/6-5/sites/developing/using/sling-resource-merger.html)) et de nouveaux éléments d’onglet doivent être ajoutés pour contenir les champs de configuration personnalisés. `sling:orderBefore` peut être utilisé pour réorganiser les éléments d’onglet, si nécessaire.
 
 La boîte de dialogue ci-dessous illustre la structure de la boîte de dialogue recommandée et montre comment masquer et remplacer un onglet hérité comme décrit ci-dessus :
 
@@ -129,7 +129,7 @@ Par exemple, en examinant le fichier HTL du composant principal de chemin de nav
 .cmp-breadcrumb a {}
 ```
 
-De plus, chacun des composants principaux utilise le [système de style AEM](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/features/style-system.html?lang=fr) qui permet aux auteurs de modèles de définir des noms de classe CSS supplémentaires qui peuvent être appliqués au composant par les auteurs de pages. Cela permet de définir pour chaque modèle une liste de styles de composants autorisés et de déterminer si l’un d’entre eux doit s’appliquer par défaut à tous les composants de ce type.
+De plus, chacun des composants principaux utilise le [système de style AEM](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/features/style-system.html?lang=fr) qui permet aux créateurs et créatrices de modèles de définir des noms de classe CSS supplémentaires qui peuvent être appliqués au composant par les créateurs et créatrices de pages. Cela permet de définir pour chaque modèle une liste de styles de composants autorisés et de déterminer si l’un d’entre eux doit s’appliquer par défaut à tous les composants de ce type.
 
 ## Compatibilité de la mise à niveau des personnalisations {#upgrade-compatibility-of-customizations}
 
@@ -143,7 +143,7 @@ En règle générale, la mise à niveau d’AEM vers une nouvelle version n’af
 
 La mise à niveau des composants principaux sans passer à une version majeure plus récente ne devrait pas affecter les personnalisations tant que les modèles de personnalisation décrits dans cette page sont utilisés.
 
-Le passage à une nouvelle version majeure des composants principaux est compatible uniquement avec la structure de contenu, mais il est possible que des personnalisations doivent être définies une nouvelle fois. Des journaux de modifications clairs seront publiés pour chaque version de composant afin de mettre en évidence les modifications qui peuvent avoir une incidence sur le type de personnalisations décrit dans cette page.
+Le passage à une nouvelle version majeure des composants principaux est compatible uniquement avec la structure de contenu, mais il est possible que des personnalisations doivent être effectuées à nouveau. Des journaux de modifications clairs seront publiés pour chaque version de composant afin de mettre en évidence les modifications qui peuvent avoir une incidence sur le type de personnalisations décrit dans cette page.
 
 ## Prise en charge des personnalisations {#support-of-customizations}
 

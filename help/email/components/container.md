@@ -1,12 +1,12 @@
 ---
 title: Composant Conteneur d’e-mail
 description: Le composant Conteneur d’e-mail permet la création d’un conteneur pour plusieurs composants supplémentaires dans votre contenu d’e-mail.
-role: Architect, Developer, Admin, User
+role: Developer, Admin, User
 exl-id: 3b271e95-0093-4cb1-bb83-8446ba12a821
 index: false
-source-git-commit: eb77567dc32cccb81a9fc131493d11fb55b7e93b
-workflow-type: ht
-source-wordcount: '0'
+source-git-commit: 7ba1374bd64686c2e7ac44398d77fb187ff60949
+workflow-type: tm+mt
+source-wordcount: '815'
 ht-degree: 100%
 
 ---
@@ -39,9 +39,9 @@ Pour plus d’informations sur les versions et les publications des composants p
 
 ## Détails techniques {#technical-details}
 
-La documentation technique la plus récente sur le composant de conteneur [se trouve sur GitHub.](https://adobe.com/go/aem_cmp_tech_email_container_v1_fr)
+La documentation technique la plus récente sur le composant de conteneur [se trouve sur GitHub.](https://adobe.com/go/aem_cmp_tech_email_container_v1)
 
-Vous trouverez plus d’informations sur le développement des composants principaux dans la [documentation destinée aux développeurs de composants principaux.](/help/developing/overview.md)
+Vous trouverez plus d’informations sur le développement des composants principaux dans la [documentation relative au développement des composants principaux](/help/developing/overview.md).
 
 ## Boîte de dialogue de configuration {#configure-dialog}
 
@@ -57,7 +57,7 @@ La boîte de dialogue de configuration permet au créateur de contenu de défini
    * **tiers|tiers|tiers**
 * **Couleur d’arrière-plan** : définissable en tant que valeurs RVB de forme libre ou en utilisant le sélecteur de couleurs, [selon la configuration](#container-settings-tab)
 * **Image d’arrière-plan** : Définit une couleur d’arrière-plan pour le conteneur, [selon la configuration](#container-settings-tab).
-* **ID** : Cette option permet de contrôler l’identifiant unique du composant dans le HTML.
+* **ID** : cette option permet de contrôler l’identifiant unique du composant dans le code HTML.
    * Si rien n’est indiqué, un ID unique est généré automatiquement pour vous. Vous le trouverez en examinant le contenu obtenu.
    * Si un ID est spécifié, il incombe à l’auteur de s’assurer qu’il est unique.
    * La modification de l’ID peut avoir un impact sur CSS.

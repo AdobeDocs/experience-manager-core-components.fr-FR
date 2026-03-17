@@ -2,11 +2,11 @@
 title: Extension de la couche de données client Adobe
 description: La couche de données client Adobe peut être étendue selon certains modèles de base.
 feature: Core Components, Adobe Client Data Layer
-role: Architect, Developer, Admin
+role: Developer, Admin
 exl-id: f3d5555b-4f08-49de-ab0f-dc0fb04aadf8
-source-git-commit: 3ebe1a42d265185b36424b01844f4a00f05d4724
+source-git-commit: 7ba1374bd64686c2e7ac44398d77fb187ff60949
 workflow-type: tm+mt
-source-wordcount: '201'
+source-wordcount: '289'
 ht-degree: 100%
 
 ---

@@ -1,17 +1,17 @@
 ---
 title: Composant de liste de fragments de contenu
 description: Le composant Liste de fragments de contenu des composants principaux permet d’afficher une liste de fragments de contenu.
-role: Architect, Developer, Admin, User
+role: Developer, Admin, User
 exl-id: 0f2295b1-d287-4f72-8ee4-fa98c4850e53
-source-git-commit: dd30def59a8f037864da875ef4c831b11f766e57
-workflow-type: ht
-source-wordcount: '0'
+source-git-commit: 7ba1374bd64686c2e7ac44398d77fb187ff60949
+workflow-type: tm+mt
+source-wordcount: '851'
 ht-degree: 100%
 
 ---
 
 
-# Composant de liste de fragments de contenu {#content-fragment-list-component}
+# Composant de liste de fragments de contenu{#content-fragment-list-component}
 
 Le composant Liste de fragments de contenu des composants principaux permet d’afficher une liste de [fragments de contenu](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/content-fragments/content-fragments.html?lang=fr).
 
@@ -45,7 +45,7 @@ Pour tester le composant de liste de fragments de contenu et voir des exemples d
 
 La documentation technique la plus récente sur le composant Liste des fragments de contenu [se trouve sur GitHub](https://adobe.com/go/aem_cmp_tech_cflist_v1_fr).
 
-Vous trouverez plus d’informations sur le développement des composants principaux dans la [documentation destinée aux développeurs de composants principaux](/help/developing/overview.md).
+Vous trouverez plus d’informations sur le développement des composants principaux dans la [documentation relative au développement des composants principaux](/help/developing/overview.md).
 
 ## Boîte de dialogue de configuration {#configure-dialog}
 

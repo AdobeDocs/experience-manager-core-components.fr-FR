@@ -1,13 +1,13 @@
 ---
 title: Composant Image (v2)
 description: Le composant Image des composants principaux est un composant d’image adaptatif qui permet d’effectuer des modifications statiques.
-role: Architect, Developer, Admin, User
+role: Developer, Admin, User
 exl-id: 3f2b93f9-c48d-43ef-a78a-accd5090fe6f
-index: n
-source-git-commit: 8952f6c574fe1e21ff35e95bc0af6433f0363e77
+index: false
+source-git-commit: 7ba1374bd64686c2e7ac44398d77fb187ff60949
 workflow-type: tm+mt
-source-wordcount: '2050'
-ht-degree: 98%
+source-wordcount: '2119'
+ht-degree: 96%
 
 ---
 
@@ -44,9 +44,9 @@ En outre, le composant d’image prend en charge le chargement différé afin de
 
 ## Prise en charge de Dynamic Media {#dynamic-media}
 
-Le composant d’image (à partir de la [version 2.13.0](/help/versions.md)) prend en charge les ressources [Dynamic Media](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/dynamicmedia/dynamic-media.html?lang=fr#dynamicmedia). [Lorsqu’elles sont activées](#design-dialog), ces fonctionnalités offrent la possibilité d’ajouter des fichiers d’image Dynamic Media par un simple glisser-déposer ou par le biais du navigateur de ressources, comme vous le feriez pour toute autre image. En outre, les modificateurs d’image, les paramètres d’image prédéfinis et les recadrages intelligents sont également pris en charge.
+Le composant Image (à compter de la [version 2.13.0](/help/versions.md)) prend en charge les ressources [Dynamic Media](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/dynamicmedia/dynamic-media.html?lang=fr#dynamicmedia). [Lorsqu’elles sont activées](#design-dialog) ces fonctionnalités permettent d’ajouter des ressources d’image Dynamic Media par simple glisser-déposer ou via l’explorateur de ressources comme vous le feriez pour n’importe quelle autre image. En outre, les modificateurs d’image, les paramètres d’image prédéfinis et les recadrages intelligents sont également pris en charge.
 
-Vos expériences web créées avec les composants principaux ne disposent désormais pas des fonctionnalités d’image Dynamic Media sur plusieurs plateformes, robustes, enrichies, hautement performantes et optimisées par l’IA dédiée à Adobe.
+Vos expériences web créées avec les composants principaux ne disposent désormais pas des fonctionnalités d’image Dynamic Media sur plusieurs plateformes, riches, robustes, hautes performances et optimisées par Adobe AI.
 
 ## Prise en charge SVG {#svg-support}
 
@@ -97,7 +97,7 @@ Outre la [boîte de dialogue de modification](#edit-dialog) et la [boîte de dia
 * **Texte de remplacement** : alternative textuelle de la signification ou de la fonction de l’image, pour les malvoyants.
    * **Obtenir un texte alternatif à partir de DAM** : lorsque cette option est cochée, le texte de remplacement de l’image est renseigné avec la valeur des métadonnées `dc:description` dans DAM.
 * **Légende** : des informations supplémentaires sur l’image sont affichées par défaut sous l’image.
-   * **Obtenir la légende à partir de DAM** : lorsque cette option est cochée, le texte de légende de l’image est renseigné avec la valeur des métadonnées `dc:title` dans DAM.
+   * **Obtenir la légende à partir de DAM** : lorsque cette option est cochée, le texte de légende de l’image est renseigné avec la valeur des métadonnées `dc:title` dans la gestion des ressources numériques.
    * **Afficher la légende dans un pop-up** : si cette option est activée, la légende ne s’affiche pas sous l’image, mais dans un pop-up, dans certains navigateurs, lorsque vous pointez sur l’image.
 * **Lien** : lier l’image à une autre ressource.
    * Utilisez la boîte de dialogue de sélection pour créer un lien vers une autre ressource AEM.

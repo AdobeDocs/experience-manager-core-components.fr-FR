@@ -1,12 +1,12 @@
 ---
 title: Composant Texte (v1)
 description: Le composant Texte est un composant d’édition et de composition de texte enrichi qui propose une édition statique.
-index: n
-role: Architect, Developer, Admin, User
+index: false
+role: Developer, Admin, User
 exl-id: c9fe3052-a33d-412e-9456-52c9a0cea292
-source-git-commit: 92a3ec273a5be6751c1503835b9c2e5cbd61bb9e
-workflow-type: ht
-source-wordcount: '0'
+source-git-commit: 7ba1374bd64686c2e7ac44398d77fb187ff60949
+workflow-type: tm+mt
+source-wordcount: '1674'
 ht-degree: 100%
 
 ---
@@ -255,19 +255,19 @@ La boîte de dialogue de modification propose les outils standard de mise en for
 
   ![](/help/assets/chlimage_1-79.png)
 
-   * **Colonnes** - Nombre de colonnes du tableau (obligatoire).
+   * **Colonnes** : Nombre de colonnes du tableau (obligatoire).
    * **Lignes** : Nombre de lignes du tableau (obligatoire).
    * **Largeur** : Largeur totale du tableau.
-   * **Hauteur** - Hauteur totale du tableau.
+   * **Hauteur** : Hauteur totale du tableau.
    * **Marge intérieure des cellules** - Espace autour du contenu de la cellule.
-   * **Espacement des cellules** - Espacement entre les cellules.
+   * **Espacement des cellules** : Espacement entre les cellules.
    * **Bordure** : Épaisseur des lignes de bordure du tableau.
    * Si pour l’en-tête du tableau :
 
       * La première ligne doit être utilisée
       * La première colonne doit être utilisée
       * La première ligne et la première colonne doivent être utilisées
-      * Ou aucun en-tête ne doit être utilisé.
+      * Ou aucun en-tête ne doit être utilisé
 
    * **Légende** - Légende du tableau.
 
@@ -363,7 +363,7 @@ L’option permettant d’insérer des caractères spéciaux peut être activée
 * Appuyez ou cliquez sur le bouton **Ajouter** pour insérer un nouveau caractère.
 * Entrez le code HTML du caractère et une description qui s’afficheront dans la boîte de dialogue de modification.
 * Pour supprimer un caractère, appuyez ou cliquez sur le bouton **Supprimer**.
-* Pour réorganiser l’ordre des caractères, appuyez ou cliquez et faites glisser les poignées.
+* Pour réorganiser l’ordre des caractères, appuyez ou cliquez sur les poignées et faites-les glisser.
 
 ## Détails techniques {#technical-details}
 
@@ -371,4 +371,4 @@ La documentation technique la plus récente sur le composant Texte [se trouve su
 
 Le projet sur les composants principaux peut être téléchargé depuis GitHub.
 
-Vous trouverez plus d’informations sur le développement des composants principaux dans la [documentation destinée aux développeurs de composants principaux](/help/developing/overview.md).
+Vous trouverez plus d’informations sur le développement des composants principaux dans la [documentation relative au développement des composants principaux](/help/developing/overview.md).

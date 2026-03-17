@@ -1,17 +1,17 @@
 ---
 title: Composant de bouton
-description: Le composant Bouton des composants principaux permet de créer et d’afficher un bouton.
-role: Architect, Developer, Admin, User
+description: Le composant de bouton des composants principaux permet de créer et d’afficher un bouton.
+role: Developer, Admin, User
 exl-id: e17efd1d-90d4-497a-9e7d-45934d81bc28
-source-git-commit: dd30def59a8f037864da875ef4c831b11f766e57
-workflow-type: ht
-source-wordcount: '0'
+source-git-commit: 7ba1374bd64686c2e7ac44398d77fb187ff60949
+workflow-type: tm+mt
+source-wordcount: '545'
 ht-degree: 100%
 
 ---
 
 
-# Composant de bouton {#button-component}
+# Composant de bouton{#button-component}
 
 Le composant Bouton des composants principaux permet de configurer et d’afficher un élément de bouton sur une page.
 
@@ -19,7 +19,7 @@ Le composant Bouton des composants principaux permet de configurer et d’affich
 
 ## Utilisation {#usage}
 
-Le composant Bouton des composants principaux permet l’inclusion d’un bouton sur une page.
+Le composant de bouton des composants principaux permet l’inclusion d’un bouton sur une page.
 
 * Les propriétés du bouton peuvent être définies dans la [boîte de dialogue de configuration](#configure-dialog).
 * Les styles du composant de bouton peuvent être définis dans la [boîte de dialogue de conception](#design-dialog).
@@ -39,13 +39,13 @@ Pour plus d’informations sur les versions et les publications des composants p
 
 ## Exemple de sortie de composant {#sample-component-output}
 
-Pour tester le composant de bouton et obtenir des exemples d’options de configuration, ainsi que des sorties HTML et JSON, consultez la [bibliothèque de composants](https://adobe.com/go/aem_cmp_library_button_fr).
+Pour tester le composant de bouton et obtenir des exemples d’options de configuration, ainsi que des sorties HTML et JSON, consultez la [bibliothèque de composants](https://adobe.com/go/aem_cmp_library_button).
 
 ## Détails techniques {#technical-details}
 
-La documentation technique la plus récente sur le composant de bouton [se trouve sur GitHub](https://adobe.com/go/aem_cmp_tech_button_v2_fr).
+La documentation technique la plus récente sur le composant de bouton [se trouve sur GitHub](https://adobe.com/go/aem_cmp_tech_button_v2).
 
-Vous trouverez plus d’informations sur le développement des composants principaux dans la [documentation destinée aux développeurs de composants principaux](/help/developing/overview.md).
+Vous trouverez plus d’informations sur le développement des composants principaux dans la [documentation relative au développement des composants principaux](/help/developing/overview.md).
 
 ## Boîte de dialogue de configuration {#configure-dialog}
 

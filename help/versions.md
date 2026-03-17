@@ -1,9 +1,9 @@
 ---
 title: Versions des composants principaux
 description: Les composants principaux sont publiés sous forme de versions qui peuvent contenir plusieurs versions des mêmes composants principaux. Ce document explique les versions et les mises à jour ainsi que comment comprendre la compatibilité avec les composants principaux et AEM.
-role: Architect, Developer, Admin, User
+role: Developer, Admin, User
 exl-id: 7d4dbe46-4013-4217-b815-cdb1462072c6
-source-git-commit: 3e49862f958e50f095c944c33d1983ae46ab8ace
+source-git-commit: 6fc9e1732302f114ad5c9c037ce203af6324edf0
 workflow-type: tm+mt
 source-wordcount: '3887'
 ht-degree: 96%
@@ -95,10 +95,10 @@ Le tableau suivant, dont le contenu est [disponible sur GitHub avec les détails
 | [2.1.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.1.0) | Cette version a introduit le [composant Teaser](/help/components/teaser.md), ainsi que des améliorations du [composant Image](/help/components/image.md) et de nombreux correctifs. | 6.4.2.0+ | -- |  | - | 8 | 13 juillet 2018 |
 | [2.0.8](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.0.8) | Il s’agissait d’une version de correctif. | 6.4.0.0+ | -- |  | - | 8 | 12 juin 2018 |
 | [2.0.6](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.0.6) | Cette version a apporté des améliorations au niveau du code, des correctifs de bogues et de petites améliorations, notamment la possibilité de retourner les images dans le [composant Image.](/help/components/image.md) | 6.4.0.0+ | - | - | - | 8 | 11 avril 2018 |
-| [2.0.4](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.0.4) | Cette version était principalement axée sur les améliorations au niveau du code, les correctifs de bogues, ainsi que quelques améliorations mineures apportées au [composant Image,](/help/components/image.md) au [composant Page](/help/components/page.md) et au [composant Fragment de contenu.](/help/components/content-fragment-component.md) | 6.4.0.0+ | - | - | 8 | 7 mars 2018 |
+| [2.0.4](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.0.4) | Cette version était principalement axée sur les améliorations au niveau du code, les correctifs de bogues, ainsi que quelques améliorations mineures apportées au [composant Image,](/help/components/image.md) au [composant Page](/help/components/page.md) et au [composant Fragment de contenu.](/help/components/content-fragment-component.md) | 6.4.0.0+ | - | - | 8 | 7 mars 2018 | |
 | [2.0.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.0.0) | Cette version a introduit le [composant Navigation,](/help/components/navigation.md) le [composant Navigation linguistique,](/help/components/language-navigation.md) ainsi que le [composant Recherche rapide](/help/components/quick-search.md), et a mis en œuvre le [Système de style](/help/get-started/authoring.md#component-styling) pour tous les composants. | 6.4.0.0+ | - | - | - | 8 | 16 janvier 2018 |
 | [1.1.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-1.1.0) | Cette version a mis en œuvre l’exportation JSON sur tous les composants et introduit le [composant Fragment de contenu.](/help/components/content-fragment-component.md) | 6.4.0.0+ | -- |  | - | 8 | 10 octobre 2017 |
-| [1.0.6](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-1.0.6) | Cette version a ajouté plusieurs correctifs pour le [composant Image.](/help/components/image.md) | 6.4.0.0+ | - | - | 8 | 4 août 2017 |
+| [1.0.6](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-1.0.6) | Cette version a ajouté plusieurs correctifs pour le [composant Image.](/help/components/image.md) | 6.4.0.0+ | - | - | 8 | 4 août 2017 | |
 | [1.0.4](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-1.0.4) | Cette version a ajouté des correctifs pour le [composant de page,](/help/components/page.md) le [composant Image,](/help/components/image.md) ainsi que divers correctifs et améliorations globaux. | 6.4.0.0+ | -- |  | - | 8 | 26 avril 2017 |
 | [1.0.2](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.all-1.0.2) | Cette version a ajouté des correctifs pour les images GIF animées dans le [composant Image.](/help/components/image.md) | 6.4.0.0+ | - | - | - | 7 | 22 mars 2017 |
 | [1.0.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-1.0.0) | Version initiale des composants principaux. | 6.4.0.0+ | - | - | - | 7 | 20 mars 2017 |
@@ -159,7 +159,7 @@ Pour plus d’informations sur les versions des composants principaux, voir la [
 
 ### Mises à jour {#releases}
 
-Les composants principaux sont disponibles par l’intermédiaire des **versions** et [&#x200B; représentent les artefacts publiés réels disponibles sur GitHu.](https://github.com/adobe/aem-core-wcm-components/releases) Les versions sont signalées par un nombre décimal au format `X.Y.Z` et rassemblent tous les composants principaux en tant que package livrable.
+Les composants principaux sont disponibles par l’intermédiaire des **versions** et [ représentent les artefacts publiés réels disponibles sur GitHu.](https://github.com/adobe/aem-core-wcm-components/releases) Les versions sont signalées par un nombre décimal au format `X.Y.Z` et rassemblent tous les composants principaux en tant que package livrable.
 
 * Les **versions majeures** contiennent les éléments suivants : introduction de composants entièrement nouveaux, améliorations apportées aux versions existantes des composants et correctifs standard. Elles sont représentées par un incrément dans le composant `X` du numéro de version.
 * Les **versions mineures** contiennent les éléments suivants : introduction de nouveaux composants, ajout de nouvelles fonctionnalités aux versions existantes des composants et divers correctifs. Elles sont représentées par un incrément dans le composant `Y` du numéro de version.

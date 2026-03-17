@@ -1,11 +1,11 @@
 ---
 title: Composant Recherche rapide
 description: Le composant Recherche rapide fournit des fonctionnalités de recherche à un site web et présente les résultats de recherche afin que les visiteurs puissent effectuer des recherches sur le site et filtrer les résultats.
-role: Architect, Developer, Admin, User
+role: Developer, Admin, User
 exl-id: fc40ce1d-e69a-4a40-853e-67a37228271b
-source-git-commit: dd30def59a8f037864da875ef4c831b11f766e57
-workflow-type: ht
-source-wordcount: '0'
+source-git-commit: 7ba1374bd64686c2e7ac44398d77fb187ff60949
+workflow-type: tm+mt
+source-wordcount: '626'
 ht-degree: 100%
 
 ---
@@ -25,14 +25,14 @@ La [boîte de dialogue de modification](#edit-dialog) permet à l’auteur de co
 
 ## Version et compatibilité {#version-and-compatibility}
 
-La version actuelle du composant Recherche rapide est la v2, qui a été introduite avec la version 2.18.0 des composants principaux en janvier 2018 et est décrite dans ce document.
+La version actuelle du composant Recherche rapide est v2, qui a été introduite avec la version 2.18.0 des composants principaux en janvier 2018 et est décrite dans ce document.
 
 Le tableau ci-après présente en détail toutes les versions prises en charge du composant, les versions AEM avec lesquelles les versions du composant sont compatibles et les liens vers la documentation pour les versions précédentes.
 
 | Version du composant | AEM 6.4 | AEM 6.5 | AEM 6.5 LTS | AEM as a Cloud Service |
 |--- |--- |--- |---|---|
 | v2 | - | Compatible | Compatible | Compatible |
-| [v1](/help/components/v1/quick-search.md) | Compatible avec la <br>[version 2.17.4](/help/versions.md) et versions antérieures. | Compatible | - | Compatible |
+| [v1](/help/components/v1/quick-search.md) | Compatible avec la <br>[version 2.17.4](/help/versions.md) et versions antérieures | Compatible | - | Compatible |
 
 Pour plus d’informations sur les versions et les publications des composants principaux, voir le document sur les [versions des composants principaux](/help/versions.md).
 
@@ -44,7 +44,7 @@ Pour plus d’informations sur les versions et les publications des composants p
 
 La documentation technique la plus récente sur le composant Recherche rapide [se trouve sur GitHub](https://adobe.com/go/aem_cmp_tech_search_v2_fr).
 
-Vous trouverez plus d’informations sur le développement des composants principaux dans la [documentation destinée aux développeurs de composants principaux](/help/developing/overview.md).
+Vous trouverez plus d’informations sur le développement des composants principaux dans la [documentation relative au développement des composants principaux](/help/developing/overview.md).
 
 ## Boîte de dialogue de modification {#edit-dialog}
 

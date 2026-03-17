@@ -1,12 +1,12 @@
 ---
 title: Composant principal des formulaires adaptatifs – Composant de commutateur
 description: Utilisation ou personnalisation du composant principal Commutateur des formulaires adaptatifs.
-role: Architect, Developer, Admin, User
+role: Developer, Admin, User
 exl-id: 6ff2ca76-1514-42eb-bde3-60259af2d187
-source-git-commit: 6725784bd4c94d433c91d6bd65d14d03cbefd954
-workflow-type: ht
-source-wordcount: '0'
-ht-degree: 100%
+source-git-commit: 6fc9e1732302f114ad5c9c037ce203af6324edf0
+workflow-type: tm+mt
+source-wordcount: '1948'
+ht-degree: 98%
 
 ---
 
@@ -35,19 +35,19 @@ Les raisons courantes d’utiliser un commutateur dans un formulaire adaptatif s
 
 ## Version et compatibilité {#version-and-compatibility}
 
-Le composant principal Commutateur des formulaires adaptatifs a été publié dans le cadre de la version 2.0.64 des composants principaux. Voici un tableau présentant toutes les versions prises en charge, la compatibilité AEM et les liens vers la documentation correspondante :
+Le composant principal de commutateur de Forms adaptatif a été publié dans le cadre des composants principaux 2.0.64. Vous trouverez ci-dessous un tableau détaillant les versions prises en charge, la compatibilité avec AEM et les liens vers la documentation correspondante :
 
 |  |  |
 |---|---|
 | Version du composant | AEM as a Cloud Service |
 | --- | --- |
-| v1 | Compatible avec la <br>[version 2.0.64](/help/adaptive-forms/version.md) et les versions ultérieures | Compatible | Compatible |
+| v1 | Compatible avec <br>[ version 2.0.64](/help/adaptive-forms/version.md) et versions ultérieures\|Compatible\|Compatible |
 
 Pour plus d’informations sur les versions et publications des composants principaux, consultez le document [Versions des composants principaux](/help/adaptive-forms/version.md).
 
 ## Détails techniques {#technical-details}
 
-Retrouvez les dernières informations sur le composant principal Commutateur des formulaires adaptatifs dans la documentation technique sur [GitHub](https://github.com/adobe/aem-core-forms-components/tree/master/ui.af.apps/src/main/content/jcr_root/apps/core/fd/components/form/switch/v1/switch). Pour plus d’informations sur le développement des composants principaux, consultez la [documentation destinée aux développeurs et développeuses de composants principaux](/help/developing/overview.md).
+Retrouvez les dernières informations sur le composant principal Commutateur des formulaires adaptatifs dans la documentation technique sur [GitHub](https://github.com/adobe/aem-core-forms-components/tree/master/ui.af.apps/src/main/content/jcr_root/apps/core/fd/components/form/switch/v1/switch). Pour plus d’informations sur le développement des composants principaux, consultez la [documentation relative au développement des composants principaux](/help/developing/overview.md).
 
 ## Boîte de dialogue de configuration {#configure-dialog}
 

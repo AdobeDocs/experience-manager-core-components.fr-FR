@@ -1,12 +1,12 @@
 ---
 title: Composant Recherche rapide (v1)
 description: Le composant Recherche rapide fournit des fonctionnalités de recherche à un site web et présente les résultats de recherche afin que les visiteurs et les visiteuses puissent effectuer des recherches sur le site et filtrer les résultats.
-role: Architect, Developer, Admin, User
+role: Developer, Admin, User
 exl-id: 60a043b7-d82c-4bc1-b91a-b77f748f7bc2
-index: n
-source-git-commit: 92a3ec273a5be6751c1503835b9c2e5cbd61bb9e
-workflow-type: ht
-source-wordcount: '646'
+index: false
+source-git-commit: 7ba1374bd64686c2e7ac44398d77fb187ff60949
+workflow-type: tm+mt
+source-wordcount: '647'
 ht-degree: 100%
 
 ---
@@ -28,14 +28,14 @@ La version actuelle du composant Recherche rapide est v1, qui a été introduite
 
 Le tableau ci-après présente en détail toutes les versions prises en charge du composant, les versions AEM avec lesquelles les versions du composant sont compatibles et les liens vers la documentation pour les versions précédentes.
 
-| Version du composant | AEM 6.4 | AEM 6.5 | AEM as a Cloud Service |
+| Version du composant | AEM 6.4 | AEM 6.5 | AEM as a Cloud Service |
 |--- |--- |--- |---|
 | v1 | Compatible avec la <br>[version 2.17.4](/help/versions.md) et versions antérieures | Compatible | Compatible |
 
 >[!CAUTION]
 >
 >Ce document décrit la version v1 du composant Recherche rapide.
->>Pour plus d’informations sur la version actuelle du composant Recherche rapide, consultez le document [Composant Recherche rapide](/help/components/quick-search.md).
+>Pour plus d’informations sur la version actuelle du composant Recherche rapide, consultez le document [Composant Recherche rapide](/help/components/quick-search.md).
 
 Pour plus d’informations sur les versions et les publications des composants principaux, voir le document sur les [versions des composants principaux](/help/versions.md).
 
@@ -47,7 +47,7 @@ Pour plus d’informations sur les versions et les publications des composants p
 
 La documentation technique la plus récente sur le composant Recherche rapide [se trouve sur GitHub](https://adobe.com/go/aem_cmp_tech_search_v1_fr).
 
-Vous trouverez plus d’informations sur le développement des composants principaux dans la [documentation destinée aux développeurs de composants principaux](/help/developing/overview.md).
+Vous trouverez plus d’informations sur le développement des composants principaux dans la [documentation relative au développement des composants principaux](/help/developing/overview.md).
 
 ## Boîte de dialogue de modification {#edit-dialog}
 

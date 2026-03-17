@@ -1,11 +1,11 @@
 ---
 title: Composant du séparateur
 description: Le composant du séparateur crée un saut entre les composants d’une page.
-role: Architect, Developer, Admin, User
+role: Developer, Admin, User
 exl-id: 79f19368-67fa-4864-93f7-2aa801d13fdb
-source-git-commit: dd30def59a8f037864da875ef4c831b11f766e57
-workflow-type: ht
-source-wordcount: '0'
+source-git-commit: 7ba1374bd64686c2e7ac44398d77fb187ff60949
+workflow-type: tm+mt
+source-wordcount: '309'
 ht-degree: 100%
 
 ---
@@ -13,7 +13,7 @@ ht-degree: 100%
 
 # Composant du séparateur {#separator-component}
 
-Le composant du séparateur des composants principaux affiche une règle horizontale pour la séparation de contenu.
+Le composant Séparateur des composants principaux affiche une règle horizontale pour la séparation de contenu.
 
 {{traditional-aem}}
 
@@ -23,7 +23,7 @@ Le composant du séparateur permet à l’auteur de contenu de créer facilement
 
 ## Version et compatibilité {#version-and-compatibility}
 
-La version actuelle du composant du séparateur est v1, qui a été introduite avec la version 2.3.0 des composants principaux en février 2019. Elle est décrite dans ce document.
+La version actuelle du composant Séparateur est v1, qui a été introduite avec la version 2.3.0 des composants principaux en février 2019. Elle est décrite dans ce document.
 
 Le tableau ci-après présente en détail toutes les versions prises en charge du composant, les versions AEM avec lesquelles les versions du composant sont compatibles et les liens vers la documentation pour les versions précédentes.
 
@@ -39,7 +39,7 @@ Pour tester le composant du séparateur et obtenir des exemples d’options de c
 
 La documentation technique la plus récente sur le composant du séparateur [se trouve sur GitHub](https://adobe.com/go/aem_cmp_tech_separator_v1_fr).
 
-Vous trouverez plus d’informations sur le développement des composants principaux dans la [documentation destinée aux développeurs de composants principaux](/help/developing/overview.md).
+Vous trouverez plus d’informations sur le développement des composants principaux dans la [documentation relative au développement des composants principaux](/help/developing/overview.md).
 
 ## Boîte de dialogue de configuration {#configure-dialog}
 

@@ -1,19 +1,19 @@
 ---
 title: Composant de navigation par langue
-description: Le composant Navigation par langue fournit une navigation par langue/pays pour un site, de sorte que les visiteurs puissent accéder à la même page dans un autre paramètre régional.
-role: Architect, Developer, Admin, User
+description: Le composant Navigation par langue fournit une navigation par langue/pays pour un site, de sorte que les visiteurs puissent accéder à la même page dans un autre ensemble de paramètres régionaux.
+role: Developer, Admin, User
 exl-id: 10b218b4-c439-4a0f-a46f-0b15d78b0360
-source-git-commit: dd30def59a8f037864da875ef4c831b11f766e57
-workflow-type: ht
-source-wordcount: '0'
+source-git-commit: 7ba1374bd64686c2e7ac44398d77fb187ff60949
+workflow-type: tm+mt
+source-wordcount: '959'
 ht-degree: 100%
 
 ---
 
 
-# Composant de navigation par langue {#language-navigation-component}
+# Composant de navigation par langue{#language-navigation-component}
 
-Le composant Navigation par langue fournit une navigation par langue/pays pour un site, de sorte que les visiteurs puissent accéder à la même page dans un autre paramètre régional.
+Le composant Navigation par langue fournit une navigation par langue/pays pour un site, de sorte que les visiteurs puissent accéder à la même page dans un autre ensemble de paramètres régionaux.
 
 {{traditional-aem}}
 
@@ -22,7 +22,7 @@ Le composant Navigation par langue fournit une navigation par langue/pays pour u
 Souvent, les sites web sont proposés en plusieurs langues pour différentes zones géographiques. Le composant de navigation par langue permet à un visiteur d’afficher la même page dans différentes langues/différents paramètres régionaux. Ainsi, si vous consultez la version suisse allemande du site web, vous pouvez facilement passer à la version en anglais (États-Unis) de la même page. Le composant Navigation par langue gère la compréhension de la structure linguistique du site et recherche automatiquement la page correspondante.
 
 * Pour un exemple du fonctionnement de la fonction de localisation du composant de navigation linguistique, reportez-vous à [la section ci-dessous](#example).
-* Pour un exemple de la façon dont les fonctions de localisation des autres composants principaux fonctionnent ensemble, reportez-vous à la page [Fonctions de localisation de la page Composants principaux](/help/get-started/localization.md).
+* Pour un exemple de la façon dont les fonctions de localisation des autres composants principaux fonctionnent ensemble, reportez-vous à la page [Fonctionnalités de localisation de la page Composants principaux](/help/get-started/localization.md).
 
 La [boîte de dialogue de modification](#edit-dialog) permet de définir la racine de navigation globale d’un site ainsi que la profondeur de la structure de navigation. À l’aide de [la boîte de dialogue de conception](#design-dialog), l’auteur du modèle peut définir les valeurs par défaut des mêmes options.
 
@@ -47,7 +47,7 @@ Pour tester le composant Navigation par langue et obtenir des exemples d’optio
 
 La documentation technique la plus récente sur le composant Navigation par langue [se trouve sur GitHub](https://adobe.com/go/aem_cmp_tech_langnav_v2_fr).
 
-Vous trouverez plus d’informations sur le développement des composants principaux dans la [documentation destinée aux développeurs de composants principaux](/help/developing/overview.md).
+Vous trouverez plus d’informations sur le développement des composants principaux dans la [documentation relative au développement des composants principaux](/help/developing/overview.md).
 
 ## Boîte de dialogue de conception {#design-dialog}
 

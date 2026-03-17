@@ -1,12 +1,12 @@
 ---
 title: Composant principal des formulaires adaptatifs – Case à cocher
 description: Utilisation ou personnalisation du composant principal de case à cocher des formulaires adaptatifs.
-role: Architect, Developer, Admin, User
+role: Developer, Admin, User
 exl-id: c6ca4800-bd10-4aeb-957a-fb1780cf94f3
-source-git-commit: 2be68aa708131486f7d89f33952153a7a90c3d0a
+source-git-commit: 6fc9e1732302f114ad5c9c037ce203af6324edf0
 workflow-type: tm+mt
-source-wordcount: '1817'
-ht-degree: 100%
+source-wordcount: '1843'
+ht-degree: 98%
 
 ---
 
@@ -41,13 +41,13 @@ Les raisons courantes d’utiliser une case à cocher dans un formulaire adaptat
 
 ## Version et compatibilité {#version-and-compatibility}
 
-Le composant principal Case à cocher des formulaires adaptatifs a été publié dans le cadre de la version 2.0.52 des composants principaux. Voici un tableau présentant toutes les versions prises en charge, la compatibilité AEM et les liens vers la documentation correspondante :
+Le composant principal « Case à cocher » du Forms adaptatif a été publié dans le cadre de la version 2.0.52 des composants principaux. Vous trouverez ci-dessous un tableau détaillant les versions prises en charge, la compatibilité avec AEM et les liens vers la documentation correspondante :
 
 |  |  |
 |---|---|
 | Version du composant | AEM as a Cloud Service |
 | --- | --- |
-| v1 | Compatible avec la <br>[version 2.0.52](/help/adaptive-forms/version.md) et les versions ultérieures | Compatible | Compatible |
+| v1 | Compatible avec <br>[ version 2.0.52](/help/adaptive-forms/version.md) et versions ultérieures\|Compatible\|Compatible |
 
 Pour plus d’informations sur les versions et publications des composants principaux, consultez le document [Versions des composants principaux](/help/adaptive-forms/version.md).
 
@@ -94,7 +94,7 @@ Vous pouvez facilement personnaliser l’expérience des cases à cocher pour le
 
 ![Onglet Validation](/help/adaptive-forms/assets/checkbox-validation.png)
 
-- **Obligatoire** : sélectionnez cette option si vous souhaitez afficher le composant dans un formulaire adaptatif. Après avoir sélectionné cette option, vous devez effectuer une sélection avant de poursuivre l’envoi du formulaire. Vous ne pouvez pas sélectionner **Masquer le composant** ou **Désactiver le composant**  dans l’onglet **De base** lorsque cette option est sélectionnée.
+- **Obligatoire** : Sélectionnez cette option si vous souhaitez afficher le composant dans un formulaire adaptatif. Après avoir sélectionné cette option, vous devez effectuer une sélection avant de poursuivre l’envoi du formulaire. Vous ne pouvez pas sélectionner **Masquer le composant** ou **Désactiver le composant**  dans l’onglet **De base** lorsque cette option est sélectionnée.
 
 - **Message d’erreur** : cette option vous permet de rédiger un message qui s’affiche si la case à cocher **Obligatoire** est activée et le champ de formulaire reste vide.
 - **Message de validation de script** : cette option permet de saisir un message à afficher en cas d’échec de la validation du script.

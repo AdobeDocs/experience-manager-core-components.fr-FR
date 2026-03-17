@@ -1,16 +1,16 @@
 ---
-title: Fonctions de localisation des composants principaux
-description: Fonctions de localisation des composants principaux
-role: Architect, Developer, Admin, User
+title: Fonctionnalités de localisation des composants principaux
+description: Fonctionnalités de localisation des composants principaux
+role: Developer, Admin, User
 exl-id: 9140b65a-6dd7-4ec9-9095-6e8243ec8424
-source-git-commit: 888719359f9a1d1c9dccff97fb639b332f2be54c
+source-git-commit: 7ba1374bd64686c2e7ac44398d77fb187ff60949
 workflow-type: tm+mt
-source-wordcount: '716'
+source-wordcount: '727'
 ht-degree: 100%
 
 ---
 
-# Fonctions de localisation des composants principaux {#localization-features-of-the-core-components}
+# Fonctionnalités de localisation des composants principaux {#localization-features-of-the-core-components}
 
 De nombreux sites web exigent que le contenu soit diffusé dans un format localisé dans plusieurs langues et géographies. Les composants principaux sélectionnés disposent d’une résolution intelligente des références afin de faciliter la création d’un modèle unifié pour l’ensemble du contenu localisé qui s’adapte automatiquement en fonction de la structure de votre site localisé.
 

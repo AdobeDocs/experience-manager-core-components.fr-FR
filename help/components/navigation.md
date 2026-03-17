@@ -1,17 +1,17 @@
 ---
 title: Composant Navigation
 description: Le composant Navigation permet aux utilisateurs de parcourir facilement une structure de site globalisée.
-role: Architect, Developer, Admin, User
+role: Developer, Admin, User
 exl-id: 9154f2a3-3d1e-4865-a413-298748fa66d3
-source-git-commit: dd30def59a8f037864da875ef4c831b11f766e57
-workflow-type: ht
-source-wordcount: '0'
-ht-degree: 100%
+source-git-commit: 7ba1374bd64686c2e7ac44398d77fb187ff60949
+workflow-type: tm+mt
+source-wordcount: '1556'
+ht-degree: 97%
 
 ---
 
 
-# Composant Navigation {#navigation-component}
+# Composant Navigation{#navigation-component}
 
 Le composant Navigation permet aux utilisateurs de parcourir facilement une structure de site globalisée.
 
@@ -21,7 +21,7 @@ Le composant Navigation permet aux utilisateurs de parcourir facilement une stru
 
 Les listes de composants de navigation répertorient une arborescence de pages afin que les utilisateurs d’un site puissent facilement naviguer dans la structure du site.
 
-Le composant de navigation peut détecter automatiquement la structure de site globalisée de votre site et [s’adapter automatiquement à une page localisée.](#localized-site-structure) En outre, elle peut prendre en charge toute structure arbitraire de site en utilisant [des pages de redirection fantômes](#shadow-structure) pour représenter une structure autre que la structure de contenu principale.
+Le composant Navigation peut détecter automatiquement la structure de site globalisée de votre site et [s’adapter automatiquement à une page localisée.](#localized-site-structure) En outre, il peut prendre en charge n’importe quelle structure de site arbitraire en utilisant [les pages de redirection fantômes](#shadow-structure) pour représenter une autre structure que votre structure de contenu principale.
 
 La boîte de dialogue de [modification](#edit-dialog) permet à l’auteur de contenu de définir la page racine de navigation ainsi que la profondeur de navigation. La boîte de dialogue de [conception](#design-dialog) permet à l’auteur du modèle de définir les valeurs par défaut de la racine de navigation et de la profondeur.
 
@@ -43,7 +43,7 @@ Pour plus d’informations sur les versions et les publications des composants p
 Souvent, les sites web sont proposés en plusieurs langues pour différentes zones géographiques. En règle générale, chaque page localisée contient un élément de navigation qui est inclus dans le modèle de page. Le composant de navigation permet de le placer une fois sur un modèle pour toutes les pages du site. Il s’adapte ensuite automatiquement aux pages localisées individuelles en fonction de la structure de site globalisée.
 
 * Pour un exemple du fonctionnement de la fonction de localisation du composant de navigation, reportez-vous à [la section ci-dessous](#example-localization).
-* Pour un exemple de la façon dont les fonctions de localisation des composants principaux fonctionnent ensemble, reportez-vous à la page [Fonctions de localisation de la page Composants principaux](/help/get-started/localization.md).
+* Pour un exemple de la façon dont les fonctions de localisation des composants principaux fonctionnent ensemble, reportez-vous à la page [Fonctionnalités de localisation de la page Composants principaux](/help/get-started/localization.md).
 
 ### Exemple {#example-localization}
 
@@ -123,7 +123,7 @@ Pour tester le composant de navigation et obtenir des exemples d’options de co
 
 La documentation technique la plus récente sur le composant de navigation [se trouve sur GitHub](https://adobe.com/go/aem_cmp_tech_navigation_v2_fr).
 
-Vous trouverez plus d’informations sur le développement des composants principaux dans la [documentation destinée aux développeurs de composants principaux](/help/developing/overview.md).
+Vous trouverez plus d’informations sur le développement des composants principaux dans la [documentation relative au développement des composants principaux](/help/developing/overview.md).
 
 >[!NOTE]
 >

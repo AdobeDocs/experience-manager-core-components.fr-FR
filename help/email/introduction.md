@@ -1,12 +1,12 @@
 ---
 title: Présentation des composants principaux d’e-mail
-description: Créez un contenu d’e-mail attrayant à l’aide de la flexibilité des composants principaux d’e-mail et diffusez-le avec la puissance d’Adobe Campaign.
-role: Architect, Developer, Admin, User
+description: Créez un contenu d’e-mail attrayant en utilisant la flexibilité des composants principaux d’e-mail et diffusez-le avec la puissance d’Adobe Campaign.
+role: Developer, Admin, User
 exl-id: 0a411f28-bd6a-4bad-b473-6bc27c1d1055
 index: false
-source-git-commit: eb77567dc32cccb81a9fc131493d11fb55b7e93b
-workflow-type: ht
-source-wordcount: '0'
+source-git-commit: 7ba1374bd64686c2e7ac44398d77fb187ff60949
+workflow-type: tm+mt
+source-wordcount: '439'
 ht-degree: 100%
 
 ---
@@ -14,7 +14,7 @@ ht-degree: 100%
 
 # Présentation des composants principaux d’e-mail {#email-core-components-introduction}
 
-Créez un contenu d’e-mail attrayant à l’aide de la flexibilité des composants principaux d’e-mail et diffusez-le avec la puissance d’Adobe Campaign.
+Créez un contenu d’e-mail attrayant en utilisant la flexibilité des composants principaux d’e-mail et diffusez-le avec la puissance d’Adobe Campaign.
 
 ## Présentation {#overview}
 
@@ -22,9 +22,9 @@ Les composants principaux d’e-mail sont construits sur la même base puissante
 
 ## Avantages {#benefits}
 
-Les e-mails font partie de l’expérience de la marque et du parcours client. Grâce aux composants principaux d’e-mail, vos créateurs peuvent concevoir du contenu d’e-mail à partir d’AEM, offrant ainsi une expérience de marque cohérente et augmentant par la suite la vitesse du contenu.
+Les e-mails font partie de l’expérience de la marque et du parcours client. Grâce aux composants principaux d’e-mail, vos créateurs et créatrices peuvent concevoir du contenu d’e-mail à partir d’AEM, offrant ainsi une expérience de marque cohérente et augmentant par la suite la vitesse du contenu.
 
-* Tout comme pour la création de pages avec les composants principaux, les composants principaux d’e-mail permettent aux auteurs d’assembler des e-mails sans connaissance technique tout en s’assurant qu’ils suivent les directives en matière d’image de marque.
+* Tout comme pour la création de pages avec les composants principaux, les composants principaux d’e-mail permettent d’assembler des e-mails sans connaissance technique tout en s’assurant qu’ils suivent les directives en matière d’image de marque.
 * La possibilité de réutiliser des ressources et du contenu encourage également les créateurs à suivre les directives en matière d’image de marque et à optimiser le processus de création de contenu.
 
 ## Fonctions {#features}
@@ -35,7 +35,7 @@ Les e-mails font partie de l’expérience de la marque et du parcours client. G
 * Le [composant Segmentation](/help/email/components/segmentation.md) flexible permet une segmentation avancée de votre contenu.
 * Les composants principaux d’e-mail offrent une sortie HTML optimale adaptée aux e-mails grâce à [CSS styles inliner,](https://github.com/adobe/aem-core-email-components/wiki/CSS-Styles-Inliner:-Technical-documentation) [HTML attribute inliner,](https://github.com/adobe/aem-core-email-components/wiki/HTML-Inliner) et [HTML sanitizer.](https://github.com/adobe/aem-core-email-components/wiki/HTML-Sanitizing)
 * Vous pouvez créer du contenu d’e-mail n’importe où sous `/content`.
-* Les composants principaux d’e-mail sont en [open source.](https://github.com/adobe/aem-core-email-components)
+* Les composants principaux d’e-mail sont en [Open Source.](https://github.com/adobe/aem-core-email-components)
 
 ## Conditions requises {#requirements}
 

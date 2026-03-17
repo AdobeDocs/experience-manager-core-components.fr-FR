@@ -1,12 +1,12 @@
 ---
 title: Composant Page (v1)
 description: Le composant de page est un composant de page extensible, conçu pour fonctionner avec l’éditeur de modèles et autoriser l’assemblage de composants d’en-tête/de pied de page et de structure de page avec l’éditeur de modèles.
-index: n
-role: Architect, Developer, Admin, User
+index: false
+role: Developer, Admin, User
 exl-id: 522f32f0-fc06-4ca0-ada2-61bdbc8761e0
-source-git-commit: 92a3ec273a5be6751c1503835b9c2e5cbd61bb9e
-workflow-type: ht
-source-wordcount: '0'
+source-git-commit: 7ba1374bd64686c2e7ac44398d77fb187ff60949
+workflow-type: tm+mt
+source-wordcount: '513'
 ht-degree: 100%
 
 ---
@@ -24,7 +24,7 @@ Grâce à la [boîte de dialogue de conception](#design-dialog), les bibliothèq
 
 ## Version et compatibilité {#version-and-compatibility}
 
-Ce document décrit la version v1 du composant Page, introduite à l’origine avec la version 1.0.0 des composants principaux avec AEM 6.3.
+Ce document décrit la version v1 du composant Page, introduite à l’origine avec la version 1.0.0 des composants principaux avec AEM 6.3.
 
 Le tableau suivant répertorie la compatibilité de la version v1 du composant Page.
 
@@ -707,4 +707,4 @@ La documentation technique la plus récente sur le composant Page [se trouve sur
 
 Le projet sur les composants principaux peut être téléchargé depuis GitHub.
 
-Vous trouverez plus d’informations sur le développement des composants principaux dans la [documentation destinée aux développeurs de composants principaux](/help/developing/overview.md).
+Vous trouverez plus d’informations sur le développement des composants principaux dans la [documentation relative au développement des composants principaux](/help/developing/overview.md).

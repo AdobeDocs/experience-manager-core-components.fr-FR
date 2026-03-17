@@ -1,12 +1,12 @@
 ---
 title: Versions des composants principaux des formulaires adaptatifs AEM
 description: Les composants principaux d’AEM sont publiés sous forme de versions qui peuvent contenir plusieurs versions des mêmes composants principaux. Ce document explique les versions et les mises à jour ainsi que comment comprendre la compatibilité avec les composants principaux et AEM.
-role: Architect, Developer, Admin, User
+role: Developer, Admin, User
 exl-id: 8146a5b1-acf6-4b54-ad6b-6e1747a137f6
-source-git-commit: 2be68aa708131486f7d89f33952153a7a90c3d0a
+source-git-commit: 7ba1374bd64686c2e7ac44398d77fb187ff60949
 workflow-type: tm+mt
-source-wordcount: '180'
-ht-degree: 92%
+source-wordcount: '213'
+ht-degree: 93%
 
 ---
 

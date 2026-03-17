@@ -1,12 +1,12 @@
 ---
 title: Diffusion d’images optimisées pour le web
 description: Découvrez comment les composants principaux peuvent exploiter les fonctionnalités de diffusion d’images optimisées pour le web d’AEM as a Cloud Service dans le but de diffuser plus efficacement les images.
-role: Architect, Developer, Admin, User
+role: Developer, Admin, User
 exl-id: 6080ab8b-f53c-4d5e-812e-16889da4d7de
-source-git-commit: eb1822cb41a849695afb5125745ed5f78e3e70a4
+source-git-commit: 7ba1374bd64686c2e7ac44398d77fb187ff60949
 workflow-type: tm+mt
-source-wordcount: '1061'
-ht-degree: 100%
+source-wordcount: '1130'
+ht-degree: 89%
 
 ---
 
@@ -16,13 +16,13 @@ Découvrez comment les composants principaux peuvent exploiter les fonctionnalit
 
 ## Présentation {#overview}
 
-La fonction de diffusion d’images optimisées pour le web d’AEM as a Cloud Service offre des ressources d’image à partir de la gestion des ressources numériques au format [WebP.](https://developers.google.com/speed/webp) WebP peut réduire la taille de téléchargement d’une image d’environ 25 % en moyenne, ce qui accélère le chargement des pages.
+La fonctionnalité de diffusion d’images optimisées pour le web d’AEM as a Cloud Service diffuse des ressources d’image à partir de la gestion des ressources numériques au format [WebP](https://developers.google.com/speed/webp). WebP peut réduire la taille de téléchargement d’une image d’environ 25 % en moyenne, ce qui accélère le chargement des pages.
 
-L’activation de la diffusion d’images optimisées pour le web dans les composants principaux est simple. Parce que tous les navigateurs courants prennent en charge WebP, l’expérience est transparente pour l’utilisateur final. La seule différence qu’ils remarqueront sera le chargement plus rapide du contenu.
+L’activation de la diffusion d’images optimisées pour le Web dans les composants principaux est simple. Parce que tous les navigateurs courants prennent en charge WebP, l’expérience est transparente pour l’utilisateur final. La seule différence qu’ils remarqueront sera le chargement plus rapide du contenu.
 
-## Activer la diffusion d’images optimisées pour le web pour les composants principaux {#activating}
+## Activer la diffusion d’images optimisées pour le Web pour les composants principaux {#activating}
 
-Pour activer la diffusion d’images optimisées pour le web, modifiez un modèle de page et activez simplement l’option **Activer les images optimisées pour le web** dans la boîte de dialogue de conception du [composant Image.](/help/components/image.md#design-dialog) Cette option est disponible dans les versions 1, 2 et 3 du composant Image.
+Pour activer la diffusion d’images optimisées pour le web, modifiez un modèle de page et activez simplement l’option **Activer les images optimisées pour le web** dans la boîte de dialogue de conception du [composant Image.](/help/components/image.md#design-dialog) Cette option est disponible dans les versions 1, 2 et 3 du composant Image.
 
 Si vous ne connaissez pas bien les boîtes de dialogue de conception et les modèles de page d’AEM, [veuillez consulter ce document.](/help/get-started/authoring.md#pre-configuring-core-components)
 
@@ -71,7 +71,7 @@ Pour préserver la fidélité de la sortie, le service d’images ne met pas à 
 
 ### L’URL de mes images se termine toujours par .JPG ou .PNG, et non par .WEBP, et il n’existe pas d’attribut SRCSET ni d’élément PICTURE. Utilise-t-on vraiment les formats web optimisés ? {#content-negotiation}
 
-Pour diffuser des formats WebP, le service de diffusion d’images optimisées pour le web utilise [une négociation de contenu orientée serveur.](https://developer.mozilla.org/fr-FR/docs/Web/HTTP/Content_negotiation#server-driven_content_negotiation) Cela permet de sélectionner le format de sortie optimal de l’image en fonction des fonctionnalités publicitaires de la clientèle, ce qui permet au service de diffusion d’images d’ignorer l’extension du fichier.
+Pour diffuser des formats WebP, le service de diffusion d’images optimisées pour le web effectue des [négociations de contenu pilotées par le serveur](https://developer.mozilla.org/fr-FR/docs/Web/HTTP/Content_negotiation#server-driven_content_negotiation). Cela permet de sélectionner le format de sortie optimal de l’image en fonction des fonctionnalités annoncées par le client, ce qui permet au service de diffusion d’images d’ignorer l’extension de fichier.
 
 L’avantage de l’utilisation de la négociation de contenu est que les navigateurs qui ne font pas de publicité pour la prise en charge de WebP obtiendront toujours le format de fichier JPG ou PNG sans aucune modification nécessaire dans le balisage de la page. Cela offre une compatibilité optimale pour les sites existants et garantit un chemin d’accès le plus fluide possible vers une transition vers une diffusion d’images optimisées pour le web.
 

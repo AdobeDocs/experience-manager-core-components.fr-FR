@@ -1,12 +1,12 @@
 ---
 title: Prise en charge d’AMP par les composants principaux
 description: Les composants principaux prennent en charge les pages mobiles accélérées (AMP).
-role: Architect, Developer, Admin
+role: Developer, Admin
 exl-id: 1fd9b6b5-0e4d-48c7-8faa-42e0d4a6bbd0
-source-git-commit: 2ac16b15718128feefbe903e92f276b16fe96f69
+source-git-commit: 7ba1374bd64686c2e7ac44398d77fb187ff60949
 workflow-type: tm+mt
-source-wordcount: '525'
-ht-degree: 100%
+source-wordcount: '578'
+ht-degree: 95%
 
 ---
 
@@ -22,7 +22,7 @@ AMP (Accelerated Mobile Pages) est un framework open source conçu à l’origin
 
 ## AMP dans les composants principaux {#amp-in-core-components}
 
-La prise en charge d’AMP dans les composants principaux est [entièrement configurable.](#enabling-amp) Les versions AMP des pages peuvent être diffusées seules, avec les versions HTML standard, ou ne pas être diffusées du tout.
+La prise en charge d’AMP dans les composants principaux est [entièrement configurable](#enabling-amp). Les versions AMP des pages peuvent être diffusées exclusivement, avec les versions HTML standard, ou pas du tout.
 
 Les composants principaux utilisent `amp` comme sélecteur Sling pour le rendu d’une page AMP. Par exemple, `example.html` affiche la page normale et `example.amp.html` la version AMP.
 

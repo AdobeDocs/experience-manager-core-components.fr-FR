@@ -1,14 +1,14 @@
 ---
 title: hCaptcha dans les formulaires adaptatifs AEM
-description: Améliorez sans effort la sécurité des formulaires grâce au service hCaptcha®. Guide détaillé inclus.
+description: Améliorez la sécurité des formulaires avec hCaptcha&reg ; et servez sans effort. Guide détaillé inclus.
 feature-set: Experience Manager Sites, Experience Manager Forms
 feature: Adaptive Forms, Core Components
-role: Architect, Developer, Admin, User
+role: Developer, Admin, User
 exl-id: eecb38d5-711e-4dc5-bc19-498e003f37e7
-source-git-commit: 6725784bd4c94d433c91d6bd65d14d03cbefd954
-workflow-type: ht
-source-wordcount: '0'
-ht-degree: 100%
+source-git-commit: 6fc9e1732302f114ad5c9c037ce203af6324edf0
+workflow-type: tm+mt
+source-wordcount: '730'
+ht-degree: 92%
 
 ---
 
@@ -39,7 +39,7 @@ Il existe plusieurs raisons pour lesquelles il est intéressant d’inclure un t
 
 ## Détails techniques {#technical-details}
 
-Retrouvez les dernières informations sur le composant hCaptcha dans la documentation technique sur [GitHub](https://github.com/adobe/aem-core-forms-components/blob/master/ui.af.apps/src/main/content/jcr_root/apps/core/fd/components/form/hCaptcha/v1/hCaptcha/README.md). Pour plus d’informations sur le développement des composants principaux, consultez la [documentation destinée aux développeurs et développeuses de composants principaux](/help/developing/overview.md).
+Retrouvez les dernières informations sur le composant hCaptcha dans la documentation technique sur [GitHub](https://github.com/adobe/aem-core-forms-components/blob/master/ui.af.apps/src/main/content/jcr_root/apps/core/fd/components/form/hCaptcha/v1/hCaptcha/README.md). Pour plus d’informations sur le développement des composants principaux, consultez la [documentation relative au développement des composants principaux](/help/developing/overview.md).
 
 Spécifiez les propriétés du composant hCaptcha à l’aide de la [boîte de dialogue de configuration](#configure-dialog). La boîte de dialogue de configuration fait partie des composants principaux conçus pour faciliter la création des formulaires et fournir un moyen efficace de créer des formulaires complexes.
 
@@ -52,7 +52,7 @@ Le composant Captcha du formulaire adaptatif a été publié en mai 2024 dans l
 |---|---|
 | Version du composant | AEM as a Cloud Service |
 | --- | --- |
-| v1 | Compatible avec la <br>[version 2.0.4](/help/adaptive-forms/version.md) et les versions ultérieures | Compatible | Compatible |
+| v1 | Compatible avec les versions 2<br>[0.4](/help/adaptive-forms/version.md) et ultérieures. |
 
 Pour plus d’informations sur les versions et publications des composants principaux, consultez le document [Versions des composants principaux](/help/adaptive-forms/version.md).
 
@@ -80,13 +80,13 @@ Vous pouvez facilement personnaliser les propriétés de votre composant Captch
 
 **En savoir plus** sur d’autres **composants Captcha** et leurs services, tels que les suivants :
 
-- [Utiliser hCaptcha dans un formulaire adaptatif pour les composants principaux](https://experienceleague.adobe.com/fr/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/integrate-adaptive-forms-hcaptcha-core-components)
+- [Utilisation de hCaptcha dans un formulaire adaptatif pour les composants principaux](https://experienceleague.adobe.com/fr/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/integrate-adaptive-forms-hcaptcha-core-components)
 
-- [Utiliser hCaptcha dans un formulaire adaptatif pour les composants de base](https://experienceleague.adobe.com/fr/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-foundation-components/add-components-to-an-adaptive-form/integrate-adaptive-forms-hcaptcha)
+- [Utilisation de Captcha dans un formulaire adaptatif pour les composants de base](https://experienceleague.adobe.com/fr/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-foundation-components/add-components-to-an-adaptive-form/integrate-adaptive-forms-hcaptcha)
 
-- [Utiliser Turnstile CAPTCHA dans un formulaire adaptatif pour les composants de base](https://experienceleague.adobe.com/fr/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-foundation-components/add-components-to-an-adaptive-form/integrate-adaptive-forms-turnstile)
+- [Utilisation de CAPTCHA de tourniquet dans un formulaire adaptatif pour les composants de base](https://experienceleague.adobe.com/fr/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-foundation-components/add-components-to-an-adaptive-form/integrate-adaptive-forms-turnstile)
 
-- [Utiliser Google reCAPTCHA dans un formulaire adaptatif pour les composants de base](https://experienceleague.adobe.com/fr/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/captcha-adaptive-forms-core-components)
+- [Utilisation de Google reCAPTCHA dans un formulaire adaptatif pour les composants de base](https://experienceleague.adobe.com/fr/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/captcha-adaptive-forms-core-components)
 
 ## Articles connexes {#related-articles}
 

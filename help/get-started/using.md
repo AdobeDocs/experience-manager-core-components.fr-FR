@@ -1,16 +1,16 @@
 ---
 title: Utilisation des composants principaux
-description: '« Pour que les composants principaux soient opérationnels dans votre propre projet, suivez les quatre étapes ci-après : téléchargement et installation, création de composants proxy, chargement des styles principaux et autorisation des composants de vos modèles. »'
-role: Architect, Developer, Admin, User
+description: 'Pour que les composants principaux soient opérationnels dans votre propre projet, vous devez suivre trois étapes : télécharger et installer, créer des composants proxy, charger les styles principaux et autoriser les composants sur vos modèles.'
+role: Developer, Admin, User
 exl-id: ee2d25e4-e2b8-4ecc-a62c-f0066de2bf2d
-source-git-commit: 8beae61676340e8aafaee469018d865ea7ed934e
+source-git-commit: 7ba1374bd64686c2e7ac44398d77fb187ff60949
 workflow-type: tm+mt
-source-wordcount: '948'
-ht-degree: 100%
+source-wordcount: '1043'
+ht-degree: 92%
 
 ---
 
-# Utilisation des composants principaux {#using-core-components}
+# Utilisation des composants principaux{#using-core-components}
 
 Pour que les composants principaux soient opérationnels dans votre propre projet, vous devez suivre quatre étapes qui sont détaillées dans les sections ci-dessous :
 
@@ -30,7 +30,7 @@ Pour que les composants principaux soient opérationnels dans votre propre proje
 
 ## Téléchargement et installation {#download-and-install}
 
-Les composants principaux ont avant tout été conçus pour être flexibles. La publication plus régulière de nouvelles versions des composants principaux permet à Adobe d’être plus flexible lors de la diffusion de nouvelles fonctionnalités. Les développeurs peuvent ensuite être flexibles dans les composants qu’ils choisissent d’intégrer dans leurs projets et dans la fréquence à laquelle ils souhaitent les mettre à jour. La publication des composants AEM et celle des composants principaux se déroulent ainsi au travers de processus distincts.
+Les composants principaux ont avant tout été conçus pour être flexibles. La publication plus régulière de nouvelles versions des composants principaux permet à Adobe d&#39;être plus flexible lors de la diffusion de nouvelles fonctionnalités. Les développeurs peuvent ensuite être flexibles dans les composants qu’ils choisissent d’intégrer dans leurs projets et dans la fréquence à laquelle ils souhaitent les mettre à jour. La publication des composants AEM et celle des composants principaux se déroulent ainsi au travers de processus distincts.
 
 Par conséquent, les étapes d’installation se déroulent différemment selon que vous exécutiez AEM as a Cloud Service ou On-Premise.
 
@@ -44,15 +44,15 @@ Gardez à l’esprit les points suivants lorsque vous utilisez les composants pr
 * Le pipeline de génération de projet génère des avertissements dans le journal s’il inclut également les composants principaux dans `/apps`. Il ignorera alors la version intégrée dans le cadre de votre projet.
    * Dans une prochaine version, l’ajout de composants principaux supplémentaires causera l’échec du processus de génération du pipeline.
 * Si votre projet incluait précédemment les composants principaux dans `/apps`, [vous devrez peut-être le paramétrer différemment](/help/developing/overview.md#via-aemaacs).
-* Même si les composants principaux se trouvent maintenant dans `/libs`, il n’est pas recommandé de créer un recouvrement du même chemin dans `/apps`. Si un élément quelconque des composants devait être personnalisé, nous vous recommandons d’utiliser [le modèle de composant de proxy](/help/developing/guidelines.md#proxy-component-pattern) à la place.
+* Même si les composants principaux sont désormais en `/libs`, il n’est pas recommandé de créer une superposition du même chemin dans `/apps`. [Le modèle de composant proxy ](/help/developing/guidelines.md#proxy-component-pattern) doit être utilisé à la place si l’un des aspects des composants doit être personnalisé.
 * Pour que le [composant Table des matières](/help/components/tableofcontents.md) puisse effectuer le rendu de son contenu, un filtre doit être configuré dans OSGi.
-   * Pour plus d’informations, [consultez la documentation GitHub du composant.](https://adobe.com/go/aem_cmp_tech_tableofcontents_v1_fr).
+   * Pour plus d’informations, [consultez la documentation GitHub du composant.](https://adobe.com/go/aem_cmp_tech_tableofcontents_v1).
 
 ### AEM 6.5 et version antérieure {#aem-65}
 
-Les composants principaux ne font pas partie du démarrage rapide lors du lancement en mode de production (sans exemple de contenu). C’est pourquoi la première étape consiste [à télécharger le dernier package de contenu publié à partir de GitHub](https://github.com/adobe/aem-core-wcm-components/releases/latest) et à l’installer dans vos environnements AEM.
+Les composants principaux ne font pas partie du démarrage rapide lors du lancement en mode de production (sans exemple de contenu). C’est pourquoi la première étape consiste à [télécharger le dernier module de contenu publié à partir de GitHub](https://github.com/adobe/aem-core-wcm-components/releases/latest) et à l’installer dans vos environnements AEM.
 
-Il existe plusieurs manières d’automatiser cette opération, mais la méthode la plus simple pour installer rapidement un package de contenu sur une instance consiste à utiliser le gestionnaire de packages. Consultez la section [Installation des packages](https://experienceleague.adobe.com/docs/experience-manager-65/administering/contentmanagement/package-manager.html?lang=fr#installing-packages). En outre, une fois qu’une instance de publication s’exécute, vous devrez répliquer ce package dans l’éditeur. Consultez la section [Réplication des packages](https://experienceleague.adobe.com/docs/experience-manager-65/administering/contentmanagement/package-manager.html?lang=fr#replicating-packages).
+Il existe plusieurs manières d’automatiser cette opération, mais la méthode la plus simple pour installer rapidement un module de contenu sur une instance consiste à utiliser le gestionnaire de modules. Consultez la section [Installation des packages](https://experienceleague.adobe.com/docs/experience-manager-65/administering/contentmanagement/package-manager.html?lang=fr#installing-packages). En outre, une fois qu’une instance de publication s’exécute, vous devrez répliquer ce package dans l’éditeur. Consultez la section [Réplication des packages](https://experienceleague.adobe.com/docs/experience-manager-65/administering/contentmanagement/package-manager.html?lang=fr#replicating-packages).
 
 ## Création des composants proxy {#create-proxy-components}
 

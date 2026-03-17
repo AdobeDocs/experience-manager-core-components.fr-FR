@@ -1,23 +1,23 @@
 ---
 title: Composant Fragment de contenu
-description: Le composant Fragment de contenu des composants principaux permet l’affichage d’un fragment de contenu.
-role: Architect, Developer, Admin, User
+description: Le composant de fragment de contenu des composants principaux permet l’affichage d’un fragment de contenu.
+role: Developer, Admin, User
 exl-id: 551ff2a1-f8db-490c-84a3-4255b364fc83
-source-git-commit: dd30def59a8f037864da875ef4c831b11f766e57
-workflow-type: ht
-source-wordcount: '0'
+source-git-commit: 7ba1374bd64686c2e7ac44398d77fb187ff60949
+workflow-type: tm+mt
+source-wordcount: '693'
 ht-degree: 100%
 
 ---
 
 
-# Composant Fragment de contenu {#content-fragment-component}
+# Composant Fragment de contenu{#content-fragment-component}
 
 Le composant Fragment de contenu des composants principaux permet l’affichage d’un [fragment de contenu](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/content-fragments/content-fragments.html?lang=fr).
 
 >[!NOTE]
 >
->Avant la version 2.4.0 des composants principaux, le composant Fragment de contenu était disponible en tant qu’extension aux composants principaux et devait être téléchargé séparément et explicitement activé.
+>Avant la version 2.4.0 des composants principaux, le composant de fragment de contenu était disponible en tant qu’extension aux composants principaux et devait être téléchargé séparément et explicitement activé.
 
 {{traditional-aem}}
 
@@ -61,7 +61,7 @@ Pour tester le composant de fragment de contenu et obtenir des exemples d’opti
 
 La documentation technique la plus récente sur le composant Fragment de contenu [se trouve sur GitHub](https://adobe.com/go/aem_cmp_tech_cf_v1_fr).
 
-Vous trouverez plus d’informations sur le développement des composants principaux dans la [documentation destinée aux développeurs de composants principaux](/help/developing/overview.md).
+Vous trouverez plus d’informations sur le développement des composants principaux dans la [documentation relative au développement des composants principaux](/help/developing/overview.md).
 
 ## Boîte de dialogue de configuration {#configure-dialog}
 
@@ -84,7 +84,7 @@ La boîte de dialogue de configuration permet à l’auteur de contenu de défin
 
 * **Paragraphes**
 
-   * **Tous** : permet d’afficher tous les paragraphes.
+   * **Tout** : permet d’afficher tous les paragraphes.
    * **Étendue**
 
       * Spécifiez les plages de paragraphes à afficher, séparées par un point-virgule.

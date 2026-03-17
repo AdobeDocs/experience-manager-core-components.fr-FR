@@ -1,12 +1,12 @@
 ---
 title: Composant Liste de fragments de contenu (v1)
 description: Le composant Liste de fragments de contenu des composants principaux permet d’afficher une liste de fragments de contenu.
-role: Architect, Developer, Admin, User
+role: Developer, Admin, User
 exl-id: 37d6632d-360d-4081-8279-8efbb369a82e
-index: n
-source-git-commit: 92a3ec273a5be6751c1503835b9c2e5cbd61bb9e
-workflow-type: ht
-source-wordcount: '694'
+index: false
+source-git-commit: 7ba1374bd64686c2e7ac44398d77fb187ff60949
+workflow-type: tm+mt
+source-wordcount: '738'
 ht-degree: 100%
 
 ---
@@ -41,7 +41,7 @@ Pour tester le composant de liste de fragments de contenu et voir des exemples d
 
 La documentation technique la plus récente sur le composant Liste des fragments de contenu [se trouve sur GitHub](https://adobe.com/go/aem_cmp_tech_cflist_v1_fr).
 
-Vous trouverez plus d’informations sur le développement des composants principaux dans la [documentation destinée aux développeurs de composants principaux](/help/developing/overview.md).
+Vous trouverez plus d’informations sur le développement des composants principaux dans la [documentation relative au développement des composants principaux](/help/developing/overview.md).
 
 ## Boîte de dialogue de configuration {#configure-dialog}
 
@@ -88,4 +88,4 @@ Par défaut, tous les éléments du modèle de fragment de contenu seront inclus
 
 ## Boîte de dialogue de conception {#design-dialog}
 
-La boîte de dialogue de conception permet à l’auteur du modèle de définir les styles appliqués au composant de liste de fragments de contenu.
+La boîte de dialogue de conception permet au créateur ou à la créatrice du modèle de définir les styles appliqués au composant de liste de fragments de contenu.

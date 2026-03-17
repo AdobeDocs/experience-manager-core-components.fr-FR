@@ -2,12 +2,12 @@
 title: Développement front-end avec l’archétype de projet AEM
 description: Découvrez le mécanisme de génération front-end facultatif et dédié de l’archétype de projet AEM basé sur Webpack.
 feature: Core Components, AEM Project Archetype
-role: Architect, Developer, Admin
+role: Developer, Admin
 exl-id: 99132b49-bd06-4ac2-9348-12c0dfdfe8b2
-source-git-commit: bd92a5d1884056ca7b44ea28e5817d8bde10a4d9
+source-git-commit: 7ba1374bd64686c2e7ac44398d77fb187ff60949
 workflow-type: tm+mt
-source-wordcount: '654'
-ht-degree: 100%
+source-wordcount: '710'
+ht-degree: 92%
 
 ---
 
@@ -37,7 +37,7 @@ Toutefois, le projet obtenu doit utiliser les résultats de ces deux processus d
 
 ## Définition du balisage {#determining-markup}
 
-Quel que soit le workflow front-end que vous décidez de mettre en œuvre pour votre projet, les développeurs front-end et back-end doivent avant tout s’entendre sur le balisage. En règle générale, AEM définit le balisage que les principaux composants fournissent. [Vous pouvez toutefois le personnaliser, le cas échéant](/help/developing/customizing.md#customizing-the-markup).
+Quel que soit le workflow front-end que vous décidez de mettre en œuvre pour votre projet, les développeurs front-end et back-end doivent avant tout s’entendre sur le balisage. En règle générale, AEM définit le balisage qui est fourni par les composants principaux. [Cependant, il peut être personnalisé si nécessaire.](/help/developing/customizing.md#customizing-the-markup)
 
 ## Workflows front-end possibles {#possible-workflows}
 
@@ -68,7 +68,7 @@ Avec [Storybook](https://storybook.js.org), vous pouvez effectuer un développem
 
 ## Vue d’ensemble des bibliothèques clientes {#clientlibs}
 
-Le module front-end est rendu disponible à l’aide d’une [bibliothèque cliente AEM.](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/developing/full-stack/clientlibs.html?lang=fr-FR). Lors de l’exécution du script de génération NPM, l’application est créée et le package `aem-clientlib-generator` récupère le résultat de la génération pour le transformer en une bibliothèque cliente de ce type.
+Le module frontend est disponible à l’aide d’une [bibliothèque cliente AEM.](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/developing/full-stack/clientlibs.html?lang=fr-FR). Lors de l’exécution du script de génération NPM, l’application est créée et le package `aem-clientlib-generator` prend la sortie de génération obtenue et la transforme en une telle bibliothèque cliente.
 
 Une bibliothèque cliente se compose des fichiers et répertoires suivants :
 

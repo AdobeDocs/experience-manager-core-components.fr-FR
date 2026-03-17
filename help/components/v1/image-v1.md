@@ -1,12 +1,12 @@
 ---
 title: Composant d’image (v1)
-description: Le composant d’image des composants principaux est un composant d’image adaptatif qui permet d’effectuer des modifications statiques.
-index: n
-role: Architect, Developer, Admin, User
+description: Le composant Image des composants principaux est un composant d’image adaptatif qui permet d’effectuer des modifications statiques.
+index: false
+role: Developer, Admin, User
 exl-id: 625ce8de-5c4a-476d-b749-895493d169b1
-source-git-commit: 92a3ec273a5be6751c1503835b9c2e5cbd61bb9e
-workflow-type: ht
-source-wordcount: '0'
+source-git-commit: 7ba1374bd64686c2e7ac44398d77fb187ff60949
+workflow-type: tm+mt
+source-wordcount: '1369'
 ht-degree: 100%
 
 ---
@@ -14,7 +14,7 @@ ht-degree: 100%
 
 # Composant d’image (v1) {#image-component-v}
 
-Le composant d’image des composants principaux est un composant d’image adaptatif qui permet d’effectuer des modifications statiques.
+Le composant Image des composants principaux est un composant d’image adaptatif qui permet d’effectuer des modifications statiques.
 
 ## Utilisation {#usage}
 
@@ -195,7 +195,7 @@ Appuyez ou cliquez sur le bouton Ajouter pour ajouter une autre taille.
 
 Par défaut, le chargement des images est différé jusqu’à ce qu’elles deviennent visibles. Sélectionnez l’option **Désactiver le chargement différé** pour charger les images au chargement de la page.
 
-* **Activer les images optimisées pour le web** - lorsque cette case est cochée, le [service de diffusion d’images optimisées pour le web](/help/developing/web-optimized-image-delivery.md) diffusera les images au format WebP, réduisant la taille moyenne des images de 25 %.
+* **Activer les images optimisées pour le web** : lorsque cette case est cochée, le [service de diffusion d’images optimisées pour le web](/help/developing/web-optimized-image-delivery.md) diffusera les images au format WebP, réduisant ainsi la taille moyenne des images de 25 %.
    * Cette option est disponible uniquement dans AEMaaCS.
    * Lorsque cette option est décochée ou que le service de diffusion d’images optimisées pour le web n’est pas disponible, le [servlet Image adaptative](/help/developing/adaptive-image-servlet.md) est utilisé.
 
@@ -246,4 +246,4 @@ La documentation technique la plus récente sur le composant d’image [se trouv
 
 Le projet sur les composants principaux peut être téléchargé depuis GitHub.
 
-Vous trouverez plus d’informations sur le développement des composants principaux dans la [documentation destinée aux développeurs de composants principaux](/help/developing/overview.md).
+Vous trouverez plus d’informations sur le développement des composants principaux dans la [documentation relative au développement des composants principaux](/help/developing/overview.md).

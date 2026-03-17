@@ -1,12 +1,12 @@
 ---
 title: Composant Bouton d’e-mail
 description: Le composant Bouton d’e-mail permet de configurer et d’afficher un élément de bouton dans votre contenu.
-role: Architect, Developer, Admin, User
+role: Developer, Admin, User
 exl-id: b144e8d1-1097-475d-b2eb-3353c176afb9
 index: false
-source-git-commit: eb77567dc32cccb81a9fc131493d11fb55b7e93b
-workflow-type: ht
-source-wordcount: '0'
+source-git-commit: 7ba1374bd64686c2e7ac44398d77fb187ff60949
+workflow-type: tm+mt
+source-wordcount: '527'
 ht-degree: 100%
 
 ---
@@ -37,9 +37,9 @@ Pour plus d’informations sur les versions et les publications des composants p
 
 ## Détails techniques {#technical-details}
 
-La documentation technique la plus récente sur le composant Bouton d’e-mail [se trouve sur GitHub.](https://adobe.com/go/aem_cmp_tech_email_button_v1_fr)
+La documentation technique la plus récente sur le composant Bouton d’e-mail [se trouve sur GitHub.](https://adobe.com/go/aem_cmp_tech_email_button_v1)
 
-Vous trouverez plus d’informations sur le développement des composants principaux dans la [documentation destinée aux développeurs de composants principaux.](/help/developing/overview.md)
+Vous trouverez plus d’informations sur le développement des composants principaux dans la [documentation relative au développement des composants principaux](/help/developing/overview.md).
 
 ## Boîte de dialogue de configuration {#configure-dialog}
 

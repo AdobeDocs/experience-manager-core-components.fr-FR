@@ -1,17 +1,17 @@
 ---
 title: Composant textuel
 description: Le composant Texte est un composant d’édition et de composition de texte enrichi qui propose une édition statique.
-role: Architect, Developer, Admin, User
+role: Developer, Admin, User
 exl-id: bcea202a-9ecb-4dcd-99b6-0848cbb9d500
-source-git-commit: dd30def59a8f037864da875ef4c831b11f766e57
-workflow-type: ht
-source-wordcount: '0'
+source-git-commit: 7ba1374bd64686c2e7ac44398d77fb187ff60949
+workflow-type: tm+mt
+source-wordcount: '2265'
 ht-degree: 100%
 
 ---
 
 
-# Composant textuel {#text-component}
+# Composant textuel{#text-component}
 
 Le composant Texte des composants principaux est un composant d’édition et de composition de texte enrichi qui propose une édition statique.
 
@@ -25,13 +25,13 @@ La [boîte de dialogue de modification](#edit-dialog) permet de modifier en lign
 
 ## Version et compatibilité {#version-and-compatibility}
 
-La version actuelle du composant de texte est v2, qui a été introduite avec la version 2.0.0 des composants principaux en janvier 2018 et est décrite dans ce document.
+La version actuelle du composant Texte est v2, qui a été introduite avec la version 2.0.0 des composants principaux en janvier 2018 et est décrite dans ce document.
 
 Le tableau ci-après présente en détail toutes les versions prises en charge du composant, les versions AEM avec lesquelles les versions du composant sont compatibles et les liens vers la documentation pour les versions précédentes.
 
 | Version du composant | AEM 6.4 | AEM 6.5 | AEM 6.5 LTS | AEM as a Cloud Service |
 |---|---|---|---|---|
-| v2 | Compatible avec la <br>[version 2.17.4](/help/versions.md) et versions antérieures. | Compatible | Compatible | Compatible |
+| v2 | Compatible avec la <br>[version 2.17.4](/help/versions.md) et versions antérieures | Compatible | Compatible | Compatible |
 | [v1](v1/text-v1.md) | Compatible | Compatible | - | Compatible |
 
 Pour plus d’informations sur les versions et les publications des composants principaux, voir le document sur les [versions des composants principaux](/help/versions.md).
@@ -44,7 +44,7 @@ Pour tester le composant de texte et obtenir des exemples d’options de configu
 
 La documentation technique la plus récente sur le composant Texte [se trouve sur GitHub](https://adobe.com/go/aem_cmp_tech_text_v2_fr).
 
-Vous trouverez plus d’informations sur le développement des composants principaux dans la [documentation destinée aux développeurs de composants principaux](/help/developing/overview.md).
+Vous trouverez plus d’informations sur le développement des composants principaux dans la [documentation relative au développement des composants principaux](/help/developing/overview.md).
 
 ## Composant Texte et Éditeur de texte enrichi {#the-text-component-and-the-rich-text-editor}
 

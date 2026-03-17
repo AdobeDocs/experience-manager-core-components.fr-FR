@@ -1,12 +1,12 @@
 ---
 title: Composant Formulaire masqué (v1)
 description: Le composant Formulaire masqué des composants principaux permet l’affichage d’un champ masqué.
-index: n
-role: Architect, Developer, Admin, User
+index: false
+role: Developer, Admin, User
 exl-id: 8e30dac0-5b4b-4fc7-af99-5791c98c90bf
-source-git-commit: 92a3ec273a5be6751c1503835b9c2e5cbd61bb9e
-workflow-type: ht
-source-wordcount: '0'
+source-git-commit: 7ba1374bd64686c2e7ac44398d77fb187ff60949
+workflow-type: tm+mt
+source-wordcount: '344'
 ht-degree: 100%
 
 ---
@@ -24,7 +24,7 @@ Les propriétés de champ peuvent être définies par l’éditeur de contenu da
 
 ## Version et compatibilité {#version-and-compatibility}
 
-Ce document décrit la version v1 du composant Formulaire masqué, introduite à l’origine avec la version 1.0.0 des composants principaux avec AEM 6.3.
+Ce document décrit la version v1 du composant Masqué du formulaire, introduite à l’origine avec la version 1.0.0 des composants principaux avec AEM 6.3.
 
 Le tableau ci-après répertorie la compatibilité de la version v1 du composant Formulaire masqué.
 
@@ -103,4 +103,4 @@ La documentation technique la plus récente sur le composant Formulaire masqué 
 
 Le projet sur les composants principaux peut être téléchargé depuis GitHub.
 
-Vous trouverez plus d’informations sur le développement des composants principaux dans la [documentation destinée aux développeurs de composants principaux](/help/developing/overview.md).
+Vous trouverez plus d’informations sur le développement des composants principaux dans la [documentation relative au développement des composants principaux](/help/developing/overview.md).

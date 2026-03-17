@@ -1,12 +1,12 @@
 ---
 title: Composant de bouton de formulaire (v1)
-description: Le composant Formulaire masqué des composants principaux permet l’inclusion d’un champ masqué dans un formulaire.
-index: n
-role: Architect, Developer, Admin, User
+description: Le composant Masqué du formulaire des composants principaux permet l’inclusion d’un champ masqué dans un formulaire.
+index: false
+role: Developer, Admin, User
 exl-id: 2c06a942-7ac5-4847-9d11-7bbcd0ea51bd
-source-git-commit: 92a3ec273a5be6751c1503835b9c2e5cbd61bb9e
-workflow-type: ht
-source-wordcount: '0'
+source-git-commit: 7ba1374bd64686c2e7ac44398d77fb187ff60949
+workflow-type: tm+mt
+source-wordcount: '351'
 ht-degree: 100%
 
 ---
@@ -24,7 +24,7 @@ Les propriétés de bouton peuvent être définies par l’éditeur de contenu d
 
 ## Version et compatibilité {#version-and-compatibility}
 
-Ce document décrit la version v1 du composant de bouton de formulaire, introduite à l’origine avec la version 1.0.0 des composants principaux avec AEM 6.3.
+Ce document décrit la version v1 du composant de bouton de formulaire, introduite à l’origine avec la version 1.0.0 des composants principaux avec AEM 6.3.
 
 Le tableau ci-après répertorie la compatibilité de la version v1 du composant de bouton de formulaire.
 
@@ -113,4 +113,4 @@ La documentation technique la plus récente sur le composant de bouton de formul
 
 Le projet sur les composants principaux peut être téléchargé depuis GitHub.
 
-Vous trouverez plus d’informations sur le développement des composants principaux dans la [documentation destinée aux développeurs de composants principaux](/help/developing/overview.md).
+Vous trouverez plus d’informations sur le développement des composants principaux dans la [documentation relative au développement des composants principaux](/help/developing/overview.md).

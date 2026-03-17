@@ -1,18 +1,18 @@
 ---
-title: 'Composant Partage sur les réseaux sociaux '
+title: Composant Partage sur les réseaux sociaux
 description: Le composant Partage sur les réseaux sociaux des composants principaux est un widget permettant de partager des contenus sur Facebook et Pinterest.
-role: Architect, Developer, Admin, User
+role: Developer, Admin, User
 exl-id: 8bd53c76-da91-479b-b416-f978682a3d43
 index: false
-source-git-commit: dd30def59a8f037864da875ef4c831b11f766e57
-workflow-type: ht
-source-wordcount: '377'
+source-git-commit: 7ba1374bd64686c2e7ac44398d77fb187ff60949
+workflow-type: tm+mt
+source-wordcount: '418'
 ht-degree: 100%
 
 ---
 
 
-# Composant Partage sur les réseaux sociaux {#social-sharing-component}
+# Composant Partage sur les réseaux sociaux{#social-sharing-component}
 
 Le composant Partage sur les réseaux sociaux des composants principaux est un widget permettant de partager des contenus sur Facebook et Pinterest.
 
@@ -44,7 +44,7 @@ Pour plus d’informations sur les versions et les publications des composants p
 
 La documentation technique la plus récente sur le composant de partage [se trouve sur GitHub](https://adobe.com/go/aem_cmp_tech_sharing_v1_fr).
 
-Vous trouverez plus d’informations sur le développement des composants principaux dans la [documentation destinée aux développeurs de composants principaux](/help/developing/overview.md).
+Vous trouverez plus d’informations sur le développement des composants principaux dans la [documentation relative au développement des composants principaux](/help/developing/overview.md).
 
 ## Boîte de dialogue de modification {#edit-dialog}
 

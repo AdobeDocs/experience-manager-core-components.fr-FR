@@ -1,12 +1,12 @@
 ---
 title: Composant Page d’e-mail
 description: Composant Page d’e-mail
-role: Architect, Developer, Admin, User
+role: Developer, Admin, User
 exl-id: 17fd0f5e-2b85-41a1-abaf-8ad190a5341a
 index: false
-source-git-commit: eb77567dc32cccb81a9fc131493d11fb55b7e93b
-workflow-type: ht
-source-wordcount: '0'
+source-git-commit: 7ba1374bd64686c2e7ac44398d77fb187ff60949
+workflow-type: tm+mt
+source-wordcount: '817'
 ht-degree: 100%
 
 ---
@@ -18,7 +18,7 @@ Le composant Page d’e-mail est un composant de page extensible conçu pour fon
 
 ## Utilisation {#usage}
 
-Le composant Page d’e-mail constitute la base de toutes les pages conçues avec les composants principaux d’e-mail ainsi que les modèles modifiables. Grâce au composant Page d’e-mail, les en-têtes, les pieds de page et la structure de la page peuvent être définis dans un modèle à l’aide des autres composants principaux d’e-mail.
+Le composant Page d’e-mail constitue la base de toutes les pages conçues avec les composants principaux d’e-mail ainsi que les modèles modifiables. Grâce au composant Page d’e-mail, les en-têtes, les pieds de page et la structure de la page peuvent être définis dans un modèle à l’aide des autres composants principaux d’e-mail.
 
 * Grâce à la [boîte de dialogue de conception](#design-dialog), les bibliothèques côté client personnalisées peuvent être définies pour la page.
 * Contrairement aux autres composants dont la boîte de dialogue de modification est accessible directement à partir de ceux-ci, puisque le composant Page d’e-mail est la page elle-même, la [boîte de dialogue de modification](#edit-dialog) du composant Page d’e-mail est la fenêtre Propriétés de la page.
@@ -37,9 +37,9 @@ Pour plus d’informations sur les versions et les publications des composants p
 
 ### Détails techniques {#technical-details}
 
-La documentation technique la plus récente sur le composant Page [se trouve sur GitHub](https://adobe.com/go/aem_cmp_tech_email_page_v1_fr).
+La documentation technique la plus récente sur le composant Page [se trouve sur GitHub](https://adobe.com/go/aem_cmp_tech_email_page_v1).
 
-Vous trouverez plus d’informations sur le développement des composants principaux dans la [documentation destinée aux développeurs de composants principaux](/help/developing/overview.md).
+Vous trouverez plus d’informations sur le développement des composants principaux dans la [documentation relative au développement des composants principaux](/help/developing/overview.md).
 
 ## Boîte de dialogue de modification {#edit-dialog}
 
