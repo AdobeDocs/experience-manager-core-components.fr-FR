@@ -3,9 +3,9 @@ title: Composant Teaser
 description: Le composant Teaser peut afficher une image, un titre, un texte enrichi et éventuellement un lien vers un contenu supplémentaire.
 role: Developer, Admin, User
 exl-id: ec75e168-6f3b-4dff-8df6-06ca7dc18688
-source-git-commit: 7ba1374bd64686c2e7ac44398d77fb187ff60949
+source-git-commit: ff337aee45ea3d39f9669a8fa46accaed854532a
 workflow-type: tm+mt
-source-wordcount: '1101'
+source-wordcount: '1098'
 ht-degree: 93%
 
 ---
@@ -105,7 +105,7 @@ Pour que le menu déroulant soit disponible, les styles doivent être configuré
 
 ## Boîte de dialogue de modification {#edit-dialog}
 
-Le composant Teaser délègue le rendu d’image au [Composant Image](image.md). Par conséquent, [la boîte de dialogue de modification]&#x200B;(image.md#edit-dialog) du composant Image est accessible à l’auteur du contenu pour manipuler l’image de teaser.
+Le composant Teaser délègue le rendu d’image au [Composant Image](image.md). Par conséquent, la [boîte de dialogue Modifier](image.md#edit-dialog) du composant Image est accessible pour permettre à l’auteur du contenu de manipuler l’image de teaser.
 
 ## Boîte de dialogue de conception {#design-dialog}
 
