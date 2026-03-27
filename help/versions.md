@@ -3,7 +3,7 @@ title: Versions des composants principaux
 description: Les composants principaux sont publiés sous forme de versions qui peuvent contenir plusieurs versions des mêmes composants principaux. Ce document explique les versions et les mises à jour ainsi que comment comprendre la compatibilité avec les composants principaux et AEM.
 role: Developer, Admin, User
 exl-id: 7d4dbe46-4013-4217-b815-cdb1462072c6
-source-git-commit: 6fc9e1732302f114ad5c9c037ce203af6324edf0
+source-git-commit: 4119923c2c7d256f46b3bf80cf620d8f114fae6f
 workflow-type: tm+mt
 source-wordcount: '3887'
 ht-degree: 96%
@@ -159,7 +159,7 @@ Pour plus d’informations sur les versions des composants principaux, voir la [
 
 ### Mises à jour {#releases}
 
-Les composants principaux sont disponibles par l’intermédiaire des **versions** et [&#x200B; représentent les artefacts publiés réels disponibles sur GitHu.](https://github.com/adobe/aem-core-wcm-components/releases) Les versions sont signalées par un nombre décimal au format `X.Y.Z` et rassemblent tous les composants principaux en tant que package livrable.
+Les composants principaux sont disponibles par l’intermédiaire des **versions** et [ représentent les artefacts publiés réels disponibles sur GitHu.](https://github.com/adobe/aem-core-wcm-components/releases) Les versions sont signalées par un nombre décimal au format `X.Y.Z` et rassemblent tous les composants principaux en tant que package livrable.
 
 * Les **versions majeures** contiennent les éléments suivants : introduction de composants entièrement nouveaux, améliorations apportées aux versions existantes des composants et correctifs standard. Elles sont représentées par un incrément dans le composant `X` du numéro de version.
 * Les **versions mineures** contiennent les éléments suivants : introduction de nouveaux composants, ajout de nouvelles fonctionnalités aux versions existantes des composants et divers correctifs. Elles sont représentées par un incrément dans le composant `Y` du numéro de version.
