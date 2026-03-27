@@ -159,7 +159,7 @@ Pour plus d’informations sur les versions des composants principaux, voir la [
 
 ### Mises à jour {#releases}
 
-Les composants principaux sont disponibles par l’intermédiaire des **versions** et [ représentent les artefacts publiés réels disponibles sur GitHu.](https://github.com/adobe/aem-core-wcm-components/releases) Les versions sont signalées par un nombre décimal au format `X.Y.Z` et rassemblent tous les composants principaux en tant que package livrable.
+Les composants principaux sont disponibles par l’intermédiaire des **versions** et [&#x200B; représentent les artefacts publiés réels disponibles sur GitHu.](https://github.com/adobe/aem-core-wcm-components/releases) Les versions sont signalées par un nombre décimal au format `X.Y.Z` et rassemblent tous les composants principaux en tant que package livrable.
 
 * Les **versions majeures** contiennent les éléments suivants : introduction de composants entièrement nouveaux, améliorations apportées aux versions existantes des composants et correctifs standard. Elles sont représentées par un incrément dans le composant `X` du numéro de version.
 * Les **versions mineures** contiennent les éléments suivants : introduction de nouveaux composants, ajout de nouvelles fonctionnalités aux versions existantes des composants et divers correctifs. Elles sont représentées par un incrément dans le composant `Y` du numéro de version.
