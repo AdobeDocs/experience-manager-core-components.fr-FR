@@ -2,14 +2,13 @@
 title: Activation et utilisation de modèles de validation d’entrée de texte dans Adobe Experience Manager Adaptive Forms
 description: Découvrez comment configurer des stratégies de modèle pour afficher des modèles de validation tels que des numéros de téléphone, des numéros de sécurité sociale et des codes postaux, puis les utiliser dans votre Forms adaptative.
 hide: true
-hidefromtoc: true
-source-git-commit: 1ac3d987337f8279e762ab5357d32bb732dea0be
+exl-id: e4500666-1346-4558-861d-da9541dcef51
+source-git-commit: ece6b7092a19c98c836d58f3f4d5ff15a0276b1c
 workflow-type: tm+mt
 source-wordcount: '861'
 ht-degree: 1%
 
 ---
-
 
 # Activation et utilisation de modèles de validation d’entrée de texte dans Adobe Experience Manager Adaptive Forms
 
