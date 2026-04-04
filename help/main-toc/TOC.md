@@ -127,7 +127,7 @@ ht-degree: 96%
       + [Captcha pour formulaire adaptatif](/help/adaptive-forms/components/adaptive-form-recaptcha.md)
       + [Formulaires adaptatifs - Bouton radio](/help/adaptive-forms/components/radio-button.md)
       + [Formulaires adaptatifs - Bouton réinitialiser](/help/adaptive-forms/components/reset-button.md)
-      + {hide-from-toc}[ Révision de formulaire adaptatif ](/help/adaptive-forms/components/review.md)
+      + {hide-from-toc}[&#x200B; Révision de formulaire adaptatif &#x200B;](/help/adaptive-forms/components/review.md)
       + [Signature tactile des formulaires adaptatifs](/help/adaptive-forms/components/scribble-signature.md)
       + [Formulaires adaptatifs - Bouton Envoyer](/help/adaptive-forms/components/submit-button.md)
       + [Formulaires adaptatifs – Commutateur](/help/adaptive-forms/components/adaptive-form-switch.md)
