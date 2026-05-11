@@ -4,9 +4,9 @@ description: Le composant de conteneur de formulaires des composants principaux 
 role: Developer, Admin, User
 exl-id: 552f9dd5-6a3a-42d9-9969-e62a1f36e811
 source-git-commit: 7ba1374bd64686c2e7ac44398d77fb187ff60949
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '970'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -69,7 +69,7 @@ Lorsque le formulaire est envoyé, le type d’action Publier les données de fo
 * **Message d’erreur** : message qui s’affiche si l’envoi échoue
 
 >[!TIP]
->Un administrateur système peut ajuster d’autres options de délai d’expiration pour gérer le traitement des données de formulaire transférées. [Pour plus d’informations, consultez la documentation technique sur GitHub &#x200B;](https://github.com/adobe/aem-core-wcm-components/tree/master/content/src/content/jcr_root/apps/core/wcm/components/form/actions/rpc).
+>Un administrateur système peut paramétrer d’autres options de délai d’expiration pour gérer le traitement des données de formulaire transférées. [Consultez la documentation technique sur GitHub pour plus d’informations.](https://github.com/adobe/aem-core-wcm-components/tree/master/content/src/content/jcr_root/apps/core/wcm/components/form/actions/rpc)
 
 ### Courrier {#mail}
 

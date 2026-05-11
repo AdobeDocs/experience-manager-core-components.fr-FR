@@ -4,9 +4,9 @@ description: Découvrez comment les composants principaux utilisent la servlet d
 role: Developer, Admin, User
 exl-id: d9199d51-6f09-4000-9525-afc30474437e
 source-git-commit: 7ba1374bd64686c2e7ac44398d77fb187ff60949
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '487'
-ht-degree: 89%
+ht-degree: 100%
 
 ---
 
@@ -31,7 +31,7 @@ Ce document décrit le servlet Image adaptative par défaut.
 
 ## Présentation {#overview}
 
-Par défaut, le composant d’image utilise le servlet Image adaptative du composant principal pour diffuser des images. [La servlet Image adaptative](https://github.com/adobe/aem-core-wcm-components/wiki/The-Adaptive-Image-Servlet) est en charge du traitement des images et de leur diffusion en continu. Les développeurs peuvent l’utiliser dans le cadre de leur [personnalisation des composants principaux](/help/developing/customizing.md).
+Par défaut, le composant d’image utilise le servlet Image adaptative du composant principal pour diffuser des images. La [servlet d’image adaptative](https://github.com/adobe/aem-core-wcm-components/wiki/The-Adaptive-Image-Servlet) est en charge du traitement des images et de leur diffusion en flux continu. Les équipes de développement peuvent l’utiliser dans le cadre de leur [personnalisation des composants principaux](/help/developing/customizing.md).
 
 ## Sélection du rendu {#rendition-selection}
 
@@ -39,7 +39,7 @@ Le servlet d’image adaptative sélectionne automatiquement le rendu le plus ap
 
 1. Le servlet d’image adaptative examine tous les rendus disponibles de la ressource d’image.
 1. Il sélectionne uniquement les ressources de même type/MIME de la ressource référencée d’origine.
-   * E.g. Si la ressource d’origine était un fichier PNG, elle ne prendra en compte que les rendus PNG.
+   * Par ex., si la ressource d’origine était un fichier PNG, elle ne prendra en compte que les rendus PNG.
 1. De ces rendus, elle prend en compte les dimensions et les compare à la taille du conteneur dans lequel l’image doit s’afficher.
 1. Si le rendu est >= à la taille du conteneur, il est ajouté à une liste de rendus candidats.
 1. Si le rendu est &lt; à la taille du conteneur, il n’est pas pris en compte.

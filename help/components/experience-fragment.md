@@ -4,9 +4,9 @@ description: Le composant Fragment d’expérience permet à l’auteur de conte
 role: Developer, Admin, User
 exl-id: 103f729a-084d-4b6a-a239-d8ef8902eb95
 source-git-commit: 7ba1374bd64686c2e7ac44398d77fb187ff60949
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '895'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
@@ -124,7 +124,7 @@ La boîte de dialogue de configuration permet à l’auteur de contenu de sélec
 
 Utilisez le bouton **Ouvrir la boîte de dialogue de sélection** pour ouvrir le sélecteur de composants afin de choisir la variation de composant de fragment d’expérience à ajouter à la page de contenu.
 
-Si vous ajoutez le composant Fragment d’expérience à un modèle, notez qu’il sera automatiquement localisé à condition que les fragments d’expérience soient localisés. Ainsi, ce qui est rendu sur la page peut différer du composant que vous sélectionnez explicitement. [Voir l’exemple ci-dessus](#example) pour plus d’informations.
+Si vous ajoutez le composant de fragment d’expérience à un modèle, notez qu’il sera automatiquement localisé à condition que les fragments d’expérience soient localisés. Ainsi, ce qui est généré sur la page peut différer du composant que vous sélectionnez explicitement. Pour plus d’informations, [reportez-vous à l’exemple ci-dessus](#example).
 
 Vous pouvez également définir un **ID**. Cette option permet de contrôler l’identifiant unique du composant dans le code HTML et dans la [couche de données](/help/developing/data-layer/overview.md).
 

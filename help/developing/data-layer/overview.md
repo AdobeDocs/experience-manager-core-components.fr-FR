@@ -5,9 +5,9 @@ feature: Core Components, Adobe Client Data Layer
 role: Developer, Admin
 exl-id: 55c984d3-deb7-4eda-a81d-7768791d2b46
 source-git-commit: 7ba1374bd64686c2e7ac44398d77fb187ff60949
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1024'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
@@ -30,7 +30,7 @@ Tout comme les composants principaux, le code de la couche de données client Ad
 
 ## Installation et activation {#installation-activation}
 
-Depuis la version 2.9.0 des composants principaux, la couche de données est distribuée avec les composants principaux sous la forme d’une bibliothèque cliente AEM et aucune installation n’est nécessaire. Tous les projets générés par l’[archétype de projet AEM v. 24+](/help/developing/archetype/overview.md) incluent par défaut une couche de données activée.
+Depuis la version 2.9.0 des composants principaux, la couche de données est distribuée avec les composants principaux sous la forme d’une bibliothèque cliente AEM et aucune installation n’est nécessaire. Tous les projets générés par l’[archétype de projets AEM v.24+](/help/developing/archetype/overview.md) incluent par défaut une couche de données activée.
 
 Pour activer manuellement la couche de données, vous devez créer une [configuration contextuelle](/help/developing/context-aware-configs.md) :
 
@@ -122,7 +122,7 @@ id: {                   // component ID
 
 >[!NOTE]
 >
->Ce schéma est le schéma d’élément de composant générique utilisé comme modèle de base pour plusieurs composants principaux. Cela ne garantit pas que tous les composants répertoriés renseigneront tous ces champs sur chaque élément.
+>Ce schéma est le schéma d’élément de composant générique utilisé comme modèle de base pour plusieurs composants principaux.Cela ne garantit pas que tous les composants répertoriés renseigneront tous ces champs sur chaque élément.
 
 L’[événement](#events) suivant correspond au schéma d’élément de composant/conteneur :
 
@@ -313,7 +313,7 @@ window.adobeDataLayer.push(function (dl) {
 
 ## Tutoriel
 
-Vous souhaitez explorer plus en détail la couche de données et les composants principaux ? [Consultez ce tutoriel pratique](https://experienceleague.adobe.com/docs/experience-manager-learn/sites/integrations/adobe-client-data-layer/data-layer-overview.html?lang=fr).
+Souhaitez-vous explorer plus en détail la couche de données et les composants principaux ? [Consultez ce tutoriel pratique](https://experienceleague.adobe.com/docs/experience-manager-learn/sites/integrations/adobe-client-data-layer/data-layer-overview.html?lang=fr).
 
 >[!TIP]
 >

@@ -4,9 +4,9 @@ description: Les composants principaux sont publiés sous forme de versions qui 
 role: Developer, Admin, User
 exl-id: 7d4dbe46-4013-4217-b815-cdb1462072c6
 source-git-commit: 4119923c2c7d256f46b3bf80cf620d8f114fae6f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '3887'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -26,9 +26,9 @@ Le tableau suivant, dont le contenu est [disponible sur GitHub avec les détails
 
 | Mise à jour | Description | AEM 6.4 | AEM 6.5 | AEM 6.5 LTS | AEM as a Cloud Service | Java | Date de publication |
 |---|---|---|---|---|---|---|---|
-| [2.30.4](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.30.4) | Cette version a corrigé le problème de validation du chemin d’accès. | - | 6.5.21.0+ | 6.5 LTS (disponibilité générale) | En continu | 8, 11, 17, 21 | 30 Janvier 2026 |
-| [2.30.3](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.30.3) | Cette version a corrigé une régression dans la boîte de dialogue Politique du composant Titre . | - | 6.5.21.0+ | 6.5 LTS (disponibilité générale) | En continu | 8, 11, 17, 21 | 5 Décembre 2025 |
-| [2.30.2](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.30.2) | Cette version a corrigé une chaîne non localisée liée à la visionneuse PDF. | - | 6.5.21.0+ | 6.5 LTS (disponibilité générale) | En continu | 8, 11, 17, 21 | 23 Octobre 2025 |
+| [2.30.4](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.30.4) | Cette version corrige le problème de validation du chemin d’accès. | - | 6.5.21.0+ | 6.5 LTS (disponibilité générale) | En continu | 8, 11, 17, 21 | 30 janvier 2026 |
+| [2.30.3](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.30.3) | Cette version corrige une régression dans la boîte de dialogue Politique du composant Titre. | - | 6.5.21.0+ | 6.5 LTS (disponibilité générale) | En continu | 8, 11, 17, 21 | 5 Décembre 2025 |
+| [2.30.2](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.30.2) | Cette version corrige une chaîne non localisée liée à la visionneuse PDF. | - | 6.5.21.0+ | 6.5 LTS (disponibilité générale) | En continu | 8, 11, 17, 21 | 23 Octobre 2025 |
 | [2.30.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.30.0) | Cette version a résolu un certain nombre de problèmes liés aux ressources et à Dynamic Media, clarifié la prise en charge de LTS et corrigé de nombreux bugs. | - | 6.5.21.0+ | 6.5 LTS (disponibilité générale) | En continu | 8, 11, 17, 21 | 4 septembre 2025 |
 | [2.29.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.29.0) | Cette version a ajouté la prise en charge de la création de versions préliminaires des ressources dans le composant principal des sites et corrige de nombreux bugs. | - | 6.5.21.0+ | 6.5 LTS (disponibilité générale) | En continu | 8, 11, 17, 21 | 21 avril 2025 |
 | [2.28.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.28.0) | Cette version corrige de nombreux bugs. | - | 6.5.21.0+ | 6.5 LTS (disponibilité générale) | En continu | 8, 11, 17, 21 | 17 mars 2025 |
@@ -159,7 +159,7 @@ Pour plus d’informations sur les versions des composants principaux, voir la [
 
 ### Mises à jour {#releases}
 
-Les composants principaux sont disponibles par l’intermédiaire des **versions** et [&#x200B; représentent les artefacts publiés réels disponibles sur GitHu.](https://github.com/adobe/aem-core-wcm-components/releases) Les versions sont signalées par un nombre décimal au format `X.Y.Z` et rassemblent tous les composants principaux en tant que package livrable.
+Les composants principaux sont disponibles par l’intermédiaire des **mises à jour** et [représentent les artefacts publiés réels disponibles sur GitHub.](https://github.com/adobe/aem-core-wcm-components/releases) Les versions sont signalées par un nombre décimal au format `X.Y.Z` et rassemblent tous les composants principaux en tant que package livrable.
 
 * Les **versions majeures** contiennent les éléments suivants : introduction de composants entièrement nouveaux, améliorations apportées aux versions existantes des composants et correctifs standard. Elles sont représentées par un incrément dans le composant `X` du numéro de version.
 * Les **versions mineures** contiennent les éléments suivants : introduction de nouveaux composants, ajout de nouvelles fonctionnalités aux versions existantes des composants et divers correctifs. Elles sont représentées par un incrément dans le composant `Y` du numéro de version.

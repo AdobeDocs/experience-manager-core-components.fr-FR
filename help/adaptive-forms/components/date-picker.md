@@ -4,9 +4,9 @@ description: Utilisation ou personnalisation du composant principal Sélecteur d
 role: Developer, Admin, User
 exl-id: aa9402de-ca57-4c19-8d36-2dd0a78d6806
 source-git-commit: 7ba1374bd64686c2e7ac44398d77fb187ff60949
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2465'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -48,7 +48,7 @@ Pour plus d’informations sur les versions et publications des composants princ
 <!--
 ## Sample Component Output {#sample-component-output}
 
-To experience the Accordion Component as well as see examples of its configuration options as well as HTML and JSON output, visit the [Component Library](https://adobe.com/go/aem_cmp_library_accordion_fr). 
+To experience the Accordion Component as well as see examples of its configuration options as well as HTML and JSON output, visit the [Component Library](https://adobe.com/go/aem_cmp_library_accordion). 
 -->
 
 ## Détails techniques {#technical-details}
@@ -180,23 +180,23 @@ Les propriétés personnalisées vous permettent d’associer des attributs pers
 
 ### Onglet Formats {#formats-tab}
 
-L’onglet Formats vous permet de définir des formats de date par défaut et personnalisés. De plus, vous pouvez également ajouter un nouveau format de date personnalisé à l’aide du bouton **Ajouter**.
+L’onglet Formats vous permet de définir des formats de date par défaut et personnalisés. En outre, vous pouvez ajouter un nouveau format de date personnalisé en cliquant sur le bouton **Ajouter**.
 
 ![Onglet Format.](/help/adaptive-forms/assets/datepicker_formatpolicy.png)
 
-#### Ajouter des formats dans la stratégie de modèle du composant
+#### Ajoutez des formats dans la politique des modèles du composant
 
-Pour afficher les formats disponibles pour le composant, vous devez les ajouter à la stratégie de modèle du composant.
+Pour afficher les formats disponibles pour le composant, vous devez les ajouter à la politique des modèles du composant.
 
 >[!VIDEO](https://video.tv.adobe.com/v/3477975?quality=12&learn=on)
 
-Pour ajouter des formats à la stratégie de modèle :
+Pour ajouter des formats à la politique des modèles :
 
-1. Ouvrez le modèle correspondant associé à un formulaire adaptatif ou à Sites dans l’éditeur de modèles.
+1. Ouvrez le modèle correspondant associé à un formulaire adaptatif ou à un site dans l’éditeur de modèle.
 2. Dans la section **Composants autorisés**, sélectionnez le composant **[!UICONTROL Sélecteur de date]**.
-   ![Stratégie du modèle de sélecteur de date](/help/adaptive-forms/assets/date-picker-policy.png)
-3. Cliquez sur l’icône **[!UICONTROL Ajouter]** pour créer une politique pour le composant Sélecteur de date.
-4. Saisissez le nom de la stratégie et sélectionnez tous les formats requis sous l’onglet **Format**.
+   ![Politique des modèles de sélecteur de date](/help/adaptive-forms/assets/date-picker-policy.png)
+3. Cliquez sur l’icône **[!UICONTROL Ajouter]** pour créer une politique associée au composant Sélecteur de date.
+4. Saisissez le nom de la politique et sélectionnez tous les formats requis sous l’onglet **Format**.
    ![Créer une politique](/help/adaptive-forms/assets/number-input-format-policy.png)
 5. Cliquez sur **[!UICONTROL Terminé]**.
 
@@ -204,7 +204,7 @@ Pour ajouter des formats à la stratégie de modèle :
 
 ## Related article {#related-article}
 
-* [Create a standalone Adaptive Form](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/creating-adaptive-form-core-components.html?lang=fr)
+* [Create a standalone Adaptive Form](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/creating-adaptive-form-core-components.html)
 
 -->
 

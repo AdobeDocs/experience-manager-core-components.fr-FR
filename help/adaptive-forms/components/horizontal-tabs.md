@@ -4,9 +4,9 @@ description: Utilisation ou personnalisation du composant principal des onglets 
 role: Developer, Admin, User
 exl-id: fbdf330b-3b85-4f94-9dab-eea8465fba67
 source-git-commit: 6fc9e1732302f114ad5c9c037ce203af6324edf0
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2213'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -35,13 +35,13 @@ Les raisons courantes d’utiliser les onglets horizontaux dans un formulaire ad
 
 ## Version et compatibilité {#version-and-compatibility}
 
-Le composant principal Onglets horizontaux de Forms adaptatif a été publié en février 2023 dans le cadre de la version 2.0.4 des composants principaux. Vous trouverez ci-dessous un tableau détaillant les versions prises en charge, la compatibilité avec AEM et les liens vers la documentation correspondante :
+Le composant principal Onglets horizontaux des formulaires adaptatifs a été publié en février 2023 au sein des composants principaux 2.0.4.Vous trouverez ci-dessous un tableau détaillant les versions prises en charge, la compatibilité avec AEM et les liens vers la documentation correspondante :
 
 |  |  |
 |---|---|
 | Version du composant | AEM as a Cloud Service |
 | --- | --- |
-| v1 | Compatible avec les versions 2<br>[0.4](/help/adaptive-forms/version.md) et ultérieures. |
+| v1 | Compatible avec les <br>[versions 2.0.4](/help/adaptive-forms/version.md) et ultérieures |
 
 Pour plus d’informations sur les versions et publications des composants principaux, consultez le document [Versions des composants principaux](/help/adaptive-forms/version.md).
 

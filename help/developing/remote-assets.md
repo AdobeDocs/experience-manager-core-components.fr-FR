@@ -4,7 +4,7 @@ description: Découvrez comment configurer les composants Image et Teaser des co
 role: Developer, Admin, User
 exl-id: b462c1f3-a6c8-4a2a-abf4-d08ec82d4371
 source-git-commit: 7ba1374bd64686c2e7ac44398d77fb187ff60949
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '523'
 ht-degree: 100%
 
@@ -47,7 +47,7 @@ repositoryId="<repo-id>.adobeaemcloud.com"
 
 Pour plus d’informations sur la configuration d’OSGi, consultez les documents suivants :
 
-* [Configuration d’OSGi pour Adobe Experience Manager as a Cloud Service](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/implementing/deploying/configuring-osgi.html?lang=fr) pour AEM as a Cloud Service
+* [Configuration d’OSGi pour Adobe Experience Manager as a Cloud Service](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/implementing/deploying/configuring-osgi.html) pour AEM as a Cloud Service
 * [Configuration d’OSGi](https://experienceleague.adobe.com/docs/experience-manager-65/deploying/configuring/configuring-osgi.html?lang=fr) pour AEM 6.5
 
 ## Vérifier la configuration {#verify}

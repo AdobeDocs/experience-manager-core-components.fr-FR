@@ -5,9 +5,9 @@ role: Developer, Admin, User
 exl-id: 3f2b93f9-c48d-43ef-a78a-accd5090fe6f
 index: false
 source-git-commit: 7ba1374bd64686c2e7ac44398d77fb187ff60949
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2119'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -44,9 +44,9 @@ En outre, le composant d’image prend en charge le chargement différé afin de
 
 ## Prise en charge de Dynamic Media {#dynamic-media}
 
-Le composant Image (à compter de la [version 2.13.0](/help/versions.md)) prend en charge les ressources [Dynamic Media](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/dynamicmedia/dynamic-media.html?lang=fr#dynamicmedia). [Lorsqu’elles sont activées](#design-dialog) ces fonctionnalités permettent d’ajouter des ressources d’image Dynamic Media par simple glisser-déposer ou via l’explorateur de ressources comme vous le feriez pour n’importe quelle autre image. En outre, les modificateurs d’image, les paramètres d’image prédéfinis et les recadrages intelligents sont également pris en charge.
+Le composant d’image (à partir de la [version 2.13.0](/help/versions.md)) prend en charge les ressources [Dynamic Media](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/dynamicmedia/dynamic-media.html?lang=fr#dynamicmedia). [Lorsqu’elles sont activées](#design-dialog), ces fonctionnalités offrent la possibilité d’ajouter des fichiers d’image Dynamic Media par un simple glisser-déposer ou par le biais du navigateur de ressources, comme vous le feriez pour toute autre image. En outre, les modificateurs d’image, les paramètres d’image prédéfinis et les recadrages intelligents sont également pris en charge.
 
-Vos expériences web créées avec les composants principaux ne disposent désormais pas des fonctionnalités d’image Dynamic Media sur plusieurs plateformes, riches, robustes, hautes performances et optimisées par Adobe AI.
+Vos expériences web créées avec les composants principaux bénéficient des fonctionnalités d’image Dynamic Media riches, robustes, hautes performances, optimisées par l’IA Adobe et  sur plusieurs plateformes.
 
 ## Prise en charge SVG {#svg-support}
 

@@ -5,9 +5,9 @@ role: Developer, Admin, User
 exl-id: 6c88b8c5-189a-40c0-ab28-04d37dc5fbac
 index: false
 source-git-commit: 7ba1374bd64686c2e7ac44398d77fb187ff60949
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1156'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -37,7 +37,7 @@ Le tableau ci-après présente en détail toutes les versions prises en charge d
 
 ### Détails techniques {#technical-details}
 
-La documentation technique la plus récente sur le composant Teaser d’e-mail [se trouve sur GitHub](https://adobe.com/go/aem_cmp_tech_email_segmentation_v1_fr).
+La documentation technique la plus récente sur le composant Teaser d’e-mail [se trouve sur GitHub](https://adobe.com/go/aem_cmp_tech_email_segmentation_v1).
 
 Vous trouverez plus d’informations sur le développement des composants principaux dans la [documentation relative au développement des composants principaux](/help/developing/overview.md).
 
@@ -57,8 +57,8 @@ Utilisez le bouton **Ajouter un segment** pour ouvrir le sélecteur de composant
    * **Par défaut** : définit le segment par défaut à afficher si aucune autre condition n’est remplie.
    * **Personnalisé** : permet à l’auteur de définir une condition.
       * Les conditions sont basées sur des variables de personnalisation Adobe Campaign.
-      * [Cliquez ici pour découvrir les ressources de personnalisation Adobe Campaign Standard.](https://experienceleague.adobe.com/docs/campaign-standard/using/designing-content/personalization.html?lang=fr)
-      * [Cliquez ici pour découvrir les ressources de personnalisation Adobe Campaign Classic.](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/personalizing-deliveries/personalization-fields.html?lang=fr)
+      * [Cliquez ici pour découvrir les ressources de personnalisation Adobe Campaign Standard.](https://experienceleague.adobe.com/docs/campaign-standard/using/designing-content/personalization.html?lang=fr)
+      * [Cliquez ici pour découvrir les ressources de personnalisation Adobe Campaign Classic.](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/personalizing-deliveries/personalization-fields.html?lang=fr)
 * **Supprimer** : appuyez ou cliquez sur cette option pour supprimer le segment du composant Segmentation d’e-mail.
 * **Réorganiser** : appuyez ou cliquez sur les segments et faites-les glisser pour les réorganiser.
 
@@ -135,7 +135,7 @@ Appuyez ou cliquez sur le bouton **Ajouter** pour créer des conditions.
 
 * **Nom de la condition de segment** : description de la condition.
 * **Condition de segment** : condition réelle qui doit être remplie, en fonction des variables de personnalisation Adobe Campaign.
-   * [Cliquez ici pour découvrir les ressources de personnalisation Adobe Campaign Standard.](https://experienceleague.adobe.com/docs/campaign-standard/using/designing-content/personalization.html?lang=fr)
-   * [Cliquez ici pour découvrir les ressources de personnalisation Adobe Campaign Classic.]&#x200B;(https://experienceleague.adobe.com/docs/?lang=fr)
+   * [Cliquez ici pour découvrir les ressources de personnalisation Adobe Campaign Standard.](https://experienceleague.adobe.com/docs/campaign-standard/using/designing-content/personalization.html?lang=fr)
+   * [Cliquez ici pour découvrir les ressources de personnalisation Adobe Campaign Classic.]&#x200B;(https://experienceleague.adobe.com/docs/
 * **Supprimer** : appuyez ou cliquez pour supprimer la condition.
 * **Réorganiser** : appuyez ou cliquez sur les conditions et faites-les glisser pour les réorganiser.

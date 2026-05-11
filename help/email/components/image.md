@@ -5,9 +5,9 @@ role: Developer, Admin, User
 exl-id: f5d40047-3082-4edd-a5f6-6ab3e33997f9
 index: false
 source-git-commit: 7ba1374bd64686c2e7ac44398d77fb187ff60949
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1685'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -47,9 +47,9 @@ En outre, le composant Image d’e-mail prend en charge le chargement différé,
 
 ## Prise en charge de Dynamic Media {#dynamic-media}
 
-Le composant Image d’e-mail prend en charge les ressources [&#x200B; Dynamic Media &#x200B;](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/dynamicmedia/dynamic-media.html?lang=fr#dynamicmedia). [Lorsqu’elles sont activées](#design-dialog) ces fonctionnalités permettent d’ajouter des ressources d’image Dynamic Media par simple glisser-déposer ou via l’explorateur de ressources comme vous le feriez pour n’importe quelle autre image. En outre, les modificateurs d’image, les paramètres d’image prédéfinis et les recadrages intelligents sont également pris en charge.
+Le composant Image d’e-mail prend en charge les ressources [Dynamic Media](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/dynamicmedia/dynamic-media.html?lang=fr#dynamicmedia). [Lorsqu’elles sont activées](#design-dialog), ces fonctionnalités offrent la possibilité d’ajouter des fichiers d’image Dynamic Media par un simple glisser-déposer ou par le biais du navigateur de ressources, comme vous le feriez pour toute autre image. En outre, les modificateurs d’image, les paramètres d’image prédéfinis et les recadrages intelligents sont également pris en charge.
 
-Vos expériences d’e-mail créées avec les composants principaux d’e-mail bénéficient des fonctionnalités d’image Dynamic Media sur plusieurs plateformes, riches, robustes, hautes performances et optimisées par Adobe AI.
+Vos expériences d’e-mail créées avec les composants principaux d’e-mail bénéficient des fonctionnalités d’image Dynamic Media riches, robustes, hautes performances, optimisées par l’IA Adobe sur plusieurs plateformes.
 
 ## Prise en charge SVG {#svg-support}
 
@@ -65,7 +65,7 @@ Pour des raisons de sécurité, l’éditeur d’image ne fait jamais appel au f
 
 ### Détails techniques {#technical-details}
 
-La documentation technique la plus récente sur le composant Image d’e-mail [se trouve sur GitHub.](https://adobe.com/go/aem_cmp_tech_email_image_v1_fr)
+La documentation technique la plus récente sur le composant Image d’e-mail [se trouve sur GitHub.](https://adobe.com/go/aem_cmp_tech_email_image_v1)
 
 Vous trouverez plus d’informations sur le développement des composants principaux dans la [documentation relative au développement des composants principaux](/help/developing/overview.md).
 

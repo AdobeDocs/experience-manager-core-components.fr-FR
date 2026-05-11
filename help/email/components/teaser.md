@@ -5,7 +5,7 @@ role: Developer, Admin, User
 exl-id: d6123b22-7cba-406c-986d-b6f00322d135
 index: false
 source-git-commit: 7ba1374bd64686c2e7ac44398d77fb187ff60949
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1048'
 ht-degree: 100%
 
@@ -36,7 +36,7 @@ Le tableau ci-après présente en détail toutes les versions prises en charge d
 
 ### Détails techniques {#technical-details}
 
-La documentation technique la plus récente sur le composant Teaser d’e-mail [se trouve sur GitHub](https://adobe.com/go/aem_cmp_tech_email_teaser_v1_fr).
+La documentation technique la plus récente sur le composant Teaser d’e-mail [se trouve sur GitHub](https://adobe.com/go/aem_cmp_tech_email_teaser_v1).
 
 Vous trouverez plus d’informations sur le développement des composants principaux dans la [documentation relative au développement des composants principaux](/help/developing/overview.md).
 

@@ -6,9 +6,9 @@ feature: Core Components
 user-guide-description: Pour les projets AEM traditionnels, utilisez les composants principaux extensibles pour permettre aux créateurs et créatrices de créer facilement du contenu.
 feature-set: Experience Manager Sites, Experience Manager Forms
 source-git-commit: ece6b7092a19c98c836d58f3f4d5ff15a0276b1c
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '428'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -122,12 +122,12 @@ ht-degree: 96%
       + [Formulaires adaptatifs - Onglets horizontaux](/help/adaptive-forms/components/horizontal-tabs.md)
       + [Formulaires adaptatifs - Image](/help/adaptive-forms/components/image.md)
       + [Formulaires adaptatifs - Zone numérique](/help/adaptive-forms/components/numeric-box.md)
-      + {hide-from-toc}[Zone de mot de passe du Forms adaptatif](/help/adaptive-forms/components/password-box.md)
+      + {hide-from-toc}[Formulaires adaptatifs - Champ de mot de passe.](/help/adaptive-forms/components/password-box.md)
       + [Formulaires adaptatifs - Panneau](/help/adaptive-forms/components/panel.md)
       + [Captcha pour formulaire adaptatif](/help/adaptive-forms/components/adaptive-form-recaptcha.md)
       + [Formulaires adaptatifs - Bouton radio](/help/adaptive-forms/components/radio-button.md)
       + [Formulaires adaptatifs - Bouton réinitialiser](/help/adaptive-forms/components/reset-button.md)
-      + {hide-from-toc}[&#x200B; Révision de formulaire adaptatif &#x200B;](/help/adaptive-forms/components/review.md)
+      + {hide-from-toc}[Révision du formulaire adaptatif](/help/adaptive-forms/components/review.md)
       + [Signature tactile des formulaires adaptatifs](/help/adaptive-forms/components/scribble-signature.md)
       + [Formulaires adaptatifs - Bouton Envoyer](/help/adaptive-forms/components/submit-button.md)
       + [Formulaires adaptatifs – Commutateur](/help/adaptive-forms/components/adaptive-form-switch.md)

@@ -5,9 +5,9 @@ role: Developer, Admin, User
 exl-id: e85fe4db-6de4-4a84-a54c-bd07a67efed3
 index: false
 source-git-commit: 7ba1374bd64686c2e7ac44398d77fb187ff60949
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '662'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
@@ -34,7 +34,7 @@ Ce document décrit la version v2 du composant Page, introduite à l’origine 
 
 ## Prise en charge des applications web progressives {#pwa-support}
 
-La version 2.15.0 des composants principaux a introduit la prise en charge des fonctionnalités intégrées d’AEM as a Cloud Service [Progressive Web Apps (PWA) &#x200B;](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/features/enable-pwa.html?lang=fr). Avec une configuration simple au niveau du site, transformez votre expérience AEM en un PWA !
+La version 2.15.0 des composants principaux a introduit la prise en charge d’AEM as a Cloud Service de façon intégrée dans les fonctionnalités des [applications web progressives (PWA).](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/features/enable-pwa.html?lang=fr) Grâce à cette simple configuration au niveau du site, transformez votre expérience AEM en PWA !
 
 ### Détails techniques {#technical-details}
 

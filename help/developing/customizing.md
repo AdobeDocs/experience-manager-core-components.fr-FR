@@ -4,9 +4,9 @@ description: Les composants principaux implémentent plusieurs modèles permetta
 role: Developer, Admin
 exl-id: ec4b918b-bc70-4d72-ba84-a24556aedb41
 source-git-commit: 7ba1374bd64686c2e7ac44398d77fb187ff60949
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1146'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -43,7 +43,7 @@ Il peut être souhaitable de personnaliser les options de configuration disponib
 
 Chaque boîte de dialogue possède une structure de nœud cohérente. Il est recommandé de répliquer cette structure dans un composant héritant de sorte que [Sling Resource Merger](https://helpx.adobe.com/fr/experience-manager/6-4/sites/developing/using/sling-resource-merger.html) et l’option [Masquer les conditions](https://helpx.adobe.com/fr/experience-manager/6-5/sites/developing/using/hide-conditions.html) puissent être utilisés pour masquer, remplacer ou réorganiser les sections de la boîte de dialogue d’origine. La structure à répliquer est définie comme tous les éléments jusqu’au niveau de nœud de l’élément d’onglet.
 
-Pour être entièrement compatibles avec toutes les modifications apportées à une boîte de dialogue sur sa version actuelle, il est important que les structures sous le niveau de l’élément d’onglet ne soient pas touchées (masquées, ajoutées, remplacées, réorganisées, etc.). Au lieu de cela, un élément d’onglet du parent doit être masqué via la propriété `sling:hideResource` (voir [Propriétés de fusion de ressources Sling](https://helpx.adobe.com/fr/experience-manager/6-5/sites/developing/using/sling-resource-merger.html)) et de nouveaux éléments d’onglet doivent être ajoutés pour contenir les champs de configuration personnalisés. `sling:orderBefore` peut être utilisé pour réorganiser les éléments d’onglet, si nécessaire.
+Pour être entièrement compatibles avec toutes les modifications apportées à une boîte de dialogue sur sa version actuelle, il est important que les structures sous le niveau de l’élément d’onglet ne soient pas touchées (masquées, ajoutées, remplacées, réorganisées, etc.). À la place, un élément d’onglet du parent doit être masqué via la propriété `sling:hideResource` (voir [Propriétés de Sling Resource Merger](https://helpx.adobe.com/fr/experience-manager/6-5/sites/developing/using/sling-resource-merger.html)), et les nouveaux éléments d’onglet ajoutés qui contiennent les champs de configuration personnalisés. `sling:orderBefore` peut être utilisé pour réorganiser les éléments d’onglet si nécessaire.
 
 La boîte de dialogue ci-dessous illustre la structure de la boîte de dialogue recommandée et montre comment masquer et remplacer un onglet hérité comme décrit ci-dessus :
 

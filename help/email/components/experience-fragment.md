@@ -5,9 +5,9 @@ role: Developer, Admin, User
 exl-id: 861c1fd1-6d6d-426c-a338-a558326fe16e
 index: false
 source-git-commit: 7ba1374bd64686c2e7ac44398d77fb187ff60949
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '894'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
@@ -120,7 +120,7 @@ La boîte de dialogue de configuration permet au créateur de contenu de sélect
 
 Utilisez le bouton **Ouvrir la boîte de dialogue de sélection** pour ouvrir le sélecteur de composants afin de choisir la variation de composant de fragment d’expérience à ajouter à la page de contenu.
 
-Si vous ajoutez le composant Fragment d’expérience d’e-mail à un modèle, il sera automatiquement localisé à condition que les fragments d’expérience soient localisés. Ainsi, ce qui est rendu sur la page peut différer du composant que vous sélectionnez explicitement. [Voir l’exemple ci-dessus](#example) pour plus d’informations.
+Si vous ajoutez le composant Fragment d’expérience d’e-mail à un modèle, notez qu’il sera automatiquement localisé à condition que les fragments d’expérience soient localisés. Ainsi, ce qui est généré sur la page peut différer du composant que vous sélectionnez explicitement. Pour plus d’informations, [reportez-vous à l’exemple ci-dessus](#example).
 
 Vous pouvez également définir un **ID**. Cette option permet de contrôler l’identifiant unique du composant dans le HTM.
 

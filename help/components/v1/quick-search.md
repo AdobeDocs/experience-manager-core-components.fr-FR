@@ -5,8 +5,8 @@ role: Developer, Admin, User
 exl-id: 60a043b7-d82c-4bc1-b91a-b77f748f7bc2
 index: false
 source-git-commit: 7ba1374bd64686c2e7ac44398d77fb187ff60949
-workflow-type: tm+mt
-source-wordcount: '647'
+workflow-type: ht
+source-wordcount: '648'
 ht-degree: 100%
 
 ---
@@ -67,22 +67,22 @@ La boîte de dialogue de modification permet à l’auteur de contenu de défini
 
 ## Boîte de dialogue de conception {#design-dialog}
 
-À l’aide de la boîte de dialogue de conception, l’auteur du modèle peut définir la valeur par défaut pour laquelle, dans l’arborescence de contenu, la recherche doit commencer, ainsi qu’une taille de jeu de résultats maximale et la longueur minimale du terme de recherche. La boîte de dialogue de conception permet à l’auteur du modèle de définir quelles options de mise en forme de texte sont disponibles pour les auteurs de contenu.
+À l’aide de la boîte de dialogue de conception, le créateur ou la créatrice du modèle peut définir la valeur par défaut pour laquelle la recherche doit commencer dans l’arborescence de contenu, ainsi qu’une taille de jeu de résultats maximale et la longueur minimale du terme de recherche.La boîte de dialogue de conception permet à l’auteur du modèle de définir quelles options de formatage de texte sont disponibles pour les auteurs de contenu.
 
 ### Onglet Propriétés {#properties-tab}
 
 ![Boîte de dialogue de conception du composant Recherche rapide](/help/assets/quick-search-design.png)
 
-* **Rechercher à la racine**
+* **Racine de recherche**
 La valeur par défaut de la racine de recherche lorsqu’un auteur de contenu place le composant Recherche rapide sur une page de contenu.
 * **Taille des résultats**
 Le nombre maximal de résultats extraits par une requête de recherche.
 * **Longueur minimale du terme de recherche**
-Longueur minimale du terme de recherche pour lancer la recherche.
+Longueur minimale du terme de recherche pour démarrer la recherche
 
 >[!NOTE]
 >
->La **Taille des résultats** et la **Longueur minimum du terme de recherche** ne peuvent être définies qu’en mode conception et, par conséquent, au niveau du modèle, ce qui signifie que les auteurs de contenu ne peuvent pas modifier ces valeurs.
+>La **Taille des résultats** et la **Longueur minimum du terme de recherche** ne peuvent être définies qu’en mode conception et, par conséquent, au niveau du modèle, ce qui signifie que les créateurs et créatrices de contenu ne peuvent pas modifier ces valeurs.
 
 >[!CAUTION]
 >
