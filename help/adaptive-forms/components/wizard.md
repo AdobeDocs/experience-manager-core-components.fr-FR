@@ -4,9 +4,9 @@ description: Utilisation ou personnalisation du composant principal « Assistan
 role: Developer, Admin, User
 exl-id: fd785cd2-5ed6-4efb-997f-ce9056ed113d
 source-git-commit: 6fc9e1732302f114ad5c9c037ce203af6324edf0
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2246'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -20,7 +20,7 @@ Chaque étape de l’assistant contient généralement un groupe de champs de fo
 La disposition « Assistant » s’avère utile pour les formulaires contenant de nombreux champs ou informations à collecter, dans la mesure où elle répartit le formulaire en blocs plus petits et plus faciles à gérer. Elle permet également aux utilisateurs et aux utilisatrices de se concentrer sur un ensemble de champs à la fois, ce qui peut rendre le processus de remplissage de formulaire moins contraignant.
 
 Cependant, cela peut également accroître la complexité du formulaire, car l’utilisateur ou l’utilisatrice doit parcourir plusieurs pages pour remplir le formulaire. Il est donc nécessaire d’évaluer les exigences du formulaire et les besoins de l’utilisateur ou de l’utilisatrice avant de décider d’utiliser la disposition « Assistant ».
-Vous pouvez utiliser le composant principal de disposition « Assistant » dans un formulaire adaptatif pour créer une disposition « Assistant ».
+Vous pouvez utiliser le composant principal de disposition Assistant dans un formulaire adaptatif pour créer une disposition Assistant.
 
 {{traditional-aem}}
 
@@ -50,13 +50,13 @@ Dans l’ensemble, une disposition « Assistant » peut rendre le processus de
 
 ## Version et compatibilité {#version-and-compatibility}
 
-Le composant principal « Disposition Assistant » de Forms adaptatif a été publié en février 2023 dans le cadre de la version 2.0.4 des composants principaux. Vous trouverez ci-dessous un tableau détaillant les versions prises en charge, la compatibilité avec AEM et les liens vers la documentation correspondante :
+Le composant principal Disposition Assistant des formulaires adaptatifs a été publié en février 2023 au sein des composants principaux 2.0.4.Vous trouverez ci-dessous un tableau détaillant les versions prises en charge, la compatibilité avec AEM et les liens vers la documentation correspondante :
 
 |  |  |
 |---|---|
 | Version du composant | AEM as a Cloud Service |
 | --- | --- |
-| v1 | Compatible avec les versions 2<br>[0.4](/help/adaptive-forms/version.md) et ultérieures. |
+| v1 | Compatible avec les <br>[versions 2.0.4](/help/adaptive-forms/version.md) et ultérieures |
 
 Pour plus d’informations sur les versions et publications des composants principaux, consultez le document [Versions des composants principaux](/help/adaptive-forms/version.md).
 

@@ -4,9 +4,9 @@ description: Le composant Image des composants principaux est un composant d’i
 role: Developer, Admin, User
 exl-id: c5e57f4b-139f-40e7-8d79-be9a74360b63
 source-git-commit: 7ba1374bd64686c2e7ac44398d77fb187ff60949
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2163'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -59,13 +59,13 @@ Pour plus d’informations, [consultez la documentation GitHub du composant.](ht
 
 ## Prise en charge de Dynamic Media {#dynamic-media}
 
-Le composant Image (à compter de la [version 2.13.0](/help/versions.md)) prend en charge les ressources [Dynamic Media](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/assets/dynamicmedia/dynamic-media.html?lang=fr). [Lorsqu’elles sont activées](#design-dialog) ces fonctionnalités permettent d’ajouter des ressources d’image Dynamic Media par simple glisser-déposer ou via l’explorateur de ressources comme vous le feriez pour n’importe quelle autre image. En outre, les modificateurs d’image, les paramètres d’image prédéfinis et les recadrages intelligents sont également pris en charge.
+Le composant d’image (à partir de la [version 2.13.0](/help/versions.md)) prend en charge les ressources [Dynamic Media](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/assets/dynamicmedia/dynamic-media.html?lang=fr). [Lorsqu’elles sont activées](#design-dialog), ces fonctionnalités offrent la possibilité d’ajouter des fichiers d’image Dynamic Media par un simple glisser-déposer ou par le biais du navigateur de ressources, comme vous le feriez pour toute autre image. En outre, les modificateurs d’image, les paramètres d’image prédéfinis et les recadrages intelligents sont également pris en charge.
 
-Vos expériences web créées avec les composants principaux peuvent bénéficier de fonctionnalités d’image Dynamic Media sur plusieurs plateformes, riches, robustes, hautes performances et optimisées par Adobe AI.
+Vos expériences web créées avec les composants principaux bénéficient des fonctionnalités d’image Dynamic Media riches, robustes, hautes performances, optimisées par l’IA Adobe et sur plusieurs plateformes.
 
 ## Prise en charge des ressources distantes {#remote-assets}
 
-Le composant Image (à compter de la [version 2.23.2](/help/versions.md)) prend en charge les ressources distantes. [Une fois la configuration effectuée](/help/developing/remote-assets.md) vous pouvez sélectionner des ressources à partir d’un service distant pour votre composant d’image.
+Le composant Image (à partir de la [version 2.23.2](/help/versions.md)) prend en charge les ressources distantes. [Une fois la configuration effectuée,](/help/developing/remote-assets.md) vous pouvez sélectionner des ressources à partir d’un service distant pour votre composant Image.
 
 ## Prise en charge SVG {#svg-support}
 

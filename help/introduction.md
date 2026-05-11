@@ -4,9 +4,9 @@ description: Obtenez des solutions aux problèmes grâce aux composants principa
 role: Developer, Admin, User
 exl-id: d294db22-4cb0-48a4-9366-03fda5b8bb8e
 source-git-commit: 7ba1374bd64686c2e7ac44398d77fb187ff60949
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1076'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -92,7 +92,7 @@ La version actuelle des composants principaux comporte les composants ci-après.
 
 ### Composants de formulaire {#form-components}
 
-* [Conteneur de formulaires](components/forms/form-container.md)
+* [Conteneur de formulaire](components/forms/form-container.md)
 * [Texte du formulaire](components/forms/form-text.md)
 * [Options du formulaire](components/forms/form-options.md)
 * [Formulaire masqué](components/forms/form-hidden.md)

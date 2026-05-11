@@ -1,12 +1,12 @@
 ---
 title: Utilisation des composants principaux
-description: 'Pour que les composants principaux soient opérationnels dans votre propre projet, vous devez suivre trois étapes : télécharger et installer, créer des composants proxy, charger les styles principaux et autoriser les composants sur vos modèles.'
+description: 'Pour rendre opérationnels les composants principaux dans votre propre projet, vous devez suivre trois étapes : télécharger et installer, créer des composants proxy, charger les styles principaux et autoriser les composants sur vos modèles.'
 role: Developer, Admin, User
 exl-id: ee2d25e4-e2b8-4ecc-a62c-f0066de2bf2d
 source-git-commit: 7ba1374bd64686c2e7ac44398d77fb187ff60949
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1043'
-ht-degree: 92%
+ht-degree: 100%
 
 ---
 
@@ -44,7 +44,7 @@ Gardez à l’esprit les points suivants lorsque vous utilisez les composants pr
 * Le pipeline de génération de projet génère des avertissements dans le journal s’il inclut également les composants principaux dans `/apps`. Il ignorera alors la version intégrée dans le cadre de votre projet.
    * Dans une prochaine version, l’ajout de composants principaux supplémentaires causera l’échec du processus de génération du pipeline.
 * Si votre projet incluait précédemment les composants principaux dans `/apps`, [vous devrez peut-être le paramétrer différemment](/help/developing/overview.md#via-aemaacs).
-* Même si les composants principaux sont désormais en `/libs`, il n’est pas recommandé de créer une superposition du même chemin dans `/apps`. [Le modèle de composant proxy &#x200B;](/help/developing/guidelines.md#proxy-component-pattern) doit être utilisé à la place si l’un des aspects des composants doit être personnalisé.
+* Même si les composants principaux se trouvent maintenant dans `/libs`, il n’est pas recommandé de créer un recouvrement du même chemin dans `/apps`. Si un élément quelconque des composants devait être personnalisé, nous vous recommandons d’utiliser [le modèle de composant de proxy](/help/developing/guidelines.md#proxy-component-pattern) à la place.
 * Pour que le [composant Table des matières](/help/components/tableofcontents.md) puisse effectuer le rendu de son contenu, un filtre doit être configuré dans OSGi.
    * Pour plus d’informations, [consultez la documentation GitHub du composant.](https://adobe.com/go/aem_cmp_tech_tableofcontents_v1_fr).
 
@@ -65,18 +65,18 @@ Ainsi, pour chaque composant principal à utiliser pour un site, vous devez :
 1. créer un composant proxy correspondant dans le dossier des composants du site,
 
    **Exemple**
-sous `/apps/my-site/components` Créer un nœud de titre de type `cq:Component`
+Sous `/apps/my-site/components` créez un nœud de titre de type `cq:Component`
 
 1. pointer vers la version de composant principal correspondante avec le super-type,
 
    **Exemple**
-Ajouter la propriété suivante :\
+Ajoutez la propriété suivante :\
    `sling:resourceSuperType="core/wcm/components/title/v1/title"`
 
 1. définir le groupe, le titre et la description facultative du composant. Ces valeurs sont spécifiques au projet et déterminent la manière dont le composant est exposé aux auteurs.
 
    **Exemple**
-Ajoutez les propriétés suivantes :
+Ajoutez les propriétés suivantes :
 
    ```shell
    componentGroup="My Site"

@@ -4,9 +4,9 @@ description: Utilisation ou personnalisation du composant principal Conteneur de
 role: Developer, Admin, User
 exl-id: 104836fe-8325-47de-978d-1ff2d6a9dd15
 source-git-commit: 6fc9e1732302f114ad5c9c037ce203af6324edf0
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2331'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -39,13 +39,13 @@ Il existe plusieurs raisons d’utiliser un panneau dans un formulaire, notammen
 
 ## Version et compatibilité {#version-and-compatibility}
 
-Le composant principal Conteneur de panneau de Forms adaptatif a été publié en février 2023 dans le cadre de la version 2.0.4 des composants principaux. Vous trouverez ci-dessous un tableau détaillant les versions prises en charge, la compatibilité avec AEM et les liens vers la documentation correspondante :
+Le composant principal Accordéon des formulaires adaptatifs a été publié en février 2023 au sein des composants principaux 2.0.4.Vous trouverez ci-dessous un tableau détaillant les versions prises en charge, la compatibilité avec AEM et les liens vers la documentation correspondante :
 
 |  |  |
 |---|---|
 | Version du composant | AEM as a Cloud Service |
 | --- | --- |
-| v1 | Compatible avec les versions 2<br>[0.4](/help/adaptive-forms/version.md) et ultérieures. |
+| v1 | Compatible avec les <br>[versions 2.0.4](/help/adaptive-forms/version.md) et ultérieures |
 
 Pour plus d’informations sur les versions et publications des composants principaux, consultez le document [Versions des composants principaux](/help/adaptive-forms/version.md).
 
@@ -100,9 +100,9 @@ Vous pouvez facilement personnaliser l’expérience de votre conteneur de panne
         { "Street": "123 Main Street", "City": "New York", "Zip Code": "12345" }
      ```
 
-- **Regrouper les champs sous un en-tête de section** : sélectionnez cette option pour organiser les champs de formulaire associés sous un en-tête de section commun. Ce regroupement permet de s’assurer que les technologies d’assistance, telles que les lecteurs d’écran, peuvent identifier et annoncer les champs regroupés en tant qu’unité unique et cohérente, améliorant ainsi l’accessibilité du formulaire et la navigation pour tous les utilisateurs et utilisatrices.
+- **Regrouper les champs sous un en-tête de section** : sélectionnez cette option pour classer les champs de formulaire associés sous un en-tête de section commun.Ce regroupement permet de s’assurer que les technologies d’assistance, telles que les lecteurs d’écran, peuvent identifier et annoncer les champs regroupés en tant qu’unité unique et cohérente, améliorant ainsi l’accessibilité du formulaire et la navigation pour tous les utilisateurs et utilisatrices.
 
-  ![Champ de groupe de panneaux](/help/adaptive-forms/assets/panel-fieldset.png)
+  ![Groupe de champs du panneau](/help/adaptive-forms/assets/panel-fieldset.png)
 
 - **Référence Bind** - Une référence Bind est une référence à un élément de données stockée dans une source de données externe et utilisée dans un formulaire. La référence de liaison vous permet de lier dynamiquement les données aux champs du formulaire, de sorte que le formulaire puisse afficher les données les plus récentes de la source de données. Par exemple, une référence de liaison peut être utilisée pour afficher le nom et l’adresse d’un client ou d’une cliente dans un formulaire, en fonction de l’identifiant du client ou de la cliente saisi dans le formulaire. La référence de liaison peut également être utilisée pour mettre à jour la source de données avec les données saisies dans le formulaire. Ainsi, AEM Forms vous permet de créer des formulaires qui interagissent avec des sources de données externes, offrant ainsi une expérience utilisateur fluide pour la collecte et la gestion des données.
 - **Masquer le composant** - Sélectionnez cette option pour masquer le composant du formulaire. Le composant reste accessible à d’autres fins, par exemple pour les calculs dans l’éditeur de règles. Cela s’avère utile lorsque vous devez stocker des informations qui n’ont pas besoin d’être affichées ou directement modifiées par les utilisateurs ou les utilisatrices.

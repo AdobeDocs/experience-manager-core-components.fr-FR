@@ -4,9 +4,9 @@ description: Utilisation ou personnalisation du composant principal Pied de page
 role: Developer, Admin, User
 exl-id: c8e7d3fe-4b82-4a80-8da2-19f6cff1e3e9
 source-git-commit: 7ba1374bd64686c2e7ac44398d77fb187ff60949
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '783'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
@@ -65,9 +65,9 @@ Vous pouvez facilement personnaliser votre expérience de pied de page pour les 
 - **Boîte de dialogue Modifier**
 La boîte de dialogue de modification fournit des outils de mise en forme de texte enrichi standard qui permettent à l’utilisateur ou à l’utilisatrice de créer du texte pour le pied de page.
 
-- **Gras** - Cette option met le texte sélectionné en gras ou en gras   mettre en forme le texte saisi après le curseur. `Ctrl+B` est un raccourci clavier.
+- **Gras** - Cette option est utilisée pour appliquer le format Gras au texte sélectionné ou au texte saisi après le curseur. `Ctrl+B` est un raccourci clavier.
 
-- **Italique** - Cette option applique une mise en forme en italique au texte ou au texte sélectionné   texte en italique saisi après le curseur. `Ctrl+I` est un raccourci clavier.
+- **Italique** - Cette option applique une mise en forme en italique au texte sélectionné ou au texte saisi après le curseur. `Ctrl+I` est un raccourci clavier.
 
 ![Options de puces](/help/adaptive-forms/assets/footer_bullet.png)
 

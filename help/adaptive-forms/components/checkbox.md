@@ -4,9 +4,9 @@ description: Utilisation ou personnalisation du composant principal de case à c
 role: Developer, Admin, User
 exl-id: c6ca4800-bd10-4aeb-957a-fb1780cf94f3
 source-git-commit: 6fc9e1732302f114ad5c9c037ce203af6324edf0
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1843'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -41,13 +41,13 @@ Les raisons courantes d’utiliser une case à cocher dans un formulaire adaptat
 
 ## Version et compatibilité {#version-and-compatibility}
 
-Le composant principal « Case à cocher » du Forms adaptatif a été publié dans le cadre de la version 2.0.52 des composants principaux. Vous trouverez ci-dessous un tableau détaillant les versions prises en charge, la compatibilité avec AEM et les liens vers la documentation correspondante :
+Le composant principal Groupes de cases à cocher d’un formulaire adaptatif est inclus dans la version 2.0.52. des composants principaux.Vous trouverez ci-dessous un tableau détaillant les versions prises en charge, la compatibilité avec AEM et les liens vers la documentation correspondante :
 
 |  |  |
 |---|---|
 | Version du composant | AEM as a Cloud Service |
 | --- | --- |
-| v1 | Compatible avec <br>[&#x200B; version 2.0.52](/help/adaptive-forms/version.md) et versions ultérieures\|Compatible\|Compatible |
+| v1 | Compatible avec les <br>[versions 2.0.52](/help/adaptive-forms/version.md) et ultérieures |
 
 Pour plus d’informations sur les versions et publications des composants principaux, consultez le document [Versions des composants principaux](/help/adaptive-forms/version.md).
 

@@ -4,9 +4,9 @@ description: Le composant Teaser peut afficher une image, un titre, un texte enr
 role: Developer, Admin, User
 exl-id: ec75e168-6f3b-4dff-8df6-06ca7dc18688
 source-git-commit: ff337aee45ea3d39f9669a8fa46accaed854532a
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1098'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
@@ -36,7 +36,7 @@ Le tableau ci-après présente en détail toutes les versions prises en charge d
 
 ## Prise en charge des ressources distantes {#remote-assets}
 
-Le composant Teaser (à compter de la version [2.23.2](/help/versions.md)) prend en charge les ressources distantes. [Une fois configurées](/help/developing/remote-assets.md) vous pouvez sélectionner des ressources à partir d’un service distant pour votre composant Teaser.
+Le composant Teaser (à partir de la [version 2.23.2](/help/versions.md)) prend en charge les ressources distantes. [Une fois la configuration effectuée,](/help/developing/remote-assets.md) vous pouvez sélectionner des ressources à partir d’un service distant pour votre composant Teaser.
 
 ## Exemple de sortie de composant {#sample-component-output}
 
@@ -56,7 +56,7 @@ L’auteur du contenu peut utiliser la boîte de dialogue de configuration pour 
 
 ![Onglet Liens de la boîte de dialogue de modification du composant Teaser](/help/assets/teaser-edit-links.png)
 
-Le titre, la description et l’image du teaser peuvent être hérités de la page liée ou de la page liée dans le premier call to action. Si aucun lien ni call to action n’est spécifié, le titre, la description et l’image seront hérités de la page active.
+Le titre, la description et l’image du teaser peuvent être hérités de la page liée ou de la page liée dans le premier appel à l’action.Si aucun lien ni appel à l’action n’est spécifié, le titre, la description et l’image seront hérités de la page actuelle.
 
 * **Lien** : ce fichier établit un lien vers une page de contenu, une URL externe ou une ancre de page.
 * **Ouvrir le lien dans un nouvel onglet** : si cette option est activée, le lien s’ouvre dans un nouvel onglet du navigateur.

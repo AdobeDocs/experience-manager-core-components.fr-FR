@@ -5,7 +5,7 @@ index: false
 role: Developer, Admin, User
 exl-id: 510d059c-e60a-40aa-9032-66a901109f6e
 source-git-commit: 7ba1374bd64686c2e7ac44398d77fb187ff60949
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '866'
 ht-degree: 100%
 
@@ -14,7 +14,7 @@ ht-degree: 100%
 
 # Composant Liste (v1) {#list-component-v}
 
-Le composant Liste des composants principaux permet de créer facilement des listes dynamiques et statiques.
+Le composant principal Liste permet de créer facilement des listes dynamiques et statiques.
 
 ## Utilisation {#usage}
 
@@ -226,10 +226,10 @@ Quelle que soit la manière dont vous choisissez de créer la liste, certaines o
 
 ![](/help/assets/chlimage_1-44.png)
 
-* **Lier des éléments**
-Liez des éléments à la page correspondante.
+* **Lier les éléments**
+Éléments de lien vers la page correspondante.
 * **Afficher la description**
-Affichez les descriptions de l’élément de lien.
+Permet d’afficher les descriptions de l’élément de lien.
 * **Afficher la date**
 Permet d’afficher la date de modification de l’élément de lien.
 

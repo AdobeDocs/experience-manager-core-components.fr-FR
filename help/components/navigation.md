@@ -1,19 +1,19 @@
 ---
 title: Composant Navigation
-description: Le composant Navigation permet aux utilisateurs de parcourir facilement une structure de site globalisée.
+description: Le composant Navigation permet aux utilisateurs et utilisatrices de parcourir facilement une structure de site globalisée.
 role: Developer, Admin, User
 exl-id: 9154f2a3-3d1e-4865-a413-298748fa66d3
 source-git-commit: 7ba1374bd64686c2e7ac44398d77fb187ff60949
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1556'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
 
 # Composant Navigation{#navigation-component}
 
-Le composant Navigation permet aux utilisateurs de parcourir facilement une structure de site globalisée.
+Le composant Navigation permet aux utilisateurs et utilisatrices de parcourir facilement une structure de site globalisée.
 
 {{traditional-aem}}
 
@@ -21,7 +21,7 @@ Le composant Navigation permet aux utilisateurs de parcourir facilement une stru
 
 Les listes de composants de navigation répertorient une arborescence de pages afin que les utilisateurs d’un site puissent facilement naviguer dans la structure du site.
 
-Le composant Navigation peut détecter automatiquement la structure de site globalisée de votre site et [s’adapter automatiquement à une page localisée.](#localized-site-structure) En outre, il peut prendre en charge n’importe quelle structure de site arbitraire en utilisant [les pages de redirection fantômes](#shadow-structure) pour représenter une autre structure que votre structure de contenu principale.
+Le composant de navigation peut détecter automatiquement la structure de site globalisée de votre site et [s’adapter automatiquement à une page localisée.](#localized-site-structure) En outre, elle peut prendre en charge toute structure arbitraire de site en utilisant [des pages de redirection fantômes](#shadow-structure) pour représenter une structure autre que la structure de contenu principale.
 
 La boîte de dialogue de [modification](#edit-dialog) permet à l’auteur de contenu de définir la page racine de navigation ainsi que la profondeur de navigation. La boîte de dialogue de [conception](#design-dialog) permet à l’auteur du modèle de définir les valeurs par défaut de la racine de navigation et de la profondeur.
 

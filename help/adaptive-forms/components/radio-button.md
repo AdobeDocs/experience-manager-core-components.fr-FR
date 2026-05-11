@@ -4,9 +4,9 @@ description: Utilisation ou personnalisation du composant principal « Bouton r
 role: Developer, Admin, User
 exl-id: 86b5e9ec-58ac-4cd5-9c7c-4269247ec34f
 source-git-commit: 7ba1374bd64686c2e7ac44398d77fb187ff60949
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2349'
-ht-degree: 91%
+ht-degree: 100%
 
 ---
 
@@ -49,7 +49,7 @@ Le composant principal Case d’option des formulaires adaptatifs a été publi�
 
 | Version du composant | AEM as a Cloud Service | AEM 6.5.16.0 Forms ou version ultérieure |
 |---|---|---|
-| v2 | Compatible avec <br>[&#x200B; version 3.0.142](/help/adaptive-forms/version.md) et versions ultérieures | |
+| v2 | Compatible avec la <br>[version 3.0.142](/help/adaptive-forms/version.md) et les versions ultérieures | |
 | v1 | Compatible avec la <br>[version 2.0.4](/help/adaptive-forms/version.md) et les versions ultérieures | Compatible avec les<br>[versions 1.1.12](/help/adaptive-forms/version.md) à 2.0.0 exclue. |
 
 
@@ -57,7 +57,7 @@ Pour plus d’informations sur les versions et publications des composants princ
 
 >[!NOTE]
 >
-> La version v1 du composant principal Groupe de cases à cocher prend en charge WCAG 2.1, qui se concentre sur la rendre accessible en suivant les bonnes pratiques en matière de convivialité et de lisibilité. La version v2 prend en charge WCAG 2.2, qui va encore plus loin en mettant l’accent sur une accessibilité claire, prévisible et sans ambiguïté par le biais d’un regroupement logique et sémantique des champs associés, ce qui en fait une exigence essentielle pour la conception de formulaire inclusive.
+> La version v1 du composant principal Groupe de cases à cocher prend en charge WCAG 2.1, une norme qui vise à rendre le contenu accessible en suivant les bonnes pratiques en matière de convivialité et de lisibilité.La version v2 prend en charge WCAG 2.2, qui va encore plus loin en mettant l’accent sur une accessibilité claire, prévisible et sans ambiguïté par le biais d’un regroupement logique et sémantique des champs associés, ce qui en fait une norme essentielle pour la conception de formulaires inclusifs.
 
 <!--
 ## Sample Component Output {#sample-component-output}
@@ -175,15 +175,15 @@ Les propriétés personnalisées vous permettent d’associer des attributs pers
 
    - **Réorganiser** : appuyez ou cliquez et faites glisser pour réorganiser l’ordre du nom et de la valeur des propriétés personnalisées.
 
-## Prise en charge des champs et des légendes pour les boutons radio (v2)
+## Prise en charge des champs et des légendes pour les cases d’option (v2)
 
-<span class="preview"> Cette fonctionnalité est disponible via le programme d’accès anticipé. Pour demander l’accès, envoyez un e-mail à partir de votre adresse officielle à [aem-forms-ea@adobe.com](mailto:aem-forms-ea@adobe.com). </span>
+<span class="preview"> Cette fonctionnalité est disponible par le biais du programme d’accès anticipé.Pour en demander l’accès, envopyez un e-mail à partir de votre adresse officielle à [aem-forms-ea@adobe.com](mailto:aem-forms-ea@adobe.com). </span>
 
-Les composants principaux de Forms adaptatifs utilisent des `<fieldset>` sémantiques et `<legend>` des éléments HTML pour améliorer l’accessibilité des groupes de boutons radio. Ces éléments permettent aux lecteurs d’écran d’interpréter avec précision la structure des formulaires et de transmettre les relations entre les libellés de groupe et leurs options.
+Les composants principaux des formulaires adaptatifs utilisent des éléments `<fieldset>` sémantiques et `<legend>` HTML pour améliorer l’accessibilité des groupes de cases d’option.Ces éléments permettent aux lecteurs d’écran d’interpréter avec précision la structure des formulaires et de transmettre les relations entre les libellés de groupe et leurs options.
 
-Les composants Bouton radio (v2) s’affichent dans un élément `<fieldset>`, le libellé du groupe étant encapsulé dans un `<legend>` en tant que premier enfant. Les attributs ARIA redondants ou non valides sont supprimés et les libellés individuels sont correctement associés à leurs entrées respectives. Cela permet de s’assurer que les lecteurs d’écran lisent clairement chaque libellé de bouton radio, ainsi que son contexte de groupe.
+Les composants Cases d’option (v2) s’affichent dans un élément `<fieldset>`, avec le libellé de groupe encapsulé dans un élément `<legend>` comme premier enfant.Les attributs ARIA redondants ou non valides sont supprimés et les libellés individuels sont correctement associés à leurs entrées respectives.Cela permet de s’assurer que les lecteurs d’écran lisent clairement chaque libellé de case d’option, ainsi que son contexte de groupe.
 
-![&#x200B; bouton radio &#x200B;](/help/adaptive-forms/assets/radiobutton-fieldset.png)
+![case d’option](/help/adaptive-forms/assets/radiobutton-fieldset.png)
 
 ## Articles connexes {#related-articles}
 

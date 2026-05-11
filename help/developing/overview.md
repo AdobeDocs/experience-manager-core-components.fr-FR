@@ -4,9 +4,9 @@ description: Les composants principaux fournissent des composants de base robust
 role: Developer, Admin
 exl-id: 0f79cac1-a3b0-487e-90be-0bd8263d3912
 source-git-commit: 7ba1374bd64686c2e7ac44398d77fb187ff60949
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1339'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -18,7 +18,7 @@ Les composants principaux fournissent des composants de base robustes et extensi
 
 ## Réussir avec les composants principaux {#how-to-succeed}
 
-Les composants principaux sont puissants, flexibles, faciles à utiliser et à personnaliser. [En suivant quelques instructions clés](success.md) vous garantirez la réussite de votre projet avec les composants principaux .
+Les composants principaux sont puissants, flexibles et faciles à utiliser et personnaliser. [Suivez quelques instructions](success.md) pour vous assurer que votre projet utilisant les composants principaux soit une réussite.
 
 ## Migration vers les composants principaux
 

@@ -4,9 +4,9 @@ description: Le composant Table des matières permet de créer une table des mat
 role: Developer, Admin, User
 exl-id: 006adde2-ebff-4e74-8e79-325cccd43e8f
 source-git-commit: 7ba1374bd64686c2e7ac44398d77fb187ff60949
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '753'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -85,4 +85,4 @@ La boîte de dialogue de modification permet au créateur du contenu de définir
 
 ### Onglet Styles {#styles-tab}
 
-Le composant Table des matières prend en charge le [système de style](/help/get-started/authoring.md#component-styling) AEM.
+Le composant Table des matières prend en charge le [Système de style](/help/get-started/authoring.md#component-styling) AEM.

@@ -4,7 +4,7 @@ description: Le composant Liste des composants principaux permet de créer facil
 role: Developer, Admin, User
 exl-id: 662ab508-0253-4d28-b95c-8c4cde8173bd
 source-git-commit: 6fc9e1732302f114ad5c9c037ce203af6324edf0
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1214'
 ht-degree: 100%
 
@@ -86,8 +86,8 @@ La liste peut être créée à partir des pages enfants de la page active ou d�
    * Page dont les pages enfants doivent faire la liste.
    * Laissez vide pour utiliser la page active.
 
-* **Profondeur-enfant**
-Combien de niveaux dans la hiérarchie doivent être utilisés.
+* **Profondeur enfant**
+Nombre de niveaux vers le bas dans la hiérarchie.
 
 #### Liste fixe {#fixed-list}
 
@@ -116,9 +116,9 @@ La liste peut être créée à l’aide des résultats d’une recherche de cont
 ![Options de liste de recherche](/help/assets/list-edit-search.png)
 
 * **Requête de recherche**
-Chaîne pour laquelle une recherche de texte intégral est exécutée afin de générer les éléments de la liste.
-* **Recherche dans**
-L’emplacement où la recherche doit être exécutée.
+Chaîne pour laquelle une recherche de texte intégral est exécutée pour générer les éléments de la liste.
+* **Rechercher dans**
+Emplacement où la recherche doit être exécutée.
    * Utilisez la **boîte de dialogue Sélection** pour choisir l’emplacement dans AEM.
    * Utilisez la page active si laissée vide.
 
@@ -129,14 +129,14 @@ La liste peut être créée à l’aide de pages qui correspondent à certaines 
 ![Options de liste de balises](/help/assets/list-edit-tags.png)
 
 * **Page parente**
-Où la correspondance des balises doit commencer.
+Emplacement où la correspondance des balises doit commencer.
    * Utilisez la **boîte de dialogue Sélection** pour choisir l’emplacement dans AEM.
    * Utilisez la page active si laissée vide.
 * **Balises**
-Les balises qui doivent correspondre.
+Quelles balises doivent correspondre.
    * Utilisez la boîte de dialogue **Parcourir** pour sélectionner les balises.
 * **Correspondance**
-Définit quel type de correspondance doit qualifier une page à inclure dans la liste.
+Définissez le type de correspondance à associer à une page à inclure dans la liste.
    * **n’importe quelle balise**
    * **toutes les balises**
 
@@ -154,8 +154,8 @@ Comment les éléments doivent être triés.
 Ordre dans lequel les éléments doivent être triés.
    * **croissant**
    * **décroissant**
-* **Nombre maximal d’éléments**
-Nombre maximal d’éléments affichés dans la liste.
+* **Nombre max. d’éléments**
+Nombre maximum d’éléments affichés dans la liste.
    * Laissez vide pour renvoyer tous les éléments.
 * **ID** : cette option permet de contrôler l’identifiant unique du composant dans le code HTML ainsi que dans la [couche de données](/help/developing/data-layer/overview.md).
    * Si rien n’est indiqué, un ID unique est généré automatiquement et peut être trouvé en examinant la page obtenue.
@@ -193,16 +193,16 @@ Dans l’onglet **Paramètres de liste**, le format de date peut être défini e
 
 ![Paramètre de liste de la boîte de dialogue de conception du composant Liste](/help/assets/list-design-list-settings.png)
 
-* **Format de la date**
-Format à utiliser pour l’affichage de la date de la dernière modification.
+* **Format de date**
+Format à utiliser pour l’affichage de la date de la dernière modification
 * **Désactiver les enfants**
-Désactive le type de liste enfant dans le composant.
+Désactivez le type de liste enfants dans le composant.
 * **Désactiver statique**
-Désactive le type de liste statique dans le composant.
+Désactivez le type de liste statique dans le composant.
 * **Désactiver la recherche**
-Désactive le type de liste de recherche dans le composant.
+Désactivez le type de liste de recherche dans le composant.
 * **Désactiver les balises**
-Désactive le type de liste de balises dans le composant.
+Désactivez le type de liste des balises dans le composant.
 
 ### Paramètres d’élément {#item-settings}
 
@@ -210,9 +210,9 @@ Dans l’onglet **Paramètres d’élément**, les options de mise en forme des 
 
 ![Paramètre d’élément de la boîte de dialogue de conception du composant Liste](/help/assets/list-design-item-settings.png)
 
-* **Lier des éléments**
-Activez l’option Lier des éléments dans la [boîte de dialogue de modification](#edit-dialog).
-* **Afficher la description**
+* **Lier les éléments**
+Activez l’option Éléments de lien dans la [boîte de dialogue de modification](#edit-dialog).
+* **Afficher les descriptions**
 Activez l’option Afficher les descriptions dans la [boîte de dialogue de modification](#edit-dialog).
 * **Afficher la date**
 Activez l’option Afficher la date dans la [boîte de dialogue de modification](#edit-dialog).

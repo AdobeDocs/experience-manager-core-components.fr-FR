@@ -4,9 +4,9 @@ description: Utilisation ou personnalisation du composant principal Commutateur 
 role: Developer, Admin, User
 exl-id: 6ff2ca76-1514-42eb-bde3-60259af2d187
 source-git-commit: 6fc9e1732302f114ad5c9c037ce203af6324edf0
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1948'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -35,13 +35,13 @@ Les raisons courantes d’utiliser un commutateur dans un formulaire adaptatif s
 
 ## Version et compatibilité {#version-and-compatibility}
 
-Le composant principal de commutateur de Forms adaptatif a été publié dans le cadre des composants principaux 2.0.64. Vous trouverez ci-dessous un tableau détaillant les versions prises en charge, la compatibilité avec AEM et les liens vers la documentation correspondante :
+Le composant principal Basculement des formulaires adaptatifs est inclus dans la version 2.0.64. des composants principaux.Vous trouverez ci-dessous un tableau détaillant les versions prises en charge, la compatibilité avec AEM et les liens vers la documentation correspondante :
 
 |  |  |
 |---|---|
 | Version du composant | AEM as a Cloud Service |
 | --- | --- |
-| v1 | Compatible avec <br>[&#x200B; version 2.0.64](/help/adaptive-forms/version.md) et versions ultérieures\|Compatible\|Compatible |
+| v1 | Compatible avec les <br>[versions 2.0.64](/help/adaptive-forms/version.md) et ultérieures |
 
 Pour plus d’informations sur les versions et publications des composants principaux, consultez le document [Versions des composants principaux](/help/adaptive-forms/version.md).
 

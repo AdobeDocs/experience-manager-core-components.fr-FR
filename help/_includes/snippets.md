@@ -1,7 +1,7 @@
 ---
 source-git-commit: bf6953f24388ed08cd5a66bb51011b3ac82fb58e
 workflow-type: ht
-source-wordcount: '254'
+source-wordcount: '748'
 ht-degree: 100%
 
 ---
@@ -48,9 +48,9 @@ ht-degree: 100%
 - [Connecter un formulaire adaptatif au stockage Blob Azure Microsoft](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/configure-submit-actions-core-components.html?lang=fr#submit-to-azure-blob-storage)
 - [Connecter un formulaire adaptatif à Salesforce](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/integrate/use-form-data-model/oauth2-client-credentials-flow-for-server-to-server-integration.html?lang=fr)
 - [Utiliser Adobe Sign dans un formulaire adaptatif AEM](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-foundation-components/use-adobe-sign/working-with-adobe-sign.html?lang=fr)
-- [Ajouter des nouveaux paramètres régionaux pour un formulaire adaptatif](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/supporting-new-language-localization-core-components.html?lang=fr)
+- [Ajouter de nouveaux paramètres régionaux pour un formulaire adaptatif](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/supporting-new-language-localization-core-components.html?lang=fr)
 - [Envoyer des données de formulaire adaptatif à une base de données](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/integrate/use-form-data-model/data-integration.html?lang=fr)
-- [Envoyer des données de formulaire adaptatif à un point d’entrée REST](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/configure-submit-actions-core-components.html?lang=fr#submit-to-rest-endpoint)
+- [Envoyer des données de formulaire adaptatif à un point d’entrée REST](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/configure-submit-actions-core-components.html?lang=fr#submit-to-rest-endpoint?lang=fr)
 - [Envoyer des données de formulaire adaptatif à un workflow AEM](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/configure-submit-actions-core-components.html?lang=fr#invoke-an-aem-workflow)
 - [Utiliser le Portail Formulaires pour répertorier des formulaires adaptatifs AEM sur un site web AEM](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-foundation-components/configure-forms-portal.html?lang=fr)
 
