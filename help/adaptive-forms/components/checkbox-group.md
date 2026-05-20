@@ -3,13 +3,24 @@ title: Composant principal des formulaires adaptatifs - Groupe de cases à coche
 description: Utilisation ou personnalisation du composant principal « Groupe de cases à cocher » des formulaires adaptatifs.
 role: Developer, Admin, User
 exl-id: 2ced0223-e664-470b-a400-b6865d3a67c9
-source-git-commit: 7ba1374bd64686c2e7ac44398d77fb187ff60949
-workflow-type: ht
-source-wordcount: '2316'
+TQID: https://experienceleague.adobe.com/6TicW4M5RGGd5b6dQZnIthLpXKhTwM1r9Fli8s3EqWo
+product_v2:
+  - id: c45915cf-e157-4af7-a80d-97b905bcb3a5
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2:
+  - id: e2c1b6d3-bb7e-4fe8-8c72-f7b403298e91
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2:
+  - id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
+source-git-commit: 73aa5234ac63fa3be99feebce448bb6722513838
+workflow-type: tm+mt
+source-wordcount: 2316
 ht-degree: 100%
 
 ---
-
 
 # Composant Groupe de cases à cocher {#button-component-adaptive-forms-core-component}
 
@@ -60,7 +71,7 @@ Pour plus d’informations sur les versions et publications des composants princ
 
 >[!NOTE]
 >
-> La version v1 du composant principal Groupe de cases à cocher prend en charge WCAG 2.1, une norme qui vise à rendre le contenu accessible en suivant les bonnes pratiques en matière de convivialité et de lisibilité.La version v2 prend en charge WCAG 2.2, qui va encore plus loin en mettant l’accent sur une accessibilité claire, prévisible et sans ambiguïté par le biais d’un regroupement logique et sémantique des champs associés, ce qui en fait une norme essentielle pour la conception de formulaires inclusifs.
+> La version v1 du composant principal Groupe de cases à cocher prend en charge WCAG 2.1, une norme qui vise à rendre le contenu accessible en suivant les bonnes pratiques en matière de convivialité et de lisibilité. La version v2 prend en charge WCAG 2.2, qui va encore plus loin en mettant l’accent sur une accessibilité claire, prévisible et sans ambiguïté par le biais d’un regroupement logique et sémantique des champs associés, ce qui en fait une norme essentielle pour la conception de formulaires inclusifs.
 
 <!--
 ## Sample Component Output {#sample-component-output}
@@ -182,11 +193,11 @@ Les propriétés personnalisées vous permettent d’associer des attributs pers
 
 ## Prise en charge des jeux de champs et des légendes pour le groupe de cases à cocher (v2)
 
- <span class="preview"> Cette fonctionnalité est disponible par le biais du programme d’accès anticipé.Pour en demander l’accès, envopyez un e-mail à partir de votre adresse officielle à [aem-forms-ea@adobe.com](mailto:aem-forms-ea@adobe.com). </span>
+<span class="preview"> Cette fonctionnalité est disponible par le biais du programme d’accès anticipé. Pour en demander l’accès, envopyez un e-mail à partir de votre adresse officielle à [aem-forms-ea@adobe.com](mailto:aem-forms-ea@adobe.com). </span>
 
-Les composants principaux des formulaires adaptatifs utilisent des éléments `<fieldset>` sémantiques et `<legend>` HTML pour améliorer l’accessibilité des groupes de cases à cocher.Ces éléments permettent aux lecteurs d’écran d’interpréter avec précision la structure des formulaires et de transmettre les relations entre les libellés de groupe et leurs options.
+Les composants principaux des formulaires adaptatifs utilisent des éléments `<fieldset>` sémantiques et `<legend>` HTML pour améliorer l’accessibilité des groupes de cases à cocher. Ces éléments permettent aux lecteurs d’écran d’interpréter avec précision la structure des formulaires et de transmettre les relations entre les libellés de groupe et leurs options.
 
-Le composant Groupe de cases à cocher (v2) s’affiche dans un élément `<fieldset>`, avec le libellé de groupe encapsulé dans un élément `<legend>` comme premier enfant.Cette structure permet de s’assurer que les lecteurs d’écran annoncent le libellé du groupe avant de lire les options de case à cocher individuelles, ce qui facilite la compréhension du contexte et de la finalité de chaque option par les utilisateurs et utilisatrices assistés par des technologies d’assistance.
+Le composant Groupe de cases à cocher (v2) s’affiche dans un élément `<fieldset>`, avec le libellé de groupe encapsulé dans un élément `<legend>` comme premier enfant. Cette structure permet de s’assurer que les lecteurs d’écran annoncent le libellé du groupe avant de lire les options de case à cocher individuelles, ce qui facilite la compréhension du contexte et de la finalité de chaque option par les utilisateurs et utilisatrices assistés par des technologies d’assistance.
 
 ![checkbox fieldset](/help/adaptive-forms/assets/checkbox-fieldset.png)
 
