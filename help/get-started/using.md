@@ -3,9 +3,15 @@ title: Utilisation des composants principaux
 description: 'Pour rendre opérationnels les composants principaux dans votre propre projet, vous devez suivre trois étapes : télécharger et installer, créer des composants proxy, charger les styles principaux et autoriser les composants sur vos modèles.'
 role: Developer, Admin, User
 exl-id: ee2d25e4-e2b8-4ecc-a62c-f0066de2bf2d
-source-git-commit: 7ba1374bd64686c2e7ac44398d77fb187ff60949
-workflow-type: ht
-source-wordcount: '1043'
+TQID: https://experienceleague.adobe.com/a6e4uJvZZmYypwhs5IPNMz9flf0FyFrItvT9poO6Ly4
+product_v2: id: c45915cf-e157-4af7-a80d-97b905bcb3a5id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: e2c1b6d3-bb7e-4fe8-8c72-f7b403298e91
+subfeature_v2: id: f86a5563-8f73-4ec0-be7d-a1782604870a
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2: id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+source-git-commit: 73aa5234ac63fa3be99feebce448bb6722513838
+workflow-type: tm+mt
+source-wordcount: 1043
 ht-degree: 100%
 
 ---
@@ -46,7 +52,7 @@ Gardez à l’esprit les points suivants lorsque vous utilisez les composants pr
 * Si votre projet incluait précédemment les composants principaux dans `/apps`, [vous devrez peut-être le paramétrer différemment](/help/developing/overview.md#via-aemaacs).
 * Même si les composants principaux se trouvent maintenant dans `/libs`, il n’est pas recommandé de créer un recouvrement du même chemin dans `/apps`. Si un élément quelconque des composants devait être personnalisé, nous vous recommandons d’utiliser [le modèle de composant de proxy](/help/developing/guidelines.md#proxy-component-pattern) à la place.
 * Pour que le [composant Table des matières](/help/components/tableofcontents.md) puisse effectuer le rendu de son contenu, un filtre doit être configuré dans OSGi.
-   * Pour plus d’informations, [consultez la documentation GitHub du composant.](https://adobe.com/go/aem_cmp_tech_tableofcontents_v1_fr).
+   * Pour plus d’informations, [consultez la documentation GitHub du composant.](https://adobe.com/go/aem_cmp_tech_tableofcontents_v1).
 
 ### AEM 6.5 et version antérieure {#aem-65}
 

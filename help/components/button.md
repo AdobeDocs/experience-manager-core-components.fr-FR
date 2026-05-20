@@ -3,13 +3,17 @@ title: Composant de bouton
 description: Le composant de bouton des composants principaux permet de créer et d’afficher un bouton.
 role: Developer, Admin, User
 exl-id: e17efd1d-90d4-497a-9e7d-45934d81bc28
-source-git-commit: 7ba1374bd64686c2e7ac44398d77fb187ff60949
-workflow-type: ht
-source-wordcount: '545'
+TQID: https://experienceleague.adobe.com/u7y51o7kFmth4WgbZX9wLuhY-hz90LjJ1-0Fr-00iVc
+product_v2: id: c45915cf-e157-4af7-a80d-97b905bcb3a5id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: e2c1b6d3-bb7e-4fe8-8c72-f7b403298e91
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2: id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
+source-git-commit: 73aa5234ac63fa3be99feebce448bb6722513838
+workflow-type: tm+mt
+source-wordcount: 545
 ht-degree: 100%
 
 ---
-
 
 # Composant de bouton{#button-component}
 
@@ -39,11 +43,11 @@ Pour plus d’informations sur les versions et les publications des composants p
 
 ## Exemple de sortie de composant {#sample-component-output}
 
-Pour tester le composant de bouton et obtenir des exemples d’options de configuration, ainsi que des sorties HTML et JSON, consultez la [bibliothèque de composants](https://adobe.com/go/aem_cmp_library_button_fr).
+Pour tester le composant de bouton et obtenir des exemples d’options de configuration, ainsi que des sorties HTML et JSON, consultez la [bibliothèque de composants](https://adobe.com/go/aem_cmp_library_button).
 
 ## Détails techniques {#technical-details}
 
-La documentation technique la plus récente sur le composant de bouton [se trouve sur GitHub](https://adobe.com/go/aem_cmp_tech_button_v2_fr).
+La documentation technique la plus récente sur le composant de bouton [se trouve sur GitHub](https://adobe.com/go/aem_cmp_tech_button_v2).
 
 Vous trouverez plus d’informations sur le développement des composants principaux dans la [documentation relative au développement des composants principaux](/help/developing/overview.md).
 

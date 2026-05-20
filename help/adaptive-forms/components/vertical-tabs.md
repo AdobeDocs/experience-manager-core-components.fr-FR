@@ -3,13 +3,17 @@ title: Composant principal des formulaires adaptatifs – Onglets verticaux
 description: Utilisation ou personnalisation du composant principal Onglets verticaux des formulaires adaptatifs.
 role: Developer, Admin, User
 exl-id: d5cd1c18-6840-4f2f-a767-a69b803e6075
-source-git-commit: 6fc9e1732302f114ad5c9c037ce203af6324edf0
-workflow-type: ht
-source-wordcount: '2214'
+TQID: https://experienceleague.adobe.com/WDH-FeDLxftyNGf06-6aoUoY0NTF1G-M5BqzgXukExk
+product_v2: id: c45915cf-e157-4af7-a80d-97b905bcb3a5id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: e2c1b6d3-bb7e-4fe8-8c72-f7b403298e91
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2: id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
+source-git-commit: 73aa5234ac63fa3be99feebce448bb6722513838
+workflow-type: tm+mt
+source-wordcount: 2214
 ht-degree: 100%
 
 ---
-
 
 # Composant Onglets verticaux{#vertical-tabs-adaptive-forms-core-component}
 
@@ -38,7 +42,7 @@ Les raisons courantes d’utiliser les onglets verticaux dans un formulaire adap
 
 ## Version et compatibilité {#version-and-compatibility}
 
-Le composant principal Onglets verticaux d’un formulaire adaptatif est inclus dans la version 2.0.18. des composants principaux.Vous trouverez ci-dessous un tableau détaillant les versions prises en charge, la compatibilité avec AEM et les liens vers la documentation correspondante :
+Le composant principal Onglets verticaux d’un formulaire adaptatif est inclus dans la version 2.0.18. des composants principaux. Vous trouverez ci-dessous un tableau détaillant les versions prises en charge, la compatibilité avec AEM et les liens vers la documentation correspondante :
 
 |  |  |
 |---|---|
@@ -120,7 +124,7 @@ Le bouton **Ajouter** vous permet de sélectionner un composant à ajouter en ta
 - **Icône** : L’icône identifie le composant du panneau dans la liste. Pointez sur l’icône pour afficher le nom complet du composant sous forme d’info-bulle.
 - **Description** : Description utilisée comme texte du panneau. Par défaut, le nom du composant sélectionné pour le panneau.
 - **Supprimer** : appuyez ou cliquez sur cette option pour supprimer le panneau du composant Onglets verticaux.
-- **Réorganiser** : Appuyez ou cliquez et faites glisser pour réorganiser l’ordre des panneaux.
+- **Réorganiser** : appuyez ou cliquez dessus et faites glisser pour réorganiser l’ordre des panneaux.
 
 ### Onglet Contenu de l’aide {#help-content}
 

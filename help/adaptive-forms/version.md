@@ -3,17 +3,20 @@ title: Versions des composants principaux des formulaires adaptatifs AEM
 description: Les composants principaux d’AEM sont publiés sous forme de versions qui peuvent contenir plusieurs versions des mêmes composants principaux. Ce document explique les versions et les mises à jour ainsi que comment comprendre la compatibilité avec les composants principaux et AEM.
 role: Developer, Admin, User
 exl-id: 8146a5b1-acf6-4b54-ad6b-6e1747a137f6
-source-git-commit: 7ba1374bd64686c2e7ac44398d77fb187ff60949
-workflow-type: ht
-source-wordcount: '213'
+TQID: https://experienceleague.adobe.com/kR6oSgXN8ITcTqmGZyqyhfcpj8IU8l2ueKo6mt37Pic
+product_v2: id: c45915cf-e157-4af7-a80d-97b905bcb3a5id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: e2c1b6d3-bb7e-4fe8-8c72-f7b403298e91
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+source-git-commit: 73aa5234ac63fa3be99feebce448bb6722513838
+workflow-type: tm+mt
+source-wordcount: 213
 ht-degree: 100%
 
 ---
 
-
 # Versions des composants principaux des formulaires adaptatifs {#core-components-versions}
 
-Identifiez les versions précises des dépendances des composants principaux de formulaires et WCM.De plus, familiarisez-vous avec les fonctionnalités et composants activés dans chaque version des composants principaux des formulaires adaptatifs.
+Identifiez les versions précises des dépendances des composants principaux de formulaires et WCM. De plus, familiarisez-vous avec les fonctionnalités et composants activés dans chaque version des composants principaux des formulaires adaptatifs.
 
 ## Historique des versions d’AEM Forms as Cloud Service {#aem-as-cs-version-history}
 
