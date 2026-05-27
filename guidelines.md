@@ -65,7 +65,7 @@ Souvenez-vous que les lecteurs de la documentation d’AEM sont internationaux e
 
 #### Suivre le manuel de style de Microsoft
 
-Le [ Manuel de style de Microsoft ](https://docs.microsoft.com/en-us/style-guide/welcome/) est un guide de style de documentation disponible gratuitement qui se concentre sur la documentation logicielle et la documentation AEM suit ce guide dans la mesure du possible.
+Le [&#x200B; Manuel de style de Microsoft &#x200B;](https://docs.microsoft.com/en-us/style-guide/welcome/) est un guide de style de documentation disponible gratuitement qui se concentre sur la documentation logicielle et la documentation AEM suit ce guide dans la mesure du possible.
 
 ### Mise en forme
 
@@ -87,6 +87,6 @@ Dans la mesure du possible, évitez toute référence directe à une version sp�
 
 ### Utilisation de Day, AEM, CQ, CRX
 
-Le produit doit toujours être désigné par son nom complet **** pour la première fois dans un article et peut ensuite être appelé **AEM**.
+Le produit doit toujours être désigné par son nom complet **&#x200B;**&#x200B;pour la première fois dans un article et peut ensuite être appelé **AEM**.
 
 Day, Day Software, CQ et CRX ne doivent pas être utilisés, sauf lorsqu’ils sont inévitables, comme dans les noms de classe ou en référence à l’historique d’AEM.
