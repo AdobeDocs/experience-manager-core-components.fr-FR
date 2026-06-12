@@ -4,17 +4,10 @@ description: Réussir la mise en œuvre de votre projet avec les composants prin
 role: Developer, Admin, User
 exl-id: 1ea8cd1c-8435-4ded-82dc-5a7896c53e0c
 TQID: https://experienceleague.adobe.com/hV-KF86ktxXulypPRnkb6RwOrVXnXP2W1utXzgpG0CI
-product_v2:
-  - id: c45915cf-e157-4af7-a80d-97b905bcb3a5
-  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
-feature_v2:
-  - id: e2c1b6d3-bb7e-4fe8-8c72-f7b403298e91
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-topic_v2:
-  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+product_v2: id: c45915cf-e157-4af7-a80d-97b905bcb3a5id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: e2c1b6d3-bb7e-4fe8-8c72-f7b403298e91
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2: id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
 source-git-commit: 73aa5234ac63fa3be99feebce448bb6722513838
 workflow-type: tm+mt
 source-wordcount: 592
@@ -52,7 +45,7 @@ Consultez la [bibliothèque de composants](https://adobe.com/go/aem_cmp_library_
 
 ### Utilisez le kit d’interface utilisateur pour Adobe XD {#ui-kit}
 
-Dès qu’un composant personnalisé s’avère nécessaire, utilisez le kit d’interface utilisateur pour Adobe XD, [qui peut être téléchargé ici](https://experienceleague.adobe.com/docs/experience-manager-learn/assets/AEM-CoreComponents-UI-Kit.xd?lang=fr), afin que les concepteurs et les conceptrices puissent commencer à créer les maquettes et les conceptions en se servant des composants principaux comme blocs de création.
+Dès qu’un composant personnalisé s’avère nécessaire, utilisez le kit d’interface utilisateur pour Adobe XD, [qui peut être téléchargé ici](https://experienceleague.adobe.com/docs/experience-manager-learn/assets/AEM-CoreComponents-UI-Kit.xd), afin que les concepteurs et les conceptrices puissent commencer à créer les maquettes et les conceptions en se servant des composants principaux comme blocs de création.
 
 ## Ne passez pas à côté de leurs puissantes fonctionnalités {#powerful-features}
 

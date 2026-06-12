@@ -4,28 +4,21 @@ description: Utilisation ou personnalisation du composant principal Onglets vert
 role: Developer, Admin, User
 exl-id: d5cd1c18-6840-4f2f-a767-a69b803e6075
 TQID: https://experienceleague.adobe.com/WDH-FeDLxftyNGf06-6aoUoY0NTF1G-M5BqzgXukExk
-product_v2:
-  - id: c45915cf-e157-4af7-a80d-97b905bcb3a5
-  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
-feature_v2:
-  - id: e2c1b6d3-bb7e-4fe8-8c72-f7b403298e91
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-topic_v2:
-  - id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
+product_v2: id: c45915cf-e157-4af7-a80d-97b905bcb3a5id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: e2c1b6d3-bb7e-4fe8-8c72-f7b403298e91
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2: id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
 source-git-commit: 73aa5234ac63fa3be99feebce448bb6722513838
 workflow-type: tm+mt
-source-wordcount: 2214
-ht-degree: 100%
+source-wordcount: 2130
+ht-degree: 98%
 
 ---
 
 # Composant Onglets verticaux{#vertical-tabs-adaptive-forms-core-component}
 
-Les onglets verticaux d’un formulaire adaptatif font référence à un modèle de conception dans lequel plusieurs sections d’un formulaire sont regroupées et affichées sous la forme d’onglets distincts, alignés verticalement. L’utilisateur ou l’utilisatrice peut basculer entre les onglets pour accéder aux différentes sections du formulaire. Chaque onglet sert de déclencheur pour afficher et masquer le contenu du formulaire associé. Les onglets verticaux permettent d’organiser les formulaires longs en sections gérables et d’améliorer l’expérience client. Les onglets peuvent vous aider à rendre un formulaire plus accessible aux personnes présentant un handicap, car elles peuvent permuter entre les sections à l’aide de la navigation à l’aide du clavier.
-Lorsqu’un utilisateur ou une utilisatrice clique sur un onglet, le contenu du formulaire est mis à jour de manière dynamique afin d’afficher la section correspondante.
+Les onglets verticaux d’un formulaire adaptatif font référence à un modèle de conception dans lequel plusieurs sections d’un formulaire sont regroupées et affichées sous la forme d’onglets distincts, alignés verticalement. L’utilisateur peut basculer entre les onglets pour accéder aux différentes sections du formulaire. Chaque onglet sert de déclencheur pour afficher et masquer le contenu du formulaire associé. Les onglets verticaux permettent d’organiser les formulaires longs en sections gérables et d’améliorer l’expérience utilisateur. Les onglets peuvent vous aider à rendre un formulaire plus accessible aux personnes présentant un handicap, car elles peuvent basculer entre les sections à l’aide de la navigation à l’aide du clavier.
+Lorsqu’un utilisateur clique sur un onglet, le contenu du formulaire est mis à jour de manière dynamique afin d’afficher la section correspondante.
 
 >[!NOTE]
 >
