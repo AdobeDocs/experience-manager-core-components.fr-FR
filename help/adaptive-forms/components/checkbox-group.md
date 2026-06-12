@@ -17,8 +17,8 @@ topic_v2:
   - id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
 source-git-commit: 73aa5234ac63fa3be99feebce448bb6722513838
 workflow-type: tm+mt
-source-wordcount: 2316
-ht-degree: 100%
+source-wordcount: 2302
+ht-degree: 99%
 
 ---
 
@@ -114,7 +114,7 @@ Vous pouvez facilement personnaliser l’expérience des cases à cocher pour le
 
   ![Prise en charge du texte enrichi pour les options](/help/adaptive-forms/assets/richtext-for-options.png)
 
-  Une fois que vous avez coché la case **Autoriser le texte enrichi pour les options**, les options de formatage deviennent visibles pour appliquer un style aux options du composant. Pour accéder à toutes les options de formatage disponibles, vous pouvez cliquer sur l’onglet `Fullscreen` ![Fullscreen icon](/help/adaptive-forms/assets/fullscreen-icon.png).
+  Une fois que vous avez coché la case **Autoriser le texte enrichi pour les options** les options de mise en forme deviennent visibles pour mettre en forme les options du composant. Pour accéder à toutes les options de formatage disponibles, vous pouvez cliquer sur l’onglet `Fullscreen` ![Icône Plein écran](/help/adaptive-forms/assets/fullscreen-icon.png).
   ![Prise en charge du texte enrichi pour les options](/help/adaptive-forms/assets/richtextoptions-support.png)
 
 - **Référence Bind** - Une référence Bind est une référence à un élément de données stockée dans une source de données externe et utilisée dans un formulaire. La référence de liaison vous permet de lier dynamiquement les données aux champs du formulaire, de sorte que le formulaire puisse afficher les données les plus récentes de la source de données. Par exemple, une référence de liaison peut être utilisée pour afficher le nom et l’adresse d’un client ou d’une cliente dans un formulaire, en fonction de l’identifiant du client ou de la cliente saisi dans le formulaire. La référence de liaison peut également être utilisée pour mettre à jour la source de données avec les données saisies dans le formulaire. Ainsi, AEM Forms vous permet de créer des formulaires qui interagissent avec des sources de données externes, offrant ainsi une expérience utilisateur fluide pour la collecte et la gestion des données.

@@ -4,7 +4,7 @@ description: Découvrez comment configurer des politiques pour les modèles afin
 hide: true
 exl-id: e4500666-1346-4558-861d-da9541dcef51
 source-git-commit: 59064c359aea14af99675709bbddf9a933a959df
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '861'
 ht-degree: 100%
 
@@ -14,7 +14,7 @@ ht-degree: 100%
 
 ## Vue d’ensemble
 
-Dans Adobe Experience Manager (Adobe Experience Manager) Forms, les formats de validation spécifiques (tels que les numéros de sécurité sociale, les adresses e-mail ou les codes postaux) pour les composants Entrée de texte sont contrôlés au niveau de la politique du modèle.Ce guide décrit les actions suivantes :
+Dans Adobe Experience Manager (Adobe Experience Manager) Forms, les formats de validation spécifiques (tels que les numéros de sécurité sociale, les adresses e-mail ou les codes postaux) pour les composants Entrée de texte sont contrôlés au niveau de la politique du modèle. Ce guide décrit les actions suivantes :
 
 1. Accéder à l’éditeur de modèles et configurer la politique du composant Entrée de texte pour afficher les modèles de validation
 2. Créer un formulaire adaptatif et appliquer ces modèles de validation à un composant Entrée de texte
@@ -73,7 +73,7 @@ Maintenant que les modèles de validation sont activés dans le modèle, vous po
 3. Sélectionnez **Formulaire adaptatif** dans les options de liste déroulante.
 4. Choisissez le modèle dans lequel vous avez activé les modèles de validation (par exemple, **Vide**) et cliquez sur **Suivant**.
 5. Sur l’écran Ajouter des propriétés :
-   - Indiquez un **Titre** pour votre formulaire (Politique_test, par exemple)Le champ **Nom** est automatiquement renseigné en fonction du champ Titre.
+   - Indiquez un **Titre** pour votre formulaire (Politique_test, par exemple) Le champ **Nom** est automatiquement renseigné en fonction du champ Titre.
    - Assurez-vous que la **bibliothèque cliente de thème** appropriée est sélectionnée (par exemple, `adaptiveform.theme.canvas3`).
 6. Cliquez sur **Créer**. Un message de réussite s’affiche.
 7. Cliquez sur **Modifier** pour ouvrir le formulaire dans l’éditeur.
@@ -81,7 +81,7 @@ Maintenant que les modèles de validation sont activés dans le modèle, vous po
 ### Étape 2 : ajouter un composant Entrée de texte
 
 1. Dans l’éditeur de formulaire, recherchez le navigateur **Composants** dans la barre latérale gauche.
-2. Utilisez la barre de recherche pour rechercher le composant **Zone de texte de formulaire adaptatif**.La saisie du terme « texte » permet de filtrer la liste.
+2. Utilisez la barre de recherche pour rechercher le composant **Zone de texte de formulaire adaptatif**. La saisie du terme « texte » permet de filtrer la liste.
 3. Cliquez sur le composant **Zone de texte de formulaire adaptatif** et faites-le glisser sur la zone de travail principale.
 
 ### Étape 3 : configurer la mise en forme des composants
@@ -96,7 +96,7 @@ Maintenant que les modèles de validation sont activés dans le modèle, vous po
 1. Toujours dans la boîte de dialogue de configuration du composant, accédez à l’onglet **Validation**.
 2. Recherchez la section **Modèle de validation**.
 3. Cliquez sur le menu déroulant **Type**.
-4. Sélectionnez **Numéro de téléphone** dans la liste des modèles de validation.Cela garantit que le formulaire génère une erreur si l’utilisateur ou l’utilisatrice saisit du texte qui ne correspond pas à un format de numéro de téléphone valide.
+4. Sélectionnez **Numéro de téléphone** dans la liste des modèles de validation. Cela garantit que le formulaire génère une erreur si l’utilisateur ou l’utilisatrice saisit du texte qui ne correspond pas à un format de numéro de téléphone valide.
 5. Dans le coin supérieur droit de la boîte de dialogue, cliquez sur **Terminé** (icône de coche) pour enregistrer les modifications.
 
 ## Vérification

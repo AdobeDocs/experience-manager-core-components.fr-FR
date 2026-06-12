@@ -18,8 +18,8 @@ topic_v2:
   - id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
 source-git-commit: 73aa5234ac63fa3be99feebce448bb6722513838
 workflow-type: tm+mt
-source-wordcount: 2246
-ht-degree: 100%
+source-wordcount: 2211
+ht-degree: 98%
 
 ---
 
@@ -31,8 +31,8 @@ Chaque étape de l’assistant contient généralement un groupe de champs de fo
 
 La disposition « Assistant » s’avère utile pour les formulaires contenant de nombreux champs ou informations à collecter, dans la mesure où elle répartit le formulaire en blocs plus petits et plus faciles à gérer. Elle permet également aux utilisateurs et aux utilisatrices de se concentrer sur un ensemble de champs à la fois, ce qui peut rendre le processus de remplissage de formulaire moins contraignant.
 
-Cependant, cela peut également accroître la complexité du formulaire, car l’utilisateur ou l’utilisatrice doit parcourir plusieurs pages pour remplir le formulaire. Il est donc nécessaire d’évaluer les exigences du formulaire et les besoins de l’utilisateur ou de l’utilisatrice avant de décider d’utiliser la disposition « Assistant ».
-Vous pouvez utiliser le composant principal de disposition Assistant dans un formulaire adaptatif pour créer une disposition Assistant.
+Cependant, cela peut également augmenter la complexité du formulaire, car l’utilisateur ou l’utilisatrice doit parcourir plusieurs pages pour remplir le formulaire. Il est donc nécessaire d’évaluer les exigences du formulaire et les besoins de l’utilisateur ou de l’utilisatrice avant de décider d’utiliser une disposition d’assistant.
+Vous pouvez utiliser le composant principal de disposition « Assistant » dans un formulaire adaptatif pour créer une disposition « Assistant ».
 
 {{traditional-aem}}
 

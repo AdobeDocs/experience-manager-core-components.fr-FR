@@ -17,8 +17,8 @@ topic_v2:
   - id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
 source-git-commit: 73aa5234ac63fa3be99feebce448bb6722513838
 workflow-type: tm+mt
-source-wordcount: 2349
-ht-degree: 100%
+source-wordcount: 2334
+ht-degree: 99%
 
 ---
 
@@ -103,7 +103,7 @@ Vous pouvez facilement personnaliser l’expérience du bouton radio pour les vi
    - **Valeur des données** - Cette option permet de saisir le contenu à envoyer lorsqu’une option est sélectionnée.
    - **Texte d’affichage** - Cette option permet de saisir le contenu à afficher dans un formulaire adaptatif.
    - **Supprimer** - Appuyez ou cliquez sur supprimer pour supprimer l’option d’un bouton radio.
-   - **Réorganiser** - Appuyez ou cliquez et faites glisser pour réorganiser l’ordre des options.
+   - **Réorganiser** - Appuyez ou cliquez et faites glisser pour réorganiser l’ordre des options.
 Vous pouvez également mettre en forme les options du groupe de boutons radio à l’aide de **Autoriser le texte enrichi pour les options**.
 
   ![Prise en charge du texte enrichi pour les options](/help/adaptive-forms/assets/richtext-for-options.png)
