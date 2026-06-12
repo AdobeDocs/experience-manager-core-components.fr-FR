@@ -119,7 +119,7 @@ La version actuelle d’AEM Forms comporte les composants principaux suivants 
 | Procédure pas à pas numérique | ✔️ | | | |
 | Panneau | ✔️ | <span style="color:blue">[✔️](/help/adaptive-forms/components/panel.md)</span> | ✔️ | |
 | Téléphone | ✔️ | <span style="color:blue">[✔️](/help/adaptive-forms/components/phone.md)</span> | ✔️ | |
-| Bouton Précédent | ✔️ | ✔️ | | Utilisez le [composant « Assistant »](/help/adaptive-forms/components/wizard.md) pour les boutons suivant et précédent afin de basculer entre plusieurs panneaux. |
+| Bouton Précédent | ✔️ | ✔️ | | Utilisez le [composant d’assistant](/help/adaptive-forms/components/wizard.md) pour les boutons Suivant et Précédent afin de basculer entre plusieurs panneaux. |
 | Groupe de cases d’option | ✔️ | <span style="color:blue">[✔️](/help/adaptive-forms/components/radio-button.md)</span> | ✔️ | |
 | Bouton de réinitialisation | ✔️ | <span style="color:blue">[✔️](/help/adaptive-forms/components/reset-button.md)</span> | ✔️ | |
 | Révision |  | <span style="color:blue">[✔️](/help/adaptive-forms/components/reset-button.md)</span> |  | |

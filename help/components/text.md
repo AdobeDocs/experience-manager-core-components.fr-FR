@@ -15,8 +15,8 @@ role_v2:
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
 source-git-commit: 73aa5234ac63fa3be99feebce448bb6722513838
 workflow-type: tm+mt
-source-wordcount: 2265
-ht-degree: 100%
+source-wordcount: 2206
+ht-degree: 99%
 
 ---
 
@@ -161,9 +161,9 @@ Utilisez cette option pour rechercher le texte d’occurrence d’une chaîne de
 
 ![Exemple de recherche](/help/assets/text-find-example.png)
 
-Entrez le texte pour lequel vous souhaitez effectuer des recherches et appuyez ou cliquez sur **Rechercher** pour lancer la recherche. Appuyez ou cliquez sur le x pour annuler.
-Si vous souhaitez effectuer une correspondance exacte, sélectionnez l’option **Respecter la casse** avant de lancer la recherche.
-Si une correspondance est trouvée, elle est mise en surbrillance et le dialogue de recherche est grisé. Appuyez ou cliquez à nouveau sur le bouton **Rechercher** dans la boîte de dialogue grisée pour rechercher l’occurrence suivante.
+Saisissez le texte à rechercher et appuyez ou cliquez sur **Rechercher** pour lancer la recherche. Appuyez ou cliquez sur x pour annuler.
+Si vous souhaitez effectuer une correspondance exacte en fonction de la casse, sélectionnez l’option **Correspondre à la casse** avant de lancer la recherche.
+Si une correspondance est trouvée, elle est mise en surbrillance et la boîte de dialogue de recherche est grisée. Appuyez ou cliquez de nouveau sur le bouton **Rechercher** dans la boîte de dialogue grisée pour rechercher l’occurrence suivante.
 
 ![Exemple de recherche fructueuse](/help/assets/text-find-example-found.png)
 

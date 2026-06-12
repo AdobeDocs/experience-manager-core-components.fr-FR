@@ -18,8 +18,8 @@ topic_v2:
   - id: d3cdead0-685a-4489-9250-4bb709942f66
 source-git-commit: 73aa5234ac63fa3be99feebce448bb6722513838
 workflow-type: tm+mt
-source-wordcount: 1637
-ht-degree: 100%
+source-wordcount: 1529
+ht-degree: 99%
 
 ---
 
@@ -85,9 +85,9 @@ Vous pouvez facilement personnaliser votre expérience de conteneur de formulair
 
 - **Rôle** : le rôle est un attribut HTML utilisé pour spécifier l’objectif d’un élément HTML pour les technologies d’assistance telles que les lecteurs d’écran. L’attribut rôle est utilisé pour fournir un contexte et une signification sémantique supplémentaires à un élément, ce qui facilite l’interprétation et l’annonce du contenu à l’utilisateur ou à l’utilisatrice par les lecteurs d’écran. Par exemple, dans AEM Forms, le libellé d’un champ de formulaire peut avoir le rôle « libellé » et son champ de saisie peut avoir le rôle « zone de texte ». Cela permet au lecteur d’écran de comprendre la relation entre le libellé et le champ de saisie, et de les annoncer correctement à l’utilisateur ou à l’utilisatrice.
 
-- **Catégorie de bibliothèque cliente** : l’utilisateur ou l’utilisatrice peut configurer une bibliothèque JavaScript personnalisée par formulaire adaptatif. Il est recommandé de ne conserver que les fonctions réutilisables de la bibliothèque, qui dépendent des bibliothèques tierces jquery et underscore.js.
-Parfois, en cas de **règles de validation complexes**, le script de validation exact réside dans des fonctions personnalisées que l’utilisateur ou l’utilisatrice doit appeler à partir de l’expression du champ de validation. Pour rendre cette bibliothèque de fonctions personnalisées visible et disponible lors des validations côté serveur, l’utilisateur ou l’utilisatrice de formulaires peut configurer le nom de la bibliothèque cliente AEM sous l’onglet **[!UICONTROL Réglages de base]** des propriétés du conteneur de formulaires adaptatifs.
-L’utilisateur ou l’utilisatrice peut configurer la bibliothèque personnalisée JavaScript pour chaque formulaire adaptatif. Dans la bibliothèque, conservez uniquement les fonctions réutilisables ayant une dépendance sur les bibliothèques tierces jquery et underscore.js.
+- **Catégorie de bibliothèque cliente** - L’utilisateur peut configurer une bibliothèque JavaScript personnalisée par formulaire adaptatif. Il est recommandé de ne conserver que les fonctions réutilisables de la bibliothèque, qui dépendent des bibliothèques tierces jquery et underscore.js.
+Parfois, en cas de **règles de validation complexes**, le script de validation exact réside dans des fonctions personnalisées que les utilisateurs appellent à partir de l’expression du champ de validation. Pour rendre cette bibliothèque de fonctions personnalisées visible et disponible lors des validations côté serveur, l’utilisateur du formulaire peut configurer le nom de la bibliothèque cliente AEM sous l’onglet **[!UICONTROL De base]** des propriétés du conteneur de formulaires adaptatifs.
+L’utilisateur peut configurer la bibliothèque JavaScript personnalisée par formulaire adaptatif. Dans la bibliothèque, conservez uniquement les fonctions réutilisables ayant une dépendance sur les bibliothèques tierces jquery et underscore.js.
 
 <!--
 - **Enable the hamburger menu for mobile view** - Select the checkbox to integrate a hamburger menu into your form for mobile view. Represented by three horizontal lines stacked vertically, this menu provides a clear and uncluttered display for panels on smaller devices, especially on mobile devices. For more information about the hamburger menu, refer to the [Learn more about the hamburger menu](#learn-more-about-the-hamburger-menu) section. 

@@ -262,7 +262,7 @@ La boîte de dialogue de modification propose les outils standard de mise en for
 
   ![](/help/assets/chlimage_1-79.png)
 
-   * **Colonnes** : Nombre de colonnes du tableau (obligatoire).
+   * **Colonnes** - Nombre de colonnes du tableau (obligatoire).
    * **Lignes** : Nombre de lignes du tableau (obligatoire).
    * **Largeur** : Largeur totale du tableau.
    * **Hauteur** : Hauteur totale du tableau.

@@ -16,7 +16,7 @@ role_v2:
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
   - id: ce44533e-8ec8-4e11-a9e9-78b0fe561832
-source-git-commit: 73aa5234ac63fa3be99feebce448bb6722513838
+source-git-commit: a7423900fd8302f5b5e59bad28bb727978c35288
 workflow-type: tm+mt
 source-wordcount: 1146
 ht-degree: 100%
@@ -126,7 +126,7 @@ L’application d’un style avancé requiert parfois une structure de balisage 
 
 Vous pouvez facilement obtenir cette structure en copiant les fichiers HTL qui doivent être modifiés du composant principal vers le [composant proxy](guidelines.md#proxy-component-pattern).
 
-En reprenant l’exemple du composant principal de chemin de navigation, pour personnaliser sa sortie de balisage, le fichier `breadcrumb.html` doit être copié dans le composant spécifique au site qui possède un `sling:resourceSuperTypes` pointant vers le composant principal de chemin de navigation.
+En reprenant l’exemple du composant principal de chemin de navigation, pour personnaliser sa sortie de balisage, le fichier `breadcrumb.html` doit être copié dans le composant spécifique au site qui possède un `sling:resourceSuperType` pointant vers le composant principal de chemin de navigation.
 
 ### Style des composants {#styling-the-components}
 
