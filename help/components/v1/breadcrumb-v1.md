@@ -14,8 +14,8 @@ role_v2:
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
 source-git-commit: 73aa5234ac63fa3be99feebce448bb6722513838
 workflow-type: tm+mt
-source-wordcount: 559
-ht-degree: 100%
+source-wordcount: 544
+ht-degree: 98%
 
 ---
 
@@ -42,8 +42,8 @@ Le tableau ci-après répertorie la compatibilité de la version v1 du composant
 
 >[!CAUTION]
 >
->Ce document décrit la version v1 du composant de chemin de navigation.
->Pour plus d’informations sur la version actuelle du composant Chemin de navigation, voir le document [Composant Chemin de navigation](/help/components/breadcrumb.md).
+>Ce document décrit la version v1 du composant Chemin de navigation.
+>Pour plus d’informations sur la version actuelle du composant Chemin de navigation, consultez le document [Composant Chemin de navigation](/help/components/breadcrumb.md).
 
 ## Exemple de sortie de composant {#sample-component-output}
 

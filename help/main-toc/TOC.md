@@ -6,7 +6,7 @@ feature: Core Components
 user-guide-description: Pour les projets AEM traditionnels, utilisez les composants principaux extensibles pour permettre aux créateurs et créatrices de créer facilement du contenu.
 feature-set: Experience Manager Sites, Experience Manager Forms
 source-git-commit: ece6b7092a19c98c836d58f3f4d5ff15a0276b1c
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '428'
 ht-degree: 100%
 
