@@ -19,5 +19,5 @@ Vos contributions à la documentation sont les bienvenues. Consultez les ressour
 
 ## Référentiel de composants principaux
 
-Les [composants principaux ](https://github.com/adobe/aem-core-wcm-components) eux-mêmes sont conservés en tant que projet dans un référentiel distinct. Consultez ce projet si vous avez besoin de documentation technique/destinée aux développeurs sur les composants, si vous souhaitez contribuer aux composants eux-mêmes ou si vous devez signaler un problème lié aux fonctionnalités ou caractéristiques des composants principaux.
+Les [composants principaux &#x200B;](https://github.com/adobe/aem-core-wcm-components) eux-mêmes sont conservés en tant que projet dans un référentiel distinct. Consultez ce projet si vous avez besoin de documentation technique/destinée aux développeurs sur les composants, si vous souhaitez contribuer aux composants eux-mêmes ou si vous devez signaler un problème lié aux fonctionnalités ou caractéristiques des composants principaux.
 
