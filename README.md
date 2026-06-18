@@ -1,5 +1,5 @@
 ---
-source-git-commit: d1ab5eb1b3de07ccdf095b03f7c2e760dfc3d413
+source-git-commit: 78c755d553fdb424fee36bcb2a2c52627c51eaad
 workflow-type: tm+mt
 source-wordcount: '156'
 ht-degree: 4%
@@ -20,3 +20,4 @@ Vos contributions à la documentation sont les bienvenues. Consultez les ressour
 ## Référentiel de composants principaux
 
 Les [composants principaux &#x200B;](https://github.com/adobe/aem-core-wcm-components) eux-mêmes sont conservés en tant que projet dans un référentiel distinct. Consultez ce projet si vous avez besoin de documentation technique/destinée aux développeurs sur les composants, si vous souhaitez contribuer aux composants eux-mêmes ou si vous devez signaler un problème lié aux fonctionnalités ou caractéristiques des composants principaux.
+
