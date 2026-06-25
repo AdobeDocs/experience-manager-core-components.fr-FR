@@ -4,22 +4,17 @@ description: Les composants principaux prennent en charge les pages mobiles acc�
 role: Developer, Admin
 exl-id: 1fd9b6b5-0e4d-48c7-8faa-42e0d4a6bbd0
 TQID: https://experienceleague.adobe.com/5v1tXLzHNRvAxy6-aJipN-ZYzsPJ1xFNc1hKmz73wic
-product_v2:
-  - id: c45915cf-e157-4af7-a80d-97b905bcb3a5
-  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
-feature_v2:
-  - id: e2c1b6d3-bb7e-4fe8-8c72-f7b403298e91
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-topic_v2:
-  - id: c18d9e03-ac7d-4811-9c92-3e92ddc70ade
-source-git-commit: 73aa5234ac63fa3be99feebce448bb6722513838
+product_v2: id: c45915cf-e157-4af7-a80d-97b905bcb3a5id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: e2c1b6d3-bb7e-4fe8-8c72-f7b403298e91
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2: id: c18d9e03-ac7d-4811-9c92-3e92ddc70ade
+source-git-commit: 59ca85e0f0b99ba46bb2b85f383f1fefd2b1c5fd
 workflow-type: tm+mt
-source-wordcount: 578
-ht-degree: 100%
+source-wordcount: 680
+ht-degree: 76%
 
 ---
+
 
 # Prise en charge d’AMP par les composants principaux {#amp-support}
 
@@ -43,10 +38,12 @@ Les projets individuels peuvent décider de tirer ou non parti d’AMP. En fait,
 
 La prise en charge AMP offre avec une grande flexibilité et quelques étapes simples suffisent pour une prise en main rapide :
 
-1. Installez l’extension de prise en charge AMP si nécessaire.
-   * Pour les projets AEM as a Cloud Service, l’extension est disponible automatiquement avec les composants principaux et aucune installation n’est nécessaire.
-   * Pour les projets On-Premise et AMS, l’extension doit être installée explicitement lors de l’installation des composants principaux.
-1. Une fois l’extension AMP installée, l’auteur du composant doit simplement pointer les supertypes de composant vers ceux de l’extension.
+1. [Installation des composants principaux](/help/get-started/using.md#download-and-install)
+   * Pour les projets AEM as a Cloud Service, les composants principaux sont disponibles par défaut et aucune installation supplémentaire n’est nécessaire.
+   * Pour les projets On-Premise et AMS, vous pouvez [télécharger le dernier package de contenu pour les composants principaux à partir de GitHub](https://github.com/adobe/aem-core-wcm-components/releases/latest) et l’installer dans vos environnements AEM.
+   * Si votre projet On-Premise ou AMS utilise une version de composants principaux antérieure à la version 2.14.0, vous devez également installer l’extension AMP disponible dans le cadre de la version sur GitHub.
+1. Pointez les `resourceSuperType` de votre composant sur `core/wcm/extensions/amp/components/page/v1/page`.
+   * Si vous avez utilisé [l’archétype de projet AEM](/help/developing/archetype/using.md) pour votre projet en tant que bonne pratique recommandée et que vous avez choisi [l’option permettant d’activer la prise en charge d’AMP](https://github.com/adobe/aem-project-archetype/tree/develop) cela a été fait pour vous automatiquement.
 1. [Activez la prise en charge AMP](#enabling-amp) au niveau du modèle ou sur vos pages individuelles.
 1. [Déployez une page CSS intégrée](#css-requirements) selon les besoins.
 
@@ -68,6 +65,8 @@ Les paramètres AMP d’une page peuvent également être remplacés dans les [P
 * **Aucun AMP** : la page est diffusée en HTML standard uniquement.
 * **AMP couplé** : la page est diffusée au format AMP ainsi qu’au format HTML.
 * **AMP uniquement** : la page est diffusée uniquement au format AMP.
+
+Ces options n’apparaissent dans l’interface utilisateur que si le `resourceSuperType` est correctement défini pour la prise en charge d’AMP. L’exemple de contenu WKND par défaut n’a pas la `resourceSuperType` définie et les options d’AMP ne sont donc pas visibles dans l’interface utilisateur.
 
 ### Exigences CSS {#css-requirements}
 
