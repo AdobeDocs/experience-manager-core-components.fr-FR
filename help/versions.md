@@ -21,9 +21,9 @@ topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
   - id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
-source-git-commit: 44091110a4cb18c6c35a22ee5ac9a9863ac8ae00
+source-git-commit: 4ce657455437b1a274246f9f81b0f4f85d6292ff
 workflow-type: tm+mt
-source-wordcount: 3937
+source-wordcount: 3972
 ht-degree: 98%
 
 ---
@@ -44,6 +44,7 @@ Le tableau suivant, dont le contenu est [disponible sur GitHub avec les détails
 
 | Mise à jour | Description | AEM 6.4 | AEM 6.5 | AEM 6.5 LTS | AEM as a Cloud Service | Java | Date de publication |
 |---|---|---|---|---|---|---|---|
+| [2.31.2](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.31.2) | Cette version corrige les bugs en raison desquels certaines informations n’étaient pas conservées correctement. | - | 6.5.21.0+ | 6.5 LTS (disponibilité générale) | En continu | 8, 11, 17, 21 | 22 Juin 2026 |
 | [2.31.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.31.0) | Cette version a introduit la prise en charge des données JSON-ID pour le composant Page ainsi qu’une amélioration des performances de plusieurs autres composants en plus de nombreux correctifs. | - | 6.5.21.0+ | 6.5 LTS (disponibilité générale) | En continu | 8, 11, 17, 21 | 19 Mai 2026 |
 | [2.30.4](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.30.4) | Cette version corrige le problème de validation du chemin d’accès. | - | 6.5.21.0+ | 6.5 LTS (disponibilité générale) | En continu | 8, 11, 17, 21 | 30 janvier 2026 |
 | [2.30.3](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.30.3) | Cette version corrige une régression dans la boîte de dialogue Politique du composant Titre. | - | 6.5.21.0+ | 6.5 LTS (disponibilité générale) | En continu | 8, 11, 17, 21 | 5 Décembre 2025 |
