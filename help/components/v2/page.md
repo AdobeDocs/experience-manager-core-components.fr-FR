@@ -18,10 +18,10 @@ role_v2:
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
 topic_v2:
   - id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
-source-git-commit: 73aa5234ac63fa3be99feebce448bb6722513838
+source-git-commit: 2a9a69dd7eeade8cdc2f681a354350c4370d5d1b
 workflow-type: tm+mt
-source-wordcount: 662
-ht-degree: 100%
+source-wordcount: 753
+ht-degree: 90%
 
 ---
 
@@ -58,6 +58,12 @@ Vous trouverez plus d’informations sur le développement des composants princi
 ## Boîte de dialogue de modification {#edit-dialog}
 
 Étant donné que le composant représente la page entière, les paramètres qui seraient normalement dans une boîte de dialogue de modification se trouvent dans la fenêtre [Propriétés de la page](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/fundamentals/page-properties.html?lang=fr).
+
+### Prise en charge des données structurées {#structured-data}
+
+La [version 2.31.0](/help/versions.md) des composants principaux a introduit la prise en charge des données structurées au niveau de la page (JSON-LD) des types [schema.org](https://schema.org) dans toutes les versions du composant de page.  AEM effectue le rendu de ces blocs côté serveur dans l’en-tête de la page.
+
+La version [2026.6.0 d’AEM as a Cloud Service](https://experienceleague.adobe.com/fr/docs/experience-manager-release-information/aem-release-updates/update-releases-roadmap) permet désormais aux auteurs d’utiliser la fenêtre Propriétés de la page pour ajouter un ou plusieurs blocs JSON-LD à une page dans la section **SEO** de l’onglet **Avancé**.
 
 ## Boîte de dialogue de conception {#design-dialog}
 
