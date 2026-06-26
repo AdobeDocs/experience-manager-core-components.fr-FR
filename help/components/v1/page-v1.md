@@ -696,7 +696,7 @@ Voici un exemple extrait de [We.Retail](https://helpx.adobe.com/fr/experience-ma
 
 ## Boîte de dialogue de modification {#edit-dialog}
 
-Étant donné que le composant représente la page entière, les paramètres qui seraient normalement dans une boîte de dialogue de modification se trouvent dans la fenêtre [Propriétés de la page](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/sites/authoring/authoring/editing-page-properties).
+Étant donné que le composant représente la page entière, les paramètres qui seraient normalement dans une boîte de dialogue de modification se trouvent dans la fenêtre [Propriétés de la page](https://experienceleague.adobe.com/fr/docs/experience-manager-65/content/sites/authoring/authoring/editing-page-properties).
 
 ### Prise en charge des données structurées {#structured-data}
 
