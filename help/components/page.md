@@ -4,23 +4,15 @@ description: Le composant Page est un composant de page extensible, conçu pour 
 role: Developer, Admin, User
 exl-id: 2503e067-abed-427d-8a54-8b79e3451487
 TQID: https://experienceleague.adobe.com/d70sxBsyVP2Qh-O3cOkZv6Wj-3ZiqpRYVnAYD6zNl3A
-product_v2:
-  - id: c45915cf-e157-4af7-a80d-97b905bcb3a5
-  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
-feature_v2:
-  - id: e2c1b6d3-bb7e-4fe8-8c72-f7b403298e91
-subfeature_v2:
-  - id: f86a5563-8f73-4ec0-be7d-a1782604870a
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-topic_v2:
-  - id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
-source-git-commit: 73aa5234ac63fa3be99feebce448bb6722513838
+product_v2: id: c45915cf-e157-4af7-a80d-97b905bcb3a5id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: e2c1b6d3-bb7e-4fe8-8c72-f7b403298e91
+subfeature_v2: id: f86a5563-8f73-4ec0-be7d-a1782604870a
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2: id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
+source-git-commit: 2a9a69dd7eeade8cdc2f681a354350c4370d5d1b
 workflow-type: tm+mt
-source-wordcount: 739
-ht-degree: 100%
+source-wordcount: 778
+ht-degree: 90%
 
 ---
 
@@ -50,10 +42,6 @@ Le tableau ci-après présente en détail toutes les versions prises en charge d
 
 Pour plus d’informations sur les versions et les publications des composants principaux, voir le document sur les [versions des composants principaux](/help/versions.md).
 
-## Prise en charge des applications web progressives {#pwa-support}
-
-La version 2.15.0 des composants principaux a introduit la prise en charge d’AEM as a Cloud Service de façon intégrée dans les fonctionnalités des [applications web progressives (PWA).](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/features/enable-pwa.html?lang=fr) Grâce à cette simple configuration au niveau du site, transformez votre expérience AEM en PWA !
-
 ### Détails techniques {#technical-details}
 
 La documentation technique la plus récente sur le composant Page [se trouve sur GitHub](https://adobe.com/go/aem_cmp_tech_page_v3_fr).
@@ -63,6 +51,12 @@ Vous trouverez plus d’informations sur le développement des composants princi
 ## Boîte de dialogue de modification {#edit-dialog}
 
 Étant donné que le composant représente la page entière, les paramètres qui seraient normalement dans une boîte de dialogue de modification se trouvent dans la fenêtre [Propriétés de la page](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/fundamentals/page-properties.html?lang=fr).
+
+### Prise en charge des données structurées {#structured-data}
+
+La [version 2.31.0](/help/versions.md) des composants principaux a introduit la prise en charge des données structurées au niveau de la page (JSON-LD) des types [schema.org](https://schema.org) dans toutes les versions du composant de page.  AEM effectue le rendu de ces blocs côté serveur dans l’en-tête de la page.
+
+La version [2026.6.0 d’AEM as a Cloud Service](https://experienceleague.adobe.com/fr/docs/experience-manager-release-information/aem-release-updates/update-releases-roadmap) permet désormais aux auteurs d’utiliser la fenêtre Propriétés de la page pour ajouter un ou plusieurs blocs JSON-LD à une page dans la section **SEO** de l’onglet **Avancé**.
 
 ## Boîte de dialogue de conception {#design-dialog}
 
