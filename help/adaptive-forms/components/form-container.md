@@ -4,28 +4,20 @@ description: Ajoutez un formulaire adaptatif à une page Web.
 role: Developer, Admin, User
 exl-id: 03c4cf7c-51d6-4850-a566-1c0514d52dab
 TQID: https://experienceleague.adobe.com/kMG6SKHisAUmKhOh9AFLI8NG6w0vH7tP4XimBKAMo-I
-product_v2:
-  - id: c45915cf-e157-4af7-a80d-97b905bcb3a5
-  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
-feature_v2:
-  - id: e2c1b6d3-bb7e-4fe8-8c72-f7b403298e91
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-topic_v2:
-  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
-  - id: d3cdead0-685a-4489-9250-4bb709942f66
-source-git-commit: 73aa5234ac63fa3be99feebce448bb6722513838
+product_v2: id: c45915cf-e157-4af7-a80d-97b905bcb3a5id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: e2c1b6d3-bb7e-4fe8-8c72-f7b403298e91
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dcid: d3cdead0-685a-4489-9250-4bb709942f66
+source-git-commit: 0af65c80f9cc58c4ba48d5b3dc7a026820bd2833
 workflow-type: tm+mt
-source-wordcount: 1529
-ht-degree: 99%
+source-wordcount: 2555
+ht-degree: 64%
 
 ---
 
 # Conteneur de formulaire {#form-container-adaptive-forms-core-component}
 
-<span class="preview"> Cet article traite de la fonctionnalité **Versions préliminaires** <!--and **Hamburger Menu Support** -->, qui est une fonctionnalité en version préliminaire. La fonctionnalité de version préliminaire n’est accessible que par le biais de notre [canal de version préliminaire](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/release-notes/prerelease.html?lang=fr#new-features).</span>
+<span class="preview"> Cet article traite des fonctionnalités **Drafts** et **Hamburger Menu Support**, qui sont des fonctionnalités de version préliminaire. La fonctionnalité de version préliminaire n’est accessible que par le biais de notre [canal de version préliminaire](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/release-notes/prerelease.html#new-features).</span>
 
 Les formulaires permettent aux visiteurs et aux visiteuses d’un site Web d’interagir avec ce site en fournissant des informations précieuses, ce qui peut augmenter l’engagement et la satisfaction des utilisateurs et des utilisatrices. Un conteneur de formulaires adaptatifs dans Adobe Experience Manager (AEM) Sites permet aux propriétaires de sites Web d’ajouter facilement des formulaires à leurs pages. Cela facilite la communication entre les visiteurs et les visiteuses du site Web et le/la propriétaire ou l’organisation du site Web en permettant aux visiteurs et aux visiteuses de fournir des commentaires, de répondre à des questions et de terminer d’autres actions de manière simplifiée
 
@@ -64,7 +56,7 @@ Pour plus d’informations sur les versions et publications des composants princ
 <!--
 ## Sample Component Output {#sample-component-output}
 
-To experience the Accordion Component as well as see examples of its configuration options as well as HTML and JSON output, visit the [Component Library](https://adobe.com/go/aem_cmp_library_accordion_fr). 
+To experience the Accordion Component as well as see examples of its configuration options as well as HTML and JSON output, visit the [Component Library](https://adobe.com/go/aem_cmp_library_accordion). 
 -->
 
 ## Détails techniques {#technical-details}
@@ -85,26 +77,25 @@ Vous pouvez facilement personnaliser votre expérience de conteneur de formulair
 
 - **Rôle** : le rôle est un attribut HTML utilisé pour spécifier l’objectif d’un élément HTML pour les technologies d’assistance telles que les lecteurs d’écran. L’attribut rôle est utilisé pour fournir un contexte et une signification sémantique supplémentaires à un élément, ce qui facilite l’interprétation et l’annonce du contenu à l’utilisateur ou à l’utilisatrice par les lecteurs d’écran. Par exemple, dans AEM Forms, le libellé d’un champ de formulaire peut avoir le rôle « libellé » et son champ de saisie peut avoir le rôle « zone de texte ». Cela permet au lecteur d’écran de comprendre la relation entre le libellé et le champ de saisie, et de les annoncer correctement à l’utilisateur ou à l’utilisatrice.
 
-- **Catégorie de bibliothèque cliente** - L’utilisateur peut configurer une bibliothèque JavaScript personnalisée par formulaire adaptatif. Il est recommandé de ne conserver que les fonctions réutilisables de la bibliothèque, qui dépendent des bibliothèques tierces jquery et underscore.js.
-Parfois, en cas de **règles de validation complexes**, le script de validation exact réside dans des fonctions personnalisées que les utilisateurs appellent à partir de l’expression du champ de validation. Pour rendre cette bibliothèque de fonctions personnalisées visible et disponible lors des validations côté serveur, l’utilisateur du formulaire peut configurer le nom de la bibliothèque cliente AEM sous l’onglet **[!UICONTROL De base]** des propriétés du conteneur de formulaires adaptatifs.
-L’utilisateur peut configurer la bibliothèque JavaScript personnalisée par formulaire adaptatif. Dans la bibliothèque, conservez uniquement les fonctions réutilisables ayant une dépendance sur les bibliothèques tierces jquery et underscore.js.
+- **Catégorie de bibliothèque cliente** : l’utilisateur ou l’utilisatrice peut configurer une bibliothèque JavaScript personnalisée par formulaire adaptatif. Il est recommandé de ne conserver que les fonctions réutilisables de la bibliothèque, qui dépendent des bibliothèques tierces jquery et underscore.js.Parfois, en cas de **règles de validation complexes**, le script de validation exact réside dans des fonctions personnalisées que l’utilisateur ou l’utilisatrice doit appeler à partir de l’expression du champ de validation. Pour rendre cette bibliothèque de fonctions personnalisées visible et disponible lors des validations côté serveur, l’utilisateur ou l’utilisatrice de formulaires peut configurer le nom de la bibliothèque cliente AEM sous l’onglet **[!UICONTROL Réglages de base]** des propriétés du conteneur de formulaires adaptatifs.L’utilisateur ou l’utilisatrice peut configurer la bibliothèque personnalisée JavaScript pour chaque formulaire adaptatif. Dans la bibliothèque, conservez uniquement les fonctions réutilisables ayant une dépendance sur les bibliothèques tierces jquery et underscore.js.
 
-<!--
-- **Enable the hamburger menu for mobile view** - Select the checkbox to integrate a hamburger menu into your form for mobile view. Represented by three horizontal lines stacked vertically, this menu provides a clear and uncluttered display for panels on smaller devices, especially on mobile devices. For more information about the hamburger menu, refer to the [Learn more about the hamburger menu](#learn-more-about-the-hamburger-menu) section. 
--->
+- **Activer le menu hamburger pour la vue mobile** - Cochez la case pour intégrer un menu hamburger dans votre formulaire pour la vue mobile. Représenté par trois lignes horizontales empilées verticalement, ce menu offre un affichage clair et épuré pour les panneaux sur les appareils plus petits, en particulier sur les appareils mobiles. Pour plus d’informations sur le menu hamburger, reportez-vous à la section [En savoir plus sur le menu hamburger](#learn-more-about-the-hamburger-menu).
 
 
 ### Onglet Modèle de données {#data-model-tab}
 
-![Onglet Envoi](/help/adaptive-forms/assets/formcontainer_fdmtab.png)
+![Onglet Modèle de données](/help/adaptive-forms/assets/formcontainer_fdmtab.png)
 
 Vous pouvez utiliser le modèle de données de formulaire pour connecter un formulaire à une source de données afin d’envoyer et de recevoir des données en fonction des actions de l’utilisateur ou de l’utilisatrice. Vous pouvez également connecter un formulaire à un schéma JSON pour recevoir les données envoyées dans un format prédéfini. Selon les besoins, connectez votre formulaire à un schéma JSON ou à un modèle de données de formulaire :
-- Créer un schéma JSON et le charger dans votre environnement
-- Créer un modèle de données de formulaire
+- **Aucun** - N’associez pas le formulaire à un modèle de données.
+- **Schéma** - Connectez le formulaire à un schéma JSON chargé dans votre environnement.
+- **Modèle de données de formulaire** - Connectez le formulaire à un modèle de données de formulaire à intégrer à des sources de données externes.
+- **Connecteur** - Connectez le formulaire à une source de données basée sur un connecteur.
+- **Modèles de formulaire** - Associez le formulaire à un modèle de formulaire.
 
-### Brouillons
+### Onglet Brouillons {#drafts-tab}
 
-![Onglet Envoi](/help/adaptive-forms/assets/formcontainer_autosavetab.png)
+![Onglet Brouillons](/help/adaptive-forms/assets/formcontainer_autosavetab.png)
 
 - **Enregistrer automatiquement les brouillons** : cochez la case **Enregistrer automatiquement les brouillons** pour activer l’enregistrement des formulaires en tant que brouillons.
 - **Préférence d’enregistrement** : configurez la **préférence d’enregistrement** sur **Enregistrer des brouillons à intervalles réguliers** pour enregistrer automatiquement le formulaire après un intervalle de temps spécifique.
@@ -113,6 +104,8 @@ Vous pouvez utiliser le modèle de données de formulaire pour connecter un form
 ### Onglet Envoi {#submission-tab}
 
 Les utilisateurs et les utilisatrices peuvent configurer différentes actions pour les envois de formulaires adaptatifs.
+
+- **Lors de l’envoi** - Sélectionnez **Rediriger vers l’URL** pour envoyer les utilisateurs du formulaire vers une page configurée après l’envoi, ou **Afficher le message** pour afficher un message de confirmation sur le formulaire.
 
 - **URL/chemin de redirection** - Cette option permet à l’utilisateur ou à l’utilisatrice de configurer une page pour chaque formulaire, vers laquelle les utilisateurs et utilisatrices du formulaire sont redirigés après l’envoi d’un formulaire adaptatif. Cliquez ici pour plus d’informations sur [la façon de configurer des pages de redirection](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/create-an-adaptive-form/configure-submit-actions-and-metadata-submission/configuring-redirect-page.html?lang=fr).
 
@@ -123,6 +116,21 @@ Les utilisateurs et les utilisatrices peuvent configurer différentes actions po
 ![Onglet Afficher le message](/help/adaptive-forms/assets/formconatiner_showmessage.png)
 
 - **Action Envoyer** - Une action Envoyer est déclenchée lorsqu’un utilisateur ou une utilisatrice clique sur le bouton Envoyer d’un formulaire adaptatif. Les utilisateurs et les utilisatrices peuvent sélectionner les actions Envoyer dans la liste déroulante qui sont prises en charge par défaut. Découvrir comment [configurer une action Envoyer dans l’onglet Envoi](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/create-an-adaptive-form/configure-submit-actions-and-metadata-submission/configuring-submit-actions.html?lang=fr#supporting-custom-functions-in-validation-expressions-br).
+
+- **Configuration de l’action** - Configurez les mappages pour la transmission des valeurs de champ en tant que paramètres de requête de page de remerciement.
+
+- **Activer la requête POST** - Sélectionnez cette option pour envoyer les données de formulaire à l’aide d’une requête HTTP POST.
+
+### Onglet Document d’enregistrement {#document-of-record-tab}
+
+![Onglet Document d’enregistrement](/help/adaptive-forms/assets/formcontainer_dortab.png)
+
+Un [ document d’enregistrement (DE)](https://experienceleague.adobe.com/fr/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/generate-document-of-record-core-components) est une représentation formelle et imprimable des données envoyées via le formulaire. Utilisez l’onglet **Document d’enregistrement** pour configurer la manière dont un document d’enregistrement est généré lorsqu’un utilisateur envoie le formulaire :
+
+- **Aucun** - Ne générez pas de document d’enregistrement pour le formulaire.
+- **Associer le modèle de formulaire en tant que modèle de document d’enregistrement** - Utilisez un modèle de formulaire existant en tant que modèle de document d’enregistrement.
+- **Générer un document d’enregistrement** - Génère automatiquement un document d’enregistrement en fonction des données de formulaire envoyées.
+- **Exclure les pièces jointes du document d’enregistrement** - Sélectionnez cette option pour omettre les pièces jointes du document d’enregistrement généré.
 
 ## Boîte de dialogue de conception {#design-dialog}
 
@@ -170,44 +178,44 @@ Les propriétés personnalisées vous permettent d’associer des attributs pers
 
    - **Réorganiser** : appuyez ou cliquez et faites glisser pour réorganiser l’ordre du nom et de la valeur des propriétés personnalisées.
 
+## En savoir plus sur le menu hamburger {#learn-more-about-the-hamburger-menu}
+
+Un menu hamburger, souvent appelé menu mobile ou tiroir de navigation, est un élément de conception populaire dans les interfaces utilisateur mobiles. Il comporte trois lignes horizontales empilées verticalement, ressemblant à un hamburger. La conception permet de conserver efficacement l’espace de l’écran en masquant les options de navigation secondaires jusqu’à ce qu’elles soient nécessaires, en particulier sur les appareils plus petits tels que les appareils mobiles. Les formulaires AEM peuvent être efficacement organisés dans le menu hamburger, ce qui permet aux utilisateurs d’accéder à divers panneaux au sein d’un formulaire sans surcharger l’interface principale.
+
+Supposons qu’une institution financière propose un formulaire de demande de prêt en ligne qui oblige les utilisateurs à fournir des informations détaillées sur plusieurs panneaux, telles que des détails personnels, des informations financières, des préférences de prêt et des documents annexes. Le formulaire comprend plusieurs panneaux et options qui peuvent encombrer l’interface, en particulier sur les appareils mobiles. Les utilisateurs ont besoin d’une manière organisée de naviguer dans ces panneaux sans se sentir dépassés. Le menu hamburger est implémenté pour améliorer l’expérience utilisateur sur les appareils mobiles.
+
+### Composants du menu hamburger
+
+![Menu Hamburger ](/help/adaptive-forms/assets/hamburger-menu.png){width=50%, align=center}
+
+**A. Menu hamburger** : le menu hamburger comporte un panneau de navigation qui glisse ou s’abaisse lorsque l’on clique ou que l’on appuie sur l’icône hamburger. Le menu affiche les en-têtes du panneau et la sélection d’un panneau déplace le focus vers ce panneau. Il permet aux utilisateurs de naviguer facilement entre les différents panneaux.
+
+![Menu Hamburger ](/help/adaptive-forms/assets/hamburger-menu-icon.png){width=50%}
+
+**B. Chemin de navigation** : les chemins de navigation indiquent l’emplacement actuel de l’utilisateur dans le formulaire. Ils offrent un suivi hiérarchique qui montre le chemin de navigation de l’utilisateur et l’aide à comprendre sa position dans le formulaire.
+
+**C. Panneau actif** le panneau actif fait référence à la section ou à la partie du formulaire en cours d’affichage. Lorsqu’un utilisateur sélectionne une option dans le menu hamburger , le panneau correspondant devient le panneau actif, affichant les champs et informations pertinents pour cette section.
+
+### Points à prendre en compte lorsque vous utilisez le menu hamburger
+
+- Le menu hamburger affiche uniquement les noms des panneaux. Voici différents scénarios illustrant la manière dont le nom du panneau apparaît dans le volet de navigation du menu hamburger en fonction des propriétés de configuration du panneau :
+
+   - Si vous définissez les propriétés du panneau sur masqué, le nom du panneau n’apparaît pas dans le volet de navigation du menu hamburger. Par exemple, si vous configurez les propriétés du panneau `Financial Information` comme `hidden`, le nom du panneau n’apparaît pas dans le volet de navigation du menu hamburger.
+
+     ![ Panneau masqué ](/help/adaptive-forms/assets/hidden-panel.png){width=50%}
+
+   - Si vous définissez les propriétés du panneau sur `disabled`, son nom apparaît dans le volet de navigation du menu hamburger, mais vous ne pouvez pas le sélectionner ni le modifier. Par exemple, si vous configurez les propriétés du panneau `Financial Information` comme `disabled`, le nom du panneau s’affiche dans le volet de navigation, mais il ne peut pas être sélectionné ni modifié.
+
+     ![Panneau désactivé](/help/adaptive-forms/assets/disabled-panel.png){width=50%}
+
+   - Si vous masquez le titre du panneau, il n’apparaît pas dans le volet de navigation du menu hamburger. Un espace vierge s’affiche à la place de cette sélection, mais vous pouvez accéder aux champs du panneau en cliquant dessus. Par exemple, si vous masquez le titre du panneau `Financial Information`, l’espace vide s’affiche à sa place dans le volet de navigation du menu hamburger. Vous pouvez accéder aux champs du panneau en cliquant sur l’espace vide.
+
+     ![Panneau de titre masqué](/help/adaptive-forms/assets/hidden-title-panel.png){width=50%}
+
+- Par défaut, le volet de navigation du composant de chemin de navigation prend en charge jusqu’à trois niveaux de navigation. Cependant, avec le composant personnalisé, vous pouvez configurer l’arborescence de navigation pour accueillir autant de niveaux que nécessaire.
+- Lorsque vous utilisez le menu hamburger, l’utilisateur peut naviguer entre les panneaux à l’aide de flèches. Cependant, une fois qu’un panneau est sélectionné, le menu se ferme automatiquement et le focus se déplace vers les champs du panneau sélectionné.
+
 <!--
-## Learn more about the hamburger menu
-
-A hamburger menu, often referred to as a mobile menu or navigation drawer, is a popular design element in mobile user interfaces. It features three horizontal lines stacked vertically, resembling a hamburger. The design efficiently conserves screen space by hiding secondary navigation options until they are needed, especially on smaller devices such as mobile. AEM forms can be efficiently organized within the hamburger menu, enabling users to access various panels within a form without overwhelming the main interface.
-
-Consider a scenario, where a financial institution offers an online loan application form that requires users to provide detailed information across several panels, such as personal details, financial information, loan preferences, and supporting documents. The form includes multiple panels and options that can clutter the interface, especially on mobile devices. Users need an organized way to navigate through these panels without feeling overwhelmed. The hamburger menu is implemented to enhance the user experience on mobile devices.
-
-### Components of hamburger menu
-
-![Hamburger Menu](/help/adaptive-forms/assets/hamburger-menu.png){width=50%, align=center}
-
-**A. Hamburger menu**: The hamburger menu features a navigation panel that slides out or drops down when the hamburger icon is clicked or tapped. The menu displays the panel headings, and selecting a panel shifts the focus to that panel. It allows users to easily navigate between different panels.
-
-![Hamburger Menu](/help/adaptive-forms/assets/hamburger-menu-icon.png){width=50%}
-
-**B. Breadcrumb**: Breadcrumbs indicate the user's current location within the form. They offer a hierarchical trail that shows the user's navigation path and helps them understand their position in the form.
-
-**C. Active panel**: The active panel refers to the section or part of the form that is currently being displayed. When a user selects an option from the hamburger menu, the corresponding panel becomes the active panel, showing the relevant fields and information for that section.
-
-### Points to consider while working with the hamburger menu
-
-- The hamburger menu displays only the names of the panels. Here are different scenarios illustrating how the panel name appears in the navigation pane of the hamburger menu based on the configuration properties of the panel:  
-  
-  - If you set the properties of the panel to hidden, the panel's name does not appear in the navigation pane of the hamburger menu. For example, if you configure the properties of the `Financial Information` panel as `hidden`, the panel name does not appear in the navigation pane of the hamburger menu.
-    
-    ![Hidden panel](/help/adaptive-forms/assets/hidden-panel.png){width=50%}
-
-  - If you set the properties of the panel to `disabled`, its name appears in the navigation pane of the hamburger menu, but you cannot select or edit it. For example, if you configure the properties of the `Financial Information` panel as `disabled`, the panel name appears in the navigation pane, but it cannot be selected or edited. 
-     
-    ![Disabled panel](/help/adaptive-forms/assets/disabled-panel.png){width=50%}
-
-  - If you hide the  title of the panel, it does not appear in the navigation pane of the hamburger menu. A blank space shows up instead, but you can navigate to the fields of the panel by clicking on that space. For example, if you hide the title of the `Financial Information` panel, the blank space appears in its place in the navigation pane of the hamburger menu. You can navigate to the fields of the panel by clicking on the blank space.
-    
-    ![Hidden title panel](/help/adaptive-forms/assets/hidden-title-panel.png){width=50%}
-
-- By default, the navigation pane in the breadcrumb component supports up to three levels of navigation. However, with the custom component, you can configure the navigation hierarchy to accommodate as many levels as needed.
-- When using the hamburger menu, the user can navigate between panels using arrows. However, once a panel is selected, the menu automatically closes, and focus shifts to the fields within the chosen panel.
-
 ### Advantages to use hamburger menu
 
 - **Space efficiency**: By hiding form navigation options until needed, the hamburger menu maximizes screen space, which is especially beneficial on smaller devices.
@@ -231,7 +239,7 @@ To enable hamburger menu for form, perform the following steps:
 1. Select the **[!UICONTROL Add hamburger menu support]** checkbox.
 1. Click **[!UICONTROL Done]**.
 
-![Basic tab](/help/adaptive-forms/assets/formcontainer_basictab.png)
+![Basic tab](/help/adaptive-forms/assets/formcontainer_basictab1.png)
 -->
 
 ## Articles connexes {#related-articles}
