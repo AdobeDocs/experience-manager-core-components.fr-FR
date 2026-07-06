@@ -4,10 +4,18 @@ description: Ajoutez un formulaire adaptatif à une page Web.
 role: Developer, Admin, User
 exl-id: 03c4cf7c-51d6-4850-a566-1c0514d52dab
 TQID: https://experienceleague.adobe.com/kMG6SKHisAUmKhOh9AFLI8NG6w0vH7tP4XimBKAMo-I
-product_v2: id: c45915cf-e157-4af7-a80d-97b905bcb3a5id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
-feature_v2: id: e2c1b6d3-bb7e-4fe8-8c72-f7b403298e91
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dcid: d3cdead0-685a-4489-9250-4bb709942f66
+product_v2:
+  - id: c45915cf-e157-4af7-a80d-97b905bcb3a5
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2:
+  - id: e2c1b6d3-bb7e-4fe8-8c72-f7b403298e91
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2:
+  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+  - id: d3cdead0-685a-4489-9250-4bb709942f66
 source-git-commit: 0af65c80f9cc58c4ba48d5b3dc7a026820bd2833
 workflow-type: tm+mt
 source-wordcount: 2555
@@ -125,7 +133,7 @@ Les utilisateurs et les utilisatrices peuvent configurer différentes actions po
 
 ![Onglet Document d’enregistrement](/help/adaptive-forms/assets/formcontainer_dortab.png)
 
-Un [ document d’enregistrement (DE)](https://experienceleague.adobe.com/fr/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/generate-document-of-record-core-components) est une représentation formelle et imprimable des données envoyées via le formulaire. Utilisez l’onglet **Document d’enregistrement** pour configurer la manière dont un document d’enregistrement est généré lorsqu’un utilisateur envoie le formulaire :
+Un [&#x200B; document d’enregistrement (DE)](https://experienceleague.adobe.com/fr/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/generate-document-of-record-core-components) est une représentation formelle et imprimable des données envoyées via le formulaire. Utilisez l’onglet **Document d’enregistrement** pour configurer la manière dont un document d’enregistrement est généré lorsqu’un utilisateur envoie le formulaire :
 
 - **Aucun** - Ne générez pas de document d’enregistrement pour le formulaire.
 - **Associer le modèle de formulaire en tant que modèle de document d’enregistrement** - Utilisez un modèle de formulaire existant en tant que modèle de document d’enregistrement.
@@ -186,11 +194,11 @@ Supposons qu’une institution financière propose un formulaire de demande de p
 
 ### Composants du menu hamburger
 
-![Menu Hamburger ](/help/adaptive-forms/assets/hamburger-menu.png){width=50%, align=center}
+![Menu Hamburger &#x200B;](/help/adaptive-forms/assets/hamburger-menu.png){width=50%, align=center}
 
 **A. Menu hamburger** : le menu hamburger comporte un panneau de navigation qui glisse ou s’abaisse lorsque l’on clique ou que l’on appuie sur l’icône hamburger. Le menu affiche les en-têtes du panneau et la sélection d’un panneau déplace le focus vers ce panneau. Il permet aux utilisateurs de naviguer facilement entre les différents panneaux.
 
-![Menu Hamburger ](/help/adaptive-forms/assets/hamburger-menu-icon.png){width=50%}
+![Menu Hamburger &#x200B;](/help/adaptive-forms/assets/hamburger-menu-icon.png){width=50%}
 
 **B. Chemin de navigation** : les chemins de navigation indiquent l’emplacement actuel de l’utilisateur dans le formulaire. Ils offrent un suivi hiérarchique qui montre le chemin de navigation de l’utilisateur et l’aide à comprendre sa position dans le formulaire.
 
@@ -202,7 +210,7 @@ Supposons qu’une institution financière propose un formulaire de demande de p
 
    - Si vous définissez les propriétés du panneau sur masqué, le nom du panneau n’apparaît pas dans le volet de navigation du menu hamburger. Par exemple, si vous configurez les propriétés du panneau `Financial Information` comme `hidden`, le nom du panneau n’apparaît pas dans le volet de navigation du menu hamburger.
 
-     ![ Panneau masqué ](/help/adaptive-forms/assets/hidden-panel.png){width=50%}
+     ![&#x200B; Panneau masqué &#x200B;](/help/adaptive-forms/assets/hidden-panel.png){width=50%}
 
    - Si vous définissez les propriétés du panneau sur `disabled`, son nom apparaît dans le volet de navigation du menu hamburger, mais vous ne pouvez pas le sélectionner ni le modifier. Par exemple, si vous configurez les propriétés du panneau `Financial Information` comme `disabled`, le nom du panneau s’affiche dans le volet de navigation, mais il ne peut pas être sélectionné ni modifié.
 
