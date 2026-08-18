@@ -1,6 +1,6 @@
 ---
 title: Composant Recherche rapide
-description: Le composant Recherche rapide fournit des fonctionnalités de recherche à un site web et présente les résultats de recherche afin que les visiteurs puissent effectuer des recherches sur le site et filtrer les résultats.
+description: Le composant Recherche rapide fournit des fonctionnalités de recherche à un site web et présente les résultats de recherche afin que les visiteurs puissent effectuer des recherches sur le site et filtrer les résultats, éventuellement à l’aide d’une recherche sémantique optimisée par IA via le bouton de recherche sémantique .
 role: Developer, Admin, User
 exl-id: fc40ce1d-e69a-4a40-853e-67a37228271b
 TQID: https://experienceleague.adobe.com/wU-3pacdEz9ne8b53-mKJy-XxRdyz2gu4Jvj-yFgGOw
@@ -15,12 +15,13 @@ role_v2:
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
 topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
-source-git-commit: 73aa5234ac63fa3be99feebce448bb6722513838
+source-git-commit: f7fb04a4420a61d8a4755f2b3f09aad91b12c7eb
 workflow-type: tm+mt
-source-wordcount: 627
-ht-degree: 100%
+source-wordcount: 863
+ht-degree: 46%
 
 ---
+
 
 # Composant Recherche rapide {#quick-search-component}
 
@@ -32,17 +33,18 @@ Le composant Recherche rapide fournit des fonctionnalités de recherche à un si
 
 Le composant Recherche rapide permet aux visiteurs du site de rechercher du contenu, d’afficher les résultats en place et de naviguer facilement vers les pages correspondantes. De nouveaux résultats sont extraits dynamiquement lorsque l’utilisateur fait défiler les résultats de la recherche.
 
-La [boîte de dialogue de modification](#edit-dialog) permet à l’auteur de contenu de définir l’emplacement où doit commencer la recherche dans l’arborescence de contenu. À l’aide de la [boîte de dialogue de conception](#design-dialog), l’auteur du modèle peut définir la valeur par défaut pour laquelle la recherche doit commencer dans l’arborescence de contenu, ainsi qu’une taille de jeu de résultats maximale et la longueur minimale du terme de recherche.
+La boîte de dialogue [Modifier](#edit-dialog) permet à l’auteur de contenu de définir l’emplacement où doit commencer la recherche dans l’arborescence de contenu et éventuellement de masquer le bouton bascule Recherche sémantique . À l’aide de la [&#x200B; boîte de dialogue de conception &#x200B;](#design-dialog), l’auteur du modèle peut définir la valeur par défaut pour laquelle, dans l’arborescence de contenu, la recherche doit commencer, la taille maximale du jeu de résultats, la longueur minimale du terme et si le bouton (bascule) Recherche sémantique s’affiche par défaut pour les visiteurs.
 
 ## Version et compatibilité {#version-and-compatibility}
 
-La version actuelle du composant Recherche rapide est v2, qui a été introduite avec la version 2.18.0 des composants principaux en janvier 2018 et est décrite dans ce document.
+La version actuelle du composant Recherche rapide est v3, qui a été introduite avec la [version 2.32.0](/help/versions.md) des composants principaux en ajoutant un bouton (bascule) Recherche sémantique facultatif. Elle est décrite dans ce document.
 
 Le tableau ci-après présente en détail toutes les versions prises en charge du composant, les versions AEM avec lesquelles les versions du composant sont compatibles et les liens vers la documentation pour les versions précédentes.
 
 | Version du composant | AEM 6.4 | AEM 6.5 | AEM 6.5 LTS | AEM as a Cloud Service |
 |--- |--- |--- |---|---|
-| v2 | - | Compatible | Compatible | Compatible |
+| v3 | - | Compatible | Compatible | Compatible |
+| [v2](/help/components/v2/quick-search.md) | - | Compatible | Compatible | Compatible |
 | [v1](/help/components/v1/quick-search.md) | Compatible avec la <br>[version 2.17.4](/help/versions.md) et versions antérieures | Compatible | - | Compatible |
 
 Pour plus d’informations sur les versions et les publications des composants principaux, voir le document sur les [versions des composants principaux](/help/versions.md).
@@ -59,38 +61,49 @@ Vous trouverez plus d’informations sur le développement des composants princi
 
 ## Boîte de dialogue de modification {#edit-dialog}
 
-La boîte de dialogue de modification permet à l’auteur de contenu de définir l’emplacement où doit commencer la recherche dans l’arborescence de contenu.
+La boîte de dialogue de modification permet à l’auteur de contenu de définir l’emplacement où doit commencer la recherche dans l’arborescence de contenu et, éventuellement, de masquer le bouton bascule Recherche sémantique .
 
-![Boîte de dialogue de modification du composant Recherche rapide](/help/assets/quick-search-edit.png)
+![Boîte de dialogue de modification du composant Recherche rapide](/help/assets/quick-search-edit-v3.png)
 
 **Rechercher à la racine** - Page racine d’où lancer la recherche. Rechercher à la racine peut être un gabarit principal, une page principale ou une page normale.
 * **ID** : cette option permet de contrôler l’identifiant unique du composant dans le code HTML ainsi que dans la [couche de données](/help/developing/data-layer/overview.md).
-   * Si rien n’est indiqué, un ID unique est généré automatiquement et peut être trouvé en examinant la page obtenue.
-   * Si un ID est spécifié, il incombe à l’auteur de s’assurer qu’il est unique.
-   * La modification de l’ID peut avoir un impact sur le suivi CSS, JS et de couche de données.
+  * Si rien n’est indiqué, un ID unique est généré automatiquement et peut être trouvé en examinant la page obtenue.
+  * Si un ID est spécifié, il incombe à l’auteur de s’assurer qu’il est unique.
+  * La modification de l’ID peut avoir un impact sur le suivi CSS, JS et de couche de données.
+* **Masquer le bouton (bascule) Recherche sémantique sur cette instance** - Lorsque cette case est cochée, le bouton (bascule) Recherche sémantique est masqué, quelle que soit la fonction que la [boîte de dialogue de conception](#design-dialog) est configurée pour afficher.
+  * Ne cochez pas cette case pour utiliser la valeur par défaut du modèle.
+  * Cette option ne peut pas forcer l’affichage du bouton bascule à un emplacement où la boîte de dialogue de conception le masque.
 
 >[!NOTE]
 >
 >Si la **Racine de la recherche** n’est pas configurée ou ne peut pas être résolue, la recherche rapide effectue par défaut une recherche sous la page active.
 
+>[!NOTE]
+>
+>Le bouton Recherche sémantique ne renvoie des résultats optimisés par l’IA que lorsque l’environnement est configuré avec l’IA dédiée au contenu AEM. Dans les environnements LTS AEM 6.5 et AEM 6.5 qui ne sont pas configurés avec l’IA dédiée au contenu, masquez le bouton bascule [à l’aide de la boîte de dialogue de conception](#design-dialog) afin que les visiteurs ne se voient pas proposer un mode de recherche qui ne fonctionne pas.
+
 ## Boîte de dialogue de conception {#design-dialog}
 
-À l’aide de la boîte de dialogue de conception, le créateur ou la créatrice du modèle peut définir la valeur par défaut pour laquelle la recherche doit commencer dans l’arborescence de contenu, ainsi qu’une taille de jeu de résultats maximale et la longueur minimale du terme de recherche.La boîte de dialogue de conception permet à l’auteur du modèle de définir quelles options de formatage de texte sont disponibles pour les auteurs de contenu.
+À l’aide de la boîte de dialogue de conception, l’auteur du modèle peut définir la valeur par défaut pour laquelle, dans l’arborescence de contenu, la recherche doit commencer, ainsi qu’une taille maximale de jeu de résultats, la longueur minimale du terme de recherche et si le bouton (bascule) Recherche sémantique s’affiche par défaut pour les visiteurs.
 
 ### Onglet Propriétés {#properties-tab}
 
-![Boîte de dialogue de conception du composant Recherche rapide](/help/assets/quick-search-design.png)
+![Boîte de dialogue de conception du composant Recherche rapide](/help/assets/quick-search-design-v3.png)
 
-* **Racine de recherche**
-La valeur par défaut de la racine de recherche lorsqu’un auteur de contenu place le composant Recherche rapide sur une page de contenu.
-* **Taille des résultats**
-Le nombre maximal de résultats extraits par une requête de recherche.
-* **Longueur minimale du terme de recherche**
-Longueur minimale du terme de recherche pour démarrer la recherche
+* **Racine de recherche** - Valeur par défaut de la racine de recherche lorsqu’un auteur de contenu place le composant Recherche rapide sur une page de contenu
+* **Taille des résultats** - Nombre maximal de résultats récupérés par une requête de recherche
+* **Longueur minimale du terme de recherche** - Longueur minimale du terme de recherche pour démarrer la recherche
+* **Masquer le bouton (bascule) de recherche sémantique** - Lorsque cette case est cochée, le bouton (bascule) **Recherche sémantique** décrit dans [Utilisation](#usage) n’est pas affiché par défaut pour les visiteurs du site. En outre, le composant se comporte comme [le composant v2 (recherche en texte intégral uniquement).](/help/components/v2/quick-search.md)
+  * Décoché par défaut.
+  * Les auteurs de contenu peuvent également remplacer cette propriété pour un composant Recherche rapide individuel dans la boîte de dialogue [modifier](#edit-dialog).
 
 >[!NOTE]
 >
->La **Taille des résultats** et la **Longueur minimum du terme de recherche** ne peuvent être définies qu’en mode conception et, par conséquent, au niveau du modèle, ce qui signifie que les créateurs et créatrices de contenu ne peuvent pas modifier ces valeurs.
+>Le bouton Recherche sémantique ne renvoie des résultats optimisés par l’IA que lorsque l’environnement est configuré avec l’IA dédiée au contenu AEM. Sur les environnements LTS AEM 6.5 et AEM 6.5 qui ne sont pas configurés avec l’IA dédiée au contenu, masquez le bouton à l’aide de la boîte de dialogue de conception afin que les visiteurs ne se voient pas proposer un mode de recherche qui n’est pas fonctionnel.
+
+>[!NOTE]
+>
+>La **Taille des résultats** et la **Longueur minimum du terme de recherche** ne peuvent être définies qu’en mode conception et, par conséquent, au niveau du modèle, ce qui signifie que les auteurs de contenu ne peuvent pas modifier ces valeurs.
 
 >[!CAUTION]
 >
