@@ -1,0 +1,94 @@
+---
+title: Composant Recherche rapide (v2)
+description: Le composant Recherche rapide fournit des fonctionnalités de recherche à un site web et présente les résultats de recherche afin que les visiteurs et les visiteuses puissent effectuer des recherches sur le site et filtrer les résultats.
+role: Developer, Admin, User
+index: false
+product_v2: id: c45915cf-e157-4af7-a80d-97b905bcb3a5id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: e2c1b6d3-bb7e-4fe8-8c72-f7b403298e91
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2: id: d095671a-1355-40aa-8b5f-06c33c68080b
+source-git-commit: 8b9c5c488c18dde58497c3e3501875bdf0e235d2
+workflow-type: tm+mt
+source-wordcount: 630
+ht-degree: 97%
+
+---
+
+# Composant Recherche rapide (v2) {#quick-search-component}
+
+Le composant Recherche rapide fournit des fonctionnalités de recherche à un site web et présente les résultats de recherche afin que les visiteurs puissent facilement trouver le contenu correspondant et afficher les résultats.
+
+## Utilisation {#usage}
+
+Le composant Recherche rapide permet aux visiteurs du site de rechercher du contenu, d’afficher les résultats en place et de naviguer facilement vers les pages correspondantes. De nouveaux résultats sont extraits dynamiquement lorsque l’utilisateur fait défiler les résultats de la recherche.
+
+La [boîte de dialogue de modification](#edit-dialog) permet à l’auteur de contenu de définir l’emplacement où doit commencer la recherche dans l’arborescence de contenu. À l’aide de la [boîte de dialogue de conception](#design-dialog), l’auteur du modèle peut définir la valeur par défaut pour laquelle la recherche doit commencer dans l’arborescence de contenu, ainsi qu’une taille de jeu de résultats maximale et la longueur minimale du terme de recherche.
+
+## Version et compatibilité {#version-and-compatibility}
+
+Le tableau ci-après présente en détail toutes les versions prises en charge du composant, les versions AEM avec lesquelles les versions du composant sont compatibles et les liens vers la documentation pour les versions précédentes.
+
+| Version du composant | AEM 6.4 | AEM 6.5 | AEM 6.5 LTS | AEM as a Cloud Service |
+|--- |--- |--- |---|---|
+| v2 | - | Compatible | Compatible | Compatible |
+| [v1](/help/components/v1/quick-search.md) | Compatible avec la <br>[version 2.17.4](/help/versions.md) et versions antérieures | Compatible | - | Compatible |
+
+>[!CAUTION]
+>
+>Ce document décrit la version v2 du composant Recherche rapide.
+>Pour plus d’informations sur la version actuelle du composant Recherche rapide, consultez le document [Composant Recherche rapide](/help/components/quick-search.md).
+
+Pour plus d’informations sur les versions et les publications des composants principaux, voir le document sur les [versions des composants principaux](/help/versions.md).
+
+### Détails techniques {#technical-details}
+
+>[!NOTE]
+>
+>La protection du composant Recherche ou de toute application basée sur AEM par rapport aux attaques DOS doit être implémentée à un niveau supérieur, par exemple à l’aide de `mod_security` sur le Dispatcher.
+
+La documentation technique la plus récente sur le composant Recherche rapide [se trouve sur GitHub](https://adobe.com/go/aem_cmp_tech_search_v2_fr).
+
+Vous trouverez plus d’informations sur le développement des composants principaux dans la [documentation relative au développement des composants principaux](/help/developing/overview.md).
+
+## Boîte de dialogue de modification {#edit-dialog}
+
+La boîte de dialogue de modification permet à l’auteur de contenu de définir l’emplacement où doit commencer la recherche dans l’arborescence de contenu.
+
+![Boîte de dialogue de modification du composant Recherche rapide](/help/assets/quick-search-edit.png)
+
+**Rechercher à la racine** - Page racine d’où lancer la recherche. Rechercher à la racine peut être un gabarit principal, une page principale ou une page normale.
+* **ID** : cette option permet de contrôler l’identifiant unique du composant dans le code HTML ainsi que dans la [couche de données](/help/developing/data-layer/overview.md).
+  * Si rien n’est indiqué, un ID unique est généré automatiquement et peut être trouvé en examinant la page obtenue.
+  * Si un ID est spécifié, il incombe à l’auteur de s’assurer qu’il est unique.
+  * La modification de l’ID peut avoir un impact sur le suivi CSS, JS et de couche de données.
+
+>[!NOTE]
+>
+>Si la **Racine de la recherche** n’est pas configurée ou ne peut pas être résolue, la recherche rapide effectue par défaut une recherche sous la page active.
+
+## Boîte de dialogue de conception {#design-dialog}
+
+À l’aide de la boîte de dialogue de conception, le créateur ou la créatrice du modèle peut définir la valeur par défaut pour laquelle la recherche doit commencer dans l’arborescence de contenu, ainsi qu’une taille de jeu de résultats maximale et la longueur minimale du terme de recherche.La boîte de dialogue de conception permet à l’auteur du modèle de définir quelles options de formatage de texte sont disponibles pour les auteurs de contenu.
+
+### Onglet Propriétés {#properties-tab}
+
+![Boîte de dialogue de conception du composant Recherche rapide](/help/assets/quick-search-design.png)
+
+* **Racine de recherche**
+La valeur par défaut de la racine de recherche lorsqu’un auteur de contenu place le composant Recherche rapide sur une page de contenu.
+* **Taille des résultats**
+Le nombre maximal de résultats extraits par une requête de recherche.
+* **Longueur minimale du terme de recherche**
+Longueur minimale du terme de recherche pour démarrer la recherche
+
+>[!NOTE]
+>
+>La **Taille des résultats** et la **Longueur minimum du terme de recherche** ne peuvent être définies qu’en mode conception et, par conséquent, au niveau du modèle, ce qui signifie que les auteurs de contenu ne peuvent pas modifier ces valeurs.
+
+>[!CAUTION]
+>
+>La **Taille des résultats** et la **Longueur minimale du terme de recherche** peuvent avoir un impact sur les performances si elles sont trop élevées ou trop faibles, respectivement.
+
+### Onglet Styles {#styles-tab}
+
+Le composant Recherche rapide prend en charge le [système de style](/help/get-started/authoring.md#component-styling) AEM.
