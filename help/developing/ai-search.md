@@ -26,8 +26,8 @@ Le composant Recherche optimisée par l&#39;IA de contenu fournit aux visiteurs 
 
 ## Prérequis {#prerequisites}
 
-* Au moins un Source de contenu[&#128279;](https://experienceleague.adobe.com/en/docs/experience-manager-content-ai/using/contentsources) déjà créé et avec le statut **Disponible**.
-* La configuration OSGi du client d’IA dédiée au contenu AEM **&#x200B;**&#x200B;(`ContentAIClientImpl`) sur les instances de création et de publication, avec des informations d’identification d’API valides et une valeur **Source de contenu par défaut**. Consultez le document [Configuration d’un projet Adobe Developer Console](https://experienceleague.adobe.com/en/docs/experience-manager-content-ai/using/setup-adc-project) pour savoir comment obtenir des informations d’identification.
+* Au moins un Source de contenu[&#128279;](https://experienceleague.adobe.com/fr/docs/experience-manager-content-ai/using/contentsources) déjà créé et avec le statut **Disponible**.
+* La configuration OSGi du client d’IA dédiée au contenu AEM **&#x200B;**&#x200B;(`ContentAIClientImpl`) sur les instances de création et de publication, avec des informations d’identification d’API valides et une valeur **Source de contenu par défaut**. Consultez le document [Configuration d’un projet Adobe Developer Console](https://experienceleague.adobe.com/fr/docs/experience-manager-content-ai/using/setup-adc-project) pour savoir comment obtenir des informations d’identification.
 
 ## Créer un composant proxy {#proxy-component}
 
@@ -54,10 +54,10 @@ Vos auteurs de contenu peuvent désormais placer le composant Recherche optimis�
 
 * Les requêtes de recherche standard sont traitées par la même couche de récupération que l’index de Source de contenu, renvoyant les pages, fragments ou ressources correspondants à partir de la source configurée.
 * Lorsque le résumé généré par l’IA est activé, le composant appelle en outre le point d’entrée génératif de l’IA dédiée au contenu d’AEM, ancrant la réponse dans le même contenu indexé, et affiche les sources avec le résumé afin que les visiteurs puissent le vérifier.
-* Comme les deux fonctionnalités sont lues à partir du même Source de contenu régi, les résultats et les résumés restent cohérents avec le contenu actuellement indexé. Réexécuter l’acquisition (voir [Contrôle des sources de contenu](https://experienceleague.adobe.com/en/docs/experience-manager-content-ai/using/contentsources)) actualise les deux.
+* Comme les deux fonctionnalités sont lues à partir du même Source de contenu régi, les résultats et les résumés restent cohérents avec le contenu actuellement indexé. Réexécuter l’acquisition (voir [Contrôle des sources de contenu](https://experienceleague.adobe.com/fr/docs/experience-manager-content-ai/using/contentsources)) actualise les deux.
 
 ## Étapes suivantes {#next-steps}
 
-* [Contrôler vos sources de contenu](https://experienceleague.adobe.com/en/docs/experience-manager-content-ai/using/contentsources) — Créez et gérez le Source de contenu dans lequel ce composant effectue des recherches.
-* [Configurer un projet Adobe Developer Console](https://experienceleague.adobe.com/en/docs/experience-manager-content-ai/using/setup-adc-project) — Obtenez les informations d’identification utilisées par la configuration du client IA dédiée au contenu OSGi.
+* [Contrôler vos sources de contenu](https://experienceleague.adobe.com/fr/docs/experience-manager-content-ai/using/contentsources) — Créez et gérez le Source de contenu dans lequel ce composant effectue des recherches.
+* [Configurer un projet Adobe Developer Console](https://experienceleague.adobe.com/fr/docs/experience-manager-content-ai/using/setup-adc-project) — Obtenez les informations d’identification utilisées par la configuration du client IA dédiée au contenu OSGi.
 * [Référence de l’API IA dédiée au contenu](https://developer.adobe.com/experience-cloud/experience-manager-apis/api/experimental/contentai/) — Comprenez les points d’entrée de recherche et de résumé génératif sous-jacents que ce composant appelle.
