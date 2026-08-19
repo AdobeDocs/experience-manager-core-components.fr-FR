@@ -2,10 +2,16 @@
 title: Configuration du composant Recherche optimisée par l'IA de contenu
 description: Le composant Recherche optimisée par l'IA de contenu fournit aux visiteurs de votre site une recherche générée optimisée par l’IA. Découvrez comment activer ce composant pour les auteurs de contenu.
 role: Developer, Admin
-product_v2: id: c45915cf-e157-4af7-a80d-97b905bcb3a5id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
-feature_v2: id: e2c1b6d3-bb7e-4fe8-8c72-f7b403298e91
-role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-topic_v2: id: c18d9e03-ac7d-4811-9c92-3e92ddc70ade
+product_v2:
+  - id: c45915cf-e157-4af7-a80d-97b905bcb3a5
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2:
+  - id: e2c1b6d3-bb7e-4fe8-8c72-f7b403298e91
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2:
+  - id: c18d9e03-ac7d-4811-9c92-3e92ddc70ade
 source-git-commit: 865622469555a773138d3ff1b54138f2b76994b0
 workflow-type: tm+mt
 source-wordcount: 485
@@ -20,8 +26,8 @@ Le composant Recherche optimisée par l&#39;IA de contenu fournit aux visiteurs 
 
 ## Prérequis {#prerequisites}
 
-* Au moins un Source de contenu](https://experienceleague.adobe.com/en/docs/experience-manager-content-ai/using/contentsources) déjà créé et avec le statut **Disponible**.[
-* La configuration OSGi du client d’IA dédiée au contenu AEM **** (`ContentAIClientImpl`) sur les instances de création et de publication, avec des informations d’identification d’API valides et une valeur **Source de contenu par défaut**. Consultez le document [Configuration d’un projet Adobe Developer Console](https://experienceleague.adobe.com/en/docs/experience-manager-content-ai/using/setup-adc-project) pour savoir comment obtenir des informations d’identification.
+* Au moins un Source de contenu[&#128279;](https://experienceleague.adobe.com/en/docs/experience-manager-content-ai/using/contentsources) déjà créé et avec le statut **Disponible**.
+* La configuration OSGi du client d’IA dédiée au contenu AEM **&#x200B;**&#x200B;(`ContentAIClientImpl`) sur les instances de création et de publication, avec des informations d’identification d’API valides et une valeur **Source de contenu par défaut**. Consultez le document [Configuration d’un projet Adobe Developer Console](https://experienceleague.adobe.com/en/docs/experience-manager-content-ai/using/setup-adc-project) pour savoir comment obtenir des informations d’identification.
 
 ## Créer un composant proxy {#proxy-component}
 
