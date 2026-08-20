@@ -15,10 +15,10 @@ role_v2:
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
 topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
-source-git-commit: f7fb04a4420a61d8a4755f2b3f09aad91b12c7eb
+source-git-commit: f939ce7498d9ec1901bea4b5fbf631365ba923fa
 workflow-type: tm+mt
-source-wordcount: 863
-ht-degree: 46%
+source-wordcount: 909
+ht-degree: 41%
 
 ---
 
@@ -43,19 +43,25 @@ Le tableau ci-après présente en détail toutes les versions prises en charge d
 
 | Version du composant | AEM 6.4 | AEM 6.5 | AEM 6.5 LTS | AEM as a Cloud Service |
 |--- |--- |--- |---|---|
-| v3 | - | Compatible | Compatible | Compatible |
+| v3 | - | Compatible* | Compatible* | Compatible |
 | [v2](/help/components/v2/quick-search.md) | - | Compatible | Compatible | Compatible |
 | [v1](/help/components/v1/quick-search.md) | Compatible avec la <br>[version 2.17.4](/help/versions.md) et versions antérieures | Compatible | - | Compatible |
 
-Pour plus d’informations sur les versions et les publications des composants principaux, voir le document sur les [versions des composants principaux](/help/versions.md).
+*Le bouton (bascule) Recherche sémantique n’est disponible qu’avec AEM as a Cloud Service.
 
-### Détails techniques {#technical-details}
+Pour plus d’informations sur les versions et les publications des composants principaux, voir le document [Versions des composants principaux.](/help/versions.md)
+
+## Exemple de sortie de composant {#sample-component-output}
+
+Pour tester le composant Recherche rapide et obtenir des exemples d’options de configuration, ainsi que des sorties HTML et JSON, consultez la [bibliothèque de composants.](https://adobe.com/go/aem_cmp_library_search_fr)
+
+## Détails techniques {#technical-details}
 
 >[!NOTE]
 >
 >La protection du composant Recherche ou de toute application basée sur AEM par rapport aux attaques DOS doit être implémentée à un niveau supérieur, par exemple à l’aide de `mod_security` sur le Dispatcher.
 
-La documentation technique la plus récente sur le composant Recherche rapide [se trouve sur GitHub](https://adobe.com/go/aem_cmp_tech_search_v2_fr).
+La documentation technique la plus récente sur le composant Recherche rapide [est disponible sur GitHub.](https://adobe.com/go/aem_cmp_tech_search_v3)
 
 Vous trouverez plus d’informations sur le développement des composants principaux dans la [documentation relative au développement des composants principaux](/help/developing/overview.md).
 

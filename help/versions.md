@@ -21,10 +21,10 @@ topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
   - id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
-source-git-commit: 851de520ea02d9d47366967e70174eca714dd348
+source-git-commit: 20b54716af29ed8f283b3e6fffc2682dfee0d999
 workflow-type: tm+mt
-source-wordcount: 4192
-ht-degree: 96%
+source-wordcount: 4244
+ht-degree: 95%
 
 ---
 
@@ -46,6 +46,7 @@ Le tableau suivant, dont le contenu est [disponible sur GitHub avec les détails
 |---|---|---|---|---|---|---|---|
 | [2.32.4](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.32.4) | Cette version corrige un bug. | - | 6.5.21.0+ | 6.5 LTS (disponibilité générale) | En continu | 8, 11, 17, 21 | 15 Juillet 2026 |
 | [2.32.2](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.32.2) | Cette version corrige les bugs des versions précédentes des bibliothèques clientes de recherche. | - | 6.5.21.0+ | 6.5 LTS (disponibilité générale) | En continu | 8, 11, 17, 21 | 15 Juillet 2026 |
+| [2.32.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.32.0) | Cette version présente le [composant Recherche optimisée par l&#39;IA de contenu](/help/components/ai-search.md) une nouvelle version du [composant Recherche rapide](/help/components/quick-search.md) avec un bouton Recherche optimisée par l&#39;IA facultatif et résout, entre autres, les problèmes de localisation. | - | 6.5.21.0+ | 6.5 LTS (disponibilité générale) | En continu | 8, 11, 17, 21 | 14 Juillet 2026 |
 | [2.32.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.32.0) | Cette version a introduit une nouvelle version du [composant Recherche rapide](/help/components/quick-search.md) avec un bouton Recherche optimisée par l&#39;IA facultatif et résout, entre autres, les problèmes de localisation. | - | 6.5.21.0+ | 6.5 LTS (disponibilité générale) | En continu | 8, 11, 17, 21 | 14 Juillet 2026 |
 | [2.31.2](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.31.2) | Cette version corrige les bugs en raison desquels certaines informations n’étaient pas conservées correctement. | - | 6.5.21.0+ | 6.5 LTS (disponibilité générale) | En continu | 8, 11, 17, 21 | 22 Juin 2026 |
 | [2.31.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.31.0) | Cette version a introduit la prise en charge des données JSON-ID pour le composant Page ainsi qu’une amélioration des performances de plusieurs autres composants en plus de nombreux correctifs. | - | 6.5.21.0+ | 6.5 LTS (disponibilité générale) | En continu | 8, 11, 17, 21 | 19 Mai 2026 |
