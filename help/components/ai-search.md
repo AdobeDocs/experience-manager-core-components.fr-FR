@@ -55,7 +55,7 @@ Pour tester le composant Recherche optimisée par l&#39;IA de contenu et obtenir
 
 ## Détails techniques {#technical-details}
 
-La documentation technique la plus récente sur le composant Recherche optimisée par l&#39;IA de contenu [se trouve sur GitHub.](https://adobe.com/go/aem_cmp_tech_ai_search_v1).
+La documentation technique la plus récente sur le composant Recherche optimisée par l&#39;IA de contenu [se trouve sur GitHub.](https://adobe.com/go/aem_cmp_tech_ai_search_v1_fr).
 
 Vous trouverez plus d’informations sur le développement des composants principaux dans la [documentation relative au développement des composants principaux](/help/developing/overview.md).
 
