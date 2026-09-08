@@ -21,10 +21,10 @@ topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
   - id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
-source-git-commit: 20b54716af29ed8f283b3e6fffc2682dfee0d999
+source-git-commit: 2bcb4b4397044b709cabaa5bf18efa235c56e7ec
 workflow-type: tm+mt
-source-wordcount: 4244
-ht-degree: 95%
+source-wordcount: 4308
+ht-degree: 94%
 
 ---
 
@@ -44,6 +44,8 @@ Le tableau suivant, dont le contenu est [disponible sur GitHub avec les détails
 
 | Mise à jour | Description | AEM 6.4 | AEM 6.5 | AEM 6.5 LTS | AEM as a Cloud Service | Java | Date de publication |
 |---|---|---|---|---|---|---|---|
+| [2.32.8](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.32.8) | Cette version active le [composant Recherche optimisée par l&#39;IA de contenu](/help/components/ai-search.md) sur AMS. | - | 6.5.21.0+ | 6.5 LTS (disponibilité générale) | En continu | 8, 11, 17, 21 | 8 Septembre 2026 |
+| [2.32.6](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.32.6) | Cette version corrige un bug. | - | 6.5.21.0+ | 6.5 LTS (disponibilité générale) | En continu | 8, 11, 17, 21 | 10 Août 2026 |
 | [2.32.4](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.32.4) | Cette version corrige un bug. | - | 6.5.21.0+ | 6.5 LTS (disponibilité générale) | En continu | 8, 11, 17, 21 | 15 Juillet 2026 |
 | [2.32.2](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.32.2) | Cette version corrige les bugs des versions précédentes des bibliothèques clientes de recherche. | - | 6.5.21.0+ | 6.5 LTS (disponibilité générale) | En continu | 8, 11, 17, 21 | 15 Juillet 2026 |
 | [2.32.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.32.0) | Cette version présente le [composant Recherche optimisée par l&#39;IA de contenu](/help/components/ai-search.md) une nouvelle version du [composant Recherche rapide](/help/components/quick-search.md) avec un bouton Recherche optimisée par l&#39;IA facultatif et résout, entre autres, les problèmes de localisation. | - | 6.5.21.0+ | 6.5 LTS (disponibilité générale) | En continu | 8, 11, 17, 21 | 14 Juillet 2026 |
