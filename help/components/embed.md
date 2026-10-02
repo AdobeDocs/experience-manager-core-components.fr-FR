@@ -6,22 +6,27 @@ exl-id: 985fa304-70a3-4329-957e-76d1832a06f1
 TQID: https://experienceleague.adobe.com/CbY4mDdS51yLd8qgtm4kloT76qZoReqdcmlylQLjZRM
 product_v2:
   - id: c45915cf-e157-4af7-a80d-97b905bcb3a5
+    internal-label: Experience Manager Sites
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
 feature_v2:
   - id: e2c1b6d3-bb7e-4fe8-8c72-f7b403298e91
+    internal-label: Authoring
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
 topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
-source-git-commit: 73aa5234ac63fa3be99feebce448bb6722513838
+    internal-label: Security
+source-git-commit: 404cb0693a33ee0f76ca33fe8dd3aad0785fd55e
 workflow-type: tm+mt
-source-wordcount: 1421
+source-wordcount: '1421'
 ht-degree: 100%
-
 ---
-
 # Composant Incorporer {#embed-component}
 
 Le composant Incorporer des composants principaux permet d’incorporer du contenu externe dans une page de contenu AEM.
@@ -163,12 +168,12 @@ La boîte de dialogue de conception permet à l’auteur du modèle de définir 
 ![Onglet YouTube de la boîte de dialogue de conception du composant incorporé](/help/assets/embed-design-youtube.png)
 
 * **Autoriser la configuration du comportement Silence** : permet à l’auteur du contenu de configurer l’option **Activer Silence** dans le composant lorsque le type d’incorporation YouTube est sélectionné.
-   * **Valeur par défaut du comportement Muet** : définit automatiquement l’option **Activer Silence** lorsque le type d’incorporation YouTube est sélectionné.
+  * **Valeur par défaut du comportement Muet** : définit automatiquement l’option **Activer Silence** lorsque le type d’incorporation YouTube est sélectionné.
 * **Autoriser la configuration du comportement Lecture automatique** : permet à l’auteur du contenu de configurer l’option **Activer la lecture automatique** dans le composant lorsque le type d’incorporation YouTube est sélectionné.
-   * **Valeur par défaut de la lecture automatique** : définit automatiquement l’option **Activer la lecture automatique** lorsque le type d’incorporation YouTube est sélectionné.
+  * **Valeur par défaut de la lecture automatique** : définit automatiquement l’option **Activer la lecture automatique** lorsque le type d’incorporation YouTube est sélectionné.
 * **Autoriser la configuration du comportement Boucle** : permet à l’auteur du contenu de configurer l’option **Activer le bouclage** dans le composant lorsque le type d’incorporation YouTube est sélectionné.
-   * **Valeur par défaut de Boucle** : définit automatiquement l’option **Activer le bouclage** lorsque le type d’incorporation YouTube est sélectionné.
+  * **Valeur par défaut de Boucle** : définit automatiquement l’option **Activer le bouclage** lorsque le type d’incorporation YouTube est sélectionné.
 * **Autoriser la configuration de la lecture intégrée (iOS)** : permet à l’auteur du contenu de configurer l’option **Activer la lecture intégrée (iOS)** dans le composant lorsque le type d’incorporation YouTube est sélectionné.
-   * **Valeur par défaut de la lecture intégrée (iOS)** : définit automatiquement l’option **Activer la lecture intégrée (iOS)** lorsque le type d’incorporation YouTube est sélectionné.
+  * **Valeur par défaut de la lecture intégrée (iOS)** : définit automatiquement l’option **Activer la lecture intégrée (iOS)** lorsque le type d’incorporation YouTube est sélectionné.
 * **Autoriser la configuration des vidéos connexes** : permet à l’auteur du contenu de configurer l’option **Vidéos connexes sans restriction** dans le composant lorsque le type d’incorporation YouTube est sélectionné.
-   * **Valeur par défaut des vidéos connexes sans restriction** : définit automatiquement l’option **Vidéos connexes sans restriction** lorsque le type d’incorporation YouTube est sélectionné.
+  * **Valeur par défaut des vidéos connexes sans restriction** : définit automatiquement l’option **Vidéos connexes sans restriction** lorsque le type d’incorporation YouTube est sélectionné.
