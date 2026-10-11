@@ -4,25 +4,37 @@ description: Découvrez le mécanisme de génération front-end facultatif et d�
 feature: Core Components, AEM Project Archetype
 role: Developer, Admin
 exl-id: 99132b49-bd06-4ac2-9348-12c0dfdfe8b2
-TQID: https://experienceleague.adobe.com/OIZesRo9peaI6BNsCSzNJi8BzhRhaOH-KaDw9tefjH4
+TQID: 'https://experienceleague.adobe.com/OIZesRo9peaI6BNsCSzNJi8BzhRhaOH-KaDw9tefjH4'
 product_v2:
   - id: c45915cf-e157-4af7-a80d-97b905bcb3a5
+    internal-label: Experience Manager Sites
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
+feature_v2:
+  - id: d9d38edd-df1b-480c-8f5e-72b62576f390
+    internal-label: Site and page features
+  - id: c124fa01-25c5-42ec-adf6-21d1c114058b
+    internal-label: Developer tools
+subfeature_v2:
+  - id: c43ff1f6-5a6d-4e8c-b3cc-6bdb3fa6e092
+    internal-label: Core components
+  - id: ca9acb56-1fd9-4553-930f-d71ab7d4045d
+    internal-label: AEM Project Archetype
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-source-git-commit: 73aa5234ac63fa3be99feebce448bb6722513838
+    internal-label: Developer
+source-git-commit: 025b8134f7675b4515f4586910a94a2732bfa2ee
 workflow-type: tm+mt
-source-wordcount: 710
+source-wordcount: '710'
 ht-degree: 100%
-
 ---
-
 # Développement front-end avec l’archétype de projet AEM {#front-end}
 
 L’archétype de projet AEM comprend un mécanisme de génération front-end dédié et facultatif basé sur Webpack. Ainsi, le module ui.frontend devient l’emplacement central de toutes les ressources front-end du projet, y compris les fichiers JavaScript et CSS. Pour tirer pleinement parti de cette fonctionnalité utile et flexible, il est essentiel de savoir comment le développement front-end s’intègre à un projet AEM.
 
-Ce document se concentre sur les schémas d’utilisation généraux du module de génération front-end et sur ce qu’il fait pour vous. Pour obtenir des instructions techniques et des options de génération détaillées, consultez la documentation du référentiel GitHub de l’archétype.
+Ce document se concentre sur les modes d’utilisation généraux du module de génération front-end et sur ce qu’il fait pour vous. Pour obtenir des instructions techniques et des options de génération détaillées, consultez la documentation du référentiel GitHub de l’archétype.
 
 >[!TIP]
 >
@@ -32,7 +44,7 @@ Ce document se concentre sur les schémas d’utilisation généraux du module d
 
 En termes beaucoup plus simples, les projets AEM peuvent être considérés comme comprenant deux parties distinctes, mais connexes :
 
-* Développement principal générant la logique d’AEM et créant des bibliothèques Java, des services OSGi, etc.
+* Développement back-end générant la logique d’AEM et créant des bibliothèques Java, des services OSGi, etc.
 * Développement front-end permettant de gérer la présentation et le comportement du site Web obtenu, et de créer des bibliothèques JavaScript et CSS
 
 Ces deux processus de développement étant axés sur différentes parties du projet, les développements front-end et back-end peuvent être réalisés en parallèle.
@@ -47,18 +59,18 @@ Quel que soit le workflow front-end que vous décidez de mettre en œuvre pour v
 
 ## Workflows front-end possibles {#possible-workflows}
 
-Le module de génération front-end est un outil utile et très flexible, mais n’impose aucun avis en particulier sur la manière dont il doit être utilisé. Vous trouverez ci-dessous deux exemples d’utilisation *possibles*, mais les besoins à satisfaire pour votre projet personnel peuvent exiger d’autres modèles d’utilisation.
+Le module de génération front-end est un outil utile et très flexible, mais n’impose aucune approche particulière quant à la manière dont il doit être utilisé. Vous trouverez ci-dessous deux exemples d’utilisation *possibles*, mais les besoins à satisfaire pour votre projet personnel peuvent exiger d’autres modèles d’utilisation.
 
 ### Utilisation du serveur de développement statique Webpack {#using-webpack}
 
 Grâce à Webpack, vous pouvez mettre en forme et développer vos contenus selon les résultats statiques des pages Web AEM dans le module ui.frontend.
 
 1. Aperçu de la page dans AEM à l’aide du mode d’aperçu de page ou transmission `wcmmode=disabled` de l’URL
-1. Affichage de la source de la page et enregistrement au format HTML statique dans le module ui.frontend
+1. Afficher la source de la page et l’enregistrer au format HTML statique dans le module ui.frontend
 1. [Lancez Webpack](#webpack-dev-server), puis commencez à mettre en forme et à générer les codes JavaScript et CSS requis.
 1. Exécutez `npm run dev` pour générer les bibliothèques client.
 
-Dans ce processus, un développeur AEM peut exécuter les première et deuxième étapes, puis transmettre le code HTML statique au développeur front-end qui se développe selon les résultats HTML AEM.
+Dans ce processus, un développeur ou une développeuse AEM peut exécuter les première et deuxième étapes, puis transmettre le code HTML statique au développeur ou à la développeuse front-end, qui développe à partir de la sortie HTML d’AEM.
 
 >[!TIP]
 >

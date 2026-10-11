@@ -3,13 +3,16 @@ title: Activation et utilisation de modèles de validation d’entrée de texte 
 description: Découvrez comment configurer des politiques pour les modèles afin d’afficher des modèles de validation tels que des numéros de téléphone, des numéros de sécurité sociale et des codes postaux, puis les utiliser dans vos formulaires adaptatifs.
 hide: true
 exl-id: e4500666-1346-4558-861d-da9541dcef51
-source-git-commit: 59064c359aea14af99675709bbddf9a933a959df
+product_v2:
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
+  - id: c45915cf-e157-4af7-a80d-97b905bcb3a5
+    internal-label: Experience Manager Sites
+source-git-commit: 025b8134f7675b4515f4586910a94a2732bfa2ee
 workflow-type: tm+mt
 source-wordcount: '861'
 ht-degree: 100%
-
 ---
-
 # Activation et utilisation de modèles de validation d’entrée de texte dans les formulaires adaptatifs Adobe Experience Manager
 
 ## Vue d’ensemble
@@ -113,13 +116,13 @@ Pour vérifier que les modèles de validation fonctionnent correctement :
 ## Résolution des problèmes
 
 - **Problème :** les modèles de validation n’apparaissent pas dans le composant de formulaire.
-   - **Solution :** assurez-vous que la politique du modèle a été enregistrée correctement et que vous utilisez le modèle correct lors de la création du formulaire.
+  - **Solution :** assurez-vous que la politique du modèle a été enregistrée correctement et que vous utilisez le modèle correct lors de la création du formulaire.
 
 - **Problème :** impossible d’accéder à l’éditeur de modèle.
-   - **Solution :** vérifiez que vous disposez des autorisations nécessaires pour modifier les modèles (appartenance au groupe `template-authors`).
+  - **Solution :** vérifiez que vous disposez des autorisations nécessaires pour modifier les modèles (appartenance au groupe `template-authors`).
 
 - **Problème :** le composant Entrée de texte ne valide pas correctement la saisie.
-   - **Solution :** Vérifiez à nouveau les paramètres du modèle de validation dans l’onglet Validation du composant et assurez-vous que le modèle correct est sélectionné.
+  - **Solution :** Vérifiez à nouveau les paramètres du modèle de validation dans l’onglet Validation du composant et assurez-vous que le modèle correct est sélectionné.
 
 ## Étapes suivantes
 
