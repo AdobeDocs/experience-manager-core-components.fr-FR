@@ -3,13 +3,23 @@ title: Composant Principal De Forms Adaptatif - Choix D’Images
 description: Utilisation du composant principal Choix d’image.
 role: Developer, Admin, User
 hide: true
-source-git-commit: 0af65c80f9cc58c4ba48d5b3dc7a026820bd2833
+product_v2:
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
+  - id: c45915cf-e157-4af7-a80d-97b905bcb3a5
+    internal-label: Experience Manager Sites
+role_v2:
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+source-git-commit: 025b8134f7675b4515f4586910a94a2732bfa2ee
 workflow-type: tm+mt
 source-wordcount: '1318'
 ht-degree: 58%
-
 ---
-
 # Champ ImageChoice de formulaire adaptatif {#image-choice}
 
 Le composant Choix d’image d’un formulaire permet aux utilisateurs et aux utilisatrices d’effectuer des sélections en fonction de représentations visuelles, telles que des images, plutôt que des options textuelles. Il présente une série d&#39;images représentant chacune un choix distinct. Les utilisateurs peuvent sélectionner une ou plusieurs images, et des commentaires visuels indiquent leur sélection. Ce composant est utile pour des options telles que les variantes de produit, les réponses à un questionnaire ou les images de profil. Il améliore l’interaction et la clarté des utilisateurs et utilisatrices en offrant une méthode de sélection intuitive et attrayante visuellement.
@@ -79,7 +89,7 @@ Vous pouvez facilement personnaliser l’expérience de votre composant Choix d�
 
 ![Choix de l’image de l’onglet Validation](validation-tab-image-choice.png)
 
-- **Obligatoire** : Sélectionnez cette option si vous souhaitez afficher le composant dans un formulaire adaptatif. Après avoir sélectionné cette option, vous devez effectuer une sélection avant de poursuivre l’envoi du formulaire. Lorsque cette option est sélectionnée, vous ne pouvez pas sélectionner les options **Masquer le composant** ou **Désactiver le composant** sous l’onglet ** De base.
+- **Obligatoire** : Sélectionnez cette option si vous souhaitez afficher le composant dans un formulaire adaptatif. Après avoir sélectionné cette option, vous devez effectuer une sélection avant de poursuivre l’envoi du formulaire. Vous ne pouvez pas sélectionner les options **Masquer le composant** ou **Désactiver le composant dans l’onglet** De base** lorsque cette option est sélectionnée.
 
 - **Message d’erreur** - Cette option vous permet de saisir un message qui s’affiche si la case **Obligatoire** est cochée et que le champ de choix de l’image n’est pas sélectionné.
 
@@ -102,8 +112,8 @@ Vous pouvez facilement personnaliser l’expérience de votre composant Choix d�
 ![Choix des images d’accessibilité](accessibility-imagechoice.png)
 
 - **Texte pour les lecteurs d’écran** : le texte destiné aux lecteurs d’écran fait référence à un texte supplémentaire conçu pour être lu par les technologies d’assistance, comme les lecteurs d’écran, utilisées par les personnes malvoyantes. Ce texte fournit une description audio de l’objectif du champ de formulaire et peut inclure des informations sur le titre, la description, le nom du champ et tout message pertinent (texte personnalisé). Le texte du lecteur d’écran permet de s’assurer que le formulaire est accessible à tous les utilisateurs et utilisatrices, y compris celles et ceux ayant une déficience visuelle, et leur permet de bien comprendre le champ du formulaire et ses exigences.
-   - **Texte personnalisé** : sélectionnez cette option pour utiliser le texte personnalisé pour les libellés d’accessibilité ARIA. Cette option affiche la boîte de dialogue Texte personnalisé. Vous pouvez ajouter des informations pertinentes dans la boîte de dialogue Texte personnalisé.
-   - **Titre** : sélectionnez cette option pour utiliser le titre pour les libellés d’accessibilité ARIA.
+  - **Texte personnalisé** : sélectionnez cette option pour utiliser le texte personnalisé pour les libellés d’accessibilité ARIA. Cette option affiche la boîte de dialogue Texte personnalisé. Vous pouvez ajouter des informations pertinentes dans la boîte de dialogue Texte personnalisé.
+  - **Titre** : sélectionnez cette option pour utiliser le titre pour les libellés d’accessibilité ARIA.
 
 ## Articles connexes {#related-articles}
 

@@ -1,41 +1,56 @@
 ---
 title: Utilisation de la couche de données client Adobe avec les composants principaux
-description: Utilisation de la couche de données client Adobe avec les composants principaux
+description: Utilisation de Adobe Client Data Layer avec les composants principaux
 feature: Core Components, Adobe Client Data Layer
 role: Developer, Admin
 exl-id: 55c984d3-deb7-4eda-a81d-7768791d2b46
-TQID: https://experienceleague.adobe.com/CwXfehtriHzjTKA7cCwCb0HCcAWTm5I49UF3x3rrc3c
+TQID: 'https://experienceleague.adobe.com/CwXfehtriHzjTKA7cCwCb0HCcAWTm5I49UF3x3rrc3c'
 product_v2:
   - id: c45915cf-e157-4af7-a80d-97b905bcb3a5
+    internal-label: Experience Manager Sites
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
 feature_v2:
   - id: ae478996-b206-4712-9b0c-dc78a2644453
+    internal-label: Integrations
   - id: c124fa01-25c5-42ec-adf6-21d1c114058b
+    internal-label: Developer tools
   - id: d429a63e-ade4-4117-b04e-9b996d1c94ef
+    internal-label: Integrations
   - id: f2d27a5f-0d67-4d85-8a24-86a8d8a3574b
+    internal-label: Developer tools
+  - id: d9d38edd-df1b-480c-8f5e-72b62576f390
+    internal-label: Site and page features
 subfeature_v2:
   - id: a0ab86ed-7176-40e5-bccb-a2cc1295200c
+    internal-label: Edge Delivery Services
   - id: a94e5c13-4138-47ec-b9c8-e804e17aaca2
+    internal-label: Adobe Client Data Layer
   - id: ca9acb56-1fd9-4553-930f-d71ab7d4045d
+    internal-label: AEM Project Archetype
   - id: cd14456d-a492-4b5c-8a82-1fbd4460dbd2
+    internal-label: Java Content Repository
   - id: f88183b7-5ea5-436c-ac46-96b53f0281ea
+    internal-label: Edge Delivery Services
+  - id: c43ff1f6-5a6d-4e8c-b3cc-6bdb3fa6e092
+    internal-label: Core components
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-source-git-commit: 73aa5234ac63fa3be99feebce448bb6722513838
+    internal-label: Developer
+source-git-commit: 025b8134f7675b4515f4586910a94a2732bfa2ee
 workflow-type: tm+mt
-source-wordcount: 1024
+source-wordcount: '1024'
 ht-degree: 100%
-
 ---
+# Utilisation de Adobe Client Data Layer avec les composants principaux {#data-layer-core-components}
 
-# Utilisation de la couche de données client Adobe avec les composants principaux {#data-layer-core-components}
-
-L’objectif de la couche de données client Adobe est de réduire les efforts d’instrumentalisation des sites web en fournissant une méthode normalisée afin d’exposer et d’accéder à tout type de données pour tout script.
+L’objectif de Adobe Client Data Layer est de réduire les efforts d’instrumentation des sites web en fournissant une méthode normalisée afin d’exposer et d’accéder à tout type de données pour tout script.
 
 La couche de données client Adobe est indépendante de la plateforme, mais elle est entièrement intégrée aux composants principaux pour l’utilisation avec AEM.
 
-Tout comme les composants principaux, le code de la couche de données client Adobe est disponible sur GitHub avec sa documentation destinée aux développeurs. Ce document donne un aperçu de la façon dont les composants principaux interagissent avec la couche de données ; les détails techniques complets sont disponibles dans la documentation GitHub.
+Tout comme les composants principaux, le code de la couche de données client Adobe est disponible sur GitHub avec sa documentation destinée aux développeurs. Ce document donne une vue d’ensemble de la façon dont les composants principaux interagissent avec la couche de données ; les détails techniques complets sont disponibles dans la documentation GitHub.
 
 >[!TIP]
 >
@@ -139,7 +154,7 @@ id: {                   // component ID
 
 >[!NOTE]
 >
->Ce schéma est le schéma d’élément de composant générique utilisé comme modèle de base pour plusieurs composants principaux. Cela ne garantit pas que tous les composants répertoriés renseigneront tous ces champs sur chaque élément.
+>Ce schéma est le schéma d’élément de composant générique utilisé comme modèle de base pour plusieurs composants principaux. Cela ne garantit pas que chaque composant répertorié renseigne tous ces champs pour chaque élément.
 
 L’[événement](#events) suivant correspond au schéma d’élément de composant/conteneur :
 
@@ -301,7 +316,7 @@ Les tableaux suivants répertorient les composants principaux standard qui décl
 
 ### Infos sur le chemin de l’événement {#event-path-info}
 
-Chaque événement de la couche de données déclenché par un composant principal d’AEM inclura une charge utile associée à l’objet JSON suivant :
+Chaque événement de la couche de données déclenché par un composant principal d’AEM inclura une payload avec l’objet JSON suivant :
 
 ```json
 eventInfo: {
@@ -330,7 +345,7 @@ window.adobeDataLayer.push(function (dl) {
 
 ## Tutoriel
 
-Souhaitez-vous explorer plus en détail la couche de données et les composants principaux ? [Consultez ce tutoriel pratique](https://experienceleague.adobe.com/docs/experience-manager-learn/sites/integrations/adobe-client-data-layer/data-layer-overview.html?lang=fr).
+Souhaitez-vous explorer plus en détail la couche de données et les composants principaux ? [Consultez ce tutoriel pratique](https://experienceleague.adobe.com/docs/experience-manager-learn/sites/integrations/adobe-client-data-layer/data-layer-overview.html?lang=fr).
 
 >[!TIP]
 >

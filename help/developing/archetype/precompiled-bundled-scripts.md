@@ -1,45 +1,58 @@
 ---
 title: Scripts groupés précompilés
-description: Découvrez comment déployer vos scripts de composant à l’aide de lots OSGi vers Adobe Experience Manager Cloud Service.
+description: Découvrez comment déployer vos scripts de composant à l’aide de bundles OSGi vers Adobe Experience Manager Cloud Service.
 feature: Core Components, AEM Project Archetype
 role: Developer, Admin
 exl-id: 3edc388f-01b2-45cc-bd56-f22e5a5a8624
-TQID: https://experienceleague.adobe.com/CRIKInyfl-kbar3LUOs8kHFaXO9L4kgYf8pXIopaWK0
+TQID: 'https://experienceleague.adobe.com/CRIKInyfl-kbar3LUOs8kHFaXO9L4kgYf8pXIopaWK0'
 product_v2:
   - id: c45915cf-e157-4af7-a80d-97b905bcb3a5
+    internal-label: Experience Manager Sites
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
 feature_v2:
   - id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+    internal-label: APIs
+  - id: d9d38edd-df1b-480c-8f5e-72b62576f390
+    internal-label: Site and page features
+  - id: c124fa01-25c5-42ec-adf6-21d1c114058b
+    internal-label: Developer tools
+subfeature_v2:
+  - id: c43ff1f6-5a6d-4e8c-b3cc-6bdb3fa6e092
+    internal-label: Core components
+  - id: ca9acb56-1fd9-4553-930f-d71ab7d4045d
+    internal-label: AEM Project Archetype
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
-source-git-commit: 73aa5234ac63fa3be99feebce448bb6722513838
+    internal-label: Metadata
+source-git-commit: 025b8134f7675b4515f4586910a94a2732bfa2ee
 workflow-type: tm+mt
-source-wordcount: 416
+source-wordcount: '416'
 ht-degree: 100%
-
 ---
-
 # Scripts groupés précompilés {#precompiled-bundled-scripts}
 
-AEM as a Cloud Service prend en charge le déploiement des scripts de composant [`ui.apps`](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/developing/aem-project-content-package-structure.html?lang=fr#code-packages-%2F-osgi-bundles) en tant que scripts groupés précompilés. Cela permet aux développeurs de précompiler leurs scripts au moment de la création et de les compresser en tant que lots OSGi.
+AEM as a Cloud Service prend en charge le déploiement des scripts de composant [`ui.apps`](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/developing/aem-project-content-package-structure.html?lang=fr#code-packages-%2F-osgi-bundles) en tant que scripts groupés précompilés. Cela permet aux développeurset développeuses de précompiler leurs scripts au moment de la création et de les packager sous forme de lots OSGi.
 
-## Avantages du déploiement de scripts précompilés via des lots OSGi {#advantages}
+## Avantages du déploiement de scripts précompilés via des bundles OSGi {#advantages}
 
 Le déploiement de vos scripts en tant que scripts groupés précompilés présente les avantages suivants :
 
 + La compilation de scripts au moment de la création permet aux développeurs et développeuses de découvrir des erreurs tôt dans le processus de développement.
-+ Les dépendances de script API Java sont explicitement définies via les en-têtes des lots `Import-Package` et `Export-Package`.
-+ L’héritage (via `sling:resourceSuperType`) et la délégation à d’autres types de ressources (via l’élément de bloc `data-sly-resource` HTL ou via la balise `sling:include` JSP, par exemple) peuvent être mappés via les métadonnées du lot.
++ Les dépendances de script API Java sont explicitement définies via les en-têtes des bundles `Import-Package` et `Export-Package`.
++ L’héritage (via `sling:resourceSuperType`) et la délégation à d’autres types de ressources (via l’élément de bloc `data-sly-resource` HTL ou via la balise `sling:include` JSP, par exemple) peuvent être mappés via les métadonnées du bundle.
 + Le contrôle de version du type de ressource peut être appliqué de la même manière que les API Java.
 
 ## Précompilation et imports de package {#precompilation}
 
 [`htl-maven-plugin`](https://sling.apache.org/components/htl-maven-plugin/index.html) peut valider la syntaxe des scripts HTL, mais il peut également être utilisé pour transférer les scripts HTL dans des classes Java. Ils sont ensuite ajoutés au dossier `generated-sources` de votre projet Maven et récupérés par le `maven-compiler-plugin`.
 
-Vous pouvez ajouter [`bnd-maven-plugin`](https://github.com/bndtools/bnd/tree/master/maven/bnd-maven-plugin) afin de générer les métadonnées du lot OSGi pour les importations d’API Java.
+Vous pouvez ajouter [`bnd-maven-plugin`](https://github.com/bndtools/bnd/tree/master/maven/bnd-maven-plugin) afin de générer les métadonnées du bundle OSGi pour les importations d’API Java.
 
 ## Héritage et délégation {#inheritance-delegation}
 
