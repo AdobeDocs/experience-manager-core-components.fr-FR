@@ -34,7 +34,7 @@ Le composant Recherche optimisée par l&#39;IA de contenu fournit aux visiteurs 
 
 ## Utilisation {#usage}
 
-Le composant Recherche optimisée par l&#39;IA de contenu permet aux visiteurs de rechercher un [Content Source](https://experienceleague.adobe.com/en/docs/experience-manager-content-ai/using/contentsources) directement à partir d’une page et éventuellement d’afficher un résumé des résultats généré par l’IA. Il associe une zone de recherche de texte intégral/sémantique standard à un panneau **Afficher le résumé généré par l’IA** pouvant être activé/désactivé, optimisé par l’IA dédiée au contenu d’AEM.
+Le composant Recherche optimisée par l&#39;IA de contenu permet aux visiteurs de rechercher un [Content Source](https://experienceleague.adobe.com/fr/docs/experience-manager-content-ai/using/contentsources) directement à partir d’une page et éventuellement d’afficher un résumé des résultats généré par l’IA. Il associe une zone de recherche de texte intégral/sémantique standard à un panneau **Afficher le résumé généré par l’IA** pouvant être activé/désactivé, optimisé par l’IA dédiée au contenu d’AEM.
 
 La boîte de dialogue [Modifier](#edit-dialog) permet à l’auteur de contenu de définir la portée du contenu de la recherche, le comportement de la recherche et les paramètres génératifs. Il n’existe pas de boîte de dialogue de conception, car aucun paramètre n’est disponible au niveau du modèle.
 
@@ -65,7 +65,7 @@ Pour tester le composant Recherche optimisée par l&#39;IA de contenu et obtenir
 
 ## Détails techniques {#technical-details}
 
-La documentation technique la plus récente sur le composant Recherche optimisée par l&#39;IA de contenu [se trouve sur GitHub.](https://adobe.com/go/aem_cmp_tech_ai_search_v1).
+La documentation technique la plus récente sur le composant Recherche optimisée par l&#39;IA de contenu [se trouve sur GitHub.](https://adobe.com/go/aem_cmp_tech_ai_search_v1_fr).
 
 Vous trouverez plus d’informations sur le développement des composants principaux dans la [documentation relative au développement des composants principaux](/help/developing/overview.md).
 
@@ -88,7 +88,7 @@ La boîte de dialogue de modification permet à l’auteur de contenu de défini
   * **PERSONNALISÉ** - Une source enregistrée en dehors des pipelines d’ingestion d’AEM
 * **Sources de contenu** - Définit le Source de contenu dans lequel ce composant effectue une recherche.
   * Les entrées disponibles correspondent aux sources de contenu qui existent déjà et qui sont **disponibles** et correspondent également au type défini dans **Type de Source de contenu**
-  * Pour plus d’informations, consultez le document [Configurer et gérer vos sources d’IA dédiée au contenu](https://experienceleague.adobe.com/en/docs/experience-manager-content-ai/using/contentsources).
+  * Pour plus d’informations, consultez le document [Configurer et gérer vos sources d’IA dédiée au contenu](https://experienceleague.adobe.com/fr/docs/experience-manager-content-ai/using/contentsources).
 
 ### Onglet Comportement de recherche {#search-behavior}
 
