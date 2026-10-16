@@ -6,37 +6,47 @@ exl-id: 7d4dbe46-4013-4217-b815-cdb1462072c6
 TQID: https://experienceleague.adobe.com/XTlpl5LlUcde1kvtWXPWtZczkafTGRk2g2OZ6MBDaRY
 product_v2:
   - id: c45915cf-e157-4af7-a80d-97b905bcb3a5
+    internal-label: Experience Manager Sites
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
 feature_v2:
   - id: ae478996-b206-4712-9b0c-dc78a2644453
+    internal-label: Integrations
   - id: d429a63e-ade4-4117-b04e-9b996d1c94ef
+    internal-label: Integrations
   - id: e2c1b6d3-bb7e-4fe8-8c72-f7b403298e91
+    internal-label: Authoring
 subfeature_v2:
   - id: a94e5c13-4138-47ec-b9c8-e804e17aaca2
+    internal-label: Adobe Client Data Layer
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+    internal-label: Metadata
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
-source-git-commit: 2bcb4b4397044b709cabaa5bf18efa235c56e7ec
+    internal-label: Accessibility
+source-git-commit: 16bb25a40209343edaeddb9948a58d921d3defe3
 workflow-type: tm+mt
-source-wordcount: 4308
-ht-degree: 94%
-
+source-wordcount: '4354'
+ht-degree: 93%
 ---
-
 # Versions des composants principaux {#core-components-versions}
 
 Les composants principaux sont compatibles avec les installations [AEM as a Cloud Service](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/landing/home.html?lang=fr) et [AEM On-premise](https://experienceleague.adobe.com/docs/experience-manager-65/user-guide/home.html?lang=fr).
 
 ## Historique des versions et compatibilité {#release-history-and-compatibility}
 
-Les composants principaux sont conçus pour être flexibles et compatibles avec toutes les versions d’AEM prises en charge. C’est pourquoi une mise à jour des composants peut contenir plusieurs versions du même composant.
+Les composants principaux sont conçus pour être flexibles et compatibles avec toutes les versions d’AEM prises en charge. C’est pourquoi une version des composants peut contenir plusieurs versions du même composant.
 
-Les tableaux ci-dessous illustrent la compatibilité des mises à jour des composants principaux avec les versions des composants contenues dans les mises à jour.
+Les tableaux ci-dessous illustrent la compatibilité des versions des composants principaux ainsi que les versions de composants contenues dans chaque version.
 
 ### Historique des versions et configuration requise {#release-history-requirements}
 
@@ -44,6 +54,7 @@ Le tableau suivant, dont le contenu est [disponible sur GitHub avec les détails
 
 | Mise à jour | Description | AEM 6.4 | AEM 6.5 | AEM 6.5 LTS | AEM as a Cloud Service | Java | Date de publication |
 |---|---|---|---|---|---|---|---|
+| [2.33.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.33.0) | Cette version corrige un certain nombre d’améliorations apportées aux composants liés aux fragments de contenu et introduit la version 2 du [composant Recherche optimisée par l&#39;IA de contenu](/help/components/ai-search.md). | - | 6.5.21.0+ | 6.5 LTS (disponibilité générale) | En continu | 8, 11, 17, 21 | 5 Octobre 2026 |
 | [2.32.8](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.32.8) | Cette version active le [composant Recherche optimisée par l&#39;IA de contenu](/help/components/ai-search.md) sur AMS. | - | 6.5.21.0+ | 6.5 LTS (disponibilité générale) | En continu | 8, 11, 17, 21 | 8 Septembre 2026 |
 | [2.32.6](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.32.6) | Cette version corrige un bug. | - | 6.5.21.0+ | 6.5 LTS (disponibilité générale) | En continu | 8, 11, 17, 21 | 10 Août 2026 |
 | [2.32.4](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.32.4) | Cette version corrige un bug. | - | 6.5.21.0+ | 6.5 LTS (disponibilité générale) | En continu | 8, 11, 17, 21 | 15 Juillet 2026 |
@@ -53,7 +64,7 @@ Le tableau suivant, dont le contenu est [disponible sur GitHub avec les détails
 | [2.31.2](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.31.2) | Cette version corrige les bugs en raison desquels certaines informations n’étaient pas conservées correctement. | - | 6.5.21.0+ | 6.5 LTS (disponibilité générale) | En continu | 8, 11, 17, 21 | 22 Juin 2026 |
 | [2.31.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.31.0) | Cette version a introduit la prise en charge des données JSON-ID pour le composant Page ainsi qu’une amélioration des performances de plusieurs autres composants en plus de nombreux correctifs. | - | 6.5.21.0+ | 6.5 LTS (disponibilité générale) | En continu | 8, 11, 17, 21 | 19 Mai 2026 |
 | [2.30.4](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.30.4) | Cette version corrige le problème de validation du chemin d’accès. | - | 6.5.21.0+ | 6.5 LTS (disponibilité générale) | En continu | 8, 11, 17, 21 | 30 janvier 2026 |
-| [2.30.3](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.30.3) | Cette version corrige une régression dans la boîte de dialogue Politique du composant Titre. | - | 6.5.21.0+ | 6.5 LTS (disponibilité générale) | En continu | 8, 11, 17, 21 | 5 Décembre 2025 |
+| [2.30.3](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.30.3) | Cette version corrige une régression dans la boîte de dialogue de politique du composant Titre. | - | 6.5.21.0+ | 6.5 LTS (disponibilité générale) | En continu | 8, 11, 17, 21 | 5 Décembre 2025 |
 | [2.30.2](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.30.2) | Cette version corrige une chaîne non localisée liée à la visionneuse PDF. | - | 6.5.21.0+ | 6.5 LTS (disponibilité générale) | En continu | 8, 11, 17, 21 | 23 Octobre 2025 |
 | [2.30.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.30.0) | Cette version a résolu un certain nombre de problèmes liés aux ressources et à Dynamic Media, clarifié la prise en charge de LTS et corrigé de nombreux bugs. | - | 6.5.21.0+ | 6.5 LTS (disponibilité générale) | En continu | 8, 11, 17, 21 | 4 septembre 2025 |
 | [2.29.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.29.0) | Cette version a ajouté la prise en charge de la création de versions préliminaires des ressources dans le composant principal des sites et corrige de nombreux bugs. | - | 6.5.21.0+ | 6.5 LTS (disponibilité générale) | En continu | 8, 11, 17, 21 | 21 avril 2025 |
@@ -64,10 +75,10 @@ Le tableau suivant, dont le contenu est [disponible sur GitHub avec les détails
 | [2.25.2](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.25.2) | Il s’agit d’une version mineure qui corrige certains échecs informatiques. | - | 6.5.21.0+ | - | En continu | 8, 11 | 9 mai 2024 |
 | [2.25.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.25.0) | Cette version prend en charge les recadrages intelligents nommés dans Dynamic Media. Elle comprend des améliorations de performances et d’accessibilité, ainsi que divers correctifs. | - | 6.5.21.0+ | - | En continu | 8, 11 | 2 mai 2024 |
 | [2.24.6](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.24.6) | Cette version de correctif inclut des améliorations pour l’initialisation de la couche de données. | - | 6.5.21.0+ | - | En continu | 8, 11 | 22 avril 2024 |
-| [2.24.4](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.24.4) | Cette version de correctif corrige une initialisation du modèle Sling. | - | 6.5.21.0+ | - | En continu | 8, 11 | 1er avril 2024 |
+| [2.24.4](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.24.4) | Cette version de correctif corrige un problème d’initialisation du modèle Sling. | - | 6.5.21.0+ | - | En continu | 8, 11 | 1er avril 2024 |
 | [2.24.2](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.24.2) | Cette version de correctif améliore la stabilité des tests d’intégration. | - | 6.5.21.0+ | - | En continu | 8, 11 | 22 février 2024 |
 | [2.24.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.24.0) | Cette version prend en charge la couche de données du Gestionnaire de balises de Google et comprend divers correctifs. | - | 6.5.21.0+ | - | En continu | 8, 11 | 14 février 2024 |
-| [2.23.4](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.23.4) | Cette version de correctif comprenait divers correctifs. | - | 6.5.17.0+ | - | En continu | 8, 11 | 15 septembre 2023 |
+| [2.23.4](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.23.4) | Cette version de correctif comprenait divers correctifs de bugs. | - | 6.5.17.0+ | - | En continu | 8, 11 | 15 septembre 2023 |
 | [2.23.2](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.23.2) | Ce correctif a ajouté un recadrage intelligent Dynamic Media pour les ressources distantes aux [composants d’image](/help/components/image.md) et [de teaser](/help/components/teaser.md) et corrigé un certain nombre de bugs. | - | 6.5.17.0+ | - | En continu | 8, 11 | 4 août 2023 |
 | [2.23.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.23.0) | Cette version a ajouté la prise en charge de [ressources distantes Dynamic Media de nouvelle génération.](/help/developing/remote-assets.md) | - | 6.5.17.0+ | - | En continu | 8, 11 | 6 juin 2023 |
 | [2.22.12](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.22.12) | Cette version de correctif corrige deux problèmes. | - | 6.5.14.0+ | - | En continu | 8, 11 | 25 mai 2023 |
@@ -89,10 +100,10 @@ Le tableau suivant, dont le contenu est [disponible sur GitHub avec les détails
 | [2.18.6](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.18.6) | Il s’agit d’une version de correctif. | - | 6.5.10.0+ | - | En continu | 8, 11 | 3 mars 2022 |
 | [2.18.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.18.0) | Cette version majeure des composants principaux contient les améliorations suivantes : introduction d’un nouveau gestionnaire de liens dans les nouvelles versions de plusieurs composants, nombreuses améliorations en matière dʼaccessibilité et correctifs de bugs. | - | 6.5.10.0+ * | - | En continu | 8, 11 | 16 février 2022 |
 | [2.17.14](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.17.12) | Il s’agit d’une version de correctif. | 6.4.8.4+ | 6.5.6.0+ | - | En continu | 8, 11 | 13 décembre 2021 |
-| [2.17.12](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.17.12) | Il s’agit d’une version de correctif qui corrige une régression introduite dans la version précédente. | 6.4.8.4+ | 6.5.6.0+ | - | En continu | 8, 11 | 1 octobre 2021 |
+| [2.17.12](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.17.12) | Il s’agit d’une version corrective qui corrige une régression introduite dans la version précédente. | 6.4.8.4+ | 6.5.6.0+ | - | En continu | 8, 11 | 1 octobre 2021 |
 | [2.17.10](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.17.10) | Ce correctif améliore les composants [Liste](/help/components/list.md) et [Navigation](/help/components/navigation.md) pour afficher l’URL externe pour les cibles de redirection, active l’héritage des images de page pour la version v2 à venir du composant [Teaser](/help/components/teaser.md) et contient des correctifs supplémentaires. | 6.4.8.4+ | 6.5.6.0+ | - | En continu | 8, 11 | 31 août 2021 |
-| [2.17.8](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.17.8) | Cette version de correctif Il s’agit d’une version de correctif permettant de corriger une modification rétrocompatible introduite précédemment. | 6.4.8.4+ | 6.5.6.0+ | - | En continu | 8, 11 | 2 août 2021 |
-| [2.17.6](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.17.6) | Cette version de correctif prend en charge les cartes du site pour des pages et comprend différentes améliorations d’accessibilité. | 6.4.8.4+ | 6.5.6.0+ | - | En continu | 8, 11 | 29 juillet 2021 |
+| [2.17.8](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.17.8) | Il s’agit d’une version de correctif permettant de corriger une modification non rétrocompatible introduite précédemment. | 6.4.8.4+ | 6.5.6.0+ | - | En continu | 8, 11 | 2 août 2021 |
+| [2.17.6](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.17.6) | Cette version de correctif prend en charge les plans de site pour Pages et comprend différentes améliorations d’accessibilité. | 6.4.8.4+ | 6.5.6.0+ | - | En continu | 8, 11 | 29 juillet 2021 |
 | [2.17.2](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.17.2) | Cette version de correctif vient corriger la [couche de données](/help/developing/data-layer/overview.md) qui ne fonctionne pas avec AEMaaCS. | 6.4.8.4+ | 6.5.6.0+ | - | En continu | 8, 11 | 8 juillet 2021 |
 | [2.17.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.17.0) | Cette version comprend des aperçus techniques de nombreuses nouvelles versions de composants prenant en charge les fonctionnalités de gestionnaire de liens, ainsi qu’un aperçu technique d’une fonctionnalité d’image présentée pour le [composant de page.](/help/components/page.md) Plusieurs correctifs sont également inclus. | 6.4.8.4+ | 6.5.6.0+ | - | En continu | 8, 11 | 16 juin 2021 |
 | [2.16.4](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.16.4) | Il s’agit d’une version de correctif permettant de résoudre un problème lié au nouveau gestionnaire de liens. | 6.4.8.1+ | 6.5.5.0+ | - | En continu | 8, 11 | 19 mai 2021 |
@@ -103,7 +114,7 @@ Le tableau suivant, dont le contenu est [disponible sur GitHub avec les détails
 | [2.14.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.14.0) | Cette version comprend de nouvelles options pour le [composant Incorporer](/help/components/embed.md), introduit le slug de marque au niveau de la [page](/help/components/page.md), et corrige de nombreux problèmes. | 6.4.8.1+ | 6.5.5.0+ | - | En continu | 8, 11 | 9 février 2021 |
 | [2.13.2](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.13.2) | Il s’agissait d’une version de correctif destinée à corriger un problème lié au RTE, utilisé sur AEMaaCS | 6.4.8.1+ | 6.5.5.0+ | - | En continu | 8, 11 | 16 décembre 2020 |
 | [2.13.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.13.0) | Cette version contient de nouvelles fonctionnalités Dynamic Media pour le [composant d’image](/help/components/image.md). | 6.4.8.1+ | 6.5.5.0+ | - | En continu | 8, 11 | 4 décembre 2020 |
-| [2.12.2](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.12.2) | Il s’agissait d’une version de correctif pour la version 2.12.0 contenant des corrections mineures. | 6.4.8.1+ | 6.5.5.0+ | - | En continu | 8, 11 | 11 novembre 2020 |
+| [2.12.2](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.12.2) | Il s’agissait d’une version corrective pour la version 2.12.0 contenant des corrections mineures. | 6.4.8.1+ | 6.5.5.0+ | - | En continu | 8, 11 | 11 novembre 2020 |
 | [2.12.1](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.12.1) | Il s’agissait d’une version de correctif pour la version 2.12.0 servant à corriger un bogue majeur dans le [composant d’image](/help/components/image.md). | 6.4.8.1+ | 6.5.5.0+ | - | En continu | 8, 11 | 5 novembre 2020 |
 | [2.12.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.12.0) | Cette version a introduit [un nouveau gestionnaire de formulaires POST ;](/help/components/forms/form-container.md#post-data) la possibilité d’inclure des [balises CSS, JavaScript et de métadonnées personnalisées via une configuration contextuelle ;](/help/developing/including-clientlibs.md#context-aware-loading) et un utilitaire `DataLayerBuilder` destiné à [simplifier l’intégration de la couche de données aux composants personnalisés.](/help/developing/data-layer/integrations.md#enabling-custom-components) | 6.4.8.1+ | 6.5.5.0+ | - | En continu | 8, 11 | 29 octobre 2020 |
 | [2.11.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.11.0) | Cette version a introduit la [prise en charge d’AMP.](/help/developing/amp.md) | 6.4.8.1+ | 6.5.5.0+ | - | En continu | 8, 11 | 20 juillet 2020 |
@@ -177,7 +188,7 @@ Les composants principaux sont disponibles avec les versions AEM définies avec 
 
 ### Versions {#versions}
 
-Les **versions** principales constituent l’itération majeure des composants principaux. Chaque composant possède une version. Les versions sont signalées avec la valeur **v** inscrite avec un entier positif non nul, comme v1 et v2. Les versions ne sont incrémentées que pour les modifications qui ne sont pas rétrocompatibles, ce qui est normalement le cas pour l’introduction de nouvelles fonctionnalités et fonctions.
+Les **versions** principales constituent l’itération majeure des composants principaux. Chaque composant possède une version. Les versions sont signalées avec la valeur **v** inscrite avec un entier positif non nul, comme v1 et v2. Les versions ne sont incrémentées que pour les modifications qui ne sont pas rétrocompatibles, ce qui est normalement le cas lors de l’introduction de nouvelles fonctionnalités.
 
 Les responsables du développement et de l’administration peuvent reconnaître les versions des composants principaux par un numéro figurant dans leurs chemins d’accès aux types de ressources et dans les noms de classe Java pleinement qualifiés de leurs implémentations. Ce numéro de version représente une version majeure définie par [les directives de contrôle de version sémantique](https://semver.org/).
 
@@ -193,7 +204,7 @@ Les composants principaux sont disponibles par l’intermédiaire des **mises à
 
 >[!NOTE]
 >
->Les versions peuvent contenir plusieurs versions du même composant.
+>Les publications peuvent contenir plusieurs versions du même composant.
 >
 >La même version d’un composant peut apparaître dans plusieurs versions.
 
@@ -208,7 +219,7 @@ Les composants principaux font partie intégrante d’AEM et sont pris en charge
 
 Les clients disposent ainsi d’au moins un cycle de publication pour passer à la nouvelle version du composant avant la fin de la prise en charge.
 
-La version de chaque composant indique clairement les versions d’AEM prises en charge. Lorsque la prise en charge d’une version d’AEM est interrompue, la prise en charge des composants principaux de cette version d’AEM est prise en charge.
+La version de chaque composant indique clairement les versions d’AEM prises en charge. Lorsque la prise en charge d’une version d’AEM cesse, celle des composants principaux pour cette version d’AEM cesse également.
 
 Pour plus d’informations sur la prise en charge des personnalisations des composants, consultez la page [Personnalisation des composants principaux](developing/customizing.md) de la version des composants principaux appropriée.
 
