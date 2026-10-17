@@ -5,13 +5,11 @@ breadcrumb-title: Guide des composants principaux
 feature: Core Components
 user-guide-description: Pour les projets AEM traditionnels, utilisez les composants principaux extensibles pour permettre aux créateurs et créatrices de créer facilement du contenu.
 feature-set: Experience Manager Sites, Experience Manager Forms
-source-git-commit: 20b54716af29ed8f283b3e6fffc2682dfee0d999
+source-git-commit: 16bb25a40209343edaeddb9948a58d921d3defe3
 workflow-type: tm+mt
-source-wordcount: '442'
-ht-degree: 97%
-
+source-wordcount: '445'
+ht-degree: 96%
 ---
-
 
 # Aide sur les composants principaux d’AEM {#using}
 
@@ -71,6 +69,7 @@ ht-degree: 97%
     + [Page (v1)](/help/components/v1/page-v1.md)
     + [Teaser (v1)](/help/components/v1/teaser.md)
     + [Recherche rapide (v1)](/help/components/v1/quick-search.md)
+    + [Recherche optimisée par l&#39;IA de contenu](/help/components/v1/ai-search.md)
     + [Texte (v1)](/help/components/v1/text-v1.md)
     + [Titre (v1)](/help/components/v1/title-v1.md)
     + Composants de formulaire v1 {#v1-forms}
@@ -111,35 +110,35 @@ ht-degree: 97%
     + [Formulaires adaptatifs - Accordéon](/help/adaptive-forms/components/accordion.md)
     + [Formulaires adaptatifs - Bouton](/help/adaptive-forms/components/button.md)
     + [Case à cocher de formulaires adaptatifs](/help/adaptive-forms/components/checkbox.md)
-    + [Formulaires adaptatifs - Groupe de cases à cocher](/help/adaptive-forms/components/checkbox-group.md)
+    + [Formulaires adaptatifs – groupe de cases à cocher](/help/adaptive-forms/components/checkbox-group.md)
     + [Conteneur de formulaires adaptatifs](/help/adaptive-forms/components/form-container.md)
-    + [Formulaires adaptatifs - Date et heure](/help/adaptive-forms/components/date-time-component.md)
-    + [Formulaires adaptatifs - Sélecteur de dates](/help/adaptive-forms/components/date-picker.md)
-    + [Formulaires adaptatifs - Liste déroulante](/help/adaptive-forms/components/drop-down-list.md)
+    + [Date et heure des formulaires adaptatifs](/help/adaptive-forms/components/date-time-component.md)
+    + [Sélecteur de date des formulaires adaptatifs](/help/adaptive-forms/components/date-picker.md)
+    + [Liste déroulante des formulaires adaptatifs](/help/adaptive-forms/components/drop-down-list.md)
     + [Formulaires adaptatifs - E-mail](/help/adaptive-forms/components/email.md)
-    + [Formulaires adaptatifs – Fragment de formulaire](/help/adaptive-forms/components/adaptive-form-fragment.md)
-    + [Formulaires adaptatifs – Pièces jointes](/help/adaptive-forms/components/file-attachment.md)
-    + [Onglets verticaux de formulaires adaptatifs](/help/adaptive-forms/components/vertical-tabs.md)
+    + [Fragment de formulaire des formulaires adaptatifs](/help/adaptive-forms/components/adaptive-form-fragment.md)
+    + [Pièces jointes de fichier des formulaires adaptatifs](/help/adaptive-forms/components/file-attachment.md)
+    + [Onglets verticaux des formulaires adaptatifs](/help/adaptive-forms/components/vertical-tabs.md)
     + [Formulaires adaptatifs hCaptcha](/help/adaptive-forms/components/hcaptcha.md)
-    + [Formulaires adaptatifs - Onglets horizontaux](/help/adaptive-forms/components/horizontal-tabs.md)
+    + [Onglets horizontaux des formulaires adaptatifs](/help/adaptive-forms/components/horizontal-tabs.md)
     + [Formulaires adaptatifs - Image](/help/adaptive-forms/components/image.md)
     + {hide-from-toc}[Choix d’image du Forms adaptatif](/help/adaptive-forms/components/image-choice.md)
-    + [Formulaires adaptatifs - Zone numérique](/help/adaptive-forms/components/numeric-box.md)
+    + [Zone numérique des formulaires adaptatifs](/help/adaptive-forms/components/numeric-box.md)
     + {hide-from-toc}[Formulaires adaptatifs - Champ de mot de passe.](/help/adaptive-forms/components/password-box.md)
     + [Formulaires adaptatifs - Panneau](/help/adaptive-forms/components/panel.md)
     + [Captcha pour formulaire adaptatif](/help/adaptive-forms/components/adaptive-form-recaptcha.md)
-    + [Formulaires adaptatifs - Bouton radio](/help/adaptive-forms/components/radio-button.md)
-    + [Formulaires adaptatifs - Bouton réinitialiser](/help/adaptive-forms/components/reset-button.md)
+    + [Case d’option des formulaires adaptatifs](/help/adaptive-forms/components/radio-button.md)
+    + [Bouton de réinitialisation des formulaires adaptatifs](/help/adaptive-forms/components/reset-button.md)
     + {hide-from-toc}[Révision du formulaire adaptatif](/help/adaptive-forms/components/review.md)
-    + [Signature tactile des formulaires adaptatifs](/help/adaptive-forms/components/scribble-signature.md)
-    + [Formulaires adaptatifs - Bouton Envoyer](/help/adaptive-forms/components/submit-button.md)
+    + [Signature manuscrite des formulaires adaptatifs](/help/adaptive-forms/components/scribble-signature.md)
+    + [Bouton d’envoi des formulaires adaptatifs](/help/adaptive-forms/components/submit-button.md)
     + [Formulaires adaptatifs – Commutateur](/help/adaptive-forms/components/adaptive-form-switch.md)
     + [Formulaires adaptatifs - Téléphone](/help/adaptive-forms/components/phone.md)
     + [Formulaires adaptatifs - Texte](/help/adaptive-forms/components/text.md)
-    + [Formulaires adaptatifs - Zone de texte](/help/adaptive-forms/components/text-box.md)
-    + [Formulaires adaptatifs - Titre du formulaire](/help/adaptive-forms/components/form-title.md)
+    + [Zone de texte des formulaires adaptatifs](/help/adaptive-forms/components/text-box.md)
+    + [Titre du formulaire des formulaires adaptatifs](/help/adaptive-forms/components/form-title.md)
     + [Formulaires adaptatifs - Assistant](/help/adaptive-forms/components/wizard.md)
-    + [Conditions générales de formulaires adaptatifs](/help/adaptive-forms/components/terms-and-conditions.md)
+    + [Conditions générales des formulaires adaptatifs](/help/adaptive-forms/components/terms-and-conditions.md)
     + [En-tête](/help/adaptive-forms/components/header.md)
     + [Pied de page](/help/adaptive-forms/components/footer.md)
   + [Personnaliser les composants principaux des formulaires adaptatifs](/help/developing/customize-adaptive-forms-core-components.md)
@@ -158,8 +157,8 @@ ht-degree: 97%
   + [Diffusion d’images optimisées pour le web](/help/developing/web-optimized-image-delivery.md)
   + [Prise en charge des ressources distantes](/help/developing/remote-assets.md)
   + [Configuration de Recherche optimisée par l&#39;IA de contenu](/help/developing/ai-search.md)
-  + Couche de données de clientèle Adobe {#data-layer}
-    + [Présentation de la couche de données](/help/developing/data-layer/overview.md)
+  + Couche de données Adobe Client {#data-layer}
+    + [Vue d’ensemble de la couche de données](/help/developing/data-layer/overview.md)
     + [Intégrations à la couche de données](/help/developing/data-layer/integrations.md)
     + [Extension de la couche de données](/help/developing/data-layer/extending.md)
   + Archétype de projet AEM {#archetype}

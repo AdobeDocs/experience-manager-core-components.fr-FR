@@ -4,22 +4,27 @@ description: Le composant Recherche optimisée par l'IA de contenu fournit aux v
 role: Developer, Admin, User
 product_v2:
   - id: c45915cf-e157-4af7-a80d-97b905bcb3a5
+    internal-label: Experience Manager Sites
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
 feature_v2:
   - id: e2c1b6d3-bb7e-4fe8-8c72-f7b403298e91
+    internal-label: Authoring
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
 topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
-source-git-commit: e721e8b9469646300432b87d42bfb742aaf5f3fb
+    internal-label: Security
+source-git-commit: 6022fccf65523915134f38894fe5689849b2602f
 workflow-type: tm+mt
-source-wordcount: 805
+source-wordcount: '829'
 ht-degree: 16%
-
 ---
-
 
 # Composant Recherche optimisée par l&#39;IA de contenu {#content-ai-search-component}
 
@@ -39,13 +44,16 @@ La boîte de dialogue [Modifier](#edit-dialog) permet à l’auteur de contenu d
 
 ## Version et compatibilité {#version-and-compatibility}
 
-La version actuelle du composant Recherche optimisée par l&#39;IA de contenu est v1. Celle-ci a été introduite avec la version 2.32.0 des composants principaux en juillet 2026. Elle est décrite dans ce document.
+La version actuelle du composant Recherche optimisée par l&#39;IA de contenu est v2, qui a été introduite avec la version 2.33.0 des composants principaux en octobre 2026. Elle est décrite dans ce document.
 
 Le tableau ci-après présente en détail toutes les versions prises en charge du composant, les versions AEM avec lesquelles les versions du composant sont compatibles et les liens vers la documentation pour les versions précédentes.
 
-| Version du composant | AEM 6.4 | AEM 6.5 | AEM 6.5 LTS | AEM as a Cloud Service |
-|---|---|---|---|---|
-| v1 | - | - | - | En cours |
+| Version du composant | AEM 6.5 | AEM 6.5 LTS | AEM as a Cloud Service |
+|---|---|---|---|
+| v2 | 6.5.21.0 et plus* | 6,5 GA* | Compatible |
+| [v1](/help/components/v1/ai-search.md) | - | - | Compatible |
+
+*La prise en charge du composant Recherche optimisée par l&#39;IA de contenu sur AEM 6.5 et 6.5 LTS se limite à Adobe Managed Services (AMS).
 
 Pour plus d’informations sur les versions et les publications des composants principaux, voir le document [Versions des composants principaux.](/help/versions.md)
 
@@ -55,7 +63,7 @@ Pour tester le composant Recherche optimisée par l&#39;IA de contenu et obtenir
 
 ## Détails techniques {#technical-details}
 
-La documentation technique la plus récente sur le composant Recherche optimisée par l&#39;IA de contenu [se trouve sur GitHub.](https://adobe.com/go/aem_cmp_tech_ai_search_v1_fr).
+La documentation technique la plus récente sur le composant Recherche optimisée par l&#39;IA de contenu [se trouve sur GitHub.](https://adobe.com/go/aem_cmp_tech_ai_search_v2).
 
 Vous trouverez plus d’informations sur le développement des composants principaux dans la [documentation relative au développement des composants principaux](/help/developing/overview.md).
 
