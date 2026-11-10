@@ -20,10 +20,10 @@ role_v2:
 topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
     internal-label: Security
-source-git-commit: 6022fccf65523915134f38894fe5689849b2602f
+source-git-commit: a8f6d16fa3ca5d542e9416f97685ef28569adc65
 workflow-type: tm+mt
-source-wordcount: '829'
-ht-degree: 16%
+source-wordcount: '801'
+ht-degree: 15%
 ---
 
 # Composant Recherche optimisée par l&#39;IA de contenu {#content-ai-search-component}
@@ -102,13 +102,13 @@ La boîte de dialogue de modification permet à l’auteur de contenu de défini
 
 ### Onglet Recherche générative {#generative-search}
 
-![Onglet Recherche générative de la boîte de dialogue de modification](/help/assets/content-ai-search-edit-generative-search.png)
+![Onglet Recherche générative de la boîte de dialogue de modification](/help/assets/content-ai-search-edit-ai-search-mode.png)
 
-* **Afficher le bouton (bascule) du résumé génératif aux visiteurs** - Lorsque cette option est décochée, les visiteurs ne peuvent pas modifier si le résumé de l’IA s’affiche.
+* **Afficher l’onglet Mode IA aux visiteurs** - Lorsque cette option est décochée, aucune barre d’onglets n’est affichée et l’API de recherche générative n’est jamais appelée.
+  * Les visiteurs ne voient qu’une vue simple des résultats de recherche.
   * La valeur par défaut est activée.
-* **Afficher le résumé génératif par défaut** - Cette option contrôle l’état par défaut du bouton (bascule) du côté des visiteurs pour le résumé généré par l’IA.
+* **Afficher le bouton de reprise en cas d’échec de l’IA** - L’onglet Mode d’IA affiche toujours un message d’erreur en cas d’échec ; cette option ne contrôle que si un bouton de reprise est affiché à côté.
   * La valeur par défaut est activée.
-* **Basculement d’erreur GenSearch** - Définit le comportement ou l’erreur de la recherche.
-  * **Résultats uniquement (masquer l’erreur)** - En cas d’erreur, afficher uniquement les résultats renvoyés, et non le bouton d’erreur et d’absence de reprise. Il s’agit de la valeur par défaut.
-  * **Afficher l’erreur avec une nouvelle tentative** - En cas d’erreur, afficher l’erreur avec un bouton de reprise.
-  * **Afficher le message d’erreur uniquement** - En cas d’erreur, afficher uniquement le message d’erreur, aucun résultat.
+* **Texte de clause de non-responsabilité** - Ce texte s’affiche sous le résumé génératif dans l’onglet Mode d’IA .
+  * Laissez vide (par défaut) pour utiliser la clause de non-responsabilité par défaut.
+
